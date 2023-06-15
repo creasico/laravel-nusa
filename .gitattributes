@@ -1,0 +1,25 @@
+# Enforce Unix newlines
+* text=lf
+
+# Exclude unused files
+# see: https://redd.it/2jzp6k
+# .codeclimate.yml    export-ignore
+# .coveralls.yml      export-ignore
+# .editorconfig       export-ignore
+# .gitattributes      export-ignore
+# .gitignore          export-ignore
+# .github             export-ignore
+.github/README.md     export-ignore
+# .vscode             export-ignore
+CHANGELOG.md          export-ignore
+composer.lock         export-ignore
+# phpunit.*           export-ignore
+# docs                export-ignore
+# jsconfig.json       export-ignore
+# package.json        export-ignore
+# tailwind.config.*   export-ignore
+# tests               export-ignore
+# tsconfig.json       export-ignore
+# vite.config.*       export-ignore
+# webpack.mix.*       export-ignore
+# windi.config.*      export-ignore

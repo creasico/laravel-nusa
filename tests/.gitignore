@@ -1,0 +1,13 @@
+# Test Report Files
+# --------------------------
+*.local.php
+codeclimate.*.json
+codeclimate.json
+coverage
+coverage.txt
+coveralls.*.json
+coveralls.json
+clover.xml
+lcov.*.info
+lcov.info
+report.junit.xml

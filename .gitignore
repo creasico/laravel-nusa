@@ -1,0 +1,39 @@
+# Generic
+# --------------------------
+Thumbs.db
+Desktop.ini
+.directory
+.DS_Store
+._*
+*.cache
+*.crt
+*.log
+*.old
+*.key
+*.pem
+*.tmp
+*.zip
+*~
+
+# Development files
+# --------------------------
+.env.*
+.env
+.php-version
+coveralls-upload.json
+dist
+node_modules
+vendor
+
+# Node.js lock files
+.pnpm-store
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# But Keep these
+# --------------------------
+!.env.example
+!.env.*.example
+!.htaccess
+!.gitkeep

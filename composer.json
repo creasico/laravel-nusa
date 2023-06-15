@@ -1,0 +1,60 @@
+{
+    "name": "creasi/laravel-package",
+    "description": "Laravel Package Template",
+    "keywords": ["laravel", "package", "template"],
+    "license": "MIT",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Creasi Developers",
+            "email": "developers@creasi.co"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/creasico/laravel-package"
+    },
+    "scripts": {
+        "fix": [
+            "pint --preset laravel"
+        ],
+        "test": [
+            "vendor/bin/phpunit --colors=always"
+        ]
+    },
+    "autoload": {
+        "psr-4": {
+            "Creasi\\Laravel\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Creasi\\Tests\\": "tests"
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "illuminate/contracts": "^8.0|^9.0"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.1",
+        "mockery/mockery": "^1.4",
+        "orchestra/testbench": "^7.5",
+        "phpunit/phpunit": "^9.5"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Creasi\\Laravel\\Package\\ServiceProvider"
+            ],
+            "aliases": {
+                "Package": "Creasi\\Laravel\\Package"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
