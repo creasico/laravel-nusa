@@ -1,5 +1,5 @@
 {
-    "name": "creasi/laravel-package",
+    "name": "creasi/nusa",
     "description": "Laravel Package Template",
     "keywords": ["laravel", "package", "template"],
     "license": "MIT",
@@ -11,19 +11,19 @@
         }
     ],
     "support": {
-        "source": "https://github.com/creasico/laravel-package"
+        "source": "https://github.com/creasico/laravel-nusa"
     },
     "scripts": {
         "fix": [
             "pint --preset laravel"
         ],
         "test": [
-            "vendor/bin/phpunit --colors=always"
+            "vendor/bin/phpunit --colors=always --coverage-text"
         ]
     },
     "autoload": {
         "psr-4": {
-            "Creasi\\Laravel\\": "src"
+            "Creasi\\Nusa\\": "src"
         }
     },
     "autoload-dev": {
@@ -32,14 +32,16 @@
         }
     },
     "require": {
-        "php": "^8.0",
-        "illuminate/contracts": "^8.0|^9.0"
+        "php": "^8.1",
+        "illuminate/contracts": "^10.0",
+        "illuminate/database": "^10.0",
+        "illuminate/support": "^10.0"
     },
     "require-dev": {
         "laravel/pint": "^1.1",
-        "mockery/mockery": "^1.4",
-        "orchestra/testbench": "^7.5",
-        "phpunit/phpunit": "^9.5"
+        "mockery/mockery": "^1.5",
+        "orchestra/testbench": "^8.5",
+        "phpunit/phpunit": "^10.1"
     },
     "config": {
         "preferred-install": "dist",
@@ -48,11 +50,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Creasi\\Laravel\\Package\\ServiceProvider"
-            ],
-            "aliases": {
-                "Package": "Creasi\\Laravel\\Package"
-            }
+                "Creasi\\Nusa\\ServiceProvider"
+            ]
         }
     },
     "minimum-stability": "dev",

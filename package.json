@@ -3,7 +3,7 @@
     "private": true,
     "packageManager": "pnpm@7.21.0",
     "author": "Creasi Developers <developers@creasi.co>",
-    "repository": "github:creasico/laravel-package",
+    "repository": "github:creasico/laravel-nusa",
     "scripts": {
         "prepare": "husky install scripts/husky",
         "release": "standard-version -s"
