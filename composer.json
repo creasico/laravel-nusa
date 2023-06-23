@@ -1,9 +1,9 @@
 {
-    "name": "creasi/nusa",
-    "description": "Laravel Package Template",
-    "keywords": ["laravel", "package", "template"],
+    "name": "creasi/laravel-nusa",
+    "description": "A Laravel package that aim to provide Indonesia' Administrative Data",
+    "keywords": ["laravel", "package", "indonesia", "provinsi", "kabupaten", "kota", "kecamatan", "kelurahan", "desa"],
     "license": "MIT",
-    "type": "project",
+    "type": "library",
     "authors": [
         {
             "name": "Creasi Developers",
