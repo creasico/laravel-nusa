@@ -11,9 +11,13 @@ class NusaTest extends TestCase
     #[Test]
     public function it_should_be_true()
     {
-        // $this->runLaravelMigrations(\dirname(__DIR__).'/database/migrations');
-
-        // $this->seed(DatabaseSeeder::class);
+        if (! env('GIT_BRANCH')) {
+            $this->artisan('nusa:sync', [
+                'dbname' => 'cahyadsn_wilayah',
+                '--user' => 'root',
+                '--pass' => 'secret',
+            ]);
+        }
 
         $this->assertTrue(true);
     }
