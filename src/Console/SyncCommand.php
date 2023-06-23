@@ -43,18 +43,9 @@ class SyncCommand extends Command
             'villages' => Village::class,
         ];
 
-        $nusa = \config('database.connections.nusa');
-
-        if (! file_exists($nusa['database'])) {
-            @\touch($nusa['database']);
-        }
-
         $this->libPath = \realpath(\dirname(__DIR__).'/..');
 
-        $this->call('migrate:fresh', [
-            '--realpath' => true,
-            '--path' => $this->libPath.'/database/migrations/create_nusa_tables.php',
-        ]);
+        $this->migrateIfNotMigrated();
 
         foreach ($this->fetch() as $table => $content) {
             $this->writeCsv($table, $content);
@@ -65,6 +56,7 @@ class SyncCommand extends Command
 
             if ($table !== 'villages') {
                 $model::insert($content);
+
                 continue;
             }
 
@@ -76,10 +68,26 @@ class SyncCommand extends Command
         return 0;
     }
 
-    private function writeCsv(string $filename, array $content)
+    private function migrateIfNotMigrated(): void
+    {
+        $nusa = \config('database.connections.nusa');
+
+        if (file_exists($nusa['database'])) {
+            @\unlink($nusa['database']);
+        }
+
+        @\touch($nusa['database']);
+
+        $this->call('migrate:fresh', [
+            '--realpath' => true,
+            '--path' => $this->libPath.'/database/migrations/create_nusa_tables.php',
+        ]);
+    }
+
+    private function writeCsv(string $filename, array $content): void
     {
         $csv = [
-            array_keys($content[0])
+            array_keys($content[0]),
         ];
 
         foreach ($content as $value) {
@@ -95,34 +103,29 @@ class SyncCommand extends Command
         fclose($fp);
     }
 
-    private function writeJson(string $filename, array $content)
+    private function writeJson(string $filename, array $content): void
     {
         file_put_contents("{$this->libPath}/resources/json/$filename.json", json_encode($content, JSON_PRETTY_PRINT));
     }
 
-    private function fetch()
+    /**
+     * @return array<string, array>
+     */
+    private function fetch(): array
     {
         $name = $this->argument('dbname');
         $host = $this->option('host');
 
         $db = new PDO("mysql:dbname={$name};host={$host}", $this->option('user'), $this->option('pass'), [
-            PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
+            PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
         ]);
 
         $stmt = $db->query('SELECT * from wilayah', PDO::FETCH_OBJ);
 
         return collect($stmt->fetchAll())->reduce(function ($regions, $item) {
-            $normalize = new Normalizer($item->kode, $item->nama);
+            $data = new Normalizer($item->kode, $item->nama);
 
-            $regions[$normalize->type][] = match ($normalize->type) {
-                'villages' => $normalize->toVillage(),
-                'districts' => $normalize->toDistrict(),
-                'regencies' => $normalize->toRegency(),
-                'provinces' => [
-                    'code' => (int) $normalize->code,
-                    'name' => $normalize->name,
-                ],
-            };
+            $regions[$data->type][] = $data->normalize();
 
             return $regions;
         }, []);

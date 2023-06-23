@@ -32,8 +32,8 @@ class RegencyTest extends TestCase
             },
             'villages' => function ($query) {
                 $query->take(10);
-            }
-        ])->take(10)->get();
+            },
+        ])->get();
     }
 
     #[Test]

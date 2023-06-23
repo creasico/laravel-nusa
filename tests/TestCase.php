@@ -5,9 +5,7 @@ declare(strict_types=1);
 namespace Creasi\Tests;
 
 use Creasi\Nusa\ServiceProvider;
-use Creasi\Scripts\DatabaseSeeder;
 use Illuminate\Config\Repository;
-use Illuminate\Foundation\Testing\RefreshDatabase;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra

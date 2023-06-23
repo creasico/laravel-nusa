@@ -20,7 +20,20 @@ class Normalizer
         };
     }
 
-    public function toRegency()
+    public function normalize()
+    {
+        return match ($this->type) {
+            'villages' => $this->toVillage(),
+            'districts' => $this->toDistrict(),
+            'regencies' => $this->toRegency(),
+            'provinces' => [
+                'code' => (int) $this->code,
+                'name' => $this->name,
+            ],
+        };
+    }
+
+    private function toRegency(): array
     {
         [$province_code, $code] = explode('.', $this->code, 2);
 
@@ -31,7 +44,7 @@ class Normalizer
         ];
     }
 
-    public function toDistrict()
+    private function toDistrict(): array
     {
         [$province_code, $regency_code, $code] = explode('.', $this->code, 3);
 
@@ -43,7 +56,7 @@ class Normalizer
         ];
     }
 
-    public function toVillage()
+    private function toVillage(): array
     {
         [$province_code, $regency_code, $district_code, $code] = explode('.', $this->code, 4);
 

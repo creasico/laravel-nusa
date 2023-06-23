@@ -30,7 +30,7 @@ class DistrictTest extends TestCase
             'regency',
             'villages' => function ($query) {
                 $query->take(10);
-            }
+            },
         ])->take(10)->get();
     }
 

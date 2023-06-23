@@ -27,16 +27,14 @@ class ProvinceTest extends TestCase
         $this->assertTrue(\class_exists(Province::class));
 
         return Province::with([
-            'regencies' => function ($query) {
-                $query->take(10);
-            },
+            'regencies',
             'districts' => function ($query) {
                 $query->take(10);
             },
             'villages' => function ($query) {
                 $query->take(10);
-            }
-        ])->take(10)->get();
+            },
+        ])->get();
     }
 
     #[Test]
