@@ -25,7 +25,13 @@ class DistrictTest extends TestCase
     {
         $this->assertTrue(\class_exists(District::class));
 
-        return District::with('province', 'regency', 'villages')->take(10)->get();
+        return District::with([
+            'province',
+            'regency',
+            'villages' => function ($query) {
+                $query->take(10);
+            }
+        ])->take(10)->get();
     }
 
     #[Test]

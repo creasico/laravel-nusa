@@ -25,8 +25,8 @@ class Region
         [$province_code, $code] = explode('.', $this->code, 2);
 
         return [
-            'code' => $province_code.$code,
-            'province_code' => $province_code,
+            'code' => (int) ($province_code.$code),
+            'province_code' => (int) $province_code,
             'name' => $this->name,
         ];
     }
@@ -36,9 +36,9 @@ class Region
         [$province_code, $regency_code, $code] = explode('.', $this->code, 3);
 
         return [
-            'code' => $province_code.$regency_code.$code,
-            'regency_code' => $province_code.$regency_code,
-            'province_code' => $province_code,
+            'code' => (int) ($province_code.$regency_code.$code),
+            'regency_code' => (int) ($province_code.$regency_code),
+            'province_code' => (int) $province_code,
             'name' => $this->name,
         ];
     }
@@ -48,10 +48,10 @@ class Region
         [$province_code, $regency_code, $district_code, $code] = explode('.', $this->code, 4);
 
         return [
-            'code' => $province_code.$regency_code.$district_code.$code,
-            'district_code' => $province_code.$regency_code.$district_code,
-            'regency_code' => $province_code.$regency_code,
-            'province_code' => $province_code,
+            'code' => (int) ($province_code.$regency_code.$district_code.$code),
+            'district_code' => (int) ($province_code.$regency_code.$district_code),
+            'regency_code' => (int) ($province_code.$regency_code),
+            'province_code' => (int) $province_code,
             'name' => $this->name,
         ];
     }

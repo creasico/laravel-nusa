@@ -5,10 +5,10 @@ declare(strict_types=1);
 namespace Creasi\Nusa\Models;
 
 /**
- * @property-read string $code
- * @property-read string $district_code
- * @property-read string $regency_code
- * @property-read string $province_code
+ * @property-read int $code
+ * @property-read int $district_code
+ * @property-read int $regency_code
+ * @property-read int $province_code
  * @property-read string $name
  * @property-read Province $province
  * @property-read Regency $regency
@@ -18,7 +18,11 @@ class Village extends Model
 {
     protected $fillable = ['code', 'district_code', 'regency_code', 'province_code', 'name'];
 
-    protected $casts = [];
+    protected $casts = [
+        'district_code' => 'int',
+        'regency_code' => 'int',
+        'province_code' => 'int',
+    ];
 
     public function getTable()
     {

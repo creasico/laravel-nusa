@@ -15,8 +15,6 @@ abstract class Model extends EloquentModel
 
     protected $primaryKey = 'code';
 
-    protected $keyType = 'string';
-
     public function getConnectionName()
     {
         return \config('creasi.nusa.connection');

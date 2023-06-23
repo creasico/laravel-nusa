@@ -25,8 +25,10 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
+        $path = \dirname(__DIR__).'/resources';
+
         foreach ($this->fileNames as $table => $model) {
-            $content = file_get_contents(dirname(__DIR__).'/database/json/'.$table.'.json');
+            $content = file_get_contents("{$path}/json/{$table}.json");
 
             if ($table !== 'villages') {
                 $model::insert(\json_decode($content, true));

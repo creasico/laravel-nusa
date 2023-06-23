@@ -2,31 +2,26 @@
 
 namespace Creasi\Scripts;
 
-use Creasi\Nusa\Models;
-use Illuminate\Support\Collection;
 use PDO;
 
 class Database
 {
     private PDO $db;
 
+    private string $path;
+
     private function __construct()
     {
         $this->db = new PDO('sqlite:database/nusa.sqlite', options: [
             PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
         ]);
+
+        $this->path = \dirname(__DIR__).'/resources';
     }
 
     public static function sync($event)
     {
         require_once $event->getComposer()->getConfig()->get('vendor-dir').'/autoload.php';
-
-        $models = [
-            'provinces' => Models\Province::class,
-            'regencies' => Models\Regency::class,
-            'districts' => Models\District::class,
-            'villages' => Models\Village::class,
-        ];
 
         $self = new static;
 
@@ -34,19 +29,6 @@ class Database
             $self->writeCsv($table, $content);
 
             $self->writeJson($table, $content);
-
-            // $self->db->exec("CREATE TABLE IF NOT EXISTS {$table}");
-
-            // $model = $models[$table];
-
-            // if ($table !== 'villages') {
-            //     $model::insert($content);
-            //     continue;
-            // }
-
-            // \collect($content)->groupBy('district_code')->each(function (Collection $chunk) use ($model) {
-            //     $model::insert($chunk->take(10)->toArray());
-            // });
         }
     }
 
@@ -60,7 +42,7 @@ class Database
             $csv[] = array_values($value);
         }
 
-        $fp = fopen("database/csv/$filename.csv", 'w');
+        $fp = fopen("{$this->path}/csv/{$filename}.csv", 'w');
 
         foreach ($csv as $line) {
             fputcsv($fp, $line);
@@ -71,31 +53,35 @@ class Database
 
     private function writeJson(string $filename, array $content)
     {
-        file_put_contents("database/json/$filename.json", json_encode($content, JSON_PRETTY_PRINT));
+        file_put_contents("{$this->path}/json/{$filename}.json", json_encode($content, JSON_PRETTY_PRINT));
     }
 
-    private function fetch()
+    /**
+     * @return array<string, array>
+     */
+    private function fetch(): array
     {
         $db = new PDO('mysql:dbname=cahyadsn_wilayah;host=127.0.0.1', 'root', 'secret', [
             PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
         ]);
 
         $stmt = $db->query('SELECT * from wilayah', PDO::FETCH_OBJ);
+        $results = [];
 
-        return collect($stmt->fetchAll())->reduce(function ($regions, $item) {
+        foreach ($stmt->fetchAll() as $item) {
             $region = new Region($item->kode, $item->nama);
 
-            $regions[$region->type][] = match ($region->type) {
+            $results[$region->type][] = match ($region->type) {
                 'villages' => $region->toVillage(),
                 'districts' => $region->toDistrict(),
                 'regencies' => $region->toRegency(),
                 'provinces' => [
-                    'code' => $region->code,
+                    'code' => (int) $region->code,
                     'name' => $region->name,
                 ],
             };
+        }
 
-            return $regions;
-        }, []);
+        return $results;
     }
 }

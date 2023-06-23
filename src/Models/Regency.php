@@ -5,8 +5,8 @@ declare(strict_types=1);
 namespace Creasi\Nusa\Models;
 
 /**
- * @property-read string $code
- * @property-read string $province_code
+ * @property-read int $code
+ * @property-read int $province_code
  * @property-read string $name
  * @property-read Province $province
  * @property-read \Illuminate\Database\Eloquent\Collection<int, District>|District[] $districts
@@ -16,7 +16,9 @@ class Regency extends Model
 {
     protected $fillable = ['code', 'province_code', 'name'];
 
-    protected $casts = [];
+    protected $casts = [
+        'province_code' => 'int',
+    ];
 
     public function getTable()
     {

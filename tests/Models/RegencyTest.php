@@ -25,7 +25,15 @@ class RegencyTest extends TestCase
     {
         $this->assertTrue(\class_exists(Regency::class));
 
-        return Regency::with('province', 'districts', 'villages')->take(10)->get();
+        return Regency::with([
+            'province',
+            'districts' => function ($query) {
+                $query->take(10);
+            },
+            'villages' => function ($query) {
+                $query->take(10);
+            }
+        ])->take(10)->get();
     }
 
     #[Test]
