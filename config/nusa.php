@@ -7,9 +7,9 @@ return [
     'connection' => env('CREASI_NUSA_CONNECTION', 'nusa'),
 
     'table_names' => [
-        'villages' => 'villages',
+        'provinces' => 'provinces',
         'districts' => 'districts',
         'regencies' => 'regencies',
-        'provinces' => 'provinces',
+        'villages' => 'villages',
     ],
 ];

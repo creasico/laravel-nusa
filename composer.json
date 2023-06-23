@@ -19,6 +19,9 @@
         ],
         "test": [
             "vendor/bin/phpunit --colors=always --coverage-text"
+        ],
+        "sync": [
+            "Creasi\\Scripts\\Database::sync"
         ]
     },
     "autoload": {
@@ -28,6 +31,7 @@
     },
     "autoload-dev": {
         "psr-4": {
+            "Creasi\\Scripts\\": "scripts",
             "Creasi\\Tests\\": "tests"
         }
     },

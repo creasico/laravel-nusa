@@ -46,12 +46,8 @@ class ServiceProvider extends IlluminateServiceProvider
 
     protected function registerCommands()
     {
-        $commands = [];
-
-        if (app()->isLocal()) {
-            $commands[] = SyncCommand::class;
-        }
-
-        $this->commands($commands);
+        $this->commands([
+            SyncCommand::class,
+        ]);
     }
 }

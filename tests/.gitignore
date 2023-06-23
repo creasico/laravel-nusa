@@ -10,4 +10,5 @@ coveralls.json
 clover.xml
 lcov.*.info
 lcov.info
+*.sqlite
 report.junit.xml

@@ -10,6 +10,9 @@ namespace Creasi\Nusa\Models;
  * @property-read string $regency_code
  * @property-read string $province_code
  * @property-read string $name
+ * @property-read Province $province
+ * @property-read Regency $regency
+ * @property-read District $district
  */
 class Village extends Model
 {
@@ -20,5 +23,20 @@ class Village extends Model
     public function getTable()
     {
         return config('creasi.nusa.table_names.villages', parent::getTable());
+    }
+
+    public function province()
+    {
+        return $this->belongsTo(Province::class);
+    }
+
+    public function regency()
+    {
+        return $this->belongsTo(Regency::class);
+    }
+
+    public function district()
+    {
+        return $this->belongsTo(District::class);
     }
 }
