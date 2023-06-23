@@ -13,6 +13,8 @@ abstract class Model extends EloquentModel
 {
     public $incrementing = false;
 
+    public $timestamps = false;
+
     protected $primaryKey = 'code';
 
     public function getConnectionName()
