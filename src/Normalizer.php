@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Creasi\Scripts;
+namespace Creasi\Nusa;
 
-class Region
+class Normalizer
 {
     public readonly string $type;
 

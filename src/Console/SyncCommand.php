@@ -8,7 +8,7 @@ use Creasi\Nusa\Models\District;
 use Creasi\Nusa\Models\Province;
 use Creasi\Nusa\Models\Regency;
 use Creasi\Nusa\Models\Village;
-use Creasi\Scripts\Region;
+use Creasi\Nusa\Normalizer;
 use Illuminate\Console\Command;
 use Illuminate\Support\Collection;
 use PDO;
@@ -19,7 +19,7 @@ class SyncCommand extends Command
      * @var string
      */
     protected $signature = 'nusa:sync
-                            {db_name : Database name}
+                            {dbname : Database name}
                             {--host=127.0.0.1 : Database host}
                             {--user=root : Database user}
                             {--pass= : Database pass}';
@@ -28,6 +28,8 @@ class SyncCommand extends Command
      * @var string
      */
     protected $description = 'Sync database';
+
+    private ?string $libPath = null;
 
     /**
      * Execute the console command.
@@ -41,6 +43,19 @@ class SyncCommand extends Command
             'villages' => Village::class,
         ];
 
+        $nusa = \config('database.connections.nusa');
+
+        if (! file_exists($nusa['database'])) {
+            @\touch($nusa['database']);
+        }
+
+        $this->libPath = \realpath(\dirname(__DIR__).'/..');
+
+        $this->call('migrate:fresh', [
+            '--realpath' => true,
+            '--path' => $this->libPath.'/database/migrations/create_nusa_tables.php',
+        ]);
+
         foreach ($this->fetch() as $table => $content) {
             $this->writeCsv($table, $content);
 
@@ -49,12 +64,12 @@ class SyncCommand extends Command
             $model = $models[$table];
 
             if ($table !== 'villages') {
-                $model::insert(\json_decode($content, true));
+                $model::insert($content);
                 continue;
             }
 
-            \collect(\json_decode($content, true))->groupBy('district_code')->each(function (Collection $chunk) use ($model) {
-                $model::insert($chunk->take(10)->toArray());
+            \collect($content)->groupBy('district_code')->each(function (Collection $chunk) use ($model) {
+                $model::insert($chunk->toArray());
             });
         }
 
@@ -71,7 +86,7 @@ class SyncCommand extends Command
             $csv[] = array_values($value);
         }
 
-        $fp = fopen("database/csv/$filename.csv", 'w');
+        $fp = fopen("{$this->libPath}/resources/csv/$filename.csv", 'w');
 
         foreach ($csv as $line) {
             fputcsv($fp, $line);
@@ -82,12 +97,12 @@ class SyncCommand extends Command
 
     private function writeJson(string $filename, array $content)
     {
-        file_put_contents("database/json/$filename.json", json_encode($content, JSON_PRETTY_PRINT));
+        file_put_contents("{$this->libPath}/resources/json/$filename.json", json_encode($content, JSON_PRETTY_PRINT));
     }
 
     private function fetch()
     {
-        $name = $this->argument('db_name');
+        $name = $this->argument('dbname');
         $host = $this->option('host');
 
         $db = new PDO("mysql:dbname={$name};host={$host}", $this->option('user'), $this->option('pass'), [
@@ -97,15 +112,15 @@ class SyncCommand extends Command
         $stmt = $db->query('SELECT * from wilayah', PDO::FETCH_OBJ);
 
         return collect($stmt->fetchAll())->reduce(function ($regions, $item) {
-            $region = new Region($item->kode, $item->nama);
+            $normalize = new Normalizer($item->kode, $item->nama);
 
-            $regions[$region->type][] = match ($region->type) {
-                'villages' => $region->toVillage(),
-                'districts' => $region->toDistrict(),
-                'regencies' => $region->toRegency(),
+            $regions[$normalize->type][] = match ($normalize->type) {
+                'villages' => $normalize->toVillage(),
+                'districts' => $normalize->toDistrict(),
+                'regencies' => $normalize->toRegency(),
                 'provinces' => [
-                    'code' => $region->code,
-                    'name' => $region->name,
+                    'code' => (int) $normalize->code,
+                    'name' => $normalize->name,
                 ],
             };
 
