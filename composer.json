@@ -19,9 +19,6 @@
         ],
         "test": [
             "vendor/bin/phpunit --colors=always --coverage-text"
-        ],
-        "sync": [
-            "Creasi\\Scripts\\Database::sync"
         ]
     },
     "autoload": {
@@ -37,6 +34,7 @@
     },
     "require": {
         "php": "^8.1",
+        "ext-sqlite3": "*",
         "illuminate/contracts": "^10.0",
         "illuminate/database": "^10.0",
         "illuminate/support": "^10.0"
