@@ -29,16 +29,25 @@ class Village extends Model
         return config('creasi.nusa.table_names.villages', parent::getTable());
     }
 
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo|Province
+     */
     public function province()
     {
         return $this->belongsTo(Province::class);
     }
 
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo|Regency
+     */
     public function regency()
     {
         return $this->belongsTo(Regency::class);
     }
 
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo|District
+     */
     public function district()
     {
         return $this->belongsTo(District::class);

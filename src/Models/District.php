@@ -27,16 +27,25 @@ class District extends Model
         return config('creasi.nusa.table_names.districts', parent::getTable());
     }
 
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo|Province
+     */
     public function province()
     {
         return $this->belongsTo(Province::class);
     }
 
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo|Regency
+     */
     public function regency()
     {
         return $this->belongsTo(Regency::class);
     }
 
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany|Village
+     */
     public function villages()
     {
         return $this->hasMany(Village::class);

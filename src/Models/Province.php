@@ -22,16 +22,25 @@ class Province extends Model
         return config('creasi.nusa.table_names.provinces', parent::getTable());
     }
 
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany|Regency
+     */
     public function regencies()
     {
         return $this->hasMany(Regency::class);
     }
 
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany|District
+     */
     public function districts()
     {
         return $this->hasMany(District::class);
     }
 
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany|Village
+     */
     public function villages()
     {
         return $this->hasMany(Village::class);
