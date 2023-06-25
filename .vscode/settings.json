@@ -1,13 +1,13 @@
 {
     "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true,
+        "source.fixAll.eslint": false,
     },
     "editor.formatOnSave": false,
     "files.associations": {
         "*.css": "postcss",
         ".env.*": "dotenv"
     },
-    "i18n-ally.sourceLanguage": "en",
+    "i18n-ally.sourceLanguage": "id",
     "i18n-ally.keystyle": "nested",
     "i18n-ally.enabledFrameworks": ["laravel"],
     "i18n-ally.localesPaths": [

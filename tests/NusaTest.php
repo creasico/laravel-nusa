@@ -13,9 +13,10 @@ class NusaTest extends TestCase
     {
         if (! env('GIT_BRANCH')) {
             $this->artisan('nusa:sync', [
-                'dbname' => 'cahyadsn_wilayah',
-                '--user' => 'root',
-                '--pass' => 'secret',
+                'dbname' => env('DB_NAME', 'cahyadsn_wilayah'),
+                '--host' => env('DB_HOST', '127.0.0.1'),
+                '--user' => env('DB_USER', 'root'),
+                '--pass' => env('DB_PASS', 'secret'),
             ]);
         }
 
