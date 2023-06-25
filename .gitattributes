@@ -3,7 +3,9 @@
 
 # Exclude unused files
 # see: https://redd.it/2jzp6k
+submodules       export-ignore
 .editorconfig    export-ignore
+.gitsubmodules   export-ignore
 .gitattributes   export-ignore
 .gitignore       export-ignore
 .github          export-ignore
