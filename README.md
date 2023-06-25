@@ -124,6 +124,7 @@ composer test
 
 ## Credits
 - [cahyadsn/wilayah](https://github.com/cahyadsn/wilayah)
+- [w3appdev/kodepos](https://github.com/w3appdev/kodepos)
 - [edwardsamuel/Wilayah-Administratif-Indonesia](https://github.com/edwardsamuel/Wilayah-Administratif-Indonesia)
 - [laravolt/indonesia](https://github.com/laravolt/indonesia)
 
