@@ -13,7 +13,7 @@ namespace Creasi\Nusa\Models;
  */
 class District extends Model
 {
-    protected $fillable = ['code', 'regency_code', 'province_code', 'name', 'latitude', 'longitude', 'coordinates'];
+    protected $fillable = ['code', 'regency_code', 'province_code', 'name'];
 
     protected $casts = [
         'regency_code' => 'int',

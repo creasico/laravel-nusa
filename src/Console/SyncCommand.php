@@ -18,11 +18,7 @@ class SyncCommand extends Command
     /**
      * @var string
      */
-    protected $signature = 'nusa:sync
-                            {dbname : Database name}
-                            {--host=127.0.0.1 : Database host}
-                            {--user=root : Database user}
-                            {--pass= : Database pass}';
+    protected $signature = 'nusa:sync';
 
     /**
      * @var string
@@ -36,13 +32,6 @@ class SyncCommand extends Command
      */
     public function handle(): int
     {
-        $models = [
-            'provinces' => Province::class,
-            'regencies' => Regency::class,
-            'districts' => District::class,
-            'villages' => Village::class,
-        ];
-
         $this->libPath = \realpath(\dirname(__DIR__).'/..');
 
         $this->migrateIfNotMigrated();

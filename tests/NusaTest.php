@@ -12,12 +12,7 @@ class NusaTest extends TestCase
     public function it_should_be_true()
     {
         if (! env('GIT_BRANCH')) {
-            $this->artisan('nusa:sync', [
-                'dbname' => env('DB_NAME', 'nusantara'),
-                '--host' => env('DB_HOST', '127.0.0.1'),
-                '--user' => env('DB_USER', 'root'),
-                '--pass' => env('DB_PASS', 'secret'),
-            ]);
+            $this->artisan('nusa:sync');
         }
 
         $this->assertTrue(true);
