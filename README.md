@@ -81,15 +81,36 @@ As of now, only `connection` name and `table` names are available to customize, 
 
 ## Contributing
 
-First thing you need to do is clone repo [cahyadsn/wilayah](https://github.com/cahyadsn/wilayah) else where on your local machine, configure and import its [`db/wilayah.sql`](https://github.com/cahyadsn/wilayah/blob/0f09b8bdd0dba880064e68a79984e13b8b2b974a/db/wilayah.sql).
+1. Clone the repo and `cd` into it
 
-By default, we use the following configurations :
-- `dbname` : `cahyadsn_wilayah`
-- `dbhost` : `127.0.0.1` 
-- `dbuser` : `root`
-- `dbpass` : `secret`
+   ```sh
+   git clone --recurse-submodules git@github.com:creasico/laravel-nusa.git
+   ```
 
-If you were using different configuration you can edit [this file](https://github.com/creasico/laravel-nusa/blob/94cd261d7726b9a5cb46cdef4aa9914522a33b4a/tests/NusaTest.php#L16-L19) but please don't commit your changes.
+2. Install dependencies
+
+   ```sh
+   composer install
+   ```
+
+3. Create new database, by default we use the following configuration :
+   
+   - `dbname` : `nusantara`
+   - `dbhost` : `127.0.0.1` 
+   - `dbuser` : `root`
+   - `dbpass` : `secret`
+
+   ```sh
+   mysql -e 'create database nusantara;'
+   ```
+
+4. Last but not least, run `db:import` command
+
+   ```sh
+   composer db:import
+   ```
+
+If you were using different configuration you can edit [this file](https://github.com/creasico/laravel-nusa/blob/94cd261d7726b9a5cb46cdef4aa9914522a33b4a/tests/NusaTest.php#L16-L19) but please don't submit your changes.
 
 Once you've done with your meaningful contributions, run the following command to ensure everythings is works as expected.
 
