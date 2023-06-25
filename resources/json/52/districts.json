@@ -1,117 +1,18 @@
 [
     {
-        "code": 520313,
-        "regency_code": 5203,
+        "code": 520101,
+        "regency_code": 5201,
         "province_code": 52,
-        "name": "Suralaga",
+        "name": "Gerung",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 520505,
-        "regency_code": 5205,
+        "code": 520102,
+        "regency_code": 5201,
         "province_code": 52,
-        "name": "Woja",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520702,
-        "regency_code": 5207,
-        "province_code": 52,
-        "name": "Taliwang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 527106,
-        "regency_code": 5271,
-        "province_code": 52,
-        "name": "Sandubaya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520421,
-        "regency_code": 5204,
-        "province_code": 52,
-        "name": "Rhee",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520604,
-        "regency_code": 5206,
-        "province_code": 52,
-        "name": "Belo",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520706,
-        "regency_code": 5207,
-        "province_code": 52,
-        "name": "Poto Tano",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520804,
-        "regency_code": 5208,
-        "province_code": 52,
-        "name": "Bayan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520206,
-        "regency_code": 5202,
-        "province_code": 52,
-        "name": "Praya Timur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520209,
-        "regency_code": 5202,
-        "province_code": 52,
-        "name": "Kopang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520406,
-        "regency_code": 5204,
-        "province_code": 52,
-        "name": "Utan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520409,
-        "regency_code": 5204,
-        "province_code": 52,
-        "name": "Moyo Hilir",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520423,
-        "regency_code": 5204,
-        "province_code": 52,
-        "name": "Moyo Utara",
+        "name": "Kediri",
         "latitude": null,
         "longitude": null,
         "coordinates": null
@@ -126,487 +27,10 @@
         "coordinates": null
     },
     {
-        "code": 520202,
-        "regency_code": 5202,
-        "province_code": 52,
-        "name": "Jonggat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 527203,
-        "regency_code": 5272,
-        "province_code": 52,
-        "name": "Asakota",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520114,
+        "code": 520107,
         "regency_code": 5201,
         "province_code": 52,
-        "name": "Batu Layar",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520310,
-        "regency_code": 5203,
-        "province_code": 52,
-        "name": "Sambelia",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520610,
-        "regency_code": 5206,
-        "province_code": 52,
-        "name": "Ambalawi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520617,
-        "regency_code": 5206,
-        "province_code": 52,
-        "name": "Lambitu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 527105,
-        "regency_code": 5271,
-        "province_code": 52,
-        "name": "Selaprang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520304,
-        "regency_code": 5203,
-        "province_code": 52,
-        "name": "Sikur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520402,
-        "regency_code": 5204,
-        "province_code": 52,
-        "name": "Lunyuk",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520407,
-        "regency_code": 5204,
-        "province_code": 52,
-        "name": "Batu Lanteh",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520501,
-        "regency_code": 5205,
-        "province_code": 52,
-        "name": "Dompu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520508,
-        "regency_code": 5205,
-        "province_code": 52,
-        "name": "Pajo",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520607,
-        "regency_code": 5206,
-        "province_code": 52,
-        "name": "Wera",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520611,
-        "regency_code": 5206,
-        "province_code": 52,
-        "name": "Langgudu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 527202,
-        "regency_code": 5272,
-        "province_code": 52,
-        "name": "RasanaE Timur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 527204,
-        "regency_code": 5272,
-        "province_code": 52,
-        "name": "Raba",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520112,
-        "regency_code": 5201,
-        "province_code": 52,
-        "name": "Lingsar",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520205,
-        "regency_code": 5202,
-        "province_code": 52,
-        "name": "Praya Barat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520303,
-        "regency_code": 5203,
-        "province_code": 52,
-        "name": "Terara",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520606,
-        "regency_code": 5206,
-        "province_code": 52,
-        "name": "Sape",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520602,
-        "regency_code": 5206,
-        "province_code": 52,
-        "name": "Bolo",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520608,
-        "regency_code": 5206,
-        "province_code": 52,
-        "name": "Donggo",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 527103,
-        "regency_code": 5271,
-        "province_code": 52,
-        "name": "Cakranegara",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520302,
-        "regency_code": 5203,
-        "province_code": 52,
-        "name": "Sakra",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520315,
-        "regency_code": 5203,
-        "province_code": 52,
-        "name": "Sembalun",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520412,
-        "regency_code": 5204,
-        "province_code": 52,
-        "name": "Lape",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520502,
-        "regency_code": 5205,
-        "province_code": 52,
-        "name": "Kempo",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520506,
-        "regency_code": 5205,
-        "province_code": 52,
-        "name": "Pekat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520618,
-        "regency_code": 5206,
-        "province_code": 52,
-        "name": "Palibelo",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520318,
-        "regency_code": 5203,
-        "province_code": 52,
-        "name": "Sakra Timur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520408,
-        "regency_code": 5204,
-        "province_code": 52,
-        "name": "Sumbawa",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520211,
-        "regency_code": 5202,
-        "province_code": 52,
-        "name": "Praya Barat Daya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520306,
-        "regency_code": 5203,
-        "province_code": 52,
-        "name": "Sukamulia",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520312,
-        "regency_code": 5203,
-        "province_code": 52,
-        "name": "Pringgasela",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520420,
-        "regency_code": 5204,
-        "province_code": 52,
-        "name": "Buer",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520101,
-        "regency_code": 5201,
-        "province_code": 52,
-        "name": "Gerung",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 527101,
-        "regency_code": 5271,
-        "province_code": 52,
-        "name": "Ampenan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 527201,
-        "regency_code": 5272,
-        "province_code": 52,
-        "name": "RasanaE Barat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520613,
-        "regency_code": 5206,
-        "province_code": 52,
-        "name": "Madapangga",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520707,
-        "regency_code": 5207,
-        "province_code": 52,
-        "name": "Brang Ene",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520113,
-        "regency_code": 5201,
-        "province_code": 52,
-        "name": "Lembar",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520305,
-        "regency_code": 5203,
-        "province_code": 52,
-        "name": "Masbagik",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520309,
-        "regency_code": 5203,
-        "province_code": 52,
-        "name": "Aikmel",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520601,
-        "regency_code": 5206,
-        "province_code": 52,
-        "name": "Monta",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520603,
-        "regency_code": 5206,
-        "province_code": 52,
-        "name": "Woha",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520605,
-        "regency_code": 5206,
-        "province_code": 52,
-        "name": "Wawo",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520609,
-        "regency_code": 5206,
-        "province_code": 52,
-        "name": "Sanggar",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520115,
-        "regency_code": 5201,
-        "province_code": 52,
-        "name": "Kuripan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520207,
-        "regency_code": 5202,
-        "province_code": 52,
-        "name": "Janapria",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520307,
-        "regency_code": 5203,
-        "province_code": 52,
-        "name": "Selong",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520405,
-        "regency_code": 5204,
-        "province_code": 52,
-        "name": "Alas",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520507,
-        "regency_code": 5205,
-        "province_code": 52,
-        "name": "Manggalewa",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520802,
-        "regency_code": 5208,
-        "province_code": 52,
-        "name": "Gangga",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 527102,
-        "regency_code": 5271,
-        "province_code": 52,
-        "name": "Mataram",
+        "name": "Sekotong",
         "latitude": null,
         "longitude": null,
         "coordinates": null
@@ -621,168 +45,6 @@
         "coordinates": null
     },
     {
-        "code": 520418,
-        "regency_code": 5204,
-        "province_code": 52,
-        "name": "Labuhan Badas",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520614,
-        "regency_code": 5206,
-        "province_code": 52,
-        "name": "Tambora",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520615,
-        "regency_code": 5206,
-        "province_code": 52,
-        "name": "Soromandi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520704,
-        "regency_code": 5207,
-        "province_code": 52,
-        "name": "Sekongkang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520708,
-        "regency_code": 5207,
-        "province_code": 52,
-        "name": "Maluk",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520301,
-        "regency_code": 5203,
-        "province_code": 52,
-        "name": "Keruak",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520311,
-        "regency_code": 5203,
-        "province_code": 52,
-        "name": "Montong Gading",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520319,
-        "regency_code": 5203,
-        "province_code": 52,
-        "name": "Sakra Barat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520424,
-        "regency_code": 5204,
-        "province_code": 52,
-        "name": "Maronge",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 527104,
-        "regency_code": 5271,
-        "province_code": 52,
-        "name": "Sekarbela",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 527205,
-        "regency_code": 5272,
-        "province_code": 52,
-        "name": "Mpunda",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520203,
-        "regency_code": 5202,
-        "province_code": 52,
-        "name": "Batukliang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520308,
-        "regency_code": 5203,
-        "province_code": 52,
-        "name": "Pringgabaya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520317,
-        "regency_code": 5203,
-        "province_code": 52,
-        "name": "Labuhan Haji",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520410,
-        "regency_code": 5204,
-        "province_code": 52,
-        "name": "Moyo Hulu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520417,
-        "regency_code": 5204,
-        "province_code": 52,
-        "name": "Alas Barat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520316,
-        "regency_code": 5203,
-        "province_code": 52,
-        "name": "Suwela",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520805,
-        "regency_code": 5208,
-        "province_code": 52,
-        "name": "Pemenang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
         "code": 520109,
         "regency_code": 5201,
         "province_code": 52,
@@ -792,19 +54,37 @@
         "coordinates": null
     },
     {
-        "code": 520413,
-        "regency_code": 5204,
+        "code": 520112,
+        "regency_code": 5201,
         "province_code": 52,
-        "name": "Plampang",
+        "name": "Lingsar",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 520803,
-        "regency_code": 5208,
+        "code": 520113,
+        "regency_code": 5201,
         "province_code": 52,
-        "name": "Kayangan",
+        "name": "Lembar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520114,
+        "regency_code": 5201,
+        "province_code": 52,
+        "name": "Batu Layar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520115,
+        "regency_code": 5201,
+        "province_code": 52,
+        "name": "Kuripan",
         "latitude": null,
         "longitude": null,
         "coordinates": null
@@ -819,28 +99,73 @@
         "coordinates": null
     },
     {
-        "code": 520428,
-        "regency_code": 5204,
+        "code": 520202,
+        "regency_code": 5202,
         "province_code": 52,
-        "name": "Orong Telu",
+        "name": "Jonggat",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 520504,
-        "regency_code": 5205,
+        "code": 520203,
+        "regency_code": 5202,
         "province_code": 52,
-        "name": "Kilo",
+        "name": "Batukliang",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 520612,
-        "regency_code": 5206,
+        "code": 520204,
+        "regency_code": 5202,
         "province_code": 52,
-        "name": "Lambu",
+        "name": "Pujut",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520205,
+        "regency_code": 5202,
+        "province_code": 52,
+        "name": "Praya Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520206,
+        "regency_code": 5202,
+        "province_code": 52,
+        "name": "Praya Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520207,
+        "regency_code": 5202,
+        "province_code": 52,
+        "name": "Janapria",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520208,
+        "regency_code": 5202,
+        "province_code": 52,
+        "name": "Pringgarata",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520209,
+        "regency_code": 5202,
+        "province_code": 52,
+        "name": "Kopang",
         "latitude": null,
         "longitude": null,
         "coordinates": null
@@ -855,10 +180,199 @@
         "coordinates": null
     },
     {
+        "code": 520211,
+        "regency_code": 5202,
+        "province_code": 52,
+        "name": "Praya Barat Daya",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520212,
+        "regency_code": 5202,
+        "province_code": 52,
+        "name": "Batukliang Utara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520301,
+        "regency_code": 5203,
+        "province_code": 52,
+        "name": "Keruak",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520302,
+        "regency_code": 5203,
+        "province_code": 52,
+        "name": "Sakra",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520303,
+        "regency_code": 5203,
+        "province_code": 52,
+        "name": "Terara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520304,
+        "regency_code": 5203,
+        "province_code": 52,
+        "name": "Sikur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520305,
+        "regency_code": 5203,
+        "province_code": 52,
+        "name": "Masbagik",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520306,
+        "regency_code": 5203,
+        "province_code": 52,
+        "name": "Sukamulia",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520307,
+        "regency_code": 5203,
+        "province_code": 52,
+        "name": "Selong",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520308,
+        "regency_code": 5203,
+        "province_code": 52,
+        "name": "Pringgabaya",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520309,
+        "regency_code": 5203,
+        "province_code": 52,
+        "name": "Aikmel",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520310,
+        "regency_code": 5203,
+        "province_code": 52,
+        "name": "Sambelia",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520311,
+        "regency_code": 5203,
+        "province_code": 52,
+        "name": "Montong Gading",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520312,
+        "regency_code": 5203,
+        "province_code": 52,
+        "name": "Pringgasela",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520313,
+        "regency_code": 5203,
+        "province_code": 52,
+        "name": "Suralaga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
         "code": 520314,
         "regency_code": 5203,
         "province_code": 52,
         "name": "Wanasaba",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520315,
+        "regency_code": 5203,
+        "province_code": 52,
+        "name": "Sembalun",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520316,
+        "regency_code": 5203,
+        "province_code": 52,
+        "name": "Suwela",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520317,
+        "regency_code": 5203,
+        "province_code": 52,
+        "name": "Labuhan Haji",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520318,
+        "regency_code": 5203,
+        "province_code": 52,
+        "name": "Sakra Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520319,
+        "regency_code": 5203,
+        "province_code": 52,
+        "name": "Sakra Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520320,
+        "regency_code": 5203,
+        "province_code": 52,
+        "name": "Jerowaru",
         "latitude": null,
         "longitude": null,
         "coordinates": null
@@ -873,10 +387,172 @@
         "coordinates": null
     },
     {
-        "code": 520427,
+        "code": 520402,
         "regency_code": 5204,
         "province_code": 52,
-        "name": "Lenangguar",
+        "name": "Lunyuk",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520405,
+        "regency_code": 5204,
+        "province_code": 52,
+        "name": "Alas",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520406,
+        "regency_code": 5204,
+        "province_code": 52,
+        "name": "Utan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520407,
+        "regency_code": 5204,
+        "province_code": 52,
+        "name": "Batu Lanteh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520408,
+        "regency_code": 5204,
+        "province_code": 52,
+        "name": "Sumbawa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520409,
+        "regency_code": 5204,
+        "province_code": 52,
+        "name": "Moyo Hilir",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520410,
+        "regency_code": 5204,
+        "province_code": 52,
+        "name": "Moyo Hulu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520411,
+        "regency_code": 5204,
+        "province_code": 52,
+        "name": "Ropang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520412,
+        "regency_code": 5204,
+        "province_code": 52,
+        "name": "Lape",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520413,
+        "regency_code": 5204,
+        "province_code": 52,
+        "name": "Plampang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520414,
+        "regency_code": 5204,
+        "province_code": 52,
+        "name": "Empang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520417,
+        "regency_code": 5204,
+        "province_code": 52,
+        "name": "Alas Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520418,
+        "regency_code": 5204,
+        "province_code": 52,
+        "name": "Labuhan Badas",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520419,
+        "regency_code": 5204,
+        "province_code": 52,
+        "name": "Labangka",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520420,
+        "regency_code": 5204,
+        "province_code": 52,
+        "name": "Buer",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520421,
+        "regency_code": 5204,
+        "province_code": 52,
+        "name": "Rhee",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520422,
+        "regency_code": 5204,
+        "province_code": 52,
+        "name": "Unter Iwes",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520423,
+        "regency_code": 5204,
+        "province_code": 52,
+        "name": "Moyo Utara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520424,
+        "regency_code": 5204,
+        "province_code": 52,
+        "name": "Maronge",
         "latitude": null,
         "longitude": null,
         "coordinates": null
@@ -900,118 +576,19 @@
         "coordinates": null
     },
     {
-        "code": 520503,
-        "regency_code": 5205,
-        "province_code": 52,
-        "name": "Hu'u",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520705,
-        "regency_code": 5207,
-        "province_code": 52,
-        "name": "Brang Rea",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520212,
-        "regency_code": 5202,
-        "province_code": 52,
-        "name": "Batukliang Utara",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520701,
-        "regency_code": 5207,
-        "province_code": 52,
-        "name": "Jereweh",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520102,
-        "regency_code": 5201,
-        "province_code": 52,
-        "name": "Kediri",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520204,
-        "regency_code": 5202,
-        "province_code": 52,
-        "name": "Pujut",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520208,
-        "regency_code": 5202,
-        "province_code": 52,
-        "name": "Pringgarata",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520414,
+        "code": 520427,
         "regency_code": 5204,
         "province_code": 52,
-        "name": "Empang",
+        "name": "Lenangguar",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 520419,
+        "code": 520428,
         "regency_code": 5204,
         "province_code": 52,
-        "name": "Labangka",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520703,
-        "regency_code": 5207,
-        "province_code": 52,
-        "name": "Seteluk",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520422,
-        "regency_code": 5204,
-        "province_code": 52,
-        "name": "Unter Iwes",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520616,
-        "regency_code": 5206,
-        "province_code": 52,
-        "name": "Parado",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 520320,
-        "regency_code": 5203,
-        "province_code": 52,
-        "name": "Jerowaru",
+        "name": "Orong Telu",
         "latitude": null,
         "longitude": null,
         "coordinates": null
@@ -1026,6 +603,312 @@
         "coordinates": null
     },
     {
+        "code": 520501,
+        "regency_code": 5205,
+        "province_code": 52,
+        "name": "Dompu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520502,
+        "regency_code": 5205,
+        "province_code": 52,
+        "name": "Kempo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520503,
+        "regency_code": 5205,
+        "province_code": 52,
+        "name": "Hu'u",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520504,
+        "regency_code": 5205,
+        "province_code": 52,
+        "name": "Kilo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520505,
+        "regency_code": 5205,
+        "province_code": 52,
+        "name": "Woja",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520506,
+        "regency_code": 5205,
+        "province_code": 52,
+        "name": "Pekat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520507,
+        "regency_code": 5205,
+        "province_code": 52,
+        "name": "Manggalewa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520508,
+        "regency_code": 5205,
+        "province_code": 52,
+        "name": "Pajo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520601,
+        "regency_code": 5206,
+        "province_code": 52,
+        "name": "Monta",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520602,
+        "regency_code": 5206,
+        "province_code": 52,
+        "name": "Bolo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520603,
+        "regency_code": 5206,
+        "province_code": 52,
+        "name": "Woha",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520604,
+        "regency_code": 5206,
+        "province_code": 52,
+        "name": "Belo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520605,
+        "regency_code": 5206,
+        "province_code": 52,
+        "name": "Wawo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520606,
+        "regency_code": 5206,
+        "province_code": 52,
+        "name": "Sape",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520607,
+        "regency_code": 5206,
+        "province_code": 52,
+        "name": "Wera",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520608,
+        "regency_code": 5206,
+        "province_code": 52,
+        "name": "Donggo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520609,
+        "regency_code": 5206,
+        "province_code": 52,
+        "name": "Sanggar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520610,
+        "regency_code": 5206,
+        "province_code": 52,
+        "name": "Ambalawi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520611,
+        "regency_code": 5206,
+        "province_code": 52,
+        "name": "Langgudu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520612,
+        "regency_code": 5206,
+        "province_code": 52,
+        "name": "Lambu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520613,
+        "regency_code": 5206,
+        "province_code": 52,
+        "name": "Madapangga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520614,
+        "regency_code": 5206,
+        "province_code": 52,
+        "name": "Tambora",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520615,
+        "regency_code": 5206,
+        "province_code": 52,
+        "name": "Soromandi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520616,
+        "regency_code": 5206,
+        "province_code": 52,
+        "name": "Parado",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520617,
+        "regency_code": 5206,
+        "province_code": 52,
+        "name": "Lambitu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520618,
+        "regency_code": 5206,
+        "province_code": 52,
+        "name": "Palibelo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520701,
+        "regency_code": 5207,
+        "province_code": 52,
+        "name": "Jereweh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520702,
+        "regency_code": 5207,
+        "province_code": 52,
+        "name": "Taliwang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520703,
+        "regency_code": 5207,
+        "province_code": 52,
+        "name": "Seteluk",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520704,
+        "regency_code": 5207,
+        "province_code": 52,
+        "name": "Sekongkang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520705,
+        "regency_code": 5207,
+        "province_code": 52,
+        "name": "Brang Rea",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520706,
+        "regency_code": 5207,
+        "province_code": 52,
+        "name": "Poto Tano",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520707,
+        "regency_code": 5207,
+        "province_code": 52,
+        "name": "Brang Ene",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520708,
+        "regency_code": 5207,
+        "province_code": 52,
+        "name": "Maluk",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
         "code": 520801,
         "regency_code": 5208,
         "province_code": 52,
@@ -1035,19 +918,136 @@
         "coordinates": null
     },
     {
-        "code": 520107,
-        "regency_code": 5201,
+        "code": 520802,
+        "regency_code": 5208,
         "province_code": 52,
-        "name": "Sekotong",
+        "name": "Gangga",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 520411,
-        "regency_code": 5204,
+        "code": 520803,
+        "regency_code": 5208,
         "province_code": 52,
-        "name": "Ropang",
+        "name": "Kayangan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520804,
+        "regency_code": 5208,
+        "province_code": 52,
+        "name": "Bayan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 520805,
+        "regency_code": 5208,
+        "province_code": 52,
+        "name": "Pemenang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 527101,
+        "regency_code": 5271,
+        "province_code": 52,
+        "name": "Ampenan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 527102,
+        "regency_code": 5271,
+        "province_code": 52,
+        "name": "Mataram",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 527103,
+        "regency_code": 5271,
+        "province_code": 52,
+        "name": "Cakranegara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 527104,
+        "regency_code": 5271,
+        "province_code": 52,
+        "name": "Sekarbela",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 527105,
+        "regency_code": 5271,
+        "province_code": 52,
+        "name": "Selaprang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 527106,
+        "regency_code": 5271,
+        "province_code": 52,
+        "name": "Sandubaya",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 527201,
+        "regency_code": 5272,
+        "province_code": 52,
+        "name": "RasanaE Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 527202,
+        "regency_code": 5272,
+        "province_code": 52,
+        "name": "RasanaE Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 527203,
+        "regency_code": 5272,
+        "province_code": 52,
+        "name": "Asakota",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 527204,
+        "regency_code": 5272,
+        "province_code": 52,
+        "name": "Raba",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 527205,
+        "regency_code": 5272,
+        "province_code": 52,
+        "name": "Mpunda",
         "latitude": null,
         "longitude": null,
         "coordinates": null

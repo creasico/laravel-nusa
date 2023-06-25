@@ -1,119 +1,119 @@
 code,regency_code,province_code,name,latitude,longitude,coordinates
-820511,8205,82,"Mangoli Tengah",,,null
-820305,8203,82,Tobelo,,,null
-820403,8204,82,"Gane Timur",,,null
-820510,8205,82,"Mangoli Utara Timur",,,null
-820607,8206,82,"Wasile Timur",,,null
-820706,8207,82,"Pulau Rao",,,null
-827101,8271,82,"Pulau Ternate",,,null
-827103,8271,82,"Kota Ternate Utara",,,null
-827208,8272,82,"Tidore Timur",,,null
-820311,8203,82,"Tobelo Tengah",,,null
-827201,8272,82,Tidore,,,null
-820319,8203,82,"Loloda Kepulauan",,,null
-820508,8205,82,"Sulabesi Timur",,,null
-820610,8206,82,"Kota Maba",,,null
-820702,8207,82,"Morotai Selatan Barat",,,null
-820107,8201,82,"Ibu Utara",,,null
-820413,8204,82,"Kayoa Utara",,,null
-820430,8204,82,"Obi Utara",,,null
-820608,8206,82,"Maba Tengah",,,null
-820806,8208,82,"Taliabu Timur Selatan",,,null
-820808,8208,82,Tabona,,,null
 820101,8201,82,Jailolo,,,null
+820102,8201,82,Loloda,,,null
 820103,8201,82,Ibu,,,null
-820322,8203,82,"Kao Teluk",,,null
-820604,8206,82,"Wasile Selatan",,,null
-820210,8202,82,"Patani Timur",,,null
-820418,8204,82,"Kepulauan Botanglomang",,,null
-820321,8203,82,"Kao Barat",,,null
-820424,8204,82,"Gane Barat Utara",,,null
-820801,8208,82,"Taliabu Barat",,,null
-820205,8202,82,"Weda Selatan",,,null
-820209,8202,82,"Weda Timur",,,null
-820309,8203,82,"Loloda Utara",,,null
-820404,8204,82,"Gane Barat",,,null
-820509,8205,82,"Sulabesi Selatan",,,null
-820512,8205,82,"Mangoli Selatan",,,null
-827204,8272,82,"Tidore Selatan",,,null
-827206,8272,82,"Oba Tengah",,,null
-820405,8204,82,"Obi Selatan",,,null
-820411,8204,82,"Kayoa Barat",,,null
-827104,8271,82,Moti,,,null
-820105,8201,82,"Jailolo Selatan",,,null
-820316,8203,82,"Galela Selatan",,,null
-820502,8205,82,Sanana,,,null
 820104,8201,82,Sahu,,,null
-820416,8204,82,"Kasiruta Timur",,,null
-820503,8205,82,"Sulabesi Barat",,,null
-820315,8203,82,"Galela Utara",,,null
-820417,8204,82,"Bacan Selatan",,,null
-820507,8205,82,"Sulabesi Tengah",,,null
-820518,8205,82,"Sanana Utara",,,null
-820602,8206,82,Maba,,,null
-827108,8271,82,"Ternate Barat",,,null
-820110,8201,82,"Loloda Tengah",,,null
-820202,8202,82,Patani,,,null
-820306,8203,82,"Tobelo Selatan",,,null
-820402,8204,82,Kayoa,,,null
-820412,8204,82,"Kayoa Selatan",,,null
-820201,8202,82,Weda,,,null
-820204,8202,82,"Weda Utara",,,null
-820310,8203,82,"Tobelo Utara",,,null
-820422,8204,82,"Bacan Timur Tengah",,,null
-820429,8204,82,"Obi Timur",,,null
-820501,8205,82,"Mangoli Timur",,,null
-820203,8202,82,"Pulau Gebe",,,null
-820803,8208,82,Lede,,,null
-820804,8208,82,"Taliabu Utara",,,null
-820601,8206,82,Wasile,,,null
+820105,8201,82,"Jailolo Selatan",,,null
+820107,8201,82,"Ibu Utara",,,null
+820108,8201,82,"Ibu Selatan",,,null
 820109,8201,82,"Sahu Timur",,,null
+820110,8201,82,"Loloda Tengah",,,null
+820201,8202,82,Weda,,,null
+820202,8202,82,Patani,,,null
+820203,8202,82,"Pulau Gebe",,,null
+820204,8202,82,"Weda Utara",,,null
+820205,8202,82,"Weda Selatan",,,null
+820206,8202,82,"Patani Utara",,,null
+820207,8202,82,"Weda Tengah",,,null
+820208,8202,82,"Patani Barat",,,null
+820209,8202,82,"Weda Timur",,,null
+820210,8202,82,"Patani Timur",,,null
+820304,8203,82,Galela,,,null
+820305,8203,82,Tobelo,,,null
+820306,8203,82,"Tobelo Selatan",,,null
+820307,8203,82,Kao,,,null
+820308,8203,82,Malifut,,,null
+820309,8203,82,"Loloda Utara",,,null
+820310,8203,82,"Tobelo Utara",,,null
+820311,8203,82,"Tobelo Tengah",,,null
+820312,8203,82,"Tobelo Timur",,,null
+820313,8203,82,"Tobelo Barat",,,null
+820314,8203,82,"Galela Barat",,,null
+820315,8203,82,"Galela Utara",,,null
+820316,8203,82,"Galela Selatan",,,null
+820319,8203,82,"Loloda Kepulauan",,,null
+820320,8203,82,"Kao Utara",,,null
+820321,8203,82,"Kao Barat",,,null
+820322,8203,82,"Kao Teluk",,,null
+820401,8204,82,"Pulau Makian",,,null
+820402,8204,82,Kayoa,,,null
+820403,8204,82,"Gane Timur",,,null
+820404,8204,82,"Gane Barat",,,null
+820405,8204,82,"Obi Selatan",,,null
+820406,8204,82,Obi,,,null
+820407,8204,82,"Bacan Timur",,,null
+820408,8204,82,Bacan,,,null
+820409,8204,82,"Bacan Barat",,,null
+820410,8204,82,"Makian Barat",,,null
+820411,8204,82,"Kayoa Barat",,,null
+820412,8204,82,"Kayoa Selatan",,,null
+820413,8204,82,"Kayoa Utara",,,null
+820414,8204,82,"Bacan Barat Utara",,,null
+820415,8204,82,"Kasiruta Barat",,,null
+820416,8204,82,"Kasiruta Timur",,,null
+820417,8204,82,"Bacan Selatan",,,null
+820418,8204,82,"Kepulauan Botanglomang",,,null
+820419,8204,82,"Mandioli Selatan",,,null
+820420,8204,82,"Mandioli Utara",,,null
+820421,8204,82,"Bacan Timur Selatan",,,null
+820422,8204,82,"Bacan Timur Tengah",,,null
+820423,8204,82,"Gane Barat Selatan",,,null
+820424,8204,82,"Gane Barat Utara",,,null
 820425,8204,82,"Kepulauan Joronga",,,null
 820426,8204,82,"Gane Timur Selatan",,,null
 820427,8204,82,"Gane Timur Tengah",,,null
-820701,8207,82,"Morotai Selatan",,,null
-820805,8208,82,"Taliabu Timur",,,null
-820314,8203,82,"Galela Barat",,,null
-820408,8204,82,Bacan,,,null
-827203,8272,82,Oba,,,null
-820407,8204,82,"Bacan Timur",,,null
-820421,8204,82,"Bacan Timur Selatan",,,null
-820609,8206,82,"Maba Utara",,,null
-827202,8272,82,"Oba Utara",,,null
-820419,8204,82,"Mandioli Selatan",,,null
 820428,8204,82,"Obi Barat",,,null
+820429,8204,82,"Obi Timur",,,null
+820430,8204,82,"Obi Utara",,,null
+820501,8205,82,"Mangoli Timur",,,null
+820502,8205,82,Sanana,,,null
+820503,8205,82,"Sulabesi Barat",,,null
 820506,8205,82,"Mangoli Barat",,,null
-820406,8204,82,Obi,,,null
-820415,8204,82,"Kasiruta Barat",,,null
+820507,8205,82,"Sulabesi Tengah",,,null
+820508,8205,82,"Sulabesi Timur",,,null
+820509,8205,82,"Sulabesi Selatan",,,null
+820510,8205,82,"Mangoli Utara Timur",,,null
+820511,8205,82,"Mangoli Tengah",,,null
+820512,8205,82,"Mangoli Selatan",,,null
+820513,8205,82,"Mangoli Utara",,,null
+820518,8205,82,"Sanana Utara",,,null
+820601,8206,82,Wasile,,,null
+820602,8206,82,Maba,,,null
+820603,8206,82,"Maba Selatan",,,null
+820604,8206,82,"Wasile Selatan",,,null
 820605,8206,82,"Wasile Tengah",,,null
-827107,8271,82,"Pulau Hiri",,,null
-820423,8204,82,"Gane Barat Selatan",,,null
-820807,8208,82,"Taliabu Selatan",,,null
-820108,8201,82,"Ibu Selatan",,,null
-820207,8202,82,"Weda Tengah",,,null
-820313,8203,82,"Tobelo Barat",,,null
-820409,8204,82,"Bacan Barat",,,null
-820704,8207,82,"Morotai Utara",,,null
-820206,8202,82,"Patani Utara",,,null
-820320,8203,82,"Kao Utara",,,null
-820102,8201,82,Loloda,,,null
-820307,8203,82,Kao,,,null
-820308,8203,82,Malifut,,,null
 820606,8206,82,"Wasile Utara",,,null
+820607,8206,82,"Wasile Timur",,,null
+820608,8206,82,"Maba Tengah",,,null
+820609,8206,82,"Maba Utara",,,null
+820610,8206,82,"Kota Maba",,,null
+820701,8207,82,"Morotai Selatan",,,null
+820702,8207,82,"Morotai Selatan Barat",,,null
+820703,8207,82,"Morotai Jaya",,,null
+820704,8207,82,"Morotai Utara",,,null
+820705,8207,82,"Morotai Timur",,,null
+820706,8207,82,"Pulau Rao",,,null
+820801,8208,82,"Taliabu Barat",,,null
 820802,8208,82,"Taliabu Barat Laut",,,null
+820803,8208,82,Lede,,,null
+820804,8208,82,"Taliabu Utara",,,null
+820805,8208,82,"Taliabu Timur",,,null
+820806,8208,82,"Taliabu Timur Selatan",,,null
+820807,8208,82,"Taliabu Selatan",,,null
+820808,8208,82,Tabona,,,null
+827101,8271,82,"Pulau Ternate",,,null
+827102,8271,82,"Kota Ternate Selatan",,,null
+827103,8271,82,"Kota Ternate Utara",,,null
+827104,8271,82,Moti,,,null
 827105,8271,82,"Pulau Batang Dua",,,null
 827106,8271,82,"Kota Ternate Tengah",,,null
-827207,8272,82,"Oba Selatan",,,null
-820208,8202,82,"Patani Barat",,,null
-820410,8204,82,"Makian Barat",,,null
-820513,8205,82,"Mangoli Utara",,,null
-820703,8207,82,"Morotai Jaya",,,null
-820420,8204,82,"Mandioli Utara",,,null
-820603,8206,82,"Maba Selatan",,,null
-820401,8204,82,"Pulau Makian",,,null
-820705,8207,82,"Morotai Timur",,,null
+827107,8271,82,"Pulau Hiri",,,null
+827108,8271,82,"Ternate Barat",,,null
+827201,8272,82,Tidore,,,null
+827202,8272,82,"Oba Utara",,,null
+827203,8272,82,Oba,,,null
+827204,8272,82,"Tidore Selatan",,,null
 827205,8272,82,"Tidore Utara",,,null
-820304,8203,82,Galela,,,null
-820312,8203,82,"Tobelo Timur",,,null
-820414,8204,82,"Bacan Barat Utara",,,null
-827102,8271,82,"Kota Ternate Selatan",,,null
+827206,8272,82,"Oba Tengah",,,null
+827207,8272,82,"Oba Selatan",,,null
+827208,8272,82,"Tidore Timur",,,null

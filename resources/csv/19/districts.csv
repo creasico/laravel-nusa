@@ -1,48 +1,48 @@
 code,regency_code,province_code,name,latitude,longitude,coordinates
-190302,1903,19,"Lepar Pongok",,,null
-190308,1903,19,"Kepulauan Pongok",,,null
-190501,1905,19,Mentok,,,null
-197107,1971,19,Girimaya,,,null
-190602,1906,19,Gantung,,,null
-190306,1903,19,"Tukak Sadai",,,null
-190603,1906,19,Dendang,,,null
-197106,1971,19,Gabek,,,null
-190202,1902,19,Membalong,,,null
-190104,1901,19,"Mendo Barat",,,null
-190406,1904,19,"Lubuk Besar",,,null
-197102,1971,19,"Taman Sari",,,null
-190304,1903,19,"Simpang Rimba",,,null
-190606,1906,19,"Simpang Renggiang",,,null
-190307,1903,19,Pulaubesar,,,null
-197104,1971,19,Rangkui,,,null
-190303,1903,19,"Air Gegas",,,null
-190605,1906,19,Damar,,,null
-197103,1971,19,"Pangkal Balam",,,null
-197105,1971,19,Gerunggang,,,null
-190107,1901,19,"Riau Silip",,,null
-190401,1904,19,Koba,,,null
-190405,1904,19,Namang,,,null
-190601,1906,19,Manggar,,,null
-190505,1905,19,Tempilang,,,null
-197101,1971,19,Bukitintan,,,null
-190106,1901,19,Bakam,,,null
-190108,1901,19,"Puding Besar",,,null
-190506,1905,19,Parittiga,,,null
-190203,1902,19,"Selat Nasik",,,null
+190101,1901,19,Sungailiat,,,null
 190102,1901,19,Belinyu,,,null
+190103,1901,19,Merawang,,,null
+190104,1901,19,"Mendo Barat",,,null
+190105,1901,19,Pemali,,,null
+190106,1901,19,Bakam,,,null
+190107,1901,19,"Riau Silip",,,null
+190108,1901,19,"Puding Besar",,,null
+190201,1902,19,"Tanjung Pandan",,,null
+190202,1902,19,Membalong,,,null
+190203,1902,19,"Selat Nasik",,,null
 190204,1902,19,Sijuk,,,null
+190205,1902,19,Badau,,,null
+190301,1903,19,Toboali,,,null
+190302,1903,19,"Lepar Pongok",,,null
+190303,1903,19,"Air Gegas",,,null
+190304,1903,19,"Simpang Rimba",,,null
+190305,1903,19,Payung,,,null
+190306,1903,19,"Tukak Sadai",,,null
+190307,1903,19,Pulaubesar,,,null
+190308,1903,19,"Kepulauan Pongok",,,null
+190401,1904,19,Koba,,,null
+190402,1904,19,"Pangkalan Baru",,,null
+190403,1904,19,"Sungai Selan",,,null
+190404,1904,19,"Simpang Katis",,,null
+190405,1904,19,Namang,,,null
+190406,1904,19,"Lubuk Besar",,,null
+190501,1905,19,Mentok,,,null
 190502,1905,19,"Simpang Teritip",,,null
 190503,1905,19,Jebus,,,null
 190504,1905,19,Kelapa,,,null
-190403,1904,19,"Sungai Selan",,,null
-190103,1901,19,Merawang,,,null
-190201,1902,19,"Tanjung Pandan",,,null
-190305,1903,19,Payung,,,null
-190105,1901,19,Pemali,,,null
-190205,1902,19,Badau,,,null
-190402,1904,19,"Pangkalan Baru",,,null
+190505,1905,19,Tempilang,,,null
+190506,1905,19,Parittiga,,,null
+190601,1906,19,Manggar,,,null
+190602,1906,19,Gantung,,,null
+190603,1906,19,Dendang,,,null
 190604,1906,19,"Kelapa Kampit",,,null
-190101,1901,19,Sungailiat,,,null
-190301,1903,19,Toboali,,,null
-190404,1904,19,"Simpang Katis",,,null
+190605,1906,19,Damar,,,null
+190606,1906,19,"Simpang Renggiang",,,null
 190607,1906,19,"Simpang Pesak",,,null
+197101,1971,19,Bukitintan,,,null
+197102,1971,19,"Taman Sari",,,null
+197103,1971,19,"Pangkal Balam",,,null
+197104,1971,19,Rangkui,,,null
+197105,1971,19,Gerunggang,,,null
+197106,1971,19,Gabek,,,null
+197107,1971,19,Girimaya,,,null

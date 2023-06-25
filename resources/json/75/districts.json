@@ -1,198 +1,9 @@
 [
     {
-        "code": 750122,
+        "code": 750101,
         "regency_code": 7501,
         "province_code": 75,
-        "name": "Talaga Jaya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750316,
-        "regency_code": 7503,
-        "province_code": 75,
-        "name": "Bulango Timur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750411,
-        "regency_code": 7504,
-        "province_code": 75,
-        "name": "Wanggarasi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750501,
-        "regency_code": 7505,
-        "province_code": 75,
-        "name": "Atinggola",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750205,
-        "regency_code": 7502,
-        "province_code": 75,
-        "name": "Mananggu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750303,
-        "regency_code": 7503,
-        "province_code": 75,
-        "name": "Suwawa",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750403,
-        "regency_code": 7504,
-        "province_code": 75,
-        "name": "Randangan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750502,
-        "regency_code": 7505,
-        "province_code": 75,
-        "name": "Kwandang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750124,
-        "regency_code": 7501,
-        "province_code": 75,
-        "name": "Dungaliyo",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750407,
-        "regency_code": 7504,
-        "province_code": 75,
-        "name": "Taluditi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750506,
-        "regency_code": 7505,
-        "province_code": 75,
-        "name": "Gentuma Raya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 757102,
-        "regency_code": 7571,
-        "province_code": 75,
-        "name": "Kota Selatan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 757106,
-        "regency_code": 7571,
-        "province_code": 75,
-        "name": "Kota Tengah",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750119,
-        "regency_code": 7501,
-        "province_code": 75,
-        "name": "Tabongo",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750203,
-        "regency_code": 7502,
-        "province_code": 75,
-        "name": "Dulupi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750504,
-        "regency_code": 7505,
-        "province_code": 75,
-        "name": "Sumalata",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750509,
-        "regency_code": 7505,
-        "province_code": 75,
-        "name": "Monano",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750202,
-        "regency_code": 7502,
-        "province_code": 75,
-        "name": "Wonosari",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750406,
-        "regency_code": 7504,
-        "province_code": 75,
-        "name": "Patilanggio",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750103,
-        "regency_code": 7501,
-        "province_code": 75,
-        "name": "Batudaa",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750308,
-        "regency_code": 7503,
-        "province_code": 75,
-        "name": "Kabila Bone",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750310,
-        "regency_code": 7503,
-        "province_code": 75,
-        "name": "Bone Raya",
+        "name": "Limboto",
         "latitude": null,
         "longitude": null,
         "coordinates": null
@@ -207,37 +18,28 @@
         "coordinates": null
     },
     {
-        "code": 750123,
+        "code": 750103,
         "regency_code": 7501,
         "province_code": 75,
-        "name": "Bilato",
+        "name": "Batudaa",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 750410,
-        "regency_code": 7504,
+        "code": 750104,
+        "regency_code": 7501,
         "province_code": 75,
-        "name": "Duhiadaa",
+        "name": "Tibawa",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 750413,
-        "regency_code": 7504,
+        "code": 750105,
+        "regency_code": 7501,
         "province_code": 75,
-        "name": "Popayato Barat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 757107,
-        "regency_code": 7571,
-        "province_code": 75,
-        "name": "Sipatana",
+        "name": "Batudaa Pantai",
         "latitude": null,
         "longitude": null,
         "coordinates": null
@@ -247,249 +49,6 @@
         "regency_code": 7501,
         "province_code": 75,
         "name": "Boliyohuto",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750101,
-        "regency_code": 7501,
-        "province_code": 75,
-        "name": "Limboto",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750204,
-        "regency_code": 7502,
-        "province_code": 75,
-        "name": "Tilamuta",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750312,
-        "regency_code": 7503,
-        "province_code": 75,
-        "name": "Suwawa Selatan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750114,
-        "regency_code": 7501,
-        "province_code": 75,
-        "name": "Mootilango",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750313,
-        "regency_code": 7503,
-        "province_code": 75,
-        "name": "Suwawa Tengah",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750318,
-        "regency_code": 7503,
-        "province_code": 75,
-        "name": "Pinogu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750408,
-        "regency_code": 7504,
-        "province_code": 75,
-        "name": "Dengilo",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750505,
-        "regency_code": 7505,
-        "province_code": 75,
-        "name": "Tolinggula",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750301,
-        "regency_code": 7503,
-        "province_code": 75,
-        "name": "Tapa",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750304,
-        "regency_code": 7503,
-        "province_code": 75,
-        "name": "Bonepantai",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750315,
-        "regency_code": 7503,
-        "province_code": 75,
-        "name": "Bulango Selatan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750402,
-        "regency_code": 7504,
-        "province_code": 75,
-        "name": "Lemito",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 757104,
-        "regency_code": 7571,
-        "province_code": 75,
-        "name": "Dungingi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750409,
-        "regency_code": 7504,
-        "province_code": 75,
-        "name": "Buntulia",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750412,
-        "regency_code": 7504,
-        "province_code": 75,
-        "name": "Popayato Timur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750120,
-        "regency_code": 7501,
-        "province_code": 75,
-        "name": "Biluhu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750309,
-        "regency_code": 7503,
-        "province_code": 75,
-        "name": "Bone",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 757101,
-        "regency_code": 7571,
-        "province_code": 75,
-        "name": "Kota Barat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750201,
-        "regency_code": 7502,
-        "province_code": 75,
-        "name": "Paguyaman",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750207,
-        "regency_code": 7502,
-        "province_code": 75,
-        "name": "Paguyaman Pantai",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750206,
-        "regency_code": 7502,
-        "province_code": 75,
-        "name": "Botumoita",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750311,
-        "regency_code": 7503,
-        "province_code": 75,
-        "name": "Suwawa Timur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750511,
-        "regency_code": 7505,
-        "province_code": 75,
-        "name": "Sumalata Timur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 757103,
-        "regency_code": 7571,
-        "province_code": 75,
-        "name": "Kota Utara",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750116,
-        "regency_code": 7501,
-        "province_code": 75,
-        "name": "Pulubala",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750305,
-        "regency_code": 7503,
-        "province_code": 75,
-        "name": "Bulango Utara",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750306,
-        "regency_code": 7503,
-        "province_code": 75,
-        "name": "Tilongkabila",
         "latitude": null,
         "longitude": null,
         "coordinates": null
@@ -522,10 +81,19 @@
         "coordinates": null
     },
     {
-        "code": 750104,
+        "code": 750114,
         "regency_code": 7501,
         "province_code": 75,
-        "name": "Tibawa",
+        "name": "Mootilango",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 750116,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Pulubala",
         "latitude": null,
         "longitude": null,
         "coordinates": null
@@ -540,87 +108,6 @@
         "coordinates": null
     },
     {
-        "code": 750510,
-        "regency_code": 7505,
-        "province_code": 75,
-        "name": "Biau",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 757109,
-        "regency_code": 7571,
-        "province_code": 75,
-        "name": "Hulonthalangi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750314,
-        "regency_code": 7503,
-        "province_code": 75,
-        "name": "Bulango Ulu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750507,
-        "regency_code": 7505,
-        "province_code": 75,
-        "name": "Tomolito",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750105,
-        "regency_code": 7501,
-        "province_code": 75,
-        "name": "Batudaa Pantai",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750317,
-        "regency_code": 7503,
-        "province_code": 75,
-        "name": "Bulawa",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750405,
-        "regency_code": 7504,
-        "province_code": 75,
-        "name": "Paguat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750503,
-        "regency_code": 7505,
-        "province_code": 75,
-        "name": "Anggrek",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 750508,
-        "regency_code": 7505,
-        "province_code": 75,
-        "name": "Ponelo Kepulauan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
         "code": 750118,
         "regency_code": 7501,
         "province_code": 75,
@@ -630,19 +117,19 @@
         "coordinates": null
     },
     {
-        "code": 750307,
-        "regency_code": 7503,
+        "code": 750119,
+        "regency_code": 7501,
         "province_code": 75,
-        "name": "Botupingge",
+        "name": "Tabongo",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 750401,
-        "regency_code": 7504,
+        "code": 750120,
+        "regency_code": 7501,
         "province_code": 75,
-        "name": "Popayato",
+        "name": "Biluhu",
         "latitude": null,
         "longitude": null,
         "coordinates": null
@@ -657,10 +144,100 @@
         "coordinates": null
     },
     {
-        "code": 757105,
-        "regency_code": 7571,
+        "code": 750122,
+        "regency_code": 7501,
         "province_code": 75,
-        "name": "Kota Timur",
+        "name": "Talaga Jaya",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 750123,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Bilato",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 750124,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Dungaliyo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 750201,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Paguyaman",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 750202,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Wonosari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 750203,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Dulupi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 750204,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Tilamuta",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 750205,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Mananggu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 750206,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Botumoita",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 750207,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Paguyaman Pantai",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 750301,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Tapa",
         "latitude": null,
         "longitude": null,
         "coordinates": null
@@ -675,6 +252,177 @@
         "coordinates": null
     },
     {
+        "code": 750303,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Suwawa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 750304,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Bonepantai",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 750305,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Bulango Utara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 750306,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Tilongkabila",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 750307,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Botupingge",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 750308,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Kabila Bone",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 750309,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Bone",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 750310,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Bone Raya",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 750311,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Suwawa Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 750312,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Suwawa Selatan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 750313,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Suwawa Tengah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 750314,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Bulango Ulu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 750315,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Bulango Selatan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 750316,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Bulango Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 750317,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Bulawa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 750318,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Pinogu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 750401,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Popayato",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 750402,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Lemito",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 750403,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Randangan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
         "code": 750404,
         "regency_code": 7504,
         "province_code": 75,
@@ -684,10 +432,262 @@
         "coordinates": null
     },
     {
+        "code": 750405,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Paguat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 750406,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Patilanggio",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 750407,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Taluditi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 750408,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Dengilo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 750409,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Buntulia",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 750410,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Duhiadaa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 750411,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Wanggarasi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 750412,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Popayato Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 750413,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Popayato Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 750501,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Atinggola",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 750502,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Kwandang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 750503,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Anggrek",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 750504,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Sumalata",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 750505,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Tolinggula",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 750506,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Gentuma Raya",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 750507,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Tomolito",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 750508,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Ponelo Kepulauan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 750509,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Monano",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 750510,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Biau",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 750511,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Sumalata Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 757101,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Kota Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 757102,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Kota Selatan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 757103,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Kota Utara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 757104,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Dungingi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 757105,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Kota Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 757106,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Kota Tengah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 757107,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Sipatana",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
         "code": 757108,
         "regency_code": 7571,
         "province_code": 75,
         "name": "Dumbo Raya",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 757109,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Hulonthalangi",
         "latitude": null,
         "longitude": null,
         "coordinates": null

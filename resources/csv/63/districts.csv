@@ -1,157 +1,157 @@
 code,regency_code,province_code,name,latitude,longitude,coordinates
-630401,6304,63,Tabunganen,,,null
-630609,6306,63,Kalumpang,,,null
-630710,6307,63,"Batang Alai Timur",,,null
-630904,6309,63,Tanjung,,,null
-637105,6371,63,"Banjarmasin Tengah",,,null
+630101,6301,63,Takisung,,,null
+630102,6301,63,Jorong,,,null
+630103,6301,63,Pelaihari,,,null
 630104,6301,63,Kurau,,,null
-630313,6303,63,"Beruntung Baru",,,null
-631005,6310,63,"Kusan Hulu",,,null
-631007,6310,63,"Karang Bintang",,,null
-631107,6311,63,"Paringin Selatan",,,null
+630105,6301,63,"Bati Bati",,,null
+630106,6301,63,Panyipatan,,,null
+630107,6301,63,Kintap,,,null
+630108,6301,63,"Tambang Ulang",,,null
+630109,6301,63,"Batu Ampar",,,null
+630110,6301,63,Bajuin,,,null
+630111,6301,63,"Bumi Makmur",,,null
+630201,6302,63,"Pulau Sembilan",,,null
+630202,6302,63,"Pulau Laut Barat",,,null
+630203,6302,63,"Pulau Laut Selatan",,,null
+630204,6302,63,"Pulau Laut Timur",,,null
+630205,6302,63,"Pulau Sebuku",,,null
+630206,6302,63,"Pulaulaut Utara",,,null
 630207,6302,63,"Kelumpang Selatan",,,null
-630215,6302,63,"Sungai Durian",,,null
-630312,6303,63,Mataraman,,,null
-630603,6306,63,"Telaga Langsat",,,null
-630706,6307,63,Barabai,,,null
-630912,6309,63,"Bintang Ara",,,null
-631006,6310,63,"Simpang Empat",,,null
-630303,6303,63,Gambut,,,null
-630402,6304,63,Tamban,,,null
-630807,6308,63,Banjang,,,null
-631010,6310,63,Kuranji,,,null
-631104,6311,63,"Batu Mandi",,,null
+630208,6302,63,"Kelumpang Hulu",,,null
+630209,6302,63,"Kelumpang Tengah",,,null
+630210,6302,63,"Kelumpang Utara",,,null
+630211,6302,63,"Pamukan Selatan",,,null
+630212,6302,63,Sampanahan,,,null
 630213,6302,63,"Pamukan Utara",,,null
+630214,6302,63,Hampang,,,null
+630215,6302,63,"Sungai Durian",,,null
+630216,6302,63,"Pulau Laut Tengah",,,null
+630217,6302,63,"Kelumpang Hilir",,,null
+630218,6302,63,"Kelumpang Barat",,,null
+630219,6302,63,"Pamukan Barat",,,null
+630220,6302,63,"Pulau Laut Kepulauan",,,null
+630221,6302,63,"Pulau Laut Tanjung Selayar",,,null
+630222,6302,63,"Pulaulaut Sigam",,,null
+630301,6303,63,"Aluh Aluh",,,null
+630302,6303,63,"Kertak Hanyar",,,null
+630303,6303,63,Gambut,,,null
+630304,6303,63,"Sungai Tabuk",,,null
+630305,6303,63,Martapura,,,null
+630306,6303,63,"Karang Intan",,,null
+630307,6303,63,Astambul,,,null
+630308,6303,63,"Simpang Empat",,,null
+630309,6303,63,Pengarom,,,null
 630310,6303,63,"Sungai Pinang",,,null
-630407,6304,63,"Rantau Badauh",,,null
-630502,6305,63,"Tapin Selatan",,,null
-630910,6309,63,Upau,,,null
-631003,6310,63,"Sungai Loban",,,null
-631009,6310,63,Angsana,,,null
-637103,6371,63,"Banjarmasin Barat",,,null
+630311,6303,63,Aranio,,,null
+630312,6303,63,Mataraman,,,null
+630313,6303,63,"Beruntung Baru",,,null
+630314,6303,63,"Martapura Barat",,,null
+630315,6303,63,"Martapura Timur",,,null
+630316,6303,63,"Sambung Makmur",,,null
+630317,6303,63,Paramasan,,,null
+630318,6303,63,"Telaga Bauntung",,,null
+630319,6303,63,"Tatah Makmur",,,null
+630320,6303,63,"Cintapuri Darussalam",,,null
+630401,6304,63,Tabunganen,,,null
+630402,6304,63,Tamban,,,null
+630403,6304,63,"Anjir Pasar",,,null
+630404,6304,63,"Anjir Muara",,,null
 630405,6304,63,Alalak,,,null
+630406,6304,63,Mandastana,,,null
+630407,6304,63,"Rantau Badauh",,,null
+630408,6304,63,Belawang,,,null
+630409,6304,63,Cerbon,,,null
+630410,6304,63,Bakumpai,,,null
 630411,6304,63,Kuripan,,,null
+630412,6304,63,Tabukan,,,null
+630413,6304,63,Mekarsari,,,null
+630414,6304,63,Barambai,,,null
+630415,6304,63,Marabahan,,,null
+630416,6304,63,Wanaraya,,,null
+630417,6304,63,Jejangkit,,,null
+630501,6305,63,Binuang,,,null
+630502,6305,63,"Tapin Selatan",,,null
+630503,6305,63,"Tapin Tengah",,,null
+630504,6305,63,"Tapin Utara",,,null
+630505,6305,63,"Candi Laras Selatan",,,null
+630506,6305,63,"Candi Laras Utara",,,null
+630507,6305,63,Bakarangan,,,null
+630508,6305,63,Piani,,,null
+630509,6305,63,Bungur,,,null
+630510,6305,63,Lokpaikat,,,null
 630511,6305,63,"Salam Babaris",,,null
 630512,6305,63,Hatungun,,,null
-630604,6306,63,Angkinang,,,null
-630611,6306,63,"Daha Barat",,,null
-637206,6372,63,"Liang Anggang",,,null
-630111,6301,63,"Bumi Makmur",,,null
-630903,6309,63,Tanta,,,null
-630711,6307,63,Limpasu,,,null
-630802,6308,63,Babirik,,,null
-631102,6311,63,Halong,,,null
-630219,6302,63,"Pamukan Barat",,,null
-630408,6304,63,Belawang,,,null
-630701,6307,63,Haruyan,,,null
-631002,6310,63,"Kusan Hilir",,,null
-630105,6301,63,"Bati Bati",,,null
-630406,6304,63,Mandastana,,,null
-630414,6304,63,Barambai,,,null
-630214,6302,63,Hampang,,,null
-630809,6308,63,Paminggir,,,null
-630216,6302,63,"Pulau Laut Tengah",,,null
-630221,6302,63,"Pulau Laut Tanjung Selayar",,,null
-630506,6305,63,"Candi Laras Utara",,,null
-630607,6306,63,"Daha Selatan",,,null
-630222,6302,63,"Pulaulaut Sigam",,,null
-630410,6304,63,Bakumpai,,,null
-630610,6306,63,Loksado,,,null
-630708,6307,63,"Batang Alai Utara",,,null
-630801,6308,63,"Danau Panggang",,,null
-631012,6310,63,"Teluk Kepayang",,,null
-630305,6303,63,Martapura,,,null
-630602,6306,63,"Padang Batung",,,null
-630905,6309,63,Haruai,,,null
-630308,6303,63,"Simpang Empat",,,null
-630417,6304,63,Jejangkit,,,null
-630505,6305,63,"Candi Laras Selatan",,,null
-630808,6308,63,"Haur Gading",,,null
-631001,6310,63,"Batu Licin",,,null
-630403,6304,63,"Anjir Pasar",,,null
-630412,6304,63,Tabukan,,,null
-630703,6307,63,"Labuan Amas Selatan",,,null
-631103,6311,63,Awayan,,,null
-630311,6303,63,Aranio,,,null
-630314,6303,63,"Martapura Barat",,,null
-630510,6305,63,Lokpaikat,,,null
-637202,6372,63,"Landasan Ulin",,,null
-630605,6306,63,Kandangan,,,null
-637104,6371,63,"Banjarmasin Utara",,,null
-637204,6372,63,"Banjarbaru Utara",,,null
-630409,6304,63,Cerbon,,,null
-630501,6305,63,Binuang,,,null
-630606,6306,63,Simpur,,,null
-637102,6371,63,"Banjarmasin Timur",,,null
-630202,6302,63,"Pulau Laut Barat",,,null
-630316,6303,63,"Sambung Makmur",,,null
-630318,6303,63,"Telaga Bauntung",,,null
-630907,6309,63,"Muara Uya",,,null
-630107,6301,63,Kintap,,,null
-630110,6301,63,Bajuin,,,null
-630208,6302,63,"Kelumpang Hulu",,,null
-630415,6304,63,Marabahan,,,null
-630805,6308,63,"Amuntai Tengah",,,null
-630908,6309,63,"Muara Harus",,,null
-630102,6301,63,Jorong,,,null
-630108,6301,63,"Tambang Ulang",,,null
-630209,6302,63,"Kelumpang Tengah",,,null
-630212,6302,63,Sampanahan,,,null
 630601,6306,63,"Sungai Raya",,,null
-630804,6308,63,"Amuntai Selatan",,,null
-630810,6308,63,"Sungai Tabukan",,,null
-630902,6309,63,Kelua,,,null
-631101,6311,63,Juai,,,null
-630508,6305,63,Piani,,,null
-630201,6302,63,"Pulau Sembilan",,,null
-630206,6302,63,"Pulaulaut Utara",,,null
-630218,6302,63,"Kelumpang Barat",,,null
-630302,6303,63,"Kertak Hanyar",,,null
-630507,6305,63,Bakarangan,,,null
-630911,6309,63,Jaro,,,null
-630217,6302,63,"Kelumpang Hilir",,,null
-630416,6304,63,Wanaraya,,,null
-630103,6301,63,Pelaihari,,,null
-630211,6302,63,"Pamukan Selatan",,,null
-630220,6302,63,"Pulau Laut Kepulauan",,,null
-630306,6303,63,"Karang Intan",,,null
-630509,6305,63,Bungur,,,null
+630602,6306,63,"Padang Batung",,,null
+630603,6306,63,"Telaga Langsat",,,null
+630604,6306,63,Angkinang,,,null
+630605,6306,63,Kandangan,,,null
+630606,6306,63,Simpur,,,null
+630607,6306,63,"Daha Selatan",,,null
 630608,6306,63,"Daha Utara",,,null
+630609,6306,63,Kalumpang,,,null
+630610,6306,63,Loksado,,,null
+630611,6306,63,"Daha Barat",,,null
+630701,6307,63,Haruyan,,,null
 630702,6307,63,"Batu Benawa",,,null
+630703,6307,63,"Labuan Amas Selatan",,,null
 630704,6307,63,"Labuan Amas Utara",,,null
-631004,6310,63,Satui,,,null
-631105,6311,63,Lampihong,,,null
-631108,6311,63,"Tebing Tinggi",,,null
-630101,6301,63,Takisung,,,null
-630109,6301,63,"Batu Ampar",,,null
-630503,6305,63,"Tapin Tengah",,,null
-630309,6303,63,Pengarom,,,null
-630901,6309,63,"Banua Lawas",,,null
-631011,6310,63,"Kusan Tengah",,,null
-631106,6311,63,Paringin,,,null
-630204,6302,63,"Pulau Laut Timur",,,null
-630301,6303,63,"Aluh Aluh",,,null
-630315,6303,63,"Martapura Timur",,,null
-630320,6303,63,"Cintapuri Darussalam",,,null
-630413,6304,63,Mekarsari,,,null
-630504,6305,63,"Tapin Utara",,,null
-630707,6307,63,"Batang Alai Selatan",,,null
-630906,6309,63,"Murung Pudak",,,null
-637203,6372,63,Cempaka,,,null
-630205,6302,63,"Pulau Sebuku",,,null
-630210,6302,63,"Kelumpang Utara",,,null
-630404,6304,63,"Anjir Muara",,,null
-630909,6309,63,Pugaan,,,null
-631008,6310,63,Mantewe,,,null
-630203,6302,63,"Pulau Laut Selatan",,,null
-630307,6303,63,Astambul,,,null
-630317,6303,63,Paramasan,,,null
-630319,6303,63,"Tatah Makmur",,,null
-630709,6307,63,Hantakan,,,null
-630806,6308,63,"Amuntai Utara",,,null
-637205,6372,63,"Banjarbaru Selatan",,,null
-630106,6301,63,Panyipatan,,,null
-630304,6303,63,"Sungai Tabuk",,,null
 630705,6307,63,Pandawan,,,null
+630706,6307,63,Barabai,,,null
+630707,6307,63,"Batang Alai Selatan",,,null
+630708,6307,63,"Batang Alai Utara",,,null
+630709,6307,63,Hantakan,,,null
+630710,6307,63,"Batang Alai Timur",,,null
+630711,6307,63,Limpasu,,,null
+630801,6308,63,"Danau Panggang",,,null
+630802,6308,63,Babirik,,,null
 630803,6308,63,"Sungai Pandan",,,null
+630804,6308,63,"Amuntai Selatan",,,null
+630805,6308,63,"Amuntai Tengah",,,null
+630806,6308,63,"Amuntai Utara",,,null
+630807,6308,63,Banjang,,,null
+630808,6308,63,"Haur Gading",,,null
+630809,6308,63,Paminggir,,,null
+630810,6308,63,"Sungai Tabukan",,,null
+630901,6309,63,"Banua Lawas",,,null
+630902,6309,63,Kelua,,,null
+630903,6309,63,Tanta,,,null
+630904,6309,63,Tanjung,,,null
+630905,6309,63,Haruai,,,null
+630906,6309,63,"Murung Pudak",,,null
+630907,6309,63,"Muara Uya",,,null
+630908,6309,63,"Muara Harus",,,null
+630909,6309,63,Pugaan,,,null
+630910,6309,63,Upau,,,null
+630911,6309,63,Jaro,,,null
+630912,6309,63,"Bintang Ara",,,null
+631001,6310,63,"Batu Licin",,,null
+631002,6310,63,"Kusan Hilir",,,null
+631003,6310,63,"Sungai Loban",,,null
+631004,6310,63,Satui,,,null
+631005,6310,63,"Kusan Hulu",,,null
+631006,6310,63,"Simpang Empat",,,null
+631007,6310,63,"Karang Bintang",,,null
+631008,6310,63,Mantewe,,,null
+631009,6310,63,Angsana,,,null
+631010,6310,63,Kuranji,,,null
+631011,6310,63,"Kusan Tengah",,,null
+631012,6310,63,"Teluk Kepayang",,,null
+631101,6311,63,Juai,,,null
+631102,6311,63,Halong,,,null
+631103,6311,63,Awayan,,,null
+631104,6311,63,"Batu Mandi",,,null
+631105,6311,63,Lampihong,,,null
+631106,6311,63,Paringin,,,null
+631107,6311,63,"Paringin Selatan",,,null
+631108,6311,63,"Tebing Tinggi",,,null
 637101,6371,63,"Banjarmasin Selatan",,,null
+637102,6371,63,"Banjarmasin Timur",,,null
+637103,6371,63,"Banjarmasin Barat",,,null
+637104,6371,63,"Banjarmasin Utara",,,null
+637105,6371,63,"Banjarmasin Tengah",,,null
+637202,6372,63,"Landasan Ulin",,,null
+637203,6372,63,Cempaka,,,null
+637204,6372,63,"Banjarbaru Utara",,,null
+637205,6372,63,"Banjarbaru Selatan",,,null
+637206,6372,63,"Liang Anggang",,,null

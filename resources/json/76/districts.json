@@ -1,72 +1,18 @@
 [
     {
-        "code": 760106,
+        "code": 760101,
         "regency_code": 7601,
         "province_code": 76,
-        "name": "Duripoku",
+        "name": "Bambalamotu",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 760314,
-        "regency_code": 7603,
-        "province_code": 76,
-        "name": "Tawalian",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 760601,
-        "regency_code": 7606,
-        "province_code": 76,
-        "name": "Tobadak",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 760112,
+        "code": 760102,
         "regency_code": 7601,
         "province_code": 76,
-        "name": "Lariang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 760213,
-        "regency_code": 7602,
-        "province_code": 76,
-        "name": "Tapalang Barat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 760317,
-        "regency_code": 7603,
-        "province_code": 76,
-        "name": "Mehalaan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 760508,
-        "regency_code": 7605,
-        "province_code": 76,
-        "name": "Banggae Timur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 760604,
-        "regency_code": 7606,
-        "province_code": 76,
-        "name": "Topoyo",
+        "name": "Pasangkayu",
         "latitude": null,
         "longitude": null,
         "coordinates": null
@@ -81,28 +27,55 @@
         "coordinates": null
     },
     {
-        "code": 760207,
-        "regency_code": 7602,
+        "code": 760104,
+        "regency_code": 7601,
         "province_code": 76,
-        "name": "Papalang",
+        "name": "Sarudu",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 760211,
-        "regency_code": 7602,
+        "code": 760105,
+        "regency_code": 7601,
         "province_code": 76,
-        "name": "Tommo",
+        "name": "Dapurang",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 760415,
-        "regency_code": 7604,
+        "code": 760106,
+        "regency_code": 7601,
         "province_code": 76,
-        "name": "Allu",
+        "name": "Duripoku",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 760107,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Bulu Taba",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 760108,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Tikke Raya",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 760109,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Pedongga",
         "latitude": null,
         "longitude": null,
         "coordinates": null
@@ -126,28 +99,19 @@
         "coordinates": null
     },
     {
-        "code": 760301,
-        "regency_code": 7603,
+        "code": 760112,
+        "regency_code": 7601,
         "province_code": 76,
-        "name": "Mambi",
+        "name": "Lariang",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 760303,
-        "regency_code": 7603,
+        "code": 760201,
+        "regency_code": 7602,
         "province_code": 76,
-        "name": "Mamasa",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 760405,
-        "regency_code": 7604,
-        "province_code": 76,
-        "name": "Tutar",
+        "name": "Mamuju",
         "latitude": null,
         "longitude": null,
         "coordinates": null
@@ -162,82 +126,10 @@
         "coordinates": null
     },
     {
-        "code": 760407,
-        "regency_code": 7604,
-        "province_code": 76,
-        "name": "Tapango",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 760216,
+        "code": 760203,
         "regency_code": 7602,
         "province_code": 76,
-        "name": "Kep. Bala Balakang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 760408,
-        "regency_code": 7604,
-        "province_code": 76,
-        "name": "Mapilli",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 760502,
-        "regency_code": 7605,
-        "province_code": 76,
-        "name": "Pamboang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 760101,
-        "regency_code": 7601,
-        "province_code": 76,
-        "name": "Bambalamotu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 760315,
-        "regency_code": 7603,
-        "province_code": 76,
-        "name": "Rantebulahan Timur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 760212,
-        "regency_code": 7602,
-        "province_code": 76,
-        "name": "Simboro dan Kepulauan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 760307,
-        "regency_code": 7603,
-        "province_code": 76,
-        "name": "Messawa",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 760404,
-        "regency_code": 7604,
-        "province_code": 76,
-        "name": "Polewali",
+        "name": "Kalukku",
         "latitude": null,
         "longitude": null,
         "coordinates": null
@@ -252,6 +144,159 @@
         "coordinates": null
     },
     {
+        "code": 760207,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Papalang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 760208,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Sampaga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 760211,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Tommo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 760212,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Simboro dan Kepulauan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 760213,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Tapalang Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 760215,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Bonehau",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 760216,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Kep. Bala Balakang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 760301,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Mambi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 760302,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Aralle",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 760303,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Mamasa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 760304,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Pana",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 760305,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Tabulahan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 760306,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Sumarorong",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 760307,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Messawa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 760308,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Sesenapadang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 760309,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Tanduk Kalua",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 760310,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Tabang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
         "code": 760311,
         "regency_code": 7603,
         "province_code": 76,
@@ -261,10 +306,64 @@
         "coordinates": null
     },
     {
-        "code": 760203,
-        "regency_code": 7602,
+        "code": 760312,
+        "regency_code": 7603,
         "province_code": 76,
-        "name": "Kalukku",
+        "name": "Balla",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 760313,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Nosu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 760314,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Tawalian",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 760315,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Rantebulahan Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 760316,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Buntumalangka",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 760317,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Mehalaan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 760401,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Tinambung",
         "latitude": null,
         "longitude": null,
         "coordinates": null
@@ -279,37 +378,91 @@
         "coordinates": null
     },
     {
-        "code": 760416,
+        "code": 760403,
         "regency_code": 7604,
         "province_code": 76,
-        "name": "Bulo",
+        "name": "Wonomulyo",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 760501,
-        "regency_code": 7605,
+        "code": 760404,
+        "regency_code": 7604,
         "province_code": 76,
-        "name": "Banggae",
+        "name": "Polewali",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 760102,
-        "regency_code": 7601,
+        "code": 760405,
+        "regency_code": 7604,
         "province_code": 76,
-        "name": "Pasangkayu",
+        "name": "Tutar",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 760310,
-        "regency_code": 7603,
+        "code": 760406,
+        "regency_code": 7604,
         "province_code": 76,
-        "name": "Tabang",
+        "name": "Binuang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 760407,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Tapango",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 760408,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Mapilli",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 760409,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Matangnga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 760410,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Luyo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 760411,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Limboro",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 760412,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Balanipa",
         "latitude": null,
         "longitude": null,
         "coordinates": null
@@ -333,154 +486,37 @@
         "coordinates": null
     },
     {
-        "code": 760305,
-        "regency_code": 7603,
-        "province_code": 76,
-        "name": "Tabulahan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 760603,
-        "regency_code": 7606,
-        "province_code": 76,
-        "name": "Budong-Budong",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 760309,
-        "regency_code": 7603,
-        "province_code": 76,
-        "name": "Tanduk Kalua",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 760108,
-        "regency_code": 7601,
-        "province_code": 76,
-        "name": "Tikke Raya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 760306,
-        "regency_code": 7603,
-        "province_code": 76,
-        "name": "Sumarorong",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 760313,
-        "regency_code": 7603,
-        "province_code": 76,
-        "name": "Nosu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 760403,
+        "code": 760415,
         "regency_code": 7604,
         "province_code": 76,
-        "name": "Wonomulyo",
+        "name": "Allu",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 760406,
+        "code": 760416,
         "regency_code": 7604,
         "province_code": 76,
-        "name": "Binuang",
+        "name": "Bulo",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 760602,
-        "regency_code": 7606,
-        "province_code": 76,
-        "name": "Pangale",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 760312,
-        "regency_code": 7603,
-        "province_code": 76,
-        "name": "Balla",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 760507,
+        "code": 760501,
         "regency_code": 7605,
         "province_code": 76,
-        "name": "Tubo Sendana",
+        "name": "Banggae",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 760304,
-        "regency_code": 7603,
+        "code": 760502,
+        "regency_code": 7605,
         "province_code": 76,
-        "name": "Pana",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 760316,
-        "regency_code": 7603,
-        "province_code": 76,
-        "name": "Buntumalangka",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 760201,
-        "regency_code": 7602,
-        "province_code": 76,
-        "name": "Mamuju",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 760208,
-        "regency_code": 7602,
-        "province_code": 76,
-        "name": "Sampaga",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 760401,
-        "regency_code": 7604,
-        "province_code": 76,
-        "name": "Tinambung",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 760412,
-        "regency_code": 7604,
-        "province_code": 76,
-        "name": "Balanipa",
+        "name": "Pamboang",
         "latitude": null,
         "longitude": null,
         "coordinates": null
@@ -490,24 +526,6 @@
         "regency_code": 7605,
         "province_code": 76,
         "name": "Sendana",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 760411,
-        "regency_code": 7604,
-        "province_code": 76,
-        "name": "Limboro",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 760308,
-        "regency_code": 7603,
-        "province_code": 76,
-        "name": "Sesenapadang",
         "latitude": null,
         "longitude": null,
         "coordinates": null
@@ -531,33 +549,6 @@
         "coordinates": null
     },
     {
-        "code": 760104,
-        "regency_code": 7601,
-        "province_code": 76,
-        "name": "Sarudu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 760409,
-        "regency_code": 7604,
-        "province_code": 76,
-        "name": "Matangnga",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 760302,
-        "regency_code": 7603,
-        "province_code": 76,
-        "name": "Aralle",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
         "code": 760506,
         "regency_code": 7605,
         "province_code": 76,
@@ -567,55 +558,64 @@
         "coordinates": null
     },
     {
+        "code": 760507,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Tubo Sendana",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 760508,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Banggae Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 760601,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Tobadak",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 760602,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Pangale",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 760603,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Budong-Budong",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 760604,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Topoyo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
         "code": 760605,
         "regency_code": 7606,
         "province_code": 76,
         "name": "Karossa",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 760105,
-        "regency_code": 7601,
-        "province_code": 76,
-        "name": "Dapurang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 760109,
-        "regency_code": 7601,
-        "province_code": 76,
-        "name": "Pedongga",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 760107,
-        "regency_code": 7601,
-        "province_code": 76,
-        "name": "Bulu Taba",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 760215,
-        "regency_code": 7602,
-        "province_code": 76,
-        "name": "Bonehau",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 760410,
-        "regency_code": 7604,
-        "province_code": 76,
-        "name": "Luyo",
         "latitude": null,
         "longitude": null,
         "coordinates": null

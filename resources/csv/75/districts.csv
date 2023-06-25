@@ -1,78 +1,78 @@
 code,regency_code,province_code,name,latitude,longitude,coordinates
-750122,7501,75,"Talaga Jaya",,,null
-750316,7503,75,"Bulango Timur",,,null
-750411,7504,75,Wanggarasi,,,null
-750501,7505,75,Atinggola,,,null
-750205,7502,75,Mananggu,,,null
-750303,7503,75,Suwawa,,,null
-750403,7504,75,Randangan,,,null
-750502,7505,75,Kwandang,,,null
-750124,7501,75,Dungaliyo,,,null
-750407,7504,75,Taluditi,,,null
-750506,7505,75,"Gentuma Raya",,,null
-757102,7571,75,"Kota Selatan",,,null
-757106,7571,75,"Kota Tengah",,,null
-750119,7501,75,Tabongo,,,null
-750203,7502,75,Dulupi,,,null
-750504,7505,75,Sumalata,,,null
-750509,7505,75,Monano,,,null
-750202,7502,75,Wonosari,,,null
-750406,7504,75,Patilanggio,,,null
-750103,7501,75,Batudaa,,,null
-750308,7503,75,"Kabila Bone",,,null
-750310,7503,75,"Bone Raya",,,null
-750102,7501,75,Telaga,,,null
-750123,7501,75,Bilato,,,null
-750410,7504,75,Duhiadaa,,,null
-750413,7504,75,"Popayato Barat",,,null
-757107,7571,75,Sipatana,,,null
-750109,7501,75,Boliyohuto,,,null
 750101,7501,75,Limboto,,,null
-750204,7502,75,Tilamuta,,,null
-750312,7503,75,"Suwawa Selatan",,,null
-750114,7501,75,Mootilango,,,null
-750313,7503,75,"Suwawa Tengah",,,null
-750318,7503,75,Pinogu,,,null
-750408,7504,75,Dengilo,,,null
-750505,7505,75,Tolinggula,,,null
-750301,7503,75,Tapa,,,null
-750304,7503,75,Bonepantai,,,null
-750315,7503,75,"Bulango Selatan",,,null
-750402,7504,75,Lemito,,,null
-757104,7571,75,Dungingi,,,null
-750409,7504,75,Buntulia,,,null
-750412,7504,75,"Popayato Timur",,,null
-750120,7501,75,Biluhu,,,null
-750309,7503,75,Bone,,,null
-757101,7571,75,"Kota Barat",,,null
-750201,7502,75,Paguyaman,,,null
-750207,7502,75,"Paguyaman Pantai",,,null
-750206,7502,75,Botumoita,,,null
-750311,7503,75,"Suwawa Timur",,,null
-750511,7505,75,"Sumalata Timur",,,null
-757103,7571,75,"Kota Utara",,,null
-750116,7501,75,Pulubala,,,null
-750305,7503,75,"Bulango Utara",,,null
-750306,7503,75,Tilongkabila,,,null
+750102,7501,75,Telaga,,,null
+750103,7501,75,Batudaa,,,null
+750104,7501,75,Tibawa,,,null
+750105,7501,75,"Batudaa Pantai",,,null
+750109,7501,75,Boliyohuto,,,null
 750110,7501,75,"Telaga Biru",,,null
 750111,7501,75,Bongomeme,,,null
 750113,7501,75,Tolangohula,,,null
-750104,7501,75,Tibawa,,,null
+750114,7501,75,Mootilango,,,null
+750116,7501,75,Pulubala,,,null
 750117,7501,75,"Limboto Barat",,,null
-750510,7505,75,Biau,,,null
-757109,7571,75,Hulonthalangi,,,null
-750314,7503,75,"Bulango Ulu",,,null
-750507,7505,75,Tomolito,,,null
-750105,7501,75,"Batudaa Pantai",,,null
-750317,7503,75,Bulawa,,,null
-750405,7504,75,Paguat,,,null
-750503,7505,75,Anggrek,,,null
-750508,7505,75,"Ponelo Kepulauan",,,null
 750118,7501,75,Tilango,,,null
-750307,7503,75,Botupingge,,,null
-750401,7504,75,Popayato,,,null
+750119,7501,75,Tabongo,,,null
+750120,7501,75,Biluhu,,,null
 750121,7501,75,Asparaga,,,null
-757105,7571,75,"Kota Timur",,,null
+750122,7501,75,"Talaga Jaya",,,null
+750123,7501,75,Bilato,,,null
+750124,7501,75,Dungaliyo,,,null
+750201,7502,75,Paguyaman,,,null
+750202,7502,75,Wonosari,,,null
+750203,7502,75,Dulupi,,,null
+750204,7502,75,Tilamuta,,,null
+750205,7502,75,Mananggu,,,null
+750206,7502,75,Botumoita,,,null
+750207,7502,75,"Paguyaman Pantai",,,null
+750301,7503,75,Tapa,,,null
 750302,7503,75,Kabila,,,null
+750303,7503,75,Suwawa,,,null
+750304,7503,75,Bonepantai,,,null
+750305,7503,75,"Bulango Utara",,,null
+750306,7503,75,Tilongkabila,,,null
+750307,7503,75,Botupingge,,,null
+750308,7503,75,"Kabila Bone",,,null
+750309,7503,75,Bone,,,null
+750310,7503,75,"Bone Raya",,,null
+750311,7503,75,"Suwawa Timur",,,null
+750312,7503,75,"Suwawa Selatan",,,null
+750313,7503,75,"Suwawa Tengah",,,null
+750314,7503,75,"Bulango Ulu",,,null
+750315,7503,75,"Bulango Selatan",,,null
+750316,7503,75,"Bulango Timur",,,null
+750317,7503,75,Bulawa,,,null
+750318,7503,75,Pinogu,,,null
+750401,7504,75,Popayato,,,null
+750402,7504,75,Lemito,,,null
+750403,7504,75,Randangan,,,null
 750404,7504,75,Marisa,,,null
+750405,7504,75,Paguat,,,null
+750406,7504,75,Patilanggio,,,null
+750407,7504,75,Taluditi,,,null
+750408,7504,75,Dengilo,,,null
+750409,7504,75,Buntulia,,,null
+750410,7504,75,Duhiadaa,,,null
+750411,7504,75,Wanggarasi,,,null
+750412,7504,75,"Popayato Timur",,,null
+750413,7504,75,"Popayato Barat",,,null
+750501,7505,75,Atinggola,,,null
+750502,7505,75,Kwandang,,,null
+750503,7505,75,Anggrek,,,null
+750504,7505,75,Sumalata,,,null
+750505,7505,75,Tolinggula,,,null
+750506,7505,75,"Gentuma Raya",,,null
+750507,7505,75,Tomolito,,,null
+750508,7505,75,"Ponelo Kepulauan",,,null
+750509,7505,75,Monano,,,null
+750510,7505,75,Biau,,,null
+750511,7505,75,"Sumalata Timur",,,null
+757101,7571,75,"Kota Barat",,,null
+757102,7571,75,"Kota Selatan",,,null
+757103,7571,75,"Kota Utara",,,null
+757104,7571,75,Dungingi,,,null
+757105,7571,75,"Kota Timur",,,null
+757106,7571,75,"Kota Tengah",,,null
+757107,7571,75,Sipatana,,,null
 757108,7571,75,"Dumbo Raya",,,null
+757109,7571,75,Hulonthalangi,,,null

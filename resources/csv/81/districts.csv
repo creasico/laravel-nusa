@@ -1,119 +1,119 @@
 code,regency_code,province_code,name,latitude,longitude,coordinates
-810509,8105,81,"Pulau Panjang",,,null
-817104,8171,81,"Teluk Ambon",,,null
-810802,8108,81,Damer,,,null
-810905,8109,81,Leksula,,,null
-810906,8109,81,"Fena Fafan",,,null
-810102,8101,81,"Teon Nila Serua",,,null
-810817,8108,81,"Kisar Utara",,,null
-810123,8101,81,Telutih,,,null
-810216,8102,81,"Hoat Sorbay",,,null
-810219,8102,81,"Kei Kecil Timur Selatan",,,null
-810309,8103,81,Nirunmas,,,null
-810506,8105,81,"Tutuk Tolu",,,null
 810101,8101,81,Amahai,,,null
-810121,8101,81,"Teluk Elpaputih",,,null
-810510,8105,81,Teor,,,null
-810602,8106,81,"Seram Barat",,,null
-810608,8106,81,Huamual,,,null
-810122,8101,81,"Leihitu Barat",,,null
-810218,8102,81,"Kei Besar Selatan Barat",,,null
-810804,8108,81,"Pulau-Pulau Babar",,,null
-817103,8171,81,Baguala,,,null
-810414,8104,81,"Teluk Kaiely",,,null
-810807,8108,81,"Pulau-pulau Terselatan",,,null
-810605,8106,81,Amalatu,,,null
-810609,8106,81,"Kepulauan Manipa",,,null
-810515,8105,81,"Teluk Waru",,,null
-810705,8107,81,"Aru Utara Timur Batuley",,,null
-810708,8107,81,"Aru Tengah Selatan",,,null
-810805,8108,81,"Pulau-pulau Babar Timur",,,null
-810301,8103,81,"Tanimbar Selatan",,,null
-810606,8106,81,Inamosol,,,null
-810113,8101,81,"Pulau Haruku",,,null
-810126,8101,81,"Saparua Timur",,,null
-810508,8105,81,Kilmury,,,null
-810512,8105,81,"Bula Barat",,,null
-810604,8106,81,"Huamual Belakang",,,null
-810709,8107,81,"Aru Selatan Timur",,,null
-810115,8101,81,Leihitu,,,null
-810205,8102,81,"Kei Besar Utara Timur",,,null
-810305,8103,81,"Tanimbar Utara",,,null
-810816,8108,81,"Kepulauan Romang",,,null
-810504,8105,81,"Pulau Gorom",,,null
-810514,8105,81,"Siritaun Wida Timur",,,null
-810707,8107,81,"Aru Tengah Timur",,,null
-810813,8108,81,"Wetar Utara",,,null
-810505,8105,81,Wakate,,,null
-810904,8109,81,"Kepala Madan",,,null
-817203,8172,81,"Tayando Tam",,,null
-810120,8101,81,"Seram Utara Barat",,,null
-810217,8102,81,"Kei Besar Utara Barat",,,null
-810903,8109,81,Ambalau,,,null
-810213,8102,81,"Kei Kecil Timur",,,null
-810307,8103,81,"Wuar Labobar",,,null
-810402,8104,81,"Air Buaya",,,null
-810808,8108,81,"Pulau Leti",,,null
-817201,8172,81,"Pulau Dullah Utara",,,null
-810401,8104,81,Namlea,,,null
-810410,8104,81,Batabual,,,null
-810513,8105,81,"Kian Darat",,,null
-810611,8106,81,Elpaputih,,,null
-810702,8107,81,"Aru Selatan",,,null
-810812,8108,81,"Pulau Lakor",,,null
-810815,8108,81,"Wetar Timur",,,null
-810117,8101,81,"Kota Masohi",,,null
-810125,8101,81,"Seram Utara Timur Kobi",,,null
-810318,8103,81,"Molu Maru",,,null
-810610,8106,81,"Taniwel Timur",,,null
-810304,8103,81,"Wer Maktian",,,null
-810507,8105,81,Siwalalat,,,null
-810701,8107,81,"Pulau-Pulau Aru",,,null
-817205,8172,81,"Kur Selatan",,,null
-810124,8101,81,"Seram Utara Timur Seti",,,null
-810302,8103,81,Selaru,,,null
-810308,8103,81,Kormomolin,,,null
-810607,8106,81,"Kairatu Barat",,,null
-810811,8108,81,"Pulau Wetang",,,null
-810403,8104,81,Waeapo,,,null
-810511,8105,81,"Gorom Timur",,,null
-810801,8108,81,"Moa Lakor",,,null
-810204,8102,81,"Kei Besar Selatan",,,null
-810603,8106,81,Taniwel,,,null
-810704,8107,81,"Aru Utara",,,null
-810803,8108,81,"Mndona Hiera",,,null
-810814,8108,81,"Wetar Barat",,,null
-817101,8171,81,Nusaniwe,,,null
-810201,8102,81,"Kei Kecil",,,null
-810203,8102,81,"Kei Besar",,,null
-810406,8104,81,Waplau,,,null
-810706,8107,81,Sir-Sir,,,null
+810102,8101,81,"Teon Nila Serua",,,null
 810106,8101,81,"Seram Utara",,,null
 810109,8101,81,Banda,,,null
-810112,8101,81,Saparua,,,null
-810411,8104,81,"Lolong Guba",,,null
-810503,8105,81,Werinama,,,null
-810413,8104,81,"Fena Leisela",,,null
-810809,8108,81,"Pulau Masela",,,null
-817105,8171,81,"Leitimur Selatan",,,null
-810116,8101,81,"Nusa Laut",,,null
-810214,8102,81,"Kei Kecil Barat",,,null
-810303,8103,81,"Wer Tamrian",,,null
-810502,8105,81,"Seram Timur",,,null
-810806,8108,81,Wetar,,,null
-810810,8108,81,"Dawelor Dawera",,,null
-817202,8172,81,"Pulau Dullah Selatan",,,null
 810111,8101,81,Tehoru,,,null
-810215,8102,81,Manyeuw,,,null
-810501,8105,81,Bula,,,null
-810902,8109,81,Waesama,,,null
-817204,8172,81,"Pulau-Pulau Kur",,,null
-810412,8104,81,Waelata,,,null
-810601,8106,81,Kairatu,,,null
-810901,8109,81,Namrole,,,null
-817102,8171,81,Sirimau,,,null
+810112,8101,81,Saparua,,,null
+810113,8101,81,"Pulau Haruku",,,null
 810114,8101,81,Salahutu,,,null
+810115,8101,81,Leihitu,,,null
+810116,8101,81,"Nusa Laut",,,null
+810117,8101,81,"Kota Masohi",,,null
+810120,8101,81,"Seram Utara Barat",,,null
+810121,8101,81,"Teluk Elpaputih",,,null
+810122,8101,81,"Leihitu Barat",,,null
+810123,8101,81,Telutih,,,null
+810124,8101,81,"Seram Utara Timur Seti",,,null
+810125,8101,81,"Seram Utara Timur Kobi",,,null
+810126,8101,81,"Saparua Timur",,,null
+810201,8102,81,"Kei Kecil",,,null
+810203,8102,81,"Kei Besar",,,null
+810204,8102,81,"Kei Besar Selatan",,,null
+810205,8102,81,"Kei Besar Utara Timur",,,null
+810213,8102,81,"Kei Kecil Timur",,,null
+810214,8102,81,"Kei Kecil Barat",,,null
+810215,8102,81,Manyeuw,,,null
+810216,8102,81,"Hoat Sorbay",,,null
+810217,8102,81,"Kei Besar Utara Barat",,,null
+810218,8102,81,"Kei Besar Selatan Barat",,,null
+810219,8102,81,"Kei Kecil Timur Selatan",,,null
+810301,8103,81,"Tanimbar Selatan",,,null
+810302,8103,81,Selaru,,,null
+810303,8103,81,"Wer Tamrian",,,null
+810304,8103,81,"Wer Maktian",,,null
+810305,8103,81,"Tanimbar Utara",,,null
 810306,8103,81,Yaru,,,null
+810307,8103,81,"Wuar Labobar",,,null
+810308,8103,81,Kormomolin,,,null
+810309,8103,81,Nirunmas,,,null
+810318,8103,81,"Molu Maru",,,null
+810401,8104,81,Namlea,,,null
+810402,8104,81,"Air Buaya",,,null
+810403,8104,81,Waeapo,,,null
+810406,8104,81,Waplau,,,null
+810410,8104,81,Batabual,,,null
+810411,8104,81,"Lolong Guba",,,null
+810412,8104,81,Waelata,,,null
+810413,8104,81,"Fena Leisela",,,null
+810414,8104,81,"Teluk Kaiely",,,null
 810415,8104,81,Lilialy,,,null
+810501,8105,81,Bula,,,null
+810502,8105,81,"Seram Timur",,,null
+810503,8105,81,Werinama,,,null
+810504,8105,81,"Pulau Gorom",,,null
+810505,8105,81,Wakate,,,null
+810506,8105,81,"Tutuk Tolu",,,null
+810507,8105,81,Siwalalat,,,null
+810508,8105,81,Kilmury,,,null
+810509,8105,81,"Pulau Panjang",,,null
+810510,8105,81,Teor,,,null
+810511,8105,81,"Gorom Timur",,,null
+810512,8105,81,"Bula Barat",,,null
+810513,8105,81,"Kian Darat",,,null
+810514,8105,81,"Siritaun Wida Timur",,,null
+810515,8105,81,"Teluk Waru",,,null
+810601,8106,81,Kairatu,,,null
+810602,8106,81,"Seram Barat",,,null
+810603,8106,81,Taniwel,,,null
+810604,8106,81,"Huamual Belakang",,,null
+810605,8106,81,Amalatu,,,null
+810606,8106,81,Inamosol,,,null
+810607,8106,81,"Kairatu Barat",,,null
+810608,8106,81,Huamual,,,null
+810609,8106,81,"Kepulauan Manipa",,,null
+810610,8106,81,"Taniwel Timur",,,null
+810611,8106,81,Elpaputih,,,null
+810701,8107,81,"Pulau-Pulau Aru",,,null
+810702,8107,81,"Aru Selatan",,,null
 810703,8107,81,"Aru Tengah",,,null
+810704,8107,81,"Aru Utara",,,null
+810705,8107,81,"Aru Utara Timur Batuley",,,null
+810706,8107,81,Sir-Sir,,,null
+810707,8107,81,"Aru Tengah Timur",,,null
+810708,8107,81,"Aru Tengah Selatan",,,null
+810709,8107,81,"Aru Selatan Timur",,,null
 810710,8107,81,"Aru Selatan Utara",,,null
+810801,8108,81,"Moa Lakor",,,null
+810802,8108,81,Damer,,,null
+810803,8108,81,"Mndona Hiera",,,null
+810804,8108,81,"Pulau-Pulau Babar",,,null
+810805,8108,81,"Pulau-pulau Babar Timur",,,null
+810806,8108,81,Wetar,,,null
+810807,8108,81,"Pulau-pulau Terselatan",,,null
+810808,8108,81,"Pulau Leti",,,null
+810809,8108,81,"Pulau Masela",,,null
+810810,8108,81,"Dawelor Dawera",,,null
+810811,8108,81,"Pulau Wetang",,,null
+810812,8108,81,"Pulau Lakor",,,null
+810813,8108,81,"Wetar Utara",,,null
+810814,8108,81,"Wetar Barat",,,null
+810815,8108,81,"Wetar Timur",,,null
+810816,8108,81,"Kepulauan Romang",,,null
+810817,8108,81,"Kisar Utara",,,null
+810901,8109,81,Namrole,,,null
+810902,8109,81,Waesama,,,null
+810903,8109,81,Ambalau,,,null
+810904,8109,81,"Kepala Madan",,,null
+810905,8109,81,Leksula,,,null
+810906,8109,81,"Fena Fafan",,,null
+817101,8171,81,Nusaniwe,,,null
+817102,8171,81,Sirimau,,,null
+817103,8171,81,Baguala,,,null
+817104,8171,81,"Teluk Ambon",,,null
+817105,8171,81,"Leitimur Selatan",,,null
+817201,8172,81,"Pulau Dullah Utara",,,null
+817202,8172,81,"Pulau Dullah Selatan",,,null
+817203,8172,81,"Tayando Tam",,,null
+817204,8172,81,"Pulau-Pulau Kur",,,null
+817205,8172,81,"Kur Selatan",,,null

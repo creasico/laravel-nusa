@@ -9,6 +9,33 @@
         "coordinates": null
     },
     {
+        "code": 120102,
+        "regency_code": 1201,
+        "province_code": 12,
+        "name": "Sorkam",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120103,
+        "regency_code": 1201,
+        "province_code": 12,
+        "name": "Pandan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120104,
+        "regency_code": 1201,
+        "province_code": 12,
+        "name": "Pinangsori",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
         "code": 120105,
         "regency_code": 1201,
         "province_code": 12,
@@ -18,73 +45,154 @@
         "coordinates": null
     },
     {
-        "code": 120208,
+        "code": 120106,
+        "regency_code": 1201,
+        "province_code": 12,
+        "name": "Kolang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120107,
+        "regency_code": 1201,
+        "province_code": 12,
+        "name": "Tapian Nauli",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120108,
+        "regency_code": 1201,
+        "province_code": 12,
+        "name": "Sibabangun",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120109,
+        "regency_code": 1201,
+        "province_code": 12,
+        "name": "Sosorgadong",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120110,
+        "regency_code": 1201,
+        "province_code": 12,
+        "name": "Sorkam Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120111,
+        "regency_code": 1201,
+        "province_code": 12,
+        "name": "Sirandorung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120112,
+        "regency_code": 1201,
+        "province_code": 12,
+        "name": "Andam Dewi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120113,
+        "regency_code": 1201,
+        "province_code": 12,
+        "name": "Sitahuis",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120114,
+        "regency_code": 1201,
+        "province_code": 12,
+        "name": "Tukka",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120115,
+        "regency_code": 1201,
+        "province_code": 12,
+        "name": "Badiri",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120116,
+        "regency_code": 1201,
+        "province_code": 12,
+        "name": "Pasaribu Tobing",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120117,
+        "regency_code": 1201,
+        "province_code": 12,
+        "name": "Barus Utara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120118,
+        "regency_code": 1201,
+        "province_code": 12,
+        "name": "Suka Bangun",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120119,
+        "regency_code": 1201,
+        "province_code": 12,
+        "name": "Lumut",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120120,
+        "regency_code": 1201,
+        "province_code": 12,
+        "name": "Sarudik",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120201,
         "regency_code": 1202,
         "province_code": 12,
-        "name": "Purba Tua",
+        "name": "Tarutung",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 120214,
+        "code": 120202,
         "regency_code": 1202,
         "province_code": 12,
-        "name": "Garoga",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120725,
-        "regency_code": 1207,
-        "province_code": 12,
-        "name": "Labuhan Deli",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121309,
-        "regency_code": 1213,
-        "province_code": 12,
-        "name": "Lembah Sorik Marapi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121310,
-        "regency_code": 1213,
-        "province_code": 12,
-        "name": "Tambangan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121416,
-        "regency_code": 1214,
-        "province_code": 12,
-        "name": "Pulau-Pulau Batu Timur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121606,
-        "regency_code": 1216,
-        "province_code": 12,
-        "name": "Dolok Sanggul",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127207,
-        "regency_code": 1272,
-        "province_code": 12,
-        "name": "Siantar Sitalasari",
+        "name": "Siatas Barita",
         "latitude": null,
         "longitude": null,
         "coordinates": null
@@ -99,6 +207,294 @@
         "coordinates": null
     },
     {
+        "code": 120204,
+        "regency_code": 1202,
+        "province_code": 12,
+        "name": "Sipoholon",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120205,
+        "regency_code": 1202,
+        "province_code": 12,
+        "name": "Pahae Julu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120206,
+        "regency_code": 1202,
+        "province_code": 12,
+        "name": "Pahae Jae",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120207,
+        "regency_code": 1202,
+        "province_code": 12,
+        "name": "Simangumban",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120208,
+        "regency_code": 1202,
+        "province_code": 12,
+        "name": "Purba Tua",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120209,
+        "regency_code": 1202,
+        "province_code": 12,
+        "name": "Siborong-Borong",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120210,
+        "regency_code": 1202,
+        "province_code": 12,
+        "name": "Pagaran",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120211,
+        "regency_code": 1202,
+        "province_code": 12,
+        "name": "Parmonangan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120212,
+        "regency_code": 1202,
+        "province_code": 12,
+        "name": "Sipahutar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120213,
+        "regency_code": 1202,
+        "province_code": 12,
+        "name": "Pangaribuan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120214,
+        "regency_code": 1202,
+        "province_code": 12,
+        "name": "Garoga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120215,
+        "regency_code": 1202,
+        "province_code": 12,
+        "name": "Muara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120301,
+        "regency_code": 1203,
+        "province_code": 12,
+        "name": "Angkola Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120302,
+        "regency_code": 1203,
+        "province_code": 12,
+        "name": "Batang Toru",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120303,
+        "regency_code": 1203,
+        "province_code": 12,
+        "name": "Angkola Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120304,
+        "regency_code": 1203,
+        "province_code": 12,
+        "name": "Sipirok",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120305,
+        "regency_code": 1203,
+        "province_code": 12,
+        "name": "Saipar Dolok Hole",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120306,
+        "regency_code": 1203,
+        "province_code": 12,
+        "name": "Angkola Selatan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120307,
+        "regency_code": 1203,
+        "province_code": 12,
+        "name": "Batang Angkola",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120314,
+        "regency_code": 1203,
+        "province_code": 12,
+        "name": "Arse",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120320,
+        "regency_code": 1203,
+        "province_code": 12,
+        "name": "Marancar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120321,
+        "regency_code": 1203,
+        "province_code": 12,
+        "name": "Sayur Matinggi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120322,
+        "regency_code": 1203,
+        "province_code": 12,
+        "name": "Aek Bilah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120329,
+        "regency_code": 1203,
+        "province_code": 12,
+        "name": "Muara Batang Toru",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120330,
+        "regency_code": 1203,
+        "province_code": 12,
+        "name": "Tano Tombangan Angkola",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120331,
+        "regency_code": 1203,
+        "province_code": 12,
+        "name": "Angkola Sangkunur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120332,
+        "regency_code": 1203,
+        "province_code": 12,
+        "name": "Angkola Muara Tais",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120405,
+        "regency_code": 1204,
+        "province_code": 12,
+        "name": "Hiliduho",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120406,
+        "regency_code": 1204,
+        "province_code": 12,
+        "name": "Gido",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120410,
+        "regency_code": 1204,
+        "province_code": 12,
+        "name": "Idanogawo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120411,
+        "regency_code": 1204,
+        "province_code": 12,
+        "name": "Bawolato",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120420,
+        "regency_code": 1204,
+        "province_code": 12,
+        "name": "Hiliserangkai",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
         "code": 120421,
         "regency_code": 1204,
         "province_code": 12,
@@ -108,136 +504,37 @@
         "coordinates": null
     },
     {
-        "code": 120616,
-        "regency_code": 1206,
+        "code": 120427,
+        "regency_code": 1204,
         "province_code": 12,
-        "name": "Naman Teran",
+        "name": "Ulugawo",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 120617,
-        "regency_code": 1206,
+        "code": 120428,
+        "regency_code": 1204,
         "province_code": 12,
-        "name": "Tiganderket",
+        "name": "Ma'u",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 120708,
-        "regency_code": 1207,
+        "code": 120429,
+        "regency_code": 1204,
         "province_code": 12,
-        "name": "STM Hilir",
+        "name": "Somolo-molo",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 120722,
-        "regency_code": 1207,
+        "code": 120435,
+        "regency_code": 1204,
         "province_code": 12,
-        "name": "Deli Tua",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120827,
-        "regency_code": 1208,
-        "province_code": 12,
-        "name": "Silou Kahean",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120924,
-        "regency_code": 1209,
-        "province_code": 12,
-        "name": "Sei Kepayang Barat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121107,
-        "regency_code": 1211,
-        "province_code": 12,
-        "name": "Siempat Nempu Hulu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121112,
-        "regency_code": 1211,
-        "province_code": 12,
-        "name": "Gunung Sitember",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121206,
-        "regency_code": 1212,
-        "province_code": 12,
-        "name": "Borbor",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121318,
-        "regency_code": 1213,
-        "province_code": 12,
-        "name": "Ranto Baek",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121320,
-        "regency_code": 1213,
-        "province_code": 12,
-        "name": "Puncak Sorik Marapi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121404,
-        "regency_code": 1214,
-        "province_code": 12,
-        "name": "Hibala",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121414,
-        "regency_code": 1214,
-        "province_code": 12,
-        "name": "Umbunasi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122110,
-        "regency_code": 1221,
-        "province_code": 12,
-        "name": "Barumun Selatan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127204,
-        "regency_code": 1272,
-        "province_code": 12,
-        "name": "Siantar Selatan",
+        "name": "Sogae'adu",
         "latitude": null,
         "longitude": null,
         "coordinates": null
@@ -261,595 +558,19 @@
         "coordinates": null
     },
     {
-        "code": 120604,
-        "regency_code": 1206,
-        "province_code": 12,
-        "name": "Tigapanah",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120607,
-        "regency_code": 1206,
-        "province_code": 12,
-        "name": "Juhar",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120613,
-        "regency_code": 1206,
-        "province_code": 12,
-        "name": "Kutabuluh",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120723,
-        "regency_code": 1207,
-        "province_code": 12,
-        "name": "Sunggal",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120801,
-        "regency_code": 1208,
-        "province_code": 12,
-        "name": "Siantar",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121424,
-        "regency_code": 1214,
-        "province_code": 12,
-        "name": "Ulususua",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121428,
-        "regency_code": 1214,
-        "province_code": 12,
-        "name": "Simuk",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121701,
-        "regency_code": 1217,
-        "province_code": 12,
-        "name": "Simanindo",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121811,
-        "regency_code": 1218,
-        "province_code": 12,
-        "name": "Silinda",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122303,
-        "regency_code": 1223,
-        "province_code": 12,
-        "name": "Kualuh Hilir",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122306,
-        "regency_code": 1223,
-        "province_code": 12,
-        "name": "Na IX - X",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122508,
-        "regency_code": 1225,
-        "province_code": 12,
-        "name": "Ulu Moro'o",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120113,
-        "regency_code": 1201,
-        "province_code": 12,
-        "name": "Sitahuis",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120610,
-        "regency_code": 1206,
-        "province_code": 12,
-        "name": "Mardingding",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120701,
-        "regency_code": 1207,
-        "province_code": 12,
-        "name": "Gunung Meriah",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121102,
-        "regency_code": 1211,
-        "province_code": 12,
-        "name": "Sumbul",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121605,
-        "regency_code": 1216,
-        "province_code": 12,
-        "name": "Lintong Nihuta",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121805,
-        "regency_code": 1218,
-        "province_code": 12,
-        "name": "Tanjung Beringin",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121808,
-        "regency_code": 1218,
-        "province_code": 12,
-        "name": "Sipispis",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121908,
-        "regency_code": 1219,
-        "province_code": 12,
-        "name": "Laut Tador",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122012,
-        "regency_code": 1220,
-        "province_code": 12,
-        "name": "Ujung Batu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122109,
-        "regency_code": 1221,
-        "province_code": 12,
-        "name": "Batang Lubu Sutam",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122410,
-        "regency_code": 1224,
-        "province_code": 12,
-        "name": "Lahewa",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122502,
-        "regency_code": 1225,
-        "province_code": 12,
-        "name": "Sirombu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127401,
-        "regency_code": 1274,
-        "province_code": 12,
-        "name": "Tanjung Balai Selatan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127502,
-        "regency_code": 1275,
-        "province_code": 12,
-        "name": "Binjai Kota",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127706,
-        "regency_code": 1277,
-        "province_code": 12,
-        "name": "Padangsidimpuan Angkola Julu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120201,
-        "regency_code": 1202,
-        "province_code": 12,
-        "name": "Tarutung",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120204,
-        "regency_code": 1202,
-        "province_code": 12,
-        "name": "Sipoholon",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120329,
-        "regency_code": 1203,
-        "province_code": 12,
-        "name": "Muara Batang Toru",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120608,
-        "regency_code": 1206,
-        "province_code": 12,
-        "name": "Tigabinanga",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120615,
-        "regency_code": 1206,
-        "province_code": 12,
-        "name": "Merdeka",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120702,
-        "regency_code": 1207,
-        "province_code": 12,
-        "name": "Tanjung Morawa",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120728,
-        "regency_code": 1207,
-        "province_code": 12,
-        "name": "Lubuk Pakam",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120807,
-        "regency_code": 1208,
-        "province_code": 12,
-        "name": "Raya Kahean",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120923,
-        "regency_code": 1209,
-        "province_code": 12,
-        "name": "Sei Dadap",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120930,
-        "regency_code": 1209,
-        "province_code": 12,
-        "name": "Pulo Bandring",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121014,
-        "regency_code": 1210,
-        "province_code": 12,
-        "name": "Pangkatan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121205,
-        "regency_code": 1212,
-        "province_code": 12,
-        "name": "Pintu Pohan Meranti",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121413,
-        "regency_code": 1214,
-        "province_code": 12,
-        "name": "Mazino",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121430,
-        "regency_code": 1214,
-        "province_code": 12,
-        "name": "Pulau-Pulau Batu Utara",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121502,
-        "regency_code": 1215,
-        "province_code": 12,
-        "name": "Kerajaan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121911,
-        "regency_code": 1219,
-        "province_code": 12,
-        "name": "Datuk Tanah Datar",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121912,
-        "regency_code": 1219,
-        "province_code": 12,
-        "name": "Nibung Hangus",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122302,
-        "regency_code": 1223,
-        "province_code": 12,
-        "name": "Kualuh Leidong",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122501,
-        "regency_code": 1225,
-        "province_code": 12,
-        "name": "Lahomi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127404,
-        "regency_code": 1274,
-        "province_code": 12,
-        "name": "Teluk Nibung",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120103,
-        "regency_code": 1201,
-        "province_code": 12,
-        "name": "Pandan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120114,
-        "regency_code": 1201,
-        "province_code": 12,
-        "name": "Tukka",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120117,
-        "regency_code": 1201,
-        "province_code": 12,
-        "name": "Barus Utara",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120303,
-        "regency_code": 1203,
-        "province_code": 12,
-        "name": "Angkola Timur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120429,
-        "regency_code": 1204,
-        "province_code": 12,
-        "name": "Somolo-molo",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120520,
+        "code": 120503,
         "regency_code": 1205,
         "province_code": 12,
-        "name": "Sawit Seberang",
+        "name": "Kuala",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 120802,
-        "regency_code": 1208,
+        "code": 120504,
+        "regency_code": 1205,
         "province_code": 12,
-        "name": "Gunung Malela",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120912,
-        "regency_code": 1209,
-        "province_code": 12,
-        "name": "Simpang Empat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121106,
-        "regency_code": 1211,
-        "province_code": 12,
-        "name": "Tanah Pinem",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121321,
-        "regency_code": 1213,
-        "province_code": 12,
-        "name": "Pakantan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121402,
-        "regency_code": 1214,
-        "province_code": 12,
-        "name": "Gomo",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121408,
-        "regency_code": 1214,
-        "province_code": 12,
-        "name": "Lolowau",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121425,
-        "regency_code": 1214,
-        "province_code": 12,
-        "name": "Sidua'ori",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121506,
-        "regency_code": 1215,
-        "province_code": 12,
-        "name": "Pagindar",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121603,
-        "regency_code": 1216,
-        "province_code": 12,
-        "name": "Baktiraja",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121910,
-        "regency_code": 1219,
-        "province_code": 12,
-        "name": "Datuk Lima Puluh",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127103,
-        "regency_code": 1271,
-        "province_code": 12,
-        "name": "Medan Helvetia",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127301,
-        "regency_code": 1273,
-        "province_code": 12,
-        "name": "Sibolga Utara",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120212,
-        "regency_code": 1202,
-        "province_code": 12,
-        "name": "Sipahutar",
+        "name": "Sei Bingei",
         "latitude": null,
         "longitude": null,
         "coordinates": null
@@ -859,1572 +580,6 @@
         "regency_code": 1205,
         "province_code": 12,
         "name": "Binjai",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120733,
-        "regency_code": 1207,
-        "province_code": 12,
-        "name": "Beringin",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120909,
-        "regency_code": 1209,
-        "province_code": 12,
-        "name": "Air Joman",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120919,
-        "regency_code": 1209,
-        "province_code": 12,
-        "name": "Kota Kisaran Barat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120932,
-        "regency_code": 1209,
-        "province_code": 12,
-        "name": "Aek Ledong",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121109,
-        "regency_code": 1211,
-        "province_code": 12,
-        "name": "Pegagan Hilir",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121429,
-        "regency_code": 1214,
-        "province_code": 12,
-        "name": "Pulau-Pulau Batu Barat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121814,
-        "regency_code": 1218,
-        "province_code": 12,
-        "name": "Pegajahan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122113,
-        "regency_code": 1221,
-        "province_code": 12,
-        "name": "Barumun Baru",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122116,
-        "regency_code": 1221,
-        "province_code": 12,
-        "name": "Barumun Barat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122407,
-        "regency_code": 1224,
-        "province_code": 12,
-        "name": "Alasa",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127503,
-        "regency_code": 1275,
-        "province_code": 12,
-        "name": "Binjai Barat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120119,
-        "regency_code": 1201,
-        "province_code": 12,
-        "name": "Lumut",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120411,
-        "regency_code": 1204,
-        "province_code": 12,
-        "name": "Bawolato",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120703,
-        "regency_code": 1207,
-        "province_code": 12,
-        "name": "Sibolangit",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121009,
-        "regency_code": 1210,
-        "province_code": 12,
-        "name": "Bilah Hulu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121406,
-        "regency_code": 1214,
-        "province_code": 12,
-        "name": "Teluk Dalam",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121417,
-        "regency_code": 1214,
-        "province_code": 12,
-        "name": "Mazo",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121601,
-        "regency_code": 1216,
-        "province_code": 12,
-        "name": "Parlilitan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121610,
-        "regency_code": 1216,
-        "province_code": 12,
-        "name": "Tarabintang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121704,
-        "regency_code": 1217,
-        "province_code": 12,
-        "name": "Palipi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121706,
-        "regency_code": 1217,
-        "province_code": 12,
-        "name": "Sianjar Mula Mula",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122106,
-        "regency_code": 1221,
-        "province_code": 12,
-        "name": "Ulu Barumun",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122117,
-        "regency_code": 1221,
-        "province_code": 12,
-        "name": "Sosa Timur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122204,
-        "regency_code": 1222,
-        "province_code": 12,
-        "name": "Sungai Kanan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127109,
-        "regency_code": 1271,
-        "province_code": 12,
-        "name": "Medan Amplas",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127303,
-        "regency_code": 1273,
-        "province_code": 12,
-        "name": "Sibolga Selatan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120306,
-        "regency_code": 1203,
-        "province_code": 12,
-        "name": "Angkola Selatan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120331,
-        "regency_code": 1203,
-        "province_code": 12,
-        "name": "Angkola Sangkunur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120606,
-        "regency_code": 1206,
-        "province_code": 12,
-        "name": "Munte",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120727,
-        "regency_code": 1207,
-        "province_code": 12,
-        "name": "Batang Kuis",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120813,
-        "regency_code": 1208,
-        "province_code": 12,
-        "name": "Dolok Panribuan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121110,
-        "regency_code": 1211,
-        "province_code": 12,
-        "name": "Parbuluan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121111,
-        "regency_code": 1211,
-        "province_code": 12,
-        "name": "Lae Parira",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121210,
-        "regency_code": 1212,
-        "province_code": 12,
-        "name": "Uluan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121409,
-        "regency_code": 1214,
-        "province_code": 12,
-        "name": "Susua",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121609,
-        "regency_code": 1216,
-        "province_code": 12,
-        "name": "Pakkat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122009,
-        "regency_code": 1220,
-        "province_code": 12,
-        "name": "Hulu Sihapas",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122203,
-        "regency_code": 1222,
-        "province_code": 12,
-        "name": "Torgamba",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122405,
-        "regency_code": 1224,
-        "province_code": 12,
-        "name": "Namohalu Esiwa",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122411,
-        "regency_code": 1224,
-        "province_code": 12,
-        "name": "Lahewa Timur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127104,
-        "regency_code": 1271,
-        "province_code": 12,
-        "name": "Medan Denai",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127201,
-        "regency_code": 1272,
-        "province_code": 12,
-        "name": "Siantar Timur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127601,
-        "regency_code": 1276,
-        "province_code": 12,
-        "name": "Padang Hulu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120107,
-        "regency_code": 1201,
-        "province_code": 12,
-        "name": "Tapian Nauli",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120809,
-        "regency_code": 1208,
-        "province_code": 12,
-        "name": "Sidamanik",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120821,
-        "regency_code": 1208,
-        "province_code": 12,
-        "name": "Pematang Bandar",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120830,
-        "regency_code": 1208,
-        "province_code": 12,
-        "name": "Ujung Padang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120910,
-        "regency_code": 1209,
-        "province_code": 12,
-        "name": "Tanjung Balai",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121207,
-        "regency_code": 1212,
-        "province_code": 12,
-        "name": "Porsea",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121415,
-        "regency_code": 1214,
-        "province_code": 12,
-        "name": "Aramo",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121507,
-        "regency_code": 1215,
-        "province_code": 12,
-        "name": "Tinada",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121809,
-        "regency_code": 1218,
-        "province_code": 12,
-        "name": "Dolok Masihul",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122104,
-        "regency_code": 1221,
-        "province_code": 12,
-        "name": "Lubuk Barumun",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122114,
-        "regency_code": 1221,
-        "province_code": 12,
-        "name": "Ulu Sosa",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122503,
-        "regency_code": 1225,
-        "province_code": 12,
-        "name": "Mandrehe Barat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127118,
-        "regency_code": 1271,
-        "province_code": 12,
-        "name": "Medan Perjuangan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127703,
-        "regency_code": 1277,
-        "province_code": 12,
-        "name": "Padangsidimpuan Batunadua",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127801,
-        "regency_code": 1278,
-        "province_code": 12,
-        "name": "Gunungsitoli",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120301,
-        "regency_code": 1203,
-        "province_code": 12,
-        "name": "Angkola Barat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120304,
-        "regency_code": 1203,
-        "province_code": 12,
-        "name": "Sipirok",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120705,
-        "regency_code": 1207,
-        "province_code": 12,
-        "name": "Pancur Batu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120812,
-        "regency_code": 1208,
-        "province_code": 12,
-        "name": "Hatonduhan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120814,
-        "regency_code": 1208,
-        "province_code": 12,
-        "name": "Purba",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120815,
-        "regency_code": 1208,
-        "province_code": 12,
-        "name": "Haranggaol Horison",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120818,
-        "regency_code": 1208,
-        "province_code": 12,
-        "name": "Huta Bayu Raja",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120820,
-        "regency_code": 1208,
-        "province_code": 12,
-        "name": "Dolok Pardamean",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120822,
-        "regency_code": 1208,
-        "province_code": 12,
-        "name": "Bandar Huluan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120831,
-        "regency_code": 1208,
-        "province_code": 12,
-        "name": "Pamatang Silima Huta",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120832,
-        "regency_code": 1208,
-        "province_code": 12,
-        "name": "Dolog Masagal",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121311,
-        "regency_code": 1213,
-        "province_code": 12,
-        "name": "Ulu Pungkut",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121401,
-        "regency_code": 1214,
-        "province_code": 12,
-        "name": "Lolomatua",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121607,
-        "regency_code": 1216,
-        "province_code": 12,
-        "name": "Sijamapolang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121904,
-        "regency_code": 1219,
-        "province_code": 12,
-        "name": "Lima Puluh",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122002,
-        "regency_code": 1220,
-        "province_code": 12,
-        "name": "Dolok",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122305,
-        "regency_code": 1223,
-        "province_code": 12,
-        "name": "Marbau",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127111,
-        "regency_code": 1271,
-        "province_code": 12,
-        "name": "Medan Johor",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127304,
-        "regency_code": 1273,
-        "province_code": 12,
-        "name": "Sibolga Sambas",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127702,
-        "regency_code": 1277,
-        "province_code": 12,
-        "name": "Padangsidimpuan Selatan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120115,
-        "regency_code": 1201,
-        "province_code": 12,
-        "name": "Badiri",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120719,
-        "regency_code": 1207,
-        "province_code": 12,
-        "name": "Galang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120732,
-        "regency_code": 1207,
-        "province_code": 12,
-        "name": "Pantai Labu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120826,
-        "regency_code": 1208,
-        "province_code": 12,
-        "name": "Dolok Silau",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120913,
-        "regency_code": 1209,
-        "province_code": 12,
-        "name": "Air Batu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120914,
-        "regency_code": 1209,
-        "province_code": 12,
-        "name": "Pulau Rakyat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121307,
-        "regency_code": 1213,
-        "province_code": 12,
-        "name": "Bukit Malintang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121308,
-        "regency_code": 1213,
-        "province_code": 12,
-        "name": "Kotanopan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121422,
-        "regency_code": 1214,
-        "province_code": 12,
-        "name": "Onohazumba",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122005,
-        "regency_code": 1220,
-        "province_code": 12,
-        "name": "Padang Bolak Julu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122008,
-        "regency_code": 1220,
-        "province_code": 12,
-        "name": "Simangambat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122010,
-        "regency_code": 1220,
-        "province_code": 12,
-        "name": "Padang Bolak Tenggara",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122011,
-        "regency_code": 1220,
-        "province_code": 12,
-        "name": "Halongonan Timur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127106,
-        "regency_code": 1271,
-        "province_code": 12,
-        "name": "Medan Deli",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127108,
-        "regency_code": 1271,
-        "province_code": 12,
-        "name": "Medan Belawan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127208,
-        "regency_code": 1272,
-        "province_code": 12,
-        "name": "Siantar Marimbun",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127402,
-        "regency_code": 1274,
-        "province_code": 12,
-        "name": "Tanjung Balai Utara",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127701,
-        "regency_code": 1277,
-        "province_code": 12,
-        "name": "Padangsidimpuan Utara",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120118,
-        "regency_code": 1201,
-        "province_code": 12,
-        "name": "Suka Bangun",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120428,
-        "regency_code": 1204,
-        "province_code": 12,
-        "name": "Ma'u",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120709,
-        "regency_code": 1207,
-        "province_code": 12,
-        "name": "Bangun Purba",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121812,
-        "regency_code": 1218,
-        "province_code": 12,
-        "name": "Serba Jadi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122006,
-        "regency_code": 1220,
-        "province_code": 12,
-        "name": "Portibi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127202,
-        "regency_code": 1272,
-        "province_code": 12,
-        "name": "Siantar Barat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127203,
-        "regency_code": 1272,
-        "province_code": 12,
-        "name": "Siantar Utara",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127403,
-        "regency_code": 1274,
-        "province_code": 12,
-        "name": "Sei Tualang Raso",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127406,
-        "regency_code": 1274,
-        "province_code": 12,
-        "name": "Datuk Bandar Timur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120116,
-        "regency_code": 1201,
-        "province_code": 12,
-        "name": "Pasaribu Tobing",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120521,
-        "regency_code": 1205,
-        "province_code": 12,
-        "name": "Sirapit",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120523,
-        "regency_code": 1205,
-        "province_code": 12,
-        "name": "Pematang Jaya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120726,
-        "regency_code": 1207,
-        "province_code": 12,
-        "name": "Percut Sei Tuan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120808,
-        "regency_code": 1208,
-        "province_code": 12,
-        "name": "Bosar Maligas",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120928,
-        "regency_code": 1209,
-        "province_code": 12,
-        "name": "Silau Laut",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121105,
-        "regency_code": 1211,
-        "province_code": 12,
-        "name": "Silima Pungga Pungga",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121301,
-        "regency_code": 1213,
-        "province_code": 12,
-        "name": "Panyabungan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121304,
-        "regency_code": 1213,
-        "province_code": 12,
-        "name": "Panyabungan Selatan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121312,
-        "regency_code": 1213,
-        "province_code": 12,
-        "name": "Muara Sipongi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121432,
-        "regency_code": 1214,
-        "province_code": 12,
-        "name": "Luahagundre Maniamolo",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121702,
-        "regency_code": 1217,
-        "province_code": 12,
-        "name": "Onan Runggu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121909,
-        "regency_code": 1219,
-        "province_code": 12,
-        "name": "Lima Puluh Pesisir",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122001,
-        "regency_code": 1220,
-        "province_code": 12,
-        "name": "Dolok Sigompulon",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122007,
-        "regency_code": 1220,
-        "province_code": 12,
-        "name": "Batang Onang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122307,
-        "regency_code": 1223,
-        "province_code": 12,
-        "name": "Aek Natas",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122401,
-        "regency_code": 1224,
-        "province_code": 12,
-        "name": "Lotu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127117,
-        "regency_code": 1271,
-        "province_code": 12,
-        "name": "Medan Baru",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127504,
-        "regency_code": 1275,
-        "province_code": 12,
-        "name": "Binjai Timur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120206,
-        "regency_code": 1202,
-        "province_code": 12,
-        "name": "Pahae Jae",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120512,
-        "regency_code": 1205,
-        "province_code": 12,
-        "name": "Padang Tualang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120605,
-        "regency_code": 1206,
-        "province_code": 12,
-        "name": "Merek",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120706,
-        "regency_code": 1207,
-        "province_code": 12,
-        "name": "Namorambe",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120819,
-        "regency_code": 1208,
-        "province_code": 12,
-        "name": "Jawa Maraja Bah Jambi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120926,
-        "regency_code": 1209,
-        "province_code": 12,
-        "name": "Tinggi Raja",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121020,
-        "regency_code": 1210,
-        "province_code": 12,
-        "name": "Panai Hulu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121201,
-        "regency_code": 1212,
-        "province_code": 12,
-        "name": "Balige",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121209,
-        "regency_code": 1212,
-        "province_code": 12,
-        "name": "Lumban Julu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121224,
-        "regency_code": 1212,
-        "province_code": 12,
-        "name": "Parmaksian",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121907,
-        "regency_code": 1219,
-        "province_code": 12,
-        "name": "Sei Balai",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127110,
-        "regency_code": 1271,
-        "province_code": 12,
-        "name": "Medan Area",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127605,
-        "regency_code": 1276,
-        "province_code": 12,
-        "name": "Tebing Tinggi Kota",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120332,
-        "regency_code": 1203,
-        "province_code": 12,
-        "name": "Angkola Muara Tais",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120603,
-        "regency_code": 1206,
-        "province_code": 12,
-        "name": "Barusjahe",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120612,
-        "regency_code": 1206,
-        "province_code": 12,
-        "name": "Simpang Empat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121002,
-        "regency_code": 1210,
-        "province_code": 12,
-        "name": "Rantau Selatan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121208,
-        "regency_code": 1212,
-        "province_code": 12,
-        "name": "Ajibata",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121222,
-        "regency_code": 1212,
-        "province_code": 12,
-        "name": "Tampahan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121418,
-        "regency_code": 1214,
-        "province_code": 12,
-        "name": "Fanayama",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121419,
-        "regency_code": 1214,
-        "province_code": 12,
-        "name": "Ulunoyo",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122409,
-        "regency_code": 1224,
-        "province_code": 12,
-        "name": "Afulu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127505,
-        "regency_code": 1275,
-        "province_code": 12,
-        "name": "Binjai Selatan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127704,
-        "regency_code": 1277,
-        "province_code": 12,
-        "name": "Padangsidimpuan Hutaimbaru",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121114,
-        "regency_code": 1211,
-        "province_code": 12,
-        "name": "Silahisabungan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121202,
-        "regency_code": 1212,
-        "province_code": 12,
-        "name": "Laguboti",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122408,
-        "regency_code": 1224,
-        "province_code": 12,
-        "name": "Tugala Oyo",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127107,
-        "regency_code": 1271,
-        "province_code": 12,
-        "name": "Medan Tuntungan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127120,
-        "regency_code": 1271,
-        "province_code": 12,
-        "name": "Medan Timur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127604,
-        "regency_code": 1276,
-        "province_code": 12,
-        "name": "Bajenis",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120210,
-        "regency_code": 1202,
-        "province_code": 12,
-        "name": "Pagaran",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120410,
-        "regency_code": 1204,
-        "province_code": 12,
-        "name": "Idanogawo",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120519,
-        "regency_code": 1205,
-        "province_code": 12,
-        "name": "Batang Serangan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120724,
-        "regency_code": 1207,
-        "province_code": 12,
-        "name": "Hamparan Perak",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120810,
-        "regency_code": 1208,
-        "province_code": 12,
-        "name": "Pematang Sidamanik",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120829,
-        "regency_code": 1208,
-        "province_code": 12,
-        "name": "Raya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120917,
-        "regency_code": 1209,
-        "province_code": 12,
-        "name": "Bandar Pasir Mandoge",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121019,
-        "regency_code": 1210,
-        "province_code": 12,
-        "name": "Panai Hilir",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121313,
-        "regency_code": 1213,
-        "province_code": 12,
-        "name": "Batang Natal",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121323,
-        "regency_code": 1213,
-        "province_code": 12,
-        "name": "Naga Juang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121433,
-        "regency_code": 1214,
-        "province_code": 12,
-        "name": "Onolalu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121434,
-        "regency_code": 1214,
-        "province_code": 12,
-        "name": "Ulu Idanotae",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121803,
-        "regency_code": 1218,
-        "province_code": 12,
-        "name": "Teluk Mengkudu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121906,
-        "regency_code": 1219,
-        "province_code": 12,
-        "name": "Tanjung Tiram",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127405,
-        "regency_code": 1274,
-        "province_code": 12,
-        "name": "Datuk Bandar",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127803,
-        "regency_code": 1278,
-        "province_code": 12,
-        "name": "Gunungsitoli Utara",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120305,
-        "regency_code": 1203,
-        "province_code": 12,
-        "name": "Saipar Dolok Hole",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120322,
-        "regency_code": 1203,
-        "province_code": 12,
-        "name": "Aek Bilah",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120427,
-        "regency_code": 1204,
-        "province_code": 12,
-        "name": "Ulugawo",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120503,
-        "regency_code": 1205,
-        "province_code": 12,
-        "name": "Kuala",
         "latitude": null,
         "longitude": null,
         "coordinates": null
@@ -2448,10 +603,631 @@
         "coordinates": null
     },
     {
+        "code": 120508,
+        "regency_code": 1205,
+        "province_code": 12,
+        "name": "Wampu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120509,
+        "regency_code": 1205,
+        "province_code": 12,
+        "name": "Secanggang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120510,
+        "regency_code": 1205,
+        "province_code": 12,
+        "name": "Hinai",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120511,
+        "regency_code": 1205,
+        "province_code": 12,
+        "name": "Tanjung Pura",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120512,
+        "regency_code": 1205,
+        "province_code": 12,
+        "name": "Padang Tualang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120513,
+        "regency_code": 1205,
+        "province_code": 12,
+        "name": "Gebang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120514,
+        "regency_code": 1205,
+        "province_code": 12,
+        "name": "Babalan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120515,
+        "regency_code": 1205,
+        "province_code": 12,
+        "name": "Pangkalan Susu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120516,
+        "regency_code": 1205,
+        "province_code": 12,
+        "name": "Besitang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120517,
+        "regency_code": 1205,
+        "province_code": 12,
+        "name": "Sei Lepan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120518,
+        "regency_code": 1205,
+        "province_code": 12,
+        "name": "Berandan Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120519,
+        "regency_code": 1205,
+        "province_code": 12,
+        "name": "Batang Serangan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120520,
+        "regency_code": 1205,
+        "province_code": 12,
+        "name": "Sawit Seberang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120521,
+        "regency_code": 1205,
+        "province_code": 12,
+        "name": "Sirapit",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120522,
+        "regency_code": 1205,
+        "province_code": 12,
+        "name": "Kutambaru",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120523,
+        "regency_code": 1205,
+        "province_code": 12,
+        "name": "Pematang Jaya",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120601,
+        "regency_code": 1206,
+        "province_code": 12,
+        "name": "Kabanjahe",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120602,
+        "regency_code": 1206,
+        "province_code": 12,
+        "name": "Berastagi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120603,
+        "regency_code": 1206,
+        "province_code": 12,
+        "name": "Barusjahe",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120604,
+        "regency_code": 1206,
+        "province_code": 12,
+        "name": "Tigapanah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120605,
+        "regency_code": 1206,
+        "province_code": 12,
+        "name": "Merek",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120606,
+        "regency_code": 1206,
+        "province_code": 12,
+        "name": "Munte",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120607,
+        "regency_code": 1206,
+        "province_code": 12,
+        "name": "Juhar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120608,
+        "regency_code": 1206,
+        "province_code": 12,
+        "name": "Tigabinanga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120609,
+        "regency_code": 1206,
+        "province_code": 12,
+        "name": "Laubaleng",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120610,
+        "regency_code": 1206,
+        "province_code": 12,
+        "name": "Mardingding",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120611,
+        "regency_code": 1206,
+        "province_code": 12,
+        "name": "Payung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120612,
+        "regency_code": 1206,
+        "province_code": 12,
+        "name": "Simpang Empat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120613,
+        "regency_code": 1206,
+        "province_code": 12,
+        "name": "Kutabuluh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120614,
+        "regency_code": 1206,
+        "province_code": 12,
+        "name": "Dolat Rayat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120615,
+        "regency_code": 1206,
+        "province_code": 12,
+        "name": "Merdeka",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120616,
+        "regency_code": 1206,
+        "province_code": 12,
+        "name": "Naman Teran",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120617,
+        "regency_code": 1206,
+        "province_code": 12,
+        "name": "Tiganderket",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120701,
+        "regency_code": 1207,
+        "province_code": 12,
+        "name": "Gunung Meriah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120702,
+        "regency_code": 1207,
+        "province_code": 12,
+        "name": "Tanjung Morawa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120703,
+        "regency_code": 1207,
+        "province_code": 12,
+        "name": "Sibolangit",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120704,
+        "regency_code": 1207,
+        "province_code": 12,
+        "name": "Kutalimbaru",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120705,
+        "regency_code": 1207,
+        "province_code": 12,
+        "name": "Pancur Batu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120706,
+        "regency_code": 1207,
+        "province_code": 12,
+        "name": "Namorambe",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120707,
+        "regency_code": 1207,
+        "province_code": 12,
+        "name": "Sibiru-biru",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120708,
+        "regency_code": 1207,
+        "province_code": 12,
+        "name": "STM Hilir",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120709,
+        "regency_code": 1207,
+        "province_code": 12,
+        "name": "Bangun Purba",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120719,
+        "regency_code": 1207,
+        "province_code": 12,
+        "name": "Galang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120720,
+        "regency_code": 1207,
+        "province_code": 12,
+        "name": "STM Hulu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120721,
+        "regency_code": 1207,
+        "province_code": 12,
+        "name": "Patumbak",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120722,
+        "regency_code": 1207,
+        "province_code": 12,
+        "name": "Deli Tua",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120723,
+        "regency_code": 1207,
+        "province_code": 12,
+        "name": "Sunggal",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120724,
+        "regency_code": 1207,
+        "province_code": 12,
+        "name": "Hamparan Perak",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120725,
+        "regency_code": 1207,
+        "province_code": 12,
+        "name": "Labuhan Deli",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120726,
+        "regency_code": 1207,
+        "province_code": 12,
+        "name": "Percut Sei Tuan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120727,
+        "regency_code": 1207,
+        "province_code": 12,
+        "name": "Batang Kuis",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120728,
+        "regency_code": 1207,
+        "province_code": 12,
+        "name": "Lubuk Pakam",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120731,
+        "regency_code": 1207,
+        "province_code": 12,
+        "name": "Pagar Merbau",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120732,
+        "regency_code": 1207,
+        "province_code": 12,
+        "name": "Pantai Labu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120733,
+        "regency_code": 1207,
+        "province_code": 12,
+        "name": "Beringin",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120801,
+        "regency_code": 1208,
+        "province_code": 12,
+        "name": "Siantar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120802,
+        "regency_code": 1208,
+        "province_code": 12,
+        "name": "Gunung Malela",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120803,
+        "regency_code": 1208,
+        "province_code": 12,
+        "name": "Gunung Maligas",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
         "code": 120804,
         "regency_code": 1208,
         "province_code": 12,
         "name": "Panei",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120805,
+        "regency_code": 1208,
+        "province_code": 12,
+        "name": "Panombeian Pane",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120806,
+        "regency_code": 1208,
+        "province_code": 12,
+        "name": "Jorlang Hataran",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120807,
+        "regency_code": 1208,
+        "province_code": 12,
+        "name": "Raya Kahean",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120808,
+        "regency_code": 1208,
+        "province_code": 12,
+        "name": "Bosar Maligas",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120809,
+        "regency_code": 1208,
+        "province_code": 12,
+        "name": "Sidamanik",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120810,
+        "regency_code": 1208,
+        "province_code": 12,
+        "name": "Pematang Sidamanik",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120811,
+        "regency_code": 1208,
+        "province_code": 12,
+        "name": "Tanah Jawa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120812,
+        "regency_code": 1208,
+        "province_code": 12,
+        "name": "Hatonduhan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120813,
+        "regency_code": 1208,
+        "province_code": 12,
+        "name": "Dolok Panribuan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120814,
+        "regency_code": 1208,
+        "province_code": 12,
+        "name": "Purba",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120815,
+        "regency_code": 1208,
+        "province_code": 12,
+        "name": "Haranggaol Horison",
         "latitude": null,
         "longitude": null,
         "coordinates": null
@@ -2466,10 +1242,235 @@
         "coordinates": null
     },
     {
+        "code": 120817,
+        "regency_code": 1208,
+        "province_code": 12,
+        "name": "Dolok Batu Nanggar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120818,
+        "regency_code": 1208,
+        "province_code": 12,
+        "name": "Huta Bayu Raja",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120819,
+        "regency_code": 1208,
+        "province_code": 12,
+        "name": "Jawa Maraja Bah Jambi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120820,
+        "regency_code": 1208,
+        "province_code": 12,
+        "name": "Dolok Pardamean",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120821,
+        "regency_code": 1208,
+        "province_code": 12,
+        "name": "Pematang Bandar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120822,
+        "regency_code": 1208,
+        "province_code": 12,
+        "name": "Bandar Huluan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
         "code": 120823,
         "regency_code": 1208,
         "province_code": 12,
         "name": "Bandar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120824,
+        "regency_code": 1208,
+        "province_code": 12,
+        "name": "Bandar Masilam",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120825,
+        "regency_code": 1208,
+        "province_code": 12,
+        "name": "Silimakuta",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120826,
+        "regency_code": 1208,
+        "province_code": 12,
+        "name": "Dolok Silau",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120827,
+        "regency_code": 1208,
+        "province_code": 12,
+        "name": "Silou Kahean",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120828,
+        "regency_code": 1208,
+        "province_code": 12,
+        "name": "Tapian Dolok",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120829,
+        "regency_code": 1208,
+        "province_code": 12,
+        "name": "Raya",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120830,
+        "regency_code": 1208,
+        "province_code": 12,
+        "name": "Ujung Padang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120831,
+        "regency_code": 1208,
+        "province_code": 12,
+        "name": "Pamatang Silima Huta",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120832,
+        "regency_code": 1208,
+        "province_code": 12,
+        "name": "Dolog Masagal",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120908,
+        "regency_code": 1209,
+        "province_code": 12,
+        "name": "Meranti",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120909,
+        "regency_code": 1209,
+        "province_code": 12,
+        "name": "Air Joman",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120910,
+        "regency_code": 1209,
+        "province_code": 12,
+        "name": "Tanjung Balai",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120911,
+        "regency_code": 1209,
+        "province_code": 12,
+        "name": "Sei Kepayang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120912,
+        "regency_code": 1209,
+        "province_code": 12,
+        "name": "Simpang Empat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120913,
+        "regency_code": 1209,
+        "province_code": 12,
+        "name": "Air Batu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120914,
+        "regency_code": 1209,
+        "province_code": 12,
+        "name": "Pulau Rakyat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120915,
+        "regency_code": 1209,
+        "province_code": 12,
+        "name": "Bandar Pulau",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120916,
+        "regency_code": 1209,
+        "province_code": 12,
+        "name": "Buntu Pane",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120917,
+        "regency_code": 1209,
+        "province_code": 12,
+        "name": "Bandar Pasir Mandoge",
         "latitude": null,
         "longitude": null,
         "coordinates": null
@@ -2484,10 +1485,370 @@
         "coordinates": null
     },
     {
+        "code": 120919,
+        "regency_code": 1209,
+        "province_code": 12,
+        "name": "Kota Kisaran Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120920,
+        "regency_code": 1209,
+        "province_code": 12,
+        "name": "Kota Kisaran Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120921,
+        "regency_code": 1209,
+        "province_code": 12,
+        "name": "Aek Songsongan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120922,
+        "regency_code": 1209,
+        "province_code": 12,
+        "name": "Rahunig",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120923,
+        "regency_code": 1209,
+        "province_code": 12,
+        "name": "Sei Dadap",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120924,
+        "regency_code": 1209,
+        "province_code": 12,
+        "name": "Sei Kepayang Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120925,
+        "regency_code": 1209,
+        "province_code": 12,
+        "name": "Sei Kepayang Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120926,
+        "regency_code": 1209,
+        "province_code": 12,
+        "name": "Tinggi Raja",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120927,
+        "regency_code": 1209,
+        "province_code": 12,
+        "name": "Setia Janji",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120928,
+        "regency_code": 1209,
+        "province_code": 12,
+        "name": "Silau Laut",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120929,
+        "regency_code": 1209,
+        "province_code": 12,
+        "name": "Rawang Panca Arga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120930,
+        "regency_code": 1209,
+        "province_code": 12,
+        "name": "Pulo Bandring",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120931,
+        "regency_code": 1209,
+        "province_code": 12,
+        "name": "Teluk Dalam",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 120932,
+        "regency_code": 1209,
+        "province_code": 12,
+        "name": "Aek Ledong",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121001,
+        "regency_code": 1210,
+        "province_code": 12,
+        "name": "Rantau Utara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121002,
+        "regency_code": 1210,
+        "province_code": 12,
+        "name": "Rantau Selatan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121007,
+        "regency_code": 1210,
+        "province_code": 12,
+        "name": "Bilah Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121008,
+        "regency_code": 1210,
+        "province_code": 12,
+        "name": "Bilah Hilir",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121009,
+        "regency_code": 1210,
+        "province_code": 12,
+        "name": "Bilah Hulu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121014,
+        "regency_code": 1210,
+        "province_code": 12,
+        "name": "Pangkatan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
         "code": 121018,
         "regency_code": 1210,
         "province_code": 12,
         "name": "Panai Tengah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121019,
+        "regency_code": 1210,
+        "province_code": 12,
+        "name": "Panai Hilir",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121020,
+        "regency_code": 1210,
+        "province_code": 12,
+        "name": "Panai Hulu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121101,
+        "regency_code": 1211,
+        "province_code": 12,
+        "name": "Sidikalang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121102,
+        "regency_code": 1211,
+        "province_code": 12,
+        "name": "Sumbul",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121103,
+        "regency_code": 1211,
+        "province_code": 12,
+        "name": "Tigalingga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121104,
+        "regency_code": 1211,
+        "province_code": 12,
+        "name": "Siempat Nempu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121105,
+        "regency_code": 1211,
+        "province_code": 12,
+        "name": "Silima Pungga Pungga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121106,
+        "regency_code": 1211,
+        "province_code": 12,
+        "name": "Tanah Pinem",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121107,
+        "regency_code": 1211,
+        "province_code": 12,
+        "name": "Siempat Nempu Hulu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121108,
+        "regency_code": 1211,
+        "province_code": 12,
+        "name": "Siempat Nempu Hilir",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121109,
+        "regency_code": 1211,
+        "province_code": 12,
+        "name": "Pegagan Hilir",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121110,
+        "regency_code": 1211,
+        "province_code": 12,
+        "name": "Parbuluan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121111,
+        "regency_code": 1211,
+        "province_code": 12,
+        "name": "Lae Parira",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121112,
+        "regency_code": 1211,
+        "province_code": 12,
+        "name": "Gunung Sitember",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121113,
+        "regency_code": 1211,
+        "province_code": 12,
+        "name": "Berampu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121114,
+        "regency_code": 1211,
+        "province_code": 12,
+        "name": "Silahisabungan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121115,
+        "regency_code": 1211,
+        "province_code": 12,
+        "name": "Sitinjo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121201,
+        "regency_code": 1212,
+        "province_code": 12,
+        "name": "Balige",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121202,
+        "regency_code": 1212,
+        "province_code": 12,
+        "name": "Laguboti",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121203,
+        "regency_code": 1212,
+        "province_code": 12,
+        "name": "Silaen",
         "latitude": null,
         "longitude": null,
         "coordinates": null
@@ -2502,10 +1863,667 @@
         "coordinates": null
     },
     {
+        "code": 121205,
+        "regency_code": 1212,
+        "province_code": 12,
+        "name": "Pintu Pohan Meranti",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121206,
+        "regency_code": 1212,
+        "province_code": 12,
+        "name": "Borbor",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121207,
+        "regency_code": 1212,
+        "province_code": 12,
+        "name": "Porsea",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121208,
+        "regency_code": 1212,
+        "province_code": 12,
+        "name": "Ajibata",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121209,
+        "regency_code": 1212,
+        "province_code": 12,
+        "name": "Lumban Julu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121210,
+        "regency_code": 1212,
+        "province_code": 12,
+        "name": "Uluan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121219,
+        "regency_code": 1212,
+        "province_code": 12,
+        "name": "Sigumpar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121220,
+        "regency_code": 1212,
+        "province_code": 12,
+        "name": "Siantar Narumonda",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121221,
+        "regency_code": 1212,
+        "province_code": 12,
+        "name": "Nassau",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121222,
+        "regency_code": 1212,
+        "province_code": 12,
+        "name": "Tampahan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121223,
+        "regency_code": 1212,
+        "province_code": 12,
+        "name": "Bonatua Lunasi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121224,
+        "regency_code": 1212,
+        "province_code": 12,
+        "name": "Parmaksian",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121301,
+        "regency_code": 1213,
+        "province_code": 12,
+        "name": "Panyabungan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121302,
+        "regency_code": 1213,
+        "province_code": 12,
+        "name": "Panyabungan Utara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121303,
+        "regency_code": 1213,
+        "province_code": 12,
+        "name": "Panyabungan Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121304,
+        "regency_code": 1213,
+        "province_code": 12,
+        "name": "Panyabungan Selatan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121305,
+        "regency_code": 1213,
+        "province_code": 12,
+        "name": "Panyabungan Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121306,
+        "regency_code": 1213,
+        "province_code": 12,
+        "name": "Siabu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121307,
+        "regency_code": 1213,
+        "province_code": 12,
+        "name": "Bukit Malintang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121308,
+        "regency_code": 1213,
+        "province_code": 12,
+        "name": "Kotanopan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121309,
+        "regency_code": 1213,
+        "province_code": 12,
+        "name": "Lembah Sorik Marapi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121310,
+        "regency_code": 1213,
+        "province_code": 12,
+        "name": "Tambangan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121311,
+        "regency_code": 1213,
+        "province_code": 12,
+        "name": "Ulu Pungkut",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121312,
+        "regency_code": 1213,
+        "province_code": 12,
+        "name": "Muara Sipongi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121313,
+        "regency_code": 1213,
+        "province_code": 12,
+        "name": "Batang Natal",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121314,
+        "regency_code": 1213,
+        "province_code": 12,
+        "name": "Lingga Bayu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121315,
+        "regency_code": 1213,
+        "province_code": 12,
+        "name": "Batahan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121316,
+        "regency_code": 1213,
+        "province_code": 12,
+        "name": "Natal",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121317,
+        "regency_code": 1213,
+        "province_code": 12,
+        "name": "Muara Batang Gadis",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121318,
+        "regency_code": 1213,
+        "province_code": 12,
+        "name": "Ranto Baek",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121319,
+        "regency_code": 1213,
+        "province_code": 12,
+        "name": "Huta Bargot",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121320,
+        "regency_code": 1213,
+        "province_code": 12,
+        "name": "Puncak Sorik Marapi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121321,
+        "regency_code": 1213,
+        "province_code": 12,
+        "name": "Pakantan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121322,
+        "regency_code": 1213,
+        "province_code": 12,
+        "name": "Sinunukan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121323,
+        "regency_code": 1213,
+        "province_code": 12,
+        "name": "Naga Juang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121401,
+        "regency_code": 1214,
+        "province_code": 12,
+        "name": "Lolomatua",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121402,
+        "regency_code": 1214,
+        "province_code": 12,
+        "name": "Gomo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121403,
+        "regency_code": 1214,
+        "province_code": 12,
+        "name": "Lahusa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121404,
+        "regency_code": 1214,
+        "province_code": 12,
+        "name": "Hibala",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121405,
+        "regency_code": 1214,
+        "province_code": 12,
+        "name": "Pulau-Pulau Batu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121406,
+        "regency_code": 1214,
+        "province_code": 12,
+        "name": "Teluk Dalam",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121407,
+        "regency_code": 1214,
+        "province_code": 12,
+        "name": "Amandraya",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121408,
+        "regency_code": 1214,
+        "province_code": 12,
+        "name": "Lolowau",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121409,
+        "regency_code": 1214,
+        "province_code": 12,
+        "name": "Susua",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121410,
+        "regency_code": 1214,
+        "province_code": 12,
+        "name": "Maniamolo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121411,
+        "regency_code": 1214,
+        "province_code": 12,
+        "name": "Hilimegai",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121412,
+        "regency_code": 1214,
+        "province_code": 12,
+        "name": "Toma",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121413,
+        "regency_code": 1214,
+        "province_code": 12,
+        "name": "Mazino",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121414,
+        "regency_code": 1214,
+        "province_code": 12,
+        "name": "Umbunasi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121415,
+        "regency_code": 1214,
+        "province_code": 12,
+        "name": "Aramo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121416,
+        "regency_code": 1214,
+        "province_code": 12,
+        "name": "Pulau-Pulau Batu Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121417,
+        "regency_code": 1214,
+        "province_code": 12,
+        "name": "Mazo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121418,
+        "regency_code": 1214,
+        "province_code": 12,
+        "name": "Fanayama",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121419,
+        "regency_code": 1214,
+        "province_code": 12,
+        "name": "Ulunoyo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121420,
+        "regency_code": 1214,
+        "province_code": 12,
+        "name": "Huruna",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121421,
+        "regency_code": 1214,
+        "province_code": 12,
+        "name": "O'o'u",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121422,
+        "regency_code": 1214,
+        "province_code": 12,
+        "name": "Onohazumba",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121423,
+        "regency_code": 1214,
+        "province_code": 12,
+        "name": "Hilisalawa'ahe",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121424,
+        "regency_code": 1214,
+        "province_code": 12,
+        "name": "Ulususua",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121425,
+        "regency_code": 1214,
+        "province_code": 12,
+        "name": "Sidua'ori",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121426,
+        "regency_code": 1214,
+        "province_code": 12,
+        "name": "Somambawa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121427,
+        "regency_code": 1214,
+        "province_code": 12,
+        "name": "Boronadu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121428,
+        "regency_code": 1214,
+        "province_code": 12,
+        "name": "Simuk",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121429,
+        "regency_code": 1214,
+        "province_code": 12,
+        "name": "Pulau-Pulau Batu Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121430,
+        "regency_code": 1214,
+        "province_code": 12,
+        "name": "Pulau-Pulau Batu Utara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121431,
+        "regency_code": 1214,
+        "province_code": 12,
+        "name": "Tanah Masa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121432,
+        "regency_code": 1214,
+        "province_code": 12,
+        "name": "Luahagundre Maniamolo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121433,
+        "regency_code": 1214,
+        "province_code": 12,
+        "name": "Onolalu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121434,
+        "regency_code": 1214,
+        "province_code": 12,
+        "name": "Ulu Idanotae",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121435,
+        "regency_code": 1214,
+        "province_code": 12,
+        "name": "Idanotae",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
         "code": 121501,
         "regency_code": 1215,
         "province_code": 12,
         "name": "Sitelu Tali Urang Jehe",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121502,
+        "regency_code": 1215,
+        "province_code": 12,
+        "name": "Kerajaan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121503,
+        "regency_code": 1215,
+        "province_code": 12,
+        "name": "Salak",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121504,
+        "regency_code": 1215,
+        "province_code": 12,
+        "name": "Sitelu Tali Urang Julu",
         "latitude": null,
         "longitude": null,
         "coordinates": null
@@ -2520,6 +2538,186 @@
         "coordinates": null
     },
     {
+        "code": 121506,
+        "regency_code": 1215,
+        "province_code": 12,
+        "name": "Pagindar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121507,
+        "regency_code": 1215,
+        "province_code": 12,
+        "name": "Tinada",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121508,
+        "regency_code": 1215,
+        "province_code": 12,
+        "name": "Siempat Rube",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121601,
+        "regency_code": 1216,
+        "province_code": 12,
+        "name": "Parlilitan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121602,
+        "regency_code": 1216,
+        "province_code": 12,
+        "name": "Pollung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121603,
+        "regency_code": 1216,
+        "province_code": 12,
+        "name": "Baktiraja",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121604,
+        "regency_code": 1216,
+        "province_code": 12,
+        "name": "Paranginan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121605,
+        "regency_code": 1216,
+        "province_code": 12,
+        "name": "Lintong Nihuta",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121606,
+        "regency_code": 1216,
+        "province_code": 12,
+        "name": "Dolok Sanggul",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121607,
+        "regency_code": 1216,
+        "province_code": 12,
+        "name": "Sijamapolang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121608,
+        "regency_code": 1216,
+        "province_code": 12,
+        "name": "Onan Ganjang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121609,
+        "regency_code": 1216,
+        "province_code": 12,
+        "name": "Pakkat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121610,
+        "regency_code": 1216,
+        "province_code": 12,
+        "name": "Tarabintang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121701,
+        "regency_code": 1217,
+        "province_code": 12,
+        "name": "Simanindo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121702,
+        "regency_code": 1217,
+        "province_code": 12,
+        "name": "Onan Runggu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121703,
+        "regency_code": 1217,
+        "province_code": 12,
+        "name": "Nainggolan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121704,
+        "regency_code": 1217,
+        "province_code": 12,
+        "name": "Palipi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121705,
+        "regency_code": 1217,
+        "province_code": 12,
+        "name": "Harian",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121706,
+        "regency_code": 1217,
+        "province_code": 12,
+        "name": "Sianjar Mula Mula",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121707,
+        "regency_code": 1217,
+        "province_code": 12,
+        "name": "Ronggur Nihuta",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
         "code": 121708,
         "regency_code": 1217,
         "province_code": 12,
@@ -2529,10 +2727,136 @@
         "coordinates": null
     },
     {
+        "code": 121709,
+        "regency_code": 1217,
+        "province_code": 12,
+        "name": "Sitio-tio",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121801,
+        "regency_code": 1218,
+        "province_code": 12,
+        "name": "Pantai Cermin",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
         "code": 121802,
         "regency_code": 1218,
         "province_code": 12,
         "name": "Perbaungan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121803,
+        "regency_code": 1218,
+        "province_code": 12,
+        "name": "Teluk Mengkudu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121804,
+        "regency_code": 1218,
+        "province_code": 12,
+        "name": "Sei Rampah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121805,
+        "regency_code": 1218,
+        "province_code": 12,
+        "name": "Tanjung Beringin",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121806,
+        "regency_code": 1218,
+        "province_code": 12,
+        "name": "Bandar Khalipah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121807,
+        "regency_code": 1218,
+        "province_code": 12,
+        "name": "Dolok Merawan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121808,
+        "regency_code": 1218,
+        "province_code": 12,
+        "name": "Sipispis",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121809,
+        "regency_code": 1218,
+        "province_code": 12,
+        "name": "Dolok Masihul",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121810,
+        "regency_code": 1218,
+        "province_code": 12,
+        "name": "Kotarih",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121811,
+        "regency_code": 1218,
+        "province_code": 12,
+        "name": "Silinda",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121812,
+        "regency_code": 1218,
+        "province_code": 12,
+        "name": "Serba Jadi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121813,
+        "regency_code": 1218,
+        "province_code": 12,
+        "name": "Tebing Tinggi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121814,
+        "regency_code": 1218,
+        "province_code": 12,
+        "name": "Pegajahan",
         "latitude": null,
         "longitude": null,
         "coordinates": null
@@ -2556,10 +2880,631 @@
         "coordinates": null
     },
     {
+        "code": 121817,
+        "regency_code": 1218,
+        "province_code": 12,
+        "name": "Bintang Bayu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121901,
+        "regency_code": 1219,
+        "province_code": 12,
+        "name": "Medang Deras",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121902,
+        "regency_code": 1219,
+        "province_code": 12,
+        "name": "Sei Suka",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121903,
+        "regency_code": 1219,
+        "province_code": 12,
+        "name": "Air Putih",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121904,
+        "regency_code": 1219,
+        "province_code": 12,
+        "name": "Lima Puluh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121905,
+        "regency_code": 1219,
+        "province_code": 12,
+        "name": "Talawi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121906,
+        "regency_code": 1219,
+        "province_code": 12,
+        "name": "Tanjung Tiram",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121907,
+        "regency_code": 1219,
+        "province_code": 12,
+        "name": "Sei Balai",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121908,
+        "regency_code": 1219,
+        "province_code": 12,
+        "name": "Laut Tador",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121909,
+        "regency_code": 1219,
+        "province_code": 12,
+        "name": "Lima Puluh Pesisir",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121910,
+        "regency_code": 1219,
+        "province_code": 12,
+        "name": "Datuk Lima Puluh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121911,
+        "regency_code": 1219,
+        "province_code": 12,
+        "name": "Datuk Tanah Datar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 121912,
+        "regency_code": 1219,
+        "province_code": 12,
+        "name": "Nibung Hangus",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122001,
+        "regency_code": 1220,
+        "province_code": 12,
+        "name": "Dolok Sigompulon",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122002,
+        "regency_code": 1220,
+        "province_code": 12,
+        "name": "Dolok",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122003,
+        "regency_code": 1220,
+        "province_code": 12,
+        "name": "Halongonan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122004,
+        "regency_code": 1220,
+        "province_code": 12,
+        "name": "Padang Bolak",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122005,
+        "regency_code": 1220,
+        "province_code": 12,
+        "name": "Padang Bolak Julu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122006,
+        "regency_code": 1220,
+        "province_code": 12,
+        "name": "Portibi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122007,
+        "regency_code": 1220,
+        "province_code": 12,
+        "name": "Batang Onang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122008,
+        "regency_code": 1220,
+        "province_code": 12,
+        "name": "Simangambat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122009,
+        "regency_code": 1220,
+        "province_code": 12,
+        "name": "Hulu Sihapas",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122010,
+        "regency_code": 1220,
+        "province_code": 12,
+        "name": "Padang Bolak Tenggara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122011,
+        "regency_code": 1220,
+        "province_code": 12,
+        "name": "Halongonan Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122012,
+        "regency_code": 1220,
+        "province_code": 12,
+        "name": "Ujung Batu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122101,
+        "regency_code": 1221,
+        "province_code": 12,
+        "name": "Sosopan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122102,
+        "regency_code": 1221,
+        "province_code": 12,
+        "name": "Barumun Tengah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122103,
+        "regency_code": 1221,
+        "province_code": 12,
+        "name": "Huristak",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122104,
+        "regency_code": 1221,
+        "province_code": 12,
+        "name": "Lubuk Barumun",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122105,
+        "regency_code": 1221,
+        "province_code": 12,
+        "name": "Huta Raja Tinggi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122106,
+        "regency_code": 1221,
+        "province_code": 12,
+        "name": "Ulu Barumun",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122107,
+        "regency_code": 1221,
+        "province_code": 12,
+        "name": "Barumun",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122108,
+        "regency_code": 1221,
+        "province_code": 12,
+        "name": "Sosa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122109,
+        "regency_code": 1221,
+        "province_code": 12,
+        "name": "Batang Lubu Sutam",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122110,
+        "regency_code": 1221,
+        "province_code": 12,
+        "name": "Barumun Selatan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
         "code": 122111,
         "regency_code": 1221,
         "province_code": 12,
         "name": "Aek Nabara Barumun",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122112,
+        "regency_code": 1221,
+        "province_code": 12,
+        "name": "Sihapas Barumun",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122113,
+        "regency_code": 1221,
+        "province_code": 12,
+        "name": "Barumun Baru",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122114,
+        "regency_code": 1221,
+        "province_code": 12,
+        "name": "Ulu Sosa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122115,
+        "regency_code": 1221,
+        "province_code": 12,
+        "name": "Sosa Julu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122116,
+        "regency_code": 1221,
+        "province_code": 12,
+        "name": "Barumun Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122117,
+        "regency_code": 1221,
+        "province_code": 12,
+        "name": "Sosa Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122201,
+        "regency_code": 1222,
+        "province_code": 12,
+        "name": "Kotapinang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122202,
+        "regency_code": 1222,
+        "province_code": 12,
+        "name": "Kampung Rakyat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122203,
+        "regency_code": 1222,
+        "province_code": 12,
+        "name": "Torgamba",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122204,
+        "regency_code": 1222,
+        "province_code": 12,
+        "name": "Sungai Kanan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122205,
+        "regency_code": 1222,
+        "province_code": 12,
+        "name": "Silangkitang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122301,
+        "regency_code": 1223,
+        "province_code": 12,
+        "name": "Kualuh Hulu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122302,
+        "regency_code": 1223,
+        "province_code": 12,
+        "name": "Kualuh Leidong",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122303,
+        "regency_code": 1223,
+        "province_code": 12,
+        "name": "Kualuh Hilir",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122304,
+        "regency_code": 1223,
+        "province_code": 12,
+        "name": "Aek Kuo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122305,
+        "regency_code": 1223,
+        "province_code": 12,
+        "name": "Marbau",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122306,
+        "regency_code": 1223,
+        "province_code": 12,
+        "name": "Na IX - X",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122307,
+        "regency_code": 1223,
+        "province_code": 12,
+        "name": "Aek Natas",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122308,
+        "regency_code": 1223,
+        "province_code": 12,
+        "name": "Kualuh Selatan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122401,
+        "regency_code": 1224,
+        "province_code": 12,
+        "name": "Lotu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122402,
+        "regency_code": 1224,
+        "province_code": 12,
+        "name": "Sawo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122403,
+        "regency_code": 1224,
+        "province_code": 12,
+        "name": "Tuhemberua",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122404,
+        "regency_code": 1224,
+        "province_code": 12,
+        "name": "Sitolu Ori",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122405,
+        "regency_code": 1224,
+        "province_code": 12,
+        "name": "Namohalu Esiwa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122406,
+        "regency_code": 1224,
+        "province_code": 12,
+        "name": "Alasa Talumuzoi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122407,
+        "regency_code": 1224,
+        "province_code": 12,
+        "name": "Alasa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122408,
+        "regency_code": 1224,
+        "province_code": 12,
+        "name": "Tugala Oyo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122409,
+        "regency_code": 1224,
+        "province_code": 12,
+        "name": "Afulu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122410,
+        "regency_code": 1224,
+        "province_code": 12,
+        "name": "Lahewa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122411,
+        "regency_code": 1224,
+        "province_code": 12,
+        "name": "Lahewa Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122501,
+        "regency_code": 1225,
+        "province_code": 12,
+        "name": "Lahomi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122502,
+        "regency_code": 1225,
+        "province_code": 12,
+        "name": "Sirombu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122503,
+        "regency_code": 1225,
+        "province_code": 12,
+        "name": "Mandrehe Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 122504,
+        "regency_code": 1225,
+        "province_code": 12,
+        "name": "Moro'o",
         "latitude": null,
         "longitude": null,
         "coordinates": null
@@ -2592,370 +3537,10 @@
         "coordinates": null
     },
     {
-        "code": 120435,
-        "regency_code": 1204,
+        "code": 122508,
+        "regency_code": 1225,
         "province_code": 12,
-        "name": "Sogae'adu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120611,
-        "regency_code": 1206,
-        "province_code": 12,
-        "name": "Payung",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120911,
-        "regency_code": 1209,
-        "province_code": 12,
-        "name": "Sei Kepayang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120929,
-        "regency_code": 1209,
-        "province_code": 12,
-        "name": "Rawang Panca Arga",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121220,
-        "regency_code": 1212,
-        "province_code": 12,
-        "name": "Siantar Narumonda",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121305,
-        "regency_code": 1213,
-        "province_code": 12,
-        "name": "Panyabungan Barat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121810,
-        "regency_code": 1218,
-        "province_code": 12,
-        "name": "Kotarih",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127804,
-        "regency_code": 1278,
-        "province_code": 12,
-        "name": "Gunungsitoli Idanoi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120302,
-        "regency_code": 1203,
-        "province_code": 12,
-        "name": "Batang Toru",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120721,
-        "regency_code": 1207,
-        "province_code": 12,
-        "name": "Patumbak",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120927,
-        "regency_code": 1209,
-        "province_code": 12,
-        "name": "Setia Janji",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121302,
-        "regency_code": 1213,
-        "province_code": 12,
-        "name": "Panyabungan Utara",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121322,
-        "regency_code": 1213,
-        "province_code": 12,
-        "name": "Sinunukan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121423,
-        "regency_code": 1214,
-        "province_code": 12,
-        "name": "Hilisalawa'ahe",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121806,
-        "regency_code": 1218,
-        "province_code": 12,
-        "name": "Bandar Khalipah",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122105,
-        "regency_code": 1221,
-        "province_code": 12,
-        "name": "Huta Raja Tinggi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120102,
-        "regency_code": 1201,
-        "province_code": 12,
-        "name": "Sorkam",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120405,
-        "regency_code": 1204,
-        "province_code": 12,
-        "name": "Hiliduho",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120514,
-        "regency_code": 1205,
-        "province_code": 12,
-        "name": "Babalan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120614,
-        "regency_code": 1206,
-        "province_code": 12,
-        "name": "Dolat Rayat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120731,
-        "regency_code": 1207,
-        "province_code": 12,
-        "name": "Pagar Merbau",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120915,
-        "regency_code": 1209,
-        "province_code": 12,
-        "name": "Bandar Pulau",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120925,
-        "regency_code": 1209,
-        "province_code": 12,
-        "name": "Sei Kepayang Timur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121420,
-        "regency_code": 1214,
-        "province_code": 12,
-        "name": "Huruna",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121427,
-        "regency_code": 1214,
-        "province_code": 12,
-        "name": "Boronadu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121435,
-        "regency_code": 1214,
-        "province_code": 12,
-        "name": "Idanotae",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121503,
-        "regency_code": 1215,
-        "province_code": 12,
-        "name": "Salak",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127205,
-        "regency_code": 1272,
-        "province_code": 12,
-        "name": "Siantar Marihat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127705,
-        "regency_code": 1277,
-        "province_code": 12,
-        "name": "Padangsidimpuan Tenggara",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120104,
-        "regency_code": 1201,
-        "province_code": 12,
-        "name": "Pinangsori",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120109,
-        "regency_code": 1201,
-        "province_code": 12,
-        "name": "Sosorgadong",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120307,
-        "regency_code": 1203,
-        "province_code": 12,
-        "name": "Batang Angkola",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120420,
-        "regency_code": 1204,
-        "province_code": 12,
-        "name": "Hiliserangkai",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120517,
-        "regency_code": 1205,
-        "province_code": 12,
-        "name": "Sei Lepan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120803,
-        "regency_code": 1208,
-        "province_code": 12,
-        "name": "Gunung Maligas",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120805,
-        "regency_code": 1208,
-        "province_code": 12,
-        "name": "Panombeian Pane",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121104,
-        "regency_code": 1211,
-        "province_code": 12,
-        "name": "Siempat Nempu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121303,
-        "regency_code": 1213,
-        "province_code": 12,
-        "name": "Panyabungan Timur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121314,
-        "regency_code": 1213,
-        "province_code": 12,
-        "name": "Lingga Bayu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122101,
-        "regency_code": 1221,
-        "province_code": 12,
-        "name": "Sosopan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122108,
-        "regency_code": 1221,
-        "province_code": 12,
-        "name": "Sosa",
+        "name": "Ulu Moro'o",
         "latitude": null,
         "longitude": null,
         "coordinates": null
@@ -2970,64 +3555,91 @@
         "coordinates": null
     },
     {
-        "code": 120320,
-        "regency_code": 1203,
+        "code": 127102,
+        "regency_code": 1271,
         "province_code": 12,
-        "name": "Marancar",
+        "name": "Medan Sunggal",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 121317,
-        "regency_code": 1213,
+        "code": 127103,
+        "regency_code": 1271,
         "province_code": 12,
-        "name": "Muara Batang Gadis",
+        "name": "Medan Helvetia",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 121608,
-        "regency_code": 1216,
+        "code": 127104,
+        "regency_code": 1271,
         "province_code": 12,
-        "name": "Onan Ganjang",
+        "name": "Medan Denai",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 121709,
-        "regency_code": 1217,
+        "code": 127105,
+        "regency_code": 1271,
         "province_code": 12,
-        "name": "Sitio-tio",
+        "name": "Medan Barat",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 121804,
-        "regency_code": 1218,
+        "code": 127106,
+        "regency_code": 1271,
         "province_code": 12,
-        "name": "Sei Rampah",
+        "name": "Medan Deli",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 122003,
-        "regency_code": 1220,
+        "code": 127107,
+        "regency_code": 1271,
         "province_code": 12,
-        "name": "Halongonan",
+        "name": "Medan Tuntungan",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 122404,
-        "regency_code": 1224,
+        "code": 127108,
+        "regency_code": 1271,
         "province_code": 12,
-        "name": "Sitolu Ori",
+        "name": "Medan Belawan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 127109,
+        "regency_code": 1271,
+        "province_code": 12,
+        "name": "Medan Amplas",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 127110,
+        "regency_code": 1271,
+        "province_code": 12,
+        "name": "Medan Area",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 127111,
+        "regency_code": 1271,
+        "province_code": 12,
+        "name": "Medan Johor",
         "latitude": null,
         "longitude": null,
         "coordinates": null
@@ -3037,6 +3649,24 @@
         "regency_code": 1271,
         "province_code": 12,
         "name": "Medan Marelan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 127113,
+        "regency_code": 1271,
+        "province_code": 12,
+        "name": "Medan Labuhan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 127114,
+        "regency_code": 1271,
+        "province_code": 12,
+        "name": "Medan Tembung",
         "latitude": null,
         "longitude": null,
         "coordinates": null
@@ -3060,532 +3690,19 @@
         "coordinates": null
     },
     {
-        "code": 120112,
-        "regency_code": 1201,
+        "code": 127117,
+        "regency_code": 1271,
         "province_code": 12,
-        "name": "Andam Dewi",
+        "name": "Medan Baru",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 120330,
-        "regency_code": 1203,
+        "code": 127118,
+        "regency_code": 1271,
         "province_code": 12,
-        "name": "Tano Tombangan Angkola",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120511,
-        "regency_code": 1205,
-        "province_code": 12,
-        "name": "Tanjung Pura",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120513,
-        "regency_code": 1205,
-        "province_code": 12,
-        "name": "Gebang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120704,
-        "regency_code": 1207,
-        "province_code": 12,
-        "name": "Kutalimbaru",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120720,
-        "regency_code": 1207,
-        "province_code": 12,
-        "name": "STM Hulu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120825,
-        "regency_code": 1208,
-        "province_code": 12,
-        "name": "Silimakuta",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121001,
-        "regency_code": 1210,
-        "province_code": 12,
-        "name": "Rantau Utara",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121115,
-        "regency_code": 1211,
-        "province_code": 12,
-        "name": "Sitinjo",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121221,
-        "regency_code": 1212,
-        "province_code": 12,
-        "name": "Nassau",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121306,
-        "regency_code": 1213,
-        "province_code": 12,
-        "name": "Siabu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121421,
-        "regency_code": 1214,
-        "province_code": 12,
-        "name": "O'o'u",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121602,
-        "regency_code": 1216,
-        "province_code": 12,
-        "name": "Pollung",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121817,
-        "regency_code": 1218,
-        "province_code": 12,
-        "name": "Bintang Bayu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121903,
-        "regency_code": 1219,
-        "province_code": 12,
-        "name": "Air Putih",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122004,
-        "regency_code": 1220,
-        "province_code": 12,
-        "name": "Padang Bolak",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120209,
-        "regency_code": 1202,
-        "province_code": 12,
-        "name": "Siborong-Borong",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120211,
-        "regency_code": 1202,
-        "province_code": 12,
-        "name": "Parmonangan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120508,
-        "regency_code": 1205,
-        "province_code": 12,
-        "name": "Wampu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120602,
-        "regency_code": 1206,
-        "province_code": 12,
-        "name": "Berastagi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121203,
-        "regency_code": 1212,
-        "province_code": 12,
-        "name": "Silaen",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121807,
-        "regency_code": 1218,
-        "province_code": 12,
-        "name": "Dolok Merawan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121902,
-        "regency_code": 1219,
-        "province_code": 12,
-        "name": "Sei Suka",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122103,
-        "regency_code": 1221,
-        "province_code": 12,
-        "name": "Huristak",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122112,
-        "regency_code": 1221,
-        "province_code": 12,
-        "name": "Sihapas Barumun",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122304,
-        "regency_code": 1223,
-        "province_code": 12,
-        "name": "Aek Kuo",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122402,
-        "regency_code": 1224,
-        "province_code": 12,
-        "name": "Sawo",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127302,
-        "regency_code": 1273,
-        "province_code": 12,
-        "name": "Sibolga Kota",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127806,
-        "regency_code": 1278,
-        "province_code": 12,
-        "name": "Gunungsitoli Barat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120106,
-        "regency_code": 1201,
-        "province_code": 12,
-        "name": "Kolang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120110,
-        "regency_code": 1201,
-        "province_code": 12,
-        "name": "Sorkam Barat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120111,
-        "regency_code": 1201,
-        "province_code": 12,
-        "name": "Sirandorung",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120314,
-        "regency_code": 1203,
-        "province_code": 12,
-        "name": "Arse",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120321,
-        "regency_code": 1203,
-        "province_code": 12,
-        "name": "Sayur Matinggi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120504,
-        "regency_code": 1205,
-        "province_code": 12,
-        "name": "Sei Bingei",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121103,
-        "regency_code": 1211,
-        "province_code": 12,
-        "name": "Tigalingga",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121113,
-        "regency_code": 1211,
-        "province_code": 12,
-        "name": "Berampu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121315,
-        "regency_code": 1213,
-        "province_code": 12,
-        "name": "Batahan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121316,
-        "regency_code": 1213,
-        "province_code": 12,
-        "name": "Natal",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121504,
-        "regency_code": 1215,
-        "province_code": 12,
-        "name": "Sitelu Tali Urang Julu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121703,
-        "regency_code": 1217,
-        "province_code": 12,
-        "name": "Nainggolan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122406,
-        "regency_code": 1224,
-        "province_code": 12,
-        "name": "Alasa Talumuzoi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127501,
-        "regency_code": 1275,
-        "province_code": 12,
-        "name": "Binjai Utara",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120202,
-        "regency_code": 1202,
-        "province_code": 12,
-        "name": "Siatas Barita",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120205,
-        "regency_code": 1202,
-        "province_code": 12,
-        "name": "Pahae Julu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120406,
-        "regency_code": 1204,
-        "province_code": 12,
-        "name": "Gido",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120510,
-        "regency_code": 1205,
-        "province_code": 12,
-        "name": "Hinai",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120518,
-        "regency_code": 1205,
-        "province_code": 12,
-        "name": "Berandan Barat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120817,
-        "regency_code": 1208,
-        "province_code": 12,
-        "name": "Dolok Batu Nanggar",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120916,
-        "regency_code": 1209,
-        "province_code": 12,
-        "name": "Buntu Pane",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120922,
-        "regency_code": 1209,
-        "province_code": 12,
-        "name": "Rahunig",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120931,
-        "regency_code": 1209,
-        "province_code": 12,
-        "name": "Teluk Dalam",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121007,
-        "regency_code": 1210,
-        "province_code": 12,
-        "name": "Bilah Barat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121101,
-        "regency_code": 1211,
-        "province_code": 12,
-        "name": "Sidikalang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121403,
-        "regency_code": 1214,
-        "province_code": 12,
-        "name": "Lahusa",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121426,
-        "regency_code": 1214,
-        "province_code": 12,
-        "name": "Somambawa",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121901,
-        "regency_code": 1219,
-        "province_code": 12,
-        "name": "Medang Deras",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122102,
-        "regency_code": 1221,
-        "province_code": 12,
-        "name": "Barumun Tengah",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122107,
-        "regency_code": 1221,
-        "province_code": 12,
-        "name": "Barumun",
+        "name": "Medan Perjuangan",
         "latitude": null,
         "longitude": null,
         "coordinates": null
@@ -3600,352 +3717,10 @@
         "coordinates": null
     },
     {
-        "code": 127206,
-        "regency_code": 1272,
-        "province_code": 12,
-        "name": "Siantar Martoba",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127603,
-        "regency_code": 1276,
-        "province_code": 12,
-        "name": "Padang Hilir",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127805,
-        "regency_code": 1278,
-        "province_code": 12,
-        "name": "Gunungsitoli Alo'oa",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120120,
-        "regency_code": 1201,
-        "province_code": 12,
-        "name": "Sarudik",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120920,
-        "regency_code": 1209,
-        "province_code": 12,
-        "name": "Kota Kisaran Timur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121108,
-        "regency_code": 1211,
-        "province_code": 12,
-        "name": "Siempat Nempu Hilir",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121223,
-        "regency_code": 1212,
-        "province_code": 12,
-        "name": "Bonatua Lunasi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121508,
-        "regency_code": 1215,
-        "province_code": 12,
-        "name": "Siempat Rube",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122202,
-        "regency_code": 1222,
-        "province_code": 12,
-        "name": "Kampung Rakyat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122301,
-        "regency_code": 1223,
-        "province_code": 12,
-        "name": "Kualuh Hulu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127602,
-        "regency_code": 1276,
-        "province_code": 12,
-        "name": "Rambutan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120108,
-        "regency_code": 1201,
-        "province_code": 12,
-        "name": "Sibabangun",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120213,
-        "regency_code": 1202,
-        "province_code": 12,
-        "name": "Pangaribuan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120609,
-        "regency_code": 1206,
-        "province_code": 12,
-        "name": "Laubaleng",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120921,
-        "regency_code": 1209,
-        "province_code": 12,
-        "name": "Aek Songsongan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121008,
-        "regency_code": 1210,
-        "province_code": 12,
-        "name": "Bilah Hilir",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121219,
-        "regency_code": 1212,
-        "province_code": 12,
-        "name": "Sigumpar",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121319,
-        "regency_code": 1213,
-        "province_code": 12,
-        "name": "Huta Bargot",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121405,
-        "regency_code": 1214,
-        "province_code": 12,
-        "name": "Pulau-Pulau Batu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121604,
-        "regency_code": 1216,
-        "province_code": 12,
-        "name": "Paranginan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121707,
-        "regency_code": 1217,
-        "province_code": 12,
-        "name": "Ronggur Nihuta",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121905,
-        "regency_code": 1219,
-        "province_code": 12,
-        "name": "Talawi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122115,
-        "regency_code": 1221,
-        "province_code": 12,
-        "name": "Sosa Julu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122201,
-        "regency_code": 1222,
-        "province_code": 12,
-        "name": "Kotapinang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122205,
-        "regency_code": 1222,
-        "province_code": 12,
-        "name": "Silangkitang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 122403,
-        "regency_code": 1224,
-        "province_code": 12,
-        "name": "Tuhemberua",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120215,
-        "regency_code": 1202,
-        "province_code": 12,
-        "name": "Muara",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120515,
-        "regency_code": 1205,
-        "province_code": 12,
-        "name": "Pangkalan Susu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120516,
-        "regency_code": 1205,
-        "province_code": 12,
-        "name": "Besitang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120522,
-        "regency_code": 1205,
-        "province_code": 12,
-        "name": "Kutambaru",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120707,
-        "regency_code": 1207,
-        "province_code": 12,
-        "name": "Sibiru-biru",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120806,
-        "regency_code": 1208,
-        "province_code": 12,
-        "name": "Jorlang Hataran",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 120828,
-        "regency_code": 1208,
-        "province_code": 12,
-        "name": "Tapian Dolok",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121411,
-        "regency_code": 1214,
-        "province_code": 12,
-        "name": "Hilimegai",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121705,
-        "regency_code": 1217,
-        "province_code": 12,
-        "name": "Harian",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121801,
-        "regency_code": 1218,
-        "province_code": 12,
-        "name": "Pantai Cermin",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 121813,
-        "regency_code": 1218,
-        "province_code": 12,
-        "name": "Tebing Tinggi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127105,
+        "code": 127120,
         "regency_code": 1271,
         "province_code": 12,
-        "name": "Medan Barat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 127113,
-        "regency_code": 1271,
-        "province_code": 12,
-        "name": "Medan Labuhan",
+        "name": "Medan Timur",
         "latitude": null,
         "longitude": null,
         "coordinates": null
@@ -3960,127 +3735,316 @@
         "coordinates": null
     },
     {
-        "code": 120207,
-        "regency_code": 1202,
+        "code": 127201,
+        "regency_code": 1272,
         "province_code": 12,
-        "name": "Simangumban",
+        "name": "Siantar Timur",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 120509,
-        "regency_code": 1205,
+        "code": 127202,
+        "regency_code": 1272,
         "province_code": 12,
-        "name": "Secanggang",
+        "name": "Siantar Barat",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 120601,
-        "regency_code": 1206,
+        "code": 127203,
+        "regency_code": 1272,
         "province_code": 12,
-        "name": "Kabanjahe",
+        "name": "Siantar Utara",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 120811,
-        "regency_code": 1208,
+        "code": 127204,
+        "regency_code": 1272,
         "province_code": 12,
-        "name": "Tanah Jawa",
+        "name": "Siantar Selatan",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 120824,
-        "regency_code": 1208,
+        "code": 127205,
+        "regency_code": 1272,
         "province_code": 12,
-        "name": "Bandar Masilam",
+        "name": "Siantar Marihat",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 120908,
-        "regency_code": 1209,
+        "code": 127206,
+        "regency_code": 1272,
         "province_code": 12,
-        "name": "Meranti",
+        "name": "Siantar Martoba",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 121407,
-        "regency_code": 1214,
+        "code": 127207,
+        "regency_code": 1272,
         "province_code": 12,
-        "name": "Amandraya",
+        "name": "Siantar Sitalasari",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 121410,
-        "regency_code": 1214,
+        "code": 127208,
+        "regency_code": 1272,
         "province_code": 12,
-        "name": "Maniamolo",
+        "name": "Siantar Marimbun",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 121412,
-        "regency_code": 1214,
+        "code": 127301,
+        "regency_code": 1273,
         "province_code": 12,
-        "name": "Toma",
+        "name": "Sibolga Utara",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 121431,
-        "regency_code": 1214,
+        "code": 127302,
+        "regency_code": 1273,
         "province_code": 12,
-        "name": "Tanah Masa",
+        "name": "Sibolga Kota",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 122308,
-        "regency_code": 1223,
+        "code": 127303,
+        "regency_code": 1273,
         "province_code": 12,
-        "name": "Kualuh Selatan",
+        "name": "Sibolga Selatan",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 122504,
-        "regency_code": 1225,
+        "code": 127304,
+        "regency_code": 1273,
         "province_code": 12,
-        "name": "Moro'o",
+        "name": "Sibolga Sambas",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 127102,
-        "regency_code": 1271,
+        "code": 127401,
+        "regency_code": 1274,
         "province_code": 12,
-        "name": "Medan Sunggal",
+        "name": "Tanjung Balai Selatan",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 127114,
-        "regency_code": 1271,
+        "code": 127402,
+        "regency_code": 1274,
         "province_code": 12,
-        "name": "Medan Tembung",
+        "name": "Tanjung Balai Utara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 127403,
+        "regency_code": 1274,
+        "province_code": 12,
+        "name": "Sei Tualang Raso",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 127404,
+        "regency_code": 1274,
+        "province_code": 12,
+        "name": "Teluk Nibung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 127405,
+        "regency_code": 1274,
+        "province_code": 12,
+        "name": "Datuk Bandar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 127406,
+        "regency_code": 1274,
+        "province_code": 12,
+        "name": "Datuk Bandar Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 127501,
+        "regency_code": 1275,
+        "province_code": 12,
+        "name": "Binjai Utara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 127502,
+        "regency_code": 1275,
+        "province_code": 12,
+        "name": "Binjai Kota",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 127503,
+        "regency_code": 1275,
+        "province_code": 12,
+        "name": "Binjai Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 127504,
+        "regency_code": 1275,
+        "province_code": 12,
+        "name": "Binjai Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 127505,
+        "regency_code": 1275,
+        "province_code": 12,
+        "name": "Binjai Selatan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 127601,
+        "regency_code": 1276,
+        "province_code": 12,
+        "name": "Padang Hulu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 127602,
+        "regency_code": 1276,
+        "province_code": 12,
+        "name": "Rambutan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 127603,
+        "regency_code": 1276,
+        "province_code": 12,
+        "name": "Padang Hilir",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 127604,
+        "regency_code": 1276,
+        "province_code": 12,
+        "name": "Bajenis",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 127605,
+        "regency_code": 1276,
+        "province_code": 12,
+        "name": "Tebing Tinggi Kota",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 127701,
+        "regency_code": 1277,
+        "province_code": 12,
+        "name": "Padangsidimpuan Utara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 127702,
+        "regency_code": 1277,
+        "province_code": 12,
+        "name": "Padangsidimpuan Selatan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 127703,
+        "regency_code": 1277,
+        "province_code": 12,
+        "name": "Padangsidimpuan Batunadua",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 127704,
+        "regency_code": 1277,
+        "province_code": 12,
+        "name": "Padangsidimpuan Hutaimbaru",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 127705,
+        "regency_code": 1277,
+        "province_code": 12,
+        "name": "Padangsidimpuan Tenggara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 127706,
+        "regency_code": 1277,
+        "province_code": 12,
+        "name": "Padangsidimpuan Angkola Julu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 127801,
+        "regency_code": 1278,
+        "province_code": 12,
+        "name": "Gunungsitoli",
         "latitude": null,
         "longitude": null,
         "coordinates": null
@@ -4090,6 +4054,42 @@
         "regency_code": 1278,
         "province_code": 12,
         "name": "Gunungsitoli Selatan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 127803,
+        "regency_code": 1278,
+        "province_code": 12,
+        "name": "Gunungsitoli Utara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 127804,
+        "regency_code": 1278,
+        "province_code": 12,
+        "name": "Gunungsitoli Idanoi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 127805,
+        "regency_code": 1278,
+        "province_code": 12,
+        "name": "Gunungsitoli Alo'oa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 127806,
+        "regency_code": 1278,
+        "province_code": 12,
+        "name": "Gunungsitoli Barat",
         "latitude": null,
         "longitude": null,
         "coordinates": null

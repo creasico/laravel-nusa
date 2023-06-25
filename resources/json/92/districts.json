@@ -1,270 +1,9 @@
 [
     {
-        "code": 920301,
-        "regency_code": 9203,
-        "province_code": 92,
-        "name": "Fak-Fak",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920304,
-        "regency_code": 9203,
-        "province_code": 92,
-        "name": "Kokas",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920610,
-        "regency_code": 9206,
-        "province_code": 92,
-        "name": "Kuri",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920705,
-        "regency_code": 9207,
-        "province_code": 92,
-        "name": "Wamesa",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920802,
-        "regency_code": 9208,
-        "province_code": 92,
-        "name": "Buruway",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 921003,
-        "regency_code": 9210,
-        "province_code": 92,
-        "name": "Aifat Timur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920918,
-        "regency_code": 9209,
-        "province_code": 92,
-        "name": "Tobouw",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920925,
-        "regency_code": 9209,
-        "province_code": 92,
-        "name": "Manekar",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 927105,
-        "regency_code": 9271,
-        "province_code": 92,
-        "name": "Sorong Utara",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920118,
+        "code": 920101,
         "regency_code": 9201,
         "province_code": 92,
-        "name": "Klawak",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920411,
-        "regency_code": 9204,
-        "province_code": 92,
-        "name": "Seremuk",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920522,
-        "regency_code": 9205,
-        "province_code": 92,
-        "name": "Salawati Tengah",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920525,
-        "regency_code": 9205,
-        "province_code": 92,
-        "name": "Batanta Selatan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920910,
-        "regency_code": 9209,
-        "province_code": 92,
-        "name": "Amberbaken",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920915,
-        "regency_code": 9209,
-        "province_code": 92,
-        "name": "Ases",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 921012,
-        "regency_code": 9210,
-        "province_code": 92,
-        "name": "Aifat Timur Tengah",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920120,
-        "regency_code": 9201,
-        "province_code": 92,
-        "name": "Maudus",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920406,
-        "regency_code": 9204,
-        "province_code": 92,
-        "name": "Sawiat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920511,
-        "regency_code": 9205,
-        "province_code": 92,
-        "name": "Meos Mansar",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920601,
-        "regency_code": 9206,
-        "province_code": 92,
-        "name": "Bintuni",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920614,
-        "regency_code": 9206,
-        "province_code": 92,
-        "name": "Sumuri",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920623,
-        "regency_code": 9206,
-        "province_code": 92,
-        "name": "Meyado",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920702,
-        "regency_code": 9207,
-        "province_code": 92,
-        "name": "Windesi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920707,
-        "regency_code": 9207,
-        "province_code": 92,
-        "name": "Naikere",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920903,
-        "regency_code": 9209,
-        "province_code": 92,
-        "name": "Yembun",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 921205,
-        "regency_code": 9212,
-        "province_code": 92,
-        "name": "Didohu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920114,
-        "regency_code": 9201,
-        "province_code": 92,
-        "name": "Salawati Selatan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920609,
-        "regency_code": 9206,
-        "province_code": 92,
-        "name": "Tembuni",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920621,
-        "regency_code": 9206,
-        "province_code": 92,
-        "name": "Weriagar",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 921005,
-        "regency_code": 9210,
-        "province_code": 92,
-        "name": "Aitinyo Barat",
+        "name": "Makbon",
         "latitude": null,
         "longitude": null,
         "coordinates": null
@@ -279,532 +18,10 @@
         "coordinates": null
     },
     {
-        "code": 920146,
+        "code": 920105,
         "regency_code": 9201,
         "province_code": 92,
-        "name": "Sunook",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920308,
-        "regency_code": 9203,
-        "province_code": 92,
-        "name": "Kramongmongga",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920509,
-        "regency_code": 9205,
-        "province_code": 92,
-        "name": "Teluk Mayalibit",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920616,
-        "regency_code": 9206,
-        "province_code": 92,
-        "name": "Aroba",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920620,
-        "regency_code": 9206,
-        "province_code": 92,
-        "name": "Kamundan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920712,
-        "regency_code": 9207,
-        "province_code": 92,
-        "name": "Nikiwar",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920917,
-        "regency_code": 9209,
-        "province_code": 92,
-        "name": "Ireres",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 921006,
-        "regency_code": 9210,
-        "province_code": 92,
-        "name": "Aitinyo",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 921204,
-        "regency_code": 9212,
-        "province_code": 92,
-        "name": "Sururey",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920204,
-        "regency_code": 9202,
-        "province_code": 92,
-        "name": "Prafi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920310,
-        "regency_code": 9203,
-        "province_code": 92,
-        "name": "Pariwari",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920317,
-        "regency_code": 9203,
-        "province_code": 92,
-        "name": "Tomage",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920425,
-        "regency_code": 9204,
-        "province_code": 92,
-        "name": "Salkma",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920502,
-        "regency_code": 9205,
-        "province_code": 92,
-        "name": "Waigeo Utara",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920521,
-        "regency_code": 9205,
-        "province_code": 92,
-        "name": "Salawati Barat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 921101,
-        "regency_code": 9211,
-        "province_code": 92,
-        "name": "Ransiki",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920107,
-        "regency_code": 9201,
-        "province_code": 92,
-        "name": "Aimas",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920421,
-        "regency_code": 9204,
-        "province_code": 92,
-        "name": "Kokoda Utara",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920514,
-        "regency_code": 9205,
-        "province_code": 92,
-        "name": "Warwarbomi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920619,
-        "regency_code": 9206,
-        "province_code": 92,
-        "name": "Tomu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920907,
-        "regency_code": 9209,
-        "province_code": 92,
-        "name": "Syujak",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920923,
-        "regency_code": 9209,
-        "province_code": 92,
-        "name": "Kebar Timur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920205,
-        "regency_code": 9202,
-        "province_code": 92,
-        "name": "Masni",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920513,
-        "regency_code": 9205,
-        "province_code": 92,
-        "name": "Misool Selatan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920516,
-        "regency_code": 9205,
-        "province_code": 92,
-        "name": "Misool Barat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920706,
-        "regency_code": 9207,
-        "province_code": 92,
-        "name": "Rumberpon",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920916,
-        "regency_code": 9209,
-        "province_code": 92,
-        "name": "Miyah Selatan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 921202,
-        "regency_code": 9212,
-        "province_code": 92,
-        "name": "Anggi Gida",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 921203,
-        "regency_code": 9212,
-        "province_code": 92,
-        "name": "Membey",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920312,
-        "regency_code": 9203,
-        "province_code": 92,
-        "name": "Fakfak Timur Tengah",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920401,
-        "regency_code": 9204,
-        "province_code": 92,
-        "name": "Teminabuan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920108,
-        "regency_code": 9201,
-        "province_code": 92,
-        "name": "Klamono",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920143,
-        "regency_code": 9201,
-        "province_code": 92,
-        "name": "Sorong",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920212,
-        "regency_code": 9202,
-        "province_code": 92,
-        "name": "Manokwari Barat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920922,
-        "regency_code": 9209,
-        "province_code": 92,
-        "name": "Mawabuan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920112,
-        "regency_code": 9201,
-        "province_code": 92,
-        "name": "Segun",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920117,
-        "regency_code": 9201,
-        "province_code": 92,
-        "name": "Klabot",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920404,
-        "regency_code": 9204,
-        "province_code": 92,
-        "name": "Inanwatan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920424,
-        "regency_code": 9204,
-        "province_code": 92,
-        "name": "Fokour",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920902,
-        "regency_code": 9209,
-        "province_code": 92,
-        "name": "Miyah",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920505,
-        "regency_code": 9205,
-        "province_code": 92,
-        "name": "Kepulauan Ayau",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920524,
-        "regency_code": 9205,
-        "province_code": 92,
-        "name": "Ayau",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 921201,
-        "regency_code": 9212,
-        "province_code": 92,
-        "name": "Anggi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920145,
-        "regency_code": 9201,
-        "province_code": 92,
-        "name": "Wemak",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920203,
-        "regency_code": 9202,
-        "province_code": 92,
-        "name": "Warmare",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920221,
-        "regency_code": 9202,
-        "province_code": 92,
-        "name": "Sidey",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920703,
-        "regency_code": 9207,
-        "province_code": 92,
-        "name": "Teluk Duairi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920914,
-        "regency_code": 9209,
-        "province_code": 92,
-        "name": "Bamusbama",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920919,
-        "regency_code": 9209,
-        "province_code": 92,
-        "name": "Wilhem Roumbouts",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 921022,
-        "regency_code": 9210,
-        "province_code": 92,
-        "name": "Aitinyo Tengah",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 921210,
-        "regency_code": 9212,
-        "province_code": 92,
-        "name": "Hingk",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 927109,
-        "regency_code": 9271,
-        "province_code": 92,
-        "name": "Malaimsimsa",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920315,
-        "regency_code": 9203,
-        "province_code": 92,
-        "name": "Kayauni",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920517,
-        "regency_code": 9205,
-        "province_code": 92,
-        "name": "Kepulauan Sembilan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920518,
-        "regency_code": 9205,
-        "province_code": 92,
-        "name": "Kota Waisai",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920615,
-        "regency_code": 9206,
-        "province_code": 92,
-        "name": "Kaitaro",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920618,
-        "regency_code": 9206,
-        "province_code": 92,
-        "name": "Biscoop",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 921011,
-        "regency_code": 9210,
-        "province_code": 92,
-        "name": "Mare",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 921017,
-        "regency_code": 9210,
-        "province_code": 92,
-        "name": "Ayamaru Selatan Jaya",
+        "name": "Salawati",
         "latitude": null,
         "longitude": null,
         "coordinates": null
@@ -819,289 +36,82 @@
         "coordinates": null
     },
     {
-        "code": 920155,
+        "code": 920107,
         "regency_code": 9201,
         "province_code": 92,
-        "name": "Sayosa Timur",
+        "name": "Aimas",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 920515,
-        "regency_code": 9205,
-        "province_code": 92,
-        "name": "Waigeo Barat Kepulauan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 921001,
-        "regency_code": 9210,
-        "province_code": 92,
-        "name": "Aifat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 921002,
-        "regency_code": 9210,
-        "province_code": 92,
-        "name": "Aifat Utara",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 921016,
-        "regency_code": 9210,
-        "province_code": 92,
-        "name": "Ayamaru Jaya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 921019,
-        "regency_code": 9210,
-        "province_code": 92,
-        "name": "Ayamaru Utara Timur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 927104,
-        "regency_code": 9271,
-        "province_code": 92,
-        "name": "Sorong Kepulauan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920213,
-        "regency_code": 9202,
-        "province_code": 92,
-        "name": "Manokwari Timur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920519,
-        "regency_code": 9205,
-        "province_code": 92,
-        "name": "Tiplol Mayalibit",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920617,
-        "regency_code": 9206,
-        "province_code": 92,
-        "name": "Masyeta",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920906,
-        "regency_code": 9209,
-        "province_code": 92,
-        "name": "Abun",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920307,
-        "regency_code": 9203,
-        "province_code": 92,
-        "name": "Bomberay",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920311,
-        "regency_code": 9203,
-        "province_code": 92,
-        "name": "Wartutin",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920912,
-        "regency_code": 9209,
-        "province_code": 92,
-        "name": "Mubrani",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920920,
-        "regency_code": 9209,
-        "province_code": 92,
-        "name": "Tinggouw",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920928,
-        "regency_code": 9209,
-        "province_code": 92,
-        "name": "Kasi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 921209,
-        "regency_code": 9212,
-        "province_code": 92,
-        "name": "Minyambaouw",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920140,
+        "code": 920108,
         "regency_code": 9201,
         "province_code": 92,
-        "name": "Klayili",
+        "name": "Klamono",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 920309,
-        "regency_code": 9203,
-        "province_code": 92,
-        "name": "Teluk Patipi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920316,
-        "regency_code": 9203,
-        "province_code": 92,
-        "name": "Furwagi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920520,
-        "regency_code": 9205,
-        "province_code": 92,
-        "name": "Batanta Utara",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920605,
-        "regency_code": 9206,
-        "province_code": 92,
-        "name": "Moskona Selatan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920611,
-        "regency_code": 9206,
-        "province_code": 92,
-        "name": "Manimeri",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920709,
-        "regency_code": 9207,
-        "province_code": 92,
-        "name": "Kuri Wamesa",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920924,
-        "regency_code": 9209,
-        "province_code": 92,
-        "name": "Kebar Selatan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 921015,
-        "regency_code": 9210,
-        "province_code": 92,
-        "name": "Ayamaru Selatan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 921207,
-        "regency_code": 9212,
-        "province_code": 92,
-        "name": "Catubouw",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920152,
+        "code": 920110,
         "regency_code": 9201,
         "province_code": 92,
-        "name": "Hobard",
+        "name": "Sayosa",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 920217,
-        "regency_code": 9202,
+        "code": 920112,
+        "regency_code": 9201,
         "province_code": 92,
-        "name": "Tanah Rubuh",
+        "name": "Segun",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 920412,
-        "regency_code": 9204,
+        "code": 920113,
+        "regency_code": 9201,
         "province_code": 92,
-        "name": "Wayer",
+        "name": "Mayamuk",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 920713,
-        "regency_code": 9207,
+        "code": 920114,
+        "regency_code": 9201,
         "province_code": 92,
-        "name": "Soug Jaya",
+        "name": "Salawati Selatan",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 920904,
-        "regency_code": 9209,
+        "code": 920117,
+        "regency_code": 9201,
         "province_code": 92,
-        "name": "Kwoor",
+        "name": "Klabot",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920118,
+        "regency_code": 9201,
+        "province_code": 92,
+        "name": "Klawak",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920120,
+        "regency_code": 9201,
+        "province_code": 92,
+        "name": "Maudus",
         "latitude": null,
         "longitude": null,
         "coordinates": null
@@ -1116,370 +126,19 @@
         "coordinates": null
     },
     {
+        "code": 920140,
+        "regency_code": 9201,
+        "province_code": 92,
+        "name": "Klayili",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
         "code": 920141,
         "regency_code": 9201,
         "province_code": 92,
         "name": "Klaso",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920507,
-        "regency_code": 9205,
-        "province_code": 92,
-        "name": "Waigeo Barat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920603,
-        "regency_code": 9206,
-        "province_code": 92,
-        "name": "Babo",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920607,
-        "regency_code": 9206,
-        "province_code": 92,
-        "name": "Wamesa",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920803,
-        "regency_code": 9208,
-        "province_code": 92,
-        "name": "Teluk Arguni Atas",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920804,
-        "regency_code": 9208,
-        "province_code": 92,
-        "name": "Teluk Etna",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920905,
-        "regency_code": 9209,
-        "province_code": 92,
-        "name": "Sausapor",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920926,
-        "regency_code": 9209,
-        "province_code": 92,
-        "name": "Mpur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 921024,
-        "regency_code": 9210,
-        "province_code": 92,
-        "name": "Mare Selatan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920153,
-        "regency_code": 9201,
-        "province_code": 92,
-        "name": "Salawati Tengah",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920306,
-        "regency_code": 9203,
-        "province_code": 92,
-        "name": "Karas",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920701,
-        "regency_code": 9207,
-        "province_code": 92,
-        "name": "Wasior",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920801,
-        "regency_code": 9208,
-        "province_code": 92,
-        "name": "Kaimana",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920807,
-        "regency_code": 9208,
-        "province_code": 92,
-        "name": "Yamor",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920911,
-        "regency_code": 9209,
-        "province_code": 92,
-        "name": "Senopi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 921023,
-        "regency_code": 9210,
-        "province_code": 92,
-        "name": "Aitinyo Raya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 921106,
-        "regency_code": 9211,
-        "province_code": 92,
-        "name": "Tahota",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 921208,
-        "regency_code": 9212,
-        "province_code": 92,
-        "name": "Testega",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920101,
-        "regency_code": 9201,
-        "province_code": 92,
-        "name": "Makbon",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920149,
-        "regency_code": 9201,
-        "province_code": 92,
-        "name": "Malabotom",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920151,
-        "regency_code": 9201,
-        "province_code": 92,
-        "name": "Klasafet",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920302,
-        "regency_code": 9203,
-        "province_code": 92,
-        "name": "Fak-Fak Barat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920409,
-        "regency_code": 9204,
-        "province_code": 92,
-        "name": "Kokoda",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920420,
-        "regency_code": 9204,
-        "province_code": 92,
-        "name": "Matemani",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920503,
-        "regency_code": 9205,
-        "province_code": 92,
-        "name": "Waigeo Selatan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920504,
-        "regency_code": 9205,
-        "province_code": 92,
-        "name": "Salawati Utara",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920506,
-        "regency_code": 9205,
-        "province_code": 92,
-        "name": "Misool Timur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920602,
-        "regency_code": 9206,
-        "province_code": 92,
-        "name": "Merdey",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920622,
-        "regency_code": 9206,
-        "province_code": 92,
-        "name": "Moskona Barat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920805,
-        "regency_code": 9208,
-        "province_code": 92,
-        "name": "Kambrau",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920921,
-        "regency_code": 9209,
-        "province_code": 92,
-        "name": "Kwesefo",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 921020,
-        "regency_code": 9210,
-        "province_code": 92,
-        "name": "Ayamaru Tengah",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920148,
-        "regency_code": 9201,
-        "province_code": 92,
-        "name": "Saengkeduk",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920613,
-        "regency_code": 9206,
-        "province_code": 92,
-        "name": "Dataran Beimes",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920624,
-        "regency_code": 9206,
-        "province_code": 92,
-        "name": "Moskona Timur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 921004,
-        "regency_code": 9210,
-        "province_code": 92,
-        "name": "Aifat Selatan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 921013,
-        "regency_code": 9210,
-        "province_code": 92,
-        "name": "Aifat Timur Jauh",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 921104,
-        "regency_code": 9211,
-        "province_code": 92,
-        "name": "Dataran Isim",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 927101,
-        "regency_code": 9271,
-        "province_code": 92,
-        "name": "Sorong",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 927102,
-        "regency_code": 9271,
-        "province_code": 92,
-        "name": "Sorong Timur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 927106,
-        "regency_code": 9271,
-        "province_code": 92,
-        "name": "Sorong Manoi",
         "latitude": null,
         "longitude": null,
         "coordinates": null
@@ -1494,6 +153,42 @@
         "coordinates": null
     },
     {
+        "code": 920143,
+        "regency_code": 9201,
+        "province_code": 92,
+        "name": "Sorong",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920144,
+        "regency_code": 9201,
+        "province_code": 92,
+        "name": "Bagun",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920145,
+        "regency_code": 9201,
+        "province_code": 92,
+        "name": "Wemak",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920146,
+        "regency_code": 9201,
+        "province_code": 92,
+        "name": "Sunook",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
         "code": 920147,
         "regency_code": 9201,
         "province_code": 92,
@@ -1503,19 +198,172 @@
         "coordinates": null
     },
     {
-        "code": 920414,
-        "regency_code": 9204,
+        "code": 920148,
+        "regency_code": 9201,
         "province_code": 92,
-        "name": "Kais",
+        "name": "Saengkeduk",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 920612,
-        "regency_code": 9206,
+        "code": 920149,
+        "regency_code": 9201,
         "province_code": 92,
-        "name": "Tuhiba",
+        "name": "Malabotom",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920150,
+        "regency_code": 9201,
+        "province_code": 92,
+        "name": "Konhir",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920151,
+        "regency_code": 9201,
+        "province_code": 92,
+        "name": "Klasafet",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920152,
+        "regency_code": 9201,
+        "province_code": 92,
+        "name": "Hobard",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920153,
+        "regency_code": 9201,
+        "province_code": 92,
+        "name": "Salawati Tengah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920154,
+        "regency_code": 9201,
+        "province_code": 92,
+        "name": "Botain",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920155,
+        "regency_code": 9201,
+        "province_code": 92,
+        "name": "Sayosa Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920203,
+        "regency_code": 9202,
+        "province_code": 92,
+        "name": "Warmare",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920204,
+        "regency_code": 9202,
+        "province_code": 92,
+        "name": "Prafi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920205,
+        "regency_code": 9202,
+        "province_code": 92,
+        "name": "Masni",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920212,
+        "regency_code": 9202,
+        "province_code": 92,
+        "name": "Manokwari Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920213,
+        "regency_code": 9202,
+        "province_code": 92,
+        "name": "Manokwari Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920214,
+        "regency_code": 9202,
+        "province_code": 92,
+        "name": "Manokwari Utara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920215,
+        "regency_code": 9202,
+        "province_code": 92,
+        "name": "Manokwari Selatan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920217,
+        "regency_code": 9202,
+        "province_code": 92,
+        "name": "Tanah Rubuh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920221,
+        "regency_code": 9202,
+        "province_code": 92,
+        "name": "Sidey",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920301,
+        "regency_code": 9203,
+        "province_code": 92,
+        "name": "Fak-Fak",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920302,
+        "regency_code": 9203,
+        "province_code": 92,
+        "name": "Fak-Fak Barat",
         "latitude": null,
         "longitude": null,
         "coordinates": null
@@ -1525,6 +373,87 @@
         "regency_code": 9203,
         "province_code": 92,
         "name": "Fak-Fak Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920304,
+        "regency_code": 9203,
+        "province_code": 92,
+        "name": "Kokas",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920305,
+        "regency_code": 9203,
+        "province_code": 92,
+        "name": "Fak-Fak Tengah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920306,
+        "regency_code": 9203,
+        "province_code": 92,
+        "name": "Karas",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920307,
+        "regency_code": 9203,
+        "province_code": 92,
+        "name": "Bomberay",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920308,
+        "regency_code": 9203,
+        "province_code": 92,
+        "name": "Kramongmongga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920309,
+        "regency_code": 9203,
+        "province_code": 92,
+        "name": "Teluk Patipi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920310,
+        "regency_code": 9203,
+        "province_code": 92,
+        "name": "Pariwari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920311,
+        "regency_code": 9203,
+        "province_code": 92,
+        "name": "Wartutin",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920312,
+        "regency_code": 9203,
+        "province_code": 92,
+        "name": "Fakfak Timur Tengah",
         "latitude": null,
         "longitude": null,
         "coordinates": null
@@ -1548,6 +477,69 @@
         "coordinates": null
     },
     {
+        "code": 920315,
+        "regency_code": 9203,
+        "province_code": 92,
+        "name": "Kayauni",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920316,
+        "regency_code": 9203,
+        "province_code": 92,
+        "name": "Furwagi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920317,
+        "regency_code": 9203,
+        "province_code": 92,
+        "name": "Tomage",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920401,
+        "regency_code": 9204,
+        "province_code": 92,
+        "name": "Teminabuan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920404,
+        "regency_code": 9204,
+        "province_code": 92,
+        "name": "Inanwatan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920406,
+        "regency_code": 9204,
+        "province_code": 92,
+        "name": "Sawiat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920409,
+        "regency_code": 9204,
+        "province_code": 92,
+        "name": "Kokoda",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
         "code": 920410,
         "regency_code": 9204,
         "province_code": 92,
@@ -1557,73 +549,82 @@
         "coordinates": null
     },
     {
-        "code": 920606,
-        "regency_code": 9206,
+        "code": 920411,
+        "regency_code": 9204,
         "province_code": 92,
-        "name": "Moskona Utara",
+        "name": "Seremuk",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 921009,
-        "regency_code": 9210,
+        "code": 920412,
+        "regency_code": 9204,
         "province_code": 92,
-        "name": "Ayamaru Utara",
+        "name": "Wayer",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 921010,
-        "regency_code": 9210,
+        "code": 920414,
+        "regency_code": 9204,
         "province_code": 92,
-        "name": "Ayamaru Timur",
+        "name": "Kais",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 921018,
-        "regency_code": 9210,
+        "code": 920415,
+        "regency_code": 9204,
         "province_code": 92,
-        "name": "Ayamaru Timur Selatan",
+        "name": "Konda",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 921105,
-        "regency_code": 9211,
+        "code": 920420,
+        "regency_code": 9204,
         "province_code": 92,
-        "name": "Momi Waren",
+        "name": "Matemani",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 927103,
-        "regency_code": 9271,
+        "code": 920421,
+        "regency_code": 9204,
         "province_code": 92,
-        "name": "Sorong Barat",
+        "name": "Kokoda Utara",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 927108,
-        "regency_code": 9271,
+        "code": 920422,
+        "regency_code": 9204,
         "province_code": 92,
-        "name": "Klaurung",
+        "name": "Saifi",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 920113,
-        "regency_code": 9201,
+        "code": 920424,
+        "regency_code": 9204,
         "province_code": 92,
-        "name": "Mayamuk",
+        "name": "Fokour",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920425,
+        "regency_code": 9204,
+        "province_code": 92,
+        "name": "Salkma",
         "latitude": null,
         "longitude": null,
         "coordinates": null
@@ -1647,6 +648,78 @@
         "coordinates": null
     },
     {
+        "code": 920502,
+        "regency_code": 9205,
+        "province_code": 92,
+        "name": "Waigeo Utara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920503,
+        "regency_code": 9205,
+        "province_code": 92,
+        "name": "Waigeo Selatan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920504,
+        "regency_code": 9205,
+        "province_code": 92,
+        "name": "Salawati Utara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920505,
+        "regency_code": 9205,
+        "province_code": 92,
+        "name": "Kepulauan Ayau",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920506,
+        "regency_code": 9205,
+        "province_code": 92,
+        "name": "Misool Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920507,
+        "regency_code": 9205,
+        "province_code": 92,
+        "name": "Waigeo Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920508,
+        "regency_code": 9205,
+        "province_code": 92,
+        "name": "Waigeo Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920509,
+        "regency_code": 9205,
+        "province_code": 92,
+        "name": "Teluk Mayalibit",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
         "code": 920510,
         "regency_code": 9205,
         "province_code": 92,
@@ -1656,91 +729,154 @@
         "coordinates": null
     },
     {
-        "code": 920908,
-        "regency_code": 9209,
+        "code": 920511,
+        "regency_code": 9205,
         "province_code": 92,
-        "name": "Moraid",
+        "name": "Meos Mansar",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 920929,
-        "regency_code": 9209,
+        "code": 920513,
+        "regency_code": 9205,
         "province_code": 92,
-        "name": "Selemkai",
+        "name": "Misool Selatan",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 927107,
-        "regency_code": 9271,
+        "code": 920514,
+        "regency_code": 9205,
         "province_code": 92,
-        "name": "Sorong Kota",
+        "name": "Warwarbomi",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 920214,
-        "regency_code": 9202,
+        "code": 920515,
+        "regency_code": 9205,
         "province_code": 92,
-        "name": "Manokwari Utara",
+        "name": "Waigeo Barat Kepulauan",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 920415,
-        "regency_code": 9204,
+        "code": 920516,
+        "regency_code": 9205,
         "province_code": 92,
-        "name": "Konda",
+        "name": "Misool Barat",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 920806,
-        "regency_code": 9208,
+        "code": 920517,
+        "regency_code": 9205,
         "province_code": 92,
-        "name": "Teluk Arguni Bawah",
+        "name": "Kepulauan Sembilan",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 920913,
-        "regency_code": 9209,
+        "code": 920518,
+        "regency_code": 9205,
         "province_code": 92,
-        "name": "Bikar",
+        "name": "Kota Waisai",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 921102,
-        "regency_code": 9211,
+        "code": 920519,
+        "regency_code": 9205,
         "province_code": 92,
-        "name": "Oransbari",
+        "name": "Tiplol Mayalibit",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 920144,
-        "regency_code": 9201,
+        "code": 920520,
+        "regency_code": 9205,
         "province_code": 92,
-        "name": "Bagun",
+        "name": "Batanta Utara",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 920154,
-        "regency_code": 9201,
+        "code": 920521,
+        "regency_code": 9205,
         "province_code": 92,
-        "name": "Botain",
+        "name": "Salawati Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920522,
+        "regency_code": 9205,
+        "province_code": 92,
+        "name": "Salawati Tengah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920523,
+        "regency_code": 9205,
+        "province_code": 92,
+        "name": "Supnin",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920524,
+        "regency_code": 9205,
+        "province_code": 92,
+        "name": "Ayau",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920525,
+        "regency_code": 9205,
+        "province_code": 92,
+        "name": "Batanta Selatan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920601,
+        "regency_code": 9206,
+        "province_code": 92,
+        "name": "Bintuni",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920602,
+        "regency_code": 9206,
+        "province_code": 92,
+        "name": "Merdey",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920603,
+        "regency_code": 9206,
+        "province_code": 92,
+        "name": "Babo",
         "latitude": null,
         "longitude": null,
         "coordinates": null
@@ -1755,10 +891,244 @@
         "coordinates": null
     },
     {
+        "code": 920605,
+        "regency_code": 9206,
+        "province_code": 92,
+        "name": "Moskona Selatan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920606,
+        "regency_code": 9206,
+        "province_code": 92,
+        "name": "Moskona Utara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920607,
+        "regency_code": 9206,
+        "province_code": 92,
+        "name": "Wamesa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920608,
+        "regency_code": 9206,
+        "province_code": 92,
+        "name": "Fafurwar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920609,
+        "regency_code": 9206,
+        "province_code": 92,
+        "name": "Tembuni",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920610,
+        "regency_code": 9206,
+        "province_code": 92,
+        "name": "Kuri",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920611,
+        "regency_code": 9206,
+        "province_code": 92,
+        "name": "Manimeri",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920612,
+        "regency_code": 9206,
+        "province_code": 92,
+        "name": "Tuhiba",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920613,
+        "regency_code": 9206,
+        "province_code": 92,
+        "name": "Dataran Beimes",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920614,
+        "regency_code": 9206,
+        "province_code": 92,
+        "name": "Sumuri",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920615,
+        "regency_code": 9206,
+        "province_code": 92,
+        "name": "Kaitaro",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920616,
+        "regency_code": 9206,
+        "province_code": 92,
+        "name": "Aroba",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920617,
+        "regency_code": 9206,
+        "province_code": 92,
+        "name": "Masyeta",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920618,
+        "regency_code": 9206,
+        "province_code": 92,
+        "name": "Biscoop",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920619,
+        "regency_code": 9206,
+        "province_code": 92,
+        "name": "Tomu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920620,
+        "regency_code": 9206,
+        "province_code": 92,
+        "name": "Kamundan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920621,
+        "regency_code": 9206,
+        "province_code": 92,
+        "name": "Weriagar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920622,
+        "regency_code": 9206,
+        "province_code": 92,
+        "name": "Moskona Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920623,
+        "regency_code": 9206,
+        "province_code": 92,
+        "name": "Meyado",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920624,
+        "regency_code": 9206,
+        "province_code": 92,
+        "name": "Moskona Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920701,
+        "regency_code": 9207,
+        "province_code": 92,
+        "name": "Wasior",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920702,
+        "regency_code": 9207,
+        "province_code": 92,
+        "name": "Windesi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920703,
+        "regency_code": 9207,
+        "province_code": 92,
+        "name": "Teluk Duairi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
         "code": 920704,
         "regency_code": 9207,
         "province_code": 92,
         "name": "Wondiboy",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920705,
+        "regency_code": 9207,
+        "province_code": 92,
+        "name": "Wamesa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920706,
+        "regency_code": 9207,
+        "province_code": 92,
+        "name": "Rumberpon",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920707,
+        "regency_code": 9207,
+        "province_code": 92,
+        "name": "Naikere",
         "latitude": null,
         "longitude": null,
         "coordinates": null
@@ -1773,10 +1143,424 @@
         "coordinates": null
     },
     {
+        "code": 920709,
+        "regency_code": 9207,
+        "province_code": 92,
+        "name": "Kuri Wamesa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920710,
+        "regency_code": 9207,
+        "province_code": 92,
+        "name": "Roon",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
         "code": 920711,
         "regency_code": 9207,
         "province_code": 92,
         "name": "Roswar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920712,
+        "regency_code": 9207,
+        "province_code": 92,
+        "name": "Nikiwar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920713,
+        "regency_code": 9207,
+        "province_code": 92,
+        "name": "Soug Jaya",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920801,
+        "regency_code": 9208,
+        "province_code": 92,
+        "name": "Kaimana",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920802,
+        "regency_code": 9208,
+        "province_code": 92,
+        "name": "Buruway",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920803,
+        "regency_code": 9208,
+        "province_code": 92,
+        "name": "Teluk Arguni Atas",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920804,
+        "regency_code": 9208,
+        "province_code": 92,
+        "name": "Teluk Etna",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920805,
+        "regency_code": 9208,
+        "province_code": 92,
+        "name": "Kambrau",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920806,
+        "regency_code": 9208,
+        "province_code": 92,
+        "name": "Teluk Arguni Bawah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920807,
+        "regency_code": 9208,
+        "province_code": 92,
+        "name": "Yamor",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920901,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Fef",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920902,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Miyah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920903,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Yembun",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920904,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Kwoor",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920905,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Sausapor",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920906,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Abun",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920907,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Syujak",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920908,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Moraid",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920909,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Kebar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920910,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Amberbaken",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920911,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Senopi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920912,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Mubrani",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920913,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Bikar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920914,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Bamusbama",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920915,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Ases",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920916,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Miyah Selatan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920917,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Ireres",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920918,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Tobouw",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920919,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Wilhem Roumbouts",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920920,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Tinggouw",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920921,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Kwesefo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920922,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Mawabuan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920923,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Kebar Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920924,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Kebar Selatan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920925,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Manekar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920926,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Mpur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920927,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Amberbaken Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920928,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Kasi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 920929,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Selemkai",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 921001,
+        "regency_code": 9210,
+        "province_code": 92,
+        "name": "Aifat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 921002,
+        "regency_code": 9210,
+        "province_code": 92,
+        "name": "Aifat Utara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 921003,
+        "regency_code": 9210,
+        "province_code": 92,
+        "name": "Aifat Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 921004,
+        "regency_code": 9210,
+        "province_code": 92,
+        "name": "Aifat Selatan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 921005,
+        "regency_code": 9210,
+        "province_code": 92,
+        "name": "Aitinyo Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 921006,
+        "regency_code": 9210,
+        "province_code": 92,
+        "name": "Aitinyo",
         "latitude": null,
         "longitude": null,
         "coordinates": null
@@ -1800,6 +1584,51 @@
         "coordinates": null
     },
     {
+        "code": 921009,
+        "regency_code": 9210,
+        "province_code": 92,
+        "name": "Ayamaru Utara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 921010,
+        "regency_code": 9210,
+        "province_code": 92,
+        "name": "Ayamaru Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 921011,
+        "regency_code": 9210,
+        "province_code": 92,
+        "name": "Mare",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 921012,
+        "regency_code": 9210,
+        "province_code": 92,
+        "name": "Aifat Timur Tengah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 921013,
+        "regency_code": 9210,
+        "province_code": 92,
+        "name": "Aifat Timur Jauh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
         "code": 921014,
         "regency_code": 9210,
         "province_code": 92,
@@ -1809,127 +1638,55 @@
         "coordinates": null
     },
     {
-        "code": 920105,
-        "regency_code": 9201,
+        "code": 921015,
+        "regency_code": 9210,
         "province_code": 92,
-        "name": "Salawati",
+        "name": "Ayamaru Selatan",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 920110,
-        "regency_code": 9201,
+        "code": 921016,
+        "regency_code": 9210,
         "province_code": 92,
-        "name": "Sayosa",
+        "name": "Ayamaru Jaya",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 920215,
-        "regency_code": 9202,
+        "code": 921017,
+        "regency_code": 9210,
         "province_code": 92,
-        "name": "Manokwari Selatan",
+        "name": "Ayamaru Selatan Jaya",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 920508,
-        "regency_code": 9205,
+        "code": 921018,
+        "regency_code": 9210,
         "province_code": 92,
-        "name": "Waigeo Timur",
+        "name": "Ayamaru Timur Selatan",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 920710,
-        "regency_code": 9207,
+        "code": 921019,
+        "regency_code": 9210,
         "province_code": 92,
-        "name": "Roon",
+        "name": "Ayamaru Utara Timur",
         "latitude": null,
         "longitude": null,
         "coordinates": null
     },
     {
-        "code": 920909,
-        "regency_code": 9209,
+        "code": 921020,
+        "regency_code": 9210,
         "province_code": 92,
-        "name": "Kebar",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920927,
-        "regency_code": 9209,
-        "province_code": 92,
-        "name": "Amberbaken Barat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 921103,
-        "regency_code": 9211,
-        "province_code": 92,
-        "name": "Neney",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920150,
-        "regency_code": 9201,
-        "province_code": 92,
-        "name": "Konhir",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920305,
-        "regency_code": 9203,
-        "province_code": 92,
-        "name": "Fak-Fak Tengah",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920422,
-        "regency_code": 9204,
-        "province_code": 92,
-        "name": "Saifi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920523,
-        "regency_code": 9205,
-        "province_code": 92,
-        "name": "Supnin",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920608,
-        "regency_code": 9206,
-        "province_code": 92,
-        "name": "Fafurwar",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
-    },
-    {
-        "code": 920901,
-        "regency_code": 9209,
-        "province_code": 92,
-        "name": "Fef",
+        "name": "Ayamaru Tengah",
         "latitude": null,
         "longitude": null,
         "coordinates": null
@@ -1944,10 +1701,253 @@
         "coordinates": null
     },
     {
+        "code": 921022,
+        "regency_code": 9210,
+        "province_code": 92,
+        "name": "Aitinyo Tengah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 921023,
+        "regency_code": 9210,
+        "province_code": 92,
+        "name": "Aitinyo Raya",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 921024,
+        "regency_code": 9210,
+        "province_code": 92,
+        "name": "Mare Selatan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 921101,
+        "regency_code": 9211,
+        "province_code": 92,
+        "name": "Ransiki",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 921102,
+        "regency_code": 9211,
+        "province_code": 92,
+        "name": "Oransbari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 921103,
+        "regency_code": 9211,
+        "province_code": 92,
+        "name": "Neney",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 921104,
+        "regency_code": 9211,
+        "province_code": 92,
+        "name": "Dataran Isim",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 921105,
+        "regency_code": 9211,
+        "province_code": 92,
+        "name": "Momi Waren",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 921106,
+        "regency_code": 9211,
+        "province_code": 92,
+        "name": "Tahota",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 921201,
+        "regency_code": 9212,
+        "province_code": 92,
+        "name": "Anggi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 921202,
+        "regency_code": 9212,
+        "province_code": 92,
+        "name": "Anggi Gida",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 921203,
+        "regency_code": 9212,
+        "province_code": 92,
+        "name": "Membey",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 921204,
+        "regency_code": 9212,
+        "province_code": 92,
+        "name": "Sururey",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 921205,
+        "regency_code": 9212,
+        "province_code": 92,
+        "name": "Didohu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
         "code": 921206,
         "regency_code": 9212,
         "province_code": 92,
         "name": "Taige",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 921207,
+        "regency_code": 9212,
+        "province_code": 92,
+        "name": "Catubouw",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 921208,
+        "regency_code": 9212,
+        "province_code": 92,
+        "name": "Testega",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 921209,
+        "regency_code": 9212,
+        "province_code": 92,
+        "name": "Minyambaouw",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 921210,
+        "regency_code": 9212,
+        "province_code": 92,
+        "name": "Hingk",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 927101,
+        "regency_code": 9271,
+        "province_code": 92,
+        "name": "Sorong",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 927102,
+        "regency_code": 9271,
+        "province_code": 92,
+        "name": "Sorong Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 927103,
+        "regency_code": 9271,
+        "province_code": 92,
+        "name": "Sorong Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 927104,
+        "regency_code": 9271,
+        "province_code": 92,
+        "name": "Sorong Kepulauan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 927105,
+        "regency_code": 9271,
+        "province_code": 92,
+        "name": "Sorong Utara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 927106,
+        "regency_code": 9271,
+        "province_code": 92,
+        "name": "Sorong Manoi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 927107,
+        "regency_code": 9271,
+        "province_code": 92,
+        "name": "Sorong Kota",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 927108,
+        "regency_code": 9271,
+        "province_code": 92,
+        "name": "Klaurung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 927109,
+        "regency_code": 9271,
+        "province_code": 92,
+        "name": "Malaimsimsa",
         "latitude": null,
         "longitude": null,
         "coordinates": null
