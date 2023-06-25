@@ -1,0 +1,316 @@
+code,regency_code,province_code,name,latitude,longitude,coordinates
+530202,5302,53,"Mollo Selatan",,,null
+530514,5305,53,"Pantar Timur",,,null
+530713,5307,53,Waiblama,,,null
+530720,5307,53,Doreng,,,null
+531006,5310,53,Cibal,,,null
+531107,5311,53,Pandawai,,,null
+530110,5301,53,Fatuleu,,,null
+530212,5302,53,Fatumnasi,,,null
+530216,5302,53,Toianas,,,null
+530230,5302,53,"Mollo Tengah",,,null
+530317,5303,53,"Bikomi Utara",,,null
+530319,5303,53,"Insana Fafinesu",,,null
+530404,5304,53,"Tasifeto Barat",,,null
+530516,5305,53,"Pantar Tengah",,,null
+530607,5306,53,"Solor Timur",,,null
+530612,5306,53,Witihama,,,null
+531013,5310,53,"Satar Mese Barat",,,null
+531309,5313,53,"Ile Ape Timur",,,null
+531401,5314,53,"Rote Barat Daya",,,null
+531408,5314,53,"Rote Selatan",,,null
+531810,5318,53,"Wewewa Tengah",,,null
+537103,5371,53,"Kelapa Lima",,,null
+530305,5303,53,"Kota Kefamenanu",,,null
+530321,5303,53,"Insana Tengah",,,null
+530515,5305,53,Lembur,,,null
+530809,5308,53,Wolojita,,,null
+530821,5308,53,"Lepembusu Kelisoke",,,null
+531301,5313,53,"Naga Wutung",,,null
+531306,5313,53,Omesuri,,,null
+531308,5313,53,Wulandoni,,,null
+531407,5314,53,"Rote Barat",,,null
+531505,5315,53,Komodo,,,null
+532005,5320,53,"Hawu Mehara",,,null
+530120,5301,53,"Amabi Oefeto Timur",,,null
+530125,5301,53,"Amabi Oefeto",,,null
+530221,5302,53,Kualin,,,null
+530403,5304,53,Raihat,,,null
+530615,5306,53,Lewolema,,,null
+530705,5307,53,Alok,,,null
+531109,5311,53,Rindi,,,null
+531112,5311,53,Paberiwai,,,null
+531115,5311,53,"Matawai La Pawu",,,null
+537104,5371,53,Oebobo,,,null
+537105,5371,53,"Kota Raja",,,null
+537106,5371,53,"Kota Lama",,,null
+530109,5301,53,Amarasi,,,null
+530111,5301,53,Takari,,,null
+530608,5306,53,"Adonara Barat",,,null
+530611,5306,53,Kelubagolit,,,null
+530614,5306,53,"Demon Pagong",,,null
+530616,5306,53,"Ile Bura",,,null
+530919,5309,53,"Golewa Barat",,,null
+531012,5310,53,"Langke Rembong",,,null
+531121,5311,53,"Ngadu Ngala",,,null
+530316,5303,53,"Bikomi Nilulat",,,null
+530405,5304,53,"Kakuluk Mesak",,,null
+530421,5304,53,"Atambua Barat",,,null
+530512,5305,53,Mataru,,,null
+530716,5307,53,Koting,,,null
+530820,5308,53,"Ende Timur",,,null
+530907,5309,53,Soa,,,null
+531005,5310,53,"Satar Mese",,,null
+531014,5310,53,"Rahong Utara",,,null
+531108,5311,53,Umalulu,,,null
+530116,5301,53,Nekamese,,,null
+530313,5303,53,Mutis,,,null
+530613,5306,53,"Ile Boleng",,,null
+530708,5307,53,Talibura,,,null
+530709,5307,53,Waigete,,,null
+531101,5311,53,"Kota Waingapu",,,null
+531113,5311,53,Karera,,,null
+531116,5311,53,Kambera,,,null
+531406,5314,53,"Rote Timur",,,null
+531805,5318,53,"Wewewa Selatan",,,null
+531907,5319,53,"Rana Mese",,,null
+532110,5321,53,"Kobalima Timur",,,null
+537101,5371,53,Alak,,,null
+530113,5301,53,"Amfoang Utara",,,null
+530201,5302,53,"Kota Soe",,,null
+530206,5302,53,"Amanuban Selatan",,,null
+530309,5303,53,"Insana Utara",,,null
+530619,5306,53,"Solor Selatan",,,null
+531607,5316,53,"Aesesa Selatan",,,null
+531806,5318,53,"Kodi Bangedo",,,null
+531908,5319,53,"Poco Ranaka Timur",,,null
+532003,5320,53,"Sabu Timur",,,null
+530117,5301,53,"Amarasi Barat",,,null
+530219,5302,53,Kolbano,,,null
+530304,5303,53,Noemuti,,,null
+530609,5306,53,"Wotan Ulumando",,,null
+530801,5308,53,Nangapanda,,,null
+530803,5308,53,Ende,,,null
+530906,5309,53,Bajawa,,,null
+531015,5310,53,Lelak,,,null
+531604,5316,53,Mauponggo,,,null
+530128,5301,53,"Fatuleu Tengah",,,null
+530225,5302,53,Santian,,,null
+530306,5303,53,"Biboki Utara",,,null
+530412,5304,53,"Kota Atambua",,,null
+530502,5305,53,"Alor Barat Laut",,,null
+530602,5306,53,Titehena,,,null
+530909,5309,53,Riung,,,null
+530920,5309,53,Inerie,,,null
+531409,5314,53,"Ndao Nuse",,,null
+531512,5315,53,"Kuwus Barat",,,null
+531701,5317,53,"Katiku Tana",,,null
+531909,5319,53,"Elar Selatan",,,null
+532108,5321,53,Laenmanen,,,null
+530214,5302,53,"Batu Putih",,,null
+530224,5302,53,Noebana,,,null
+530604,5306,53,"Ile Mandiri",,,null
+531510,5315,53,Mbeliling,,,null
+531702,5317,53,"Umbu Ratu Nggay Barat",,,null
+530217,5302,53,Nunkolo,,,null
+530320,5303,53,"Insana Barat",,,null
+530714,5307,53,"Alok Barat",,,null
+531119,5311,53,"Katala Hamu Lingu",,,null
+532004,5320,53,"Sabu Liae",,,null
+532107,5321,53,Sasitamean,,,null
+530108,5301,53,"Kupang Tengah",,,null
+530504,5305,53,"Alor Selatan",,,null
+530505,5305,53,"Alor Timur",,,null
+530605,5306,53,"Tanjung Bunga",,,null
+530618,5306,53,"Adonara Tengah",,,null
+530802,5308,53,"Pulau Ende",,,null
+530816,5308,53,"Ndona Timur",,,null
+531218,5312,53,"Laboya Barat",,,null
+531302,5313,53,Atadei,,,null
+531605,5316,53,Wolowae,,,null
+532006,5320,53,Raijua,,,null
+532102,5321,53,"Malaka Barat",,,null
+530104,5301,53,Semau,,,null
+530107,5301,53,Sulamu,,,null
+530121,5301,53,"Amfoang Barat Daya",,,null
+530213,5302,53,Polen,,,null
+530402,5304,53,TasifetoTimur,,,null
+530601,5306,53,Wulanggitang,,,null
+530814,5308,53,Kelimutu,,,null
+530819,5308,53,"Ende Tengah",,,null
+530912,5309,53,Jerebuu,,,null
+531003,5310,53,Ruteng,,,null
+531111,5311,53,"Wulla Waijelu",,,null
+531410,5314,53,"Landu Leko",,,null
+531503,5315,53,Lembor,,,null
+531504,5315,53,"Sano Nggoang",,,null
+531508,5315,53,Ndoso,,,null
+531809,5318,53,"Kota Tambolaka",,,null
+532002,5320,53,"Sabu Tengah",,,null
+532104,5321,53,Weliman,,,null
+532109,5321,53,"Malaka Timur",,,null
+530126,5301,53,"Amfoang Timur",,,null
+530207,5302,53,"Amanuban Barat",,,null
+530223,5302,53,"Kok Baun",,,null
+530227,5302,53,Kuatnana,,,null
+530323,5303,53,"Biboki Moenleu",,,null
+530510,5305,53,Kabola,,,null
+530513,5305,53,Pureman,,,null
+530610,5306,53,"Adonara Timur",,,null
+530719,5307,53,Kangae,,,null
+531509,5315,53,"Lembor Selatan",,,null
+531703,5317,53,Mamboro,,,null
+531704,5317,53,"Umbu Ratu Nggay",,,null
+531901,5319,53,Borong,,,null
+530205,5302,53,"Amanuban Tengah",,,null
+530229,5302,53,Fatukopa,,,null
+530312,5303,53,Musi,,,null
+530417,5304,53,Lasiolat,,,null
+530518,5305,53,"Abad Selatan",,,null
+530704,5307,53,Nita,,,null
+530707,5307,53,Nelle,,,null
+530817,5308,53,Ndori,,,null
+530818,5308,53,"Ende Utara",,,null
+530918,5309,53,"Golewa Selatan",,,null
+531016,5310,53,"Reok Barat",,,null
+531304,5313,53,Lebatukan,,,null
+531911,5319,53,"Lamba Leda Utara",,,null
+530310,5303,53,"Noemuti Timur",,,null
+530506,5305,53,Pantar,,,null
+531103,5311,53,Lewa,,,null
+531210,5312,53,Loli,,,null
+530112,5301,53,"Amfoang Selatan",,,null
+530130,5301,53,"Amfoang Tengah",,,null
+530413,5304,53,Raimanuk,,,null
+530507,5305,53,"Alor Tengah Utara",,,null
+531122,5311,53,Mahu,,,null
+530222,5302,53,"Mollo Barat",,,null
+530232,5302,53,Nunbena,,,null
+530401,5304,53,Lamaknen,,,null
+530703,5307,53,Lela,,,null
+530804,5308,53,"Ende Selatan",,,null
+530914,5309,53,"Riung Barat",,,null
+531606,5316,53,"Keo Tengah",,,null
+531706,5317,53,"Umbu Ratu Nggay Tengah",,,null
+531912,5319,53,Congkar,,,null
+532101,5321,53,"Malaka Tengah",,,null
+530124,5301,53,Taebenu,,,null
+530228,5302,53,Fautmolo,,,null
+530302,5303,53,"Miomafo Barat",,,null
+530617,5306,53,Adonara,,,null
+530711,5307,53,Bola,,,null
+530901,5309,53,Aimere,,,null
+531211,5312,53,Wanokaka,,,null
+531307,5313,53,Buyasuri,,,null
+531506,5315,53,Boleng,,,null
+531602,5316,53,Nangaroro,,,null
+530123,5301,53,"Semau Selatan",,,null
+530210,5302,53,KI'E,,,null
+530215,5302,53,Boking,,,null
+530308,5303,53,Insana,,,null
+530508,5305,53,"Alor Timur Laut",,,null
+530509,5305,53,"Pantar Barat",,,null
+530810,5308,53,Maurole,,,null
+530812,5308,53,"Lio Timur",,,null
+531106,5311,53,"Pinu Pahar",,,null
+531110,5311,53,"Pahunga Lodu",,,null
+531118,5311,53,"Lewa Tidahu",,,null
+531405,5314,53,"Pantai Baru",,,null
+531801,5318,53,Loura,,,null
+532111,5321,53,Kobalima,,,null
+530122,5301,53,"Amfoang Barat Laut",,,null
+530204,5302,53,"Amanuban Timur",,,null
+530324,5303,53,"Biboki Feotleu",,,null
+530706,5307,53,Palue,,,null
+530805,5308,53,Ndona,,,null
+530811,5308,53,Maukaro,,,null
+531001,5310,53,"Wae Rii",,,null
+531804,5318,53,"Wewewa Barat",,,null
+531904,5319,53,"Sambi Rampas",,,null
+531910,5319,53,"Kota Komba Utara",,,null
+532105,5321,53,Rinhat,,,null
+530105,5301,53,"Kupang Barat",,,null
+530118,5301,53,"Amarasi Selatan",,,null
+530220,5302,53,"Kot olin",,,null
+530303,5303,53,"Biboki Selatan",,,null
+530314,5303,53,"Bikomi Selatan",,,null
+530422,5304,53,"Atambua Selatan",,,null
+530517,5305,53,"Pantar Baru Laut",,,null
+531204,5312,53,"Tana Righu",,,null
+531802,5318,53,"Wewewa Utara",,,null
+530106,5301,53,"Kupang Timur",,,null
+530226,5302,53,Noebeba,,,null
+530301,5303,53,"Miomafo Timur",,,null
+530311,5303,53,"Miomaffo Tengah",,,null
+530318,5303,53,Naibenu,,,null
+530503,5305,53,"Alor Barat Daya",,,null
+531502,5315,53,Kuwus,,,null
+531803,5318,53,"Wewewa Timur",,,null
+531906,5319,53,"Kota Komba",,,null
+530211,5302,53,Kuanfatu,,,null
+530418,5304,53,"Lamaknen Selatan",,,null
+530511,5305,53,"Pulau Pura",,,null
+531402,5314,53,"Rote Barat Laut",,,null
+531404,5314,53,"Rote Tengah",,,null
+531807,5318,53,Kodi,,,null
+531903,5319,53,"Lamba Leda",,,null
+532103,5321,53,Wewiku,,,null
+532106,5321,53,"Io Kufeu",,,null
+530307,5303,53,"Biboki Anleu",,,null
+530322,5303,53,"Biboki Tan Pah",,,null
+530701,5307,53,Paga,,,null
+530712,5307,53,Magepanda,,,null
+531018,5310,53,"Satar Mese Utara",,,null
+531105,5311,53,Tabundung,,,null
+531303,5313,53,"Ile Ape",,,null
+531305,5313,53,Nubatukan,,,null
+531403,5314,53,Lobalain,,,null
+532001,5320,53,"Sabu Barat",,,null
+532112,5321,53,"Botin Leobele",,,null
+530218,5302,53,Oenino,,,null
+530231,5302,53,Tobu,,,null
+531011,5310,53,Reok,,,null
+531215,5312,53,"Kota Waikabubak",,,null
+531511,5315,53,Pacar,,,null
+531811,5318,53,"Kodi Balaghar",,,null
+530606,5306,53,"Solor Barat",,,null
+530717,5307,53,"Tana Wawo",,,null
+530718,5307,53,Hewokloang,,,null
+530815,5308,53,Detukeli,,,null
+531603,5316,53,Boawae,,,null
+531705,5317,53,"Katiku Tana Selatan",,,null
+530127,5301,53,"Fatuleu Barat",,,null
+530501,5305,53,"Teluk Mutiara",,,null
+530806,5308,53,Detusoko,,,null
+530807,5308,53,Wewaria,,,null
+530808,5308,53,Wolowaru,,,null
+530915,5309,53,"Bajawa Utara",,,null
+531117,5311,53,"Kambata Mapambuhang",,,null
+531501,5315,53,"Macang Pacar",,,null
+531902,5319,53,"Poco Ranaka",,,null
+530119,5301,53,"Amarasi Timur",,,null
+530715,5307,53,"Alok Timur",,,null
+530721,5307,53,Mapitara,,,null
+530916,5309,53,Wolomeze,,,null
+531102,5311,53,Haharu,,,null
+531411,5314,53,Loaholu,,,null
+531905,5319,53,Elar,,,null
+530203,5302,53,"Mollo Utara",,,null
+530423,5304,53,"Nanaet Duabesi",,,null
+530603,5306,53,Larantuka,,,null
+530710,5307,53,Kewapante,,,null
+531114,5311,53,"Kahaungu Eti",,,null
+530208,5302,53,"Amanatun Selatan",,,null
+530209,5302,53,"Amanatun Utara",,,null
+530315,5303,53,"Bikomi Tengah",,,null
+530702,5307,53,Mego,,,null
+530813,5308,53,"Kota Baru",,,null
+530902,5309,53,Golewa,,,null
+531017,5310,53,"Cibal barat",,,null
+531104,5311,53,"Nggaha Ori Angu",,,null
+531120,5311,53,Kanatang,,,null
+531212,5312,53,Lamboya,,,null
+531507,5315,53,Welak,,,null
+531601,5316,53,Aesesa,,,null
+531808,5318,53,"Kodi Utara",,,null
+537102,5371,53,Maulafa,,,null

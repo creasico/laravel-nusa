@@ -1,0 +1,1397 @@
+[
+    {
+        "code": 360115,
+        "regency_code": 3601,
+        "province_code": 36,
+        "name": "Cipeucang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360425,
+        "regency_code": 3604,
+        "province_code": 36,
+        "name": "Kopo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 367204,
+        "regency_code": 3672,
+        "province_code": 36,
+        "name": "Ciwandan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 367406,
+        "regency_code": 3674,
+        "province_code": 36,
+        "name": "Pamulang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360110,
+        "regency_code": 3601,
+        "province_code": 36,
+        "name": "Bojong",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360112,
+        "regency_code": 3601,
+        "province_code": 36,
+        "name": "Labuan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360206,
+        "regency_code": 3602,
+        "province_code": 36,
+        "name": "Leuwidamar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360330,
+        "regency_code": 3603,
+        "province_code": 36,
+        "name": "Sepatan Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360415,
+        "regency_code": 3604,
+        "province_code": 36,
+        "name": "Cikande",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360424,
+        "regency_code": 3604,
+        "province_code": 36,
+        "name": "Pamarayan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360211,
+        "regency_code": 3602,
+        "province_code": 36,
+        "name": "Cimarga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360307,
+        "regency_code": 3603,
+        "province_code": 36,
+        "name": "Kronjo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360315,
+        "regency_code": 3603,
+        "province_code": 36,
+        "name": "Pakuhaji",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 367101,
+        "regency_code": 3671,
+        "province_code": 36,
+        "name": "Tangerang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360106,
+        "regency_code": 3601,
+        "province_code": 36,
+        "name": "Panimbang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360216,
+        "regency_code": 3602,
+        "province_code": 36,
+        "name": "Cijaku",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360221,
+        "regency_code": 3602,
+        "province_code": 36,
+        "name": "Wanasalam",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360411,
+        "regency_code": 3604,
+        "province_code": 36,
+        "name": "Kragilan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360428,
+        "regency_code": 3604,
+        "province_code": 36,
+        "name": "Pabuaran",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360126,
+        "regency_code": 3601,
+        "province_code": 36,
+        "name": "Cikedal",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360121,
+        "regency_code": 3601,
+        "province_code": 36,
+        "name": "Pandeglang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 367106,
+        "regency_code": 3671,
+        "province_code": 36,
+        "name": "Ciledug",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 367208,
+        "regency_code": 3672,
+        "province_code": 36,
+        "name": "Citangkil",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360317,
+        "regency_code": 3603,
+        "province_code": 36,
+        "name": "Curug",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360417,
+        "regency_code": 3604,
+        "province_code": 36,
+        "name": "Carenang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 367102,
+        "regency_code": 3671,
+        "province_code": 36,
+        "name": "Jatiuwung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 367203,
+        "regency_code": 3672,
+        "province_code": 36,
+        "name": "Pulomerak",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 367403,
+        "regency_code": 3674,
+        "province_code": 36,
+        "name": "Pondok Aren",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360208,
+        "regency_code": 3602,
+        "province_code": 36,
+        "name": "Gunungkencana",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360218,
+        "regency_code": 3602,
+        "province_code": 36,
+        "name": "Cibadak",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 367303,
+        "regency_code": 3673,
+        "province_code": 36,
+        "name": "Walantaka",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360108,
+        "regency_code": 3601,
+        "province_code": 36,
+        "name": "Munjul",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360117,
+        "regency_code": 3601,
+        "province_code": 36,
+        "name": "Mandalawangi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360125,
+        "regency_code": 3601,
+        "province_code": 36,
+        "name": "Karang Tanjung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360135,
+        "regency_code": 3601,
+        "province_code": 36,
+        "name": "Sobang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360220,
+        "regency_code": 3602,
+        "province_code": 36,
+        "name": "Cilograng",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360311,
+        "regency_code": 3603,
+        "province_code": 36,
+        "name": "Rajeg",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360414,
+        "regency_code": 3604,
+        "province_code": 36,
+        "name": "Tanara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360418,
+        "regency_code": 3604,
+        "province_code": 36,
+        "name": "Binuang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360429,
+        "regency_code": 3604,
+        "province_code": 36,
+        "name": "Padarincang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 367301,
+        "regency_code": 3673,
+        "province_code": 36,
+        "name": "Serang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 367305,
+        "regency_code": 3673,
+        "province_code": 36,
+        "name": "Cipocok Jaya",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360205,
+        "regency_code": 3602,
+        "province_code": 36,
+        "name": "Muncang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360222,
+        "regency_code": 3602,
+        "province_code": 36,
+        "name": "Sobang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360329,
+        "regency_code": 3603,
+        "province_code": 36,
+        "name": "Sindang Jaya",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360422,
+        "regency_code": 3604,
+        "province_code": 36,
+        "name": "Baros",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360434,
+        "regency_code": 3604,
+        "province_code": 36,
+        "name": "Bandung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 367105,
+        "regency_code": 3671,
+        "province_code": 36,
+        "name": "Cipondoh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360223,
+        "regency_code": 3602,
+        "province_code": 36,
+        "name": "Curug bitung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360228,
+        "regency_code": 3602,
+        "province_code": 36,
+        "name": "Cigemlong",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360308,
+        "regency_code": 3603,
+        "province_code": 36,
+        "name": "Mauk",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 367401,
+        "regency_code": 3674,
+        "province_code": 36,
+        "name": "Serpong",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360109,
+        "regency_code": 3601,
+        "province_code": 36,
+        "name": "Pagelaran",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360120,
+        "regency_code": 3601,
+        "province_code": 36,
+        "name": "Banjar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360133,
+        "regency_code": 3601,
+        "province_code": 36,
+        "name": "Koroncong",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360306,
+        "regency_code": 3603,
+        "province_code": 36,
+        "name": "Kresek",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360310,
+        "regency_code": 3603,
+        "province_code": 36,
+        "name": "Sukadiri",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 367207,
+        "regency_code": 3672,
+        "province_code": 36,
+        "name": "Purwakarta",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360319,
+        "regency_code": 3603,
+        "province_code": 36,
+        "name": "Panongan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 367302,
+        "regency_code": 3673,
+        "province_code": 36,
+        "name": "Kasemen",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360201,
+        "regency_code": 3602,
+        "province_code": 36,
+        "name": "Malingping",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360312,
+        "regency_code": 3603,
+        "province_code": 36,
+        "name": "Pasar Kemis",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360413,
+        "regency_code": 3604,
+        "province_code": 36,
+        "name": "Tirtayasa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 367109,
+        "regency_code": 3671,
+        "province_code": 36,
+        "name": "Cibodas",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 367306,
+        "regency_code": 3673,
+        "province_code": 36,
+        "name": "Taktakan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360105,
+        "regency_code": 3601,
+        "province_code": 36,
+        "name": "Cigeulis",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360213,
+        "regency_code": 3602,
+        "province_code": 36,
+        "name": "Maja",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360225,
+        "regency_code": 3602,
+        "province_code": 36,
+        "name": "Lebakgedong",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360301,
+        "regency_code": 3603,
+        "province_code": 36,
+        "name": "Balaraja",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360305,
+        "regency_code": 3603,
+        "province_code": 36,
+        "name": "Cisoka",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360314,
+        "regency_code": 3603,
+        "province_code": 36,
+        "name": "Kosambi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360405,
+        "regency_code": 3604,
+        "province_code": 36,
+        "name": "Kramatwatu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360407,
+        "regency_code": 3604,
+        "province_code": 36,
+        "name": "Bojonegara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360113,
+        "regency_code": 3601,
+        "province_code": 36,
+        "name": "Menes",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360114,
+        "regency_code": 3601,
+        "province_code": 36,
+        "name": "Saketi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360304,
+        "regency_code": 3603,
+        "province_code": 36,
+        "name": "Jambe",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 367104,
+        "regency_code": 3671,
+        "province_code": 36,
+        "name": "Benda",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 367402,
+        "regency_code": 3674,
+        "province_code": 36,
+        "name": "Serpong Utara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360209,
+        "regency_code": 3602,
+        "province_code": 36,
+        "name": "Banjarsari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360227,
+        "regency_code": 3602,
+        "province_code": 36,
+        "name": "Cirinten",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360316,
+        "regency_code": 3603,
+        "province_code": 36,
+        "name": "Sepatan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360332,
+        "regency_code": 3603,
+        "province_code": 36,
+        "name": "Gunung Kaler",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360427,
+        "regency_code": 3604,
+        "province_code": 36,
+        "name": "Ciomas",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 367202,
+        "regency_code": 3672,
+        "province_code": 36,
+        "name": "Cilegon",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360212,
+        "regency_code": 3602,
+        "province_code": 36,
+        "name": "Sajira",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360322,
+        "regency_code": 3603,
+        "province_code": 36,
+        "name": "Pagedangan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360420,
+        "regency_code": 3604,
+        "province_code": 36,
+        "name": "Tunjung Teja",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 367113,
+        "regency_code": 3671,
+        "province_code": 36,
+        "name": "Larangan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 367405,
+        "regency_code": 3674,
+        "province_code": 36,
+        "name": "Ciputat Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360124,
+        "regency_code": 3601,
+        "province_code": 36,
+        "name": "Patia",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360131,
+        "regency_code": 3601,
+        "province_code": 36,
+        "name": "Sindangresmi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360202,
+        "regency_code": 3602,
+        "province_code": 36,
+        "name": "Panggarangan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360431,
+        "regency_code": 3604,
+        "province_code": 36,
+        "name": "Cinangka",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360102,
+        "regency_code": 3601,
+        "province_code": 36,
+        "name": "Cimanggu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360327,
+        "regency_code": 3603,
+        "province_code": 36,
+        "name": "Sukamulya",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360423,
+        "regency_code": 3604,
+        "province_code": 36,
+        "name": "Cikeusal",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360430,
+        "regency_code": 3604,
+        "province_code": 36,
+        "name": "Anyar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360303,
+        "regency_code": 3603,
+        "province_code": 36,
+        "name": "Tigaraksa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360333,
+        "regency_code": 3603,
+        "province_code": 36,
+        "name": "Mekar Baru",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360416,
+        "regency_code": 3604,
+        "province_code": 36,
+        "name": "Kibin",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360435,
+        "regency_code": 3604,
+        "province_code": 36,
+        "name": "Lebak Wangi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 367206,
+        "regency_code": 3672,
+        "province_code": 36,
+        "name": "Gerogol",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 367407,
+        "regency_code": 3674,
+        "province_code": 36,
+        "name": "Setu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360127,
+        "regency_code": 3601,
+        "province_code": 36,
+        "name": "Cibitung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360203,
+        "regency_code": 3602,
+        "province_code": 36,
+        "name": "Bayah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360207,
+        "regency_code": 3602,
+        "province_code": 36,
+        "name": "Bojongmanik",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360320,
+        "regency_code": 3603,
+        "province_code": 36,
+        "name": "Legok",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 367108,
+        "regency_code": 3671,
+        "province_code": 36,
+        "name": "Periuk",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360123,
+        "regency_code": 3601,
+        "province_code": 36,
+        "name": "Cisata",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360323,
+        "regency_code": 3603,
+        "province_code": 36,
+        "name": "Cisauk",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360432,
+        "regency_code": 3604,
+        "province_code": 36,
+        "name": "Mancak",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360116,
+        "regency_code": 3601,
+        "province_code": 36,
+        "name": "Jiput",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360119,
+        "regency_code": 3601,
+        "province_code": 36,
+        "name": "Kaduhejo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360130,
+        "regency_code": 3601,
+        "province_code": 36,
+        "name": "Mekarjaya",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360313,
+        "regency_code": 3603,
+        "province_code": 36,
+        "name": "Teluknaga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360408,
+        "regency_code": 3604,
+        "province_code": 36,
+        "name": "Pulo Ampel",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360426,
+        "regency_code": 3604,
+        "province_code": 36,
+        "name": "Jawilan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360433,
+        "regency_code": 3604,
+        "province_code": 36,
+        "name": "Gunung Sari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 367110,
+        "regency_code": 3671,
+        "province_code": 36,
+        "name": "Neglasari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360104,
+        "regency_code": 3601,
+        "province_code": 36,
+        "name": "Cikeusik",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360132,
+        "regency_code": 3601,
+        "province_code": 36,
+        "name": "Pulosari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360224,
+        "regency_code": 3602,
+        "province_code": 36,
+        "name": "Kalanganyar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360331,
+        "regency_code": 3603,
+        "province_code": 36,
+        "name": "Solear",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360111,
+        "regency_code": 3601,
+        "province_code": 36,
+        "name": "Picung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 367205,
+        "regency_code": 3672,
+        "province_code": 36,
+        "name": "Jombang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360107,
+        "regency_code": 3601,
+        "province_code": 36,
+        "name": "Angsana",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360128,
+        "regency_code": 3601,
+        "province_code": 36,
+        "name": "Carita",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360134,
+        "regency_code": 3601,
+        "province_code": 36,
+        "name": "Majasari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360215,
+        "regency_code": 3602,
+        "province_code": 36,
+        "name": "Warunggunung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360217,
+        "regency_code": 3602,
+        "province_code": 36,
+        "name": "Cikulur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360419,
+        "regency_code": 3604,
+        "province_code": 36,
+        "name": "Petir",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 367111,
+        "regency_code": 3671,
+        "province_code": 36,
+        "name": "Pinang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360204,
+        "regency_code": 3602,
+        "province_code": 36,
+        "name": "Cipanas",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360328,
+        "regency_code": 3603,
+        "province_code": 36,
+        "name": "Kelapa Dua",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360409,
+        "regency_code": 3604,
+        "province_code": 36,
+        "name": "Ciruas",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 367103,
+        "regency_code": 3671,
+        "province_code": 36,
+        "name": "Batuceper",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 367201,
+        "regency_code": 3672,
+        "province_code": 36,
+        "name": "Cibeber",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360103,
+        "regency_code": 3601,
+        "province_code": 36,
+        "name": "Cibaliung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360118,
+        "regency_code": 3601,
+        "province_code": 36,
+        "name": "Cimanuk",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360210,
+        "regency_code": 3602,
+        "province_code": 36,
+        "name": "Cileles",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360318,
+        "regency_code": 3603,
+        "province_code": 36,
+        "name": "Cikupa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 367107,
+        "regency_code": 3671,
+        "province_code": 36,
+        "name": "Karawaci",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 367112,
+        "regency_code": 3671,
+        "province_code": 36,
+        "name": "Karang Tengah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360129,
+        "regency_code": 3601,
+        "province_code": 36,
+        "name": "Sukaresmi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360214,
+        "regency_code": 3602,
+        "province_code": 36,
+        "name": "Rangkasbitung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360302,
+        "regency_code": 3603,
+        "province_code": 36,
+        "name": "Jayanti",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360309,
+        "regency_code": 3603,
+        "province_code": 36,
+        "name": "Kemiri",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360412,
+        "regency_code": 3604,
+        "province_code": 36,
+        "name": "Pontang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 367404,
+        "regency_code": 3674,
+        "province_code": 36,
+        "name": "Ciputat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360101,
+        "regency_code": 3601,
+        "province_code": 36,
+        "name": "Sumur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360122,
+        "regency_code": 3601,
+        "province_code": 36,
+        "name": "Cadasari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360219,
+        "regency_code": 3602,
+        "province_code": 36,
+        "name": "Cibeber",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360226,
+        "regency_code": 3602,
+        "province_code": 36,
+        "name": "Cihara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 360406,
+        "regency_code": 3604,
+        "province_code": 36,
+        "name": "Waringinkurung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 367304,
+        "regency_code": 3673,
+        "province_code": 36,
+        "name": "Curug",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    }
+]

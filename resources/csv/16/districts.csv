@@ -1,0 +1,242 @@
+code,regency_code,province_code,name,latitude,longitude,coordinates
+160129,1601,16,"Sinar Peninjauan",,,null
+160205,1602,16,"Kayu Agung",,,null
+160213,1602,16,Lempuing,,,null
+160418,1604,16,"Kikim Tengah",,,null
+160509,1605,16,"Muara Beliti",,,null
+160712,1607,16,"Tanjung Lago",,,null
+160801,1608,16,Martapura,,,null
+160901,1609,16,"Muara Dua",,,null
+167109,1671,16,Kemuning,,,null
+167201,1672,16,"Pagar Alam Utara",,,null
+160221,1602,16,"Mesuji Raya",,,null
+160409,1604,16,"Merapi Barat",,,null
+160817,1608,16,"Belitang Jaya",,,null
+160916,1609,16,"Sindang Danau",,,null
+160510,1605,16,"STL Ulu Terawas",,,null
+160707,1607,16,"Muara Padang",,,null
+160911,1609,16,"Kisam Ilir",,,null
+160912,1609,16,"Buay Pematang Ribu Ranau Tengah",,,null
+167111,1671,16,"Bukit Kecil",,,null
+160302,1603,16,"Muara Enim",,,null
+160306,1603,16,Gelumbang,,,null
+160308,1603,16,"Semende Darat Laut",,,null
+161106,1611,16,"Talang Padang",,,null
+161205,1612,16,"Tanah Abang",,,null
+161301,1613,16,Rupit,,,null
+167117,1671,16,Jakabaring,,,null
+160114,1601,16,"Baturaja Timur",,,null
+160321,1603,16,Kelekar,,,null
+160512,1605,16,"Megang Sakti",,,null
+160603,1606,16,"Sungai Keruh",,,null
+160606,1606,16,"Babat Toman",,,null
+160711,1607,16,"Rantau Bayur",,,null
+160804,1608,16,Cempaka,,,null
+160910,1609,16,"Kisam Tinggi",,,null
+160915,1609,16,"Sungai Are",,,null
+167203,1672,16,"Dempo Utara",,,null
+167204,1672,16,"Dempo Selatan",,,null
+160130,1601,16,"Lubuk Raja",,,null
+160304,1603,16,"Gunung Megang",,,null
+160324,1603,16,"Belida Darat",,,null
+160501,1605,16,Tugumulyo,,,null
+160502,1605,16,"Muara Lakitan",,,null
+160601,1606,16,Sekayu,,,null
+160611,1606,16,Lalan,,,null
+160612,1606,16,"Tungkal Jaya",,,null
+160717,1607,16,Sembawa,,,null
+160718,1607,16,"Sumber Marga Telang",,,null
+160811,1608,16,"Bunga Mayang",,,null
+160908,1609,16,"Mekakau Ilir",,,null
+167302,1673,16,"Lubuk Linggau Barat I",,,null
+167401,1674,16,"Prabumulih Barat",,,null
+160107,1601,16,"Sosoh Buay Rayap",,,null
+160215,1602,16,"Sungai Menang",,,null
+160218,1602,16,Cengal,,,null
+160325,1603,16,"Lubai Ulu",,,null
+160820,1608,16,"Buay Pemuka Bangsa Raja",,,null
+160906,1609,16,"Buay Sandang Aji",,,null
+167304,1673,16,"Lubuk Linggau Utara I",,,null
+160419,1604,16,"Kikim Barat",,,null
+160428,1604,16,Muarapayang,,,null
+160614,1606,16,"Babat Supat",,,null
+161006,1610,16,"Rantau Alai",,,null
+161011,1610,16,"Rantau Panjang",,,null
+167303,1673,16,"Lubuk Linggau Selatan I",,,null
+160208,1602,16,"Sirah Pulau Padang",,,null
+160211,1602,16,"Tulung Selapan",,,null
+160214,1602,16,"Air Sugihan",,,null
+160315,1603,16,Rambang,,,null
+160319,1603,16,Benakat,,,null
+160417,1604,16,"Kikim Timur",,,null
+160610,1606,16,"Plakat Tinggi",,,null
+161016,1610,16,Payaraman,,,null
+161307,1613,16,"Ulu Rawas",,,null
+167105,1671,16,"Ilir Timur I",,,null
+167405,1674,16,"Prabumulih Utara",,,null
+160223,1602,16,"Teluk Gelam",,,null
+160425,1604,16,"Gumay Ulu",,,null
+160511,1605,16,Selangit,,,null
+160518,1605,16,"Tiang Pumpung Kepungut",,,null
+160615,1606,16,"Jirak Jaya",,,null
+160720,1607,16,"Karangagung Ilir",,,null
+160802,1608,16,"Buay Madang",,,null
+160806,1608,16,"Madang Suku II",,,null
+167107,1671,16,Sukarami,,,null
+160121,1601,16,"Semidang Aji",,,null
+160132,1601,16,"Kedaton Peninjauan Raya",,,null
+160212,1602,16,Pampangan,,,null
+160311,1603,16,"Ujan Mas",,,null
+160326,1603,16,"Empat Petulai Dangku",,,null
+160416,1604,16,"Kikim Selatan",,,null
+160508,1605,16,Jayaloka,,,null
+160602,1606,16,Lais,,,null
+160813,1608,16,"Madang Suku III",,,null
+160816,1608,16,Jayapura,,,null
+161002,1610,16,"Tanjung Batu",,,null
+161101,1611,16,"Muara Pinang",,,null
+161110,1611,16,"Pendopo Barat",,,null
+167110,1671,16,Kalidoni,,,null
+160415,1604,16,"Mulak Ulu",,,null
+160713,1607,16,"Muara Sugihan",,,null
+167403,1674,16,Cambai,,,null
+160204,1602,16,Mesuji,,,null
+160609,1606,16,"Bayung Lencir",,,null
+160701,1607,16,"Banyuasin I",,,null
+160919,1609,16,"Buay Rawan",,,null
+161202,1612,16,"Penukal Utara",,,null
+167205,1672,16,"Dempo Tengah",,,null
+167406,1674,16,"Prabumulih Selatan",,,null
+160202,1602,16,"Tanjung Lubuk",,,null
+160503,1605,16,"Muara Kelingi",,,null
+160702,1607,16,"Banyuasin II",,,null
+160716,1607,16,"Suak Tapeh",,,null
+160815,1608,16,"Semendawai Timur",,,null
+160917,1609,16,"Buana Pemaca",,,null
+161007,1610,16,"Indralaya Utara",,,null
+167101,1671,16,"Ilir Barat II",,,null
+167102,1671,16,"Seberang Ulu I",,,null
+167402,1674,16,"Prabumulih Timur",,,null
+160217,1602,16,Jejawi,,,null
+160719,1607,16,"Air Kumbang",,,null
+160721,1607,16,"Selat Panuguan",,,null
+160814,1608,16,"Semendawai Barat",,,null
+160918,1609,16,"Tiga Dihaji",,,null
+161302,1613,16,"Rawas Ulu",,,null
+167404,1674,16,"Rambang Kpk Tengah",,,null
+160322,1603,16,"Muara Belida",,,null
+160904,1609,16,"Muara Dua Kisam",,,null
+161109,1611,16,Saling,,,null
+160109,1601,16,Peninjauan,,,null
+160128,1601,16,Lengkiti,,,null
+160301,1603,16,"Tanjung Agung",,,null
+160706,1607,16,Rambutan,,,null
+160909,1609,16,"Buay Pemaca",,,null
+161014,1610,16,"Rambang Kuang",,,null
+167104,1671,16,"Ilir Barat I",,,null
+167307,1673,16,"Lubuk Linggau Selatan II",,,null
+160113,1601,16,"Baturaja Barat",,,null
+160704,1607,16,"Pulau Rimau",,,null
+160810,1608,16,"Belitang III",,,null
+161103,1611,16,"Ulu Musi",,,null
+161203,1612,16,Penukal,,,null
+160307,1603,16,"Lawang Kidul",,,null
+160514,1605,16,"BTS. Ulu",,,null
+160803,1608,16,Belitang,,,null
+160812,1608,16,"Buay Madang Timur",,,null
+160907,1609,16,"Buay Runjung",,,null
+161013,1610,16,Kandis,,,null
+161201,1612,16,"Talang Ubi",,,null
+161303,1613,16,Nibung,,,null
+161304,1613,16,"Rawas Ilir",,,null
+167115,1671,16,"Alang-alang Lebar",,,null
+160131,1601,16,"Muara Jaya",,,null
+160309,1603,16,"Semende Darat Tengah",,,null
+160426,1604,16,"Merapi Selatan",,,null
+160521,1605,16,"Suka Karya",,,null
+160420,1604,16,Pseksu,,,null
+160421,1604,16,"Gumay Talang",,,null
+160427,1604,16,Tanjungtebat,,,null
+160708,1607,16,"Muara Telang",,,null
+160809,1608,16,"Belitang II",,,null
+161008,1610,16,"Indralaya Selatan",,,null
+161009,1610,16,"Pemulutan Selatan",,,null
+161012,1610,16,"Sungai Pinang",,,null
+167306,1673,16,"Lubuk Linggau Barat II",,,null
+161104,1611,16,"Tebing Tinggi",,,null
+161108,1611,16,"Sikap Dalam",,,null
+161305,1613,16,"Karang Dapo",,,null
+167202,1672,16,"Pagar Alam Selatan",,,null
+160219,1602,16,"Pangkalan Lampam",,,null
+160710,1607,16,"Talang Kelapa",,,null
+160715,1607,16,"Tungkal Ilir",,,null
+160805,1608,16,"Buay Pemuka Peliung",,,null
+160108,1601,16,Pengandonan,,,null
+160604,1606,16,"Batang Hari Leko",,,null
+160903,1609,16,"Banding Agung",,,null
+161004,1610,16,Indralaya,,,null
+161306,1613,16,"Karang Jaya",,,null
+160120,1601,16,"Ulu Ogan",,,null
+160224,1602,16,"Pedamaran Timur",,,null
+160410,1604,16,Lahat,,,null
+160429,1604,16,Sukamerindu,,,null
+161015,1610,16,"Lubuk Keliat",,,null
+167103,1671,16,"Seberang Ulu II",,,null
+167106,1671,16,"Ilir Timur II",,,null
+167112,1671,16,Gandus,,,null
+160317,1603,16,Lembak,,,null
+160423,1604,16,"Merapi Timur",,,null
+160424,1604,16,"Tanjung Sakti Pumi",,,null
+160703,1607,16,"Banyuasin III",,,null
+160819,1608,16,"Belitang Mulya",,,null
+167305,1673,16,"Lubuk Linggau Timur II",,,null
+167308,1673,16,"Lubuk Linggau Utara II",,,null
+160406,1604,16,Jarai,,,null
+160513,1605,16,Purwodadi,,,null
+160605,1606,16,"Sanga Desa",,,null
+160613,1606,16,"Lawang Wetan",,,null
+160705,1607,16,Betung,,,null
+160709,1607,16,"Makarti Jaya",,,null
+160914,1609,16,"Runjung Agung",,,null
+161107,1611,16,"Pasemah Air Keruh",,,null
+160122,1601,16,"Lubuk Batang",,,null
+160327,1603,16,"Panang Enim",,,null
+160902,1609,16,"Pulau Beringin",,,null
+161010,1610,16,"Pemulutan Barat",,,null
+161102,1611,16,Pendopo,,,null
+167113,1671,16,Kertapati,,,null
+160203,1602,16,Pedamaran,,,null
+160222,1602,16,"Lempuing Jaya",,,null
+160310,1603,16,"Semende Darat Ulu",,,null
+160430,1604,16,"Mulak Sebingkai",,,null
+160431,1604,16,"Lahat Selatan",,,null
+160818,1608,16,"Belitang Madang Raya",,,null
+160913,1609,16,"Warkuk Ranau Selatan",,,null
+161105,1611,16,"Lintang Kanan",,,null
+167118,1671,16,"Ilir Timur Tiga",,,null
+160519,1605,16,"Sumber Harta",,,null
+160520,1605,16,"Tuah Negeri",,,null
+160807,1608,16,"Madang Suku I",,,null
+160905,1609,16,Simpang,,,null
+161005,1610,16,Pemulutan,,,null
+161204,1612,16,Abab,,,null
+160316,1603,16,"Sungai Rotan",,,null
+160323,1603,16,Belimbing,,,null
+160401,1604,16,"Tanjungsakti Pumu",,,null
+160407,1604,16,"Kota Agung",,,null
+160408,1604,16,Pulaupinang,,,null
+160607,1606,16,"Sungai Lilin",,,null
+161003,1610,16,"Tanjung Raja",,,null
+167116,1671,16,"Sematang Borang",,,null
+160220,1602,16,"Mesuji Makmur",,,null
+160303,1603,16,"Rambang Niru",,,null
+160314,1603,16,Lubai,,,null
+160412,1604,16,"Pajar Bulan",,,null
+160422,1604,16,"Pagar Gunung",,,null
+160608,1606,16,Keluang,,,null
+160714,1607,16,"Air Salek",,,null
+160808,1608,16,"Semendawai Suku III",,,null
+161001,1610,16,"Muara Kuang",,,null
+167108,1671,16,Sako,,,null
+167114,1671,16,Plaju,,,null
+167301,1673,16,"Lubuk Linggau Timur I",,,null

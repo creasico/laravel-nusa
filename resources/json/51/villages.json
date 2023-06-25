@@ -1,0 +1,7162 @@
+[
+    {
+        "code": 5101022007,
+        "district_code": 510102,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Penyaringan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102012001,
+        "district_code": 510201,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Bajera",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102042004,
+        "district_code": 510204,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Belumbang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102042005,
+        "district_code": 510204,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Tista",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102052002,
+        "district_code": 510205,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Gubug",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102062010,
+        "district_code": 510206,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Pandak Gede",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102062012,
+        "district_code": 510206,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Pejaten",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102062015,
+        "district_code": 510206,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Banjar Anyar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102072009,
+        "district_code": 510207,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Petiga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103022012,
+        "district_code": 510302,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Gulingan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103042003,
+        "district_code": 510304,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Belok\/Sidan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104012004,
+        "district_code": 510401,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Sukawati",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104032011,
+        "district_code": 510403,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Suwat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104042002,
+        "district_code": 510404,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Sanding",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104052007,
+        "district_code": 510405,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Petulu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106012005,
+        "district_code": 510601,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Sulahan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106042012,
+        "district_code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Banua",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106042024,
+        "district_code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Songan A",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107022009,
+        "district_code": 510702,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Lakasari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108042004,
+        "district_code": 510804,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Banyuatis",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108072001,
+        "district_code": 510807,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Lemukih",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108072013,
+        "district_code": 510807,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Bungkulan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102072006,
+        "district_code": 510207,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Kuwum",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102072010,
+        "district_code": 510207,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Cau Belayu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102082005,
+        "district_code": 510208,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Biaung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102082015,
+        "district_code": 510208,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Tajen",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103032001,
+        "district_code": 510303,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Darmasaba",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103032014,
+        "district_code": 510303,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Punggul",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103032018,
+        "district_code": 510303,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Bongkasa Pertiwi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104052001,
+        "district_code": 510405,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Lodtunduh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104052004,
+        "district_code": 510405,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Kedewatan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105012011,
+        "district_code": 510501,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Kampung Toyapakeh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105032018,
+        "district_code": 510503,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Selisihan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106012001,
+        "district_code": 510601,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Apuan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106012004,
+        "district_code": 510601,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Susut",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106042017,
+        "district_code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Sekardadi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106042020,
+        "district_code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Abangsongan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107062002,
+        "district_code": 510706,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Budekeling",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107082001,
+        "district_code": 510708,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Ban",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108012007,
+        "district_code": 510801,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Musi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108012008,
+        "district_code": 510801,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Sanggalangit",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108042013,
+        "district_code": 510804,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Banjar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108042015,
+        "district_code": 510804,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Temukus",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108062003,
+        "district_code": 510806,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Tukadmungga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5171011004,
+        "district_code": 517101,
+        "regency_code": 5171,
+        "province_code": 51,
+        "name": "Panjer",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5171032002,
+        "district_code": 517103,
+        "regency_code": 5171,
+        "province_code": 51,
+        "name": "Pemecutan Kelod",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101042003,
+        "district_code": 510104,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Belimbingsari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102032003,
+        "district_code": 510203,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Lalanglinggah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102062009,
+        "district_code": 510206,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Pandak Bandung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103011004,
+        "district_code": 510301,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Legian",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103032008,
+        "district_code": 510303,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Abiansemal",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105012003,
+        "district_code": 510501,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Klumpu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105042010,
+        "district_code": 510504,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Pikat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106032004,
+        "district_code": 510603,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Undisan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106042009,
+        "district_code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Mangguh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107022005,
+        "district_code": 510702,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Telaga Tawang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107041002,
+        "district_code": 510704,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Subagan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107082008,
+        "district_code": 510708,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Baturinggit",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108012013,
+        "district_code": 510801,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Celukanbawang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108042001,
+        "district_code": 510804,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Banyuseri",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108082006,
+        "district_code": 510808,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Depeha",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108092006,
+        "district_code": 510809,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Tejakula",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5171032009,
+        "district_code": 517103,
+        "regency_code": 5171,
+        "province_code": 51,
+        "name": "Tegal Kertha",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5171032011,
+        "district_code": 517103,
+        "regency_code": 5171,
+        "province_code": 51,
+        "name": "Padang Sambian Kaja",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5171042003,
+        "district_code": 517104,
+        "regency_code": 5171,
+        "province_code": 51,
+        "name": "Dangin Puri Kaja",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5171042005,
+        "district_code": 517104,
+        "regency_code": 5171,
+        "province_code": 51,
+        "name": "Pemecutan Kaja",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101011008,
+        "district_code": 510101,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Banjar Tengah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101022010,
+        "district_code": 510102,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Yehembang Kauh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102032008,
+        "district_code": 510203,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Mundeh Kauh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102042001,
+        "district_code": 510204,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Tibubiu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102052006,
+        "district_code": 510205,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Dajan Peken",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102072004,
+        "district_code": 510207,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Batannyuh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103021004,
+        "district_code": 510302,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Kapal",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103022019,
+        "district_code": 510302,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Tumbakbayuh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103042004,
+        "district_code": 510304,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Pelaga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103052002,
+        "district_code": 510305,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Ungasan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103062004,
+        "district_code": 510306,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Tibubeneng",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104042007,
+        "district_code": 510404,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Pejeng Kangin",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104052003,
+        "district_code": 510405,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Singakerta",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104052006,
+        "district_code": 510405,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Peliatan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105042003,
+        "district_code": 510504,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Sampalan Kelod",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107032010,
+        "district_code": 510703,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Antiga Kelod",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107052013,
+        "district_code": 510705,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Kesimpar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107082002,
+        "district_code": 510708,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Dukuh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108052001,
+        "district_code": 510805,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Pancasari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108072003,
+        "district_code": 510807,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Sekumpul",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5171011001,
+        "district_code": 517101,
+        "regency_code": 5171,
+        "province_code": 51,
+        "name": "Serangan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101012010,
+        "district_code": 510101,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Tegal Badeng Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101032002,
+        "district_code": 510103,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Pulukan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101052006,
+        "district_code": 510105,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Budeng",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102012010,
+        "district_code": 510201,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Bajera Utara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102052004,
+        "district_code": 510205,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Delod Peken",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102072008,
+        "district_code": 510207,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Marga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102092004,
+        "district_code": 510209,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Angseri",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103032017,
+        "district_code": 510303,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Selat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104062007,
+        "district_code": 510406,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Taro",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105022005,
+        "district_code": 510502,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Bakas",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106022001,
+        "district_code": 510602,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Bunutin",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106032006,
+        "district_code": 510603,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Peninjoan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106042030,
+        "district_code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Serai",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106042045,
+        "district_code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Subaya",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107022002,
+        "district_code": 510702,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Talibeng",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107022003,
+        "district_code": 510702,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Sidemen",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107022006,
+        "district_code": 510702,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Sinduwati",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108021015,
+        "district_code": 510802,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Seririt",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108052006,
+        "district_code": 510805,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Silangjana",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108061019,
+        "district_code": 510806,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Banyuning",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108072012,
+        "district_code": 510807,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Sangsit",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108092010,
+        "district_code": 510809,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Tembok",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5171021003,
+        "district_code": 517102,
+        "regency_code": 5171,
+        "province_code": 51,
+        "name": "Kesiman",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5171022001,
+        "district_code": 517102,
+        "regency_code": 5171,
+        "province_code": 51,
+        "name": "Dangin Puri Kelod",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5171032006,
+        "district_code": 517103,
+        "regency_code": 5171,
+        "province_code": 51,
+        "name": "Dauh Puri Kangin",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5171042006,
+        "district_code": 517104,
+        "regency_code": 5171,
+        "province_code": 51,
+        "name": "Dauh Puri Kaja",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101032008,
+        "district_code": 510103,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Pengragoan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101051001,
+        "district_code": 510105,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Pendem",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102012002,
+        "district_code": 510201,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Wanagiri",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102022007,
+        "district_code": 510202,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Beraban",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102042003,
+        "district_code": 510204,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Penarukan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102062008,
+        "district_code": 510206,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Nyambu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102072012,
+        "district_code": 510207,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Payangan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102082010,
+        "district_code": 510208,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Penebel",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102092011,
+        "district_code": 510209,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Perean Tengah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102102008,
+        "district_code": 510210,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Bantiran",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103062006,
+        "district_code": 510306,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Dalung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104012008,
+        "district_code": 510401,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Kemenuh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104042008,
+        "district_code": 510404,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Pejeng Kelod",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105012015,
+        "district_code": 510501,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Kutampi Kaler",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105042006,
+        "district_code": 510504,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Kusamba",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106032005,
+        "district_code": 510603,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Bangbang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108042005,
+        "district_code": 510804,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Gesing",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108052012,
+        "district_code": 510805,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Panji Anom",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108092009,
+        "district_code": 510809,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Sambirenteng",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101042005,
+        "district_code": 510104,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Nusasari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101042010,
+        "district_code": 510104,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Manistutu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102022004,
+        "district_code": 510202,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Mambang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102042002,
+        "district_code": 510204,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Kelating",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102052009,
+        "district_code": 510205,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Wanasari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102062002,
+        "district_code": 510206,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Pangkung Tibah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102092006,
+        "district_code": 510209,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Baturiti",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102102013,
+        "district_code": 510210,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Karyasari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103022020,
+        "district_code": 510302,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Kuwun",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103042007,
+        "district_code": 510304,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Sulangai",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104012006,
+        "district_code": 510401,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Singapadu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104012007,
+        "district_code": 510401,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Batuan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104022001,
+        "district_code": 510402,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Saba",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104031008,
+        "district_code": 510403,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Beng",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104072006,
+        "district_code": 510407,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Kerta",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105022007,
+        "district_code": 510502,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Tihingan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105042001,
+        "district_code": 510504,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Paksebali",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106012008,
+        "district_code": 510601,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Selat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106032001,
+        "district_code": 510603,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Jehem",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106042018,
+        "district_code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Kedisan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107052008,
+        "district_code": 510705,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Culik",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107082009,
+        "district_code": 510708,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Sukadana",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108022004,
+        "district_code": 510802,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Rangdu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108032006,
+        "district_code": 510803,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Titab",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108042016,
+        "district_code": 510804,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Tigawasa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108062016,
+        "district_code": 510806,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Alasangker",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108072008,
+        "district_code": 510807,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Suwug",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108082008,
+        "district_code": 510808,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Bulian",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108092001,
+        "district_code": 510809,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Sembiran",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5171011005,
+        "district_code": 517101,
+        "regency_code": 5171,
+        "province_code": 51,
+        "name": "Renon",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5171012008,
+        "district_code": 517101,
+        "regency_code": 5171,
+        "province_code": 51,
+        "name": "Pemogan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5171022008,
+        "district_code": 517102,
+        "regency_code": 5171,
+        "province_code": 51,
+        "name": "Sumerta Kauh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101011006,
+        "district_code": 510101,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Baler Bale Agung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101051005,
+        "district_code": 510105,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Dauhwaru",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102022010,
+        "district_code": 510202,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Gadungsari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102072003,
+        "district_code": 510207,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Peken",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102072013,
+        "district_code": 510207,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Marga Dajan Puri",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102082007,
+        "district_code": 510208,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Penatahan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102092005,
+        "district_code": 510209,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Bangli",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102102004,
+        "district_code": 510210,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Kebon Padangan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103032002,
+        "district_code": 510303,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Sibangkaja",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103032007,
+        "district_code": 510303,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Mambal",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103052001,
+        "district_code": 510305,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Pecatu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104032010,
+        "district_code": 510403,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Siangan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104062006,
+        "district_code": 510406,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Sebatu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108012005,
+        "district_code": 510801,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Banyupoh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108012011,
+        "district_code": 510801,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Pengulon",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108032015,
+        "district_code": 510803,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Sepang Kelod",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108042008,
+        "district_code": 510804,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Pedawa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108052015,
+        "district_code": 510805,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Kayu Putih",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108062005,
+        "district_code": 510806,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Baktiseraga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108072002,
+        "district_code": 510807,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Galungan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108082010,
+        "district_code": 510808,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Bengkala",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5171021014,
+        "district_code": 517102,
+        "regency_code": 5171,
+        "province_code": 51,
+        "name": "Penatih",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5171031007,
+        "district_code": 517103,
+        "regency_code": 5171,
+        "province_code": 51,
+        "name": "Pemecutan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102032004,
+        "district_code": 510203,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Antosari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102052001,
+        "district_code": 510205,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Sudimara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102052011,
+        "district_code": 510205,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Buahan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102062006,
+        "district_code": 510206,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Cepaka",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102072014,
+        "district_code": 510207,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Marga Dauh Puri",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102082002,
+        "district_code": 510208,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Jegu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102092010,
+        "district_code": 510209,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Batunya",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103032011,
+        "district_code": 510303,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Blahkiuh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103032015,
+        "district_code": 510303,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Mekar Bhuwana",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104012002,
+        "district_code": 510401,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Ketewel",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104031006,
+        "district_code": 510403,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Gianyar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104042004,
+        "district_code": 510404,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Manukaya",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104062004,
+        "district_code": 510406,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Kedisan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104072003,
+        "district_code": 510407,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Bukian",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105012012,
+        "district_code": 510501,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Lembongan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105022006,
+        "district_code": 510502,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Getakan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105022011,
+        "district_code": 510502,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Timuhun",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105032001,
+        "district_code": 510503,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Satra",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105042011,
+        "district_code": 510504,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Dawan Kaler",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106042002,
+        "district_code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Binyan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106042039,
+        "district_code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Selulung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106042044,
+        "district_code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Kutuh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107012006,
+        "district_code": 510701,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Pesaban",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107032009,
+        "district_code": 510703,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Padangbai",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107032011,
+        "district_code": 510703,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Pasedahan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107042010,
+        "district_code": 510704,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Tegalinggah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107062003,
+        "district_code": 510706,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Bebanden",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108032009,
+        "district_code": 510803,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Kedis",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108052003,
+        "district_code": 510805,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Ambengan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108052008,
+        "district_code": 510805,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Padangbulia",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108072005,
+        "district_code": 510807,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Sudaji",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5171011003,
+        "district_code": 517101,
+        "regency_code": 5171,
+        "province_code": 51,
+        "name": "Sesetan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5171022002,
+        "district_code": 517102,
+        "regency_code": 5171,
+        "province_code": 51,
+        "name": "Sumerta Kelod",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102032002,
+        "district_code": 510203,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Mundeh Kangin",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102042010,
+        "district_code": 510204,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Baturiti",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102102001,
+        "district_code": 510210,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Belimbing",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103051005,
+        "district_code": 510305,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Tanjung Benoa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104042006,
+        "district_code": 510404,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Pejeng Kaja",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105032007,
+        "district_code": 510503,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Kamasan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106042001,
+        "district_code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Mengani",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106042022,
+        "district_code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Batudinding",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106042031,
+        "district_code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Daup",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106042033,
+        "district_code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Gunungbau",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107042009,
+        "district_code": 510704,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Pertima",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107062007,
+        "district_code": 510706,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Buana Giri",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108022020,
+        "district_code": 510802,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Kalisada",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108042006,
+        "district_code": 510804,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Munduk",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108062013,
+        "district_code": 510806,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Sarimekar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108072007,
+        "district_code": 510807,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Menyali",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108082011,
+        "district_code": 510808,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Kubutambahan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5171041007,
+        "district_code": 517104,
+        "regency_code": 5171,
+        "province_code": 51,
+        "name": "Ubung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101012001,
+        "district_code": 510101,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Cupel",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101052008,
+        "district_code": 510105,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Yehkuning",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102042008,
+        "district_code": 510204,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Samsam",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102052010,
+        "district_code": 510205,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Tunjuk",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102072007,
+        "district_code": 510207,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Selanbawak",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102082012,
+        "district_code": 510208,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Senganan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102092001,
+        "district_code": 510209,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Perean",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104012005,
+        "district_code": 510401,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Celuk",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104032004,
+        "district_code": 510403,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Lebih",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104072001,
+        "district_code": 510407,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Melinggih",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105012004,
+        "district_code": 510501,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Batukandik",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105012013,
+        "district_code": 510501,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Jungutbatu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105022002,
+        "district_code": 510502,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Takmung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106032003,
+        "district_code": 510603,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Yangapi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106042034,
+        "district_code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Belanga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107012003,
+        "district_code": 510701,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Menanga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107042006,
+        "district_code": 510704,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Seraya",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107052005,
+        "district_code": 510705,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Abang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107072008,
+        "district_code": 510707,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Amerta Bhuana",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108061024,
+        "district_code": 510806,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Kaliuntu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108061026,
+        "district_code": 510806,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Kampung Bugis",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5171011002,
+        "district_code": 517101,
+        "regency_code": 5171,
+        "province_code": 51,
+        "name": "Pedungan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5171031005,
+        "district_code": 517103,
+        "regency_code": 5171,
+        "province_code": 51,
+        "name": "Dauh Puri",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5171041004,
+        "district_code": 517104,
+        "regency_code": 5171,
+        "province_code": 51,
+        "name": "Tonja",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102062003,
+        "district_code": 510206,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Belalang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102072005,
+        "district_code": 510207,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Tegaljadi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103022003,
+        "district_code": 510302,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Mengwitani",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103042005,
+        "district_code": 510304,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Getasan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103061001,
+        "district_code": 510306,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Kerobokan Kelod",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103062005,
+        "district_code": 510306,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Canggu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104031003,
+        "district_code": 510403,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Samplangan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104032013,
+        "district_code": 510403,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Serongga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105032004,
+        "district_code": 510503,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Kampung Gelgel",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108022003,
+        "district_code": 510802,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Ringdikit",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108032013,
+        "district_code": 510803,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Bengkel",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108042009,
+        "district_code": 510804,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Cempaga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108052004,
+        "district_code": 510805,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Gitgit",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108062015,
+        "district_code": 510806,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Petandakan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108072006,
+        "district_code": 510807,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Sawan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108082001,
+        "district_code": 510808,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Tambakan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108092004,
+        "district_code": 510809,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Madenan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5171012009,
+        "district_code": 517101,
+        "regency_code": 5171,
+        "province_code": 51,
+        "name": "Sanur Kaja",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101042009,
+        "district_code": 510104,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Tukadaya",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101052007,
+        "district_code": 510105,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Air Kuning",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102032005,
+        "district_code": 510203,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Lumbung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102082011,
+        "district_code": 510208,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Babakan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102102011,
+        "district_code": 510210,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Belatungan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103022013,
+        "district_code": 510302,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Werdi Bhuwana",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103022017,
+        "district_code": 510302,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Cemagi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104012012,
+        "district_code": 510401,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Batuan Kaler",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104022005,
+        "district_code": 510402,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Blahbatuh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105022008,
+        "district_code": 510502,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Aan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105022009,
+        "district_code": 510502,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Nyalian",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105032006,
+        "district_code": 510503,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Tangkas",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105032014,
+        "district_code": 510503,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Akah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106021003,
+        "district_code": 510602,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Bebalang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106032002,
+        "district_code": 510603,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Tembuku",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106042005,
+        "district_code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Langgahan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106042008,
+        "district_code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Bayung Cerik",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107032005,
+        "district_code": 510703,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Nyuh Tebel",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107041004,
+        "district_code": 510704,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Karang asem",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107062004,
+        "district_code": 510706,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Sibetan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108022017,
+        "district_code": 510802,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Lokapaksa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108042010,
+        "district_code": 510804,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Sidetapa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108042012,
+        "district_code": 510804,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Banjar Tegeha",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108072011,
+        "district_code": 510807,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Kerobokan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5171042010,
+        "district_code": 517104,
+        "regency_code": 5171,
+        "province_code": 51,
+        "name": "Peguyangan Kaja",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101042006,
+        "district_code": 510104,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Warnasari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102062001,
+        "district_code": 510206,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Bengkel",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102072001,
+        "district_code": 510207,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Kukuh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102082009,
+        "district_code": 510208,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Mengesta",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102082013,
+        "district_code": 510208,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Jatiluwih",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103011005,
+        "district_code": 510301,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Seminyak",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104032002,
+        "district_code": 510403,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Sidan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105012002,
+        "district_code": 510501,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Batumadeg",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105012016,
+        "district_code": 510501,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Bunga Mekar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105031008,
+        "district_code": 510503,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Semarapura Kaja",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106042023,
+        "district_code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Terunyan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107042001,
+        "district_code": 510704,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Bugbug",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107052004,
+        "district_code": 510705,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Tista",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107052012,
+        "district_code": 510705,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Nawa Kerti",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107072002,
+        "district_code": 510707,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Selat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108022001,
+        "district_code": 510802,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Unggahan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108061007,
+        "district_code": 510806,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Banjar Tegal",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108061009,
+        "district_code": 510806,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Paket Agung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5171011006,
+        "district_code": 517101,
+        "regency_code": 5171,
+        "province_code": 51,
+        "name": "Sanur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5171022015,
+        "district_code": 517102,
+        "regency_code": 5171,
+        "province_code": 51,
+        "name": "Penatih Dangin Puri",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5171042011,
+        "district_code": 517104,
+        "regency_code": 5171,
+        "province_code": 51,
+        "name": "Peguyangan Kangin",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101022005,
+        "district_code": 510102,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Delodberawah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102012004,
+        "district_code": 510201,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Berembeng",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102052005,
+        "district_code": 510205,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Dauh Peken",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102102003,
+        "district_code": 510210,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Batungsel",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102102010,
+        "district_code": 510210,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Jelijih Punggung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103032003,
+        "district_code": 510303,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Sibanggede",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103032012,
+        "district_code": 510303,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Ayunan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103052003,
+        "district_code": 510305,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Kutuh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104062005,
+        "district_code": 510406,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Pupuan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105042008,
+        "district_code": 510504,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Pesinggahan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106042014,
+        "district_code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Bonyoh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106042047,
+        "district_code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Pinggan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107072005,
+        "district_code": 510707,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Duda Utara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108022005,
+        "district_code": 510802,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Mayong",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108032001,
+        "district_code": 510803,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Sepang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108052002,
+        "district_code": 510805,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Wanagiri",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108061020,
+        "district_code": 510806,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Penarukan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108062018,
+        "district_code": 510806,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Jinangdalem",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108082004,
+        "district_code": 510808,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Tajun",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108082007,
+        "district_code": 510808,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Tamblang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108092007,
+        "district_code": 510809,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Les",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101041001,
+        "district_code": 510104,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Gilimanuk",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101042008,
+        "district_code": 510104,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Tuwed",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101052010,
+        "district_code": 510105,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Dangin Tukadaya",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102012006,
+        "district_code": 510201,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Sarampingan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102092002,
+        "district_code": 510209,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Luwus",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102092003,
+        "district_code": 510209,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Apuan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103032009,
+        "district_code": 510303,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Bongkasa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104012010,
+        "district_code": 510401,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Singapadu Tengah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104012011,
+        "district_code": 510401,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Singapadu Kaler",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104062003,
+        "district_code": 510406,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Kenderan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105012010,
+        "district_code": 510501,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Ped",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105032003,
+        "district_code": 510503,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Gelgel",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105032016,
+        "district_code": 510503,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Selat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106042027,
+        "district_code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Batur Tengah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106042035,
+        "district_code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Batukaang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5171021010,
+        "district_code": 517102,
+        "regency_code": 5171,
+        "province_code": 51,
+        "name": "Dangin Puri",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101012003,
+        "district_code": 510101,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Banyu Biru",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101012005,
+        "district_code": 510101,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Berangbang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101032005,
+        "district_code": 510103,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Pangyangan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101051003,
+        "district_code": 510105,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Loloan Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102032001,
+        "district_code": 510203,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Mundeh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102062005,
+        "district_code": 510206,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Buwit",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102092007,
+        "district_code": 510209,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Antapan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102092008,
+        "district_code": 510209,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Candikuning",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102102005,
+        "district_code": 510210,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Munduk Temu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102102012,
+        "district_code": 510210,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Pajahan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103021015,
+        "district_code": 510302,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Sading",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103061002,
+        "district_code": 510306,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Kerobokan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104012003,
+        "district_code": 510401,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Guwang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104022006,
+        "district_code": 510402,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Buruan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104031007,
+        "district_code": 510403,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Bitera",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104052008,
+        "district_code": 510405,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Sayan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104072005,
+        "district_code": 510407,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Buahan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104072009,
+        "district_code": 510407,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Bresela",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105012005,
+        "district_code": 510501,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Sekartaji",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105022001,
+        "district_code": 510502,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Negari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105022010,
+        "district_code": 510502,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Bungbungan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105042007,
+        "district_code": 510504,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Kampung Kusamba",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106021005,
+        "district_code": 510602,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Cempaga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106022007,
+        "district_code": 510602,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Kayubihi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106042003,
+        "district_code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Ulian",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106042004,
+        "district_code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Bunutin",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106042025,
+        "district_code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Songan B",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106042038,
+        "district_code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Pengejaran",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107022010,
+        "district_code": 510702,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Wismakerta",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107042011,
+        "district_code": 510704,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Bukit",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107062006,
+        "district_code": 510706,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Bungaya Kangin",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107072006,
+        "district_code": 510707,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Duda Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107082005,
+        "district_code": 510708,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Tianyar Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108022006,
+        "district_code": 510802,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Gunungsari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108022012,
+        "district_code": 510802,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Sulanyah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108022013,
+        "district_code": 510802,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Bubunan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108032004,
+        "district_code": 510803,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Pucaksari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108052014,
+        "district_code": 510805,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Selat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108082005,
+        "district_code": 510808,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Tunjung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5171021006,
+        "district_code": 517102,
+        "regency_code": 5171,
+        "province_code": 51,
+        "name": "Sumerta",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101012011,
+        "district_code": 510101,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Pengambengan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101022004,
+        "district_code": 510102,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Pergung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102012008,
+        "district_code": 510201,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Wanagiri Kauh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103032006,
+        "district_code": 510303,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Sedang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105012009,
+        "district_code": 510501,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Kutampi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106022002,
+        "district_code": 510602,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Tamanbali",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106042021,
+        "district_code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Suter",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106042042,
+        "district_code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Bantang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107012004,
+        "district_code": 510701,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Besakih",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108012003,
+        "district_code": 510801,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Sumberkima",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108022008,
+        "district_code": 510802,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Bestala",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108022018,
+        "district_code": 510802,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Pangkungparuk",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108032002,
+        "district_code": 510803,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Tista",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108032007,
+        "district_code": 510803,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Subuk",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108082009,
+        "district_code": 510808,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Bila",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101022001,
+        "district_code": 510102,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Mendoyo Dauh Tukad",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101022002,
+        "district_code": 510102,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Pohsanten",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101032006,
+        "district_code": 510103,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Gumbrih",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103042001,
+        "district_code": 510304,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Carangsari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104042005,
+        "district_code": 510404,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Pejeng Kawan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106021006,
+        "district_code": 510602,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Kubu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107032001,
+        "district_code": 510703,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Gegelang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107052003,
+        "district_code": 510705,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Bunutan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107072003,
+        "district_code": 510707,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Duda",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107072004,
+        "district_code": 510707,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Sebudi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107072007,
+        "district_code": 510707,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Pering Sari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108012006,
+        "district_code": 510801,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Penyambangan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108012009,
+        "district_code": 510801,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Gerokgak",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108032014,
+        "district_code": 510803,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Umejero",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108052005,
+        "district_code": 510805,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Pegayaman",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108052007,
+        "district_code": 510805,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Pegadungan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108062028,
+        "district_code": 510806,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Penglatan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108072009,
+        "district_code": 510807,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Jagaraga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108092008,
+        "district_code": 510809,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Penuktukan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5171022005,
+        "district_code": 517102,
+        "regency_code": 5171,
+        "province_code": 51,
+        "name": "Kesiman Kertalangu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101022009,
+        "district_code": 510102,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Yeh Sumbul",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102012003,
+        "district_code": 510201,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Pupuan Sawah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102012007,
+        "district_code": 510201,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Antap",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102022008,
+        "district_code": 510202,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Tegal Mengkeb",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102082017,
+        "district_code": 510208,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Pesagi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102102006,
+        "district_code": 510210,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Pujungan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103022001,
+        "district_code": 510302,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Munggu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103022008,
+        "district_code": 510302,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Baha",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103022010,
+        "district_code": 510302,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Kekeran",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104022002,
+        "district_code": 510402,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Pering",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105042009,
+        "district_code": 510504,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Dawan Kelod",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106012007,
+        "district_code": 510601,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Tiga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106021004,
+        "district_code": 510602,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Kawan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106042016,
+        "district_code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Bayung Gede",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107041003,
+        "district_code": 510704,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Padang Kerta",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108032011,
+        "district_code": 510803,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Busungbiu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108042007,
+        "district_code": 510804,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Gobleg",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108062017,
+        "district_code": 510806,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Poh Bergong",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108082002,
+        "district_code": 510808,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Pakisan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108082013,
+        "district_code": 510808,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Mengening",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108092002,
+        "district_code": 510809,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Pacung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101021006,
+        "district_code": 510102,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Tegalcangkring",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101052004,
+        "district_code": 510105,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Batu Agung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102082014,
+        "district_code": 510208,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Wongaya Gede",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102102009,
+        "district_code": 510210,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Padangan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103022009,
+        "district_code": 510302,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Mengwi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103042006,
+        "district_code": 510304,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Pangsan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104031005,
+        "district_code": 510403,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Abianbase",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105042002,
+        "district_code": 510504,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Sampalan Tengah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106012003,
+        "district_code": 510601,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Abuan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106042010,
+        "district_code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Belancan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106042015,
+        "district_code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Sekaan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106042026,
+        "district_code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Batur Selatan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106042028,
+        "district_code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Batur Utara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106042040,
+        "district_code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Satra",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107032012,
+        "district_code": 510703,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Sengkidu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107052001,
+        "district_code": 510705,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Ababi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107082004,
+        "district_code": 510708,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Tianyar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108062002,
+        "district_code": 510806,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Anturan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5171031010,
+        "district_code": 517103,
+        "regency_code": 5171,
+        "province_code": 51,
+        "name": "Padangsambian",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5171042008,
+        "district_code": 517104,
+        "regency_code": 5171,
+        "province_code": 51,
+        "name": "Ubung Kaja",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101042002,
+        "district_code": 510104,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Melaya",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102062004,
+        "district_code": 510206,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Beraban",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102062014,
+        "district_code": 510206,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Abian Tuwung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102082016,
+        "district_code": 510208,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Tegallinggah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103032005,
+        "district_code": 510303,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Angantaka",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103061003,
+        "district_code": 510306,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Kerobokan Kaja",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105012001,
+        "district_code": 510501,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Sakti",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105012008,
+        "district_code": 510501,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Batununggul",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105031010,
+        "district_code": 510503,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Semarapura Tengah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105031012,
+        "district_code": 510503,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Semarapura Kelod Kangin",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106042032,
+        "district_code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Awan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107052011,
+        "district_code": 510705,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Labasari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108082003,
+        "district_code": 510808,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Bontihing",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101042004,
+        "district_code": 510104,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Ekasari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102032011,
+        "district_code": 510203,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Bengkel Sari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102042007,
+        "district_code": 510204,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Pangkung Karung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102042009,
+        "district_code": 510204,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Kukuh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102052003,
+        "district_code": 510205,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Bongan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102052012,
+        "district_code": 510205,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Sedandan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102072015,
+        "district_code": 510207,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Geluntung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103042002,
+        "district_code": 510304,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Petang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104022008,
+        "district_code": 510402,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Medahan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104032009,
+        "district_code": 510403,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Bakbakan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104062002,
+        "district_code": 510406,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Tegallalang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105032017,
+        "district_code": 510503,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Tegak",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107012001,
+        "district_code": 510701,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Nongan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107062005,
+        "district_code": 510706,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Jungutan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107082003,
+        "district_code": 510708,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Kubu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108042003,
+        "district_code": 510804,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Kayuputih",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108061006,
+        "district_code": 510806,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Banyuasri",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108061012,
+        "district_code": 510806,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Beratan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108061029,
+        "district_code": 510806,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Kampung Baru",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108092005,
+        "district_code": 510809,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Bondalem",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101011013,
+        "district_code": 510101,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Lelateng",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101012009,
+        "district_code": 510101,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Tegal Badeng Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101022008,
+        "district_code": 510102,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Yehembang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101032004,
+        "district_code": 510103,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Pekutatan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102042012,
+        "district_code": 510204,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Sembung Gede",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102082008,
+        "district_code": 510208,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Tengkudak",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103022002,
+        "district_code": 510302,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Buduk",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103032016,
+        "district_code": 510303,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Abiansemal Dauh Yeh Cani",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103051006,
+        "district_code": 510305,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Jimbaran",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104012001,
+        "district_code": 510401,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Batubulan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104032015,
+        "district_code": 510403,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Temesi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105042004,
+        "district_code": 510504,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Sulang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106042006,
+        "district_code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Lembean",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106042041,
+        "district_code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Dausa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107022007,
+        "district_code": 510702,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Tri Eka Buana",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107052006,
+        "district_code": 510705,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Pidpid",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107052007,
+        "district_code": 510705,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Datah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107062008,
+        "district_code": 510706,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Macang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108012004,
+        "district_code": 510801,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Pemuteran",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108032012,
+        "district_code": 510803,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Pelapuan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108052010,
+        "district_code": 510805,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Sambangan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101032007,
+        "district_code": 510103,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Manggissari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102042015,
+        "district_code": 510204,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Timpag",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102082018,
+        "district_code": 510208,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Sangketan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102102002,
+        "district_code": 510210,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Sanda",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102102007,
+        "district_code": 510210,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Pupuan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103021005,
+        "district_code": 510302,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Sempidi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103021016,
+        "district_code": 510302,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Lukluk",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104032001,
+        "district_code": 510403,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Tulikup",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104032017,
+        "district_code": 510403,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Tegal Tugu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105022003,
+        "district_code": 510502,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Banjarangkan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105031009,
+        "district_code": 510503,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Semarapura Kauh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106042043,
+        "district_code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Sukawana",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106042046,
+        "district_code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Siakin",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107022008,
+        "district_code": 510702,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Kerta Buana",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107032004,
+        "district_code": 510703,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Manggis",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107052009,
+        "district_code": 510705,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Purwakerti",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107072001,
+        "district_code": 510707,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Muncan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108022007,
+        "district_code": 510802,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Munduk Bestala",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108061021,
+        "district_code": 510806,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Kampung Kajanan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108061022,
+        "district_code": 510806,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Astina",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108061023,
+        "district_code": 510806,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Banjar Jawa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108062004,
+        "district_code": 510806,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Pemaron",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5171022004,
+        "district_code": 517102,
+        "regency_code": 5171,
+        "province_code": 51,
+        "name": "Kesiman Petilan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5171041009,
+        "district_code": 517104,
+        "regency_code": 5171,
+        "province_code": 51,
+        "name": "Peguyangan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102022003,
+        "district_code": 510202,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Bantas",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102042014,
+        "district_code": 510204,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Kesiut",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102062007,
+        "district_code": 510206,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Kaba-kaba",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102082004,
+        "district_code": 510208,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Buruan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103022007,
+        "district_code": 510302,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Sembung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103022018,
+        "district_code": 510302,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Pererenan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103032013,
+        "district_code": 510303,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Sangeh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104022003,
+        "district_code": 510402,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Keramas",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104032016,
+        "district_code": 510403,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Sumita",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105012014,
+        "district_code": 510501,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Pejukutan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106012006,
+        "district_code": 510601,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Penglumbaran",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106022008,
+        "district_code": 510602,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Pengotan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106042011,
+        "district_code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Katung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107022004,
+        "district_code": 510702,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Sangkan Gunung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107032003,
+        "district_code": 510703,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Ulakan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107082006,
+        "district_code": 510708,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Tianyar Tengah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108012010,
+        "district_code": 510801,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Patas",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108022009,
+        "district_code": 510802,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Kalianget",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108022016,
+        "district_code": 510802,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Pengastulan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108042017,
+        "district_code": 510804,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Kaliasem",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108061011,
+        "district_code": 510806,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Liligundi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108062014,
+        "district_code": 510806,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Nagasepaha",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101011014,
+        "district_code": 510101,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Loloan Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101032001,
+        "district_code": 510103,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Medewi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101051009,
+        "district_code": 510105,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Sangkaragung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102022005,
+        "district_code": 510202,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Megati",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102032009,
+        "district_code": 510203,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Angkah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102042013,
+        "district_code": 510204,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Batuaji",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102052008,
+        "district_code": 510205,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Subamia",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102072002,
+        "district_code": 510207,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Beringkit",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102072011,
+        "district_code": 510207,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Tua",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102082001,
+        "district_code": 510208,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Rejasa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103011001,
+        "district_code": 510301,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Tuban",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103011002,
+        "district_code": 510301,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Kuta",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103021014,
+        "district_code": 510302,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Abianbase",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103022011,
+        "district_code": 510302,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Sobangan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104052002,
+        "district_code": 510405,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Mas",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105022004,
+        "district_code": 510502,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Tusan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105032015,
+        "district_code": 510503,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Manduang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106042019,
+        "district_code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Buahan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106042029,
+        "district_code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Kintamani",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108012014,
+        "district_code": 510801,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Tukadsumaga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108022010,
+        "district_code": 510802,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Joanyar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108022021,
+        "district_code": 510802,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Umeanyar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108042002,
+        "district_code": 510804,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Tirtasari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108042014,
+        "district_code": 510804,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Dencarik",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108052011,
+        "district_code": 510805,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Panji",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108061010,
+        "district_code": 510806,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Kampung Singaraja",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108061027,
+        "district_code": 510806,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Banjar Bali",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5171022007,
+        "district_code": 517102,
+        "regency_code": 5171,
+        "province_code": 51,
+        "name": "Sumerta Kaja",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5171032003,
+        "district_code": 517103,
+        "regency_code": 5171,
+        "province_code": 51,
+        "name": "Dauh Puri Kauh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101032003,
+        "district_code": 510103,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Asahduren",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101042007,
+        "district_code": 510104,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Candikusuma",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101052002,
+        "district_code": 510105,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Perancak",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102012009,
+        "district_code": 510201,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Manikyang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102022001,
+        "district_code": 510202,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Gunung Salak",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102022002,
+        "district_code": 510202,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Gadungan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102032006,
+        "district_code": 510203,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Lumbung Kauh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102062011,
+        "district_code": 510206,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Nyitdah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104022007,
+        "district_code": 510402,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Bedulu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104032014,
+        "district_code": 510403,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Petak Kaja",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105031013,
+        "district_code": 510503,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Semarapura Kelod",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107052014,
+        "district_code": 510705,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Tribuana",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108032005,
+        "district_code": 510803,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Telaga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108032008,
+        "district_code": 510803,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Tinggarsari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108061008,
+        "district_code": 510806,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Kendran",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108061025,
+        "district_code": 510806,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Kampung Anyar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108072004,
+        "district_code": 510807,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Bebetin",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108072010,
+        "district_code": 510807,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Sinabun",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101012002,
+        "district_code": 510101,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Baluk",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102022006,
+        "district_code": 510202,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Tangguntiti",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102032010,
+        "district_code": 510203,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Selabih",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102062013,
+        "district_code": 510206,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Kediri",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102082003,
+        "district_code": 510208,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Riang Gede",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102092009,
+        "district_code": 510209,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Mekarsari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102092012,
+        "district_code": 510209,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Perean Kangin",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104051005,
+        "district_code": 510405,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Ubud",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104072008,
+        "district_code": 510407,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Buahan Kaja",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105022013,
+        "district_code": 510502,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Tohpati",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105031011,
+        "district_code": 510503,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Semarapura Kangin",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105032005,
+        "district_code": 510503,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Jumpai",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105042012,
+        "district_code": 510504,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Besan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106042036,
+        "district_code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Belantih",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106042037,
+        "district_code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Catur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107032007,
+        "district_code": 510703,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Ngis",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107042007,
+        "district_code": 510704,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Seraya Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107042008,
+        "district_code": 510704,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Seraya Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107052010,
+        "district_code": 510705,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Kerta Mandala",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108012001,
+        "district_code": 510801,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Sumberklampok",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108022011,
+        "district_code": 510802,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Tangguwisia",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108032010,
+        "district_code": 510803,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Kekeran",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5171012007,
+        "district_code": 517101,
+        "regency_code": 5171,
+        "province_code": 51,
+        "name": "Sidakarya",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5171042001,
+        "district_code": 517104,
+        "regency_code": 5171,
+        "province_code": 51,
+        "name": "Dangin Puri Kangin",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101012004,
+        "district_code": 510101,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Kaliakah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103032004,
+        "district_code": 510303,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Jagapati",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103051004,
+        "district_code": 510305,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Benoa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104022004,
+        "district_code": 510402,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Belega",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104042001,
+        "district_code": 510404,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Pejeng",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104042003,
+        "district_code": 510404,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Tampaksiring",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104072002,
+        "district_code": 510407,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Kelusa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104072004,
+        "district_code": 510407,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Puhu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106022009,
+        "district_code": 510602,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Landih",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107032006,
+        "district_code": 510703,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Tenganan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107062001,
+        "district_code": 510706,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Bungaya",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108012002,
+        "district_code": 510801,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Pejarakan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108022002,
+        "district_code": 510802,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Ularan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108022019,
+        "district_code": 510802,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Banjarasem",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108042011,
+        "district_code": 510804,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Tampekan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108051009,
+        "district_code": 510805,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Sukasada",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108082012,
+        "district_code": 510808,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Bukti",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5171012010,
+        "district_code": 517101,
+        "regency_code": 5171,
+        "province_code": 51,
+        "name": "Sanur Kauh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101022003,
+        "district_code": 510102,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Mendoyo Dangin Tukad",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102032007,
+        "district_code": 510203,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Tiing Gading",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102042006,
+        "district_code": 510204,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Kerambitan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102042011,
+        "district_code": 510204,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Meliling",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102072016,
+        "district_code": 510207,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Baru",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103022006,
+        "district_code": 510302,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Penarungan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103032010,
+        "district_code": 510303,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Taman",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104032012,
+        "district_code": 510403,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Petak",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104072007,
+        "district_code": 510407,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Melinggih Kelod",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105012006,
+        "district_code": 510501,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Tanglad",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105012007,
+        "district_code": 510501,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Suana",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105022012,
+        "district_code": 510502,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Nyanglan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105032002,
+        "district_code": 510503,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Tojan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106042007,
+        "district_code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Manikliyu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107012002,
+        "district_code": 510701,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Rendang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107022001,
+        "district_code": 510702,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Tangkup",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108012012,
+        "district_code": 510801,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Tinga-tinga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108022014,
+        "district_code": 510802,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Patemon",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108052013,
+        "district_code": 510805,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Tegallinggah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108062001,
+        "district_code": 510806,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Kalibukbuk",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108072014,
+        "district_code": 510807,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Giri Emas",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108092003,
+        "district_code": 510809,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Julah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5171032001,
+        "district_code": 517103,
+        "regency_code": 5171,
+        "province_code": 51,
+        "name": "Padangsambian Kelod",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5171032008,
+        "district_code": 517103,
+        "regency_code": 5171,
+        "province_code": 51,
+        "name": "Tegal Harum",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5171042002,
+        "district_code": 517104,
+        "regency_code": 5171,
+        "province_code": 51,
+        "name": "Dangin Puri Kauh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5101022011,
+        "district_code": 510102,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Yehembang Kangin",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102012005,
+        "district_code": 510201,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Selemadeg",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102022009,
+        "district_code": 510202,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Dalang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102052007,
+        "district_code": 510205,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Denbantas",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102082006,
+        "district_code": 510208,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Pitra",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5102102014,
+        "district_code": 510210,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Sai",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5103011003,
+        "district_code": 510301,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Kedonganan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104012009,
+        "district_code": 510401,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Batubulan Kangin",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104022009,
+        "district_code": 510402,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Bona",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5104062001,
+        "district_code": 510406,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Keliki",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5105042005,
+        "district_code": 510504,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Gunaksa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106012002,
+        "district_code": 510601,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Demulih",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106012009,
+        "district_code": 510601,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Pengiangan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106042013,
+        "district_code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Abuan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5106042048,
+        "district_code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Belandingan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107012005,
+        "district_code": 510701,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Pempatan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107032002,
+        "district_code": 510703,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Antiga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107032008,
+        "district_code": 510703,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Selumbung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107042005,
+        "district_code": 510704,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Tumbu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107052002,
+        "district_code": 510705,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Tiying Tali",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5107082007,
+        "district_code": 510708,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Tulamben",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5108032003,
+        "district_code": 510803,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Bongancina",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 5171032004,
+        "district_code": 517103,
+        "regency_code": 5171,
+        "province_code": 51,
+        "name": "Dauh Puri Kelod",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    }
+]

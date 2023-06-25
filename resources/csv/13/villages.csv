@@ -1,0 +1,1160 @@
+code,district_code,regency_code,province_code,name,latitude,longitude,coordinates
+1301022003,130102,1301,13,"Sungai Tunu Utara",,,null
+1301032001,130103,1301,13,Kambang,,,null
+1301102020,130110,1301,13,"Lunang Tiga",,,null
+1302092008,130209,1302,13,"Koto Laweh",,,null
+1302112002,130211,1302,13,Tikalak,,,null
+1302132001,130213,1302,13,Paninggahan,,,null
+1303072005,130307,1303,13,Silongo,,,null
+1304032003,130403,1304,13,"III Koto",,,null
+1305022005,130502,1305,13,"Sungai Buluah Timur",,,null
+1305052003,130505,1305,13,"Lurah Ampalu",,,null
+1305062005,130506,1305,13,"Sikucua Utara",,,null
+1305172003,130517,1305,13,"Toboh Ketek",,,null
+1306132003,130613,1306,13,Bawan,,,null
+1306142002,130614,1306,13,Lasi,,,null
+1307072005,130707,1307,13,"Durian Tinggi",,,null
+1307082002,130708,1307,13,"Koto Tinggi",,,null
+1307082003,130708,1307,13,"Talang Anau",,,null
+1307122002,130712,1307,13,"Banja Loweh",,,null
+1309022004,130902,1309,13,Mara,,,null
+1309042003,130904,1309,13,Bojakan,,,null
+1310092001,131009,1310,13,"Padang Laweh",,,null
+1311042005,131104,1311,13,"Padang Limau Sundai",,,null
+1311052001,131105,1311,13,Abai,,,null
+1312042003,131204,1312,13,Sinuruik,,,null
+1312102002,131210,1312,13,Kapa,,,null
+1371101004,137110,1371,13,"Gurun Laweh",,,null
+1371101005,137110,1371,13,"Tabing Banda Gadang",,,null
+1372011001,137201,1372,13,"Tanah Garam",,,null
+1373022007,137302,1373,13,"Kolok Nan Tuo",,,null
+1374011005,137401,1374,13,"Guguk Malintang",,,null
+1377042010,137704,1377,13,"Sungai Sirah",,,null
+1301042005,130104,1301,13,"Koto Nan Tigo IV Koto Hilie",,,null
+1301052018,130105,1301,13,"Gunung Bungkuak Lumpo",,,null
+1301062009,130106,1301,13,"Api-api Pasar Baru",,,null
+1301092015,130109,1301,13,"Sungai Sirah Air Haji",,,null
+1301102004,130110,1301,13,"Lunang Selatan",,,null
+1301142006,130114,1301,13,"Sungai Pinang Tapan",,,null
+1302082004,130208,1302,13,Parambahan,,,null
+1302092007,130209,1302,13,"Guguak Sarai",,,null
+1302112003,130211,1302,13,"Koto Sani",,,null
+1303092008,130309,1303,13,Manganti,,,null
+1304012007,130401,1304,13,"Aie Angek",,,null
+1304012009,130401,1304,13,"Koto Baru",,,null
+1304022005,130402,1304,13,"Gunuang Rajo",,,null
+1304072001,130407,1304,13,"Sungai Patai",,,null
+1304102004,130410,1304,13,Supayang,,,null
+1305012003,130501,1305,13,"Pasie Laweh Lubuk Alung",,,null
+1305032004,130503,1305,13,"Kurai Taji",,,null
+1306082002,130608,1306,13,"Tabek Panjang",,,null
+1307072007,130707,1307,13,Galugua,,,null
+1310022007,131002,1310,13,"Sungai Kambut",,,null
+1310102004,131010,1310,13,"Tanjung Alam",,,null
+1311012003,131101,1311,13,"Lubuk Gadang Selatan",,,null
+1311022008,131102,1311,13,"Sako Utara Pasia Talang",,,null
+1311042004,131104,1311,13,"Padang Air Dingin",,,null
+1371011005,137101,1371,13,"Batang Arau",,,null
+1371011011,137101,1371,13,"Air Manis",,,null
+1372011004,137201,1372,13,"IX Korong",,,null
+1373022008,137302,1373,13,"Talago Gunung",,,null
+1373032003,137303,1373,13,"Silungkang Tigo",,,null
+1374021004,137402,1374,13,"Silaing Bawah",,,null
+1375031002,137503,1375,13,Birugo,,,null
+1376031001,137603,1376,13,"Balai Jaring",,,null
+1377012018,137701,1377,13,"Pauh Timur",,,null
+1377022011,137702,1377,13,Manggung,,,null
+1377022021,137702,1377,13,"Cubadak Air",,,null
+1377032007,137703,1377,13,"Balai Kurai Taji",,,null
+1301082004,130108,1301,13,"Amping Parak Timur",,,null
+1301092007,130109,1301,13,"Lagan Hilir Punggasan",,,null
+1301092008,130109,1301,13,"Air Haji Tenggara",,,null
+1302062003,130206,1302,13,"Koto Laweh",,,null
+1302072007,130207,1302,13,"Aie Batumbuak",,,null
+1302082002,130208,1302,13,Kinari,,,null
+1302122007,130212,1302,13,"Bukit Kanduang",,,null
+1302122009,130212,1302,13,"Labuh Panjang",,,null
+1303032006,130303,1303,13,Sibakur,,,null
+1304022001,130402,1304,13,Andaleh,,,null
+1304022007,130402,1304,13,"Tanjuang Barulak",,,null
+1304052003,130405,1304,13,"Koto Tangah",,,null
+1305032007,130503,1305,13,"Sunua Tengah",,,null
+1305122003,130512,1305,13,"Batu Kalang",,,null
+1305132002,130513,1305,13,"Gasan Gadang",,,null
+1305152003,130515,1305,13,Anduriang,,,null
+1305152004,130515,1305,13,"Kapalo Hilalang",,,null
+1305162006,130516,1305,13,"Kampuang Tanjuang Koto Mambang Sungai",,,null
+1306022001,130602,1306,13,"Lubuk Basung",,,null
+1306062002,130606,1306,13,"Taluak Ampek Suku",,,null
+1306062004,130606,1306,13,"Kubang Putiah",,,null
+1308142002,130814,1308,13,"Taruang Taruang",,,null
+1308152001,130815,1308,13,Silayang,,,null
+1311012004,131101,1311,13,"Lubuk Gadang Utara",,,null
+1311072003,131107,1311,13,"Sungai Kunyit Barat",,,null
+1312052002,131205,1312,13,Katiagan,,,null
+1371041003,137104,1371,13,"Ulak Karang Utara",,,null
+1371091007,137109,1371,13,Kuranji,,,null
+1373011001,137301,1373,13,"Aur Mulio",,,null
+1373042007,137304,1373,13,"Data Mansiang",,,null
+1374011002,137401,1374,13,Sigando,,,null
+1374011007,137401,1374,13,"Koto Katik",,,null
+1375021008,137502,1375,13,Garegeh,,,null
+1376011013,137601,1376,13,"Subarang Batuang",,,null
+1376011032,137601,1376,13,"Tanjuanggodang Sungaipinago",,,null
+1376021032,137602,1376,13,"Ompang Tanah Sirah",,,null
+1376021039,137602,1376,13,"Kotokociak Kubu Tapakrajo",,,null
+1377011001,137701,1377,13,"Karan Aur",,,null
+1377022019,137702,1377,13,"Sungai Rambai",,,null
+1377042011,137704,1377,13,"Sungai Pasak",,,null
+1301072006,130107,1301,13,"Ampang Pulai",,,null
+1301072012,130107,1301,13,"Taratak Sungai Lundang",,,null
+1302062002,130206,1302,13,"Batu Bajanjang",,,null
+1302122004,130212,1302,13,Kuncir,,,null
+1303032002,130303,1303,13,"Tanjung Gadang",,,null
+1303062009,130306,1303,13,Siaur,,,null
+1303072002,130307,1303,13,Lalan,,,null
+1303082001,130308,1303,13,"Limo Koto",,,null
+1303082006,130308,1303,13,"Bukit Bual",,,null
+1303102002,130310,1303,13,Pamuatan,,,null
+1304082003,130408,1304,13,Gurun,,,null
+1304132001,130413,1304,13,"Batu Bulek",,,null
+1305032006,130503,1305,13,"Padang Kandang Pulau Air Padang",,,null
+1305052011,130505,1305,13,"Balah Aie Utara",,,null
+1305062008,130506,1305,13,"Sikucua Barat",,,null
+1305122004,130512,1305,13,"Koto Dalam Barat",,,null
+1306032002,130603,1306,13,"Sungai Batang",,,null
+1306102002,130610,1306,13,"Pasia Laweh",,,null
+1306112002,130611,1306,13,Sipinang,,,null
+1306112006,130611,1306,13,"Salareh Aia",,,null
+1306122002,130612,1306,13,"Sungai Pua",,,null
+1306122003,130612,1306,13,Batagak,,,null
+1308172002,130817,1308,13,"Sontang Cubadak",,,null
+1309032003,130903,1309,13,Maileppet,,,null
+1309032007,130903,1309,13,Madobag,,,null
+1310012005,131001,1310,13,"Ampang Kuranji",,,null
+1310042004,131004,1310,13,"Gunung Medan",,,null
+1311022009,131102,1311,13,"Sako Selatan Pasia Talang",,,null
+1311042006,131104,1311,13,"Padang Gantiang",,,null
+1312042001,131204,1312,13,Kajai,,,null
+1312062001,131206,1312,13,"Muaro Kiawai",,,null
+1371041005,137104,1371,13,"Lolong Belanti",,,null
+1371041007,137104,1371,13,"Gunung Pangilun",,,null
+1373012008,137301,1373,13,"Lunto Barat",,,null
+1373012009,137301,1373,13,"Kubang Tangah",,,null
+1376011007,137601,1376,13,Talang,,,null
+1377011014,137701,1377,13,"Jalan Kereta Api",,,null
+1377022013,137702,1377,13,"Tungkal Selatan",,,null
+1377032017,137703,1377,13,Marunggi,,,null
+1377042009,137704,1377,13,"Cubadak Mentawai",,,null
+1301062005,130106,1301,13,"Koto Berapak",,,null
+1301062014,130106,1301,13,"Aur Begalung Talaok",,,null
+1301062015,130106,1301,13,"Kapelgam Koto Berapak",,,null
+1301072011,130107,1301,13,"Kapuah Utara",,,null
+1301102019,130110,1301,13,"Lunang Dua",,,null
+1301152005,130115,1301,13,"Pasir Binjai",,,null
+1302042002,130204,1302,13,"Sungai Nanam",,,null
+1302112008,130211,1302,13,Saniangbaka,,,null
+1303032009,130303,1303,13,Sinyamu,,,null
+1304012003,130401,1304,13,Singgalang,,,null
+1304022008,130402,1304,13,"Bungo Tanjuang",,,null
+1304042003,130404,1304,13,Parambahan,,,null
+1305022007,130502,1305,13,"Sungai Buluah Utara",,,null
+1305022008,130502,1305,13,"Sungai Buluah Selatan",,,null
+1305042004,130504,1305,13,"Sungai Asam",,,null
+1307012001,130701,1307,13,Kurai,,,null
+1307032007,130703,1307,13,"Koto Tangah Simalanggang",,,null
+1307052011,130705,1307,13,Pilubang,,,null
+1308122002,130812,1308,13,Cubadak,,,null
+1308172001,130817,1308,13,"Padang Gelugur",,,null
+1310032004,131003,1310,13,"Kurnia Koto Salak",,,null
+1310032008,131003,1310,13,"Kurnia Selatan",,,null
+1310052002,131005,1310,13,"Lubuak Karak",,,null
+1310052004,131005,1310,13,Banai,,,null
+1311052004,131105,1311,13,"Ranah Pantai Cermin",,,null
+1371021007,137102,1371,13,Andalas,,,null
+1371061014,137106,1371,13,"Gates Nan XX",,,null
+1376021034,137602,1376,13,"Tigo Koto Dibaruah",,,null
+1377011006,137701,1377,13,"Pondok II",,,null
+1377022008,137702,1377,13,"Cubadak Air Selatan",,,null
+1301112009,130111,1301,13,"Tanjung Pondok Tapan",,,null
+1301142008,130114,1301,13,"Kampung Tengah Tapan",,,null
+1302072001,130207,1302,13,Cupak,,,null
+1302072002,130207,1302,13,Talang,,,null
+1302072005,130207,1302,13,"Sungai Janiah",,,null
+1302102004,130210,1302,13,Gaung,,,null
+1303052004,130305,1303,13,"Mundam Sakti",,,null
+1303072001,130307,1303,13,"Lubuak Tarok",,,null
+1303092007,130309,1303,13,Kumanis,,,null
+1304082010,130408,1304,13,"Koto Baru",,,null
+1304102006,130410,1304,13,"Tabek Patah",,,null
+1305052002,130505,1305,13,"Sungai Sariak",,,null
+1305082002,130508,1305,13,Pilubang,,,null
+1307092002,130709,1307,13,"Batu Payuang",,,null
+1310022002,131002,1310,13,"Tebing Tinggi",,,null
+1310072005,131007,1310,13,Simalidu,,,null
+1310082004,131008,1310,13,Sipangkur,,,null
+1310092004,131009,1310,13,"Sopan Jaya",,,null
+1371011010,137101,1371,13,"Teluk Bayur",,,null
+1371031010,137103,1371,13,"Berok Nipah",,,null
+1371061006,137106,1371,13,"Gurun Laweh Nan XX",,,null
+1371081005,137108,1371,13,"Cupak Tangah",,,null
+1371081007,137108,1371,13,"Binuang Kampuang Dalam",,,null
+1373012010,137301,1373,13,"Kubang Utara Sikabu",,,null
+1373042005,137304,1373,13,Kumbayau,,,null
+1375011001,137501,1375,13,"Tarok Dipo",,,null
+1375031001,137503,1375,13,"Aur Kuning",,,null
+1376031010,137603,1376,13,"Koto Panjang",,,null
+1376031011,137603,1376,13,"Koto Baru",,,null
+1377011002,137701,1377,13,"Kampung Perak",,,null
+1377022012,137702,1377,13,"Cubadak Air Utara",,,null
+1377022018,137702,1377,13,Sintuk,,,null
+1301062016,130106,1301,13,"Koto Baru Koto Berapak",,,null
+1301072016,130107,1301,13,"Pulau Karam Ampang Pulai",,,null
+1301102018,130110,1301,13,"Lunang Satu",,,null
+1301112002,130111,1301,13,"Pasar Tapan",,,null
+1301152004,130115,1301,13,"Sungai Pulai",,,null
+1302032002,130203,1302,13,Surian,,,null
+1302102005,130210,1302,13,"Gantuang Ciri",,,null
+1302182003,130218,1302,13,"Garabak Data",,,null
+1303082002,130308,1303,13,Palaluar,,,null
+1304062003,130406,1304,13,"Tigo Jangko",,,null
+1304082005,130408,1304,13,"Padang Laweh",,,null
+1304082006,130408,1304,13,"Pasie Laweh",,,null
+1304112001,130411,1304,13,Atar,,,null
+1305012005,130501,1305,13,"Sikabu Lubuk Alung",,,null
+1305082004,130508,1305,13,"Koto Tinggi Kuranji Hilir",,,null
+1306052008,130605,1306,13,"Koto Gadang",,,null
+1306082005,130608,1306,13,"Padang Tarok",,,null
+1307022004,130702,1307,13,Kubang,,,null
+1307062003,130706,1307,13,"Gunuang Malintang",,,null
+1307092003,130709,1307,13,Ampalu,,,null
+1307102002,130710,1307,13,"Situjuah Ladang Laweh",,,null
+1307122003,130712,1307,13,"Baruah Gunuang",,,null
+1308052005,130805,1308,13,"Aia Manggih",,,null
+1308142005,130814,1308,13,"Padang Mantinggi",,,null
+1309022006,130902,1309,13,Sioban,,,null
+1309102004,130910,1309,13,Makalo,,,null
+1312082001,131208,1312,13,Parit,,,null
+1371021003,137102,1371,13,Jati,,,null
+1371021004,137102,1371,13,"Sawahan Timur",,,null
+1371061007,137106,1371,13,"Tanjung Aua Nan XX",,,null
+1371081008,137108,1371,13,"Kapalo Koto",,,null
+1375031003,137503,1375,13,"Belakang Balok",,,null
+1375031004,137503,1375,13,Sapiran,,,null
+1376031007,137603,1376,13,"Padang Tiakar",,,null
+1376051005,137605,1376,13,"Balai Panjang",,,null
+1377032009,137703,1377,13,Simpang,,,null
+1377032018,137703,1377,13,Taluk,,,null
+1377042007,137704,1377,13,Bato,,,null
+1377042015,137704,1377,13,Kaluat,,,null
+1301012004,130101,1301,13,"Inderapura Barat",,,null
+1301012009,130101,1301,13,"Simpang Lama Inderapura",,,null
+1301032003,130103,1301,13,"Kambang Utara",,,null
+1301042004,130104,1301,13,"Koto Nan Duo IV Koto Hilie",,,null
+1301052015,130105,1301,13,"Sungai Gayo Lumpo",,,null
+1301062019,130106,1301,13,"Gurun Panjang Utara",,,null
+1301062021,130106,1301,13,"Gurun Panjang Selatan",,,null
+1301072015,130107,1301,13,"Duku Utara",,,null
+1301132002,130113,1301,13,"Muara Inderapura",,,null
+1301132003,130113,1301,13,"Damar Lapan Batang Inderapura",,,null
+1302072006,130207,1302,13,"Batang Barus",,,null
+1303042001,130304,1303,13,Muaro,,,null
+1303092004,130309,1303,13,"Tanjung Bonai Aur",,,null
+1304012004,130401,1304,13,Paninjauan,,,null
+1304092002,130409,1304,13,Tabek,,,null
+1304132002,130413,1304,13,"Balai Tangah",,,null
+1304132005,130413,1304,13,"Tapi Selo",,,null
+1306072006,130607,1306,13,Pasia,,,null
+1306112005,130611,1306,13,"Tigo Koto Silungkang",,,null
+1307012006,130701,1307,13,Andiang,,,null
+1307112004,130711,1307,13,"Talang Maur",,,null
+1310022001,131002,1310,13,"Sungai Dareh",,,null
+1310072004,131007,1310,13,"Pulau Mainan",,,null
+1311052002,131105,1311,13,"Dusun Tangah",,,null
+1371061009,137106,1371,13,"Banuaran Nan XX",,,null
+1371061010,137106,1371,13,"Parak Laweh Pulau Aia Nan XX",,,null
+1371071001,137107,1371,13,Indarung,,,null
+1371091009,137109,1371,13,"Sungai Sapih",,,null
+1371101006,137110,1371,13,"Kampung Lapai",,,null
+1375021005,137502,1375,13,"Puhun Pintu Kabun",,,null
+1377011009,137701,1377,13,"Alai Gelombang",,,null
+1377022015,137702,1377,13,"Naras I",,,null
+1301032002,130103,1301,13,Lakitan,,,null
+1301042009,130104,1301,13,"Taluk Tigo Sakato",,,null
+1301072013,130107,1301,13,"Siguntur Tua",,,null
+1301072017,130107,1301,13,"Jinang Kampung Pansur Ampang Pulai",,,null
+1301072018,130107,1301,13,"Cerocok Anau Ampang Pulai",,,null
+1301092004,130109,1301,13,"Punggasan Timur",,,null
+1301152010,130115,1301,13,Sambungo,,,null
+1302122005,130212,1302,13,Katialo,,,null
+1303052001,130305,1303,13,Palangki,,,null
+1303072006,130307,1303,13,Latang,,,null
+1303102001,130310,1303,13,"Batu Manjulur",,,null
+1304032005,130403,1304,13,Rambatan,,,null
+1304072002,130407,1304,13,"Andaleh Baruh Bukik",,,null
+1304082009,130408,1304,13,Kumango,,,null
+1305092001,130509,1305,13,"III Koto Aur Malintang",,,null
+1305092003,130509,1305,13,"III Koto Aur Malintang Timur",,,null
+1305122002,130512,1305,13,"Koto Dalam",,,null
+1305162004,130516,1305,13,"Tandikek Selatan",,,null
+1306042001,130604,1306,13,"Matua Hilia",,,null
+1306052003,130605,1306,13,Balingka,,,null
+1306092001,130609,1306,13,"Koto Tangah",,,null
+1307042003,130704,1307,13,"Sungai Kamuyang",,,null
+1307062004,130706,1307,13,Pangkalan,,,null
+1307122005,130712,1307,13,"Koto Tangah",,,null
+1310052003,131005,1310,13,"Koto Nan Empat Dibawuh",,,null
+1311022011,131102,1311,13,"Pasir Talang Timur",,,null
+1311052006,131105,1311,13,"Lubuk Ulang Aling Selatan",,,null
+1371011007,137101,1371,13,"Seberang Padang",,,null
+1371031002,137103,1371,13,"Rimbo Kaluang",,,null
+1371031006,137103,1371,13,Olo,,,null
+1371061002,137106,1371,13,"Kampung Baru Nan XX",,,null
+1371081003,137108,1371,13,"Limau Manis Selatan",,,null
+1371111007,137111,1371,13,"Batipuh Panjang",,,null
+1371111010,137111,1371,13,"Batang Kabung Ganting",,,null
+1371111011,137111,1371,13,"Bungo Pasang",,,null
+1372021005,137202,1372,13,"Kampung Jawa",,,null
+1374021002,137402,1374,13,"Pasar Usang",,,null
+1375011003,137501,1375,13,"Pakan Kurai",,,null
+1376011004,137601,1376,13,"Bulakan Balai Kandi",,,null
+1376011033,137601,1376,13,"Padangtongah Balainanduo",,,null
+1377011008,137701,1377,13,"Kampung Jawa II",,,null
+1377011010,137701,1377,13,"Jawi Jawi I",,,null
+1301012002,130101,1301,13,"Muaro Sakai Inderapura",,,null
+1301092003,130109,1301,13,"Punggasan Utara",,,null
+1301092012,130109,1301,13,"Air Haji Tengah",,,null
+1301112008,130111,1301,13,"Ampang Tulak Tapan",,,null
+1301132009,130113,1301,13,"Inderapura Timur",,,null
+1301132010,130113,1301,13,"Pulau Rajo Inderapura",,,null
+1302102007,130210,1302,13,"Koto Hilalang",,,null
+1303062011,130306,1303,13,Maloro,,,null
+1303082004,130308,1303,13,"Padang Laweh",,,null
+1303092003,130309,1303,13,Unggan,,,null
+1304032004,130403,1304,13,"Padang Magek",,,null
+1305012004,130501,1305,13,"Aie Tajun Lubuk Alung",,,null
+1305012008,130501,1305,13,"Salibutan Lubuk Alung",,,null
+1305032002,130503,1305,13,"Pauh Kambar",,,null
+1305052001,130505,1305,13,"Balah Aie",,,null
+1305102006,130510,1305,13,"Manggopoh Palak Gadang Ulakan",,,null
+1305142004,130514,1305,13,"Kudu Gantiang Barat",,,null
+1306062006,130606,1306,13,Cingkariang,,,null
+1307052001,130705,1307,13,Taram,,,null
+1307082001,130708,1307,13,"Pandam Gadang",,,null
+1307102003,130710,1307,13,Tungka,,,null
+1308042001,130804,1308,13,"Limo Koto",,,null
+1309092001,130909,1309,13,Sikakap,,,null
+1311022012,131102,1311,13,"Pasir Talang Selatan",,,null
+1311032001,131103,1311,13,"Pakan Rabaa",,,null
+1311072002,131107,1311,13,"Talao Sungai Kunyit",,,null
+1312032004,131203,1312,13,"Aua Kuniang",,,null
+1371111002,137111,1371,13,"Lubuk Minturun",,,null
+1372011007,137201,1372,13,"Simpang Rumbio",,,null
+1374011003,137401,1374,13,"Ekor Lubuk",,,null
+1375011005,137501,1375,13,"Benteng Pasar Atas",,,null
+1375011007,137501,1375,13,"Bukik Apik Puhun",,,null
+1376021036,137602,1376,13,"Ikua Koto Dibalai",,,null
+1376021038,137602,1376,13,"Kapalo Koto Dibalai",,,null
+1376031005,137603,1376,13,Sicincin,,,null
+1377011007,137701,1377,13,"Kampung Jawa I",,,null
+1301022005,130102,1301,13,"Nyiur Melambai Pelangai",,,null
+1301022006,130102,1301,13,"Sungai Liku Pelangai",,,null
+1301032006,130103,1301,13,"Lakitan Utara",,,null
+1301052005,130105,1301,13,"Bunga Pasang Salido",,,null
+1301112019,130111,1301,13,"Dusun Baru Tapan",,,null
+1301122003,130112,1301,13,"Muaro Aie",,,null
+1301142005,130114,1301,13,"Binjai Tapan",,,null
+1301142010,130114,1301,13,"Simpang Gunung Tapan",,,null
+1302122008,130212,1302,13,Sibarambang,,,null
+1303072003,130307,1303,13,"Buluah Kasok",,,null
+1304102005,130410,1304,13,Salimpaung,,,null
+1304142003,130414,1304,13,"Padang Laweh Malalo",,,null
+1305052012,130505,1305,13,"Balah Aie Timur",,,null
+1305062006,130506,1305,13,"Sikucua Timur",,,null
+1305162005,130516,1305,13,"Tandikek Barat",,,null
+1306012003,130601,1306,13,"Tiku Limo Jorong",,,null
+1306042005,130604,1306,13,"Parik Panjang",,,null
+1306162002,130616,1306,13,"Malalak Timur",,,null
+1307032002,130703,1307,13,"Taeh Bukik",,,null
+1308082005,130808,1308,13,"Pintu Padang",,,null
+1308162002,130816,1308,13,Simpang,,,null
+1309052002,130905,1309,13,Simalegi,,,null
+1309072003,130907,1309,13,Saliguma,,,null
+1310042001,131004,1310,13,Sitiung,,,null
+1371011002,137101,1371,13,"Alang Laweh",,,null
+1371031003,137103,1371,13,"Ujung Gurun",,,null
+1373011003,137301,1373,13,"Kubang S. Selatan",,,null
+1373042004,137304,1373,13,"Batu Tanjung",,,null
+1376011018,137601,1376,13,"Nunang Daya Bangun",,,null
+1377011005,137701,1377,13,"Kampung Pondok",,,null
+1377032010,137703,1377,13,"Toboh Palabah",,,null
+1377032011,137703,1377,13,Marabau,,,null
+1377032015,137703,1377,13,"Palak Aneh",,,null
+1301022010,130102,1301,13,"Pasia Pelangai",,,null
+1301052014,130105,1301,13,"Balai Sinayan Lumpo",,,null
+1301072014,130107,1301,13,"Kampung Baru Korong Nan Ampek",,,null
+1301082010,130108,1301,13,"Koto Nan Tigo Utara Surantih",,,null
+1301082011,130108,1301,13,"Ganting Mudiak Selatan Surantih",,,null
+1301142007,130114,1301,13,"Talang Koto Pulai Tapan",,,null
+1302042001,130204,1302,13,"Alahan Panjang",,,null
+1304092001,130409,1304,13,"Batu Basa",,,null
+1305082001,130508,1305,13,"Kuranji Hilir",,,null
+1305142003,130514,1305,13,"Gunung Padang Alai",,,null
+1305172002,130517,1305,13,"Koto Tinggi",,,null
+1306072003,130607,1306,13,Lambah,,,null
+1306072005,130607,1306,13,"Ampang Gadang",,,null
+1306092004,130609,1306,13,Kapau,,,null
+1306132002,130613,1306,13,Sitalang,,,null
+1307052004,130705,1307,13,"Bukik Limbuku",,,null
+1307052006,130705,1307,13,"Batu Balang",,,null
+1307052008,130705,1307,13,Gurun,,,null
+1307092007,130709,1307,13,"Tanjuang Gadang",,,null
+1307122001,130712,1307,13,Maek,,,null
+1308042002,130804,1308,13,"Koto Kaciak",,,null
+1309052003,130905,1309,13,Sigapokna,,,null
+1310082001,131008,1310,13,Tiumang,,,null
+1310102001,131010,1310,13,"Sungai Limau",,,null
+1311052003,131105,1311,13,"Lubuk Ulang Aling",,,null
+1371051002,137105,1371,13,"Bungus Barat",,,null
+1371091001,137109,1371,13,"Pasar Ambacang",,,null
+1376031015,137603,1376,13,Tiakar,,,null
+1377022020,137702,1377,13,"Tungkal Utara",,,null
+1377042004,137704,1377,13,"Kampung Gadang",,,null
+1301052008,130105,1301,13,"Koto Rawang",,,null
+1301062010,130106,1301,13,"Tanjung Durian Pasar Baru",,,null
+1301082007,130108,1301,13,"Aur Duri Surantih",,,null
+1301122001,130112,1301,13,Puluik-Puluik,,,null
+1301122006,130112,1301,13,"Limau Gadang Pancung Taba",,,null
+1301142003,130114,1301,13,"Talang Balarik Tapan",,,null
+1302092009,130209,1302,13,Indudur,,,null
+1302112007,130211,1302,13,"Tanjung Alai",,,null
+1303042006,130304,1303,13,Paru,,,null
+1303052002,130305,1303,13,"Koto Baru",,,null
+1304032002,130403,1304,13,Balimbiang,,,null
+1304042002,130404,1304,13,"Limo Kaum",,,null
+1304132003,130413,1304,13,"Tanjuang Bonai",,,null
+1305022002,130502,1305,13,Kasang,,,null
+1305022006,130502,1305,13,"Sungai Buluah Barat",,,null
+1305032008,130503,1305,13,"Sunua Barat",,,null
+1305032009,130503,1305,13,"Kurai Taji Timur",,,null
+1306032007,130603,1306,13,"Duo Koto",,,null
+1306102003,130610,1306,13,Pagadih,,,null
+1307062005,130706,1307,13,"Koto Alam",,,null
+1308052001,130805,1308,13,"Tanjuang Baringin",,,null
+1309012009,130901,1309,13,Saumanganya,,,null
+1309042005,130904,1309,13,"Mongan Poula",,,null
+1309042006,130904,1309,13,"Muara Sikabaluan",,,null
+1309072001,130907,1309,13,"Saibi Samukop",,,null
+1309102002,130910,1309,13,Bulasat,,,null
+1312092001,131209,1312,13,"Sungai Aua",,,null
+1371051001,137105,1371,13,"Bungus Timur",,,null
+1371091002,137109,1371,13,Anduring,,,null
+1371111004,137111,1371,13,"Dadok Tunggul Hitam",,,null
+1371111006,137111,1371,13,"Koto Pulai",,,null
+1372021006,137202,1372,13,Laing,,,null
+1374021005,137402,1374,13,"Silaing Atas",,,null
+1301012012,130101,1301,13,"Inderapura Tengah",,,null
+1301042006,130104,1301,13,"Teratak Tempatih IV Koto Mudiek",,,null
+1301062017,130106,1301,13,"Kubang Koto Berapak",,,null
+1301112018,130111,1301,13,"Koto Anau Tapan",,,null
+1301152002,130115,1301,13,"Sungai Sirah",,,null
+1303042005,130304,1303,13,"Solok Ambah",,,null
+1303042007,130304,1303,13,"Durian Gadang",,,null
+1303092010,130309,1303,13,"Tanjung Labuah",,,null
+1304142001,130414,1304,13,"Batu Taba",,,null
+1305052010,130505,1305,13,"Limpato Sungai Sariak",,,null
+1305062001,130506,1305,13,Campago,,,null
+1305102001,130510,1305,13,Tapakih,,,null
+1305122006,130512,1305,13,"Batu Kalang Utara",,,null
+1305172005,130517,1305,13,Gadur,,,null
+1306042002,130604,1306,13,"Matua Mudiak",,,null
+1307092004,130709,1307,13,"Bukik Sikumpa",,,null
+1308122001,130812,1308,13,"Simpang Tonang",,,null
+1308172004,130817,1308,13,"Bahagia Padang Gelugua",,,null
+1309022002,130902,1309,13,Beriulou,,,null
+1309082004,130908,1309,13,"Sido Makmur",,,null
+1310082003,131008,1310,13,"Koto Beringin",,,null
+1310102002,131010,1310,13,"Alahan Nan Tigo",,,null
+1310112004,131011,1310,13,Bonjol,,,null
+1311022001,131102,1311,13,"Pasir Talang",,,null
+1311022006,131102,1311,13,"Pulakek Koto Baru",,,null
+1311022007,131102,1311,13,Bomas,,,null
+1311032004,131103,1311,13,"Pakan Rabaa Tengah",,,null
+1311072001,131107,1311,13,"Sungai Kunyit",,,null
+1371051003,137105,1371,13,"Bungus Selatan",,,null
+1371061005,137106,1371,13,"Lubuk Begalung Nan XX",,,null
+1371061013,137106,1371,13,"Pampangan Nan XX",,,null
+1371101003,137110,1371,13,"Kurao Pagang",,,null
+1372021002,137202,1372,13,"Pasar Pandan Air Mati",,,null
+1373011004,137301,1373,13,Pasar,,,null
+1373021001,137302,1373,13,Saringan,,,null
+1373032005,137303,1373,13,"Taratak Boncah",,,null
+1373042001,137304,1373,13,"Talawi Hilie",,,null
+1373042006,137304,1373,13,"Tumpuk Tangah",,,null
+1374021007,137402,1374,13,"Tanah Hitam",,,null
+1375021006,137502,1375,13,"Pulai Anak Air",,,null
+1376011005,137601,1376,13,Payolansek,,,null
+1376051010,137605,1376,13,"Sawahpadang Aua Kuniang",,,null
+1377012021,137701,1377,13,Cimparuh,,,null
+1301062007,130106,1301,13,"Pasar Baru",,,null
+1301082005,130108,1301,13,"Koto Taratak",,,null
+1303042002,130304,1303,13,"Kandang Baru",,,null
+1303062003,130306,1303,13,"Muaro Takuang",,,null
+1303062007,130306,1303,13,"Tanjung Kaliang",,,null
+1304062004,130406,1304,13,Pangian,,,null
+1305012006,130501,1305,13,"Sungai Abang Lubuk Alung",,,null
+1305032005,130503,1305,13,Sunua,,,null
+1305042003,130504,1305,13,"Lubuk Pandan",,,null
+1305052004,130505,1305,13,"Lareh Nan Panjang",,,null
+1305092005,130509,1305,13,"Balai Baiak Malai III Koto",,,null
+1306032006,130603,1306,13,"Koto Kaciak",,,null
+1306112004,130611,1306,13,"Ampek Koto Palembayan",,,null
+1307012005,130701,1307,13,Limbanang,,,null
+1307112002,130711,1307,13,"Simpang Kapuak",,,null
+1307132005,130713,1307,13,"Sungai Balantiak",,,null
+1308132002,130813,1308,13,"Ladang Panjang",,,null
+1310062001,131006,1310,13,Timpeh,,,null
+1311032002,131103,1311,13,"Pakan Rabaa Timur",,,null
+1371061012,137106,1371,13,"Pagambiran Ampalu Nan XX",,,null
+1371071004,137107,1371,13,"Bandar Buat",,,null
+1371091004,137109,1371,13,Ampang,,,null
+1371111013,137111,1371,13,"Pasie Nan Tigo",,,null
+1373021003,137302,1373,13,"Durian I",,,null
+1374011004,137401,1374,13,Ngalau,,,null
+1375031006,137503,1375,13,"Pakan Labuh",,,null
+1376011009,137601,1376,13,"Padang Tinggi Piliang",,,null
+1376011021,137601,1376,13,Ibuah,,,null
+1377011015,137701,1377,13,"Ujung Batung",,,null
+1377011016,137701,1377,13,"Jati Hilir",,,null
+1377042012,137704,1377,13,"Bungo Tanjung",,,null
+1301042003,130104,1301,13,Taluak,,,null
+1301072008,130107,1301,13,"Barung-Barung Balantai",,,null
+1301072010,130107,1301,13,Mandeh,,,null
+1301102016,130110,1301,13,"Pondok Parian Lunang",,,null
+1301122002,130112,1301,13,"Koto Ranah",,,null
+1301132001,130113,1301,13,"Inderapura Utara",,,null
+1301152009,130115,1301,13,"Air Hitam",,,null
+1302032001,130203,1302,13,Lolo,,,null
+1302082003,130208,1302,13,"Bukit Tandang",,,null
+1302112006,130211,1302,13,Kacang,,,null
+1302122002,130212,1302,13,"Tanjung Balik",,,null
+1303042009,130304,1303,13,Sijunjung,,,null
+1305052009,130505,1305,13,"Lareh Nan Panjang Sungai Sariak",,,null
+1306032003,130603,1306,13,Maninjau,,,null
+1306032008,130603,1306,13,"Koto Gadang",,,null
+1306052007,130605,1306,13,"Sianok Anam Suku",,,null
+1306112001,130611,1306,13,Baringin,,,null
+1307052009,130705,1307,13,"Lubuak Batingkok",,,null
+1307102005,130710,1307,13,"Situjuah Gadang",,,null
+1308082002,130808,1308,13,"Lubuak Gadang",,,null
+1308182003,130818,1308,13,Languang,,,null
+1309022003,130902,1309,13,Nemnemleleu,,,null
+1309042008,130904,1309,13,Malancan,,,null
+1309102001,130910,1309,13,Sinaka,,,null
+1310022009,131002,1310,13,Sikabau,,,null
+1310062004,131006,1310,13,Panyubarangan,,,null
+1311042002,131104,1311,13,"Bidar Alam",,,null
+1311052005,131105,1311,13,Sitapus,,,null
+1312032003,131203,1312,13,"Lingkuang Aua",,,null
+1371021009,137102,1371,13,"Parak Gadang Timur",,,null
+1371031004,137103,1371,13,Purus,,,null
+1371061008,137106,1371,13,"Koto Baru Nan XX",,,null
+1371081004,137108,1371,13,"Piai Tangah",,,null
+1372011005,137201,1372,13,"Kampai Tabu Karambia",,,null
+1372021003,137202,1372,13,"Tanjung Paku",,,null
+1373011002,137301,1373,13,"Kubang Sirakuk Utara",,,null
+1373022005,137302,1373,13,Santua,,,null
+1373022006,137302,1373,13,"Kolok Mudiak",,,null
+1376021033,137602,1376,13,"Taratak Padang Kampuang",,,null
+1376031003,137603,1376,13,"Padang Tangah Payobadar",,,null
+1377032008,137703,1377,13,"Pauh Kurai Taji",,,null
+1301082003,130108,1301,13,"Amping Parak",,,null
+1301082006,130108,1301,13,"Lansano Taratak",,,null
+1301092002,130109,1301,13,"Air Haji",,,null
+1301092011,130109,1301,13,"Air Haji Barat",,,null
+1301132005,130113,1301,13,"Palokan Inderapura",,,null
+1301142002,130114,1301,13,"Limau Purut Tapan",,,null
+1302092004,130209,1302,13,"Sungai Durian",,,null
+1302132002,130213,1302,13,"Muaro Pingai",,,null
+1303052003,130305,1303,13,"Muaro Bodi",,,null
+1303092006,130309,1303,13,Tamparungo,,,null
+1304042005,130404,1304,13,Labuh,,,null
+1305082003,130508,1305,13,"Guguak Kuranji Hilir",,,null
+1305092002,130509,1305,13,"III Koto Aur Malintang Utara",,,null
+1306032001,130603,1306,13,"Tanjung Sani",,,null
+1307012002,130701,1307,13,"Sungai Rimbang",,,null
+1307042001,130704,1307,13,"Tj. Haro Sikabu-kabu Pd. Panjang",,,null
+1307102001,130710,1307,13,"Situjuah Batua",,,null
+1308132001,130813,1308,13,Malampah,,,null
+1308182001,130818,1308,13,"Koto Nopan",,,null
+1310042002,131004,1310,13,Siguntur,,,null
+1312022001,131202,1312,13,"Ujung Gading",,,null
+1312052001,131205,1312,13,Kinali,,,null
+1374011006,137401,1374,13,"Koto Panjang",,,null
+1375021004,137502,1375,13,"Kubu Gulai Bancah",,,null
+1376041006,137604,1376,13,"Koto Panjang Dalam",,,null
+1376051002,137605,1376,13,"Kototuo Limokampuang",,,null
+1377032012,137703,1377,13,"Batang Tajongkek",,,null
+1377042016,137704,1377,13,Kajai,,,null
+1301012006,130101,1301,13,"Inderapura Selatan",,,null
+1301072002,130107,1301,13,"Sungai Pinang",,,null
+1301072019,130107,1301,13,"Sungai Nyalo Mudiak Aia",,,null
+1301102001,130110,1301,13,Lunang,,,null
+1301122005,130112,1301,13,"Puluik-Puluik Selatan",,,null
+1301142001,130114,1301,13,"Sungai Gambir Sako Tapan",,,null
+1302042003,130204,1302,13,Salimpat,,,null
+1302102001,130210,1302,13,"Koto Baru",,,null
+1302182005,130218,1302,13,Simanau,,,null
+1304032001,130403,1304,13,Simawang,,,null
+1304042004,130404,1304,13,Cubadak,,,null
+1304052004,130405,1304,13,Pagaruyung,,,null
+1305012002,130501,1305,13,"Pungguang Kasiak Lubuk Alung",,,null
+1305012009,130501,1305,13,"Nagari Balah Hilia Lubuk Alung",,,null
+1305022001,130502,1305,13,Katapiang,,,null
+1305102002,130510,1305,13,Ulakan,,,null
+1305132001,130513,1305,13,"Malai V Suku",,,null
+1306032009,130603,1306,13,"Koto Malintang",,,null
+1306032010,130603,1306,13,Paninjauan,,,null
+1306042003,130604,1306,13,"Tigo Balai",,,null
+1306062007,130606,1306,13,"Sungai Tanang",,,null
+1306112003,130611,1306,13,"Sungai Puar",,,null
+1307032004,130703,1307,13,"Sungai Beringin",,,null
+1307062002,130706,1307,13,"Tanjuang Balik",,,null
+1307132006,130713,1307,13,"Pauh Sangik",,,null
+1310012008,131001,1310,13,"Koto Padang",,,null
+1311012001,131101,1311,13,"Lubuk Gadang",,,null
+1311022002,131102,1311,13,"Koto Baru",,,null
+1311022004,131102,1311,13,"Sako Pasia Talang",,,null
+1311052007,131105,1311,13,"Lubuk Ulang Aling Tengah",,,null
+1371031007,137103,1371,13,"Kampung Jao",,,null
+1371081002,137108,1371,13,"Koto Lua",,,null
+1372011002,137201,1372,13,"VI Suku",,,null
+1375011002,137501,1375,13,"Bukik Cangang/Kayu Rmg.",,,null
+1376011002,137601,1376,13,"Pakan Sinayan",,,null
+1376011034,137601,1376,13,"Padangdata Tanahmati",,,null
+1376041002,137604,1376,13,"Parit Muko Aie",,,null
+1377012025,137701,1377,13,"Jati Mudik",,,null
+1377022010,137702,1377,13,"Sikapak Timur",,,null
+1301032005,130103,1301,13,"Kambang Barat",,,null
+1301032008,130103,1301,13,"Lakitan Timur",,,null
+1301032009,130103,1301,13,"Lakitan Tengah",,,null
+1301042001,130104,1301,13,"IV Koto Hilie",,,null
+1301072022,130107,1301,13,"Barung-Barung Balantai Tengah",,,null
+1303032007,130303,1303,13,"Tanjung Lolo",,,null
+1303062001,130306,1303,13,"Sungai Lansek",,,null
+1303062005,130306,1303,13,"Sungai Batuang",,,null
+1303062008,130306,1303,13,"Padang Tarok",,,null
+1303082005,130308,1303,13,Tanjung,,,null
+1303092005,130309,1303,13,"Sumpur Kudus",,,null
+1304082001,130408,1304,13,Simpuruik,,,null
+1304102002,130410,1304,13,Situmbuk,,,null
+1305042002,130504,1305,13,Sicincin,,,null
+1305052005,130505,1305,13,"Lareh Nan Panjang Selatan",,,null
+1305052007,130505,1305,13,"Bisati Sungai Sariak",,,null
+1305102005,130510,1305,13,"Seulayat Ulakan",,,null
+1305142002,130514,1305,13,"Limau Puruik",,,null
+1306102004,130610,1306,13,"Nan Tujuah",,,null
+1306132001,130613,1306,13,"Batu Kambing",,,null
+1306162001,130616,1306,13,"Malalak Utara",,,null
+1307052003,130705,1307,13,Tarantang,,,null
+1307052007,130705,1307,13,Sarilamak,,,null
+1307062001,130706,1307,13,Manggilang,,,null
+1307072006,130707,1307,13,Sialang,,,null
+1307132003,130713,1307,13,Batuhampar,,,null
+1310072003,131007,1310,13,Padukuan,,,null
+1310092002,131009,1310,13,"Batu Rijal",,,null
+1312062002,131206,1312,13,"Rabi Jonggor",,,null
+1371031008,137103,1371,13,"Belakang Tangsi",,,null
+1371051004,137105,1371,13,"Teluk Kabung Utara",,,null
+1371051005,137105,1371,13,"Teluk Kabung Tengah",,,null
+1371071006,137107,1371,13,Baringin,,,null
+1373012011,137301,1373,13,"Pasa Kubang",,,null
+1373042011,137304,1373,13,Rantih,,,null
+1374021003,137402,1374,13,"Kampung Manggis",,,null
+1375031008,137503,1375,13,"Ladang Cakiah",,,null
+1377032014,137703,1377,13,"Sungai Kasai",,,null
+1301052017,130105,1301,13,"Bukik Kaciak Lumpo",,,null
+1301072009,130107,1301,13,"Barung-Barung Balantai Selatan",,,null
+1301092005,130109,1301,13,"Padang XI Punggasan",,,null
+1301092016,130109,1301,13,"Muara Kandis Punggasan",,,null
+1301112007,130111,1301,13,"Batang Arah Tapan",,,null
+1302042004,130204,1302,13,"Aie Dingin",,,null
+1302092003,130209,1302,13,Pianggu,,,null
+1302102008,130210,1302,13,"Tanjung Bingkung",,,null
+1302122001,130212,1302,13,"Sulit Air",,,null
+1303082003,130308,1303,13,Guguak,,,null
+1304022002,130402,1304,13,Sabu,,,null
+1304062001,130406,1304,13,Taluak,,,null
+1305032003,130503,1305,13,"Padang Bintungan",,,null
+1306012002,130601,1306,13,"Tiku Utara",,,null
+1306022002,130602,1306,13,Geragahan,,,null
+1306162004,130616,1306,13,"Malalak Barat",,,null
+1307012004,130701,1307,13,Suliki,,,null
+1307092001,130709,1307,13,"Labuah Gunuang",,,null
+1307132001,130713,1307,13,"Sariak Laweh",,,null
+1308052004,130805,1308,13,Pauah,,,null
+1308162001,130816,1308,13,"Alahan Mati",,,null
+1309082005,130908,1309,13,"Bukit Pamewa",,,null
+1309092003,130909,1309,13,Matobe,,,null
+1310022008,131002,1310,13,"Gunung Selasih",,,null
+1310032003,131003,1310,13,"Sungai Rumbai",,,null
+1311062002,131106,1311,13,"Kapau Alam Pauh Duo",,,null
+1371091003,137109,1371,13,"Lubuk Lintah",,,null
+1371111012,137111,1371,13,"Parupuk Tabing",,,null
+1373011006,137301,1373,13,"Aia Dingin",,,null
+1375031005,137503,1375,13,"Kubu Tanjung",,,null
+1377032006,137703,1377,13,"Pasir Sunur",,,null
+1301012011,130101,1301,13,"Tluk Amplu Inderapura",,,null
+1301052002,130105,1301,13,Tambang,,,null
+1301052006,130105,1301,13,"Sago Salido",,,null
+1301082012,130108,1301,13,"Ganting Mudiak Utara Surantih",,,null
+1301092006,130109,1301,13,"Lagan Mudik Punggasan",,,null
+1301152003,130115,1301,13,"Sungai Sarik",,,null
+1302092006,130209,1302,13,"Sungai Jambur",,,null
+1302112004,130211,1302,13,Singkarak,,,null
+1302182004,130218,1302,13,"Tanjung Balik Sumiso",,,null
+1303032001,130303,1303,13,Timbulun,,,null
+1303042003,130304,1303,13,Silokek,,,null
+1304082008,130408,1304,13,"Rao Rao",,,null
+1305102008,130510,1305,13,"Kampuang Gelapuang Ulakan",,,null
+1305112001,130511,1305,13,Sintuak,,,null
+1305112002,130511,1305,13,"Toboh Gadang",,,null
+1305162001,130516,1305,13,"Sungai Durian",,,null
+1305172004,130517,1305,13,"Parit Malintang",,,null
+1306022003,130602,1306,13,"Kampung Pinang",,,null
+1306062005,130606,1306,13,"Ladang Laweh",,,null
+1306072001,130607,1306,13,"Batu Taba",,,null
+1306072002,130607,1306,13,"Biaro Gadang",,,null
+1306072008,130607,1306,13,"Balai Gurah",,,null
+1306152002,130615,1306,13,"Kamang Hilia",,,null
+1307052005,130705,1307,13,Harau,,,null
+1310112001,131011,1310,13,"Koto Besar",,,null
+1311022010,131102,1311,13,"Pasir Talang Barat",,,null
+1371021001,137102,1371,13,Sawahan,,,null
+1371031009,137103,1371,13,"Kampung Pondok",,,null
+1371061004,137106,1371,13,"Tanjung Saba Pitamen Nan XX",,,null
+1371111009,137111,1371,13,"Lubuk Buaya",,,null
+1373042003,137304,1373,13,"Bukit Gadang",,,null
+1375011006,137501,1375,13,"Kayu Kubu",,,null
+1375021001,137502,1375,13,"Campago Guguk Bulek",,,null
+1375031007,137503,1375,13,"Parit Rantang",,,null
+1376031002,137603,1376,13,"Padang Alai Bodi",,,null
+1377012017,137701,1377,13,"Pauh Barat",,,null
+1377042002,137704,1377,13,Pakasai,,,null
+1377042008,137704,1377,13,"Air Santok",,,null
+1377042014,137704,1377,13,"Kampung Kandang",,,null
+1301052016,130105,1301,13,"Sungai Sariak Lumpo",,,null
+1301072020,130107,1301,13,"Batu Hampar Selatan",,,null
+1301112017,130111,1301,13,"Riak Danau Tapan",,,null
+1302082001,130208,1302,13,"Muaro Paneh",,,null
+1302082005,130208,1302,13,Dilam,,,null
+1303042004,130304,1303,13,"Pematang Panjang",,,null
+1304042001,130404,1304,13,Baringin,,,null
+1305062003,130506,1305,13,"Campago Barat",,,null
+1305132003,130513,1305,13,"Malai V Suku Timur",,,null
+1305142001,130514,1305,13,"Kudu Gantiang",,,null
+1305152002,130515,1305,13,Guguak,,,null
+1306102001,130610,1306,13,"Koto Rantang",,,null
+1306122001,130612,1306,13,"Padang Laweh",,,null
+1307072001,130707,1307,13,"Muaro Paiti",,,null
+1307132004,130713,1307,13,Suayan,,,null
+1308072001,130807,1308,13,Panti,,,null
+1308172003,130817,1308,13,"Sitombol Padang Gelugua",,,null
+1308192002,130819,1308,13,"Lubuak Layang",,,null
+1309022001,130902,1309,13,Bosua,,,null
+1310062002,131006,1310,13,"Taratak Tinggi",,,null
+1310112006,131011,1310,13,"Koto Laweh",,,null
+1311042001,131104,1311,13,"Lubuk Malako",,,null
+1311062001,131106,1311,13,"Alam Pauh Duo",,,null
+1371041002,137104,1371,13,"Air Tawar Barat",,,null
+1373021002,137302,1373,13,"Lubang Panjang",,,null
+1373032004,137303,1373,13,"Muaro Kalaban",,,null
+1373042002,137304,1373,13,"Talawi Mudiak",,,null
+1376011016,137601,1376,13,"Parik Rantang",,,null
+1376021035,137602,1376,13,"Tigo Koto Diate",,,null
+1376051001,137605,1376,13,"Padang Karambia",,,null
+1377011011,137701,1377,13,"Jawi Jawi II",,,null
+1377022014,137702,1377,13,"Naras Hilir",,,null
+1377032019,137703,1377,13,"Padang Cakur",,,null
+1301032004,130103,1301,13,"Kambang Timur",,,null
+1301052001,130105,1301,13,Painan,,,null
+1301072003,130107,1301,13,Duku,,,null
+1301082009,130108,1301,13,"Koto Nan Tigo Selatan Surantih",,,null
+1301102015,130110,1301,13,"Sindang Lunang",,,null
+1302072003,130207,1302,13,"Koto Gadang Guguak",,,null
+1302172002,130217,1302,13,"Sariak Alahan Tigo",,,null
+1302192001,130219,1302,13,"Simpang Tj. Nan IV",,,null
+1303062004,130306,1303,13,"Aie Amo",,,null
+1303072004,130307,1303,13,"Kampung Dalam",,,null
+1303092001,130309,1303,13,Silantai,,,null
+1303092002,130309,1303,13,Sisawah,,,null
+1303092009,130309,1303,13,"Sumpur Kudus Selatan",,,null
+1304012008,130401,1304,13,"Pandai Sikek",,,null
+1304082004,130408,1304,13,"Talang Tangah",,,null
+1304092005,130409,1304,13,Pariangan,,,null
+1304122002,130412,1304,13,Barulak,,,null
+1304142004,130414,1304,13,"Guguak Malalo",,,null
+1305022003,130502,1305,13,"Sungai Buluah",,,null
+1306082007,130608,1306,13,"Koto Baru",,,null
+1307012003,130701,1307,13,"Tanjuang Bungo",,,null
+1307032005,130703,1307,13,Piobang,,,null
+1307052002,130705,1307,13,"Solok Bio Bio",,,null
+1307092006,130709,1307,13,Halaban,,,null
+1307092008,130709,1307,13,Sitanang,,,null
+1307112005,130711,1307,13,"Sungai Antuan",,,null
+1308052002,130805,1308,13,Jambak,,,null
+1308072003,130807,1308,13,"Panti Timur",,,null
+1308152002,130815,1308,13,"Muaro Sungai Lolo",,,null
+1309012008,130901,1309,13,Silabu,,,null
+1309042007,130904,1309,13,Sirilogui,,,null
+1309102003,130910,1309,13,Malakopa,,,null
+1310012002,131001,1310,13,"Koto Baru",,,null
+1310082002,131008,1310,13,"Sungai Langkok",,,null
+1310112002,131011,1310,13,"Koto Tinggi",,,null
+1371011008,137101,1371,13,"Mata Air",,,null
+1371011009,137101,1371,13,Rawang,,,null
+1371051006,137105,1371,13,"Teluk Kabung Selatan",,,null
+1371071007,137107,1371,13,Tarantang,,,null
+1372021004,137202,1372,13,"Nan Balimo",,,null
+1373042010,137304,1373,13,Sikalang,,,null
+1376011020,137601,1376,13,"Labuah Basilang",,,null
+1377022006,137702,1377,13,Apar,,,null
+1377032016,137703,1377,13,"Kampung Apar",,,null
+1377042006,137704,1377,13,"Batang Kabung",,,null
+1301042008,130104,1301,13,"Sungai Nyalo IV Koto Mudiek",,,null
+1301072004,130107,1301,13,"Batu Hampa",,,null
+1301092001,130109,1301,13,Punggasan,,,null
+1301142004,130114,1301,13,"Tebing Tinggi Tapan",,,null
+1301152007,130115,1301,13,"Durian Seribu",,,null
+1303052005,130305,1303,13,"Koto Tuo",,,null
+1303062006,130306,1303,13,"Kunangan Parik Rantang",,,null
+1304072003,130407,1304,13,Tanjung,,,null
+1304082007,130408,1304,13,"Koto Tuo",,,null
+1304112002,130411,1304,13,"Padang Ganting",,,null
+1305092004,130509,1305,13,"III Koto Aur Malintang Selatan",,,null
+1305102007,130510,1305,13,"Sandi Ulakan",,,null
+1306042006,130604,1306,13,"Panta Pauh",,,null
+1306082006,130608,1306,13,Salo,,,null
+1306142003,130614,1306,13,"Bukik Batabuah",,,null
+1307032003,130703,1307,13,Simalanggang,,,null
+1307112003,130711,1307,13,Mungka,,,null
+1309012007,130901,1309,13,Betumonga,,,null
+1309042004,130904,1309,13,Sotboyak,,,null
+1309082001,130908,1309,13,Betumonga,,,null
+1309082003,130908,1309,13,Tuapejat,,,null
+1310022006,131002,1310,13,"Empat Koto Pulau Punjung",,,null
+1310072002,131007,1310,13,Ampalu,,,null
+1310112005,131011,1310,13,"Abai Siat",,,null
+1312012001,131201,1312,13,"Aia Bangih",,,null
+1312032006,131203,1312,13,"Aia Gadang",,,null
+1312102001,131210,1312,13,"Koto Baru",,,null
+1371011004,137101,1371,13,"Pasa Gadang",,,null
+1371061001,137106,1371,13,"Cangkeh Nan XX",,,null
+1376041005,137604,1376,13,"Koto Panjang Padang",,,null
+1301022008,130102,1301,13,"Pelangai Gadang",,,null
+1301032007,130103,1301,13,"Lakitan Selatan",,,null
+1301042002,130104,1301,13,"IV Koto Mudiek",,,null
+1301052009,130105,1301,13,"Limau Gadang Lumpo",,,null
+1301072001,130107,1301,13,Siguntur,,,null
+1301072023,130107,1301,13,"Setara Nanggalo",,,null
+1301112010,130111,1301,13,"Batang Betung Tapan",,,null
+1301132004,130113,1301,13,"Lalang Panjang Inderapura",,,null
+1301132008,130113,1301,13,"Tanah Bakali Inderapura",,,null
+1301152008,130115,1301,13,"Lubuk Bunta",,,null
+1302062005,130206,1302,13,"Koto Gadang Koto Anau",,,null
+1302072008,130207,1302,13,"Koto Gaek Guguk",,,null
+1302102002,130210,1302,13,Selayo,,,null
+1302172001,130217,1302,13,"Talang Babungo",,,null
+1304012002,130401,1304,13,Jaho,,,null
+1304012005,130401,1304,13,Panyalaian,,,null
+1304012006,130401,1304,13,"Koto Laweh",,,null
+1305012001,130501,1305,13,"Lubuk Alung",,,null
+1306022005,130602,1306,13,Manggopoh,,,null
+1306052005,130605,1306,13,"Guguk Tabek Sarajo",,,null
+1306092003,130609,1306,13,Gadut,,,null
+1306122004,130612,1306,13,"Batu Palano",,,null
+1306132004,130613,1306,13,Sitanang,,,null
+1308042003,130804,1308,13,"Ganggo Mudiak",,,null
+1308082001,130808,1308,13,"Muara Tais",,,null
+1309062001,130906,1309,13,Katurei,,,null
+1309082006,130908,1309,13,"Sipora Jaya",,,null
+1371011001,137101,1371,13,"Belakang Pondok",,,null
+1371011003,137101,1371,13,"Ranah Parak Rumbio",,,null
+1371071002,137107,1371,13,"Padang Besi",,,null
+1371091005,137109,1371,13,Kalumbuk,,,null
+1371101002,137110,1371,13,"Kampung Olo",,,null
+1374021001,137402,1374,13,"Bukit Surungan",,,null
+1374021006,137402,1374,13,"Pasar Baru",,,null
+1376011003,137601,1376,13,"Kubu Gadang",,,null
+1376021002,137602,1376,13,Napar,,,null
+1301012010,130101,1301,13,"Tigo Sungai Inderapura",,,null
+1301022004,130102,1301,13,"Sungai Tunu Barat",,,null
+1301042007,130104,1301,13,"Tuik IV Koto Mudiek",,,null
+1301052019,130105,1301,13,"Painan Selatan Painan",,,null
+1301092010,130109,1301,13,"Pasar Bukit Air Haji",,,null
+1302072004,130207,1302,13,"Jawi Jawi",,,null
+1302102003,130210,1302,13,Panyakalan,,,null
+1303032005,130303,1303,13,Langki,,,null
+1303102003,130310,1303,13,"Padang Sibusuk",,,null
+1304122001,130412,1304,13,"Tanjuang Alam",,,null
+1305022004,130502,1305,13,"Buayan Lubuk Alung",,,null
+1305062002,130506,1305,13,Sikucua,,,null
+1305072001,130507,1305,13,"Kuranji Hulu",,,null
+1306072004,130607,1306,13,Panampung,,,null
+1307022003,130702,1307,13,"Sungai Talang",,,null
+1307032006,130703,1307,13,"Taeh Baruah",,,null
+1307072004,130707,1307,13,"Koto Lamo",,,null
+1308052003,130805,1308,13,"Durian Tinggi",,,null
+1308132003,130813,1308,13,Binjai,,,null
+1308192003,130819,1308,13,"Tanjung Betung",,,null
+1309062002,130906,1309,13,Sagulubbeg,,,null
+1311022005,131102,1311,13,"Pasar Muara Labuh",,,null
+1312072002,131207,1312,13,"Desa Baru",,,null
+1371011006,137101,1371,13,"Seberang Palinggam",,,null
+1371021010,137102,1371,13,"Ganting Parak Gadang",,,null
+1371071005,137107,1371,13,"Koto Lalang",,,null
+1371111001,137111,1371,13,"Balai Gadang",,,null
+1373032002,137303,1373,13,"Silungkang Oso",,,null
+1374011001,137401,1374,13,Ganting,,,null
+1376041001,137604,1376,13,"Sungai Durian",,,null
+1377011003,137701,1377,13,Lohong,,,null
+1377011004,137701,1377,13,Pasir,,,null
+1377011013,137701,1377,13,Taratak,,,null
+1377032021,137703,1377,13,Rambai,,,null
+1301022001,130102,1301,13,Pelangai,,,null
+1301022009,130102,1301,13,"Pelangai Kaciak",,,null
+1301052011,130105,1301,13,"Taratak Tangah Lumpo",,,null
+1301062013,130106,1301,13,"Kapeh Panji Jaya Talaok",,,null
+1301102005,130110,1301,13,"Lunang Barat",,,null
+1301122004,130112,1301,13,"Pancuang Taba",,,null
+1301142009,130114,1301,13,"Kubu Tapan",,,null
+1302052001,130205,1302,13,Supayang,,,null
+1302172003,130217,1302,13,"Sungai Abu",,,null
+1303032008,130303,1303,13,"Taratak Baru Utara",,,null
+1303092011,130309,1303,13,"Tanjung Bonai Aur Selatan",,,null
+1304102001,130410,1304,13,Sumanik,,,null
+1305052006,130505,1305,13,"Lareh Nan Panjang Barat",,,null
+1305052008,130505,1305,13,"Ambuang Kapua Sungai Sariak",,,null
+1305102003,130510,1305,13,"Padang Toboh Ulakan",,,null
+1305152001,130515,1305,13,"Kayu Tanam",,,null
+1305162003,130516,1305,13,"Tandikek Utara",,,null
+1305172001,130517,1305,13,Pakandangan,,,null
+1306022004,130602,1306,13,"Kampung Tangah",,,null
+1306032004,130603,1306,13,Bayua,,,null
+1306052004,130605,1306,13,"Koto Tuo",,,null
+1306052006,130605,1306,13,"Koto Panjang",,,null
+1306162003,130616,1306,13,"Malalak Selatan",,,null
+1307022001,130702,1307,13,"Guguak VIII Koto",,,null
+1307052010,130705,1307,13,"Koto Tuo",,,null
+1307062006,130706,1307,13,"Tanjung Pauh",,,null
+1307112001,130711,1307,13,"Jopang Manganti",,,null
+1309022008,130902,1309,13,Saureinu,,,null
+1309072002,130907,1309,13,Cimpungan,,,null
+1310032007,131003,1310,13,"Sungai Rumbai Timur",,,null
+1310052001,131005,1310,13,Silago,,,null
+1310092003,131009,1310,13,"Muaro Sopan",,,null
+1310112003,131011,1310,13,"Koto Gadang",,,null
+1311062003,131106,1311,13,"Luak Kapau Alam Pauh Duo",,,null
+1311072004,131107,1311,13,"Talunan Maju",,,null
+1371011012,137101,1371,13,"Bukit Gado-gado",,,null
+1371021005,137102,1371,13,"Simpang Haru",,,null
+1371061003,137106,1371,13,"Tanah Sirah Piai Nan XX",,,null
+1371081009,137108,1371,13,"Lambung Bukik",,,null
+1373012007,137301,1373,13,"Lunto Timur",,,null
+1375021003,137502,1375,13,"Puhun Tembok",,,null
+1375021007,137502,1375,13,"Koto Selayan",,,null
+1376011011,137601,1376,13,"Koto Tangah",,,null
+1376011017,137601,1376,13,"Parak Batuang",,,null
+1377022009,137702,1377,13,"Sikapak Barat",,,null
+1377042005,137704,1377,13,"Koto Marapak",,,null
+1301012001,130101,1301,13,Inderapura,,,null
+1301052003,130105,1301,13,Salido,,,null
+1301062008,130106,1301,13,"Gurun Panjang",,,null
+1301072021,130107,1301,13,"Barung-Barung Balantai Timur",,,null
+1301102017,130110,1301,13,"Lunang Tengah",,,null
+1301112016,130111,1301,13,"Bukit Buai Tapan",,,null
+1302092001,130209,1302,13,Taruang-Taruang,,,null
+1302092002,130209,1302,13,Siaro-Aro,,,null
+1303042008,130304,1303,13,"Aie Angek",,,null
+1304022006,130402,1304,13,Pitalah,,,null
+1304052002,130405,1304,13,Saruaso,,,null
+1304072005,130407,1304,13,"Minang Kabau",,,null
+1304132004,130413,1304,13,"Lubuak Jantan",,,null
+1305012007,130501,1305,13,"Singguliang Lubuk Alung",,,null
+1305062007,130506,1305,13,"Sikucua Tengah",,,null
+1305122005,130512,1305,13,"Koto Dalam Selatan",,,null
+1305162002,130516,1305,13,Tandikek,,,null
+1306042004,130604,1306,13,Lawang,,,null
+1306082001,130608,1306,13,"Koto Tinggi",,,null
+1306152001,130615,1306,13,Magek,,,null
+1307032001,130703,1307,13,"Koto Baru Simalanggang",,,null
+1307132007,130713,1307,13,"Durian Gadang",,,null
+1308182002,130818,1308,13,"Koto Rajo",,,null
+1309032005,130903,1309,13,Matotonan,,,null
+1309052001,130905,1309,13,Simatalu,,,null
+1309092002,130909,1309,13,Taikako,,,null
+1312072001,131207,1312,13,Batahan,,,null
+1312112001,131211,1312,13,Sasak,,,null
+1371021006,137102,1371,13,"Kubu Marapalam",,,null
+1371031005,137103,1371,13,"Padang Pasir",,,null
+1371041006,137104,1371,13,"Alai Parak Kopi",,,null
+1371091008,137109,1371,13,"Gunung Sarik",,,null
+1371101001,137110,1371,13,"Surau Gadang",,,null
+1373011005,137301,1373,13,"Tanah Lapang",,,null
+1373021004,137302,1373,13,"Durian II",,,null
+1373032001,137303,1373,13,"Silungkang Duo",,,null
+1376011022,137601,1376,13,"Tanjuang Pauh",,,null
+1377022007,137702,1377,13,"Tanjung Sabar",,,null
+1377022017,137702,1377,13,"Padang Birik Birik",,,null
+1301052007,130105,1301,13,"Salido Sari Bulan",,,null
+1301052010,130105,1301,13,"Batu Kunik Lumpo",,,null
+1301052012,130105,1301,13,"Ampuan Lumpo",,,null
+1301052020,130105,1301,13,"Painan Timur Painan",,,null
+1301062011,130106,1301,13,"Asam Kamba Pasar Baru",,,null
+1301062012,130106,1301,13,"Sawah Laweh Pasar Baru",,,null
+1301082001,130108,1301,13,Taratak,,,null
+1301092009,130109,1301,13,"Pasar Lama Muara Air Haji",,,null
+1301092013,130109,1301,13,"Rantau Simalenang Air Haji",,,null
+1302062004,130206,1302,13,"Limau Lunggo",,,null
+1302102006,130210,1302,13,"Saok Laweh",,,null
+1302122006,130212,1302,13,Pasilihan,,,null
+1302182001,130218,1302,13,"Rangkiang Luluih",,,null
+1302182002,130218,1302,13,"Batu Bajanjang",,,null
+1303062002,130306,1303,13,Kamang,,,null
+1303102004,130310,1303,13,"Desa Kampung Baru",,,null
+1304012001,130401,1304,13,Tambangan,,,null
+1304052001,130405,1304,13,"Tanjung Barulak",,,null
+1304092004,130409,1304,13,Simabur,,,null
+1305032001,130503,1305,13,"Kapalo Koto",,,null
+1305072002,130507,1305,13,"Malai III Koto",,,null
+1305072004,130507,1305,13,"Sungai Sirah Kuranji Hulu",,,null
+1306012001,130601,1306,13,"Tiku Selatan",,,null
+1306082004,130608,1306,13,Simarasok,,,null
+1306122005,130612,1306,13,Sariak,,,null
+1307022002,130702,1307,13,"VII Koto Talago",,,null
+1307022005,130702,1307,13,"Simpang Sugiran",,,null
+1307072002,130707,1307,13,"Koto Bangun",,,null
+1307092005,130709,1307,13,"Balai Panjang",,,null
+1307122004,130712,1307,13,"Sungai Naniang",,,null
+1310012003,131001,1310,13,"Sialang Gaung",,,null
+1310062005,131006,1310,13,"Ranah Palabi",,,null
+1310112007,131011,1310,13,"Koto Ranah",,,null
+1311032003,131103,1311,13,"Pakan Rabaa Utara",,,null
+1311062004,131106,1311,13,"Pauh Duo Nan Batigo",,,null
+1371081001,137108,1371,13,"Limau Manis",,,null
+1371091006,137109,1371,13,"Korong Gadang",,,null
+1372011006,137201,1372,13,"Aro IV Korong",,,null
+1373022009,137302,1373,13,Lumindai,,,null
+1373022010,137302,1373,13,"Balai Batu Sadara",,,null
+1373042008,137304,1373,13,"Sijantang Koto",,,null
+1375011004,137501,1375,13,"Aur Tajungkang/Tgh. Sawah",,,null
+1375021009,137502,1375,13,Manggis/Ganting,,,null
+1377011012,137701,1377,13,"Jalan Baru",,,null
+1301022007,130102,1301,13,"Koto VIII Pelangai",,,null
+1301052004,130105,1301,13,Lumpo,,,null
+1301052013,130105,1301,13,"Ampang Tareh Lumpo",,,null
+1301092014,130109,1301,13,"Muara Gadang Air Haji",,,null
+1301102003,130110,1301,13,"Lunang Utara",,,null
+1301112001,130111,1301,13,Tapan,,,null
+1302052002,130205,1302,13,Sirukam,,,null
+1302092005,130209,1302,13,"Bukik Bais",,,null
+1302122003,130212,1302,13,Paninjauan,,,null
+1305122001,130512,1305,13,"Koto Baru",,,null
+1306052002,130605,1306,13,"Sungai Landia",,,null
+1307072003,130707,1307,13,"Lubuak Alai",,,null
+1308042004,130804,1308,13,"Ganggo Hilia",,,null
+1309022007,130902,1309,13,Matobe,,,null
+1309032004,130903,1309,13,Muntei,,,null
+1309082002,130908,1309,13,Goisooinan,,,null
+1310102005,131010,1310,13,Sinamar,,,null
+1311012002,131101,1311,13,"Lubuk Gadang Timur",,,null
+1371021002,137102,1371,13,"Jati Baru",,,null
+1371061011,137106,1371,13,"Batung Taba Nan XX",,,null
+1371111008,137111,1371,13,"Padang Sarai",,,null
+1372011003,137201,1372,13,"Sinapa Piliang",,,null
+1372021001,137202,1372,13,"Koto Panjang",,,null
+1373042009,137304,1373,13,Salak,,,null
+1376021037,137602,1376,13,"Balai Tongah Koto",,,null
+1376031009,137603,1376,13,Payobasung,,,null
+1376051003,137605,1376,13,Limbukan,,,null
+1377012020,137701,1377,13,"Kampung Baru",,,null
+1377022016,137702,1377,13,"Balai Naras",,,null
+1377032020,137703,1377,13,"Punggung Lading",,,null
+1301012003,130101,1301,13,"Tiga Sepakat Inderapura",,,null
+1301012005,130101,1301,13,"Kudo-Kudo Inderapura",,,null
+1301022002,130102,1301,13,"Sungai Tunu",,,null
+1301082002,130108,1301,13,Surantih,,,null
+1301132006,130113,1301,13,"Lubuk Betung Inderapura",,,null
+1301132007,130113,1301,13,"Tluk Kualo Inderapura",,,null
+1301152006,130115,1301,13,"Talang Binjai",,,null
+1302052003,130205,1302,13,"Aie Luo",,,null
+1302062001,130206,1302,13,"Batu Banyak",,,null
+1302112005,130211,1302,13,Aripan,,,null
+1302192002,130219,1302,13,"Kampung Batu Dalam",,,null
+1303082007,130308,1303,13,"Padang Laweh Selatan",,,null
+1304022003,130402,1304,13,"Batipuah Ateh",,,null
+1304072004,130407,1304,13,Sungayang,,,null
+1304092003,130409,1304,13,"Sawah Tangah",,,null
+1304092006,130409,1304,13,"Sungai Jambu",,,null
+1305062004,130506,1305,13,"Campago Selatan",,,null
+1305102004,130510,1305,13,"Sungai Gimba Ulakan",,,null
+1305112004,130511,1305,13,"Toboh Gadang Barat",,,null
+1306152003,130615,1306,13,"Kamang Mudiak",,,null
+1307102004,130710,1307,13,"Situjuah Banda Dalam",,,null
+1308052006,130805,1308,13,Sundata,,,null
+1309032002,130903,1309,13,"Muara Siberut",,,null
+1310042005,131004,1310,13,"Sungai Duo",,,null
+1310072001,131007,1310,13,"Koto Salak",,,null
+1310102003,131010,1310,13,"Lubuk Besar",,,null
+1312042002,131204,1312,13,Talu,,,null
+1371041001,137104,1371,13,"Air Tawar Timur",,,null
+1371061015,137106,1371,13,"Kampung Jua Nan XX",,,null
+1371071003,137107,1371,13,"Batu Gadang",,,null
+1371111003,137111,1371,13,"Aie Pacah",,,null
+1371111005,137111,1371,13,"Koto Panjang Ikua Koto",,,null
+1374021008,137402,1374,13,Balai-balai,,,null
+1375021002,137502,1375,13,"Campago Ipuh",,,null
+1376051006,137605,1376,13,"Kapalo Koto Ampangan",,,null
+1377032013,137703,1377,13,Sikabu,,,null
+1377042013,137704,1377,13,"Kampung Tangah",,,null
+1301062006,130106,1301,13,Talaok,,,null
+1301062018,130106,1301,13,"Kapujan Koto Berapak",,,null
+1301062020,130106,1301,13,"Gurun Panjang Barat",,,null
+1301072005,130107,1301,13,Nanggalo,,,null
+1301072007,130107,1301,13,Kapuh,,,null
+1301082008,130108,1301,13,"Rawang Gunung Malelo Surantih",,,null
+1301152001,130115,1301,13,Silaut,,,null
+1302062006,130206,1302,13,"Selayo Tanang B. Sileh",,,null
+1302112001,130211,1302,13,Sumani,,,null
+1303032003,130303,1303,13,"Taratak Baru",,,null
+1303032004,130303,1303,13,Pulasan,,,null
+1303062010,130306,1303,13,"Lubuk Tarantang",,,null
+1304022004,130402,1304,13,"Batipuah Baruh",,,null
+1304062002,130406,1304,13,Buo,,,null
+1304082002,130408,1304,13,"Sungai Tarab",,,null
+1304102003,130410,1304,13,"Lawang Mandahiling",,,null
+1304142002,130414,1304,13,Sumpur,,,null
+1305072003,130507,1305,13,"Batu Gadang Kuranji Hulu",,,null
+1305112003,130511,1305,13,"Toboh Gadang Selatan",,,null
+1305112005,130511,1305,13,"Toboh Gadang Timur",,,null
+1306062001,130606,1306,13,"Padang Lua",,,null
+1306062003,130606,1306,13,"Pakan Sinayan",,,null
+1306142001,130614,1306,13,"Canduang Koto Laweh",,,null
+1307042002,130704,1307,13,Mungo,,,null
+1307042004,130704,1307,13,Andaleh,,,null
+1307132002,130713,1307,13,"Koto Tangah Batu Ampa",,,null
+1308072004,130807,1308,13,"Panti Selatan",,,null
+1308192001,130819,1308,13,"Lansek Kadok",,,null
+1309062003,130906,1309,13,"Pasakiat Taileleu",,,null
+1310062003,131006,1310,13,Tabek,,,null
+1371021008,137102,1371,13,"Kubu Dalam Parak Karakah",,,null
+1371031001,137103,1371,13,"Flamboyan Baru",,,null
+1371041004,137104,1371,13,"Ulak Karang Selatan",,,null
+1371081006,137108,1371,13,Pisang,,,null
+1374011008,137401,1374,13,"Tanah Pak Lambik",,,null
+1376041003,137604,1376,13,Parambahan,,,null
+1376041004,137604,1376,13,"Padang Sikabu",,,null
+1377012019,137701,1377,13,Rawang,,,null
+1377022005,137702,1377,13,Ampalu,,,null
+1377042001,137704,1377,13,"Talago Sarik",,,null
+1377042003,137704,1377,13,"Kampung Baru Padusunan",,,null

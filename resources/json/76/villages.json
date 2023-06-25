@@ -1,0 +1,6482 @@
+[
+    {
+        "code": 7601082001,
+        "district_code": 760108,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Tikke",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601082002,
+        "district_code": 760108,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Makmur Jaya",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601092003,
+        "district_code": 760109,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Batu Oge",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601112003,
+        "district_code": 760111,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Letawa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602032006,
+        "district_code": 760203,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Belang Belang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602032007,
+        "district_code": 760203,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Kabuloang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602121001,
+        "district_code": 760212,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Simboro",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603011002,
+        "district_code": 760301,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Talipukki",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603012019,
+        "district_code": 760301,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Sendana",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603042015,
+        "district_code": 760304,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Salutambun",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603062003,
+        "district_code": 760306,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Batang Uru",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603071001,
+        "district_code": 760307,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Messawa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603092001,
+        "district_code": 760309,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Malabo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603112016,
+        "district_code": 760311,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Sikamase",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603152008,
+        "district_code": 760315,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Salumokanan Utara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603162001,
+        "district_code": 760316,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Buntumalangka",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604012004,
+        "district_code": 760401,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Lekopadis",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604032011,
+        "district_code": 760403,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Tumpiling",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604032012,
+        "district_code": 760403,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Bakka-Bakka",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604052013,
+        "district_code": 760405,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Taramanu Tua",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604091001,
+        "district_code": 760409,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Matangnga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604102011,
+        "district_code": 760410,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Puccadi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604112002,
+        "district_code": 760411,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Lembang Lembang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604112011,
+        "district_code": 760411,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Palece",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605032019,
+        "district_code": 760503,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Leppangang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605062001,
+        "district_code": 760506,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Seppong",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606022005,
+        "district_code": 760602,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Kuo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606052008,
+        "district_code": 760605,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Suka Maju",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601012009,
+        "district_code": 760101,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Wulai",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601032013,
+        "district_code": 760103,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Towoni",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602031002,
+        "district_code": 760203,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Bebanga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602042014,
+        "district_code": 760204,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Kondo Bulo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603012026,
+        "district_code": 760301,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Bujung Manurung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603022019,
+        "district_code": 760302,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Hahangan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603032009,
+        "district_code": 760303,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Pebassian",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603052011,
+        "district_code": 760305,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Pangandaran",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603072005,
+        "district_code": 760307,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Malimbong",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603082006,
+        "district_code": 760308,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Rante Puang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603152004,
+        "district_code": 760315,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Buangin",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603172001,
+        "district_code": 760317,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Mehalaan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603172003,
+        "district_code": 760317,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Salukonta",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604052008,
+        "district_code": 760405,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Taloba",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604062004,
+        "district_code": 760406,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Mirring",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604072002,
+        "district_code": 760407,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Tapango",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604112005,
+        "district_code": 760411,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Napo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604122004,
+        "district_code": 760412,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Mosso",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604122008,
+        "district_code": 760412,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Bala",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604141001,
+        "district_code": 760414,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Matakali",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604162004,
+        "district_code": 760416,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Karombang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605032022,
+        "district_code": 760503,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Banua Sendana",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605042011,
+        "district_code": 760504,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Lombang Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605052003,
+        "district_code": 760505,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Tandeallo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606012008,
+        "district_code": 760601,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Saloadak",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606022007,
+        "district_code": 760602,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Lamba-lamba",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606032003,
+        "district_code": 760603,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Pontanakayang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601032016,
+        "district_code": 760103,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Kasano",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602032010,
+        "district_code": 760203,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Guliling",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602042004,
+        "district_code": 760204,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Karama",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602072002,
+        "district_code": 760207,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Papalang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602082006,
+        "district_code": 760208,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Salubarana",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602112001,
+        "district_code": 760211,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Tommo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603052010,
+        "district_code": 760305,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Salubakka",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603072004,
+        "district_code": 760307,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Sepang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603162010,
+        "district_code": 760316,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Salutambun",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604072006,
+        "district_code": 760407,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Riso",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604092004,
+        "district_code": 760409,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Tapua",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604092005,
+        "district_code": 760409,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Mambu Tapua",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604102008,
+        "district_code": 760410,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Batupanga Daala",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604121002,
+        "district_code": 760412,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Balanipa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604142004,
+        "district_code": 760414,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Pasiang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604152005,
+        "district_code": 760415,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Puppu Uring",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605021001,
+        "district_code": 760502,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Lalampanua",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605052004,
+        "district_code": 760505,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Ulumanda",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605062007,
+        "district_code": 760506,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Awo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606012002,
+        "district_code": 760601,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Salobaja",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601042003,
+        "district_code": 760104,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Bulu Mario",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601052005,
+        "district_code": 760105,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Sarasa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602042010,
+        "district_code": 760204,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Salumakki",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602122007,
+        "district_code": 760212,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Botteng Utara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603102004,
+        "district_code": 760310,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Tabang Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603112008,
+        "district_code": 760311,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Limbadebata",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603162007,
+        "district_code": 760316,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Salutambun Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604012003,
+        "district_code": 760401,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Tangnga Tangnga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604022003,
+        "district_code": 760402,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Bonde",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604022014,
+        "district_code": 760402,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Botto",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604022015,
+        "district_code": 760402,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Gattungan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604052009,
+        "district_code": 760405,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Pollewani",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604081001,
+        "district_code": 760408,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Mapili",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604122001,
+        "district_code": 760412,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Tammajarra",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604152002,
+        "district_code": 760415,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Mombi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605032016,
+        "district_code": 760503,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Binanga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605042005,
+        "district_code": 760504,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Lombong",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605042012,
+        "district_code": 760504,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Salutahongan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605062004,
+        "district_code": 760506,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Tallambalao",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605072006,
+        "district_code": 760507,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Tubo Tengah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605081006,
+        "district_code": 760508,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Lembang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606042004,
+        "district_code": 760604,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Kabubu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606052001,
+        "district_code": 760605,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Karossa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606052002,
+        "district_code": 760605,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Tasokko",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601021002,
+        "district_code": 760102,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Martajaya",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601032012,
+        "district_code": 760103,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Bulu Parigi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602031001,
+        "district_code": 760203,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Sinyonyoi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602042015,
+        "district_code": 760204,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Makkaliki",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603012017,
+        "district_code": 760301,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Tapalina",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603032011,
+        "district_code": 760303,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Bombong Lambe",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603042006,
+        "district_code": 760304,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Sapan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603122007,
+        "district_code": 760312,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Bambapuang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603132004,
+        "district_code": 760313,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Masewwe",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604032002,
+        "district_code": 760403,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Sidorejo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604032008,
+        "district_code": 760403,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Sugihwaras",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604051001,
+        "district_code": 760405,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Taramanu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604052005,
+        "district_code": 760405,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Besoangin",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604082011,
+        "district_code": 760408,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Beroangin",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604102003,
+        "district_code": 760410,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Baru",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604122006,
+        "district_code": 760412,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Sabang Subik",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604152006,
+        "district_code": 760415,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Saragian",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605011013,
+        "district_code": 760501,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Galung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605042016,
+        "district_code": 760504,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Kayuangin",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606032001,
+        "district_code": 760603,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Babana",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606032011,
+        "district_code": 760603,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Lembah Hada",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601052004,
+        "district_code": 760105,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Bulu Bonggu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601062002,
+        "district_code": 760106,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Saptanajaya",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602011003,
+        "district_code": 760201,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Mamunyu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602042012,
+        "district_code": 760204,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Limbong",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603021001,
+        "district_code": 760302,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Aralle",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603102008,
+        "district_code": 760310,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Salukona",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603132005,
+        "district_code": 760313,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Siwi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603172007,
+        "district_code": 760317,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Salubalo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604052007,
+        "district_code": 760405,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Peburru",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604062002,
+        "district_code": 760406,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Kuajang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604102007,
+        "district_code": 760410,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Sambali Wali",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605032023,
+        "district_code": 760503,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Tallubanua Utara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601072003,
+        "district_code": 760107,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Bukit Harapan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602032008,
+        "district_code": 760203,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Keang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602032011,
+        "district_code": 760203,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Uhaimate",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602032013,
+        "district_code": 760203,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Pammulukang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602072001,
+        "district_code": 760207,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Toabo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603012004,
+        "district_code": 760301,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Rantebulahan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603032005,
+        "district_code": 760303,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Lembana Salulo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603072008,
+        "district_code": 760307,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Pasma Mambu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603122005,
+        "district_code": 760312,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Sepakuan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603172009,
+        "district_code": 760317,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Kondo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603172010,
+        "district_code": 760317,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Leko Sukamaju",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604022002,
+        "district_code": 760402,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Laliko",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604062007,
+        "district_code": 760406,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Mammi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604112007,
+        "district_code": 760411,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Pendulangan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604122003,
+        "district_code": 760412,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Tamanggalle",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605022005,
+        "district_code": 760502,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Bonde",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606012003,
+        "district_code": 760601,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Tobadak",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606052003,
+        "district_code": 760605,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Lara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601032002,
+        "district_code": 760103,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Balanti",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601042001,
+        "district_code": 760104,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Sarudu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601072007,
+        "district_code": 760107,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Ompi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601122002,
+        "district_code": 760112,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Kenangan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601122004,
+        "district_code": 760112,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Singgani",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602021014,
+        "district_code": 760202,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Dayanginna",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602112003,
+        "district_code": 760211,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Buana Sakti",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602112005,
+        "district_code": 760211,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Tamejarra",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602112007,
+        "district_code": 760211,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Malino",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602132003,
+        "district_code": 760213,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Labuang Rano",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602152005,
+        "district_code": 760215,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Lumika",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602152006,
+        "district_code": 760215,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Mappu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603012016,
+        "district_code": 760301,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Salubanua",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603092005,
+        "district_code": 760309,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Sindagamanik",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603132007,
+        "district_code": 760313,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Parinding",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603162006,
+        "district_code": 760316,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Kabae",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604022005,
+        "district_code": 760402,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Panyampa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604022008,
+        "district_code": 760402,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Katumbangan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604041007,
+        "district_code": 760404,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Madate",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604052012,
+        "district_code": 760405,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Poda",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604062006,
+        "district_code": 760406,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Batetangnga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604092006,
+        "district_code": 760409,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Ba'ba Tapua",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604101004,
+        "district_code": 760410,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Batupanga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604102009,
+        "district_code": 760410,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Luyo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604112008,
+        "district_code": 760411,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Renggeang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604142007,
+        "district_code": 760414,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Bunga-Bunga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604162007,
+        "district_code": 760416,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Sabura",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605022012,
+        "district_code": 760502,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Adolang Dhua",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605032020,
+        "district_code": 760503,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Pundau",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605042006,
+        "district_code": 760504,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Mekkatta",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605081001,
+        "district_code": 760508,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Baurung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606032004,
+        "district_code": 760603,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Salogatta",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606032009,
+        "district_code": 760603,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Bojo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601062004,
+        "district_code": 760106,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Sipakainga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602032012,
+        "district_code": 760203,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Kalukku Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602082003,
+        "district_code": 760208,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Tarailu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602112002,
+        "district_code": 760211,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Campaloga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602112008,
+        "district_code": 760211,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Kakullasang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602132005,
+        "district_code": 760213,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Tanete Pao",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603032012,
+        "district_code": 760303,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Bubun Batu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603041001,
+        "district_code": 760304,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Pana",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603062006,
+        "district_code": 760306,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Sibanawa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603102006,
+        "district_code": 760310,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Kalama",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603112006,
+        "district_code": 760311,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Salukepopok",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603152005,
+        "district_code": 760315,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Bambang Buda",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604012008,
+        "district_code": 760401,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Sepabatu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604032014,
+        "district_code": 760403,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Galeson",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604041002,
+        "district_code": 760404,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Wattang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604062008,
+        "district_code": 760406,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Kaleok",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604162005,
+        "district_code": 760416,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Daala Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605032017,
+        "district_code": 760503,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Puttada",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602021002,
+        "district_code": 760202,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Kasambang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602022010,
+        "district_code": 760202,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Taan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602042003,
+        "district_code": 760204,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Karataun",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602112014,
+        "district_code": 760211,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Saludengen",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603042017,
+        "district_code": 760304,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Ulusalu Indah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603052009,
+        "district_code": 760305,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Burana",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603072002,
+        "district_code": 760307,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Rippung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603172002,
+        "district_code": 760317,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Botteng",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604022007,
+        "district_code": 760402,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Lampoko",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604022011,
+        "district_code": 760402,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Ongko",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604032006,
+        "district_code": 760403,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Banua Baru",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604072010,
+        "district_code": 760407,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Bussu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604072014,
+        "district_code": 760407,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Banato Rejo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604082005,
+        "district_code": 760408,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Kurma",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605021002,
+        "district_code": 760502,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Sirindu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605032026,
+        "district_code": 760503,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Bukit Samang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605042002,
+        "district_code": 760504,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Bambangan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605052005,
+        "district_code": 760505,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Salutambung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605062005,
+        "district_code": 760506,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Tammerodo Utara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605081002,
+        "district_code": 760508,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Baruga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606022009,
+        "district_code": 760602,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Lemo-Lemo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602152003,
+        "district_code": 760215,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Buttuada",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602162001,
+        "district_code": 760216,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Bala Balakang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603042014,
+        "district_code": 760304,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Weri",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603052002,
+        "district_code": 760305,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Periangan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603052003,
+        "district_code": 760305,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Malatiro",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603082014,
+        "district_code": 760308,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Marampan Orobua",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603092009,
+        "district_code": 760309,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Mesakada",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603112020,
+        "district_code": 760311,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Balatana",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603132002,
+        "district_code": 760313,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Minanga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603132003,
+        "district_code": 760313,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Batupapan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603172004,
+        "district_code": 760317,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Mesakada",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604062001,
+        "district_code": 760406,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Tonyaman",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604082018,
+        "district_code": 760408,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Rappang Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606022008,
+        "district_code": 760602,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Kombiling",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606032008,
+        "district_code": 760603,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Pasapa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606042006,
+        "district_code": 760604,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Tangkou",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606042007,
+        "district_code": 760604,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Tabolang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606052006,
+        "district_code": 760605,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Lembah Hopo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606052009,
+        "district_code": 760605,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Kambunong",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601022016,
+        "district_code": 760102,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Gunung Sari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602011012,
+        "district_code": 760201,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Karema",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602032004,
+        "district_code": 760203,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Sondoang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602042007,
+        "district_code": 760204,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Tumoga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602122005,
+        "district_code": 760212,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Sumare",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602132002,
+        "district_code": 760213,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Lebani",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603022017,
+        "district_code": 760302,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Kalabe",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603042010,
+        "district_code": 760304,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Panura",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603051001,
+        "district_code": 760305,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Lakahang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603122003,
+        "district_code": 760312,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Balla Satanetean",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603122004,
+        "district_code": 760312,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Balla Tumuka",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603162008,
+        "district_code": 760316,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Penatangan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604022017,
+        "district_code": 760402,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Padang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604032013,
+        "district_code": 760403,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Arjo Sari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604111001,
+        "district_code": 760411,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Limboro",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604112004,
+        "district_code": 760411,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Samasundu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605022007,
+        "district_code": 760502,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Simbang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605022013,
+        "district_code": 760502,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Tinambung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606022004,
+        "district_code": 760602,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Polo Lereng",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606032006,
+        "district_code": 760603,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Tinali",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606042002,
+        "district_code": 760604,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Topoyo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601012004,
+        "district_code": 760101,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Randomayang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601031001,
+        "district_code": 760103,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Baras",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601042012,
+        "district_code": 760104,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Doda",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602072006,
+        "district_code": 760207,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Sukadamai",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602112012,
+        "district_code": 760211,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Leling Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603062004,
+        "district_code": 760306,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Sasakan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603062009,
+        "district_code": 760306,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Banea",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603082007,
+        "district_code": 760308,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Satenetean",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603082010,
+        "district_code": 760308,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Orobua Selatan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603091011,
+        "district_code": 760309,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Minake",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603092015,
+        "district_code": 760309,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Kanan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603112007,
+        "district_code": 760311,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Ulumambi Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603112015,
+        "district_code": 760311,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Minanga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604021001,
+        "district_code": 760402,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Pappang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604041005,
+        "district_code": 760404,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Takatidung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604082019,
+        "district_code": 760408,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Landi Kanusuang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604102002,
+        "district_code": 760410,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Tenggelang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604142002,
+        "district_code": 760414,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Petampanua",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605012012,
+        "district_code": 760501,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Pamboborang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605062002,
+        "district_code": 760506,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Tammerodo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606012006,
+        "district_code": 760601,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Bambadaru",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606052011,
+        "district_code": 760605,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Sanjango",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601042005,
+        "district_code": 760104,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Kumasari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602012010,
+        "district_code": 760201,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Tadui",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602082005,
+        "district_code": 760208,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Tanambuah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602121002,
+        "district_code": 760212,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Rangas",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602152010,
+        "district_code": 760215,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Hinua",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603022016,
+        "district_code": 760302,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Pamoseang Pangga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603172006,
+        "district_code": 760317,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Saluahok",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604022018,
+        "district_code": 760402,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Lagi-Agi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604041009,
+        "district_code": 760404,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Darma",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604062010,
+        "district_code": 760406,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Rea",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604122010,
+        "district_code": 760412,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Lego",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604152007,
+        "district_code": 760415,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Sayoang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605022011,
+        "district_code": 760502,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Banua Adolang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605052001,
+        "district_code": 760505,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Kabiraan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605072001,
+        "district_code": 760507,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Onang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601022010,
+        "district_code": 760102,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Pakava",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601102004,
+        "district_code": 760110,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Kaluku Nangka",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602012005,
+        "district_code": 760201,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Bambu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602032005,
+        "district_code": 760203,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Beru-Beru",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603032004,
+        "district_code": 760303,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Lambanan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603052004,
+        "district_code": 760305,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Tabulahan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603062005,
+        "district_code": 760306,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Tadisi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603072006,
+        "district_code": 760307,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Matande",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603102007,
+        "district_code": 760310,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Bakadisura",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603162009,
+        "district_code": 760316,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Salutambun Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604062003,
+        "district_code": 760406,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Paku",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604102005,
+        "district_code": 760410,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Pussui",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604112006,
+        "district_code": 760411,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Todang Todang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605022008,
+        "district_code": 760502,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Bonde Utara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606012005,
+        "district_code": 760601,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Batu Parigi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606042003,
+        "district_code": 760604,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Tumbu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606042009,
+        "district_code": 760604,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Salupangkang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606042012,
+        "district_code": 760604,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Bambamanurung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601072001,
+        "district_code": 760107,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Lilimori",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601092002,
+        "district_code": 760109,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Pedanda",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601092004,
+        "district_code": 760109,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Martasari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602022006,
+        "district_code": 760202,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Takandeang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602042006,
+        "district_code": 760204,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Siraun",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602122008,
+        "district_code": 760212,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Tapandullu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602132007,
+        "district_code": 760213,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Ahu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603042016,
+        "district_code": 760304,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Saloan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603052014,
+        "district_code": 760305,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Timoro",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603082013,
+        "district_code": 760308,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Malimbong",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603092006,
+        "district_code": 760309,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Parondobulawan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603112003,
+        "district_code": 760311,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Saluassing",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603132006,
+        "district_code": 760313,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Minanga Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603162003,
+        "district_code": 760316,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Kebanga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604072004,
+        "district_code": 760407,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Dakka",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604072011,
+        "district_code": 760407,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Tuttula",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604092003,
+        "district_code": 760409,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Rangoan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605012011,
+        "district_code": 760501,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Palipi Soreang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605022014,
+        "district_code": 760502,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Pesuloang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605031001,
+        "district_code": 760503,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Mosso",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605052007,
+        "district_code": 760505,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Sulai",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606022002,
+        "district_code": 760602,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Pangale",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606022003,
+        "district_code": 760602,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Sartanamaju",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601062001,
+        "district_code": 760106,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Tammarunang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601122006,
+        "district_code": 760112,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Batu Matoru",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602031014,
+        "district_code": 760203,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Sinyonyoi Selatan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602072004,
+        "district_code": 760207,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Topore",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602072008,
+        "district_code": 760207,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Sisango",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602112006,
+        "district_code": 760211,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Rantemario",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602132006,
+        "district_code": 760213,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Pangasaan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602152011,
+        "district_code": 760215,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Kinatang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603022007,
+        "district_code": 760302,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Aralle Utara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603082012,
+        "district_code": 760308,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Malangkena Padang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603092010,
+        "district_code": 760309,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Ballabatu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603112018,
+        "district_code": 760311,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Salururu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603122002,
+        "district_code": 760312,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Balla Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603172005,
+        "district_code": 760317,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Mehalaan Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604041004,
+        "district_code": 760404,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Lantora",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604041006,
+        "district_code": 760404,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Pekkabata",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604132002,
+        "district_code": 760413,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Duampanua",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604132003,
+        "district_code": 760413,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Kelapa Dua",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604142003,
+        "district_code": 760414,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Barumbung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605022015,
+        "district_code": 760502,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Balombong",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605032004,
+        "district_code": 760503,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Totolisi Sendana",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605032021,
+        "district_code": 760503,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Sendana",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601011006,
+        "district_code": 760101,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Bambalamotu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601021001,
+        "district_code": 760102,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Pasangkayu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601072005,
+        "district_code": 760107,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Sumber Sari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601082005,
+        "district_code": 760108,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Jengeng Raya",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602011013,
+        "district_code": 760201,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Rimuku",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602022013,
+        "district_code": 760202,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Kopeang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603052005,
+        "district_code": 760305,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Saluleang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603052007,
+        "district_code": 760305,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Tampak Kurra",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603122008,
+        "district_code": 760312,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Balla Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603162005,
+        "district_code": 760316,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Taora",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603172008,
+        "district_code": 760317,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Passembuk",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604022012,
+        "district_code": 760402,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Kenje",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604041008,
+        "district_code": 760404,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Manding",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604052002,
+        "district_code": 760405,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Ambopadang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604052010,
+        "district_code": 760405,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Arabua",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604072009,
+        "district_code": 760407,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Kurrak",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604142005,
+        "district_code": 760414,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Tonrolima",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604142006,
+        "district_code": 760414,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Indomakkombong",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605011001,
+        "district_code": 760501,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Banggae",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605041001,
+        "district_code": 760504,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Malunda",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605052006,
+        "district_code": 760505,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Popenga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605081005,
+        "district_code": 760508,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Tande",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606052004,
+        "district_code": 760605,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Kadaila",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602072009,
+        "district_code": 760207,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Batu Ampa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602082004,
+        "district_code": 760208,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Sampaga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602152004,
+        "district_code": 760215,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Tamalea",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603092008,
+        "district_code": 760309,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Mannababa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604032003,
+        "district_code": 760403,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Sumberejo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604052003,
+        "district_code": 760405,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Tubbi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604112010,
+        "district_code": 760411,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Tangan Baru",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604122005,
+        "district_code": 760412,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Galung Tuluk",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604151009,
+        "district_code": 760415,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Petoosang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605022010,
+        "district_code": 760502,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Buttu Pamboang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605052008,
+        "district_code": 760505,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Panggalo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605062003,
+        "district_code": 760506,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Ulidang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606022006,
+        "district_code": 760602,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Polo Camba",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606032010,
+        "district_code": 760603,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Barakkang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601032003,
+        "district_code": 760103,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Motu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601092001,
+        "district_code": 760109,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Malei",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601112004,
+        "district_code": 760111,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Sarude",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602012014,
+        "district_code": 760201,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Batu Pannu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602042011,
+        "district_code": 760204,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Polio",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602112013,
+        "district_code": 760211,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Leling Utara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602152002,
+        "district_code": 760215,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Salutiwo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603022005,
+        "district_code": 760302,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Uhailanu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603052013,
+        "district_code": 760305,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Peu'",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603061002,
+        "district_code": 760306,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Tabone",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603072009,
+        "district_code": 760307,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Tanete Batu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603082008,
+        "district_code": 760308,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Lisuan Ada",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603092012,
+        "district_code": 760309,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Pambe",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603142004,
+        "district_code": 760314,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Rantetangnga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603152001,
+        "district_code": 760315,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Salumokanan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603162002,
+        "district_code": 760316,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Ranteberan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604012006,
+        "district_code": 760401,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Tandung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604022010,
+        "district_code": 760402,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Parappe",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604071001,
+        "district_code": 760407,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Pelitakan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604072007,
+        "district_code": 760407,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Palatta",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604082003,
+        "district_code": 760408,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Rumpa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604082009,
+        "district_code": 760408,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Bonne Bonne",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604122007,
+        "district_code": 760412,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Pambusuang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605022004,
+        "district_code": 760502,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Bababulo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606032007,
+        "district_code": 760603,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Salumanurung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601012003,
+        "district_code": 760101,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Polewali",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601052003,
+        "district_code": 760105,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Tirtabuana",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601072004,
+        "district_code": 760107,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Kastabuana",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602021001,
+        "district_code": 760202,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Galung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603152007,
+        "district_code": 760315,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Kirak",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604032004,
+        "district_code": 760403,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Bumiayu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604032009,
+        "district_code": 760403,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Campurjo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604072008,
+        "district_code": 760407,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Tapango Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604082002,
+        "district_code": 760408,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Ugibaru",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605042014,
+        "district_code": 760504,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Mekkatta Selatan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606042011,
+        "district_code": 760604,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Tappilina",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606052010,
+        "district_code": 760605,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Salubiro",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601062003,
+        "district_code": 760106,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Taranggi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601072002,
+        "district_code": 760107,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Karave",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602022003,
+        "district_code": 760202,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Orobatu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602022009,
+        "district_code": 760202,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Bela",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602022011,
+        "district_code": 760202,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Tampalang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602082001,
+        "district_code": 760208,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Bunde",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602132004,
+        "district_code": 760213,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Pasabu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602152009,
+        "district_code": 760215,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Banuada",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603032003,
+        "district_code": 760303,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Osango",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603052008,
+        "district_code": 760305,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Gandang Dewata",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603062008,
+        "district_code": 760306,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Salubalo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603082004,
+        "district_code": 760308,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Orobua Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603112017,
+        "district_code": 760311,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Rantetarima",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603131001,
+        "district_code": 760313,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Nosu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603152006,
+        "district_code": 760315,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Leko",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603162004,
+        "district_code": 760316,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Salurindu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604032010,
+        "district_code": 760403,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Bumimulyo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604052004,
+        "district_code": 760405,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Ratte",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604112003,
+        "district_code": 760411,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Tandasura",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604122009,
+        "district_code": 760412,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Lambanan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604132004,
+        "district_code": 760413,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Papandangan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604162002,
+        "district_code": 760416,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Pulliwa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604162008,
+        "district_code": 760416,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Sepporraki",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605011010,
+        "district_code": 760501,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Rangas",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605022003,
+        "district_code": 760502,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Adolang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605052002,
+        "district_code": 760505,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Sambabo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606012001,
+        "district_code": 760601,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Mahahe",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606012007,
+        "district_code": 760601,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Sejati",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606042015,
+        "district_code": 760604,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Sinabatta",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601012007,
+        "district_code": 760101,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Pangiang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601022014,
+        "district_code": 760102,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Karya Bersama",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602112010,
+        "district_code": 760211,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Kalepu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602132001,
+        "district_code": 760213,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Dungkait",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602162002,
+        "district_code": 760216,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Bala-Balakang Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603012029,
+        "district_code": 760301,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Indobanua",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603112010,
+        "district_code": 760311,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Bambang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603112011,
+        "district_code": 760311,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Rantelemo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603112013,
+        "district_code": 760311,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Ulumambi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603122001,
+        "district_code": 760312,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Balla",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603162011,
+        "district_code": 760316,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Aralle Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604022006,
+        "district_code": 760402,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Suruang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604072012,
+        "district_code": 760407,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Jambu Malea",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605011007,
+        "district_code": 760501,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Pangali Ali",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605022006,
+        "district_code": 760502,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Betteng",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605032007,
+        "district_code": 760503,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Tallubanua",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605042010,
+        "district_code": 760504,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Maliaya",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606032002,
+        "district_code": 760603,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Lumu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606032005,
+        "district_code": 760603,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Kire",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606042001,
+        "district_code": 760604,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Budong-Budong",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601112001,
+        "district_code": 760111,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Sarjo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603012008,
+        "district_code": 760301,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Sondonglayu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603012024,
+        "district_code": 760301,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Pamosean",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603022010,
+        "district_code": 760302,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Baruru",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603042011,
+        "district_code": 760304,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Tallang Bulawan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604011001,
+        "district_code": 760401,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Tinambung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604022004,
+        "district_code": 760402,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Katumbangan Lemo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604052011,
+        "district_code": 760405,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Besoangin Utara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604102001,
+        "district_code": 760410,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Mambu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604152004,
+        "district_code": 760415,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Pao-pao",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604162006,
+        "district_code": 760416,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Lenggo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606052005,
+        "district_code": 760605,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Kayu Calla",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601122003,
+        "district_code": 760112,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Bajawali",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602122004,
+        "district_code": 760212,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Saletto",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603012030,
+        "district_code": 760301,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Saludurian",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603062010,
+        "district_code": 760306,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Rante Kamase",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603092013,
+        "district_code": 760309,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Salurano",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603142003,
+        "district_code": 760314,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Kariango",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604012007,
+        "district_code": 760401,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Batulaya",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604031001,
+        "district_code": 760403,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Sidodadi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604062009,
+        "district_code": 760406,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Amola",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604132005,
+        "district_code": 760413,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Kunyi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604162001,
+        "district_code": 760416,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Bulo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605022009,
+        "district_code": 760502,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Bababulo Utara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605081007,
+        "district_code": 760508,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Labuang Utara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606022001,
+        "district_code": 760602,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Polo Pangale",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601102002,
+        "district_code": 760110,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Kasoloang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602042013,
+        "district_code": 760204,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Sandapang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603012027,
+        "district_code": 760301,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Salu Alo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603022003,
+        "district_code": 760302,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Ralle Anak",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603022004,
+        "district_code": 760302,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Panetean",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603032008,
+        "district_code": 760303,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Tondok Bakaru",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603042003,
+        "district_code": 760304,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Manipi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603072007,
+        "district_code": 760307,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Sipai",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603142002,
+        "district_code": 760314,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Tawalian Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604012002,
+        "district_code": 760401,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Karama",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604022009,
+        "district_code": 760402,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Lapeo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604022013,
+        "district_code": 760402,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Sumarrang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604032007,
+        "district_code": 760403,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Nepo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604152008,
+        "district_code": 760415,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Alu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606012004,
+        "district_code": 760601,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Palongaan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601052002,
+        "district_code": 760105,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Benggaulu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601102001,
+        "district_code": 760110,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Bambaira",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601122001,
+        "district_code": 760112,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Parabu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602112004,
+        "district_code": 760211,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Tamemongga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603061001,
+        "district_code": 760306,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Sumarorong",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603102005,
+        "district_code": 760310,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Masupu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603112004,
+        "district_code": 760311,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Salubulo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603112012,
+        "district_code": 760311,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Saludengen",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603112019,
+        "district_code": 760311,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Salutabang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603152009,
+        "district_code": 760315,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Sampale",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604041001,
+        "district_code": 760404,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Polewali",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604061005,
+        "district_code": 760406,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Amassangan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604082016,
+        "district_code": 760408,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Bonra",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604152003,
+        "district_code": 760415,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Kalumammang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605041015,
+        "district_code": 760504,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Lamungang Batu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605042004,
+        "district_code": 760504,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Lombang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605081004,
+        "district_code": 760508,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Labuang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606042008,
+        "district_code": 760604,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Paraili",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606042010,
+        "district_code": 760604,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Salupangkang IV",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601082003,
+        "district_code": 760108,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Lariang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601112002,
+        "district_code": 760111,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Maponu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601122005,
+        "district_code": 760112,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Kulu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602031003,
+        "district_code": 760203,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Kalukku",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602122003,
+        "district_code": 760212,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Botteng",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603022015,
+        "district_code": 760302,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Ralleanak Utara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603031001,
+        "district_code": 760303,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Mamasa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603042012,
+        "district_code": 760304,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Karaka",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603052015,
+        "district_code": 760305,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Lakahang Utama",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603062007,
+        "district_code": 760306,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Batangnguru Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603122006,
+        "district_code": 760312,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Pidara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604032005,
+        "district_code": 760403,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Kebunsari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604041003,
+        "district_code": 760404,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Sulewatang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604052006,
+        "district_code": 760405,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Piriang Tapiko",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604072003,
+        "district_code": 760407,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Rappang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604102006,
+        "district_code": 760410,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Mapili Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604102010,
+        "district_code": 760410,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Pussui Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604122011,
+        "district_code": 760412,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Pallis",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605081003,
+        "district_code": 760508,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Baruga Dhua",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606042005,
+        "district_code": 760604,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Waeputeh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606042014,
+        "district_code": 760604,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Pangalloang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606052007,
+        "district_code": 760605,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Benggaulu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601082004,
+        "district_code": 760108,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Pajalele",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602011002,
+        "district_code": 760201,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Binanga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602072007,
+        "district_code": 760207,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Boda-Boda",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603011001,
+        "district_code": 760301,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Mambi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603022018,
+        "district_code": 760302,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Aralle Selatan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603032006,
+        "district_code": 760303,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Taupe",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603042013,
+        "district_code": 760304,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Ulusalu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603072003,
+        "district_code": 760307,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Makuang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603082003,
+        "district_code": 760308,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Paladan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603092014,
+        "district_code": 760309,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Talimbung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603112009,
+        "district_code": 760311,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Tanete Tomba",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603152003,
+        "district_code": 760315,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Salumokanan Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603172011,
+        "district_code": 760317,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Ulumea",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604012005,
+        "district_code": 760401,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Galung Lombok",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604092002,
+        "district_code": 760409,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Lilli",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605011003,
+        "district_code": 760501,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Baru",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605031002,
+        "district_code": 760503,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Mosso Dhua",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605032024,
+        "district_code": 760503,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Limboro Rambu-Rambu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605032025,
+        "district_code": 760503,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Limbua",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605042013,
+        "district_code": 760504,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Lombong Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605072002,
+        "district_code": 760507,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Tubo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605072003,
+        "district_code": 760507,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Onang Utara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605082009,
+        "district_code": 760508,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Buttu Baruga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601012008,
+        "district_code": 760101,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Kalola",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601122007,
+        "district_code": 760112,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Bambakoro",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602012006,
+        "district_code": 760201,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Karampuang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602022012,
+        "district_code": 760202,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Rantedoda",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602042017,
+        "district_code": 760204,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Lasa'",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602072005,
+        "district_code": 760207,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Salukayu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602152001,
+        "district_code": 760215,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Bonehau",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603032002,
+        "district_code": 760303,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Rambusaratu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603042009,
+        "district_code": 760304,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Datubaringan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603112005,
+        "district_code": 760311,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Salukadi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604072013,
+        "district_code": 760407,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Kalimbua",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604092007,
+        "district_code": 760409,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Katimbang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604112009,
+        "district_code": 760411,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Salarri",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604131001,
+        "district_code": 760413,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Anreapi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605032015,
+        "district_code": 760503,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Lalatedzong",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605072004,
+        "district_code": 760507,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Tubo Selatan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605081008,
+        "district_code": 760508,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Tande Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601052001,
+        "district_code": 760105,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Dapurang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601072006,
+        "district_code": 760107,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Lelejae",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601102003,
+        "district_code": 760110,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Tampaure",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602042016,
+        "district_code": 760204,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Batu Makkada",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602072003,
+        "district_code": 760207,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Bonda",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602082002,
+        "district_code": 760208,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Kalonding",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602082007,
+        "district_code": 760208,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Losso",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602112009,
+        "district_code": 760211,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Leling",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602122009,
+        "district_code": 760212,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Pati'di",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603022009,
+        "district_code": 760302,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Uhaidaho",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603032007,
+        "district_code": 760303,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Buntu Buda",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603032010,
+        "district_code": 760303,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Mambuliling",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603102003,
+        "district_code": 760310,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Tadokalua",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603112001,
+        "district_code": 760311,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Mokallang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603112014,
+        "district_code": 760311,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Bambang Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604022016,
+        "district_code": 760402,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Padang Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604072005,
+        "district_code": 760407,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Batu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604082015,
+        "district_code": 760408,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Segerang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604162009,
+        "district_code": 760416,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Ihing",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605011009,
+        "district_code": 760501,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Totoli",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605032018,
+        "district_code": 760503,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Paminggalan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605062006,
+        "district_code": 760506,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Manyamba",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605072005,
+        "district_code": 760507,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Bonde bonde",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7606042013,
+        "district_code": 760604,
+        "regency_code": 7606,
+        "province_code": 76,
+        "name": "Salulekbo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601022015,
+        "district_code": 760102,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Ako",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7601042011,
+        "district_code": 760104,
+        "regency_code": 7601,
+        "province_code": 76,
+        "name": "Patika",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602032009,
+        "district_code": 760203,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Pokkang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602042001,
+        "district_code": 760204,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Kalumpang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7602112011,
+        "district_code": 760211,
+        "regency_code": 7602,
+        "province_code": 76,
+        "name": "Sandana",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603012025,
+        "district_code": 760301,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Selumaka",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603042005,
+        "district_code": 760304,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Mamullu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603052012,
+        "district_code": 760305,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Talopak",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603082002,
+        "district_code": 760308,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Orobua",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603092007,
+        "district_code": 760309,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Tamalantik",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603101001,
+        "district_code": 760310,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Tabang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603112002,
+        "district_code": 760311,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Masoso",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7603141001,
+        "district_code": 760314,
+        "regency_code": 7603,
+        "province_code": 76,
+        "name": "Tawalian",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604082007,
+        "district_code": 760408,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Buku",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604082017,
+        "district_code": 760408,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Sattoko",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7604162003,
+        "district_code": 760416,
+        "regency_code": 7604,
+        "province_code": 76,
+        "name": "Patambanua",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 7605072007,
+        "district_code": 760507,
+        "regency_code": 7605,
+        "province_code": 76,
+        "name": "Tubo Poang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    }
+]

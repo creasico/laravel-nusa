@@ -1,0 +1,4382 @@
+[
+    {
+        "code": 3401012009,
+        "district_code": 340101,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Kulur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401022002,
+        "district_code": 340102,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Sogan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401042004,
+        "district_code": 340104,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Karangsewu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401052005,
+        "district_code": 340105,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Gulurejo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401072005,
+        "district_code": 340107,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Pengasih",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401072007,
+        "district_code": 340107,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Sidomulyo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401082003,
+        "district_code": 340108,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Hargowilis",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401122002,
+        "district_code": 340112,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Banjarasri",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402112005,
+        "district_code": 340211,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Terong",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402122004,
+        "district_code": 340212,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Singosaren",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402152001,
+        "district_code": 340215,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Pendowoharjo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403032004,
+        "district_code": 340303,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Getas",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403032006,
+        "district_code": 340303,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Ngunut",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403102004,
+        "district_code": 340310,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Kenteng",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403162001,
+        "district_code": 340316,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Balong",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404012002,
+        "district_code": 340401,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Ambarketawang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404052003,
+        "district_code": 340405,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Margokaton",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404092006,
+        "district_code": 340409,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Bokoharjo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3471061002,
+        "district_code": 347106,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Notoprajan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3471131007,
+        "district_code": 347113,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Giwangan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401012005,
+        "district_code": 340101,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Kalidengen",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401012014,
+        "district_code": 340101,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Janten",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401042002,
+        "district_code": 340104,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Kranggan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401052003,
+        "district_code": 340105,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Jatirejo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401062002,
+        "district_code": 340106,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Srikayangan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401102002,
+        "district_code": 340110,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Donomulyo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402052001,
+        "district_code": 340205,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Sidomulyo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403012007,
+        "district_code": 340301,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Baleharjo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403042004,
+        "district_code": 340304,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Semoyo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403042010,
+        "district_code": 340304,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Nglegi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403082003,
+        "district_code": 340308,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Pacarejo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404122002,
+        "district_code": 340412,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Minomartani",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404152003,
+        "district_code": 340415,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Girikerto",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404162002,
+        "district_code": 340416,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Candibinangun",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3471041002,
+        "district_code": 347104,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Tegalpanggung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401052006,
+        "district_code": 340105,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Ngentakrejo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401092001,
+        "district_code": 340109,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Jatimulyo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402042002,
+        "district_code": 340204,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Panjangrejo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402132005,
+        "district_code": 340213,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Wonolelo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403042011,
+        "district_code": 340304,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Terbah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403062005,
+        "district_code": 340306,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Giriharjo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403072001,
+        "district_code": 340307,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Giripanggung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403092002,
+        "district_code": 340309,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Wiladeg",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403112007,
+        "district_code": 340311,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Melikan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403182005,
+        "district_code": 340318,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Giritirto",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3471111001,
+        "district_code": 347111,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Purwokinanti",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3471141003,
+        "district_code": 347114,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Purbayan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401022001,
+        "district_code": 340102,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Karangwuni",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401112004,
+        "district_code": 340111,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Sidoharjo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401122001,
+        "district_code": 340112,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Banjararum",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402032005,
+        "district_code": 340203,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Tirtohargo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403032003,
+        "district_code": 340303,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Bleberan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403032011,
+        "district_code": 340303,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Gading",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403072005,
+        "district_code": 340307,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Purwodadi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403112003,
+        "district_code": 340311,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Botodayaan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403122010,
+        "district_code": 340312,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Semin",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403132002,
+        "district_code": 340313,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Sambirejo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403162005,
+        "district_code": 340316,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Jerukwudel",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404042002,
+        "district_code": 340404,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sendangmulyo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404142004,
+        "district_code": 340414,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Pondokrejo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3471111002,
+        "district_code": 347111,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Gunungketur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3471131004,
+        "district_code": 347113,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Warungboto",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3471131005,
+        "district_code": 347113,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Pandeyan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401012001,
+        "district_code": 340101,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Jangkaran",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401012006,
+        "district_code": 340101,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Plumbon",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401012008,
+        "district_code": 340101,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Demen",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401021008,
+        "district_code": 340102,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Wates",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401072004,
+        "district_code": 340107,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Margosari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401102005,
+        "district_code": 340110,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Jatisarono",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402022001,
+        "district_code": 340202,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Gadingsari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402102005,
+        "district_code": 340210,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Karangtengah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402112003,
+        "district_code": 340211,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Dlingo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402172002,
+        "district_code": 340217,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Argorejo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403012008,
+        "district_code": 340301,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Siraman",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403032005,
+        "district_code": 340303,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Dengok",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403052007,
+        "district_code": 340305,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Giring",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403082004,
+        "district_code": 340308,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Candirejo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403102008,
+        "district_code": 340310,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Karangasem",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403102011,
+        "district_code": 340310,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Gombang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403142006,
+        "district_code": 340314,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Ngalang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404032004,
+        "district_code": 340403,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sumberarum",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404052001,
+        "district_code": 340405,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Margoluwih",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404082004,
+        "district_code": 340408,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Jogotirto",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404152001,
+        "district_code": 340415,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Bangunkerto",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404162005,
+        "district_code": 340416,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Hargobinangun",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3471051002,
+        "district_code": 347105,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Pringgokusuman",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401062005,
+        "district_code": 340106,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Sukoreno",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401112002,
+        "district_code": 340111,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Banjarsari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401112006,
+        "district_code": 340111,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Ngargosari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401122003,
+        "district_code": 340112,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Banjarharjo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402132004,
+        "district_code": 340213,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Bawuran",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402162001,
+        "district_code": 340216,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Bangunjiwo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402162004,
+        "district_code": 340216,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Ngestiharjo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402172001,
+        "district_code": 340217,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Argodadi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403132001,
+        "district_code": 340313,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Tancep",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403142002,
+        "district_code": 340314,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Mertelu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403162003,
+        "district_code": 340316,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Karangawen",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404132002,
+        "district_code": 340413,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Triharjo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401032010,
+        "district_code": 340103,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Cerme",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401072006,
+        "district_code": 340107,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Sendangsari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401092004,
+        "district_code": 340109,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Purwosari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401122004,
+        "district_code": 340112,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Banjaroyo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402082002,
+        "district_code": 340208,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Ringinharjo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402112002,
+        "district_code": 340211,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Muntuk",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402122006,
+        "district_code": 340212,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Potorono",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402142002,
+        "district_code": 340214,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Srimulyo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403022006,
+        "district_code": 340302,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Nglipar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403092006,
+        "district_code": 340309,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Karangmojo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403132004,
+        "district_code": 340313,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Kampung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403162004,
+        "district_code": 340316,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Nglindur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403172002,
+        "district_code": 340317,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Kemiri",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404012005,
+        "district_code": 340401,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Trihanggo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404172004,
+        "district_code": 340417,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Kepuharjo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3471131003,
+        "district_code": 347113,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Tahunan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402142003,
+        "district_code": 340214,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Srimartani",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403072003,
+        "district_code": 340307,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Sidoharjo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403152007,
+        "district_code": 340315,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Planjan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3471011001,
+        "district_code": 347101,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Kricak",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3471021001,
+        "district_code": 347102,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Bumijo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3471091001,
+        "district_code": 347109,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Patehan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401082004,
+        "district_code": 340108,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Kalirejo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401112001,
+        "district_code": 340111,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Kebonharjo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401112005,
+        "district_code": 340111,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Gerbosari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402022003,
+        "district_code": 340202,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Srigading",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402072002,
+        "district_code": 340207,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Sendangsari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402172003,
+        "district_code": 340217,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Argosari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403022001,
+        "district_code": 340302,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Natah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403102003,
+        "district_code": 340310,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Tambakromo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403122001,
+        "district_code": 340312,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Kalitekuk",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403142003,
+        "district_code": 340314,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Watugajah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403182003,
+        "district_code": 340318,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Girijati",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404082002,
+        "district_code": 340408,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Tegaltirto",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404172001,
+        "district_code": 340417,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Argomulyo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3471031003,
+        "district_code": 347103,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Klitren",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3471081002,
+        "district_code": 347108,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Suryodiningratan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401012007,
+        "district_code": 340101,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Kedundang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401022006,
+        "district_code": 340102,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Triharjo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402122001,
+        "district_code": 340212,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Baturetno",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402132001,
+        "district_code": 340213,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Wonokromo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402142001,
+        "district_code": 340214,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Sitimulyo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403062006,
+        "district_code": 340306,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Girisuko",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403092001,
+        "district_code": 340309,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Bejiharjo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403122002,
+        "district_code": 340312,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Kemejing",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404012003,
+        "district_code": 340401,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Banyuraden",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404022005,
+        "district_code": 340402,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sidokarto",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404122003,
+        "district_code": 340412,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sinduharjo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404142008,
+        "district_code": 340414,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Merdikorejo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404172005,
+        "district_code": 340417,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Umbulharjo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3471031002,
+        "district_code": 347103,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Kotabaru",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3471031004,
+        "district_code": 347103,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Baciro",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3471141001,
+        "district_code": 347114,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Rejowinangun",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401012012,
+        "district_code": 340101,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Temon Kulon",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402022002,
+        "district_code": 340202,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Gadingharjo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402032002,
+        "district_code": 340203,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Parangtritis",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402082001,
+        "district_code": 340208,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Palbapang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402092001,
+        "district_code": 340209,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Patalan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402152002,
+        "district_code": 340215,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Timbulharjo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403012011,
+        "district_code": 340301,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Duwet",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403062003,
+        "district_code": 340306,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Girimulyo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403102006,
+        "district_code": 340310,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Genjahan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403162002,
+        "district_code": 340316,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Jepitu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403162008,
+        "district_code": 340316,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Songbanyu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404062004,
+        "district_code": 340406,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Tirtoadi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3471011004,
+        "district_code": 347101,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Bener",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3471021003,
+        "district_code": 347102,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Gowongan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401032007,
+        "district_code": 340103,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Tayuban",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402022004,
+        "district_code": 340202,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Murtigading",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402062001,
+        "district_code": 340206,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Catuharjo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402062003,
+        "district_code": 340206,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Gilangharjo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402092003,
+        "district_code": 340209,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Sumberagung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402092004,
+        "district_code": 340209,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Trimulyo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403012005,
+        "district_code": 340301,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Karangtengah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403032008,
+        "district_code": 340303,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Ngawu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403042009,
+        "district_code": 340304,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Putat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403052003,
+        "district_code": 340305,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Grogol",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403102010,
+        "district_code": 340310,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Sidorejo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403122009,
+        "district_code": 340312,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Pundungsari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403132005,
+        "district_code": 340313,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Beji",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403152003,
+        "district_code": 340315,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Jetis",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404042004,
+        "district_code": 340404,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sendangsari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404122001,
+        "district_code": 340412,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sariharjo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404162004,
+        "district_code": 340416,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Pakembinangun",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3471021002,
+        "district_code": 347102,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Cokrodiningratan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3471131001,
+        "district_code": 347113,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Semaki",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401062004,
+        "district_code": 340106,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Salamrejo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401072001,
+        "district_code": 340107,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Tawangsari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401112003,
+        "district_code": 340111,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Purwoharjo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402122008,
+        "district_code": 340212,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Wirokerten",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403052001,
+        "district_code": 340305,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Sodo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403082002,
+        "district_code": 340308,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Semanu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403092009,
+        "district_code": 340309,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Jatiayu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403142001,
+        "district_code": 340314,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Hargomulyo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403152004,
+        "district_code": 340315,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Kepek",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403162007,
+        "district_code": 340316,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Pucung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403182001,
+        "district_code": 340318,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Giripurwo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403182002,
+        "district_code": 340318,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Giricahyo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404022003,
+        "district_code": 340402,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sidomulyo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404092001,
+        "district_code": 340409,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sumberharjo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404122005,
+        "district_code": 340412,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sardonoharjo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404132005,
+        "district_code": 340413,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Trimulyo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401032001,
+        "district_code": 340103,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Garongan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401032005,
+        "district_code": 340103,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Depok",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401032011,
+        "district_code": 340103,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Krembangan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401092003,
+        "district_code": 340109,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Pendoworejo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403102002,
+        "district_code": 340310,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Sawahan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404092002,
+        "district_code": 340409,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Wukirharjo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401012004,
+        "district_code": 340101,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Glagah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401012011,
+        "district_code": 340101,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Temon Wetan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401042003,
+        "district_code": 340104,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Nomporejo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401082005,
+        "district_code": 340108,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Hargotirto",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401102006,
+        "district_code": 340110,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Kembang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403012003,
+        "district_code": 340301,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Piyaman",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403042005,
+        "district_code": 340304,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Salam",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403042007,
+        "district_code": 340304,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Ngoro-oro",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403072004,
+        "district_code": 340307,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Tepus",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403172004,
+        "district_code": 340317,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Banjarejo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404012004,
+        "district_code": 340401,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Nogotirto",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404042001,
+        "district_code": 340404,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sendangarum",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404042005,
+        "district_code": 340404,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sendangrejo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404102004,
+        "district_code": 340410,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Selomartani",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404112001,
+        "district_code": 340411,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sindumartani",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404112002,
+        "district_code": 340411,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Bimomartani",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401032004,
+        "district_code": 340103,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Kanoman",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401052002,
+        "district_code": 340105,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Bumirejo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401082001,
+        "district_code": 340108,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Hargomulyo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401102004,
+        "district_code": 340110,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Tanjungharjo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402102001,
+        "district_code": 340210,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Selopamioro",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402102002,
+        "district_code": 340210,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Sriharjo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402102008,
+        "district_code": 340210,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Imogiri",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403092003,
+        "district_code": 340309,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Bendungan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403122003,
+        "district_code": 340312,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Bulurejo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403122004,
+        "district_code": 340312,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Sumberejo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404142001,
+        "district_code": 340414,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Banyurejo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404162003,
+        "district_code": 340416,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Harjobinangun",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3471041001,
+        "district_code": 347104,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Suryatmajan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3471041003,
+        "district_code": 347104,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Bausasran",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401052004,
+        "district_code": 340105,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Sidorejo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401062008,
+        "district_code": 340106,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Banguncipto",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402062002,
+        "district_code": 340206,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Triharjo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402112004,
+        "district_code": 340211,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Temuwuh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402152003,
+        "district_code": 340215,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Bangunharjo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402172004,
+        "district_code": 340217,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Argomulyo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403012013,
+        "district_code": 340301,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Wunung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403032001,
+        "district_code": 340303,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Banyusoco",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404022006,
+        "district_code": 340402,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sidoarum",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404092005,
+        "district_code": 340409,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Madurejo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404102002,
+        "district_code": 340410,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Tirtomartani",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3471071002,
+        "district_code": 347107,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Wirobrajan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401022003,
+        "district_code": 340102,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Kulwaru",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401032008,
+        "district_code": 340103,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Gotakan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402102007,
+        "district_code": 340210,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Karangtalun",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402112001,
+        "district_code": 340211,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Mangunan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403012001,
+        "district_code": 340301,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Wonosari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403012002,
+        "district_code": 340301,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Kepek",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403032012,
+        "district_code": 340303,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Banaran",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403032013,
+        "district_code": 340303,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Ngleri",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403052004,
+        "district_code": 340305,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Karangduwet",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403172001,
+        "district_code": 340317,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Hargosari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404032001,
+        "district_code": 340403,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sumberrahayu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404142007,
+        "district_code": 340414,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Lumbungrejo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3471071003,
+        "district_code": 347107,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Patangpuluhan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402032003,
+        "district_code": 340203,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Donotirto",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402062004,
+        "district_code": 340206,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Wijirejo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402092002,
+        "district_code": 340209,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Canden",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403012009,
+        "district_code": 340301,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Pulutan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403012010,
+        "district_code": 340301,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Wareng",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403012014,
+        "district_code": 340301,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Karangrejek",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403032007,
+        "district_code": 340303,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Playen",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403042003,
+        "district_code": 340304,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Pengkok",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403052006,
+        "district_code": 340305,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Mulusan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403102007,
+        "district_code": 340310,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Ponjong",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403152002,
+        "district_code": 340315,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Ngloro",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403152006,
+        "district_code": 340315,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Monggol",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404102001,
+        "district_code": 340410,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Purwomartani",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3471101002,
+        "district_code": 347110,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Prawirodirjan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401012003,
+        "district_code": 340101,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Palihan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401032003,
+        "district_code": 340103,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Bugel",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401072003,
+        "district_code": 340107,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Kedungsari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402152004,
+        "district_code": 340215,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Panggungharjo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403022003,
+        "district_code": 340302,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Kedungpoh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403032010,
+        "district_code": 340303,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Logandeng",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403102005,
+        "district_code": 340310,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Sumbergiri",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404032002,
+        "district_code": 340403,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sumbersari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404142002,
+        "district_code": 340414,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Tambakrejo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3471061001,
+        "district_code": 347106,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Ngampilan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402052002,
+        "district_code": 340205,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Mulyodadi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402102003,
+        "district_code": 340210,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Wukirsari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403112004,
+        "district_code": 340311,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Petir",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403122008,
+        "district_code": 340312,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Karangsari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403152005,
+        "district_code": 340315,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Kanigoro",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404052004,
+        "district_code": 340405,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Margomulyo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404142005,
+        "district_code": 340414,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Mororejo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3471121001,
+        "district_code": 347112,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Keparakan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401012002,
+        "district_code": 340101,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Sindutan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401042007,
+        "district_code": 340104,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Brosot",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401062001,
+        "district_code": 340106,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Demangrejo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401062007,
+        "district_code": 340106,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Sentolo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401102001,
+        "district_code": 340110,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Banyuroto",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402032004,
+        "district_code": 340203,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Tirtosari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402122007,
+        "district_code": 340212,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Tamanan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402162003,
+        "district_code": 340216,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Tamantirto",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403092005,
+        "district_code": 340309,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Ngipak",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403122006,
+        "district_code": 340312,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Candirejo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3471011002,
+        "district_code": 347101,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Karangwaru",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3471121002,
+        "district_code": 347112,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Wirogunan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401042006,
+        "district_code": 340104,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Pandowan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402012001,
+        "district_code": 340201,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Poncosari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402082005,
+        "district_code": 340208,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Sabdodadi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402162002,
+        "district_code": 340216,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Tirtonirmolo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403042006,
+        "district_code": 340304,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Patuk",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403092007,
+        "district_code": 340309,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Gedangrejo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403092008,
+        "district_code": 340309,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Ngawis",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403112005,
+        "district_code": 340311,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Pucanganom",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403142007,
+        "district_code": 340314,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Tegalrejo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404042003,
+        "district_code": 340404,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sendangagung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404062001,
+        "district_code": 340406,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sinduadi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404072001,
+        "district_code": 340407,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Caturtunggal",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404072002,
+        "district_code": 340407,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Maguwoharjo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404072003,
+        "district_code": 340407,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Condongcatur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404092003,
+        "district_code": 340409,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Gayamharjo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404102003,
+        "district_code": 340410,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Tamanmartani",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404132003,
+        "district_code": 340413,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Tridadi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404162001,
+        "district_code": 340416,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Purwobinangun",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401022005,
+        "district_code": 340102,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Bendungan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402032001,
+        "district_code": 340203,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Tirtomulyo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402042003,
+        "district_code": 340204,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Srihardono",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403092004,
+        "district_code": 340309,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Kelor",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403102001,
+        "district_code": 340310,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Umbulrejo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403142004,
+        "district_code": 340314,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Sampang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404022001,
+        "district_code": 340402,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sidorejo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404062003,
+        "district_code": 340406,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Tlogoadi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404112003,
+        "district_code": 340411,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Widodomartani",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3471031001,
+        "district_code": 347103,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Demangan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3471131002,
+        "district_code": 347113,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Muja Muju",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401022004,
+        "district_code": 340102,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Ngestiharjo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401032006,
+        "district_code": 340103,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Bojong",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402122002,
+        "district_code": 340212,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Banguntapan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403012004,
+        "district_code": 340301,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Gari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403042001,
+        "district_code": 340304,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Bunder",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403112008,
+        "district_code": 340311,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Karangwuni",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403142005,
+        "district_code": 340314,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Serut",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403162006,
+        "district_code": 340316,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Tileng",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404052002,
+        "district_code": 340405,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Margodadi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404052005,
+        "district_code": 340405,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Margoagung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404112004,
+        "district_code": 340411,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Wedomartani",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3471031005,
+        "district_code": 347103,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Terban",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3471051001,
+        "district_code": 347105,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Sosromenduran",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3471071001,
+        "district_code": 347107,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Pakuncen",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401052001,
+        "district_code": 340105,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Wahyuharjo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402052003,
+        "district_code": 340205,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Sumbermulyo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402082003,
+        "district_code": 340208,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Bantul",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402112006,
+        "district_code": 340211,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Jatimulyo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403012012,
+        "district_code": 340301,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Mulo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403022002,
+        "district_code": 340302,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Pilangrejo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403022007,
+        "district_code": 340302,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Katongan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403062002,
+        "district_code": 340306,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Girisekar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403152001,
+        "district_code": 340315,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Krambilsawit",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404012001,
+        "district_code": 340401,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Balecatur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404022004,
+        "district_code": 340402,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sidoagung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3471081001,
+        "district_code": 347108,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Gedongkiwo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3471081003,
+        "district_code": 347108,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Mantrijeron",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3471101001,
+        "district_code": 347110,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Ngupasan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401032002,
+        "district_code": 340103,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Pleret",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401062006,
+        "district_code": 340106,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Kaliagung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401102003,
+        "district_code": 340110,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Wijimulyo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401112007,
+        "district_code": 340111,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Pagerharjo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402072003,
+        "district_code": 340207,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Guwosari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402102004,
+        "district_code": 340210,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Kebonagung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403012006,
+        "district_code": 340301,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Selang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403032002,
+        "district_code": 340303,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Plembutan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403052002,
+        "district_code": 340305,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Pampang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403062001,
+        "district_code": 340306,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Girikarto",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403062004,
+        "district_code": 340306,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Giriwungu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403112002,
+        "district_code": 340311,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Pringombo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403182004,
+        "district_code": 340318,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Giriasih",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404022007,
+        "district_code": 340402,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sidomoyo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404032003,
+        "district_code": 340403,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sumberagung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404062002,
+        "district_code": 340406,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sendangadi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404082003,
+        "district_code": 340408,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Kalitirto",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404142003,
+        "district_code": 340414,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sumberrejo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404142006,
+        "district_code": 340414,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Margorejo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3471091002,
+        "district_code": 347109,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Panembahan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3471091003,
+        "district_code": 347109,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Kadipaten",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401082002,
+        "district_code": 340108,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Hargorejo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402042001,
+        "district_code": 340204,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Seloharjo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402132002,
+        "district_code": 340213,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Pleret",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402132003,
+        "district_code": 340213,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Segoroyoso",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403082001,
+        "district_code": 340308,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Ngeposari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403082005,
+        "district_code": 340308,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Dadapayu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403102009,
+        "district_code": 340310,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Bedoyo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403122007,
+        "district_code": 340312,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Rejosari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404122004,
+        "district_code": 340412,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sukoharjo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404152002,
+        "district_code": 340415,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Donokerto",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401012015,
+        "district_code": 340101,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Karangwuluh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401042001,
+        "district_code": 340104,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Banaran",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401042005,
+        "district_code": 340104,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Tirtorahayu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402122003,
+        "district_code": 340212,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Jagalan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403132003,
+        "district_code": 340313,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Jurangjero",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403172005,
+        "district_code": 340317,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Ngestirejo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404062005,
+        "district_code": 340406,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sumberadi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404082001,
+        "district_code": 340408,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sendangtirto",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404092004,
+        "district_code": 340409,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sambirejo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404172002,
+        "district_code": 340417,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Wukirsari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3471121003,
+        "district_code": 347112,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Brontokusuman",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401012010,
+        "district_code": 340101,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Kaligintung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401022007,
+        "district_code": 340102,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Giripeni",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401062003,
+        "district_code": 340106,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Tuksono",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401072002,
+        "district_code": 340107,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Karangsari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402012002,
+        "district_code": 340201,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Trimurti",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402102006,
+        "district_code": 340210,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Girirejo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403052005,
+        "district_code": 340305,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Karangasem",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403112001,
+        "district_code": 340311,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Bohol",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403122005,
+        "district_code": 340312,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Bendung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404132004,
+        "district_code": 340413,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Pandowoharjo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3471141002,
+        "district_code": 347114,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Prenggan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402072001,
+        "district_code": 340207,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Triwidadi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402082004,
+        "district_code": 340208,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Trirenggo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3402122005,
+        "district_code": 340212,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Jambidan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403022005,
+        "district_code": 340302,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Kedungkeris",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403042002,
+        "district_code": 340304,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Beji",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403072002,
+        "district_code": 340307,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Sumberwungu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404112005,
+        "district_code": 340411,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Umbulmartani",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404122006,
+        "district_code": 340412,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Donoharjo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3471131006,
+        "district_code": 347113,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Sorosutan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401012013,
+        "district_code": 340101,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Kebonrejo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401032009,
+        "district_code": 340103,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Panjatan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3401092002,
+        "district_code": 340109,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Giripurwo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403022004,
+        "district_code": 340302,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Pengkol",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403032009,
+        "district_code": 340303,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Bandung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403042008,
+        "district_code": 340304,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Nglanggeran",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403112006,
+        "district_code": 340311,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Semugih",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403132006,
+        "district_code": 340313,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Watusigar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3403172003,
+        "district_code": 340317,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Kemadang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404022002,
+        "district_code": 340402,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sidoluhur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404132001,
+        "district_code": 340413,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Caturharjo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404152004,
+        "district_code": 340415,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Wonokerto",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3404172003,
+        "district_code": 340417,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Glagaharjo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 3471011003,
+        "district_code": 347101,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Tegalrejo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    }
+]

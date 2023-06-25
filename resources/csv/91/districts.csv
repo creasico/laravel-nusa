@@ -1,0 +1,567 @@
+code,regency_code,province_code,name,latitude,longitude,coordinates
+910101,9101,91,Merauke,,,null
+910309,9103,91,"Unurum Guay",,,null
+910310,9103,91,Demta,,,null
+910423,9104,91,Moora,,,null
+910514,9105,91,"Pulau Yerui",,,null
+910616,9106,91,Bruyadori,,,null
+910819,9108,91,Kebo,,,null
+911323,9113,91,Kosarek,,,null
+911412,9114,91,"Konda/ Kondaga",,,null
+911424,9114,91,Dundu,,,null
+911429,9114,91,Airgaram,,,null
+911436,9114,91,Telenggeme,,,null
+911610,9116,91,Fofi,,,null
+911702,9117,91,"Mambioman Bapai",,,null
+912302,9123,91,Pirime,,,null
+912314,9123,91,"Tiom Ollo",,,null
+912324,9123,91,"Goa Balim",,,null
+912330,9123,91,"Kuly Lanny",,,null
+912420,9124,91,Inikgal,,,null
+912429,9124,91,Wutpaga,,,null
+912519,9125,91,Mabugi,,,null
+912701,9127,91,Sugapa,,,null
+910509,9105,91,"Teluk Ampimoi",,,null
+910905,9109,91,Jita,,,null
+911207,9112,91,"Kiwirok Timur",,,null
+911208,9112,91,Aboy,,,null
+911324,9113,91,Nipsan,,,null
+911508,9115,91,"Urei Faisei",,,null
+911613,9116,91,Firiwage,,,null
+911713,9117,91,Bamgi,,,null
+912105,9121,91,Ilugwa,,,null
+912322,9123,91,Ayumnati,,,null
+912610,9126,91,Dogiyai,,,null
+910106,9101,91,"Tanah Miring",,,null
+910121,9101,91,Padua,,,null
+910505,9105,91,Poom,,,null
+910610,9106,91,Padaido,,,null
+910617,9106,91,Orkeri,,,null
+910618,9106,91,Poiru,,,null
+910801,9108,91,"Paniai Timur",,,null
+911216,9112,91,"Ok Aom",,,null
+911340,9113,91,Korupun,,,null
+911346,9113,91,Kabianggama,,,null
+911349,9113,91,Hilipuk,,,null
+911405,9114,91,Goyage,,,null
+911409,9114,91,Panaga,,,null
+911413,9114,91,Nelawi,,,null
+911415,9114,91,Bokoneri,,,null
+911423,9114,91,Timori,,,null
+911603,9116,91,Waropko,,,null
+911608,9116,91,Iniyandit,,,null
+911807,9118,91,Suator,,,null
+912304,9123,91,Gamelia,,,null
+912305,9123,91,Dimba,,,null
+912339,9123,91,Melagi,,,null
+912405,9124,91,Geselma,,,null
+912409,9124,91,Koroptak,,,null
+912417,9124,91,Mam,,,null
+912706,9127,91,Hitadipa,,,null
+912802,9128,91,"Tigi Timur",,,null
+910118,9101,91,Tabonji,,,null
+910240,9102,91,Trikora,,,null
+910401,9104,91,Nabire,,,null
+911211,9112,91,Alemsom,,,null
+911303,9113,91,Ninia,,,null
+911334,9113,91,Kona,,,null
+911430,9114,91,"Wari/Taiyeve II",,,null
+911433,9114,91,Yuneri,,,null
+911818,9118,91,Ayip,,,null
+911823,9118,91,"Koroway Buluanop",,,null
+911903,9119,91,"Supiori Timur",,,null
+912101,9121,91,Kobagma,,,null
+912301,9123,91,Tiom,,,null
+912430,9124,91,Nenggeagin,,,null
+912601,9126,91,Kamu,,,null
+917104,9171,91,"Muara Tami",,,null
+910113,9101,91,Animha,,,null
+910115,9101,91,Tubang,,,null
+910259,9102,91,Piramid,,,null
+910307,9103,91,Nimboran,,,null
+910417,9104,91,Yaro,,,null
+910511,9105,91,Wonawa,,,null
+910726,9107,91,Kalome,,,null
+910902,9109,91,Agimuga,,,null
+911206,9112,91,Borme,,,null
+911315,9113,91,Pasema,,,null
+911339,9113,91,Sela,,,null
+911348,9113,91,Kwikma,,,null
+911509,9115,91,Inggerus,,,null
+911511,9115,91,Oudate,,,null
+911602,9116,91,Mindiptana,,,null
+912006,9120,91,"Waropen Atas",,,null
+912202,9122,91,Apalapsili,,,null
+912319,9123,91,Wiringgambut,,,null
+912332,9123,91,Karu,,,null
+910410,9104,91,Siriwo,,,null
+910613,9106,91,Yawosi,,,null
+910703,9107,91,Ilu,,,null
+910721,9107,91,Ilamburawi,,,null
+910830,9108,91,"Baya Biru",,,null
+910907,9109,91,"Mimika Timur Jauh",,,null
+910917,9109,91,Amar,,,null
+911203,9112,91,Okbibab,,,null
+911204,9112,91,Iwur,,,null
+911329,9113,91,Hereapini,,,null
+911411,9114,91,Kubu,,,null
+911432,9114,91,Tagineri,,,null
+911815,9118,91,Kopay,,,null
+912103,9121,91,Eragayam,,,null
+912310,9123,91,Poga,,,null
+912315,9123,91,Yugungwi,,,null
+912317,9123,91,Wereka,,,null
+912423,9124,91,"Mbua Tengah",,,null
+912428,9124,91,Moba,,,null
+912707,9127,91,Ugimba,,,null
+912805,9128,91,Kapiraya,,,null
+910261,9102,91,Bugi,,,null
+910264,9102,91,Asotipo,,,null
+910502,9105,91,"Yapen Barat",,,null
+910504,9105,91,Angkaisera,,,null
+910603,9106,91,"Biak Timur",,,null
+910712,9107,91,Tingginambut,,,null
+910822,9108,91,"Wegee Muka",,,null
+910826,9108,91,Nakama,,,null
+911108,9111,91,"Arso Barat",,,null
+911234,9112,91,Nongme,,,null
+911333,9113,91,Endomen,,,null
+911437,9114,91,Anawi,,,null
+911441,9114,91,Tagime,,,null
+911808,9118,91,Suru-suru,,,null
+912328,9123,91,Kolawa,,,null
+912604,9126,91,"Kamu Utara",,,null
+912605,9126,91,"Sukikai Selatan",,,null
+912803,9128,91,Bowobado,,,null
+910119,9101,91,Waan,,,null
+910252,9102,91,Wadangku,,,null
+910313,9103,91,Waibu,,,null
+910422,9104,91,"Nabire Barat",,,null
+910723,9107,91,Lumo,,,null
+910831,9108,91,"Deiyai Miyo",,,null
+911103,9111,91,Senggi,,,null
+911223,9112,91,Okbemtau,,,null
+911231,9112,91,Teiraplu,,,null
+911319,9113,91,Werima,,,null
+911328,9113,91,Yahuliambut,,,null
+911614,9116,91,Yaniruma,,,null
+911804,9118,91,Akat,,,null
+912001,9120,91,"Mamberamo Tengah",,,null
+912104,9121,91,Megambilis,,,null
+912406,9124,91,Mugi,,,null
+912504,9125,91,Doufo,,,null
+912514,9125,91,Bina,,,null
+910114,9101,91,Malind,,,null
+910258,9102,91,"Silo Karno Doga",,,null
+910304,9103,91,"Sentani Barat",,,null
+911309,9113,91,Dekai,,,null
+911352,9113,91,Kayo,,,null
+911418,9114,91,Nabunage,,,null
+911447,9114,91,Yuko,,,null
+911616,9116,91,Kombay,,,null
+912007,9120,91,Benuki,,,null
+912323,9123,91,"Wano Barat",,,null
+912508,9125,91,Gome,,,null
+910212,9102,91,Hubikosi,,,null
+910708,9107,91,Yamo,,,null
+910829,9108,91,Youtadi,,,null
+910913,9109,91,"Kwamki Narama",,,null
+910914,9109,91,Hoya,,,null
+911227,9112,91,Weime,,,null
+911443,9114,91,Aweku,,,null
+911501,9115,91,"Waropen Bawah",,,null
+911707,9117,91,Kaibar,,,null
+911806,9118,91,"Pantai Kasuari",,,null
+911810,9118,91,"Unir Sirau",,,null
+911905,9119,91,"Supiori Barat",,,null
+912102,9121,91,Kelila,,,null
+912331,9123,91,Lannyna,,,null
+912424,9124,91,Embetpen,,,null
+912501,9125,91,Ilaga,,,null
+910253,9102,91,Pisugi,,,null
+910311,9103,91,Kaureh,,,null
+910314,9103,91,Nambluong,,,null
+910601,9106,91,"Biak Kota",,,null
+910719,9107,91,Irimuli,,,null
+911201,9112,91,Oksibil,,,null
+911213,9112,91,Kalomdol,,,null
+911224,9112,91,Oksebang,,,null
+911318,9113,91,Soba,,,null
+911402,9114,91,Bokondini,,,null
+911805,9118,91,Fayit,,,null
+911811,9118,91,Joerat,,,null
+911902,9119,91,"Supiori Utara",,,null
+912003,9120,91,Rufaer,,,null
+912404,9124,91,Wosak,,,null
+912414,9124,91,Kilmid,,,null
+910102,9101,91,Muting,,,null
+910225,9102,91,Walelagama,,,null
+910701,9107,91,Mulia,,,null
+910725,9107,91,Dokome,,,null
+910909,9109,91,"Kuala Kencana",,,null
+910912,9109,91,"Mimika Barat Tengah",,,null
+911311,9113,91,"Suru Suru",,,null
+911322,9113,91,Panggema,,,null
+911343,9113,91,Suntamon,,,null
+911611,9116,91,Ambatkwi,,,null
+911704,9117,91,Edera,,,null
+911820,9118,91,Joutu,,,null
+912410,9124,91,Kegayem,,,null
+912413,9124,91,Yenggelo,,,null
+912506,9125,91,Sinak,,,null
+912608,9126,91,"Kamu Timur",,,null
+910249,9102,91,Usilimo,,,null
+910315,9103,91,Yapsi,,,null
+910720,9107,91,Muara,,,null
+910813,9108,91,Siriwo,,,null
+911003,9110,91,"Pantai Barat",,,null
+911342,9113,91,Bomela,,,null
+911347,9113,91,Kwelemdua,,,null
+911445,9114,91,"Li Anogomma",,,null
+911615,9116,91,Subur,,,null
+911710,9117,91,Venaha,,,null
+911802,9118,91,Atsj,,,null
+912309,9123,91,Kuyawage,,,null
+912327,9123,91,Gupura,,,null
+912411,9124,91,Paro,,,null
+910241,9102,91,Napua,,,null
+910243,9102,91,Wouma,,,null
+910256,9102,91,Molagalome,,,null
+910828,9108,91,Yagai,,,null
+911013,9110,91,"Sarmi Timur",,,null
+911205,9112,91,Batom,,,null
+911301,9113,91,Kurima,,,null
+911344,9113,91,Seredela,,,null
+911510,9115,91,Kirihi,,,null
+912316,9123,91,Mokoni,,,null
+912425,9124,91,Kora,,,null
+912426,9124,91,Wusi,,,null
+912523,9125,91,Amungkalpia,,,null
+912702,9127,91,Homeyo,,,null
+917105,9171,91,Heram,,,null
+910108,9101,91,Sota,,,null
+910120,9101,91,Ilwayab,,,null
+910255,9102,91,Tagime,,,null
+910306,9103,91,"Kemtuk Gresi",,,null
+910412,9104,91,"Teluk Umar",,,null
+910605,9106,91,"Numfor Timur",,,null
+910620,9106,91,Oridek,,,null
+910727,9107,91,Wanwi,,,null
+910908,9109,91,"Mimika Tengah",,,null
+911106,9111,91,"Arso Timur",,,null
+911217,9112,91,Kawor,,,null
+911302,9113,91,Anggruk,,,null
+911310,9113,91,Obio,,,null
+911331,9113,91,Talambo,,,null
+911338,9113,91,Soloikma,,,null
+911606,9116,91,Bomakia,,,null
+911609,9116,91,Arimop,,,null
+912201,9122,91,Elelim,,,null
+912306,9123,91,Melagineri,,,null
+912308,9123,91,Tiomneri,,,null
+912333,9123,91,Yiluk,,,null
+912337,9123,91,Muara,,,null
+912422,9124,91,"Mbulmu Yalma",,,null
+912525,9125,91,Erelmakawia,,,null
+912705,9127,91,Agisiga,,,null
+910235,9102,91,Yalengga,,,null
+910302,9103,91,"Sentani Timur",,,null
+910319,9103,91,Yokari,,,null
+910508,9105,91,Raimbawi,,,null
+910611,9106,91,Yendidori,,,null
+910732,9107,91,Taganombak,,,null
+910820,9108,91,Yatamo,,,null
+910910,9109,91,Tembagapura,,,null
+911110,9111,91,Yaffi,,,null
+911230,9112,91,Jetfa,,,null
+911313,9113,91,Amuma,,,null
+911337,9113,91,Lolat,,,null
+911351,9113,91,Yogosem,,,null
+911431,9114,91,Dow,,,null
+911438,9114,91,Wenam,,,null
+911715,9117,91,"Ti Zain",,,null
+911803,9118,91,"Sawa Erma",,,null
+912002,9120,91,"Mamberamo Hulu",,,null
+912419,9124,91,Nirkuri,,,null
+912421,9124,91,Iniye,,,null
+912507,9125,91,Agandugume,,,null
+910228,9102,91,Wolo,,,null
+910242,9102,91,Walaik,,,null
+910602,9106,91,"Biak Utara",,,null
+911218,9112,91,Awinbon,,,null
+911316,9113,91,Hogio,,,null
+911326,9113,91,Pronggoli,,,null
+911435,9114,91,Gika,,,null
+911444,9114,91,Bogonuk,,,null
+911601,9116,91,Mandobo,,,null
+911612,9116,91,Manggelum,,,null
+911706,9117,91,Assue,,,null
+911714,9117,91,"Passue Bawah",,,null
+911812,9118,91,"Pulau Tiga",,,null
+911821,9118,91,Aswi,,,null
+912403,9124,91,Yigi,,,null
+912432,9124,91,"Pasir Putih",,,null
+912517,9125,91,Yugumuak,,,null
+912521,9125,91,Lambewi,,,null
+910107,9101,91,Jagebob,,,null
+910301,9103,91,Sentani,,,null
+910303,9103,91,Depapre,,,null
+910316,9103,91,Airu,,,null
+910407,9104,91,Wanggar,,,null
+910619,9106,91,"Aimando Padaido",,,null
+910717,9107,91,Pagaleme,,,null
+910823,9108,91,"Wegee Bino",,,null
+911104,9111,91,Web,,,null
+911209,9112,91,Pepera,,,null
+911215,9112,91,Serambakon,,,null
+911711,9117,91,Syahcame,,,null
+912318,9123,91,Milimbo,,,null
+917102,9171,91,"Jayapura Selatan",,,null
+910109,9101,91,Ulilin,,,null
+910215,9102,91,Bolakme,,,null
+910246,9102,91,Taelarek,,,null
+910263,9102,91,Welesi,,,null
+910268,9102,91,Wesaput,,,null
+910312,9103,91,Ebungfao,,,null
+910403,9104,91,Yaur,,,null
+910421,9104,91,Wapoga,,,null
+910604,9106,91,"Numfor Barat",,,null
+910729,9107,91,Waegi,,,null
+910903,9109,91,"Mimika Timur",,,null
+910911,9109,91,"Mimika Barat Jauh",,,null
+911001,9110,91,Sarmi,,,null
+911105,9111,91,Skanto,,,null
+911109,9111,91,Mannem,,,null
+911214,9112,91,Oksop,,,null
+911306,9113,91,Silimo,,,null
+911327,9113,91,Walma,,,null
+911330,9113,91,Ubalihi,,,null
+911434,9114,91,Wakuwo,,,null
+911446,9114,91,Biuk,,,null
+911619,9116,91,Ki,,,null
+911708,9117,91,Passue,,,null
+912321,9123,91,Awina,,,null
+912513,9125,91,Kembru,,,null
+912520,9125,91,Omukia,,,null
+912609,9126,91,"Mapia Tengah",,,null
+910244,9102,91,Hubikiak,,,null
+910248,9102,91,Siepkosi,,,null
+910251,9102,91,Libarek,,,null
+910507,9105,91,"Yapen Utara",,,null
+910612,9106,91,Samofa,,,null
+910809,9108,91,Bibida,,,null
+910833,9108,91,Aweida,,,null
+910834,9108,91,Topiyai,,,null
+911015,9110,91,"Bonggo Timur",,,null
+911202,9112,91,Kiwirok,,,null
+911225,9112,91,Okbab,,,null
+911345,9113,91,Sobaham,,,null
+911410,9114,91,Woniki,,,null
+911440,9114,91,Danime,,,null
+911819,9118,91,Betcbamu,,,null
+911904,9119,91,"Kepulauan Aruri",,,null
+912203,9122,91,Abenaho,,,null
+912329,9123,91,"Gelok Beam",,,null
+912502,9125,91,Wangbe,,,null
+910262,9102,91,Bpiri,,,null
+910424,9104,91,Dipa,,,null
+910503,9105,91,"Yapen Timur",,,null
+910609,9106,91,Warsa,,,null
+910802,9108,91,"Paniai Barat",,,null
+910916,9109,91,Wania,,,null
+911009,9110,91,"Apawer Hulu",,,null
+911312,9113,91,Wusama,,,null
+911404,9114,91,Kembu,,,null
+911416,9114,91,Bewani,,,null
+911513,9115,91,Demba,,,null
+911705,9117,91,Haju,,,null
+911709,9117,91,Minyamur,,,null
+911822,9118,91,Awyu,,,null
+911901,9119,91,"Supiori Selatan",,,null
+912004,9120,91,"Mamberamo Tengah Timur",,,null
+912005,9120,91,"Mamberamo Hilir",,,null
+912008,9120,91,Sawai,,,null
+912509,9125,91,Dervos,,,null
+917103,9171,91,Abepura,,,null
+910707,9107,91,Mewoluk,,,null
+910728,9107,91,Yamoneri,,,null
+910824,9108,91,"Pugo Dagi",,,null
+910901,9109,91,"Mimika Baru",,,null
+911004,9110,91,"Pantai Timur",,,null
+911307,9113,91,Samenage,,,null
+911320,9113,91,Tangma,,,null
+911401,9114,91,Karubaga,,,null
+911421,9114,91,Gundagi,,,null
+911514,9115,91,Wonti,,,null
+911605,9116,91,Jair,,,null
+911712,9117,91,Yakomi,,,null
+911816,9118,91,Safan,,,null
+911817,9118,91,Sirets,,,null
+912204,9122,91,Benawa,,,null
+912307,9123,91,Balingga,,,null
+912311,9123,91,Niname,,,null
+912334,9123,91,Guna,,,null
+912402,9124,91,Mapenduma,,,null
+912607,9126,91,"Kamu Selatan",,,null
+917101,9171,91,"Jayapura Utara",,,null
+910103,9101,91,Okaba,,,null
+910267,9102,91,Wame,,,null
+910308,9103,91,Nimbokrang,,,null
+910317,9103,91,"Raveni Rara",,,null
+910402,9104,91,Napan,,,null
+910711,9107,91,Torere,,,null
+910722,9107,91,Yambi,,,null
+910804,9108,91,Aradide,,,null
+911232,9112,91,Eipumek,,,null
+911406,9114,91,Wunim,,,null
+911425,9114,91,Geya,,,null
+911427,9114,91,Poganeri,,,null
+911512,9115,91,Wapoga,,,null
+911515,9115,91,"Soyoi Mambai",,,null
+911620,9116,91,Kawagit,,,null
+912320,9123,91,Gollo,,,null
+912338,9123,91,"Buguk Gona",,,null
+912401,9124,91,Kenyam,,,null
+912415,9124,91,Alama,,,null
+912427,9124,91,Pija,,,null
+912602,9126,91,Mapia,,,null
+912804,9128,91,"Tigi Barat",,,null
+910110,9101,91,Elikobal,,,null
+910117,9101,91,Kaptel,,,null
+910201,9102,91,Wamena,,,null
+910247,9102,91,"Itlay Hisage",,,null
+910257,9102,91,Tagineri,,,null
+910265,9102,91,Maima,,,null
+910318,9103,91,"Gresi Selatan",,,null
+910724,9107,91,Molanikime,,,null
+910812,9108,91,Dumadama,,,null
+911101,9111,91,Waris,,,null
+911111,9111,91,Kaisenar,,,null
+911210,9112,91,Bime,,,null
+911233,9112,91,Pamek,,,null
+911321,9113,91,Ukha,,,null
+911350,9113,91,Duram,,,null
+911617,9116,91,Ninati,,,null
+912303,9123,91,Makki,,,null
+912326,9123,91,"Balingga Barat",,,null
+912418,9124,91,Dal,,,null
+910104,9101,91,Kimaam,,,null
+910116,9101,91,Ngguti,,,null
+910227,9102,91,Musatfak,,,null
+910425,9104,91,Menou,,,null
+910615,9106,91,Swandiwe,,,null
+910710,9107,91,Nume,,,null
+910807,9108,91,Bogabaida,,,null
+910821,9108,91,Ekadide,,,null
+910906,9109,91,Jila,,,null
+910918,9109,91,Alama,,,null
+911005,9110,91,Bonggo,,,null
+911353,9113,91,Sumo,,,null
+911419,9114,91,Gilubandu,,,null
+912205,9122,91,Welarek,,,null
+912511,9125,91,"Beoga Timur",,,null
+912512,9125,91,Ogamanim,,,null
+912524,9125,91,"Gome Utara",,,null
+910105,9101,91,Semangga,,,null
+910234,9102,91,Pelebaga,,,null
+910733,9107,91,Dagai,,,null
+910827,9108,91,"Teluk Deya",,,null
+911308,9113,91,Nalca,,,null
+911314,9113,91,Musaik,,,null
+911426,9114,91,Egiam,,,null
+911428,9114,91,Kamboneri,,,null
+911604,9116,91,Kouh,,,null
+910513,9105,91,"Pulau Kurudu",,,null
+910825,9108,91,Muye,,,null
+911219,9112,91,Tarup,,,null
+911222,9112,91,Oklip,,,null
+911317,9113,91,Mugi,,,null
+911507,9115,91,"Risei Sayati",,,null
+911809,9118,91,"Kolf Braza",,,null
+911813,9118,91,Jetsy,,,null
+912503,9125,91,Beoga,,,null
+912505,9125,91,Pogoma,,,null
+912704,9127,91,Biandoga,,,null
+910204,9102,91,Asologaima,,,null
+910260,9102,91,Muliama,,,null
+910416,9104,91,"Teluk Kimi",,,null
+910915,9109,91,Iwaka,,,null
+911002,9110,91,"Tor Atas",,,null
+911012,9110,91,"Sarmi Selatan",,,null
+911014,9110,91,"Pantai Timur Bagian Barat",,,null
+911403,9114,91,Kanggime,,,null
+911439,9114,91,Wugi,,,null
+912336,9123,91,Nikogwe,,,null
+912518,9125,91,"Ilaga Utara",,,null
+912522,9125,91,Oneri,,,null
+912606,9126,91,"Mapia Barat",,,null
+912708,9127,91,Tomosiga,,,null
+910245,9102,91,Ibele,,,null
+910250,9102,91,"Wita Waya",,,null
+910254,9102,91,Koragi,,,null
+910411,9104,91,Makimi,,,null
+910501,9105,91,"Yapen Selatan",,,null
+910506,9105,91,Kosiwo,,,null
+910515,9105,91,Anotaurei,,,null
+910608,9106,91,"Biak Barat",,,null
+910718,9107,91,Gurage,,,null
+911102,9111,91,Arso,,,null
+911220,9112,91,Okhika,,,null
+911325,9113,91,Ubahak,,,null
+911336,9113,91,Holuon,,,null
+911503,9115,91,Masirei,,,null
+911618,9116,91,Sesnuk,,,null
+912416,9124,91,Yal,,,null
+912603,9126,91,Piyaiye,,,null
+910305,9103,91,Kemtuk,,,null
+910510,9105,91,"Kepulauan Ambai",,,null
+910516,9105,91,Yawakukat,,,null
+910706,9107,91,Fawi,,,null
+910904,9109,91,"Mimika Barat",,,null
+911221,9112,91,Oksamol,,,null
+911228,9112,91,Murkim,,,null
+911332,9113,91,Puldama,,,null
+911341,9113,91,Langda,,,null
+911703,9117,91,Citak-Mitak,,,null
+911801,9118,91,Agats,,,null
+912335,9123,91,Kelulome,,,null
+912407,9124,91,Mbuwa,,,null
+912408,9124,91,Gearek,,,null
+912510,9125,91,"Beoga Barat",,,null
+912515,9125,91,"Sinak Barat",,,null
+910111,9101,91,Kurik,,,null
+910112,9101,91,Naukenjerai,,,null
+910122,9101,91,Kontuar,,,null
+910203,9102,91,Kurulu,,,null
+910266,9102,91,Popugoba,,,null
+910512,9105,91,Windesi,,,null
+910614,9106,91,Andey,,,null
+910731,9107,91,Gubume,,,null
+910734,9107,91,Kiyage,,,null
+910832,9108,91,Dogomo,,,null
+911107,9111,91,Towe,,,null
+911212,9112,91,Okbape,,,null
+911229,9112,91,Mofinop,,,null
+911335,9113,91,Dirwemna,,,null
+911407,9114,91,Wina,,,null
+911408,9114,91,Umagi,,,null
+911414,9114,91,Kuari,,,null
+911422,9114,91,Numba,,,null
+911607,9116,91,Kombut,,,null
+911701,9117,91,Obaa,,,null
+912313,9123,91,Yiginua,,,null
+912325,9123,91,Bruwa,,,null
+912431,9124,91,Krepkuri,,,null
+912703,9127,91,Wandai,,,null
+910229,9102,91,Asolokobal,,,null
+910406,9104,91,Uwapa,,,null
+910621,9106,91,Bondifuar,,,null
+910730,9107,91,Nioga,,,null
+911226,9112,91,Batani,,,null
+911420,9114,91,Nunggawi,,,null
+911442,9114,91,Kai,,,null
+911814,9118,91,"Der Koumur",,,null
+912312,9123,91,Nogi,,,null
+912412,9124,91,Mebarok,,,null
+912516,9125,91,Mage'abume,,,null
+912801,9128,91,Tigi,,,null

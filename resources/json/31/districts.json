@@ -1,0 +1,398 @@
+[
+    {
+        "code": 317304,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Tambora",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 317107,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Tanah Abang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 317410,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Pesanggrahan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 317102,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Sawah Besar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 317108,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Johar Baru",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 317106,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Menteng",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 317502,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Pulogadung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 317507,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Duren Sawit",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 317408,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Pancoran",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 317509,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Ciracas",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 317402,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Setiabudi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 317404,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Pasar Minggu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 317307,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Pal Merah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 310102,
+        "regency_code": 3101,
+        "province_code": 31,
+        "name": "Kepulauan Seribu Selatan.",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 317203,
+        "regency_code": 3172,
+        "province_code": 31,
+        "name": "Koja",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 317308,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Kembangan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 317201,
+        "regency_code": 3172,
+        "province_code": 31,
+        "name": "Penjaringan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 317407,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Kebayoran Baru",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 317105,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Cempaka Putih",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 317303,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Taman Sari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 317401,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Tebet",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 317101,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Gambir",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 317104,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Senen",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 317409,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Jagakarsa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 317501,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Matraman",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 317206,
+        "regency_code": 3172,
+        "province_code": 31,
+        "name": "Kelapa Gading",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 317302,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Grogol Petamburan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 310101,
+        "regency_code": 3101,
+        "province_code": 31,
+        "name": "Kepulauan Seribu Utara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 317504,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Kramatjati",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 317405,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Kebayoran Lama",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 317508,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Makasar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 317202,
+        "regency_code": 3172,
+        "province_code": 31,
+        "name": "Tanjung Priok",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 317503,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Jatinegara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 317506,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Cakung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 317103,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Kemayoran",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 317205,
+        "regency_code": 3172,
+        "province_code": 31,
+        "name": "Pademangan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 317306,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Kalideres",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 317301,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Cengkareng",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 317204,
+        "regency_code": 3172,
+        "province_code": 31,
+        "name": "Cilincing",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 317305,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Kebon Jeruk",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 317505,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Pasar Rebo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 317403,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Mampang Prapatan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 317406,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Cilandak",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 317510,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Cipayung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    }
+]

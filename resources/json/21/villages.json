@@ -1,0 +1,4172 @@
+[
+    {
+        "code": 2101071001,
+        "district_code": 210107,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Tanjung Uban Kota",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102072004,
+        "district_code": 210207,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Teluk Radang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103102001,
+        "district_code": 210310,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Tanjung Pala",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103112010,
+        "district_code": 210311,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Teluk Labuh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104042008,
+        "district_code": 210404,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Sungai Harapan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104072001,
+        "district_code": 210407,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Bukitlangkap",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104082004,
+        "district_code": 210408,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Pantai Harapan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105042002,
+        "district_code": 210504,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Telaga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105052001,
+        "district_code": 210505,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Kuala Maras",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171091002,
+        "district_code": 217109,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Bengkong Laut",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101101007,
+        "district_code": 210110,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Kota Baru",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102011010,
+        "district_code": 210201,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Moro Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102012004,
+        "district_code": 210201,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Pauh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103102003,
+        "district_code": 210310,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Kadur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103152006,
+        "district_code": 210315,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Limau Manis",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103192004,
+        "district_code": 210319,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Air Ringau",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104082001,
+        "district_code": 210408,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Selayar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105042007,
+        "district_code": 210504,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Air Bini",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171061004,
+        "district_code": 217106,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Batu Selicin",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171111001,
+        "district_code": 217111,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Tembesi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2172041005,
+        "district_code": 217204,
+        "regency_code": 2172,
+        "province_code": 21,
+        "name": "Tanjung Unggat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101082003,
+        "district_code": 210108,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Penaga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102012013,
+        "district_code": 210201,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Buluh Patah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102122005,
+        "district_code": 210212,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Tebias",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103112003,
+        "district_code": 210311,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Sededap",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104042003,
+        "district_code": 210404,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Marok Tua",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104062006,
+        "district_code": 210406,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Pelakak",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105012006,
+        "district_code": 210501,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Sri Tanjung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105042004,
+        "district_code": 210504,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Tiangau",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105062002,
+        "district_code": 210506,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Rewak",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105082002,
+        "district_code": 210508,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Piasan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171041003,
+        "district_code": 217104,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Kabil",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101151005,
+        "district_code": 210115,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Tanjung Permai",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102012007,
+        "district_code": 210201,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Selat Mie",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102041002,
+        "district_code": 210204,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Baran Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102062004,
+        "district_code": 210206,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Tanjung Batu Kecil",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102122004,
+        "district_code": 210212,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Sei Asam",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103062007,
+        "district_code": 210306,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Tanjung Balau",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103062011,
+        "district_code": 210306,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Jermalik",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103072004,
+        "district_code": 210307,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Sepempang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103152003,
+        "district_code": 210315,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Kelanga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103152004,
+        "district_code": 210315,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Pengadah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103202003,
+        "district_code": 210320,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Sedarat Baru",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104072002,
+        "district_code": 210407,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Keton",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105032005,
+        "district_code": 210503,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Air Putih",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105072002,
+        "district_code": 210507,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Air Sena",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101061011,
+        "district_code": 210106,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Sungai Enam",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101121004,
+        "district_code": 210112,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Toapaya Asri",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101132002,
+        "district_code": 210113,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Mantang Besar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103092002,
+        "district_code": 210309,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Subi Besar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103152002,
+        "district_code": 210315,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Ceruk",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103162002,
+        "district_code": 210316,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Harapan Jaya",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104032012,
+        "district_code": 210403,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Laboh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104102001,
+        "district_code": 210410,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Busung Panjang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105012003,
+        "district_code": 210501,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Tarempa Selatan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171011006,
+        "district_code": 217101,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Tanjung Sari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2172031001,
+        "district_code": 217203,
+        "regency_code": 2172,
+        "province_code": 21,
+        "name": "Tanjung Pinang Kota",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101071002,
+        "district_code": 210107,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Tanjung Uban Utara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101151003,
+        "district_code": 210115,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Teluk Lobam",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102062003,
+        "district_code": 210206,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Tanjung Hutan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102112004,
+        "district_code": 210211,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Sungaibuluh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102122002,
+        "district_code": 210212,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Lebuh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103071011,
+        "district_code": 210307,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Ranai Kota",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104052009,
+        "district_code": 210405,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Sungaibesar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104072003,
+        "district_code": 210407,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Pekaka",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104092001,
+        "district_code": 210409,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Marok Kecil",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105011001,
+        "district_code": 210501,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Terempa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105022002,
+        "district_code": 210502,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Tebang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105042003,
+        "district_code": 210504,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Mengkait",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171041004,
+        "district_code": 217104,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Ngenang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171081008,
+        "district_code": 217108,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Air Raja",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171101004,
+        "district_code": 217110,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Belian",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2172021005,
+        "district_code": 217202,
+        "regency_code": 2172,
+        "province_code": 21,
+        "name": "Pinang Kencana",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101102006,
+        "district_code": 210110,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Sri Bintan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102082005,
+        "district_code": 210208,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Gemuruh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102101001,
+        "district_code": 210210,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Pasir Panjang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103182002,
+        "district_code": 210318,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Cemaga Selatan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104011001,
+        "district_code": 210401,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Dabo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104032002,
+        "district_code": 210403,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Mamut",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104132004,
+        "district_code": 210413,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Tanjung Kelit",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105032001,
+        "district_code": 210503,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Nyamuk",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105042001,
+        "district_code": 210504,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Kiabu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105062001,
+        "district_code": 210506,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Mampok",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105062008,
+        "district_code": 210506,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Batu Berapit",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171091003,
+        "district_code": 217109,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Sadai",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171101002,
+        "district_code": 217110,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Taman Baloi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101071003,
+        "district_code": 210107,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Tanjung Uban Selatan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101082002,
+        "district_code": 210108,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Pangkil",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101082004,
+        "district_code": 210108,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Pengujan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102031003,
+        "district_code": 210203,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Sungailakam Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103092004,
+        "district_code": 210309,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Pulau Panjang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103092006,
+        "district_code": 210309,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Pulau Kerdau",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103202005,
+        "district_code": 210320,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Semedang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104022006,
+        "district_code": 210402,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Kelumu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104051007,
+        "district_code": 210405,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Pancur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104052008,
+        "district_code": 210405,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Linau",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104052011,
+        "district_code": 210405,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Belungkur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105052002,
+        "district_code": 210505,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Ulu Maras",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171021003,
+        "district_code": 217102,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Batu Merah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171041001,
+        "district_code": 217104,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Sambau",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171051003,
+        "district_code": 217105,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Temoyong",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171081003,
+        "district_code": 217108,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Galang Baru",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171111004,
+        "district_code": 217111,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Sagulung Kota",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101061009,
+        "district_code": 210106,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Sungai Lekop",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102041001,
+        "district_code": 210204,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Meral Kota",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102051004,
+        "district_code": 210205,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Pamak",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102112003,
+        "district_code": 210211,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Ngal",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102122001,
+        "district_code": 210212,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Sebele",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104022009,
+        "district_code": 210402,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Panggak Darat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104042009,
+        "district_code": 210404,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Jagoh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104042015,
+        "district_code": 210404,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Bukit Belah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104062003,
+        "district_code": 210406,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Lanjut",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105062009,
+        "district_code": 210506,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Landak",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105072005,
+        "district_code": 210507,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Liuk",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2172021003,
+        "district_code": 217202,
+        "regency_code": 2172,
+        "province_code": 21,
+        "name": "Air Raja",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101042001,
+        "district_code": 210104,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Gunung Kijang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101102001,
+        "district_code": 210110,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Berakit",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101102005,
+        "district_code": 210110,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Sebong Pereh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102031001,
+        "district_code": 210203,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Tanjungbalai",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102031006,
+        "district_code": 210203,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Lubuk Semut",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102101002,
+        "district_code": 210210,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Darussalam",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103061003,
+        "district_code": 210306,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Serasan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103062010,
+        "district_code": 210306,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Pangkalan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103212002,
+        "district_code": 210321,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Tanjung Kumbik Utara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104022003,
+        "district_code": 210402,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Mepar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104022011,
+        "district_code": 210402,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Panggak Laut",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104122002,
+        "district_code": 210412,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Tajur Biru",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171061005,
+        "district_code": 217106,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Tanjung Uma",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2172021004,
+        "district_code": 217202,
+        "regency_code": 2172,
+        "province_code": 21,
+        "name": "Batu IX",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2172031003,
+        "district_code": 217203,
+        "regency_code": 2172,
+        "province_code": 21,
+        "name": "Senggarang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101122001,
+        "district_code": 210112,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Toapaya",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102041007,
+        "district_code": 210204,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Sungai Pasir",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102052007,
+        "district_code": 210205,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Pongkar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102061001,
+        "district_code": 210206,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Buru",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102082004,
+        "district_code": 210208,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Kundur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102111001,
+        "district_code": 210211,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Alai",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103082002,
+        "district_code": 210308,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Kelarik",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103092001,
+        "district_code": 210309,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Subi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103092003,
+        "district_code": 210309,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Meliah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103112005,
+        "district_code": 210311,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Serantas",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103152001,
+        "district_code": 210315,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Tanjung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104022007,
+        "district_code": 210402,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Mentuda",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104042001,
+        "district_code": 210404,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Bakong",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104062001,
+        "district_code": 210406,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Berindat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105012002,
+        "district_code": 210501,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Terempa Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105102003,
+        "district_code": 210510,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Batu Ampar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105102005,
+        "district_code": 210510,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Teluk Bayur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2172041003,
+        "district_code": 217204,
+        "regency_code": 2172,
+        "province_code": 21,
+        "name": "Tanjung Ayun Sakti",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102012011,
+        "district_code": 210201,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Niur Permai",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102021002,
+        "district_code": 210202,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Tanjungbatu Kota",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103222003,
+        "district_code": 210322,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Gunung Jambat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104042012,
+        "district_code": 210404,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Tinjul",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104112002,
+        "district_code": 210411,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Mensanak",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105012004,
+        "district_code": 210501,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Tarempa Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105012005,
+        "district_code": 210501,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Pesisir Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105032004,
+        "district_code": 210503,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Serat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105082003,
+        "district_code": 210508,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Bayat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105102004,
+        "district_code": 210510,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Matak",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171031005,
+        "district_code": 217103,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Tiban Indah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171051002,
+        "district_code": 217105,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Pulau Buluh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2172041004,
+        "district_code": 217204,
+        "regency_code": 2172,
+        "province_code": 21,
+        "name": "Sei Jang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102012008,
+        "district_code": 210201,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Tanjung Pelanduk",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102012014,
+        "district_code": 210201,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Pulaumoro",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103192001,
+        "district_code": 210319,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Arung Ayam",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104022008,
+        "district_code": 210402,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Merawang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104082002,
+        "district_code": 210408,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Penuba",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104082003,
+        "district_code": 210408,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Penuba Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104092002,
+        "district_code": 210409,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Berhala",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105042006,
+        "district_code": 210504,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Lingai",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105052003,
+        "district_code": 210505,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Bukit Padi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105072004,
+        "district_code": 210507,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Lidi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105102001,
+        "district_code": 210510,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Payalaman",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171011004,
+        "district_code": 217101,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Pulau Terung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171021001,
+        "district_code": 217102,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Tanjung Sengkuang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2172031004,
+        "district_code": 217203,
+        "regency_code": 2172,
+        "province_code": 21,
+        "name": "Penyengat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101152002,
+        "district_code": 210115,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Teluk Sasah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102122006,
+        "district_code": 210212,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Degong",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103062006,
+        "district_code": 210306,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Tanjung Setelung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103082003,
+        "district_code": 210308,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Kelarik Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103112004,
+        "district_code": 210311,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Tanjung Batang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103202002,
+        "district_code": 210320,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Gunung Putri",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103212004,
+        "district_code": 210321,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Selading",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103222001,
+        "district_code": 210322,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Air Kumpai",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104011012,
+        "district_code": 210401,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Sungailumpur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104042002,
+        "district_code": 210404,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Kuala Raya",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104042013,
+        "district_code": 210404,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Langkap",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104052002,
+        "district_code": 210405,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Duara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104072004,
+        "district_code": 210407,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Kerandin",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104072005,
+        "district_code": 210407,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Sungai Pinang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105022015,
+        "district_code": 210502,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Belibak",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171011007,
+        "district_code": 217101,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Sekanak Raya",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101142001,
+        "district_code": 210114,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Kelong",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102012006,
+        "district_code": 210201,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Keban",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102031002,
+        "district_code": 210203,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Telukair",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102041003,
+        "district_code": 210204,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Sei Raya",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102102003,
+        "district_code": 210210,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Pangke",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102122003,
+        "district_code": 210212,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Penarah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103072002,
+        "district_code": 210307,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Sungai Ulu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104041006,
+        "district_code": 210404,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Raya",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104052003,
+        "district_code": 210405,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Limbung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104052012,
+        "district_code": 210405,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Resun Pesisir",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104122001,
+        "district_code": 210412,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Temiang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171081006,
+        "district_code": 217108,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Subang Mas",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171101003,
+        "district_code": 217110,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Teluk Tering",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171121004,
+        "district_code": 217112,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Bukit Tempayan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101142002,
+        "district_code": 210114,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Mapur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102012005,
+        "district_code": 210201,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Sugie",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103192005,
+        "district_code": 210319,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Payak",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104012010,
+        "district_code": 210401,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Batu Kacang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104102003,
+        "district_code": 210410,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Suak Buaya",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104112004,
+        "district_code": 210411,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Pulau Duyung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104132005,
+        "district_code": 210413,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Tanjung Lipat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105012007,
+        "district_code": 210501,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Tarempa Barat Daya",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171091004,
+        "district_code": 217109,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Tanjung Buntung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101092002,
+        "district_code": 210109,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Batu Lepuk",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102041008,
+        "district_code": 210204,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Parit Benut",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103042005,
+        "district_code": 210304,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Air Putih",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103052012,
+        "district_code": 210305,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Binjai",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105072001,
+        "district_code": 210507,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Air Asuk",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105072006,
+        "district_code": 210507,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Teluk Sunting",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171011003,
+        "district_code": 217101,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Kasu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171031002,
+        "district_code": 217103,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Tanjung Pinggir",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171041002,
+        "district_code": 217104,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Batu Besar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171121001,
+        "district_code": 217112,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Tanjung Uncang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2172021001,
+        "district_code": 217202,
+        "regency_code": 2172,
+        "province_code": 21,
+        "name": "Melayu Kota Piring",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2172041002,
+        "district_code": 217204,
+        "regency_code": 2172,
+        "province_code": 21,
+        "name": "Dompak",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101042003,
+        "district_code": 210104,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Teluk Bakau",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101061008,
+        "district_code": 210106,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Kijang Kota",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103041003,
+        "district_code": 210304,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Sabang Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103052013,
+        "district_code": 210305,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Piantengah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104012009,
+        "district_code": 210401,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Tanjung Harapan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104021010,
+        "district_code": 210402,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Daik",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104042005,
+        "district_code": 210404,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Sungai Buluh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104102002,
+        "district_code": 210410,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Posek",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105032002,
+        "district_code": 210503,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Batu Belah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105032006,
+        "district_code": 210503,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Temburun",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105061005,
+        "district_code": 210506,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Letung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171031003,
+        "district_code": 217103,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Tanjung Riau",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171071004,
+        "district_code": 217107,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Tanjung Piayu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171111006,
+        "district_code": 217111,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Sungai Pelunggut",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171121003,
+        "district_code": 217112,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Kibing",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2172021002,
+        "district_code": 217202,
+        "regency_code": 2172,
+        "province_code": 21,
+        "name": "Kampung Bulang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101042002,
+        "district_code": 210104,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Malang Rapat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101092004,
+        "district_code": 210109,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Kampung Melayu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101152004,
+        "district_code": 210115,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Kuala Sempang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102022004,
+        "district_code": 210202,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Sebesi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103052007,
+        "district_code": 210305,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Mekar Jaya",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103152005,
+        "district_code": 210315,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Sebadai Ulu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104042014,
+        "district_code": 210404,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Tanjung Irat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104052010,
+        "district_code": 210405,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Rantau Panjang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105022003,
+        "district_code": 210502,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Ladan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171071001,
+        "district_code": 217107,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Muka Kuning",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171081001,
+        "district_code": 217108,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Sijantung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102021001,
+        "district_code": 210202,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Tanjungbatu Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102072010,
+        "district_code": 210207,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Perayun",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102072013,
+        "district_code": 210207,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Tanjungberlian Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102092002,
+        "district_code": 210209,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Sanglar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103072014,
+        "district_code": 210307,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Batu Gajah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103092007,
+        "district_code": 210309,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Subi Besar Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104022012,
+        "district_code": 210402,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Musai",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105052004,
+        "district_code": 210505,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Genting Pulur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105082001,
+        "district_code": 210508,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Mubur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171081002,
+        "district_code": 217108,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Karas",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171081007,
+        "district_code": 217108,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Pulau Abang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171101005,
+        "district_code": 217110,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Sukajadi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101102004,
+        "district_code": 210110,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Sebong Lagoi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102051002,
+        "district_code": 210205,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Teluk Uma",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103051008,
+        "district_code": 210305,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Sedanau",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103071016,
+        "district_code": 210307,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Ranai Darat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103182003,
+        "district_code": 210318,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Cemaga Utara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103222002,
+        "district_code": 210322,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Batu Belanak",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104031001,
+        "district_code": 210403,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Senayang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104072006,
+        "district_code": 210407,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Kudung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104112001,
+        "district_code": 210411,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Benan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104112005,
+        "district_code": 210411,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Pulau Medang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105022006,
+        "district_code": 210502,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Langir",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105092001,
+        "district_code": 210509,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Impol",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171021004,
+        "district_code": 217102,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Kampung Seraya",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171111003,
+        "district_code": 217111,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Sungai Lekop",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2172011002,
+        "district_code": 217201,
+        "regency_code": 2172,
+        "province_code": 21,
+        "name": "Kemboja",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101091001,
+        "district_code": 210109,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Teluk Sekuni",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101132004,
+        "district_code": 210113,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Dendun",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102012009,
+        "district_code": 210201,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Jang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102022005,
+        "district_code": 210202,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Sei Ungar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102022006,
+        "district_code": 210202,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Lubuk",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102061002,
+        "district_code": 210206,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Lubuk Puding",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102092005,
+        "district_code": 210209,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Telaga Tujuh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103112001,
+        "district_code": 210311,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Sabang Mawang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103162001,
+        "district_code": 210316,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Tapau",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103182001,
+        "district_code": 210318,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Cemaga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104052006,
+        "district_code": 210405,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Teluk",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171061001,
+        "district_code": 217106,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Kampung Pelita",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101102002,
+        "district_code": 210110,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Ekang Anculai",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101122003,
+        "district_code": 210112,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Toapaya Selatan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101142003,
+        "district_code": 210114,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Numbing",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102012012,
+        "district_code": 210201,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Rawajaya",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102031008,
+        "district_code": 210203,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Sungailakam Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102032009,
+        "district_code": 210203,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Selatmendaun",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102082002,
+        "district_code": 210208,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Sawang Selatan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103152007,
+        "district_code": 210315,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Seleman",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103182004,
+        "district_code": 210318,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Cemaga Tengah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103202001,
+        "district_code": 210320,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Batubi Jaya",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104132003,
+        "district_code": 210413,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Pasir Panjang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105092003,
+        "district_code": 210509,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Sunggak",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171021002,
+        "district_code": 217102,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Sungai Jodoh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102051001,
+        "district_code": 210205,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Tebing",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102051008,
+        "district_code": 210205,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Harjosari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102071012,
+        "district_code": 210207,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Tanjungberlian Kota",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103062005,
+        "district_code": 210306,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Batu Berlian",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103092008,
+        "district_code": 210309,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Meliah Selatan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104011007,
+        "district_code": 210401,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Dabo Lama",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105042005,
+        "district_code": 210504,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Telaga Kecil",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105102002,
+        "district_code": 210510,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Payamaram",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171111002,
+        "district_code": 217111,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Sungai Binti",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171121002,
+        "district_code": 217112,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Buliang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101061010,
+        "district_code": 210106,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Gunung Lengkuas",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101122002,
+        "district_code": 210112,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Toapaya Utara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103062002,
+        "district_code": 210306,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Kampung Hilir",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104032013,
+        "district_code": 210403,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Penaah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104042007,
+        "district_code": 210404,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Sungai Raya",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104112003,
+        "district_code": 210411,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Pulau Bukit",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171031001,
+        "district_code": 217103,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Sungai Harapan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171031008,
+        "district_code": 217103,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Patam Lestari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171101001,
+        "district_code": 217110,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Baloi Permai",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101071011,
+        "district_code": 210107,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Tanjung Uban Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101092005,
+        "district_code": 210109,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Pulau Mentebung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101092006,
+        "district_code": 210109,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Pulau Pinang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101092007,
+        "district_code": 210109,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Kukup",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101152001,
+        "district_code": 210115,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Busung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102032004,
+        "district_code": 210203,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Parit",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103042001,
+        "district_code": 210304,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Sebelat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103082008,
+        "district_code": 210308,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Gunung Durian",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103102002,
+        "district_code": 210310,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Air Payang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104012008,
+        "district_code": 210401,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Batu Berdaun",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104022019,
+        "district_code": 210402,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Nerekeh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104032015,
+        "district_code": 210403,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Baran",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104122003,
+        "district_code": 210412,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Pulau Batang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171011002,
+        "district_code": 217101,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Pemping",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171051001,
+        "district_code": 217105,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Bulang Lintang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171051004,
+        "district_code": 217105,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Batu Legong",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171091001,
+        "district_code": 217109,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Bengkong Indah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102011003,
+        "district_code": 210201,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Moro",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102041006,
+        "district_code": 210204,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Baran Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102081001,
+        "district_code": 210208,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Sawang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103082001,
+        "district_code": 210308,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Kelarik Utara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103082007,
+        "district_code": 210308,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Seluan Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103192002,
+        "district_code": 210319,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Air Nusa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104022002,
+        "district_code": 210402,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Kelombok",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104062002,
+        "district_code": 210406,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Sedamai",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104062004,
+        "district_code": 210406,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Kote",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2172011004,
+        "district_code": 217201,
+        "regency_code": 2172,
+        "province_code": 21,
+        "name": "Bukit Cermin",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101082001,
+        "district_code": 210108,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Bintan Buyu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102031007,
+        "district_code": 210203,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Tanjungbalai Kota",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102051003,
+        "district_code": 210205,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Kapling",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103082004,
+        "district_code": 210308,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Kelarik Air Mali",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103082006,
+        "district_code": 210308,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Belakang Gunung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104052004,
+        "district_code": 210405,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Resun",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171011005,
+        "district_code": 217101,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Pecong",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171081004,
+        "district_code": 217108,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Sembulang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101072005,
+        "district_code": 210107,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Lancang Kuning",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101082005,
+        "district_code": 210108,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Tembeling",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102092004,
+        "district_code": 210209,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Semembang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103052015,
+        "district_code": 210305,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Selaut",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103212001,
+        "district_code": 210321,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Pulau Tiga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104022001,
+        "district_code": 210402,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Pekajang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171051005,
+        "district_code": 217105,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Pantai Gelam",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171071002,
+        "district_code": 217107,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Duriangkang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171071003,
+        "district_code": 217107,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Mangsang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171081005,
+        "district_code": 217108,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Rempang Cate",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171101006,
+        "district_code": 217110,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Sungai Panas",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171111005,
+        "district_code": 217111,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Sungai Langkai",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2172011001,
+        "district_code": 217201,
+        "regency_code": 2172,
+        "province_code": 21,
+        "name": "Tanjung Pinang Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2172041001,
+        "district_code": 217204,
+        "regency_code": 2172,
+        "province_code": 21,
+        "name": "Tanjung Pinang Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101092008,
+        "district_code": 210109,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Pengikik",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101132003,
+        "district_code": 210113,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Mantang Lama",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102072003,
+        "district_code": 210207,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Sei Ungar Utara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103092005,
+        "district_code": 210309,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Terayak",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103112006,
+        "district_code": 210311,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Sabang Mawang Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104052001,
+        "district_code": 210405,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Bukit Harapan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104132002,
+        "district_code": 210413,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Cempa",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104132006,
+        "district_code": 210413,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Rejai",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105022005,
+        "district_code": 210502,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Piabung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105022007,
+        "district_code": 210502,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Candi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105022008,
+        "district_code": 210502,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Putik",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105032003,
+        "district_code": 210503,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Munjan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105062006,
+        "district_code": 210506,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Air Biru",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171031006,
+        "district_code": 217103,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Tiban Baru",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171051006,
+        "district_code": 217105,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Pulau Setokok",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2172031005,
+        "district_code": 217203,
+        "regency_code": 2172,
+        "province_code": 21,
+        "name": "Kampung Bugis",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101041005,
+        "district_code": 210104,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Kawal",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101081006,
+        "district_code": 210108,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Tembeling Tanjung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101142004,
+        "district_code": 210114,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Air Gelubi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102021009,
+        "district_code": 210202,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Gading Sari",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102112002,
+        "district_code": 210211,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Batu Limau",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103082005,
+        "district_code": 210308,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Teluk Buton",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103162003,
+        "district_code": 210316,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Air Lengit",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103212003,
+        "district_code": 210321,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Setumuk",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104052005,
+        "district_code": 210405,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Sekanah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104092003,
+        "district_code": 210409,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Resang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104132001,
+        "district_code": 210413,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Batu Belubang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105092002,
+        "district_code": 210509,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Keramut",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171031007,
+        "district_code": 217103,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Tiban Lama",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171061003,
+        "district_code": 217106,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Lubuk Baja Kota",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101092003,
+        "district_code": 210109,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Kampung Hilir",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101102003,
+        "district_code": 210110,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Pengudang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2101132001,
+        "district_code": 210113,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Mantang Baru",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102032005,
+        "district_code": 210203,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Tulang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102082003,
+        "district_code": 210208,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Sawang Laut",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102092003,
+        "district_code": 210209,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Tanjung Kilang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2102102004,
+        "district_code": 210210,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Pangke Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103071017,
+        "district_code": 210307,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Bandarsyah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103071019,
+        "district_code": 210307,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Batu Hitam",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2103202004,
+        "district_code": 210320,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Sedanau Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2104062005,
+        "district_code": 210406,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Persing",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2105072003,
+        "district_code": 210507,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Teluk Siantan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2171061006,
+        "district_code": 217106,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Baloi Indah",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 2172011003,
+        "district_code": 217201,
+        "regency_code": 2172,
+        "province_code": 21,
+        "name": "Kampung Baru",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    }
+]

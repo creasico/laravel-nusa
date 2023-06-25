@@ -1,0 +1,515 @@
+[
+    {
+        "code": 510101,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Negara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510403,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Gianyar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510209,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Baturiti",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510701,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Rendang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 517104,
+        "regency_code": 5171,
+        "province_code": 51,
+        "name": "Denpasar Utara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510703,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Manggis",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510802,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Seririt",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510807,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Sawan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510503,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Klungkung",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510306,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Kuta Utara",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510801,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Gerokgak",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510103,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Pekutatan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510104,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Melaya",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510201,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Selemadeg",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510206,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Kediri",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510210,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Pupuan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510405,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Ubud",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510105,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Jembrana",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510202,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Salamadeg Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510204,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Kerambitan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510805,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Sukasada",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510803,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Busungbiu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 517101,
+        "regency_code": 5171,
+        "province_code": 51,
+        "name": "Denpasar Selatan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510402,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Blahbatuh",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510502,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Banjarangkan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510808,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Kubutambahan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510706,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Bebandem",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510806,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Buleleng",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510504,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Dawan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510302,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Mengwi",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510601,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Susut",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510708,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Kubu",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510603,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Tembuku",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510707,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Selat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 517102,
+        "regency_code": 5171,
+        "province_code": 51,
+        "name": "Denpasar Timur",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510406,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Tegallalang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510407,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Payangan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510702,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Sidemen",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510704,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Karangasem",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510804,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Banjar",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510203,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Salemadeg Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510705,
+        "regency_code": 5107,
+        "province_code": 51,
+        "name": "Abang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 517103,
+        "regency_code": 5171,
+        "province_code": 51,
+        "name": "Denpasar Barat",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510208,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Penebel",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510301,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Kuta",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510401,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Sukawati",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510205,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Tabanan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510602,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Bangli",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510604,
+        "regency_code": 5106,
+        "province_code": 51,
+        "name": "Kintamani",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510809,
+        "regency_code": 5108,
+        "province_code": 51,
+        "name": "Tejakula",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510102,
+        "regency_code": 5101,
+        "province_code": 51,
+        "name": "Mendoyo",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510207,
+        "regency_code": 5102,
+        "province_code": 51,
+        "name": "Marga",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510304,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Petang",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510305,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Kuta Selatan",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510501,
+        "regency_code": 5105,
+        "province_code": 51,
+        "name": "Nusa Penida",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510303,
+        "regency_code": 5103,
+        "province_code": 51,
+        "name": "Abiansemal",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    },
+    {
+        "code": 510404,
+        "regency_code": 5104,
+        "province_code": 51,
+        "name": "Tampaksiring",
+        "latitude": null,
+        "longitude": null,
+        "coordinates": null
+    }
+]

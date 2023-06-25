@@ -1,0 +1,456 @@
+code,regency_code,province_code,name,latitude,longitude,coordinates
+120101,1201,12,Barus,,,null
+120105,1201,12,Manduamas,,,null
+120208,1202,12,"Purba Tua",,,null
+120214,1202,12,Garoga,,,null
+120725,1207,12,"Labuhan Deli",,,null
+121309,1213,12,"Lembah Sorik Marapi",,,null
+121310,1213,12,Tambangan,,,null
+121416,1214,12,"Pulau-Pulau Batu Timur",,,null
+121606,1216,12,"Dolok Sanggul",,,null
+127207,1272,12,"Siantar Sitalasari",,,null
+120203,1202,12,"Adian Koting",,,null
+120421,1204,12,Botomuzoi,,,null
+120616,1206,12,"Naman Teran",,,null
+120617,1206,12,Tiganderket,,,null
+120708,1207,12,"STM Hilir",,,null
+120722,1207,12,"Deli Tua",,,null
+120827,1208,12,"Silou Kahean",,,null
+120924,1209,12,"Sei Kepayang Barat",,,null
+121107,1211,12,"Siempat Nempu Hulu",,,null
+121112,1211,12,"Gunung Sitember",,,null
+121206,1212,12,Borbor,,,null
+121318,1213,12,"Ranto Baek",,,null
+121320,1213,12,"Puncak Sorik Marapi",,,null
+121404,1214,12,Hibala,,,null
+121414,1214,12,Umbunasi,,,null
+122110,1221,12,"Barumun Selatan",,,null
+127204,1272,12,"Siantar Selatan",,,null
+120501,1205,12,Bahorok,,,null
+120502,1205,12,Salapian,,,null
+120604,1206,12,Tigapanah,,,null
+120607,1206,12,Juhar,,,null
+120613,1206,12,Kutabuluh,,,null
+120723,1207,12,Sunggal,,,null
+120801,1208,12,Siantar,,,null
+121424,1214,12,Ulususua,,,null
+121428,1214,12,Simuk,,,null
+121701,1217,12,Simanindo,,,null
+121811,1218,12,Silinda,,,null
+122303,1223,12,"Kualuh Hilir",,,null
+122306,1223,12,"Na IX - X",,,null
+122508,1225,12,"Ulu Moro'o",,,null
+120113,1201,12,Sitahuis,,,null
+120610,1206,12,Mardingding,,,null
+120701,1207,12,"Gunung Meriah",,,null
+121102,1211,12,Sumbul,,,null
+121605,1216,12,"Lintong Nihuta",,,null
+121805,1218,12,"Tanjung Beringin",,,null
+121808,1218,12,Sipispis,,,null
+121908,1219,12,"Laut Tador",,,null
+122012,1220,12,"Ujung Batu",,,null
+122109,1221,12,"Batang Lubu Sutam",,,null
+122410,1224,12,Lahewa,,,null
+122502,1225,12,Sirombu,,,null
+127401,1274,12,"Tanjung Balai Selatan",,,null
+127502,1275,12,"Binjai Kota",,,null
+127706,1277,12,"Padangsidimpuan Angkola Julu",,,null
+120201,1202,12,Tarutung,,,null
+120204,1202,12,Sipoholon,,,null
+120329,1203,12,"Muara Batang Toru",,,null
+120608,1206,12,Tigabinanga,,,null
+120615,1206,12,Merdeka,,,null
+120702,1207,12,"Tanjung Morawa",,,null
+120728,1207,12,"Lubuk Pakam",,,null
+120807,1208,12,"Raya Kahean",,,null
+120923,1209,12,"Sei Dadap",,,null
+120930,1209,12,"Pulo Bandring",,,null
+121014,1210,12,Pangkatan,,,null
+121205,1212,12,"Pintu Pohan Meranti",,,null
+121413,1214,12,Mazino,,,null
+121430,1214,12,"Pulau-Pulau Batu Utara",,,null
+121502,1215,12,Kerajaan,,,null
+121911,1219,12,"Datuk Tanah Datar",,,null
+121912,1219,12,"Nibung Hangus",,,null
+122302,1223,12,"Kualuh Leidong",,,null
+122501,1225,12,Lahomi,,,null
+127404,1274,12,"Teluk Nibung",,,null
+120103,1201,12,Pandan,,,null
+120114,1201,12,Tukka,,,null
+120117,1201,12,"Barus Utara",,,null
+120303,1203,12,"Angkola Timur",,,null
+120429,1204,12,Somolo-molo,,,null
+120520,1205,12,"Sawit Seberang",,,null
+120802,1208,12,"Gunung Malela",,,null
+120912,1209,12,"Simpang Empat",,,null
+121106,1211,12,"Tanah Pinem",,,null
+121321,1213,12,Pakantan,,,null
+121402,1214,12,Gomo,,,null
+121408,1214,12,Lolowau,,,null
+121425,1214,12,Sidua'ori,,,null
+121506,1215,12,Pagindar,,,null
+121603,1216,12,Baktiraja,,,null
+121910,1219,12,"Datuk Lima Puluh",,,null
+127103,1271,12,"Medan Helvetia",,,null
+127301,1273,12,"Sibolga Utara",,,null
+120212,1202,12,Sipahutar,,,null
+120505,1205,12,Binjai,,,null
+120733,1207,12,Beringin,,,null
+120909,1209,12,"Air Joman",,,null
+120919,1209,12,"Kota Kisaran Barat",,,null
+120932,1209,12,"Aek Ledong",,,null
+121109,1211,12,"Pegagan Hilir",,,null
+121429,1214,12,"Pulau-Pulau Batu Barat",,,null
+121814,1218,12,Pegajahan,,,null
+122113,1221,12,"Barumun Baru",,,null
+122116,1221,12,"Barumun Barat",,,null
+122407,1224,12,Alasa,,,null
+127503,1275,12,"Binjai Barat",,,null
+120119,1201,12,Lumut,,,null
+120411,1204,12,Bawolato,,,null
+120703,1207,12,Sibolangit,,,null
+121009,1210,12,"Bilah Hulu",,,null
+121406,1214,12,"Teluk Dalam",,,null
+121417,1214,12,Mazo,,,null
+121601,1216,12,Parlilitan,,,null
+121610,1216,12,Tarabintang,,,null
+121704,1217,12,Palipi,,,null
+121706,1217,12,"Sianjar Mula Mula",,,null
+122106,1221,12,"Ulu Barumun",,,null
+122117,1221,12,"Sosa Timur",,,null
+122204,1222,12,"Sungai Kanan",,,null
+127109,1271,12,"Medan Amplas",,,null
+127303,1273,12,"Sibolga Selatan",,,null
+120306,1203,12,"Angkola Selatan",,,null
+120331,1203,12,"Angkola Sangkunur",,,null
+120606,1206,12,Munte,,,null
+120727,1207,12,"Batang Kuis",,,null
+120813,1208,12,"Dolok Panribuan",,,null
+121110,1211,12,Parbuluan,,,null
+121111,1211,12,"Lae Parira",,,null
+121210,1212,12,Uluan,,,null
+121409,1214,12,Susua,,,null
+121609,1216,12,Pakkat,,,null
+122009,1220,12,"Hulu Sihapas",,,null
+122203,1222,12,Torgamba,,,null
+122405,1224,12,"Namohalu Esiwa",,,null
+122411,1224,12,"Lahewa Timur",,,null
+127104,1271,12,"Medan Denai",,,null
+127201,1272,12,"Siantar Timur",,,null
+127601,1276,12,"Padang Hulu",,,null
+120107,1201,12,"Tapian Nauli",,,null
+120809,1208,12,Sidamanik,,,null
+120821,1208,12,"Pematang Bandar",,,null
+120830,1208,12,"Ujung Padang",,,null
+120910,1209,12,"Tanjung Balai",,,null
+121207,1212,12,Porsea,,,null
+121415,1214,12,Aramo,,,null
+121507,1215,12,Tinada,,,null
+121809,1218,12,"Dolok Masihul",,,null
+122104,1221,12,"Lubuk Barumun",,,null
+122114,1221,12,"Ulu Sosa",,,null
+122503,1225,12,"Mandrehe Barat",,,null
+127118,1271,12,"Medan Perjuangan",,,null
+127703,1277,12,"Padangsidimpuan Batunadua",,,null
+127801,1278,12,Gunungsitoli,,,null
+120301,1203,12,"Angkola Barat",,,null
+120304,1203,12,Sipirok,,,null
+120705,1207,12,"Pancur Batu",,,null
+120812,1208,12,Hatonduhan,,,null
+120814,1208,12,Purba,,,null
+120815,1208,12,"Haranggaol Horison",,,null
+120818,1208,12,"Huta Bayu Raja",,,null
+120820,1208,12,"Dolok Pardamean",,,null
+120822,1208,12,"Bandar Huluan",,,null
+120831,1208,12,"Pamatang Silima Huta",,,null
+120832,1208,12,"Dolog Masagal",,,null
+121311,1213,12,"Ulu Pungkut",,,null
+121401,1214,12,Lolomatua,,,null
+121607,1216,12,Sijamapolang,,,null
+121904,1219,12,"Lima Puluh",,,null
+122002,1220,12,Dolok,,,null
+122305,1223,12,Marbau,,,null
+127111,1271,12,"Medan Johor",,,null
+127304,1273,12,"Sibolga Sambas",,,null
+127702,1277,12,"Padangsidimpuan Selatan",,,null
+120115,1201,12,Badiri,,,null
+120719,1207,12,Galang,,,null
+120732,1207,12,"Pantai Labu",,,null
+120826,1208,12,"Dolok Silau",,,null
+120913,1209,12,"Air Batu",,,null
+120914,1209,12,"Pulau Rakyat",,,null
+121307,1213,12,"Bukit Malintang",,,null
+121308,1213,12,Kotanopan,,,null
+121422,1214,12,Onohazumba,,,null
+122005,1220,12,"Padang Bolak Julu",,,null
+122008,1220,12,Simangambat,,,null
+122010,1220,12,"Padang Bolak Tenggara",,,null
+122011,1220,12,"Halongonan Timur",,,null
+127106,1271,12,"Medan Deli",,,null
+127108,1271,12,"Medan Belawan",,,null
+127208,1272,12,"Siantar Marimbun",,,null
+127402,1274,12,"Tanjung Balai Utara",,,null
+127701,1277,12,"Padangsidimpuan Utara",,,null
+120118,1201,12,"Suka Bangun",,,null
+120428,1204,12,Ma'u,,,null
+120709,1207,12,"Bangun Purba",,,null
+121812,1218,12,"Serba Jadi",,,null
+122006,1220,12,Portibi,,,null
+127202,1272,12,"Siantar Barat",,,null
+127203,1272,12,"Siantar Utara",,,null
+127403,1274,12,"Sei Tualang Raso",,,null
+127406,1274,12,"Datuk Bandar Timur",,,null
+120116,1201,12,"Pasaribu Tobing",,,null
+120521,1205,12,Sirapit,,,null
+120523,1205,12,"Pematang Jaya",,,null
+120726,1207,12,"Percut Sei Tuan",,,null
+120808,1208,12,"Bosar Maligas",,,null
+120928,1209,12,"Silau Laut",,,null
+121105,1211,12,"Silima Pungga Pungga",,,null
+121301,1213,12,Panyabungan,,,null
+121304,1213,12,"Panyabungan Selatan",,,null
+121312,1213,12,"Muara Sipongi",,,null
+121432,1214,12,"Luahagundre Maniamolo",,,null
+121702,1217,12,"Onan Runggu",,,null
+121909,1219,12,"Lima Puluh Pesisir",,,null
+122001,1220,12,"Dolok Sigompulon",,,null
+122007,1220,12,"Batang Onang",,,null
+122307,1223,12,"Aek Natas",,,null
+122401,1224,12,Lotu,,,null
+127117,1271,12,"Medan Baru",,,null
+127504,1275,12,"Binjai Timur",,,null
+120206,1202,12,"Pahae Jae",,,null
+120512,1205,12,"Padang Tualang",,,null
+120605,1206,12,Merek,,,null
+120706,1207,12,Namorambe,,,null
+120819,1208,12,"Jawa Maraja Bah Jambi",,,null
+120926,1209,12,"Tinggi Raja",,,null
+121020,1210,12,"Panai Hulu",,,null
+121201,1212,12,Balige,,,null
+121209,1212,12,"Lumban Julu",,,null
+121224,1212,12,Parmaksian,,,null
+121907,1219,12,"Sei Balai",,,null
+127110,1271,12,"Medan Area",,,null
+127605,1276,12,"Tebing Tinggi Kota",,,null
+120332,1203,12,"Angkola Muara Tais",,,null
+120603,1206,12,Barusjahe,,,null
+120612,1206,12,"Simpang Empat",,,null
+121002,1210,12,"Rantau Selatan",,,null
+121208,1212,12,Ajibata,,,null
+121222,1212,12,Tampahan,,,null
+121418,1214,12,Fanayama,,,null
+121419,1214,12,Ulunoyo,,,null
+122409,1224,12,Afulu,,,null
+127505,1275,12,"Binjai Selatan",,,null
+127704,1277,12,"Padangsidimpuan Hutaimbaru",,,null
+121114,1211,12,Silahisabungan,,,null
+121202,1212,12,Laguboti,,,null
+122408,1224,12,"Tugala Oyo",,,null
+127107,1271,12,"Medan Tuntungan",,,null
+127120,1271,12,"Medan Timur",,,null
+127604,1276,12,Bajenis,,,null
+120210,1202,12,Pagaran,,,null
+120410,1204,12,Idanogawo,,,null
+120519,1205,12,"Batang Serangan",,,null
+120724,1207,12,"Hamparan Perak",,,null
+120810,1208,12,"Pematang Sidamanik",,,null
+120829,1208,12,Raya,,,null
+120917,1209,12,"Bandar Pasir Mandoge",,,null
+121019,1210,12,"Panai Hilir",,,null
+121313,1213,12,"Batang Natal",,,null
+121323,1213,12,"Naga Juang",,,null
+121433,1214,12,Onolalu,,,null
+121434,1214,12,"Ulu Idanotae",,,null
+121803,1218,12,"Teluk Mengkudu",,,null
+121906,1219,12,"Tanjung Tiram",,,null
+127405,1274,12,"Datuk Bandar",,,null
+127803,1278,12,"Gunungsitoli Utara",,,null
+120305,1203,12,"Saipar Dolok Hole",,,null
+120322,1203,12,"Aek Bilah",,,null
+120427,1204,12,Ulugawo,,,null
+120503,1205,12,Kuala,,,null
+120506,1205,12,Selesai,,,null
+120507,1205,12,Stabat,,,null
+120804,1208,12,Panei,,,null
+120816,1208,12,"Girsang Sipangan Bolon",,,null
+120823,1208,12,Bandar,,,null
+120918,1209,12,"Aek Kuasan",,,null
+121018,1210,12,"Panai Tengah",,,null
+121204,1212,12,Habinsaran,,,null
+121501,1215,12,"Sitelu Tali Urang Jehe",,,null
+121505,1215,12,"Pergetteng Getteng Sengkut",,,null
+121708,1217,12,Pangururan,,,null
+121802,1218,12,Perbaungan,,,null
+121815,1218,12,"Sei Bamban",,,null
+121816,1218,12,"Tebing Syahbandar",,,null
+122111,1221,12,"Aek Nabara Barumun",,,null
+122505,1225,12,Mandrehe,,,null
+122506,1225,12,"Mandrehe Utara",,,null
+122507,1225,12,"Lolofitu Moi",,,null
+120435,1204,12,Sogae'adu,,,null
+120611,1206,12,Payung,,,null
+120911,1209,12,"Sei Kepayang",,,null
+120929,1209,12,"Rawang Panca Arga",,,null
+121220,1212,12,"Siantar Narumonda",,,null
+121305,1213,12,"Panyabungan Barat",,,null
+121810,1218,12,Kotarih,,,null
+127804,1278,12,"Gunungsitoli Idanoi",,,null
+120302,1203,12,"Batang Toru",,,null
+120721,1207,12,Patumbak,,,null
+120927,1209,12,"Setia Janji",,,null
+121302,1213,12,"Panyabungan Utara",,,null
+121322,1213,12,Sinunukan,,,null
+121423,1214,12,Hilisalawa'ahe,,,null
+121806,1218,12,"Bandar Khalipah",,,null
+122105,1221,12,"Huta Raja Tinggi",,,null
+120102,1201,12,Sorkam,,,null
+120405,1204,12,Hiliduho,,,null
+120514,1205,12,Babalan,,,null
+120614,1206,12,"Dolat Rayat",,,null
+120731,1207,12,"Pagar Merbau",,,null
+120915,1209,12,"Bandar Pulau",,,null
+120925,1209,12,"Sei Kepayang Timur",,,null
+121420,1214,12,Huruna,,,null
+121427,1214,12,Boronadu,,,null
+121435,1214,12,Idanotae,,,null
+121503,1215,12,Salak,,,null
+127205,1272,12,"Siantar Marihat",,,null
+127705,1277,12,"Padangsidimpuan Tenggara",,,null
+120104,1201,12,Pinangsori,,,null
+120109,1201,12,Sosorgadong,,,null
+120307,1203,12,"Batang Angkola",,,null
+120420,1204,12,Hiliserangkai,,,null
+120517,1205,12,"Sei Lepan",,,null
+120803,1208,12,"Gunung Maligas",,,null
+120805,1208,12,"Panombeian Pane",,,null
+121104,1211,12,"Siempat Nempu",,,null
+121303,1213,12,"Panyabungan Timur",,,null
+121314,1213,12,"Lingga Bayu",,,null
+122101,1221,12,Sosopan,,,null
+122108,1221,12,Sosa,,,null
+127101,1271,12,"Medan Kota",,,null
+120320,1203,12,Marancar,,,null
+121317,1213,12,"Muara Batang Gadis",,,null
+121608,1216,12,"Onan Ganjang",,,null
+121709,1217,12,Sitio-tio,,,null
+121804,1218,12,"Sei Rampah",,,null
+122003,1220,12,Halongonan,,,null
+122404,1224,12,"Sitolu Ori",,,null
+127112,1271,12,"Medan Marelan",,,null
+127115,1271,12,"Medan Maimun",,,null
+127116,1271,12,"Medan Polonia",,,null
+120112,1201,12,"Andam Dewi",,,null
+120330,1203,12,"Tano Tombangan Angkola",,,null
+120511,1205,12,"Tanjung Pura",,,null
+120513,1205,12,Gebang,,,null
+120704,1207,12,Kutalimbaru,,,null
+120720,1207,12,"STM Hulu",,,null
+120825,1208,12,Silimakuta,,,null
+121001,1210,12,"Rantau Utara",,,null
+121115,1211,12,Sitinjo,,,null
+121221,1212,12,Nassau,,,null
+121306,1213,12,Siabu,,,null
+121421,1214,12,O'o'u,,,null
+121602,1216,12,Pollung,,,null
+121817,1218,12,"Bintang Bayu",,,null
+121903,1219,12,"Air Putih",,,null
+122004,1220,12,"Padang Bolak",,,null
+120209,1202,12,Siborong-Borong,,,null
+120211,1202,12,Parmonangan,,,null
+120508,1205,12,Wampu,,,null
+120602,1206,12,Berastagi,,,null
+121203,1212,12,Silaen,,,null
+121807,1218,12,"Dolok Merawan",,,null
+121902,1219,12,"Sei Suka",,,null
+122103,1221,12,Huristak,,,null
+122112,1221,12,"Sihapas Barumun",,,null
+122304,1223,12,"Aek Kuo",,,null
+122402,1224,12,Sawo,,,null
+127302,1273,12,"Sibolga Kota",,,null
+127806,1278,12,"Gunungsitoli Barat",,,null
+120106,1201,12,Kolang,,,null
+120110,1201,12,"Sorkam Barat",,,null
+120111,1201,12,Sirandorung,,,null
+120314,1203,12,Arse,,,null
+120321,1203,12,"Sayur Matinggi",,,null
+120504,1205,12,"Sei Bingei",,,null
+121103,1211,12,Tigalingga,,,null
+121113,1211,12,Berampu,,,null
+121315,1213,12,Batahan,,,null
+121316,1213,12,Natal,,,null
+121504,1215,12,"Sitelu Tali Urang Julu",,,null
+121703,1217,12,Nainggolan,,,null
+122406,1224,12,"Alasa Talumuzoi",,,null
+127501,1275,12,"Binjai Utara",,,null
+120202,1202,12,"Siatas Barita",,,null
+120205,1202,12,"Pahae Julu",,,null
+120406,1204,12,Gido,,,null
+120510,1205,12,Hinai,,,null
+120518,1205,12,"Berandan Barat",,,null
+120817,1208,12,"Dolok Batu Nanggar",,,null
+120916,1209,12,"Buntu Pane",,,null
+120922,1209,12,Rahunig,,,null
+120931,1209,12,"Teluk Dalam",,,null
+121007,1210,12,"Bilah Barat",,,null
+121101,1211,12,Sidikalang,,,null
+121403,1214,12,Lahusa,,,null
+121426,1214,12,Somambawa,,,null
+121901,1219,12,"Medang Deras",,,null
+122102,1221,12,"Barumun Tengah",,,null
+122107,1221,12,Barumun,,,null
+127119,1271,12,"Medan Petisah",,,null
+127206,1272,12,"Siantar Martoba",,,null
+127603,1276,12,"Padang Hilir",,,null
+127805,1278,12,"Gunungsitoli Alo'oa",,,null
+120120,1201,12,Sarudik,,,null
+120920,1209,12,"Kota Kisaran Timur",,,null
+121108,1211,12,"Siempat Nempu Hilir",,,null
+121223,1212,12,"Bonatua Lunasi",,,null
+121508,1215,12,"Siempat Rube",,,null
+122202,1222,12,"Kampung Rakyat",,,null
+122301,1223,12,"Kualuh Hulu",,,null
+127602,1276,12,Rambutan,,,null
+120108,1201,12,Sibabangun,,,null
+120213,1202,12,Pangaribuan,,,null
+120609,1206,12,Laubaleng,,,null
+120921,1209,12,"Aek Songsongan",,,null
+121008,1210,12,"Bilah Hilir",,,null
+121219,1212,12,Sigumpar,,,null
+121319,1213,12,"Huta Bargot",,,null
+121405,1214,12,"Pulau-Pulau Batu",,,null
+121604,1216,12,Paranginan,,,null
+121707,1217,12,"Ronggur Nihuta",,,null
+121905,1219,12,Talawi,,,null
+122115,1221,12,"Sosa Julu",,,null
+122201,1222,12,Kotapinang,,,null
+122205,1222,12,Silangkitang,,,null
+122403,1224,12,Tuhemberua,,,null
+120215,1202,12,Muara,,,null
+120515,1205,12,"Pangkalan Susu",,,null
+120516,1205,12,Besitang,,,null
+120522,1205,12,Kutambaru,,,null
+120707,1207,12,Sibiru-biru,,,null
+120806,1208,12,"Jorlang Hataran",,,null
+120828,1208,12,"Tapian Dolok",,,null
+121411,1214,12,Hilimegai,,,null
+121705,1217,12,Harian,,,null
+121801,1218,12,"Pantai Cermin",,,null
+121813,1218,12,"Tebing Tinggi",,,null
+127105,1271,12,"Medan Barat",,,null
+127113,1271,12,"Medan Labuhan",,,null
+127121,1271,12,"Medan Selayang",,,null
+120207,1202,12,Simangumban,,,null
+120509,1205,12,Secanggang,,,null
+120601,1206,12,Kabanjahe,,,null
+120811,1208,12,"Tanah Jawa",,,null
+120824,1208,12,"Bandar Masilam",,,null
+120908,1209,12,Meranti,,,null
+121407,1214,12,Amandraya,,,null
+121410,1214,12,Maniamolo,,,null
+121412,1214,12,Toma,,,null
+121431,1214,12,"Tanah Masa",,,null
+122308,1223,12,"Kualuh Selatan",,,null
+122504,1225,12,Moro'o,,,null
+127102,1271,12,"Medan Sunggal",,,null
+127114,1271,12,"Medan Tembung",,,null
+127802,1278,12,"Gunungsitoli Selatan",,,null
