@@ -9,7 +9,7 @@ on:
 
 env:
   DB_NAME: indonesia
-  DB_HOST: mysql
+  # DB_HOST: 127.0.0.1
   DB_USER: creasico
   DB_PASS: secret
 
