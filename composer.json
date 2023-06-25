@@ -19,6 +19,9 @@
         ],
         "test": [
             "vendor/bin/phpunit --colors=always --coverage-text"
+        ],
+        "db:import": [
+            "Creasi\\Scripts\\Database::import"
         ]
     },
     "autoload": {
@@ -40,6 +43,7 @@
         "illuminate/support": "^10.0"
     },
     "require-dev": {
+        "composer-runtime-api": "*",
         "laravel/pint": "^1.1",
         "mockery/mockery": "^1.5",
         "orchestra/testbench": "^8.5",
