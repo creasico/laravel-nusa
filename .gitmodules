@@ -1,0 +1,3 @@
+[submodule "submodules/cahyadsn-wilayah"]
+	path = submodules/cahyadsn-wilayah
+	url = https://github.com/cahyadsn/wilayah.git
