@@ -50,16 +50,23 @@ class Database
             $self->query($coordinatesSql);
         }
 
+        if ($postalSql = file_get_contents($self->libPath.'/submodules/w3appdev-kodepos/kodewilayah2023.sql')) {
+            $self->query($postalSql);
+        }
+
         $stmt = $self->query(<<<SQL
             SELECT
                 w.kode, w.nama,
+                p.kodepos,
                 l.lat, l.lng, l.elv, l.tz, l.luas, l.penduduk, l.path
             FROM wilayah w
             LEFT JOIN wilayah_level_1_2 l ON w.kode = l.kode
+            LEFT JOIN kodewilayah2023 p on w.kode = p.kodewilayah
+            ORDER BY w.kode
         SQL, PDO::FETCH_OBJ);
 
         $data = collect($stmt->fetchAll())->reduce(function ($regions, $item) {
-            $data = new Normalizer($item->kode, $item->nama, $item->lat, $item->lng, $item->path);
+            $data = new Normalizer($item->kode, $item->nama, $item->kodepos, $item->lat, $item->lng, $item->path);
 
             $regions[$data->type][] = $data->normalize();
 

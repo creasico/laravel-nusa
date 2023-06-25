@@ -13,6 +13,7 @@ class Normalizer
     public function __construct(
         public readonly string $code,
         public readonly string $name,
+        public readonly ?string $postal_code,
         public readonly ?float $latitude = null,
         public readonly ?float $longitude = null,
         ?string $coordinates = null,
@@ -82,6 +83,7 @@ class Normalizer
             'regency_code' => (int) ($province_code.$regency_code),
             'province_code' => (int) $province_code,
             'name' => $this->name,
+            'postal_code' => $this->postal_code,
             'latitude' => $this->latitude,
             'longitude' => $this->longitude,
             'coordinates' => $this->coordinates,
