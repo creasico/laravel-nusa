@@ -8,7 +8,7 @@ on:
     paths: ['.github/**.yml', 'src/*', 'tests/*']
 
 env:
-  DB_NAME: indonesia
+  DB_NAME: nusantara
   DB_USER: creasico
   DB_PASS: secret
 
