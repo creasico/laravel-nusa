@@ -5,9 +5,7 @@ declare(strict_types=1);
 namespace Creasi\Nusa\Models;
 
 /**
- * @property-read int $code
  * @property-read int $province_code
- * @property-read string $name
  * @property-read Province $province
  * @property-read \Illuminate\Database\Eloquent\Collection<int, District>|District[] $districts
  * @property-read \Illuminate\Database\Eloquent\Collection<int, Village>|Village[] $villages

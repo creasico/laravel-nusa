@@ -47,22 +47,37 @@ class SyncCommand extends Command
 
         $this->migrateIfNotMigrated();
 
-        foreach ($this->fetch() as $table => $content) {
-            $this->writeCsv($table, $content);
+        $path = "{$this->libPath}/resources/json";
 
-            $this->writeJson($table, $content);
+        $provinces = \json_decode(
+            file_get_contents("{$path}/provinces.json"),
+            true,
+        );
 
-            $model = $models[$table];
+        foreach ($provinces as $province) {
+            /** @var Province */
+            $province = Province::query()->create($province);
 
-            if ($table !== 'villages') {
-                $model::insert($content);
+            $regencies = \json_decode(
+                file_get_contents("{$path}/{$province->code}/regencies.json"),
+                true,
+            );
 
-                continue;
-            }
+            $province->regencies()->createMany($regencies);
 
-            \collect($content)->groupBy('district_code')->each(function (Collection $chunk) use ($model) {
-                $model::insert($chunk->toArray());
-            });
+            $districts = \json_decode(
+                file_get_contents("{$path}/{$province->code}/districts.json"),
+                true,
+            );
+
+            District::query()->insert($districts);
+
+            $villages = \json_decode(
+                file_get_contents("{$path}/{$province->code}/villages.json"),
+                true,
+            );
+
+            Village::query()->insert($villages);
         }
 
         return 0;
@@ -82,52 +97,5 @@ class SyncCommand extends Command
             '--realpath' => true,
             '--path' => $this->libPath.'/database/migrations/create_nusa_tables.php',
         ]);
-    }
-
-    private function writeCsv(string $filename, array $content): void
-    {
-        $csv = [
-            array_keys($content[0]),
-        ];
-
-        foreach ($content as $value) {
-            $csv[] = array_values($value);
-        }
-
-        $fp = fopen("{$this->libPath}/resources/csv/$filename.csv", 'w');
-
-        foreach ($csv as $line) {
-            fputcsv($fp, $line);
-        }
-
-        fclose($fp);
-    }
-
-    private function writeJson(string $filename, array $content): void
-    {
-        file_put_contents("{$this->libPath}/resources/json/$filename.json", json_encode($content, JSON_PRETTY_PRINT));
-    }
-
-    /**
-     * @return array<string, array>
-     */
-    private function fetch(): array
-    {
-        $name = $this->argument('dbname');
-        $host = $this->option('host');
-
-        $db = new PDO("mysql:dbname={$name};host={$host}", $this->option('user'), $this->option('pass'), [
-            PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
-        ]);
-
-        $stmt = $db->query('SELECT * from wilayah', PDO::FETCH_OBJ);
-
-        return collect($stmt->fetchAll())->reduce(function ($regions, $item) {
-            $data = new Normalizer($item->kode, $item->nama);
-
-            $regions[$data->type][] = $data->normalize();
-
-            return $regions;
-        }, []);
     }
 }
