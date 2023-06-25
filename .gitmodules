@@ -1,3 +1,6 @@
 [submodule "submodules/cahyadsn-wilayah"]
 	path = submodules/cahyadsn-wilayah
 	url = https://github.com/cahyadsn/wilayah.git
+[submodule "submodules/w3appdev-kodepos"]
+	path = submodules/w3appdev-kodepos
+	url = https://github.com/w3appdev/kodepos.git
