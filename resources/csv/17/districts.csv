@@ -1,130 +1,130 @@
-code,regency_code,province_code,name,latitude,longitude,coordinates
-170101,1701,17,Kedurang,,,null
-170102,1701,17,Seginim,,,null
-170103,1701,17,Pino,,,null
-170104,1701,17,Manna,,,null
-170105,1701,17,"Kota Manna",,,null
-170106,1701,17,"Pino Raya",,,null
-170107,1701,17,"Kedurang Ilir",,,null
-170108,1701,17,"Air Nipis",,,null
-170109,1701,17,"Ulu Manna",,,null
-170110,1701,17,"Bunga Mas",,,null
-170111,1701,17,"Pasar Manna",,,null
-170206,1702,17,"Kota Padang",,,null
-170207,1702,17,"Padang Ulak Tanding",,,null
-170208,1702,17,"Sindang Kelingi",,,null
-170209,1702,17,Curup,,,null
-170210,1702,17,"Bermani Ulu",,,null
-170211,1702,17,"Selupu Rejang",,,null
-170216,1702,17,"Curup Utara",,,null
-170217,1702,17,"Curup Timur",,,null
-170218,1702,17,"Curup Selatan",,,null
-170219,1702,17,"Curup Tengah",,,null
-170220,1702,17,Binduriang,,,null
-170221,1702,17,"Sindang Beliti Ulu",,,null
-170222,1702,17,"Sindang Dataran",,,null
-170223,1702,17,"Sindang Beliti Ilir",,,null
-170224,1702,17,"Bermani Ulu Raya",,,null
-170301,1703,17,Enggano,,,null
-170306,1703,17,Kerkap,,,null
-170307,1703,17,"Kota Arga Makmur",,,null
-170308,1703,17,"Giri Mulya",,,null
-170309,1703,17,"Padang Jaya",,,null
-170310,1703,17,Lais,,,null
-170311,1703,17,"Batik Nau",,,null
-170312,1703,17,Ketahun,,,null
-170313,1703,17,"Napal Putih",,,null
-170314,1703,17,"Putri Hijau",,,null
-170315,1703,17,"Air Besi",,,null
-170316,1703,17,"Air Napal",,,null
-170319,1703,17,"Hulu Palik",,,null
-170320,1703,17,"Air Padang",,,null
-170321,1703,17,"Arma Jaya",,,null
-170322,1703,17,"Tanjung Agung Palik",,,null
-170323,1703,17,"Ulok Kupai",,,null
-170324,1703,17,"Pinang Raya",,,null
-170325,1703,17,"Marga Sakti Sebelat",,,null
-170401,1704,17,Kinal,,,null
-170402,1704,17,"Tanjung Kemuning",,,null
-170403,1704,17,"Kaur Utara",,,null
-170404,1704,17,"Kaur Tengah",,,null
-170405,1704,17,"Kaur Selatan",,,null
-170406,1704,17,Maje,,,null
-170407,1704,17,Nasal,,,null
-170408,1704,17,"Semidang Gumay",,,null
-170409,1704,17,"Kelam Tengah",,,null
-170410,1704,17,Luas,,,null
-170411,1704,17,"Muara Sahung",,,null
-170412,1704,17,Tetap,,,null
-170413,1704,17,"Lungkang Kule",,,null
-170414,1704,17,"Padang Guci Hilir",,,null
-170415,1704,17,"Padang Guci Hulu",,,null
-170501,1705,17,Sukaraja,,,null
-170502,1705,17,Seluma,,,null
-170503,1705,17,Talo,,,null
-170504,1705,17,"Semidang Alas",,,null
-170505,1705,17,"Semidang Alas Maras",,,null
-170506,1705,17,"Air Periukan",,,null
-170507,1705,17,"Lubuk Sandi",,,null
-170508,1705,17,"Seluma Barat",,,null
-170509,1705,17,"Seluma Timur",,,null
-170510,1705,17,"Seluma Utara",,,null
-170511,1705,17,"Seluma Selatan",,,null
-170512,1705,17,"Talo Kecil",,,null
-170513,1705,17,"Ulu Talo",,,null
-170514,1705,17,"Ilir Talo",,,null
-170601,1706,17,"Lubuk Pinang",,,null
-170602,1706,17,"Kota Mukomuko",,,null
-170603,1706,17,"Teras Terunjam",,,null
-170604,1706,17,"Pondok Suguh",,,null
-170605,1706,17,Ipuh,,,null
-170606,1706,17,"Malin Deman",,,null
-170607,1706,17,"Air Rami",,,null
-170608,1706,17,"Teramang Jaya",,,null
-170609,1706,17,"Selagan Raya",,,null
-170610,1706,17,Penarik,,,null
-170611,1706,17,"XIV Koto",,,null
-170612,1706,17,"V Koto",,,null
-170613,1706,17,"Air Majunto",,,null
-170614,1706,17,"Air Dikit",,,null
-170615,1706,17,"Sungai Rumbai",,,null
-170701,1707,17,"Lebong Utara",,,null
-170702,1707,17,"Lebong Atas",,,null
-170703,1707,17,"Lebong Tengah",,,null
-170704,1707,17,"Lebong Selatan",,,null
-170705,1707,17,"Rimbo Pengadang",,,null
-170706,1707,17,Topos,,,null
-170707,1707,17,"Bingin Kuning",,,null
-170708,1707,17,"Lebong Sakti",,,null
-170709,1707,17,Pelabai,,,null
-170710,1707,17,Amen,,,null
-170711,1707,17,"Uram Jaya",,,null
-170712,1707,17,"Pinang Belapis",,,null
-170801,1708,17,"Bermani Ilir",,,null
-170802,1708,17,"Ujan Mas",,,null
-170803,1708,17,"Tebat Karai",,,null
-170804,1708,17,Kepahiang,,,null
-170805,1708,17,Merigi,,,null
-170806,1708,17,Kebawetan,,,null
-170807,1708,17,"Seberang Musi",,,null
-170808,1708,17,"Muara Kemumu",,,null
-170901,1709,17,"Karang Tinggi",,,null
-170902,1709,17,"Talang Empat",,,null
-170903,1709,17,"Pondok Kelapa",,,null
-170904,1709,17,"Pematang Tiga",,,null
-170905,1709,17,"Pagar Jati",,,null
-170906,1709,17,"Taba Penanjung",,,null
-170907,1709,17,"Merigi Kelindang",,,null
-170908,1709,17,"Merigi Sakti",,,null
-170909,1709,17,"Pondok Kubang",,,null
-170910,1709,17,"Bang Haji",,,null
-170911,1709,17,"Semidang Lagan",,,null
-177101,1771,17,Selebar,,,null
-177102,1771,17,"Gading Cempaka",,,null
-177103,1771,17,"Teluk Segara",,,null
-177104,1771,17,"Muara Bangka Hulu",,,null
-177105,1771,17,"Kampung Melayu",,,null
-177106,1771,17,"Ratu Agung",,,null
-177107,1771,17,"Ratu Samban",,,null
-177108,1771,17,"Sungai Serut",,,null
-177109,1771,17,"Singaran Pati",,,null
+code,regency_code,province_code,name
+170101,1701,17,Kedurang
+170102,1701,17,Seginim
+170103,1701,17,Pino
+170104,1701,17,Manna
+170105,1701,17,"Kota Manna"
+170106,1701,17,"Pino Raya"
+170107,1701,17,"Kedurang Ilir"
+170108,1701,17,"Air Nipis"
+170109,1701,17,"Ulu Manna"
+170110,1701,17,"Bunga Mas"
+170111,1701,17,"Pasar Manna"
+170206,1702,17,"Kota Padang"
+170207,1702,17,"Padang Ulak Tanding"
+170208,1702,17,"Sindang Kelingi"
+170209,1702,17,Curup
+170210,1702,17,"Bermani Ulu"
+170211,1702,17,"Selupu Rejang"
+170216,1702,17,"Curup Utara"
+170217,1702,17,"Curup Timur"
+170218,1702,17,"Curup Selatan"
+170219,1702,17,"Curup Tengah"
+170220,1702,17,Binduriang
+170221,1702,17,"Sindang Beliti Ulu"
+170222,1702,17,"Sindang Dataran"
+170223,1702,17,"Sindang Beliti Ilir"
+170224,1702,17,"Bermani Ulu Raya"
+170301,1703,17,Enggano
+170306,1703,17,Kerkap
+170307,1703,17,"Kota Arga Makmur"
+170308,1703,17,"Giri Mulya"
+170309,1703,17,"Padang Jaya"
+170310,1703,17,Lais
+170311,1703,17,"Batik Nau"
+170312,1703,17,Ketahun
+170313,1703,17,"Napal Putih"
+170314,1703,17,"Putri Hijau"
+170315,1703,17,"Air Besi"
+170316,1703,17,"Air Napal"
+170319,1703,17,"Hulu Palik"
+170320,1703,17,"Air Padang"
+170321,1703,17,"Arma Jaya"
+170322,1703,17,"Tanjung Agung Palik"
+170323,1703,17,"Ulok Kupai"
+170324,1703,17,"Pinang Raya"
+170325,1703,17,"Marga Sakti Sebelat"
+170401,1704,17,Kinal
+170402,1704,17,"Tanjung Kemuning"
+170403,1704,17,"Kaur Utara"
+170404,1704,17,"Kaur Tengah"
+170405,1704,17,"Kaur Selatan"
+170406,1704,17,Maje
+170407,1704,17,Nasal
+170408,1704,17,"Semidang Gumay"
+170409,1704,17,"Kelam Tengah"
+170410,1704,17,Luas
+170411,1704,17,"Muara Sahung"
+170412,1704,17,Tetap
+170413,1704,17,"Lungkang Kule"
+170414,1704,17,"Padang Guci Hilir"
+170415,1704,17,"Padang Guci Hulu"
+170501,1705,17,Sukaraja
+170502,1705,17,Seluma
+170503,1705,17,Talo
+170504,1705,17,"Semidang Alas"
+170505,1705,17,"Semidang Alas Maras"
+170506,1705,17,"Air Periukan"
+170507,1705,17,"Lubuk Sandi"
+170508,1705,17,"Seluma Barat"
+170509,1705,17,"Seluma Timur"
+170510,1705,17,"Seluma Utara"
+170511,1705,17,"Seluma Selatan"
+170512,1705,17,"Talo Kecil"
+170513,1705,17,"Ulu Talo"
+170514,1705,17,"Ilir Talo"
+170601,1706,17,"Lubuk Pinang"
+170602,1706,17,"Kota Mukomuko"
+170603,1706,17,"Teras Terunjam"
+170604,1706,17,"Pondok Suguh"
+170605,1706,17,Ipuh
+170606,1706,17,"Malin Deman"
+170607,1706,17,"Air Rami"
+170608,1706,17,"Teramang Jaya"
+170609,1706,17,"Selagan Raya"
+170610,1706,17,Penarik
+170611,1706,17,"XIV Koto"
+170612,1706,17,"V Koto"
+170613,1706,17,"Air Majunto"
+170614,1706,17,"Air Dikit"
+170615,1706,17,"Sungai Rumbai"
+170701,1707,17,"Lebong Utara"
+170702,1707,17,"Lebong Atas"
+170703,1707,17,"Lebong Tengah"
+170704,1707,17,"Lebong Selatan"
+170705,1707,17,"Rimbo Pengadang"
+170706,1707,17,Topos
+170707,1707,17,"Bingin Kuning"
+170708,1707,17,"Lebong Sakti"
+170709,1707,17,Pelabai
+170710,1707,17,Amen
+170711,1707,17,"Uram Jaya"
+170712,1707,17,"Pinang Belapis"
+170801,1708,17,"Bermani Ilir"
+170802,1708,17,"Ujan Mas"
+170803,1708,17,"Tebat Karai"
+170804,1708,17,Kepahiang
+170805,1708,17,Merigi
+170806,1708,17,Kebawetan
+170807,1708,17,"Seberang Musi"
+170808,1708,17,"Muara Kemumu"
+170901,1709,17,"Karang Tinggi"
+170902,1709,17,"Talang Empat"
+170903,1709,17,"Pondok Kelapa"
+170904,1709,17,"Pematang Tiga"
+170905,1709,17,"Pagar Jati"
+170906,1709,17,"Taba Penanjung"
+170907,1709,17,"Merigi Kelindang"
+170908,1709,17,"Merigi Sakti"
+170909,1709,17,"Pondok Kubang"
+170910,1709,17,"Bang Haji"
+170911,1709,17,"Semidang Lagan"
+177101,1771,17,Selebar
+177102,1771,17,"Gading Cempaka"
+177103,1771,17,"Teluk Segara"
+177104,1771,17,"Muara Bangka Hulu"
+177105,1771,17,"Kampung Melayu"
+177106,1771,17,"Ratu Agung"
+177107,1771,17,"Ratu Samban"
+177108,1771,17,"Sungai Serut"
+177109,1771,17,"Singaran Pati"

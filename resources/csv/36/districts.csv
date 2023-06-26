@@ -1,156 +1,156 @@
-code,regency_code,province_code,name,latitude,longitude,coordinates
-360101,3601,36,Sumur,,,null
-360102,3601,36,Cimanggu,,,null
-360103,3601,36,Cibaliung,,,null
-360104,3601,36,Cikeusik,,,null
-360105,3601,36,Cigeulis,,,null
-360106,3601,36,Panimbang,,,null
-360107,3601,36,Angsana,,,null
-360108,3601,36,Munjul,,,null
-360109,3601,36,Pagelaran,,,null
-360110,3601,36,Bojong,,,null
-360111,3601,36,Picung,,,null
-360112,3601,36,Labuan,,,null
-360113,3601,36,Menes,,,null
-360114,3601,36,Saketi,,,null
-360115,3601,36,Cipeucang,,,null
-360116,3601,36,Jiput,,,null
-360117,3601,36,Mandalawangi,,,null
-360118,3601,36,Cimanuk,,,null
-360119,3601,36,Kaduhejo,,,null
-360120,3601,36,Banjar,,,null
-360121,3601,36,Pandeglang,,,null
-360122,3601,36,Cadasari,,,null
-360123,3601,36,Cisata,,,null
-360124,3601,36,Patia,,,null
-360125,3601,36,"Karang Tanjung",,,null
-360126,3601,36,Cikedal,,,null
-360127,3601,36,Cibitung,,,null
-360128,3601,36,Carita,,,null
-360129,3601,36,Sukaresmi,,,null
-360130,3601,36,Mekarjaya,,,null
-360131,3601,36,Sindangresmi,,,null
-360132,3601,36,Pulosari,,,null
-360133,3601,36,Koroncong,,,null
-360134,3601,36,Majasari,,,null
-360135,3601,36,Sobang,,,null
-360201,3602,36,Malingping,,,null
-360202,3602,36,Panggarangan,,,null
-360203,3602,36,Bayah,,,null
-360204,3602,36,Cipanas,,,null
-360205,3602,36,Muncang,,,null
-360206,3602,36,Leuwidamar,,,null
-360207,3602,36,Bojongmanik,,,null
-360208,3602,36,Gunungkencana,,,null
-360209,3602,36,Banjarsari,,,null
-360210,3602,36,Cileles,,,null
-360211,3602,36,Cimarga,,,null
-360212,3602,36,Sajira,,,null
-360213,3602,36,Maja,,,null
-360214,3602,36,Rangkasbitung,,,null
-360215,3602,36,Warunggunung,,,null
-360216,3602,36,Cijaku,,,null
-360217,3602,36,Cikulur,,,null
-360218,3602,36,Cibadak,,,null
-360219,3602,36,Cibeber,,,null
-360220,3602,36,Cilograng,,,null
-360221,3602,36,Wanasalam,,,null
-360222,3602,36,Sobang,,,null
-360223,3602,36,"Curug bitung",,,null
-360224,3602,36,Kalanganyar,,,null
-360225,3602,36,Lebakgedong,,,null
-360226,3602,36,Cihara,,,null
-360227,3602,36,Cirinten,,,null
-360228,3602,36,Cigemlong,,,null
-360301,3603,36,Balaraja,,,null
-360302,3603,36,Jayanti,,,null
-360303,3603,36,Tigaraksa,,,null
-360304,3603,36,Jambe,,,null
-360305,3603,36,Cisoka,,,null
-360306,3603,36,Kresek,,,null
-360307,3603,36,Kronjo,,,null
-360308,3603,36,Mauk,,,null
-360309,3603,36,Kemiri,,,null
-360310,3603,36,Sukadiri,,,null
-360311,3603,36,Rajeg,,,null
-360312,3603,36,"Pasar Kemis",,,null
-360313,3603,36,Teluknaga,,,null
-360314,3603,36,Kosambi,,,null
-360315,3603,36,Pakuhaji,,,null
-360316,3603,36,Sepatan,,,null
-360317,3603,36,Curug,,,null
-360318,3603,36,Cikupa,,,null
-360319,3603,36,Panongan,,,null
-360320,3603,36,Legok,,,null
-360322,3603,36,Pagedangan,,,null
-360323,3603,36,Cisauk,,,null
-360327,3603,36,Sukamulya,,,null
-360328,3603,36,"Kelapa Dua",,,null
-360329,3603,36,"Sindang Jaya",,,null
-360330,3603,36,"Sepatan Timur",,,null
-360331,3603,36,Solear,,,null
-360332,3603,36,"Gunung Kaler",,,null
-360333,3603,36,"Mekar Baru",,,null
-360405,3604,36,Kramatwatu,,,null
-360406,3604,36,Waringinkurung,,,null
-360407,3604,36,Bojonegara,,,null
-360408,3604,36,"Pulo Ampel",,,null
-360409,3604,36,Ciruas,,,null
-360411,3604,36,Kragilan,,,null
-360412,3604,36,Pontang,,,null
-360413,3604,36,Tirtayasa,,,null
-360414,3604,36,Tanara,,,null
-360415,3604,36,Cikande,,,null
-360416,3604,36,Kibin,,,null
-360417,3604,36,Carenang,,,null
-360418,3604,36,Binuang,,,null
-360419,3604,36,Petir,,,null
-360420,3604,36,"Tunjung Teja",,,null
-360422,3604,36,Baros,,,null
-360423,3604,36,Cikeusal,,,null
-360424,3604,36,Pamarayan,,,null
-360425,3604,36,Kopo,,,null
-360426,3604,36,Jawilan,,,null
-360427,3604,36,Ciomas,,,null
-360428,3604,36,Pabuaran,,,null
-360429,3604,36,Padarincang,,,null
-360430,3604,36,Anyar,,,null
-360431,3604,36,Cinangka,,,null
-360432,3604,36,Mancak,,,null
-360433,3604,36,"Gunung Sari",,,null
-360434,3604,36,Bandung,,,null
-360435,3604,36,"Lebak Wangi",,,null
-367101,3671,36,Tangerang,,,null
-367102,3671,36,Jatiuwung,,,null
-367103,3671,36,Batuceper,,,null
-367104,3671,36,Benda,,,null
-367105,3671,36,Cipondoh,,,null
-367106,3671,36,Ciledug,,,null
-367107,3671,36,Karawaci,,,null
-367108,3671,36,Periuk,,,null
-367109,3671,36,Cibodas,,,null
-367110,3671,36,Neglasari,,,null
-367111,3671,36,Pinang,,,null
-367112,3671,36,"Karang Tengah",,,null
-367113,3671,36,Larangan,,,null
-367201,3672,36,Cibeber,,,null
-367202,3672,36,Cilegon,,,null
-367203,3672,36,Pulomerak,,,null
-367204,3672,36,Ciwandan,,,null
-367205,3672,36,Jombang,,,null
-367206,3672,36,Gerogol,,,null
-367207,3672,36,Purwakarta,,,null
-367208,3672,36,Citangkil,,,null
-367301,3673,36,Serang,,,null
-367302,3673,36,Kasemen,,,null
-367303,3673,36,Walantaka,,,null
-367304,3673,36,Curug,,,null
-367305,3673,36,"Cipocok Jaya",,,null
-367306,3673,36,Taktakan,,,null
-367401,3674,36,Serpong,,,null
-367402,3674,36,"Serpong Utara",,,null
-367403,3674,36,"Pondok Aren",,,null
-367404,3674,36,Ciputat,,,null
-367405,3674,36,"Ciputat Timur",,,null
-367406,3674,36,Pamulang,,,null
-367407,3674,36,Setu,,,null
+code,regency_code,province_code,name
+360101,3601,36,Sumur
+360102,3601,36,Cimanggu
+360103,3601,36,Cibaliung
+360104,3601,36,Cikeusik
+360105,3601,36,Cigeulis
+360106,3601,36,Panimbang
+360107,3601,36,Angsana
+360108,3601,36,Munjul
+360109,3601,36,Pagelaran
+360110,3601,36,Bojong
+360111,3601,36,Picung
+360112,3601,36,Labuan
+360113,3601,36,Menes
+360114,3601,36,Saketi
+360115,3601,36,Cipeucang
+360116,3601,36,Jiput
+360117,3601,36,Mandalawangi
+360118,3601,36,Cimanuk
+360119,3601,36,Kaduhejo
+360120,3601,36,Banjar
+360121,3601,36,Pandeglang
+360122,3601,36,Cadasari
+360123,3601,36,Cisata
+360124,3601,36,Patia
+360125,3601,36,"Karang Tanjung"
+360126,3601,36,Cikedal
+360127,3601,36,Cibitung
+360128,3601,36,Carita
+360129,3601,36,Sukaresmi
+360130,3601,36,Mekarjaya
+360131,3601,36,Sindangresmi
+360132,3601,36,Pulosari
+360133,3601,36,Koroncong
+360134,3601,36,Majasari
+360135,3601,36,Sobang
+360201,3602,36,Malingping
+360202,3602,36,Panggarangan
+360203,3602,36,Bayah
+360204,3602,36,Cipanas
+360205,3602,36,Muncang
+360206,3602,36,Leuwidamar
+360207,3602,36,Bojongmanik
+360208,3602,36,Gunungkencana
+360209,3602,36,Banjarsari
+360210,3602,36,Cileles
+360211,3602,36,Cimarga
+360212,3602,36,Sajira
+360213,3602,36,Maja
+360214,3602,36,Rangkasbitung
+360215,3602,36,Warunggunung
+360216,3602,36,Cijaku
+360217,3602,36,Cikulur
+360218,3602,36,Cibadak
+360219,3602,36,Cibeber
+360220,3602,36,Cilograng
+360221,3602,36,Wanasalam
+360222,3602,36,Sobang
+360223,3602,36,"Curug bitung"
+360224,3602,36,Kalanganyar
+360225,3602,36,Lebakgedong
+360226,3602,36,Cihara
+360227,3602,36,Cirinten
+360228,3602,36,Cigemlong
+360301,3603,36,Balaraja
+360302,3603,36,Jayanti
+360303,3603,36,Tigaraksa
+360304,3603,36,Jambe
+360305,3603,36,Cisoka
+360306,3603,36,Kresek
+360307,3603,36,Kronjo
+360308,3603,36,Mauk
+360309,3603,36,Kemiri
+360310,3603,36,Sukadiri
+360311,3603,36,Rajeg
+360312,3603,36,"Pasar Kemis"
+360313,3603,36,Teluknaga
+360314,3603,36,Kosambi
+360315,3603,36,Pakuhaji
+360316,3603,36,Sepatan
+360317,3603,36,Curug
+360318,3603,36,Cikupa
+360319,3603,36,Panongan
+360320,3603,36,Legok
+360322,3603,36,Pagedangan
+360323,3603,36,Cisauk
+360327,3603,36,Sukamulya
+360328,3603,36,"Kelapa Dua"
+360329,3603,36,"Sindang Jaya"
+360330,3603,36,"Sepatan Timur"
+360331,3603,36,Solear
+360332,3603,36,"Gunung Kaler"
+360333,3603,36,"Mekar Baru"
+360405,3604,36,Kramatwatu
+360406,3604,36,Waringinkurung
+360407,3604,36,Bojonegara
+360408,3604,36,"Pulo Ampel"
+360409,3604,36,Ciruas
+360411,3604,36,Kragilan
+360412,3604,36,Pontang
+360413,3604,36,Tirtayasa
+360414,3604,36,Tanara
+360415,3604,36,Cikande
+360416,3604,36,Kibin
+360417,3604,36,Carenang
+360418,3604,36,Binuang
+360419,3604,36,Petir
+360420,3604,36,"Tunjung Teja"
+360422,3604,36,Baros
+360423,3604,36,Cikeusal
+360424,3604,36,Pamarayan
+360425,3604,36,Kopo
+360426,3604,36,Jawilan
+360427,3604,36,Ciomas
+360428,3604,36,Pabuaran
+360429,3604,36,Padarincang
+360430,3604,36,Anyar
+360431,3604,36,Cinangka
+360432,3604,36,Mancak
+360433,3604,36,"Gunung Sari"
+360434,3604,36,Bandung
+360435,3604,36,"Lebak Wangi"
+367101,3671,36,Tangerang
+367102,3671,36,Jatiuwung
+367103,3671,36,Batuceper
+367104,3671,36,Benda
+367105,3671,36,Cipondoh
+367106,3671,36,Ciledug
+367107,3671,36,Karawaci
+367108,3671,36,Periuk
+367109,3671,36,Cibodas
+367110,3671,36,Neglasari
+367111,3671,36,Pinang
+367112,3671,36,"Karang Tengah"
+367113,3671,36,Larangan
+367201,3672,36,Cibeber
+367202,3672,36,Cilegon
+367203,3672,36,Pulomerak
+367204,3672,36,Ciwandan
+367205,3672,36,Jombang
+367206,3672,36,Gerogol
+367207,3672,36,Purwakarta
+367208,3672,36,Citangkil
+367301,3673,36,Serang
+367302,3673,36,Kasemen
+367303,3673,36,Walantaka
+367304,3673,36,Curug
+367305,3673,36,"Cipocok Jaya"
+367306,3673,36,Taktakan
+367401,3674,36,Serpong
+367402,3674,36,"Serpong Utara"
+367403,3674,36,"Pondok Aren"
+367404,3674,36,Ciputat
+367405,3674,36,"Ciputat Timur"
+367406,3674,36,Pamulang
+367407,3674,36,Setu

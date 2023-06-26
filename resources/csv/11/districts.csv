@@ -1,291 +1,291 @@
-code,regency_code,province_code,name,latitude,longitude,coordinates
-110101,1101,11,Bakongan,,,null
-110102,1101,11,"Kluet Utara",,,null
-110103,1101,11,"Kluet Selatan",,,null
-110104,1101,11,"Labuhan Haji",,,null
-110105,1101,11,Meukek,,,null
-110106,1101,11,Samadua,,,null
-110107,1101,11,Sawang,,,null
-110108,1101,11,Tapaktuan,,,null
-110109,1101,11,Trumon,,,null
-110110,1101,11,"Pasi Raja",,,null
-110111,1101,11,"Labuhan Haji Timur",,,null
-110112,1101,11,"Labuhan Haji Barat",,,null
-110113,1101,11,"Kluet Tengah",,,null
-110114,1101,11,"Kluet Timur",,,null
-110115,1101,11,"Bakongan Timur",,,null
-110116,1101,11,"Trumon Timur",,,null
-110117,1101,11,"Kota Bahagia",,,null
-110118,1101,11,"Trumon Tengah",,,null
-110201,1102,11,"Lawe Alas",,,null
-110202,1102,11,"Lawe Sigala-Gala",,,null
-110203,1102,11,Bambel,,,null
-110204,1102,11,Babussalam,,,null
-110205,1102,11,Badar,,,null
-110206,1102,11,"Babul Makmur",,,null
-110207,1102,11,"Darul Hasanah",,,null
-110208,1102,11,"Lawe Bulan",,,null
-110209,1102,11,"Bukit Tusam",,,null
-110210,1102,11,Semadam,,,null
-110211,1102,11,"Babul Rahmah",,,null
-110212,1102,11,Ketambe,,,null
-110213,1102,11,"Deleng Pokhkisen",,,null
-110214,1102,11,"Lawe Sumur",,,null
-110215,1102,11,"Tanoh Alas",,,null
-110216,1102,11,Leuser,,,null
-110301,1103,11,"Darul Aman",,,null
-110302,1103,11,Julok,,,null
-110303,1103,11,"Idi Rayeuk",,,null
-110304,1103,11,"Birem Bayeun",,,null
-110305,1103,11,Serbajadi,,,null
-110306,1103,11,Nurussalam,,,null
-110307,1103,11,Peureulak,,,null
-110308,1103,11,"Rantau Selamat",,,null
-110309,1103,11,"Simpang Ulim",,,null
-110310,1103,11,"Rantau Peureulak",,,null
-110311,1103,11,"Pante Bidari",,,null
-110312,1103,11,Madat,,,null
-110313,1103,11,"Indra Makmu",,,null
-110314,1103,11,"Idi Tunong",,,null
-110315,1103,11,"Banda Alam",,,null
-110316,1103,11,Peudawa,,,null
-110317,1103,11,"Peureulak Timur",,,null
-110318,1103,11,"Peureulak Barat",,,null
-110319,1103,11,"Sungai Raya",,,null
-110320,1103,11,"Simpang Jernih",,,null
-110321,1103,11,"Darul Ihsan",,,null
-110322,1103,11,"Darul Falah",,,null
-110323,1103,11,"Idi Timur",,,null
-110324,1103,11,Peunaron,,,null
-110401,1104,11,Linge,,,null
-110402,1104,11,"Silih Nara",,,null
-110403,1104,11,Bebesen,,,null
-110407,1104,11,Pegasing,,,null
-110408,1104,11,Bintang,,,null
-110410,1104,11,Ketol,,,null
-110411,1104,11,Kebayakan,,,null
-110412,1104,11,"Kute Panang",,,null
-110413,1104,11,Celala,,,null
-110417,1104,11,"Laut Tawar",,,null
-110418,1104,11,"Atu Lintang",,,null
-110419,1104,11,"Jagong Jeget",,,null
-110420,1104,11,Bies,,,null
-110421,1104,11,"Rusip Antara",,,null
-110501,1105,11,"Johan Pahwalan",,,null
-110502,1105,11,"Kaway XVI",,,null
-110503,1105,11,"Sungai Mas",,,null
-110504,1105,11,Woyla,,,null
-110505,1105,11,Samatiga,,,null
-110506,1105,11,Bubon,,,null
-110507,1105,11,"Arongan Lambalek",,,null
-110508,1105,11,"Pante Ceureumen",,,null
-110509,1105,11,Meureubo,,,null
-110510,1105,11,"Woyla Barat",,,null
-110511,1105,11,"Woyla Timur",,,null
-110512,1105,11,"Panton Reu",,,null
-110601,1106,11,Lhoong,,,null
-110602,1106,11,Lhoknga,,,null
-110603,1106,11,Indrapuri,,,null
-110604,1106,11,Seulimeum,,,null
-110605,1106,11,Montasik,,,null
-110606,1106,11,Sukamakmur,,,null
-110607,1106,11,"Darul Imarah",,,null
-110608,1106,11,"Peukan Bada",,,null
-110609,1106,11,"Mesjid Raya",,,null
-110610,1106,11,"Ingin Jaya",,,null
-110611,1106,11,"Kuta Baro",,,null
-110612,1106,11,Darussalam,,,null
-110613,1106,11,"Pulo Aceh",,,null
-110614,1106,11,"Lembah Seulawah",,,null
-110615,1106,11,"Kota Jantho",,,null
-110616,1106,11,"Kota Cot Glie",,,null
-110617,1106,11,"Kuta Malaka",,,null
-110618,1106,11,"Simpang Tiga",,,null
-110619,1106,11,"Darul Kamal",,,null
-110620,1106,11,Baitussalam,,,null
-110621,1106,11,"Krueng Barona Jaya",,,null
-110622,1106,11,Leupung,,,null
-110623,1106,11,"Blang Bintang",,,null
-110703,1107,11,Batee,,,null
-110704,1107,11,Delima,,,null
-110705,1107,11,Geumpang,,,null
-110706,1107,11,"Geulumpang Tiga",,,null
-110707,1107,11,"Indra Jaya",,,null
-110708,1107,11,"Kembang Tanjong",,,null
-110709,1107,11,"Kota Sigli",,,null
-110711,1107,11,Mila,,,null
-110712,1107,11,"Muara Tiga",,,null
-110713,1107,11,Mutiara,,,null
-110714,1107,11,"Padang Tiji",,,null
-110715,1107,11,"Peukan Baro",,,null
-110716,1107,11,Pidie,,,null
-110717,1107,11,Sakti,,,null
-110718,1107,11,"Simpang Tiga",,,null
-110719,1107,11,Tangse,,,null
-110721,1107,11,Tiro/Truseb,,,null
-110722,1107,11,Keumala,,,null
-110724,1107,11,"Mutiara Timur",,,null
-110725,1107,11,Grong-grong,,,null
-110727,1107,11,Mane,,,null
-110729,1107,11,"Glumpang Baro",,,null
-110731,1107,11,Titeue,,,null
-110801,1108,11,Baktiya,,,null
-110802,1108,11,Dewantara,,,null
-110803,1108,11,"Kuta Makmur",,,null
-110804,1108,11,Lhoksukon,,,null
-110805,1108,11,Matangkuli,,,null
-110806,1108,11,"Muara Batu",,,null
-110807,1108,11,"Meurah Mulia",,,null
-110808,1108,11,Samudera,,,null
-110809,1108,11,Seunuddon,,,null
-110810,1108,11,"Syamtalira Aron",,,null
-110811,1108,11,"Syamtalira Bayu",,,null
-110812,1108,11,"Tanah Luas",,,null
-110813,1108,11,"Tanah Pasir",,,null
-110814,1108,11,"T. Jambo Aye",,,null
-110815,1108,11,Sawang,,,null
-110816,1108,11,Nisam,,,null
-110817,1108,11,"Cot Girek",,,null
-110818,1108,11,Langkahan,,,null
-110819,1108,11,"Baktiya Barat",,,null
-110820,1108,11,"Paya Bakong",,,null
-110821,1108,11,Nibong,,,null
-110822,1108,11,"Simpang Kramat",,,null
-110823,1108,11,Lapang,,,null
-110824,1108,11,"Pirak Timur",,,null
-110825,1108,11,"Geuredong Pase",,,null
-110826,1108,11,"Banda Baro",,,null
-110827,1108,11,"Nisam Antara",,,null
-110901,1109,11,"Simeulue Tengah",,,null
-110902,1109,11,Salang,,,null
-110903,1109,11,"Teupah Barat",,,null
-110904,1109,11,"Simeulue Timur",,,null
-110905,1109,11,"Teluk Dalam",,,null
-110906,1109,11,"Simeulue Barat",,,null
-110907,1109,11,"Teupah Selatan",,,null
-110908,1109,11,Alapan,,,null
-110909,1109,11,"Teupah Tengah",,,null
-110910,1109,11,"Simeulue Cut",,,null
-111001,1110,11,"Pulau Banyak",,,null
-111002,1110,11,"Simpang Kanan",,,null
-111004,1110,11,Singkil,,,null
-111006,1110,11,"Gunung Meriah",,,null
-111009,1110,11,"Kota Baharu",,,null
-111010,1110,11,"Singkil Utara",,,null
-111011,1110,11,"Danau Paris",,,null
-111012,1110,11,"Suro Makmur",,,null
-111013,1110,11,Singkohor,,,null
-111014,1110,11,"Kuala Baru",,,null
-111016,1110,11,"Pulau Banyak Barat",,,null
-111101,1111,11,Samalanga,,,null
-111102,1111,11,Jeunieb,,,null
-111103,1111,11,Peudada,,,null
-111104,1111,11,Jeumpa,,,null
-111105,1111,11,Peusangan,,,null
-111106,1111,11,Makmur,,,null
-111107,1111,11,Gandapura,,,null
-111108,1111,11,Pandrah,,,null
-111109,1111,11,Juli,,,null
-111110,1111,11,Jangka,,,null
-111111,1111,11,"Simpang Mamplam",,,null
-111112,1111,11,Peulimbang,,,null
-111113,1111,11,"Kota Juang",,,null
-111114,1111,11,Kuala,,,null
-111115,1111,11,"Peusangan Siblah Krueng",,,null
-111116,1111,11,"Peusangan Selatan",,,null
-111117,1111,11,"Kuta Blang",,,null
-111201,1112,11,"Blang Pidie",,,null
-111202,1112,11,Tangan-Tangan,,,null
-111203,1112,11,Manggeng,,,null
-111204,1112,11,Susoh,,,null
-111205,1112,11,"Kuala Batee",,,null
-111206,1112,11,"Babah Rot",,,null
-111207,1112,11,Setia,,,null
-111208,1112,11,Jeumpa,,,null
-111209,1112,11,"Lembah Sabil",,,null
-111301,1113,11,Blangkejeren,,,null
-111302,1113,11,Kutapanjang,,,null
-111303,1113,11,"Rikit Gaib",,,null
-111304,1113,11,Terangun,,,null
-111305,1113,11,Pining,,,null
-111306,1113,11,Blangpegayon,,,null
-111307,1113,11,"Puteri Betung",,,null
-111308,1113,11,"Dabun Gelang",,,null
-111309,1113,11,Blangjerango,,,null
-111310,1113,11,"Teripe Jaya",,,null
-111311,1113,11,"Pantan Cuaca",,,null
-111401,1114,11,Teunom,,,null
-111402,1114,11,"Krueng Sabee",,,null
-111403,1114,11,"Setia Bhakti",,,null
-111404,1114,11,Sampoiniet,,,null
-111405,1114,11,Jaya,,,null
-111406,1114,11,Panga,,,null
-111407,1114,11,"Indra Jaya",,,null
-111408,1114,11,"Darul Hikmah",,,null
-111409,1114,11,"Pasie Raya",,,null
-111501,1115,11,Kuala,,,null
-111502,1115,11,Seunagan,,,null
-111503,1115,11,"Seunagan Timur",,,null
-111504,1115,11,Beutong,,,null
-111505,1115,11,"Darul Makmur",,,null
-111506,1115,11,"Suka Makmue",,,null
-111507,1115,11,"Kuala Pesisir",,,null
-111508,1115,11,"Tadu Raya",,,null
-111509,1115,11,"Tripa Makmur",,,null
-111510,1115,11,"Beutong Ateuh Banggalang",,,null
-111601,1116,11,"Manyak Payed",,,null
-111602,1116,11,Bendahara,,,null
-111603,1116,11,"Karang Baru",,,null
-111604,1116,11,Seruway,,,null
-111605,1116,11,"Kota Kualasinpang",,,null
-111606,1116,11,"Kejuruan Muda",,,null
-111607,1116,11,"Tamiang Hulu",,,null
-111608,1116,11,Rantau,,,null
-111609,1116,11,"Banda Mulia",,,null
-111610,1116,11,"Bandar Pusaka",,,null
-111611,1116,11,Tenggulun,,,null
-111612,1116,11,Sekerak,,,null
-111701,1117,11,"Pintu Rime Gayo",,,null
-111702,1117,11,Permata,,,null
-111703,1117,11,"Syiah Utama",,,null
-111704,1117,11,Bandar,,,null
-111705,1117,11,Bukit,,,null
-111706,1117,11,"Wih Pesam",,,null
-111707,1117,11,"Timang gajah",,,null
-111708,1117,11,"Bener Kelipah",,,null
-111709,1117,11,Mesidah,,,null
-111710,1117,11,"Gajah Putih",,,null
-111801,1118,11,Meureudu,,,null
-111802,1118,11,Ulim,,,null
-111803,1118,11,"Jangka Buaya",,,null
-111804,1118,11,"Bandar Dua",,,null
-111805,1118,11,"Meurah Dua",,,null
-111806,1118,11,"Bandar Baru",,,null
-111807,1118,11,Panteraja,,,null
-111808,1118,11,Trienggadeng,,,null
-117101,1171,11,Baiturrahman,,,null
-117102,1171,11,"Kuta Alam",,,null
-117103,1171,11,Meuraxa,,,null
-117104,1171,11,"Syiah Kuala",,,null
-117105,1171,11,"Lueng Bata",,,null
-117106,1171,11,"Kuta Raja",,,null
-117107,1171,11,"Banda Raya",,,null
-117108,1171,11,"Jaya Baru",,,null
-117109,1171,11,"Ulee Kareng",,,null
-117201,1172,11,Sukakarya,,,null
-117202,1172,11,Sukajaya,,,null
-117203,1172,11,Sukamakmue,,,null
-117301,1173,11,"Muara Dua",,,null
-117302,1173,11,"Banda Sakti",,,null
-117303,1173,11,"Blang Mangat",,,null
-117304,1173,11,"Muara Satu",,,null
-117401,1174,11,"Langsa Timur",,,null
-117402,1174,11,"Langsa Barat",,,null
-117403,1174,11,"Langsa Kota",,,null
-117404,1174,11,"Langsa Lama",,,null
-117405,1174,11,"Langsa Baro",,,null
-117501,1175,11,"Simpang Kiri",,,null
-117502,1175,11,Penanggalan,,,null
-117503,1175,11,Rundeng,,,null
-117504,1175,11,"Sultan Daulat",,,null
-117505,1175,11,Longkib,,,null
+code,regency_code,province_code,name
+110101,1101,11,Bakongan
+110102,1101,11,"Kluet Utara"
+110103,1101,11,"Kluet Selatan"
+110104,1101,11,"Labuhan Haji"
+110105,1101,11,Meukek
+110106,1101,11,Samadua
+110107,1101,11,Sawang
+110108,1101,11,Tapaktuan
+110109,1101,11,Trumon
+110110,1101,11,"Pasi Raja"
+110111,1101,11,"Labuhan Haji Timur"
+110112,1101,11,"Labuhan Haji Barat"
+110113,1101,11,"Kluet Tengah"
+110114,1101,11,"Kluet Timur"
+110115,1101,11,"Bakongan Timur"
+110116,1101,11,"Trumon Timur"
+110117,1101,11,"Kota Bahagia"
+110118,1101,11,"Trumon Tengah"
+110201,1102,11,"Lawe Alas"
+110202,1102,11,"Lawe Sigala-Gala"
+110203,1102,11,Bambel
+110204,1102,11,Babussalam
+110205,1102,11,Badar
+110206,1102,11,"Babul Makmur"
+110207,1102,11,"Darul Hasanah"
+110208,1102,11,"Lawe Bulan"
+110209,1102,11,"Bukit Tusam"
+110210,1102,11,Semadam
+110211,1102,11,"Babul Rahmah"
+110212,1102,11,Ketambe
+110213,1102,11,"Deleng Pokhkisen"
+110214,1102,11,"Lawe Sumur"
+110215,1102,11,"Tanoh Alas"
+110216,1102,11,Leuser
+110301,1103,11,"Darul Aman"
+110302,1103,11,Julok
+110303,1103,11,"Idi Rayeuk"
+110304,1103,11,"Birem Bayeun"
+110305,1103,11,Serbajadi
+110306,1103,11,Nurussalam
+110307,1103,11,Peureulak
+110308,1103,11,"Rantau Selamat"
+110309,1103,11,"Simpang Ulim"
+110310,1103,11,"Rantau Peureulak"
+110311,1103,11,"Pante Bidari"
+110312,1103,11,Madat
+110313,1103,11,"Indra Makmu"
+110314,1103,11,"Idi Tunong"
+110315,1103,11,"Banda Alam"
+110316,1103,11,Peudawa
+110317,1103,11,"Peureulak Timur"
+110318,1103,11,"Peureulak Barat"
+110319,1103,11,"Sungai Raya"
+110320,1103,11,"Simpang Jernih"
+110321,1103,11,"Darul Ihsan"
+110322,1103,11,"Darul Falah"
+110323,1103,11,"Idi Timur"
+110324,1103,11,Peunaron
+110401,1104,11,Linge
+110402,1104,11,"Silih Nara"
+110403,1104,11,Bebesen
+110407,1104,11,Pegasing
+110408,1104,11,Bintang
+110410,1104,11,Ketol
+110411,1104,11,Kebayakan
+110412,1104,11,"Kute Panang"
+110413,1104,11,Celala
+110417,1104,11,"Laut Tawar"
+110418,1104,11,"Atu Lintang"
+110419,1104,11,"Jagong Jeget"
+110420,1104,11,Bies
+110421,1104,11,"Rusip Antara"
+110501,1105,11,"Johan Pahwalan"
+110502,1105,11,"Kaway XVI"
+110503,1105,11,"Sungai Mas"
+110504,1105,11,Woyla
+110505,1105,11,Samatiga
+110506,1105,11,Bubon
+110507,1105,11,"Arongan Lambalek"
+110508,1105,11,"Pante Ceureumen"
+110509,1105,11,Meureubo
+110510,1105,11,"Woyla Barat"
+110511,1105,11,"Woyla Timur"
+110512,1105,11,"Panton Reu"
+110601,1106,11,Lhoong
+110602,1106,11,Lhoknga
+110603,1106,11,Indrapuri
+110604,1106,11,Seulimeum
+110605,1106,11,Montasik
+110606,1106,11,Sukamakmur
+110607,1106,11,"Darul Imarah"
+110608,1106,11,"Peukan Bada"
+110609,1106,11,"Mesjid Raya"
+110610,1106,11,"Ingin Jaya"
+110611,1106,11,"Kuta Baro"
+110612,1106,11,Darussalam
+110613,1106,11,"Pulo Aceh"
+110614,1106,11,"Lembah Seulawah"
+110615,1106,11,"Kota Jantho"
+110616,1106,11,"Kota Cot Glie"
+110617,1106,11,"Kuta Malaka"
+110618,1106,11,"Simpang Tiga"
+110619,1106,11,"Darul Kamal"
+110620,1106,11,Baitussalam
+110621,1106,11,"Krueng Barona Jaya"
+110622,1106,11,Leupung
+110623,1106,11,"Blang Bintang"
+110703,1107,11,Batee
+110704,1107,11,Delima
+110705,1107,11,Geumpang
+110706,1107,11,"Geulumpang Tiga"
+110707,1107,11,"Indra Jaya"
+110708,1107,11,"Kembang Tanjong"
+110709,1107,11,"Kota Sigli"
+110711,1107,11,Mila
+110712,1107,11,"Muara Tiga"
+110713,1107,11,Mutiara
+110714,1107,11,"Padang Tiji"
+110715,1107,11,"Peukan Baro"
+110716,1107,11,Pidie
+110717,1107,11,Sakti
+110718,1107,11,"Simpang Tiga"
+110719,1107,11,Tangse
+110721,1107,11,Tiro/Truseb
+110722,1107,11,Keumala
+110724,1107,11,"Mutiara Timur"
+110725,1107,11,Grong-grong
+110727,1107,11,Mane
+110729,1107,11,"Glumpang Baro"
+110731,1107,11,Titeue
+110801,1108,11,Baktiya
+110802,1108,11,Dewantara
+110803,1108,11,"Kuta Makmur"
+110804,1108,11,Lhoksukon
+110805,1108,11,Matangkuli
+110806,1108,11,"Muara Batu"
+110807,1108,11,"Meurah Mulia"
+110808,1108,11,Samudera
+110809,1108,11,Seunuddon
+110810,1108,11,"Syamtalira Aron"
+110811,1108,11,"Syamtalira Bayu"
+110812,1108,11,"Tanah Luas"
+110813,1108,11,"Tanah Pasir"
+110814,1108,11,"T. Jambo Aye"
+110815,1108,11,Sawang
+110816,1108,11,Nisam
+110817,1108,11,"Cot Girek"
+110818,1108,11,Langkahan
+110819,1108,11,"Baktiya Barat"
+110820,1108,11,"Paya Bakong"
+110821,1108,11,Nibong
+110822,1108,11,"Simpang Kramat"
+110823,1108,11,Lapang
+110824,1108,11,"Pirak Timur"
+110825,1108,11,"Geuredong Pase"
+110826,1108,11,"Banda Baro"
+110827,1108,11,"Nisam Antara"
+110901,1109,11,"Simeulue Tengah"
+110902,1109,11,Salang
+110903,1109,11,"Teupah Barat"
+110904,1109,11,"Simeulue Timur"
+110905,1109,11,"Teluk Dalam"
+110906,1109,11,"Simeulue Barat"
+110907,1109,11,"Teupah Selatan"
+110908,1109,11,Alapan
+110909,1109,11,"Teupah Tengah"
+110910,1109,11,"Simeulue Cut"
+111001,1110,11,"Pulau Banyak"
+111002,1110,11,"Simpang Kanan"
+111004,1110,11,Singkil
+111006,1110,11,"Gunung Meriah"
+111009,1110,11,"Kota Baharu"
+111010,1110,11,"Singkil Utara"
+111011,1110,11,"Danau Paris"
+111012,1110,11,"Suro Makmur"
+111013,1110,11,Singkohor
+111014,1110,11,"Kuala Baru"
+111016,1110,11,"Pulau Banyak Barat"
+111101,1111,11,Samalanga
+111102,1111,11,Jeunieb
+111103,1111,11,Peudada
+111104,1111,11,Jeumpa
+111105,1111,11,Peusangan
+111106,1111,11,Makmur
+111107,1111,11,Gandapura
+111108,1111,11,Pandrah
+111109,1111,11,Juli
+111110,1111,11,Jangka
+111111,1111,11,"Simpang Mamplam"
+111112,1111,11,Peulimbang
+111113,1111,11,"Kota Juang"
+111114,1111,11,Kuala
+111115,1111,11,"Peusangan Siblah Krueng"
+111116,1111,11,"Peusangan Selatan"
+111117,1111,11,"Kuta Blang"
+111201,1112,11,"Blang Pidie"
+111202,1112,11,Tangan-Tangan
+111203,1112,11,Manggeng
+111204,1112,11,Susoh
+111205,1112,11,"Kuala Batee"
+111206,1112,11,"Babah Rot"
+111207,1112,11,Setia
+111208,1112,11,Jeumpa
+111209,1112,11,"Lembah Sabil"
+111301,1113,11,Blangkejeren
+111302,1113,11,Kutapanjang
+111303,1113,11,"Rikit Gaib"
+111304,1113,11,Terangun
+111305,1113,11,Pining
+111306,1113,11,Blangpegayon
+111307,1113,11,"Puteri Betung"
+111308,1113,11,"Dabun Gelang"
+111309,1113,11,Blangjerango
+111310,1113,11,"Teripe Jaya"
+111311,1113,11,"Pantan Cuaca"
+111401,1114,11,Teunom
+111402,1114,11,"Krueng Sabee"
+111403,1114,11,"Setia Bhakti"
+111404,1114,11,Sampoiniet
+111405,1114,11,Jaya
+111406,1114,11,Panga
+111407,1114,11,"Indra Jaya"
+111408,1114,11,"Darul Hikmah"
+111409,1114,11,"Pasie Raya"
+111501,1115,11,Kuala
+111502,1115,11,Seunagan
+111503,1115,11,"Seunagan Timur"
+111504,1115,11,Beutong
+111505,1115,11,"Darul Makmur"
+111506,1115,11,"Suka Makmue"
+111507,1115,11,"Kuala Pesisir"
+111508,1115,11,"Tadu Raya"
+111509,1115,11,"Tripa Makmur"
+111510,1115,11,"Beutong Ateuh Banggalang"
+111601,1116,11,"Manyak Payed"
+111602,1116,11,Bendahara
+111603,1116,11,"Karang Baru"
+111604,1116,11,Seruway
+111605,1116,11,"Kota Kualasinpang"
+111606,1116,11,"Kejuruan Muda"
+111607,1116,11,"Tamiang Hulu"
+111608,1116,11,Rantau
+111609,1116,11,"Banda Mulia"
+111610,1116,11,"Bandar Pusaka"
+111611,1116,11,Tenggulun
+111612,1116,11,Sekerak
+111701,1117,11,"Pintu Rime Gayo"
+111702,1117,11,Permata
+111703,1117,11,"Syiah Utama"
+111704,1117,11,Bandar
+111705,1117,11,Bukit
+111706,1117,11,"Wih Pesam"
+111707,1117,11,"Timang gajah"
+111708,1117,11,"Bener Kelipah"
+111709,1117,11,Mesidah
+111710,1117,11,"Gajah Putih"
+111801,1118,11,Meureudu
+111802,1118,11,Ulim
+111803,1118,11,"Jangka Buaya"
+111804,1118,11,"Bandar Dua"
+111805,1118,11,"Meurah Dua"
+111806,1118,11,"Bandar Baru"
+111807,1118,11,Panteraja
+111808,1118,11,Trienggadeng
+117101,1171,11,Baiturrahman
+117102,1171,11,"Kuta Alam"
+117103,1171,11,Meuraxa
+117104,1171,11,"Syiah Kuala"
+117105,1171,11,"Lueng Bata"
+117106,1171,11,"Kuta Raja"
+117107,1171,11,"Banda Raya"
+117108,1171,11,"Jaya Baru"
+117109,1171,11,"Ulee Kareng"
+117201,1172,11,Sukakarya
+117202,1172,11,Sukajaya
+117203,1172,11,Sukamakmue
+117301,1173,11,"Muara Dua"
+117302,1173,11,"Banda Sakti"
+117303,1173,11,"Blang Mangat"
+117304,1173,11,"Muara Satu"
+117401,1174,11,"Langsa Timur"
+117402,1174,11,"Langsa Barat"
+117403,1174,11,"Langsa Kota"
+117404,1174,11,"Langsa Lama"
+117405,1174,11,"Langsa Baro"
+117501,1175,11,"Simpang Kiri"
+117502,1175,11,Penanggalan
+117503,1175,11,Rundeng
+117504,1175,11,"Sultan Daulat"
+117505,1175,11,Longkib

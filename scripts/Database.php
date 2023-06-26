@@ -103,7 +103,9 @@ class Database
         ];
 
         foreach ($content as $value) {
-            $value['coordinates'] = \json_encode($value['coordinates']);
+            if (isset($value['coordinates'])) {
+                $value['coordinates'] = \json_encode($value['coordinates']);
+            }
 
             $csv[] = array_values($value);
         }

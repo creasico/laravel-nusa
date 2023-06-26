@@ -1,58 +1,58 @@
-code,regency_code,province_code,name,latitude,longitude,coordinates
-510101,5101,51,Negara,,,null
-510102,5101,51,Mendoyo,,,null
-510103,5101,51,Pekutatan,,,null
-510104,5101,51,Melaya,,,null
-510105,5101,51,Jembrana,,,null
-510201,5102,51,Selemadeg,,,null
-510202,5102,51,"Salamadeg Timur",,,null
-510203,5102,51,"Salemadeg Barat",,,null
-510204,5102,51,Kerambitan,,,null
-510205,5102,51,Tabanan,,,null
-510206,5102,51,Kediri,,,null
-510207,5102,51,Marga,,,null
-510208,5102,51,Penebel,,,null
-510209,5102,51,Baturiti,,,null
-510210,5102,51,Pupuan,,,null
-510301,5103,51,Kuta,,,null
-510302,5103,51,Mengwi,,,null
-510303,5103,51,Abiansemal,,,null
-510304,5103,51,Petang,,,null
-510305,5103,51,"Kuta Selatan",,,null
-510306,5103,51,"Kuta Utara",,,null
-510401,5104,51,Sukawati,,,null
-510402,5104,51,Blahbatuh,,,null
-510403,5104,51,Gianyar,,,null
-510404,5104,51,Tampaksiring,,,null
-510405,5104,51,Ubud,,,null
-510406,5104,51,Tegallalang,,,null
-510407,5104,51,Payangan,,,null
-510501,5105,51,"Nusa Penida",,,null
-510502,5105,51,Banjarangkan,,,null
-510503,5105,51,Klungkung,,,null
-510504,5105,51,Dawan,,,null
-510601,5106,51,Susut,,,null
-510602,5106,51,Bangli,,,null
-510603,5106,51,Tembuku,,,null
-510604,5106,51,Kintamani,,,null
-510701,5107,51,Rendang,,,null
-510702,5107,51,Sidemen,,,null
-510703,5107,51,Manggis,,,null
-510704,5107,51,Karangasem,,,null
-510705,5107,51,Abang,,,null
-510706,5107,51,Bebandem,,,null
-510707,5107,51,Selat,,,null
-510708,5107,51,Kubu,,,null
-510801,5108,51,Gerokgak,,,null
-510802,5108,51,Seririt,,,null
-510803,5108,51,Busungbiu,,,null
-510804,5108,51,Banjar,,,null
-510805,5108,51,Sukasada,,,null
-510806,5108,51,Buleleng,,,null
-510807,5108,51,Sawan,,,null
-510808,5108,51,Kubutambahan,,,null
-510809,5108,51,Tejakula,,,null
-517101,5171,51,"Denpasar Selatan",,,null
-517102,5171,51,"Denpasar Timur",,,null
-517103,5171,51,"Denpasar Barat",,,null
-517104,5171,51,"Denpasar Utara",,,null
+code,regency_code,province_code,name
+510101,5101,51,Negara
+510102,5101,51,Mendoyo
+510103,5101,51,Pekutatan
+510104,5101,51,Melaya
+510105,5101,51,Jembrana
+510201,5102,51,Selemadeg
+510202,5102,51,"Salamadeg Timur"
+510203,5102,51,"Salemadeg Barat"
+510204,5102,51,Kerambitan
+510205,5102,51,Tabanan
+510206,5102,51,Kediri
+510207,5102,51,Marga
+510208,5102,51,Penebel
+510209,5102,51,Baturiti
+510210,5102,51,Pupuan
+510301,5103,51,Kuta
+510302,5103,51,Mengwi
+510303,5103,51,Abiansemal
+510304,5103,51,Petang
+510305,5103,51,"Kuta Selatan"
+510306,5103,51,"Kuta Utara"
+510401,5104,51,Sukawati
+510402,5104,51,Blahbatuh
+510403,5104,51,Gianyar
+510404,5104,51,Tampaksiring
+510405,5104,51,Ubud
+510406,5104,51,Tegallalang
+510407,5104,51,Payangan
+510501,5105,51,"Nusa Penida"
+510502,5105,51,Banjarangkan
+510503,5105,51,Klungkung
+510504,5105,51,Dawan
+510601,5106,51,Susut
+510602,5106,51,Bangli
+510603,5106,51,Tembuku
+510604,5106,51,Kintamani
+510701,5107,51,Rendang
+510702,5107,51,Sidemen
+510703,5107,51,Manggis
+510704,5107,51,Karangasem
+510705,5107,51,Abang
+510706,5107,51,Bebandem
+510707,5107,51,Selat
+510708,5107,51,Kubu
+510801,5108,51,Gerokgak
+510802,5108,51,Seririt
+510803,5108,51,Busungbiu
+510804,5108,51,Banjar
+510805,5108,51,Sukasada
+510806,5108,51,Buleleng
+510807,5108,51,Sawan
+510808,5108,51,Kubutambahan
+510809,5108,51,Tejakula
+517101,5171,51,"Denpasar Selatan"
+517102,5171,51,"Denpasar Timur"
+517103,5171,51,"Denpasar Barat"
+517104,5171,51,"Denpasar Utara"

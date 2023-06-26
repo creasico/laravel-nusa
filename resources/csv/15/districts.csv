@@ -1,145 +1,145 @@
-code,regency_code,province_code,name,latitude,longitude,coordinates
-150101,1501,15,"Gunung Raya",,,null
-150102,1501,15,"Danau Kerinci",,,null
-150104,1501,15,"Sitinjau Laut",,,null
-150105,1501,15,"Air Hangat",,,null
-150106,1501,15,"Gunung Kerinci",,,null
-150107,1501,15,"Batang Merangin",,,null
-150108,1501,15,"Keliling Danau",,,null
-150109,1501,15,"Kayu Aro",,,null
-150111,1501,15,"Air Hangat Timur",,,null
-150115,1501,15,"Gunung Tujuh",,,null
-150116,1501,15,Siulak,,,null
-150117,1501,15,"Depati Tujuh",,,null
-150118,1501,15,"Siulak Mukai",,,null
-150119,1501,15,"Kayu Aro Barat",,,null
-150120,1501,15,Bukitkerman,,,null
-150121,1501,15,"Air Hangat Barat",,,null
-150122,1501,15,"Tanah Cogok",,,null
-150123,1501,15,"Danau Kerinci Barat",,,null
-150201,1502,15,Jangkat,,,null
-150202,1502,15,Bangko,,,null
-150203,1502,15,"Muara Siau",,,null
-150204,1502,15,"Sungai Manau",,,null
-150205,1502,15,Tabir,,,null
-150206,1502,15,Pamenang,,,null
-150207,1502,15,"Tabir Ulu",,,null
-150208,1502,15,"Tabir Selatan",,,null
-150209,1502,15,"Lembah Masurai",,,null
-150210,1502,15,"Bangko Barat",,,null
-150211,1502,15,"Nalo Tatan",,,null
-150212,1502,15,"Batang Masumai",,,null
-150213,1502,15,"Pamenang Barat",,,null
-150214,1502,15,"Tabir Ilir",,,null
-150215,1502,15,"Tabir Timur",,,null
-150216,1502,15,"Renah Pembarap",,,null
-150217,1502,15,"Pangkalan Jambu",,,null
-150218,1502,15,"Jangkat Timur",,,null
-150219,1502,15,"Renah Pamenang",,,null
-150220,1502,15,"Pamenang Selatan",,,null
-150221,1502,15,"Margo Tabir",,,null
-150222,1502,15,"Tabir Lintas",,,null
-150223,1502,15,"Tabir Barat",,,null
-150224,1502,15,"Tiang Pumpung",,,null
-150301,1503,15,"Batang Asai",,,null
-150302,1503,15,Limun,,,null
-150303,1503,15,Sarolangun,,,null
-150304,1503,15,Pauh,,,null
-150305,1503,15,Pelawan,,,null
-150306,1503,15,Mandiangin,,,null
-150307,1503,15,"Air Hitam",,,null
-150308,1503,15,"Bathin VIII",,,null
-150309,1503,15,Singkut,,,null
-150310,1503,15,"Cermin Nan Gedang",,,null
-150311,1503,15,"Mandiangin Timur",,,null
-150401,1504,15,Mersam,,,null
-150402,1504,15,"Muara Tembesi",,,null
-150403,1504,15,"Muara Bulian",,,null
-150404,1504,15,"Batin XXIV",,,null
-150405,1504,15,Pemayung,,,null
-150406,1504,15,"Maro Sebo Ulu",,,null
-150407,1504,15,Bajubang,,,null
-150408,1504,15,"Maro Sebo Ilir",,,null
-150501,1505,15,"Jambi Luar Kota",,,null
-150502,1505,15,Sekernan,,,null
-150503,1505,15,Kumpeh,,,null
-150504,1505,15,"Maro Sebo",,,null
-150505,1505,15,Mestong,,,null
-150506,1505,15,"Kumpeh Ulu",,,null
-150507,1505,15,"Sungai Bahar",,,null
-150508,1505,15,"Sungai Gelam",,,null
-150509,1505,15,"Bahar Utara",,,null
-150510,1505,15,"Bahar Selatan",,,null
-150511,1505,15,"Taman Rajo",,,null
-150601,1506,15,"Tungkal Ulu",,,null
-150602,1506,15,"Tungkal Ilir",,,null
-150603,1506,15,Pengabuan,,,null
-150604,1506,15,Betara,,,null
-150605,1506,15,Merlung,,,null
-150606,1506,15,"Tebing Tinggi",,,null
-150607,1506,15,"Batang Asam",,,null
-150608,1506,15,"Renah Mendaluh",,,null
-150609,1506,15,"Muara Papalik",,,null
-150610,1506,15,"Seberang Kota",,,null
-150611,1506,15,"Bram Itam",,,null
-150612,1506,15,"Kuala Betara",,,null
-150613,1506,15,Senyerang,,,null
-150701,1507,15,"Muara Sabak Timur",,,null
-150702,1507,15,"Nipah Panjang",,,null
-150703,1507,15,Mendahara,,,null
-150704,1507,15,"Rantau Rasau",,,null
-150705,1507,15,"S a d u",,,null
-150706,1507,15,Dendang,,,null
-150707,1507,15,"Muara Sabak Barat",,,null
-150708,1507,15,"Kuala Jambi",,,null
-150709,1507,15,"Mendahara Ulu",,,null
-150710,1507,15,Geragai,,,null
-150711,1507,15,Berbak,,,null
-150801,1508,15,"Tanah Tumbuh",,,null
-150802,1508,15,"Rantau Pandan",,,null
-150803,1508,15,"Pasar Muaro Bungo",,,null
-150804,1508,15,Jujuhan,,,null
-150805,1508,15,"Tanah Sepenggal",,,null
-150806,1508,15,Pelepat,,,null
-150807,1508,15,"Limbur Lubuk Mengkuang",,,null
-150808,1508,15,"Muko-muko Bathin VII",,,null
-150809,1508,15,"Pelepat Ilir",,,null
-150810,1508,15,"Batin II Babeko",,,null
-150811,1508,15,"Bathin III",,,null
-150812,1508,15,"Bungo Dani",,,null
-150813,1508,15,"Rimbo Tengah",,,null
-150814,1508,15,"Bathin III Ulu",,,null
-150815,1508,15,"Bathin II Pelayang",,,null
-150816,1508,15,"Jujuhan Ilir",,,null
-150817,1508,15,"Tanah Sepenggal Lintas",,,null
-150901,1509,15,"Tebo Tengah",,,null
-150902,1509,15,"Tebo Ilir",,,null
-150903,1509,15,"Tebo Ulu",,,null
-150904,1509,15,"Rimbo Bujang",,,null
-150905,1509,15,Sumay,,,null
-150906,1509,15,"VII Koto",,,null
-150907,1509,15,"Rimbo Ulu",,,null
-150908,1509,15,"Rimbo Ilir",,,null
-150909,1509,15,"Tengah Ilir",,,null
-150910,1509,15,"Serai Serumpun",,,null
-150911,1509,15,"VII Koto Ilir",,,null
-150912,1509,15,"Muara Tabir",,,null
-157101,1571,15,Telanaipura,,,null
-157102,1571,15,"Jambi Selatan",,,null
-157103,1571,15,"Jambi Timur",,,null
-157104,1571,15,"Pasar Jambi",,,null
-157105,1571,15,Pelayangan,,,null
-157106,1571,15,"Danau Teluk",,,null
-157107,1571,15,"Kota Baru",,,null
-157108,1571,15,Jelutung,,,null
-157109,1571,15,"Alam Barajo",,,null
-157110,1571,15,"Danau Sipin",,,null
-157111,1571,15,"Paal Merah",,,null
-157201,1572,15,"Sungai Penuh",,,null
-157202,1572,15,"Pesisir Bukit",,,null
-157203,1572,15,"Hamparan Rawang",,,null
-157204,1572,15,"Tanah Kampung",,,null
-157205,1572,15,"Kumun Debai",,,null
-157206,1572,15,"Pondok Tinggi",,,null
-157207,1572,15,"Koto Baru",,,null
-157208,1572,15,"Sungai Bungkal",,,null
+code,regency_code,province_code,name
+150101,1501,15,"Gunung Raya"
+150102,1501,15,"Danau Kerinci"
+150104,1501,15,"Sitinjau Laut"
+150105,1501,15,"Air Hangat"
+150106,1501,15,"Gunung Kerinci"
+150107,1501,15,"Batang Merangin"
+150108,1501,15,"Keliling Danau"
+150109,1501,15,"Kayu Aro"
+150111,1501,15,"Air Hangat Timur"
+150115,1501,15,"Gunung Tujuh"
+150116,1501,15,Siulak
+150117,1501,15,"Depati Tujuh"
+150118,1501,15,"Siulak Mukai"
+150119,1501,15,"Kayu Aro Barat"
+150120,1501,15,Bukitkerman
+150121,1501,15,"Air Hangat Barat"
+150122,1501,15,"Tanah Cogok"
+150123,1501,15,"Danau Kerinci Barat"
+150201,1502,15,Jangkat
+150202,1502,15,Bangko
+150203,1502,15,"Muara Siau"
+150204,1502,15,"Sungai Manau"
+150205,1502,15,Tabir
+150206,1502,15,Pamenang
+150207,1502,15,"Tabir Ulu"
+150208,1502,15,"Tabir Selatan"
+150209,1502,15,"Lembah Masurai"
+150210,1502,15,"Bangko Barat"
+150211,1502,15,"Nalo Tatan"
+150212,1502,15,"Batang Masumai"
+150213,1502,15,"Pamenang Barat"
+150214,1502,15,"Tabir Ilir"
+150215,1502,15,"Tabir Timur"
+150216,1502,15,"Renah Pembarap"
+150217,1502,15,"Pangkalan Jambu"
+150218,1502,15,"Jangkat Timur"
+150219,1502,15,"Renah Pamenang"
+150220,1502,15,"Pamenang Selatan"
+150221,1502,15,"Margo Tabir"
+150222,1502,15,"Tabir Lintas"
+150223,1502,15,"Tabir Barat"
+150224,1502,15,"Tiang Pumpung"
+150301,1503,15,"Batang Asai"
+150302,1503,15,Limun
+150303,1503,15,Sarolangun
+150304,1503,15,Pauh
+150305,1503,15,Pelawan
+150306,1503,15,Mandiangin
+150307,1503,15,"Air Hitam"
+150308,1503,15,"Bathin VIII"
+150309,1503,15,Singkut
+150310,1503,15,"Cermin Nan Gedang"
+150311,1503,15,"Mandiangin Timur"
+150401,1504,15,Mersam
+150402,1504,15,"Muara Tembesi"
+150403,1504,15,"Muara Bulian"
+150404,1504,15,"Batin XXIV"
+150405,1504,15,Pemayung
+150406,1504,15,"Maro Sebo Ulu"
+150407,1504,15,Bajubang
+150408,1504,15,"Maro Sebo Ilir"
+150501,1505,15,"Jambi Luar Kota"
+150502,1505,15,Sekernan
+150503,1505,15,Kumpeh
+150504,1505,15,"Maro Sebo"
+150505,1505,15,Mestong
+150506,1505,15,"Kumpeh Ulu"
+150507,1505,15,"Sungai Bahar"
+150508,1505,15,"Sungai Gelam"
+150509,1505,15,"Bahar Utara"
+150510,1505,15,"Bahar Selatan"
+150511,1505,15,"Taman Rajo"
+150601,1506,15,"Tungkal Ulu"
+150602,1506,15,"Tungkal Ilir"
+150603,1506,15,Pengabuan
+150604,1506,15,Betara
+150605,1506,15,Merlung
+150606,1506,15,"Tebing Tinggi"
+150607,1506,15,"Batang Asam"
+150608,1506,15,"Renah Mendaluh"
+150609,1506,15,"Muara Papalik"
+150610,1506,15,"Seberang Kota"
+150611,1506,15,"Bram Itam"
+150612,1506,15,"Kuala Betara"
+150613,1506,15,Senyerang
+150701,1507,15,"Muara Sabak Timur"
+150702,1507,15,"Nipah Panjang"
+150703,1507,15,Mendahara
+150704,1507,15,"Rantau Rasau"
+150705,1507,15,"S a d u"
+150706,1507,15,Dendang
+150707,1507,15,"Muara Sabak Barat"
+150708,1507,15,"Kuala Jambi"
+150709,1507,15,"Mendahara Ulu"
+150710,1507,15,Geragai
+150711,1507,15,Berbak
+150801,1508,15,"Tanah Tumbuh"
+150802,1508,15,"Rantau Pandan"
+150803,1508,15,"Pasar Muaro Bungo"
+150804,1508,15,Jujuhan
+150805,1508,15,"Tanah Sepenggal"
+150806,1508,15,Pelepat
+150807,1508,15,"Limbur Lubuk Mengkuang"
+150808,1508,15,"Muko-muko Bathin VII"
+150809,1508,15,"Pelepat Ilir"
+150810,1508,15,"Batin II Babeko"
+150811,1508,15,"Bathin III"
+150812,1508,15,"Bungo Dani"
+150813,1508,15,"Rimbo Tengah"
+150814,1508,15,"Bathin III Ulu"
+150815,1508,15,"Bathin II Pelayang"
+150816,1508,15,"Jujuhan Ilir"
+150817,1508,15,"Tanah Sepenggal Lintas"
+150901,1509,15,"Tebo Tengah"
+150902,1509,15,"Tebo Ilir"
+150903,1509,15,"Tebo Ulu"
+150904,1509,15,"Rimbo Bujang"
+150905,1509,15,Sumay
+150906,1509,15,"VII Koto"
+150907,1509,15,"Rimbo Ulu"
+150908,1509,15,"Rimbo Ilir"
+150909,1509,15,"Tengah Ilir"
+150910,1509,15,"Serai Serumpun"
+150911,1509,15,"VII Koto Ilir"
+150912,1509,15,"Muara Tabir"
+157101,1571,15,Telanaipura
+157102,1571,15,"Jambi Selatan"
+157103,1571,15,"Jambi Timur"
+157104,1571,15,"Pasar Jambi"
+157105,1571,15,Pelayangan
+157106,1571,15,"Danau Teluk"
+157107,1571,15,"Kota Baru"
+157108,1571,15,Jelutung
+157109,1571,15,"Alam Barajo"
+157110,1571,15,"Danau Sipin"
+157111,1571,15,"Paal Merah"
+157201,1572,15,"Sungai Penuh"
+157202,1572,15,"Pesisir Bukit"
+157203,1572,15,"Hamparan Rawang"
+157204,1572,15,"Tanah Kampung"
+157205,1572,15,"Kumun Debai"
+157206,1572,15,"Pondok Tinggi"
+157207,1572,15,"Koto Baru"
+157208,1572,15,"Sungai Bungkal"

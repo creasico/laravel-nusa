@@ -3,5643 +3,3762 @@
         "code": 320101,
         "regency_code": 3201,
         "province_code": 32,
-        "name": "Cibinong",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cibinong"
     },
     {
         "code": 320102,
         "regency_code": 3201,
         "province_code": 32,
-        "name": "Gunung Putri",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Gunung Putri"
     },
     {
         "code": 320103,
         "regency_code": 3201,
         "province_code": 32,
-        "name": "Citeureup",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Citeureup"
     },
     {
         "code": 320104,
         "regency_code": 3201,
         "province_code": 32,
-        "name": "Sukaraja",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sukaraja"
     },
     {
         "code": 320105,
         "regency_code": 3201,
         "province_code": 32,
-        "name": "Babakan Madang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Babakan Madang"
     },
     {
         "code": 320106,
         "regency_code": 3201,
         "province_code": 32,
-        "name": "Jonggol",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Jonggol"
     },
     {
         "code": 320107,
         "regency_code": 3201,
         "province_code": 32,
-        "name": "Cileungsi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cileungsi"
     },
     {
         "code": 320108,
         "regency_code": 3201,
         "province_code": 32,
-        "name": "Cariu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cariu"
     },
     {
         "code": 320109,
         "regency_code": 3201,
         "province_code": 32,
-        "name": "Sukamakmur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sukamakmur"
     },
     {
         "code": 320110,
         "regency_code": 3201,
         "province_code": 32,
-        "name": "Parung",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Parung"
     },
     {
         "code": 320111,
         "regency_code": 3201,
         "province_code": 32,
-        "name": "Gunung Sindur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Gunung Sindur"
     },
     {
         "code": 320112,
         "regency_code": 3201,
         "province_code": 32,
-        "name": "Kemang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kemang"
     },
     {
         "code": 320113,
         "regency_code": 3201,
         "province_code": 32,
-        "name": "Bojong Gede",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bojong Gede"
     },
     {
         "code": 320114,
         "regency_code": 3201,
         "province_code": 32,
-        "name": "Leuwiliang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Leuwiliang"
     },
     {
         "code": 320115,
         "regency_code": 3201,
         "province_code": 32,
-        "name": "Ciampea",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Ciampea"
     },
     {
         "code": 320116,
         "regency_code": 3201,
         "province_code": 32,
-        "name": "Cibungbulang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cibungbulang"
     },
     {
         "code": 320117,
         "regency_code": 3201,
         "province_code": 32,
-        "name": "Pamijahan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pamijahan"
     },
     {
         "code": 320118,
         "regency_code": 3201,
         "province_code": 32,
-        "name": "Rumpin",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Rumpin"
     },
     {
         "code": 320119,
         "regency_code": 3201,
         "province_code": 32,
-        "name": "Jasinga",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Jasinga"
     },
     {
         "code": 320120,
         "regency_code": 3201,
         "province_code": 32,
-        "name": "Parung Panjang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Parung Panjang"
     },
     {
         "code": 320121,
         "regency_code": 3201,
         "province_code": 32,
-        "name": "Nanggung",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Nanggung"
     },
     {
         "code": 320122,
         "regency_code": 3201,
         "province_code": 32,
-        "name": "Cigudeg",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cigudeg"
     },
     {
         "code": 320123,
         "regency_code": 3201,
         "province_code": 32,
-        "name": "Tenjo",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tenjo"
     },
     {
         "code": 320124,
         "regency_code": 3201,
         "province_code": 32,
-        "name": "Ciawi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Ciawi"
     },
     {
         "code": 320125,
         "regency_code": 3201,
         "province_code": 32,
-        "name": "Cisarua",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cisarua"
     },
     {
         "code": 320126,
         "regency_code": 3201,
         "province_code": 32,
-        "name": "Megamendung",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Megamendung"
     },
     {
         "code": 320127,
         "regency_code": 3201,
         "province_code": 32,
-        "name": "Caringin",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Caringin"
     },
     {
         "code": 320128,
         "regency_code": 3201,
         "province_code": 32,
-        "name": "Cijeruk",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cijeruk"
     },
     {
         "code": 320129,
         "regency_code": 3201,
         "province_code": 32,
-        "name": "Ciomas",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Ciomas"
     },
     {
         "code": 320130,
         "regency_code": 3201,
         "province_code": 32,
-        "name": "Dramaga",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Dramaga"
     },
     {
         "code": 320131,
         "regency_code": 3201,
         "province_code": 32,
-        "name": "Tamansari",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tamansari"
     },
     {
         "code": 320132,
         "regency_code": 3201,
         "province_code": 32,
-        "name": "Klapanunggal",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Klapanunggal"
     },
     {
         "code": 320133,
         "regency_code": 3201,
         "province_code": 32,
-        "name": "Ciseeng",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Ciseeng"
     },
     {
         "code": 320134,
         "regency_code": 3201,
         "province_code": 32,
-        "name": "Ranca Bungur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Ranca Bungur"
     },
     {
         "code": 320135,
         "regency_code": 3201,
         "province_code": 32,
-        "name": "Sukajaya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sukajaya"
     },
     {
         "code": 320136,
         "regency_code": 3201,
         "province_code": 32,
-        "name": "Tanjungsari",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tanjungsari"
     },
     {
         "code": 320137,
         "regency_code": 3201,
         "province_code": 32,
-        "name": "Tajurhalang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tajurhalang"
     },
     {
         "code": 320138,
         "regency_code": 3201,
         "province_code": 32,
-        "name": "Cigombong",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cigombong"
     },
     {
         "code": 320139,
         "regency_code": 3201,
         "province_code": 32,
-        "name": "Leuwisadeng",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Leuwisadeng"
     },
     {
         "code": 320140,
         "regency_code": 3201,
         "province_code": 32,
-        "name": "Tenjolaya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tenjolaya"
     },
     {
         "code": 320201,
         "regency_code": 3202,
         "province_code": 32,
-        "name": "Palabuhanratu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Palabuhanratu"
     },
     {
         "code": 320202,
         "regency_code": 3202,
         "province_code": 32,
-        "name": "Simpenan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Simpenan"
     },
     {
         "code": 320203,
         "regency_code": 3202,
         "province_code": 32,
-        "name": "Cikakak",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cikakak"
     },
     {
         "code": 320204,
         "regency_code": 3202,
         "province_code": 32,
-        "name": "Bantargadung",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bantargadung"
     },
     {
         "code": 320205,
         "regency_code": 3202,
         "province_code": 32,
-        "name": "Cisolok",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cisolok"
     },
     {
         "code": 320206,
         "regency_code": 3202,
         "province_code": 32,
-        "name": "Cikidang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cikidang"
     },
     {
         "code": 320207,
         "regency_code": 3202,
         "province_code": 32,
-        "name": "Lengkong",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Lengkong"
     },
     {
         "code": 320208,
         "regency_code": 3202,
         "province_code": 32,
-        "name": "Jampangtengah",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Jampangtengah"
     },
     {
         "code": 320209,
         "regency_code": 3202,
         "province_code": 32,
-        "name": "Warungkiara",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Warungkiara"
     },
     {
         "code": 320210,
         "regency_code": 3202,
         "province_code": 32,
-        "name": "Cikembar",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cikembar"
     },
     {
         "code": 320211,
         "regency_code": 3202,
         "province_code": 32,
-        "name": "Cibadak",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cibadak"
     },
     {
         "code": 320212,
         "regency_code": 3202,
         "province_code": 32,
-        "name": "Nagrak",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Nagrak"
     },
     {
         "code": 320213,
         "regency_code": 3202,
         "province_code": 32,
-        "name": "Parungkuda",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Parungkuda"
     },
     {
         "code": 320214,
         "regency_code": 3202,
         "province_code": 32,
-        "name": "Bojonggenteng",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bojonggenteng"
     },
     {
         "code": 320215,
         "regency_code": 3202,
         "province_code": 32,
-        "name": "Parakansalak",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Parakansalak"
     },
     {
         "code": 320216,
         "regency_code": 3202,
         "province_code": 32,
-        "name": "Cicurug",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cicurug"
     },
     {
         "code": 320217,
         "regency_code": 3202,
         "province_code": 32,
-        "name": "Cidahu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cidahu"
     },
     {
         "code": 320218,
         "regency_code": 3202,
         "province_code": 32,
-        "name": "Kalapanunggal",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kalapanunggal"
     },
     {
         "code": 320219,
         "regency_code": 3202,
         "province_code": 32,
-        "name": "Kabandungan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kabandungan"
     },
     {
         "code": 320220,
         "regency_code": 3202,
         "province_code": 32,
-        "name": "Waluran",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Waluran"
     },
     {
         "code": 320221,
         "regency_code": 3202,
         "province_code": 32,
-        "name": "Jampangkulon",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Jampangkulon"
     },
     {
         "code": 320222,
         "regency_code": 3202,
         "province_code": 32,
-        "name": "Ciemas",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Ciemas"
     },
     {
         "code": 320223,
         "regency_code": 3202,
         "province_code": 32,
-        "name": "Kalibunder",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kalibunder"
     },
     {
         "code": 320224,
         "regency_code": 3202,
         "province_code": 32,
-        "name": "Surade",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Surade"
     },
     {
         "code": 320225,
         "regency_code": 3202,
         "province_code": 32,
-        "name": "Cibitung",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cibitung"
     },
     {
         "code": 320226,
         "regency_code": 3202,
         "province_code": 32,
-        "name": "Ciracap",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Ciracap"
     },
     {
         "code": 320227,
         "regency_code": 3202,
         "province_code": 32,
-        "name": "Gunungguruh",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Gunungguruh"
     },
     {
         "code": 320228,
         "regency_code": 3202,
         "province_code": 32,
-        "name": "Cicantayan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cicantayan"
     },
     {
         "code": 320229,
         "regency_code": 3202,
         "province_code": 32,
-        "name": "Cisaat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cisaat"
     },
     {
         "code": 320230,
         "regency_code": 3202,
         "province_code": 32,
-        "name": "Kadudampit",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kadudampit"
     },
     {
         "code": 320231,
         "regency_code": 3202,
         "province_code": 32,
-        "name": "Caringin",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Caringin"
     },
     {
         "code": 320232,
         "regency_code": 3202,
         "province_code": 32,
-        "name": "Sukabumi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sukabumi"
     },
     {
         "code": 320233,
         "regency_code": 3202,
         "province_code": 32,
-        "name": "Sukaraja",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sukaraja"
     },
     {
         "code": 320234,
         "regency_code": 3202,
         "province_code": 32,
-        "name": "Kebonpedes",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kebonpedes"
     },
     {
         "code": 320235,
         "regency_code": 3202,
         "province_code": 32,
-        "name": "Cireunghas",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cireunghas"
     },
     {
         "code": 320236,
         "regency_code": 3202,
         "province_code": 32,
-        "name": "Sukalarang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sukalarang"
     },
     {
         "code": 320237,
         "regency_code": 3202,
         "province_code": 32,
-        "name": "Pabuaran",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pabuaran"
     },
     {
         "code": 320238,
         "regency_code": 3202,
         "province_code": 32,
-        "name": "Purabaya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Purabaya"
     },
     {
         "code": 320239,
         "regency_code": 3202,
         "province_code": 32,
-        "name": "Nyalindung",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Nyalindung"
     },
     {
         "code": 320240,
         "regency_code": 3202,
         "province_code": 32,
-        "name": "Gegerbitung",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Gegerbitung"
     },
     {
         "code": 320241,
         "regency_code": 3202,
         "province_code": 32,
-        "name": "Sagaranten",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sagaranten"
     },
     {
         "code": 320242,
         "regency_code": 3202,
         "province_code": 32,
-        "name": "Curugkembar",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Curugkembar"
     },
     {
         "code": 320243,
         "regency_code": 3202,
         "province_code": 32,
-        "name": "Cidolog",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cidolog"
     },
     {
         "code": 320244,
         "regency_code": 3202,
         "province_code": 32,
-        "name": "Cidadap",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cidadap"
     },
     {
         "code": 320245,
         "regency_code": 3202,
         "province_code": 32,
-        "name": "Tegalbuleud",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tegalbuleud"
     },
     {
         "code": 320246,
         "regency_code": 3202,
         "province_code": 32,
-        "name": "Cimanggu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cimanggu"
     },
     {
         "code": 320247,
         "regency_code": 3202,
         "province_code": 32,
-        "name": "Ciambar",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Ciambar"
     },
     {
         "code": 320301,
         "regency_code": 3203,
         "province_code": 32,
-        "name": "Cianjur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cianjur"
     },
     {
         "code": 320302,
         "regency_code": 3203,
         "province_code": 32,
-        "name": "Warungkondang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Warungkondang"
     },
     {
         "code": 320303,
         "regency_code": 3203,
         "province_code": 32,
-        "name": "Cibeber",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cibeber"
     },
     {
         "code": 320304,
         "regency_code": 3203,
         "province_code": 32,
-        "name": "Cilaku",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cilaku"
     },
     {
         "code": 320305,
         "regency_code": 3203,
         "province_code": 32,
-        "name": "Ciranjang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Ciranjang"
     },
     {
         "code": 320306,
         "regency_code": 3203,
         "province_code": 32,
-        "name": "Bojongpicung",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bojongpicung"
     },
     {
         "code": 320307,
         "regency_code": 3203,
         "province_code": 32,
-        "name": "Karangtengah",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Karangtengah"
     },
     {
         "code": 320308,
         "regency_code": 3203,
         "province_code": 32,
-        "name": "Mande",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Mande"
     },
     {
         "code": 320309,
         "regency_code": 3203,
         "province_code": 32,
-        "name": "Sukaluyu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sukaluyu"
     },
     {
         "code": 320310,
         "regency_code": 3203,
         "province_code": 32,
-        "name": "Pacet",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pacet"
     },
     {
         "code": 320311,
         "regency_code": 3203,
         "province_code": 32,
-        "name": "Cugenang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cugenang"
     },
     {
         "code": 320312,
         "regency_code": 3203,
         "province_code": 32,
-        "name": "Cikalongkulon",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cikalongkulon"
     },
     {
         "code": 320313,
         "regency_code": 3203,
         "province_code": 32,
-        "name": "Sukaresmi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sukaresmi"
     },
     {
         "code": 320314,
         "regency_code": 3203,
         "province_code": 32,
-        "name": "Sukanagara",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sukanagara"
     },
     {
         "code": 320315,
         "regency_code": 3203,
         "province_code": 32,
-        "name": "Campaka",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Campaka"
     },
     {
         "code": 320316,
         "regency_code": 3203,
         "province_code": 32,
-        "name": "Takokak",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Takokak"
     },
     {
         "code": 320317,
         "regency_code": 3203,
         "province_code": 32,
-        "name": "Kadupandak",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kadupandak"
     },
     {
         "code": 320318,
         "regency_code": 3203,
         "province_code": 32,
-        "name": "Pagelaran",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pagelaran"
     },
     {
         "code": 320319,
         "regency_code": 3203,
         "province_code": 32,
-        "name": "Tanggeung",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tanggeung"
     },
     {
         "code": 320320,
         "regency_code": 3203,
         "province_code": 32,
-        "name": "Cibinong",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cibinong"
     },
     {
         "code": 320321,
         "regency_code": 3203,
         "province_code": 32,
-        "name": "Sindangbarang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sindangbarang"
     },
     {
         "code": 320322,
         "regency_code": 3203,
         "province_code": 32,
-        "name": "Agrabinta",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Agrabinta"
     },
     {
         "code": 320323,
         "regency_code": 3203,
         "province_code": 32,
-        "name": "Cidaun",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cidaun"
     },
     {
         "code": 320324,
         "regency_code": 3203,
         "province_code": 32,
-        "name": "Naringgul",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Naringgul"
     },
     {
         "code": 320325,
         "regency_code": 3203,
         "province_code": 32,
-        "name": "Campakamulya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Campakamulya"
     },
     {
         "code": 320326,
         "regency_code": 3203,
         "province_code": 32,
-        "name": "Cikadu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cikadu"
     },
     {
         "code": 320327,
         "regency_code": 3203,
         "province_code": 32,
-        "name": "Gekbrong",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Gekbrong"
     },
     {
         "code": 320328,
         "regency_code": 3203,
         "province_code": 32,
-        "name": "Cipanas",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cipanas"
     },
     {
         "code": 320329,
         "regency_code": 3203,
         "province_code": 32,
-        "name": "Cijati",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cijati"
     },
     {
         "code": 320330,
         "regency_code": 3203,
         "province_code": 32,
-        "name": "Leles",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Leles"
     },
     {
         "code": 320331,
         "regency_code": 3203,
         "province_code": 32,
-        "name": "Haurwangi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Haurwangi"
     },
     {
         "code": 320332,
         "regency_code": 3203,
         "province_code": 32,
-        "name": "Pasirkuda",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pasirkuda"
     },
     {
         "code": 320405,
         "regency_code": 3204,
         "province_code": 32,
-        "name": "Cileunyi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cileunyi"
     },
     {
         "code": 320406,
         "regency_code": 3204,
         "province_code": 32,
-        "name": "Cimenyan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cimenyan"
     },
     {
         "code": 320407,
         "regency_code": 3204,
         "province_code": 32,
-        "name": "Cilengkrang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cilengkrang"
     },
     {
         "code": 320408,
         "regency_code": 3204,
         "province_code": 32,
-        "name": "Bojongsoang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bojongsoang"
     },
     {
         "code": 320409,
         "regency_code": 3204,
         "province_code": 32,
-        "name": "Margahayu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Margahayu"
     },
     {
         "code": 320410,
         "regency_code": 3204,
         "province_code": 32,
-        "name": "Margaasih",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Margaasih"
     },
     {
         "code": 320411,
         "regency_code": 3204,
         "province_code": 32,
-        "name": "Katapang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Katapang"
     },
     {
         "code": 320412,
         "regency_code": 3204,
         "province_code": 32,
-        "name": "Dayeuhkolot",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Dayeuhkolot"
     },
     {
         "code": 320413,
         "regency_code": 3204,
         "province_code": 32,
-        "name": "Banjaran",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Banjaran"
     },
     {
         "code": 320414,
         "regency_code": 3204,
         "province_code": 32,
-        "name": "Pameungpeuk",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pameungpeuk"
     },
     {
         "code": 320415,
         "regency_code": 3204,
         "province_code": 32,
-        "name": "Pangalengan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pangalengan"
     },
     {
         "code": 320416,
         "regency_code": 3204,
         "province_code": 32,
-        "name": "Arjasari",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Arjasari"
     },
     {
         "code": 320417,
         "regency_code": 3204,
         "province_code": 32,
-        "name": "Cimaung",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cimaung"
     },
     {
         "code": 320425,
         "regency_code": 3204,
         "province_code": 32,
-        "name": "Cicalengka",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cicalengka"
     },
     {
         "code": 320426,
         "regency_code": 3204,
         "province_code": 32,
-        "name": "Nagreg",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Nagreg"
     },
     {
         "code": 320427,
         "regency_code": 3204,
         "province_code": 32,
-        "name": "Cikancung",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cikancung"
     },
     {
         "code": 320428,
         "regency_code": 3204,
         "province_code": 32,
-        "name": "Rancaekek",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Rancaekek"
     },
     {
         "code": 320429,
         "regency_code": 3204,
         "province_code": 32,
-        "name": "Ciparay",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Ciparay"
     },
     {
         "code": 320430,
         "regency_code": 3204,
         "province_code": 32,
-        "name": "Pacet",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pacet"
     },
     {
         "code": 320431,
         "regency_code": 3204,
         "province_code": 32,
-        "name": "Kertasari",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kertasari"
     },
     {
         "code": 320432,
         "regency_code": 3204,
         "province_code": 32,
-        "name": "Baleendah",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Baleendah"
     },
     {
         "code": 320433,
         "regency_code": 3204,
         "province_code": 32,
-        "name": "Majalaya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Majalaya"
     },
     {
         "code": 320434,
         "regency_code": 3204,
         "province_code": 32,
-        "name": "Solokanjeruk",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Solokanjeruk"
     },
     {
         "code": 320435,
         "regency_code": 3204,
         "province_code": 32,
-        "name": "Paseh",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Paseh"
     },
     {
         "code": 320436,
         "regency_code": 3204,
         "province_code": 32,
-        "name": "Ibun",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Ibun"
     },
     {
         "code": 320437,
         "regency_code": 3204,
         "province_code": 32,
-        "name": "Soreang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Soreang"
     },
     {
         "code": 320438,
         "regency_code": 3204,
         "province_code": 32,
-        "name": "Pasirjambu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pasirjambu"
     },
     {
         "code": 320439,
         "regency_code": 3204,
         "province_code": 32,
-        "name": "Ciwidey",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Ciwidey"
     },
     {
         "code": 320440,
         "regency_code": 3204,
         "province_code": 32,
-        "name": "Rancabali",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Rancabali"
     },
     {
         "code": 320444,
         "regency_code": 3204,
         "province_code": 32,
-        "name": "Cangkuang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cangkuang"
     },
     {
         "code": 320446,
         "regency_code": 3204,
         "province_code": 32,
-        "name": "Kutawaringin",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kutawaringin"
     },
     {
         "code": 320501,
         "regency_code": 3205,
         "province_code": 32,
-        "name": "Garut Kota",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Garut Kota"
     },
     {
         "code": 320502,
         "regency_code": 3205,
         "province_code": 32,
-        "name": "Karangpawitan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Karangpawitan"
     },
     {
         "code": 320503,
         "regency_code": 3205,
         "province_code": 32,
-        "name": "Wanaraja",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Wanaraja"
     },
     {
         "code": 320504,
         "regency_code": 3205,
         "province_code": 32,
-        "name": "Tarogong Kaler",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tarogong Kaler"
     },
     {
         "code": 320505,
         "regency_code": 3205,
         "province_code": 32,
-        "name": "Tarogong Kidul",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tarogong Kidul"
     },
     {
         "code": 320506,
         "regency_code": 3205,
         "province_code": 32,
-        "name": "Banyuresmi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Banyuresmi"
     },
     {
         "code": 320507,
         "regency_code": 3205,
         "province_code": 32,
-        "name": "Samarang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Samarang"
     },
     {
         "code": 320508,
         "regency_code": 3205,
         "province_code": 32,
-        "name": "Pasirwangi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pasirwangi"
     },
     {
         "code": 320509,
         "regency_code": 3205,
         "province_code": 32,
-        "name": "Leles",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Leles"
     },
     {
         "code": 320510,
         "regency_code": 3205,
         "province_code": 32,
-        "name": "Kadungora",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kadungora"
     },
     {
         "code": 320511,
         "regency_code": 3205,
         "province_code": 32,
-        "name": "Leuwigoong",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Leuwigoong"
     },
     {
         "code": 320512,
         "regency_code": 3205,
         "province_code": 32,
-        "name": "Cibatu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cibatu"
     },
     {
         "code": 320513,
         "regency_code": 3205,
         "province_code": 32,
-        "name": "Kersamanah",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kersamanah"
     },
     {
         "code": 320514,
         "regency_code": 3205,
         "province_code": 32,
-        "name": "Malangbong",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Malangbong"
     },
     {
         "code": 320515,
         "regency_code": 3205,
         "province_code": 32,
-        "name": "Sukawening",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sukawening"
     },
     {
         "code": 320516,
         "regency_code": 3205,
         "province_code": 32,
-        "name": "Karangtengah",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Karangtengah"
     },
     {
         "code": 320517,
         "regency_code": 3205,
         "province_code": 32,
-        "name": "Bayongbong",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bayongbong"
     },
     {
         "code": 320518,
         "regency_code": 3205,
         "province_code": 32,
-        "name": "Cigedug",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cigedug"
     },
     {
         "code": 320519,
         "regency_code": 3205,
         "province_code": 32,
-        "name": "Cilawu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cilawu"
     },
     {
         "code": 320520,
         "regency_code": 3205,
         "province_code": 32,
-        "name": "Cisurupan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cisurupan"
     },
     {
         "code": 320521,
         "regency_code": 3205,
         "province_code": 32,
-        "name": "Sukaresmi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sukaresmi"
     },
     {
         "code": 320522,
         "regency_code": 3205,
         "province_code": 32,
-        "name": "Cikajang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cikajang"
     },
     {
         "code": 320523,
         "regency_code": 3205,
         "province_code": 32,
-        "name": "Banjarwangi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Banjarwangi"
     },
     {
         "code": 320524,
         "regency_code": 3205,
         "province_code": 32,
-        "name": "Singajaya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Singajaya"
     },
     {
         "code": 320525,
         "regency_code": 3205,
         "province_code": 32,
-        "name": "Cihurip",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cihurip"
     },
     {
         "code": 320526,
         "regency_code": 3205,
         "province_code": 32,
-        "name": "Peundeuy",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Peundeuy"
     },
     {
         "code": 320527,
         "regency_code": 3205,
         "province_code": 32,
-        "name": "Pameungpeuk",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pameungpeuk"
     },
     {
         "code": 320528,
         "regency_code": 3205,
         "province_code": 32,
-        "name": "Cisompet",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cisompet"
     },
     {
         "code": 320529,
         "regency_code": 3205,
         "province_code": 32,
-        "name": "Cibalong",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cibalong"
     },
     {
         "code": 320530,
         "regency_code": 3205,
         "province_code": 32,
-        "name": "Cikelet",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cikelet"
     },
     {
         "code": 320531,
         "regency_code": 3205,
         "province_code": 32,
-        "name": "Bungbulang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bungbulang"
     },
     {
         "code": 320532,
         "regency_code": 3205,
         "province_code": 32,
-        "name": "Mekarmukti",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Mekarmukti"
     },
     {
         "code": 320533,
         "regency_code": 3205,
         "province_code": 32,
-        "name": "Pakenjeng",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pakenjeng"
     },
     {
         "code": 320534,
         "regency_code": 3205,
         "province_code": 32,
-        "name": "Pamulihan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pamulihan"
     },
     {
         "code": 320535,
         "regency_code": 3205,
         "province_code": 32,
-        "name": "Cisewu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cisewu"
     },
     {
         "code": 320536,
         "regency_code": 3205,
         "province_code": 32,
-        "name": "Caringin",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Caringin"
     },
     {
         "code": 320537,
         "regency_code": 3205,
         "province_code": 32,
-        "name": "Talegong",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Talegong"
     },
     {
         "code": 320538,
         "regency_code": 3205,
         "province_code": 32,
-        "name": "Limbangan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Limbangan"
     },
     {
         "code": 320539,
         "regency_code": 3205,
         "province_code": 32,
-        "name": "Selaawi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Selaawi"
     },
     {
         "code": 320540,
         "regency_code": 3205,
         "province_code": 32,
-        "name": "Cibiuk",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cibiuk"
     },
     {
         "code": 320541,
         "regency_code": 3205,
         "province_code": 32,
-        "name": "Pangatikan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pangatikan"
     },
     {
         "code": 320542,
         "regency_code": 3205,
         "province_code": 32,
-        "name": "Sucinaraja",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sucinaraja"
     },
     {
         "code": 320601,
         "regency_code": 3206,
         "province_code": 32,
-        "name": "Cipatujah",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cipatujah"
     },
     {
         "code": 320602,
         "regency_code": 3206,
         "province_code": 32,
-        "name": "Karangnunggal",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Karangnunggal"
     },
     {
         "code": 320603,
         "regency_code": 3206,
         "province_code": 32,
-        "name": "Cikalong",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cikalong"
     },
     {
         "code": 320604,
         "regency_code": 3206,
         "province_code": 32,
-        "name": "Pancatengah",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pancatengah"
     },
     {
         "code": 320605,
         "regency_code": 3206,
         "province_code": 32,
-        "name": "Cikatomas",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cikatomas"
     },
     {
         "code": 320606,
         "regency_code": 3206,
         "province_code": 32,
-        "name": "Cibalong",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cibalong"
     },
     {
         "code": 320607,
         "regency_code": 3206,
         "province_code": 32,
-        "name": "Parungponteng",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Parungponteng"
     },
     {
         "code": 320608,
         "regency_code": 3206,
         "province_code": 32,
-        "name": "Bantarkalong",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bantarkalong"
     },
     {
         "code": 320609,
         "regency_code": 3206,
         "province_code": 32,
-        "name": "Bojongasih",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bojongasih"
     },
     {
         "code": 320610,
         "regency_code": 3206,
         "province_code": 32,
-        "name": "Culamega",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Culamega"
     },
     {
         "code": 320611,
         "regency_code": 3206,
         "province_code": 32,
-        "name": "Bojonggambir",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bojonggambir"
     },
     {
         "code": 320612,
         "regency_code": 3206,
         "province_code": 32,
-        "name": "Sodonghilir",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sodonghilir"
     },
     {
         "code": 320613,
         "regency_code": 3206,
         "province_code": 32,
-        "name": "Taraju",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Taraju"
     },
     {
         "code": 320614,
         "regency_code": 3206,
         "province_code": 32,
-        "name": "Salawu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Salawu"
     },
     {
         "code": 320615,
         "regency_code": 3206,
         "province_code": 32,
-        "name": "Puspahiang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Puspahiang"
     },
     {
         "code": 320616,
         "regency_code": 3206,
         "province_code": 32,
-        "name": "Tanjungjaya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tanjungjaya"
     },
     {
         "code": 320617,
         "regency_code": 3206,
         "province_code": 32,
-        "name": "Sukaraja",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sukaraja"
     },
     {
         "code": 320618,
         "regency_code": 3206,
         "province_code": 32,
-        "name": "Salopa",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Salopa"
     },
     {
         "code": 320619,
         "regency_code": 3206,
         "province_code": 32,
-        "name": "Jatiwaras",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Jatiwaras"
     },
     {
         "code": 320620,
         "regency_code": 3206,
         "province_code": 32,
-        "name": "Cineam",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cineam"
     },
     {
         "code": 320621,
         "regency_code": 3206,
         "province_code": 32,
-        "name": "Karang Jaya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Karang Jaya"
     },
     {
         "code": 320622,
         "regency_code": 3206,
         "province_code": 32,
-        "name": "Manonjaya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Manonjaya"
     },
     {
         "code": 320623,
         "regency_code": 3206,
         "province_code": 32,
-        "name": "Gunung Tanjung",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Gunung Tanjung"
     },
     {
         "code": 320624,
         "regency_code": 3206,
         "province_code": 32,
-        "name": "Singaparna",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Singaparna"
     },
     {
         "code": 320625,
         "regency_code": 3206,
         "province_code": 32,
-        "name": "Mangunreja",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Mangunreja"
     },
     {
         "code": 320626,
         "regency_code": 3206,
         "province_code": 32,
-        "name": "Sukarame",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sukarame"
     },
     {
         "code": 320627,
         "regency_code": 3206,
         "province_code": 32,
-        "name": "Cigalontang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cigalontang"
     },
     {
         "code": 320628,
         "regency_code": 3206,
         "province_code": 32,
-        "name": "Leuwisari",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Leuwisari"
     },
     {
         "code": 320629,
         "regency_code": 3206,
         "province_code": 32,
-        "name": "Padakembang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Padakembang"
     },
     {
         "code": 320630,
         "regency_code": 3206,
         "province_code": 32,
-        "name": "Sariwangi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sariwangi"
     },
     {
         "code": 320631,
         "regency_code": 3206,
         "province_code": 32,
-        "name": "Sukaratu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sukaratu"
     },
     {
         "code": 320632,
         "regency_code": 3206,
         "province_code": 32,
-        "name": "Cisayong",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cisayong"
     },
     {
         "code": 320633,
         "regency_code": 3206,
         "province_code": 32,
-        "name": "Sukahening",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sukahening"
     },
     {
         "code": 320634,
         "regency_code": 3206,
         "province_code": 32,
-        "name": "Rajapolah",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Rajapolah"
     },
     {
         "code": 320635,
         "regency_code": 3206,
         "province_code": 32,
-        "name": "Jamanis",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Jamanis"
     },
     {
         "code": 320636,
         "regency_code": 3206,
         "province_code": 32,
-        "name": "Ciawi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Ciawi"
     },
     {
         "code": 320637,
         "regency_code": 3206,
         "province_code": 32,
-        "name": "Kadipaten",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kadipaten"
     },
     {
         "code": 320638,
         "regency_code": 3206,
         "province_code": 32,
-        "name": "Pagerageung",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pagerageung"
     },
     {
         "code": 320639,
         "regency_code": 3206,
         "province_code": 32,
-        "name": "Sukaresik",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sukaresik"
     },
     {
         "code": 320701,
         "regency_code": 3207,
         "province_code": 32,
-        "name": "Ciamis",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Ciamis"
     },
     {
         "code": 320702,
         "regency_code": 3207,
         "province_code": 32,
-        "name": "Cikoneng",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cikoneng"
     },
     {
         "code": 320703,
         "regency_code": 3207,
         "province_code": 32,
-        "name": "Cijeungjing",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cijeungjing"
     },
     {
         "code": 320704,
         "regency_code": 3207,
         "province_code": 32,
-        "name": "Sadananya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sadananya"
     },
     {
         "code": 320705,
         "regency_code": 3207,
         "province_code": 32,
-        "name": "Cidolog",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cidolog"
     },
     {
         "code": 320706,
         "regency_code": 3207,
         "province_code": 32,
-        "name": "Cihaurbeuti",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cihaurbeuti"
     },
     {
         "code": 320707,
         "regency_code": 3207,
         "province_code": 32,
-        "name": "Panumbangan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Panumbangan"
     },
     {
         "code": 320708,
         "regency_code": 3207,
         "province_code": 32,
-        "name": "Panjalu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Panjalu"
     },
     {
         "code": 320709,
         "regency_code": 3207,
         "province_code": 32,
-        "name": "Kawali",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kawali"
     },
     {
         "code": 320710,
         "regency_code": 3207,
         "province_code": 32,
-        "name": "Panawangan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Panawangan"
     },
     {
         "code": 320711,
         "regency_code": 3207,
         "province_code": 32,
-        "name": "Cipaku",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cipaku"
     },
     {
         "code": 320712,
         "regency_code": 3207,
         "province_code": 32,
-        "name": "Jatinagara",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Jatinagara"
     },
     {
         "code": 320713,
         "regency_code": 3207,
         "province_code": 32,
-        "name": "Rajadesa",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Rajadesa"
     },
     {
         "code": 320714,
         "regency_code": 3207,
         "province_code": 32,
-        "name": "Sukadana",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sukadana"
     },
     {
         "code": 320715,
         "regency_code": 3207,
         "province_code": 32,
-        "name": "Rancah",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Rancah"
     },
     {
         "code": 320716,
         "regency_code": 3207,
         "province_code": 32,
-        "name": "Tambaksari",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tambaksari"
     },
     {
         "code": 320717,
         "regency_code": 3207,
         "province_code": 32,
-        "name": "Lakbok",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Lakbok"
     },
     {
         "code": 320718,
         "regency_code": 3207,
         "province_code": 32,
-        "name": "Banjarsari",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Banjarsari"
     },
     {
         "code": 320719,
         "regency_code": 3207,
         "province_code": 32,
-        "name": "Pamarican",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pamarican"
     },
     {
         "code": 320729,
         "regency_code": 3207,
         "province_code": 32,
-        "name": "Cimaragas",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cimaragas"
     },
     {
         "code": 320730,
         "regency_code": 3207,
         "province_code": 32,
-        "name": "Cisaga",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cisaga"
     },
     {
         "code": 320731,
         "regency_code": 3207,
         "province_code": 32,
-        "name": "Sindangkasih",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sindangkasih"
     },
     {
         "code": 320732,
         "regency_code": 3207,
         "province_code": 32,
-        "name": "Baregbeg",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Baregbeg"
     },
     {
         "code": 320733,
         "regency_code": 3207,
         "province_code": 32,
-        "name": "Sukamantri",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sukamantri"
     },
     {
         "code": 320734,
         "regency_code": 3207,
         "province_code": 32,
-        "name": "Lumbung",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Lumbung"
     },
     {
         "code": 320735,
         "regency_code": 3207,
         "province_code": 32,
-        "name": "Purwadadi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Purwadadi"
     },
     {
         "code": 320737,
         "regency_code": 3207,
         "province_code": 32,
-        "name": "Banjaranyar",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Banjaranyar"
     },
     {
         "code": 320801,
         "regency_code": 3208,
         "province_code": 32,
-        "name": "Kadugede",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kadugede"
     },
     {
         "code": 320802,
         "regency_code": 3208,
         "province_code": 32,
-        "name": "Ciniru",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Ciniru"
     },
     {
         "code": 320803,
         "regency_code": 3208,
         "province_code": 32,
-        "name": "Subang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Subang"
     },
     {
         "code": 320804,
         "regency_code": 3208,
         "province_code": 32,
-        "name": "Ciwaru",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Ciwaru"
     },
     {
         "code": 320805,
         "regency_code": 3208,
         "province_code": 32,
-        "name": "Cibingbin",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cibingbin"
     },
     {
         "code": 320806,
         "regency_code": 3208,
         "province_code": 32,
-        "name": "Luragung",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Luragung"
     },
     {
         "code": 320807,
         "regency_code": 3208,
         "province_code": 32,
-        "name": "Lebakwangi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Lebakwangi"
     },
     {
         "code": 320808,
         "regency_code": 3208,
         "province_code": 32,
-        "name": "Garawangi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Garawangi"
     },
     {
         "code": 320809,
         "regency_code": 3208,
         "province_code": 32,
-        "name": "Kuningan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kuningan"
     },
     {
         "code": 320810,
         "regency_code": 3208,
         "province_code": 32,
-        "name": "Ciawigebang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Ciawigebang"
     },
     {
         "code": 320811,
         "regency_code": 3208,
         "province_code": 32,
-        "name": "Cidahu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cidahu"
     },
     {
         "code": 320812,
         "regency_code": 3208,
         "province_code": 32,
-        "name": "Jalaksana",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Jalaksana"
     },
     {
         "code": 320813,
         "regency_code": 3208,
         "province_code": 32,
-        "name": "Cilimus",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cilimus"
     },
     {
         "code": 320814,
         "regency_code": 3208,
         "province_code": 32,
-        "name": "Mandirancan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Mandirancan"
     },
     {
         "code": 320815,
         "regency_code": 3208,
         "province_code": 32,
-        "name": "Selajambe",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Selajambe"
     },
     {
         "code": 320816,
         "regency_code": 3208,
         "province_code": 32,
-        "name": "Kramatmulya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kramatmulya"
     },
     {
         "code": 320817,
         "regency_code": 3208,
         "province_code": 32,
-        "name": "Darma",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Darma"
     },
     {
         "code": 320818,
         "regency_code": 3208,
         "province_code": 32,
-        "name": "Cigugur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cigugur"
     },
     {
         "code": 320819,
         "regency_code": 3208,
         "province_code": 32,
-        "name": "Pasawahan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pasawahan"
     },
     {
         "code": 320820,
         "regency_code": 3208,
         "province_code": 32,
-        "name": "Nusaherang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Nusaherang"
     },
     {
         "code": 320821,
         "regency_code": 3208,
         "province_code": 32,
-        "name": "Cipicung",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cipicung"
     },
     {
         "code": 320822,
         "regency_code": 3208,
         "province_code": 32,
-        "name": "Pancalang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pancalang"
     },
     {
         "code": 320823,
         "regency_code": 3208,
         "province_code": 32,
-        "name": "Japara",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Japara"
     },
     {
         "code": 320824,
         "regency_code": 3208,
         "province_code": 32,
-        "name": "Cimahi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cimahi"
     },
     {
         "code": 320825,
         "regency_code": 3208,
         "province_code": 32,
-        "name": "Cilebak",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cilebak"
     },
     {
         "code": 320826,
         "regency_code": 3208,
         "province_code": 32,
-        "name": "Hantara",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Hantara"
     },
     {
         "code": 320827,
         "regency_code": 3208,
         "province_code": 32,
-        "name": "Kalimanggis",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kalimanggis"
     },
     {
         "code": 320828,
         "regency_code": 3208,
         "province_code": 32,
-        "name": "Cibeureum",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cibeureum"
     },
     {
         "code": 320829,
         "regency_code": 3208,
         "province_code": 32,
-        "name": "Karang Kancana",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Karang Kancana"
     },
     {
         "code": 320830,
         "regency_code": 3208,
         "province_code": 32,
-        "name": "Maleber",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Maleber"
     },
     {
         "code": 320831,
         "regency_code": 3208,
         "province_code": 32,
-        "name": "Sindang Agung",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sindang Agung"
     },
     {
         "code": 320832,
         "regency_code": 3208,
         "province_code": 32,
-        "name": "Cigandamekar",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cigandamekar"
     },
     {
         "code": 320901,
         "regency_code": 3209,
         "province_code": 32,
-        "name": "Waled",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Waled"
     },
     {
         "code": 320902,
         "regency_code": 3209,
         "province_code": 32,
-        "name": "Ciledug",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Ciledug"
     },
     {
         "code": 320903,
         "regency_code": 3209,
         "province_code": 32,
-        "name": "Losari",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Losari"
     },
     {
         "code": 320904,
         "regency_code": 3209,
         "province_code": 32,
-        "name": "Pabedilan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pabedilan"
     },
     {
         "code": 320905,
         "regency_code": 3209,
         "province_code": 32,
-        "name": "Babakan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Babakan"
     },
     {
         "code": 320906,
         "regency_code": 3209,
         "province_code": 32,
-        "name": "Karangsembung",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Karangsembung"
     },
     {
         "code": 320907,
         "regency_code": 3209,
         "province_code": 32,
-        "name": "Lemahabang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Lemahabang"
     },
     {
         "code": 320908,
         "regency_code": 3209,
         "province_code": 32,
-        "name": "Susukan Lebak",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Susukan Lebak"
     },
     {
         "code": 320909,
         "regency_code": 3209,
         "province_code": 32,
-        "name": "Sedong",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sedong"
     },
     {
         "code": 320910,
         "regency_code": 3209,
         "province_code": 32,
-        "name": "Astanajapura",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Astanajapura"
     },
     {
         "code": 320911,
         "regency_code": 3209,
         "province_code": 32,
-        "name": "Pangenan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pangenan"
     },
     {
         "code": 320912,
         "regency_code": 3209,
         "province_code": 32,
-        "name": "Mundu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Mundu"
     },
     {
         "code": 320913,
         "regency_code": 3209,
         "province_code": 32,
-        "name": "Beber",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Beber"
     },
     {
         "code": 320914,
         "regency_code": 3209,
         "province_code": 32,
-        "name": "Talun",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Talun"
     },
     {
         "code": 320915,
         "regency_code": 3209,
         "province_code": 32,
-        "name": "Sumber",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sumber"
     },
     {
         "code": 320916,
         "regency_code": 3209,
         "province_code": 32,
-        "name": "Dukupuntang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Dukupuntang"
     },
     {
         "code": 320917,
         "regency_code": 3209,
         "province_code": 32,
-        "name": "Palimanan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Palimanan"
     },
     {
         "code": 320918,
         "regency_code": 3209,
         "province_code": 32,
-        "name": "Plumbon",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Plumbon"
     },
     {
         "code": 320919,
         "regency_code": 3209,
         "province_code": 32,
-        "name": "Weru",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Weru"
     },
     {
         "code": 320920,
         "regency_code": 3209,
         "province_code": 32,
-        "name": "Kedawung",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kedawung"
     },
     {
         "code": 320921,
         "regency_code": 3209,
         "province_code": 32,
-        "name": "Gunung Jati",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Gunung Jati"
     },
     {
         "code": 320922,
         "regency_code": 3209,
         "province_code": 32,
-        "name": "Kapetakan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kapetakan"
     },
     {
         "code": 320923,
         "regency_code": 3209,
         "province_code": 32,
-        "name": "Klangenan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Klangenan"
     },
     {
         "code": 320924,
         "regency_code": 3209,
         "province_code": 32,
-        "name": "Arjawinangun",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Arjawinangun"
     },
     {
         "code": 320925,
         "regency_code": 3209,
         "province_code": 32,
-        "name": "Panguragan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Panguragan"
     },
     {
         "code": 320926,
         "regency_code": 3209,
         "province_code": 32,
-        "name": "Ciwaringin",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Ciwaringin"
     },
     {
         "code": 320927,
         "regency_code": 3209,
         "province_code": 32,
-        "name": "Susukan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Susukan"
     },
     {
         "code": 320928,
         "regency_code": 3209,
         "province_code": 32,
-        "name": "Gegesik",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Gegesik"
     },
     {
         "code": 320929,
         "regency_code": 3209,
         "province_code": 32,
-        "name": "Kaliwedi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kaliwedi"
     },
     {
         "code": 320930,
         "regency_code": 3209,
         "province_code": 32,
-        "name": "Gebang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Gebang"
     },
     {
         "code": 320931,
         "regency_code": 3209,
         "province_code": 32,
-        "name": "Depok",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Depok"
     },
     {
         "code": 320932,
         "regency_code": 3209,
         "province_code": 32,
-        "name": "Pasaleman",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pasaleman"
     },
     {
         "code": 320933,
         "regency_code": 3209,
         "province_code": 32,
-        "name": "Pabuaran",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pabuaran"
     },
     {
         "code": 320934,
         "regency_code": 3209,
         "province_code": 32,
-        "name": "Karangwareng",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Karangwareng"
     },
     {
         "code": 320935,
         "regency_code": 3209,
         "province_code": 32,
-        "name": "Tengah Tani",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tengah Tani"
     },
     {
         "code": 320936,
         "regency_code": 3209,
         "province_code": 32,
-        "name": "Plered",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Plered"
     },
     {
         "code": 320937,
         "regency_code": 3209,
         "province_code": 32,
-        "name": "Gempol",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Gempol"
     },
     {
         "code": 320938,
         "regency_code": 3209,
         "province_code": 32,
-        "name": "Greged",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Greged"
     },
     {
         "code": 320939,
         "regency_code": 3209,
         "province_code": 32,
-        "name": "Suranenggala",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Suranenggala"
     },
     {
         "code": 320940,
         "regency_code": 3209,
         "province_code": 32,
-        "name": "Jamblang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Jamblang"
     },
     {
         "code": 321001,
         "regency_code": 3210,
         "province_code": 32,
-        "name": "Lemahsugih",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Lemahsugih"
     },
     {
         "code": 321002,
         "regency_code": 3210,
         "province_code": 32,
-        "name": "Bantarujeg",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bantarujeg"
     },
     {
         "code": 321003,
         "regency_code": 3210,
         "province_code": 32,
-        "name": "Cikijing",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cikijing"
     },
     {
         "code": 321004,
         "regency_code": 3210,
         "province_code": 32,
-        "name": "Talaga",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Talaga"
     },
     {
         "code": 321005,
         "regency_code": 3210,
         "province_code": 32,
-        "name": "Argapura",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Argapura"
     },
     {
         "code": 321006,
         "regency_code": 3210,
         "province_code": 32,
-        "name": "Maja",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Maja"
     },
     {
         "code": 321007,
         "regency_code": 3210,
         "province_code": 32,
-        "name": "Majalengka",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Majalengka"
     },
     {
         "code": 321008,
         "regency_code": 3210,
         "province_code": 32,
-        "name": "Sukahaji",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sukahaji"
     },
     {
         "code": 321009,
         "regency_code": 3210,
         "province_code": 32,
-        "name": "Rajagaluh",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Rajagaluh"
     },
     {
         "code": 321010,
         "regency_code": 3210,
         "province_code": 32,
-        "name": "Leuwimunding",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Leuwimunding"
     },
     {
         "code": 321011,
         "regency_code": 3210,
         "province_code": 32,
-        "name": "Jatiwangi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Jatiwangi"
     },
     {
         "code": 321012,
         "regency_code": 3210,
         "province_code": 32,
-        "name": "Dawuan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Dawuan"
     },
     {
         "code": 321013,
         "regency_code": 3210,
         "province_code": 32,
-        "name": "Kadipaten",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kadipaten"
     },
     {
         "code": 321014,
         "regency_code": 3210,
         "province_code": 32,
-        "name": "Kertajati",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kertajati"
     },
     {
         "code": 321015,
         "regency_code": 3210,
         "province_code": 32,
-        "name": "Jatitujuh",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Jatitujuh"
     },
     {
         "code": 321016,
         "regency_code": 3210,
         "province_code": 32,
-        "name": "Ligung",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Ligung"
     },
     {
         "code": 321017,
         "regency_code": 3210,
         "province_code": 32,
-        "name": "Sumberjaya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sumberjaya"
     },
     {
         "code": 321018,
         "regency_code": 3210,
         "province_code": 32,
-        "name": "Panyingkiran",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Panyingkiran"
     },
     {
         "code": 321019,
         "regency_code": 3210,
         "province_code": 32,
-        "name": "Palasah",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Palasah"
     },
     {
         "code": 321020,
         "regency_code": 3210,
         "province_code": 32,
-        "name": "Cigasong",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cigasong"
     },
     {
         "code": 321021,
         "regency_code": 3210,
         "province_code": 32,
-        "name": "Sindangwangi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sindangwangi"
     },
     {
         "code": 321022,
         "regency_code": 3210,
         "province_code": 32,
-        "name": "Banjaran",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Banjaran"
     },
     {
         "code": 321023,
         "regency_code": 3210,
         "province_code": 32,
-        "name": "Cingambul",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cingambul"
     },
     {
         "code": 321024,
         "regency_code": 3210,
         "province_code": 32,
-        "name": "Kasokandel",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kasokandel"
     },
     {
         "code": 321025,
         "regency_code": 3210,
         "province_code": 32,
-        "name": "Sindang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sindang"
     },
     {
         "code": 321026,
         "regency_code": 3210,
         "province_code": 32,
-        "name": "Malausma",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Malausma"
     },
     {
         "code": 321101,
         "regency_code": 3211,
         "province_code": 32,
-        "name": "Wado",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Wado"
     },
     {
         "code": 321102,
         "regency_code": 3211,
         "province_code": 32,
-        "name": "Jatinunggal",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Jatinunggal"
     },
     {
         "code": 321103,
         "regency_code": 3211,
         "province_code": 32,
-        "name": "Darmaraja",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Darmaraja"
     },
     {
         "code": 321104,
         "regency_code": 3211,
         "province_code": 32,
-        "name": "Cibugel",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cibugel"
     },
     {
         "code": 321105,
         "regency_code": 3211,
         "province_code": 32,
-        "name": "Cisitu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cisitu"
     },
     {
         "code": 321106,
         "regency_code": 3211,
         "province_code": 32,
-        "name": "Situraja",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Situraja"
     },
     {
         "code": 321107,
         "regency_code": 3211,
         "province_code": 32,
-        "name": "Conggeang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Conggeang"
     },
     {
         "code": 321108,
         "regency_code": 3211,
         "province_code": 32,
-        "name": "Paseh",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Paseh"
     },
     {
         "code": 321109,
         "regency_code": 3211,
         "province_code": 32,
-        "name": "Surian",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Surian"
     },
     {
         "code": 321110,
         "regency_code": 3211,
         "province_code": 32,
-        "name": "Buahdua",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Buahdua"
     },
     {
         "code": 321111,
         "regency_code": 3211,
         "province_code": 32,
-        "name": "Tanjungsari",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tanjungsari"
     },
     {
         "code": 321112,
         "regency_code": 3211,
         "province_code": 32,
-        "name": "Sukasari",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sukasari"
     },
     {
         "code": 321113,
         "regency_code": 3211,
         "province_code": 32,
-        "name": "Pamulihan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pamulihan"
     },
     {
         "code": 321114,
         "regency_code": 3211,
         "province_code": 32,
-        "name": "Cimanggung",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cimanggung"
     },
     {
         "code": 321115,
         "regency_code": 3211,
         "province_code": 32,
-        "name": "Jatinangor",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Jatinangor"
     },
     {
         "code": 321116,
         "regency_code": 3211,
         "province_code": 32,
-        "name": "Rancakalong",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Rancakalong"
     },
     {
         "code": 321117,
         "regency_code": 3211,
         "province_code": 32,
-        "name": "Sumedang Selatan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sumedang Selatan"
     },
     {
         "code": 321118,
         "regency_code": 3211,
         "province_code": 32,
-        "name": "Sumedang Utara",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sumedang Utara"
     },
     {
         "code": 321119,
         "regency_code": 3211,
         "province_code": 32,
-        "name": "Ganeas",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Ganeas"
     },
     {
         "code": 321120,
         "regency_code": 3211,
         "province_code": 32,
-        "name": "Tanjungkerta",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tanjungkerta"
     },
     {
         "code": 321121,
         "regency_code": 3211,
         "province_code": 32,
-        "name": "Tanjungmedar",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tanjungmedar"
     },
     {
         "code": 321122,
         "regency_code": 3211,
         "province_code": 32,
-        "name": "Cimalaka",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cimalaka"
     },
     {
         "code": 321123,
         "regency_code": 3211,
         "province_code": 32,
-        "name": "Cisarua",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cisarua"
     },
     {
         "code": 321124,
         "regency_code": 3211,
         "province_code": 32,
-        "name": "Tomo",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tomo"
     },
     {
         "code": 321125,
         "regency_code": 3211,
         "province_code": 32,
-        "name": "Ujungjaya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Ujungjaya"
     },
     {
         "code": 321126,
         "regency_code": 3211,
         "province_code": 32,
-        "name": "Jatigede",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Jatigede"
     },
     {
         "code": 321201,
         "regency_code": 3212,
         "province_code": 32,
-        "name": "Haurgeulis",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Haurgeulis"
     },
     {
         "code": 321202,
         "regency_code": 3212,
         "province_code": 32,
-        "name": "Kroya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kroya"
     },
     {
         "code": 321203,
         "regency_code": 3212,
         "province_code": 32,
-        "name": "Gabuswetan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Gabuswetan"
     },
     {
         "code": 321204,
         "regency_code": 3212,
         "province_code": 32,
-        "name": "Cikedung",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cikedung"
     },
     {
         "code": 321205,
         "regency_code": 3212,
         "province_code": 32,
-        "name": "Lelea",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Lelea"
     },
     {
         "code": 321206,
         "regency_code": 3212,
         "province_code": 32,
-        "name": "Bangodua",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bangodua"
     },
     {
         "code": 321207,
         "regency_code": 3212,
         "province_code": 32,
-        "name": "Widasari",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Widasari"
     },
     {
         "code": 321208,
         "regency_code": 3212,
         "province_code": 32,
-        "name": "Kertasemaya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kertasemaya"
     },
     {
         "code": 321209,
         "regency_code": 3212,
         "province_code": 32,
-        "name": "Krangkeng",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Krangkeng"
     },
     {
         "code": 321210,
         "regency_code": 3212,
         "province_code": 32,
-        "name": "Karangampel",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Karangampel"
     },
     {
         "code": 321211,
         "regency_code": 3212,
         "province_code": 32,
-        "name": "Juntinyuat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Juntinyuat"
     },
     {
         "code": 321212,
         "regency_code": 3212,
         "province_code": 32,
-        "name": "Sliyeg",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sliyeg"
     },
     {
         "code": 321213,
         "regency_code": 3212,
         "province_code": 32,
-        "name": "Jatibarang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Jatibarang"
     },
     {
         "code": 321214,
         "regency_code": 3212,
         "province_code": 32,
-        "name": "Balongan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Balongan"
     },
     {
         "code": 321215,
         "regency_code": 3212,
         "province_code": 32,
-        "name": "Indramayu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Indramayu"
     },
     {
         "code": 321216,
         "regency_code": 3212,
         "province_code": 32,
-        "name": "Sindang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sindang"
     },
     {
         "code": 321217,
         "regency_code": 3212,
         "province_code": 32,
-        "name": "Cantigi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cantigi"
     },
     {
         "code": 321218,
         "regency_code": 3212,
         "province_code": 32,
-        "name": "Lohbener",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Lohbener"
     },
     {
         "code": 321219,
         "regency_code": 3212,
         "province_code": 32,
-        "name": "Arahan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Arahan"
     },
     {
         "code": 321220,
         "regency_code": 3212,
         "province_code": 32,
-        "name": "Losarang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Losarang"
     },
     {
         "code": 321221,
         "regency_code": 3212,
         "province_code": 32,
-        "name": "Kandanghaur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kandanghaur"
     },
     {
         "code": 321222,
         "regency_code": 3212,
         "province_code": 32,
-        "name": "Bongas",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bongas"
     },
     {
         "code": 321223,
         "regency_code": 3212,
         "province_code": 32,
-        "name": "Anjatan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Anjatan"
     },
     {
         "code": 321224,
         "regency_code": 3212,
         "province_code": 32,
-        "name": "Sukra",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sukra"
     },
     {
         "code": 321225,
         "regency_code": 3212,
         "province_code": 32,
-        "name": "Gantar",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Gantar"
     },
     {
         "code": 321226,
         "regency_code": 3212,
         "province_code": 32,
-        "name": "Trisi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Trisi"
     },
     {
         "code": 321227,
         "regency_code": 3212,
         "province_code": 32,
-        "name": "Sukagumiwang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sukagumiwang"
     },
     {
         "code": 321228,
         "regency_code": 3212,
         "province_code": 32,
-        "name": "Kedokan Bunder",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kedokan Bunder"
     },
     {
         "code": 321229,
         "regency_code": 3212,
         "province_code": 32,
-        "name": "Pasekan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pasekan"
     },
     {
         "code": 321230,
         "regency_code": 3212,
         "province_code": 32,
-        "name": "Tukdana",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tukdana"
     },
     {
         "code": 321231,
         "regency_code": 3212,
         "province_code": 32,
-        "name": "Patrol",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Patrol"
     },
     {
         "code": 321301,
         "regency_code": 3213,
         "province_code": 32,
-        "name": "Sagalaherang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sagalaherang"
     },
     {
         "code": 321302,
         "regency_code": 3213,
         "province_code": 32,
-        "name": "Cisalak",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cisalak"
     },
     {
         "code": 321303,
         "regency_code": 3213,
         "province_code": 32,
-        "name": "Subang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Subang"
     },
     {
         "code": 321304,
         "regency_code": 3213,
         "province_code": 32,
-        "name": "Kalijati",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kalijati"
     },
     {
         "code": 321305,
         "regency_code": 3213,
         "province_code": 32,
-        "name": "Pabuaran",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pabuaran"
     },
     {
         "code": 321306,
         "regency_code": 3213,
         "province_code": 32,
-        "name": "Purwadadi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Purwadadi"
     },
     {
         "code": 321307,
         "regency_code": 3213,
         "province_code": 32,
-        "name": "Pagaden",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pagaden"
     },
     {
         "code": 321308,
         "regency_code": 3213,
         "province_code": 32,
-        "name": "Binong",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Binong"
     },
     {
         "code": 321309,
         "regency_code": 3213,
         "province_code": 32,
-        "name": "Ciasem",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Ciasem"
     },
     {
         "code": 321310,
         "regency_code": 3213,
         "province_code": 32,
-        "name": "Pusakanagara",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pusakanagara"
     },
     {
         "code": 321311,
         "regency_code": 3213,
         "province_code": 32,
-        "name": "Pamanukan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pamanukan"
     },
     {
         "code": 321312,
         "regency_code": 3213,
         "province_code": 32,
-        "name": "Jalancagak",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Jalancagak"
     },
     {
         "code": 321313,
         "regency_code": 3213,
         "province_code": 32,
-        "name": "Blanakan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Blanakan"
     },
     {
         "code": 321314,
         "regency_code": 3213,
         "province_code": 32,
-        "name": "Tanjungsiang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tanjungsiang"
     },
     {
         "code": 321315,
         "regency_code": 3213,
         "province_code": 32,
-        "name": "Compreng",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Compreng"
     },
     {
         "code": 321316,
         "regency_code": 3213,
         "province_code": 32,
-        "name": "Patokbeusi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Patokbeusi"
     },
     {
         "code": 321317,
         "regency_code": 3213,
         "province_code": 32,
-        "name": "Cibogo",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cibogo"
     },
     {
         "code": 321318,
         "regency_code": 3213,
         "province_code": 32,
-        "name": "Cipunagara",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cipunagara"
     },
     {
         "code": 321319,
         "regency_code": 3213,
         "province_code": 32,
-        "name": "Cijambe",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cijambe"
     },
     {
         "code": 321320,
         "regency_code": 3213,
         "province_code": 32,
-        "name": "Cipeundeuy",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cipeundeuy"
     },
     {
         "code": 321321,
         "regency_code": 3213,
         "province_code": 32,
-        "name": "Legonkulon",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Legonkulon"
     },
     {
         "code": 321322,
         "regency_code": 3213,
         "province_code": 32,
-        "name": "Cikaum",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cikaum"
     },
     {
         "code": 321323,
         "regency_code": 3213,
         "province_code": 32,
-        "name": "Serangpanjang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Serangpanjang"
     },
     {
         "code": 321324,
         "regency_code": 3213,
         "province_code": 32,
-        "name": "Sukasari",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sukasari"
     },
     {
         "code": 321325,
         "regency_code": 3213,
         "province_code": 32,
-        "name": "Tambakdahan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tambakdahan"
     },
     {
         "code": 321326,
         "regency_code": 3213,
         "province_code": 32,
-        "name": "Kasomalang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kasomalang"
     },
     {
         "code": 321327,
         "regency_code": 3213,
         "province_code": 32,
-        "name": "Dawuan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Dawuan"
     },
     {
         "code": 321328,
         "regency_code": 3213,
         "province_code": 32,
-        "name": "Pagaden Barat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pagaden Barat"
     },
     {
         "code": 321329,
         "regency_code": 3213,
         "province_code": 32,
-        "name": "Ciater",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Ciater"
     },
     {
         "code": 321330,
         "regency_code": 3213,
         "province_code": 32,
-        "name": "Pusakajaya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pusakajaya"
     },
     {
         "code": 321401,
         "regency_code": 3214,
         "province_code": 32,
-        "name": "Purwakarta",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Purwakarta"
     },
     {
         "code": 321402,
         "regency_code": 3214,
         "province_code": 32,
-        "name": "Campaka",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Campaka"
     },
     {
         "code": 321403,
         "regency_code": 3214,
         "province_code": 32,
-        "name": "Jatiluhur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Jatiluhur"
     },
     {
         "code": 321404,
         "regency_code": 3214,
         "province_code": 32,
-        "name": "Plered",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Plered"
     },
     {
         "code": 321405,
         "regency_code": 3214,
         "province_code": 32,
-        "name": "Sukatani",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sukatani"
     },
     {
         "code": 321406,
         "regency_code": 3214,
         "province_code": 32,
-        "name": "Darangdan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Darangdan"
     },
     {
         "code": 321407,
         "regency_code": 3214,
         "province_code": 32,
-        "name": "Maniis",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Maniis"
     },
     {
         "code": 321408,
         "regency_code": 3214,
         "province_code": 32,
-        "name": "Tegalwaru",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tegalwaru"
     },
     {
         "code": 321409,
         "regency_code": 3214,
         "province_code": 32,
-        "name": "Wanayasa",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Wanayasa"
     },
     {
         "code": 321410,
         "regency_code": 3214,
         "province_code": 32,
-        "name": "Pasawahan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pasawahan"
     },
     {
         "code": 321411,
         "regency_code": 3214,
         "province_code": 32,
-        "name": "Bojong",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bojong"
     },
     {
         "code": 321412,
         "regency_code": 3214,
         "province_code": 32,
-        "name": "Babakancikao",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Babakancikao"
     },
     {
         "code": 321413,
         "regency_code": 3214,
         "province_code": 32,
-        "name": "Bungursari",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bungursari"
     },
     {
         "code": 321414,
         "regency_code": 3214,
         "province_code": 32,
-        "name": "Cibatu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cibatu"
     },
     {
         "code": 321415,
         "regency_code": 3214,
         "province_code": 32,
-        "name": "Sukasari",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sukasari"
     },
     {
         "code": 321416,
         "regency_code": 3214,
         "province_code": 32,
-        "name": "Pondoksalam",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pondoksalam"
     },
     {
         "code": 321417,
         "regency_code": 3214,
         "province_code": 32,
-        "name": "Kiarapedes",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kiarapedes"
     },
     {
         "code": 321501,
         "regency_code": 3215,
         "province_code": 32,
-        "name": "Karawang Barat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Karawang Barat"
     },
     {
         "code": 321502,
         "regency_code": 3215,
         "province_code": 32,
-        "name": "Pangkalan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pangkalan"
     },
     {
         "code": 321503,
         "regency_code": 3215,
         "province_code": 32,
-        "name": "Telukjambe Timur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Telukjambe Timur"
     },
     {
         "code": 321504,
         "regency_code": 3215,
         "province_code": 32,
-        "name": "Ciampel",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Ciampel"
     },
     {
         "code": 321505,
         "regency_code": 3215,
         "province_code": 32,
-        "name": "Klari",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Klari"
     },
     {
         "code": 321506,
         "regency_code": 3215,
         "province_code": 32,
-        "name": "Rengasdengklok",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Rengasdengklok"
     },
     {
         "code": 321507,
         "regency_code": 3215,
         "province_code": 32,
-        "name": "Kutawaluya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kutawaluya"
     },
     {
         "code": 321508,
         "regency_code": 3215,
         "province_code": 32,
-        "name": "Batujaya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Batujaya"
     },
     {
         "code": 321509,
         "regency_code": 3215,
         "province_code": 32,
-        "name": "Tirtajaya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tirtajaya"
     },
     {
         "code": 321510,
         "regency_code": 3215,
         "province_code": 32,
-        "name": "Pedes",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pedes"
     },
     {
         "code": 321511,
         "regency_code": 3215,
         "province_code": 32,
-        "name": "Cibuaya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cibuaya"
     },
     {
         "code": 321512,
         "regency_code": 3215,
         "province_code": 32,
-        "name": "Pakisjaya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pakisjaya"
     },
     {
         "code": 321513,
         "regency_code": 3215,
         "province_code": 32,
-        "name": "Cikampek",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cikampek"
     },
     {
         "code": 321514,
         "regency_code": 3215,
         "province_code": 32,
-        "name": "Jatisari",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Jatisari"
     },
     {
         "code": 321515,
         "regency_code": 3215,
         "province_code": 32,
-        "name": "Cilamaya Wetan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cilamaya Wetan"
     },
     {
         "code": 321516,
         "regency_code": 3215,
         "province_code": 32,
-        "name": "Tirtamulya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tirtamulya"
     },
     {
         "code": 321517,
         "regency_code": 3215,
         "province_code": 32,
-        "name": "Telagasari",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Telagasari"
     },
     {
         "code": 321518,
         "regency_code": 3215,
         "province_code": 32,
-        "name": "Rawamerta",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Rawamerta"
     },
     {
         "code": 321519,
         "regency_code": 3215,
         "province_code": 32,
-        "name": "Lemahabang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Lemahabang"
     },
     {
         "code": 321520,
         "regency_code": 3215,
         "province_code": 32,
-        "name": "Tempuran",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tempuran"
     },
     {
         "code": 321521,
         "regency_code": 3215,
         "province_code": 32,
-        "name": "Majalaya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Majalaya"
     },
     {
         "code": 321522,
         "regency_code": 3215,
         "province_code": 32,
-        "name": "Jayakerta",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Jayakerta"
     },
     {
         "code": 321523,
         "regency_code": 3215,
         "province_code": 32,
-        "name": "Cilamaya Kulon",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cilamaya Kulon"
     },
     {
         "code": 321524,
         "regency_code": 3215,
         "province_code": 32,
-        "name": "Banyusari",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Banyusari"
     },
     {
         "code": 321525,
         "regency_code": 3215,
         "province_code": 32,
-        "name": "Kota Baru",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kota Baru"
     },
     {
         "code": 321526,
         "regency_code": 3215,
         "province_code": 32,
-        "name": "Karawang Timur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Karawang Timur"
     },
     {
         "code": 321527,
         "regency_code": 3215,
         "province_code": 32,
-        "name": "Telukjambe Barat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Telukjambe Barat"
     },
     {
         "code": 321528,
         "regency_code": 3215,
         "province_code": 32,
-        "name": "Tegalwaru",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tegalwaru"
     },
     {
         "code": 321529,
         "regency_code": 3215,
         "province_code": 32,
-        "name": "Purwasari",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Purwasari"
     },
     {
         "code": 321530,
         "regency_code": 3215,
         "province_code": 32,
-        "name": "Cilebar",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cilebar"
     },
     {
         "code": 321601,
         "regency_code": 3216,
         "province_code": 32,
-        "name": "Tarumajaya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tarumajaya"
     },
     {
         "code": 321602,
         "regency_code": 3216,
         "province_code": 32,
-        "name": "Babelan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Babelan"
     },
     {
         "code": 321603,
         "regency_code": 3216,
         "province_code": 32,
-        "name": "Sukawangi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sukawangi"
     },
     {
         "code": 321604,
         "regency_code": 3216,
         "province_code": 32,
-        "name": "Tambelang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tambelang"
     },
     {
         "code": 321605,
         "regency_code": 3216,
         "province_code": 32,
-        "name": "Tambun Utara",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tambun Utara"
     },
     {
         "code": 321606,
         "regency_code": 3216,
         "province_code": 32,
-        "name": "Tambun Selatan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tambun Selatan"
     },
     {
         "code": 321607,
         "regency_code": 3216,
         "province_code": 32,
-        "name": "Cibitung",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cibitung"
     },
     {
         "code": 321608,
         "regency_code": 3216,
         "province_code": 32,
-        "name": "Cikarang Barat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cikarang Barat"
     },
     {
         "code": 321609,
         "regency_code": 3216,
         "province_code": 32,
-        "name": "Cikarang Utara",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cikarang Utara"
     },
     {
         "code": 321610,
         "regency_code": 3216,
         "province_code": 32,
-        "name": "Karang Bahagia",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Karang Bahagia"
     },
     {
         "code": 321611,
         "regency_code": 3216,
         "province_code": 32,
-        "name": "Cikarang Timur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cikarang Timur"
     },
     {
         "code": 321612,
         "regency_code": 3216,
         "province_code": 32,
-        "name": "Kedung Waringin",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kedung Waringin"
     },
     {
         "code": 321613,
         "regency_code": 3216,
         "province_code": 32,
-        "name": "Pebayuran",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pebayuran"
     },
     {
         "code": 321614,
         "regency_code": 3216,
         "province_code": 32,
-        "name": "Sukakarya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sukakarya"
     },
     {
         "code": 321615,
         "regency_code": 3216,
         "province_code": 32,
-        "name": "Sukatani",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sukatani"
     },
     {
         "code": 321616,
         "regency_code": 3216,
         "province_code": 32,
-        "name": "Cabangbungin",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cabangbungin"
     },
     {
         "code": 321617,
         "regency_code": 3216,
         "province_code": 32,
-        "name": "Muaragembong",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Muaragembong"
     },
     {
         "code": 321618,
         "regency_code": 3216,
         "province_code": 32,
-        "name": "Setu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Setu"
     },
     {
         "code": 321619,
         "regency_code": 3216,
         "province_code": 32,
-        "name": "Cikarang Selatan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cikarang Selatan"
     },
     {
         "code": 321620,
         "regency_code": 3216,
         "province_code": 32,
-        "name": "Cikarang Pusat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cikarang Pusat"
     },
     {
         "code": 321621,
         "regency_code": 3216,
         "province_code": 32,
-        "name": "Serang Baru",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Serang Baru"
     },
     {
         "code": 321622,
         "regency_code": 3216,
         "province_code": 32,
-        "name": "Cibarusah",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cibarusah"
     },
     {
         "code": 321623,
         "regency_code": 3216,
         "province_code": 32,
-        "name": "Bojongmangu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bojongmangu"
     },
     {
         "code": 321701,
         "regency_code": 3217,
         "province_code": 32,
-        "name": "Lembang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Lembang"
     },
     {
         "code": 321702,
         "regency_code": 3217,
         "province_code": 32,
-        "name": "Parongpong",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Parongpong"
     },
     {
         "code": 321703,
         "regency_code": 3217,
         "province_code": 32,
-        "name": "Cisarua",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cisarua"
     },
     {
         "code": 321704,
         "regency_code": 3217,
         "province_code": 32,
-        "name": "Cikalongwetan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cikalongwetan"
     },
     {
         "code": 321705,
         "regency_code": 3217,
         "province_code": 32,
-        "name": "Cipeundeuy",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cipeundeuy"
     },
     {
         "code": 321706,
         "regency_code": 3217,
         "province_code": 32,
-        "name": "Ngamprah",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Ngamprah"
     },
     {
         "code": 321707,
         "regency_code": 3217,
         "province_code": 32,
-        "name": "Cipatat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cipatat"
     },
     {
         "code": 321708,
         "regency_code": 3217,
         "province_code": 32,
-        "name": "Padalarang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Padalarang"
     },
     {
         "code": 321709,
         "regency_code": 3217,
         "province_code": 32,
-        "name": "Batujajar",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Batujajar"
     },
     {
         "code": 321710,
         "regency_code": 3217,
         "province_code": 32,
-        "name": "Cihampelas",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cihampelas"
     },
     {
         "code": 321711,
         "regency_code": 3217,
         "province_code": 32,
-        "name": "Cililin",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cililin"
     },
     {
         "code": 321712,
         "regency_code": 3217,
         "province_code": 32,
-        "name": "Cipongkor",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cipongkor"
     },
     {
         "code": 321713,
         "regency_code": 3217,
         "province_code": 32,
-        "name": "Rongga",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Rongga"
     },
     {
         "code": 321714,
         "regency_code": 3217,
         "province_code": 32,
-        "name": "Sindangkerta",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sindangkerta"
     },
     {
         "code": 321715,
         "regency_code": 3217,
         "province_code": 32,
-        "name": "Gununghalu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Gununghalu"
     },
     {
         "code": 321716,
         "regency_code": 3217,
         "province_code": 32,
-        "name": "Saguling",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Saguling"
     },
     {
         "code": 321801,
         "regency_code": 3218,
         "province_code": 32,
-        "name": "Parigi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Parigi"
     },
     {
         "code": 321802,
         "regency_code": 3218,
         "province_code": 32,
-        "name": "Cijulang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cijulang"
     },
     {
         "code": 321803,
         "regency_code": 3218,
         "province_code": 32,
-        "name": "Cimerak",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cimerak"
     },
     {
         "code": 321804,
         "regency_code": 3218,
         "province_code": 32,
-        "name": "Cigugur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cigugur"
     },
     {
         "code": 321805,
         "regency_code": 3218,
         "province_code": 32,
-        "name": "Langkaplancar",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Langkaplancar"
     },
     {
         "code": 321806,
         "regency_code": 3218,
         "province_code": 32,
-        "name": "Mangunjaya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Mangunjaya"
     },
     {
         "code": 321807,
         "regency_code": 3218,
         "province_code": 32,
-        "name": "Padaherang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Padaherang"
     },
     {
         "code": 321808,
         "regency_code": 3218,
         "province_code": 32,
-        "name": "Kalipucang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kalipucang"
     },
     {
         "code": 321809,
         "regency_code": 3218,
         "province_code": 32,
-        "name": "Pangandaran",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pangandaran"
     },
     {
         "code": 321810,
         "regency_code": 3218,
         "province_code": 32,
-        "name": "Sidamulih",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sidamulih"
     },
     {
         "code": 327101,
         "regency_code": 3271,
         "province_code": 32,
-        "name": "Bogor Selatan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bogor Selatan"
     },
     {
         "code": 327102,
         "regency_code": 3271,
         "province_code": 32,
-        "name": "Bogor Timur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bogor Timur"
     },
     {
         "code": 327103,
         "regency_code": 3271,
         "province_code": 32,
-        "name": "Bogor Tengah",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bogor Tengah"
     },
     {
         "code": 327104,
         "regency_code": 3271,
         "province_code": 32,
-        "name": "Bogor Barat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bogor Barat"
     },
     {
         "code": 327105,
         "regency_code": 3271,
         "province_code": 32,
-        "name": "Bogor Utara",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bogor Utara"
     },
     {
         "code": 327106,
         "regency_code": 3271,
         "province_code": 32,
-        "name": "Tanah Sareal",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tanah Sareal"
     },
     {
         "code": 327201,
         "regency_code": 3272,
         "province_code": 32,
-        "name": "Gunungpuyuh",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Gunungpuyuh"
     },
     {
         "code": 327202,
         "regency_code": 3272,
         "province_code": 32,
-        "name": "Cikole",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cikole"
     },
     {
         "code": 327203,
         "regency_code": 3272,
         "province_code": 32,
-        "name": "Citamiang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Citamiang"
     },
     {
         "code": 327204,
         "regency_code": 3272,
         "province_code": 32,
-        "name": "Warudoyong",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Warudoyong"
     },
     {
         "code": 327205,
         "regency_code": 3272,
         "province_code": 32,
-        "name": "Baros",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Baros"
     },
     {
         "code": 327206,
         "regency_code": 3272,
         "province_code": 32,
-        "name": "Lembursitu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Lembursitu"
     },
     {
         "code": 327207,
         "regency_code": 3272,
         "province_code": 32,
-        "name": "Cibeureum",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cibeureum"
     },
     {
         "code": 327301,
         "regency_code": 3273,
         "province_code": 32,
-        "name": "Sukasari",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sukasari"
     },
     {
         "code": 327302,
         "regency_code": 3273,
         "province_code": 32,
-        "name": "Coblong",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Coblong"
     },
     {
         "code": 327303,
         "regency_code": 3273,
         "province_code": 32,
-        "name": "Babakan Ciparay",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Babakan Ciparay"
     },
     {
         "code": 327304,
         "regency_code": 3273,
         "province_code": 32,
-        "name": "Bojongloa Kaler",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bojongloa Kaler"
     },
     {
         "code": 327305,
         "regency_code": 3273,
         "province_code": 32,
-        "name": "Andir",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Andir"
     },
     {
         "code": 327306,
         "regency_code": 3273,
         "province_code": 32,
-        "name": "Cicendo",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cicendo"
     },
     {
         "code": 327307,
         "regency_code": 3273,
         "province_code": 32,
-        "name": "Sukajadi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sukajadi"
     },
     {
         "code": 327308,
         "regency_code": 3273,
         "province_code": 32,
-        "name": "Cidadap",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cidadap"
     },
     {
         "code": 327309,
         "regency_code": 3273,
         "province_code": 32,
-        "name": "Bandung Wetan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bandung Wetan"
     },
     {
         "code": 327310,
         "regency_code": 3273,
         "province_code": 32,
-        "name": "Astana Anyar",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Astana Anyar"
     },
     {
         "code": 327311,
         "regency_code": 3273,
         "province_code": 32,
-        "name": "Regol",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Regol"
     },
     {
         "code": 327312,
         "regency_code": 3273,
         "province_code": 32,
-        "name": "Batununggal",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Batununggal"
     },
     {
         "code": 327313,
         "regency_code": 3273,
         "province_code": 32,
-        "name": "Lengkong",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Lengkong"
     },
     {
         "code": 327314,
         "regency_code": 3273,
         "province_code": 32,
-        "name": "Cibeunying Kidul",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cibeunying Kidul"
     },
     {
         "code": 327315,
         "regency_code": 3273,
         "province_code": 32,
-        "name": "Bandung Kulon",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bandung Kulon"
     },
     {
         "code": 327316,
         "regency_code": 3273,
         "province_code": 32,
-        "name": "Kiaracondong",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kiaracondong"
     },
     {
         "code": 327317,
         "regency_code": 3273,
         "province_code": 32,
-        "name": "Bojongloa Kidul",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bojongloa Kidul"
     },
     {
         "code": 327318,
         "regency_code": 3273,
         "province_code": 32,
-        "name": "Cibeunying Kaler",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cibeunying Kaler"
     },
     {
         "code": 327319,
         "regency_code": 3273,
         "province_code": 32,
-        "name": "Sumur Bandung",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sumur Bandung"
     },
     {
         "code": 327320,
         "regency_code": 3273,
         "province_code": 32,
-        "name": "Antapani",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Antapani"
     },
     {
         "code": 327321,
         "regency_code": 3273,
         "province_code": 32,
-        "name": "Bandung Kidul",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bandung Kidul"
     },
     {
         "code": 327322,
         "regency_code": 3273,
         "province_code": 32,
-        "name": "Buahbatu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Buahbatu"
     },
     {
         "code": 327323,
         "regency_code": 3273,
         "province_code": 32,
-        "name": "Rancasari",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Rancasari"
     },
     {
         "code": 327324,
         "regency_code": 3273,
         "province_code": 32,
-        "name": "Arcamanik",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Arcamanik"
     },
     {
         "code": 327325,
         "regency_code": 3273,
         "province_code": 32,
-        "name": "Cibiru",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cibiru"
     },
     {
         "code": 327326,
         "regency_code": 3273,
         "province_code": 32,
-        "name": "Ujungberung",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Ujungberung"
     },
     {
         "code": 327327,
         "regency_code": 3273,
         "province_code": 32,
-        "name": "Gedebage",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Gedebage"
     },
     {
         "code": 327328,
         "regency_code": 3273,
         "province_code": 32,
-        "name": "Panyileukan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Panyileukan"
     },
     {
         "code": 327329,
         "regency_code": 3273,
         "province_code": 32,
-        "name": "Cinambo",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cinambo"
     },
     {
         "code": 327330,
         "regency_code": 3273,
         "province_code": 32,
-        "name": "Mandalajati",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Mandalajati"
     },
     {
         "code": 327401,
         "regency_code": 3274,
         "province_code": 32,
-        "name": "Kejaksan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kejaksan"
     },
     {
         "code": 327402,
         "regency_code": 3274,
         "province_code": 32,
-        "name": "Lemah Wungkuk",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Lemah Wungkuk"
     },
     {
         "code": 327403,
         "regency_code": 3274,
         "province_code": 32,
-        "name": "Harjamukti",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Harjamukti"
     },
     {
         "code": 327404,
         "regency_code": 3274,
         "province_code": 32,
-        "name": "Pekalipan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pekalipan"
     },
     {
         "code": 327405,
         "regency_code": 3274,
         "province_code": 32,
-        "name": "Kesambi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kesambi"
     },
     {
         "code": 327501,
         "regency_code": 3275,
         "province_code": 32,
-        "name": "Bekasi Timur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bekasi Timur"
     },
     {
         "code": 327502,
         "regency_code": 3275,
         "province_code": 32,
-        "name": "Bekasi Barat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bekasi Barat"
     },
     {
         "code": 327503,
         "regency_code": 3275,
         "province_code": 32,
-        "name": "Bekasi Utara",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bekasi Utara"
     },
     {
         "code": 327504,
         "regency_code": 3275,
         "province_code": 32,
-        "name": "Bekasi Selatan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bekasi Selatan"
     },
     {
         "code": 327505,
         "regency_code": 3275,
         "province_code": 32,
-        "name": "Rawalumbu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Rawalumbu"
     },
     {
         "code": 327506,
         "regency_code": 3275,
         "province_code": 32,
-        "name": "Medansatria",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Medansatria"
     },
     {
         "code": 327507,
         "regency_code": 3275,
         "province_code": 32,
-        "name": "Bantargebang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bantargebang"
     },
     {
         "code": 327508,
         "regency_code": 3275,
         "province_code": 32,
-        "name": "Pondokgede",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pondokgede"
     },
     {
         "code": 327509,
         "regency_code": 3275,
         "province_code": 32,
-        "name": "Jatiasih",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Jatiasih"
     },
     {
         "code": 327510,
         "regency_code": 3275,
         "province_code": 32,
-        "name": "Jatisampurna",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Jatisampurna"
     },
     {
         "code": 327511,
         "regency_code": 3275,
         "province_code": 32,
-        "name": "Mustikajaya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Mustikajaya"
     },
     {
         "code": 327512,
         "regency_code": 3275,
         "province_code": 32,
-        "name": "Pondokmelati",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pondokmelati"
     },
     {
         "code": 327601,
         "regency_code": 3276,
         "province_code": 32,
-        "name": "Pancoran Mas",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pancoran Mas"
     },
     {
         "code": 327602,
         "regency_code": 3276,
         "province_code": 32,
-        "name": "Cimanggis",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cimanggis"
     },
     {
         "code": 327603,
         "regency_code": 3276,
         "province_code": 32,
-        "name": "Sawangan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sawangan"
     },
     {
         "code": 327604,
         "regency_code": 3276,
         "province_code": 32,
-        "name": "Limo",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Limo"
     },
     {
         "code": 327605,
         "regency_code": 3276,
         "province_code": 32,
-        "name": "Sukmajaya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sukmajaya"
     },
     {
         "code": 327606,
         "regency_code": 3276,
         "province_code": 32,
-        "name": "Beji",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Beji"
     },
     {
         "code": 327607,
         "regency_code": 3276,
         "province_code": 32,
-        "name": "Cipayung",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cipayung"
     },
     {
         "code": 327608,
         "regency_code": 3276,
         "province_code": 32,
-        "name": "Cilodong",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cilodong"
     },
     {
         "code": 327609,
         "regency_code": 3276,
         "province_code": 32,
-        "name": "Cinere",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cinere"
     },
     {
         "code": 327610,
         "regency_code": 3276,
         "province_code": 32,
-        "name": "Tapos",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tapos"
     },
     {
         "code": 327611,
         "regency_code": 3276,
         "province_code": 32,
-        "name": "Bojongsari",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bojongsari"
     },
     {
         "code": 327701,
         "regency_code": 3277,
         "province_code": 32,
-        "name": "Cimahi Selatan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cimahi Selatan"
     },
     {
         "code": 327702,
         "regency_code": 3277,
         "province_code": 32,
-        "name": "Cimahi Tengah",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cimahi Tengah"
     },
     {
         "code": 327703,
         "regency_code": 3277,
         "province_code": 32,
-        "name": "Cimahi Utara",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cimahi Utara"
     },
     {
         "code": 327801,
         "regency_code": 3278,
         "province_code": 32,
-        "name": "Cihideung",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cihideung"
     },
     {
         "code": 327802,
         "regency_code": 3278,
         "province_code": 32,
-        "name": "Cipedes",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cipedes"
     },
     {
         "code": 327803,
         "regency_code": 3278,
         "province_code": 32,
-        "name": "Tawang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tawang"
     },
     {
         "code": 327804,
         "regency_code": 3278,
         "province_code": 32,
-        "name": "Indihiang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Indihiang"
     },
     {
         "code": 327805,
         "regency_code": 3278,
         "province_code": 32,
-        "name": "Kawalu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kawalu"
     },
     {
         "code": 327806,
         "regency_code": 3278,
         "province_code": 32,
-        "name": "Cibeureum",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cibeureum"
     },
     {
         "code": 327807,
         "regency_code": 3278,
         "province_code": 32,
-        "name": "Tamansari",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tamansari"
     },
     {
         "code": 327808,
         "regency_code": 3278,
         "province_code": 32,
-        "name": "Mangkubumi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Mangkubumi"
     },
     {
         "code": 327809,
         "regency_code": 3278,
         "province_code": 32,
-        "name": "Bungursari",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bungursari"
     },
     {
         "code": 327810,
         "regency_code": 3278,
         "province_code": 32,
-        "name": "Purbaratu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Purbaratu"
     },
     {
         "code": 327901,
         "regency_code": 3279,
         "province_code": 32,
-        "name": "Banjar",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Banjar"
     },
     {
         "code": 327902,
         "regency_code": 3279,
         "province_code": 32,
-        "name": "Pataruman",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pataruman"
     },
     {
         "code": 327903,
         "regency_code": 3279,
         "province_code": 32,
-        "name": "Purwaharja",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Purwaharja"
     },
     {
         "code": 327904,
         "regency_code": 3279,
         "province_code": 32,
-        "name": "Langensari",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Langensari"
     }
 ]

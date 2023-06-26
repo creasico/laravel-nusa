@@ -1,106 +1,106 @@
-code,regency_code,province_code,name,latitude,longitude,coordinates
-640101,6401,64,"Batu Sopang",,,null
-640102,6401,64,"Tanjung Harapan",,,null
-640103,6401,64,"Paser Belengkong",,,null
-640104,6401,64,"Tanah Grogot",,,null
-640105,6401,64,Kuaro,,,null
-640106,6401,64,"Long Ikis",,,null
-640107,6401,64,"Muara Komam",,,null
-640108,6401,64,"Long Kali",,,null
-640109,6401,64,"Batu Engau",,,null
-640110,6401,64,"Muara Samu",,,null
-640201,6402,64,"Muara Muntai",,,null
-640202,6402,64,"Loa Kulu",,,null
-640203,6402,64,"Loa Janan",,,null
-640204,6402,64,Anggana,,,null
-640205,6402,64,"Muara Badak",,,null
-640206,6402,64,Tenggarong,,,null
-640207,6402,64,Sebulu,,,null
-640208,6402,64,"Kota Bangun",,,null
-640209,6402,64,Kenohan,,,null
-640210,6402,64,"Kembang Janggut",,,null
-640211,6402,64,"Muara Kaman",,,null
-640212,6402,64,Tabang,,,null
-640213,6402,64,Samboja,,,null
-640214,6402,64,"Muara Jawa",,,null
-640215,6402,64,"Sanga Sanga",,,null
-640216,6402,64,"Tenggarong Seberang",,,null
-640217,6402,64,"Marang Kayu",,,null
-640218,6402,64,"Muara Wis",,,null
-640219,6402,64,"Kota Bangun Darat",,,null
-640220,6402,64,"Semboja Barat",,,null
-640301,6403,64,Kelay,,,null
-640302,6403,64,Talisayan,,,null
-640303,6403,64,Sambaliung,,,null
-640304,6403,64,Segah,,,null
-640305,6403,64,"Tanjung Redeb",,,null
-640306,6403,64,"Gunung Tabur",,,null
-640307,6403,64,"Pulau Derawan",,,null
-640308,6403,64,Biduk-Biduk,,,null
-640309,6403,64,"Teluk Bayur",,,null
-640310,6403,64,Tabalar,,,null
-640311,6403,64,Maratua,,,null
-640312,6403,64,"Batu Putih",,,null
-640313,6403,64,Biatan,,,null
-640705,6407,64,"Long Iram",,,null
-640706,6407,64,Melak,,,null
-640707,6407,64,"Barong Tongkok",,,null
-640708,6407,64,Damai,,,null
-640709,6407,64,"Muara Lawa",,,null
-640710,6407,64,"Muara Pahu",,,null
-640711,6407,64,Jempang,,,null
-640712,6407,64,Bongan,,,null
-640713,6407,64,Penyinggahan,,,null
-640714,6407,64,"Bentian Besar",,,null
-640715,6407,64,"Linggang Bigung",,,null
-640716,6407,64,Nyuatan,,,null
-640717,6407,64,"Siluq Ngurai",,,null
-640718,6407,64,"Mook Manaar Bulatn",,,null
-640719,6407,64,Tering,,,null
-640720,6407,64,"Sekolaq Darat",,,null
-640801,6408,64,"Muara Ancalong",,,null
-640802,6408,64,"Muara Wahau",,,null
-640803,6408,64,"Muara Bengkal",,,null
-640804,6408,64,"Sangatta Utara",,,null
-640805,6408,64,Sangkulirang,,,null
-640806,6408,64,Busang,,,null
-640807,6408,64,Telen,,,null
-640808,6408,64,Kombeng,,,null
-640809,6408,64,Bengalon,,,null
-640810,6408,64,Kaliorang,,,null
-640811,6408,64,Sandaran,,,null
-640812,6408,64,"Sangatta Selatan",,,null
-640813,6408,64,"Teluk Pandan",,,null
-640814,6408,64,"Rantau Pulung",,,null
-640815,6408,64,Kaubun,,,null
-640816,6408,64,Karangan,,,null
-640817,6408,64,"Batu Ampar",,,null
-640818,6408,64,"Long Mesangat",,,null
-640901,6409,64,Penajam,,,null
-640902,6409,64,Waru,,,null
-640903,6409,64,Babulu,,,null
-640904,6409,64,Sepaku,,,null
-641101,6411,64,"Long Bagun",,,null
-641102,6411,64,"Long Hubung",,,null
-641103,6411,64,Laham,,,null
-641104,6411,64,"Long Apari",,,null
-641105,6411,64,"Long Pahangai",,,null
-647101,6471,64,"Balikpapan Timur",,,null
-647102,6471,64,"Balikpapan Barat",,,null
-647103,6471,64,"Balikpapan Utara",,,null
-647104,6471,64,"Balikpapan Tengah",,,null
-647105,6471,64,"Balikpapan Selatan",,,null
-647106,6471,64,"Balikpapan Kota",,,null
-647201,6472,64,Palaran,,,null
-647202,6472,64,"Samarinda Seberang",,,null
-647203,6472,64,"Samarinda Ulu",,,null
-647204,6472,64,"Samarinda Ilir",,,null
-647205,6472,64,"Samarinda Utara",,,null
-647206,6472,64,"Sungai Kunjang",,,null
-647207,6472,64,Sambutan,,,null
-647208,6472,64,"Sungai Pinang",,,null
-647209,6472,64,"Samarinda Kota",,,null
-647210,6472,64,"Loa Janan Ilir",,,null
-647401,6474,64,"Bontang Utara",,,null
-647402,6474,64,"Bontang Selatan",,,null
-647403,6474,64,"Bontang Barat",,,null
+code,regency_code,province_code,name
+640101,6401,64,"Batu Sopang"
+640102,6401,64,"Tanjung Harapan"
+640103,6401,64,"Paser Belengkong"
+640104,6401,64,"Tanah Grogot"
+640105,6401,64,Kuaro
+640106,6401,64,"Long Ikis"
+640107,6401,64,"Muara Komam"
+640108,6401,64,"Long Kali"
+640109,6401,64,"Batu Engau"
+640110,6401,64,"Muara Samu"
+640201,6402,64,"Muara Muntai"
+640202,6402,64,"Loa Kulu"
+640203,6402,64,"Loa Janan"
+640204,6402,64,Anggana
+640205,6402,64,"Muara Badak"
+640206,6402,64,Tenggarong
+640207,6402,64,Sebulu
+640208,6402,64,"Kota Bangun"
+640209,6402,64,Kenohan
+640210,6402,64,"Kembang Janggut"
+640211,6402,64,"Muara Kaman"
+640212,6402,64,Tabang
+640213,6402,64,Samboja
+640214,6402,64,"Muara Jawa"
+640215,6402,64,"Sanga Sanga"
+640216,6402,64,"Tenggarong Seberang"
+640217,6402,64,"Marang Kayu"
+640218,6402,64,"Muara Wis"
+640219,6402,64,"Kota Bangun Darat"
+640220,6402,64,"Semboja Barat"
+640301,6403,64,Kelay
+640302,6403,64,Talisayan
+640303,6403,64,Sambaliung
+640304,6403,64,Segah
+640305,6403,64,"Tanjung Redeb"
+640306,6403,64,"Gunung Tabur"
+640307,6403,64,"Pulau Derawan"
+640308,6403,64,Biduk-Biduk
+640309,6403,64,"Teluk Bayur"
+640310,6403,64,Tabalar
+640311,6403,64,Maratua
+640312,6403,64,"Batu Putih"
+640313,6403,64,Biatan
+640705,6407,64,"Long Iram"
+640706,6407,64,Melak
+640707,6407,64,"Barong Tongkok"
+640708,6407,64,Damai
+640709,6407,64,"Muara Lawa"
+640710,6407,64,"Muara Pahu"
+640711,6407,64,Jempang
+640712,6407,64,Bongan
+640713,6407,64,Penyinggahan
+640714,6407,64,"Bentian Besar"
+640715,6407,64,"Linggang Bigung"
+640716,6407,64,Nyuatan
+640717,6407,64,"Siluq Ngurai"
+640718,6407,64,"Mook Manaar Bulatn"
+640719,6407,64,Tering
+640720,6407,64,"Sekolaq Darat"
+640801,6408,64,"Muara Ancalong"
+640802,6408,64,"Muara Wahau"
+640803,6408,64,"Muara Bengkal"
+640804,6408,64,"Sangatta Utara"
+640805,6408,64,Sangkulirang
+640806,6408,64,Busang
+640807,6408,64,Telen
+640808,6408,64,Kombeng
+640809,6408,64,Bengalon
+640810,6408,64,Kaliorang
+640811,6408,64,Sandaran
+640812,6408,64,"Sangatta Selatan"
+640813,6408,64,"Teluk Pandan"
+640814,6408,64,"Rantau Pulung"
+640815,6408,64,Kaubun
+640816,6408,64,Karangan
+640817,6408,64,"Batu Ampar"
+640818,6408,64,"Long Mesangat"
+640901,6409,64,Penajam
+640902,6409,64,Waru
+640903,6409,64,Babulu
+640904,6409,64,Sepaku
+641101,6411,64,"Long Bagun"
+641102,6411,64,"Long Hubung"
+641103,6411,64,Laham
+641104,6411,64,"Long Apari"
+641105,6411,64,"Long Pahangai"
+647101,6471,64,"Balikpapan Timur"
+647102,6471,64,"Balikpapan Barat"
+647103,6471,64,"Balikpapan Utara"
+647104,6471,64,"Balikpapan Tengah"
+647105,6471,64,"Balikpapan Selatan"
+647106,6471,64,"Balikpapan Kota"
+647201,6472,64,Palaran
+647202,6472,64,"Samarinda Seberang"
+647203,6472,64,"Samarinda Ulu"
+647204,6472,64,"Samarinda Ilir"
+647205,6472,64,"Samarinda Utara"
+647206,6472,64,"Sungai Kunjang"
+647207,6472,64,Sambutan
+647208,6472,64,"Sungai Pinang"
+647209,6472,64,"Samarinda Kota"
+647210,6472,64,"Loa Janan Ilir"
+647401,6474,64,"Bontang Utara"
+647402,6474,64,"Bontang Selatan"
+647403,6474,64,"Bontang Barat"

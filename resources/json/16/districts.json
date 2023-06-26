@@ -3,2169 +3,1446 @@
         "code": 160107,
         "regency_code": 1601,
         "province_code": 16,
-        "name": "Sosoh Buay Rayap",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sosoh Buay Rayap"
     },
     {
         "code": 160108,
         "regency_code": 1601,
         "province_code": 16,
-        "name": "Pengandonan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pengandonan"
     },
     {
         "code": 160109,
         "regency_code": 1601,
         "province_code": 16,
-        "name": "Peninjauan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Peninjauan"
     },
     {
         "code": 160113,
         "regency_code": 1601,
         "province_code": 16,
-        "name": "Baturaja Barat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Baturaja Barat"
     },
     {
         "code": 160114,
         "regency_code": 1601,
         "province_code": 16,
-        "name": "Baturaja Timur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Baturaja Timur"
     },
     {
         "code": 160120,
         "regency_code": 1601,
         "province_code": 16,
-        "name": "Ulu Ogan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Ulu Ogan"
     },
     {
         "code": 160121,
         "regency_code": 1601,
         "province_code": 16,
-        "name": "Semidang Aji",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Semidang Aji"
     },
     {
         "code": 160122,
         "regency_code": 1601,
         "province_code": 16,
-        "name": "Lubuk Batang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Lubuk Batang"
     },
     {
         "code": 160128,
         "regency_code": 1601,
         "province_code": 16,
-        "name": "Lengkiti",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Lengkiti"
     },
     {
         "code": 160129,
         "regency_code": 1601,
         "province_code": 16,
-        "name": "Sinar Peninjauan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sinar Peninjauan"
     },
     {
         "code": 160130,
         "regency_code": 1601,
         "province_code": 16,
-        "name": "Lubuk Raja",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Lubuk Raja"
     },
     {
         "code": 160131,
         "regency_code": 1601,
         "province_code": 16,
-        "name": "Muara Jaya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Muara Jaya"
     },
     {
         "code": 160132,
         "regency_code": 1601,
         "province_code": 16,
-        "name": "Kedaton Peninjauan Raya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kedaton Peninjauan Raya"
     },
     {
         "code": 160202,
         "regency_code": 1602,
         "province_code": 16,
-        "name": "Tanjung Lubuk",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tanjung Lubuk"
     },
     {
         "code": 160203,
         "regency_code": 1602,
         "province_code": 16,
-        "name": "Pedamaran",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pedamaran"
     },
     {
         "code": 160204,
         "regency_code": 1602,
         "province_code": 16,
-        "name": "Mesuji",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Mesuji"
     },
     {
         "code": 160205,
         "regency_code": 1602,
         "province_code": 16,
-        "name": "Kayu Agung",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kayu Agung"
     },
     {
         "code": 160208,
         "regency_code": 1602,
         "province_code": 16,
-        "name": "Sirah Pulau Padang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sirah Pulau Padang"
     },
     {
         "code": 160211,
         "regency_code": 1602,
         "province_code": 16,
-        "name": "Tulung Selapan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tulung Selapan"
     },
     {
         "code": 160212,
         "regency_code": 1602,
         "province_code": 16,
-        "name": "Pampangan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pampangan"
     },
     {
         "code": 160213,
         "regency_code": 1602,
         "province_code": 16,
-        "name": "Lempuing",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Lempuing"
     },
     {
         "code": 160214,
         "regency_code": 1602,
         "province_code": 16,
-        "name": "Air Sugihan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Air Sugihan"
     },
     {
         "code": 160215,
         "regency_code": 1602,
         "province_code": 16,
-        "name": "Sungai Menang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sungai Menang"
     },
     {
         "code": 160217,
         "regency_code": 1602,
         "province_code": 16,
-        "name": "Jejawi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Jejawi"
     },
     {
         "code": 160218,
         "regency_code": 1602,
         "province_code": 16,
-        "name": "Cengal",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cengal"
     },
     {
         "code": 160219,
         "regency_code": 1602,
         "province_code": 16,
-        "name": "Pangkalan Lampam",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pangkalan Lampam"
     },
     {
         "code": 160220,
         "regency_code": 1602,
         "province_code": 16,
-        "name": "Mesuji Makmur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Mesuji Makmur"
     },
     {
         "code": 160221,
         "regency_code": 1602,
         "province_code": 16,
-        "name": "Mesuji Raya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Mesuji Raya"
     },
     {
         "code": 160222,
         "regency_code": 1602,
         "province_code": 16,
-        "name": "Lempuing Jaya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Lempuing Jaya"
     },
     {
         "code": 160223,
         "regency_code": 1602,
         "province_code": 16,
-        "name": "Teluk Gelam",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Teluk Gelam"
     },
     {
         "code": 160224,
         "regency_code": 1602,
         "province_code": 16,
-        "name": "Pedamaran Timur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pedamaran Timur"
     },
     {
         "code": 160301,
         "regency_code": 1603,
         "province_code": 16,
-        "name": "Tanjung Agung",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tanjung Agung"
     },
     {
         "code": 160302,
         "regency_code": 1603,
         "province_code": 16,
-        "name": "Muara Enim",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Muara Enim"
     },
     {
         "code": 160303,
         "regency_code": 1603,
         "province_code": 16,
-        "name": "Rambang Niru",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Rambang Niru"
     },
     {
         "code": 160304,
         "regency_code": 1603,
         "province_code": 16,
-        "name": "Gunung Megang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Gunung Megang"
     },
     {
         "code": 160306,
         "regency_code": 1603,
         "province_code": 16,
-        "name": "Gelumbang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Gelumbang"
     },
     {
         "code": 160307,
         "regency_code": 1603,
         "province_code": 16,
-        "name": "Lawang Kidul",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Lawang Kidul"
     },
     {
         "code": 160308,
         "regency_code": 1603,
         "province_code": 16,
-        "name": "Semende Darat Laut",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Semende Darat Laut"
     },
     {
         "code": 160309,
         "regency_code": 1603,
         "province_code": 16,
-        "name": "Semende Darat Tengah",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Semende Darat Tengah"
     },
     {
         "code": 160310,
         "regency_code": 1603,
         "province_code": 16,
-        "name": "Semende Darat Ulu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Semende Darat Ulu"
     },
     {
         "code": 160311,
         "regency_code": 1603,
         "province_code": 16,
-        "name": "Ujan Mas",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Ujan Mas"
     },
     {
         "code": 160314,
         "regency_code": 1603,
         "province_code": 16,
-        "name": "Lubai",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Lubai"
     },
     {
         "code": 160315,
         "regency_code": 1603,
         "province_code": 16,
-        "name": "Rambang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Rambang"
     },
     {
         "code": 160316,
         "regency_code": 1603,
         "province_code": 16,
-        "name": "Sungai Rotan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sungai Rotan"
     },
     {
         "code": 160317,
         "regency_code": 1603,
         "province_code": 16,
-        "name": "Lembak",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Lembak"
     },
     {
         "code": 160319,
         "regency_code": 1603,
         "province_code": 16,
-        "name": "Benakat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Benakat"
     },
     {
         "code": 160321,
         "regency_code": 1603,
         "province_code": 16,
-        "name": "Kelekar",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kelekar"
     },
     {
         "code": 160322,
         "regency_code": 1603,
         "province_code": 16,
-        "name": "Muara Belida",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Muara Belida"
     },
     {
         "code": 160323,
         "regency_code": 1603,
         "province_code": 16,
-        "name": "Belimbing",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Belimbing"
     },
     {
         "code": 160324,
         "regency_code": 1603,
         "province_code": 16,
-        "name": "Belida Darat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Belida Darat"
     },
     {
         "code": 160325,
         "regency_code": 1603,
         "province_code": 16,
-        "name": "Lubai Ulu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Lubai Ulu"
     },
     {
         "code": 160326,
         "regency_code": 1603,
         "province_code": 16,
-        "name": "Empat Petulai Dangku",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Empat Petulai Dangku"
     },
     {
         "code": 160327,
         "regency_code": 1603,
         "province_code": 16,
-        "name": "Panang Enim",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Panang Enim"
     },
     {
         "code": 160401,
         "regency_code": 1604,
         "province_code": 16,
-        "name": "Tanjungsakti Pumu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tanjungsakti Pumu"
     },
     {
         "code": 160406,
         "regency_code": 1604,
         "province_code": 16,
-        "name": "Jarai",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Jarai"
     },
     {
         "code": 160407,
         "regency_code": 1604,
         "province_code": 16,
-        "name": "Kota Agung",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kota Agung"
     },
     {
         "code": 160408,
         "regency_code": 1604,
         "province_code": 16,
-        "name": "Pulaupinang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pulaupinang"
     },
     {
         "code": 160409,
         "regency_code": 1604,
         "province_code": 16,
-        "name": "Merapi Barat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Merapi Barat"
     },
     {
         "code": 160410,
         "regency_code": 1604,
         "province_code": 16,
-        "name": "Lahat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Lahat"
     },
     {
         "code": 160412,
         "regency_code": 1604,
         "province_code": 16,
-        "name": "Pajar Bulan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pajar Bulan"
     },
     {
         "code": 160415,
         "regency_code": 1604,
         "province_code": 16,
-        "name": "Mulak Ulu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Mulak Ulu"
     },
     {
         "code": 160416,
         "regency_code": 1604,
         "province_code": 16,
-        "name": "Kikim Selatan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kikim Selatan"
     },
     {
         "code": 160417,
         "regency_code": 1604,
         "province_code": 16,
-        "name": "Kikim Timur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kikim Timur"
     },
     {
         "code": 160418,
         "regency_code": 1604,
         "province_code": 16,
-        "name": "Kikim Tengah",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kikim Tengah"
     },
     {
         "code": 160419,
         "regency_code": 1604,
         "province_code": 16,
-        "name": "Kikim Barat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kikim Barat"
     },
     {
         "code": 160420,
         "regency_code": 1604,
         "province_code": 16,
-        "name": "Pseksu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pseksu"
     },
     {
         "code": 160421,
         "regency_code": 1604,
         "province_code": 16,
-        "name": "Gumay Talang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Gumay Talang"
     },
     {
         "code": 160422,
         "regency_code": 1604,
         "province_code": 16,
-        "name": "Pagar Gunung",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pagar Gunung"
     },
     {
         "code": 160423,
         "regency_code": 1604,
         "province_code": 16,
-        "name": "Merapi Timur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Merapi Timur"
     },
     {
         "code": 160424,
         "regency_code": 1604,
         "province_code": 16,
-        "name": "Tanjung Sakti Pumi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tanjung Sakti Pumi"
     },
     {
         "code": 160425,
         "regency_code": 1604,
         "province_code": 16,
-        "name": "Gumay Ulu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Gumay Ulu"
     },
     {
         "code": 160426,
         "regency_code": 1604,
         "province_code": 16,
-        "name": "Merapi Selatan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Merapi Selatan"
     },
     {
         "code": 160427,
         "regency_code": 1604,
         "province_code": 16,
-        "name": "Tanjungtebat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tanjungtebat"
     },
     {
         "code": 160428,
         "regency_code": 1604,
         "province_code": 16,
-        "name": "Muarapayang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Muarapayang"
     },
     {
         "code": 160429,
         "regency_code": 1604,
         "province_code": 16,
-        "name": "Sukamerindu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sukamerindu"
     },
     {
         "code": 160430,
         "regency_code": 1604,
         "province_code": 16,
-        "name": "Mulak Sebingkai",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Mulak Sebingkai"
     },
     {
         "code": 160431,
         "regency_code": 1604,
         "province_code": 16,
-        "name": "Lahat Selatan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Lahat Selatan"
     },
     {
         "code": 160501,
         "regency_code": 1605,
         "province_code": 16,
-        "name": "Tugumulyo",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tugumulyo"
     },
     {
         "code": 160502,
         "regency_code": 1605,
         "province_code": 16,
-        "name": "Muara Lakitan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Muara Lakitan"
     },
     {
         "code": 160503,
         "regency_code": 1605,
         "province_code": 16,
-        "name": "Muara Kelingi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Muara Kelingi"
     },
     {
         "code": 160508,
         "regency_code": 1605,
         "province_code": 16,
-        "name": "Jayaloka",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Jayaloka"
     },
     {
         "code": 160509,
         "regency_code": 1605,
         "province_code": 16,
-        "name": "Muara Beliti",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Muara Beliti"
     },
     {
         "code": 160510,
         "regency_code": 1605,
         "province_code": 16,
-        "name": "STL Ulu Terawas",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "STL Ulu Terawas"
     },
     {
         "code": 160511,
         "regency_code": 1605,
         "province_code": 16,
-        "name": "Selangit",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Selangit"
     },
     {
         "code": 160512,
         "regency_code": 1605,
         "province_code": 16,
-        "name": "Megang Sakti",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Megang Sakti"
     },
     {
         "code": 160513,
         "regency_code": 1605,
         "province_code": 16,
-        "name": "Purwodadi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Purwodadi"
     },
     {
         "code": 160514,
         "regency_code": 1605,
         "province_code": 16,
-        "name": "BTS. Ulu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "BTS. Ulu"
     },
     {
         "code": 160518,
         "regency_code": 1605,
         "province_code": 16,
-        "name": "Tiang Pumpung Kepungut",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tiang Pumpung Kepungut"
     },
     {
         "code": 160519,
         "regency_code": 1605,
         "province_code": 16,
-        "name": "Sumber Harta",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sumber Harta"
     },
     {
         "code": 160520,
         "regency_code": 1605,
         "province_code": 16,
-        "name": "Tuah Negeri",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tuah Negeri"
     },
     {
         "code": 160521,
         "regency_code": 1605,
         "province_code": 16,
-        "name": "Suka Karya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Suka Karya"
     },
     {
         "code": 160601,
         "regency_code": 1606,
         "province_code": 16,
-        "name": "Sekayu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sekayu"
     },
     {
         "code": 160602,
         "regency_code": 1606,
         "province_code": 16,
-        "name": "Lais",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Lais"
     },
     {
         "code": 160603,
         "regency_code": 1606,
         "province_code": 16,
-        "name": "Sungai Keruh",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sungai Keruh"
     },
     {
         "code": 160604,
         "regency_code": 1606,
         "province_code": 16,
-        "name": "Batang Hari Leko",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Batang Hari Leko"
     },
     {
         "code": 160605,
         "regency_code": 1606,
         "province_code": 16,
-        "name": "Sanga Desa",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sanga Desa"
     },
     {
         "code": 160606,
         "regency_code": 1606,
         "province_code": 16,
-        "name": "Babat Toman",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Babat Toman"
     },
     {
         "code": 160607,
         "regency_code": 1606,
         "province_code": 16,
-        "name": "Sungai Lilin",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sungai Lilin"
     },
     {
         "code": 160608,
         "regency_code": 1606,
         "province_code": 16,
-        "name": "Keluang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Keluang"
     },
     {
         "code": 160609,
         "regency_code": 1606,
         "province_code": 16,
-        "name": "Bayung Lencir",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bayung Lencir"
     },
     {
         "code": 160610,
         "regency_code": 1606,
         "province_code": 16,
-        "name": "Plakat Tinggi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Plakat Tinggi"
     },
     {
         "code": 160611,
         "regency_code": 1606,
         "province_code": 16,
-        "name": "Lalan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Lalan"
     },
     {
         "code": 160612,
         "regency_code": 1606,
         "province_code": 16,
-        "name": "Tungkal Jaya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tungkal Jaya"
     },
     {
         "code": 160613,
         "regency_code": 1606,
         "province_code": 16,
-        "name": "Lawang Wetan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Lawang Wetan"
     },
     {
         "code": 160614,
         "regency_code": 1606,
         "province_code": 16,
-        "name": "Babat Supat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Babat Supat"
     },
     {
         "code": 160615,
         "regency_code": 1606,
         "province_code": 16,
-        "name": "Jirak Jaya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Jirak Jaya"
     },
     {
         "code": 160701,
         "regency_code": 1607,
         "province_code": 16,
-        "name": "Banyuasin I",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Banyuasin I"
     },
     {
         "code": 160702,
         "regency_code": 1607,
         "province_code": 16,
-        "name": "Banyuasin II",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Banyuasin II"
     },
     {
         "code": 160703,
         "regency_code": 1607,
         "province_code": 16,
-        "name": "Banyuasin III",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Banyuasin III"
     },
     {
         "code": 160704,
         "regency_code": 1607,
         "province_code": 16,
-        "name": "Pulau Rimau",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pulau Rimau"
     },
     {
         "code": 160705,
         "regency_code": 1607,
         "province_code": 16,
-        "name": "Betung",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Betung"
     },
     {
         "code": 160706,
         "regency_code": 1607,
         "province_code": 16,
-        "name": "Rambutan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Rambutan"
     },
     {
         "code": 160707,
         "regency_code": 1607,
         "province_code": 16,
-        "name": "Muara Padang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Muara Padang"
     },
     {
         "code": 160708,
         "regency_code": 1607,
         "province_code": 16,
-        "name": "Muara Telang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Muara Telang"
     },
     {
         "code": 160709,
         "regency_code": 1607,
         "province_code": 16,
-        "name": "Makarti Jaya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Makarti Jaya"
     },
     {
         "code": 160710,
         "regency_code": 1607,
         "province_code": 16,
-        "name": "Talang Kelapa",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Talang Kelapa"
     },
     {
         "code": 160711,
         "regency_code": 1607,
         "province_code": 16,
-        "name": "Rantau Bayur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Rantau Bayur"
     },
     {
         "code": 160712,
         "regency_code": 1607,
         "province_code": 16,
-        "name": "Tanjung Lago",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tanjung Lago"
     },
     {
         "code": 160713,
         "regency_code": 1607,
         "province_code": 16,
-        "name": "Muara Sugihan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Muara Sugihan"
     },
     {
         "code": 160714,
         "regency_code": 1607,
         "province_code": 16,
-        "name": "Air Salek",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Air Salek"
     },
     {
         "code": 160715,
         "regency_code": 1607,
         "province_code": 16,
-        "name": "Tungkal Ilir",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tungkal Ilir"
     },
     {
         "code": 160716,
         "regency_code": 1607,
         "province_code": 16,
-        "name": "Suak Tapeh",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Suak Tapeh"
     },
     {
         "code": 160717,
         "regency_code": 1607,
         "province_code": 16,
-        "name": "Sembawa",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sembawa"
     },
     {
         "code": 160718,
         "regency_code": 1607,
         "province_code": 16,
-        "name": "Sumber Marga Telang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sumber Marga Telang"
     },
     {
         "code": 160719,
         "regency_code": 1607,
         "province_code": 16,
-        "name": "Air Kumbang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Air Kumbang"
     },
     {
         "code": 160720,
         "regency_code": 1607,
         "province_code": 16,
-        "name": "Karangagung Ilir",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Karangagung Ilir"
     },
     {
         "code": 160721,
         "regency_code": 1607,
         "province_code": 16,
-        "name": "Selat Panuguan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Selat Panuguan"
     },
     {
         "code": 160801,
         "regency_code": 1608,
         "province_code": 16,
-        "name": "Martapura",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Martapura"
     },
     {
         "code": 160802,
         "regency_code": 1608,
         "province_code": 16,
-        "name": "Buay Madang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Buay Madang"
     },
     {
         "code": 160803,
         "regency_code": 1608,
         "province_code": 16,
-        "name": "Belitang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Belitang"
     },
     {
         "code": 160804,
         "regency_code": 1608,
         "province_code": 16,
-        "name": "Cempaka",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cempaka"
     },
     {
         "code": 160805,
         "regency_code": 1608,
         "province_code": 16,
-        "name": "Buay Pemuka Peliung",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Buay Pemuka Peliung"
     },
     {
         "code": 160806,
         "regency_code": 1608,
         "province_code": 16,
-        "name": "Madang Suku II",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Madang Suku II"
     },
     {
         "code": 160807,
         "regency_code": 1608,
         "province_code": 16,
-        "name": "Madang Suku I",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Madang Suku I"
     },
     {
         "code": 160808,
         "regency_code": 1608,
         "province_code": 16,
-        "name": "Semendawai Suku III",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Semendawai Suku III"
     },
     {
         "code": 160809,
         "regency_code": 1608,
         "province_code": 16,
-        "name": "Belitang II",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Belitang II"
     },
     {
         "code": 160810,
         "regency_code": 1608,
         "province_code": 16,
-        "name": "Belitang III",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Belitang III"
     },
     {
         "code": 160811,
         "regency_code": 1608,
         "province_code": 16,
-        "name": "Bunga Mayang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bunga Mayang"
     },
     {
         "code": 160812,
         "regency_code": 1608,
         "province_code": 16,
-        "name": "Buay Madang Timur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Buay Madang Timur"
     },
     {
         "code": 160813,
         "regency_code": 1608,
         "province_code": 16,
-        "name": "Madang Suku III",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Madang Suku III"
     },
     {
         "code": 160814,
         "regency_code": 1608,
         "province_code": 16,
-        "name": "Semendawai Barat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Semendawai Barat"
     },
     {
         "code": 160815,
         "regency_code": 1608,
         "province_code": 16,
-        "name": "Semendawai Timur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Semendawai Timur"
     },
     {
         "code": 160816,
         "regency_code": 1608,
         "province_code": 16,
-        "name": "Jayapura",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Jayapura"
     },
     {
         "code": 160817,
         "regency_code": 1608,
         "province_code": 16,
-        "name": "Belitang Jaya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Belitang Jaya"
     },
     {
         "code": 160818,
         "regency_code": 1608,
         "province_code": 16,
-        "name": "Belitang Madang Raya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Belitang Madang Raya"
     },
     {
         "code": 160819,
         "regency_code": 1608,
         "province_code": 16,
-        "name": "Belitang Mulya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Belitang Mulya"
     },
     {
         "code": 160820,
         "regency_code": 1608,
         "province_code": 16,
-        "name": "Buay Pemuka Bangsa Raja",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Buay Pemuka Bangsa Raja"
     },
     {
         "code": 160901,
         "regency_code": 1609,
         "province_code": 16,
-        "name": "Muara Dua",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Muara Dua"
     },
     {
         "code": 160902,
         "regency_code": 1609,
         "province_code": 16,
-        "name": "Pulau Beringin",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pulau Beringin"
     },
     {
         "code": 160903,
         "regency_code": 1609,
         "province_code": 16,
-        "name": "Banding Agung",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Banding Agung"
     },
     {
         "code": 160904,
         "regency_code": 1609,
         "province_code": 16,
-        "name": "Muara Dua Kisam",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Muara Dua Kisam"
     },
     {
         "code": 160905,
         "regency_code": 1609,
         "province_code": 16,
-        "name": "Simpang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Simpang"
     },
     {
         "code": 160906,
         "regency_code": 1609,
         "province_code": 16,
-        "name": "Buay Sandang Aji",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Buay Sandang Aji"
     },
     {
         "code": 160907,
         "regency_code": 1609,
         "province_code": 16,
-        "name": "Buay Runjung",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Buay Runjung"
     },
     {
         "code": 160908,
         "regency_code": 1609,
         "province_code": 16,
-        "name": "Mekakau Ilir",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Mekakau Ilir"
     },
     {
         "code": 160909,
         "regency_code": 1609,
         "province_code": 16,
-        "name": "Buay Pemaca",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Buay Pemaca"
     },
     {
         "code": 160910,
         "regency_code": 1609,
         "province_code": 16,
-        "name": "Kisam Tinggi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kisam Tinggi"
     },
     {
         "code": 160911,
         "regency_code": 1609,
         "province_code": 16,
-        "name": "Kisam Ilir",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kisam Ilir"
     },
     {
         "code": 160912,
         "regency_code": 1609,
         "province_code": 16,
-        "name": "Buay Pematang Ribu Ranau Tengah",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Buay Pematang Ribu Ranau Tengah"
     },
     {
         "code": 160913,
         "regency_code": 1609,
         "province_code": 16,
-        "name": "Warkuk Ranau Selatan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Warkuk Ranau Selatan"
     },
     {
         "code": 160914,
         "regency_code": 1609,
         "province_code": 16,
-        "name": "Runjung Agung",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Runjung Agung"
     },
     {
         "code": 160915,
         "regency_code": 1609,
         "province_code": 16,
-        "name": "Sungai Are",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sungai Are"
     },
     {
         "code": 160916,
         "regency_code": 1609,
         "province_code": 16,
-        "name": "Sindang Danau",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sindang Danau"
     },
     {
         "code": 160917,
         "regency_code": 1609,
         "province_code": 16,
-        "name": "Buana Pemaca",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Buana Pemaca"
     },
     {
         "code": 160918,
         "regency_code": 1609,
         "province_code": 16,
-        "name": "Tiga Dihaji",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tiga Dihaji"
     },
     {
         "code": 160919,
         "regency_code": 1609,
         "province_code": 16,
-        "name": "Buay Rawan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Buay Rawan"
     },
     {
         "code": 161001,
         "regency_code": 1610,
         "province_code": 16,
-        "name": "Muara Kuang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Muara Kuang"
     },
     {
         "code": 161002,
         "regency_code": 1610,
         "province_code": 16,
-        "name": "Tanjung Batu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tanjung Batu"
     },
     {
         "code": 161003,
         "regency_code": 1610,
         "province_code": 16,
-        "name": "Tanjung Raja",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tanjung Raja"
     },
     {
         "code": 161004,
         "regency_code": 1610,
         "province_code": 16,
-        "name": "Indralaya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Indralaya"
     },
     {
         "code": 161005,
         "regency_code": 1610,
         "province_code": 16,
-        "name": "Pemulutan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pemulutan"
     },
     {
         "code": 161006,
         "regency_code": 1610,
         "province_code": 16,
-        "name": "Rantau Alai",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Rantau Alai"
     },
     {
         "code": 161007,
         "regency_code": 1610,
         "province_code": 16,
-        "name": "Indralaya Utara",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Indralaya Utara"
     },
     {
         "code": 161008,
         "regency_code": 1610,
         "province_code": 16,
-        "name": "Indralaya Selatan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Indralaya Selatan"
     },
     {
         "code": 161009,
         "regency_code": 1610,
         "province_code": 16,
-        "name": "Pemulutan Selatan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pemulutan Selatan"
     },
     {
         "code": 161010,
         "regency_code": 1610,
         "province_code": 16,
-        "name": "Pemulutan Barat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pemulutan Barat"
     },
     {
         "code": 161011,
         "regency_code": 1610,
         "province_code": 16,
-        "name": "Rantau Panjang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Rantau Panjang"
     },
     {
         "code": 161012,
         "regency_code": 1610,
         "province_code": 16,
-        "name": "Sungai Pinang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sungai Pinang"
     },
     {
         "code": 161013,
         "regency_code": 1610,
         "province_code": 16,
-        "name": "Kandis",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kandis"
     },
     {
         "code": 161014,
         "regency_code": 1610,
         "province_code": 16,
-        "name": "Rambang Kuang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Rambang Kuang"
     },
     {
         "code": 161015,
         "regency_code": 1610,
         "province_code": 16,
-        "name": "Lubuk Keliat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Lubuk Keliat"
     },
     {
         "code": 161016,
         "regency_code": 1610,
         "province_code": 16,
-        "name": "Payaraman",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Payaraman"
     },
     {
         "code": 161101,
         "regency_code": 1611,
         "province_code": 16,
-        "name": "Muara Pinang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Muara Pinang"
     },
     {
         "code": 161102,
         "regency_code": 1611,
         "province_code": 16,
-        "name": "Pendopo",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pendopo"
     },
     {
         "code": 161103,
         "regency_code": 1611,
         "province_code": 16,
-        "name": "Ulu Musi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Ulu Musi"
     },
     {
         "code": 161104,
         "regency_code": 1611,
         "province_code": 16,
-        "name": "Tebing Tinggi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tebing Tinggi"
     },
     {
         "code": 161105,
         "regency_code": 1611,
         "province_code": 16,
-        "name": "Lintang Kanan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Lintang Kanan"
     },
     {
         "code": 161106,
         "regency_code": 1611,
         "province_code": 16,
-        "name": "Talang Padang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Talang Padang"
     },
     {
         "code": 161107,
         "regency_code": 1611,
         "province_code": 16,
-        "name": "Pasemah Air Keruh",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pasemah Air Keruh"
     },
     {
         "code": 161108,
         "regency_code": 1611,
         "province_code": 16,
-        "name": "Sikap Dalam",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sikap Dalam"
     },
     {
         "code": 161109,
         "regency_code": 1611,
         "province_code": 16,
-        "name": "Saling",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Saling"
     },
     {
         "code": 161110,
         "regency_code": 1611,
         "province_code": 16,
-        "name": "Pendopo Barat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pendopo Barat"
     },
     {
         "code": 161201,
         "regency_code": 1612,
         "province_code": 16,
-        "name": "Talang Ubi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Talang Ubi"
     },
     {
         "code": 161202,
         "regency_code": 1612,
         "province_code": 16,
-        "name": "Penukal Utara",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Penukal Utara"
     },
     {
         "code": 161203,
         "regency_code": 1612,
         "province_code": 16,
-        "name": "Penukal",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Penukal"
     },
     {
         "code": 161204,
         "regency_code": 1612,
         "province_code": 16,
-        "name": "Abab",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Abab"
     },
     {
         "code": 161205,
         "regency_code": 1612,
         "province_code": 16,
-        "name": "Tanah Abang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tanah Abang"
     },
     {
         "code": 161301,
         "regency_code": 1613,
         "province_code": 16,
-        "name": "Rupit",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Rupit"
     },
     {
         "code": 161302,
         "regency_code": 1613,
         "province_code": 16,
-        "name": "Rawas Ulu",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Rawas Ulu"
     },
     {
         "code": 161303,
         "regency_code": 1613,
         "province_code": 16,
-        "name": "Nibung",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Nibung"
     },
     {
         "code": 161304,
         "regency_code": 1613,
         "province_code": 16,
-        "name": "Rawas Ilir",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Rawas Ilir"
     },
     {
         "code": 161305,
         "regency_code": 1613,
         "province_code": 16,
-        "name": "Karang Dapo",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Karang Dapo"
     },
     {
         "code": 161306,
         "regency_code": 1613,
         "province_code": 16,
-        "name": "Karang Jaya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Karang Jaya"
     },
     {
         "code": 161307,
         "regency_code": 1613,
         "province_code": 16,
-        "name": "Ulu Rawas",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Ulu Rawas"
     },
     {
         "code": 167101,
         "regency_code": 1671,
         "province_code": 16,
-        "name": "Ilir Barat II",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Ilir Barat II"
     },
     {
         "code": 167102,
         "regency_code": 1671,
         "province_code": 16,
-        "name": "Seberang Ulu I",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Seberang Ulu I"
     },
     {
         "code": 167103,
         "regency_code": 1671,
         "province_code": 16,
-        "name": "Seberang Ulu II",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Seberang Ulu II"
     },
     {
         "code": 167104,
         "regency_code": 1671,
         "province_code": 16,
-        "name": "Ilir Barat I",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Ilir Barat I"
     },
     {
         "code": 167105,
         "regency_code": 1671,
         "province_code": 16,
-        "name": "Ilir Timur I",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Ilir Timur I"
     },
     {
         "code": 167106,
         "regency_code": 1671,
         "province_code": 16,
-        "name": "Ilir Timur II",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Ilir Timur II"
     },
     {
         "code": 167107,
         "regency_code": 1671,
         "province_code": 16,
-        "name": "Sukarami",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sukarami"
     },
     {
         "code": 167108,
         "regency_code": 1671,
         "province_code": 16,
-        "name": "Sako",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sako"
     },
     {
         "code": 167109,
         "regency_code": 1671,
         "province_code": 16,
-        "name": "Kemuning",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kemuning"
     },
     {
         "code": 167110,
         "regency_code": 1671,
         "province_code": 16,
-        "name": "Kalidoni",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kalidoni"
     },
     {
         "code": 167111,
         "regency_code": 1671,
         "province_code": 16,
-        "name": "Bukit Kecil",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bukit Kecil"
     },
     {
         "code": 167112,
         "regency_code": 1671,
         "province_code": 16,
-        "name": "Gandus",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Gandus"
     },
     {
         "code": 167113,
         "regency_code": 1671,
         "province_code": 16,
-        "name": "Kertapati",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kertapati"
     },
     {
         "code": 167114,
         "regency_code": 1671,
         "province_code": 16,
-        "name": "Plaju",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Plaju"
     },
     {
         "code": 167115,
         "regency_code": 1671,
         "province_code": 16,
-        "name": "Alang-alang Lebar",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Alang-alang Lebar"
     },
     {
         "code": 167116,
         "regency_code": 1671,
         "province_code": 16,
-        "name": "Sematang Borang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sematang Borang"
     },
     {
         "code": 167117,
         "regency_code": 1671,
         "province_code": 16,
-        "name": "Jakabaring",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Jakabaring"
     },
     {
         "code": 167118,
         "regency_code": 1671,
         "province_code": 16,
-        "name": "Ilir Timur Tiga",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Ilir Timur Tiga"
     },
     {
         "code": 167201,
         "regency_code": 1672,
         "province_code": 16,
-        "name": "Pagar Alam Utara",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pagar Alam Utara"
     },
     {
         "code": 167202,
         "regency_code": 1672,
         "province_code": 16,
-        "name": "Pagar Alam Selatan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pagar Alam Selatan"
     },
     {
         "code": 167203,
         "regency_code": 1672,
         "province_code": 16,
-        "name": "Dempo Utara",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Dempo Utara"
     },
     {
         "code": 167204,
         "regency_code": 1672,
         "province_code": 16,
-        "name": "Dempo Selatan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Dempo Selatan"
     },
     {
         "code": 167205,
         "regency_code": 1672,
         "province_code": 16,
-        "name": "Dempo Tengah",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Dempo Tengah"
     },
     {
         "code": 167301,
         "regency_code": 1673,
         "province_code": 16,
-        "name": "Lubuk Linggau Timur I",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Lubuk Linggau Timur I"
     },
     {
         "code": 167302,
         "regency_code": 1673,
         "province_code": 16,
-        "name": "Lubuk Linggau Barat I",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Lubuk Linggau Barat I"
     },
     {
         "code": 167303,
         "regency_code": 1673,
         "province_code": 16,
-        "name": "Lubuk Linggau Selatan I",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Lubuk Linggau Selatan I"
     },
     {
         "code": 167304,
         "regency_code": 1673,
         "province_code": 16,
-        "name": "Lubuk Linggau Utara I",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Lubuk Linggau Utara I"
     },
     {
         "code": 167305,
         "regency_code": 1673,
         "province_code": 16,
-        "name": "Lubuk Linggau Timur II",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Lubuk Linggau Timur II"
     },
     {
         "code": 167306,
         "regency_code": 1673,
         "province_code": 16,
-        "name": "Lubuk Linggau Barat II",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Lubuk Linggau Barat II"
     },
     {
         "code": 167307,
         "regency_code": 1673,
         "province_code": 16,
-        "name": "Lubuk Linggau Selatan II",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Lubuk Linggau Selatan II"
     },
     {
         "code": 167308,
         "regency_code": 1673,
         "province_code": 16,
-        "name": "Lubuk Linggau Utara II",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Lubuk Linggau Utara II"
     },
     {
         "code": 167401,
         "regency_code": 1674,
         "province_code": 16,
-        "name": "Prabumulih Barat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Prabumulih Barat"
     },
     {
         "code": 167402,
         "regency_code": 1674,
         "province_code": 16,
-        "name": "Prabumulih Timur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Prabumulih Timur"
     },
     {
         "code": 167403,
         "regency_code": 1674,
         "province_code": 16,
-        "name": "Cambai",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Cambai"
     },
     {
         "code": 167404,
         "regency_code": 1674,
         "province_code": 16,
-        "name": "Rambang Kpk Tengah",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Rambang Kpk Tengah"
     },
     {
         "code": 167405,
         "regency_code": 1674,
         "province_code": 16,
-        "name": "Prabumulih Utara",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Prabumulih Utara"
     },
     {
         "code": 167406,
         "regency_code": 1674,
         "province_code": 16,
-        "name": "Prabumulih Selatan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Prabumulih Selatan"
     }
 ]

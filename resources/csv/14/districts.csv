@@ -1,173 +1,173 @@
-code,regency_code,province_code,name,latitude,longitude,coordinates
-140101,1401,14,"Bangkinang Kota",,,null
-140102,1401,14,Kampar,,,null
-140103,1401,14,Tambang,,,null
-140104,1401,14,"XIII Koto Kampar",,,null
-140105,1401,14,Kuok,,,null
-140106,1401,14,"Siak Hulu",,,null
-140107,1401,14,"Kampar Kiri",,,null
-140108,1401,14,"Kampar Kiri Hilir",,,null
-140109,1401,14,"Kampar Kiri Hulu",,,null
-140110,1401,14,Tapung,,,null
-140111,1401,14,"Tapung Hilir",,,null
-140112,1401,14,"Tapung Hulu",,,null
-140113,1401,14,Salo,,,null
-140114,1401,14,"Rumbio Jaya",,,null
-140115,1401,14,Bangkinang,,,null
-140116,1401,14,"Perhentian Raja",,,null
-140117,1401,14,Kampa,,,null
-140118,1401,14,"Kampar Utara",,,null
-140119,1401,14,"Kampar Kiri Tengah",,,null
-140120,1401,14,"Gunung Sahilan",,,null
-140121,1401,14,"Koto Kampar Hulu",,,null
-140201,1402,14,Rengat,,,null
-140202,1402,14,"Rengat Barat",,,null
-140203,1402,14,Kelayang,,,null
-140204,1402,14,"Pasir Penyu",,,null
-140205,1402,14,Peranap,,,null
-140206,1402,14,Siberida,,,null
-140207,1402,14,"Batang Cenaku",,,null
-140208,1402,14,"Batang Gangsal",,,null
-140209,1402,14,Lirik,,,null
-140210,1402,14,"Kuala Cenaku",,,null
-140211,1402,14,"Sungai Lala",,,null
-140212,1402,14,"Lubuk Batu Jaya",,,null
-140213,1402,14,"Rakit Kulim",,,null
-140214,1402,14,"Batang Peranap",,,null
-140301,1403,14,Bengkalis,,,null
-140302,1403,14,Bantan,,,null
-140303,1403,14,"Bukit Batu",,,null
-140309,1403,14,Mandau,,,null
-140310,1403,14,Rupat,,,null
-140311,1403,14,"Rupat Utara",,,null
-140312,1403,14,"Siak Kecil",,,null
-140313,1403,14,Pinggir,,,null
-140314,1403,14,"Bandar Laksamana",,,null
-140315,1403,14,"Talang Muandau",,,null
-140316,1403,14,"Bathin Solapan",,,null
-140401,1404,14,Reteh,,,null
-140402,1404,14,Enok,,,null
-140403,1404,14,"Kuala Indragiri",,,null
-140404,1404,14,Tembilahan,,,null
-140405,1404,14,Tempuling,,,null
-140406,1404,14,"Gaung Anak Serka",,,null
-140407,1404,14,Mandah,,,null
-140408,1404,14,Kateman,,,null
-140409,1404,14,Keritang,,,null
-140410,1404,14,"Tanah Merah",,,null
-140411,1404,14,"Batang Tuaka",,,null
-140412,1404,14,Gaung,,,null
-140413,1404,14,"Tembilahan Hulu",,,null
-140414,1404,14,Kemuning,,,null
-140415,1404,14,Pelangiran,,,null
-140416,1404,14,"Teluk Belengkong",,,null
-140417,1404,14,"Pulau Burung",,,null
-140418,1404,14,Concong,,,null
-140419,1404,14,Kempas,,,null
-140420,1404,14,"Sungai Batang",,,null
-140501,1405,14,Ukui,,,null
-140502,1405,14,"Pangkalan Kerinci",,,null
-140503,1405,14,"Pangkalan Kuras",,,null
-140504,1405,14,"Pangkalan Lesung",,,null
-140505,1405,14,Langgam,,,null
-140506,1405,14,Pelalawan,,,null
-140507,1405,14,Kerumutan,,,null
-140508,1405,14,Bunut,,,null
-140509,1405,14,"Teluk Meranti",,,null
-140510,1405,14,"Kuala Kampar",,,null
-140511,1405,14,"Bandar Sei Kijang",,,null
-140512,1405,14,"Bandar Petalangan",,,null
-140601,1406,14,"Ujung Batu",,,null
-140602,1406,14,"Rokan IV Koto",,,null
-140603,1406,14,Rambah,,,null
-140604,1406,14,Tambusai,,,null
-140605,1406,14,Kepenuhan,,,null
-140606,1406,14,"Kunto Darussalam",,,null
-140607,1406,14,"Rambah Samo",,,null
-140608,1406,14,"Rambah Hilir",,,null
-140609,1406,14,"Tambusai Utara",,,null
-140610,1406,14,"Bangun Purba",,,null
-140611,1406,14,Tandun,,,null
-140612,1406,14,Kabun,,,null
-140613,1406,14,"Bonai Darussalam",,,null
-140614,1406,14,"Pagaran Tapah Darussalam",,,null
-140615,1406,14,"Kepenuhan Hulu",,,null
-140616,1406,14,"Pendalian IV Koto",,,null
-140701,1407,14,Kubu,,,null
-140702,1407,14,Bangko,,,null
-140703,1407,14,"Tanah Putih",,,null
-140704,1407,14,"Rimba Melintang",,,null
-140705,1407,14,"Bagan Sinembah",,,null
-140706,1407,14,"Pasir Limau Kapas",,,null
-140707,1407,14,Sinaboi,,,null
-140708,1407,14,Pujud,,,null
-140709,1407,14,"Tanah Putih Tanjung Melawan",,,null
-140710,1407,14,"Bangko Pusako",,,null
-140711,1407,14,"Simpang Kanan",,,null
-140712,1407,14,"Batu Hampar",,,null
-140713,1407,14,"Rantau Kopar",,,null
-140714,1407,14,Pekaitan,,,null
-140715,1407,14,"Kubu Babussalam",,,null
-140716,1407,14,"Tanjung Medan",,,null
-140717,1407,14,"Bagan Sinembah Raya",,,null
-140718,1407,14,"Balai Jaya",,,null
-140801,1408,14,Siak,,,null
-140802,1408,14,"Sungai Apit",,,null
-140803,1408,14,Minas,,,null
-140804,1408,14,Tualang,,,null
-140805,1408,14,"Sungai Mandau",,,null
-140806,1408,14,Dayun,,,null
-140807,1408,14,"Kerinci Kanan",,,null
-140808,1408,14,"Bunga Raya",,,null
-140809,1408,14,"Koto Gasib",,,null
-140810,1408,14,Kandis,,,null
-140811,1408,14,"Lubuk Dalam",,,null
-140812,1408,14,"Sabak Auh",,,null
-140813,1408,14,Mempura,,,null
-140814,1408,14,Pusako,,,null
-140901,1409,14,"Kuantan Mudik",,,null
-140902,1409,14,"Kuantan Tengah",,,null
-140903,1409,14,Singingi,,,null
-140904,1409,14,"Kuantan Hilir",,,null
-140905,1409,14,Cerenti,,,null
-140906,1409,14,Benai,,,null
-140907,1409,14,Gunungtoar,,,null
-140908,1409,14,"Singingi Hilir",,,null
-140909,1409,14,Pangean,,,null
-140910,1409,14,"Logas Tanah Darat",,,null
-140911,1409,14,Inuman,,,null
-140912,1409,14,"Hulu Kuantan",,,null
-140913,1409,14,"Kuantan Hilir Seberang",,,null
-140914,1409,14,"Sentajo Raya",,,null
-140915,1409,14,"Pucuk Rantau",,,null
-141001,1410,14,"Tebing Tinggi",,,null
-141002,1410,14,"Rangsang Barat",,,null
-141003,1410,14,Rangsang,,,null
-141004,1410,14,"Tebing Tinggi Barat",,,null
-141005,1410,14,Merbau,,,null
-141006,1410,14,Pulaumerbau,,,null
-141007,1410,14,"Tebing Tinggi Timur",,,null
-141008,1410,14,"Tasik Putri Puyu",,,null
-141009,1410,14,"Rangsang Pesisir",,,null
-147101,1471,14,Sukajadi,,,null
-147102,1471,14,"Pekanbaru Kota",,,null
-147103,1471,14,Sail,,,null
-147104,1471,14,"Lima Puluh",,,null
-147105,1471,14,Senapelan,,,null
-147106,1471,14,"Rumbai Barat",,,null
-147107,1471,14,"Bukit Raya",,,null
-147108,1471,14,Binawidya,,,null
-147109,1471,14,"Marpoyan Damai",,,null
-147110,1471,14,"Tenayan Raya",,,null
-147111,1471,14,"Payung Sekaki",,,null
-147112,1471,14,Rumbai,,,null
-147113,1471,14,Tuahmadani,,,null
-147114,1471,14,Kulim,,,null
-147115,1471,14,"Rumbai Timur",,,null
-147201,1472,14,"Dumai Barat",,,null
-147202,1472,14,"Dumai Timur",,,null
-147203,1472,14,"Bukit Kapur",,,null
-147204,1472,14,"Sungai Sembilan",,,null
-147205,1472,14,"Medang Kampai",,,null
-147206,1472,14,"Dumai Kota",,,null
-147207,1472,14,"Dumai Selatan",,,null
+code,regency_code,province_code,name
+140101,1401,14,"Bangkinang Kota"
+140102,1401,14,Kampar
+140103,1401,14,Tambang
+140104,1401,14,"XIII Koto Kampar"
+140105,1401,14,Kuok
+140106,1401,14,"Siak Hulu"
+140107,1401,14,"Kampar Kiri"
+140108,1401,14,"Kampar Kiri Hilir"
+140109,1401,14,"Kampar Kiri Hulu"
+140110,1401,14,Tapung
+140111,1401,14,"Tapung Hilir"
+140112,1401,14,"Tapung Hulu"
+140113,1401,14,Salo
+140114,1401,14,"Rumbio Jaya"
+140115,1401,14,Bangkinang
+140116,1401,14,"Perhentian Raja"
+140117,1401,14,Kampa
+140118,1401,14,"Kampar Utara"
+140119,1401,14,"Kampar Kiri Tengah"
+140120,1401,14,"Gunung Sahilan"
+140121,1401,14,"Koto Kampar Hulu"
+140201,1402,14,Rengat
+140202,1402,14,"Rengat Barat"
+140203,1402,14,Kelayang
+140204,1402,14,"Pasir Penyu"
+140205,1402,14,Peranap
+140206,1402,14,Siberida
+140207,1402,14,"Batang Cenaku"
+140208,1402,14,"Batang Gangsal"
+140209,1402,14,Lirik
+140210,1402,14,"Kuala Cenaku"
+140211,1402,14,"Sungai Lala"
+140212,1402,14,"Lubuk Batu Jaya"
+140213,1402,14,"Rakit Kulim"
+140214,1402,14,"Batang Peranap"
+140301,1403,14,Bengkalis
+140302,1403,14,Bantan
+140303,1403,14,"Bukit Batu"
+140309,1403,14,Mandau
+140310,1403,14,Rupat
+140311,1403,14,"Rupat Utara"
+140312,1403,14,"Siak Kecil"
+140313,1403,14,Pinggir
+140314,1403,14,"Bandar Laksamana"
+140315,1403,14,"Talang Muandau"
+140316,1403,14,"Bathin Solapan"
+140401,1404,14,Reteh
+140402,1404,14,Enok
+140403,1404,14,"Kuala Indragiri"
+140404,1404,14,Tembilahan
+140405,1404,14,Tempuling
+140406,1404,14,"Gaung Anak Serka"
+140407,1404,14,Mandah
+140408,1404,14,Kateman
+140409,1404,14,Keritang
+140410,1404,14,"Tanah Merah"
+140411,1404,14,"Batang Tuaka"
+140412,1404,14,Gaung
+140413,1404,14,"Tembilahan Hulu"
+140414,1404,14,Kemuning
+140415,1404,14,Pelangiran
+140416,1404,14,"Teluk Belengkong"
+140417,1404,14,"Pulau Burung"
+140418,1404,14,Concong
+140419,1404,14,Kempas
+140420,1404,14,"Sungai Batang"
+140501,1405,14,Ukui
+140502,1405,14,"Pangkalan Kerinci"
+140503,1405,14,"Pangkalan Kuras"
+140504,1405,14,"Pangkalan Lesung"
+140505,1405,14,Langgam
+140506,1405,14,Pelalawan
+140507,1405,14,Kerumutan
+140508,1405,14,Bunut
+140509,1405,14,"Teluk Meranti"
+140510,1405,14,"Kuala Kampar"
+140511,1405,14,"Bandar Sei Kijang"
+140512,1405,14,"Bandar Petalangan"
+140601,1406,14,"Ujung Batu"
+140602,1406,14,"Rokan IV Koto"
+140603,1406,14,Rambah
+140604,1406,14,Tambusai
+140605,1406,14,Kepenuhan
+140606,1406,14,"Kunto Darussalam"
+140607,1406,14,"Rambah Samo"
+140608,1406,14,"Rambah Hilir"
+140609,1406,14,"Tambusai Utara"
+140610,1406,14,"Bangun Purba"
+140611,1406,14,Tandun
+140612,1406,14,Kabun
+140613,1406,14,"Bonai Darussalam"
+140614,1406,14,"Pagaran Tapah Darussalam"
+140615,1406,14,"Kepenuhan Hulu"
+140616,1406,14,"Pendalian IV Koto"
+140701,1407,14,Kubu
+140702,1407,14,Bangko
+140703,1407,14,"Tanah Putih"
+140704,1407,14,"Rimba Melintang"
+140705,1407,14,"Bagan Sinembah"
+140706,1407,14,"Pasir Limau Kapas"
+140707,1407,14,Sinaboi
+140708,1407,14,Pujud
+140709,1407,14,"Tanah Putih Tanjung Melawan"
+140710,1407,14,"Bangko Pusako"
+140711,1407,14,"Simpang Kanan"
+140712,1407,14,"Batu Hampar"
+140713,1407,14,"Rantau Kopar"
+140714,1407,14,Pekaitan
+140715,1407,14,"Kubu Babussalam"
+140716,1407,14,"Tanjung Medan"
+140717,1407,14,"Bagan Sinembah Raya"
+140718,1407,14,"Balai Jaya"
+140801,1408,14,Siak
+140802,1408,14,"Sungai Apit"
+140803,1408,14,Minas
+140804,1408,14,Tualang
+140805,1408,14,"Sungai Mandau"
+140806,1408,14,Dayun
+140807,1408,14,"Kerinci Kanan"
+140808,1408,14,"Bunga Raya"
+140809,1408,14,"Koto Gasib"
+140810,1408,14,Kandis
+140811,1408,14,"Lubuk Dalam"
+140812,1408,14,"Sabak Auh"
+140813,1408,14,Mempura
+140814,1408,14,Pusako
+140901,1409,14,"Kuantan Mudik"
+140902,1409,14,"Kuantan Tengah"
+140903,1409,14,Singingi
+140904,1409,14,"Kuantan Hilir"
+140905,1409,14,Cerenti
+140906,1409,14,Benai
+140907,1409,14,Gunungtoar
+140908,1409,14,"Singingi Hilir"
+140909,1409,14,Pangean
+140910,1409,14,"Logas Tanah Darat"
+140911,1409,14,Inuman
+140912,1409,14,"Hulu Kuantan"
+140913,1409,14,"Kuantan Hilir Seberang"
+140914,1409,14,"Sentajo Raya"
+140915,1409,14,"Pucuk Rantau"
+141001,1410,14,"Tebing Tinggi"
+141002,1410,14,"Rangsang Barat"
+141003,1410,14,Rangsang
+141004,1410,14,"Tebing Tinggi Barat"
+141005,1410,14,Merbau
+141006,1410,14,Pulaumerbau
+141007,1410,14,"Tebing Tinggi Timur"
+141008,1410,14,"Tasik Putri Puyu"
+141009,1410,14,"Rangsang Pesisir"
+147101,1471,14,Sukajadi
+147102,1471,14,"Pekanbaru Kota"
+147103,1471,14,Sail
+147104,1471,14,"Lima Puluh"
+147105,1471,14,Senapelan
+147106,1471,14,"Rumbai Barat"
+147107,1471,14,"Bukit Raya"
+147108,1471,14,Binawidya
+147109,1471,14,"Marpoyan Damai"
+147110,1471,14,"Tenayan Raya"
+147111,1471,14,"Payung Sekaki"
+147112,1471,14,Rumbai
+147113,1471,14,Tuahmadani
+147114,1471,14,Kulim
+147115,1471,14,"Rumbai Timur"
+147201,1472,14,"Dumai Barat"
+147202,1472,14,"Dumai Timur"
+147203,1472,14,"Bukit Kapur"
+147204,1472,14,"Sungai Sembilan"
+147205,1472,14,"Medang Kampai"
+147206,1472,14,"Dumai Kota"
+147207,1472,14,"Dumai Selatan"

@@ -3,684 +3,456 @@
         "code": 210104,
         "regency_code": 2101,
         "province_code": 21,
-        "name": "Gunung Kijang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Gunung Kijang"
     },
     {
         "code": 210106,
         "regency_code": 2101,
         "province_code": 21,
-        "name": "Bintan Timur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bintan Timur"
     },
     {
         "code": 210107,
         "regency_code": 2101,
         "province_code": 21,
-        "name": "Bintan Utara",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bintan Utara"
     },
     {
         "code": 210108,
         "regency_code": 2101,
         "province_code": 21,
-        "name": "Teluk Bintan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Teluk Bintan"
     },
     {
         "code": 210109,
         "regency_code": 2101,
         "province_code": 21,
-        "name": "Tambelan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tambelan"
     },
     {
         "code": 210110,
         "regency_code": 2101,
         "province_code": 21,
-        "name": "Telok Sebong",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Telok Sebong"
     },
     {
         "code": 210112,
         "regency_code": 2101,
         "province_code": 21,
-        "name": "Toapaya",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Toapaya"
     },
     {
         "code": 210113,
         "regency_code": 2101,
         "province_code": 21,
-        "name": "Mantang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Mantang"
     },
     {
         "code": 210114,
         "regency_code": 2101,
         "province_code": 21,
-        "name": "Bintan Pesisir",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bintan Pesisir"
     },
     {
         "code": 210115,
         "regency_code": 2101,
         "province_code": 21,
-        "name": "Seri Kuala Lobam",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Seri Kuala Lobam"
     },
     {
         "code": 210201,
         "regency_code": 2102,
         "province_code": 21,
-        "name": "Moro",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Moro"
     },
     {
         "code": 210202,
         "regency_code": 2102,
         "province_code": 21,
-        "name": "Kundur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kundur"
     },
     {
         "code": 210203,
         "regency_code": 2102,
         "province_code": 21,
-        "name": "Karimun",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Karimun"
     },
     {
         "code": 210204,
         "regency_code": 2102,
         "province_code": 21,
-        "name": "Meral",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Meral"
     },
     {
         "code": 210205,
         "regency_code": 2102,
         "province_code": 21,
-        "name": "Tebing",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tebing"
     },
     {
         "code": 210206,
         "regency_code": 2102,
         "province_code": 21,
-        "name": "Buru",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Buru"
     },
     {
         "code": 210207,
         "regency_code": 2102,
         "province_code": 21,
-        "name": "Kundur Utara",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kundur Utara"
     },
     {
         "code": 210208,
         "regency_code": 2102,
         "province_code": 21,
-        "name": "Kundur Barat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kundur Barat"
     },
     {
         "code": 210209,
         "regency_code": 2102,
         "province_code": 21,
-        "name": "Durai",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Durai"
     },
     {
         "code": 210210,
         "regency_code": 2102,
         "province_code": 21,
-        "name": "Meral Barat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Meral Barat"
     },
     {
         "code": 210211,
         "regency_code": 2102,
         "province_code": 21,
-        "name": "Ungar",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Ungar"
     },
     {
         "code": 210212,
         "regency_code": 2102,
         "province_code": 21,
-        "name": "Belat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Belat"
     },
     {
         "code": 210304,
         "regency_code": 2103,
         "province_code": 21,
-        "name": "Midai",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Midai"
     },
     {
         "code": 210305,
         "regency_code": 2103,
         "province_code": 21,
-        "name": "Bunguran Barat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bunguran Barat"
     },
     {
         "code": 210306,
         "regency_code": 2103,
         "province_code": 21,
-        "name": "Serasan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Serasan"
     },
     {
         "code": 210307,
         "regency_code": 2103,
         "province_code": 21,
-        "name": "Bunguran Timur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bunguran Timur"
     },
     {
         "code": 210308,
         "regency_code": 2103,
         "province_code": 21,
-        "name": "Bunguran Utara",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bunguran Utara"
     },
     {
         "code": 210309,
         "regency_code": 2103,
         "province_code": 21,
-        "name": "Subi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Subi"
     },
     {
         "code": 210310,
         "regency_code": 2103,
         "province_code": 21,
-        "name": "Pulau Laut",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pulau Laut"
     },
     {
         "code": 210311,
         "regency_code": 2103,
         "province_code": 21,
-        "name": "Pulau Tiga",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pulau Tiga"
     },
     {
         "code": 210315,
         "regency_code": 2103,
         "province_code": 21,
-        "name": "Bunguran Timur Laut",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bunguran Timur Laut"
     },
     {
         "code": 210316,
         "regency_code": 2103,
         "province_code": 21,
-        "name": "Bunguran Tengah",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bunguran Tengah"
     },
     {
         "code": 210318,
         "regency_code": 2103,
         "province_code": 21,
-        "name": "Bunguran Selatan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bunguran Selatan"
     },
     {
         "code": 210319,
         "regency_code": 2103,
         "province_code": 21,
-        "name": "Serasan Timur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Serasan Timur"
     },
     {
         "code": 210320,
         "regency_code": 2103,
         "province_code": 21,
-        "name": "Bunguran Batubi",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bunguran Batubi"
     },
     {
         "code": 210321,
         "regency_code": 2103,
         "province_code": 21,
-        "name": "Pulau Tiga Barat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Pulau Tiga Barat"
     },
     {
         "code": 210322,
         "regency_code": 2103,
         "province_code": 21,
-        "name": "Suak Midai",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Suak Midai"
     },
     {
         "code": 210401,
         "regency_code": 2104,
         "province_code": 21,
-        "name": "Singkep",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Singkep"
     },
     {
         "code": 210402,
         "regency_code": 2104,
         "province_code": 21,
-        "name": "Lingga",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Lingga"
     },
     {
         "code": 210403,
         "regency_code": 2104,
         "province_code": 21,
-        "name": "Senayang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Senayang"
     },
     {
         "code": 210404,
         "regency_code": 2104,
         "province_code": 21,
-        "name": "Singkep Barat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Singkep Barat"
     },
     {
         "code": 210405,
         "regency_code": 2104,
         "province_code": 21,
-        "name": "Lingga Utara",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Lingga Utara"
     },
     {
         "code": 210406,
         "regency_code": 2104,
         "province_code": 21,
-        "name": "Singkep Pesisir",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Singkep Pesisir"
     },
     {
         "code": 210407,
         "regency_code": 2104,
         "province_code": 21,
-        "name": "Lingga Timur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Lingga Timur"
     },
     {
         "code": 210408,
         "regency_code": 2104,
         "province_code": 21,
-        "name": "Selayar",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Selayar"
     },
     {
         "code": 210409,
         "regency_code": 2104,
         "province_code": 21,
-        "name": "Singkep Selatan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Singkep Selatan"
     },
     {
         "code": 210410,
         "regency_code": 2104,
         "province_code": 21,
-        "name": "Kepulauan Posek",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kepulauan Posek"
     },
     {
         "code": 210411,
         "regency_code": 2104,
         "province_code": 21,
-        "name": "Katang Bidare",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Katang Bidare"
     },
     {
         "code": 210412,
         "regency_code": 2104,
         "province_code": 21,
-        "name": "Temiang Pesisir",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Temiang Pesisir"
     },
     {
         "code": 210413,
         "regency_code": 2104,
         "province_code": 21,
-        "name": "Bakung Serumpun",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bakung Serumpun"
     },
     {
         "code": 210501,
         "regency_code": 2105,
         "province_code": 21,
-        "name": "Siantan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Siantan"
     },
     {
         "code": 210502,
         "regency_code": 2105,
         "province_code": 21,
-        "name": "Palmatak",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Palmatak"
     },
     {
         "code": 210503,
         "regency_code": 2105,
         "province_code": 21,
-        "name": "Siantan Timur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Siantan Timur"
     },
     {
         "code": 210504,
         "regency_code": 2105,
         "province_code": 21,
-        "name": "Siantan Selatan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Siantan Selatan"
     },
     {
         "code": 210505,
         "regency_code": 2105,
         "province_code": 21,
-        "name": "Jemaja Timur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Jemaja Timur"
     },
     {
         "code": 210506,
         "regency_code": 2105,
         "province_code": 21,
-        "name": "Jemaja",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Jemaja"
     },
     {
         "code": 210507,
         "regency_code": 2105,
         "province_code": 21,
-        "name": "Siantan Tengah",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Siantan Tengah"
     },
     {
         "code": 210508,
         "regency_code": 2105,
         "province_code": 21,
-        "name": "Siantan Utara",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Siantan Utara"
     },
     {
         "code": 210509,
         "regency_code": 2105,
         "province_code": 21,
-        "name": "Jemaja Barat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Jemaja Barat"
     },
     {
         "code": 210510,
         "regency_code": 2105,
         "province_code": 21,
-        "name": "Kute Siantan",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Kute Siantan"
     },
     {
         "code": 217101,
         "regency_code": 2171,
         "province_code": 21,
-        "name": "Belakang Padang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Belakang Padang"
     },
     {
         "code": 217102,
         "regency_code": 2171,
         "province_code": 21,
-        "name": "Batu Ampar",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Batu Ampar"
     },
     {
         "code": 217103,
         "regency_code": 2171,
         "province_code": 21,
-        "name": "Sekupang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sekupang"
     },
     {
         "code": 217104,
         "regency_code": 2171,
         "province_code": 21,
-        "name": "Nongsa",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Nongsa"
     },
     {
         "code": 217105,
         "regency_code": 2171,
         "province_code": 21,
-        "name": "Bulang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bulang"
     },
     {
         "code": 217106,
         "regency_code": 2171,
         "province_code": 21,
-        "name": "Lubuk Baja",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Lubuk Baja"
     },
     {
         "code": 217107,
         "regency_code": 2171,
         "province_code": 21,
-        "name": "Sei Beduk",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sei Beduk"
     },
     {
         "code": 217108,
         "regency_code": 2171,
         "province_code": 21,
-        "name": "Galang",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Galang"
     },
     {
         "code": 217109,
         "regency_code": 2171,
         "province_code": 21,
-        "name": "Bengkong",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bengkong"
     },
     {
         "code": 217110,
         "regency_code": 2171,
         "province_code": 21,
-        "name": "Batam Kota",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Batam Kota"
     },
     {
         "code": 217111,
         "regency_code": 2171,
         "province_code": 21,
-        "name": "Sagulung",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Sagulung"
     },
     {
         "code": 217112,
         "regency_code": 2171,
         "province_code": 21,
-        "name": "Batu Aji",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Batu Aji"
     },
     {
         "code": 217201,
         "regency_code": 2172,
         "province_code": 21,
-        "name": "Tanjung Pinang Barat",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tanjung Pinang Barat"
     },
     {
         "code": 217202,
         "regency_code": 2172,
         "province_code": 21,
-        "name": "Tanjung Pinang Timur",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tanjung Pinang Timur"
     },
     {
         "code": 217203,
         "regency_code": 2172,
         "province_code": 21,
-        "name": "Tanjung Pinang Kota",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Tanjung Pinang Kota"
     },
     {
         "code": 217204,
         "regency_code": 2172,
         "province_code": 21,
-        "name": "Bukit Bestari",
-        "latitude": null,
-        "longitude": null,
-        "coordinates": null
+        "name": "Bukit Bestari"
     }
 ]

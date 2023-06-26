@@ -1,77 +1,77 @@
-code,regency_code,province_code,name,latitude,longitude,coordinates
-210104,2101,21,"Gunung Kijang",,,null
-210106,2101,21,"Bintan Timur",,,null
-210107,2101,21,"Bintan Utara",,,null
-210108,2101,21,"Teluk Bintan",,,null
-210109,2101,21,Tambelan,,,null
-210110,2101,21,"Telok Sebong",,,null
-210112,2101,21,Toapaya,,,null
-210113,2101,21,Mantang,,,null
-210114,2101,21,"Bintan Pesisir",,,null
-210115,2101,21,"Seri Kuala Lobam",,,null
-210201,2102,21,Moro,,,null
-210202,2102,21,Kundur,,,null
-210203,2102,21,Karimun,,,null
-210204,2102,21,Meral,,,null
-210205,2102,21,Tebing,,,null
-210206,2102,21,Buru,,,null
-210207,2102,21,"Kundur Utara",,,null
-210208,2102,21,"Kundur Barat",,,null
-210209,2102,21,Durai,,,null
-210210,2102,21,"Meral Barat",,,null
-210211,2102,21,Ungar,,,null
-210212,2102,21,Belat,,,null
-210304,2103,21,Midai,,,null
-210305,2103,21,"Bunguran Barat",,,null
-210306,2103,21,Serasan,,,null
-210307,2103,21,"Bunguran Timur",,,null
-210308,2103,21,"Bunguran Utara",,,null
-210309,2103,21,Subi,,,null
-210310,2103,21,"Pulau Laut",,,null
-210311,2103,21,"Pulau Tiga",,,null
-210315,2103,21,"Bunguran Timur Laut",,,null
-210316,2103,21,"Bunguran Tengah",,,null
-210318,2103,21,"Bunguran Selatan",,,null
-210319,2103,21,"Serasan Timur",,,null
-210320,2103,21,"Bunguran Batubi",,,null
-210321,2103,21,"Pulau Tiga Barat",,,null
-210322,2103,21,"Suak Midai",,,null
-210401,2104,21,Singkep,,,null
-210402,2104,21,Lingga,,,null
-210403,2104,21,Senayang,,,null
-210404,2104,21,"Singkep Barat",,,null
-210405,2104,21,"Lingga Utara",,,null
-210406,2104,21,"Singkep Pesisir",,,null
-210407,2104,21,"Lingga Timur",,,null
-210408,2104,21,Selayar,,,null
-210409,2104,21,"Singkep Selatan",,,null
-210410,2104,21,"Kepulauan Posek",,,null
-210411,2104,21,"Katang Bidare",,,null
-210412,2104,21,"Temiang Pesisir",,,null
-210413,2104,21,"Bakung Serumpun",,,null
-210501,2105,21,Siantan,,,null
-210502,2105,21,Palmatak,,,null
-210503,2105,21,"Siantan Timur",,,null
-210504,2105,21,"Siantan Selatan",,,null
-210505,2105,21,"Jemaja Timur",,,null
-210506,2105,21,Jemaja,,,null
-210507,2105,21,"Siantan Tengah",,,null
-210508,2105,21,"Siantan Utara",,,null
-210509,2105,21,"Jemaja Barat",,,null
-210510,2105,21,"Kute Siantan",,,null
-217101,2171,21,"Belakang Padang",,,null
-217102,2171,21,"Batu Ampar",,,null
-217103,2171,21,Sekupang,,,null
-217104,2171,21,Nongsa,,,null
-217105,2171,21,Bulang,,,null
-217106,2171,21,"Lubuk Baja",,,null
-217107,2171,21,"Sei Beduk",,,null
-217108,2171,21,Galang,,,null
-217109,2171,21,Bengkong,,,null
-217110,2171,21,"Batam Kota",,,null
-217111,2171,21,Sagulung,,,null
-217112,2171,21,"Batu Aji",,,null
-217201,2172,21,"Tanjung Pinang Barat",,,null
-217202,2172,21,"Tanjung Pinang Timur",,,null
-217203,2172,21,"Tanjung Pinang Kota",,,null
-217204,2172,21,"Bukit Bestari",,,null
+code,regency_code,province_code,name
+210104,2101,21,"Gunung Kijang"
+210106,2101,21,"Bintan Timur"
+210107,2101,21,"Bintan Utara"
+210108,2101,21,"Teluk Bintan"
+210109,2101,21,Tambelan
+210110,2101,21,"Telok Sebong"
+210112,2101,21,Toapaya
+210113,2101,21,Mantang
+210114,2101,21,"Bintan Pesisir"
+210115,2101,21,"Seri Kuala Lobam"
+210201,2102,21,Moro
+210202,2102,21,Kundur
+210203,2102,21,Karimun
+210204,2102,21,Meral
+210205,2102,21,Tebing
+210206,2102,21,Buru
+210207,2102,21,"Kundur Utara"
+210208,2102,21,"Kundur Barat"
+210209,2102,21,Durai
+210210,2102,21,"Meral Barat"
+210211,2102,21,Ungar
+210212,2102,21,Belat
+210304,2103,21,Midai
+210305,2103,21,"Bunguran Barat"
+210306,2103,21,Serasan
+210307,2103,21,"Bunguran Timur"
+210308,2103,21,"Bunguran Utara"
+210309,2103,21,Subi
+210310,2103,21,"Pulau Laut"
+210311,2103,21,"Pulau Tiga"
+210315,2103,21,"Bunguran Timur Laut"
+210316,2103,21,"Bunguran Tengah"
+210318,2103,21,"Bunguran Selatan"
+210319,2103,21,"Serasan Timur"
+210320,2103,21,"Bunguran Batubi"
+210321,2103,21,"Pulau Tiga Barat"
+210322,2103,21,"Suak Midai"
+210401,2104,21,Singkep
+210402,2104,21,Lingga
+210403,2104,21,Senayang
+210404,2104,21,"Singkep Barat"
+210405,2104,21,"Lingga Utara"
+210406,2104,21,"Singkep Pesisir"
+210407,2104,21,"Lingga Timur"
+210408,2104,21,Selayar
+210409,2104,21,"Singkep Selatan"
+210410,2104,21,"Kepulauan Posek"
+210411,2104,21,"Katang Bidare"
+210412,2104,21,"Temiang Pesisir"
+210413,2104,21,"Bakung Serumpun"
+210501,2105,21,Siantan
+210502,2105,21,Palmatak
+210503,2105,21,"Siantan Timur"
+210504,2105,21,"Siantan Selatan"
+210505,2105,21,"Jemaja Timur"
+210506,2105,21,Jemaja
+210507,2105,21,"Siantan Tengah"
+210508,2105,21,"Siantan Utara"
+210509,2105,21,"Jemaja Barat"
+210510,2105,21,"Kute Siantan"
+217101,2171,21,"Belakang Padang"
+217102,2171,21,"Batu Ampar"
+217103,2171,21,Sekupang
+217104,2171,21,Nongsa
+217105,2171,21,Bulang
+217106,2171,21,"Lubuk Baja"
+217107,2171,21,"Sei Beduk"
+217108,2171,21,Galang
+217109,2171,21,Bengkong
+217110,2171,21,"Batam Kota"
+217111,2171,21,Sagulung
+217112,2171,21,"Batu Aji"
+217201,2172,21,"Tanjung Pinang Barat"
+217202,2172,21,"Tanjung Pinang Timur"
+217203,2172,21,"Tanjung Pinang Kota"
+217204,2172,21,"Bukit Bestari"
