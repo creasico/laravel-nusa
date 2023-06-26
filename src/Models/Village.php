@@ -4,18 +4,11 @@ declare(strict_types=1);
 
 namespace Creasi\Nusa\Models;
 
-/**
- * @property-read int $district_code
- * @property-read int $regency_code
- * @property-read int $province_code
- * @property-read int $postal_code
- * @property-read Province $province
- * @property-read Regency $regency
- * @property-read District $district
- */
-class Village extends Model
+use Creasi\Nusa\Contracts\Village as VillageContract;
+
+class Village extends Model implements VillageContract
 {
-    protected $fillable = ['code', 'district_code', 'regency_code', 'province_code', 'name', 'postal_code'];
+    protected $fillable = ['district_code', 'regency_code', 'province_code', 'postal_code'];
 
     protected $casts = [
         'district_code' => 'int',

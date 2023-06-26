@@ -4,15 +4,15 @@ declare(strict_types=1);
 
 namespace Creasi\Nusa\Models;
 
+use Creasi\Nusa\Contracts\Regency as RegencyContract;
+
 /**
- * @property-read int $province_code
- * @property-read Province $province
- * @property-read \Illuminate\Database\Eloquent\Collection<int, District>|District[] $districts
- * @property-read \Illuminate\Database\Eloquent\Collection<int, Village>|Village[] $villages
+ * @property-read \Illuminate\Database\Eloquent\Collection<int, District> $districts
+ * @property-read \Illuminate\Database\Eloquent\Collection<int, Village> $villages
  */
-class Regency extends Model
+class Regency extends Model implements RegencyContract
 {
-    protected $fillable = ['code', 'province_code', 'name'];
+    protected $fillable = ['province_code'];
 
     protected $casts = [
         'province_code' => 'int',
