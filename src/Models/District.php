@@ -7,6 +7,8 @@ namespace Creasi\Nusa\Models;
 use Creasi\Nusa\Contracts\District as DistrictContract;
 
 /**
+ * @property-read Province $province
+ * @property-read Regency $regency
  * @property-read \Illuminate\Database\Eloquent\Collection<int, Village> $villages
  */
 class District extends Model implements DistrictContract

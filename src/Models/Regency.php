@@ -7,6 +7,7 @@ namespace Creasi\Nusa\Models;
 use Creasi\Nusa\Contracts\Regency as RegencyContract;
 
 /**
+ * @property-read Province $province
  * @property-read \Illuminate\Database\Eloquent\Collection<int, District> $districts
  * @property-read \Illuminate\Database\Eloquent\Collection<int, Village> $villages
  */

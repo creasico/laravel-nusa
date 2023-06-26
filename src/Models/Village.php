@@ -6,6 +6,11 @@ namespace Creasi\Nusa\Models;
 
 use Creasi\Nusa\Contracts\Village as VillageContract;
 
+/**
+ * @property-read Province $province
+ * @property-read Regency $regency
+ * @property-read District $district
+ */
 class Village extends Model implements VillageContract
 {
     protected $fillable = ['district_code', 'regency_code', 'province_code', 'postal_code'];
