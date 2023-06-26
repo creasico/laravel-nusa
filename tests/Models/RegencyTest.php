@@ -4,10 +4,11 @@ declare(strict_types=1);
 
 namespace Creasi\Tests\Models;
 
-use Creasi\Nusa\Models\District;
-use Creasi\Nusa\Models\Province;
+use Creasi\Nusa\Contracts\District;
+use Creasi\Nusa\Contracts\Province;
+use Creasi\Nusa\Contracts\Regency as RegencyContract;
 use Creasi\Nusa\Models\Regency;
-use Creasi\Nusa\Models\Village;
+use Creasi\Nusa\Contracts\Village;
 use Creasi\Tests\TestCase;
 use Illuminate\Support\Collection;
 use PHPUnit\Framework\Attributes\Depends;
@@ -19,47 +20,59 @@ use PHPUnit\Framework\Attributes\Test;
 #[Group('regencies')]
 class RegencyTest extends TestCase
 {
+    /**
+     * @param Collection<int, Regency> $regencies
+     * @return Collection<int, Regency>
+     */
     #[Test]
-    #[DependsExternal(ProvinceTest::class, 'it_should_be_true')]
-    public function it_should_be_true()
+    #[DependsExternal(ProvinceTest::class, 'it_should_has_many_regencies')]
+    public function it_should_has_many_regencies(Collection $regencies)
     {
-        $this->assertTrue(\class_exists(Regency::class));
+        $regencies->each(function (Regency $regency) {
+            $this->assertIsInt($regency->code, 'Code should be int');
+            $this->assertIsFloat($regency->latitude, 'Latitude should be float');
+            $this->assertIsFloat($regency->longitude, 'Longitude should be float');
+            $this->assertIsArray($regency->coordinates, 'Coordinates should be array');
 
-        return Regency::with([
-            'province',
-            'districts' => function ($query) {
-                $query->take(10);
-            },
-            'villages' => function ($query) {
-                $query->take(10);
-            },
-        ])->get();
+            $this->assertInstanceOf(RegencyContract::class, $regency);
+        });
+
+        return $regencies;
     }
 
+    /**
+     * @param Collection<int, Regency> $regencies
+     */
     #[Test]
-    #[Depends('it_should_be_true')]
+    #[Depends('it_should_has_many_regencies')]
     public function it_should_belongs_to_province(Collection $regencies)
     {
-        $regencies->each(function (Regency $reg) {
-            $this->assertInstanceOf(Province::class, $reg->province);
+        $regencies->each(function (Regency $regency) {
+            $this->assertInstanceOf(Province::class, $regency->province);
         });
     }
 
+    /**
+     * @param Collection<int, Regency> $regencies
+     */
     #[Test]
-    #[Depends('it_should_be_true')]
+    #[Depends('it_should_has_many_regencies')]
     public function it_should_has_many_districts(Collection $regencies)
     {
-        $regencies->each(function (Regency $reg) {
-            $this->assertTrue($reg->districts->every(fn ($dis) => $dis instanceof District));
+        $regencies->each(function (Regency $regency) {
+            $this->assertTrue($regency->districts->every(fn ($dis) => $dis instanceof District));
         });
     }
 
+    /**
+     * @param Collection<int, Regency> $regencies
+     */
     #[Test]
-    #[Depends('it_should_be_true')]
+    #[Depends('it_should_has_many_regencies')]
     public function it_should_has_many_villages(Collection $regencies)
     {
-        $regencies->each(function (Regency $reg) {
-            $this->assertTrue($reg->villages->every(fn ($vil) => $vil instanceof Village));
+        $regencies->each(function (Regency $regency) {
+            $this->assertTrue($regency->villages->every(fn ($vil) => $vil instanceof Village));
         });
     }
 }

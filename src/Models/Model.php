@@ -4,18 +4,13 @@ declare(strict_types=1);
 
 namespace Creasi\Nusa\Models;
 
+use Creasi\Nusa\Contracts\Model as ModelContract;
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 
 /**
- * @property-read int $code
- * @property-read string $name
- * @property-read ?float $latitude
- * @property-read ?float $longintude
- * @property-read ?array $coordinates
- *
  * @mixin \Illuminate\Contracts\Database\Eloquent\Builder
  */
-abstract class Model extends EloquentModel
+abstract class Model extends EloquentModel implements ModelContract
 {
     public $incrementing = false;
 
@@ -31,6 +26,7 @@ abstract class Model extends EloquentModel
     public function getCasts()
     {
         return \array_merge($this->casts, [
+            'code' => 'int',
             'latitude' => 'float',
             'longitude' => 'float',
             'coordinates' => 'array',
@@ -39,6 +35,6 @@ abstract class Model extends EloquentModel
 
     public function getFillable()
     {
-        return \array_merge($this->fillable, ['latitude', 'longitude', 'coordinates']);
+        return \array_merge($this->fillable, ['code', 'name', 'latitude', 'longitude', 'coordinates']);
     }
 }

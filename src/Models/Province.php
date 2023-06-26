@@ -4,14 +4,16 @@ declare(strict_types=1);
 
 namespace Creasi\Nusa\Models;
 
+use Creasi\Nusa\Contracts\Province as ProvinceContract;
+
 /**
- * @property-read \Illuminate\Database\Eloquent\Collection<int, Regency>|Regency[] $regencies
- * @property-read \Illuminate\Database\Eloquent\Collection<int, District>|District[] $districts
- * @property-read \Illuminate\Database\Eloquent\Collection<int, Village>|Village[] $villages
+ * @property-read \Illuminate\Database\Eloquent\Collection<int, Regency> $regencies
+ * @property-read \Illuminate\Database\Eloquent\Collection<int, District> $districts
+ * @property-read \Illuminate\Database\Eloquent\Collection<int, Village> $villages
  */
-class Province extends Model
+class Province extends Model implements ProvinceContract
 {
-    protected $fillable = ['code', 'name'];
+    protected $fillable = [];
 
     protected $casts = [];
 
