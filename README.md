@@ -4,7 +4,7 @@
 
 # Creasi Nusa
 
-Simple library aims to provide Indonesia Administrative Region Data based on [cahyadsn/wilayah](https://github.com/cahyadsn/wilayah) that easily integrated with our laravel project.
+Simple library aims to provide Indonesia Administrative Region Data based including the coordinates and postal codes, that easily integrated with our laravel project.
 
 ## Requirements
 
@@ -19,6 +19,8 @@ I've been using [edwardsamuel/Wilayah-Administratif-Indonesia](https://github.co
 
 That's why we choose [cahyadsn/wilayah](https://github.com/cahyadsn/wilayah) it has robust and strong database in terms of legality, but its not actually a package that can be installed as dependency. By that said, it has some work to-do.
 
+We also found that [w3appdev/kodepos](https://github.com/w3appdev/kodepos) provides better database structures that can easily mapped with databases from [cahyadsn/wilayah](https://github.com/cahyadsn/wilayah) in single query.
+
 Why PHP `>=8.1` and Laravel `>=10.0`, you may ask? Because, why not?
 
 ## Installation
@@ -32,11 +34,10 @@ That's all
 ## Roadmaps
 
 - [x] Basic Models
-   - [x] Provinces
-   - [x] Regencies
+   - [x] Provinces, includes `laltitude`, `longitude` and `coordinates`
+   - [x] Regencies, includes `laltitude`, `longitude` and `coordinates`
    - [x] Districts
-   - [x] Vilages
-   - [ ] Postal Codes
+   - [x] Vilages, include `postal_code`
 - [ ] Routing
 
 ## Usage
