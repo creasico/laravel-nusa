@@ -1,0 +1,230 @@
+code,regency_code,province_code,name
+180104,1801,18,Natar
+180105,1801,18,"Tanjung Bintang"
+180106,1801,18,Kalianda
+180107,1801,18,Sidomulyo
+180108,1801,18,Katibung
+180109,1801,18,Penengahan
+180110,1801,18,Palas
+180113,1801,18,"Jati Agung"
+180114,1801,18,Ketapang
+180115,1801,18,Sragi
+180116,1801,18,"Raja Basa"
+180117,1801,18,Candipuro
+180118,1801,18,"Merbau Mataram"
+180121,1801,18,Bakauheni
+180122,1801,18,"Tanjung Sari"
+180123,1801,18,"Way Sulan"
+180124,1801,18,"Way Panji"
+180201,1802,18,Kalirejo
+180202,1802,18,"Bangun Rejo"
+180203,1802,18,"Padang Ratu"
+180204,1802,18,"Gunung Sugih"
+180205,1802,18,Trimurjo
+180206,1802,18,Punggur
+180207,1802,18,"Terbanggi Besar"
+180208,1802,18,"Seputih Raman"
+180209,1802,18,Rumbia
+180210,1802,18,"Seputih Banyak"
+180211,1802,18,"Seputih Mataram"
+180212,1802,18,"Seputih Surabaya"
+180213,1802,18,"Terusan Nunyai"
+180214,1802,18,"Bumi Ratu Nuban"
+180215,1802,18,Bekri
+180216,1802,18,"Seputih Agung"
+180217,1802,18,"Way Pangubuan"
+180218,1802,18,"Bandar Mataram"
+180219,1802,18,Pubian
+180220,1802,18,"Selagai Lingga"
+180221,1802,18,"Anak Tuha"
+180222,1802,18,"Sendang Agung"
+180223,1802,18,"Kota Gajah"
+180224,1802,18,"Bumi Nabung"
+180225,1802,18,"Way Seputih"
+180226,1802,18,"Bandar Surabaya"
+180227,1802,18,"Anak Ratu Aji"
+180228,1802,18,"Putra Rumbia"
+180301,1803,18,"Bukit Kemuning"
+180302,1803,18,Kotabumi
+180303,1803,18,"Sungkai Selatan"
+180304,1803,18,"Tanjung Raja"
+180305,1803,18,"Abung Timur"
+180306,1803,18,"Abung Barat"
+180307,1803,18,"Abung Selatan"
+180308,1803,18,"Sungkai Utara"
+180309,1803,18,"Kotabumi Utara"
+180310,1803,18,"Kotabumi Selatan"
+180311,1803,18,"Abung Tengah"
+180312,1803,18,"Abung Tinggi"
+180313,1803,18,"Abung Semuli"
+180314,1803,18,"Abung Surakarta"
+180315,1803,18,"Muara Sungkai"
+180316,1803,18,"Bunga Mayang"
+180317,1803,18,"Hulu Sungkai"
+180318,1803,18,"Sungkai Tengah"
+180319,1803,18,"Abung Pekurun"
+180320,1803,18,"Sungkai Jaya"
+180321,1803,18,"Sungkai Barat"
+180322,1803,18,"Abung Kunang"
+180323,1803,18,"Blambangan Pagar"
+180404,1804,18,"Balik Bukit"
+180405,1804,18,"Sumber Jaya"
+180406,1804,18,Belalau
+180407,1804,18,"Way Tenong"
+180408,1804,18,Sekincau
+180409,1804,18,Suoh
+180410,1804,18,"Batu Brak"
+180411,1804,18,Sukau
+180415,1804,18,"Gedung Surian"
+180418,1804,18,"Kebun Tebu"
+180419,1804,18,"Air Hitam"
+180420,1804,18,"Pagar Dewa"
+180421,1804,18,"Batu Ketulis"
+180422,1804,18,"Lumbok Seminung"
+180423,1804,18,"Bandar Negeri Suoh"
+180502,1805,18,Menggala
+180506,1805,18,"Gedung Aji"
+180508,1805,18,"Banjar Agung"
+180511,1805,18,"Gedung Meneng"
+180512,1805,18,"Rawa Jitu Selatan"
+180513,1805,18,"Penawar Tama"
+180518,1805,18,"Rawa Jitu Timur"
+180520,1805,18,"Banjar Margo"
+180522,1805,18,"Rawa Pitu"
+180523,1805,18,"Penawar Aji"
+180525,1805,18,"Dente Teladas"
+180526,1805,18,"Meraksa Aji"
+180527,1805,18,"Gedung Aji Baru"
+180529,1805,18,"Banjar Baru"
+180530,1805,18,"Menggala Timur"
+180601,1806,18,"Kota Agung"
+180602,1806,18,"Talang Padang"
+180603,1806,18,Wonosobo
+180604,1806,18,"Pulau Panggung"
+180609,1806,18,"Cukuh Balak"
+180611,1806,18,Pugung
+180612,1806,18,Semaka
+180613,1806,18,"Sumber Rejo"
+180615,1806,18,"Ulu Belu"
+180616,1806,18,"Pematang Sawa"
+180617,1806,18,Klumbayan
+180618,1806,18,"Kota Agung Barat"
+180619,1806,18,"Kota Agung Timur"
+180620,1806,18,Gisting
+180621,1806,18,"Gunung Alip"
+180624,1806,18,Limau
+180625,1806,18,"Bandar Negeri Semuong"
+180626,1806,18,"Air Naningan"
+180627,1806,18,Bulok
+180628,1806,18,"Klumbayan Barat"
+180701,1807,18,Sukadana
+180702,1807,18,"Labuhan Maringgai"
+180703,1807,18,Jabung
+180704,1807,18,Pekalongan
+180705,1807,18,Sekampung
+180706,1807,18,Batanghari
+180707,1807,18,"Way Jepara"
+180708,1807,18,Purbolinggo
+180709,1807,18,"Raman Utara"
+180710,1807,18,"Metro Kibang"
+180711,1807,18,"Marga Tiga"
+180712,1807,18,"Sekampung Udik"
+180713,1807,18,"Batanghari Nuban"
+180714,1807,18,"Bumi Agung"
+180715,1807,18,"Bandar Sribhawono"
+180716,1807,18,"Mataram Baru"
+180717,1807,18,Melinting
+180718,1807,18,"Gunung Pelindung"
+180719,1807,18,"Pasir Sakti"
+180720,1807,18,"Waway Karya"
+180721,1807,18,"Labuhan Ratu"
+180722,1807,18,"Braja Selebah"
+180723,1807,18,"Way Bungur"
+180724,1807,18,"Marga Sekampung"
+180801,1808,18,"Blambangan Umpu"
+180802,1808,18,Kasui
+180803,1808,18,Banjit
+180804,1808,18,Baradatu
+180805,1808,18,Bahuga
+180806,1808,18,"Pakuan Ratu"
+180807,1808,18,"Negeri Agung"
+180808,1808,18,"Way Tuba"
+180809,1808,18,"Rebang Tangkas"
+180810,1808,18,"Gunung Labuhan"
+180811,1808,18,"Negara Batin"
+180812,1808,18,"Negeri Besar"
+180813,1808,18,"Buay Bahuga"
+180814,1808,18,"Bumi Agung"
+180815,1808,18,"Umpu Semenguk"
+180901,1809,18,"Gedong Tataan"
+180902,1809,18,"Negeri Katon"
+180903,1809,18,Tegineneng
+180904,1809,18,"Way Lima"
+180905,1809,18,"Padang Cermin"
+180906,1809,18,"Punduh Pidada"
+180907,1809,18,Kedondong
+180908,1809,18,"Marga Punduh"
+180909,1809,18,"Way Khilau"
+180910,1809,18,"Teluk Pandan"
+180911,1809,18,"Way Ratai"
+181001,1810,18,Pringsewu
+181002,1810,18,"Gading Rejo"
+181003,1810,18,Ambarawa
+181004,1810,18,Pardasuka
+181005,1810,18,Pagelaran
+181006,1810,18,Banyumas
+181007,1810,18,Adiluwih
+181008,1810,18,Sukoharjo
+181009,1810,18,"Pagelaran Utara"
+181101,1811,18,Mesuji
+181102,1811,18,"Mesuji Timur"
+181103,1811,18,"Rawa Jitu Utara"
+181104,1811,18,"Way Serdang"
+181105,1811,18,"Simpang Pematang"
+181106,1811,18,"Panca Jaya"
+181107,1811,18,"Tanjung Raya"
+181201,1812,18,"Tulang Bawang Tengah"
+181202,1812,18,Tumijajar
+181203,1812,18,"Tulang Bawang Udik"
+181204,1812,18,"Gunung Terang"
+181205,1812,18,"Gunung Agung"
+181206,1812,18,"Way Kenanga"
+181207,1812,18,"Lambu Kibang"
+181208,1812,18,"Pagar Dewa"
+181209,1812,18,"Batu Putih"
+181301,1813,18,"Pesisir Tengah"
+181302,1813,18,"Pesisir Selatan"
+181303,1813,18,Lemong
+181304,1813,18,"Pesisir Utara"
+181305,1813,18,"Karya Penggawa"
+181306,1813,18,Pulaupisang
+181307,1813,18,"Way Krui"
+181308,1813,18,"Krui Selatan"
+181309,1813,18,Ngambur
+181310,1813,18,Ngaras
+181311,1813,18,Bangkunat
+187101,1871,18,Kedaton
+187102,1871,18,Sukarame
+187103,1871,18,"Tanjungkarang Barat"
+187104,1871,18,Panjang
+187105,1871,18,"Tanjungkarang Timur"
+187106,1871,18,"Tanjungkarang Pusat"
+187107,1871,18,"Telukbetung Selatan"
+187108,1871,18,"Telukbetung Barat"
+187109,1871,18,"Telukbetung Utara"
+187110,1871,18,Rajabasa
+187111,1871,18,"Tanjung Senang"
+187112,1871,18,Sukabumi
+187113,1871,18,Kemiling
+187114,1871,18,"Labuhan Ratu"
+187115,1871,18,"Way Halim"
+187116,1871,18,Langkapura
+187117,1871,18,Enggal
+187118,1871,18,Kedamaian
+187119,1871,18,"Telukbetung Timur"
+187120,1871,18,"Bumi Waras"
+187201,1872,18,"Metro Pusat"
+187202,1872,18,"Metro Utara"
+187203,1872,18,"Metro Barat"
+187204,1872,18,"Metro Timur"
+187205,1872,18,"Metro Selatan"

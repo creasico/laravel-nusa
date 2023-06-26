@@ -1,0 +1,1076 @@
+[
+    {
+        "code": 130101,
+        "regency_code": 1301,
+        "province_code": 13,
+        "name": "Pancung Soal"
+    },
+    {
+        "code": 130102,
+        "regency_code": 1301,
+        "province_code": 13,
+        "name": "Ranah Pesisir"
+    },
+    {
+        "code": 130103,
+        "regency_code": 1301,
+        "province_code": 13,
+        "name": "Lengayang"
+    },
+    {
+        "code": 130104,
+        "regency_code": 1301,
+        "province_code": 13,
+        "name": "Batang Kapas"
+    },
+    {
+        "code": 130105,
+        "regency_code": 1301,
+        "province_code": 13,
+        "name": "IV Jurai"
+    },
+    {
+        "code": 130106,
+        "regency_code": 1301,
+        "province_code": 13,
+        "name": "Bayang"
+    },
+    {
+        "code": 130107,
+        "regency_code": 1301,
+        "province_code": 13,
+        "name": "Koto XI Tarusan"
+    },
+    {
+        "code": 130108,
+        "regency_code": 1301,
+        "province_code": 13,
+        "name": "Sutera"
+    },
+    {
+        "code": 130109,
+        "regency_code": 1301,
+        "province_code": 13,
+        "name": "Linggo Sari Baganti"
+    },
+    {
+        "code": 130110,
+        "regency_code": 1301,
+        "province_code": 13,
+        "name": "Lunang"
+    },
+    {
+        "code": 130111,
+        "regency_code": 1301,
+        "province_code": 13,
+        "name": "Basa Ampek Balai Tapan"
+    },
+    {
+        "code": 130112,
+        "regency_code": 1301,
+        "province_code": 13,
+        "name": "IV Nagari Bayang Utara"
+    },
+    {
+        "code": 130113,
+        "regency_code": 1301,
+        "province_code": 13,
+        "name": "Airpura"
+    },
+    {
+        "code": 130114,
+        "regency_code": 1301,
+        "province_code": 13,
+        "name": "Ranah Ampek Hulu Tapan"
+    },
+    {
+        "code": 130115,
+        "regency_code": 1301,
+        "province_code": 13,
+        "name": "Silaut"
+    },
+    {
+        "code": 130203,
+        "regency_code": 1302,
+        "province_code": 13,
+        "name": "Pantai Cermin"
+    },
+    {
+        "code": 130204,
+        "regency_code": 1302,
+        "province_code": 13,
+        "name": "Lembah Gumanti"
+    },
+    {
+        "code": 130205,
+        "regency_code": 1302,
+        "province_code": 13,
+        "name": "Payung Sekaki"
+    },
+    {
+        "code": 130206,
+        "regency_code": 1302,
+        "province_code": 13,
+        "name": "Lembang Jaya"
+    },
+    {
+        "code": 130207,
+        "regency_code": 1302,
+        "province_code": 13,
+        "name": "Gunung Talang"
+    },
+    {
+        "code": 130208,
+        "regency_code": 1302,
+        "province_code": 13,
+        "name": "Bukit Sundi"
+    },
+    {
+        "code": 130209,
+        "regency_code": 1302,
+        "province_code": 13,
+        "name": "IX Koto Sungai Lasi"
+    },
+    {
+        "code": 130210,
+        "regency_code": 1302,
+        "province_code": 13,
+        "name": "Kubung"
+    },
+    {
+        "code": 130211,
+        "regency_code": 1302,
+        "province_code": 13,
+        "name": "X Koto Singkarak"
+    },
+    {
+        "code": 130212,
+        "regency_code": 1302,
+        "province_code": 13,
+        "name": "X Koto Diatas"
+    },
+    {
+        "code": 130213,
+        "regency_code": 1302,
+        "province_code": 13,
+        "name": "Junjung Sirih"
+    },
+    {
+        "code": 130217,
+        "regency_code": 1302,
+        "province_code": 13,
+        "name": "Hiliran Gumanti"
+    },
+    {
+        "code": 130218,
+        "regency_code": 1302,
+        "province_code": 13,
+        "name": "Tigo Lurah"
+    },
+    {
+        "code": 130219,
+        "regency_code": 1302,
+        "province_code": 13,
+        "name": "Danau Kembar"
+    },
+    {
+        "code": 130303,
+        "regency_code": 1303,
+        "province_code": 13,
+        "name": "Tanjung Gadang"
+    },
+    {
+        "code": 130304,
+        "regency_code": 1303,
+        "province_code": 13,
+        "name": "Sijunjung"
+    },
+    {
+        "code": 130305,
+        "regency_code": 1303,
+        "province_code": 13,
+        "name": "IV Nagari"
+    },
+    {
+        "code": 130306,
+        "regency_code": 1303,
+        "province_code": 13,
+        "name": "Kamang Baru"
+    },
+    {
+        "code": 130307,
+        "regency_code": 1303,
+        "province_code": 13,
+        "name": "Lubuak Tarok"
+    },
+    {
+        "code": 130308,
+        "regency_code": 1303,
+        "province_code": 13,
+        "name": "Koto VII"
+    },
+    {
+        "code": 130309,
+        "regency_code": 1303,
+        "province_code": 13,
+        "name": "Sumpur Kudus"
+    },
+    {
+        "code": 130310,
+        "regency_code": 1303,
+        "province_code": 13,
+        "name": "Kupitan"
+    },
+    {
+        "code": 130401,
+        "regency_code": 1304,
+        "province_code": 13,
+        "name": "X Koto"
+    },
+    {
+        "code": 130402,
+        "regency_code": 1304,
+        "province_code": 13,
+        "name": "Batipuh"
+    },
+    {
+        "code": 130403,
+        "regency_code": 1304,
+        "province_code": 13,
+        "name": "Rambatan"
+    },
+    {
+        "code": 130404,
+        "regency_code": 1304,
+        "province_code": 13,
+        "name": "Lima Kaum"
+    },
+    {
+        "code": 130405,
+        "regency_code": 1304,
+        "province_code": 13,
+        "name": "Tanjung Emas"
+    },
+    {
+        "code": 130406,
+        "regency_code": 1304,
+        "province_code": 13,
+        "name": "Lintau Buo"
+    },
+    {
+        "code": 130407,
+        "regency_code": 1304,
+        "province_code": 13,
+        "name": "Sungayang"
+    },
+    {
+        "code": 130408,
+        "regency_code": 1304,
+        "province_code": 13,
+        "name": "Sungai Tarab"
+    },
+    {
+        "code": 130409,
+        "regency_code": 1304,
+        "province_code": 13,
+        "name": "Pariangan"
+    },
+    {
+        "code": 130410,
+        "regency_code": 1304,
+        "province_code": 13,
+        "name": "Salimpaung"
+    },
+    {
+        "code": 130411,
+        "regency_code": 1304,
+        "province_code": 13,
+        "name": "Padang Ganting"
+    },
+    {
+        "code": 130412,
+        "regency_code": 1304,
+        "province_code": 13,
+        "name": "Tanjuang Baru"
+    },
+    {
+        "code": 130413,
+        "regency_code": 1304,
+        "province_code": 13,
+        "name": "Lintau Buo Utara"
+    },
+    {
+        "code": 130414,
+        "regency_code": 1304,
+        "province_code": 13,
+        "name": "Batipuah Selatan"
+    },
+    {
+        "code": 130501,
+        "regency_code": 1305,
+        "province_code": 13,
+        "name": "Lubuk Alung"
+    },
+    {
+        "code": 130502,
+        "regency_code": 1305,
+        "province_code": 13,
+        "name": "Batang Anai"
+    },
+    {
+        "code": 130503,
+        "regency_code": 1305,
+        "province_code": 13,
+        "name": "Nan Sabaris"
+    },
+    {
+        "code": 130504,
+        "regency_code": 1305,
+        "province_code": 13,
+        "name": "2 x 11 Enam Lingkuang"
+    },
+    {
+        "code": 130505,
+        "regency_code": 1305,
+        "province_code": 13,
+        "name": "VII Koto Sungai Sarik"
+    },
+    {
+        "code": 130506,
+        "regency_code": 1305,
+        "province_code": 13,
+        "name": "V Koto Kampung Dalam"
+    },
+    {
+        "code": 130507,
+        "regency_code": 1305,
+        "province_code": 13,
+        "name": "Sungai Garingging"
+    },
+    {
+        "code": 130508,
+        "regency_code": 1305,
+        "province_code": 13,
+        "name": "Sungai Limau"
+    },
+    {
+        "code": 130509,
+        "regency_code": 1305,
+        "province_code": 13,
+        "name": "IV Koto Aur Malintang"
+    },
+    {
+        "code": 130510,
+        "regency_code": 1305,
+        "province_code": 13,
+        "name": "Ulakan Tapakih"
+    },
+    {
+        "code": 130511,
+        "regency_code": 1305,
+        "province_code": 13,
+        "name": "Sintuak Toboh Gadang"
+    },
+    {
+        "code": 130512,
+        "regency_code": 1305,
+        "province_code": 13,
+        "name": "Padang Sago"
+    },
+    {
+        "code": 130513,
+        "regency_code": 1305,
+        "province_code": 13,
+        "name": "Batang Gasan"
+    },
+    {
+        "code": 130514,
+        "regency_code": 1305,
+        "province_code": 13,
+        "name": "V Koto Timur"
+    },
+    {
+        "code": 130515,
+        "regency_code": 1305,
+        "province_code": 13,
+        "name": "2 x 11 Kayu Tanam"
+    },
+    {
+        "code": 130516,
+        "regency_code": 1305,
+        "province_code": 13,
+        "name": "Patamuan"
+    },
+    {
+        "code": 130517,
+        "regency_code": 1305,
+        "province_code": 13,
+        "name": "Enam Lingkung"
+    },
+    {
+        "code": 130601,
+        "regency_code": 1306,
+        "province_code": 13,
+        "name": "Tanjung Mutiara"
+    },
+    {
+        "code": 130602,
+        "regency_code": 1306,
+        "province_code": 13,
+        "name": "Lubuk Basung"
+    },
+    {
+        "code": 130603,
+        "regency_code": 1306,
+        "province_code": 13,
+        "name": "Tanjung Raya"
+    },
+    {
+        "code": 130604,
+        "regency_code": 1306,
+        "province_code": 13,
+        "name": "Matur"
+    },
+    {
+        "code": 130605,
+        "regency_code": 1306,
+        "province_code": 13,
+        "name": "IV Koto"
+    },
+    {
+        "code": 130606,
+        "regency_code": 1306,
+        "province_code": 13,
+        "name": "Banuhampu"
+    },
+    {
+        "code": 130607,
+        "regency_code": 1306,
+        "province_code": 13,
+        "name": "Ampek Angkek"
+    },
+    {
+        "code": 130608,
+        "regency_code": 1306,
+        "province_code": 13,
+        "name": "Baso"
+    },
+    {
+        "code": 130609,
+        "regency_code": 1306,
+        "province_code": 13,
+        "name": "Tilatang Kamang"
+    },
+    {
+        "code": 130610,
+        "regency_code": 1306,
+        "province_code": 13,
+        "name": "Palupuh"
+    },
+    {
+        "code": 130611,
+        "regency_code": 1306,
+        "province_code": 13,
+        "name": "Pelembayan"
+    },
+    {
+        "code": 130612,
+        "regency_code": 1306,
+        "province_code": 13,
+        "name": "Sungai Pua"
+    },
+    {
+        "code": 130613,
+        "regency_code": 1306,
+        "province_code": 13,
+        "name": "Ampek Nagari"
+    },
+    {
+        "code": 130614,
+        "regency_code": 1306,
+        "province_code": 13,
+        "name": "Candung"
+    },
+    {
+        "code": 130615,
+        "regency_code": 1306,
+        "province_code": 13,
+        "name": "Kamang Magek"
+    },
+    {
+        "code": 130616,
+        "regency_code": 1306,
+        "province_code": 13,
+        "name": "Malalak"
+    },
+    {
+        "code": 130701,
+        "regency_code": 1307,
+        "province_code": 13,
+        "name": "Suliki"
+    },
+    {
+        "code": 130702,
+        "regency_code": 1307,
+        "province_code": 13,
+        "name": "Guguak"
+    },
+    {
+        "code": 130703,
+        "regency_code": 1307,
+        "province_code": 13,
+        "name": "Payakumbuh"
+    },
+    {
+        "code": 130704,
+        "regency_code": 1307,
+        "province_code": 13,
+        "name": "Luak"
+    },
+    {
+        "code": 130705,
+        "regency_code": 1307,
+        "province_code": 13,
+        "name": "Harau"
+    },
+    {
+        "code": 130706,
+        "regency_code": 1307,
+        "province_code": 13,
+        "name": "Pangkalan Koto Baru"
+    },
+    {
+        "code": 130707,
+        "regency_code": 1307,
+        "province_code": 13,
+        "name": "Kapur IX"
+    },
+    {
+        "code": 130708,
+        "regency_code": 1307,
+        "province_code": 13,
+        "name": "Gunuang Omeh"
+    },
+    {
+        "code": 130709,
+        "regency_code": 1307,
+        "province_code": 13,
+        "name": "Lareh Sago Halaban"
+    },
+    {
+        "code": 130710,
+        "regency_code": 1307,
+        "province_code": 13,
+        "name": "Situjuah Limo Nagari"
+    },
+    {
+        "code": 130711,
+        "regency_code": 1307,
+        "province_code": 13,
+        "name": "Mungka"
+    },
+    {
+        "code": 130712,
+        "regency_code": 1307,
+        "province_code": 13,
+        "name": "Bukik Barisan"
+    },
+    {
+        "code": 130713,
+        "regency_code": 1307,
+        "province_code": 13,
+        "name": "Akabiluru"
+    },
+    {
+        "code": 130804,
+        "regency_code": 1308,
+        "province_code": 13,
+        "name": "Bonjol"
+    },
+    {
+        "code": 130805,
+        "regency_code": 1308,
+        "province_code": 13,
+        "name": "Lubuk Sikaping"
+    },
+    {
+        "code": 130807,
+        "regency_code": 1308,
+        "province_code": 13,
+        "name": "Panti"
+    },
+    {
+        "code": 130808,
+        "regency_code": 1308,
+        "province_code": 13,
+        "name": "Mapat Tunggul"
+    },
+    {
+        "code": 130812,
+        "regency_code": 1308,
+        "province_code": 13,
+        "name": "Duo Koto"
+    },
+    {
+        "code": 130813,
+        "regency_code": 1308,
+        "province_code": 13,
+        "name": "Tigo Nagari"
+    },
+    {
+        "code": 130814,
+        "regency_code": 1308,
+        "province_code": 13,
+        "name": "Rao"
+    },
+    {
+        "code": 130815,
+        "regency_code": 1308,
+        "province_code": 13,
+        "name": "Mapat Tunggul Selatan"
+    },
+    {
+        "code": 130816,
+        "regency_code": 1308,
+        "province_code": 13,
+        "name": "Simpang Alahan Mati"
+    },
+    {
+        "code": 130817,
+        "regency_code": 1308,
+        "province_code": 13,
+        "name": "Padang Gelugur"
+    },
+    {
+        "code": 130818,
+        "regency_code": 1308,
+        "province_code": 13,
+        "name": "Rao Utara"
+    },
+    {
+        "code": 130819,
+        "regency_code": 1308,
+        "province_code": 13,
+        "name": "Rao Selatan"
+    },
+    {
+        "code": 130901,
+        "regency_code": 1309,
+        "province_code": 13,
+        "name": "Pagai Utara"
+    },
+    {
+        "code": 130902,
+        "regency_code": 1309,
+        "province_code": 13,
+        "name": "Sipora Selatan"
+    },
+    {
+        "code": 130903,
+        "regency_code": 1309,
+        "province_code": 13,
+        "name": "Siberut Selatan"
+    },
+    {
+        "code": 130904,
+        "regency_code": 1309,
+        "province_code": 13,
+        "name": "Siberut Utara"
+    },
+    {
+        "code": 130905,
+        "regency_code": 1309,
+        "province_code": 13,
+        "name": "Siberut Barat"
+    },
+    {
+        "code": 130906,
+        "regency_code": 1309,
+        "province_code": 13,
+        "name": "Siberut Barat Daya"
+    },
+    {
+        "code": 130907,
+        "regency_code": 1309,
+        "province_code": 13,
+        "name": "Siberut Tengah"
+    },
+    {
+        "code": 130908,
+        "regency_code": 1309,
+        "province_code": 13,
+        "name": "Sipora Utara"
+    },
+    {
+        "code": 130909,
+        "regency_code": 1309,
+        "province_code": 13,
+        "name": "Sikakap"
+    },
+    {
+        "code": 130910,
+        "regency_code": 1309,
+        "province_code": 13,
+        "name": "Pagai Selatan"
+    },
+    {
+        "code": 131001,
+        "regency_code": 1310,
+        "province_code": 13,
+        "name": "Koto Baru"
+    },
+    {
+        "code": 131002,
+        "regency_code": 1310,
+        "province_code": 13,
+        "name": "Pulau Punjung"
+    },
+    {
+        "code": 131003,
+        "regency_code": 1310,
+        "province_code": 13,
+        "name": "Sungai Rumbai"
+    },
+    {
+        "code": 131004,
+        "regency_code": 1310,
+        "province_code": 13,
+        "name": "Sitiung"
+    },
+    {
+        "code": 131005,
+        "regency_code": 1310,
+        "province_code": 13,
+        "name": "Sembilan Koto"
+    },
+    {
+        "code": 131006,
+        "regency_code": 1310,
+        "province_code": 13,
+        "name": "Timpeh"
+    },
+    {
+        "code": 131007,
+        "regency_code": 1310,
+        "province_code": 13,
+        "name": "Koto Salak"
+    },
+    {
+        "code": 131008,
+        "regency_code": 1310,
+        "province_code": 13,
+        "name": "Tiumang"
+    },
+    {
+        "code": 131009,
+        "regency_code": 1310,
+        "province_code": 13,
+        "name": "Padang Laweh"
+    },
+    {
+        "code": 131010,
+        "regency_code": 1310,
+        "province_code": 13,
+        "name": "Asam Jujuhan"
+    },
+    {
+        "code": 131011,
+        "regency_code": 1310,
+        "province_code": 13,
+        "name": "Koto Besar"
+    },
+    {
+        "code": 131101,
+        "regency_code": 1311,
+        "province_code": 13,
+        "name": "Sangir"
+    },
+    {
+        "code": 131102,
+        "regency_code": 1311,
+        "province_code": 13,
+        "name": "Sungai Pagu"
+    },
+    {
+        "code": 131103,
+        "regency_code": 1311,
+        "province_code": 13,
+        "name": "Koto Parik Gadang Diateh"
+    },
+    {
+        "code": 131104,
+        "regency_code": 1311,
+        "province_code": 13,
+        "name": "Sangir Jujuan"
+    },
+    {
+        "code": 131105,
+        "regency_code": 1311,
+        "province_code": 13,
+        "name": "Sangir Batang Hari"
+    },
+    {
+        "code": 131106,
+        "regency_code": 1311,
+        "province_code": 13,
+        "name": "Pauh Duo"
+    },
+    {
+        "code": 131107,
+        "regency_code": 1311,
+        "province_code": 13,
+        "name": "Sangir Balai Janggo"
+    },
+    {
+        "code": 131201,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Sungaiberemas"
+    },
+    {
+        "code": 131202,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Lembah Melintang"
+    },
+    {
+        "code": 131203,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Pasaman"
+    },
+    {
+        "code": 131204,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Talamau"
+    },
+    {
+        "code": 131205,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Kinali"
+    },
+    {
+        "code": 131206,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Gunungtuleh"
+    },
+    {
+        "code": 131207,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Ranah Batahan"
+    },
+    {
+        "code": 131208,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Koto Balingka"
+    },
+    {
+        "code": 131209,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Sungaiaur"
+    },
+    {
+        "code": 131210,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Luhak Nan Duo"
+    },
+    {
+        "code": 131211,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Sasak Ranah Pesisir"
+    },
+    {
+        "code": 137101,
+        "regency_code": 1371,
+        "province_code": 13,
+        "name": "Padang Selatan"
+    },
+    {
+        "code": 137102,
+        "regency_code": 1371,
+        "province_code": 13,
+        "name": "Padang Timur"
+    },
+    {
+        "code": 137103,
+        "regency_code": 1371,
+        "province_code": 13,
+        "name": "Padang Barat"
+    },
+    {
+        "code": 137104,
+        "regency_code": 1371,
+        "province_code": 13,
+        "name": "Padang Utara"
+    },
+    {
+        "code": 137105,
+        "regency_code": 1371,
+        "province_code": 13,
+        "name": "Bungus Teluk Kabung"
+    },
+    {
+        "code": 137106,
+        "regency_code": 1371,
+        "province_code": 13,
+        "name": "Lubuk Begalung"
+    },
+    {
+        "code": 137107,
+        "regency_code": 1371,
+        "province_code": 13,
+        "name": "Lubuk Kilangan"
+    },
+    {
+        "code": 137108,
+        "regency_code": 1371,
+        "province_code": 13,
+        "name": "Pauh"
+    },
+    {
+        "code": 137109,
+        "regency_code": 1371,
+        "province_code": 13,
+        "name": "Kuranji"
+    },
+    {
+        "code": 137110,
+        "regency_code": 1371,
+        "province_code": 13,
+        "name": "Nanggalo"
+    },
+    {
+        "code": 137111,
+        "regency_code": 1371,
+        "province_code": 13,
+        "name": "Koto Tangah"
+    },
+    {
+        "code": 137201,
+        "regency_code": 1372,
+        "province_code": 13,
+        "name": "Lubuk Sikarah"
+    },
+    {
+        "code": 137202,
+        "regency_code": 1372,
+        "province_code": 13,
+        "name": "Tanjung Harapan"
+    },
+    {
+        "code": 137301,
+        "regency_code": 1373,
+        "province_code": 13,
+        "name": "Lembah Segar"
+    },
+    {
+        "code": 137302,
+        "regency_code": 1373,
+        "province_code": 13,
+        "name": "Barangin"
+    },
+    {
+        "code": 137303,
+        "regency_code": 1373,
+        "province_code": 13,
+        "name": "Silungkang"
+    },
+    {
+        "code": 137304,
+        "regency_code": 1373,
+        "province_code": 13,
+        "name": "Talawi"
+    },
+    {
+        "code": 137401,
+        "regency_code": 1374,
+        "province_code": 13,
+        "name": "Padang Panjang Timur"
+    },
+    {
+        "code": 137402,
+        "regency_code": 1374,
+        "province_code": 13,
+        "name": "Padang Panjang Barat"
+    },
+    {
+        "code": 137501,
+        "regency_code": 1375,
+        "province_code": 13,
+        "name": "Guguak Panjang"
+    },
+    {
+        "code": 137502,
+        "regency_code": 1375,
+        "province_code": 13,
+        "name": "Mandiangin K. Selayan"
+    },
+    {
+        "code": 137503,
+        "regency_code": 1375,
+        "province_code": 13,
+        "name": "Aur Birugo Tigo Baleh"
+    },
+    {
+        "code": 137601,
+        "regency_code": 1376,
+        "province_code": 13,
+        "name": "Payakumbuh Barat"
+    },
+    {
+        "code": 137602,
+        "regency_code": 1376,
+        "province_code": 13,
+        "name": "Payakumbuh Utara"
+    },
+    {
+        "code": 137603,
+        "regency_code": 1376,
+        "province_code": 13,
+        "name": "Payakumbuh Timur"
+    },
+    {
+        "code": 137604,
+        "regency_code": 1376,
+        "province_code": 13,
+        "name": "Lamposi Tigo Nagori"
+    },
+    {
+        "code": 137605,
+        "regency_code": 1376,
+        "province_code": 13,
+        "name": "Payakumbuh Selatan"
+    },
+    {
+        "code": 137701,
+        "regency_code": 1377,
+        "province_code": 13,
+        "name": "Pariaman Tengah"
+    },
+    {
+        "code": 137702,
+        "regency_code": 1377,
+        "province_code": 13,
+        "name": "Pariaman Utara"
+    },
+    {
+        "code": 137703,
+        "regency_code": 1377,
+        "province_code": 13,
+        "name": "Pariaman Selatan"
+    },
+    {
+        "code": 137704,
+        "regency_code": 1377,
+        "province_code": 13,
+        "name": "Pariaman Timur"
+    }
+]

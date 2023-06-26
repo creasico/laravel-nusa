@@ -4,7 +4,7 @@
 
 # Creasi Nusa
 
-Simple library aims to provide Indonesia Administrative Region Data based on [cahyadsn/wilayah](https://github.com/cahyadsn/wilayah) that easily integrated with our laravel project.
+Simple library aims to provide Indonesia Administrative Region Data based including the coordinates and postal codes, that easily integrated with our laravel project.
 
 ## Requirements
 
@@ -19,6 +19,8 @@ I've been using [edwardsamuel/Wilayah-Administratif-Indonesia](https://github.co
 
 That's why we choose [cahyadsn/wilayah](https://github.com/cahyadsn/wilayah) it has robust and strong database in terms of legality, but its not actually a package that can be installed as dependency. By that said, it has some work to-do.
 
+We also found that [w3appdev/kodepos](https://github.com/w3appdev/kodepos) provides better database structures that can easily mapped with databases from [cahyadsn/wilayah](https://github.com/cahyadsn/wilayah) in single query.
+
 Why PHP `>=8.1` and Laravel `>=10.0`, you may ask? Because, why not?
 
 ## Installation
@@ -32,11 +34,10 @@ That's all
 ## Roadmaps
 
 - [x] Basic Models
-   - [x] Provinces
-   - [x] Regencies
+   - [x] Provinces, includes `laltitude`, `longitude` and `coordinates`
+   - [x] Regencies, includes `laltitude`, `longitude` and `coordinates`
    - [x] Districts
-   - [x] Vilages
-   - [ ] Postal Codes
+   - [x] Vilages, include `postal_code`
 - [ ] Routing
 
 ## Usage
@@ -81,15 +82,36 @@ As of now, only `connection` name and `table` names are available to customize, 
 
 ## Contributing
 
-First thing you need to do is clone repo [cahyadsn/wilayah](https://github.com/cahyadsn/wilayah) else where on your local machine, configure and import its [`db/wilayah.sql`](https://github.com/cahyadsn/wilayah/blob/0f09b8bdd0dba880064e68a79984e13b8b2b974a/db/wilayah.sql).
+1. Clone the repo and `cd` into it
 
-By default, we use the following configurations :
-- `dbname` : `cahyadsn_wilayah`
-- `dbhost` : `127.0.0.1` 
-- `dbuser` : `root`
-- `dbpass` : `secret`
+   ```sh
+   git clone --recurse-submodules git@github.com:creasico/laravel-nusa.git
+   ```
 
-If you were using different configuration you can edit [this file](https://github.com/creasico/laravel-nusa/blob/94cd261d7726b9a5cb46cdef4aa9914522a33b4a/tests/NusaTest.php#L16-L19) but please don't commit your changes.
+2. Install dependencies
+
+   ```sh
+   composer install
+   ```
+
+3. Create new database, by default we use the following configuration :
+   
+   - `dbname` : `nusantara`
+   - `dbhost` : `127.0.0.1` 
+   - `dbuser` : `root`
+   - `dbpass` : `secret`
+
+   ```sh
+   mysql -e 'create database nusantara;'
+   ```
+
+4. Last but not least, run `db:import` command
+
+   ```sh
+   composer db:import
+   ```
+
+If you were using different configuration you can edit [this file](https://github.com/creasico/laravel-nusa/blob/94cd261d7726b9a5cb46cdef4aa9914522a33b4a/tests/NusaTest.php#L16-L19) but please don't submit your changes.
 
 Once you've done with your meaningful contributions, run the following command to ensure everythings is works as expected.
 
@@ -103,6 +125,7 @@ composer test
 
 ## Credits
 - [cahyadsn/wilayah](https://github.com/cahyadsn/wilayah)
+- [w3appdev/kodepos](https://github.com/w3appdev/kodepos)
 - [edwardsamuel/Wilayah-Administratif-Indonesia](https://github.com/edwardsamuel/Wilayah-Administratif-Indonesia)
 - [laravolt/indonesia](https://github.com/laravolt/indonesia)
 

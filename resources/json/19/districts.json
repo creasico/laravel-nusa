@@ -1,0 +1,284 @@
+[
+    {
+        "code": 190101,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Sungailiat"
+    },
+    {
+        "code": 190102,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Belinyu"
+    },
+    {
+        "code": 190103,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Merawang"
+    },
+    {
+        "code": 190104,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Mendo Barat"
+    },
+    {
+        "code": 190105,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Pemali"
+    },
+    {
+        "code": 190106,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Bakam"
+    },
+    {
+        "code": 190107,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Riau Silip"
+    },
+    {
+        "code": 190108,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Puding Besar"
+    },
+    {
+        "code": 190201,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Tanjung Pandan"
+    },
+    {
+        "code": 190202,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Membalong"
+    },
+    {
+        "code": 190203,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Selat Nasik"
+    },
+    {
+        "code": 190204,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Sijuk"
+    },
+    {
+        "code": 190205,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Badau"
+    },
+    {
+        "code": 190301,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Toboali"
+    },
+    {
+        "code": 190302,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Lepar Pongok"
+    },
+    {
+        "code": 190303,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Air Gegas"
+    },
+    {
+        "code": 190304,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Simpang Rimba"
+    },
+    {
+        "code": 190305,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Payung"
+    },
+    {
+        "code": 190306,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Tukak Sadai"
+    },
+    {
+        "code": 190307,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Pulaubesar"
+    },
+    {
+        "code": 190308,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Kepulauan Pongok"
+    },
+    {
+        "code": 190401,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Koba"
+    },
+    {
+        "code": 190402,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Pangkalan Baru"
+    },
+    {
+        "code": 190403,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Sungai Selan"
+    },
+    {
+        "code": 190404,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Simpang Katis"
+    },
+    {
+        "code": 190405,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Namang"
+    },
+    {
+        "code": 190406,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Lubuk Besar"
+    },
+    {
+        "code": 190501,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Mentok"
+    },
+    {
+        "code": 190502,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Simpang Teritip"
+    },
+    {
+        "code": 190503,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Jebus"
+    },
+    {
+        "code": 190504,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Kelapa"
+    },
+    {
+        "code": 190505,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Tempilang"
+    },
+    {
+        "code": 190506,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Parittiga"
+    },
+    {
+        "code": 190601,
+        "regency_code": 1906,
+        "province_code": 19,
+        "name": "Manggar"
+    },
+    {
+        "code": 190602,
+        "regency_code": 1906,
+        "province_code": 19,
+        "name": "Gantung"
+    },
+    {
+        "code": 190603,
+        "regency_code": 1906,
+        "province_code": 19,
+        "name": "Dendang"
+    },
+    {
+        "code": 190604,
+        "regency_code": 1906,
+        "province_code": 19,
+        "name": "Kelapa Kampit"
+    },
+    {
+        "code": 190605,
+        "regency_code": 1906,
+        "province_code": 19,
+        "name": "Damar"
+    },
+    {
+        "code": 190606,
+        "regency_code": 1906,
+        "province_code": 19,
+        "name": "Simpang Renggiang"
+    },
+    {
+        "code": 190607,
+        "regency_code": 1906,
+        "province_code": 19,
+        "name": "Simpang Pesak"
+    },
+    {
+        "code": 197101,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Bukitintan"
+    },
+    {
+        "code": 197102,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Taman Sari"
+    },
+    {
+        "code": 197103,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Pangkal Balam"
+    },
+    {
+        "code": 197104,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Rangkui"
+    },
+    {
+        "code": 197105,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Gerunggang"
+    },
+    {
+        "code": 197106,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Gabek"
+    },
+    {
+        "code": 197107,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Girimaya"
+    }
+]

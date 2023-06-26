@@ -1,0 +1,710 @@
+[
+    {
+        "code": 810101,
+        "regency_code": 8101,
+        "province_code": 81,
+        "name": "Amahai"
+    },
+    {
+        "code": 810102,
+        "regency_code": 8101,
+        "province_code": 81,
+        "name": "Teon Nila Serua"
+    },
+    {
+        "code": 810106,
+        "regency_code": 8101,
+        "province_code": 81,
+        "name": "Seram Utara"
+    },
+    {
+        "code": 810109,
+        "regency_code": 8101,
+        "province_code": 81,
+        "name": "Banda"
+    },
+    {
+        "code": 810111,
+        "regency_code": 8101,
+        "province_code": 81,
+        "name": "Tehoru"
+    },
+    {
+        "code": 810112,
+        "regency_code": 8101,
+        "province_code": 81,
+        "name": "Saparua"
+    },
+    {
+        "code": 810113,
+        "regency_code": 8101,
+        "province_code": 81,
+        "name": "Pulau Haruku"
+    },
+    {
+        "code": 810114,
+        "regency_code": 8101,
+        "province_code": 81,
+        "name": "Salahutu"
+    },
+    {
+        "code": 810115,
+        "regency_code": 8101,
+        "province_code": 81,
+        "name": "Leihitu"
+    },
+    {
+        "code": 810116,
+        "regency_code": 8101,
+        "province_code": 81,
+        "name": "Nusa Laut"
+    },
+    {
+        "code": 810117,
+        "regency_code": 8101,
+        "province_code": 81,
+        "name": "Kota Masohi"
+    },
+    {
+        "code": 810120,
+        "regency_code": 8101,
+        "province_code": 81,
+        "name": "Seram Utara Barat"
+    },
+    {
+        "code": 810121,
+        "regency_code": 8101,
+        "province_code": 81,
+        "name": "Teluk Elpaputih"
+    },
+    {
+        "code": 810122,
+        "regency_code": 8101,
+        "province_code": 81,
+        "name": "Leihitu Barat"
+    },
+    {
+        "code": 810123,
+        "regency_code": 8101,
+        "province_code": 81,
+        "name": "Telutih"
+    },
+    {
+        "code": 810124,
+        "regency_code": 8101,
+        "province_code": 81,
+        "name": "Seram Utara Timur Seti"
+    },
+    {
+        "code": 810125,
+        "regency_code": 8101,
+        "province_code": 81,
+        "name": "Seram Utara Timur Kobi"
+    },
+    {
+        "code": 810126,
+        "regency_code": 8101,
+        "province_code": 81,
+        "name": "Saparua Timur"
+    },
+    {
+        "code": 810201,
+        "regency_code": 8102,
+        "province_code": 81,
+        "name": "Kei Kecil"
+    },
+    {
+        "code": 810203,
+        "regency_code": 8102,
+        "province_code": 81,
+        "name": "Kei Besar"
+    },
+    {
+        "code": 810204,
+        "regency_code": 8102,
+        "province_code": 81,
+        "name": "Kei Besar Selatan"
+    },
+    {
+        "code": 810205,
+        "regency_code": 8102,
+        "province_code": 81,
+        "name": "Kei Besar Utara Timur"
+    },
+    {
+        "code": 810213,
+        "regency_code": 8102,
+        "province_code": 81,
+        "name": "Kei Kecil Timur"
+    },
+    {
+        "code": 810214,
+        "regency_code": 8102,
+        "province_code": 81,
+        "name": "Kei Kecil Barat"
+    },
+    {
+        "code": 810215,
+        "regency_code": 8102,
+        "province_code": 81,
+        "name": "Manyeuw"
+    },
+    {
+        "code": 810216,
+        "regency_code": 8102,
+        "province_code": 81,
+        "name": "Hoat Sorbay"
+    },
+    {
+        "code": 810217,
+        "regency_code": 8102,
+        "province_code": 81,
+        "name": "Kei Besar Utara Barat"
+    },
+    {
+        "code": 810218,
+        "regency_code": 8102,
+        "province_code": 81,
+        "name": "Kei Besar Selatan Barat"
+    },
+    {
+        "code": 810219,
+        "regency_code": 8102,
+        "province_code": 81,
+        "name": "Kei Kecil Timur Selatan"
+    },
+    {
+        "code": 810301,
+        "regency_code": 8103,
+        "province_code": 81,
+        "name": "Tanimbar Selatan"
+    },
+    {
+        "code": 810302,
+        "regency_code": 8103,
+        "province_code": 81,
+        "name": "Selaru"
+    },
+    {
+        "code": 810303,
+        "regency_code": 8103,
+        "province_code": 81,
+        "name": "Wer Tamrian"
+    },
+    {
+        "code": 810304,
+        "regency_code": 8103,
+        "province_code": 81,
+        "name": "Wer Maktian"
+    },
+    {
+        "code": 810305,
+        "regency_code": 8103,
+        "province_code": 81,
+        "name": "Tanimbar Utara"
+    },
+    {
+        "code": 810306,
+        "regency_code": 8103,
+        "province_code": 81,
+        "name": "Yaru"
+    },
+    {
+        "code": 810307,
+        "regency_code": 8103,
+        "province_code": 81,
+        "name": "Wuar Labobar"
+    },
+    {
+        "code": 810308,
+        "regency_code": 8103,
+        "province_code": 81,
+        "name": "Kormomolin"
+    },
+    {
+        "code": 810309,
+        "regency_code": 8103,
+        "province_code": 81,
+        "name": "Nirunmas"
+    },
+    {
+        "code": 810318,
+        "regency_code": 8103,
+        "province_code": 81,
+        "name": "Molu Maru"
+    },
+    {
+        "code": 810401,
+        "regency_code": 8104,
+        "province_code": 81,
+        "name": "Namlea"
+    },
+    {
+        "code": 810402,
+        "regency_code": 8104,
+        "province_code": 81,
+        "name": "Air Buaya"
+    },
+    {
+        "code": 810403,
+        "regency_code": 8104,
+        "province_code": 81,
+        "name": "Waeapo"
+    },
+    {
+        "code": 810406,
+        "regency_code": 8104,
+        "province_code": 81,
+        "name": "Waplau"
+    },
+    {
+        "code": 810410,
+        "regency_code": 8104,
+        "province_code": 81,
+        "name": "Batabual"
+    },
+    {
+        "code": 810411,
+        "regency_code": 8104,
+        "province_code": 81,
+        "name": "Lolong Guba"
+    },
+    {
+        "code": 810412,
+        "regency_code": 8104,
+        "province_code": 81,
+        "name": "Waelata"
+    },
+    {
+        "code": 810413,
+        "regency_code": 8104,
+        "province_code": 81,
+        "name": "Fena Leisela"
+    },
+    {
+        "code": 810414,
+        "regency_code": 8104,
+        "province_code": 81,
+        "name": "Teluk Kaiely"
+    },
+    {
+        "code": 810415,
+        "regency_code": 8104,
+        "province_code": 81,
+        "name": "Lilialy"
+    },
+    {
+        "code": 810501,
+        "regency_code": 8105,
+        "province_code": 81,
+        "name": "Bula"
+    },
+    {
+        "code": 810502,
+        "regency_code": 8105,
+        "province_code": 81,
+        "name": "Seram Timur"
+    },
+    {
+        "code": 810503,
+        "regency_code": 8105,
+        "province_code": 81,
+        "name": "Werinama"
+    },
+    {
+        "code": 810504,
+        "regency_code": 8105,
+        "province_code": 81,
+        "name": "Pulau Gorom"
+    },
+    {
+        "code": 810505,
+        "regency_code": 8105,
+        "province_code": 81,
+        "name": "Wakate"
+    },
+    {
+        "code": 810506,
+        "regency_code": 8105,
+        "province_code": 81,
+        "name": "Tutuk Tolu"
+    },
+    {
+        "code": 810507,
+        "regency_code": 8105,
+        "province_code": 81,
+        "name": "Siwalalat"
+    },
+    {
+        "code": 810508,
+        "regency_code": 8105,
+        "province_code": 81,
+        "name": "Kilmury"
+    },
+    {
+        "code": 810509,
+        "regency_code": 8105,
+        "province_code": 81,
+        "name": "Pulau Panjang"
+    },
+    {
+        "code": 810510,
+        "regency_code": 8105,
+        "province_code": 81,
+        "name": "Teor"
+    },
+    {
+        "code": 810511,
+        "regency_code": 8105,
+        "province_code": 81,
+        "name": "Gorom Timur"
+    },
+    {
+        "code": 810512,
+        "regency_code": 8105,
+        "province_code": 81,
+        "name": "Bula Barat"
+    },
+    {
+        "code": 810513,
+        "regency_code": 8105,
+        "province_code": 81,
+        "name": "Kian Darat"
+    },
+    {
+        "code": 810514,
+        "regency_code": 8105,
+        "province_code": 81,
+        "name": "Siritaun Wida Timur"
+    },
+    {
+        "code": 810515,
+        "regency_code": 8105,
+        "province_code": 81,
+        "name": "Teluk Waru"
+    },
+    {
+        "code": 810601,
+        "regency_code": 8106,
+        "province_code": 81,
+        "name": "Kairatu"
+    },
+    {
+        "code": 810602,
+        "regency_code": 8106,
+        "province_code": 81,
+        "name": "Seram Barat"
+    },
+    {
+        "code": 810603,
+        "regency_code": 8106,
+        "province_code": 81,
+        "name": "Taniwel"
+    },
+    {
+        "code": 810604,
+        "regency_code": 8106,
+        "province_code": 81,
+        "name": "Huamual Belakang"
+    },
+    {
+        "code": 810605,
+        "regency_code": 8106,
+        "province_code": 81,
+        "name": "Amalatu"
+    },
+    {
+        "code": 810606,
+        "regency_code": 8106,
+        "province_code": 81,
+        "name": "Inamosol"
+    },
+    {
+        "code": 810607,
+        "regency_code": 8106,
+        "province_code": 81,
+        "name": "Kairatu Barat"
+    },
+    {
+        "code": 810608,
+        "regency_code": 8106,
+        "province_code": 81,
+        "name": "Huamual"
+    },
+    {
+        "code": 810609,
+        "regency_code": 8106,
+        "province_code": 81,
+        "name": "Kepulauan Manipa"
+    },
+    {
+        "code": 810610,
+        "regency_code": 8106,
+        "province_code": 81,
+        "name": "Taniwel Timur"
+    },
+    {
+        "code": 810611,
+        "regency_code": 8106,
+        "province_code": 81,
+        "name": "Elpaputih"
+    },
+    {
+        "code": 810701,
+        "regency_code": 8107,
+        "province_code": 81,
+        "name": "Pulau-Pulau Aru"
+    },
+    {
+        "code": 810702,
+        "regency_code": 8107,
+        "province_code": 81,
+        "name": "Aru Selatan"
+    },
+    {
+        "code": 810703,
+        "regency_code": 8107,
+        "province_code": 81,
+        "name": "Aru Tengah"
+    },
+    {
+        "code": 810704,
+        "regency_code": 8107,
+        "province_code": 81,
+        "name": "Aru Utara"
+    },
+    {
+        "code": 810705,
+        "regency_code": 8107,
+        "province_code": 81,
+        "name": "Aru Utara Timur Batuley"
+    },
+    {
+        "code": 810706,
+        "regency_code": 8107,
+        "province_code": 81,
+        "name": "Sir-Sir"
+    },
+    {
+        "code": 810707,
+        "regency_code": 8107,
+        "province_code": 81,
+        "name": "Aru Tengah Timur"
+    },
+    {
+        "code": 810708,
+        "regency_code": 8107,
+        "province_code": 81,
+        "name": "Aru Tengah Selatan"
+    },
+    {
+        "code": 810709,
+        "regency_code": 8107,
+        "province_code": 81,
+        "name": "Aru Selatan Timur"
+    },
+    {
+        "code": 810710,
+        "regency_code": 8107,
+        "province_code": 81,
+        "name": "Aru Selatan Utara"
+    },
+    {
+        "code": 810801,
+        "regency_code": 8108,
+        "province_code": 81,
+        "name": "Moa Lakor"
+    },
+    {
+        "code": 810802,
+        "regency_code": 8108,
+        "province_code": 81,
+        "name": "Damer"
+    },
+    {
+        "code": 810803,
+        "regency_code": 8108,
+        "province_code": 81,
+        "name": "Mndona Hiera"
+    },
+    {
+        "code": 810804,
+        "regency_code": 8108,
+        "province_code": 81,
+        "name": "Pulau-Pulau Babar"
+    },
+    {
+        "code": 810805,
+        "regency_code": 8108,
+        "province_code": 81,
+        "name": "Pulau-pulau Babar Timur"
+    },
+    {
+        "code": 810806,
+        "regency_code": 8108,
+        "province_code": 81,
+        "name": "Wetar"
+    },
+    {
+        "code": 810807,
+        "regency_code": 8108,
+        "province_code": 81,
+        "name": "Pulau-pulau Terselatan"
+    },
+    {
+        "code": 810808,
+        "regency_code": 8108,
+        "province_code": 81,
+        "name": "Pulau Leti"
+    },
+    {
+        "code": 810809,
+        "regency_code": 8108,
+        "province_code": 81,
+        "name": "Pulau Masela"
+    },
+    {
+        "code": 810810,
+        "regency_code": 8108,
+        "province_code": 81,
+        "name": "Dawelor Dawera"
+    },
+    {
+        "code": 810811,
+        "regency_code": 8108,
+        "province_code": 81,
+        "name": "Pulau Wetang"
+    },
+    {
+        "code": 810812,
+        "regency_code": 8108,
+        "province_code": 81,
+        "name": "Pulau Lakor"
+    },
+    {
+        "code": 810813,
+        "regency_code": 8108,
+        "province_code": 81,
+        "name": "Wetar Utara"
+    },
+    {
+        "code": 810814,
+        "regency_code": 8108,
+        "province_code": 81,
+        "name": "Wetar Barat"
+    },
+    {
+        "code": 810815,
+        "regency_code": 8108,
+        "province_code": 81,
+        "name": "Wetar Timur"
+    },
+    {
+        "code": 810816,
+        "regency_code": 8108,
+        "province_code": 81,
+        "name": "Kepulauan Romang"
+    },
+    {
+        "code": 810817,
+        "regency_code": 8108,
+        "province_code": 81,
+        "name": "Kisar Utara"
+    },
+    {
+        "code": 810901,
+        "regency_code": 8109,
+        "province_code": 81,
+        "name": "Namrole"
+    },
+    {
+        "code": 810902,
+        "regency_code": 8109,
+        "province_code": 81,
+        "name": "Waesama"
+    },
+    {
+        "code": 810903,
+        "regency_code": 8109,
+        "province_code": 81,
+        "name": "Ambalau"
+    },
+    {
+        "code": 810904,
+        "regency_code": 8109,
+        "province_code": 81,
+        "name": "Kepala Madan"
+    },
+    {
+        "code": 810905,
+        "regency_code": 8109,
+        "province_code": 81,
+        "name": "Leksula"
+    },
+    {
+        "code": 810906,
+        "regency_code": 8109,
+        "province_code": 81,
+        "name": "Fena Fafan"
+    },
+    {
+        "code": 817101,
+        "regency_code": 8171,
+        "province_code": 81,
+        "name": "Nusaniwe"
+    },
+    {
+        "code": 817102,
+        "regency_code": 8171,
+        "province_code": 81,
+        "name": "Sirimau"
+    },
+    {
+        "code": 817103,
+        "regency_code": 8171,
+        "province_code": 81,
+        "name": "Baguala"
+    },
+    {
+        "code": 817104,
+        "regency_code": 8171,
+        "province_code": 81,
+        "name": "Teluk Ambon"
+    },
+    {
+        "code": 817105,
+        "regency_code": 8171,
+        "province_code": 81,
+        "name": "Leitimur Selatan"
+    },
+    {
+        "code": 817201,
+        "regency_code": 8172,
+        "province_code": 81,
+        "name": "Pulau Dullah Utara"
+    },
+    {
+        "code": 817202,
+        "regency_code": 8172,
+        "province_code": 81,
+        "name": "Pulau Dullah Selatan"
+    },
+    {
+        "code": 817203,
+        "regency_code": 8172,
+        "province_code": 81,
+        "name": "Tayando Tam"
+    },
+    {
+        "code": 817204,
+        "regency_code": 8172,
+        "province_code": 81,
+        "name": "Pulau-Pulau Kur"
+    },
+    {
+        "code": 817205,
+        "regency_code": 8172,
+        "province_code": 81,
+        "name": "Kur Selatan"
+    }
+]

@@ -1,0 +1,710 @@
+[
+    {
+        "code": 820101,
+        "regency_code": 8201,
+        "province_code": 82,
+        "name": "Jailolo"
+    },
+    {
+        "code": 820102,
+        "regency_code": 8201,
+        "province_code": 82,
+        "name": "Loloda"
+    },
+    {
+        "code": 820103,
+        "regency_code": 8201,
+        "province_code": 82,
+        "name": "Ibu"
+    },
+    {
+        "code": 820104,
+        "regency_code": 8201,
+        "province_code": 82,
+        "name": "Sahu"
+    },
+    {
+        "code": 820105,
+        "regency_code": 8201,
+        "province_code": 82,
+        "name": "Jailolo Selatan"
+    },
+    {
+        "code": 820107,
+        "regency_code": 8201,
+        "province_code": 82,
+        "name": "Ibu Utara"
+    },
+    {
+        "code": 820108,
+        "regency_code": 8201,
+        "province_code": 82,
+        "name": "Ibu Selatan"
+    },
+    {
+        "code": 820109,
+        "regency_code": 8201,
+        "province_code": 82,
+        "name": "Sahu Timur"
+    },
+    {
+        "code": 820110,
+        "regency_code": 8201,
+        "province_code": 82,
+        "name": "Loloda Tengah"
+    },
+    {
+        "code": 820201,
+        "regency_code": 8202,
+        "province_code": 82,
+        "name": "Weda"
+    },
+    {
+        "code": 820202,
+        "regency_code": 8202,
+        "province_code": 82,
+        "name": "Patani"
+    },
+    {
+        "code": 820203,
+        "regency_code": 8202,
+        "province_code": 82,
+        "name": "Pulau Gebe"
+    },
+    {
+        "code": 820204,
+        "regency_code": 8202,
+        "province_code": 82,
+        "name": "Weda Utara"
+    },
+    {
+        "code": 820205,
+        "regency_code": 8202,
+        "province_code": 82,
+        "name": "Weda Selatan"
+    },
+    {
+        "code": 820206,
+        "regency_code": 8202,
+        "province_code": 82,
+        "name": "Patani Utara"
+    },
+    {
+        "code": 820207,
+        "regency_code": 8202,
+        "province_code": 82,
+        "name": "Weda Tengah"
+    },
+    {
+        "code": 820208,
+        "regency_code": 8202,
+        "province_code": 82,
+        "name": "Patani Barat"
+    },
+    {
+        "code": 820209,
+        "regency_code": 8202,
+        "province_code": 82,
+        "name": "Weda Timur"
+    },
+    {
+        "code": 820210,
+        "regency_code": 8202,
+        "province_code": 82,
+        "name": "Patani Timur"
+    },
+    {
+        "code": 820304,
+        "regency_code": 8203,
+        "province_code": 82,
+        "name": "Galela"
+    },
+    {
+        "code": 820305,
+        "regency_code": 8203,
+        "province_code": 82,
+        "name": "Tobelo"
+    },
+    {
+        "code": 820306,
+        "regency_code": 8203,
+        "province_code": 82,
+        "name": "Tobelo Selatan"
+    },
+    {
+        "code": 820307,
+        "regency_code": 8203,
+        "province_code": 82,
+        "name": "Kao"
+    },
+    {
+        "code": 820308,
+        "regency_code": 8203,
+        "province_code": 82,
+        "name": "Malifut"
+    },
+    {
+        "code": 820309,
+        "regency_code": 8203,
+        "province_code": 82,
+        "name": "Loloda Utara"
+    },
+    {
+        "code": 820310,
+        "regency_code": 8203,
+        "province_code": 82,
+        "name": "Tobelo Utara"
+    },
+    {
+        "code": 820311,
+        "regency_code": 8203,
+        "province_code": 82,
+        "name": "Tobelo Tengah"
+    },
+    {
+        "code": 820312,
+        "regency_code": 8203,
+        "province_code": 82,
+        "name": "Tobelo Timur"
+    },
+    {
+        "code": 820313,
+        "regency_code": 8203,
+        "province_code": 82,
+        "name": "Tobelo Barat"
+    },
+    {
+        "code": 820314,
+        "regency_code": 8203,
+        "province_code": 82,
+        "name": "Galela Barat"
+    },
+    {
+        "code": 820315,
+        "regency_code": 8203,
+        "province_code": 82,
+        "name": "Galela Utara"
+    },
+    {
+        "code": 820316,
+        "regency_code": 8203,
+        "province_code": 82,
+        "name": "Galela Selatan"
+    },
+    {
+        "code": 820319,
+        "regency_code": 8203,
+        "province_code": 82,
+        "name": "Loloda Kepulauan"
+    },
+    {
+        "code": 820320,
+        "regency_code": 8203,
+        "province_code": 82,
+        "name": "Kao Utara"
+    },
+    {
+        "code": 820321,
+        "regency_code": 8203,
+        "province_code": 82,
+        "name": "Kao Barat"
+    },
+    {
+        "code": 820322,
+        "regency_code": 8203,
+        "province_code": 82,
+        "name": "Kao Teluk"
+    },
+    {
+        "code": 820401,
+        "regency_code": 8204,
+        "province_code": 82,
+        "name": "Pulau Makian"
+    },
+    {
+        "code": 820402,
+        "regency_code": 8204,
+        "province_code": 82,
+        "name": "Kayoa"
+    },
+    {
+        "code": 820403,
+        "regency_code": 8204,
+        "province_code": 82,
+        "name": "Gane Timur"
+    },
+    {
+        "code": 820404,
+        "regency_code": 8204,
+        "province_code": 82,
+        "name": "Gane Barat"
+    },
+    {
+        "code": 820405,
+        "regency_code": 8204,
+        "province_code": 82,
+        "name": "Obi Selatan"
+    },
+    {
+        "code": 820406,
+        "regency_code": 8204,
+        "province_code": 82,
+        "name": "Obi"
+    },
+    {
+        "code": 820407,
+        "regency_code": 8204,
+        "province_code": 82,
+        "name": "Bacan Timur"
+    },
+    {
+        "code": 820408,
+        "regency_code": 8204,
+        "province_code": 82,
+        "name": "Bacan"
+    },
+    {
+        "code": 820409,
+        "regency_code": 8204,
+        "province_code": 82,
+        "name": "Bacan Barat"
+    },
+    {
+        "code": 820410,
+        "regency_code": 8204,
+        "province_code": 82,
+        "name": "Makian Barat"
+    },
+    {
+        "code": 820411,
+        "regency_code": 8204,
+        "province_code": 82,
+        "name": "Kayoa Barat"
+    },
+    {
+        "code": 820412,
+        "regency_code": 8204,
+        "province_code": 82,
+        "name": "Kayoa Selatan"
+    },
+    {
+        "code": 820413,
+        "regency_code": 8204,
+        "province_code": 82,
+        "name": "Kayoa Utara"
+    },
+    {
+        "code": 820414,
+        "regency_code": 8204,
+        "province_code": 82,
+        "name": "Bacan Barat Utara"
+    },
+    {
+        "code": 820415,
+        "regency_code": 8204,
+        "province_code": 82,
+        "name": "Kasiruta Barat"
+    },
+    {
+        "code": 820416,
+        "regency_code": 8204,
+        "province_code": 82,
+        "name": "Kasiruta Timur"
+    },
+    {
+        "code": 820417,
+        "regency_code": 8204,
+        "province_code": 82,
+        "name": "Bacan Selatan"
+    },
+    {
+        "code": 820418,
+        "regency_code": 8204,
+        "province_code": 82,
+        "name": "Kepulauan Botanglomang"
+    },
+    {
+        "code": 820419,
+        "regency_code": 8204,
+        "province_code": 82,
+        "name": "Mandioli Selatan"
+    },
+    {
+        "code": 820420,
+        "regency_code": 8204,
+        "province_code": 82,
+        "name": "Mandioli Utara"
+    },
+    {
+        "code": 820421,
+        "regency_code": 8204,
+        "province_code": 82,
+        "name": "Bacan Timur Selatan"
+    },
+    {
+        "code": 820422,
+        "regency_code": 8204,
+        "province_code": 82,
+        "name": "Bacan Timur Tengah"
+    },
+    {
+        "code": 820423,
+        "regency_code": 8204,
+        "province_code": 82,
+        "name": "Gane Barat Selatan"
+    },
+    {
+        "code": 820424,
+        "regency_code": 8204,
+        "province_code": 82,
+        "name": "Gane Barat Utara"
+    },
+    {
+        "code": 820425,
+        "regency_code": 8204,
+        "province_code": 82,
+        "name": "Kepulauan Joronga"
+    },
+    {
+        "code": 820426,
+        "regency_code": 8204,
+        "province_code": 82,
+        "name": "Gane Timur Selatan"
+    },
+    {
+        "code": 820427,
+        "regency_code": 8204,
+        "province_code": 82,
+        "name": "Gane Timur Tengah"
+    },
+    {
+        "code": 820428,
+        "regency_code": 8204,
+        "province_code": 82,
+        "name": "Obi Barat"
+    },
+    {
+        "code": 820429,
+        "regency_code": 8204,
+        "province_code": 82,
+        "name": "Obi Timur"
+    },
+    {
+        "code": 820430,
+        "regency_code": 8204,
+        "province_code": 82,
+        "name": "Obi Utara"
+    },
+    {
+        "code": 820501,
+        "regency_code": 8205,
+        "province_code": 82,
+        "name": "Mangoli Timur"
+    },
+    {
+        "code": 820502,
+        "regency_code": 8205,
+        "province_code": 82,
+        "name": "Sanana"
+    },
+    {
+        "code": 820503,
+        "regency_code": 8205,
+        "province_code": 82,
+        "name": "Sulabesi Barat"
+    },
+    {
+        "code": 820506,
+        "regency_code": 8205,
+        "province_code": 82,
+        "name": "Mangoli Barat"
+    },
+    {
+        "code": 820507,
+        "regency_code": 8205,
+        "province_code": 82,
+        "name": "Sulabesi Tengah"
+    },
+    {
+        "code": 820508,
+        "regency_code": 8205,
+        "province_code": 82,
+        "name": "Sulabesi Timur"
+    },
+    {
+        "code": 820509,
+        "regency_code": 8205,
+        "province_code": 82,
+        "name": "Sulabesi Selatan"
+    },
+    {
+        "code": 820510,
+        "regency_code": 8205,
+        "province_code": 82,
+        "name": "Mangoli Utara Timur"
+    },
+    {
+        "code": 820511,
+        "regency_code": 8205,
+        "province_code": 82,
+        "name": "Mangoli Tengah"
+    },
+    {
+        "code": 820512,
+        "regency_code": 8205,
+        "province_code": 82,
+        "name": "Mangoli Selatan"
+    },
+    {
+        "code": 820513,
+        "regency_code": 8205,
+        "province_code": 82,
+        "name": "Mangoli Utara"
+    },
+    {
+        "code": 820518,
+        "regency_code": 8205,
+        "province_code": 82,
+        "name": "Sanana Utara"
+    },
+    {
+        "code": 820601,
+        "regency_code": 8206,
+        "province_code": 82,
+        "name": "Wasile"
+    },
+    {
+        "code": 820602,
+        "regency_code": 8206,
+        "province_code": 82,
+        "name": "Maba"
+    },
+    {
+        "code": 820603,
+        "regency_code": 8206,
+        "province_code": 82,
+        "name": "Maba Selatan"
+    },
+    {
+        "code": 820604,
+        "regency_code": 8206,
+        "province_code": 82,
+        "name": "Wasile Selatan"
+    },
+    {
+        "code": 820605,
+        "regency_code": 8206,
+        "province_code": 82,
+        "name": "Wasile Tengah"
+    },
+    {
+        "code": 820606,
+        "regency_code": 8206,
+        "province_code": 82,
+        "name": "Wasile Utara"
+    },
+    {
+        "code": 820607,
+        "regency_code": 8206,
+        "province_code": 82,
+        "name": "Wasile Timur"
+    },
+    {
+        "code": 820608,
+        "regency_code": 8206,
+        "province_code": 82,
+        "name": "Maba Tengah"
+    },
+    {
+        "code": 820609,
+        "regency_code": 8206,
+        "province_code": 82,
+        "name": "Maba Utara"
+    },
+    {
+        "code": 820610,
+        "regency_code": 8206,
+        "province_code": 82,
+        "name": "Kota Maba"
+    },
+    {
+        "code": 820701,
+        "regency_code": 8207,
+        "province_code": 82,
+        "name": "Morotai Selatan"
+    },
+    {
+        "code": 820702,
+        "regency_code": 8207,
+        "province_code": 82,
+        "name": "Morotai Selatan Barat"
+    },
+    {
+        "code": 820703,
+        "regency_code": 8207,
+        "province_code": 82,
+        "name": "Morotai Jaya"
+    },
+    {
+        "code": 820704,
+        "regency_code": 8207,
+        "province_code": 82,
+        "name": "Morotai Utara"
+    },
+    {
+        "code": 820705,
+        "regency_code": 8207,
+        "province_code": 82,
+        "name": "Morotai Timur"
+    },
+    {
+        "code": 820706,
+        "regency_code": 8207,
+        "province_code": 82,
+        "name": "Pulau Rao"
+    },
+    {
+        "code": 820801,
+        "regency_code": 8208,
+        "province_code": 82,
+        "name": "Taliabu Barat"
+    },
+    {
+        "code": 820802,
+        "regency_code": 8208,
+        "province_code": 82,
+        "name": "Taliabu Barat Laut"
+    },
+    {
+        "code": 820803,
+        "regency_code": 8208,
+        "province_code": 82,
+        "name": "Lede"
+    },
+    {
+        "code": 820804,
+        "regency_code": 8208,
+        "province_code": 82,
+        "name": "Taliabu Utara"
+    },
+    {
+        "code": 820805,
+        "regency_code": 8208,
+        "province_code": 82,
+        "name": "Taliabu Timur"
+    },
+    {
+        "code": 820806,
+        "regency_code": 8208,
+        "province_code": 82,
+        "name": "Taliabu Timur Selatan"
+    },
+    {
+        "code": 820807,
+        "regency_code": 8208,
+        "province_code": 82,
+        "name": "Taliabu Selatan"
+    },
+    {
+        "code": 820808,
+        "regency_code": 8208,
+        "province_code": 82,
+        "name": "Tabona"
+    },
+    {
+        "code": 827101,
+        "regency_code": 8271,
+        "province_code": 82,
+        "name": "Pulau Ternate"
+    },
+    {
+        "code": 827102,
+        "regency_code": 8271,
+        "province_code": 82,
+        "name": "Kota Ternate Selatan"
+    },
+    {
+        "code": 827103,
+        "regency_code": 8271,
+        "province_code": 82,
+        "name": "Kota Ternate Utara"
+    },
+    {
+        "code": 827104,
+        "regency_code": 8271,
+        "province_code": 82,
+        "name": "Moti"
+    },
+    {
+        "code": 827105,
+        "regency_code": 8271,
+        "province_code": 82,
+        "name": "Pulau Batang Dua"
+    },
+    {
+        "code": 827106,
+        "regency_code": 8271,
+        "province_code": 82,
+        "name": "Kota Ternate Tengah"
+    },
+    {
+        "code": 827107,
+        "regency_code": 8271,
+        "province_code": 82,
+        "name": "Pulau Hiri"
+    },
+    {
+        "code": 827108,
+        "regency_code": 8271,
+        "province_code": 82,
+        "name": "Ternate Barat"
+    },
+    {
+        "code": 827201,
+        "regency_code": 8272,
+        "province_code": 82,
+        "name": "Tidore"
+    },
+    {
+        "code": 827202,
+        "regency_code": 8272,
+        "province_code": 82,
+        "name": "Oba Utara"
+    },
+    {
+        "code": 827203,
+        "regency_code": 8272,
+        "province_code": 82,
+        "name": "Oba"
+    },
+    {
+        "code": 827204,
+        "regency_code": 8272,
+        "province_code": 82,
+        "name": "Tidore Selatan"
+    },
+    {
+        "code": 827205,
+        "regency_code": 8272,
+        "province_code": 82,
+        "name": "Tidore Utara"
+    },
+    {
+        "code": 827206,
+        "regency_code": 8272,
+        "province_code": 82,
+        "name": "Oba Tengah"
+    },
+    {
+        "code": 827207,
+        "regency_code": 8272,
+        "province_code": 82,
+        "name": "Oba Selatan"
+    },
+    {
+        "code": 827208,
+        "regency_code": 8272,
+        "province_code": 82,
+        "name": "Tidore Timur"
+    }
+]

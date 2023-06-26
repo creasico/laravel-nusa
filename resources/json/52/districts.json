@@ -1,0 +1,704 @@
+[
+    {
+        "code": 520101,
+        "regency_code": 5201,
+        "province_code": 52,
+        "name": "Gerung"
+    },
+    {
+        "code": 520102,
+        "regency_code": 5201,
+        "province_code": 52,
+        "name": "Kediri"
+    },
+    {
+        "code": 520103,
+        "regency_code": 5201,
+        "province_code": 52,
+        "name": "Narmada"
+    },
+    {
+        "code": 520107,
+        "regency_code": 5201,
+        "province_code": 52,
+        "name": "Sekotong"
+    },
+    {
+        "code": 520108,
+        "regency_code": 5201,
+        "province_code": 52,
+        "name": "Labuapi"
+    },
+    {
+        "code": 520109,
+        "regency_code": 5201,
+        "province_code": 52,
+        "name": "Gunungsari"
+    },
+    {
+        "code": 520112,
+        "regency_code": 5201,
+        "province_code": 52,
+        "name": "Lingsar"
+    },
+    {
+        "code": 520113,
+        "regency_code": 5201,
+        "province_code": 52,
+        "name": "Lembar"
+    },
+    {
+        "code": 520114,
+        "regency_code": 5201,
+        "province_code": 52,
+        "name": "Batu Layar"
+    },
+    {
+        "code": 520115,
+        "regency_code": 5201,
+        "province_code": 52,
+        "name": "Kuripan"
+    },
+    {
+        "code": 520201,
+        "regency_code": 5202,
+        "province_code": 52,
+        "name": "Praya"
+    },
+    {
+        "code": 520202,
+        "regency_code": 5202,
+        "province_code": 52,
+        "name": "Jonggat"
+    },
+    {
+        "code": 520203,
+        "regency_code": 5202,
+        "province_code": 52,
+        "name": "Batukliang"
+    },
+    {
+        "code": 520204,
+        "regency_code": 5202,
+        "province_code": 52,
+        "name": "Pujut"
+    },
+    {
+        "code": 520205,
+        "regency_code": 5202,
+        "province_code": 52,
+        "name": "Praya Barat"
+    },
+    {
+        "code": 520206,
+        "regency_code": 5202,
+        "province_code": 52,
+        "name": "Praya Timur"
+    },
+    {
+        "code": 520207,
+        "regency_code": 5202,
+        "province_code": 52,
+        "name": "Janapria"
+    },
+    {
+        "code": 520208,
+        "regency_code": 5202,
+        "province_code": 52,
+        "name": "Pringgarata"
+    },
+    {
+        "code": 520209,
+        "regency_code": 5202,
+        "province_code": 52,
+        "name": "Kopang"
+    },
+    {
+        "code": 520210,
+        "regency_code": 5202,
+        "province_code": 52,
+        "name": "Praya Tengah"
+    },
+    {
+        "code": 520211,
+        "regency_code": 5202,
+        "province_code": 52,
+        "name": "Praya Barat Daya"
+    },
+    {
+        "code": 520212,
+        "regency_code": 5202,
+        "province_code": 52,
+        "name": "Batukliang Utara"
+    },
+    {
+        "code": 520301,
+        "regency_code": 5203,
+        "province_code": 52,
+        "name": "Keruak"
+    },
+    {
+        "code": 520302,
+        "regency_code": 5203,
+        "province_code": 52,
+        "name": "Sakra"
+    },
+    {
+        "code": 520303,
+        "regency_code": 5203,
+        "province_code": 52,
+        "name": "Terara"
+    },
+    {
+        "code": 520304,
+        "regency_code": 5203,
+        "province_code": 52,
+        "name": "Sikur"
+    },
+    {
+        "code": 520305,
+        "regency_code": 5203,
+        "province_code": 52,
+        "name": "Masbagik"
+    },
+    {
+        "code": 520306,
+        "regency_code": 5203,
+        "province_code": 52,
+        "name": "Sukamulia"
+    },
+    {
+        "code": 520307,
+        "regency_code": 5203,
+        "province_code": 52,
+        "name": "Selong"
+    },
+    {
+        "code": 520308,
+        "regency_code": 5203,
+        "province_code": 52,
+        "name": "Pringgabaya"
+    },
+    {
+        "code": 520309,
+        "regency_code": 5203,
+        "province_code": 52,
+        "name": "Aikmel"
+    },
+    {
+        "code": 520310,
+        "regency_code": 5203,
+        "province_code": 52,
+        "name": "Sambelia"
+    },
+    {
+        "code": 520311,
+        "regency_code": 5203,
+        "province_code": 52,
+        "name": "Montong Gading"
+    },
+    {
+        "code": 520312,
+        "regency_code": 5203,
+        "province_code": 52,
+        "name": "Pringgasela"
+    },
+    {
+        "code": 520313,
+        "regency_code": 5203,
+        "province_code": 52,
+        "name": "Suralaga"
+    },
+    {
+        "code": 520314,
+        "regency_code": 5203,
+        "province_code": 52,
+        "name": "Wanasaba"
+    },
+    {
+        "code": 520315,
+        "regency_code": 5203,
+        "province_code": 52,
+        "name": "Sembalun"
+    },
+    {
+        "code": 520316,
+        "regency_code": 5203,
+        "province_code": 52,
+        "name": "Suwela"
+    },
+    {
+        "code": 520317,
+        "regency_code": 5203,
+        "province_code": 52,
+        "name": "Labuhan Haji"
+    },
+    {
+        "code": 520318,
+        "regency_code": 5203,
+        "province_code": 52,
+        "name": "Sakra Timur"
+    },
+    {
+        "code": 520319,
+        "regency_code": 5203,
+        "province_code": 52,
+        "name": "Sakra Barat"
+    },
+    {
+        "code": 520320,
+        "regency_code": 5203,
+        "province_code": 52,
+        "name": "Jerowaru"
+    },
+    {
+        "code": 520321,
+        "regency_code": 5203,
+        "province_code": 52,
+        "name": "Lenek"
+    },
+    {
+        "code": 520402,
+        "regency_code": 5204,
+        "province_code": 52,
+        "name": "Lunyuk"
+    },
+    {
+        "code": 520405,
+        "regency_code": 5204,
+        "province_code": 52,
+        "name": "Alas"
+    },
+    {
+        "code": 520406,
+        "regency_code": 5204,
+        "province_code": 52,
+        "name": "Utan"
+    },
+    {
+        "code": 520407,
+        "regency_code": 5204,
+        "province_code": 52,
+        "name": "Batu Lanteh"
+    },
+    {
+        "code": 520408,
+        "regency_code": 5204,
+        "province_code": 52,
+        "name": "Sumbawa"
+    },
+    {
+        "code": 520409,
+        "regency_code": 5204,
+        "province_code": 52,
+        "name": "Moyo Hilir"
+    },
+    {
+        "code": 520410,
+        "regency_code": 5204,
+        "province_code": 52,
+        "name": "Moyo Hulu"
+    },
+    {
+        "code": 520411,
+        "regency_code": 5204,
+        "province_code": 52,
+        "name": "Ropang"
+    },
+    {
+        "code": 520412,
+        "regency_code": 5204,
+        "province_code": 52,
+        "name": "Lape"
+    },
+    {
+        "code": 520413,
+        "regency_code": 5204,
+        "province_code": 52,
+        "name": "Plampang"
+    },
+    {
+        "code": 520414,
+        "regency_code": 5204,
+        "province_code": 52,
+        "name": "Empang"
+    },
+    {
+        "code": 520417,
+        "regency_code": 5204,
+        "province_code": 52,
+        "name": "Alas Barat"
+    },
+    {
+        "code": 520418,
+        "regency_code": 5204,
+        "province_code": 52,
+        "name": "Labuhan Badas"
+    },
+    {
+        "code": 520419,
+        "regency_code": 5204,
+        "province_code": 52,
+        "name": "Labangka"
+    },
+    {
+        "code": 520420,
+        "regency_code": 5204,
+        "province_code": 52,
+        "name": "Buer"
+    },
+    {
+        "code": 520421,
+        "regency_code": 5204,
+        "province_code": 52,
+        "name": "Rhee"
+    },
+    {
+        "code": 520422,
+        "regency_code": 5204,
+        "province_code": 52,
+        "name": "Unter Iwes"
+    },
+    {
+        "code": 520423,
+        "regency_code": 5204,
+        "province_code": 52,
+        "name": "Moyo Utara"
+    },
+    {
+        "code": 520424,
+        "regency_code": 5204,
+        "province_code": 52,
+        "name": "Maronge"
+    },
+    {
+        "code": 520425,
+        "regency_code": 5204,
+        "province_code": 52,
+        "name": "Tarano"
+    },
+    {
+        "code": 520426,
+        "regency_code": 5204,
+        "province_code": 52,
+        "name": "Lopok"
+    },
+    {
+        "code": 520427,
+        "regency_code": 5204,
+        "province_code": 52,
+        "name": "Lenangguar"
+    },
+    {
+        "code": 520428,
+        "regency_code": 5204,
+        "province_code": 52,
+        "name": "Orong Telu"
+    },
+    {
+        "code": 520429,
+        "regency_code": 5204,
+        "province_code": 52,
+        "name": "Lantung"
+    },
+    {
+        "code": 520501,
+        "regency_code": 5205,
+        "province_code": 52,
+        "name": "Dompu"
+    },
+    {
+        "code": 520502,
+        "regency_code": 5205,
+        "province_code": 52,
+        "name": "Kempo"
+    },
+    {
+        "code": 520503,
+        "regency_code": 5205,
+        "province_code": 52,
+        "name": "Hu'u"
+    },
+    {
+        "code": 520504,
+        "regency_code": 5205,
+        "province_code": 52,
+        "name": "Kilo"
+    },
+    {
+        "code": 520505,
+        "regency_code": 5205,
+        "province_code": 52,
+        "name": "Woja"
+    },
+    {
+        "code": 520506,
+        "regency_code": 5205,
+        "province_code": 52,
+        "name": "Pekat"
+    },
+    {
+        "code": 520507,
+        "regency_code": 5205,
+        "province_code": 52,
+        "name": "Manggalewa"
+    },
+    {
+        "code": 520508,
+        "regency_code": 5205,
+        "province_code": 52,
+        "name": "Pajo"
+    },
+    {
+        "code": 520601,
+        "regency_code": 5206,
+        "province_code": 52,
+        "name": "Monta"
+    },
+    {
+        "code": 520602,
+        "regency_code": 5206,
+        "province_code": 52,
+        "name": "Bolo"
+    },
+    {
+        "code": 520603,
+        "regency_code": 5206,
+        "province_code": 52,
+        "name": "Woha"
+    },
+    {
+        "code": 520604,
+        "regency_code": 5206,
+        "province_code": 52,
+        "name": "Belo"
+    },
+    {
+        "code": 520605,
+        "regency_code": 5206,
+        "province_code": 52,
+        "name": "Wawo"
+    },
+    {
+        "code": 520606,
+        "regency_code": 5206,
+        "province_code": 52,
+        "name": "Sape"
+    },
+    {
+        "code": 520607,
+        "regency_code": 5206,
+        "province_code": 52,
+        "name": "Wera"
+    },
+    {
+        "code": 520608,
+        "regency_code": 5206,
+        "province_code": 52,
+        "name": "Donggo"
+    },
+    {
+        "code": 520609,
+        "regency_code": 5206,
+        "province_code": 52,
+        "name": "Sanggar"
+    },
+    {
+        "code": 520610,
+        "regency_code": 5206,
+        "province_code": 52,
+        "name": "Ambalawi"
+    },
+    {
+        "code": 520611,
+        "regency_code": 5206,
+        "province_code": 52,
+        "name": "Langgudu"
+    },
+    {
+        "code": 520612,
+        "regency_code": 5206,
+        "province_code": 52,
+        "name": "Lambu"
+    },
+    {
+        "code": 520613,
+        "regency_code": 5206,
+        "province_code": 52,
+        "name": "Madapangga"
+    },
+    {
+        "code": 520614,
+        "regency_code": 5206,
+        "province_code": 52,
+        "name": "Tambora"
+    },
+    {
+        "code": 520615,
+        "regency_code": 5206,
+        "province_code": 52,
+        "name": "Soromandi"
+    },
+    {
+        "code": 520616,
+        "regency_code": 5206,
+        "province_code": 52,
+        "name": "Parado"
+    },
+    {
+        "code": 520617,
+        "regency_code": 5206,
+        "province_code": 52,
+        "name": "Lambitu"
+    },
+    {
+        "code": 520618,
+        "regency_code": 5206,
+        "province_code": 52,
+        "name": "Palibelo"
+    },
+    {
+        "code": 520701,
+        "regency_code": 5207,
+        "province_code": 52,
+        "name": "Jereweh"
+    },
+    {
+        "code": 520702,
+        "regency_code": 5207,
+        "province_code": 52,
+        "name": "Taliwang"
+    },
+    {
+        "code": 520703,
+        "regency_code": 5207,
+        "province_code": 52,
+        "name": "Seteluk"
+    },
+    {
+        "code": 520704,
+        "regency_code": 5207,
+        "province_code": 52,
+        "name": "Sekongkang"
+    },
+    {
+        "code": 520705,
+        "regency_code": 5207,
+        "province_code": 52,
+        "name": "Brang Rea"
+    },
+    {
+        "code": 520706,
+        "regency_code": 5207,
+        "province_code": 52,
+        "name": "Poto Tano"
+    },
+    {
+        "code": 520707,
+        "regency_code": 5207,
+        "province_code": 52,
+        "name": "Brang Ene"
+    },
+    {
+        "code": 520708,
+        "regency_code": 5207,
+        "province_code": 52,
+        "name": "Maluk"
+    },
+    {
+        "code": 520801,
+        "regency_code": 5208,
+        "province_code": 52,
+        "name": "Tanjung"
+    },
+    {
+        "code": 520802,
+        "regency_code": 5208,
+        "province_code": 52,
+        "name": "Gangga"
+    },
+    {
+        "code": 520803,
+        "regency_code": 5208,
+        "province_code": 52,
+        "name": "Kayangan"
+    },
+    {
+        "code": 520804,
+        "regency_code": 5208,
+        "province_code": 52,
+        "name": "Bayan"
+    },
+    {
+        "code": 520805,
+        "regency_code": 5208,
+        "province_code": 52,
+        "name": "Pemenang"
+    },
+    {
+        "code": 527101,
+        "regency_code": 5271,
+        "province_code": 52,
+        "name": "Ampenan"
+    },
+    {
+        "code": 527102,
+        "regency_code": 5271,
+        "province_code": 52,
+        "name": "Mataram"
+    },
+    {
+        "code": 527103,
+        "regency_code": 5271,
+        "province_code": 52,
+        "name": "Cakranegara"
+    },
+    {
+        "code": 527104,
+        "regency_code": 5271,
+        "province_code": 52,
+        "name": "Sekarbela"
+    },
+    {
+        "code": 527105,
+        "regency_code": 5271,
+        "province_code": 52,
+        "name": "Selaprang"
+    },
+    {
+        "code": 527106,
+        "regency_code": 5271,
+        "province_code": 52,
+        "name": "Sandubaya"
+    },
+    {
+        "code": 527201,
+        "regency_code": 5272,
+        "province_code": 52,
+        "name": "RasanaE Barat"
+    },
+    {
+        "code": 527202,
+        "regency_code": 5272,
+        "province_code": 52,
+        "name": "RasanaE Timur"
+    },
+    {
+        "code": 527203,
+        "regency_code": 5272,
+        "province_code": 52,
+        "name": "Asakota"
+    },
+    {
+        "code": 527204,
+        "regency_code": 5272,
+        "province_code": 52,
+        "name": "Raba"
+    },
+    {
+        "code": 527205,
+        "regency_code": 5272,
+        "province_code": 52,
+        "name": "Mpunda"
+    }
+]

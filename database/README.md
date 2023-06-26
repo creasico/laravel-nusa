@@ -11,17 +11,26 @@ classDiagram
     class provinces {
         +char~2~ code
         +varchar name
+        +double latitude
+        +double longitude
+        +varchar coordinates
     }
     class regencies {
         +char~4~ code
         +char~2~ province_code
         +varchar name
+        +double latitude
+        +double longitude
+        +varchar coordinates
     }
     class districts {
         +char~6~ code
         +char~4~ regency_code
         +char~2~ province_code
         +varchar name
+        +double latitude
+        +double longitude
+        +varchar coordinates
     }
     class villages {
         +char~10~ code
@@ -29,6 +38,10 @@ classDiagram
         +char~4~ regency_code
         +char~2~ province_code
         +varchar name
+        +char~5~ postal_code
+        +double latitude
+        +double longitude
+        +varchar coordinates
     }
 ```
 
@@ -38,6 +51,9 @@ classDiagram
 | --- | --- | --- |
 | `code` | `char(2)`, `unique`, `primary` | - |
 | `name` | `string` | - |
+| `latitude` | `double`, `nullable` | - |
+| `longitude` | `double`, `nullable` | - |
+| `coordinates` | `array`, `nullable` | - |
 
 ## `regencies`
 
@@ -46,6 +62,9 @@ classDiagram
 | `code` | `char(4)`, `unique`, `primary` | - |
 | `province_code` | `char(2)`, `index` | - |
 | `name` | `string` | - |
+| `latitude` | `double`, `nullable` | - |
+| `longitude` | `double`, `nullable` | - |
+| `coordinates` | `array`, `nullable` | - |
 
 **Relation Properties**
 - `province_code` : reference `provinces`
@@ -58,6 +77,9 @@ classDiagram
 | `regency_code` | `char(4)`, `index` | - |
 | `province_code` | `char(2)`, `index` | - |
 | `name` | `string` | - |
+| `latitude` | `double`, `nullable` | - |
+| `longitude` | `double`, `nullable` | - |
+| `coordinates` | `array`, `nullable` | - |
 
 **Relation Properties**
 - `regency_code` : reference `regencies`
@@ -72,6 +94,10 @@ classDiagram
 | `regency_code` | `char(4)`, `index` | - |
 | `province_code` | `char(2)`, `index` | - |
 | `name` | `string` | - |
+| `postal_code` | `char(5)`, `nullable` | - |
+| `latitude` | `double`, `nullable` | - |
+| `longitude` | `double`, `nullable` | - |
+| `coordinates` | `array`, `nullable` | - |
 
 **Relation Properties**
 - `district_code` : reference `districts`

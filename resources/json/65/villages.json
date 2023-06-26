@@ -1,0 +1,3858 @@
+[
+    {
+        "code": 6501011001,
+        "district_code": 650101,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Tanjung Palas Hulu",
+        "postal_code": "77215"
+    },
+    {
+        "code": 6501011002,
+        "district_code": 650101,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Tanjung Palas Tengah",
+        "postal_code": "77216"
+    },
+    {
+        "code": 6501011003,
+        "district_code": 650101,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Tanjung Palas Hilir",
+        "postal_code": "77211"
+    },
+    {
+        "code": 6501011004,
+        "district_code": 650101,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Karang Anyar",
+        "postal_code": "77214"
+    },
+    {
+        "code": 6501012005,
+        "district_code": 650101,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Gunung Putih",
+        "postal_code": "77211"
+    },
+    {
+        "code": 6501012006,
+        "district_code": 650101,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Pejalin",
+        "postal_code": "77211"
+    },
+    {
+        "code": 6501012007,
+        "district_code": 650101,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Antutan",
+        "postal_code": "77211"
+    },
+    {
+        "code": 6501012008,
+        "district_code": 650101,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Teras Baru",
+        "postal_code": "77214"
+    },
+    {
+        "code": 6501012009,
+        "district_code": 650101,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Teras Nawang",
+        "postal_code": "77214"
+    },
+    {
+        "code": 6501022001,
+        "district_code": 650102,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Long Beluah",
+        "postal_code": "77217"
+    },
+    {
+        "code": 6501022002,
+        "district_code": 650102,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Long Sam",
+        "postal_code": "77217"
+    },
+    {
+        "code": 6501022003,
+        "district_code": 650102,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Mara I",
+        "postal_code": "77217"
+    },
+    {
+        "code": 6501022004,
+        "district_code": 650102,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Mara Hilir",
+        "postal_code": "77217"
+    },
+    {
+        "code": 6501022005,
+        "district_code": 650102,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Long Pari",
+        "postal_code": "77217"
+    },
+    {
+        "code": 6501032001,
+        "district_code": 650103,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Karang Agung",
+        "postal_code": "77218"
+    },
+    {
+        "code": 6501032002,
+        "district_code": 650103,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Pimping",
+        "postal_code": "77218"
+    },
+    {
+        "code": 6501032003,
+        "district_code": 650103,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Panca Agung",
+        "postal_code": "77218"
+    },
+    {
+        "code": 6501032004,
+        "district_code": 650103,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Ruhui Rahayu",
+        "postal_code": "77218"
+    },
+    {
+        "code": 6501032005,
+        "district_code": 650103,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Ardi Mulyo",
+        "postal_code": "77218"
+    },
+    {
+        "code": 6501032006,
+        "district_code": 650103,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Kelubir",
+        "postal_code": "77218"
+    },
+    {
+        "code": 6501042001,
+        "district_code": 650104,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Tanah Kuning",
+        "postal_code": "77215"
+    },
+    {
+        "code": 6501042002,
+        "district_code": 650104,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Mangkupadi",
+        "postal_code": "77215"
+    },
+    {
+        "code": 6501042003,
+        "district_code": 650104,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Sajau",
+        "postal_code": "77215"
+    },
+    {
+        "code": 6501042004,
+        "district_code": 650104,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Wonomulyo",
+        "postal_code": "77215"
+    },
+    {
+        "code": 6501042005,
+        "district_code": 650104,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Tanjung Agung",
+        "postal_code": "77215"
+    },
+    {
+        "code": 6501042006,
+        "district_code": 650104,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Binai",
+        "postal_code": "77215"
+    },
+    {
+        "code": 6501042007,
+        "district_code": 650104,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Sajau Hilir",
+        "postal_code": "77215"
+    },
+    {
+        "code": 6501042008,
+        "district_code": 650104,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Pura Sajau",
+        "postal_code": "77215"
+    },
+    {
+        "code": 6501051001,
+        "district_code": 650105,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Tanjung Selor Hulu",
+        "postal_code": "77211"
+    },
+    {
+        "code": 6501051002,
+        "district_code": 650105,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Tanjung Selor Hilir",
+        "postal_code": "77212"
+    },
+    {
+        "code": 6501051008,
+        "district_code": 650105,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Tanjung Selor Timur",
+        "postal_code": "77212"
+    },
+    {
+        "code": 6501052003,
+        "district_code": 650105,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Jelarai Selor",
+        "postal_code": "77212"
+    },
+    {
+        "code": 6501052004,
+        "district_code": 650105,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Gunung Seriang",
+        "postal_code": "77212"
+    },
+    {
+        "code": 6501052005,
+        "district_code": 650105,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Bumi Rahayu",
+        "postal_code": "77212"
+    },
+    {
+        "code": 6501052006,
+        "district_code": 650105,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Gunung Sari",
+        "postal_code": "77212"
+    },
+    {
+        "code": 6501052007,
+        "district_code": 650105,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Apung",
+        "postal_code": "77212"
+    },
+    {
+        "code": 6501052009,
+        "district_code": 650105,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Tengkapak",
+        "postal_code": "77212"
+    },
+    {
+        "code": 6501062001,
+        "district_code": 650106,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Salimbatu",
+        "postal_code": "77216"
+    },
+    {
+        "code": 6501062002,
+        "district_code": 650106,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Silva Rahayu",
+        "postal_code": "77216"
+    },
+    {
+        "code": 6501062003,
+        "district_code": 650106,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Tanjung Buka",
+        "postal_code": "77216"
+    },
+    {
+        "code": 6501072001,
+        "district_code": 650107,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Lepak Aru",
+        "postal_code": "77261"
+    },
+    {
+        "code": 6501072002,
+        "district_code": 650107,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Long Lasan",
+        "postal_code": "77261"
+    },
+    {
+        "code": 6501072003,
+        "district_code": 650107,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Long Peso",
+        "postal_code": "77261"
+    },
+    {
+        "code": 6501072004,
+        "district_code": 650107,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Long Bia",
+        "postal_code": "77261"
+    },
+    {
+        "code": 6501072005,
+        "district_code": 650107,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Muara Pangean",
+        "postal_code": "77261"
+    },
+    {
+        "code": 6501072006,
+        "district_code": 650107,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Long Lian",
+        "postal_code": "77261"
+    },
+    {
+        "code": 6501072007,
+        "district_code": 650107,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Long Pelaah",
+        "postal_code": "77261"
+    },
+    {
+        "code": 6501072008,
+        "district_code": 650107,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Long Lejuh",
+        "postal_code": "77261"
+    },
+    {
+        "code": 6501072009,
+        "district_code": 650107,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Long Pelban",
+        "postal_code": "77261"
+    },
+    {
+        "code": 6501072010,
+        "district_code": 650107,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Long Buang",
+        "postal_code": "77261"
+    },
+    {
+        "code": 6501082001,
+        "district_code": 650108,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Long Tungu",
+        "postal_code": "77262"
+    },
+    {
+        "code": 6501082002,
+        "district_code": 650108,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Long Bang",
+        "postal_code": "77262"
+    },
+    {
+        "code": 6501082003,
+        "district_code": 650108,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Long Telenjau",
+        "postal_code": "77262"
+    },
+    {
+        "code": 6501082004,
+        "district_code": 650108,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Naha Aya",
+        "postal_code": "77262"
+    },
+    {
+        "code": 6501082005,
+        "district_code": 650108,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Long Lembu",
+        "postal_code": "77262"
+    },
+    {
+        "code": 6501082006,
+        "district_code": 650108,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Long Bang Hulu",
+        "postal_code": "77262"
+    },
+    {
+        "code": 6501092001,
+        "district_code": 650109,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Sekatak Buji",
+        "postal_code": "77263"
+    },
+    {
+        "code": 6501092002,
+        "district_code": 650109,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Paru Abang",
+        "postal_code": "77263"
+    },
+    {
+        "code": 6501092003,
+        "district_code": 650109,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Bunau",
+        "postal_code": "77263"
+    },
+    {
+        "code": 6501092004,
+        "district_code": 650109,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Ujang",
+        "postal_code": "77263"
+    },
+    {
+        "code": 6501092005,
+        "district_code": 650109,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Tenggiling",
+        "postal_code": "77263"
+    },
+    {
+        "code": 6501092006,
+        "district_code": 650109,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Kelembunan",
+        "postal_code": "77263"
+    },
+    {
+        "code": 6501092007,
+        "district_code": 650109,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Turung",
+        "postal_code": "77263"
+    },
+    {
+        "code": 6501092008,
+        "district_code": 650109,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Terindak",
+        "postal_code": "77263"
+    },
+    {
+        "code": 6501092009,
+        "district_code": 650109,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Kelising",
+        "postal_code": "77263"
+    },
+    {
+        "code": 6501092010,
+        "district_code": 650109,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Ambalat",
+        "postal_code": "77263"
+    },
+    {
+        "code": 6501092011,
+        "district_code": 650109,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Keriting",
+        "postal_code": "77263"
+    },
+    {
+        "code": 6501092012,
+        "district_code": 650109,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Kendari",
+        "postal_code": "77263"
+    },
+    {
+        "code": 6501092013,
+        "district_code": 650109,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Bambang",
+        "postal_code": "77263"
+    },
+    {
+        "code": 6501092014,
+        "district_code": 650109,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Maritam",
+        "postal_code": "77263"
+    },
+    {
+        "code": 6501092015,
+        "district_code": 650109,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Pentian",
+        "postal_code": "77263"
+    },
+    {
+        "code": 6501092016,
+        "district_code": 650109,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Punan Dulau",
+        "postal_code": "77263"
+    },
+    {
+        "code": 6501092017,
+        "district_code": 650109,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Kelincauan",
+        "postal_code": "77263"
+    },
+    {
+        "code": 6501092018,
+        "district_code": 650109,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Bekiliu",
+        "postal_code": "77263"
+    },
+    {
+        "code": 6501092019,
+        "district_code": 650109,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Sekatak Bengara",
+        "postal_code": "77263"
+    },
+    {
+        "code": 6501092020,
+        "district_code": 650109,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Pungit",
+        "postal_code": "77263"
+    },
+    {
+        "code": 6501092021,
+        "district_code": 650109,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Anjar Arip",
+        "postal_code": "77263"
+    },
+    {
+        "code": 6501092022,
+        "district_code": 650109,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Liagu",
+        "postal_code": "77263"
+    },
+    {
+        "code": 6501102001,
+        "district_code": 650110,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Bunyu Barat",
+        "postal_code": "77281"
+    },
+    {
+        "code": 6501102002,
+        "district_code": 650110,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Bunyu Selatan",
+        "postal_code": "77281"
+    },
+    {
+        "code": 6501102003,
+        "district_code": 650110,
+        "regency_code": 6501,
+        "province_code": 65,
+        "name": "Bunyu Timur",
+        "postal_code": "77281"
+    },
+    {
+        "code": 6502012001,
+        "district_code": 650201,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Long Gafid",
+        "postal_code": "77555"
+    },
+    {
+        "code": 6502012002,
+        "district_code": 650201,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Long Bisai",
+        "postal_code": "77555"
+    },
+    {
+        "code": 6502012003,
+        "district_code": 650201,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Temalang",
+        "postal_code": "77555"
+    },
+    {
+        "code": 6502012004,
+        "district_code": 650201,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Long Liku",
+        "postal_code": "77555"
+    },
+    {
+        "code": 6502012005,
+        "district_code": 650201,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Pulau Sapi",
+        "postal_code": "77555"
+    },
+    {
+        "code": 6502012006,
+        "district_code": 650201,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Paking",
+        "postal_code": "77555"
+    },
+    {
+        "code": 6502012007,
+        "district_code": 650201,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Lidung Kemenci",
+        "postal_code": "77555"
+    },
+    {
+        "code": 6502012008,
+        "district_code": 650201,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Mentarang Baru",
+        "postal_code": "77555"
+    },
+    {
+        "code": 6502012009,
+        "district_code": 650201,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Harapan Maju",
+        "postal_code": "77555"
+    },
+    {
+        "code": 6502022001,
+        "district_code": 650202,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Batu Lidung",
+        "postal_code": "77550"
+    },
+    {
+        "code": 6502022002,
+        "district_code": 650202,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Malinau Kota",
+        "postal_code": "77550"
+    },
+    {
+        "code": 6502022003,
+        "district_code": 650202,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Pelita Kanaan",
+        "postal_code": "77550"
+    },
+    {
+        "code": 6502022004,
+        "district_code": 650202,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Malinau Hulu",
+        "postal_code": "77550"
+    },
+    {
+        "code": 6502022005,
+        "district_code": 650202,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Malinau Hilir",
+        "postal_code": "77550"
+    },
+    {
+        "code": 6502022006,
+        "district_code": 650202,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Tanjung Keranjang",
+        "postal_code": "77550"
+    },
+    {
+        "code": 6502032001,
+        "district_code": 650203,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Long Pujungan",
+        "postal_code": "77563"
+    },
+    {
+        "code": 6502032002,
+        "district_code": 650203,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Long Ketaman",
+        "postal_code": "77563"
+    },
+    {
+        "code": 6502032003,
+        "district_code": 650203,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Long Pua",
+        "postal_code": "77563"
+    },
+    {
+        "code": 6502032004,
+        "district_code": 650203,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Long Lame",
+        "postal_code": "77563"
+    },
+    {
+        "code": 6502032005,
+        "district_code": 650203,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Long Jelet",
+        "postal_code": "77563"
+    },
+    {
+        "code": 6502032006,
+        "district_code": 650203,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Long Aran",
+        "postal_code": "77563"
+    },
+    {
+        "code": 6502032007,
+        "district_code": 650203,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Long Paliran",
+        "postal_code": "77563"
+    },
+    {
+        "code": 6502032008,
+        "district_code": 650203,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Long Bena",
+        "postal_code": "77563"
+    },
+    {
+        "code": 6502032009,
+        "district_code": 650203,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Long Belaka Pitau",
+        "postal_code": "77563"
+    },
+    {
+        "code": 6502042001,
+        "district_code": 650204,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Data Dian",
+        "postal_code": "77571"
+    },
+    {
+        "code": 6502042002,
+        "district_code": 650204,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Long Pipa",
+        "postal_code": "77571"
+    },
+    {
+        "code": 6502042003,
+        "district_code": 650204,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Long Sule",
+        "postal_code": "77571"
+    },
+    {
+        "code": 6502042004,
+        "district_code": 650204,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Sungai Anai",
+        "postal_code": "77571"
+    },
+    {
+        "code": 6502042005,
+        "district_code": 650204,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Long Metun",
+        "postal_code": "77571"
+    },
+    {
+        "code": 6502052001,
+        "district_code": 650205,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Long Nawang",
+        "postal_code": "77572"
+    },
+    {
+        "code": 6502052002,
+        "district_code": 650205,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Nawang Baru",
+        "postal_code": "77572"
+    },
+    {
+        "code": 6502052003,
+        "district_code": 650205,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Long Temuyat",
+        "postal_code": "77572"
+    },
+    {
+        "code": 6502052004,
+        "district_code": 650205,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Long Betaoh",
+        "postal_code": "77572"
+    },
+    {
+        "code": 6502052005,
+        "district_code": 650205,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Long Payau",
+        "postal_code": "77572"
+    },
+    {
+        "code": 6502062001,
+        "district_code": 650206,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Bila Bekayuk",
+        "postal_code": "77551"
+    },
+    {
+        "code": 6502062002,
+        "district_code": 650206,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Long Loreh",
+        "postal_code": "77551"
+    },
+    {
+        "code": 6502062003,
+        "district_code": 650206,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Langap",
+        "postal_code": "77551"
+    },
+    {
+        "code": 6502062004,
+        "district_code": 650206,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Laban Nyarit",
+        "postal_code": "77551"
+    },
+    {
+        "code": 6502062005,
+        "district_code": 650206,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Nunuk Tanah Kibang",
+        "postal_code": "77551"
+    },
+    {
+        "code": 6502062006,
+        "district_code": 650206,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Pelencau",
+        "postal_code": "77551"
+    },
+    {
+        "code": 6502062007,
+        "district_code": 650206,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Paya Seturan",
+        "postal_code": "77551"
+    },
+    {
+        "code": 6502062008,
+        "district_code": 650206,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Punan Rian",
+        "postal_code": "77551"
+    },
+    {
+        "code": 6502062009,
+        "district_code": 650206,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Sengayan",
+        "postal_code": "77551"
+    },
+    {
+        "code": 6502072001,
+        "district_code": 650207,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Kaliamok",
+        "postal_code": "77557"
+    },
+    {
+        "code": 6502072002,
+        "district_code": 650207,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Luso",
+        "postal_code": "77557"
+    },
+    {
+        "code": 6502072003,
+        "district_code": 650207,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Malinau Seberang",
+        "postal_code": "77557"
+    },
+    {
+        "code": 6502072004,
+        "district_code": 650207,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Putat",
+        "postal_code": "77557"
+    },
+    {
+        "code": 6502072005,
+        "district_code": 650207,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Salap",
+        "postal_code": "77557"
+    },
+    {
+        "code": 6502072006,
+        "district_code": 650207,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Seruyung",
+        "postal_code": "77557"
+    },
+    {
+        "code": 6502072007,
+        "district_code": 650207,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Respen Tubu",
+        "postal_code": "77557"
+    },
+    {
+        "code": 6502072008,
+        "district_code": 650207,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Belayan",
+        "postal_code": "77557"
+    },
+    {
+        "code": 6502072009,
+        "district_code": 650207,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Sembuak Warod",
+        "postal_code": "77557"
+    },
+    {
+        "code": 6502072010,
+        "district_code": 650207,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Lubak Manis",
+        "postal_code": "77557"
+    },
+    {
+        "code": 6502072011,
+        "district_code": 650207,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Kelapis",
+        "postal_code": "77557"
+    },
+    {
+        "code": 6502072012,
+        "district_code": 650207,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Semengaris",
+        "postal_code": "77557"
+    },
+    {
+        "code": 6502082001,
+        "district_code": 650208,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Long Bila",
+        "postal_code": "77554"
+    },
+    {
+        "code": 6502082002,
+        "district_code": 650208,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Long Kenipe",
+        "postal_code": "77554"
+    },
+    {
+        "code": 6502082003,
+        "district_code": 650208,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Punan Bengalun",
+        "postal_code": "77554"
+    },
+    {
+        "code": 6502082004,
+        "district_code": 650208,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Sesua",
+        "postal_code": "77554"
+    },
+    {
+        "code": 6502082005,
+        "district_code": 650208,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Sentaban",
+        "postal_code": "77554"
+    },
+    {
+        "code": 6502082006,
+        "district_code": 650208,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Tanjung Lapang",
+        "postal_code": "77554"
+    },
+    {
+        "code": 6502082007,
+        "district_code": 650208,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Taras",
+        "postal_code": "77554"
+    },
+    {
+        "code": 6502082008,
+        "district_code": 650208,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Kuala Lapang",
+        "postal_code": "77554"
+    },
+    {
+        "code": 6502082009,
+        "district_code": 650208,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Sempayang",
+        "postal_code": "77554"
+    },
+    {
+        "code": 6502092001,
+        "district_code": 650209,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Dumu Mahak",
+        "postal_code": "77574"
+    },
+    {
+        "code": 6502092002,
+        "district_code": 650209,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Long Lebusan",
+        "postal_code": "77574"
+    },
+    {
+        "code": 6502092003,
+        "district_code": 650209,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Mahak Baru",
+        "postal_code": "77574"
+    },
+    {
+        "code": 6502092004,
+        "district_code": 650209,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Long Top",
+        "postal_code": "77574"
+    },
+    {
+        "code": 6502092005,
+        "district_code": 650209,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Agung Baru",
+        "postal_code": "77574"
+    },
+    {
+        "code": 6502092006,
+        "district_code": 650209,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Data Baru",
+        "postal_code": "77574"
+    },
+    {
+        "code": 6502102001,
+        "district_code": 650210,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Long Ampung",
+        "postal_code": "77573"
+    },
+    {
+        "code": 6502102002,
+        "district_code": 650210,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Long Uro",
+        "postal_code": "77573"
+    },
+    {
+        "code": 6502102003,
+        "district_code": 650210,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Lidung Payau",
+        "postal_code": "77573"
+    },
+    {
+        "code": 6502102004,
+        "district_code": 650210,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Sungai Barang",
+        "postal_code": "77573"
+    },
+    {
+        "code": 6502102005,
+        "district_code": 650210,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Metulang",
+        "postal_code": "77573"
+    },
+    {
+        "code": 6502112001,
+        "district_code": 650211,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Long Uli",
+        "postal_code": "77562"
+    },
+    {
+        "code": 6502112002,
+        "district_code": 650211,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Long Alango",
+        "postal_code": "77562"
+    },
+    {
+        "code": 6502112003,
+        "district_code": 650211,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Long Berini",
+        "postal_code": "77562"
+    },
+    {
+        "code": 6502112004,
+        "district_code": 650211,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Long Tebulo",
+        "postal_code": "77562"
+    },
+    {
+        "code": 6502112005,
+        "district_code": 650211,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Apau Ping",
+        "postal_code": "77562"
+    },
+    {
+        "code": 6502112006,
+        "district_code": 650211,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Long Kemuat",
+        "postal_code": "77562"
+    },
+    {
+        "code": 6502122001,
+        "district_code": 650212,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Lung Fala",
+        "postal_code": "77155"
+    },
+    {
+        "code": 6502122002,
+        "district_code": 650212,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Lung Kebinu",
+        "postal_code": "77155"
+    },
+    {
+        "code": 6502122003,
+        "district_code": 650212,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Lung Mekatip",
+        "postal_code": "77155"
+    },
+    {
+        "code": 6502122004,
+        "district_code": 650212,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Lung Simau",
+        "postal_code": "77155"
+    },
+    {
+        "code": 6502122005,
+        "district_code": 650212,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Lung Barang",
+        "postal_code": "77155"
+    },
+    {
+        "code": 6502122006,
+        "district_code": 650212,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Lung Sulit",
+        "postal_code": "77155"
+    },
+    {
+        "code": 6502122007,
+        "district_code": 650212,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Lung Semamu",
+        "postal_code": "77155"
+    },
+    {
+        "code": 6502132001,
+        "district_code": 650213,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Setulang",
+        "postal_code": "77552"
+    },
+    {
+        "code": 6502132002,
+        "district_code": 650213,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Setarap",
+        "postal_code": "77552"
+    },
+    {
+        "code": 6502132003,
+        "district_code": 650213,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Punan Setarap",
+        "postal_code": "77552"
+    },
+    {
+        "code": 6502132004,
+        "district_code": 650213,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Batu Kajang",
+        "postal_code": "77552"
+    },
+    {
+        "code": 6502132005,
+        "district_code": 650213,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Gong Solok",
+        "postal_code": "77552"
+    },
+    {
+        "code": 6502132006,
+        "district_code": 650213,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Punan Gong Solok",
+        "postal_code": "77552"
+    },
+    {
+        "code": 6502132007,
+        "district_code": 650213,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Long Adiu",
+        "postal_code": "77552"
+    },
+    {
+        "code": 6502132008,
+        "district_code": 650213,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Punan Long Adiu",
+        "postal_code": "77552"
+    },
+    {
+        "code": 6502142001,
+        "district_code": 650214,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Long Lake",
+        "postal_code": "77553"
+    },
+    {
+        "code": 6502142002,
+        "district_code": 650214,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Punan Mirau",
+        "postal_code": "77553"
+    },
+    {
+        "code": 6502142003,
+        "district_code": 650214,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Long Rat",
+        "postal_code": "77553"
+    },
+    {
+        "code": 6502142004,
+        "district_code": 650214,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Halanga",
+        "postal_code": "77553"
+    },
+    {
+        "code": 6502142005,
+        "district_code": 650214,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Metut",
+        "postal_code": "77553"
+    },
+    {
+        "code": 6502142006,
+        "district_code": 650214,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Long Jalan",
+        "postal_code": "77553"
+    },
+    {
+        "code": 6502142007,
+        "district_code": 650214,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Nahakramo",
+        "postal_code": "77553"
+    },
+    {
+        "code": 6502142008,
+        "district_code": 650214,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Tanjung Nanga",
+        "postal_code": "77553"
+    },
+    {
+        "code": 6502152001,
+        "district_code": 650215,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Long Nyau",
+        "postal_code": "77556"
+    },
+    {
+        "code": 6502152002,
+        "district_code": 650215,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Long Titi",
+        "postal_code": "77556"
+    },
+    {
+        "code": 6502152003,
+        "district_code": 650215,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Long Ranau",
+        "postal_code": "77556"
+    },
+    {
+        "code": 6502152004,
+        "district_code": 650215,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Rian Tubu",
+        "postal_code": "77556"
+    },
+    {
+        "code": 6502152005,
+        "district_code": 650215,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Long Pada",
+        "postal_code": "77556"
+    },
+    {
+        "code": 6503012001,
+        "district_code": 650301,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Tanjungkarang",
+        "postal_code": "77483"
+    },
+    {
+        "code": 6503012002,
+        "district_code": 650301,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Balansiku",
+        "postal_code": "77483"
+    },
+    {
+        "code": 6503012003,
+        "district_code": 650301,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Sungai Manurung",
+        "postal_code": "77483"
+    },
+    {
+        "code": 6503012004,
+        "district_code": 650301,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Padaidi",
+        "postal_code": "77483"
+    },
+    {
+        "code": 6503021001,
+        "district_code": 650302,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Nunukan Timur",
+        "postal_code": "77482"
+    },
+    {
+        "code": 6503021002,
+        "district_code": 650302,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Nunukan Barat",
+        "postal_code": "77482"
+    },
+    {
+        "code": 6503021003,
+        "district_code": 650302,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Nunukan Utara",
+        "postal_code": "77482"
+    },
+    {
+        "code": 6503021005,
+        "district_code": 650302,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Nunukan Tengah",
+        "postal_code": "77482"
+    },
+    {
+        "code": 6503022004,
+        "district_code": 650302,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Binusan",
+        "postal_code": "77482"
+    },
+    {
+        "code": 6503032001,
+        "district_code": 650303,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Tagul",
+        "postal_code": "77453"
+    },
+    {
+        "code": 6503032002,
+        "district_code": 650303,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Lubakan",
+        "postal_code": "77453"
+    },
+    {
+        "code": 6503032003,
+        "district_code": 650303,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Atap",
+        "postal_code": "77453"
+    },
+    {
+        "code": 6503032004,
+        "district_code": 650303,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Manuk Bungkul",
+        "postal_code": "77453"
+    },
+    {
+        "code": 6503032005,
+        "district_code": 650303,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Tujung",
+        "postal_code": "77453"
+    },
+    {
+        "code": 6503032006,
+        "district_code": 650303,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Pagar",
+        "postal_code": "77453"
+    },
+    {
+        "code": 6503032007,
+        "district_code": 650303,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Labuk",
+        "postal_code": "77453"
+    },
+    {
+        "code": 6503032008,
+        "district_code": 650303,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Butas Bagu",
+        "postal_code": "77453"
+    },
+    {
+        "code": 6503032009,
+        "district_code": 650303,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Pelaju",
+        "postal_code": "77453"
+    },
+    {
+        "code": 6503032010,
+        "district_code": 650303,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Tepian",
+        "postal_code": "77453"
+    },
+    {
+        "code": 6503042001,
+        "district_code": 650304,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Deralon",
+        "postal_code": "77457"
+    },
+    {
+        "code": 6503042002,
+        "district_code": 650304,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Liang",
+        "postal_code": "77457"
+    },
+    {
+        "code": 6503042003,
+        "district_code": 650304,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Dabulon",
+        "postal_code": "77457"
+    },
+    {
+        "code": 6503042004,
+        "district_code": 650304,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Taluan",
+        "postal_code": "77457"
+    },
+    {
+        "code": 6503042005,
+        "district_code": 650304,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Podong",
+        "postal_code": "77457"
+    },
+    {
+        "code": 6503042006,
+        "district_code": 650304,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Patal I",
+        "postal_code": "77457"
+    },
+    {
+        "code": 6503042007,
+        "district_code": 650304,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Siawang",
+        "postal_code": "77457"
+    },
+    {
+        "code": 6503042008,
+        "district_code": 650304,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Sapuyan",
+        "postal_code": "77457"
+    },
+    {
+        "code": 6503042009,
+        "district_code": 650304,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Nainsid",
+        "postal_code": "77457"
+    },
+    {
+        "code": 6503042010,
+        "district_code": 650304,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Sasibu",
+        "postal_code": "77457"
+    },
+    {
+        "code": 6503042011,
+        "district_code": 650304,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Saludan",
+        "postal_code": "77457"
+    },
+    {
+        "code": 6503042012,
+        "district_code": 650304,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Semalat",
+        "postal_code": "77457"
+    },
+    {
+        "code": 6503042013,
+        "district_code": 650304,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Libang",
+        "postal_code": "77457"
+    },
+    {
+        "code": 6503042014,
+        "district_code": 650304,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Sedongon",
+        "postal_code": "77457"
+    },
+    {
+        "code": 6503042015,
+        "district_code": 650304,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Tanjung Hilir",
+        "postal_code": "77457"
+    },
+    {
+        "code": 6503042016,
+        "district_code": 650304,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Sumalumung",
+        "postal_code": "77457"
+    },
+    {
+        "code": 6503042017,
+        "district_code": 650304,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Lintong",
+        "postal_code": "77457"
+    },
+    {
+        "code": 6503042018,
+        "district_code": 650304,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Pulu Bulawan",
+        "postal_code": "77457"
+    },
+    {
+        "code": 6503042019,
+        "district_code": 650304,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Tanjung Hulu",
+        "postal_code": "77457"
+    },
+    {
+        "code": 6503042020,
+        "district_code": 650304,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Patal II",
+        "postal_code": "77457"
+    },
+    {
+        "code": 6503042021,
+        "district_code": 650304,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Pa'loo",
+        "postal_code": "77457"
+    },
+    {
+        "code": 6503042022,
+        "district_code": 650304,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Sangkub",
+        "postal_code": "77457"
+    },
+    {
+        "code": 6503042023,
+        "district_code": 650304,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Tubus",
+        "postal_code": "77457"
+    },
+    {
+        "code": 6503042024,
+        "district_code": 650304,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Likos",
+        "postal_code": "77457"
+    },
+    {
+        "code": 6503042025,
+        "district_code": 650304,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Bulan-Bulan",
+        "postal_code": "77457"
+    },
+    {
+        "code": 6503042026,
+        "district_code": 650304,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Kalampising",
+        "postal_code": "77457"
+    },
+    {
+        "code": 6503042027,
+        "district_code": 650304,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Pa'lemumut",
+        "postal_code": "77457"
+    },
+    {
+        "code": 6503042028,
+        "district_code": 650304,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Mansalong",
+        "postal_code": "77457"
+    },
+    {
+        "code": 6503052002,
+        "district_code": 650305,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Pa' Padi",
+        "postal_code": "77456"
+    },
+    {
+        "code": 6503052003,
+        "district_code": 650305,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Cinglat",
+        "postal_code": "77456"
+    },
+    {
+        "code": 6503052022,
+        "district_code": 650305,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Liang Butan",
+        "postal_code": "77456"
+    },
+    {
+        "code": 6503052029,
+        "district_code": 650305,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Pa' Rupai",
+        "postal_code": "77456"
+    },
+    {
+        "code": 6503052030,
+        "district_code": 650305,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Ba Sikor",
+        "postal_code": "77456"
+    },
+    {
+        "code": 6503052031,
+        "district_code": 650305,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Pa' Nado",
+        "postal_code": "77456"
+    },
+    {
+        "code": 6503052032,
+        "district_code": 650305,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Buduk Kinangan",
+        "postal_code": "77456"
+    },
+    {
+        "code": 6503052033,
+        "district_code": 650305,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Liang Tuer",
+        "postal_code": "77456"
+    },
+    {
+        "code": 6503052034,
+        "district_code": 650305,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Buduk Tumu",
+        "postal_code": "77456"
+    },
+    {
+        "code": 6503052035,
+        "district_code": 650305,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Long Berayang",
+        "postal_code": "77456"
+    },
+    {
+        "code": 6503052036,
+        "district_code": 650305,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Pa' Api",
+        "postal_code": "77456"
+    },
+    {
+        "code": 6503052037,
+        "district_code": 650305,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Pa' Sire",
+        "postal_code": "77456"
+    },
+    {
+        "code": 6503052038,
+        "district_code": 650305,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Wa' Yanud",
+        "postal_code": "77456"
+    },
+    {
+        "code": 6503052039,
+        "district_code": 650305,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Long Nawang",
+        "postal_code": "77456"
+    },
+    {
+        "code": 6503052040,
+        "district_code": 650305,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Long Katung",
+        "postal_code": "77456"
+    },
+    {
+        "code": 6503052041,
+        "district_code": 650305,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Long Bawan",
+        "postal_code": "77456"
+    },
+    {
+        "code": 6503052044,
+        "district_code": 650305,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Long Matung",
+        "postal_code": "77456"
+    },
+    {
+        "code": 6503052045,
+        "district_code": 650305,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Long Rupan",
+        "postal_code": "77456"
+    },
+    {
+        "code": 6503052046,
+        "district_code": 650305,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Liang Biadung",
+        "postal_code": "77456"
+    },
+    {
+        "code": 6503052047,
+        "district_code": 650305,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Wa' Laya",
+        "postal_code": "77456"
+    },
+    {
+        "code": 6503052048,
+        "district_code": 650305,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Pa' Matung",
+        "postal_code": "77456"
+    },
+    {
+        "code": 6503052049,
+        "district_code": 650305,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Pa' Terutun",
+        "postal_code": "77456"
+    },
+    {
+        "code": 6503052065,
+        "district_code": 650305,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Pa' Putuk",
+        "postal_code": "77456"
+    },
+    {
+        "code": 6503062001,
+        "district_code": 650306,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Pembeliangan",
+        "postal_code": "77481"
+    },
+    {
+        "code": 6503062002,
+        "district_code": 650306,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Apas",
+        "postal_code": "77481"
+    },
+    {
+        "code": 6503062003,
+        "district_code": 650306,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Kunyit",
+        "postal_code": "77481"
+    },
+    {
+        "code": 6503062004,
+        "district_code": 650306,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Tetaban",
+        "postal_code": "77481"
+    },
+    {
+        "code": 6503062005,
+        "district_code": 650306,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Kekayap",
+        "postal_code": "77481"
+    },
+    {
+        "code": 6503062006,
+        "district_code": 650306,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Bebanas",
+        "postal_code": "77481"
+    },
+    {
+        "code": 6503062007,
+        "district_code": 650306,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Lulu",
+        "postal_code": "77481"
+    },
+    {
+        "code": 6503062008,
+        "district_code": 650306,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Sujau",
+        "postal_code": "77481"
+    },
+    {
+        "code": 6503062009,
+        "district_code": 650306,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Melasu Baru",
+        "postal_code": "77481"
+    },
+    {
+        "code": 6503062010,
+        "district_code": 650306,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Harapan",
+        "postal_code": "77481"
+    },
+    {
+        "code": 6503072001,
+        "district_code": 650307,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Long Pasia",
+        "postal_code": "77454"
+    },
+    {
+        "code": 6503072002,
+        "district_code": 650307,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Liang Lunuk",
+        "postal_code": "77454"
+    },
+    {
+        "code": 6503072003,
+        "district_code": 650307,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Pa' Ibang",
+        "postal_code": "77454"
+    },
+    {
+        "code": 6503072004,
+        "district_code": 650307,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Pa' Amai",
+        "postal_code": "77454"
+    },
+    {
+        "code": 6503072005,
+        "district_code": 650307,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Pa' Kaber",
+        "postal_code": "77454"
+    },
+    {
+        "code": 6503072006,
+        "district_code": 650307,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Pa' Tera",
+        "postal_code": "77454"
+    },
+    {
+        "code": 6503072007,
+        "district_code": 650307,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Pa' Sing",
+        "postal_code": "77454"
+    },
+    {
+        "code": 6503072009,
+        "district_code": 650307,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Pa' Dalan",
+        "postal_code": "77454"
+    },
+    {
+        "code": 6503072010,
+        "district_code": 650307,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Long Birar",
+        "postal_code": "77454"
+    },
+    {
+        "code": 6503072011,
+        "district_code": 650307,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Pa' Upan",
+        "postal_code": "77454"
+    },
+    {
+        "code": 6503072016,
+        "district_code": 650307,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Long Budung",
+        "postal_code": "77454"
+    },
+    {
+        "code": 6503072018,
+        "district_code": 650307,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Long Pupung",
+        "postal_code": "77454"
+    },
+    {
+        "code": 6503072020,
+        "district_code": 650307,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Pa' Urang",
+        "postal_code": "77454"
+    },
+    {
+        "code": 6503082001,
+        "district_code": 650308,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Liang Bunyu",
+        "postal_code": "77486"
+    },
+    {
+        "code": 6503082002,
+        "district_code": 650308,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Binalawan",
+        "postal_code": "77486"
+    },
+    {
+        "code": 6503082003,
+        "district_code": 650308,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Setabu",
+        "postal_code": "77486"
+    },
+    {
+        "code": 6503082004,
+        "district_code": 650308,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Bambangan",
+        "postal_code": "77486"
+    },
+    {
+        "code": 6503091001,
+        "district_code": 650309,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Selisun",
+        "postal_code": "77480"
+    },
+    {
+        "code": 6503091002,
+        "district_code": 650309,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Nunukan Selatan",
+        "postal_code": "77480"
+    },
+    {
+        "code": 6503091003,
+        "district_code": 650309,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Mansapa",
+        "postal_code": "77480"
+    },
+    {
+        "code": 6503091004,
+        "district_code": 650309,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Tanjung Harapan",
+        "postal_code": "77480"
+    },
+    {
+        "code": 6503102001,
+        "district_code": 650310,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Sungai Nyamuk",
+        "postal_code": "77488"
+    },
+    {
+        "code": 6503102002,
+        "district_code": 650310,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Tanjung Harapan",
+        "postal_code": "77488"
+    },
+    {
+        "code": 6503102003,
+        "district_code": 650310,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Bukit Aru Indah",
+        "postal_code": "77488"
+    },
+    {
+        "code": 6503102004,
+        "district_code": 650310,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Tanjung Aru",
+        "postal_code": "77488"
+    },
+    {
+        "code": 6503112001,
+        "district_code": 650311,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Sungai Pancang",
+        "postal_code": "77489"
+    },
+    {
+        "code": 6503112002,
+        "district_code": 650311,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Lapri",
+        "postal_code": "77489"
+    },
+    {
+        "code": 6503112003,
+        "district_code": 650311,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Seberang",
+        "postal_code": "77489"
+    },
+    {
+        "code": 6503122001,
+        "district_code": 650312,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Sungai Limau",
+        "postal_code": "77487"
+    },
+    {
+        "code": 6503122002,
+        "district_code": 650312,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Maspul",
+        "postal_code": "77487"
+    },
+    {
+        "code": 6503122003,
+        "district_code": 650312,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Aji Kuning",
+        "postal_code": "77487"
+    },
+    {
+        "code": 6503122004,
+        "district_code": 650312,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Bukit Harapan",
+        "postal_code": "77487"
+    },
+    {
+        "code": 6503132001,
+        "district_code": 650313,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Srinanti",
+        "postal_code": "77484"
+    },
+    {
+        "code": 6503132002,
+        "district_code": 650313,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Tabur Lestari",
+        "postal_code": "77484"
+    },
+    {
+        "code": 6503132003,
+        "district_code": 650313,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Samaenre Semaja",
+        "postal_code": "77484"
+    },
+    {
+        "code": 6503132004,
+        "district_code": 650313,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Sekaduyan Taka",
+        "postal_code": "77484"
+    },
+    {
+        "code": 6503142001,
+        "district_code": 650314,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Sanur",
+        "postal_code": "77485"
+    },
+    {
+        "code": 6503142002,
+        "district_code": 650314,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Makmur",
+        "postal_code": "77485"
+    },
+    {
+        "code": 6503142003,
+        "district_code": 650314,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Semunad",
+        "postal_code": "77485"
+    },
+    {
+        "code": 6503142004,
+        "district_code": 650314,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Sekikilan",
+        "postal_code": "77485"
+    },
+    {
+        "code": 6503142005,
+        "district_code": 650314,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Kalunsayan",
+        "postal_code": "77485"
+    },
+    {
+        "code": 6503142006,
+        "district_code": 650314,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Tembalang",
+        "postal_code": "77485"
+    },
+    {
+        "code": 6503142007,
+        "district_code": 650314,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Salang",
+        "postal_code": "77485"
+    },
+    {
+        "code": 6503142008,
+        "district_code": 650314,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Tinampak I",
+        "postal_code": "77485"
+    },
+    {
+        "code": 6503142009,
+        "district_code": 650314,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Tinampak II",
+        "postal_code": "77485"
+    },
+    {
+        "code": 6503142010,
+        "district_code": 650314,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Naputi",
+        "postal_code": "77485"
+    },
+    {
+        "code": 6503142011,
+        "district_code": 650314,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Tau Baru",
+        "postal_code": "77485"
+    },
+    {
+        "code": 6503142012,
+        "district_code": 650314,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Balatikon",
+        "postal_code": "77485"
+    },
+    {
+        "code": 6503152001,
+        "district_code": 650315,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Payang",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6503152002,
+        "district_code": 650315,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Suyadon",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6503152003,
+        "district_code": 650315,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Bulu Mengolom",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6503152004,
+        "district_code": 650315,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Tukulon",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6503152005,
+        "district_code": 650315,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Ubol Sulok",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6503152006,
+        "district_code": 650315,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Batung",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6503152007,
+        "district_code": 650315,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Ubol Alung",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6503152008,
+        "district_code": 650315,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Nansapan",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6503152009,
+        "district_code": 650315,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Samunti",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6503152010,
+        "district_code": 650315,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Semata",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6503152011,
+        "district_code": 650315,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Sungoi",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6503152012,
+        "district_code": 650315,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Salan",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6503152013,
+        "district_code": 650315,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Sinampila I",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6503152014,
+        "district_code": 650315,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Paluan",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6503152015,
+        "district_code": 650315,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Sedalit",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6503152016,
+        "district_code": 650315,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Tambalang Hilir",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6503152017,
+        "district_code": 650315,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Tadungus",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6503152018,
+        "district_code": 650315,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Sinampila II",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6503152019,
+        "district_code": 650315,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Kalambuku",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6503152020,
+        "district_code": 650315,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Jukup",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6503152021,
+        "district_code": 650315,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Long Bulu",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6503152023,
+        "district_code": 650315,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Linsayung",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6503152024,
+        "district_code": 650315,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Tumantalas",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6503152025,
+        "district_code": 650315,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Sanal",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6503152026,
+        "district_code": 650315,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Limpakon",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6503152027,
+        "district_code": 650315,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Labuk",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6503162001,
+        "district_code": 650316,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Lubok Buat",
+        "postal_code": "77452"
+    },
+    {
+        "code": 6503162002,
+        "district_code": 650316,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Katul",
+        "postal_code": "77452"
+    },
+    {
+        "code": 6503162003,
+        "district_code": 650316,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Mambulu",
+        "postal_code": "77452"
+    },
+    {
+        "code": 6503162004,
+        "district_code": 650316,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Pagaluyon",
+        "postal_code": "77452"
+    },
+    {
+        "code": 6503162005,
+        "district_code": 650316,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Saduman",
+        "postal_code": "77452"
+    },
+    {
+        "code": 6503162006,
+        "district_code": 650316,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Tulang",
+        "postal_code": "77452"
+    },
+    {
+        "code": 6503162007,
+        "district_code": 650316,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Sabuluan",
+        "postal_code": "77452"
+    },
+    {
+        "code": 6503162008,
+        "district_code": 650316,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Pulau Keras",
+        "postal_code": "77452"
+    },
+    {
+        "code": 6503162009,
+        "district_code": 650316,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Liuk Bulu",
+        "postal_code": "77452"
+    },
+    {
+        "code": 6503162010,
+        "district_code": 650316,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Binanun",
+        "postal_code": "77452"
+    },
+    {
+        "code": 6503172001,
+        "district_code": 650317,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Tang Paye",
+        "postal_code": "77458"
+    },
+    {
+        "code": 6503172002,
+        "district_code": 650317,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Long Rungan",
+        "postal_code": "77458"
+    },
+    {
+        "code": 6503172003,
+        "district_code": 650317,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Long Kelupan",
+        "postal_code": "77458"
+    },
+    {
+        "code": 6503172004,
+        "district_code": 650317,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Long Padi",
+        "postal_code": "77458"
+    },
+    {
+        "code": 6503172005,
+        "district_code": 650317,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Tang Badui",
+        "postal_code": "77458"
+    },
+    {
+        "code": 6503172006,
+        "district_code": 650317,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Binuang",
+        "postal_code": "77458"
+    },
+    {
+        "code": 6503172007,
+        "district_code": 650317,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Long Mutan",
+        "postal_code": "77458"
+    },
+    {
+        "code": 6503172008,
+        "district_code": 650317,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Pa' Milau",
+        "postal_code": "77458"
+    },
+    {
+        "code": 6503172009,
+        "district_code": 650317,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Ba' Liku",
+        "postal_code": "77458"
+    },
+    {
+        "code": 6503172010,
+        "district_code": 650317,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Long Rian",
+        "postal_code": "77458"
+    },
+    {
+        "code": 6503172011,
+        "district_code": 650317,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Pa' Yalau",
+        "postal_code": "77458"
+    },
+    {
+        "code": 6503182001,
+        "district_code": 650318,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Pa' Betung",
+        "postal_code": "77459"
+    },
+    {
+        "code": 6503182002,
+        "district_code": 650318,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Long Sepayang",
+        "postal_code": "77459"
+    },
+    {
+        "code": 6503182003,
+        "district_code": 650318,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Pa' Pawan",
+        "postal_code": "77459"
+    },
+    {
+        "code": 6503182004,
+        "district_code": 650318,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Pa' Melade",
+        "postal_code": "77459"
+    },
+    {
+        "code": 6503182005,
+        "district_code": 650318,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Pa' Kebuan",
+        "postal_code": "77459"
+    },
+    {
+        "code": 6503182006,
+        "district_code": 650318,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Pa' Umung",
+        "postal_code": "77459"
+    },
+    {
+        "code": 6503182007,
+        "district_code": 650318,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Pa' Rangeb",
+        "postal_code": "77459"
+    },
+    {
+        "code": 6503182008,
+        "district_code": 650318,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Long Umung",
+        "postal_code": "77459"
+    },
+    {
+        "code": 6503182009,
+        "district_code": 650318,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Long Tenem",
+        "postal_code": "77459"
+    },
+    {
+        "code": 6503182010,
+        "district_code": 650318,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Long Nuat",
+        "postal_code": "77459"
+    },
+    {
+        "code": 6503182011,
+        "district_code": 650318,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Pa' Pala",
+        "postal_code": "77459"
+    },
+    {
+        "code": 6503182012,
+        "district_code": 650318,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Sinar Baru",
+        "postal_code": "77459"
+    },
+    {
+        "code": 6503182013,
+        "district_code": 650318,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Pa' Lidung",
+        "postal_code": "77459"
+    },
+    {
+        "code": 6503182014,
+        "district_code": 650318,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Pa' Raye",
+        "postal_code": "77459"
+    },
+    {
+        "code": 6503182015,
+        "district_code": 650318,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Bungayan",
+        "postal_code": "77459"
+    },
+    {
+        "code": 6503182016,
+        "district_code": 650318,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Wa' Yagung",
+        "postal_code": "77459"
+    },
+    {
+        "code": 6503182017,
+        "district_code": 650318,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Kampung Baru",
+        "postal_code": "77459"
+    },
+    {
+        "code": 6503192001,
+        "district_code": 650319,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Pa' Mulak",
+        "postal_code": "77455"
+    },
+    {
+        "code": 6503192002,
+        "district_code": 650319,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Long Puak",
+        "postal_code": "77455"
+    },
+    {
+        "code": 6503192003,
+        "district_code": 650319,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Long Mangan",
+        "postal_code": "77455"
+    },
+    {
+        "code": 6503192004,
+        "district_code": 650319,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Buduk Kubul",
+        "postal_code": "77455"
+    },
+    {
+        "code": 6503192005,
+        "district_code": 650319,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Long Kabid",
+        "postal_code": "77455"
+    },
+    {
+        "code": 6503192006,
+        "district_code": 650319,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Pa' Inan",
+        "postal_code": "77455"
+    },
+    {
+        "code": 6503192007,
+        "district_code": 650319,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Lembudud",
+        "postal_code": "77455"
+    },
+    {
+        "code": 6503192008,
+        "district_code": 650319,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Long Tugul",
+        "postal_code": "77455"
+    },
+    {
+        "code": 6503192009,
+        "district_code": 650319,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Pa' Butal",
+        "postal_code": "77455"
+    },
+    {
+        "code": 6503192010,
+        "district_code": 650319,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Pa' Delung",
+        "postal_code": "77455"
+    },
+    {
+        "code": 6503192011,
+        "district_code": 650319,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Pa' Urud",
+        "postal_code": "77455"
+    },
+    {
+        "code": 6503192012,
+        "district_code": 650319,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Pa' Kemut",
+        "postal_code": "77455"
+    },
+    {
+        "code": 6503192013,
+        "district_code": 650319,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Pa' Kidang",
+        "postal_code": "77455"
+    },
+    {
+        "code": 6503192014,
+        "district_code": 650319,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Lembada",
+        "postal_code": "77455"
+    },
+    {
+        "code": 6503192015,
+        "district_code": 650319,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Pa' Payak",
+        "postal_code": "77455"
+    },
+    {
+        "code": 6503192016,
+        "district_code": 650319,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Pa' Pirit",
+        "postal_code": "77455"
+    },
+    {
+        "code": 6503192017,
+        "district_code": 650319,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Liang Aliq",
+        "postal_code": "77455"
+    },
+    {
+        "code": 6503192018,
+        "district_code": 650319,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Sembudud",
+        "postal_code": "77455"
+    },
+    {
+        "code": 6503192019,
+        "district_code": 650319,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Liang Turan",
+        "postal_code": "77455"
+    },
+    {
+        "code": 6503192020,
+        "district_code": 650319,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Liang Bua",
+        "postal_code": "77455"
+    },
+    {
+        "code": 6503192021,
+        "district_code": 650319,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Lepatar",
+        "postal_code": "77455"
+    },
+    {
+        "code": 6503192022,
+        "district_code": 650319,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Pa' Mering",
+        "postal_code": "77455"
+    },
+    {
+        "code": 6503192023,
+        "district_code": 650319,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Pa' Pani",
+        "postal_code": "77455"
+    },
+    {
+        "code": 6503192024,
+        "district_code": 650319,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Pa' Lutut",
+        "postal_code": "77455"
+    },
+    {
+        "code": 6503192025,
+        "district_code": 650319,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Ma' Libu",
+        "postal_code": "77455"
+    },
+    {
+        "code": 6503202001,
+        "district_code": 650320,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Sumentobol",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6503202002,
+        "district_code": 650320,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Nantukidan",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6503202003,
+        "district_code": 650320,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Labang",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6503202004,
+        "district_code": 650320,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Sumantipal",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6503202005,
+        "district_code": 650320,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Ngawol",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6503202006,
+        "district_code": 650320,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Bululaun Hilir",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6503202007,
+        "district_code": 650320,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Lagas",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6503202008,
+        "district_code": 650320,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Panas",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6503202009,
+        "district_code": 650320,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Langgason",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6503202010,
+        "district_code": 650320,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Tantalujuk",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6503202011,
+        "district_code": 650320,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Tambalang Hulu",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6503202012,
+        "district_code": 650320,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Kuyo",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6503202013,
+        "district_code": 650320,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Bokok",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6503212001,
+        "district_code": 650321,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Tau Lumbis",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6503212002,
+        "district_code": 650321,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Lipaga",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6503212003,
+        "district_code": 650321,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Bululaun Hulu",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6503212004,
+        "district_code": 650321,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Kalisun",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6503212005,
+        "district_code": 650321,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Mamasin",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6503212006,
+        "district_code": 650321,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Sibalu",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6503212007,
+        "district_code": 650321,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Duyan",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6503212008,
+        "district_code": 650321,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Tuntulibing",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6503212009,
+        "district_code": 650321,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Tetagas",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6503212010,
+        "district_code": 650321,
+        "regency_code": 6503,
+        "province_code": 65,
+        "name": "Kabungolor",
+        "postal_code": "77450"
+    },
+    {
+        "code": 6504012001,
+        "district_code": 650401,
+        "regency_code": 6504,
+        "province_code": 65,
+        "name": "Tideng Pale",
+        "postal_code": "77151"
+    },
+    {
+        "code": 6504012002,
+        "district_code": 650401,
+        "regency_code": 6504,
+        "province_code": 65,
+        "name": "Limbu Sedulun",
+        "postal_code": "77151"
+    },
+    {
+        "code": 6504012003,
+        "district_code": 650401,
+        "regency_code": 6504,
+        "province_code": 65,
+        "name": "Sebidai",
+        "postal_code": "77151"
+    },
+    {
+        "code": 6504012004,
+        "district_code": 650401,
+        "regency_code": 6504,
+        "province_code": 65,
+        "name": "Sedulun",
+        "postal_code": "77151"
+    },
+    {
+        "code": 6504012005,
+        "district_code": 650401,
+        "regency_code": 6504,
+        "province_code": 65,
+        "name": "Tideng Pale Timur",
+        "postal_code": "77151"
+    },
+    {
+        "code": 6504012006,
+        "district_code": 650401,
+        "regency_code": 6504,
+        "province_code": 65,
+        "name": "Gunawan",
+        "postal_code": "77151"
+    },
+    {
+        "code": 6504012007,
+        "district_code": 650401,
+        "regency_code": 6504,
+        "province_code": 65,
+        "name": "Sebawang",
+        "postal_code": "77151"
+    },
+    {
+        "code": 6504022001,
+        "district_code": 650402,
+        "regency_code": 6504,
+        "province_code": 65,
+        "name": "Sesayap",
+        "postal_code": "77153"
+    },
+    {
+        "code": 6504022002,
+        "district_code": 650402,
+        "regency_code": 6504,
+        "province_code": 65,
+        "name": "Sengkong",
+        "postal_code": "77153"
+    },
+    {
+        "code": 6504022003,
+        "district_code": 650402,
+        "regency_code": 6504,
+        "province_code": 65,
+        "name": "Bebatu",
+        "postal_code": "77153"
+    },
+    {
+        "code": 6504022004,
+        "district_code": 650402,
+        "regency_code": 6504,
+        "province_code": 65,
+        "name": "Bandan Bikis",
+        "postal_code": "77153"
+    },
+    {
+        "code": 6504022005,
+        "district_code": 650402,
+        "regency_code": 6504,
+        "province_code": 65,
+        "name": "Sepala Dalung",
+        "postal_code": "77153"
+    },
+    {
+        "code": 6504022006,
+        "district_code": 650402,
+        "regency_code": 6504,
+        "province_code": 65,
+        "name": "Seludau",
+        "postal_code": "77153"
+    },
+    {
+        "code": 6504022007,
+        "district_code": 650402,
+        "regency_code": 6504,
+        "province_code": 65,
+        "name": "Menjelutung",
+        "postal_code": "77153"
+    },
+    {
+        "code": 6504022008,
+        "district_code": 650402,
+        "regency_code": 6504,
+        "province_code": 65,
+        "name": "Sesayap Selor",
+        "postal_code": "77153"
+    },
+    {
+        "code": 6504032001,
+        "district_code": 650403,
+        "regency_code": 6504,
+        "province_code": 65,
+        "name": "Tanah Merah",
+        "postal_code": "77451"
+    },
+    {
+        "code": 6504032002,
+        "district_code": 650403,
+        "regency_code": 6504,
+        "province_code": 65,
+        "name": "Tengku Dacing",
+        "postal_code": "77451"
+    },
+    {
+        "code": 6504032003,
+        "district_code": 650403,
+        "regency_code": 6504,
+        "province_code": 65,
+        "name": "Sambungan",
+        "postal_code": "77451"
+    },
+    {
+        "code": 6504032004,
+        "district_code": 650403,
+        "regency_code": 6504,
+        "province_code": 65,
+        "name": "Tanah Merah Barat",
+        "postal_code": "77451"
+    },
+    {
+        "code": 6504032005,
+        "district_code": 650403,
+        "regency_code": 6504,
+        "province_code": 65,
+        "name": "Sambungan Selatan",
+        "postal_code": "77451"
+    },
+    {
+        "code": 6504042001,
+        "district_code": 650404,
+        "regency_code": 6504,
+        "province_code": 65,
+        "name": "Buong Baru",
+        "postal_code": "77152"
+    },
+    {
+        "code": 6504042002,
+        "district_code": 650404,
+        "regency_code": 6504,
+        "province_code": 65,
+        "name": "Bebakung",
+        "postal_code": "77152"
+    },
+    {
+        "code": 6504042003,
+        "district_code": 650404,
+        "regency_code": 6504,
+        "province_code": 65,
+        "name": "Kujau",
+        "postal_code": "77152"
+    },
+    {
+        "code": 6504042004,
+        "district_code": 650404,
+        "regency_code": 6504,
+        "province_code": 65,
+        "name": "Mendupo",
+        "postal_code": "77152"
+    },
+    {
+        "code": 6504042005,
+        "district_code": 650404,
+        "regency_code": 6504,
+        "province_code": 65,
+        "name": "Maning",
+        "postal_code": "77152"
+    },
+    {
+        "code": 6504042006,
+        "district_code": 650404,
+        "regency_code": 6504,
+        "province_code": 65,
+        "name": "Periuk",
+        "postal_code": "77152"
+    },
+    {
+        "code": 6504052001,
+        "district_code": 650405,
+        "regency_code": 6504,
+        "province_code": 65,
+        "name": "Seputuk",
+        "postal_code": "77154"
+    },
+    {
+        "code": 6504052002,
+        "district_code": 650405,
+        "regency_code": 6504,
+        "province_code": 65,
+        "name": "Rian",
+        "postal_code": "77154"
+    },
+    {
+        "code": 6504052003,
+        "district_code": 650405,
+        "regency_code": 6504,
+        "province_code": 65,
+        "name": "Balayan Ari",
+        "postal_code": "77154"
+    },
+    {
+        "code": 6504052004,
+        "district_code": 650405,
+        "regency_code": 6504,
+        "province_code": 65,
+        "name": "Rian Rayo",
+        "postal_code": "77154"
+    },
+    {
+        "code": 6504052005,
+        "district_code": 650405,
+        "regency_code": 6504,
+        "province_code": 65,
+        "name": "Kapuak",
+        "postal_code": "77154"
+    },
+    {
+        "code": 6504052006,
+        "district_code": 650405,
+        "regency_code": 6504,
+        "province_code": 65,
+        "name": "Sapari",
+        "postal_code": "77154"
+    },
+    {
+        "code": 6571011001,
+        "district_code": 657101,
+        "regency_code": 6571,
+        "province_code": 65,
+        "name": "Karang Anyar",
+        "postal_code": "77111"
+    },
+    {
+        "code": 6571011002,
+        "district_code": 657101,
+        "regency_code": 6571,
+        "province_code": 65,
+        "name": "Karang Rejo",
+        "postal_code": "77112"
+    },
+    {
+        "code": 6571011003,
+        "district_code": 657101,
+        "regency_code": 6571,
+        "province_code": 65,
+        "name": "Karang Anyar Pantai",
+        "postal_code": "77111"
+    },
+    {
+        "code": 6571011004,
+        "district_code": 657101,
+        "regency_code": 6571,
+        "province_code": 65,
+        "name": "Karang Balik",
+        "postal_code": "77112"
+    },
+    {
+        "code": 6571011005,
+        "district_code": 657101,
+        "regency_code": 6571,
+        "province_code": 65,
+        "name": "Karang Harapan",
+        "postal_code": "77111"
+    },
+    {
+        "code": 6571021001,
+        "district_code": 657102,
+        "regency_code": 6571,
+        "province_code": 65,
+        "name": "Kampung I Skip",
+        "postal_code": "77113"
+    },
+    {
+        "code": 6571021002,
+        "district_code": 657102,
+        "regency_code": 6571,
+        "province_code": 65,
+        "name": "Pamusian",
+        "postal_code": "77113"
+    },
+    {
+        "code": 6571021003,
+        "district_code": 657102,
+        "regency_code": 6571,
+        "province_code": 65,
+        "name": "Sebengkok",
+        "postal_code": "77114"
+    },
+    {
+        "code": 6571021004,
+        "district_code": 657102,
+        "regency_code": 6571,
+        "province_code": 65,
+        "name": "Selumit",
+        "postal_code": "77113"
+    },
+    {
+        "code": 6571021005,
+        "district_code": 657102,
+        "regency_code": 6571,
+        "province_code": 65,
+        "name": "Selumit Pantai",
+        "postal_code": "77113"
+    },
+    {
+        "code": 6571031001,
+        "district_code": 657103,
+        "regency_code": 6571,
+        "province_code": 65,
+        "name": "Lingkas Ujung",
+        "postal_code": "77126"
+    },
+    {
+        "code": 6571031002,
+        "district_code": 657103,
+        "regency_code": 6571,
+        "province_code": 65,
+        "name": "Gunung Lingkas",
+        "postal_code": "77115"
+    },
+    {
+        "code": 6571031003,
+        "district_code": 657103,
+        "regency_code": 6571,
+        "province_code": 65,
+        "name": "Kampung Empat",
+        "postal_code": "77124"
+    },
+    {
+        "code": 6571031004,
+        "district_code": 657103,
+        "regency_code": 6571,
+        "province_code": 65,
+        "name": "Kampung Enam",
+        "postal_code": "77123"
+    },
+    {
+        "code": 6571031005,
+        "district_code": 657103,
+        "regency_code": 6571,
+        "province_code": 65,
+        "name": "Mamburungan",
+        "postal_code": "77125"
+    },
+    {
+        "code": 6571031006,
+        "district_code": 657103,
+        "regency_code": 6571,
+        "province_code": 65,
+        "name": "Pantai Amal",
+        "postal_code": "77115"
+    },
+    {
+        "code": 6571031007,
+        "district_code": 657103,
+        "regency_code": 6571,
+        "province_code": 65,
+        "name": "Mamburungan Timur",
+        "postal_code": "77115"
+    },
+    {
+        "code": 6571041001,
+        "district_code": 657104,
+        "regency_code": 6571,
+        "province_code": 65,
+        "name": "Juata Laut",
+        "postal_code": "77116"
+    },
+    {
+        "code": 6571041002,
+        "district_code": 657104,
+        "regency_code": 6571,
+        "province_code": 65,
+        "name": "Juata Permai",
+        "postal_code": "77116"
+    },
+    {
+        "code": 6571041003,
+        "district_code": 657104,
+        "regency_code": 6571,
+        "province_code": 65,
+        "name": "Juata Kerikil",
+        "postal_code": "77116"
+    }
+]

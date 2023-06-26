@@ -1,0 +1,3506 @@
+[
+    {
+        "code": 3401012001,
+        "district_code": 340101,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Jangkaran",
+        "postal_code": "55654"
+    },
+    {
+        "code": 3401012002,
+        "district_code": 340101,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Sindutan",
+        "postal_code": "55654"
+    },
+    {
+        "code": 3401012003,
+        "district_code": 340101,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Palihan",
+        "postal_code": "55654"
+    },
+    {
+        "code": 3401012004,
+        "district_code": 340101,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Glagah",
+        "postal_code": "55654"
+    },
+    {
+        "code": 3401012005,
+        "district_code": 340101,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Kalidengen",
+        "postal_code": "55654"
+    },
+    {
+        "code": 3401012006,
+        "district_code": 340101,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Plumbon",
+        "postal_code": "55654"
+    },
+    {
+        "code": 3401012007,
+        "district_code": 340101,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Kedundang",
+        "postal_code": "55654"
+    },
+    {
+        "code": 3401012008,
+        "district_code": 340101,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Demen",
+        "postal_code": "55654"
+    },
+    {
+        "code": 3401012009,
+        "district_code": 340101,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Kulur",
+        "postal_code": "55654"
+    },
+    {
+        "code": 3401012010,
+        "district_code": 340101,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Kaligintung",
+        "postal_code": "55654"
+    },
+    {
+        "code": 3401012011,
+        "district_code": 340101,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Temon Wetan",
+        "postal_code": "55654"
+    },
+    {
+        "code": 3401012012,
+        "district_code": 340101,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Temon Kulon",
+        "postal_code": "55654"
+    },
+    {
+        "code": 3401012013,
+        "district_code": 340101,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Kebonrejo",
+        "postal_code": "55654"
+    },
+    {
+        "code": 3401012014,
+        "district_code": 340101,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Janten",
+        "postal_code": "55654"
+    },
+    {
+        "code": 3401012015,
+        "district_code": 340101,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Karangwuluh",
+        "postal_code": "55654"
+    },
+    {
+        "code": 3401021008,
+        "district_code": 340102,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Wates",
+        "postal_code": "55651"
+    },
+    {
+        "code": 3401022001,
+        "district_code": 340102,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Karangwuni",
+        "postal_code": "55651"
+    },
+    {
+        "code": 3401022002,
+        "district_code": 340102,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Sogan",
+        "postal_code": "55651"
+    },
+    {
+        "code": 3401022003,
+        "district_code": 340102,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Kulwaru",
+        "postal_code": "55651"
+    },
+    {
+        "code": 3401022004,
+        "district_code": 340102,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Ngestiharjo",
+        "postal_code": "55651"
+    },
+    {
+        "code": 3401022005,
+        "district_code": 340102,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Bendungan",
+        "postal_code": "55651"
+    },
+    {
+        "code": 3401022006,
+        "district_code": 340102,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Triharjo",
+        "postal_code": "55651"
+    },
+    {
+        "code": 3401022007,
+        "district_code": 340102,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Giripeni",
+        "postal_code": "55651"
+    },
+    {
+        "code": 3401032001,
+        "district_code": 340103,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Garongan",
+        "postal_code": "55655"
+    },
+    {
+        "code": 3401032002,
+        "district_code": 340103,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Pleret",
+        "postal_code": "55655"
+    },
+    {
+        "code": 3401032003,
+        "district_code": 340103,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Bugel",
+        "postal_code": "55655"
+    },
+    {
+        "code": 3401032004,
+        "district_code": 340103,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Kanoman",
+        "postal_code": "55655"
+    },
+    {
+        "code": 3401032005,
+        "district_code": 340103,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Depok",
+        "postal_code": "55655"
+    },
+    {
+        "code": 3401032006,
+        "district_code": 340103,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Bojong",
+        "postal_code": "55655"
+    },
+    {
+        "code": 3401032007,
+        "district_code": 340103,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Tayuban",
+        "postal_code": "55655"
+    },
+    {
+        "code": 3401032008,
+        "district_code": 340103,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Gotakan",
+        "postal_code": "55655"
+    },
+    {
+        "code": 3401032009,
+        "district_code": 340103,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Panjatan",
+        "postal_code": "55655"
+    },
+    {
+        "code": 3401032010,
+        "district_code": 340103,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Cerme",
+        "postal_code": "55655"
+    },
+    {
+        "code": 3401032011,
+        "district_code": 340103,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Krembangan",
+        "postal_code": "55655"
+    },
+    {
+        "code": 3401042001,
+        "district_code": 340104,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Banaran",
+        "postal_code": "55661"
+    },
+    {
+        "code": 3401042002,
+        "district_code": 340104,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Kranggan",
+        "postal_code": "55661"
+    },
+    {
+        "code": 3401042003,
+        "district_code": 340104,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Nomporejo",
+        "postal_code": "55661"
+    },
+    {
+        "code": 3401042004,
+        "district_code": 340104,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Karangsewu",
+        "postal_code": "55661"
+    },
+    {
+        "code": 3401042005,
+        "district_code": 340104,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Tirtorahayu",
+        "postal_code": "55661"
+    },
+    {
+        "code": 3401042006,
+        "district_code": 340104,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Pandowan",
+        "postal_code": "55661"
+    },
+    {
+        "code": 3401042007,
+        "district_code": 340104,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Brosot",
+        "postal_code": "55661"
+    },
+    {
+        "code": 3401052001,
+        "district_code": 340105,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Wahyuharjo",
+        "postal_code": "55663"
+    },
+    {
+        "code": 3401052002,
+        "district_code": 340105,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Bumirejo",
+        "postal_code": "55663"
+    },
+    {
+        "code": 3401052003,
+        "district_code": 340105,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Jatirejo",
+        "postal_code": "55663"
+    },
+    {
+        "code": 3401052004,
+        "district_code": 340105,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Sidorejo",
+        "postal_code": "55663"
+    },
+    {
+        "code": 3401052005,
+        "district_code": 340105,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Gulurejo",
+        "postal_code": "55663"
+    },
+    {
+        "code": 3401052006,
+        "district_code": 340105,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Ngentakrejo",
+        "postal_code": "55663"
+    },
+    {
+        "code": 3401062001,
+        "district_code": 340106,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Demangrejo",
+        "postal_code": "55664"
+    },
+    {
+        "code": 3401062002,
+        "district_code": 340106,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Srikayangan",
+        "postal_code": "55664"
+    },
+    {
+        "code": 3401062003,
+        "district_code": 340106,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Tuksono",
+        "postal_code": "55664"
+    },
+    {
+        "code": 3401062004,
+        "district_code": 340106,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Salamrejo",
+        "postal_code": "55664"
+    },
+    {
+        "code": 3401062005,
+        "district_code": 340106,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Sukoreno",
+        "postal_code": "55664"
+    },
+    {
+        "code": 3401062006,
+        "district_code": 340106,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Kaliagung",
+        "postal_code": "55664"
+    },
+    {
+        "code": 3401062007,
+        "district_code": 340106,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Sentolo",
+        "postal_code": "55664"
+    },
+    {
+        "code": 3401062008,
+        "district_code": 340106,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Banguncipto",
+        "postal_code": "55664"
+    },
+    {
+        "code": 3401072001,
+        "district_code": 340107,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Tawangsari",
+        "postal_code": "55652"
+    },
+    {
+        "code": 3401072002,
+        "district_code": 340107,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Karangsari",
+        "postal_code": "55652"
+    },
+    {
+        "code": 3401072003,
+        "district_code": 340107,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Kedungsari",
+        "postal_code": "55652"
+    },
+    {
+        "code": 3401072004,
+        "district_code": 340107,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Margosari",
+        "postal_code": "55652"
+    },
+    {
+        "code": 3401072005,
+        "district_code": 340107,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Pengasih",
+        "postal_code": "55652"
+    },
+    {
+        "code": 3401072006,
+        "district_code": 340107,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Sendangsari",
+        "postal_code": "55652"
+    },
+    {
+        "code": 3401072007,
+        "district_code": 340107,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Sidomulyo",
+        "postal_code": "55652"
+    },
+    {
+        "code": 3401082001,
+        "district_code": 340108,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Hargomulyo",
+        "postal_code": "55653"
+    },
+    {
+        "code": 3401082002,
+        "district_code": 340108,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Hargorejo",
+        "postal_code": "55653"
+    },
+    {
+        "code": 3401082003,
+        "district_code": 340108,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Hargowilis",
+        "postal_code": "55653"
+    },
+    {
+        "code": 3401082004,
+        "district_code": 340108,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Kalirejo",
+        "postal_code": "55653"
+    },
+    {
+        "code": 3401082005,
+        "district_code": 340108,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Hargotirto",
+        "postal_code": "55653"
+    },
+    {
+        "code": 3401092001,
+        "district_code": 340109,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Jatimulyo",
+        "postal_code": "55674"
+    },
+    {
+        "code": 3401092002,
+        "district_code": 340109,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Giripurwo",
+        "postal_code": "55674"
+    },
+    {
+        "code": 3401092003,
+        "district_code": 340109,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Pendoworejo",
+        "postal_code": "55674"
+    },
+    {
+        "code": 3401092004,
+        "district_code": 340109,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Purwosari",
+        "postal_code": "55674"
+    },
+    {
+        "code": 3401102001,
+        "district_code": 340110,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Banyuroto",
+        "postal_code": "55671"
+    },
+    {
+        "code": 3401102002,
+        "district_code": 340110,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Donomulyo",
+        "postal_code": "55671"
+    },
+    {
+        "code": 3401102003,
+        "district_code": 340110,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Wijimulyo",
+        "postal_code": "55671"
+    },
+    {
+        "code": 3401102004,
+        "district_code": 340110,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Tanjungharjo",
+        "postal_code": "55671"
+    },
+    {
+        "code": 3401102005,
+        "district_code": 340110,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Jatisarono",
+        "postal_code": "55671"
+    },
+    {
+        "code": 3401102006,
+        "district_code": 340110,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Kembang",
+        "postal_code": "55671"
+    },
+    {
+        "code": 3401112001,
+        "district_code": 340111,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Kebonharjo",
+        "postal_code": "55673"
+    },
+    {
+        "code": 3401112002,
+        "district_code": 340111,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Banjarsari",
+        "postal_code": "55673"
+    },
+    {
+        "code": 3401112003,
+        "district_code": 340111,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Purwoharjo",
+        "postal_code": "55673"
+    },
+    {
+        "code": 3401112004,
+        "district_code": 340111,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Sidoharjo",
+        "postal_code": "55673"
+    },
+    {
+        "code": 3401112005,
+        "district_code": 340111,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Gerbosari",
+        "postal_code": "55673"
+    },
+    {
+        "code": 3401112006,
+        "district_code": 340111,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Ngargosari",
+        "postal_code": "55673"
+    },
+    {
+        "code": 3401112007,
+        "district_code": 340111,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Pagerharjo",
+        "postal_code": "55673"
+    },
+    {
+        "code": 3401122001,
+        "district_code": 340112,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Banjararum",
+        "postal_code": "55672"
+    },
+    {
+        "code": 3401122002,
+        "district_code": 340112,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Banjarasri",
+        "postal_code": "55672"
+    },
+    {
+        "code": 3401122003,
+        "district_code": 340112,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Banjarharjo",
+        "postal_code": "55672"
+    },
+    {
+        "code": 3401122004,
+        "district_code": 340112,
+        "regency_code": 3401,
+        "province_code": 34,
+        "name": "Banjaroyo",
+        "postal_code": "55672"
+    },
+    {
+        "code": 3402012001,
+        "district_code": 340201,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Poncosari",
+        "postal_code": "55762"
+    },
+    {
+        "code": 3402012002,
+        "district_code": 340201,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Trimurti",
+        "postal_code": "55762"
+    },
+    {
+        "code": 3402022001,
+        "district_code": 340202,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Gadingsari",
+        "postal_code": "55763"
+    },
+    {
+        "code": 3402022002,
+        "district_code": 340202,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Gadingharjo",
+        "postal_code": "55763"
+    },
+    {
+        "code": 3402022003,
+        "district_code": 340202,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Srigading",
+        "postal_code": "55763"
+    },
+    {
+        "code": 3402022004,
+        "district_code": 340202,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Murtigading",
+        "postal_code": "55763"
+    },
+    {
+        "code": 3402032001,
+        "district_code": 340203,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Tirtomulyo",
+        "postal_code": "55772"
+    },
+    {
+        "code": 3402032002,
+        "district_code": 340203,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Parangtritis",
+        "postal_code": "55772"
+    },
+    {
+        "code": 3402032003,
+        "district_code": 340203,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Donotirto",
+        "postal_code": "55772"
+    },
+    {
+        "code": 3402032004,
+        "district_code": 340203,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Tirtosari",
+        "postal_code": "55772"
+    },
+    {
+        "code": 3402032005,
+        "district_code": 340203,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Tirtohargo",
+        "postal_code": "55772"
+    },
+    {
+        "code": 3402042001,
+        "district_code": 340204,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Seloharjo",
+        "postal_code": "55771"
+    },
+    {
+        "code": 3402042002,
+        "district_code": 340204,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Panjangrejo",
+        "postal_code": "55771"
+    },
+    {
+        "code": 3402042003,
+        "district_code": 340204,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Srihardono",
+        "postal_code": "55771"
+    },
+    {
+        "code": 3402052001,
+        "district_code": 340205,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Sidomulyo",
+        "postal_code": "55764"
+    },
+    {
+        "code": 3402052002,
+        "district_code": 340205,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Mulyodadi",
+        "postal_code": "55764"
+    },
+    {
+        "code": 3402052003,
+        "district_code": 340205,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Sumbermulyo",
+        "postal_code": "55764"
+    },
+    {
+        "code": 3402062001,
+        "district_code": 340206,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Catuharjo",
+        "postal_code": "55761"
+    },
+    {
+        "code": 3402062002,
+        "district_code": 340206,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Triharjo",
+        "postal_code": "55761"
+    },
+    {
+        "code": 3402062003,
+        "district_code": 340206,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Gilangharjo",
+        "postal_code": "55761"
+    },
+    {
+        "code": 3402062004,
+        "district_code": 340206,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Wijirejo",
+        "postal_code": "55761"
+    },
+    {
+        "code": 3402072001,
+        "district_code": 340207,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Triwidadi",
+        "postal_code": "55751"
+    },
+    {
+        "code": 3402072002,
+        "district_code": 340207,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Sendangsari",
+        "postal_code": "55751"
+    },
+    {
+        "code": 3402072003,
+        "district_code": 340207,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Guwosari",
+        "postal_code": "55751"
+    },
+    {
+        "code": 3402082001,
+        "district_code": 340208,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Palbapang",
+        "postal_code": "55713"
+    },
+    {
+        "code": 3402082002,
+        "district_code": 340208,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Ringinharjo",
+        "postal_code": "55712"
+    },
+    {
+        "code": 3402082003,
+        "district_code": 340208,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Bantul",
+        "postal_code": "55711"
+    },
+    {
+        "code": 3402082004,
+        "district_code": 340208,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Trirenggo",
+        "postal_code": "55714"
+    },
+    {
+        "code": 3402082005,
+        "district_code": 340208,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Sabdodadi",
+        "postal_code": "55715"
+    },
+    {
+        "code": 3402092001,
+        "district_code": 340209,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Patalan",
+        "postal_code": "55781"
+    },
+    {
+        "code": 3402092002,
+        "district_code": 340209,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Canden",
+        "postal_code": "55781"
+    },
+    {
+        "code": 3402092003,
+        "district_code": 340209,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Sumberagung",
+        "postal_code": "55781"
+    },
+    {
+        "code": 3402092004,
+        "district_code": 340209,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Trimulyo",
+        "postal_code": "55781"
+    },
+    {
+        "code": 3402102001,
+        "district_code": 340210,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Selopamioro",
+        "postal_code": "55782"
+    },
+    {
+        "code": 3402102002,
+        "district_code": 340210,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Sriharjo",
+        "postal_code": "55782"
+    },
+    {
+        "code": 3402102003,
+        "district_code": 340210,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Wukirsari",
+        "postal_code": "55782"
+    },
+    {
+        "code": 3402102004,
+        "district_code": 340210,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Kebonagung",
+        "postal_code": "55782"
+    },
+    {
+        "code": 3402102005,
+        "district_code": 340210,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Karangtengah",
+        "postal_code": "55782"
+    },
+    {
+        "code": 3402102006,
+        "district_code": 340210,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Girirejo",
+        "postal_code": "55782"
+    },
+    {
+        "code": 3402102007,
+        "district_code": 340210,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Karangtalun",
+        "postal_code": "55782"
+    },
+    {
+        "code": 3402102008,
+        "district_code": 340210,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Imogiri",
+        "postal_code": "55782"
+    },
+    {
+        "code": 3402112001,
+        "district_code": 340211,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Mangunan",
+        "postal_code": "55783"
+    },
+    {
+        "code": 3402112002,
+        "district_code": 340211,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Muntuk",
+        "postal_code": "55783"
+    },
+    {
+        "code": 3402112003,
+        "district_code": 340211,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Dlingo",
+        "postal_code": "55783"
+    },
+    {
+        "code": 3402112004,
+        "district_code": 340211,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Temuwuh",
+        "postal_code": "55783"
+    },
+    {
+        "code": 3402112005,
+        "district_code": 340211,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Terong",
+        "postal_code": "55783"
+    },
+    {
+        "code": 3402112006,
+        "district_code": 340211,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Jatimulyo",
+        "postal_code": "55783"
+    },
+    {
+        "code": 3402122001,
+        "district_code": 340212,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Baturetno",
+        "postal_code": "55197"
+    },
+    {
+        "code": 3402122002,
+        "district_code": 340212,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Banguntapan",
+        "postal_code": "55198"
+    },
+    {
+        "code": 3402122003,
+        "district_code": 340212,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Jagalan",
+        "postal_code": "55192"
+    },
+    {
+        "code": 3402122004,
+        "district_code": 340212,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Singosaren",
+        "postal_code": "55193"
+    },
+    {
+        "code": 3402122005,
+        "district_code": 340212,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Jambidan",
+        "postal_code": "55195"
+    },
+    {
+        "code": 3402122006,
+        "district_code": 340212,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Potorono",
+        "postal_code": "55196"
+    },
+    {
+        "code": 3402122007,
+        "district_code": 340212,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Tamanan",
+        "postal_code": "55191"
+    },
+    {
+        "code": 3402122008,
+        "district_code": 340212,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Wirokerten",
+        "postal_code": "55194"
+    },
+    {
+        "code": 3402132001,
+        "district_code": 340213,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Wonokromo",
+        "postal_code": "55791"
+    },
+    {
+        "code": 3402132002,
+        "district_code": 340213,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Pleret",
+        "postal_code": "55791"
+    },
+    {
+        "code": 3402132003,
+        "district_code": 340213,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Segoroyoso",
+        "postal_code": "55791"
+    },
+    {
+        "code": 3402132004,
+        "district_code": 340213,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Bawuran",
+        "postal_code": "55791"
+    },
+    {
+        "code": 3402132005,
+        "district_code": 340213,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Wonolelo",
+        "postal_code": "55791"
+    },
+    {
+        "code": 3402142001,
+        "district_code": 340214,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Sitimulyo",
+        "postal_code": "55792"
+    },
+    {
+        "code": 3402142002,
+        "district_code": 340214,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Srimulyo",
+        "postal_code": "55792"
+    },
+    {
+        "code": 3402142003,
+        "district_code": 340214,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Srimartani",
+        "postal_code": "55792"
+    },
+    {
+        "code": 3402152001,
+        "district_code": 340215,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Pendowoharjo",
+        "postal_code": "55185"
+    },
+    {
+        "code": 3402152002,
+        "district_code": 340215,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Timbulharjo",
+        "postal_code": "55186"
+    },
+    {
+        "code": 3402152003,
+        "district_code": 340215,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Bangunharjo",
+        "postal_code": "55188"
+    },
+    {
+        "code": 3402152004,
+        "district_code": 340215,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Panggungharjo",
+        "postal_code": "55188"
+    },
+    {
+        "code": 3402162001,
+        "district_code": 340216,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Bangunjiwo",
+        "postal_code": "55184"
+    },
+    {
+        "code": 3402162002,
+        "district_code": 340216,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Tirtonirmolo",
+        "postal_code": "55181"
+    },
+    {
+        "code": 3402162003,
+        "district_code": 340216,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Tamantirto",
+        "postal_code": "55183"
+    },
+    {
+        "code": 3402162004,
+        "district_code": 340216,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Ngestiharjo",
+        "postal_code": "55182"
+    },
+    {
+        "code": 3402172001,
+        "district_code": 340217,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Argodadi",
+        "postal_code": "55752"
+    },
+    {
+        "code": 3402172002,
+        "district_code": 340217,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Argorejo",
+        "postal_code": "55752"
+    },
+    {
+        "code": 3402172003,
+        "district_code": 340217,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Argosari",
+        "postal_code": "55752"
+    },
+    {
+        "code": 3402172004,
+        "district_code": 340217,
+        "regency_code": 3402,
+        "province_code": 34,
+        "name": "Argomulyo",
+        "postal_code": "55752"
+    },
+    {
+        "code": 3403012001,
+        "district_code": 340301,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Wonosari",
+        "postal_code": "55851"
+    },
+    {
+        "code": 3403012002,
+        "district_code": 340301,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Kepek",
+        "postal_code": "55813"
+    },
+    {
+        "code": 3403012003,
+        "district_code": 340301,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Piyaman",
+        "postal_code": "55851"
+    },
+    {
+        "code": 3403012004,
+        "district_code": 340301,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Gari",
+        "postal_code": "55851"
+    },
+    {
+        "code": 3403012005,
+        "district_code": 340301,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Karangtengah",
+        "postal_code": "55851"
+    },
+    {
+        "code": 3403012006,
+        "district_code": 340301,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Selang",
+        "postal_code": "55851"
+    },
+    {
+        "code": 3403012007,
+        "district_code": 340301,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Baleharjo",
+        "postal_code": "55811"
+    },
+    {
+        "code": 3403012008,
+        "district_code": 340301,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Siraman",
+        "postal_code": "55851"
+    },
+    {
+        "code": 3403012009,
+        "district_code": 340301,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Pulutan",
+        "postal_code": "55851"
+    },
+    {
+        "code": 3403012010,
+        "district_code": 340301,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Wareng",
+        "postal_code": "55851"
+    },
+    {
+        "code": 3403012011,
+        "district_code": 340301,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Duwet",
+        "postal_code": "55851"
+    },
+    {
+        "code": 3403012012,
+        "district_code": 340301,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Mulo",
+        "postal_code": "55851"
+    },
+    {
+        "code": 3403012013,
+        "district_code": 340301,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Wunung",
+        "postal_code": "55851"
+    },
+    {
+        "code": 3403012014,
+        "district_code": 340301,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Karangrejek",
+        "postal_code": "55851"
+    },
+    {
+        "code": 3403022001,
+        "district_code": 340302,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Natah",
+        "postal_code": "55852"
+    },
+    {
+        "code": 3403022002,
+        "district_code": 340302,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Pilangrejo",
+        "postal_code": "55852"
+    },
+    {
+        "code": 3403022003,
+        "district_code": 340302,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Kedungpoh",
+        "postal_code": "55852"
+    },
+    {
+        "code": 3403022004,
+        "district_code": 340302,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Pengkol",
+        "postal_code": "55852"
+    },
+    {
+        "code": 3403022005,
+        "district_code": 340302,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Kedungkeris",
+        "postal_code": "55852"
+    },
+    {
+        "code": 3403022006,
+        "district_code": 340302,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Nglipar",
+        "postal_code": "55852"
+    },
+    {
+        "code": 3403022007,
+        "district_code": 340302,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Katongan",
+        "postal_code": "55852"
+    },
+    {
+        "code": 3403032001,
+        "district_code": 340303,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Banyusoco",
+        "postal_code": "55861"
+    },
+    {
+        "code": 3403032002,
+        "district_code": 340303,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Plembutan",
+        "postal_code": "55861"
+    },
+    {
+        "code": 3403032003,
+        "district_code": 340303,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Bleberan",
+        "postal_code": "55861"
+    },
+    {
+        "code": 3403032004,
+        "district_code": 340303,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Getas",
+        "postal_code": "55861"
+    },
+    {
+        "code": 3403032005,
+        "district_code": 340303,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Dengok",
+        "postal_code": "55861"
+    },
+    {
+        "code": 3403032006,
+        "district_code": 340303,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Ngunut",
+        "postal_code": "55861"
+    },
+    {
+        "code": 3403032007,
+        "district_code": 340303,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Playen",
+        "postal_code": "55861"
+    },
+    {
+        "code": 3403032008,
+        "district_code": 340303,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Ngawu",
+        "postal_code": "55861"
+    },
+    {
+        "code": 3403032009,
+        "district_code": 340303,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Bandung",
+        "postal_code": "55861"
+    },
+    {
+        "code": 3403032010,
+        "district_code": 340303,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Logandeng",
+        "postal_code": "55861"
+    },
+    {
+        "code": 3403032011,
+        "district_code": 340303,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Gading",
+        "postal_code": "55861"
+    },
+    {
+        "code": 3403032012,
+        "district_code": 340303,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Banaran",
+        "postal_code": "55861"
+    },
+    {
+        "code": 3403032013,
+        "district_code": 340303,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Ngleri",
+        "postal_code": "55861"
+    },
+    {
+        "code": 3403042001,
+        "district_code": 340304,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Bunder",
+        "postal_code": "55862"
+    },
+    {
+        "code": 3403042002,
+        "district_code": 340304,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Beji",
+        "postal_code": "55862"
+    },
+    {
+        "code": 3403042003,
+        "district_code": 340304,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Pengkok",
+        "postal_code": "55862"
+    },
+    {
+        "code": 3403042004,
+        "district_code": 340304,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Semoyo",
+        "postal_code": "55862"
+    },
+    {
+        "code": 3403042005,
+        "district_code": 340304,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Salam",
+        "postal_code": "55862"
+    },
+    {
+        "code": 3403042006,
+        "district_code": 340304,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Patuk",
+        "postal_code": "55862"
+    },
+    {
+        "code": 3403042007,
+        "district_code": 340304,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Ngoro-oro",
+        "postal_code": "55862"
+    },
+    {
+        "code": 3403042008,
+        "district_code": 340304,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Nglanggeran",
+        "postal_code": "55862"
+    },
+    {
+        "code": 3403042009,
+        "district_code": 340304,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Putat",
+        "postal_code": "55862"
+    },
+    {
+        "code": 3403042010,
+        "district_code": 340304,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Nglegi",
+        "postal_code": "55862"
+    },
+    {
+        "code": 3403042011,
+        "district_code": 340304,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Terbah",
+        "postal_code": "55862"
+    },
+    {
+        "code": 3403052001,
+        "district_code": 340305,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Sodo",
+        "postal_code": "55871"
+    },
+    {
+        "code": 3403052002,
+        "district_code": 340305,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Pampang",
+        "postal_code": "55871"
+    },
+    {
+        "code": 3403052003,
+        "district_code": 340305,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Grogol",
+        "postal_code": "55871"
+    },
+    {
+        "code": 3403052004,
+        "district_code": 340305,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Karangduwet",
+        "postal_code": "55871"
+    },
+    {
+        "code": 3403052005,
+        "district_code": 340305,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Karangasem",
+        "postal_code": "55871"
+    },
+    {
+        "code": 3403052006,
+        "district_code": 340305,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Mulusan",
+        "postal_code": "55871"
+    },
+    {
+        "code": 3403052007,
+        "district_code": 340305,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Giring",
+        "postal_code": "55871"
+    },
+    {
+        "code": 3403062001,
+        "district_code": 340306,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Girikarto",
+        "postal_code": "55872"
+    },
+    {
+        "code": 3403062002,
+        "district_code": 340306,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Girisekar",
+        "postal_code": "55872"
+    },
+    {
+        "code": 3403062003,
+        "district_code": 340306,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Girimulyo",
+        "postal_code": "55872"
+    },
+    {
+        "code": 3403062004,
+        "district_code": 340306,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Giriwungu",
+        "postal_code": "55872"
+    },
+    {
+        "code": 3403062005,
+        "district_code": 340306,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Giriharjo",
+        "postal_code": "55872"
+    },
+    {
+        "code": 3403062006,
+        "district_code": 340306,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Girisuko",
+        "postal_code": "55872"
+    },
+    {
+        "code": 3403072001,
+        "district_code": 340307,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Giripanggung",
+        "postal_code": "55882"
+    },
+    {
+        "code": 3403072002,
+        "district_code": 340307,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Sumberwungu",
+        "postal_code": "55882"
+    },
+    {
+        "code": 3403072003,
+        "district_code": 340307,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Sidoharjo",
+        "postal_code": "55882"
+    },
+    {
+        "code": 3403072004,
+        "district_code": 340307,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Tepus",
+        "postal_code": "55882"
+    },
+    {
+        "code": 3403072005,
+        "district_code": 340307,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Purwodadi",
+        "postal_code": "55882"
+    },
+    {
+        "code": 3403082001,
+        "district_code": 340308,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Ngeposari",
+        "postal_code": "55893"
+    },
+    {
+        "code": 3403082002,
+        "district_code": 340308,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Semanu",
+        "postal_code": "55893"
+    },
+    {
+        "code": 3403082003,
+        "district_code": 340308,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Pacarejo",
+        "postal_code": "55893"
+    },
+    {
+        "code": 3403082004,
+        "district_code": 340308,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Candirejo",
+        "postal_code": "55893"
+    },
+    {
+        "code": 3403082005,
+        "district_code": 340308,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Dadapayu",
+        "postal_code": "55893"
+    },
+    {
+        "code": 3403092001,
+        "district_code": 340309,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Bejiharjo",
+        "postal_code": "55891"
+    },
+    {
+        "code": 3403092002,
+        "district_code": 340309,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Wiladeg",
+        "postal_code": "55891"
+    },
+    {
+        "code": 3403092003,
+        "district_code": 340309,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Bendungan",
+        "postal_code": "55891"
+    },
+    {
+        "code": 3403092004,
+        "district_code": 340309,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Kelor",
+        "postal_code": "55891"
+    },
+    {
+        "code": 3403092005,
+        "district_code": 340309,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Ngipak",
+        "postal_code": "55891"
+    },
+    {
+        "code": 3403092006,
+        "district_code": 340309,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Karangmojo",
+        "postal_code": "55891"
+    },
+    {
+        "code": 3403092007,
+        "district_code": 340309,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Gedangrejo",
+        "postal_code": "55891"
+    },
+    {
+        "code": 3403092008,
+        "district_code": 340309,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Ngawis",
+        "postal_code": "55891"
+    },
+    {
+        "code": 3403092009,
+        "district_code": 340309,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Jatiayu",
+        "postal_code": "55891"
+    },
+    {
+        "code": 3403102001,
+        "district_code": 340310,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Umbulrejo",
+        "postal_code": "55892"
+    },
+    {
+        "code": 3403102002,
+        "district_code": 340310,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Sawahan",
+        "postal_code": "55892"
+    },
+    {
+        "code": 3403102003,
+        "district_code": 340310,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Tambakromo",
+        "postal_code": "55892"
+    },
+    {
+        "code": 3403102004,
+        "district_code": 340310,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Kenteng",
+        "postal_code": "55892"
+    },
+    {
+        "code": 3403102005,
+        "district_code": 340310,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Sumbergiri",
+        "postal_code": "55892"
+    },
+    {
+        "code": 3403102006,
+        "district_code": 340310,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Genjahan",
+        "postal_code": "55892"
+    },
+    {
+        "code": 3403102007,
+        "district_code": 340310,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Ponjong",
+        "postal_code": "55892"
+    },
+    {
+        "code": 3403102008,
+        "district_code": 340310,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Karangasem",
+        "postal_code": "55892"
+    },
+    {
+        "code": 3403102009,
+        "district_code": 340310,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Bedoyo",
+        "postal_code": "55892"
+    },
+    {
+        "code": 3403102010,
+        "district_code": 340310,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Sidorejo",
+        "postal_code": "55892"
+    },
+    {
+        "code": 3403102011,
+        "district_code": 340310,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Gombang",
+        "postal_code": "55892"
+    },
+    {
+        "code": 3403112001,
+        "district_code": 340311,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Bohol",
+        "postal_code": "55884"
+    },
+    {
+        "code": 3403112002,
+        "district_code": 340311,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Pringombo",
+        "postal_code": "55884"
+    },
+    {
+        "code": 3403112003,
+        "district_code": 340311,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Botodayaan",
+        "postal_code": "55884"
+    },
+    {
+        "code": 3403112004,
+        "district_code": 340311,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Petir",
+        "postal_code": "55884"
+    },
+    {
+        "code": 3403112005,
+        "district_code": 340311,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Pucanganom",
+        "postal_code": "55884"
+    },
+    {
+        "code": 3403112006,
+        "district_code": 340311,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Semugih",
+        "postal_code": "55884"
+    },
+    {
+        "code": 3403112007,
+        "district_code": 340311,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Melikan",
+        "postal_code": "55884"
+    },
+    {
+        "code": 3403112008,
+        "district_code": 340311,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Karangwuni",
+        "postal_code": "55884"
+    },
+    {
+        "code": 3403122001,
+        "district_code": 340312,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Kalitekuk",
+        "postal_code": "55854"
+    },
+    {
+        "code": 3403122002,
+        "district_code": 340312,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Kemejing",
+        "postal_code": "55854"
+    },
+    {
+        "code": 3403122003,
+        "district_code": 340312,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Bulurejo",
+        "postal_code": "55854"
+    },
+    {
+        "code": 3403122004,
+        "district_code": 340312,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Sumberejo",
+        "postal_code": "55854"
+    },
+    {
+        "code": 3403122005,
+        "district_code": 340312,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Bendung",
+        "postal_code": "55854"
+    },
+    {
+        "code": 3403122006,
+        "district_code": 340312,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Candirejo",
+        "postal_code": "55854"
+    },
+    {
+        "code": 3403122007,
+        "district_code": 340312,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Rejosari",
+        "postal_code": "55854"
+    },
+    {
+        "code": 3403122008,
+        "district_code": 340312,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Karangsari",
+        "postal_code": "55854"
+    },
+    {
+        "code": 3403122009,
+        "district_code": 340312,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Pundungsari",
+        "postal_code": "55854"
+    },
+    {
+        "code": 3403122010,
+        "district_code": 340312,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Semin",
+        "postal_code": "55854"
+    },
+    {
+        "code": 3403132001,
+        "district_code": 340313,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Tancep",
+        "postal_code": "55853"
+    },
+    {
+        "code": 3403132002,
+        "district_code": 340313,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Sambirejo",
+        "postal_code": "55853"
+    },
+    {
+        "code": 3403132003,
+        "district_code": 340313,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Jurangjero",
+        "postal_code": "55853"
+    },
+    {
+        "code": 3403132004,
+        "district_code": 340313,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Kampung",
+        "postal_code": "55853"
+    },
+    {
+        "code": 3403132005,
+        "district_code": 340313,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Beji",
+        "postal_code": "55853"
+    },
+    {
+        "code": 3403132006,
+        "district_code": 340313,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Watusigar",
+        "postal_code": "55853"
+    },
+    {
+        "code": 3403142001,
+        "district_code": 340314,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Hargomulyo",
+        "postal_code": "55863"
+    },
+    {
+        "code": 3403142002,
+        "district_code": 340314,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Mertelu",
+        "postal_code": "55863"
+    },
+    {
+        "code": 3403142003,
+        "district_code": 340314,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Watugajah",
+        "postal_code": "55863"
+    },
+    {
+        "code": 3403142004,
+        "district_code": 340314,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Sampang",
+        "postal_code": "55863"
+    },
+    {
+        "code": 3403142005,
+        "district_code": 340314,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Serut",
+        "postal_code": "55863"
+    },
+    {
+        "code": 3403142006,
+        "district_code": 340314,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Ngalang",
+        "postal_code": "55863"
+    },
+    {
+        "code": 3403142007,
+        "district_code": 340314,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Tegalrejo",
+        "postal_code": "55863"
+    },
+    {
+        "code": 3403152001,
+        "district_code": 340315,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Krambilsawit",
+        "postal_code": "55870"
+    },
+    {
+        "code": 3403152002,
+        "district_code": 340315,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Ngloro",
+        "postal_code": "55870"
+    },
+    {
+        "code": 3403152003,
+        "district_code": 340315,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Jetis",
+        "postal_code": "55870"
+    },
+    {
+        "code": 3403152004,
+        "district_code": 340315,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Kepek",
+        "postal_code": "55870"
+    },
+    {
+        "code": 3403152005,
+        "district_code": 340315,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Kanigoro",
+        "postal_code": "55870"
+    },
+    {
+        "code": 3403152006,
+        "district_code": 340315,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Monggol",
+        "postal_code": "55870"
+    },
+    {
+        "code": 3403152007,
+        "district_code": 340315,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Planjan",
+        "postal_code": "55870"
+    },
+    {
+        "code": 3403162001,
+        "district_code": 340316,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Balong",
+        "postal_code": "55883"
+    },
+    {
+        "code": 3403162002,
+        "district_code": 340316,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Jepitu",
+        "postal_code": "55883"
+    },
+    {
+        "code": 3403162003,
+        "district_code": 340316,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Karangawen",
+        "postal_code": "55883"
+    },
+    {
+        "code": 3403162004,
+        "district_code": 340316,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Nglindur",
+        "postal_code": "55883"
+    },
+    {
+        "code": 3403162005,
+        "district_code": 340316,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Jerukwudel",
+        "postal_code": "55883"
+    },
+    {
+        "code": 3403162006,
+        "district_code": 340316,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Tileng",
+        "postal_code": "55883"
+    },
+    {
+        "code": 3403162007,
+        "district_code": 340316,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Pucung",
+        "postal_code": "55883"
+    },
+    {
+        "code": 3403162008,
+        "district_code": 340316,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Songbanyu",
+        "postal_code": "55883"
+    },
+    {
+        "code": 3403172001,
+        "district_code": 340317,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Hargosari",
+        "postal_code": "55881"
+    },
+    {
+        "code": 3403172002,
+        "district_code": 340317,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Kemiri",
+        "postal_code": "55881"
+    },
+    {
+        "code": 3403172003,
+        "district_code": 340317,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Kemadang",
+        "postal_code": "55881"
+    },
+    {
+        "code": 3403172004,
+        "district_code": 340317,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Banjarejo",
+        "postal_code": "55881"
+    },
+    {
+        "code": 3403172005,
+        "district_code": 340317,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Ngestirejo",
+        "postal_code": "55881"
+    },
+    {
+        "code": 3403182001,
+        "district_code": 340318,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Giripurwo",
+        "postal_code": "55873"
+    },
+    {
+        "code": 3403182002,
+        "district_code": 340318,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Giricahyo",
+        "postal_code": "55873"
+    },
+    {
+        "code": 3403182003,
+        "district_code": 340318,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Girijati",
+        "postal_code": "55873"
+    },
+    {
+        "code": 3403182004,
+        "district_code": 340318,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Giriasih",
+        "postal_code": "55873"
+    },
+    {
+        "code": 3403182005,
+        "district_code": 340318,
+        "regency_code": 3403,
+        "province_code": 34,
+        "name": "Giritirto",
+        "postal_code": "55873"
+    },
+    {
+        "code": 3404012001,
+        "district_code": 340401,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Balecatur",
+        "postal_code": "55295"
+    },
+    {
+        "code": 3404012002,
+        "district_code": 340401,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Ambarketawang",
+        "postal_code": "55294"
+    },
+    {
+        "code": 3404012003,
+        "district_code": 340401,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Banyuraden",
+        "postal_code": "55293"
+    },
+    {
+        "code": 3404012004,
+        "district_code": 340401,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Nogotirto",
+        "postal_code": "55592"
+    },
+    {
+        "code": 3404012005,
+        "district_code": 340401,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Trihanggo",
+        "postal_code": "55291"
+    },
+    {
+        "code": 3404022001,
+        "district_code": 340402,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sidorejo",
+        "postal_code": "55264"
+    },
+    {
+        "code": 3404022002,
+        "district_code": 340402,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sidoluhur",
+        "postal_code": "55264"
+    },
+    {
+        "code": 3404022003,
+        "district_code": 340402,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sidomulyo",
+        "postal_code": "55264"
+    },
+    {
+        "code": 3404022004,
+        "district_code": 340402,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sidoagung",
+        "postal_code": "55264"
+    },
+    {
+        "code": 3404022005,
+        "district_code": 340402,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sidokarto",
+        "postal_code": "55264"
+    },
+    {
+        "code": 3404022006,
+        "district_code": 340402,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sidoarum",
+        "postal_code": "55264"
+    },
+    {
+        "code": 3404022007,
+        "district_code": 340402,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sidomoyo",
+        "postal_code": "55264"
+    },
+    {
+        "code": 3404032001,
+        "district_code": 340403,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sumberrahayu",
+        "postal_code": "55563"
+    },
+    {
+        "code": 3404032002,
+        "district_code": 340403,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sumbersari",
+        "postal_code": "55563"
+    },
+    {
+        "code": 3404032003,
+        "district_code": 340403,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sumberagung",
+        "postal_code": "55563"
+    },
+    {
+        "code": 3404032004,
+        "district_code": 340403,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sumberarum",
+        "postal_code": "55563"
+    },
+    {
+        "code": 3404042001,
+        "district_code": 340404,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sendangarum",
+        "postal_code": "55562"
+    },
+    {
+        "code": 3404042002,
+        "district_code": 340404,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sendangmulyo",
+        "postal_code": "55562"
+    },
+    {
+        "code": 3404042003,
+        "district_code": 340404,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sendangagung",
+        "postal_code": "55562"
+    },
+    {
+        "code": 3404042004,
+        "district_code": 340404,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sendangsari",
+        "postal_code": "55562"
+    },
+    {
+        "code": 3404042005,
+        "district_code": 340404,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sendangrejo",
+        "postal_code": "55562"
+    },
+    {
+        "code": 3404052001,
+        "district_code": 340405,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Margoluwih",
+        "postal_code": "55561"
+    },
+    {
+        "code": 3404052002,
+        "district_code": 340405,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Margodadi",
+        "postal_code": "55561"
+    },
+    {
+        "code": 3404052003,
+        "district_code": 340405,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Margokaton",
+        "postal_code": "55561"
+    },
+    {
+        "code": 3404052004,
+        "district_code": 340405,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Margomulyo",
+        "postal_code": "55561"
+    },
+    {
+        "code": 3404052005,
+        "district_code": 340405,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Margoagung",
+        "postal_code": "55561"
+    },
+    {
+        "code": 3404062001,
+        "district_code": 340406,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sinduadi",
+        "postal_code": "55284"
+    },
+    {
+        "code": 3404062002,
+        "district_code": 340406,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sendangadi",
+        "postal_code": "55285"
+    },
+    {
+        "code": 3404062003,
+        "district_code": 340406,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Tlogoadi",
+        "postal_code": "55286"
+    },
+    {
+        "code": 3404062004,
+        "district_code": 340406,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Tirtoadi",
+        "postal_code": "55287"
+    },
+    {
+        "code": 3404062005,
+        "district_code": 340406,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sumberadi",
+        "postal_code": "55288"
+    },
+    {
+        "code": 3404072001,
+        "district_code": 340407,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Caturtunggal",
+        "postal_code": "55281"
+    },
+    {
+        "code": 3404072002,
+        "district_code": 340407,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Maguwoharjo",
+        "postal_code": "55282"
+    },
+    {
+        "code": 3404072003,
+        "district_code": 340407,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Condongcatur",
+        "postal_code": "55283"
+    },
+    {
+        "code": 3404082001,
+        "district_code": 340408,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sendangtirto",
+        "postal_code": "55573"
+    },
+    {
+        "code": 3404082002,
+        "district_code": 340408,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Tegaltirto",
+        "postal_code": "55573"
+    },
+    {
+        "code": 3404082003,
+        "district_code": 340408,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Kalitirto",
+        "postal_code": "55573"
+    },
+    {
+        "code": 3404082004,
+        "district_code": 340408,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Jogotirto",
+        "postal_code": "55573"
+    },
+    {
+        "code": 3404092001,
+        "district_code": 340409,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sumberharjo",
+        "postal_code": "55572"
+    },
+    {
+        "code": 3404092002,
+        "district_code": 340409,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Wukirharjo",
+        "postal_code": "55572"
+    },
+    {
+        "code": 3404092003,
+        "district_code": 340409,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Gayamharjo",
+        "postal_code": "55572"
+    },
+    {
+        "code": 3404092004,
+        "district_code": 340409,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sambirejo",
+        "postal_code": "55572"
+    },
+    {
+        "code": 3404092005,
+        "district_code": 340409,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Madurejo",
+        "postal_code": "55572"
+    },
+    {
+        "code": 3404092006,
+        "district_code": 340409,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Bokoharjo",
+        "postal_code": "55572"
+    },
+    {
+        "code": 3404102001,
+        "district_code": 340410,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Purwomartani",
+        "postal_code": "55571"
+    },
+    {
+        "code": 3404102002,
+        "district_code": 340410,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Tirtomartani",
+        "postal_code": "55571"
+    },
+    {
+        "code": 3404102003,
+        "district_code": 340410,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Tamanmartani",
+        "postal_code": "55571"
+    },
+    {
+        "code": 3404102004,
+        "district_code": 340410,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Selomartani",
+        "postal_code": "55571"
+    },
+    {
+        "code": 3404112001,
+        "district_code": 340411,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sindumartani",
+        "postal_code": "55584"
+    },
+    {
+        "code": 3404112002,
+        "district_code": 340411,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Bimomartani",
+        "postal_code": "55584"
+    },
+    {
+        "code": 3404112003,
+        "district_code": 340411,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Widodomartani",
+        "postal_code": "55584"
+    },
+    {
+        "code": 3404112004,
+        "district_code": 340411,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Wedomartani",
+        "postal_code": "55584"
+    },
+    {
+        "code": 3404112005,
+        "district_code": 340411,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Umbulmartani",
+        "postal_code": "55584"
+    },
+    {
+        "code": 3404122001,
+        "district_code": 340412,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sariharjo",
+        "postal_code": "55581"
+    },
+    {
+        "code": 3404122002,
+        "district_code": 340412,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Minomartani",
+        "postal_code": "55581"
+    },
+    {
+        "code": 3404122003,
+        "district_code": 340412,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sinduharjo",
+        "postal_code": "55581"
+    },
+    {
+        "code": 3404122004,
+        "district_code": 340412,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sukoharjo",
+        "postal_code": "55581"
+    },
+    {
+        "code": 3404122005,
+        "district_code": 340412,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sardonoharjo",
+        "postal_code": "55581"
+    },
+    {
+        "code": 3404122006,
+        "district_code": 340412,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Donoharjo",
+        "postal_code": "55581"
+    },
+    {
+        "code": 3404132001,
+        "district_code": 340413,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Caturharjo",
+        "postal_code": "55515"
+    },
+    {
+        "code": 3404132002,
+        "district_code": 340413,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Triharjo",
+        "postal_code": "55514"
+    },
+    {
+        "code": 3404132003,
+        "district_code": 340413,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Tridadi",
+        "postal_code": "55511"
+    },
+    {
+        "code": 3404132004,
+        "district_code": 340413,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Pandowoharjo",
+        "postal_code": "55512"
+    },
+    {
+        "code": 3404132005,
+        "district_code": 340413,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Trimulyo",
+        "postal_code": "55513"
+    },
+    {
+        "code": 3404142001,
+        "district_code": 340414,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Banyurejo",
+        "postal_code": "55552"
+    },
+    {
+        "code": 3404142002,
+        "district_code": 340414,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Tambakrejo",
+        "postal_code": "55552"
+    },
+    {
+        "code": 3404142003,
+        "district_code": 340414,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Sumberrejo",
+        "postal_code": "55552"
+    },
+    {
+        "code": 3404142004,
+        "district_code": 340414,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Pondokrejo",
+        "postal_code": "55552"
+    },
+    {
+        "code": 3404142005,
+        "district_code": 340414,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Mororejo",
+        "postal_code": "55552"
+    },
+    {
+        "code": 3404142006,
+        "district_code": 340414,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Margorejo",
+        "postal_code": "55552"
+    },
+    {
+        "code": 3404142007,
+        "district_code": 340414,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Lumbungrejo",
+        "postal_code": "55552"
+    },
+    {
+        "code": 3404142008,
+        "district_code": 340414,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Merdikorejo",
+        "postal_code": "55552"
+    },
+    {
+        "code": 3404152001,
+        "district_code": 340415,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Bangunkerto",
+        "postal_code": "55551"
+    },
+    {
+        "code": 3404152002,
+        "district_code": 340415,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Donokerto",
+        "postal_code": "55551"
+    },
+    {
+        "code": 3404152003,
+        "district_code": 340415,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Girikerto",
+        "postal_code": "55551"
+    },
+    {
+        "code": 3404152004,
+        "district_code": 340415,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Wonokerto",
+        "postal_code": "55551"
+    },
+    {
+        "code": 3404162001,
+        "district_code": 340416,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Purwobinangun",
+        "postal_code": "55582"
+    },
+    {
+        "code": 3404162002,
+        "district_code": 340416,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Candibinangun",
+        "postal_code": "55582"
+    },
+    {
+        "code": 3404162003,
+        "district_code": 340416,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Harjobinangun",
+        "postal_code": "55582"
+    },
+    {
+        "code": 3404162004,
+        "district_code": 340416,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Pakembinangun",
+        "postal_code": "55582"
+    },
+    {
+        "code": 3404162005,
+        "district_code": 340416,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Hargobinangun",
+        "postal_code": "55582"
+    },
+    {
+        "code": 3404172001,
+        "district_code": 340417,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Argomulyo",
+        "postal_code": "55583"
+    },
+    {
+        "code": 3404172002,
+        "district_code": 340417,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Wukirsari",
+        "postal_code": "55583"
+    },
+    {
+        "code": 3404172003,
+        "district_code": 340417,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Glagaharjo",
+        "postal_code": "55583"
+    },
+    {
+        "code": 3404172004,
+        "district_code": 340417,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Kepuharjo",
+        "postal_code": "55583"
+    },
+    {
+        "code": 3404172005,
+        "district_code": 340417,
+        "regency_code": 3404,
+        "province_code": 34,
+        "name": "Umbulharjo",
+        "postal_code": "55583"
+    },
+    {
+        "code": 3471011001,
+        "district_code": 347101,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Kricak",
+        "postal_code": "55242"
+    },
+    {
+        "code": 3471011002,
+        "district_code": 347101,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Karangwaru",
+        "postal_code": "55241"
+    },
+    {
+        "code": 3471011003,
+        "district_code": 347101,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Tegalrejo",
+        "postal_code": "55244"
+    },
+    {
+        "code": 3471011004,
+        "district_code": 347101,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Bener",
+        "postal_code": "55243"
+    },
+    {
+        "code": 3471021001,
+        "district_code": 347102,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Bumijo",
+        "postal_code": "55231"
+    },
+    {
+        "code": 3471021002,
+        "district_code": 347102,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Cokrodiningratan",
+        "postal_code": "55233"
+    },
+    {
+        "code": 3471021003,
+        "district_code": 347102,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Gowongan",
+        "postal_code": "55232"
+    },
+    {
+        "code": 3471031001,
+        "district_code": 347103,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Demangan",
+        "postal_code": "55221"
+    },
+    {
+        "code": 3471031002,
+        "district_code": 347103,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Kotabaru",
+        "postal_code": "55224"
+    },
+    {
+        "code": 3471031003,
+        "district_code": 347103,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Klitren",
+        "postal_code": "55222"
+    },
+    {
+        "code": 3471031004,
+        "district_code": 347103,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Baciro",
+        "postal_code": "55225"
+    },
+    {
+        "code": 3471031005,
+        "district_code": 347103,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Terban",
+        "postal_code": "55223"
+    },
+    {
+        "code": 3471041001,
+        "district_code": 347104,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Suryatmajan",
+        "postal_code": "55213"
+    },
+    {
+        "code": 3471041002,
+        "district_code": 347104,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Tegalpanggung",
+        "postal_code": "55212"
+    },
+    {
+        "code": 3471041003,
+        "district_code": 347104,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Bausasran",
+        "postal_code": "55211"
+    },
+    {
+        "code": 3471051001,
+        "district_code": 347105,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Sosromenduran",
+        "postal_code": "55271"
+    },
+    {
+        "code": 3471051002,
+        "district_code": 347105,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Pringgokusuman",
+        "postal_code": "55272"
+    },
+    {
+        "code": 3471061001,
+        "district_code": 347106,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Ngampilan",
+        "postal_code": "55261"
+    },
+    {
+        "code": 3471061002,
+        "district_code": 347106,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Notoprajan",
+        "postal_code": "55262"
+    },
+    {
+        "code": 3471071001,
+        "district_code": 347107,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Pakuncen",
+        "postal_code": "55253"
+    },
+    {
+        "code": 3471071002,
+        "district_code": 347107,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Wirobrajan",
+        "postal_code": "55252"
+    },
+    {
+        "code": 3471071003,
+        "district_code": 347107,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Patangpuluhan",
+        "postal_code": "55251"
+    },
+    {
+        "code": 3471081001,
+        "district_code": 347108,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Gedongkiwo",
+        "postal_code": "55142"
+    },
+    {
+        "code": 3471081002,
+        "district_code": 347108,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Suryodiningratan",
+        "postal_code": "55141"
+    },
+    {
+        "code": 3471081003,
+        "district_code": 347108,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Mantrijeron",
+        "postal_code": "55143"
+    },
+    {
+        "code": 3471091001,
+        "district_code": 347109,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Patehan",
+        "postal_code": "55133"
+    },
+    {
+        "code": 3471091002,
+        "district_code": 347109,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Panembahan",
+        "postal_code": "55131"
+    },
+    {
+        "code": 3471091003,
+        "district_code": 347109,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Kadipaten",
+        "postal_code": "55132"
+    },
+    {
+        "code": 3471101001,
+        "district_code": 347110,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Ngupasan",
+        "postal_code": "55122"
+    },
+    {
+        "code": 3471101002,
+        "district_code": 347110,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Prawirodirjan",
+        "postal_code": "55121"
+    },
+    {
+        "code": 3471111001,
+        "district_code": 347111,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Purwokinanti",
+        "postal_code": "55112"
+    },
+    {
+        "code": 3471111002,
+        "district_code": 347111,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Gunungketur",
+        "postal_code": "55111"
+    },
+    {
+        "code": 3471121001,
+        "district_code": 347112,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Keparakan",
+        "postal_code": "55152"
+    },
+    {
+        "code": 3471121002,
+        "district_code": 347112,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Wirogunan",
+        "postal_code": "55151"
+    },
+    {
+        "code": 3471121003,
+        "district_code": 347112,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Brontokusuman",
+        "postal_code": "55153"
+    },
+    {
+        "code": 3471131001,
+        "district_code": 347113,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Semaki",
+        "postal_code": "55166"
+    },
+    {
+        "code": 3471131002,
+        "district_code": 347113,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Muja Muju",
+        "postal_code": "55165"
+    },
+    {
+        "code": 3471131003,
+        "district_code": 347113,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Tahunan",
+        "postal_code": "55167"
+    },
+    {
+        "code": 3471131004,
+        "district_code": 347113,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Warungboto",
+        "postal_code": "55164"
+    },
+    {
+        "code": 3471131005,
+        "district_code": 347113,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Pandeyan",
+        "postal_code": "55161"
+    },
+    {
+        "code": 3471131006,
+        "district_code": 347113,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Sorosutan",
+        "postal_code": "55162"
+    },
+    {
+        "code": 3471131007,
+        "district_code": 347113,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Giwangan",
+        "postal_code": "55163"
+    },
+    {
+        "code": 3471141001,
+        "district_code": 347114,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Rejowinangun",
+        "postal_code": "55171"
+    },
+    {
+        "code": 3471141002,
+        "district_code": 347114,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Prenggan",
+        "postal_code": "55172"
+    },
+    {
+        "code": 3471141003,
+        "district_code": 347114,
+        "regency_code": 3471,
+        "province_code": 34,
+        "name": "Purbayan",
+        "postal_code": "55173"
+    }
+]

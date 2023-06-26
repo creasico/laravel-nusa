@@ -1,0 +1,458 @@
+[
+    {
+        "code": 210104,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Gunung Kijang"
+    },
+    {
+        "code": 210106,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Bintan Timur"
+    },
+    {
+        "code": 210107,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Bintan Utara"
+    },
+    {
+        "code": 210108,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Teluk Bintan"
+    },
+    {
+        "code": 210109,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Tambelan"
+    },
+    {
+        "code": 210110,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Telok Sebong"
+    },
+    {
+        "code": 210112,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Toapaya"
+    },
+    {
+        "code": 210113,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Mantang"
+    },
+    {
+        "code": 210114,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Bintan Pesisir"
+    },
+    {
+        "code": 210115,
+        "regency_code": 2101,
+        "province_code": 21,
+        "name": "Seri Kuala Lobam"
+    },
+    {
+        "code": 210201,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Moro"
+    },
+    {
+        "code": 210202,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Kundur"
+    },
+    {
+        "code": 210203,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Karimun"
+    },
+    {
+        "code": 210204,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Meral"
+    },
+    {
+        "code": 210205,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Tebing"
+    },
+    {
+        "code": 210206,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Buru"
+    },
+    {
+        "code": 210207,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Kundur Utara"
+    },
+    {
+        "code": 210208,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Kundur Barat"
+    },
+    {
+        "code": 210209,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Durai"
+    },
+    {
+        "code": 210210,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Meral Barat"
+    },
+    {
+        "code": 210211,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Ungar"
+    },
+    {
+        "code": 210212,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Belat"
+    },
+    {
+        "code": 210304,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Midai"
+    },
+    {
+        "code": 210305,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Bunguran Barat"
+    },
+    {
+        "code": 210306,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Serasan"
+    },
+    {
+        "code": 210307,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Bunguran Timur"
+    },
+    {
+        "code": 210308,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Bunguran Utara"
+    },
+    {
+        "code": 210309,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Subi"
+    },
+    {
+        "code": 210310,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Pulau Laut"
+    },
+    {
+        "code": 210311,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Pulau Tiga"
+    },
+    {
+        "code": 210315,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Bunguran Timur Laut"
+    },
+    {
+        "code": 210316,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Bunguran Tengah"
+    },
+    {
+        "code": 210318,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Bunguran Selatan"
+    },
+    {
+        "code": 210319,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Serasan Timur"
+    },
+    {
+        "code": 210320,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Bunguran Batubi"
+    },
+    {
+        "code": 210321,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Pulau Tiga Barat"
+    },
+    {
+        "code": 210322,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Suak Midai"
+    },
+    {
+        "code": 210401,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Singkep"
+    },
+    {
+        "code": 210402,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Lingga"
+    },
+    {
+        "code": 210403,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Senayang"
+    },
+    {
+        "code": 210404,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Singkep Barat"
+    },
+    {
+        "code": 210405,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Lingga Utara"
+    },
+    {
+        "code": 210406,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Singkep Pesisir"
+    },
+    {
+        "code": 210407,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Lingga Timur"
+    },
+    {
+        "code": 210408,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Selayar"
+    },
+    {
+        "code": 210409,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Singkep Selatan"
+    },
+    {
+        "code": 210410,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Kepulauan Posek"
+    },
+    {
+        "code": 210411,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Katang Bidare"
+    },
+    {
+        "code": 210412,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Temiang Pesisir"
+    },
+    {
+        "code": 210413,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Bakung Serumpun"
+    },
+    {
+        "code": 210501,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Siantan"
+    },
+    {
+        "code": 210502,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Palmatak"
+    },
+    {
+        "code": 210503,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Siantan Timur"
+    },
+    {
+        "code": 210504,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Siantan Selatan"
+    },
+    {
+        "code": 210505,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Jemaja Timur"
+    },
+    {
+        "code": 210506,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Jemaja"
+    },
+    {
+        "code": 210507,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Siantan Tengah"
+    },
+    {
+        "code": 210508,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Siantan Utara"
+    },
+    {
+        "code": 210509,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Jemaja Barat"
+    },
+    {
+        "code": 210510,
+        "regency_code": 2105,
+        "province_code": 21,
+        "name": "Kute Siantan"
+    },
+    {
+        "code": 217101,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Belakang Padang"
+    },
+    {
+        "code": 217102,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Batu Ampar"
+    },
+    {
+        "code": 217103,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Sekupang"
+    },
+    {
+        "code": 217104,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Nongsa"
+    },
+    {
+        "code": 217105,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Bulang"
+    },
+    {
+        "code": 217106,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Lubuk Baja"
+    },
+    {
+        "code": 217107,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Sei Beduk"
+    },
+    {
+        "code": 217108,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Galang"
+    },
+    {
+        "code": 217109,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Bengkong"
+    },
+    {
+        "code": 217110,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Batam Kota"
+    },
+    {
+        "code": 217111,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Sagulung"
+    },
+    {
+        "code": 217112,
+        "regency_code": 2171,
+        "province_code": 21,
+        "name": "Batu Aji"
+    },
+    {
+        "code": 217201,
+        "regency_code": 2172,
+        "province_code": 21,
+        "name": "Tanjung Pinang Barat"
+    },
+    {
+        "code": 217202,
+        "regency_code": 2172,
+        "province_code": 21,
+        "name": "Tanjung Pinang Timur"
+    },
+    {
+        "code": 217203,
+        "regency_code": 2172,
+        "province_code": 21,
+        "name": "Tanjung Pinang Kota"
+    },
+    {
+        "code": 217204,
+        "regency_code": 2172,
+        "province_code": 21,
+        "name": "Bukit Bestari"
+    }
+]

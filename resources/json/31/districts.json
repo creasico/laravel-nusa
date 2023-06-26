@@ -1,0 +1,266 @@
+[
+    {
+        "code": 310101,
+        "regency_code": 3101,
+        "province_code": 31,
+        "name": "Kepulauan Seribu Utara"
+    },
+    {
+        "code": 310102,
+        "regency_code": 3101,
+        "province_code": 31,
+        "name": "Kepulauan Seribu Selatan."
+    },
+    {
+        "code": 317101,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Gambir"
+    },
+    {
+        "code": 317102,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Sawah Besar"
+    },
+    {
+        "code": 317103,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Kemayoran"
+    },
+    {
+        "code": 317104,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Senen"
+    },
+    {
+        "code": 317105,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Cempaka Putih"
+    },
+    {
+        "code": 317106,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Menteng"
+    },
+    {
+        "code": 317107,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Tanah Abang"
+    },
+    {
+        "code": 317108,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Johar Baru"
+    },
+    {
+        "code": 317201,
+        "regency_code": 3172,
+        "province_code": 31,
+        "name": "Penjaringan"
+    },
+    {
+        "code": 317202,
+        "regency_code": 3172,
+        "province_code": 31,
+        "name": "Tanjung Priok"
+    },
+    {
+        "code": 317203,
+        "regency_code": 3172,
+        "province_code": 31,
+        "name": "Koja"
+    },
+    {
+        "code": 317204,
+        "regency_code": 3172,
+        "province_code": 31,
+        "name": "Cilincing"
+    },
+    {
+        "code": 317205,
+        "regency_code": 3172,
+        "province_code": 31,
+        "name": "Pademangan"
+    },
+    {
+        "code": 317206,
+        "regency_code": 3172,
+        "province_code": 31,
+        "name": "Kelapa Gading"
+    },
+    {
+        "code": 317301,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Cengkareng"
+    },
+    {
+        "code": 317302,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Grogol Petamburan"
+    },
+    {
+        "code": 317303,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Taman Sari"
+    },
+    {
+        "code": 317304,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Tambora"
+    },
+    {
+        "code": 317305,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Kebon Jeruk"
+    },
+    {
+        "code": 317306,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Kalideres"
+    },
+    {
+        "code": 317307,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Pal Merah"
+    },
+    {
+        "code": 317308,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Kembangan"
+    },
+    {
+        "code": 317401,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Tebet"
+    },
+    {
+        "code": 317402,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Setiabudi"
+    },
+    {
+        "code": 317403,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Mampang Prapatan"
+    },
+    {
+        "code": 317404,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Pasar Minggu"
+    },
+    {
+        "code": 317405,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Kebayoran Lama"
+    },
+    {
+        "code": 317406,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Cilandak"
+    },
+    {
+        "code": 317407,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Kebayoran Baru"
+    },
+    {
+        "code": 317408,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Pancoran"
+    },
+    {
+        "code": 317409,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Jagakarsa"
+    },
+    {
+        "code": 317410,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Pesanggrahan"
+    },
+    {
+        "code": 317501,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Matraman"
+    },
+    {
+        "code": 317502,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Pulogadung"
+    },
+    {
+        "code": 317503,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Jatinegara"
+    },
+    {
+        "code": 317504,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Kramatjati"
+    },
+    {
+        "code": 317505,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Pasar Rebo"
+    },
+    {
+        "code": 317506,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Cakung"
+    },
+    {
+        "code": 317507,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Duren Sawit"
+    },
+    {
+        "code": 317508,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Makasar"
+    },
+    {
+        "code": 317509,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Ciracas"
+    },
+    {
+        "code": 317510,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Cipayung"
+    }
+]

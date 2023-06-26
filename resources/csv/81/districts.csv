@@ -1,0 +1,119 @@
+code,regency_code,province_code,name
+810101,8101,81,Amahai
+810102,8101,81,"Teon Nila Serua"
+810106,8101,81,"Seram Utara"
+810109,8101,81,Banda
+810111,8101,81,Tehoru
+810112,8101,81,Saparua
+810113,8101,81,"Pulau Haruku"
+810114,8101,81,Salahutu
+810115,8101,81,Leihitu
+810116,8101,81,"Nusa Laut"
+810117,8101,81,"Kota Masohi"
+810120,8101,81,"Seram Utara Barat"
+810121,8101,81,"Teluk Elpaputih"
+810122,8101,81,"Leihitu Barat"
+810123,8101,81,Telutih
+810124,8101,81,"Seram Utara Timur Seti"
+810125,8101,81,"Seram Utara Timur Kobi"
+810126,8101,81,"Saparua Timur"
+810201,8102,81,"Kei Kecil"
+810203,8102,81,"Kei Besar"
+810204,8102,81,"Kei Besar Selatan"
+810205,8102,81,"Kei Besar Utara Timur"
+810213,8102,81,"Kei Kecil Timur"
+810214,8102,81,"Kei Kecil Barat"
+810215,8102,81,Manyeuw
+810216,8102,81,"Hoat Sorbay"
+810217,8102,81,"Kei Besar Utara Barat"
+810218,8102,81,"Kei Besar Selatan Barat"
+810219,8102,81,"Kei Kecil Timur Selatan"
+810301,8103,81,"Tanimbar Selatan"
+810302,8103,81,Selaru
+810303,8103,81,"Wer Tamrian"
+810304,8103,81,"Wer Maktian"
+810305,8103,81,"Tanimbar Utara"
+810306,8103,81,Yaru
+810307,8103,81,"Wuar Labobar"
+810308,8103,81,Kormomolin
+810309,8103,81,Nirunmas
+810318,8103,81,"Molu Maru"
+810401,8104,81,Namlea
+810402,8104,81,"Air Buaya"
+810403,8104,81,Waeapo
+810406,8104,81,Waplau
+810410,8104,81,Batabual
+810411,8104,81,"Lolong Guba"
+810412,8104,81,Waelata
+810413,8104,81,"Fena Leisela"
+810414,8104,81,"Teluk Kaiely"
+810415,8104,81,Lilialy
+810501,8105,81,Bula
+810502,8105,81,"Seram Timur"
+810503,8105,81,Werinama
+810504,8105,81,"Pulau Gorom"
+810505,8105,81,Wakate
+810506,8105,81,"Tutuk Tolu"
+810507,8105,81,Siwalalat
+810508,8105,81,Kilmury
+810509,8105,81,"Pulau Panjang"
+810510,8105,81,Teor
+810511,8105,81,"Gorom Timur"
+810512,8105,81,"Bula Barat"
+810513,8105,81,"Kian Darat"
+810514,8105,81,"Siritaun Wida Timur"
+810515,8105,81,"Teluk Waru"
+810601,8106,81,Kairatu
+810602,8106,81,"Seram Barat"
+810603,8106,81,Taniwel
+810604,8106,81,"Huamual Belakang"
+810605,8106,81,Amalatu
+810606,8106,81,Inamosol
+810607,8106,81,"Kairatu Barat"
+810608,8106,81,Huamual
+810609,8106,81,"Kepulauan Manipa"
+810610,8106,81,"Taniwel Timur"
+810611,8106,81,Elpaputih
+810701,8107,81,"Pulau-Pulau Aru"
+810702,8107,81,"Aru Selatan"
+810703,8107,81,"Aru Tengah"
+810704,8107,81,"Aru Utara"
+810705,8107,81,"Aru Utara Timur Batuley"
+810706,8107,81,Sir-Sir
+810707,8107,81,"Aru Tengah Timur"
+810708,8107,81,"Aru Tengah Selatan"
+810709,8107,81,"Aru Selatan Timur"
+810710,8107,81,"Aru Selatan Utara"
+810801,8108,81,"Moa Lakor"
+810802,8108,81,Damer
+810803,8108,81,"Mndona Hiera"
+810804,8108,81,"Pulau-Pulau Babar"
+810805,8108,81,"Pulau-pulau Babar Timur"
+810806,8108,81,Wetar
+810807,8108,81,"Pulau-pulau Terselatan"
+810808,8108,81,"Pulau Leti"
+810809,8108,81,"Pulau Masela"
+810810,8108,81,"Dawelor Dawera"
+810811,8108,81,"Pulau Wetang"
+810812,8108,81,"Pulau Lakor"
+810813,8108,81,"Wetar Utara"
+810814,8108,81,"Wetar Barat"
+810815,8108,81,"Wetar Timur"
+810816,8108,81,"Kepulauan Romang"
+810817,8108,81,"Kisar Utara"
+810901,8109,81,Namrole
+810902,8109,81,Waesama
+810903,8109,81,Ambalau
+810904,8109,81,"Kepala Madan"
+810905,8109,81,Leksula
+810906,8109,81,"Fena Fafan"
+817101,8171,81,Nusaniwe
+817102,8171,81,Sirimau
+817103,8171,81,Baguala
+817104,8171,81,"Teluk Ambon"
+817105,8171,81,"Leitimur Selatan"
+817201,8172,81,"Pulau Dullah Utara"
+817202,8172,81,"Pulau Dullah Selatan"
+817203,8172,81,"Tayando Tam"
+817204,8172,81,"Pulau-Pulau Kur"
+817205,8172,81,"Kur Selatan"

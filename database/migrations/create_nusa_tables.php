@@ -16,12 +16,18 @@ return new class extends Migration
         Schema::create($tableNames['provinces'], function (Blueprint $table) {
             $table->char('code', 2)->primary();
             $table->string('name');
+            $table->double('latitude')->nullable();
+            $table->double('longitude')->nullable();
+            $table->longText('coordinates')->nullable();
         });
 
         Schema::create($tableNames['regencies'], function (Blueprint $table) use ($tableNames) {
             $table->char('code', 4)->primary();
             $table->char('province_code', 2);
             $table->string('name');
+            $table->double('latitude')->nullable();
+            $table->double('longitude')->nullable();
+            $table->longText('coordinates')->nullable();
 
             $table->foreign('province_code')->references('code')->on($tableNames['provinces']);
         });
@@ -31,6 +37,9 @@ return new class extends Migration
             $table->char('regency_code', 4);
             $table->char('province_code', 2);
             $table->string('name');
+            $table->double('latitude')->nullable();
+            $table->double('longitude')->nullable();
+            $table->longText('coordinates')->nullable();
 
             $table->foreign('regency_code')->references('code')->on($tableNames['regencies']);
             $table->foreign('province_code')->references('code')->on($tableNames['provinces']);
@@ -42,6 +51,10 @@ return new class extends Migration
             $table->char('regency_code', 4);
             $table->char('province_code', 2);
             $table->string('name');
+            $table->char('postal_code', 5)->nullable();
+            $table->double('latitude')->nullable();
+            $table->double('longitude')->nullable();
+            $table->longText('coordinates')->nullable();
 
             $table->foreign('district_code')->references('code')->on($tableNames['districts']);
             $table->foreign('regency_code')->references('code')->on($tableNames['regencies']);

@@ -1,0 +1,5834 @@
+[
+    {
+        "code": 7501011001,
+        "district_code": 750101,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Kayubulan",
+        "postal_code": "96211"
+    },
+    {
+        "code": 7501011002,
+        "district_code": 750101,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Kayumerah",
+        "postal_code": "96214"
+    },
+    {
+        "code": 7501011003,
+        "district_code": 750101,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Hunggaluwa",
+        "postal_code": "96219"
+    },
+    {
+        "code": 7501011004,
+        "district_code": 750101,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Bolihuangga",
+        "postal_code": "96218"
+    },
+    {
+        "code": 7501011005,
+        "district_code": 750101,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Hepuhulawa",
+        "postal_code": "96212"
+    },
+    {
+        "code": 7501011006,
+        "district_code": 750101,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Hutuo",
+        "postal_code": "96213"
+    },
+    {
+        "code": 7501011007,
+        "district_code": 750101,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Dutulanaa",
+        "postal_code": "96213"
+    },
+    {
+        "code": 7501011008,
+        "district_code": 750101,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Tenilo",
+        "postal_code": "96218"
+    },
+    {
+        "code": 7501011009,
+        "district_code": 750101,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Biyonga",
+        "postal_code": "96212"
+    },
+    {
+        "code": 7501011010,
+        "district_code": 750101,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Bongohulawa",
+        "postal_code": "96214"
+    },
+    {
+        "code": 7501011011,
+        "district_code": 750101,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Bulota",
+        "postal_code": "96213"
+    },
+    {
+        "code": 7501011012,
+        "district_code": 750101,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Malahu",
+        "postal_code": "96211"
+    },
+    {
+        "code": 7501011013,
+        "district_code": 750101,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Tilihuwa",
+        "postal_code": "96214"
+    },
+    {
+        "code": 7501011014,
+        "district_code": 750101,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Polohungo",
+        "postal_code": "96212"
+    },
+    {
+        "code": 7501022011,
+        "district_code": 750102,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Bulila",
+        "postal_code": "96181"
+    },
+    {
+        "code": 7501022014,
+        "district_code": 750102,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Mongolato",
+        "postal_code": "96181"
+    },
+    {
+        "code": 7501022015,
+        "district_code": 750102,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Luhu",
+        "postal_code": "96181"
+    },
+    {
+        "code": 7501022016,
+        "district_code": 750102,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Hulawa",
+        "postal_code": "96181"
+    },
+    {
+        "code": 7501022017,
+        "district_code": 750102,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Pilohayanga",
+        "postal_code": "96181"
+    },
+    {
+        "code": 7501022018,
+        "district_code": 750102,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Dulamayo Selatan",
+        "postal_code": "96181"
+    },
+    {
+        "code": 7501022019,
+        "district_code": 750102,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Dulamayo Barat",
+        "postal_code": "96181"
+    },
+    {
+        "code": 7501022020,
+        "district_code": 750102,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Dulohupa",
+        "postal_code": "96181"
+    },
+    {
+        "code": 7501022021,
+        "district_code": 750102,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Pilohayanga Barat",
+        "postal_code": "96181"
+    },
+    {
+        "code": 7501032001,
+        "district_code": 750103,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Iluta",
+        "postal_code": "96243"
+    },
+    {
+        "code": 7501032002,
+        "district_code": 750103,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Bua",
+        "postal_code": "96243"
+    },
+    {
+        "code": 7501032003,
+        "district_code": 750103,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Huntu",
+        "postal_code": "96243"
+    },
+    {
+        "code": 7501032004,
+        "district_code": 750103,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Payunga",
+        "postal_code": "96243"
+    },
+    {
+        "code": 7501032012,
+        "district_code": 750103,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Barakati",
+        "postal_code": "96243"
+    },
+    {
+        "code": 7501032013,
+        "district_code": 750103,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Ilohungayo",
+        "postal_code": "96243"
+    },
+    {
+        "code": 7501032014,
+        "district_code": 750103,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Dunggala",
+        "postal_code": "96243"
+    },
+    {
+        "code": 7501032015,
+        "district_code": 750103,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Pilobuhuta",
+        "postal_code": "96243"
+    },
+    {
+        "code": 7501042001,
+        "district_code": 750104,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Isimu Utara",
+        "postal_code": "96231"
+    },
+    {
+        "code": 7501042002,
+        "district_code": 750104,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Isimu Selatan",
+        "postal_code": "96231"
+    },
+    {
+        "code": 7501042003,
+        "district_code": 750104,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Datahu",
+        "postal_code": "96231"
+    },
+    {
+        "code": 7501042004,
+        "district_code": 750104,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Tolotio",
+        "postal_code": "96231"
+    },
+    {
+        "code": 7501042005,
+        "district_code": 750104,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Labanu",
+        "postal_code": "96231"
+    },
+    {
+        "code": 7501042006,
+        "district_code": 750104,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Reksonegoro",
+        "postal_code": "96231"
+    },
+    {
+        "code": 7501042007,
+        "district_code": 750104,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Buhu",
+        "postal_code": "96231"
+    },
+    {
+        "code": 7501042008,
+        "district_code": 750104,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Dunggala",
+        "postal_code": "96231"
+    },
+    {
+        "code": 7501042009,
+        "district_code": 750104,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Molowahu",
+        "postal_code": "96231"
+    },
+    {
+        "code": 7501042010,
+        "district_code": 750104,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Iloponu",
+        "postal_code": "96231"
+    },
+    {
+        "code": 7501042011,
+        "district_code": 750104,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Ilomata",
+        "postal_code": "96231"
+    },
+    {
+        "code": 7501042012,
+        "district_code": 750104,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Motilango",
+        "postal_code": "96231"
+    },
+    {
+        "code": 7501042013,
+        "district_code": 750104,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Isimu Raya",
+        "postal_code": "96231"
+    },
+    {
+        "code": 7501042014,
+        "district_code": 750104,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Balahu",
+        "postal_code": "96231"
+    },
+    {
+        "code": 7501042015,
+        "district_code": 750104,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Botumoputi",
+        "postal_code": "96231"
+    },
+    {
+        "code": 7501042016,
+        "district_code": 750104,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Ulobua",
+        "postal_code": "96231"
+    },
+    {
+        "code": 7501052004,
+        "district_code": 750105,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Tontayuo",
+        "postal_code": "96244"
+    },
+    {
+        "code": 7501052005,
+        "district_code": 750105,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Biluhu Timur",
+        "postal_code": "96244"
+    },
+    {
+        "code": 7501052006,
+        "district_code": 750105,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Kayubulan",
+        "postal_code": "96244"
+    },
+    {
+        "code": 7501052007,
+        "district_code": 750105,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Bongo",
+        "postal_code": "96244"
+    },
+    {
+        "code": 7501052008,
+        "district_code": 750105,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Lopo",
+        "postal_code": "96244"
+    },
+    {
+        "code": 7501052009,
+        "district_code": 750105,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Lamu",
+        "postal_code": "96244"
+    },
+    {
+        "code": 7501052012,
+        "district_code": 750105,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Olimoo'o",
+        "postal_code": "96244"
+    },
+    {
+        "code": 7501052014,
+        "district_code": 750105,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Buhudaa",
+        "postal_code": "96244"
+    },
+    {
+        "code": 7501052015,
+        "district_code": 750105,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Langgula",
+        "postal_code": "96244"
+    },
+    {
+        "code": 7501092001,
+        "district_code": 750109,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Sidomulyo",
+        "postal_code": "96235"
+    },
+    {
+        "code": 7501092004,
+        "district_code": 750109,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Parungi",
+        "postal_code": "96235"
+    },
+    {
+        "code": 7501092006,
+        "district_code": 750109,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Diloniyohu",
+        "postal_code": "96235"
+    },
+    {
+        "code": 7501092007,
+        "district_code": 750109,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Sidodadi",
+        "postal_code": "96235"
+    },
+    {
+        "code": 7501092010,
+        "district_code": 750109,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Potanga",
+        "postal_code": "96235"
+    },
+    {
+        "code": 7501092011,
+        "district_code": 750109,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Motoduto",
+        "postal_code": "96235"
+    },
+    {
+        "code": 7501092012,
+        "district_code": 750109,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Iloheluma",
+        "postal_code": "96235"
+    },
+    {
+        "code": 7501092014,
+        "district_code": 750109,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Monggolito",
+        "postal_code": "96235"
+    },
+    {
+        "code": 7501092015,
+        "district_code": 750109,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Bandung Rejo",
+        "postal_code": "96235"
+    },
+    {
+        "code": 7501092018,
+        "district_code": 750109,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Dulohupa",
+        "postal_code": "96235"
+    },
+    {
+        "code": 7501092019,
+        "district_code": 750109,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Sidomulya Selatan",
+        "postal_code": "96235"
+    },
+    {
+        "code": 7501092020,
+        "district_code": 750109,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Bongongoayu",
+        "postal_code": "96235"
+    },
+    {
+        "code": 7501092021,
+        "district_code": 750109,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Tolite",
+        "postal_code": "96235"
+    },
+    {
+        "code": 7501102001,
+        "district_code": 750110,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Dulamayo Utara",
+        "postal_code": "96183"
+    },
+    {
+        "code": 7501102002,
+        "district_code": 750110,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Ulapato A",
+        "postal_code": "96183"
+    },
+    {
+        "code": 7501102003,
+        "district_code": 750110,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Ulapato B",
+        "postal_code": "96183"
+    },
+    {
+        "code": 7501102004,
+        "district_code": 750110,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Talumelito",
+        "postal_code": "96183"
+    },
+    {
+        "code": 7501102005,
+        "district_code": 750110,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Tuladenggi",
+        "postal_code": "96183"
+    },
+    {
+        "code": 7501102006,
+        "district_code": 750110,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Pantungo",
+        "postal_code": "96183"
+    },
+    {
+        "code": 7501102007,
+        "district_code": 750110,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Lupoyo",
+        "postal_code": "96183"
+    },
+    {
+        "code": 7501102008,
+        "district_code": 750110,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Pentadio Timur",
+        "postal_code": "96183"
+    },
+    {
+        "code": 7501102009,
+        "district_code": 750110,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Pentadio Barat",
+        "postal_code": "96183"
+    },
+    {
+        "code": 7501102010,
+        "district_code": 750110,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Dumati",
+        "postal_code": "96183"
+    },
+    {
+        "code": 7501102011,
+        "district_code": 750110,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Modelidu",
+        "postal_code": "96183"
+    },
+    {
+        "code": 7501102012,
+        "district_code": 750110,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Tinelo",
+        "postal_code": "96183"
+    },
+    {
+        "code": 7501102013,
+        "district_code": 750110,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Timuato",
+        "postal_code": "96183"
+    },
+    {
+        "code": 7501102014,
+        "district_code": 750110,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Tapaluluo",
+        "postal_code": "96183"
+    },
+    {
+        "code": 7501102015,
+        "district_code": 750110,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Tonala",
+        "postal_code": "96183"
+    },
+    {
+        "code": 7501112001,
+        "district_code": 750111,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Dulamayo",
+        "postal_code": "96246"
+    },
+    {
+        "code": 7501112008,
+        "district_code": 750111,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Upomela",
+        "postal_code": "96246"
+    },
+    {
+        "code": 7501112009,
+        "district_code": 750111,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Tohupo",
+        "postal_code": "96246"
+    },
+    {
+        "code": 7501112010,
+        "district_code": 750111,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Molanihu",
+        "postal_code": "96246"
+    },
+    {
+        "code": 7501112011,
+        "district_code": 750111,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Molopatodu",
+        "postal_code": "96246"
+    },
+    {
+        "code": 7501112012,
+        "district_code": 750111,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Molas",
+        "postal_code": "96246"
+    },
+    {
+        "code": 7501112013,
+        "district_code": 750111,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Batulayar",
+        "postal_code": "96246"
+    },
+    {
+        "code": 7501112014,
+        "district_code": 750111,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Batuloreng",
+        "postal_code": "96246"
+    },
+    {
+        "code": 7501112015,
+        "district_code": 750111,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Bongohulawa",
+        "postal_code": "96246"
+    },
+    {
+        "code": 7501112016,
+        "district_code": 750111,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Otopade",
+        "postal_code": "96246"
+    },
+    {
+        "code": 7501112018,
+        "district_code": 750111,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Huntulo Hulawa",
+        "postal_code": "96246"
+    },
+    {
+        "code": 7501112022,
+        "district_code": 750111,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Owalanga",
+        "postal_code": "96246"
+    },
+    {
+        "code": 7501112023,
+        "district_code": 750111,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Liyodu",
+        "postal_code": "96246"
+    },
+    {
+        "code": 7501112024,
+        "district_code": 750111,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Liyoto",
+        "postal_code": "96246"
+    },
+    {
+        "code": 7501112025,
+        "district_code": 750111,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Kayumerah",
+        "postal_code": "96246"
+    },
+    {
+        "code": 7501132001,
+        "district_code": 750113,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Sukamakmur",
+        "postal_code": "96222"
+    },
+    {
+        "code": 7501132002,
+        "district_code": 750113,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Lakeya",
+        "postal_code": "96222"
+    },
+    {
+        "code": 7501132003,
+        "district_code": 750113,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Gandasari",
+        "postal_code": "96222"
+    },
+    {
+        "code": 7501132004,
+        "district_code": 750113,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Molohu",
+        "postal_code": "96222"
+    },
+    {
+        "code": 7501132007,
+        "district_code": 750113,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Polohungo",
+        "postal_code": "96222"
+    },
+    {
+        "code": 7501132008,
+        "district_code": 750113,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Bina Jaya",
+        "postal_code": "96222"
+    },
+    {
+        "code": 7501132009,
+        "district_code": 750113,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Tamaila",
+        "postal_code": "96222"
+    },
+    {
+        "code": 7501132010,
+        "district_code": 750113,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Sidoarjo",
+        "postal_code": "96222"
+    },
+    {
+        "code": 7501132013,
+        "district_code": 750113,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Sukamakmur Utara",
+        "postal_code": "96222"
+    },
+    {
+        "code": 7501132014,
+        "district_code": 750113,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Margomulya",
+        "postal_code": "96222"
+    },
+    {
+        "code": 7501132015,
+        "district_code": 750113,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Makmur Abadi",
+        "postal_code": "96222"
+    },
+    {
+        "code": 7501132016,
+        "district_code": 750113,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Gandaria",
+        "postal_code": "96222"
+    },
+    {
+        "code": 7501132017,
+        "district_code": 750113,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Ombulo Tango",
+        "postal_code": "96222"
+    },
+    {
+        "code": 7501132018,
+        "district_code": 750113,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Tamalia Utara",
+        "postal_code": "96222"
+    },
+    {
+        "code": 7501132019,
+        "district_code": 750113,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Himalaya",
+        "postal_code": "96222"
+    },
+    {
+        "code": 7501142001,
+        "district_code": 750114,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Paris",
+        "postal_code": "96153"
+    },
+    {
+        "code": 7501142002,
+        "district_code": 750114,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Helumo",
+        "postal_code": "96150"
+    },
+    {
+        "code": 7501142003,
+        "district_code": 750114,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Pilomonu",
+        "postal_code": "96155"
+    },
+    {
+        "code": 7501142004,
+        "district_code": 750114,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Satria",
+        "postal_code": "96156"
+    },
+    {
+        "code": 7501142005,
+        "district_code": 750114,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Karyamukti",
+        "postal_code": "96152"
+    },
+    {
+        "code": 7501142006,
+        "district_code": 750114,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Talumopatu",
+        "postal_code": "96159"
+    },
+    {
+        "code": 7501142007,
+        "district_code": 750114,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Sidomukti",
+        "postal_code": "96157"
+    },
+    {
+        "code": 7501142008,
+        "district_code": 750114,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Payu",
+        "postal_code": "96154"
+    },
+    {
+        "code": 7501142009,
+        "district_code": 750114,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Sukamaju",
+        "postal_code": "96158"
+    },
+    {
+        "code": 7501142010,
+        "district_code": 750114,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Huyula",
+        "postal_code": "96151"
+    },
+    {
+        "code": 7501162001,
+        "district_code": 750116,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Pongongaila",
+        "postal_code": "96167"
+    },
+    {
+        "code": 7501162002,
+        "district_code": 750116,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Pulubala",
+        "postal_code": "96168"
+    },
+    {
+        "code": 7501162003,
+        "district_code": 750116,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Molamahu",
+        "postal_code": "96165"
+    },
+    {
+        "code": 7501162004,
+        "district_code": 750116,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Bakti",
+        "postal_code": "96162"
+    },
+    {
+        "code": 7501162005,
+        "district_code": 750116,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Tridharma",
+        "postal_code": "96172"
+    },
+    {
+        "code": 7501162006,
+        "district_code": 750116,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Molalahu",
+        "postal_code": "96164"
+    },
+    {
+        "code": 7501162007,
+        "district_code": 750116,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Mulyonegoro",
+        "postal_code": "96166"
+    },
+    {
+        "code": 7501162008,
+        "district_code": 750116,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Puncak",
+        "postal_code": "96169"
+    },
+    {
+        "code": 7501162009,
+        "district_code": 750116,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Toyidito",
+        "postal_code": "96171"
+    },
+    {
+        "code": 7501162010,
+        "district_code": 750116,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Ayumolingo",
+        "postal_code": "96161"
+    },
+    {
+        "code": 7501162011,
+        "district_code": 750116,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Bukit Aren",
+        "postal_code": "96163"
+    },
+    {
+        "code": 7501172001,
+        "district_code": 750117,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Pone",
+        "postal_code": "96215"
+    },
+    {
+        "code": 7501172002,
+        "district_code": 750117,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Huidu",
+        "postal_code": "96215"
+    },
+    {
+        "code": 7501172003,
+        "district_code": 750117,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Ombulo",
+        "postal_code": "96215"
+    },
+    {
+        "code": 7501172004,
+        "district_code": 750117,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Daenaa",
+        "postal_code": "96215"
+    },
+    {
+        "code": 7501172005,
+        "district_code": 750117,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Yosonegoro",
+        "postal_code": "96216"
+    },
+    {
+        "code": 7501172006,
+        "district_code": 750117,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Tunggulo",
+        "postal_code": "96217"
+    },
+    {
+        "code": 7501172007,
+        "district_code": 750117,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Hutabohu",
+        "postal_code": "96216"
+    },
+    {
+        "code": 7501172008,
+        "district_code": 750117,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Padengo",
+        "postal_code": "96216"
+    },
+    {
+        "code": 7501172009,
+        "district_code": 750117,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Haya-Haya",
+        "postal_code": "96216"
+    },
+    {
+        "code": 7501172010,
+        "district_code": 750117,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Huidu Utara",
+        "postal_code": "96216"
+    },
+    {
+        "code": 7501182001,
+        "district_code": 750118,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Tualango",
+        "postal_code": "96182"
+    },
+    {
+        "code": 7501182002,
+        "district_code": 750118,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Dulomo",
+        "postal_code": "96182"
+    },
+    {
+        "code": 7501182003,
+        "district_code": 750118,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Tilote",
+        "postal_code": "96182"
+    },
+    {
+        "code": 7501182004,
+        "district_code": 750118,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Tabumela",
+        "postal_code": "96182"
+    },
+    {
+        "code": 7501182005,
+        "district_code": 750118,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Ilotidea",
+        "postal_code": "96182"
+    },
+    {
+        "code": 7501182006,
+        "district_code": 750118,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Lauwonu",
+        "postal_code": "96182"
+    },
+    {
+        "code": 7501182007,
+        "district_code": 750118,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Tenggela",
+        "postal_code": "96182"
+    },
+    {
+        "code": 7501182008,
+        "district_code": 750118,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Tinelo",
+        "postal_code": "96182"
+    },
+    {
+        "code": 7501192001,
+        "district_code": 750119,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Tabongo Timur",
+        "postal_code": "96242"
+    },
+    {
+        "code": 7501192002,
+        "district_code": 750119,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Tabongo Barat",
+        "postal_code": "96242"
+    },
+    {
+        "code": 7501192003,
+        "district_code": 750119,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Limehe Barat",
+        "postal_code": "96242"
+    },
+    {
+        "code": 7501192004,
+        "district_code": 750119,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Limehe Timur",
+        "postal_code": "96242"
+    },
+    {
+        "code": 7501192005,
+        "district_code": 750119,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Ilomangga",
+        "postal_code": "96242"
+    },
+    {
+        "code": 7501192006,
+        "district_code": 750119,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Motinelo",
+        "postal_code": "96242"
+    },
+    {
+        "code": 7501192007,
+        "district_code": 750119,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Moahudu",
+        "postal_code": "96242"
+    },
+    {
+        "code": 7501192008,
+        "district_code": 750119,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Teratai",
+        "postal_code": "96242"
+    },
+    {
+        "code": 7501192009,
+        "district_code": 750119,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Limehu",
+        "postal_code": "96242"
+    },
+    {
+        "code": 7501202001,
+        "district_code": 750120,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Biluhu Barat",
+        "postal_code": "96245"
+    },
+    {
+        "code": 7501202002,
+        "district_code": 750120,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Lobuto",
+        "postal_code": "96245"
+    },
+    {
+        "code": 7501202003,
+        "district_code": 750120,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Biluhu Tengah",
+        "postal_code": "96245"
+    },
+    {
+        "code": 7501202004,
+        "district_code": 750120,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Luluo",
+        "postal_code": "96245"
+    },
+    {
+        "code": 7501202005,
+        "district_code": 750120,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Huwongo",
+        "postal_code": "96245"
+    },
+    {
+        "code": 7501202006,
+        "district_code": 750120,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Lobuto Timur",
+        "postal_code": "96245"
+    },
+    {
+        "code": 7501202007,
+        "district_code": 750120,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Botu Boluo",
+        "postal_code": "96245"
+    },
+    {
+        "code": 7501202008,
+        "district_code": 750120,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Olimeyala",
+        "postal_code": "96245"
+    },
+    {
+        "code": 7501212001,
+        "district_code": 750121,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Bululi",
+        "postal_code": "96221"
+    },
+    {
+        "code": 7501212002,
+        "district_code": 750121,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Mohiyolo",
+        "postal_code": "96221"
+    },
+    {
+        "code": 7501212003,
+        "district_code": 750121,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Pangahu",
+        "postal_code": "96221"
+    },
+    {
+        "code": 7501212004,
+        "district_code": 750121,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Karya Indah",
+        "postal_code": "96221"
+    },
+    {
+        "code": 7501212005,
+        "district_code": 750121,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Prima",
+        "postal_code": "96221"
+    },
+    {
+        "code": 7501212006,
+        "district_code": 750121,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Tiohu",
+        "postal_code": "96221"
+    },
+    {
+        "code": 7501212007,
+        "district_code": 750121,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Olimohulo",
+        "postal_code": "96221"
+    },
+    {
+        "code": 7501212008,
+        "district_code": 750121,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Karya Baru",
+        "postal_code": "96221"
+    },
+    {
+        "code": 7501212009,
+        "district_code": 750121,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Bontula",
+        "postal_code": "96221"
+    },
+    {
+        "code": 7501212010,
+        "district_code": 750121,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Bihe",
+        "postal_code": "96221"
+    },
+    {
+        "code": 7501222001,
+        "district_code": 750122,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Hutadaa",
+        "postal_code": "96184"
+    },
+    {
+        "code": 7501222002,
+        "district_code": 750122,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Buhu",
+        "postal_code": "96184"
+    },
+    {
+        "code": 7501222003,
+        "district_code": 750122,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Luwoo",
+        "postal_code": "96184"
+    },
+    {
+        "code": 7501222004,
+        "district_code": 750122,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Bunggalo",
+        "postal_code": "96184"
+    },
+    {
+        "code": 7501222005,
+        "district_code": 750122,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Bulota",
+        "postal_code": "96184"
+    },
+    {
+        "code": 7501232001,
+        "district_code": 750123,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Totopo",
+        "postal_code": "96234"
+    },
+    {
+        "code": 7501232002,
+        "district_code": 750123,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Bilato",
+        "postal_code": "96234"
+    },
+    {
+        "code": 7501232003,
+        "district_code": 750123,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Ilomata",
+        "postal_code": "96234"
+    },
+    {
+        "code": 7501232004,
+        "district_code": 750123,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Taula'a",
+        "postal_code": "96234"
+    },
+    {
+        "code": 7501232005,
+        "district_code": 750123,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Juriya",
+        "postal_code": "96234"
+    },
+    {
+        "code": 7501232006,
+        "district_code": 750123,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Pelehu",
+        "postal_code": "96234"
+    },
+    {
+        "code": 7501232007,
+        "district_code": 750123,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Bumela",
+        "postal_code": "96234"
+    },
+    {
+        "code": 7501232008,
+        "district_code": 750123,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Lamahu",
+        "postal_code": "96234"
+    },
+    {
+        "code": 7501232009,
+        "district_code": 750123,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Musyawarah",
+        "postal_code": "96234"
+    },
+    {
+        "code": 7501232010,
+        "district_code": 750123,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Suka Damai",
+        "postal_code": "96234"
+    },
+    {
+        "code": 7501242001,
+        "district_code": 750124,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Pilolalenga",
+        "postal_code": "96241"
+    },
+    {
+        "code": 7501242002,
+        "district_code": 750124,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Kaliyoso",
+        "postal_code": "96241"
+    },
+    {
+        "code": 7501242003,
+        "district_code": 750124,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Dungaliyo",
+        "postal_code": "96241"
+    },
+    {
+        "code": 7501242004,
+        "district_code": 750124,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Ambara",
+        "postal_code": "96241"
+    },
+    {
+        "code": 7501242005,
+        "district_code": 750124,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Bongomeme",
+        "postal_code": "96241"
+    },
+    {
+        "code": 7501242006,
+        "district_code": 750124,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Duwanga",
+        "postal_code": "96241"
+    },
+    {
+        "code": 7501242007,
+        "district_code": 750124,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Ayuhula",
+        "postal_code": "96241"
+    },
+    {
+        "code": 7501242008,
+        "district_code": 750124,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Pangadaa",
+        "postal_code": "96241"
+    },
+    {
+        "code": 7501242009,
+        "district_code": 750124,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Botubulowe",
+        "postal_code": "96241"
+    },
+    {
+        "code": 7501242010,
+        "district_code": 750124,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Momala",
+        "postal_code": "96241"
+    },
+    {
+        "code": 7502012004,
+        "district_code": 750201,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Bongo Nol",
+        "postal_code": "96260"
+    },
+    {
+        "code": 7502012005,
+        "district_code": 750201,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Bongo IV",
+        "postal_code": "96260"
+    },
+    {
+        "code": 7502012006,
+        "district_code": 750201,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Molombulahe",
+        "postal_code": "96260"
+    },
+    {
+        "code": 7502012007,
+        "district_code": 750201,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Mutiara",
+        "postal_code": "96260"
+    },
+    {
+        "code": 7502012008,
+        "district_code": 750201,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Saripi",
+        "postal_code": "96260"
+    },
+    {
+        "code": 7502012009,
+        "district_code": 750201,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Wonggahu",
+        "postal_code": "96260"
+    },
+    {
+        "code": 7502012010,
+        "district_code": 750201,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Tangkobu",
+        "postal_code": "96260"
+    },
+    {
+        "code": 7502012011,
+        "district_code": 750201,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Bongo Tua",
+        "postal_code": "96260"
+    },
+    {
+        "code": 7502012012,
+        "district_code": 750201,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Kuala Lumpur",
+        "postal_code": "96260"
+    },
+    {
+        "code": 7502012013,
+        "district_code": 750201,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Mustika",
+        "postal_code": "96260"
+    },
+    {
+        "code": 7502012014,
+        "district_code": 750201,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Tenilo",
+        "postal_code": "96260"
+    },
+    {
+        "code": 7502012015,
+        "district_code": 750201,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Huwongo",
+        "postal_code": "96260"
+    },
+    {
+        "code": 7502012016,
+        "district_code": 750201,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Karya Murni",
+        "postal_code": "96260"
+    },
+    {
+        "code": 7502012019,
+        "district_code": 750201,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Girisa",
+        "postal_code": "96260"
+    },
+    {
+        "code": 7502012020,
+        "district_code": 750201,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Batu Kramat",
+        "postal_code": "96260"
+    },
+    {
+        "code": 7502012021,
+        "district_code": 750201,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Bualo",
+        "postal_code": "96260"
+    },
+    {
+        "code": 7502012022,
+        "district_code": 750201,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Sosial",
+        "postal_code": "96260"
+    },
+    {
+        "code": 7502012023,
+        "district_code": 750201,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Permata",
+        "postal_code": "96260"
+    },
+    {
+        "code": 7502012024,
+        "district_code": 750201,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Hulawa",
+        "postal_code": "96260"
+    },
+    {
+        "code": 7502012025,
+        "district_code": 750201,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Balate Jaya",
+        "postal_code": "96260"
+    },
+    {
+        "code": 7502012026,
+        "district_code": 750201,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Rejonegoro",
+        "postal_code": "96260"
+    },
+    {
+        "code": 7502012027,
+        "district_code": 750201,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Diloato",
+        "postal_code": "96260"
+    },
+    {
+        "code": 7502022001,
+        "district_code": 750202,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Harapan",
+        "postal_code": "96262"
+    },
+    {
+        "code": 7502022002,
+        "district_code": 750202,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Bongo II",
+        "postal_code": "96262"
+    },
+    {
+        "code": 7502022003,
+        "district_code": 750202,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Bongo III",
+        "postal_code": "96262"
+    },
+    {
+        "code": 7502022004,
+        "district_code": 750202,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Mekarjaya",
+        "postal_code": "96262"
+    },
+    {
+        "code": 7502022005,
+        "district_code": 750202,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Sukamaju",
+        "postal_code": "96262"
+    },
+    {
+        "code": 7502022006,
+        "district_code": 750202,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Pangeya",
+        "postal_code": "96262"
+    },
+    {
+        "code": 7502022007,
+        "district_code": 750202,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Jatimulya",
+        "postal_code": "96262"
+    },
+    {
+        "code": 7502022008,
+        "district_code": 750202,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Suka Mulya",
+        "postal_code": "96262"
+    },
+    {
+        "code": 7502022009,
+        "district_code": 750202,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Sari Tani",
+        "postal_code": "96262"
+    },
+    {
+        "code": 7502022010,
+        "district_code": 750202,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Dimito",
+        "postal_code": "96262"
+    },
+    {
+        "code": 7502022011,
+        "district_code": 750202,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Tanjung Harapan",
+        "postal_code": "96262"
+    },
+    {
+        "code": 7502022012,
+        "district_code": 750202,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Raharja",
+        "postal_code": "96262"
+    },
+    {
+        "code": 7502022013,
+        "district_code": 750202,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Trirukun",
+        "postal_code": "96262"
+    },
+    {
+        "code": 7502022014,
+        "district_code": 750202,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Dulohupa",
+        "postal_code": "96262"
+    },
+    {
+        "code": 7502032001,
+        "district_code": 750203,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Dulupi",
+        "postal_code": "96267"
+    },
+    {
+        "code": 7502032002,
+        "district_code": 750203,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Tabongo",
+        "postal_code": "96267"
+    },
+    {
+        "code": 7502032003,
+        "district_code": 750203,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Kotaraja",
+        "postal_code": "96267"
+    },
+    {
+        "code": 7502032004,
+        "district_code": 750203,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Polohungo",
+        "postal_code": "96267"
+    },
+    {
+        "code": 7502032005,
+        "district_code": 750203,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Pangi",
+        "postal_code": "96267"
+    },
+    {
+        "code": 7502032006,
+        "district_code": 750203,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Tangga Jaya",
+        "postal_code": "96267"
+    },
+    {
+        "code": 7502032007,
+        "district_code": 750203,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Tanah Putih",
+        "postal_code": "96267"
+    },
+    {
+        "code": 7502032008,
+        "district_code": 750203,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Tangga Barito",
+        "postal_code": "96267"
+    },
+    {
+        "code": 7502042001,
+        "district_code": 750204,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Limbato",
+        "postal_code": "96263"
+    },
+    {
+        "code": 7502042002,
+        "district_code": 750204,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Piloliyanga",
+        "postal_code": "96263"
+    },
+    {
+        "code": 7502042003,
+        "district_code": 750204,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Ayuhulalo",
+        "postal_code": "96263"
+    },
+    {
+        "code": 7502042004,
+        "district_code": 750204,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Hungayonaa",
+        "postal_code": "96263"
+    },
+    {
+        "code": 7502042005,
+        "district_code": 750204,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Modelomo",
+        "postal_code": "96263"
+    },
+    {
+        "code": 7502042006,
+        "district_code": 750204,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Pentadu Barat",
+        "postal_code": "96263"
+    },
+    {
+        "code": 7502042007,
+        "district_code": 750204,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Pentadu Timur",
+        "postal_code": "96263"
+    },
+    {
+        "code": 7502042008,
+        "district_code": 750204,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Bajo",
+        "postal_code": "96263"
+    },
+    {
+        "code": 7502042009,
+        "district_code": 750204,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Mohungo",
+        "postal_code": "96263"
+    },
+    {
+        "code": 7502042010,
+        "district_code": 750204,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Lahumbo",
+        "postal_code": "96263"
+    },
+    {
+        "code": 7502042011,
+        "district_code": 750204,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Lamu",
+        "postal_code": "96263"
+    },
+    {
+        "code": 7502042018,
+        "district_code": 750204,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Tenilo",
+        "postal_code": "96263"
+    },
+    {
+        "code": 7502052001,
+        "district_code": 750205,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Tabulo",
+        "postal_code": "96265"
+    },
+    {
+        "code": 7502052002,
+        "district_code": 750205,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Kaaruyan",
+        "postal_code": "96265"
+    },
+    {
+        "code": 7502052003,
+        "district_code": 750205,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Salilama",
+        "postal_code": "96265"
+    },
+    {
+        "code": 7502052004,
+        "district_code": 750205,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Bendungan",
+        "postal_code": "96265"
+    },
+    {
+        "code": 7502052005,
+        "district_code": 750205,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Mananggu",
+        "postal_code": "96265"
+    },
+    {
+        "code": 7502052006,
+        "district_code": 750205,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Buti",
+        "postal_code": "96265"
+    },
+    {
+        "code": 7502052007,
+        "district_code": 750205,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Pontolo",
+        "postal_code": "96265"
+    },
+    {
+        "code": 7502052008,
+        "district_code": 750205,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Kramat",
+        "postal_code": "96265"
+    },
+    {
+        "code": 7502052009,
+        "district_code": 750205,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Tabulo Selatan",
+        "postal_code": "96265"
+    },
+    {
+        "code": 7502062001,
+        "district_code": 750206,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Tutulo",
+        "postal_code": "96264"
+    },
+    {
+        "code": 7502062002,
+        "district_code": 750206,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Hutamonu",
+        "postal_code": "96264"
+    },
+    {
+        "code": 7502062003,
+        "district_code": 750206,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Patoameme",
+        "postal_code": "96264"
+    },
+    {
+        "code": 7502062004,
+        "district_code": 750206,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Tapadaa",
+        "postal_code": "96264"
+    },
+    {
+        "code": 7502062005,
+        "district_code": 750206,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Potanga",
+        "postal_code": "96264"
+    },
+    {
+        "code": 7502062006,
+        "district_code": 750206,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Botumoito",
+        "postal_code": "96264"
+    },
+    {
+        "code": 7502062007,
+        "district_code": 750206,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Bolihutuo",
+        "postal_code": "96264"
+    },
+    {
+        "code": 7502062008,
+        "district_code": 750206,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Rumbia",
+        "postal_code": "96264"
+    },
+    {
+        "code": 7502062009,
+        "district_code": 750206,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Dulangeya",
+        "postal_code": "96264"
+    },
+    {
+        "code": 7502072001,
+        "district_code": 750207,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Bubaa",
+        "postal_code": "96261"
+    },
+    {
+        "code": 7502072002,
+        "district_code": 750207,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Lito",
+        "postal_code": "96261"
+    },
+    {
+        "code": 7502072003,
+        "district_code": 750207,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Limbatihu",
+        "postal_code": "96261"
+    },
+    {
+        "code": 7502072004,
+        "district_code": 750207,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Bukit Karya",
+        "postal_code": "96261"
+    },
+    {
+        "code": 7502072005,
+        "district_code": 750207,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Apitalawu",
+        "postal_code": "96261"
+    },
+    {
+        "code": 7502072006,
+        "district_code": 750207,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Bangga",
+        "postal_code": "96261"
+    },
+    {
+        "code": 7502072007,
+        "district_code": 750207,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Towayu",
+        "postal_code": "96261"
+    },
+    {
+        "code": 7502072008,
+        "district_code": 750207,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Olibu",
+        "postal_code": "96261"
+    },
+    {
+        "code": 7503012004,
+        "district_code": 750301,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Talumopatu",
+        "postal_code": "96545"
+    },
+    {
+        "code": 7503012005,
+        "district_code": 750301,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Talulobutu",
+        "postal_code": "96545"
+    },
+    {
+        "code": 7503012006,
+        "district_code": 750301,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Dunggala",
+        "postal_code": "96545"
+    },
+    {
+        "code": 7503012007,
+        "district_code": 750301,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Langge",
+        "postal_code": "96545"
+    },
+    {
+        "code": 7503012027,
+        "district_code": 750301,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Talulobutu Selatan",
+        "postal_code": "96545"
+    },
+    {
+        "code": 7503012028,
+        "district_code": 750301,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Keramat",
+        "postal_code": "96545"
+    },
+    {
+        "code": 7503012029,
+        "district_code": 750301,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Meranti",
+        "postal_code": "96545"
+    },
+    {
+        "code": 7503021008,
+        "district_code": 750302,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Padengo",
+        "postal_code": "96552"
+    },
+    {
+        "code": 7503021009,
+        "district_code": 750302,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Olohuta",
+        "postal_code": "96552"
+    },
+    {
+        "code": 7503021010,
+        "district_code": 750302,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Tumbihe",
+        "postal_code": "96552"
+    },
+    {
+        "code": 7503021011,
+        "district_code": 750302,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Pauwo",
+        "postal_code": "96552"
+    },
+    {
+        "code": 7503021028,
+        "district_code": 750302,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Olohuta Utara",
+        "postal_code": "96552"
+    },
+    {
+        "code": 7503022006,
+        "district_code": 750302,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Dutohe",
+        "postal_code": "96552"
+    },
+    {
+        "code": 7503022007,
+        "district_code": 750302,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Tanggilingo",
+        "postal_code": "96552"
+    },
+    {
+        "code": 7503022012,
+        "district_code": 750302,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Toto Selatan",
+        "postal_code": "96552"
+    },
+    {
+        "code": 7503022013,
+        "district_code": 750302,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Poowo",
+        "postal_code": "96552"
+    },
+    {
+        "code": 7503022024,
+        "district_code": 750302,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Talango",
+        "postal_code": "96552"
+    },
+    {
+        "code": 7503022026,
+        "district_code": 750302,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Poowo Barat",
+        "postal_code": "96552"
+    },
+    {
+        "code": 7503022029,
+        "district_code": 750302,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Dutohe Barat",
+        "postal_code": "96552"
+    },
+    {
+        "code": 7503032011,
+        "district_code": 750303,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Tingkohubu",
+        "postal_code": "96562"
+    },
+    {
+        "code": 7503032012,
+        "district_code": 750303,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Boludawa",
+        "postal_code": "96562"
+    },
+    {
+        "code": 7503032013,
+        "district_code": 750303,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Bube",
+        "postal_code": "96562"
+    },
+    {
+        "code": 7503032014,
+        "district_code": 750303,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Huluduotamo",
+        "postal_code": "96562"
+    },
+    {
+        "code": 7503032020,
+        "district_code": 750303,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Ulanta",
+        "postal_code": "96562"
+    },
+    {
+        "code": 7503032021,
+        "district_code": 750303,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Tinelo",
+        "postal_code": "96562"
+    },
+    {
+        "code": 7503032022,
+        "district_code": 750303,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Bubeya",
+        "postal_code": "96562"
+    },
+    {
+        "code": 7503032023,
+        "district_code": 750303,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Bube Baru",
+        "postal_code": "96562"
+    },
+    {
+        "code": 7503032027,
+        "district_code": 750303,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Tingkohubu Timur",
+        "postal_code": "96562"
+    },
+    {
+        "code": 7503032028,
+        "district_code": 750303,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Helumo",
+        "postal_code": "96562"
+    },
+    {
+        "code": 7503042003,
+        "district_code": 750304,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Tamboo",
+        "postal_code": "96573"
+    },
+    {
+        "code": 7503042004,
+        "district_code": 750304,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Bilungala",
+        "postal_code": "96573"
+    },
+    {
+        "code": 7503042005,
+        "district_code": 750304,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Uabanga",
+        "postal_code": "96573"
+    },
+    {
+        "code": 7503042008,
+        "district_code": 750304,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Tolotio",
+        "postal_code": "96573"
+    },
+    {
+        "code": 7503042012,
+        "district_code": 750304,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Tongo",
+        "postal_code": "96573"
+    },
+    {
+        "code": 7503042025,
+        "district_code": 750304,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Bilungala Utara",
+        "postal_code": "96573"
+    },
+    {
+        "code": 7503042026,
+        "district_code": 750304,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Tihu",
+        "postal_code": "96573"
+    },
+    {
+        "code": 7503042027,
+        "district_code": 750304,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Tunas Jaya",
+        "postal_code": "96573"
+    },
+    {
+        "code": 7503042028,
+        "district_code": 750304,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Lembah Hijau",
+        "postal_code": "96573"
+    },
+    {
+        "code": 7503042029,
+        "district_code": 750304,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Batu Hijau",
+        "postal_code": "96573"
+    },
+    {
+        "code": 7503042031,
+        "district_code": 750304,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Ombulo Hijau",
+        "postal_code": "96573"
+    },
+    {
+        "code": 7503042032,
+        "district_code": 750304,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Kemiri",
+        "postal_code": "96573"
+    },
+    {
+        "code": 7503042033,
+        "district_code": 750304,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Pelita Hijau",
+        "postal_code": "96573"
+    },
+    {
+        "code": 7503052001,
+        "district_code": 750305,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Boidu",
+        "postal_code": "96544"
+    },
+    {
+        "code": 7503052002,
+        "district_code": 750305,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Bandungan",
+        "postal_code": "96544"
+    },
+    {
+        "code": 7503052003,
+        "district_code": 750305,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Tupa",
+        "postal_code": "96544"
+    },
+    {
+        "code": 7503052004,
+        "district_code": 750305,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Longalo",
+        "postal_code": "96544"
+    },
+    {
+        "code": 7503052009,
+        "district_code": 750305,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Tuloa",
+        "postal_code": "96544"
+    },
+    {
+        "code": 7503052010,
+        "district_code": 750305,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Kopi",
+        "postal_code": "96544"
+    },
+    {
+        "code": 7503052011,
+        "district_code": 750305,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Lomaya",
+        "postal_code": "96544"
+    },
+    {
+        "code": 7503052012,
+        "district_code": 750305,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Suka Damai",
+        "postal_code": "96544"
+    },
+    {
+        "code": 7503052015,
+        "district_code": 750305,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Bunuo",
+        "postal_code": "96544"
+    },
+    {
+        "code": 7503062001,
+        "district_code": 750306,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Bongoime",
+        "postal_code": "96554"
+    },
+    {
+        "code": 7503062002,
+        "district_code": 750306,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Bongopini",
+        "postal_code": "96554"
+    },
+    {
+        "code": 7503062003,
+        "district_code": 750306,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Toto Utara",
+        "postal_code": "96554"
+    },
+    {
+        "code": 7503062004,
+        "district_code": 750306,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Moutong",
+        "postal_code": "96554"
+    },
+    {
+        "code": 7503062005,
+        "district_code": 750306,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Tunggulo",
+        "postal_code": "96554"
+    },
+    {
+        "code": 7503062006,
+        "district_code": 750306,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Lonuo",
+        "postal_code": "96554"
+    },
+    {
+        "code": 7503062007,
+        "district_code": 750306,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Tamboo",
+        "postal_code": "96554"
+    },
+    {
+        "code": 7503062008,
+        "district_code": 750306,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Iloheluma",
+        "postal_code": "96554"
+    },
+    {
+        "code": 7503062009,
+        "district_code": 750306,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Motilango",
+        "postal_code": "96554"
+    },
+    {
+        "code": 7503062010,
+        "district_code": 750306,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Butu",
+        "postal_code": "96554"
+    },
+    {
+        "code": 7503062011,
+        "district_code": 750306,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Permata",
+        "postal_code": "96554"
+    },
+    {
+        "code": 7503062012,
+        "district_code": 750306,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Tunggulo Selatan",
+        "postal_code": "96554"
+    },
+    {
+        "code": 7503062013,
+        "district_code": 750306,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Bongohulawa",
+        "postal_code": "96554"
+    },
+    {
+        "code": 7503062014,
+        "district_code": 750306,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Berlian",
+        "postal_code": "96554"
+    },
+    {
+        "code": 7503072001,
+        "district_code": 750307,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Timbuolo",
+        "postal_code": "96551"
+    },
+    {
+        "code": 7503072002,
+        "district_code": 750307,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Panggulo",
+        "postal_code": "96551"
+    },
+    {
+        "code": 7503072003,
+        "district_code": 750307,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Luwohu",
+        "postal_code": "96551"
+    },
+    {
+        "code": 7503072004,
+        "district_code": 750307,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Buata",
+        "postal_code": "96551"
+    },
+    {
+        "code": 7503072005,
+        "district_code": 750307,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Timbuolo Timur",
+        "postal_code": "96551"
+    },
+    {
+        "code": 7503072006,
+        "district_code": 750307,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Tanah Putih",
+        "postal_code": "96551"
+    },
+    {
+        "code": 7503072007,
+        "district_code": 750307,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Panggulo Barat",
+        "postal_code": "96551"
+    },
+    {
+        "code": 7503072008,
+        "district_code": 750307,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Timbuolo Tengah",
+        "postal_code": "96551"
+    },
+    {
+        "code": 7503072009,
+        "district_code": 750307,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Sukma",
+        "postal_code": "96551"
+    },
+    {
+        "code": 7503082001,
+        "district_code": 750308,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Huangobotu",
+        "postal_code": "96553"
+    },
+    {
+        "code": 7503082002,
+        "district_code": 750308,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Molutabu",
+        "postal_code": "96553"
+    },
+    {
+        "code": 7503082003,
+        "district_code": 750308,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Oluhuta",
+        "postal_code": "96553"
+    },
+    {
+        "code": 7503082004,
+        "district_code": 750308,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Olele",
+        "postal_code": "96553"
+    },
+    {
+        "code": 7503082005,
+        "district_code": 750308,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Botutonuo",
+        "postal_code": "96553"
+    },
+    {
+        "code": 7503082006,
+        "district_code": 750308,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Modelomo",
+        "postal_code": "96553"
+    },
+    {
+        "code": 7503082007,
+        "district_code": 750308,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Biluango",
+        "postal_code": "96553"
+    },
+    {
+        "code": 7503082008,
+        "district_code": 750308,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Botubarani",
+        "postal_code": "96553"
+    },
+    {
+        "code": 7503082009,
+        "district_code": 750308,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Bintalahe",
+        "postal_code": "96553"
+    },
+    {
+        "code": 7503092001,
+        "district_code": 750309,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Taludaa",
+        "postal_code": "96571"
+    },
+    {
+        "code": 7503092002,
+        "district_code": 750309,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Sogitia",
+        "postal_code": "96571"
+    },
+    {
+        "code": 7503092003,
+        "district_code": 750309,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Moodulio",
+        "postal_code": "96571"
+    },
+    {
+        "code": 7503092004,
+        "district_code": 750309,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Bilonlantunga",
+        "postal_code": "96571"
+    },
+    {
+        "code": 7503092005,
+        "district_code": 750309,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Inogaluma",
+        "postal_code": "96571"
+    },
+    {
+        "code": 7503092006,
+        "district_code": 750309,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Monano",
+        "postal_code": "96571"
+    },
+    {
+        "code": 7503092007,
+        "district_code": 750309,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Tumbuh Mekar",
+        "postal_code": "96571"
+    },
+    {
+        "code": 7503092008,
+        "district_code": 750309,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Molamahu",
+        "postal_code": "96571"
+    },
+    {
+        "code": 7503092009,
+        "district_code": 750309,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Masiaga",
+        "postal_code": "96571"
+    },
+    {
+        "code": 7503092010,
+        "district_code": 750309,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Ilohuuwa",
+        "postal_code": "96571"
+    },
+    {
+        "code": 7503092011,
+        "district_code": 750309,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Muara Bone",
+        "postal_code": "96571"
+    },
+    {
+        "code": 7503092012,
+        "district_code": 750309,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Cendana Putih",
+        "postal_code": "96571"
+    },
+    {
+        "code": 7503092013,
+        "district_code": 750309,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Waluhu",
+        "postal_code": "96571"
+    },
+    {
+        "code": 7503092014,
+        "district_code": 750309,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Permata",
+        "postal_code": "96571"
+    },
+    {
+        "code": 7503102001,
+        "district_code": 750310,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Inomata",
+        "postal_code": "96572"
+    },
+    {
+        "code": 7503102003,
+        "district_code": 750310,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Tumbulilato",
+        "postal_code": "96572"
+    },
+    {
+        "code": 7503102004,
+        "district_code": 750310,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Mootayu",
+        "postal_code": "96572"
+    },
+    {
+        "code": 7503102006,
+        "district_code": 750310,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Mootinelo",
+        "postal_code": "96572"
+    },
+    {
+        "code": 7503102009,
+        "district_code": 750310,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Pelita Jaya",
+        "postal_code": "96572"
+    },
+    {
+        "code": 7503102010,
+        "district_code": 750310,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Moopiya",
+        "postal_code": "96572"
+    },
+    {
+        "code": 7503102011,
+        "district_code": 750310,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Alo",
+        "postal_code": "96572"
+    },
+    {
+        "code": 7503102012,
+        "district_code": 750310,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Laut Biru",
+        "postal_code": "96572"
+    },
+    {
+        "code": 7503102014,
+        "district_code": 750310,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Bunga",
+        "postal_code": "96572"
+    },
+    {
+        "code": 7503102015,
+        "district_code": 750310,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Mootawa",
+        "postal_code": "96572"
+    },
+    {
+        "code": 7503112001,
+        "district_code": 750311,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Tulabolo",
+        "postal_code": "96565"
+    },
+    {
+        "code": 7503112003,
+        "district_code": 750311,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Dumbaya Bulan",
+        "postal_code": "96565"
+    },
+    {
+        "code": 7503112004,
+        "district_code": 750311,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Tulabolo Timur",
+        "postal_code": "96565"
+    },
+    {
+        "code": 7503112005,
+        "district_code": 750311,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Tilangobula",
+        "postal_code": "96565"
+    },
+    {
+        "code": 7503112007,
+        "district_code": 750311,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Poduwoma",
+        "postal_code": "96565"
+    },
+    {
+        "code": 7503112008,
+        "district_code": 750311,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Panggulo",
+        "postal_code": "96565"
+    },
+    {
+        "code": 7503112009,
+        "district_code": 750311,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Tulabolo Barat",
+        "postal_code": "96565"
+    },
+    {
+        "code": 7503112010,
+        "district_code": 750311,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Pangi",
+        "postal_code": "96565"
+    },
+    {
+        "code": 7503112011,
+        "district_code": 750311,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Tinemba",
+        "postal_code": "96565"
+    },
+    {
+        "code": 7503122001,
+        "district_code": 750312,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Bulontala",
+        "postal_code": "96563"
+    },
+    {
+        "code": 7503122002,
+        "district_code": 750312,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Libungo",
+        "postal_code": "96563"
+    },
+    {
+        "code": 7503122003,
+        "district_code": 750312,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Molintogupo",
+        "postal_code": "96563"
+    },
+    {
+        "code": 7503122004,
+        "district_code": 750312,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Bonedaa",
+        "postal_code": "96563"
+    },
+    {
+        "code": 7503122005,
+        "district_code": 750312,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Bondawuna",
+        "postal_code": "96563"
+    },
+    {
+        "code": 7503122006,
+        "district_code": 750312,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Bulontala Timur",
+        "postal_code": "96563"
+    },
+    {
+        "code": 7503122007,
+        "district_code": 750312,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Pancuran",
+        "postal_code": "96563"
+    },
+    {
+        "code": 7503122008,
+        "district_code": 750312,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Bondaraya",
+        "postal_code": "96563"
+    },
+    {
+        "code": 7503132001,
+        "district_code": 750313,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Lompotoo",
+        "postal_code": "96564"
+    },
+    {
+        "code": 7503132002,
+        "district_code": 750313,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Lombongo",
+        "postal_code": "96564"
+    },
+    {
+        "code": 7503132003,
+        "district_code": 750313,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Duano",
+        "postal_code": "96564"
+    },
+    {
+        "code": 7503132004,
+        "district_code": 750313,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Tolomato",
+        "postal_code": "96564"
+    },
+    {
+        "code": 7503132005,
+        "district_code": 750313,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Alale",
+        "postal_code": "96564"
+    },
+    {
+        "code": 7503132006,
+        "district_code": 750313,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Tapadaa",
+        "postal_code": "96564"
+    },
+    {
+        "code": 7503142001,
+        "district_code": 750314,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Mongiilo",
+        "postal_code": "96543"
+    },
+    {
+        "code": 7503142002,
+        "district_code": 750314,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Owata",
+        "postal_code": "96543"
+    },
+    {
+        "code": 7503142003,
+        "district_code": 750314,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Mongiilo Utara",
+        "postal_code": "96543"
+    },
+    {
+        "code": 7503142004,
+        "district_code": 750314,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Pilolaheya",
+        "postal_code": "96543"
+    },
+    {
+        "code": 7503142005,
+        "district_code": 750314,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Ilomata",
+        "postal_code": "96543"
+    },
+    {
+        "code": 7503142006,
+        "district_code": 750314,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Suka Makmur",
+        "postal_code": "96543"
+    },
+    {
+        "code": 7503152001,
+        "district_code": 750315,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Ayula Selatan",
+        "postal_code": "96541"
+    },
+    {
+        "code": 7503152002,
+        "district_code": 750315,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Huntu Utara",
+        "postal_code": "96541"
+    },
+    {
+        "code": 7503152003,
+        "district_code": 750315,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Ayula Utara",
+        "postal_code": "96541"
+    },
+    {
+        "code": 7503152004,
+        "district_code": 750315,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Huntu Selatan",
+        "postal_code": "96541"
+    },
+    {
+        "code": 7503152006,
+        "district_code": 750315,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Ayula Tilango",
+        "postal_code": "96541"
+    },
+    {
+        "code": 7503152007,
+        "district_code": 750315,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Ayula Timur",
+        "postal_code": "96541"
+    },
+    {
+        "code": 7503152008,
+        "district_code": 750315,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Lamahu",
+        "postal_code": "96541"
+    },
+    {
+        "code": 7503152009,
+        "district_code": 750315,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Tinelo Ayula",
+        "postal_code": "96541"
+    },
+    {
+        "code": 7503152010,
+        "district_code": 750315,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Sejahtera",
+        "postal_code": "96541"
+    },
+    {
+        "code": 7503152011,
+        "district_code": 750315,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Huntu Barat",
+        "postal_code": "96541"
+    },
+    {
+        "code": 7503162001,
+        "district_code": 750316,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Bulotalangi",
+        "postal_code": "96542"
+    },
+    {
+        "code": 7503162002,
+        "district_code": 750316,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Toluwaya",
+        "postal_code": "96542"
+    },
+    {
+        "code": 7503162003,
+        "district_code": 750316,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Popodu",
+        "postal_code": "96542"
+    },
+    {
+        "code": 7503162004,
+        "district_code": 750316,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Bulotalangi Timur",
+        "postal_code": "96542"
+    },
+    {
+        "code": 7503162005,
+        "district_code": 750316,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Bulotalangi Barat",
+        "postal_code": "96542"
+    },
+    {
+        "code": 7503172001,
+        "district_code": 750317,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Mamungaa",
+        "postal_code": "96574"
+    },
+    {
+        "code": 7503172002,
+        "district_code": 750317,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Kaidundu Barat",
+        "postal_code": "96574"
+    },
+    {
+        "code": 7503172003,
+        "district_code": 750317,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Mopuya",
+        "postal_code": "96574"
+    },
+    {
+        "code": 7503172004,
+        "district_code": 750317,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Kaidundu",
+        "postal_code": "96574"
+    },
+    {
+        "code": 7503172005,
+        "district_code": 750317,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Bukit Hijau",
+        "postal_code": "96574"
+    },
+    {
+        "code": 7503172006,
+        "district_code": 750317,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Mamungaa Timur",
+        "postal_code": "96574"
+    },
+    {
+        "code": 7503172007,
+        "district_code": 750317,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Dunggilata",
+        "postal_code": "96574"
+    },
+    {
+        "code": 7503172008,
+        "district_code": 750317,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Pinomotiga",
+        "postal_code": "96574"
+    },
+    {
+        "code": 7503172009,
+        "district_code": 750317,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Patoa",
+        "postal_code": "96574"
+    },
+    {
+        "code": 7503182001,
+        "district_code": 750318,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Pinogu",
+        "postal_code": "96561"
+    },
+    {
+        "code": 7503182002,
+        "district_code": 750318,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Bangio",
+        "postal_code": "96561"
+    },
+    {
+        "code": 7503182003,
+        "district_code": 750318,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Dataran Hijau",
+        "postal_code": "96561"
+    },
+    {
+        "code": 7503182004,
+        "district_code": 750318,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Pinogu Permai",
+        "postal_code": "96561"
+    },
+    {
+        "code": 7503182005,
+        "district_code": 750318,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Tilonggibila",
+        "postal_code": "96561"
+    },
+    {
+        "code": 7504012003,
+        "district_code": 750401,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Torosiaje Jaya",
+        "postal_code": "96466"
+    },
+    {
+        "code": 7504012004,
+        "district_code": 750401,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Popayato",
+        "postal_code": "96466"
+    },
+    {
+        "code": 7504012008,
+        "district_code": 750401,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Telaga",
+        "postal_code": "96466"
+    },
+    {
+        "code": 7504012012,
+        "district_code": 750401,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Torosiaje",
+        "postal_code": "96466"
+    },
+    {
+        "code": 7504012015,
+        "district_code": 750401,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Bukit Tingki",
+        "postal_code": "96466"
+    },
+    {
+        "code": 7504012016,
+        "district_code": 750401,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Tunas Harapan",
+        "postal_code": "96466"
+    },
+    {
+        "code": 7504012017,
+        "district_code": 750401,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Trikora",
+        "postal_code": "96466"
+    },
+    {
+        "code": 7504012018,
+        "district_code": 750401,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Dambalo",
+        "postal_code": "96466"
+    },
+    {
+        "code": 7504012019,
+        "district_code": 750401,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Telaga Biru",
+        "postal_code": "96466"
+    },
+    {
+        "code": 7504012020,
+        "district_code": 750401,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Bumi Bahari",
+        "postal_code": "96466"
+    },
+    {
+        "code": 7504022001,
+        "district_code": 750402,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Lemito",
+        "postal_code": "96468"
+    },
+    {
+        "code": 7504022002,
+        "district_code": 750402,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Wonggarasi Barat",
+        "postal_code": "96468"
+    },
+    {
+        "code": 7504022004,
+        "district_code": 750402,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Lomuli",
+        "postal_code": "96468"
+    },
+    {
+        "code": 7504022008,
+        "district_code": 750402,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Lemito Utara",
+        "postal_code": "96468"
+    },
+    {
+        "code": 7504022009,
+        "district_code": 750402,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Kenari",
+        "postal_code": "96468"
+    },
+    {
+        "code": 7504022010,
+        "district_code": 750402,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Wonggarasi Tengah",
+        "postal_code": "96468"
+    },
+    {
+        "code": 7504022011,
+        "district_code": 750402,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Suka Damai",
+        "postal_code": "96468"
+    },
+    {
+        "code": 7504022012,
+        "district_code": 750402,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Babalonge",
+        "postal_code": "96468"
+    },
+    {
+        "code": 7504032001,
+        "district_code": 750403,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Motolohu",
+        "postal_code": "96469"
+    },
+    {
+        "code": 7504032002,
+        "district_code": 750403,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Imbodu",
+        "postal_code": "96469"
+    },
+    {
+        "code": 7504032003,
+        "district_code": 750403,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Manunggal Karya",
+        "postal_code": "96469"
+    },
+    {
+        "code": 7504032004,
+        "district_code": 750403,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Sidorukun",
+        "postal_code": "96469"
+    },
+    {
+        "code": 7504032008,
+        "district_code": 750403,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Sarimurni",
+        "postal_code": "96469"
+    },
+    {
+        "code": 7504032009,
+        "district_code": 750403,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Huyula",
+        "postal_code": "96469"
+    },
+    {
+        "code": 7504032012,
+        "district_code": 750403,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Omayuwa",
+        "postal_code": "96469"
+    },
+    {
+        "code": 7504032013,
+        "district_code": 750403,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Ayula",
+        "postal_code": "96469"
+    },
+    {
+        "code": 7504032014,
+        "district_code": 750403,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Patuhu",
+        "postal_code": "96469"
+    },
+    {
+        "code": 7504032015,
+        "district_code": 750403,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Banuroja",
+        "postal_code": "96469"
+    },
+    {
+        "code": 7504032016,
+        "district_code": 750403,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Pelambane",
+        "postal_code": "96469"
+    },
+    {
+        "code": 7504032017,
+        "district_code": 750403,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Motolohu Selatan",
+        "postal_code": "96469"
+    },
+    {
+        "code": 7504032018,
+        "district_code": 750403,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Sidowonge",
+        "postal_code": "96469"
+    },
+    {
+        "code": 7504042003,
+        "district_code": 750404,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Marisa Selatan",
+        "postal_code": "96365"
+    },
+    {
+        "code": 7504042004,
+        "district_code": 750404,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Marisa Utara",
+        "postal_code": "96365"
+    },
+    {
+        "code": 7504042007,
+        "district_code": 750404,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Teratai",
+        "postal_code": "96365"
+    },
+    {
+        "code": 7504042008,
+        "district_code": 750404,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Pohuwato",
+        "postal_code": "96365"
+    },
+    {
+        "code": 7504042015,
+        "district_code": 750404,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Batubilotahu",
+        "postal_code": "96365"
+    },
+    {
+        "code": 7504042016,
+        "district_code": 750404,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Palopo",
+        "postal_code": "96365"
+    },
+    {
+        "code": 7504042017,
+        "district_code": 750404,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Pohuwato Timur",
+        "postal_code": "96365"
+    },
+    {
+        "code": 7504042018,
+        "district_code": 750404,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Bulangita",
+        "postal_code": "96365"
+    },
+    {
+        "code": 7504051001,
+        "district_code": 750405,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Libuo",
+        "postal_code": "96362"
+    },
+    {
+        "code": 7504051002,
+        "district_code": 750405,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Pentadu",
+        "postal_code": "96362"
+    },
+    {
+        "code": 7504051003,
+        "district_code": 750405,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Siduan",
+        "postal_code": "96362"
+    },
+    {
+        "code": 7504052004,
+        "district_code": 750405,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Bunuyo",
+        "postal_code": "96362"
+    },
+    {
+        "code": 7504052005,
+        "district_code": 750405,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Sipayo",
+        "postal_code": "96362"
+    },
+    {
+        "code": 7504052006,
+        "district_code": 750405,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Soginti",
+        "postal_code": "96362"
+    },
+    {
+        "code": 7504052010,
+        "district_code": 750405,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Bumbulan",
+        "postal_code": "96362"
+    },
+    {
+        "code": 7504052012,
+        "district_code": 750405,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Maleo",
+        "postal_code": "96362"
+    },
+    {
+        "code": 7504052013,
+        "district_code": 750405,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Molamahu",
+        "postal_code": "96362"
+    },
+    {
+        "code": 7504052014,
+        "district_code": 750405,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Buhu Jaya",
+        "postal_code": "96362"
+    },
+    {
+        "code": 7504052015,
+        "district_code": 750405,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Kemiri",
+        "postal_code": "96362"
+    },
+    {
+        "code": 7504062001,
+        "district_code": 750406,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Iloheluma",
+        "postal_code": "96366"
+    },
+    {
+        "code": 7504062002,
+        "district_code": 750406,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Balayo",
+        "postal_code": "96366"
+    },
+    {
+        "code": 7504062003,
+        "district_code": 750406,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Suka Makmur",
+        "postal_code": "96366"
+    },
+    {
+        "code": 7504062004,
+        "district_code": 750406,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Manawa",
+        "postal_code": "96366"
+    },
+    {
+        "code": 7504062005,
+        "district_code": 750406,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Dulomo",
+        "postal_code": "96366"
+    },
+    {
+        "code": 7504062006,
+        "district_code": 750406,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Dudepo",
+        "postal_code": "96366"
+    },
+    {
+        "code": 7504072001,
+        "district_code": 750407,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Pancakarsa I",
+        "postal_code": "96464"
+    },
+    {
+        "code": 7504072002,
+        "district_code": 750407,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Pancakarsa II",
+        "postal_code": "96464"
+    },
+    {
+        "code": 7504072003,
+        "district_code": 750407,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Makarti Jaya",
+        "postal_code": "96464"
+    },
+    {
+        "code": 7504072004,
+        "district_code": 750407,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Kalimas",
+        "postal_code": "96464"
+    },
+    {
+        "code": 7504072005,
+        "district_code": 750407,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Malango",
+        "postal_code": "96464"
+    },
+    {
+        "code": 7504072006,
+        "district_code": 750407,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Puncak Jaya",
+        "postal_code": "96464"
+    },
+    {
+        "code": 7504072007,
+        "district_code": 750407,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Tirto Asri",
+        "postal_code": "96464"
+    },
+    {
+        "code": 7504082001,
+        "district_code": 750408,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Popaya",
+        "postal_code": "96361"
+    },
+    {
+        "code": 7504082002,
+        "district_code": 750408,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Karya Baru",
+        "postal_code": "96361"
+    },
+    {
+        "code": 7504082003,
+        "district_code": 750408,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Karangetan",
+        "postal_code": "96361"
+    },
+    {
+        "code": 7504082004,
+        "district_code": 750408,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Padengo",
+        "postal_code": "96361"
+    },
+    {
+        "code": 7504082005,
+        "district_code": 750408,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Hutamoputi",
+        "postal_code": "96361"
+    },
+    {
+        "code": 7504092001,
+        "district_code": 750409,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Hulawa",
+        "postal_code": "96363"
+    },
+    {
+        "code": 7504092002,
+        "district_code": 750409,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Karya Indah",
+        "postal_code": "96363"
+    },
+    {
+        "code": 7504092003,
+        "district_code": 750409,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Taluduyunu",
+        "postal_code": "96363"
+    },
+    {
+        "code": 7504092004,
+        "district_code": 750409,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Buntulia Utara",
+        "postal_code": "96363"
+    },
+    {
+        "code": 7504092005,
+        "district_code": 750409,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Buntulia Tengah",
+        "postal_code": "96363"
+    },
+    {
+        "code": 7504092006,
+        "district_code": 750409,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Taluduyunu Utara",
+        "postal_code": "96363"
+    },
+    {
+        "code": 7504092007,
+        "district_code": 750409,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Sipatana",
+        "postal_code": "96363"
+    },
+    {
+        "code": 7504102001,
+        "district_code": 750410,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Bulili",
+        "postal_code": "96364"
+    },
+    {
+        "code": 7504102002,
+        "district_code": 750410,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Buntulia Barat",
+        "postal_code": "96364"
+    },
+    {
+        "code": 7504102003,
+        "district_code": 750410,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Buntulia Selatan",
+        "postal_code": "96364"
+    },
+    {
+        "code": 7504102004,
+        "district_code": 750410,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Duhiadaa",
+        "postal_code": "96364"
+    },
+    {
+        "code": 7504102005,
+        "district_code": 750410,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Mekar Jaya",
+        "postal_code": "96364"
+    },
+    {
+        "code": 7504102006,
+        "district_code": 750410,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Buntulia Jaya",
+        "postal_code": "96364"
+    },
+    {
+        "code": 7504102007,
+        "district_code": 750410,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Padengo",
+        "postal_code": "96364"
+    },
+    {
+        "code": 7504102008,
+        "district_code": 750410,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Mootilango",
+        "postal_code": "96364"
+    },
+    {
+        "code": 7504112001,
+        "district_code": 750411,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Wanggarasi Timur",
+        "postal_code": "96465"
+    },
+    {
+        "code": 7504112002,
+        "district_code": 750411,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Bukit Harapan",
+        "postal_code": "96465"
+    },
+    {
+        "code": 7504112003,
+        "district_code": 750411,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Bohusami",
+        "postal_code": "96465"
+    },
+    {
+        "code": 7504112004,
+        "district_code": 750411,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Lembah Permai",
+        "postal_code": "96465"
+    },
+    {
+        "code": 7504112005,
+        "district_code": 750411,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Limbula",
+        "postal_code": "96469"
+    },
+    {
+        "code": 7504112006,
+        "district_code": 750411,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Yipilo",
+        "postal_code": "96469"
+    },
+    {
+        "code": 7504112007,
+        "district_code": 750411,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Tuweya",
+        "postal_code": "96469"
+    },
+    {
+        "code": 7504122001,
+        "district_code": 750412,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Milangodaa",
+        "postal_code": "96367"
+    },
+    {
+        "code": 7504122002,
+        "district_code": 750412,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Londoun",
+        "postal_code": "96367"
+    },
+    {
+        "code": 7504122003,
+        "district_code": 750412,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Marisa",
+        "postal_code": "96367"
+    },
+    {
+        "code": 7504122004,
+        "district_code": 750412,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Tahele",
+        "postal_code": "96367"
+    },
+    {
+        "code": 7504122005,
+        "district_code": 750412,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Bunto",
+        "postal_code": "96367"
+    },
+    {
+        "code": 7504122006,
+        "district_code": 750412,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Maleo",
+        "postal_code": "96367"
+    },
+    {
+        "code": 7504122007,
+        "district_code": 750412,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Kelapa Lima",
+        "postal_code": "96367"
+    },
+    {
+        "code": 7504132001,
+        "district_code": 750413,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Dudewulo",
+        "postal_code": "96467"
+    },
+    {
+        "code": 7504132002,
+        "district_code": 750413,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Tunas Jaya",
+        "postal_code": "96467"
+    },
+    {
+        "code": 7504132003,
+        "district_code": 750413,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Padengo",
+        "postal_code": "96467"
+    },
+    {
+        "code": 7504132004,
+        "district_code": 750413,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Molosifat",
+        "postal_code": "96467"
+    },
+    {
+        "code": 7504132005,
+        "district_code": 750413,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Butungale",
+        "postal_code": "96467"
+    },
+    {
+        "code": 7504132006,
+        "district_code": 750413,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Persatuan",
+        "postal_code": "96467"
+    },
+    {
+        "code": 7504132007,
+        "district_code": 750413,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Molosifat Utara",
+        "postal_code": "96467"
+    },
+    {
+        "code": 7505012003,
+        "district_code": 750501,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Imana",
+        "postal_code": "96516"
+    },
+    {
+        "code": 7505012004,
+        "district_code": 750501,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Bintana",
+        "postal_code": "96516"
+    },
+    {
+        "code": 7505012005,
+        "district_code": 750501,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Buata",
+        "postal_code": "96516"
+    },
+    {
+        "code": 7505012006,
+        "district_code": 750501,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Pinontoyonga",
+        "postal_code": "96516"
+    },
+    {
+        "code": 7505012007,
+        "district_code": 750501,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Monggupo",
+        "postal_code": "96516"
+    },
+    {
+        "code": 7505012008,
+        "district_code": 750501,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Kotajin",
+        "postal_code": "96516"
+    },
+    {
+        "code": 7505012011,
+        "district_code": 750501,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Ilomata",
+        "postal_code": "96516"
+    },
+    {
+        "code": 7505012013,
+        "district_code": 750501,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Iloheluma",
+        "postal_code": "96516"
+    },
+    {
+        "code": 7505012014,
+        "district_code": 750501,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Wapalo",
+        "postal_code": "96516"
+    },
+    {
+        "code": 7505012015,
+        "district_code": 750501,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Posono",
+        "postal_code": "96516"
+    },
+    {
+        "code": 7505012016,
+        "district_code": 750501,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Sigaso",
+        "postal_code": "96516"
+    },
+    {
+        "code": 7505012017,
+        "district_code": 750501,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Tombulilato",
+        "postal_code": "96516"
+    },
+    {
+        "code": 7505012018,
+        "district_code": 750501,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Kotajin Utara",
+        "postal_code": "96516"
+    },
+    {
+        "code": 7505012019,
+        "district_code": 750501,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Oluhuta",
+        "postal_code": "96516"
+    },
+    {
+        "code": 7505022001,
+        "district_code": 750502,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Pontolo",
+        "postal_code": "96518"
+    },
+    {
+        "code": 7505022002,
+        "district_code": 750502,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Molingkapoto",
+        "postal_code": "96518"
+    },
+    {
+        "code": 7505022003,
+        "district_code": 750502,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Leboto",
+        "postal_code": "96518"
+    },
+    {
+        "code": 7505022004,
+        "district_code": 750502,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Posso",
+        "postal_code": "96518"
+    },
+    {
+        "code": 7505022005,
+        "district_code": 750502,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Titidu",
+        "postal_code": "96518"
+    },
+    {
+        "code": 7505022006,
+        "district_code": 750502,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Moluo",
+        "postal_code": "96518"
+    },
+    {
+        "code": 7505022010,
+        "district_code": 750502,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Mootinelo",
+        "postal_code": "96518"
+    },
+    {
+        "code": 7505022011,
+        "district_code": 750502,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Bualemo",
+        "postal_code": "96518"
+    },
+    {
+        "code": 7505022013,
+        "district_code": 750502,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Bulalo",
+        "postal_code": "96518"
+    },
+    {
+        "code": 7505022017,
+        "district_code": 750502,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Katialada",
+        "postal_code": "96518"
+    },
+    {
+        "code": 7505022019,
+        "district_code": 750502,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Ombulodata",
+        "postal_code": "96518"
+    },
+    {
+        "code": 7505022021,
+        "district_code": 750502,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Alata Karya",
+        "postal_code": "96518"
+    },
+    {
+        "code": 7505022023,
+        "district_code": 750502,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Cisadane",
+        "postal_code": "96518"
+    },
+    {
+        "code": 7505022024,
+        "district_code": 750502,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Botuwombata",
+        "postal_code": "96518"
+    },
+    {
+        "code": 7505022025,
+        "district_code": 750502,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Botungobungo",
+        "postal_code": "96518"
+    },
+    {
+        "code": 7505022026,
+        "district_code": 750502,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Molingkapoto Selatan",
+        "postal_code": "96518"
+    },
+    {
+        "code": 7505022030,
+        "district_code": 750502,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Pontolo Atas",
+        "postal_code": "96518"
+    },
+    {
+        "code": 7505022032,
+        "district_code": 750502,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Masuru",
+        "postal_code": "96518"
+    },
+    {
+        "code": 7505032001,
+        "district_code": 750503,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Ilangata",
+        "postal_code": "96525"
+    },
+    {
+        "code": 7505032002,
+        "district_code": 750503,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Tolongio",
+        "postal_code": "96525"
+    },
+    {
+        "code": 7505032006,
+        "district_code": 750503,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Tolango",
+        "postal_code": "96525"
+    },
+    {
+        "code": 7505032007,
+        "district_code": 750503,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Popalo",
+        "postal_code": "96525"
+    },
+    {
+        "code": 7505032008,
+        "district_code": 750503,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Dudepo",
+        "postal_code": "96525"
+    },
+    {
+        "code": 7505032009,
+        "district_code": 750503,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Mootilango",
+        "postal_code": "96525"
+    },
+    {
+        "code": 7505032011,
+        "district_code": 750503,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Langge",
+        "postal_code": "96525"
+    },
+    {
+        "code": 7505032012,
+        "district_code": 750503,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Tutuwoto",
+        "postal_code": "96525"
+    },
+    {
+        "code": 7505032013,
+        "district_code": 750503,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Hiyalooile",
+        "postal_code": "96525"
+    },
+    {
+        "code": 7505032014,
+        "district_code": 750503,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Ibarat",
+        "postal_code": "96525"
+    },
+    {
+        "code": 7505032017,
+        "district_code": 750503,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Iloheluma",
+        "postal_code": "96525"
+    },
+    {
+        "code": 7505032021,
+        "district_code": 750503,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Ilodulunga",
+        "postal_code": "96525"
+    },
+    {
+        "code": 7505032023,
+        "district_code": 750503,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Putiana",
+        "postal_code": "96525"
+    },
+    {
+        "code": 7505032024,
+        "district_code": 750503,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Heluma",
+        "postal_code": "96525"
+    },
+    {
+        "code": 7505032025,
+        "district_code": 750503,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Datahu",
+        "postal_code": "96525"
+    },
+    {
+        "code": 7505042001,
+        "district_code": 750504,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Bulontiyo Timur",
+        "postal_code": "96514"
+    },
+    {
+        "code": 7505042002,
+        "district_code": 750504,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Bulontiyo Barat",
+        "postal_code": "96514"
+    },
+    {
+        "code": 7505042007,
+        "district_code": 750504,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Buloila",
+        "postal_code": "96514"
+    },
+    {
+        "code": 7505042009,
+        "district_code": 750504,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Kasia",
+        "postal_code": "96514"
+    },
+    {
+        "code": 7505042010,
+        "district_code": 750504,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Kikia",
+        "postal_code": "96514"
+    },
+    {
+        "code": 7505042012,
+        "district_code": 750504,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Tumba",
+        "postal_code": "96514"
+    },
+    {
+        "code": 7505042013,
+        "district_code": 750504,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Mebongo",
+        "postal_code": "96514"
+    },
+    {
+        "code": 7505042014,
+        "district_code": 750504,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Lelato",
+        "postal_code": "96514"
+    },
+    {
+        "code": 7505042016,
+        "district_code": 750504,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Pulohenti",
+        "postal_code": "96514"
+    },
+    {
+        "code": 7505042019,
+        "district_code": 750504,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Puncak Mandiri",
+        "postal_code": "96514"
+    },
+    {
+        "code": 7505042020,
+        "district_code": 750504,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Hutakalo",
+        "postal_code": "96514"
+    },
+    {
+        "code": 7505052001,
+        "district_code": 750505,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Tolinggula Tengah",
+        "postal_code": "96524"
+    },
+    {
+        "code": 7505052002,
+        "district_code": 750505,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Tolinggula Pantai",
+        "postal_code": "96524"
+    },
+    {
+        "code": 7505052003,
+        "district_code": 750505,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Tolinggula Ulu",
+        "postal_code": "96524"
+    },
+    {
+        "code": 7505052006,
+        "district_code": 750505,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Limbato",
+        "postal_code": "96524"
+    },
+    {
+        "code": 7505052007,
+        "district_code": 750505,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Papulangi",
+        "postal_code": "96524"
+    },
+    {
+        "code": 7505052008,
+        "district_code": 750505,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Molangga",
+        "postal_code": "96524"
+    },
+    {
+        "code": 7505052011,
+        "district_code": 750505,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Cempaka Putih",
+        "postal_code": "96524"
+    },
+    {
+        "code": 7505052014,
+        "district_code": 750505,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Tolite Jaya",
+        "postal_code": "96524"
+    },
+    {
+        "code": 7505052017,
+        "district_code": 750505,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Ilomangga",
+        "postal_code": "96524"
+    },
+    {
+        "code": 7505052018,
+        "district_code": 750505,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Ilotunggulo",
+        "postal_code": "96524"
+    },
+    {
+        "code": 7505062001,
+        "district_code": 750506,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Gentuma",
+        "postal_code": "96513"
+    },
+    {
+        "code": 7505062002,
+        "district_code": 750506,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Dumolodo",
+        "postal_code": "96513"
+    },
+    {
+        "code": 7505062003,
+        "district_code": 750506,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Molonggota",
+        "postal_code": "96513"
+    },
+    {
+        "code": 7505062004,
+        "district_code": 750506,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Ipilo",
+        "postal_code": "96513"
+    },
+    {
+        "code": 7505062005,
+        "district_code": 750506,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Langke",
+        "postal_code": "96513"
+    },
+    {
+        "code": 7505062006,
+        "district_code": 750506,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Pasalae",
+        "postal_code": "96513"
+    },
+    {
+        "code": 7505062007,
+        "district_code": 750506,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Nanati Jaya",
+        "postal_code": "96513"
+    },
+    {
+        "code": 7505062008,
+        "district_code": 750506,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Ketapang",
+        "postal_code": "96513"
+    },
+    {
+        "code": 7505062009,
+        "district_code": 750506,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Motomingo",
+        "postal_code": "96513"
+    },
+    {
+        "code": 7505062010,
+        "district_code": 750506,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Durian",
+        "postal_code": "96513"
+    },
+    {
+        "code": 7505062011,
+        "district_code": 750506,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Bohusami",
+        "postal_code": "96513"
+    },
+    {
+        "code": 7505072001,
+        "district_code": 750507,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Dambalo",
+        "postal_code": "96512"
+    },
+    {
+        "code": 7505072002,
+        "district_code": 750507,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Milango",
+        "postal_code": "96512"
+    },
+    {
+        "code": 7505072003,
+        "district_code": 750507,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Jembatan Merah",
+        "postal_code": "96512"
+    },
+    {
+        "code": 7505072004,
+        "district_code": 750507,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Bubode",
+        "postal_code": "96512"
+    },
+    {
+        "code": 7505072005,
+        "district_code": 750507,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Leyao",
+        "postal_code": "96512"
+    },
+    {
+        "code": 7505072006,
+        "district_code": 750507,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Molantadu",
+        "postal_code": "96512"
+    },
+    {
+        "code": 7505072007,
+        "district_code": 750507,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Huidu Melito",
+        "postal_code": "96512"
+    },
+    {
+        "code": 7505072008,
+        "district_code": 750507,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Bulango Raya",
+        "postal_code": "96512"
+    },
+    {
+        "code": 7505072009,
+        "district_code": 750507,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Tanjung Karang",
+        "postal_code": "96512"
+    },
+    {
+        "code": 7505072010,
+        "district_code": 750507,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Mutiara Laut",
+        "postal_code": "96512"
+    },
+    {
+        "code": 7505082001,
+        "district_code": 750508,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Ponelo",
+        "postal_code": "96517"
+    },
+    {
+        "code": 7505082002,
+        "district_code": 750508,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Malambe",
+        "postal_code": "96517"
+    },
+    {
+        "code": 7505082003,
+        "district_code": 750508,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Otiola",
+        "postal_code": "96517"
+    },
+    {
+        "code": 7505082004,
+        "district_code": 750508,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Tihengo",
+        "postal_code": "96517"
+    },
+    {
+        "code": 7505092001,
+        "district_code": 750509,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Monano",
+        "postal_code": "96526"
+    },
+    {
+        "code": 7505092002,
+        "district_code": 750509,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Tudi",
+        "postal_code": "96526"
+    },
+    {
+        "code": 7505092003,
+        "district_code": 750509,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Monas",
+        "postal_code": "96526"
+    },
+    {
+        "code": 7505092004,
+        "district_code": 750509,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Dunu",
+        "postal_code": "96526"
+    },
+    {
+        "code": 7505092005,
+        "district_code": 750509,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Garapia",
+        "postal_code": "96526"
+    },
+    {
+        "code": 7505092006,
+        "district_code": 750509,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Sogu",
+        "postal_code": "96526"
+    },
+    {
+        "code": 7505092007,
+        "district_code": 750509,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Pilohulata",
+        "postal_code": "96526"
+    },
+    {
+        "code": 7505092008,
+        "district_code": 750509,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Mokonowu",
+        "postal_code": "96526"
+    },
+    {
+        "code": 7505092009,
+        "district_code": 750509,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Tolitehuyu",
+        "postal_code": "96526"
+    },
+    {
+        "code": 7505092010,
+        "district_code": 750509,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Zuriyati",
+        "postal_code": "96526"
+    },
+    {
+        "code": 7505102001,
+        "district_code": 750510,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Biau",
+        "postal_code": "96523"
+    },
+    {
+        "code": 7505102002,
+        "district_code": 750510,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Omuto",
+        "postal_code": "96523"
+    },
+    {
+        "code": 7505102003,
+        "district_code": 750510,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Luhuto",
+        "postal_code": "96523"
+    },
+    {
+        "code": 7505102004,
+        "district_code": 750510,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Windu",
+        "postal_code": "96523"
+    },
+    {
+        "code": 7505102005,
+        "district_code": 750510,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Topi",
+        "postal_code": "96523"
+    },
+    {
+        "code": 7505102006,
+        "district_code": 750510,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Sembihinga",
+        "postal_code": "96523"
+    },
+    {
+        "code": 7505102007,
+        "district_code": 750510,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Didingga",
+        "postal_code": "96523"
+    },
+    {
+        "code": 7505102008,
+        "district_code": 750510,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Bualo",
+        "postal_code": "96523"
+    },
+    {
+        "code": 7505102009,
+        "district_code": 750510,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Potanga",
+        "postal_code": "96523"
+    },
+    {
+        "code": 7505102010,
+        "district_code": 750510,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Bohulo",
+        "postal_code": "96523"
+    },
+    {
+        "code": 7505112001,
+        "district_code": 750511,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Deme Satu",
+        "postal_code": "96515"
+    },
+    {
+        "code": 7505112002,
+        "district_code": 750511,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Buluwatu",
+        "postal_code": "96515"
+    },
+    {
+        "code": 7505112003,
+        "district_code": 750511,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Dulukapa",
+        "postal_code": "96515"
+    },
+    {
+        "code": 7505112004,
+        "district_code": 750511,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Deme Dua",
+        "postal_code": "96515"
+    },
+    {
+        "code": 7505112005,
+        "district_code": 750511,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Buladu",
+        "postal_code": "96515"
+    },
+    {
+        "code": 7505112006,
+        "district_code": 750511,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Hulawa",
+        "postal_code": "96515"
+    },
+    {
+        "code": 7505112007,
+        "district_code": 750511,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Wubudu",
+        "postal_code": "96515"
+    },
+    {
+        "code": 7505112008,
+        "district_code": 750511,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Bubalango",
+        "postal_code": "96515"
+    },
+    {
+        "code": 7505112009,
+        "district_code": 750511,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Motiheluma",
+        "postal_code": "96515"
+    },
+    {
+        "code": 7505112010,
+        "district_code": 750511,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Koluwoka",
+        "postal_code": "96515"
+    },
+    {
+        "code": 7571011001,
+        "district_code": 757101,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Dembe I",
+        "postal_code": "96131"
+    },
+    {
+        "code": 7571011002,
+        "district_code": 757101,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Lekobalo",
+        "postal_code": "96131"
+    },
+    {
+        "code": 7571011003,
+        "district_code": 757101,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Pilolodaa",
+        "postal_code": "96132"
+    },
+    {
+        "code": 7571011004,
+        "district_code": 757101,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Buliide",
+        "postal_code": "96133"
+    },
+    {
+        "code": 7571011005,
+        "district_code": 757101,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Tenilo",
+        "postal_code": "96133"
+    },
+    {
+        "code": 7571011006,
+        "district_code": 757101,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Molosipat W",
+        "postal_code": "96134"
+    },
+    {
+        "code": 7571011008,
+        "district_code": 757101,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Buladu",
+        "postal_code": "96136"
+    },
+    {
+        "code": 7571021010,
+        "district_code": 757102,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Biawao",
+        "postal_code": "96111"
+    },
+    {
+        "code": 7571021012,
+        "district_code": 757102,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Biawu",
+        "postal_code": "96111"
+    },
+    {
+        "code": 7571021013,
+        "district_code": 757102,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Limba B",
+        "postal_code": "96115"
+    },
+    {
+        "code": 7571021019,
+        "district_code": 757102,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Limba U I",
+        "postal_code": "96115"
+    },
+    {
+        "code": 7571021020,
+        "district_code": 757102,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Limba U II",
+        "postal_code": "96115"
+    },
+    {
+        "code": 7571031003,
+        "district_code": 757103,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Dembe II",
+        "postal_code": "96121"
+    },
+    {
+        "code": 7571031004,
+        "district_code": 757103,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Wongkaditi Timur",
+        "postal_code": "96122"
+    },
+    {
+        "code": 7571031005,
+        "district_code": 757103,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Wongkaditi Barat",
+        "postal_code": "96122"
+    },
+    {
+        "code": 7571031010,
+        "district_code": 757103,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Dulomo Selatan",
+        "postal_code": "96123"
+    },
+    {
+        "code": 7571031014,
+        "district_code": 757103,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Dulomo Utara",
+        "postal_code": "96123"
+    },
+    {
+        "code": 7571031015,
+        "district_code": 757103,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Dembe Jaya",
+        "postal_code": "96121"
+    },
+    {
+        "code": 7571041001,
+        "district_code": 757104,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Huangobotu",
+        "postal_code": "96138"
+    },
+    {
+        "code": 7571041002,
+        "district_code": 757104,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Libuo",
+        "postal_code": "96135"
+    },
+    {
+        "code": 7571041003,
+        "district_code": 757104,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Tomulabutao",
+        "postal_code": "96139"
+    },
+    {
+        "code": 7571041004,
+        "district_code": 757104,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Tuladengi",
+        "postal_code": "96137"
+    },
+    {
+        "code": 7571041005,
+        "district_code": 757104,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Tomulabutao Selatan",
+        "postal_code": "96139"
+    },
+    {
+        "code": 7571051003,
+        "district_code": 757105,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Heledulaa Utara",
+        "postal_code": "96119"
+    },
+    {
+        "code": 7571051004,
+        "district_code": 757105,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Heledulaa Selatan",
+        "postal_code": "96114"
+    },
+    {
+        "code": 7571051005,
+        "district_code": 757105,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Ipilo",
+        "postal_code": "96112"
+    },
+    {
+        "code": 7571051008,
+        "district_code": 757105,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Moodu",
+        "postal_code": "96113"
+    },
+    {
+        "code": 7571051009,
+        "district_code": 757105,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Padebuolo",
+        "postal_code": "96113"
+    },
+    {
+        "code": 7571051011,
+        "district_code": 757105,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Tamalate",
+        "postal_code": "96113"
+    },
+    {
+        "code": 7571061001,
+        "district_code": 757106,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Wumialo",
+        "postal_code": "96128"
+    },
+    {
+        "code": 7571061002,
+        "district_code": 757106,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Dulalowo",
+        "postal_code": "96128"
+    },
+    {
+        "code": 7571061003,
+        "district_code": 757106,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Liluwo",
+        "postal_code": "96129"
+    },
+    {
+        "code": 7571061004,
+        "district_code": 757106,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Pulubala",
+        "postal_code": "96127"
+    },
+    {
+        "code": 7571061005,
+        "district_code": 757106,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Paguyaman",
+        "postal_code": "96129"
+    },
+    {
+        "code": 7571061006,
+        "district_code": 757106,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Dulalowo Timur",
+        "postal_code": "96128"
+    },
+    {
+        "code": 7571071001,
+        "district_code": 757107,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Tanggikiki",
+        "postal_code": "96126"
+    },
+    {
+        "code": 7571071002,
+        "district_code": 757107,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Tapa",
+        "postal_code": "96125"
+    },
+    {
+        "code": 7571071003,
+        "district_code": 757107,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Bulotadaa Barat",
+        "postal_code": "96124"
+    },
+    {
+        "code": 7571071004,
+        "district_code": 757107,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Bulotadaa Timur",
+        "postal_code": "96121"
+    },
+    {
+        "code": 7571071005,
+        "district_code": 757107,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Molosifat U",
+        "postal_code": "96126"
+    },
+    {
+        "code": 7571081001,
+        "district_code": 757108,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Leato Utara",
+        "postal_code": "96119"
+    },
+    {
+        "code": 7571081002,
+        "district_code": 757108,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Leato Selatan",
+        "postal_code": "96119"
+    },
+    {
+        "code": 7571081003,
+        "district_code": 757108,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Talumolo",
+        "postal_code": "96118"
+    },
+    {
+        "code": 7571081004,
+        "district_code": 757108,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Botu",
+        "postal_code": "96118"
+    },
+    {
+        "code": 7571081005,
+        "district_code": 757108,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Bugis",
+        "postal_code": "96112"
+    },
+    {
+        "code": 7571091001,
+        "district_code": 757109,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Tanjung Kramat",
+        "postal_code": "96111"
+    },
+    {
+        "code": 7571091002,
+        "district_code": 757109,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Pohe",
+        "postal_code": "96117"
+    },
+    {
+        "code": 7571091003,
+        "district_code": 757109,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Tenda",
+        "postal_code": "96117"
+    },
+    {
+        "code": 7571091004,
+        "district_code": 757109,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Donggala",
+        "postal_code": "96116"
+    },
+    {
+        "code": 7571091005,
+        "district_code": 757109,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Siendeng",
+        "postal_code": "96111"
+    }
+]

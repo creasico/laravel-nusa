@@ -1,0 +1,1310 @@
+[
+    {
+        "code": 920101,
+        "regency_code": 9201,
+        "province_code": 92,
+        "name": "Makbon"
+    },
+    {
+        "code": 920104,
+        "regency_code": 9201,
+        "province_code": 92,
+        "name": "Beraur"
+    },
+    {
+        "code": 920105,
+        "regency_code": 9201,
+        "province_code": 92,
+        "name": "Salawati"
+    },
+    {
+        "code": 920106,
+        "regency_code": 9201,
+        "province_code": 92,
+        "name": "Seget"
+    },
+    {
+        "code": 920107,
+        "regency_code": 9201,
+        "province_code": 92,
+        "name": "Aimas"
+    },
+    {
+        "code": 920108,
+        "regency_code": 9201,
+        "province_code": 92,
+        "name": "Klamono"
+    },
+    {
+        "code": 920110,
+        "regency_code": 9201,
+        "province_code": 92,
+        "name": "Sayosa"
+    },
+    {
+        "code": 920112,
+        "regency_code": 9201,
+        "province_code": 92,
+        "name": "Segun"
+    },
+    {
+        "code": 920113,
+        "regency_code": 9201,
+        "province_code": 92,
+        "name": "Mayamuk"
+    },
+    {
+        "code": 920114,
+        "regency_code": 9201,
+        "province_code": 92,
+        "name": "Salawati Selatan"
+    },
+    {
+        "code": 920117,
+        "regency_code": 9201,
+        "province_code": 92,
+        "name": "Klabot"
+    },
+    {
+        "code": 920118,
+        "regency_code": 9201,
+        "province_code": 92,
+        "name": "Klawak"
+    },
+    {
+        "code": 920120,
+        "regency_code": 9201,
+        "province_code": 92,
+        "name": "Maudus"
+    },
+    {
+        "code": 920139,
+        "regency_code": 9201,
+        "province_code": 92,
+        "name": "Mariat"
+    },
+    {
+        "code": 920140,
+        "regency_code": 9201,
+        "province_code": 92,
+        "name": "Klayili"
+    },
+    {
+        "code": 920141,
+        "regency_code": 9201,
+        "province_code": 92,
+        "name": "Klaso"
+    },
+    {
+        "code": 920142,
+        "regency_code": 9201,
+        "province_code": 92,
+        "name": "Moisegen"
+    },
+    {
+        "code": 920143,
+        "regency_code": 9201,
+        "province_code": 92,
+        "name": "Sorong"
+    },
+    {
+        "code": 920144,
+        "regency_code": 9201,
+        "province_code": 92,
+        "name": "Bagun"
+    },
+    {
+        "code": 920145,
+        "regency_code": 9201,
+        "province_code": 92,
+        "name": "Wemak"
+    },
+    {
+        "code": 920146,
+        "regency_code": 9201,
+        "province_code": 92,
+        "name": "Sunook"
+    },
+    {
+        "code": 920147,
+        "regency_code": 9201,
+        "province_code": 92,
+        "name": "Buk"
+    },
+    {
+        "code": 920148,
+        "regency_code": 9201,
+        "province_code": 92,
+        "name": "Saengkeduk"
+    },
+    {
+        "code": 920149,
+        "regency_code": 9201,
+        "province_code": 92,
+        "name": "Malabotom"
+    },
+    {
+        "code": 920150,
+        "regency_code": 9201,
+        "province_code": 92,
+        "name": "Konhir"
+    },
+    {
+        "code": 920151,
+        "regency_code": 9201,
+        "province_code": 92,
+        "name": "Klasafet"
+    },
+    {
+        "code": 920152,
+        "regency_code": 9201,
+        "province_code": 92,
+        "name": "Hobard"
+    },
+    {
+        "code": 920153,
+        "regency_code": 9201,
+        "province_code": 92,
+        "name": "Salawati Tengah"
+    },
+    {
+        "code": 920154,
+        "regency_code": 9201,
+        "province_code": 92,
+        "name": "Botain"
+    },
+    {
+        "code": 920155,
+        "regency_code": 9201,
+        "province_code": 92,
+        "name": "Sayosa Timur"
+    },
+    {
+        "code": 920203,
+        "regency_code": 9202,
+        "province_code": 92,
+        "name": "Warmare"
+    },
+    {
+        "code": 920204,
+        "regency_code": 9202,
+        "province_code": 92,
+        "name": "Prafi"
+    },
+    {
+        "code": 920205,
+        "regency_code": 9202,
+        "province_code": 92,
+        "name": "Masni"
+    },
+    {
+        "code": 920212,
+        "regency_code": 9202,
+        "province_code": 92,
+        "name": "Manokwari Barat"
+    },
+    {
+        "code": 920213,
+        "regency_code": 9202,
+        "province_code": 92,
+        "name": "Manokwari Timur"
+    },
+    {
+        "code": 920214,
+        "regency_code": 9202,
+        "province_code": 92,
+        "name": "Manokwari Utara"
+    },
+    {
+        "code": 920215,
+        "regency_code": 9202,
+        "province_code": 92,
+        "name": "Manokwari Selatan"
+    },
+    {
+        "code": 920217,
+        "regency_code": 9202,
+        "province_code": 92,
+        "name": "Tanah Rubuh"
+    },
+    {
+        "code": 920221,
+        "regency_code": 9202,
+        "province_code": 92,
+        "name": "Sidey"
+    },
+    {
+        "code": 920301,
+        "regency_code": 9203,
+        "province_code": 92,
+        "name": "Fak-Fak"
+    },
+    {
+        "code": 920302,
+        "regency_code": 9203,
+        "province_code": 92,
+        "name": "Fak-Fak Barat"
+    },
+    {
+        "code": 920303,
+        "regency_code": 9203,
+        "province_code": 92,
+        "name": "Fak-Fak Timur"
+    },
+    {
+        "code": 920304,
+        "regency_code": 9203,
+        "province_code": 92,
+        "name": "Kokas"
+    },
+    {
+        "code": 920305,
+        "regency_code": 9203,
+        "province_code": 92,
+        "name": "Fak-Fak Tengah"
+    },
+    {
+        "code": 920306,
+        "regency_code": 9203,
+        "province_code": 92,
+        "name": "Karas"
+    },
+    {
+        "code": 920307,
+        "regency_code": 9203,
+        "province_code": 92,
+        "name": "Bomberay"
+    },
+    {
+        "code": 920308,
+        "regency_code": 9203,
+        "province_code": 92,
+        "name": "Kramongmongga"
+    },
+    {
+        "code": 920309,
+        "regency_code": 9203,
+        "province_code": 92,
+        "name": "Teluk Patipi"
+    },
+    {
+        "code": 920310,
+        "regency_code": 9203,
+        "province_code": 92,
+        "name": "Pariwari"
+    },
+    {
+        "code": 920311,
+        "regency_code": 9203,
+        "province_code": 92,
+        "name": "Wartutin"
+    },
+    {
+        "code": 920312,
+        "regency_code": 9203,
+        "province_code": 92,
+        "name": "Fakfak Timur Tengah"
+    },
+    {
+        "code": 920313,
+        "regency_code": 9203,
+        "province_code": 92,
+        "name": "Arguni"
+    },
+    {
+        "code": 920314,
+        "regency_code": 9203,
+        "province_code": 92,
+        "name": "Mbahamdandara"
+    },
+    {
+        "code": 920315,
+        "regency_code": 9203,
+        "province_code": 92,
+        "name": "Kayauni"
+    },
+    {
+        "code": 920316,
+        "regency_code": 9203,
+        "province_code": 92,
+        "name": "Furwagi"
+    },
+    {
+        "code": 920317,
+        "regency_code": 9203,
+        "province_code": 92,
+        "name": "Tomage"
+    },
+    {
+        "code": 920401,
+        "regency_code": 9204,
+        "province_code": 92,
+        "name": "Teminabuan"
+    },
+    {
+        "code": 920404,
+        "regency_code": 9204,
+        "province_code": 92,
+        "name": "Inanwatan"
+    },
+    {
+        "code": 920406,
+        "regency_code": 9204,
+        "province_code": 92,
+        "name": "Sawiat"
+    },
+    {
+        "code": 920409,
+        "regency_code": 9204,
+        "province_code": 92,
+        "name": "Kokoda"
+    },
+    {
+        "code": 920410,
+        "regency_code": 9204,
+        "province_code": 92,
+        "name": "Moswaren"
+    },
+    {
+        "code": 920411,
+        "regency_code": 9204,
+        "province_code": 92,
+        "name": "Seremuk"
+    },
+    {
+        "code": 920412,
+        "regency_code": 9204,
+        "province_code": 92,
+        "name": "Wayer"
+    },
+    {
+        "code": 920414,
+        "regency_code": 9204,
+        "province_code": 92,
+        "name": "Kais"
+    },
+    {
+        "code": 920415,
+        "regency_code": 9204,
+        "province_code": 92,
+        "name": "Konda"
+    },
+    {
+        "code": 920420,
+        "regency_code": 9204,
+        "province_code": 92,
+        "name": "Matemani"
+    },
+    {
+        "code": 920421,
+        "regency_code": 9204,
+        "province_code": 92,
+        "name": "Kokoda Utara"
+    },
+    {
+        "code": 920422,
+        "regency_code": 9204,
+        "province_code": 92,
+        "name": "Saifi"
+    },
+    {
+        "code": 920424,
+        "regency_code": 9204,
+        "province_code": 92,
+        "name": "Fokour"
+    },
+    {
+        "code": 920425,
+        "regency_code": 9204,
+        "province_code": 92,
+        "name": "Salkma"
+    },
+    {
+        "code": 920426,
+        "regency_code": 9204,
+        "province_code": 92,
+        "name": "Kais Darat"
+    },
+    {
+        "code": 920501,
+        "regency_code": 9205,
+        "province_code": 92,
+        "name": "Misool (Misool Utara)"
+    },
+    {
+        "code": 920502,
+        "regency_code": 9205,
+        "province_code": 92,
+        "name": "Waigeo Utara"
+    },
+    {
+        "code": 920503,
+        "regency_code": 9205,
+        "province_code": 92,
+        "name": "Waigeo Selatan"
+    },
+    {
+        "code": 920504,
+        "regency_code": 9205,
+        "province_code": 92,
+        "name": "Salawati Utara"
+    },
+    {
+        "code": 920505,
+        "regency_code": 9205,
+        "province_code": 92,
+        "name": "Kepulauan Ayau"
+    },
+    {
+        "code": 920506,
+        "regency_code": 9205,
+        "province_code": 92,
+        "name": "Misool Timur"
+    },
+    {
+        "code": 920507,
+        "regency_code": 9205,
+        "province_code": 92,
+        "name": "Waigeo Barat"
+    },
+    {
+        "code": 920508,
+        "regency_code": 9205,
+        "province_code": 92,
+        "name": "Waigeo Timur"
+    },
+    {
+        "code": 920509,
+        "regency_code": 9205,
+        "province_code": 92,
+        "name": "Teluk Mayalibit"
+    },
+    {
+        "code": 920510,
+        "regency_code": 9205,
+        "province_code": 92,
+        "name": "Kofiau"
+    },
+    {
+        "code": 920511,
+        "regency_code": 9205,
+        "province_code": 92,
+        "name": "Meos Mansar"
+    },
+    {
+        "code": 920513,
+        "regency_code": 9205,
+        "province_code": 92,
+        "name": "Misool Selatan"
+    },
+    {
+        "code": 920514,
+        "regency_code": 9205,
+        "province_code": 92,
+        "name": "Warwarbomi"
+    },
+    {
+        "code": 920515,
+        "regency_code": 9205,
+        "province_code": 92,
+        "name": "Waigeo Barat Kepulauan"
+    },
+    {
+        "code": 920516,
+        "regency_code": 9205,
+        "province_code": 92,
+        "name": "Misool Barat"
+    },
+    {
+        "code": 920517,
+        "regency_code": 9205,
+        "province_code": 92,
+        "name": "Kepulauan Sembilan"
+    },
+    {
+        "code": 920518,
+        "regency_code": 9205,
+        "province_code": 92,
+        "name": "Kota Waisai"
+    },
+    {
+        "code": 920519,
+        "regency_code": 9205,
+        "province_code": 92,
+        "name": "Tiplol Mayalibit"
+    },
+    {
+        "code": 920520,
+        "regency_code": 9205,
+        "province_code": 92,
+        "name": "Batanta Utara"
+    },
+    {
+        "code": 920521,
+        "regency_code": 9205,
+        "province_code": 92,
+        "name": "Salawati Barat"
+    },
+    {
+        "code": 920522,
+        "regency_code": 9205,
+        "province_code": 92,
+        "name": "Salawati Tengah"
+    },
+    {
+        "code": 920523,
+        "regency_code": 9205,
+        "province_code": 92,
+        "name": "Supnin"
+    },
+    {
+        "code": 920524,
+        "regency_code": 9205,
+        "province_code": 92,
+        "name": "Ayau"
+    },
+    {
+        "code": 920525,
+        "regency_code": 9205,
+        "province_code": 92,
+        "name": "Batanta Selatan"
+    },
+    {
+        "code": 920601,
+        "regency_code": 9206,
+        "province_code": 92,
+        "name": "Bintuni"
+    },
+    {
+        "code": 920602,
+        "regency_code": 9206,
+        "province_code": 92,
+        "name": "Merdey"
+    },
+    {
+        "code": 920603,
+        "regency_code": 9206,
+        "province_code": 92,
+        "name": "Babo"
+    },
+    {
+        "code": 920604,
+        "regency_code": 9206,
+        "province_code": 92,
+        "name": "Aranday"
+    },
+    {
+        "code": 920605,
+        "regency_code": 9206,
+        "province_code": 92,
+        "name": "Moskona Selatan"
+    },
+    {
+        "code": 920606,
+        "regency_code": 9206,
+        "province_code": 92,
+        "name": "Moskona Utara"
+    },
+    {
+        "code": 920607,
+        "regency_code": 9206,
+        "province_code": 92,
+        "name": "Wamesa"
+    },
+    {
+        "code": 920608,
+        "regency_code": 9206,
+        "province_code": 92,
+        "name": "Fafurwar"
+    },
+    {
+        "code": 920609,
+        "regency_code": 9206,
+        "province_code": 92,
+        "name": "Tembuni"
+    },
+    {
+        "code": 920610,
+        "regency_code": 9206,
+        "province_code": 92,
+        "name": "Kuri"
+    },
+    {
+        "code": 920611,
+        "regency_code": 9206,
+        "province_code": 92,
+        "name": "Manimeri"
+    },
+    {
+        "code": 920612,
+        "regency_code": 9206,
+        "province_code": 92,
+        "name": "Tuhiba"
+    },
+    {
+        "code": 920613,
+        "regency_code": 9206,
+        "province_code": 92,
+        "name": "Dataran Beimes"
+    },
+    {
+        "code": 920614,
+        "regency_code": 9206,
+        "province_code": 92,
+        "name": "Sumuri"
+    },
+    {
+        "code": 920615,
+        "regency_code": 9206,
+        "province_code": 92,
+        "name": "Kaitaro"
+    },
+    {
+        "code": 920616,
+        "regency_code": 9206,
+        "province_code": 92,
+        "name": "Aroba"
+    },
+    {
+        "code": 920617,
+        "regency_code": 9206,
+        "province_code": 92,
+        "name": "Masyeta"
+    },
+    {
+        "code": 920618,
+        "regency_code": 9206,
+        "province_code": 92,
+        "name": "Biscoop"
+    },
+    {
+        "code": 920619,
+        "regency_code": 9206,
+        "province_code": 92,
+        "name": "Tomu"
+    },
+    {
+        "code": 920620,
+        "regency_code": 9206,
+        "province_code": 92,
+        "name": "Kamundan"
+    },
+    {
+        "code": 920621,
+        "regency_code": 9206,
+        "province_code": 92,
+        "name": "Weriagar"
+    },
+    {
+        "code": 920622,
+        "regency_code": 9206,
+        "province_code": 92,
+        "name": "Moskona Barat"
+    },
+    {
+        "code": 920623,
+        "regency_code": 9206,
+        "province_code": 92,
+        "name": "Meyado"
+    },
+    {
+        "code": 920624,
+        "regency_code": 9206,
+        "province_code": 92,
+        "name": "Moskona Timur"
+    },
+    {
+        "code": 920701,
+        "regency_code": 9207,
+        "province_code": 92,
+        "name": "Wasior"
+    },
+    {
+        "code": 920702,
+        "regency_code": 9207,
+        "province_code": 92,
+        "name": "Windesi"
+    },
+    {
+        "code": 920703,
+        "regency_code": 9207,
+        "province_code": 92,
+        "name": "Teluk Duairi"
+    },
+    {
+        "code": 920704,
+        "regency_code": 9207,
+        "province_code": 92,
+        "name": "Wondiboy"
+    },
+    {
+        "code": 920705,
+        "regency_code": 9207,
+        "province_code": 92,
+        "name": "Wamesa"
+    },
+    {
+        "code": 920706,
+        "regency_code": 9207,
+        "province_code": 92,
+        "name": "Rumberpon"
+    },
+    {
+        "code": 920707,
+        "regency_code": 9207,
+        "province_code": 92,
+        "name": "Naikere"
+    },
+    {
+        "code": 920708,
+        "regency_code": 9207,
+        "province_code": 92,
+        "name": "Rasiei"
+    },
+    {
+        "code": 920709,
+        "regency_code": 9207,
+        "province_code": 92,
+        "name": "Kuri Wamesa"
+    },
+    {
+        "code": 920710,
+        "regency_code": 9207,
+        "province_code": 92,
+        "name": "Roon"
+    },
+    {
+        "code": 920711,
+        "regency_code": 9207,
+        "province_code": 92,
+        "name": "Roswar"
+    },
+    {
+        "code": 920712,
+        "regency_code": 9207,
+        "province_code": 92,
+        "name": "Nikiwar"
+    },
+    {
+        "code": 920713,
+        "regency_code": 9207,
+        "province_code": 92,
+        "name": "Soug Jaya"
+    },
+    {
+        "code": 920801,
+        "regency_code": 9208,
+        "province_code": 92,
+        "name": "Kaimana"
+    },
+    {
+        "code": 920802,
+        "regency_code": 9208,
+        "province_code": 92,
+        "name": "Buruway"
+    },
+    {
+        "code": 920803,
+        "regency_code": 9208,
+        "province_code": 92,
+        "name": "Teluk Arguni Atas"
+    },
+    {
+        "code": 920804,
+        "regency_code": 9208,
+        "province_code": 92,
+        "name": "Teluk Etna"
+    },
+    {
+        "code": 920805,
+        "regency_code": 9208,
+        "province_code": 92,
+        "name": "Kambrau"
+    },
+    {
+        "code": 920806,
+        "regency_code": 9208,
+        "province_code": 92,
+        "name": "Teluk Arguni Bawah"
+    },
+    {
+        "code": 920807,
+        "regency_code": 9208,
+        "province_code": 92,
+        "name": "Yamor"
+    },
+    {
+        "code": 920901,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Fef"
+    },
+    {
+        "code": 920902,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Miyah"
+    },
+    {
+        "code": 920903,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Yembun"
+    },
+    {
+        "code": 920904,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Kwoor"
+    },
+    {
+        "code": 920905,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Sausapor"
+    },
+    {
+        "code": 920906,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Abun"
+    },
+    {
+        "code": 920907,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Syujak"
+    },
+    {
+        "code": 920908,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Moraid"
+    },
+    {
+        "code": 920909,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Kebar"
+    },
+    {
+        "code": 920910,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Amberbaken"
+    },
+    {
+        "code": 920911,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Senopi"
+    },
+    {
+        "code": 920912,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Mubrani"
+    },
+    {
+        "code": 920913,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Bikar"
+    },
+    {
+        "code": 920914,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Bamusbama"
+    },
+    {
+        "code": 920915,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Ases"
+    },
+    {
+        "code": 920916,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Miyah Selatan"
+    },
+    {
+        "code": 920917,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Ireres"
+    },
+    {
+        "code": 920918,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Tobouw"
+    },
+    {
+        "code": 920919,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Wilhem Roumbouts"
+    },
+    {
+        "code": 920920,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Tinggouw"
+    },
+    {
+        "code": 920921,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Kwesefo"
+    },
+    {
+        "code": 920922,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Mawabuan"
+    },
+    {
+        "code": 920923,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Kebar Timur"
+    },
+    {
+        "code": 920924,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Kebar Selatan"
+    },
+    {
+        "code": 920925,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Manekar"
+    },
+    {
+        "code": 920926,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Mpur"
+    },
+    {
+        "code": 920927,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Amberbaken Barat"
+    },
+    {
+        "code": 920928,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Kasi"
+    },
+    {
+        "code": 920929,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Selemkai"
+    },
+    {
+        "code": 921001,
+        "regency_code": 9210,
+        "province_code": 92,
+        "name": "Aifat"
+    },
+    {
+        "code": 921002,
+        "regency_code": 9210,
+        "province_code": 92,
+        "name": "Aifat Utara"
+    },
+    {
+        "code": 921003,
+        "regency_code": 9210,
+        "province_code": 92,
+        "name": "Aifat Timur"
+    },
+    {
+        "code": 921004,
+        "regency_code": 9210,
+        "province_code": 92,
+        "name": "Aifat Selatan"
+    },
+    {
+        "code": 921005,
+        "regency_code": 9210,
+        "province_code": 92,
+        "name": "Aitinyo Barat"
+    },
+    {
+        "code": 921006,
+        "regency_code": 9210,
+        "province_code": 92,
+        "name": "Aitinyo"
+    },
+    {
+        "code": 921007,
+        "regency_code": 9210,
+        "province_code": 92,
+        "name": "Aitinyo Utara"
+    },
+    {
+        "code": 921008,
+        "regency_code": 9210,
+        "province_code": 92,
+        "name": "Ayamaru"
+    },
+    {
+        "code": 921009,
+        "regency_code": 9210,
+        "province_code": 92,
+        "name": "Ayamaru Utara"
+    },
+    {
+        "code": 921010,
+        "regency_code": 9210,
+        "province_code": 92,
+        "name": "Ayamaru Timur"
+    },
+    {
+        "code": 921011,
+        "regency_code": 9210,
+        "province_code": 92,
+        "name": "Mare"
+    },
+    {
+        "code": 921012,
+        "regency_code": 9210,
+        "province_code": 92,
+        "name": "Aifat Timur Tengah"
+    },
+    {
+        "code": 921013,
+        "regency_code": 9210,
+        "province_code": 92,
+        "name": "Aifat Timur Jauh"
+    },
+    {
+        "code": 921014,
+        "regency_code": 9210,
+        "province_code": 92,
+        "name": "Aifat Timur Selatan"
+    },
+    {
+        "code": 921015,
+        "regency_code": 9210,
+        "province_code": 92,
+        "name": "Ayamaru Selatan"
+    },
+    {
+        "code": 921016,
+        "regency_code": 9210,
+        "province_code": 92,
+        "name": "Ayamaru Jaya"
+    },
+    {
+        "code": 921017,
+        "regency_code": 9210,
+        "province_code": 92,
+        "name": "Ayamaru Selatan Jaya"
+    },
+    {
+        "code": 921018,
+        "regency_code": 9210,
+        "province_code": 92,
+        "name": "Ayamaru Timur Selatan"
+    },
+    {
+        "code": 921019,
+        "regency_code": 9210,
+        "province_code": 92,
+        "name": "Ayamaru Utara Timur"
+    },
+    {
+        "code": 921020,
+        "regency_code": 9210,
+        "province_code": 92,
+        "name": "Ayamaru Tengah"
+    },
+    {
+        "code": 921021,
+        "regency_code": 9210,
+        "province_code": 92,
+        "name": "Ayamaru Barat"
+    },
+    {
+        "code": 921022,
+        "regency_code": 9210,
+        "province_code": 92,
+        "name": "Aitinyo Tengah"
+    },
+    {
+        "code": 921023,
+        "regency_code": 9210,
+        "province_code": 92,
+        "name": "Aitinyo Raya"
+    },
+    {
+        "code": 921024,
+        "regency_code": 9210,
+        "province_code": 92,
+        "name": "Mare Selatan"
+    },
+    {
+        "code": 921101,
+        "regency_code": 9211,
+        "province_code": 92,
+        "name": "Ransiki"
+    },
+    {
+        "code": 921102,
+        "regency_code": 9211,
+        "province_code": 92,
+        "name": "Oransbari"
+    },
+    {
+        "code": 921103,
+        "regency_code": 9211,
+        "province_code": 92,
+        "name": "Neney"
+    },
+    {
+        "code": 921104,
+        "regency_code": 9211,
+        "province_code": 92,
+        "name": "Dataran Isim"
+    },
+    {
+        "code": 921105,
+        "regency_code": 9211,
+        "province_code": 92,
+        "name": "Momi Waren"
+    },
+    {
+        "code": 921106,
+        "regency_code": 9211,
+        "province_code": 92,
+        "name": "Tahota"
+    },
+    {
+        "code": 921201,
+        "regency_code": 9212,
+        "province_code": 92,
+        "name": "Anggi"
+    },
+    {
+        "code": 921202,
+        "regency_code": 9212,
+        "province_code": 92,
+        "name": "Anggi Gida"
+    },
+    {
+        "code": 921203,
+        "regency_code": 9212,
+        "province_code": 92,
+        "name": "Membey"
+    },
+    {
+        "code": 921204,
+        "regency_code": 9212,
+        "province_code": 92,
+        "name": "Sururey"
+    },
+    {
+        "code": 921205,
+        "regency_code": 9212,
+        "province_code": 92,
+        "name": "Didohu"
+    },
+    {
+        "code": 921206,
+        "regency_code": 9212,
+        "province_code": 92,
+        "name": "Taige"
+    },
+    {
+        "code": 921207,
+        "regency_code": 9212,
+        "province_code": 92,
+        "name": "Catubouw"
+    },
+    {
+        "code": 921208,
+        "regency_code": 9212,
+        "province_code": 92,
+        "name": "Testega"
+    },
+    {
+        "code": 921209,
+        "regency_code": 9212,
+        "province_code": 92,
+        "name": "Minyambaouw"
+    },
+    {
+        "code": 921210,
+        "regency_code": 9212,
+        "province_code": 92,
+        "name": "Hingk"
+    },
+    {
+        "code": 927101,
+        "regency_code": 9271,
+        "province_code": 92,
+        "name": "Sorong"
+    },
+    {
+        "code": 927102,
+        "regency_code": 9271,
+        "province_code": 92,
+        "name": "Sorong Timur"
+    },
+    {
+        "code": 927103,
+        "regency_code": 9271,
+        "province_code": 92,
+        "name": "Sorong Barat"
+    },
+    {
+        "code": 927104,
+        "regency_code": 9271,
+        "province_code": 92,
+        "name": "Sorong Kepulauan"
+    },
+    {
+        "code": 927105,
+        "regency_code": 9271,
+        "province_code": 92,
+        "name": "Sorong Utara"
+    },
+    {
+        "code": 927106,
+        "regency_code": 9271,
+        "province_code": 92,
+        "name": "Sorong Manoi"
+    },
+    {
+        "code": 927107,
+        "regency_code": 9271,
+        "province_code": 92,
+        "name": "Sorong Kota"
+    },
+    {
+        "code": 927108,
+        "regency_code": 9271,
+        "province_code": 92,
+        "name": "Klaurung"
+    },
+    {
+        "code": 927109,
+        "regency_code": 9271,
+        "province_code": 92,
+        "name": "Malaimsimsa"
+    },
+    {
+        "code": 927110,
+        "regency_code": 9271,
+        "province_code": 92,
+        "name": "Maladum Mes"
+    }
+]

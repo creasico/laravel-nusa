@@ -1,0 +1,137 @@
+code,regency_code,province_code,name
+620101,6201,62,Kumai
+620102,6201,62,"Arut Selatan"
+620103,6201,62,"Kotawaringin Lama"
+620104,6201,62,"Arut Utara"
+620105,6201,62,"Pangkalan Lada"
+620106,6201,62,"Pangkalan Banteng"
+620201,6202,62,"Kota Besi"
+620202,6202,62,Cempaga
+620203,6202,62,"Mentaya Hulu"
+620204,6202,62,Parenggean
+620205,6202,62,Baamang
+620206,6202,62,"Mentawa Baru Ketapang"
+620207,6202,62,"Mentaya Hilir Utara"
+620208,6202,62,"Mentaya Hilir Selatan"
+620209,6202,62,"Pulau Hanaut"
+620210,6202,62,"Antang Kalang"
+620211,6202,62,"Teluk Sampit"
+620212,6202,62,Seranau
+620213,6202,62,"Cempaga Hulu"
+620214,6202,62,Telawang
+620215,6202,62,"Bukit Santuai"
+620216,6202,62,"Tualan Hulu"
+620217,6202,62,"Telaga Antang"
+620301,6203,62,Selat
+620302,6203,62,"Kapuas Hilir"
+620303,6203,62,"Kapuas Timur"
+620304,6203,62,"Kapuas Kuala"
+620305,6203,62,"Kapuas Barat"
+620306,6203,62,"Pulau Petak"
+620307,6203,62,"Kapuas Murung"
+620308,6203,62,Basarang
+620309,6203,62,Mantangai
+620310,6203,62,Timpah
+620311,6203,62,"Kapuas Tengah"
+620312,6203,62,"Kapuas Hulu"
+620313,6203,62,"Tamban Catur"
+620314,6203,62,"Pasak Talawang"
+620315,6203,62,"Mandau Talawang"
+620316,6203,62,Dadahup
+620317,6203,62,Bataguh
+620401,6204,62,Jenamas
+620402,6204,62,"Dusun Hilir"
+620403,6204,62,"Karau Kuala"
+620404,6204,62,"Dusun Utara"
+620405,6204,62,"Gn. Bintang Awai"
+620406,6204,62,"Dusun Selatan"
+620501,6205,62,Montallat
+620502,6205,62,"Gunung Timang"
+620503,6205,62,"Gunung Purei"
+620504,6205,62,"Teweh Timur"
+620505,6205,62,"Teweh Tengah"
+620506,6205,62,Lahei
+620507,6205,62,"Teweh Baru"
+620508,6205,62,"Teweh Selatan"
+620509,6205,62,"Lahei Barat"
+620601,6206,62,Kamipang
+620602,6206,62,"Katingan Hilir"
+620603,6206,62,"Tewang Sangalang Garing"
+620604,6206,62,"Pulau Malan"
+620605,6206,62,"Katingan Tengah"
+620606,6206,62,"Sanaman Mantikei"
+620607,6206,62,Marikit
+620608,6206,62,"Katingan Hulu"
+620609,6206,62,Mendawai
+620610,6206,62,"Katingan Kuala"
+620611,6206,62,"Tasik Payawan"
+620612,6206,62,"Petak Malai"
+620613,6206,62,"Bukit Raya"
+620701,6207,62,"Seruyan Hilir"
+620702,6207,62,"Seruyan Tengah"
+620703,6207,62,"Danau Sembuluh"
+620704,6207,62,Hanau
+620705,6207,62,"Seruyan Hulu"
+620706,6207,62,"Seruyan Hilir Timur"
+620707,6207,62,"Seruyan Raya"
+620708,6207,62,"Danau Seluluk"
+620709,6207,62,"Batu Ampar"
+620710,6207,62,"Suling Tambun"
+620801,6208,62,Sukamara
+620802,6208,62,Jelai
+620803,6208,62,"Balai Riam"
+620804,6208,62,"Pantai Lunci"
+620805,6208,62,"Permata Kecubung"
+620901,6209,62,Lamandau
+620902,6209,62,Delang
+620903,6209,62,Bulik
+620904,6209,62,"Bulik Timur"
+620905,6209,62,"Menthobi Raya"
+620906,6209,62,"Sematu Jaya"
+620907,6209,62,"Belantikan Raya"
+620908,6209,62,"Batang Kawa"
+621001,6210,62,Sepang
+621002,6210,62,Kurun
+621003,6210,62,Tewah
+621004,6210,62,"Kahayan Hulu Utara"
+621005,6210,62,Rungan
+621006,6210,62,Manuhing
+621007,6210,62,"Mihing Raya"
+621008,6210,62,"Damang Batu"
+621009,6210,62,"Miri Manasa"
+621010,6210,62,"Rungan Hulu"
+621011,6210,62,"Manuhing Raya"
+621012,6210,62,"Rungan Barat"
+621101,6211,62,"Pandih Batu"
+621102,6211,62,"Kahayan Kuala"
+621103,6211,62,"Kahayan Tengah"
+621104,6211,62,"Banama Tingang"
+621105,6211,62,"Kahayan Hilir"
+621106,6211,62,Maliku
+621107,6211,62,Jabiren
+621108,6211,62,"Sebangau Kuala"
+621201,6212,62,Murung
+621202,6212,62,"Tanah Siang"
+621203,6212,62,"Laung Tuhup"
+621204,6212,62,"Permata Intan"
+621205,6212,62,"Sumber Barito"
+621206,6212,62,"Barito Tuhup Raya"
+621207,6212,62,"Tanah Siang Selatan"
+621208,6212,62,"Sungai Babuat"
+621209,6212,62,"Seribu Riam"
+621210,6212,62,"Uut Murung"
+621301,6213,62,"Dusun Timur"
+621302,6213,62,"Banua Lima"
+621303,6213,62,"Patangkep Tutui"
+621304,6213,62,Awang
+621305,6213,62,"Dusun Tengah"
+621306,6213,62,"Pematang Karau"
+621307,6213,62,"Paju Epat"
+621308,6213,62,"Raren Batuah"
+621309,6213,62,Paku
+621310,6213,62,"Karusen Janang"
+627101,6271,62,Pahandut
+627102,6271,62,"Bukit Batu"
+627103,6271,62,"Jekan Raya"
+627104,6271,62,Sabangau
+627105,6271,62,Rakumpit

@@ -1,0 +1,2138 @@
+[
+    {
+        "code": 3101011001,
+        "district_code": 310101,
+        "regency_code": 3101,
+        "province_code": 31,
+        "name": "Pulau Panggang",
+        "postal_code": "14530"
+    },
+    {
+        "code": 3101011002,
+        "district_code": 310101,
+        "regency_code": 3101,
+        "province_code": 31,
+        "name": "Pulau Kelapa",
+        "postal_code": "14540"
+    },
+    {
+        "code": 3101011003,
+        "district_code": 310101,
+        "regency_code": 3101,
+        "province_code": 31,
+        "name": "Pulau Harapan",
+        "postal_code": "14540"
+    },
+    {
+        "code": 3101021001,
+        "district_code": 310102,
+        "regency_code": 3101,
+        "province_code": 31,
+        "name": "Pulau Untung Jawa",
+        "postal_code": "14510"
+    },
+    {
+        "code": 3101021002,
+        "district_code": 310102,
+        "regency_code": 3101,
+        "province_code": 31,
+        "name": "Pulau Tidung",
+        "postal_code": "14520"
+    },
+    {
+        "code": 3101021003,
+        "district_code": 310102,
+        "regency_code": 3101,
+        "province_code": 31,
+        "name": "Pulau Pari",
+        "postal_code": "14520"
+    },
+    {
+        "code": 3171011001,
+        "district_code": 317101,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Gambir",
+        "postal_code": "10110"
+    },
+    {
+        "code": 3171011002,
+        "district_code": 317101,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Cideng",
+        "postal_code": "10150"
+    },
+    {
+        "code": 3171011003,
+        "district_code": 317101,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Petojo Utara",
+        "postal_code": "10130"
+    },
+    {
+        "code": 3171011004,
+        "district_code": 317101,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Petojo Selatan",
+        "postal_code": "10160"
+    },
+    {
+        "code": 3171011005,
+        "district_code": 317101,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Kebon Kelapa",
+        "postal_code": "10120"
+    },
+    {
+        "code": 3171011006,
+        "district_code": 317101,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Duri Pulo",
+        "postal_code": "10140"
+    },
+    {
+        "code": 3171021001,
+        "district_code": 317102,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Pasar Baru",
+        "postal_code": "10710"
+    },
+    {
+        "code": 3171021002,
+        "district_code": 317102,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Karang Anyar",
+        "postal_code": "10740"
+    },
+    {
+        "code": 3171021003,
+        "district_code": 317102,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Kartini",
+        "postal_code": "10750"
+    },
+    {
+        "code": 3171021004,
+        "district_code": 317102,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Gunung Sahari Utara",
+        "postal_code": "10720"
+    },
+    {
+        "code": 3171021005,
+        "district_code": 317102,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Mangga Dua Selatan",
+        "postal_code": "10730"
+    },
+    {
+        "code": 3171031001,
+        "district_code": 317103,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Kemayoran",
+        "postal_code": "10620"
+    },
+    {
+        "code": 3171031002,
+        "district_code": 317103,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Kebon Kosong",
+        "postal_code": "10630"
+    },
+    {
+        "code": 3171031003,
+        "district_code": 317103,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Harapan Mulia",
+        "postal_code": "10640"
+    },
+    {
+        "code": 3171031004,
+        "district_code": 317103,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Serdang",
+        "postal_code": "10650"
+    },
+    {
+        "code": 3171031005,
+        "district_code": 317103,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Gunung Sahari Selatan",
+        "postal_code": "10610"
+    },
+    {
+        "code": 3171031006,
+        "district_code": 317103,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Cempaka Baru",
+        "postal_code": "10640"
+    },
+    {
+        "code": 3171031007,
+        "district_code": 317103,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Sumur Batu",
+        "postal_code": "10640"
+    },
+    {
+        "code": 3171031008,
+        "district_code": 317103,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Utan Panjang",
+        "postal_code": "10650"
+    },
+    {
+        "code": 3171041001,
+        "district_code": 317104,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Senen",
+        "postal_code": "10410"
+    },
+    {
+        "code": 3171041002,
+        "district_code": 317104,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Kenari",
+        "postal_code": "10430"
+    },
+    {
+        "code": 3171041003,
+        "district_code": 317104,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Paseban",
+        "postal_code": "10440"
+    },
+    {
+        "code": 3171041004,
+        "district_code": 317104,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Kramat",
+        "postal_code": "10450"
+    },
+    {
+        "code": 3171041005,
+        "district_code": 317104,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Kwitang",
+        "postal_code": "10420"
+    },
+    {
+        "code": 3171041006,
+        "district_code": 317104,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Bungur",
+        "postal_code": "10460"
+    },
+    {
+        "code": 3171051001,
+        "district_code": 317105,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Cempaka Putih Timur",
+        "postal_code": "10510"
+    },
+    {
+        "code": 3171051002,
+        "district_code": 317105,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Cempaka Putih Barat",
+        "postal_code": "10520"
+    },
+    {
+        "code": 3171051003,
+        "district_code": 317105,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Rawasari",
+        "postal_code": "10570"
+    },
+    {
+        "code": 3171061001,
+        "district_code": 317106,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Menteng",
+        "postal_code": "10310"
+    },
+    {
+        "code": 3171061002,
+        "district_code": 317106,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Pegangsaan",
+        "postal_code": "10320"
+    },
+    {
+        "code": 3171061003,
+        "district_code": 317106,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Cikini",
+        "postal_code": "10330"
+    },
+    {
+        "code": 3171061004,
+        "district_code": 317106,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Gondangdia",
+        "postal_code": "10350"
+    },
+    {
+        "code": 3171061005,
+        "district_code": 317106,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Kebon Sirih",
+        "postal_code": "10340"
+    },
+    {
+        "code": 3171071001,
+        "district_code": 317107,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Gelora",
+        "postal_code": "10270"
+    },
+    {
+        "code": 3171071002,
+        "district_code": 317107,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Bendungan Hilir",
+        "postal_code": "10210"
+    },
+    {
+        "code": 3171071003,
+        "district_code": 317107,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Karet Tengsin",
+        "postal_code": "10220"
+    },
+    {
+        "code": 3171071004,
+        "district_code": 317107,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Petamburan",
+        "postal_code": "10260"
+    },
+    {
+        "code": 3171071005,
+        "district_code": 317107,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Kebon Melati",
+        "postal_code": "10230"
+    },
+    {
+        "code": 3171071006,
+        "district_code": 317107,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Kebon Kacang",
+        "postal_code": "10240"
+    },
+    {
+        "code": 3171071007,
+        "district_code": 317107,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Kampung Bali",
+        "postal_code": "10250"
+    },
+    {
+        "code": 3171081001,
+        "district_code": 317108,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Johar Baru",
+        "postal_code": "10560"
+    },
+    {
+        "code": 3171081002,
+        "district_code": 317108,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Kampung Rawa",
+        "postal_code": "10550"
+    },
+    {
+        "code": 3171081003,
+        "district_code": 317108,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Galur",
+        "postal_code": "10530"
+    },
+    {
+        "code": 3171081004,
+        "district_code": 317108,
+        "regency_code": 3171,
+        "province_code": 31,
+        "name": "Tanah Tinggi",
+        "postal_code": "10540"
+    },
+    {
+        "code": 3172011001,
+        "district_code": 317201,
+        "regency_code": 3172,
+        "province_code": 31,
+        "name": "Penjaringan",
+        "postal_code": "14440"
+    },
+    {
+        "code": 3172011002,
+        "district_code": 317201,
+        "regency_code": 3172,
+        "province_code": 31,
+        "name": "Kamal Muara",
+        "postal_code": "14470"
+    },
+    {
+        "code": 3172011003,
+        "district_code": 317201,
+        "regency_code": 3172,
+        "province_code": 31,
+        "name": "Kapuk Muara",
+        "postal_code": "14460"
+    },
+    {
+        "code": 3172011004,
+        "district_code": 317201,
+        "regency_code": 3172,
+        "province_code": 31,
+        "name": "Pejagalan",
+        "postal_code": "14450"
+    },
+    {
+        "code": 3172011005,
+        "district_code": 317201,
+        "regency_code": 3172,
+        "province_code": 31,
+        "name": "Pluit",
+        "postal_code": "14450"
+    },
+    {
+        "code": 3172021001,
+        "district_code": 317202,
+        "regency_code": 3172,
+        "province_code": 31,
+        "name": "Tanjung Priok",
+        "postal_code": "14310"
+    },
+    {
+        "code": 3172021002,
+        "district_code": 317202,
+        "regency_code": 3172,
+        "province_code": 31,
+        "name": "Sunter Jaya",
+        "postal_code": "14360"
+    },
+    {
+        "code": 3172021003,
+        "district_code": 317202,
+        "regency_code": 3172,
+        "province_code": 31,
+        "name": "Papanggo",
+        "postal_code": "14340"
+    },
+    {
+        "code": 3172021004,
+        "district_code": 317202,
+        "regency_code": 3172,
+        "province_code": 31,
+        "name": "Sungai Bambu",
+        "postal_code": "14330"
+    },
+    {
+        "code": 3172021005,
+        "district_code": 317202,
+        "regency_code": 3172,
+        "province_code": 31,
+        "name": "Kebon Bawang",
+        "postal_code": "14320"
+    },
+    {
+        "code": 3172021006,
+        "district_code": 317202,
+        "regency_code": 3172,
+        "province_code": 31,
+        "name": "Sunter Agung",
+        "postal_code": "14350"
+    },
+    {
+        "code": 3172021007,
+        "district_code": 317202,
+        "regency_code": 3172,
+        "province_code": 31,
+        "name": "Warakas",
+        "postal_code": "14370"
+    },
+    {
+        "code": 3172031001,
+        "district_code": 317203,
+        "regency_code": 3172,
+        "province_code": 31,
+        "name": "Koja",
+        "postal_code": "14210"
+    },
+    {
+        "code": 3172031002,
+        "district_code": 317203,
+        "regency_code": 3172,
+        "province_code": 31,
+        "name": "Tugu Utara",
+        "postal_code": "14260"
+    },
+    {
+        "code": 3172031003,
+        "district_code": 317203,
+        "regency_code": 3172,
+        "province_code": 31,
+        "name": "Lagoa",
+        "postal_code": "14270"
+    },
+    {
+        "code": 3172031004,
+        "district_code": 317203,
+        "regency_code": 3172,
+        "province_code": 31,
+        "name": "Rawa Badak Utara",
+        "postal_code": "14230"
+    },
+    {
+        "code": 3172031005,
+        "district_code": 317203,
+        "regency_code": 3172,
+        "province_code": 31,
+        "name": "Tugu Selatan",
+        "postal_code": "14260"
+    },
+    {
+        "code": 3172031006,
+        "district_code": 317203,
+        "regency_code": 3172,
+        "province_code": 31,
+        "name": "Rawa Badak Selatan",
+        "postal_code": "14230"
+    },
+    {
+        "code": 3172041001,
+        "district_code": 317204,
+        "regency_code": 3172,
+        "province_code": 31,
+        "name": "Cilincing",
+        "postal_code": "14120"
+    },
+    {
+        "code": 3172041002,
+        "district_code": 317204,
+        "regency_code": 3172,
+        "province_code": 31,
+        "name": "Sukapura",
+        "postal_code": "14140"
+    },
+    {
+        "code": 3172041003,
+        "district_code": 317204,
+        "regency_code": 3172,
+        "province_code": 31,
+        "name": "Marunda",
+        "postal_code": "14150"
+    },
+    {
+        "code": 3172041004,
+        "district_code": 317204,
+        "regency_code": 3172,
+        "province_code": 31,
+        "name": "Kalibaru",
+        "postal_code": "14110"
+    },
+    {
+        "code": 3172041005,
+        "district_code": 317204,
+        "regency_code": 3172,
+        "province_code": 31,
+        "name": "Semper Timur",
+        "postal_code": "14130"
+    },
+    {
+        "code": 3172041006,
+        "district_code": 317204,
+        "regency_code": 3172,
+        "province_code": 31,
+        "name": "Rorotan",
+        "postal_code": "14140"
+    },
+    {
+        "code": 3172041007,
+        "district_code": 317204,
+        "regency_code": 3172,
+        "province_code": 31,
+        "name": "Semper Barat",
+        "postal_code": "14130"
+    },
+    {
+        "code": 3172051001,
+        "district_code": 317205,
+        "regency_code": 3172,
+        "province_code": 31,
+        "name": "Pademangan Timur",
+        "postal_code": "14410"
+    },
+    {
+        "code": 3172051002,
+        "district_code": 317205,
+        "regency_code": 3172,
+        "province_code": 31,
+        "name": "Pademangan Barat",
+        "postal_code": "14420"
+    },
+    {
+        "code": 3172051003,
+        "district_code": 317205,
+        "regency_code": 3172,
+        "province_code": 31,
+        "name": "Ancol",
+        "postal_code": "14430"
+    },
+    {
+        "code": 3172061001,
+        "district_code": 317206,
+        "regency_code": 3172,
+        "province_code": 31,
+        "name": "Kelapa Gading Timur",
+        "postal_code": "14240"
+    },
+    {
+        "code": 3172061002,
+        "district_code": 317206,
+        "regency_code": 3172,
+        "province_code": 31,
+        "name": "Pegangsaan Dua",
+        "postal_code": "14250"
+    },
+    {
+        "code": 3172061003,
+        "district_code": 317206,
+        "regency_code": 3172,
+        "province_code": 31,
+        "name": "Kelapa Gading Barat",
+        "postal_code": "14240"
+    },
+    {
+        "code": 3173011001,
+        "district_code": 317301,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Cengkareng Barat",
+        "postal_code": "11730"
+    },
+    {
+        "code": 3173011002,
+        "district_code": 317301,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Duri Kosambi",
+        "postal_code": "11750"
+    },
+    {
+        "code": 3173011003,
+        "district_code": 317301,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Rawa Buaya",
+        "postal_code": "11740"
+    },
+    {
+        "code": 3173011004,
+        "district_code": 317301,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Kedaung Kali Angke",
+        "postal_code": "11710"
+    },
+    {
+        "code": 3173011005,
+        "district_code": 317301,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Kapuk",
+        "postal_code": "11720"
+    },
+    {
+        "code": 3173011006,
+        "district_code": 317301,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Cengkareng Timur",
+        "postal_code": "11730"
+    },
+    {
+        "code": 3173021001,
+        "district_code": 317302,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Grogol",
+        "postal_code": "11450"
+    },
+    {
+        "code": 3173021002,
+        "district_code": 317302,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Tanjung Duren Utara",
+        "postal_code": "11470"
+    },
+    {
+        "code": 3173021003,
+        "district_code": 317302,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Tomang",
+        "postal_code": "11440"
+    },
+    {
+        "code": 3173021004,
+        "district_code": 317302,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Jelambar",
+        "postal_code": "11460"
+    },
+    {
+        "code": 3173021005,
+        "district_code": 317302,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Tanjung Duren Selatan",
+        "postal_code": "11470"
+    },
+    {
+        "code": 3173021006,
+        "district_code": 317302,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Jelambar Baru",
+        "postal_code": "11460"
+    },
+    {
+        "code": 3173021007,
+        "district_code": 317302,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Wijaya Kusuma",
+        "postal_code": "11460"
+    },
+    {
+        "code": 3173031001,
+        "district_code": 317303,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Taman Sari",
+        "postal_code": "11150"
+    },
+    {
+        "code": 3173031002,
+        "district_code": 317303,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Krukut",
+        "postal_code": "11140"
+    },
+    {
+        "code": 3173031003,
+        "district_code": 317303,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Maphar",
+        "postal_code": "11160"
+    },
+    {
+        "code": 3173031004,
+        "district_code": 317303,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Tangki",
+        "postal_code": "11170"
+    },
+    {
+        "code": 3173031005,
+        "district_code": 317303,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Mangga Besar",
+        "postal_code": "11180"
+    },
+    {
+        "code": 3173031006,
+        "district_code": 317303,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Keagungan",
+        "postal_code": "11130"
+    },
+    {
+        "code": 3173031007,
+        "district_code": 317303,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Glodok",
+        "postal_code": "11120"
+    },
+    {
+        "code": 3173031008,
+        "district_code": 317303,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Pinangsia",
+        "postal_code": "11110"
+    },
+    {
+        "code": 3173041001,
+        "district_code": 317304,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Tambora",
+        "postal_code": "11220"
+    },
+    {
+        "code": 3173041002,
+        "district_code": 317304,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Kali Anyar",
+        "postal_code": "11310"
+    },
+    {
+        "code": 3173041003,
+        "district_code": 317304,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Duri Utara",
+        "postal_code": "11270"
+    },
+    {
+        "code": 3173041004,
+        "district_code": 317304,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Tanah Sereal",
+        "postal_code": "11210"
+    },
+    {
+        "code": 3173041005,
+        "district_code": 317304,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Krendang",
+        "postal_code": "11260"
+    },
+    {
+        "code": 3173041006,
+        "district_code": 317304,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Jembatan Besi",
+        "postal_code": "11320"
+    },
+    {
+        "code": 3173041007,
+        "district_code": 317304,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Angke",
+        "postal_code": "11330"
+    },
+    {
+        "code": 3173041008,
+        "district_code": 317304,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Jembatan Lima",
+        "postal_code": "11250"
+    },
+    {
+        "code": 3173041009,
+        "district_code": 317304,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Pekojan",
+        "postal_code": "11240"
+    },
+    {
+        "code": 3173041010,
+        "district_code": 317304,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Roa Malaka",
+        "postal_code": "11230"
+    },
+    {
+        "code": 3173041011,
+        "district_code": 317304,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Duri Selatan",
+        "postal_code": "11270"
+    },
+    {
+        "code": 3173051001,
+        "district_code": 317305,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Kebon Jeruk",
+        "postal_code": "11530"
+    },
+    {
+        "code": 3173051002,
+        "district_code": 317305,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Sukabumi Utara",
+        "postal_code": "11540"
+    },
+    {
+        "code": 3173051003,
+        "district_code": 317305,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Sukabumi Selatan",
+        "postal_code": "11560"
+    },
+    {
+        "code": 3173051004,
+        "district_code": 317305,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Kelapa Dua",
+        "postal_code": "11550"
+    },
+    {
+        "code": 3173051005,
+        "district_code": 317305,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Duri Kepa",
+        "postal_code": "11510"
+    },
+    {
+        "code": 3173051006,
+        "district_code": 317305,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Kedoya Utara",
+        "postal_code": "11520"
+    },
+    {
+        "code": 3173051007,
+        "district_code": 317305,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Kedoya Selatan",
+        "postal_code": "11520"
+    },
+    {
+        "code": 3173061001,
+        "district_code": 317306,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Kalideres",
+        "postal_code": "11840"
+    },
+    {
+        "code": 3173061002,
+        "district_code": 317306,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Semanan",
+        "postal_code": "11850"
+    },
+    {
+        "code": 3173061003,
+        "district_code": 317306,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Tegal Alur",
+        "postal_code": "11820"
+    },
+    {
+        "code": 3173061004,
+        "district_code": 317306,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Kamal",
+        "postal_code": "11810"
+    },
+    {
+        "code": 3173061005,
+        "district_code": 317306,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Pegadungan",
+        "postal_code": "11830"
+    },
+    {
+        "code": 3173071001,
+        "district_code": 317307,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Palmerah",
+        "postal_code": "11480"
+    },
+    {
+        "code": 3173071002,
+        "district_code": 317307,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Slipi",
+        "postal_code": "11410"
+    },
+    {
+        "code": 3173071003,
+        "district_code": 317307,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Kota Bambu Utara",
+        "postal_code": "11420"
+    },
+    {
+        "code": 3173071004,
+        "district_code": 317307,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Jatipulo",
+        "postal_code": "11430"
+    },
+    {
+        "code": 3173071005,
+        "district_code": 317307,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Kemanggisan",
+        "postal_code": "11480"
+    },
+    {
+        "code": 3173071006,
+        "district_code": 317307,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Kota Bambu Selatan",
+        "postal_code": "11420"
+    },
+    {
+        "code": 3173081001,
+        "district_code": 317308,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Kembangan Utara",
+        "postal_code": "11610"
+    },
+    {
+        "code": 3173081002,
+        "district_code": 317308,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Meruya Utara",
+        "postal_code": "11620"
+    },
+    {
+        "code": 3173081003,
+        "district_code": 317308,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Meruya Selatan",
+        "postal_code": "11650"
+    },
+    {
+        "code": 3173081004,
+        "district_code": 317308,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Srengseng",
+        "postal_code": "11630"
+    },
+    {
+        "code": 3173081005,
+        "district_code": 317308,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Joglo",
+        "postal_code": "11640"
+    },
+    {
+        "code": 3173081006,
+        "district_code": 317308,
+        "regency_code": 3173,
+        "province_code": 31,
+        "name": "Kembangan Selatan",
+        "postal_code": "11610"
+    },
+    {
+        "code": 3174011001,
+        "district_code": 317401,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Tebet Timur",
+        "postal_code": "12820"
+    },
+    {
+        "code": 3174011002,
+        "district_code": 317401,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Tebet Barat",
+        "postal_code": "12810"
+    },
+    {
+        "code": 3174011003,
+        "district_code": 317401,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Menteng Dalam",
+        "postal_code": "12870"
+    },
+    {
+        "code": 3174011004,
+        "district_code": 317401,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Kebon Baru",
+        "postal_code": "12830"
+    },
+    {
+        "code": 3174011005,
+        "district_code": 317401,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Bukit Duri",
+        "postal_code": "12840"
+    },
+    {
+        "code": 3174011006,
+        "district_code": 317401,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Manggarai Selatan",
+        "postal_code": "12860"
+    },
+    {
+        "code": 3174011007,
+        "district_code": 317401,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Manggarai",
+        "postal_code": "12850"
+    },
+    {
+        "code": 3174021001,
+        "district_code": 317402,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Setia Budi",
+        "postal_code": "12910"
+    },
+    {
+        "code": 3174021002,
+        "district_code": 317402,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Karet Semanggi",
+        "postal_code": "12930"
+    },
+    {
+        "code": 3174021003,
+        "district_code": 317402,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Karet Kuningan",
+        "postal_code": "12940"
+    },
+    {
+        "code": 3174021004,
+        "district_code": 317402,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Karet",
+        "postal_code": "12920"
+    },
+    {
+        "code": 3174021005,
+        "district_code": 317402,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Menteng Atas",
+        "postal_code": "12960"
+    },
+    {
+        "code": 3174021006,
+        "district_code": 317402,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Pasar Manggis",
+        "postal_code": "12970"
+    },
+    {
+        "code": 3174021007,
+        "district_code": 317402,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Guntur",
+        "postal_code": "12980"
+    },
+    {
+        "code": 3174021008,
+        "district_code": 317402,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Kuningan Timur",
+        "postal_code": "12950"
+    },
+    {
+        "code": 3174031001,
+        "district_code": 317403,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Mampang Prapatan",
+        "postal_code": "12790"
+    },
+    {
+        "code": 3174031002,
+        "district_code": 317403,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Bangka",
+        "postal_code": "12730"
+    },
+    {
+        "code": 3174031003,
+        "district_code": 317403,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Pela Mampang",
+        "postal_code": "12720"
+    },
+    {
+        "code": 3174031004,
+        "district_code": 317403,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Tegal Parang",
+        "postal_code": "12790"
+    },
+    {
+        "code": 3174031005,
+        "district_code": 317403,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Kuningan Barat",
+        "postal_code": "12710"
+    },
+    {
+        "code": 3174041001,
+        "district_code": 317404,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Pasar Minggu",
+        "postal_code": "12520"
+    },
+    {
+        "code": 3174041002,
+        "district_code": 317404,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Jati Padang",
+        "postal_code": "12540"
+    },
+    {
+        "code": 3174041003,
+        "district_code": 317404,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Cilandak Timur",
+        "postal_code": "12560"
+    },
+    {
+        "code": 3174041004,
+        "district_code": 317404,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Ragunan",
+        "postal_code": "12550"
+    },
+    {
+        "code": 3174041005,
+        "district_code": 317404,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Pejaten Timur",
+        "postal_code": "12510"
+    },
+    {
+        "code": 3174041006,
+        "district_code": 317404,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Pejaten Barat",
+        "postal_code": "12510"
+    },
+    {
+        "code": 3174041007,
+        "district_code": 317404,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Kebagusan",
+        "postal_code": "12520"
+    },
+    {
+        "code": 3174051001,
+        "district_code": 317405,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Kebayoran Lama Utara",
+        "postal_code": "12240"
+    },
+    {
+        "code": 3174051002,
+        "district_code": 317405,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Pondok Pinang",
+        "postal_code": "12310"
+    },
+    {
+        "code": 3174051003,
+        "district_code": 317405,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Cipulir",
+        "postal_code": "12230"
+    },
+    {
+        "code": 3174051004,
+        "district_code": 317405,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Grogol Utara",
+        "postal_code": "12210"
+    },
+    {
+        "code": 3174051005,
+        "district_code": 317405,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Grogol Selatan",
+        "postal_code": "12220"
+    },
+    {
+        "code": 3174051006,
+        "district_code": 317405,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Kebayoran Lama Selatan",
+        "postal_code": "12240"
+    },
+    {
+        "code": 3174061001,
+        "district_code": 317406,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Cilandak Barat",
+        "postal_code": "12430"
+    },
+    {
+        "code": 3174061002,
+        "district_code": 317406,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Lebak Bulus",
+        "postal_code": "12440"
+    },
+    {
+        "code": 3174061003,
+        "district_code": 317406,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Pondok Labu",
+        "postal_code": "12450"
+    },
+    {
+        "code": 3174061004,
+        "district_code": 317406,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Gandaria Selatan",
+        "postal_code": "12420"
+    },
+    {
+        "code": 3174061005,
+        "district_code": 317406,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Cipete Selatan",
+        "postal_code": "12410"
+    },
+    {
+        "code": 3174071001,
+        "district_code": 317407,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Melawai",
+        "postal_code": "12160"
+    },
+    {
+        "code": 3174071002,
+        "district_code": 317407,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Gunung",
+        "postal_code": "12120"
+    },
+    {
+        "code": 3174071003,
+        "district_code": 317407,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Kramat Pela",
+        "postal_code": "12130"
+    },
+    {
+        "code": 3174071004,
+        "district_code": 317407,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Selong",
+        "postal_code": "12110"
+    },
+    {
+        "code": 3174071005,
+        "district_code": 317407,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Rawa Barat",
+        "postal_code": "12180"
+    },
+    {
+        "code": 3174071006,
+        "district_code": 317407,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Senayan",
+        "postal_code": "12190"
+    },
+    {
+        "code": 3174071007,
+        "district_code": 317407,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Pulo",
+        "postal_code": "12160"
+    },
+    {
+        "code": 3174071008,
+        "district_code": 317407,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Petogogan",
+        "postal_code": "12170"
+    },
+    {
+        "code": 3174071009,
+        "district_code": 317407,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Gandaria Utara",
+        "postal_code": "12140"
+    },
+    {
+        "code": 3174071010,
+        "district_code": 317407,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Cipete Utara",
+        "postal_code": "12150"
+    },
+    {
+        "code": 3174081001,
+        "district_code": 317408,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Pancoran",
+        "postal_code": "12780"
+    },
+    {
+        "code": 3174081002,
+        "district_code": 317408,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Kalibata",
+        "postal_code": "12740"
+    },
+    {
+        "code": 3174081003,
+        "district_code": 317408,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Rawajati",
+        "postal_code": "12750"
+    },
+    {
+        "code": 3174081004,
+        "district_code": 317408,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Duren Tiga",
+        "postal_code": "12760"
+    },
+    {
+        "code": 3174081005,
+        "district_code": 317408,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Pengadegan",
+        "postal_code": "12770"
+    },
+    {
+        "code": 3174081006,
+        "district_code": 317408,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Cikoko",
+        "postal_code": "12770"
+    },
+    {
+        "code": 3174091001,
+        "district_code": 317409,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Jagakarsa",
+        "postal_code": "12620"
+    },
+    {
+        "code": 3174091002,
+        "district_code": 317409,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Srengseng Sawah",
+        "postal_code": "12640"
+    },
+    {
+        "code": 3174091003,
+        "district_code": 317409,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Ciganjur",
+        "postal_code": "12630"
+    },
+    {
+        "code": 3174091004,
+        "district_code": 317409,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Lenteng Agung",
+        "postal_code": "12630"
+    },
+    {
+        "code": 3174091005,
+        "district_code": 317409,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Tanjung Barat",
+        "postal_code": "12530"
+    },
+    {
+        "code": 3174091006,
+        "district_code": 317409,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Cipedak",
+        "postal_code": "12630"
+    },
+    {
+        "code": 3174101001,
+        "district_code": 317410,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Pesanggrahan",
+        "postal_code": "12320"
+    },
+    {
+        "code": 3174101002,
+        "district_code": 317410,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Bintaro",
+        "postal_code": "12330"
+    },
+    {
+        "code": 3174101003,
+        "district_code": 317410,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Petukangan Utara",
+        "postal_code": "12260"
+    },
+    {
+        "code": 3174101004,
+        "district_code": 317410,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Petukangan Selatan",
+        "postal_code": "12270"
+    },
+    {
+        "code": 3174101005,
+        "district_code": 317410,
+        "regency_code": 3174,
+        "province_code": 31,
+        "name": "Ulujami",
+        "postal_code": "12250"
+    },
+    {
+        "code": 3175011001,
+        "district_code": 317501,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Pisangan Baru",
+        "postal_code": "13110"
+    },
+    {
+        "code": 3175011002,
+        "district_code": 317501,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Utan Kayu Utara",
+        "postal_code": "13120"
+    },
+    {
+        "code": 3175011003,
+        "district_code": 317501,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Kayu Manis",
+        "postal_code": "13130"
+    },
+    {
+        "code": 3175011004,
+        "district_code": 317501,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Palmeriam",
+        "postal_code": "13140"
+    },
+    {
+        "code": 3175011005,
+        "district_code": 317501,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Kebon Manggis",
+        "postal_code": "13150"
+    },
+    {
+        "code": 3175011006,
+        "district_code": 317501,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Utan Kayu Selatan",
+        "postal_code": "13120"
+    },
+    {
+        "code": 3175021001,
+        "district_code": 317502,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Pulo Gadung",
+        "postal_code": "13260"
+    },
+    {
+        "code": 3175021002,
+        "district_code": 317502,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Pisangan Timur",
+        "postal_code": "13230"
+    },
+    {
+        "code": 3175021003,
+        "district_code": 317502,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Cipinang",
+        "postal_code": "13240"
+    },
+    {
+        "code": 3175021004,
+        "district_code": 317502,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Jatinegara Kaum",
+        "postal_code": "13250"
+    },
+    {
+        "code": 3175021005,
+        "district_code": 317502,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Rawamangun",
+        "postal_code": "13220"
+    },
+    {
+        "code": 3175021006,
+        "district_code": 317502,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Kayu Putih",
+        "postal_code": "13210"
+    },
+    {
+        "code": 3175021007,
+        "district_code": 317502,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Jati",
+        "postal_code": "13220"
+    },
+    {
+        "code": 3175031001,
+        "district_code": 317503,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Kampung Melayu",
+        "postal_code": "13320"
+    },
+    {
+        "code": 3175031002,
+        "district_code": 317503,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Bidara Cina",
+        "postal_code": "13330"
+    },
+    {
+        "code": 3175031003,
+        "district_code": 317503,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Bali Mester",
+        "postal_code": "13310"
+    },
+    {
+        "code": 3175031004,
+        "district_code": 317503,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Rawa Bunga",
+        "postal_code": "13350"
+    },
+    {
+        "code": 3175031005,
+        "district_code": 317503,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Cipinang Cempedak",
+        "postal_code": "13340"
+    },
+    {
+        "code": 3175031006,
+        "district_code": 317503,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Cipinang Muara",
+        "postal_code": "13420"
+    },
+    {
+        "code": 3175031007,
+        "district_code": 317503,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Cipinang Besar Selatan",
+        "postal_code": "13410"
+    },
+    {
+        "code": 3175031008,
+        "district_code": 317503,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Cipinang Besar Utara",
+        "postal_code": "13410"
+    },
+    {
+        "code": 3175041001,
+        "district_code": 317504,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Kramatjati",
+        "postal_code": "13510"
+    },
+    {
+        "code": 3175041002,
+        "district_code": 317504,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Tengah",
+        "postal_code": "13540"
+    },
+    {
+        "code": 3175041003,
+        "district_code": 317504,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Dukuh",
+        "postal_code": "13550"
+    },
+    {
+        "code": 3175041004,
+        "district_code": 317504,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Batu Ampar",
+        "postal_code": "13520"
+    },
+    {
+        "code": 3175041005,
+        "district_code": 317504,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Balekambang",
+        "postal_code": "13530"
+    },
+    {
+        "code": 3175041006,
+        "district_code": 317504,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Cililitan",
+        "postal_code": "13640"
+    },
+    {
+        "code": 3175041007,
+        "district_code": 317504,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Cawang",
+        "postal_code": "13630"
+    },
+    {
+        "code": 3175051001,
+        "district_code": 317505,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Gedong",
+        "postal_code": "13760"
+    },
+    {
+        "code": 3175051002,
+        "district_code": 317505,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Baru",
+        "postal_code": "13780"
+    },
+    {
+        "code": 3175051003,
+        "district_code": 317505,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Cijantung",
+        "postal_code": "13770"
+    },
+    {
+        "code": 3175051004,
+        "district_code": 317505,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Kalisari",
+        "postal_code": "13790"
+    },
+    {
+        "code": 3175051005,
+        "district_code": 317505,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Pekayon",
+        "postal_code": "13710"
+    },
+    {
+        "code": 3175061001,
+        "district_code": 317506,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Jatinegara",
+        "postal_code": "13930"
+    },
+    {
+        "code": 3175061002,
+        "district_code": 317506,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Rawa Terate",
+        "postal_code": "13920"
+    },
+    {
+        "code": 3175061003,
+        "district_code": 317506,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Penggilingan",
+        "postal_code": "13940"
+    },
+    {
+        "code": 3175061004,
+        "district_code": 317506,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Cakung Timur",
+        "postal_code": "13910"
+    },
+    {
+        "code": 3175061005,
+        "district_code": 317506,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Pulo Gebang",
+        "postal_code": "13950"
+    },
+    {
+        "code": 3175061006,
+        "district_code": 317506,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Ujung Menteng",
+        "postal_code": "13960"
+    },
+    {
+        "code": 3175061007,
+        "district_code": 317506,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Cakung Barat",
+        "postal_code": "13910"
+    },
+    {
+        "code": 3175071001,
+        "district_code": 317507,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Duren Sawit",
+        "postal_code": "13440"
+    },
+    {
+        "code": 3175071002,
+        "district_code": 317507,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Pondok Bambu",
+        "postal_code": "13430"
+    },
+    {
+        "code": 3175071003,
+        "district_code": 317507,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Klender",
+        "postal_code": "13470"
+    },
+    {
+        "code": 3175071004,
+        "district_code": 317507,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Pondok Kelapa",
+        "postal_code": "13450"
+    },
+    {
+        "code": 3175071005,
+        "district_code": 317507,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Malaka Sari",
+        "postal_code": "13460"
+    },
+    {
+        "code": 3175071006,
+        "district_code": 317507,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Malaka Jaya",
+        "postal_code": "13460"
+    },
+    {
+        "code": 3175071007,
+        "district_code": 317507,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Pondok Kopi",
+        "postal_code": "13460"
+    },
+    {
+        "code": 3175081001,
+        "district_code": 317508,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Makasar",
+        "postal_code": "13570"
+    },
+    {
+        "code": 3175081002,
+        "district_code": 317508,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Pinangranti",
+        "postal_code": "13560"
+    },
+    {
+        "code": 3175081003,
+        "district_code": 317508,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Kebon Pala",
+        "postal_code": "13650"
+    },
+    {
+        "code": 3175081004,
+        "district_code": 317508,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Halim Perdana Kusuma",
+        "postal_code": "13610"
+    },
+    {
+        "code": 3175081005,
+        "district_code": 317508,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Cipinang Melayu",
+        "postal_code": "13620"
+    },
+    {
+        "code": 3175091001,
+        "district_code": 317509,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Ciracas",
+        "postal_code": "13740"
+    },
+    {
+        "code": 3175091002,
+        "district_code": 317509,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Cibubur",
+        "postal_code": "13720"
+    },
+    {
+        "code": 3175091003,
+        "district_code": 317509,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Kelapa Dua Wetan",
+        "postal_code": "13730"
+    },
+    {
+        "code": 3175091004,
+        "district_code": 317509,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Susukan",
+        "postal_code": "13750"
+    },
+    {
+        "code": 3175091005,
+        "district_code": 317509,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Rambutan",
+        "postal_code": "13830"
+    },
+    {
+        "code": 3175101001,
+        "district_code": 317510,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Cipayung",
+        "postal_code": "13840"
+    },
+    {
+        "code": 3175101002,
+        "district_code": 317510,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Cilangkap",
+        "postal_code": "13870"
+    },
+    {
+        "code": 3175101003,
+        "district_code": 317510,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Pondok Ranggon",
+        "postal_code": "13860"
+    },
+    {
+        "code": 3175101004,
+        "district_code": 317510,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Munjul",
+        "postal_code": "13850"
+    },
+    {
+        "code": 3175101005,
+        "district_code": 317510,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Setu",
+        "postal_code": "13880"
+    },
+    {
+        "code": 3175101006,
+        "district_code": 317510,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Bambu Apus",
+        "postal_code": "13890"
+    },
+    {
+        "code": 3175101007,
+        "district_code": 317510,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Lubang Buaya",
+        "postal_code": "13810"
+    },
+    {
+        "code": 3175101008,
+        "district_code": 317510,
+        "regency_code": 3175,
+        "province_code": 31,
+        "name": "Ceger",
+        "postal_code": "13820"
+    }
+]

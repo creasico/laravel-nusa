@@ -1,0 +1,3146 @@
+[
+    {
+        "code": 1901011001,
+        "district_code": 190101,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Sungailiat",
+        "postal_code": "33211"
+    },
+    {
+        "code": 1901011002,
+        "district_code": 190101,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Sri Menanti",
+        "postal_code": "33214"
+    },
+    {
+        "code": 1901011003,
+        "district_code": 190101,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Kudai",
+        "postal_code": "33213"
+    },
+    {
+        "code": 1901011004,
+        "district_code": 190101,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Sinar Baru",
+        "postal_code": "33212"
+    },
+    {
+        "code": 1901011005,
+        "district_code": 190101,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Kenanga",
+        "postal_code": "33211"
+    },
+    {
+        "code": 1901011006,
+        "district_code": 190101,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Parit Padang",
+        "postal_code": "33215"
+    },
+    {
+        "code": 1901011008,
+        "district_code": 190101,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Sinar Jaya Jelutung",
+        "postal_code": "33212"
+    },
+    {
+        "code": 1901011009,
+        "district_code": 190101,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Matras",
+        "postal_code": "33212"
+    },
+    {
+        "code": 1901011010,
+        "district_code": 190101,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Jelitik",
+        "postal_code": "33211"
+    },
+    {
+        "code": 1901011011,
+        "district_code": 190101,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Surya Timur",
+        "postal_code": "33211"
+    },
+    {
+        "code": 1901011012,
+        "district_code": 190101,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Lubuk Kelik",
+        "postal_code": "33211"
+    },
+    {
+        "code": 1901011013,
+        "district_code": 190101,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Bukit Betung",
+        "postal_code": "33211"
+    },
+    {
+        "code": 1901012007,
+        "district_code": 190101,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Rebo",
+        "postal_code": "33211"
+    },
+    {
+        "code": 1901021001,
+        "district_code": 190102,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Kuto Panji",
+        "postal_code": "33253"
+    },
+    {
+        "code": 1901021002,
+        "district_code": 190102,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Air Jukung",
+        "postal_code": "33253"
+    },
+    {
+        "code": 1901021003,
+        "district_code": 190102,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Bukit Ketok",
+        "postal_code": "33253"
+    },
+    {
+        "code": 1901021009,
+        "district_code": 190102,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Remodong Indah",
+        "postal_code": "33253"
+    },
+    {
+        "code": 1901021010,
+        "district_code": 190102,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Air Asam",
+        "postal_code": "33253"
+    },
+    {
+        "code": 1901021011,
+        "district_code": 190102,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Mantung",
+        "postal_code": "33253"
+    },
+    {
+        "code": 1901021012,
+        "district_code": 190102,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Belinyu",
+        "postal_code": "33253"
+    },
+    {
+        "code": 1901022004,
+        "district_code": 190102,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Gunung Muda",
+        "postal_code": "33253"
+    },
+    {
+        "code": 1901022005,
+        "district_code": 190102,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Gunung Pelawan",
+        "postal_code": "33253"
+    },
+    {
+        "code": 1901022006,
+        "district_code": 190102,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Riding Panjang",
+        "postal_code": "33253"
+    },
+    {
+        "code": 1901022007,
+        "district_code": 190102,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Lumut",
+        "postal_code": "33253"
+    },
+    {
+        "code": 1901022008,
+        "district_code": 190102,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Bintet",
+        "postal_code": "33253"
+    },
+    {
+        "code": 1901032001,
+        "district_code": 190103,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Batu Rusa",
+        "postal_code": "33172"
+    },
+    {
+        "code": 1901032002,
+        "district_code": 190103,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Balun Ijuk",
+        "postal_code": "33172"
+    },
+    {
+        "code": 1901032003,
+        "district_code": 190103,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Riding Panjang",
+        "postal_code": "33172"
+    },
+    {
+        "code": 1901032004,
+        "district_code": 190103,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Jurung",
+        "postal_code": "33172"
+    },
+    {
+        "code": 1901032005,
+        "district_code": 190103,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Kimak",
+        "postal_code": "33172"
+    },
+    {
+        "code": 1901032006,
+        "district_code": 190103,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Pagarawan",
+        "postal_code": "33172"
+    },
+    {
+        "code": 1901032007,
+        "district_code": 190103,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Merawang",
+        "postal_code": "33172"
+    },
+    {
+        "code": 1901032008,
+        "district_code": 190103,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Air Anyir",
+        "postal_code": "33172"
+    },
+    {
+        "code": 1901032009,
+        "district_code": 190103,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Dwi Makmur",
+        "postal_code": "33172"
+    },
+    {
+        "code": 1901032010,
+        "district_code": 190103,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Jada Bahrin",
+        "postal_code": "33172"
+    },
+    {
+        "code": 1901042001,
+        "district_code": 190104,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Petaling",
+        "postal_code": "33173"
+    },
+    {
+        "code": 1901042002,
+        "district_code": 190104,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Penagan",
+        "postal_code": "33173"
+    },
+    {
+        "code": 1901042003,
+        "district_code": 190104,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Zed",
+        "postal_code": "33173"
+    },
+    {
+        "code": 1901042004,
+        "district_code": 190104,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Mendo",
+        "postal_code": "33173"
+    },
+    {
+        "code": 1901042005,
+        "district_code": 190104,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Paya Benua",
+        "postal_code": "33173"
+    },
+    {
+        "code": 1901042006,
+        "district_code": 190104,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Cengkong Abang",
+        "postal_code": "33173"
+    },
+    {
+        "code": 1901042007,
+        "district_code": 190104,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Kace",
+        "postal_code": "33173"
+    },
+    {
+        "code": 1901042008,
+        "district_code": 190104,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Kemuja",
+        "postal_code": "33173"
+    },
+    {
+        "code": 1901042009,
+        "district_code": 190104,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Air Duren",
+        "postal_code": "33173"
+    },
+    {
+        "code": 1901042010,
+        "district_code": 190104,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Kota Kapur",
+        "postal_code": "33173"
+    },
+    {
+        "code": 1901042011,
+        "district_code": 190104,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Air Buluh",
+        "postal_code": "33173"
+    },
+    {
+        "code": 1901042012,
+        "district_code": 190104,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Rukam",
+        "postal_code": "33173"
+    },
+    {
+        "code": 1901042013,
+        "district_code": 190104,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Labuh Air Pandan",
+        "postal_code": "33173"
+    },
+    {
+        "code": 1901042014,
+        "district_code": 190104,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Kace Timur",
+        "postal_code": "33173"
+    },
+    {
+        "code": 1901042015,
+        "district_code": 190104,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Petaling Banjar",
+        "postal_code": "33173"
+    },
+    {
+        "code": 1901052001,
+        "district_code": 190105,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Air Ruai",
+        "postal_code": "33255"
+    },
+    {
+        "code": 1901052002,
+        "district_code": 190105,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Air Duren",
+        "postal_code": "33255"
+    },
+    {
+        "code": 1901052003,
+        "district_code": 190105,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Penyamun",
+        "postal_code": "33251"
+    },
+    {
+        "code": 1901052004,
+        "district_code": 190105,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Sempan",
+        "postal_code": "33251"
+    },
+    {
+        "code": 1901052005,
+        "district_code": 190105,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Pemali",
+        "postal_code": "33255"
+    },
+    {
+        "code": 1901052006,
+        "district_code": 190105,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Karya Makmur",
+        "postal_code": "33255"
+    },
+    {
+        "code": 1901062001,
+        "district_code": 190106,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Bakam",
+        "postal_code": "33252"
+    },
+    {
+        "code": 1901062002,
+        "district_code": 190106,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Kapuk",
+        "postal_code": "33252"
+    },
+    {
+        "code": 1901062003,
+        "district_code": 190106,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Dalil",
+        "postal_code": "33252"
+    },
+    {
+        "code": 1901062004,
+        "district_code": 190106,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Neknang",
+        "postal_code": "33252"
+    },
+    {
+        "code": 1901062005,
+        "district_code": 190106,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Tiang Tarah",
+        "postal_code": "33252"
+    },
+    {
+        "code": 1901062006,
+        "district_code": 190106,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Mangka",
+        "postal_code": "33252"
+    },
+    {
+        "code": 1901062007,
+        "district_code": 190106,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Mabat",
+        "postal_code": "33252"
+    },
+    {
+        "code": 1901062008,
+        "district_code": 190106,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Bukit Layang",
+        "postal_code": "33252"
+    },
+    {
+        "code": 1901062009,
+        "district_code": 190106,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Maras Senang",
+        "postal_code": "33252"
+    },
+    {
+        "code": 1901072001,
+        "district_code": 190107,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Riau",
+        "postal_code": "33254"
+    },
+    {
+        "code": 1901072002,
+        "district_code": 190107,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Pangkal Niur",
+        "postal_code": "33254"
+    },
+    {
+        "code": 1901072003,
+        "district_code": 190107,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Pugul",
+        "postal_code": "33254"
+    },
+    {
+        "code": 1901072004,
+        "district_code": 190107,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Cit",
+        "postal_code": "33254"
+    },
+    {
+        "code": 1901072005,
+        "district_code": 190107,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Deniang",
+        "postal_code": "33254"
+    },
+    {
+        "code": 1901072006,
+        "district_code": 190107,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Silip",
+        "postal_code": "33254"
+    },
+    {
+        "code": 1901072007,
+        "district_code": 190107,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Mapur",
+        "postal_code": "33254"
+    },
+    {
+        "code": 1901072008,
+        "district_code": 190107,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Banyu Asin",
+        "postal_code": "33254"
+    },
+    {
+        "code": 1901072009,
+        "district_code": 190107,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Berbura",
+        "postal_code": "33254"
+    },
+    {
+        "code": 1901082001,
+        "district_code": 190108,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Puding Besar",
+        "postal_code": "33179"
+    },
+    {
+        "code": 1901082002,
+        "district_code": 190108,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Labu",
+        "postal_code": "33179"
+    },
+    {
+        "code": 1901082003,
+        "district_code": 190108,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Nibung",
+        "postal_code": "33179"
+    },
+    {
+        "code": 1901082004,
+        "district_code": 190108,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Tanah Bawah",
+        "postal_code": "33179"
+    },
+    {
+        "code": 1901082005,
+        "district_code": 190108,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Saing",
+        "postal_code": "33179"
+    },
+    {
+        "code": 1901082006,
+        "district_code": 190108,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Kota Waringin",
+        "postal_code": "33179"
+    },
+    {
+        "code": 1901082007,
+        "district_code": 190108,
+        "regency_code": 1901,
+        "province_code": 19,
+        "name": "Kayu Besi",
+        "postal_code": "33179"
+    },
+    {
+        "code": 1902011001,
+        "district_code": 190201,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Kota",
+        "postal_code": "33411"
+    },
+    {
+        "code": 1902011002,
+        "district_code": 190201,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Parit",
+        "postal_code": "33411"
+    },
+    {
+        "code": 1902011005,
+        "district_code": 190201,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Lesung Batang",
+        "postal_code": "33411"
+    },
+    {
+        "code": 1902011006,
+        "district_code": 190201,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Pangkallalang",
+        "postal_code": "33412"
+    },
+    {
+        "code": 1902011009,
+        "district_code": 190201,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Tanjungpendam",
+        "postal_code": "33411"
+    },
+    {
+        "code": 1902011011,
+        "district_code": 190201,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Paal Satu",
+        "postal_code": "33414"
+    },
+    {
+        "code": 1902011016,
+        "district_code": 190201,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Kampong Damai",
+        "postal_code": "33411"
+    },
+    {
+        "code": 1902012003,
+        "district_code": 190201,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Buluh Tumbang",
+        "postal_code": "33411"
+    },
+    {
+        "code": 1902012004,
+        "district_code": 190201,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Perawas",
+        "postal_code": "33413"
+    },
+    {
+        "code": 1902012007,
+        "district_code": 190201,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Dukong",
+        "postal_code": "33411"
+    },
+    {
+        "code": 1902012008,
+        "district_code": 190201,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Juru Seberang",
+        "postal_code": "33417"
+    },
+    {
+        "code": 1902012010,
+        "district_code": 190201,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Air Saga",
+        "postal_code": "33415"
+    },
+    {
+        "code": 1902012012,
+        "district_code": 190201,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Air Merbau",
+        "postal_code": "33411"
+    },
+    {
+        "code": 1902012013,
+        "district_code": 190201,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Aik Pelempang Jaya",
+        "postal_code": "33414"
+    },
+    {
+        "code": 1902012014,
+        "district_code": 190201,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Aik Ketekok",
+        "postal_code": "33411"
+    },
+    {
+        "code": 1902012015,
+        "district_code": 190201,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Aik Rayak",
+        "postal_code": "33413"
+    },
+    {
+        "code": 1902022001,
+        "district_code": 190202,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Membalong",
+        "postal_code": "33452"
+    },
+    {
+        "code": 1902022002,
+        "district_code": 190202,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Perpat",
+        "postal_code": "33452"
+    },
+    {
+        "code": 1902022003,
+        "district_code": 190202,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Lassar",
+        "postal_code": "33452"
+    },
+    {
+        "code": 1902022004,
+        "district_code": 190202,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Simpang Rusa",
+        "postal_code": "33452"
+    },
+    {
+        "code": 1902022005,
+        "district_code": 190202,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Kembiri",
+        "postal_code": "33452"
+    },
+    {
+        "code": 1902022006,
+        "district_code": 190202,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Bantan",
+        "postal_code": "33452"
+    },
+    {
+        "code": 1902022007,
+        "district_code": 190202,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Tanjungrusa",
+        "postal_code": "33452"
+    },
+    {
+        "code": 1902022008,
+        "district_code": 190202,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Mentigi",
+        "postal_code": "33452"
+    },
+    {
+        "code": 1902022009,
+        "district_code": 190202,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Pulau Seliu",
+        "postal_code": "33452"
+    },
+    {
+        "code": 1902022010,
+        "district_code": 190202,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Pulau Sumedang",
+        "postal_code": "33452"
+    },
+    {
+        "code": 1902022011,
+        "district_code": 190202,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Gunung Riting",
+        "postal_code": "33452"
+    },
+    {
+        "code": 1902022012,
+        "district_code": 190202,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Padang Kandis",
+        "postal_code": "33452"
+    },
+    {
+        "code": 1902032001,
+        "district_code": 190203,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Selat Nasik",
+        "postal_code": "33481"
+    },
+    {
+        "code": 1902032002,
+        "district_code": 190203,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Petaling",
+        "postal_code": "33481"
+    },
+    {
+        "code": 1902032003,
+        "district_code": 190203,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Suak Gual",
+        "postal_code": "33481"
+    },
+    {
+        "code": 1902032004,
+        "district_code": 190203,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Pulau Gersik",
+        "postal_code": "33481"
+    },
+    {
+        "code": 1902042001,
+        "district_code": 190204,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Sijuk",
+        "postal_code": "33414"
+    },
+    {
+        "code": 1902042002,
+        "district_code": 190204,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Batu Itam",
+        "postal_code": "33414"
+    },
+    {
+        "code": 1902042003,
+        "district_code": 190204,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Terong",
+        "postal_code": "33414"
+    },
+    {
+        "code": 1902042004,
+        "district_code": 190204,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Air Seruk",
+        "postal_code": "33414"
+    },
+    {
+        "code": 1902042005,
+        "district_code": 190204,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Tanjung Binga",
+        "postal_code": "33414"
+    },
+    {
+        "code": 1902042006,
+        "district_code": 190204,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Air Selumar",
+        "postal_code": "33414"
+    },
+    {
+        "code": 1902042007,
+        "district_code": 190204,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Sungai Padang",
+        "postal_code": "33414"
+    },
+    {
+        "code": 1902042008,
+        "district_code": 190204,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Keciput",
+        "postal_code": "33414"
+    },
+    {
+        "code": 1902042009,
+        "district_code": 190204,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Pelepak Pute",
+        "postal_code": "33414"
+    },
+    {
+        "code": 1902042010,
+        "district_code": 190204,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Tanjong Tinggi",
+        "postal_code": "33414"
+    },
+    {
+        "code": 1902052001,
+        "district_code": 190205,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Badau",
+        "postal_code": "33451"
+    },
+    {
+        "code": 1902052002,
+        "district_code": 190205,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Air Batu Buding",
+        "postal_code": "33451"
+    },
+    {
+        "code": 1902052003,
+        "district_code": 190205,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Sungai Samak",
+        "postal_code": "33451"
+    },
+    {
+        "code": 1902052004,
+        "district_code": 190205,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Kacang Butor",
+        "postal_code": "33451"
+    },
+    {
+        "code": 1902052005,
+        "district_code": 190205,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Cerucuk",
+        "postal_code": "33451"
+    },
+    {
+        "code": 1902052006,
+        "district_code": 190205,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Pegantungan",
+        "postal_code": "33451"
+    },
+    {
+        "code": 1902052007,
+        "district_code": 190205,
+        "regency_code": 1902,
+        "province_code": 19,
+        "name": "Ibul",
+        "postal_code": "33451"
+    },
+    {
+        "code": 1903011001,
+        "district_code": 190301,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Toboali",
+        "postal_code": "33783"
+    },
+    {
+        "code": 1903011002,
+        "district_code": 190301,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Teladan",
+        "postal_code": "33783"
+    },
+    {
+        "code": 1903011003,
+        "district_code": 190301,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Tanjungketapang",
+        "postal_code": "33783"
+    },
+    {
+        "code": 1903012004,
+        "district_code": 190301,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Serdang",
+        "postal_code": "33783"
+    },
+    {
+        "code": 1903012005,
+        "district_code": 190301,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Jeriji",
+        "postal_code": "33783"
+    },
+    {
+        "code": 1903012006,
+        "district_code": 190301,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Bikang",
+        "postal_code": "33783"
+    },
+    {
+        "code": 1903012007,
+        "district_code": 190301,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Gadung",
+        "postal_code": "33783"
+    },
+    {
+        "code": 1903012008,
+        "district_code": 190301,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Rias",
+        "postal_code": "33783"
+    },
+    {
+        "code": 1903012010,
+        "district_code": 190301,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Kepoh",
+        "postal_code": "33783"
+    },
+    {
+        "code": 1903012012,
+        "district_code": 190301,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Keposang",
+        "postal_code": "33783"
+    },
+    {
+        "code": 1903012013,
+        "district_code": 190301,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Rindik",
+        "postal_code": "33783"
+    },
+    {
+        "code": 1903022001,
+        "district_code": 190302,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Tanjunglabu",
+        "postal_code": "33792"
+    },
+    {
+        "code": 1903022002,
+        "district_code": 190302,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Tanjungsangkar",
+        "postal_code": "33792"
+    },
+    {
+        "code": 1903022004,
+        "district_code": 190302,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Kumbung",
+        "postal_code": "33792"
+    },
+    {
+        "code": 1903022005,
+        "district_code": 190302,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Penutuk",
+        "postal_code": "33792"
+    },
+    {
+        "code": 1903032001,
+        "district_code": 190303,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Airgegas",
+        "postal_code": "33782"
+    },
+    {
+        "code": 1903032002,
+        "district_code": 190303,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Delas",
+        "postal_code": "33782"
+    },
+    {
+        "code": 1903032003,
+        "district_code": 190303,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Pergam",
+        "postal_code": "33782"
+    },
+    {
+        "code": 1903032004,
+        "district_code": 190303,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Bencah",
+        "postal_code": "33782"
+    },
+    {
+        "code": 1903032005,
+        "district_code": 190303,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Nyelanding",
+        "postal_code": "33782"
+    },
+    {
+        "code": 1903032006,
+        "district_code": 190303,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Nangka",
+        "postal_code": "33782"
+    },
+    {
+        "code": 1903032007,
+        "district_code": 190303,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Ranggas",
+        "postal_code": "33782"
+    },
+    {
+        "code": 1903032008,
+        "district_code": 190303,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Airbara",
+        "postal_code": "33782"
+    },
+    {
+        "code": 1903032009,
+        "district_code": 190303,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Sidoharjo",
+        "postal_code": "33782"
+    },
+    {
+        "code": 1903032010,
+        "district_code": 190303,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Tepus",
+        "postal_code": "33782"
+    },
+    {
+        "code": 1903042001,
+        "district_code": 190304,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Jelutung II",
+        "postal_code": "33777"
+    },
+    {
+        "code": 1903042002,
+        "district_code": 190304,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Gudang",
+        "postal_code": "33777"
+    },
+    {
+        "code": 1903042003,
+        "district_code": 190304,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Bangka Kota",
+        "postal_code": "33777"
+    },
+    {
+        "code": 1903042004,
+        "district_code": 190304,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Rajik",
+        "postal_code": "33777"
+    },
+    {
+        "code": 1903042005,
+        "district_code": 190304,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Sebagin",
+        "postal_code": "33777"
+    },
+    {
+        "code": 1903042006,
+        "district_code": 190304,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Simpang Rimba",
+        "postal_code": "33777"
+    },
+    {
+        "code": 1903042007,
+        "district_code": 190304,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Permis",
+        "postal_code": "33777"
+    },
+    {
+        "code": 1903052001,
+        "district_code": 190305,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Payung",
+        "postal_code": "33778"
+    },
+    {
+        "code": 1903052002,
+        "district_code": 190305,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Malik",
+        "postal_code": "33778"
+    },
+    {
+        "code": 1903052003,
+        "district_code": 190305,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Sengir",
+        "postal_code": "33778"
+    },
+    {
+        "code": 1903052004,
+        "district_code": 190305,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Pangkal Buluh",
+        "postal_code": "33778"
+    },
+    {
+        "code": 1903052005,
+        "district_code": 190305,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Irat",
+        "postal_code": "33778"
+    },
+    {
+        "code": 1903052006,
+        "district_code": 190305,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Bedengung",
+        "postal_code": "33778"
+    },
+    {
+        "code": 1903052008,
+        "district_code": 190305,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Nadung",
+        "postal_code": "33778"
+    },
+    {
+        "code": 1903052009,
+        "district_code": 190305,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Ranggung",
+        "postal_code": "33778"
+    },
+    {
+        "code": 1903052012,
+        "district_code": 190305,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Paku",
+        "postal_code": "33778"
+    },
+    {
+        "code": 1903062001,
+        "district_code": 190306,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Sadai",
+        "postal_code": "33784"
+    },
+    {
+        "code": 1903062002,
+        "district_code": 190306,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Tukak",
+        "postal_code": "33784"
+    },
+    {
+        "code": 1903062003,
+        "district_code": 190306,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Pasir Putih",
+        "postal_code": "33784"
+    },
+    {
+        "code": 1903062004,
+        "district_code": 190306,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Tiram",
+        "postal_code": "33784"
+    },
+    {
+        "code": 1903062005,
+        "district_code": 190306,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Bukit Terap",
+        "postal_code": "33784"
+    },
+    {
+        "code": 1903072001,
+        "district_code": 190307,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Batu Betumpang",
+        "postal_code": "33779"
+    },
+    {
+        "code": 1903072002,
+        "district_code": 190307,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Sukajaya",
+        "postal_code": "33779"
+    },
+    {
+        "code": 1903072003,
+        "district_code": 190307,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Panca Tunggal",
+        "postal_code": "33779"
+    },
+    {
+        "code": 1903072004,
+        "district_code": 190307,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Sumber Jaya Permai",
+        "postal_code": "33779"
+    },
+    {
+        "code": 1903072005,
+        "district_code": 190307,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Fajar Indah",
+        "postal_code": "33779"
+    },
+    {
+        "code": 1903082001,
+        "district_code": 190308,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Pongok",
+        "postal_code": "33791"
+    },
+    {
+        "code": 1903082002,
+        "district_code": 190308,
+        "regency_code": 1903,
+        "province_code": 19,
+        "name": "Celagen",
+        "postal_code": "33791"
+    },
+    {
+        "code": 1904011001,
+        "district_code": 190401,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Koba",
+        "postal_code": "33681"
+    },
+    {
+        "code": 1904011002,
+        "district_code": 190401,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Arung Dalam",
+        "postal_code": "33681"
+    },
+    {
+        "code": 1904011017,
+        "district_code": 190401,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Berok",
+        "postal_code": "33681"
+    },
+    {
+        "code": 1904011018,
+        "district_code": 190401,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Padang Mulia",
+        "postal_code": "33681"
+    },
+    {
+        "code": 1904011019,
+        "district_code": 190401,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Simpang Perlang",
+        "postal_code": "33681"
+    },
+    {
+        "code": 1904012003,
+        "district_code": 190401,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Nibung",
+        "postal_code": "33681"
+    },
+    {
+        "code": 1904012005,
+        "district_code": 190401,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Kurau (Timur)",
+        "postal_code": "33681"
+    },
+    {
+        "code": 1904012006,
+        "district_code": 190401,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Guntung",
+        "postal_code": "33681"
+    },
+    {
+        "code": 1904012007,
+        "district_code": 190401,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Penyak",
+        "postal_code": "33681"
+    },
+    {
+        "code": 1904012008,
+        "district_code": 190401,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Terentang III",
+        "postal_code": "33681"
+    },
+    {
+        "code": 1904012010,
+        "district_code": 190401,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Kurau Barat",
+        "postal_code": "33681"
+    },
+    {
+        "code": 1904021001,
+        "district_code": 190402,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Dul",
+        "postal_code": "33684"
+    },
+    {
+        "code": 1904022004,
+        "district_code": 190402,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Air Mesu",
+        "postal_code": "33684"
+    },
+    {
+        "code": 1904022006,
+        "district_code": 190402,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Mangkol",
+        "postal_code": "33684"
+    },
+    {
+        "code": 1904022007,
+        "district_code": 190402,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Tanjung Gunung",
+        "postal_code": "33684"
+    },
+    {
+        "code": 1904022010,
+        "district_code": 190402,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Benteng",
+        "postal_code": "33684"
+    },
+    {
+        "code": 1904022012,
+        "district_code": 190402,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Padang Baru",
+        "postal_code": "33684"
+    },
+    {
+        "code": 1904022013,
+        "district_code": 190402,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Jeruk",
+        "postal_code": "33684"
+    },
+    {
+        "code": 1904022014,
+        "district_code": 190402,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Beluluk",
+        "postal_code": "33684"
+    },
+    {
+        "code": 1904022016,
+        "district_code": 190402,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Pedindang",
+        "postal_code": "33684"
+    },
+    {
+        "code": 1904022018,
+        "district_code": 190402,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Batu Belubang",
+        "postal_code": "33684"
+    },
+    {
+        "code": 1904022020,
+        "district_code": 190402,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Air Mesu Timur",
+        "postal_code": "33684"
+    },
+    {
+        "code": 1904022021,
+        "district_code": 190402,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Kebintik",
+        "postal_code": "33684"
+    },
+    {
+        "code": 1904031001,
+        "district_code": 190403,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Sungai Selan",
+        "postal_code": "33675"
+    },
+    {
+        "code": 1904032002,
+        "district_code": 190403,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Kerantai",
+        "postal_code": "33675"
+    },
+    {
+        "code": 1904032003,
+        "district_code": 190403,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Keretak",
+        "postal_code": "33675"
+    },
+    {
+        "code": 1904032004,
+        "district_code": 190403,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Lampur",
+        "postal_code": "33675"
+    },
+    {
+        "code": 1904032005,
+        "district_code": 190403,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Sarang Mandi",
+        "postal_code": "33675"
+    },
+    {
+        "code": 1904032006,
+        "district_code": 190403,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Munggu",
+        "postal_code": "33675"
+    },
+    {
+        "code": 1904032007,
+        "district_code": 190403,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Kemingking",
+        "postal_code": "33675"
+    },
+    {
+        "code": 1904032008,
+        "district_code": 190403,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Sungai Selan Atas",
+        "postal_code": "33675"
+    },
+    {
+        "code": 1904032009,
+        "district_code": 190403,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Tanjung Pura",
+        "postal_code": "33675"
+    },
+    {
+        "code": 1904032010,
+        "district_code": 190403,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Romadhon",
+        "postal_code": "33675"
+    },
+    {
+        "code": 1904032011,
+        "district_code": 190403,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Kerakas",
+        "postal_code": "33675"
+    },
+    {
+        "code": 1904032012,
+        "district_code": 190403,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Melabun",
+        "postal_code": "33675"
+    },
+    {
+        "code": 1904032013,
+        "district_code": 190403,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Keretak Atas",
+        "postal_code": "33675"
+    },
+    {
+        "code": 1904042001,
+        "district_code": 190404,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Simpang Katis",
+        "postal_code": "33674"
+    },
+    {
+        "code": 1904042002,
+        "district_code": 190404,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Celuak",
+        "postal_code": "33674"
+    },
+    {
+        "code": 1904042003,
+        "district_code": 190404,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Sungkap",
+        "postal_code": "33674"
+    },
+    {
+        "code": 1904042004,
+        "district_code": 190404,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Beruas",
+        "postal_code": "33674"
+    },
+    {
+        "code": 1904042005,
+        "district_code": 190404,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Puput",
+        "postal_code": "33674"
+    },
+    {
+        "code": 1904042006,
+        "district_code": 190404,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Teru",
+        "postal_code": "33674"
+    },
+    {
+        "code": 1904042007,
+        "district_code": 190404,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Terak",
+        "postal_code": "33674"
+    },
+    {
+        "code": 1904042008,
+        "district_code": 190404,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Pasir Garam",
+        "postal_code": "33674"
+    },
+    {
+        "code": 1904042009,
+        "district_code": 190404,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Katis",
+        "postal_code": "33674"
+    },
+    {
+        "code": 1904042010,
+        "district_code": 190404,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Pinang Sebatang",
+        "postal_code": "33674"
+    },
+    {
+        "code": 1904052001,
+        "district_code": 190405,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Namang",
+        "postal_code": "33683"
+    },
+    {
+        "code": 1904052002,
+        "district_code": 190405,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Cambai",
+        "postal_code": "33683"
+    },
+    {
+        "code": 1904052003,
+        "district_code": 190405,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Kayu Besi",
+        "postal_code": "33683"
+    },
+    {
+        "code": 1904052004,
+        "district_code": 190405,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Jelutung",
+        "postal_code": "33683"
+    },
+    {
+        "code": 1904052005,
+        "district_code": 190405,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Belilik",
+        "postal_code": "33683"
+    },
+    {
+        "code": 1904052006,
+        "district_code": 190405,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Baskara Bakti",
+        "postal_code": "33683"
+    },
+    {
+        "code": 1904052008,
+        "district_code": 190405,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Bukit Kijang",
+        "postal_code": "33683"
+    },
+    {
+        "code": 1904052009,
+        "district_code": 190405,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Cambai Selatan",
+        "postal_code": "33683"
+    },
+    {
+        "code": 1904062001,
+        "district_code": 190406,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Perlang",
+        "postal_code": "33682"
+    },
+    {
+        "code": 1904062002,
+        "district_code": 190406,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Batu Beriga",
+        "postal_code": "33682"
+    },
+    {
+        "code": 1904062003,
+        "district_code": 190406,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Lubuk Besar",
+        "postal_code": "33682"
+    },
+    {
+        "code": 1904062004,
+        "district_code": 190406,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Kulur",
+        "postal_code": "33682"
+    },
+    {
+        "code": 1904062005,
+        "district_code": 190406,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Lubuk Lingkuk",
+        "postal_code": "33682"
+    },
+    {
+        "code": 1904062006,
+        "district_code": 190406,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Lubuk Pabrik",
+        "postal_code": "33682"
+    },
+    {
+        "code": 1904062007,
+        "district_code": 190406,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Trubus",
+        "postal_code": "33682"
+    },
+    {
+        "code": 1904062008,
+        "district_code": 190406,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Kulur Ilir",
+        "postal_code": "33682"
+    },
+    {
+        "code": 1904062009,
+        "district_code": 190406,
+        "regency_code": 1904,
+        "province_code": 19,
+        "name": "Belimbing",
+        "postal_code": "33682"
+    },
+    {
+        "code": 1905011001,
+        "district_code": 190501,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Tanjung",
+        "postal_code": "33311"
+    },
+    {
+        "code": 1905011002,
+        "district_code": 190501,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Sungai Daeng",
+        "postal_code": "33313"
+    },
+    {
+        "code": 1905011003,
+        "district_code": 190501,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Sungai Baru",
+        "postal_code": "33312"
+    },
+    {
+        "code": 1905011008,
+        "district_code": 190501,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Keranggan",
+        "postal_code": "33311"
+    },
+    {
+        "code": 1905011009,
+        "district_code": 190501,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Menjelang",
+        "postal_code": "33311"
+    },
+    {
+        "code": 1905012004,
+        "district_code": 190501,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Air Putih",
+        "postal_code": "33351"
+    },
+    {
+        "code": 1905012005,
+        "district_code": 190501,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Air Belo",
+        "postal_code": "33351"
+    },
+    {
+        "code": 1905012006,
+        "district_code": 190501,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Belo Laut",
+        "postal_code": "33351"
+    },
+    {
+        "code": 1905012007,
+        "district_code": 190501,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Air Limau",
+        "postal_code": "33351"
+    },
+    {
+        "code": 1905022001,
+        "district_code": 190502,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Pelangas",
+        "postal_code": "33366"
+    },
+    {
+        "code": 1905022002,
+        "district_code": 190502,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Kundi",
+        "postal_code": "33366"
+    },
+    {
+        "code": 1905022003,
+        "district_code": 190502,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Mayang",
+        "postal_code": "33366"
+    },
+    {
+        "code": 1905022004,
+        "district_code": 190502,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Peradong",
+        "postal_code": "33366"
+    },
+    {
+        "code": 1905022005,
+        "district_code": 190502,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Air Nyatoh",
+        "postal_code": "33366"
+    },
+    {
+        "code": 1905022006,
+        "district_code": 190502,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Berang",
+        "postal_code": "33366"
+    },
+    {
+        "code": 1905022007,
+        "district_code": 190502,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Rambat",
+        "postal_code": "33366"
+    },
+    {
+        "code": 1905022008,
+        "district_code": 190502,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Simpang Gong",
+        "postal_code": "33366"
+    },
+    {
+        "code": 1905022009,
+        "district_code": 190502,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Simpang Tiga",
+        "postal_code": "33366"
+    },
+    {
+        "code": 1905022010,
+        "district_code": 190502,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Ibul",
+        "postal_code": "33366"
+    },
+    {
+        "code": 1905022011,
+        "district_code": 190502,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Pangek",
+        "postal_code": "33366"
+    },
+    {
+        "code": 1905022012,
+        "district_code": 190502,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Bukit Terak",
+        "postal_code": "33366"
+    },
+    {
+        "code": 1905022013,
+        "district_code": 190502,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Air Menduyung",
+        "postal_code": "33366"
+    },
+    {
+        "code": 1905032001,
+        "district_code": 190503,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Jebus",
+        "postal_code": "33362"
+    },
+    {
+        "code": 1905032002,
+        "district_code": 190503,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Sungai Buluh",
+        "postal_code": "33362"
+    },
+    {
+        "code": 1905032003,
+        "district_code": 190503,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Tumbak Petar",
+        "postal_code": "33362"
+    },
+    {
+        "code": 1905032004,
+        "district_code": 190503,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Limbung",
+        "postal_code": "33362"
+    },
+    {
+        "code": 1905032005,
+        "district_code": 190503,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Rukam",
+        "postal_code": "33362"
+    },
+    {
+        "code": 1905032008,
+        "district_code": 190503,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Ranggi Asam",
+        "postal_code": "33362"
+    },
+    {
+        "code": 1905032009,
+        "district_code": 190503,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Ketap",
+        "postal_code": "33362"
+    },
+    {
+        "code": 1905032018,
+        "district_code": 190503,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Mislak",
+        "postal_code": "33362"
+    },
+    {
+        "code": 1905032019,
+        "district_code": 190503,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Pebuar",
+        "postal_code": "33362"
+    },
+    {
+        "code": 1905032020,
+        "district_code": 190503,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Sinar Manik",
+        "postal_code": "33362"
+    },
+    {
+        "code": 1905032021,
+        "district_code": 190503,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Air Kuang",
+        "postal_code": "33362"
+    },
+    {
+        "code": 1905041001,
+        "district_code": 190504,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Kelapa",
+        "postal_code": "33364"
+    },
+    {
+        "code": 1905042002,
+        "district_code": 190504,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Mancung",
+        "postal_code": "33364"
+    },
+    {
+        "code": 1905042003,
+        "district_code": 190504,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Kayu Arang",
+        "postal_code": "33364"
+    },
+    {
+        "code": 1905042004,
+        "district_code": 190504,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Pusuk",
+        "postal_code": "33364"
+    },
+    {
+        "code": 1905042005,
+        "district_code": 190504,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Dendang",
+        "postal_code": "33364"
+    },
+    {
+        "code": 1905042006,
+        "district_code": 190504,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Kacung",
+        "postal_code": "33364"
+    },
+    {
+        "code": 1905042007,
+        "district_code": 190504,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Sinar Sari",
+        "postal_code": "33364"
+    },
+    {
+        "code": 1905042008,
+        "district_code": 190504,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Beruas",
+        "postal_code": "33364"
+    },
+    {
+        "code": 1905042009,
+        "district_code": 190504,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Tebing",
+        "postal_code": "33364"
+    },
+    {
+        "code": 1905042010,
+        "district_code": 190504,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Terentang",
+        "postal_code": "33364"
+    },
+    {
+        "code": 1905042011,
+        "district_code": 190504,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Tuik",
+        "postal_code": "33364"
+    },
+    {
+        "code": 1905042012,
+        "district_code": 190504,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Tugang",
+        "postal_code": "33364"
+    },
+    {
+        "code": 1905042013,
+        "district_code": 190504,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Air Bulin",
+        "postal_code": "33364"
+    },
+    {
+        "code": 1905042014,
+        "district_code": 190504,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Pangkal Beras",
+        "postal_code": "33364"
+    },
+    {
+        "code": 1905052001,
+        "district_code": 190505,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Tempilang",
+        "postal_code": "33365"
+    },
+    {
+        "code": 1905052002,
+        "district_code": 190505,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Tanjung Niur",
+        "postal_code": "33365"
+    },
+    {
+        "code": 1905052003,
+        "district_code": 190505,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Sangku",
+        "postal_code": "33365"
+    },
+    {
+        "code": 1905052004,
+        "district_code": 190505,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Buyan Kelumbi",
+        "postal_code": "33365"
+    },
+    {
+        "code": 1905052005,
+        "district_code": 190505,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Penyampak",
+        "postal_code": "33365"
+    },
+    {
+        "code": 1905052006,
+        "district_code": 190505,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Benteng Kota",
+        "postal_code": "33365"
+    },
+    {
+        "code": 1905052007,
+        "district_code": 190505,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Air Lintang",
+        "postal_code": "33365"
+    },
+    {
+        "code": 1905052008,
+        "district_code": 190505,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Sinar Surya",
+        "postal_code": "33365"
+    },
+    {
+        "code": 1905052009,
+        "district_code": 190505,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Simpang Yul",
+        "postal_code": "33365"
+    },
+    {
+        "code": 1905062001,
+        "district_code": 190506,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Sekar Biru",
+        "postal_code": "33363"
+    },
+    {
+        "code": 1905062002,
+        "district_code": 190506,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Telak",
+        "postal_code": "33363"
+    },
+    {
+        "code": 1905062003,
+        "district_code": 190506,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Cupat",
+        "postal_code": "33363"
+    },
+    {
+        "code": 1905062004,
+        "district_code": 190506,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Bakit",
+        "postal_code": "33363"
+    },
+    {
+        "code": 1905062005,
+        "district_code": 190506,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Puput",
+        "postal_code": "33363"
+    },
+    {
+        "code": 1905062006,
+        "district_code": 190506,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Air Gantang",
+        "postal_code": "33363"
+    },
+    {
+        "code": 1905062007,
+        "district_code": 190506,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Kelabat",
+        "postal_code": "33363"
+    },
+    {
+        "code": 1905062008,
+        "district_code": 190506,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Kapit",
+        "postal_code": "33363"
+    },
+    {
+        "code": 1905062009,
+        "district_code": 190506,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Semulut",
+        "postal_code": "33363"
+    },
+    {
+        "code": 1905062010,
+        "district_code": 190506,
+        "regency_code": 1905,
+        "province_code": 19,
+        "name": "Teluk Limau",
+        "postal_code": "33363"
+    },
+    {
+        "code": 1906012001,
+        "district_code": 190601,
+        "regency_code": 1906,
+        "province_code": 19,
+        "name": "Lalang Jaya",
+        "postal_code": "33511"
+    },
+    {
+        "code": 1906012002,
+        "district_code": 190601,
+        "regency_code": 1906,
+        "province_code": 19,
+        "name": "Kurnia Jaya",
+        "postal_code": "33512"
+    },
+    {
+        "code": 1906012003,
+        "district_code": 190601,
+        "regency_code": 1906,
+        "province_code": 19,
+        "name": "Padang",
+        "postal_code": "33516"
+    },
+    {
+        "code": 1906012004,
+        "district_code": 190601,
+        "regency_code": 1906,
+        "province_code": 19,
+        "name": "Kelubi",
+        "postal_code": "33517"
+    },
+    {
+        "code": 1906012006,
+        "district_code": 190601,
+        "regency_code": 1906,
+        "province_code": 19,
+        "name": "Lalang",
+        "postal_code": "33511"
+    },
+    {
+        "code": 1906012007,
+        "district_code": 190601,
+        "regency_code": 1906,
+        "province_code": 19,
+        "name": "Baru",
+        "postal_code": "33512"
+    },
+    {
+        "code": 1906012010,
+        "district_code": 190601,
+        "regency_code": 1906,
+        "province_code": 19,
+        "name": "Buku Limau",
+        "postal_code": "33511"
+    },
+    {
+        "code": 1906012012,
+        "district_code": 190601,
+        "regency_code": 1906,
+        "province_code": 19,
+        "name": "Mekar Jaya",
+        "postal_code": "33517"
+    },
+    {
+        "code": 1906012013,
+        "district_code": 190601,
+        "regency_code": 1906,
+        "province_code": 19,
+        "name": "Bentaian Jaya",
+        "postal_code": "33517"
+    },
+    {
+        "code": 1906022001,
+        "district_code": 190602,
+        "regency_code": 1906,
+        "province_code": 19,
+        "name": "Gantung",
+        "postal_code": "33562"
+    },
+    {
+        "code": 1906022002,
+        "district_code": 190602,
+        "regency_code": 1906,
+        "province_code": 19,
+        "name": "Selingsing",
+        "postal_code": "33562"
+    },
+    {
+        "code": 1906022003,
+        "district_code": 190602,
+        "regency_code": 1906,
+        "province_code": 19,
+        "name": "Jangkar Asam",
+        "postal_code": "33562"
+    },
+    {
+        "code": 1906022004,
+        "district_code": 190602,
+        "regency_code": 1906,
+        "province_code": 19,
+        "name": "Lilangan",
+        "postal_code": "33562"
+    },
+    {
+        "code": 1906022009,
+        "district_code": 190602,
+        "regency_code": 1906,
+        "province_code": 19,
+        "name": "Lenggang",
+        "postal_code": "33562"
+    },
+    {
+        "code": 1906022010,
+        "district_code": 190602,
+        "regency_code": 1906,
+        "province_code": 19,
+        "name": "Batu Penyu",
+        "postal_code": "33562"
+    },
+    {
+        "code": 1906022011,
+        "district_code": 190602,
+        "regency_code": 1906,
+        "province_code": 19,
+        "name": "Limbongan",
+        "postal_code": "33562"
+    },
+    {
+        "code": 1906032001,
+        "district_code": 190603,
+        "regency_code": 1906,
+        "province_code": 19,
+        "name": "Dendang",
+        "postal_code": "33561"
+    },
+    {
+        "code": 1906032002,
+        "district_code": 190603,
+        "regency_code": 1906,
+        "province_code": 19,
+        "name": "Jangkang",
+        "postal_code": "33561"
+    },
+    {
+        "code": 1906032005,
+        "district_code": 190603,
+        "regency_code": 1906,
+        "province_code": 19,
+        "name": "Nyuruk",
+        "postal_code": "33561"
+    },
+    {
+        "code": 1906032008,
+        "district_code": 190603,
+        "regency_code": 1906,
+        "province_code": 19,
+        "name": "Balok",
+        "postal_code": "33561"
+    },
+    {
+        "code": 1906042001,
+        "district_code": 190604,
+        "regency_code": 1906,
+        "province_code": 19,
+        "name": "Mentawak",
+        "postal_code": "33572"
+    },
+    {
+        "code": 1906042002,
+        "district_code": 190604,
+        "regency_code": 1906,
+        "province_code": 19,
+        "name": "Senyubuk",
+        "postal_code": "33572"
+    },
+    {
+        "code": 1906042003,
+        "district_code": 190604,
+        "regency_code": 1906,
+        "province_code": 19,
+        "name": "Cendil",
+        "postal_code": "33572"
+    },
+    {
+        "code": 1906042005,
+        "district_code": 190604,
+        "regency_code": 1906,
+        "province_code": 19,
+        "name": "Buding",
+        "postal_code": "33572"
+    },
+    {
+        "code": 1906042006,
+        "district_code": 190604,
+        "regency_code": 1906,
+        "province_code": 19,
+        "name": "Mayang",
+        "postal_code": "33572"
+    },
+    {
+        "code": 1906042007,
+        "district_code": 190604,
+        "regency_code": 1906,
+        "province_code": 19,
+        "name": "Pembaharuan",
+        "postal_code": "33572"
+    },
+    {
+        "code": 1906052001,
+        "district_code": 190605,
+        "regency_code": 1906,
+        "province_code": 19,
+        "name": "Air Kelik",
+        "postal_code": "33571"
+    },
+    {
+        "code": 1906052002,
+        "district_code": 190605,
+        "regency_code": 1906,
+        "province_code": 19,
+        "name": "Mempaya",
+        "postal_code": "33515"
+    },
+    {
+        "code": 1906052003,
+        "district_code": 190605,
+        "regency_code": 1906,
+        "province_code": 19,
+        "name": "Burong Mandi",
+        "postal_code": "33571"
+    },
+    {
+        "code": 1906052004,
+        "district_code": 190605,
+        "regency_code": 1906,
+        "province_code": 19,
+        "name": "Mengkubang",
+        "postal_code": "33514"
+    },
+    {
+        "code": 1906052005,
+        "district_code": 190605,
+        "regency_code": 1906,
+        "province_code": 19,
+        "name": "Sukamandi",
+        "postal_code": "33513"
+    },
+    {
+        "code": 1906062001,
+        "district_code": 190606,
+        "regency_code": 1906,
+        "province_code": 19,
+        "name": "Simpang Tiga",
+        "postal_code": "33563"
+    },
+    {
+        "code": 1906062002,
+        "district_code": 190606,
+        "regency_code": 1906,
+        "province_code": 19,
+        "name": "Renggiang",
+        "postal_code": "33563"
+    },
+    {
+        "code": 1906062003,
+        "district_code": 190606,
+        "regency_code": 1906,
+        "province_code": 19,
+        "name": "Aik Madu",
+        "postal_code": "33563"
+    },
+    {
+        "code": 1906062004,
+        "district_code": 190606,
+        "regency_code": 1906,
+        "province_code": 19,
+        "name": "Lintang",
+        "postal_code": "33563"
+    },
+    {
+        "code": 1906072001,
+        "district_code": 190607,
+        "regency_code": 1906,
+        "province_code": 19,
+        "name": "Simpang Pesak",
+        "postal_code": "33560"
+    },
+    {
+        "code": 1906072002,
+        "district_code": 190607,
+        "regency_code": 1906,
+        "province_code": 19,
+        "name": "Tanjung Batu Itam",
+        "postal_code": "33560"
+    },
+    {
+        "code": 1906072003,
+        "district_code": 190607,
+        "regency_code": 1906,
+        "province_code": 19,
+        "name": "Tanjung Kelumpang",
+        "postal_code": "33560"
+    },
+    {
+        "code": 1906072004,
+        "district_code": 190607,
+        "regency_code": 1906,
+        "province_code": 19,
+        "name": "Dukong",
+        "postal_code": "33560"
+    },
+    {
+        "code": 1971011004,
+        "district_code": 197101,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Semabung Lama",
+        "postal_code": "33147"
+    },
+    {
+        "code": 1971011006,
+        "district_code": 197101,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Bacang",
+        "postal_code": "33148"
+    },
+    {
+        "code": 1971011007,
+        "district_code": 197101,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Air Itam",
+        "postal_code": "33149"
+    },
+    {
+        "code": 1971011008,
+        "district_code": 197101,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Pasir Putih",
+        "postal_code": "33147"
+    },
+    {
+        "code": 1971011009,
+        "district_code": 197101,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Temberan",
+        "postal_code": "33147"
+    },
+    {
+        "code": 1971011010,
+        "district_code": 197101,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Sinar Bulan",
+        "postal_code": "33147"
+    },
+    {
+        "code": 1971011011,
+        "district_code": 197101,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Air Mawar",
+        "postal_code": "33147"
+    },
+    {
+        "code": 1971021001,
+        "district_code": 197102,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Opas Indah",
+        "postal_code": "33121"
+    },
+    {
+        "code": 1971021002,
+        "district_code": 197102,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Gedung Nasional",
+        "postal_code": "33127"
+    },
+    {
+        "code": 1971021003,
+        "district_code": 197102,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Batin Tikal",
+        "postal_code": "33121"
+    },
+    {
+        "code": 1971021004,
+        "district_code": 197102,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Rawa Bangun",
+        "postal_code": "33121"
+    },
+    {
+        "code": 1971021005,
+        "district_code": 197102,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Kejaksaan",
+        "postal_code": "33123"
+    },
+    {
+        "code": 1971031004,
+        "district_code": 197103,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Pasir Garam",
+        "postal_code": "33115"
+    },
+    {
+        "code": 1971031005,
+        "district_code": 197103,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Lontong Pancur",
+        "postal_code": "33115"
+    },
+    {
+        "code": 1971031006,
+        "district_code": 197103,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Ketapang",
+        "postal_code": "33111"
+    },
+    {
+        "code": 1971031007,
+        "district_code": 197103,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Ampui",
+        "postal_code": "33113"
+    },
+    {
+        "code": 1971031008,
+        "district_code": 197103,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Rejo Sari",
+        "postal_code": "33111"
+    },
+    {
+        "code": 1971041001,
+        "district_code": 197104,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Pintu Air",
+        "postal_code": "33133"
+    },
+    {
+        "code": 1971041002,
+        "district_code": 197104,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Bintang",
+        "postal_code": "33138"
+    },
+    {
+        "code": 1971041005,
+        "district_code": 197104,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Masjid Jamik",
+        "postal_code": "33132"
+    },
+    {
+        "code": 1971041006,
+        "district_code": 197104,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Asam",
+        "postal_code": "33135"
+    },
+    {
+        "code": 1971041007,
+        "district_code": 197104,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Melintang",
+        "postal_code": "33136"
+    },
+    {
+        "code": 1971041008,
+        "district_code": 197104,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Parit Lalang",
+        "postal_code": "33137"
+    },
+    {
+        "code": 1971041009,
+        "district_code": 197104,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Keramat",
+        "postal_code": "33134"
+    },
+    {
+        "code": 1971041010,
+        "district_code": 197104,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Gajah Mada",
+        "postal_code": "33139"
+    },
+    {
+        "code": 1971051001,
+        "district_code": 197105,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Taman Bunga",
+        "postal_code": "33123"
+    },
+    {
+        "code": 1971051002,
+        "district_code": 197105,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Bukitmerapin",
+        "postal_code": "33123"
+    },
+    {
+        "code": 1971051004,
+        "district_code": 197105,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Bukitsari",
+        "postal_code": "33123"
+    },
+    {
+        "code": 1971051005,
+        "district_code": 197105,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Tua Tunu",
+        "postal_code": "33124"
+    },
+    {
+        "code": 1971051006,
+        "district_code": 197105,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Kacang Pedang",
+        "postal_code": "33125"
+    },
+    {
+        "code": 1971051007,
+        "district_code": 197105,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Air Kepala Tujuh",
+        "postal_code": "33123"
+    },
+    {
+        "code": 1971061001,
+        "district_code": 197106,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Selindung",
+        "postal_code": "33117"
+    },
+    {
+        "code": 1971061002,
+        "district_code": 197106,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Selindung Baru",
+        "postal_code": "33117"
+    },
+    {
+        "code": 1971061003,
+        "district_code": 197106,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Gabek Satu",
+        "postal_code": "33118"
+    },
+    {
+        "code": 1971061004,
+        "district_code": 197106,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Gabek Dua",
+        "postal_code": "33116"
+    },
+    {
+        "code": 1971061005,
+        "district_code": 197106,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Air Salemba",
+        "postal_code": "33111"
+    },
+    {
+        "code": 1971061006,
+        "district_code": 197106,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Jerambah Gantung",
+        "postal_code": "33119"
+    },
+    {
+        "code": 1971071001,
+        "district_code": 197107,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Pasar Padi",
+        "postal_code": "33142"
+    },
+    {
+        "code": 1971071002,
+        "district_code": 197107,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Bukitintan",
+        "postal_code": "33141"
+    },
+    {
+        "code": 1971071003,
+        "district_code": 197107,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Bukitbesar",
+        "postal_code": "33145"
+    },
+    {
+        "code": 1971071004,
+        "district_code": 197107,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Sriwijaya",
+        "postal_code": "33143"
+    },
+    {
+        "code": 1971071005,
+        "district_code": 197107,
+        "regency_code": 1971,
+        "province_code": 19,
+        "name": "Semabung Baru",
+        "postal_code": "33146"
+    }
+]

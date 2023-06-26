@@ -1,0 +1,219 @@
+code,regency_code,province_code,name
+920101,9201,92,Makbon
+920104,9201,92,Beraur
+920105,9201,92,Salawati
+920106,9201,92,Seget
+920107,9201,92,Aimas
+920108,9201,92,Klamono
+920110,9201,92,Sayosa
+920112,9201,92,Segun
+920113,9201,92,Mayamuk
+920114,9201,92,"Salawati Selatan"
+920117,9201,92,Klabot
+920118,9201,92,Klawak
+920120,9201,92,Maudus
+920139,9201,92,Mariat
+920140,9201,92,Klayili
+920141,9201,92,Klaso
+920142,9201,92,Moisegen
+920143,9201,92,Sorong
+920144,9201,92,Bagun
+920145,9201,92,Wemak
+920146,9201,92,Sunook
+920147,9201,92,Buk
+920148,9201,92,Saengkeduk
+920149,9201,92,Malabotom
+920150,9201,92,Konhir
+920151,9201,92,Klasafet
+920152,9201,92,Hobard
+920153,9201,92,"Salawati Tengah"
+920154,9201,92,Botain
+920155,9201,92,"Sayosa Timur"
+920203,9202,92,Warmare
+920204,9202,92,Prafi
+920205,9202,92,Masni
+920212,9202,92,"Manokwari Barat"
+920213,9202,92,"Manokwari Timur"
+920214,9202,92,"Manokwari Utara"
+920215,9202,92,"Manokwari Selatan"
+920217,9202,92,"Tanah Rubuh"
+920221,9202,92,Sidey
+920301,9203,92,Fak-Fak
+920302,9203,92,"Fak-Fak Barat"
+920303,9203,92,"Fak-Fak Timur"
+920304,9203,92,Kokas
+920305,9203,92,"Fak-Fak Tengah"
+920306,9203,92,Karas
+920307,9203,92,Bomberay
+920308,9203,92,Kramongmongga
+920309,9203,92,"Teluk Patipi"
+920310,9203,92,Pariwari
+920311,9203,92,Wartutin
+920312,9203,92,"Fakfak Timur Tengah"
+920313,9203,92,Arguni
+920314,9203,92,Mbahamdandara
+920315,9203,92,Kayauni
+920316,9203,92,Furwagi
+920317,9203,92,Tomage
+920401,9204,92,Teminabuan
+920404,9204,92,Inanwatan
+920406,9204,92,Sawiat
+920409,9204,92,Kokoda
+920410,9204,92,Moswaren
+920411,9204,92,Seremuk
+920412,9204,92,Wayer
+920414,9204,92,Kais
+920415,9204,92,Konda
+920420,9204,92,Matemani
+920421,9204,92,"Kokoda Utara"
+920422,9204,92,Saifi
+920424,9204,92,Fokour
+920425,9204,92,Salkma
+920426,9204,92,"Kais Darat"
+920501,9205,92,"Misool (Misool Utara)"
+920502,9205,92,"Waigeo Utara"
+920503,9205,92,"Waigeo Selatan"
+920504,9205,92,"Salawati Utara"
+920505,9205,92,"Kepulauan Ayau"
+920506,9205,92,"Misool Timur"
+920507,9205,92,"Waigeo Barat"
+920508,9205,92,"Waigeo Timur"
+920509,9205,92,"Teluk Mayalibit"
+920510,9205,92,Kofiau
+920511,9205,92,"Meos Mansar"
+920513,9205,92,"Misool Selatan"
+920514,9205,92,Warwarbomi
+920515,9205,92,"Waigeo Barat Kepulauan"
+920516,9205,92,"Misool Barat"
+920517,9205,92,"Kepulauan Sembilan"
+920518,9205,92,"Kota Waisai"
+920519,9205,92,"Tiplol Mayalibit"
+920520,9205,92,"Batanta Utara"
+920521,9205,92,"Salawati Barat"
+920522,9205,92,"Salawati Tengah"
+920523,9205,92,Supnin
+920524,9205,92,Ayau
+920525,9205,92,"Batanta Selatan"
+920601,9206,92,Bintuni
+920602,9206,92,Merdey
+920603,9206,92,Babo
+920604,9206,92,Aranday
+920605,9206,92,"Moskona Selatan"
+920606,9206,92,"Moskona Utara"
+920607,9206,92,Wamesa
+920608,9206,92,Fafurwar
+920609,9206,92,Tembuni
+920610,9206,92,Kuri
+920611,9206,92,Manimeri
+920612,9206,92,Tuhiba
+920613,9206,92,"Dataran Beimes"
+920614,9206,92,Sumuri
+920615,9206,92,Kaitaro
+920616,9206,92,Aroba
+920617,9206,92,Masyeta
+920618,9206,92,Biscoop
+920619,9206,92,Tomu
+920620,9206,92,Kamundan
+920621,9206,92,Weriagar
+920622,9206,92,"Moskona Barat"
+920623,9206,92,Meyado
+920624,9206,92,"Moskona Timur"
+920701,9207,92,Wasior
+920702,9207,92,Windesi
+920703,9207,92,"Teluk Duairi"
+920704,9207,92,Wondiboy
+920705,9207,92,Wamesa
+920706,9207,92,Rumberpon
+920707,9207,92,Naikere
+920708,9207,92,Rasiei
+920709,9207,92,"Kuri Wamesa"
+920710,9207,92,Roon
+920711,9207,92,Roswar
+920712,9207,92,Nikiwar
+920713,9207,92,"Soug Jaya"
+920801,9208,92,Kaimana
+920802,9208,92,Buruway
+920803,9208,92,"Teluk Arguni Atas"
+920804,9208,92,"Teluk Etna"
+920805,9208,92,Kambrau
+920806,9208,92,"Teluk Arguni Bawah"
+920807,9208,92,Yamor
+920901,9209,92,Fef
+920902,9209,92,Miyah
+920903,9209,92,Yembun
+920904,9209,92,Kwoor
+920905,9209,92,Sausapor
+920906,9209,92,Abun
+920907,9209,92,Syujak
+920908,9209,92,Moraid
+920909,9209,92,Kebar
+920910,9209,92,Amberbaken
+920911,9209,92,Senopi
+920912,9209,92,Mubrani
+920913,9209,92,Bikar
+920914,9209,92,Bamusbama
+920915,9209,92,Ases
+920916,9209,92,"Miyah Selatan"
+920917,9209,92,Ireres
+920918,9209,92,Tobouw
+920919,9209,92,"Wilhem Roumbouts"
+920920,9209,92,Tinggouw
+920921,9209,92,Kwesefo
+920922,9209,92,Mawabuan
+920923,9209,92,"Kebar Timur"
+920924,9209,92,"Kebar Selatan"
+920925,9209,92,Manekar
+920926,9209,92,Mpur
+920927,9209,92,"Amberbaken Barat"
+920928,9209,92,Kasi
+920929,9209,92,Selemkai
+921001,9210,92,Aifat
+921002,9210,92,"Aifat Utara"
+921003,9210,92,"Aifat Timur"
+921004,9210,92,"Aifat Selatan"
+921005,9210,92,"Aitinyo Barat"
+921006,9210,92,Aitinyo
+921007,9210,92,"Aitinyo Utara"
+921008,9210,92,Ayamaru
+921009,9210,92,"Ayamaru Utara"
+921010,9210,92,"Ayamaru Timur"
+921011,9210,92,Mare
+921012,9210,92,"Aifat Timur Tengah"
+921013,9210,92,"Aifat Timur Jauh"
+921014,9210,92,"Aifat Timur Selatan"
+921015,9210,92,"Ayamaru Selatan"
+921016,9210,92,"Ayamaru Jaya"
+921017,9210,92,"Ayamaru Selatan Jaya"
+921018,9210,92,"Ayamaru Timur Selatan"
+921019,9210,92,"Ayamaru Utara Timur"
+921020,9210,92,"Ayamaru Tengah"
+921021,9210,92,"Ayamaru Barat"
+921022,9210,92,"Aitinyo Tengah"
+921023,9210,92,"Aitinyo Raya"
+921024,9210,92,"Mare Selatan"
+921101,9211,92,Ransiki
+921102,9211,92,Oransbari
+921103,9211,92,Neney
+921104,9211,92,"Dataran Isim"
+921105,9211,92,"Momi Waren"
+921106,9211,92,Tahota
+921201,9212,92,Anggi
+921202,9212,92,"Anggi Gida"
+921203,9212,92,Membey
+921204,9212,92,Sururey
+921205,9212,92,Didohu
+921206,9212,92,Taige
+921207,9212,92,Catubouw
+921208,9212,92,Testega
+921209,9212,92,Minyambaouw
+921210,9212,92,Hingk
+927101,9271,92,Sorong
+927102,9271,92,"Sorong Timur"
+927103,9271,92,"Sorong Barat"
+927104,9271,92,"Sorong Kepulauan"
+927105,9271,92,"Sorong Utara"
+927106,9271,92,"Sorong Manoi"
+927107,9271,92,"Sorong Kota"
+927108,9271,92,Klaurung
+927109,9271,92,Malaimsimsa
+927110,9271,92,"Maladum Mes"
