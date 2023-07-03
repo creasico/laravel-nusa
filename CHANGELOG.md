@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.4](https://github.com/creasico/laravel-nusa/compare/v0.0.3...v0.0.4) (2023-07-03)
+
+
+### Features
+
+* add `addressable` config for the sake of customizable ([7951bba](https://github.com/creasico/laravel-nusa/commit/7951bbaddd1e97c90fdd5ba01e7fa649d5209b0f))
+
 ### [0.0.3](https://github.com/creasico/laravel-nusa/compare/v0.0.2...v0.0.3) (2023-07-03)
 
 
