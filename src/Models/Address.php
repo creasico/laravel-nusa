@@ -43,6 +43,14 @@ class Address extends EloquentModel implements AddressContract
     }
 
     /**
+     * @return \Illuminate\Database\Eloquent\Relations\MorphTo
+     */
+    public function owner()
+    {
+        return $this->morphTo();
+    }
+
+    /**
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo|Village
      */
     public function village()

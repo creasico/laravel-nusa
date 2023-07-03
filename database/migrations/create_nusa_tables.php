@@ -63,6 +63,7 @@ return new class extends Migration
 
         Schema::create('addresses', function (Blueprint $table) use ($tableNames) {
             $table->id();
+            $table->nullableMorphs('owner');
             $table->string('line');
             $table->char('village_code', 10)->nullable();
             $table->char('district_code', 6)->nullable();
@@ -74,6 +75,12 @@ return new class extends Migration
             $table->foreign('district_code')->references('code')->on($tableNames['districts'])->nullOnDelete();
             $table->foreign('regency_code')->references('code')->on($tableNames['regencies'])->nullOnDelete();
             $table->foreign('province_code')->references('code')->on($tableNames['provinces'])->nullOnDelete();
+
+            $table->timestamps();
+        });
+
+        Schema::create('has_addresses', function (Blueprint $table) {
+            $table->id();
         });
     }
 
@@ -84,6 +91,7 @@ return new class extends Migration
     {
         $tableNames = config('creasi.nusa.table_names');
 
+        Schema::dropIfExists('has_addresses');
         Schema::dropIfExists('address');
         Schema::dropIfExists($tableNames['villages']);
         Schema::dropIfExists($tableNames['districts']);

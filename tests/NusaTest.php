@@ -32,11 +32,17 @@ class NusaTest extends TestCase
 
         $address->save();
 
+        $addressOwner = new HasAddress();
+
+        $addressOwner->save();
+
+        $address->owner()->associate($addressOwner);
+
         $address->province()->associate($village->province);
         $address->regency()->associate($village->regency);
         $address->district()->associate($village->district);
         $address->village()->associate($village);
 
-        $this->assertTrue(true);
+        $this->assertCount(1, $addressOwner->addresses);
     }
 }

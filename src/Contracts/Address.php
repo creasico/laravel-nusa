@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Creasi\Nusa\Contracts;
 
 /**
+ * @property-read int $id
  * @property string $line
  * @property ?int $village_code
  * @property ?int $district_code
