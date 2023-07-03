@@ -17,8 +17,6 @@ use Illuminate\Database\Eloquent\Model as EloquentModel;
  */
 class Address extends EloquentModel implements AddressContract
 {
-    public $timestamps = false;
-
     public function getCasts()
     {
         return \array_merge($this->casts, [

@@ -1,5 +1,7 @@
 <?php
 
+use Creasi\Nusa\Models\Address;
+
 return [
     /**
      * Single Source Data Connection.
@@ -12,4 +14,6 @@ return [
         'regencies' => 'regencies',
         'villages' => 'villages',
     ],
+
+    'addressable' => Address::class
 ];
