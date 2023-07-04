@@ -9,6 +9,7 @@ use Creasi\Nusa\Models\Village;
 use Creasi\Tests\Models\ProvinceTest;
 use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Support\Collection;
+use PHPUnit\Framework\Attributes\Depends;
 use PHPUnit\Framework\Attributes\DependsExternal;
 use PHPUnit\Framework\Attributes\Test;
 
@@ -32,17 +33,37 @@ class NusaTest extends TestCase
 
         $address->save();
 
-        $addressOwner = new HasAddress();
+        $address->associateWith($village);
 
-        $addressOwner->save();
+        $this->assertSame($village->province, $address->province);
+        $this->assertNull($address->owner);
 
-        $address->owner()->associate($addressOwner);
+        return $address->fresh();
+    }
 
-        $address->province()->associate($village->province);
-        $address->regency()->associate($village->regency);
-        $address->district()->associate($village->district);
-        $address->village()->associate($village);
+    #[Test]
+    #[Depends('it_may_accociate_with_address')]
+    public function may_has_many_addresses(Address $address)
+    {
+        $owner = new HasManyAddresses();
 
-        $this->assertCount(1, $addressOwner->addresses);
+        $owner->save();
+
+        $owner->addresses()->save($address);
+
+        $this->assertCount(1, $owner->addresses);
+    }
+
+    #[Test]
+    #[Depends('it_may_accociate_with_address')]
+    public function may_has_one_address(Address $address)
+    {
+        $owner = new HasOneAddress();
+
+        $owner->save();
+
+        $owner->address()->save($address);
+
+        $this->assertInstanceOf(Address::class, $owner->address);
     }
 }

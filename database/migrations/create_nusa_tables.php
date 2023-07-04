@@ -79,7 +79,11 @@ return new class extends Migration
             $table->timestamps();
         });
 
-        Schema::create('has_addresses', function (Blueprint $table) {
+        Schema::create('has_one_addresses', function (Blueprint $table) {
+            $table->id();
+        });
+
+        Schema::create('has_many_addresses', function (Blueprint $table) {
             $table->id();
         });
     }
@@ -91,7 +95,8 @@ return new class extends Migration
     {
         $tableNames = config('creasi.nusa.table_names');
 
-        Schema::dropIfExists('has_addresses');
+        Schema::dropIfExists('has_many_addresses');
+        Schema::dropIfExists('has_one_addresses');
         Schema::dropIfExists('address');
         Schema::dropIfExists($tableNames['villages']);
         Schema::dropIfExists($tableNames['districts']);

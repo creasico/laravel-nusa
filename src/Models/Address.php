@@ -8,6 +8,7 @@ use Creasi\Nusa\Contracts\Address as AddressContract;
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 
 /**
+ * @property-read ?EloquentModel $owner
  * @property-read ?Province $province
  * @property-read ?Regency $regency
  * @property-read ?District $district
@@ -38,6 +39,35 @@ class Address extends EloquentModel implements AddressContract
             'province_code',
             'postal_code',
         ]);
+    }
+
+    public function associateWith(
+        Village $village,
+        ?District $district = null,
+        ?Regency $regency = null,
+        ?Province $province = null,
+    ) {
+        $this->village()->associate($village);
+
+        if (! $district) {
+            $district = $village->district;
+        }
+
+        $this->district()->associate($district);
+
+        if (! $regency) {
+            $regency = $village->regency;
+        }
+
+        $this->regency()->associate($regency);
+
+        if (! $province) {
+            $province = $village->province;
+        }
+
+        $this->province()->associate($province);
+
+        return $this->fresh();
     }
 
     /**
