@@ -6,6 +6,11 @@ use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration
 {
+    public function getConnection()
+    {
+        return \config('creasi.nusa.connection');
+    }
+
     /**
      * Run the migrations.
      */
@@ -60,32 +65,6 @@ return new class extends Migration
             $table->foreign('regency_code')->references('code')->on($tableNames['regencies']);
             $table->foreign('province_code')->references('code')->on($tableNames['provinces']);
         });
-
-        Schema::create('addresses', function (Blueprint $table) use ($tableNames) {
-            $table->id();
-            $table->nullableMorphs('owner');
-            $table->string('line');
-            $table->char('village_code', 10)->nullable();
-            $table->char('district_code', 6)->nullable();
-            $table->char('regency_code', 4)->nullable();
-            $table->char('province_code', 2)->nullable();
-            $table->char('postal_code', 5)->nullable();
-
-            $table->foreign('village_code')->references('code')->on($tableNames['villages'])->nullOnDelete();
-            $table->foreign('district_code')->references('code')->on($tableNames['districts'])->nullOnDelete();
-            $table->foreign('regency_code')->references('code')->on($tableNames['regencies'])->nullOnDelete();
-            $table->foreign('province_code')->references('code')->on($tableNames['provinces'])->nullOnDelete();
-
-            $table->timestamps();
-        });
-
-        Schema::create('has_one_addresses', function (Blueprint $table) {
-            $table->id();
-        });
-
-        Schema::create('has_many_addresses', function (Blueprint $table) {
-            $table->id();
-        });
     }
 
     /**
@@ -95,9 +74,6 @@ return new class extends Migration
     {
         $tableNames = config('creasi.nusa.table_names');
 
-        Schema::dropIfExists('has_many_addresses');
-        Schema::dropIfExists('has_one_addresses');
-        Schema::dropIfExists('address');
         Schema::dropIfExists($tableNames['villages']);
         Schema::dropIfExists($tableNames['districts']);
         Schema::dropIfExists($tableNames['regencies']);

@@ -84,7 +84,10 @@ class SyncCommand extends Command
 
         $this->call('migrate:fresh', [
             '--realpath' => true,
-            '--path' => $this->libPath.'/database/migrations/create_nusa_tables.php',
+            '--path' => [
+                $this->libPath.'/database/migrations/create_nusa_tables.php',
+                $this->libPath.'/database/migrations/create_testing_tables.php',
+            ],
         ]);
     }
 }

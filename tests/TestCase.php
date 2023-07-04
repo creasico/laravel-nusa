@@ -27,7 +27,13 @@ class TestCase extends Orchestra
         $app->useEnvironmentPath(\dirname(__DIR__));
 
         tap($app->make('config'), function (Repository $config) {
-            $config->set('database.default', $config->get('creasi.nusa.connection'));
+            $config->set('database.default', 'testing');
+
+            $config->set('database.connections.testing', [
+                'driver' => 'sqlite',
+                'database' => __DIR__.'/nusa.sqlite',
+                'foreign_key_constraints' => true,
+            ]);
         });
     }
 }
