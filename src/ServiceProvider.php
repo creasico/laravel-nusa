@@ -38,8 +38,8 @@ class ServiceProvider extends IlluminateServiceProvider
     protected function registerPublishables()
     {
         $this->publishes([
-            self::LIB_PATH.'/config/nusa.php' => \config_path('nusa.php'),
-        ], 'nusa-config');
+            self::LIB_PATH.'/config/nusa.php' => \config_path('creasi/nusa.php'),
+        ], ['creasi-config', 'creasi-nusa-config']);
 
         // $this->loadMigrationsFrom(self::LIB_PATH.'/database/migrations');
     }
