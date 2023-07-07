@@ -53,7 +53,7 @@ By default, `nusa` will add another `database.connections` config to your projec
 1. Publish `nusa`'s config by running the following commands
 
    ```sh
-   ./artisan vendor:publish --tag nusa-config
+   ./artisan vendor:publish --tag creasi-nusa-config
    ```
 
 2. Add new `database.connections` with key of your `creasi.nusa.connection`, say you have
