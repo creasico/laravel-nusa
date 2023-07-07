@@ -1,14 +1,12 @@
 # Test Report Files
 # --------------------------
 *.local.php
+*.sqlite
 codeclimate.*.json
 codeclimate.json
 coverage
-coverage.txt
+reports
 coveralls.*.json
 coveralls.json
-clover.xml
 lcov.*.info
 lcov.info
-*.sqlite
-report.junit.xml

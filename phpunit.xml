@@ -7,12 +7,12 @@
   </testsuites>
   <coverage>
     <report>
-      <clover outputFile="tests/clover.xml"/>
+      <clover outputFile="tests/reports/clover.xml"/>
       <html outputDirectory="tests/coverage"/>
     </report>
   </coverage>
   <logging>
-    <junit outputFile="tests/report.junit.xml"/>
+    <junit outputFile="tests/reports/junit.xml"/>
   </logging>
   <source>
     <include>

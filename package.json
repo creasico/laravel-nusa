@@ -1,7 +1,7 @@
 {
     "version": "0.0.5",
     "private": true,
-    "packageManager": "pnpm@7.21.0",
+    "packageManager": "pnpm@8.5.0",
     "author": "Creasi Developers <developers@creasi.co>",
     "repository": "github:creasico/laravel-nusa",
     "scripts": {
@@ -9,8 +9,8 @@
         "release": "standard-version -s"
     },
     "devDependencies": {
-        "@commitlint/cli": "^17.5.1",
-        "@commitlint/config-conventional": "^17.4.4",
+        "@commitlint/cli": "^17.6.6",
+        "@commitlint/config-conventional": "^17.6.6",
         "husky": "^8.0.3",
         "standard-version": "^9.5.0"
     },
