@@ -30,16 +30,16 @@ class TestCase extends Orchestra
             $config->set('app.locale', 'id');
             $config->set('app.faker_locale', 'id_ID');
 
-            if (! env('DB_CONNECTION')) {
-                $config->set('database.default', 'testing');
+            if (env('DB_CONNECTION', 'sqlite')) {
+                $config->set('database.default', 'sqlite');
 
-                $database = __DIR__.'/nusa.sqlite';
+                $database = __DIR__.'/test.sqlite';
 
                 if (! file_exists($database)) {
                     touch($database);
                 }
 
-                $config->set('database.connections.testing', [
+                $config->set('database.connections.sqlite', [
                     'driver' => 'sqlite',
                     'database' => $database,
                     'foreign_key_constraints' => true,

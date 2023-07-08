@@ -10,9 +10,8 @@ on:
 env:
   CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
   CC_TEST_REPORTER_URL: ${{ vars.CC_TEST_REPORTER_URL }}
-  DB_NAME: nusantara
-  DB_USER: creasico
-  DB_PASS: secret
+  DB_USERNAME: creasico
+  DB_PASSWORD: secret
   # GIT_COMMIT_SHA: ${{ github.sha }}
   # GIT_BRANCH: ${{ github.ref }}
 
@@ -24,6 +23,8 @@ jobs:
   prepare:
     name: Prepare Database
     runs-on: ubuntu-latest
+    env:
+      DB_DATABASE: nusantara
 
     strategy:
       fail-fast: false
@@ -34,10 +35,10 @@ jobs:
       mysql:
         image: mysql:8.0
         env:
-          MYSQL_ROOT_PASSWORD: ${{ env.DB_PASS }}
-          MYSQL_DATABASE: ${{ env.DB_NAME }}
-          MYSQL_USER: ${{ env.DB_USER }}
-          MYSQL_PASSWORD: ${{ env.DB_PASS }}
+          MYSQL_ROOT_PASSWORD: ${{ env.DB_PASSWORD }}
+          MYSQL_DATABASE: ${{ env.DB_DATABASE }}
+          MYSQL_USER: ${{ env.DB_USERNAME }}
+          MYSQL_PASSWORD: ${{ env.DB_PASSWORD }}
         options: >-
           --health-cmd="mysqladmin ping"
           --health-interval=10s
@@ -91,8 +92,6 @@ jobs:
     env:
       DB_CONNECTION: ${{ matrix.db }}
       DB_DATABASE: 'creasico'
-      DB_USERNAME: 'creasico'
-      DB_PASSWORD: 'secret'
 
     services:
       postgresql:
@@ -136,11 +135,6 @@ jobs:
           ini-values: error_reporting=E_ALL
           tools: composer:v2
           coverage: xdebug
-
-      - name: Prepare environment variables
-        id: prepare-env
-        run: |
-          if [[ "$DB_CONNECTION" == 'sqlite' ]]; then echo "DB_DATABASE=$PWD/tests/base.sqlite"; fi >> $GITHUB_ENV
 
       - name: Get Composer cache directory
         id: composer-cache
