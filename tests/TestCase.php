@@ -27,13 +27,24 @@ class TestCase extends Orchestra
         $app->useEnvironmentPath(\dirname(__DIR__));
 
         tap($app->make('config'), function (Repository $config) {
-            $config->set('database.default', 'testing');
+            $config->set('app.locale', 'id');
+            $config->set('app.faker_locale', 'id_ID');
 
-            $config->set('database.connections.testing', [
-                'driver' => 'sqlite',
-                'database' => __DIR__.'/nusa.sqlite',
-                'foreign_key_constraints' => true,
-            ]);
+            if (! env('DB_CONNECTION')) {
+                $config->set('database.default', 'testing');
+
+                $database = __DIR__.'/nusa.sqlite';
+
+                if (! file_exists($database)) {
+                    touch($database);
+                }
+
+                $config->set('database.connections.testing', [
+                    'driver' => 'sqlite',
+                    'database' => $database,
+                    'foreign_key_constraints' => true,
+                ]);
+            }
         });
     }
 }
