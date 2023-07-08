@@ -8,9 +8,13 @@ on:
     paths: ['.github/**.yml', 'src/*', 'tests/*']
 
 env:
+  CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
+  CC_TEST_REPORTER_URL: ${{ vars.CC_TEST_REPORTER_URL }}
   DB_NAME: nusantara
   DB_USER: creasico
   DB_PASS: secret
+  # GIT_COMMIT_SHA: ${{ github.sha }}
+  # GIT_BRANCH: ${{ github.ref }}
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -61,14 +65,14 @@ jobs:
         run: echo "dir=$(composer config cache-files-dir)" >> $GITHUB_OUTPUT
 
       - name: Cache Composer dependencies
-        uses: actions/cache@v1
+        uses: actions/cache@v3
         with:
           path: ${{ steps.composer-cache.outputs.dir }}
           key: ${{ runner.os }}-${{ matrix.php }}-composer-${{ hashFiles('**/composer.lock') }}
           restore-keys: ${{ runner.os }}-${{ matrix.php }}-composer-
 
       - name: Install dependencies
-        uses: nick-invision/retry@v1
+        uses: nick-invision/retry@v2
         with:
           timeout_minutes: 5
           max_attempts: 3
@@ -80,18 +84,46 @@ jobs:
       - name: Run tests
         run: composer test
 
-  test:
+  tests:
     name: Test with PHP ${{ matrix.php }}
     needs: prepare
     runs-on: ubuntu-latest
     env:
-      GIT_COMMIT_SHA: ${{ github.sha }}
-      GIT_BRANCH: ${{ github.ref }}
+      DB_CONNECTION: ${{ matrix.db }}
+      DB_DATABASE: 'creasico'
+      DB_USERNAME: 'creasico'
+      DB_PASSWORD: 'secret'
+
+    services:
+      postgresql:
+        image: postgres:14
+        env:
+          POSTGRES_DB: ${{ env.DB_DATABASE }}
+          POSTGRES_USER: ${{ env.DB_USERNAME }}
+          POSTGRES_PASSWORD: ${{ env.DB_PASSWORD }}
+        ports:
+          - 5432:5432
+        options: --health-cmd=pg_isready --health-interval=10s --health-timeout=5s --health-retries=3
+      mysql:
+        image: mysql:8.0
+        env:
+          MYSQL_ROOT_PASSWORD: ${{ env.DB_PASSWORD }}
+          MYSQL_DATABASE: ${{ env.DB_DATABASE }}
+          MYSQL_USER: ${{ env.DB_USERNAME }}
+          MYSQL_PASSWORD: ${{ env.DB_PASSWORD }}
+        options: >-
+          --health-cmd="mysqladmin ping"
+          --health-interval=10s
+          --health-timeout=5s
+          --health-retries=3
+        ports:
+          - 3306:3306
 
     strategy:
       fail-fast: false
       matrix:
         php: ['8.1', '8.2']
+        db: ['mysql', 'pgsql', 'sqlite']
 
     steps:
       - name: Checkout
@@ -105,21 +137,24 @@ jobs:
           tools: composer:v2
           coverage: xdebug
 
+      - name: Prepare environment variables
+        id: prepare-env
+        run: |
+          if [[ "$DB_CONNECTION" == 'sqlite' ]]; then echo "DB_DATABASE=$PWD/tests/base.sqlite"; fi >> $GITHUB_ENV
+
       - name: Get Composer cache directory
         id: composer-cache
-        run: |
-          echo "GIT_BRANCH=$(echo ${GIT_BRANCH##*/} | tr / -)" >> $GITHUB_ENV
-          echo "dir=$(composer config cache-files-dir)" >> $GITHUB_OUTPUT
+        run: echo "dir=$(composer config cache-files-dir)" >> $GITHUB_OUTPUT
 
       - name: Cache Composer dependencies
-        uses: actions/cache@v1
+        uses: actions/cache@v3
         with:
           path: ${{ steps.composer-cache.outputs.dir }}
           key: ${{ runner.os }}-${{ matrix.php }}-composer-${{ hashFiles('**/composer.lock') }}
           restore-keys: ${{ runner.os }}-${{ matrix.php }}-composer-
 
       - name: Install dependencies
-        uses: nick-invision/retry@v1
+        uses: nick-invision/retry@v2
         with:
           timeout_minutes: 5
           max_attempts: 3
@@ -127,3 +162,37 @@ jobs:
 
       - name: Run tests
         run: composer test
+
+      - name: Generate reports for CodeClimate
+        env:
+          COVERAGE_FILE: tests/reports/clover.xml
+          CODECLIMATE_REPORT: ${{ github.workspace }}/tests/reports/codeclimate.${{ matrix.php }}.json
+        run: |
+          curl -LSs $CC_TEST_REPORTER_URL > ./cc-test-reporter && chmod +x ./cc-test-reporter
+          ./cc-test-reporter format-coverage -t clover -o $CODECLIMATE_REPORT $COVERAGE_FILE
+
+      - name: Upload tests reports
+        uses: actions/upload-artifact@v3
+        with:
+          name: test-reports
+          path: |
+            tests/coverage
+            tests/reports
+
+  reports:
+    name: Report Test Coverages
+    needs: tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download test reports
+        uses: actions/download-artifact@v3
+        with:
+          name: test-reports
+          path: tests
+
+      - name: Report to CodeClimate
+        run: |
+          curl -LSs $CC_TEST_REPORTER_URL > ./cc-test-reporter && chmod +x ./cc-test-reporter
+          ./cc-test-reporter sum-coverage -o - tests/reports/codeclimate.*.json | ./cc-test-reporter upload-coverage --input -
+
