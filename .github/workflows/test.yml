@@ -85,7 +85,7 @@ jobs:
         run: composer test
 
   tests:
-    name: Test with PHP ${{ matrix.php }}
+    name: Test on PHP ${{ matrix.php }} with DB ${{ matrix.db }}
     needs: prepare
     runs-on: ubuntu-latest
     env:
