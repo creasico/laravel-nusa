@@ -12,6 +12,7 @@ use Creasi\Nusa\Contracts\Village;
 use Creasi\Tests\NusaTest;
 use Creasi\Tests\TestCase;
 use Illuminate\Support\Collection;
+use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Depends;
 use PHPUnit\Framework\Attributes\DependsExternal;
 use PHPUnit\Framework\Attributes\Group;
@@ -21,6 +22,23 @@ use PHPUnit\Framework\Attributes\Test;
 #[Group('provinces')]
 class ProvinceTest extends TestCase
 {
+    public static function searchProvider()
+    {
+        return [
+            'by code' => [33],
+            'by name' => ['Jawa Tengah'],
+        ];
+    }
+
+    #[Test]
+    #[DataProvider('searchProvider')]
+    public function it_should_be_able_to_search(string|int $keyword)
+    {
+        $province = Province::search($keyword)->first();
+
+        $this->assertNotNull($province);
+    }
+
     #[Test]
     public function it_should_be_true()
     {

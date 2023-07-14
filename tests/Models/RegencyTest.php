@@ -11,6 +11,7 @@ use Creasi\Nusa\Models\Regency;
 use Creasi\Nusa\Contracts\Village;
 use Creasi\Tests\TestCase;
 use Illuminate\Support\Collection;
+use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Depends;
 use PHPUnit\Framework\Attributes\DependsExternal;
 use PHPUnit\Framework\Attributes\Group;
@@ -20,6 +21,23 @@ use PHPUnit\Framework\Attributes\Test;
 #[Group('regencies')]
 class RegencyTest extends TestCase
 {
+    public static function searchProvider()
+    {
+        return [
+            'by code' => [3375],
+            'by name' => ['Pekalongan'],
+        ];
+    }
+
+    #[Test]
+    #[DataProvider('searchProvider')]
+    public function it_should_be_able_to_search(string|int $keyword)
+    {
+        $province = Regency::search($keyword)->first();
+
+        $this->assertNotNull($province);
+    }
+
     /**
      * @param Collection<int, Regency> $regencies
      * @return Collection<int, Regency>
