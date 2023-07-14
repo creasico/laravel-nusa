@@ -42,7 +42,21 @@ That's all
 
 ## Usage
 
-**SOON**
+### Models
+
+Every models comes with similar interfaces, which mean every model has `code` and `name` field in it, you can also use `search()` scope methode to query model either by `code` or `name`. e.g:
+
+```php
+use Creasi\Nusa\Models\Province;
+
+$province = Province::search(33)->first();
+
+// or
+
+$province = Province::search('Jawa Tengah')->first();
+```
+
+### Databases
 
 The database structure docucmentation please consult to [`database/README.md`](https://github.com/creasico/laravel-nusa/blob/main/database/README.md).
 

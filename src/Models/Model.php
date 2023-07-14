@@ -10,6 +10,8 @@ use Illuminate\Database\Eloquent\Model as EloquentModel;
 
 /**
  * @method static static search(string|int $keyword)
+ * @method Builder whereCode(int $code)
+ * @method Builder whereName(string $name)
  *
  * @mixin \Illuminate\Contracts\Database\Eloquent\Builder
  */
