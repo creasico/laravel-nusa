@@ -6,12 +6,8 @@ namespace Creasi\Nusa\Console;
 
 use Creasi\Nusa\Models\District;
 use Creasi\Nusa\Models\Province;
-use Creasi\Nusa\Models\Regency;
 use Creasi\Nusa\Models\Village;
-use Creasi\Nusa\Normalizer;
 use Illuminate\Console\Command;
-use Illuminate\Support\Collection;
-use PDO;
 
 class SyncCommand extends Command
 {

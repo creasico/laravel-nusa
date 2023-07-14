@@ -21,7 +21,7 @@ use PHPUnit\Framework\Attributes\Test;
 class VillageTest extends TestCase
 {
     /**
-     * @param Collection<int, Village> $villages
+     * @param  Collection<int, Village>  $villages
      * @return Collection<int, Village>
      */
     #[Test]
@@ -39,7 +39,7 @@ class VillageTest extends TestCase
     }
 
     /**
-     * @param Collection<int, Village> $villages
+     * @param  Collection<int, Village>  $villages
      */
     #[Test]
     #[Depends('it_should_has_many_villages')]
@@ -51,7 +51,7 @@ class VillageTest extends TestCase
     }
 
     /**
-     * @param Collection<int, Village> $villages
+     * @param  Collection<int, Village>  $villages
      */
     #[Test]
     #[Depends('it_should_has_many_villages')]
@@ -63,7 +63,7 @@ class VillageTest extends TestCase
     }
 
     /**
-     * @param Collection<int, Village> $villages
+     * @param  Collection<int, Village>  $villages
      */
     #[Test]
     #[Depends('it_should_has_many_villages')]

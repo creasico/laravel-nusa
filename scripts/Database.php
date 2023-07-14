@@ -54,7 +54,7 @@ class Database
             $self->query($postalSql);
         }
 
-        $stmt = $self->query(<<<SQL
+        $stmt = $self->query(<<<'SQL'
             SELECT
                 w.kode, w.nama,
                 p.kodepos,

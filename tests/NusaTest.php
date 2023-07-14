@@ -18,7 +18,7 @@ class NusaTest extends TestCase
     use WithFaker;
 
     /**
-     * @param Collection<int, Village> $villages
+     * @param  Collection<int, Village>  $villages
      * @return Collection<int, Village>
      */
     #[Test]

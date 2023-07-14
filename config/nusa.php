@@ -15,5 +15,5 @@ return [
         'villages' => 'villages',
     ],
 
-    'addressable' => Address::class
+    'addressable' => Address::class,
 ];

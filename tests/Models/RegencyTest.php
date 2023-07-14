@@ -7,8 +7,8 @@ namespace Creasi\Tests\Models;
 use Creasi\Nusa\Contracts\District;
 use Creasi\Nusa\Contracts\Province;
 use Creasi\Nusa\Contracts\Regency as RegencyContract;
-use Creasi\Nusa\Models\Regency;
 use Creasi\Nusa\Contracts\Village;
+use Creasi\Nusa\Models\Regency;
 use Creasi\Tests\TestCase;
 use Illuminate\Support\Collection;
 use PHPUnit\Framework\Attributes\DataProvider;
@@ -39,7 +39,7 @@ class RegencyTest extends TestCase
     }
 
     /**
-     * @param Collection<int, Regency> $regencies
+     * @param  Collection<int, Regency>  $regencies
      * @return Collection<int, Regency>
      */
     #[Test]
@@ -59,7 +59,7 @@ class RegencyTest extends TestCase
     }
 
     /**
-     * @param Collection<int, Regency> $regencies
+     * @param  Collection<int, Regency>  $regencies
      */
     #[Test]
     #[Depends('it_should_has_many_regencies')]
@@ -71,7 +71,7 @@ class RegencyTest extends TestCase
     }
 
     /**
-     * @param Collection<int, Regency> $regencies
+     * @param  Collection<int, Regency>  $regencies
      */
     #[Test]
     #[Depends('it_should_has_many_regencies')]
@@ -83,7 +83,7 @@ class RegencyTest extends TestCase
     }
 
     /**
-     * @param Collection<int, Regency> $regencies
+     * @param  Collection<int, Regency>  $regencies
      */
     #[Test]
     #[Depends('it_should_has_many_regencies')]

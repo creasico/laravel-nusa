@@ -6,15 +6,13 @@ namespace Creasi\Tests\Models;
 
 use Creasi\Nusa\Contracts\District;
 use Creasi\Nusa\Contracts\Province as ProvinceContract;
-use Creasi\Nusa\Models\Province;
 use Creasi\Nusa\Contracts\Regency;
 use Creasi\Nusa\Contracts\Village;
-use Creasi\Tests\NusaTest;
+use Creasi\Nusa\Models\Province;
 use Creasi\Tests\TestCase;
 use Illuminate\Support\Collection;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Depends;
-use PHPUnit\Framework\Attributes\DependsExternal;
 use PHPUnit\Framework\Attributes\Group;
 use PHPUnit\Framework\Attributes\Test;
 
@@ -71,7 +69,7 @@ class ProvinceTest extends TestCase
     }
 
     /**
-     * @param Collection<int, Province> $provinces
+     * @param  Collection<int, Province>  $provinces
      */
     #[Test]
     #[Depends('it_should_be_true')]
@@ -89,7 +87,7 @@ class ProvinceTest extends TestCase
     }
 
     /**
-     * @param Collection<int, Province> $provinces
+     * @param  Collection<int, Province>  $provinces
      */
     #[Test]
     #[Depends('it_should_be_true')]
@@ -107,7 +105,7 @@ class ProvinceTest extends TestCase
     }
 
     /**
-     * @param Collection<int, Province> $provinces
+     * @param  Collection<int, Province>  $provinces
      */
     #[Test]
     #[Depends('it_should_be_true')]

@@ -5,10 +5,10 @@ declare(strict_types=1);
 namespace Creasi\Tests\Models;
 
 use Creasi\Nusa\Contracts\District as DistrictContract;
-use Creasi\Nusa\Models\District;
 use Creasi\Nusa\Contracts\Province;
 use Creasi\Nusa\Contracts\Regency;
 use Creasi\Nusa\Contracts\Village;
+use Creasi\Nusa\Models\District;
 use Creasi\Tests\TestCase;
 use Illuminate\Support\Collection;
 use PHPUnit\Framework\Attributes\Depends;
@@ -21,7 +21,7 @@ use PHPUnit\Framework\Attributes\Test;
 class DistrictTest extends TestCase
 {
     /**
-     * @param Collection<int, District> $districts
+     * @param  Collection<int, District>  $districts
      * @return Collection<int, District>
      */
     #[Test]
@@ -38,7 +38,7 @@ class DistrictTest extends TestCase
     }
 
     /**
-     * @param Collection<int, District> $districts
+     * @param  Collection<int, District>  $districts
      */
     #[Test]
     #[Depends('it_should_has_many_districts')]
@@ -50,7 +50,7 @@ class DistrictTest extends TestCase
     }
 
     /**
-     * @param Collection<int, District> $districts
+     * @param  Collection<int, District>  $districts
      */
     #[Test]
     #[Depends('it_should_has_many_districts')]
@@ -62,7 +62,7 @@ class DistrictTest extends TestCase
     }
 
     /**
-     * @param Collection<int, District> $districts
+     * @param  Collection<int, District>  $districts
      */
     #[Test]
     #[Depends('it_should_has_many_districts')]
