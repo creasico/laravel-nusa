@@ -47,6 +47,10 @@ abstract class Model extends EloquentModel implements ModelContract
             return $query->where('code', $keyword);
         }
 
-        return $query->where('name', $keyword);
+        return $query->whereRaw(match ($this->getConnection()->getDriverName()) {
+            'pgsql' => 'name ilike ?',
+            'mysql' => 'lower(name) like lower(?)',
+            'sqlite' => 'name like ? COLLATE NOCASE',
+        }, "%{$keyword}%");
     }
 }
