@@ -20,7 +20,7 @@ return new class extends Migration
 
         Schema::create($tableNames['provinces'], function (Blueprint $table) {
             $table->char('code', 2)->primary();
-            $table->string('name');
+            $table->string('name', 50)->index();
             $table->double('latitude')->nullable();
             $table->double('longitude')->nullable();
             $table->longText('coordinates')->nullable();
@@ -29,7 +29,7 @@ return new class extends Migration
         Schema::create($tableNames['regencies'], function (Blueprint $table) use ($tableNames) {
             $table->char('code', 4)->primary();
             $table->char('province_code', 2);
-            $table->string('name');
+            $table->string('name', 50)->index();
             $table->double('latitude')->nullable();
             $table->double('longitude')->nullable();
             $table->longText('coordinates')->nullable();
@@ -41,7 +41,7 @@ return new class extends Migration
             $table->char('code', 6)->primary();
             $table->char('regency_code', 4);
             $table->char('province_code', 2);
-            $table->string('name');
+            $table->string('name', 50)->index();
             $table->double('latitude')->nullable();
             $table->double('longitude')->nullable();
             $table->longText('coordinates')->nullable();
@@ -55,7 +55,7 @@ return new class extends Migration
             $table->char('district_code', 6);
             $table->char('regency_code', 4);
             $table->char('province_code', 2);
-            $table->string('name');
+            $table->string('name', 50)->index();
             $table->char('postal_code', 5)->nullable();
             $table->double('latitude')->nullable();
             $table->double('longitude')->nullable();
