@@ -5,7 +5,7 @@ on:
     branches: [main]
   push:
     branches: [main]
-    paths: ['.github/**.yml', 'src/*', 'tests/*']
+    # paths: ['.github/**.yml', 'src/*', 'tests/*']
 
 env:
   CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
