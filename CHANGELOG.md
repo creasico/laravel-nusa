@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.6](https://github.com/creasico/laravel-nusa/compare/v0.0.5...v0.0.6) (2023-07-14)
+
+
+### Features
+
+* **db:** indexing every `name` fields on every tables ([40270fe](https://github.com/creasico/laravel-nusa/commit/40270fed9a2b8ed28d17b9f5aadcc8578fc88c1c))
+* initialize codeclimate integrations ([9d4070b](https://github.com/creasico/laravel-nusa/commit/9d4070b6ce8437fb920248cf83bb2508b70a4ee9))
+* **model:** add ability to `search` by `code` or `name` on each models ([ad8656d](https://github.com/creasico/laravel-nusa/commit/ad8656d643f0130d3f0804d930d299da5f36a33b))
+
 ### [0.0.5](https://github.com/creasico/laravel-nusa/compare/v0.0.4...v0.0.5) (2023-07-07)
 
 
