@@ -8,16 +8,17 @@ use Creasi\Nusa\Contracts\Address as AddressContract;
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 
 /**
- * @property-read ?EloquentModel $owner
- * @property-read ?Province $province
- * @property-read ?Regency $regency
- * @property-read ?District $district
- * @property-read ?Village $village
+ * @property-read null|EloquentModel $owner
  *
  * @mixin \Illuminate\Contracts\Database\Eloquent\Builder
  */
 class Address extends EloquentModel implements AddressContract
 {
+    use Concerns\BelongsToDistrict;
+    use Concerns\BelongsToProvince;
+    use Concerns\BelongsToRegency;
+    use Concerns\BelongsToVillage;
+
     public function getCasts()
     {
         return \array_merge($this->casts, [
@@ -76,37 +77,5 @@ class Address extends EloquentModel implements AddressContract
     public function owner()
     {
         return $this->morphTo();
-    }
-
-    /**
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo|Village
-     */
-    public function village()
-    {
-        return $this->belongsTo(Village::class);
-    }
-
-    /**
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo|District
-     */
-    public function district()
-    {
-        return $this->belongsTo(District::class);
-    }
-
-    /**
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo|Regency
-     */
-    public function regency()
-    {
-        return $this->belongsTo(Regency::class);
-    }
-
-    /**
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo|Province
-     */
-    public function province()
-    {
-        return $this->belongsTo(Province::class);
     }
 }
