@@ -14,14 +14,17 @@
         "source": "https://github.com/creasico/laravel-nusa"
     },
     "scripts": {
+        "db:import": [
+            "Creasi\\Scripts\\Database::import"
+        ],
         "fix": [
             "pint --preset laravel"
         ],
         "test": [
-            "vendor/bin/phpunit --colors=always --coverage-text"
+            "testbench package:test --coverage"
         ],
-        "db:import": [
-            "Creasi\\Scripts\\Database::import"
+        "testbench": [
+            "testbench"
         ]
     },
     "autoload": {
@@ -38,16 +41,13 @@
     "require": {
         "php": "^8.1",
         "ext-sqlite3": "*",
-        "illuminate/contracts": "^10.0",
-        "illuminate/database": "^10.0",
-        "illuminate/support": "^10.0"
+        "laravel/framework": "^9.0|^10.0"
     },
     "require-dev": {
         "composer-runtime-api": "*",
         "laravel/pint": "^1.1",
-        "mockery/mockery": "^1.5",
-        "orchestra/testbench": "^8.5",
-        "phpunit/phpunit": "^10.1"
+        "nunomaduro/collision": "^7.4",
+        "orchestra/testbench": "^8.5"
     },
     "config": {
         "preferred-install": "dist",
