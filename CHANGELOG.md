@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.1.0](https://github.com/creasico/laravel-nusa/compare/v0.0.6...v0.1.0) (2023-07-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* get rid of unnecessary interface
+* rename address classnames
+
+### Features
+
+* add more model traits to helps extendability of address ([6a118c2](https://github.com/creasico/laravel-nusa/commit/6a118c20f6b322b9444e8da8b215fb601bcbe6b8))
+
+
+### Bug Fixes
+
+* **tests:** fix creasico/laravel-package[#47](https://github.com/creasico/laravel-nusa/issues/47) ([534b903](https://github.com/creasico/laravel-nusa/commit/534b903cb325abbabf508ad6f79ba17e5ac67626)), closes [creasico/laravel-package#48](https://github.com/creasico/laravel-package/issues/48)
+
+
+* get rid of unnecessary interface ([323a7bc](https://github.com/creasico/laravel-nusa/commit/323a7bc1648b9323333dfcced15e124e3705c1f6))
+* rename address classnames ([c549f97](https://github.com/creasico/laravel-nusa/commit/c549f971e67acbbfb7f0c49675f27bcea501695f))
+
 ### [0.0.6](https://github.com/creasico/laravel-nusa/compare/v0.0.5...v0.0.6) (2023-07-14)
 
 
