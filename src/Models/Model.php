@@ -4,18 +4,23 @@ declare(strict_types=1);
 
 namespace Creasi\Nusa\Models;
 
-use Creasi\Nusa\Contracts\Model as ModelContract;
 use Illuminate\Contracts\Database\Query\Builder;
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 
 /**
+ * @property-read int $code
+ * @property-read string $name
+ * @property-read null|float $latitude
+ * @property-read null|float $longitude
+ * @property-read null|array $coordinates
+ *
  * @method static static search(string|int $keyword)
  * @method Builder whereCode(int $code)
  * @method Builder whereName(string $name)
  *
  * @mixin \Illuminate\Contracts\Database\Eloquent\Builder
  */
-abstract class Model extends EloquentModel implements ModelContract
+abstract class Model extends EloquentModel
 {
     public $incrementing = false;
 

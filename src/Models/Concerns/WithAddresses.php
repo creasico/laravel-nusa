@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Creasi\Nusa\Support;
+namespace Creasi\Nusa\Models\Concerns;
 
 /**
- * @mixin \Illuminate\Database\Eloquent\Model
+ * @mixin \Creasi\Nusa\Contracts\HasAddresses
  */
-trait HasAddresses
+trait WithAddresses
 {
     /**
      * @return \Illuminate\Database\Eloquent\Relations\MorphMany|\Creasi\Nusa\Contracts\Address
