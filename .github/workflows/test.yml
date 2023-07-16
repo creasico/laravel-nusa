@@ -169,9 +169,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: test-reports
-          path: |
-            tests/coverage
-            tests/reports
+          path: tests/reports
 
   reports:
     name: Report Test Coverages
@@ -183,10 +181,9 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: test-reports
-          path: tests
 
       - name: Report to CodeClimate
         run: |
           curl -LSs $CC_TEST_REPORTER_URL > ./cc-test-reporter && chmod +x ./cc-test-reporter
-          ./cc-test-reporter sum-coverage -o - tests/reports/codeclimate.*.json | ./cc-test-reporter upload-coverage --input -
+          ./cc-test-reporter sum-coverage -o - codeclimate.*.json | ./cc-test-reporter upload-coverage --input -
 
