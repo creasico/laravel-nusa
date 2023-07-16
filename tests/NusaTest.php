@@ -6,6 +6,8 @@ namespace Creasi\Tests;
 
 use Creasi\Nusa\Models\Address;
 use Creasi\Nusa\Models\Village;
+use Creasi\Tests\Fixtures\HasManyAddresses;
+use Creasi\Tests\Fixtures\HasOneAddress;
 use Creasi\Tests\Models\ProvinceTest;
 use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Support\Collection;
