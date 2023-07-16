@@ -7,15 +7,11 @@ namespace Creasi\Nusa\Contracts;
 /**
  * @property-read int $id
  * @property string $line
- * @property ?int $village_code
- * @property ?int $district_code
- * @property ?int $regency_code
- * @property ?int $province_code
- * @property ?int $postal_code
- * @property-read ?Village $village
- * @property-read ?District $district
- * @property-read ?Regency $regency
- * @property-read ?Province $province
+ * @property null|int $village_code
+ * @property null|int $district_code
+ * @property null|int $regency_code
+ * @property null|int $province_code
+ * @property null|int $postal_code
  */
 interface Address
 {
