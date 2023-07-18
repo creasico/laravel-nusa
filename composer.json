@@ -21,7 +21,7 @@
             "pint --preset laravel"
         ],
         "test": [
-            "testbench package:test --coverage"
+            "testbench package:test --coverage --ansi"
         ],
         "testbench": [
             "testbench"
