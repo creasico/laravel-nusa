@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Creasi\Nusa\Models;
 
 use Creasi\Nusa\Contracts\Regency as RegencyContract;
+use Creasi\Nusa\Models\Concerns\WithProvince;
 
 /**
  * @property-read Province $province
@@ -13,23 +14,15 @@ use Creasi\Nusa\Contracts\Regency as RegencyContract;
  */
 class Regency extends Model implements RegencyContract
 {
-    protected $fillable = ['province_code'];
+    use WithProvince;
 
-    protected $casts = [
-        'province_code' => 'int',
-    ];
+    protected $fillable = [];
+
+    protected $casts = [];
 
     public function getTable()
     {
         return config('creasi.nusa.table_names.regencies', parent::getTable());
-    }
-
-    /**
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo|Province
-     */
-    public function province()
-    {
-        return $this->belongsTo(Province::class);
     }
 
     /**

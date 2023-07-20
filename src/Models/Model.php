@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace Creasi\Nusa\Models;
 
+use Creasi\Nusa\Contracts\HasCoordinate;
+use Creasi\Nusa\Models\Concerns\WithCoordinate;
 use Illuminate\Contracts\Database\Query\Builder;
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 
 /**
  * @property-read int $code
  * @property-read string $name
- * @property-read null|float $latitude
- * @property-read null|float $longitude
  * @property-read null|array $coordinates
  *
  * @method static static search(string|int $keyword)
@@ -20,8 +20,10 @@ use Illuminate\Database\Eloquent\Model as EloquentModel;
  *
  * @mixin \Illuminate\Contracts\Database\Eloquent\Builder
  */
-abstract class Model extends EloquentModel
+abstract class Model extends EloquentModel implements HasCoordinate
 {
+    use WithCoordinate;
+
     public $incrementing = false;
 
     public $timestamps = false;
@@ -37,15 +39,13 @@ abstract class Model extends EloquentModel
     {
         return \array_merge($this->casts, [
             'code' => 'int',
-            'latitude' => 'float',
-            'longitude' => 'float',
             'coordinates' => 'array',
         ]);
     }
 
     public function getFillable()
     {
-        return \array_merge($this->fillable, ['code', 'name', 'latitude', 'longitude', 'coordinates']);
+        return \array_merge($this->fillable, ['code', 'name', 'coordinates']);
     }
 
     public function scopeSearch(Builder $query, string|int $keyword)

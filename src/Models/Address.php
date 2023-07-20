@@ -5,27 +5,30 @@ declare(strict_types=1);
 namespace Creasi\Nusa\Models;
 
 use Creasi\Nusa\Contracts\Address as AddressContract;
+use Creasi\Nusa\Contracts\District;
+use Creasi\Nusa\Contracts\Province;
+use Creasi\Nusa\Contracts\Regency;
+use Creasi\Nusa\Contracts\Village;
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 
 /**
- * @property-read null|EloquentModel $owner
+ * @property-read null|Province $province
+ * @property-read null|Regency $regency
+ * @property-read null|District $district
+ * @property-read null|Village $village
  *
  * @mixin \Illuminate\Contracts\Database\Eloquent\Builder
  */
 class Address extends EloquentModel implements AddressContract
 {
-    use Concerns\BelongsToDistrict;
-    use Concerns\BelongsToProvince;
-    use Concerns\BelongsToRegency;
-    use Concerns\BelongsToVillage;
+    use Concerns\WithDistrict;
+    use Concerns\WithProvince;
+    use Concerns\WithRegency;
+    use Concerns\WithVillage;
 
     public function getCasts()
     {
         return \array_merge($this->casts, [
-            'village_code' => 'int',
-            'district_code' => 'int',
-            'regency_code' => 'int',
-            'province_code' => 'int',
             'postal_code' => 'int',
         ]);
     }
@@ -34,19 +37,15 @@ class Address extends EloquentModel implements AddressContract
     {
         return \array_merge($this->fillable, [
             'line',
-            'village_code',
-            'district_code',
-            'regency_code',
-            'province_code',
             'postal_code',
         ]);
     }
 
     public function associateWith(
         Village $village,
-        ?District $district = null,
-        ?Regency $regency = null,
-        ?Province $province = null,
+        District $district = null,
+        Regency $regency = null,
+        Province $province = null,
     ) {
         $this->village()->associate($village);
 
@@ -74,8 +73,8 @@ class Address extends EloquentModel implements AddressContract
     /**
      * @return \Illuminate\Database\Eloquent\Relations\MorphTo
      */
-    public function owner()
+    public function addressable()
     {
-        return $this->morphTo();
+        return $this->morphTo('addressable');
     }
 }

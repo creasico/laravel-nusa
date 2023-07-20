@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Creasi\Tests;
 
+use Creasi\Nusa\Contracts\Address as AddressContract;
 use Creasi\Nusa\Models\Address;
 use Creasi\Nusa\Models\Village;
 use Creasi\Tests\Fixtures\HasManyAddresses;
@@ -15,7 +16,7 @@ use PHPUnit\Framework\Attributes\Depends;
 use PHPUnit\Framework\Attributes\DependsExternal;
 use PHPUnit\Framework\Attributes\Test;
 
-class NusaTest extends TestCase
+class ServiceProviderTest extends TestCase
 {
     use WithFaker;
 
@@ -29,16 +30,14 @@ class NusaTest extends TestCase
     {
         $village = $villages->random()->first();
 
-        $address = new Address([
+        $address = $this->app->make(AddressContract::class)->create([
             'line' => $this->faker->streetAddress(),
         ]);
-
-        $address->save();
 
         $address->associateWith($village);
 
         $this->assertSame($village->province, $address->province);
-        $this->assertNull($address->owner);
+        $this->assertNull($address->addressable);
 
         return $address->fresh();
     }
@@ -47,25 +46,25 @@ class NusaTest extends TestCase
     #[Depends('it_may_accociate_with_address')]
     public function may_has_many_addresses(Address $address)
     {
-        $owner = new HasManyAddresses();
+        $addressable = new HasManyAddresses();
 
-        $owner->save();
+        $addressable->save();
 
-        $owner->addresses()->save($address);
+        $addressable->addresses()->save($address);
 
-        $this->assertCount(1, $owner->addresses);
+        $this->assertCount(1, $addressable->addresses);
     }
 
     #[Test]
     #[Depends('it_may_accociate_with_address')]
     public function may_has_one_address(Address $address)
     {
-        $owner = new HasOneAddress();
+        $addressable = new HasOneAddress();
 
-        $owner->save();
+        $addressable->save();
 
-        $owner->address()->save($address);
+        $addressable->address()->save($address);
 
-        $this->assertInstanceOf(Address::class, $owner->address);
+        $this->assertInstanceOf(AddressContract::class, $addressable->address);
     }
 }

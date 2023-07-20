@@ -21,7 +21,7 @@ trait WithCoordinate
 
         $this->mergeFillable([
             'latitude',
-            'longitude'
+            'longitude',
         ]);
     }
 }

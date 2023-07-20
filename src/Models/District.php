@@ -5,6 +5,8 @@ declare(strict_types=1);
 namespace Creasi\Nusa\Models;
 
 use Creasi\Nusa\Contracts\District as DistrictContract;
+use Creasi\Nusa\Models\Concerns\WithProvince;
+use Creasi\Nusa\Models\Concerns\WithRegency;
 
 /**
  * @property-read Province $province
@@ -13,32 +15,16 @@ use Creasi\Nusa\Contracts\District as DistrictContract;
  */
 class District extends Model implements DistrictContract
 {
-    protected $fillable = ['regency_code', 'province_code'];
+    use WithRegency;
+    use WithProvince;
 
-    protected $casts = [
-        'regency_code' => 'int',
-        'province_code' => 'int',
-    ];
+    protected $fillable = [];
+
+    protected $casts = [];
 
     public function getTable()
     {
         return config('creasi.nusa.table_names.districts', parent::getTable());
-    }
-
-    /**
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo|Province
-     */
-    public function province()
-    {
-        return $this->belongsTo(Province::class);
-    }
-
-    /**
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo|Regency
-     */
-    public function regency()
-    {
-        return $this->belongsTo(Regency::class);
     }
 
     /**
