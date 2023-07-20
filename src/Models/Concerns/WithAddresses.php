@@ -14,6 +14,6 @@ trait WithAddresses
      */
     public function addresses()
     {
-        return $this->morphMany(\config('creasi.nusa.addressable'), 'owner');
+        return $this->morphMany(\config('creasi.nusa.addressable'), 'addressable');
     }
 }

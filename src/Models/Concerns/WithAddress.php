@@ -14,6 +14,6 @@ trait WithAddress
      */
     public function address()
     {
-        return $this->morphOne(\config('creasi.nusa.addressable'), 'owner');
+        return $this->morphOne(\config('creasi.nusa.addressable'), 'addressable');
     }
 }
