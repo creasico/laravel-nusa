@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.1](https://github.com/creasico/laravel-nusa/compare/v0.1.0...v0.1.1) (2023-07-20)
+
+
+### Features
+
+* add new interface and trait to helps models with coordinate info ([be46731](https://github.com/creasico/laravel-nusa/commit/be4673139b214198241efc4baf80144cdea9b8ae))
+* **deps:** utilize `package:test` command from `orchestra/testbench` to run the tests ([1da613f](https://github.com/creasico/laravel-nusa/commit/1da613f3b0421f438c2dea77884ee8015c0e8587))
+* register `Province`, `Regency`, `District` and `Village` interface as container ([ba01162](https://github.com/creasico/laravel-nusa/commit/ba011628d90e51284ddc65458678eef0706349cd))
+
 ## [0.1.0](https://github.com/creasico/laravel-nusa/compare/v0.0.6...v0.1.0) (2023-07-16)
 
 
