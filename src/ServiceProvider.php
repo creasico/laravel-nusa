@@ -33,6 +33,8 @@ class ServiceProvider extends IlluminateServiceProvider
         if (! app()->configurationIsCached()) {
             $this->mergeConfigFrom(self::LIB_PATH.'/config/nusa.php', 'creasi.nusa');
         }
+
+        $this->registerBindings();
     }
 
     protected function registerPublishables()
@@ -40,8 +42,31 @@ class ServiceProvider extends IlluminateServiceProvider
         $this->publishes([
             self::LIB_PATH.'/config/nusa.php' => \config_path('creasi/nusa.php'),
         ], ['creasi-config', 'creasi-nusa-config']);
+    }
 
-        // $this->loadMigrationsFrom(self::LIB_PATH.'/database/migrations');
+    protected function registerBindings()
+    {
+        $this->app->bind(Contracts\Address::class, function ($app) {
+            $addressable = config('creasi.nusa.addressable');
+
+            return $app->make($addressable);
+        });
+
+        $this->app->bind(Contracts\Province::class, function ($app) {
+            return $app->make(Models\Province::class);
+        });
+
+        $this->app->bind(Contracts\Regency::class, function ($app) {
+            return $app->make(Models\Regency::class);
+        });
+
+        $this->app->bind(Contracts\District::class, function ($app) {
+            return $app->make(Models\District::class);
+        });
+
+        $this->app->bind(Contracts\Village::class, function ($app) {
+            return $app->make(Models\Village::class);
+        });
     }
 
     protected function registerCommands()
@@ -49,5 +74,16 @@ class ServiceProvider extends IlluminateServiceProvider
         $this->commands([
             SyncCommand::class,
         ]);
+    }
+
+    public function provides()
+    {
+        return [
+            Contracts\Address::class,
+            Contracts\Province::class,
+            Contracts\Regency::class,
+            Contracts\District::class,
+            Contracts\Village::class,
+        ];
     }
 }

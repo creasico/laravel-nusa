@@ -12,6 +12,8 @@ namespace Creasi\Nusa\Contracts;
  * @property-read Province $province
  * @property-read Regency $regency
  * @property-read District $district
+ *
+ * @mixin \Illuminate\Database\Eloquent\Model
  */
 interface Village
 {

@@ -8,6 +8,8 @@ namespace Creasi\Nusa\Contracts;
  * @property-read \Illuminate\Support\Collection<int, Regency> $regencies
  * @property-read \Illuminate\Support\Collection<int, District> $districts
  * @property-read \Illuminate\Support\Collection<int, Village> $villages
+ *
+ * @mixin \Illuminate\Database\Eloquent\Model
  */
 interface Province
 {
