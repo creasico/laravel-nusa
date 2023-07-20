@@ -12,11 +12,17 @@
         "@commitlint/cli": "^17.6.6",
         "@commitlint/config-conventional": "^17.6.6",
         "husky": "^8.0.3",
+        "lint-staged": "^13.2.3",
         "standard-version": "^9.5.0"
     },
     "commitlint": {
         "extends": [
             "@commitlint/config-conventional"
+        ]
+    },
+    "lint-staged": {
+        "{config,database,src,scripts,tests}/**/*.php": [
+            "php vendor/bin/pint --preset laravel"
         ]
     },
     "standard-version": {}
