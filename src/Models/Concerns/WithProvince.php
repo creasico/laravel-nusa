@@ -14,7 +14,7 @@ trait WithProvince
     /**
      * Initialize the trait.
      */
-    public function initializeWithProvince(): void
+    final protected function initializeWithProvince(): void
     {
         $this->mergeCasts([
             $this->provinceKeyName() => 'int',

@@ -14,7 +14,7 @@ trait WithVillage
     /**
      * Initialize the trait.
      */
-    public function initializeWithVillage(): void
+    final protected function initializeWithVillage(): void
     {
         $this->mergeCasts([
             $this->villageKeyName() => 'int',

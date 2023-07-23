@@ -18,7 +18,7 @@ trait WithVillages
     /**
      * Initialize the trait.
      */
-    public function initializeWithVillages(): void
+    final protected function initializeWithVillages(): void
     {
         $this->append('postal_codes');
 

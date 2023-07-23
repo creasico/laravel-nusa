@@ -12,7 +12,7 @@ trait WithCoordinate
     /**
      * Initialize the trait.
      */
-    public function initializeWithCoordinate(): void
+    final protected function initializeWithCoordinate(): void
     {
         $this->mergeCasts([
             'latitude' => 'float',

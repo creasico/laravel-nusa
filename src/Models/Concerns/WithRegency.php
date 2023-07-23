@@ -14,7 +14,7 @@ trait WithRegency
     /**
      * Initialize the trait.
      */
-    public function initializeWithRegency(): void
+    final protected function initializeWithRegency(): void
     {
         $this->mergeCasts([
             $this->regencyKeyName() => 'int',

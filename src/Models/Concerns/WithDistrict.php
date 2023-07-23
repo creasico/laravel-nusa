@@ -14,7 +14,7 @@ trait WithDistrict
     /**
      * Initialize the trait.
      */
-    public function initializeWithDistrict(): void
+    final protected function initializeWithDistrict(): void
     {
         $this->mergeCasts([
             $this->districtKeyName() => 'int',
