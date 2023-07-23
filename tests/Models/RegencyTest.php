@@ -51,6 +51,7 @@ class RegencyTest extends TestCase
             $this->assertIsFloat($regency->latitude, 'Latitude should be float');
             $this->assertIsFloat($regency->longitude, 'Longitude should be float');
             $this->assertIsArray($regency->coordinates, 'Coordinates should be array');
+            $this->assertInstanceOf(Collection::class, $regency->postal_codes, 'Postal Codes should be instance of collection');
 
             $this->assertInstanceOf(RegencyContract::class, $regency);
         });

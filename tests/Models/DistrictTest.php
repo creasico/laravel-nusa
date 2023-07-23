@@ -30,6 +30,7 @@ class DistrictTest extends TestCase
     {
         $districts->each(function (District $district) {
             $this->assertIsInt($district->code, 'Code should be int');
+            $this->assertInstanceOf(Collection::class, $district->postal_codes, 'Postal Codes should be instance of collection');
 
             $this->assertInstanceOf(DistrictContract::class, $district);
         });
