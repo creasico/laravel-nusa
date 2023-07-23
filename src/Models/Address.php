@@ -28,17 +28,14 @@ class Address extends EloquentModel implements AddressContract
 
     public function getCasts()
     {
-        return \array_merge($this->casts, [
+        return \array_merge(parent::getCasts(), [
             'postal_code' => 'int',
         ]);
     }
 
     public function getFillable()
     {
-        return \array_merge($this->fillable, [
-            'line',
-            'postal_code',
-        ]);
+        return \array_merge(parent::getFillable(), ['line', 'postal_code']);
     }
 
     public function associateWith(

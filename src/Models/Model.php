@@ -37,7 +37,7 @@ abstract class Model extends EloquentModel implements HasCoordinate
 
     public function getCasts()
     {
-        return \array_merge($this->casts, [
+        return \array_merge(parent::getCasts(), [
             'code' => 'int',
             'coordinates' => 'array',
         ]);
@@ -45,7 +45,7 @@ abstract class Model extends EloquentModel implements HasCoordinate
 
     public function getFillable()
     {
-        return \array_merge($this->fillable, ['code', 'name', 'coordinates']);
+        return \array_merge(parent::getFillable(), ['code', 'name', 'coordinates']);
     }
 
     public function scopeSearch(Builder $query, string|int $keyword)
