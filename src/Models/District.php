@@ -7,6 +7,7 @@ namespace Creasi\Nusa\Models;
 use Creasi\Nusa\Contracts\District as DistrictContract;
 use Creasi\Nusa\Models\Concerns\WithProvince;
 use Creasi\Nusa\Models\Concerns\WithRegency;
+use Creasi\Nusa\Models\Concerns\WithVillages;
 
 /**
  * @property-read Province $province
@@ -17,6 +18,7 @@ class District extends Model implements DistrictContract
 {
     use WithRegency;
     use WithProvince;
+    use WithVillages;
 
     protected $fillable = [];
 
@@ -25,13 +27,5 @@ class District extends Model implements DistrictContract
     public function getTable()
     {
         return config('creasi.nusa.table_names.districts', parent::getTable());
-    }
-
-    /**
-     * @return \Illuminate\Database\Eloquent\Relations\HasMany|Village
-     */
-    public function villages()
-    {
-        return $this->hasMany(Village::class);
     }
 }
