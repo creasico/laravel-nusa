@@ -2,84 +2,88 @@
 
 ```mermaid
 classDiagram
-    provinces "1" --> "*" regencies
-    provinces "1" --> "*" districts
-    provinces "1" --> "*" villages
-    regencies "1" --> "*" villages
-    regencies "1" --> "*" districts
-    districts "1" --> "*" villages
-    class provinces {
-        +char~2~ code
-        +varchar name
+    Province "1" --> "*" Regency
+    Province "1" --> "*" District
+    Province "1" --> "*" Village
+    Regency "1" --> "*" Village
+    Regency "1" --> "*" District
+    District "1" --> "*" Village
+
+    class Province {
+        +int code
+        +string name
         +double latitude
         +double longitude
-        +varchar coordinates
+        +array coordinates
+        +regencies() Regency[]
+        +districts() District[]
+        +villages() Village[]
     }
-    class regencies {
-        +char~4~ code
-        +char~2~ province_code
-        +varchar name
+    class Regency {
+        +int code
+        +int province_code
+        +string name
         +double latitude
         +double longitude
-        +varchar coordinates
+        +array coordinates
+        +province() Province
+        +districts() District[]
+        +villages() Village[]
     }
-    class districts {
-        +char~6~ code
-        +char~4~ regency_code
-        +char~2~ province_code
-        +varchar name
-        +double latitude
-        +double longitude
-        +varchar coordinates
+    class District {
+        +int code
+        +int regency_code
+        +int province_code
+        +string name
+        +province() Province
+        +regency() Regency
+        +villages() Village[]
     }
-    class villages {
-        +char~10~ code
-        +char~6~ district_code
-        +char~4~ regency_code
-        +char~2~ province_code
-        +varchar name
-        +char~5~ postal_code
-        +double latitude
-        +double longitude
-        +varchar coordinates
+    class Village {
+        +int code
+        +int district_code
+        +int regency_code
+        +int province_code
+        +string name
+        +int postal_code
+        +province() Province
+        +regency() Regency
+        +district() District
     }
 ```
 
 ## `provinces`
 
-| Field | Attribute | Description |
-| --- | --- | --- |
-| `code` | `char(2)`, `unique`, `primary` | - |
-| `name` | `string` | - |
-| `latitude` | `double`, `nullable` | - |
-| `longitude` | `double`, `nullable` | - |
-| `coordinates` | `array`, `nullable` | - |
+| Field | Attribute | Key | Description |
+| --- | --- | --- | --- |
+| `code` | `char(2)` | `primary` | - |
+| `name` | `varchar` | - | - |
+| `latitude` | `double`, `nullable` | - | - |
+| `longitude` | `double`, `nullable` | - | - |
+| `coordinates` | `array`, `nullable` | - | - |
 
 ## `regencies`
 
-| Field | Attribute | Description |
-| --- | --- | --- |
-| `code` | `char(4)`, `unique`, `primary` | - |
-| `province_code` | `char(2)`, `index` | - |
-| `name` | `string` | - |
-| `latitude` | `double`, `nullable` | - |
-| `longitude` | `double`, `nullable` | - |
-| `coordinates` | `array`, `nullable` | - |
+| Field | Attribute | Key | Description |
+| --- | --- | --- | --- |
+| `code` | `char(4)` | `primary` | - |
+| `province_code` | `char(2)` | `foreign` | - |
+| `name` | `varchar` | - | - |
+| `latitude` | `double`, `nullable` | - | - |
+| `longitude` | `double`, `nullable` | - | - |
+| `coordinates` | `array`, `nullable` | - | - |
 
 **Relation Properties**
 - `province_code` : reference `provinces`
 
 ## `districts`
 
-| Field | Attribute | Description |
-| --- | --- | --- |
-| `code` | `char(6)`, `unique`, `primary` | - |
-| `regency_code` | `char(4)`, `index` | - |
-| `province_code` | `char(2)`, `index` | - |
-| `name` | `string` | - |
-| `latitude` | `double`, `nullable` | - |
-| `longitude` | `double`, `nullable` | - |
-| `coordinates` | `array`, `nullable` | - |
+| Field | Attribute | Key | Description |
+| --- | --- | --- | --- |
+| `code` | `char(6)` | `primary` | - |
+| `regency_code` | `char(4)` | `foreign` | - |
+| `province_code` | `char(2)` | `foreign` | - |
+| `name` | `varchar` | - | - |
 
 **Relation Properties**
 - `regency_code` : reference `regencies`
@@ -87,17 +91,14 @@ classDiagram
 
 ## `villages`
 
-| Field | Attribute | Description |
-| --- | --- | --- |
-| `code` | `char(10)`, `unique`, `primary` | - |
-| `district_code` | `char(6)`, `index` | - |
-| `regency_code` | `char(4)`, `index` | - |
-| `province_code` | `char(2)`, `index` | - |
-| `name` | `string` | - |
-| `postal_code` | `char(5)`, `nullable` | - |
-| `latitude` | `double`, `nullable` | - |
-| `longitude` | `double`, `nullable` | - |
-| `coordinates` | `array`, `nullable` | - |
+| Field | Attribute | Key | Description |
+| --- | --- | --- | --- |
+| `code` | `char(10)` | `primary` | - |
+| `district_code` | `char(6)` | `foreign` | - |
+| `regency_code` | `char(4)` | `foreign` | - |
+| `province_code` | `char(2)` | `foreign` | - |
+| `name` | `varchar` | - | - |
+| `postal_code` | `char(5)`, `nullable` | - | - |
 
 **Relation Properties**
 - `district_code` : reference `districts`

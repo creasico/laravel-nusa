@@ -21,7 +21,9 @@ That's why we choose [cahyadsn/wilayah](https://github.com/cahyadsn/wilayah) it 
 
 We also found that [w3appdev/kodepos](https://github.com/w3appdev/kodepos) provides better database structures that can easily mapped with databases from [cahyadsn/wilayah](https://github.com/cahyadsn/wilayah) in single query.
 
-Why PHP `>=8.1` and Laravel `>=10.0`, you may ask? Because, why not?
+Our takes for the words **"easily integrated"** and **"ready-to-use once its installed"** means we shouldn't dealing with the data migration and seeding, hence Indonesia isn't a small country, right? running seeder for such amount of data can takes quite some times to proceed let alone the app seeder.
+
+Why PHP `>=8.1` and Laravel `>=10.0`, you may ask? Because, why not!
 
 ## Installation
 
@@ -42,9 +44,18 @@ That's all
 
 ## Usage
 
+Thankfully Laravel provides us convenience way to have some sort of "relations" regardless of the database engine. So we can have this administrative data shipped in `sqlite` data and once we install it, then all we need is use it from our project with convenience of eloquent models.
+
 ### Models
 
-Every models comes with similar interfaces, which mean every model has `code` and `name` field in it, you can also use `search()` scope methode to query model either by `code` or `name`. e.g:
+This library comes with 4 primary models as follows :
+
+- `Creasi\Nusa\Models\Province`
+- `Creasi\Nusa\Models\Regency`
+- `Creasi\Nusa\Models\District`
+- `Creasi\Nusa\Models\Village`
+
+Every models comes with similar interfaces, which mean every model has `code` and `name` field in it, you can also use `search()` scope method to query model either by `code` or `name`. e.g:
 
 ```php
 use Creasi\Nusa\Models\Province;
@@ -56,9 +67,32 @@ $province = Province::search(33)->first();
 $province = Province::search('Jawa Tengah')->first();
 ```
 
+Please note that only `Province` and `Regency` that comes with `latitude`, `longitude` and `coordinates` data, while `Village` comes with `postal_code`. That's due to what [cahyadsn/wilayah](https://github.com/cahyadsn/wilayah) provide us.
+
+In that regard we expect that `Province`, `Regency` and `District` should have access of any `postal_codes` that available within those area, and we believe that might be helpful in some cases. And there you go
+
+```php
+// Retrieve distict list of postal codes available in the province
+$province->postal_codes;
+```
+
+Base on our experiences developing huge variety of products, the most use cases we need such a data is to fill up address form. But the requirement is might be vary on every single project. For that reason we also provide the bare minimun of `Address` model that use your default db connection and can easily extended to comply with project's requirement.
+
+In that case you might wanna use our `WithAddresses` or `WithAdress` trait to your exitsting model, like so 
+
+```php
+use Creasi\Nusa\Contracts\HasAddresses;
+use Creasi\Nusa\Models\Concerns\WithAddresses;
+
+class User extends Model implements HasAddresses
+{
+    use WithAddresses;
+}
+```
+
 ### Databases
 
-The database structure docucmentation please consult to [`database/README.md`](https://github.com/creasico/laravel-nusa/blob/main/database/README.md).
+The database structure documentation please consult to [`database/README.md`](https://github.com/creasico/laravel-nusa/blob/main/database/README.md).
 
 ## Customization
 
@@ -90,6 +124,8 @@ By default, `nusa` will add another `database.connections` config to your projec
        ],
    ];
    ```
+
+In term of extending `Address` model, please a look at `creasi.nusa.addressable` config if you wanna use your own implementation of `Address` model.
 
 ### Notes
 As of now, only `connection` name and `table` names are available to customize, also we only test it using `sqlite` driver. Let us know if you had any issue using another database drivers.
