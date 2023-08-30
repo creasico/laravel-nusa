@@ -83,7 +83,7 @@ jobs:
         run: composer db:import
 
       - name: Run tests
-        run: composer test
+        run: composer test -- --coverage
 
   tests:
     name: Test on PHP ${{ matrix.php }} with DB ${{ matrix.db }}
