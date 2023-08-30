@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.2](https://github.com/creasico/laravel-nusa/compare/v0.1.1...v0.1.2) (2023-08-30)
+
+
+### Features
+
+* **model:** adds ability to retrieve list of `postal_codes` ([0e15f6d](https://github.com/creasico/laravel-nusa/commit/0e15f6d99fca687b501d81e7449ff2bbd72be724))
+
 ### [0.1.1](https://github.com/creasico/laravel-nusa/compare/v0.1.0...v0.1.1) (2023-07-20)
 
 
