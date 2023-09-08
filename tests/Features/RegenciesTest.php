@@ -10,7 +10,7 @@ use PHPUnit\Framework\Attributes\Test;
 #[Group('regencies')]
 class RegenciesTest extends TestCase
 {
-    private $path = 'nusa/regencies';
+    protected $path = 'nusa/regencies';
 
     protected $fields = ['code', 'name', 'province_code'];
 
@@ -28,7 +28,7 @@ class RegenciesTest extends TestCase
     #[Test]
     public function it_shows_single_regency()
     {
-        $response = $this->getJson($this->path.'/3375');
+        $response = $this->getJson($this->path('3375'));
 
         $response->assertOk()->assertJsonStructure([
             'data' => $this->fields,
@@ -38,7 +38,7 @@ class RegenciesTest extends TestCase
     #[Test]
     public function it_shows_available_districts_in_a_regency()
     {
-        $response = $this->getJson($this->path.'/3375/districts');
+        $response = $this->getJson($this->path('3375/districts'));
 
         $response->assertOk()->assertJsonStructure([
             'data' => [$this->fields],
@@ -48,7 +48,7 @@ class RegenciesTest extends TestCase
     #[Test]
     public function it_shows_available_villages_in_a_regency()
     {
-        $response = $this->getJson($this->path.'/3375/villages');
+        $response = $this->getJson($this->path('3375/villages'));
 
         $response->assertOk()->assertJsonStructure([
             'data' => [$this->fields],

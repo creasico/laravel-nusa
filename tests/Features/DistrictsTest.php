@@ -10,7 +10,7 @@ use PHPUnit\Framework\Attributes\Test;
 #[Group('districts')]
 class DistrictsTest extends TestCase
 {
-    private $path = 'nusa/districts';
+    protected $path = 'nusa/districts';
 
     protected $fields = ['code', 'name', 'regency_code', 'province_code'];
 
@@ -28,7 +28,7 @@ class DistrictsTest extends TestCase
     #[Test]
     public function it_shows_single_district()
     {
-        $response = $this->getJson($this->path.'/337503');
+        $response = $this->getJson($this->path('337503'));
 
         $response->assertOk()->assertJsonStructure([
             'data' => $this->fields,
@@ -38,7 +38,7 @@ class DistrictsTest extends TestCase
     #[Test]
     public function it_shows_available_villages_in_a_district()
     {
-        $response = $this->getJson($this->path.'/337503/villages');
+        $response = $this->getJson($this->path('337503/villages'));
 
         $response->assertOk()->assertJsonStructure([
             'data' => [$this->fields],

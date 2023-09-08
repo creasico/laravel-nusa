@@ -9,7 +9,7 @@ use PHPUnit\Framework\Attributes\Test;
 #[Group('provinces')]
 class ProvincesTest extends TestCase
 {
-    private $path = 'nusa/provinces';
+    protected $path = 'nusa/provinces';
 
     protected $fields = ['code', 'name', 'latitude', 'longitude', 'coordinates', 'postal_codes'];
 
@@ -26,16 +26,15 @@ class ProvincesTest extends TestCase
     #[Test]
     public function it_shows_provinces_by_search_query()
     {
-        $response = $this->getJson($this->path.'?search=Jawa Tengah');
+        $response = $this->getJson($this->path(query: ['search' => 'Jawa Tengah']));
 
-        // $response->dump();
         $response->assertOk()->assertJsonCount(1, 'data');
     }
 
     #[Test]
     public function it_shows_single_province()
     {
-        $response = $this->getJson($this->path.'/33');
+        $response = $this->getJson($this->path('33'));
 
         $response->assertOk()->assertJsonStructure([
             'data' => $this->fields,
@@ -45,7 +44,7 @@ class ProvincesTest extends TestCase
     #[Test]
     public function it_shows_available_regencies_in_a_province()
     {
-        $response = $this->getJson($this->path.'/33/regencies');
+        $response = $this->getJson($this->path('33/regencies'));
 
         $response->assertOk();
     }
@@ -53,7 +52,7 @@ class ProvincesTest extends TestCase
     #[Test]
     public function it_shows_available_districts_in_a_province()
     {
-        $response = $this->getJson($this->path.'/33/districts');
+        $response = $this->getJson($this->path('33/districts'));
 
         $response->assertOk();
     }
@@ -61,7 +60,7 @@ class ProvincesTest extends TestCase
     #[Test]
     public function it_shows_available_villages_province()
     {
-        $response = $this->getJson($this->path.'/33/villages');
+        $response = $this->getJson($this->path('33/villages'));
 
         $response->assertOk();
     }

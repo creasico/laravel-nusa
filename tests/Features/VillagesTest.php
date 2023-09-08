@@ -10,9 +10,16 @@ use PHPUnit\Framework\Attributes\Test;
 #[Group('villages')]
 class VillagesTest extends TestCase
 {
-    private $path = 'nusa/villages';
+    protected $path = 'nusa/villages';
 
-    protected $fields = ['code', 'name', 'district_code', 'regency_code', 'province_code', 'postal_code'];
+    protected $fields = [
+        'code',
+        'name',
+        'district_code',
+        'regency_code',
+        'province_code',
+        'postal_code',
+    ];
 
     #[Test]
     #[DependsOnClass(DistrictsTest::class)]
@@ -28,7 +35,7 @@ class VillagesTest extends TestCase
     #[Test]
     public function it_shows_single_village()
     {
-        $response = $this->getJson($this->path.'/3375031006');
+        $response = $this->getJson($this->path('3375031006'));
 
         $response->assertOk()->assertJsonStructure([
             'data' => $this->fields,
