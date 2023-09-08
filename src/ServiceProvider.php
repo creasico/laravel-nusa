@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Creasi\Nusa;
 
 use Creasi\Nusa\Console\SyncCommand;
+use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
 
 class ServiceProvider extends IlluminateServiceProvider
@@ -18,6 +19,8 @@ class ServiceProvider extends IlluminateServiceProvider
 
             $this->registerCommands();
         }
+
+        $this->defineRoutes();
     }
 
     public function register()
@@ -35,6 +38,16 @@ class ServiceProvider extends IlluminateServiceProvider
         }
 
         $this->registerBindings();
+    }
+
+    protected function defineRoutes()
+    {
+        if (app()->routesAreCached() && config('creasi.nusa.routes_enable') === false) {
+            return;
+        }
+
+        Route::prefix(config('creasi.nusa.routes_prefix', 'nusa'))
+            ->group(self::LIB_PATH.'/routes/nusa.php');
     }
 
     protected function registerPublishables()
