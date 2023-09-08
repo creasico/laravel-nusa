@@ -8,14 +8,14 @@ use PHPUnit\Framework\Attributes\Test;
 
 #[Group('api')]
 #[Group('districts')]
-class DistrictsTest extends TestCase
+class DistrictTest extends TestCase
 {
     protected $path = 'nusa/districts';
 
     protected $fields = ['code', 'name', 'regency_code', 'province_code'];
 
     #[Test]
-    #[DependsOnClass(RegenciesTest::class)]
+    #[DependsOnClass(RegencyTest::class)]
     public function it_shows_available_districts()
     {
         $response = $this->getJson($this->path);

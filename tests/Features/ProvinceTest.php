@@ -7,7 +7,7 @@ use PHPUnit\Framework\Attributes\Test;
 
 #[Group('api')]
 #[Group('provinces')]
-class ProvincesTest extends TestCase
+class ProvinceTest extends TestCase
 {
     protected $path = 'nusa/provinces';
 

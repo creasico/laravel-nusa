@@ -8,7 +8,7 @@ use PHPUnit\Framework\Attributes\Test;
 
 #[Group('api')]
 #[Group('villages')]
-class VillagesTest extends TestCase
+class VillageTest extends TestCase
 {
     protected $path = 'nusa/villages';
 
@@ -22,7 +22,7 @@ class VillagesTest extends TestCase
     ];
 
     #[Test]
-    #[DependsOnClass(DistrictsTest::class)]
+    #[DependsOnClass(DistrictTest::class)]
     public function it_shows_available_villages()
     {
         $response = $this->getJson($this->path);
