@@ -24,6 +24,15 @@ class ProvincesTest extends TestCase
     }
 
     #[Test]
+    public function it_shows_provinces_by_search_query()
+    {
+        $response = $this->getJson($this->path.'?search=Jawa Tengah');
+
+        // $response->dump();
+        $response->assertOk()->assertJsonCount(1, 'data');
+    }
+
+    #[Test]
     public function it_shows_single_province()
     {
         $response = $this->getJson($this->path.'/33');
