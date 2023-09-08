@@ -46,6 +46,64 @@ That's all
 
 Thankfully Laravel provides us convenience way to have some sort of "relations" regardless of the database engine. So we can have this administrative data shipped in `sqlite` data and once we install it, then all we need is use it from our project with convenience of eloquent models.
 
+### ReSTful API
+
+- Get all provinces
+
+  `GET {BASE_URL}/nusa/provinces`
+
+- Show a province
+
+  `GET {BASE_URL}/nusa/provinces/{province}`
+
+- Get all regencies in a province
+
+  `GET {BASE_URL}/nusa/provinces/{province}/regencies`
+
+- Get all districts in a province
+
+  `GET {BASE_URL}/nusa/provinces/{province}/districts`
+
+- Get all villages in a province
+
+  `GET {BASE_URL}/nusa/provinces/{province}/villages`
+
+- Get all regencies
+
+  `GET {BASE_URL}/nusa/regencies`
+
+- Show a regency
+
+  `GET {BASE_URL}/nusa/regencies/{regency}`
+
+- Get all districts in a regency
+
+  `GET {BASE_URL}/nusa/regencies/{regency}/districts`
+
+- Get all villages in a regency
+
+  `GET {BASE_URL}/nusa/regencies/{regency}/villages`
+
+- Get all districts
+
+  `GET {BASE_URL}/nusa/districts`
+
+- Show a district
+
+  `GET {BASE_URL}/nusa/districts/{district}`
+
+- Get all villages in a district
+
+  `GET {BASE_URL}/nusa/districts/{district}/villages`
+
+- Get all villages
+
+  `GET {BASE_URL}/nusa/villages`
+
+- Get a village
+
+  `GET {BASE_URL}/nusa/villages/{village}`
+
 ### Models
 
 This library comes with 4 primary models as follows :
