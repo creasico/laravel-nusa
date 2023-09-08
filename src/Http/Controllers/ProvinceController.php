@@ -2,33 +2,43 @@
 
 namespace Creasi\Nusa\Http\Controllers;
 
-use Creasi\Nusa\Contracts\Province;
 use Creasi\Nusa\Http\Resources\NusaResource;
+use Creasi\Nusa\Models\Province;
 
 class ProvinceController
 {
     public function index()
     {
-        return NusaResource::collection([]);
+        $provinces = Province::query();
+
+        return NusaResource::collection($provinces->paginate());
     }
 
-    public function show()
+    public function show(int $province)
     {
-        return new NusaResource([]);
+        $province = Province::query()->find($province);
+
+        return new NusaResource($province);
     }
 
-    public function regencies(Province $province)
+    public function regencies(int $province)
     {
-        return NusaResource::collection([]);
+        $province = Province::query()->find($province);
+
+        return NusaResource::collection($province->regencies()->paginate());
     }
 
-    public function districts(Province $province)
+    public function districts(int $province)
     {
-        return NusaResource::collection([]);
+        $province = Province::query()->find($province);
+
+        return NusaResource::collection($province->districts()->paginate());
     }
 
-    public function villages(Province $province)
+    public function villages(int $province)
     {
-        return NusaResource::collection([]);
+        $province = Province::query()->find($province);
+
+        return NusaResource::collection($province->villages()->paginate());
     }
 }

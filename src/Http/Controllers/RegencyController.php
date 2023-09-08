@@ -2,28 +2,36 @@
 
 namespace Creasi\Nusa\Http\Controllers;
 
-use Creasi\Nusa\Contracts\Regency;
 use Creasi\Nusa\Http\Resources\NusaResource;
+use Creasi\Nusa\Models\Regency;
 
 class RegencyController
 {
     public function index()
     {
-        return NusaResource::collection([]);
+        $regencies = Regency::query();
+
+        return NusaResource::collection($regencies->paginate());
     }
 
-    public function show()
+    public function show(int $regency)
     {
-        return new NusaResource([]);
+        $regency = Regency::query()->find($regency);
+
+        return new NusaResource($regency);
     }
 
-    public function districts(Regency $regency)
+    public function districts(int $regency)
     {
-        return NusaResource::collection([]);
+        $regency = Regency::query()->find($regency);
+
+        return NusaResource::collection($regency->districts()->paginate());
     }
 
-    public function villages(Regency $regency)
+    public function villages(int $regency)
     {
-        return NusaResource::collection([]);
+        $regency = Regency::query()->find($regency);
+
+        return NusaResource::collection($regency->villages()->paginate());
     }
 }

@@ -3,16 +3,21 @@
 namespace Creasi\Nusa\Http\Controllers;
 
 use Creasi\Nusa\Http\Resources\NusaResource;
+use Creasi\Nusa\Models\Village;
 
 class VillageController
 {
     public function index()
     {
-        return NusaResource::collection([]);
+        $villages = Village::query();
+
+        return NusaResource::collection($villages->paginate());
     }
 
-    public function show()
+    public function show(int $village)
     {
-        return new NusaResource([]);
+        $village = Village::query()->find($village);
+
+        return new NusaResource($village);
     }
 }
