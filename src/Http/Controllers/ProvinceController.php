@@ -10,9 +10,7 @@ class ProvinceController
 {
     public function index(NusaRequest $request, Province $province)
     {
-        $provinces = $request->apply($province);
-
-        return NusaResource::collection($provinces->paginate());
+        return NusaResource::collection($request->apply($province));
     }
 
     public function show(int $province)

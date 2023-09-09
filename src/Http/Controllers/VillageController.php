@@ -10,9 +10,7 @@ class VillageController
 {
     public function index(NusaRequest $request, Village $village)
     {
-        $villages = $request->apply($village);
-
-        return NusaResource::collection($villages->paginate());
+        return NusaResource::collection($request->apply($village));
     }
 
     public function show(int $village)

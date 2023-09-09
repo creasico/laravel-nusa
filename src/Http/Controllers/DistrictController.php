@@ -10,9 +10,7 @@ class DistrictController
 {
     public function index(NusaRequest $request, District $district)
     {
-        $districts = $request->apply($district);
-
-        return NusaResource::collection($districts->paginate());
+        return NusaResource::collection($request->apply($district));
     }
 
     public function show(int $district)

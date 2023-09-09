@@ -10,9 +10,7 @@ class RegencyController
 {
     public function index(NusaRequest $request, Regency $regency)
     {
-        $regencies = $request->apply($regency);
-
-        return NusaResource::collection($regencies->paginate());
+        return NusaResource::collection($request->apply($regency));
     }
 
     public function show(int $regency)

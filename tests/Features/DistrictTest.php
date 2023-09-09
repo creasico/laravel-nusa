@@ -26,6 +26,36 @@ class DistrictTest extends TestCase
     }
 
     #[Test]
+    public function it_shows_districts_by_selected_codes()
+    {
+        $response = $this->getJson($this->path(query: [
+            'codes' => [337503, 337504],
+        ]));
+
+        $response->assertOk()->assertJsonCount(2, 'data');
+    }
+
+    #[Test]
+    public function it_shows_errors_when_codes_item_is_not_numeric()
+    {
+        $response = $this->getJson($this->path(query: [
+            'codes' => ['foo'],
+        ]));
+
+        $response->assertUnprocessable();
+    }
+
+    #[Test]
+    public function it_shows_errors_when_codes_is_not_an_array()
+    {
+        $response = $this->getJson($this->path(query: [
+            'codes' => 33,
+        ]));
+
+        $response->assertUnprocessable();
+    }
+
+    #[Test]
     public function it_shows_districts_by_search_query()
     {
         $response = $this->getJson($this->path(query: [
