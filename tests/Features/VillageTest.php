@@ -33,6 +33,16 @@ class VillageTest extends TestCase
     }
 
     #[Test]
+    public function it_shows_villages_by_search_query()
+    {
+        $response = $this->getJson($this->path(query: [
+            'search' => 'Padukuhan Kraton',
+        ]));
+
+        $response->assertOk()->assertJsonCount(1, 'data');
+    }
+
+    #[Test]
     public function it_shows_single_village()
     {
         $response = $this->getJson($this->path('3375031006'));

@@ -26,6 +26,16 @@ class RegencyTest extends TestCase
     }
 
     #[Test]
+    public function it_shows_regencies_by_search_query()
+    {
+        $response = $this->getJson($this->path(query: [
+            'search' => 'Pekalongan',
+        ]));
+
+        $response->assertOk()->assertJsonCount(2, 'data');
+    }
+
+    #[Test]
     public function it_shows_single_regency()
     {
         $response = $this->getJson($this->path('3375'));

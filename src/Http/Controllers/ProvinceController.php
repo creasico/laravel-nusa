@@ -5,16 +5,12 @@ namespace Creasi\Nusa\Http\Controllers;
 use Creasi\Nusa\Http\Requests\NusaRequest;
 use Creasi\Nusa\Http\Resources\NusaResource;
 use Creasi\Nusa\Models\Province;
-use Illuminate\Contracts\Database\Query\Builder;
 
 class ProvinceController
 {
-    public function index(NusaRequest $request)
+    public function index(NusaRequest $request, Province $province)
     {
-        $provinces = Province::query()
-            ->when($request->has('search'), function (Builder $query) use ($request) {
-                $query->search($request->query('search'));
-            });
+        $provinces = $request->apply($province);
 
         return NusaResource::collection($provinces->paginate());
     }

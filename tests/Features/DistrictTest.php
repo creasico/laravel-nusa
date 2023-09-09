@@ -26,6 +26,16 @@ class DistrictTest extends TestCase
     }
 
     #[Test]
+    public function it_shows_districts_by_search_query()
+    {
+        $response = $this->getJson($this->path(query: [
+            'search' => 'Pekalongan',
+        ]));
+
+        $response->assertOk()->assertJsonCount(5, 'data');
+    }
+
+    #[Test]
     public function it_shows_single_district()
     {
         $response = $this->getJson($this->path('337503'));

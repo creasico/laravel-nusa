@@ -2,14 +2,15 @@
 
 namespace Creasi\Nusa\Http\Controllers;
 
+use Creasi\Nusa\Http\Requests\NusaRequest;
 use Creasi\Nusa\Http\Resources\NusaResource;
 use Creasi\Nusa\Models\District;
 
 class DistrictController
 {
-    public function index()
+    public function index(NusaRequest $request, District $district)
     {
-        $districts = District::query();
+        $districts = $request->apply($district);
 
         return NusaResource::collection($districts->paginate());
     }

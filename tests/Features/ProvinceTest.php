@@ -26,7 +26,9 @@ class ProvinceTest extends TestCase
     #[Test]
     public function it_shows_provinces_by_search_query()
     {
-        $response = $this->getJson($this->path(query: ['search' => 'Jawa Tengah']));
+        $response = $this->getJson($this->path(query: [
+            'search' => 'Jawa Tengah',
+        ]));
 
         $response->assertOk()->assertJsonCount(1, 'data');
     }

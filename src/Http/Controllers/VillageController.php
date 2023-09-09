@@ -2,14 +2,15 @@
 
 namespace Creasi\Nusa\Http\Controllers;
 
+use Creasi\Nusa\Http\Requests\NusaRequest;
 use Creasi\Nusa\Http\Resources\NusaResource;
 use Creasi\Nusa\Models\Village;
 
 class VillageController
 {
-    public function index()
+    public function index(NusaRequest $request, Village $village)
     {
-        $villages = Village::query();
+        $villages = $request->apply($village);
 
         return NusaResource::collection($villages->paginate());
     }

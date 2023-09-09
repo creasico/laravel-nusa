@@ -2,14 +2,15 @@
 
 namespace Creasi\Nusa\Http\Controllers;
 
+use Creasi\Nusa\Http\Requests\NusaRequest;
 use Creasi\Nusa\Http\Resources\NusaResource;
 use Creasi\Nusa\Models\Regency;
 
 class RegencyController
 {
-    public function index()
+    public function index(NusaRequest $request, Regency $regency)
     {
-        $regencies = Regency::query();
+        $regencies = $request->apply($regency);
 
         return NusaResource::collection($regencies->paginate());
     }
