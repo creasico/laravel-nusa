@@ -50,59 +50,712 @@ Thankfully Laravel provides us convenience way to have some sort of "relations" 
 
 - Get all provinces
 
-  `GET {BASE_URL}/nusa/provinces`
+  `GET {APP_URL}/nusa/provinces`
+
+  - **Query Params :**
+  
+    | Field | Type | Option | Description |
+    | --- | --- | --- | --- |
+    | `codes` | `numeric[]` | `optional` | Fetch only specified province code |
+    | `search` | `string` | `optional` | Search province by a keyword |
+  - **Example :**
+    - <details><summary><code>GET http://localhost:8000/nusa/provinces</code></summary>
+
+      ```jsonc
+      {
+        "data": [
+          {
+            "code": 33,
+            "name": "Jawa Tengah",
+            "latitude": -6.9934809206806,
+            "longitude": 110.42024335421,
+            "coordinates": [...],
+            "postal_codes": [...],
+          },
+          { ... }
+        ],
+        "links": {
+          "first": "http://localhost:8000/nusa/provinces?page=1",
+          "last": "http://localhost:8000/nusa/provinces?page=3",
+          "prev": null,
+          "next": "http://localhost:8000/nusa/provinces?page=2",
+        },
+        "meta": {
+          "current_page": 1,
+          "from": 1,
+          "last_page": 3,
+          "links": [
+            {
+              "url": null,
+              "label": "&laquo; Previous",
+              "active": false,
+            },
+            {
+              "url": "http://localhost:8000/nusa/provinces?page=1",
+              "label": "1",
+              "active": true,
+            },
+            { ... },
+            {
+              "url": "http://localhost/nusa/provinces?page=2",
+              "label": "Next &raquo;",
+              "active": false,
+            },
+          ],
+          "path": "http://localhost:8000/nusa/provinces",
+          "per_page": 15,
+          "to": 15,
+          "total": 34
+        }
+      }
+      ```
+      </details>
 
 - Show a province
 
-  `GET {BASE_URL}/nusa/provinces/{province}`
+  `GET {APP_URL}/nusa/provinces/{province}`
+
+  - **Route Param :** `{province}` province code
+  - **Example :**
+    - <details><summary><code>GET http://localhost:8000/nusa/provinces/33</code></summary>
+
+      ```jsonc
+      {
+        "data": {
+          "code": 33,
+          "name": "Jawa Tengah",
+          "latitude": -6.9934809206806,
+          "longitude": 110.42024335421,
+          "coordinates": [...],
+          "postal_codes": [...],
+        },
+        "meta": {}
+      }
+      ```
+      </details>
 
 - Get all regencies in a province
 
-  `GET {BASE_URL}/nusa/provinces/{province}/regencies`
+  `GET {APP_URL}/nusa/provinces/{province}/regencies`
+
+  - **Route Param :** `{province}` province code
+  - **Example :**
+    - <details><summary><code>GET http://localhost:8000/nusa/provinces/33/regencies</code></summary>
+
+      ```jsonc
+      {
+        "data": [
+          {
+            "code": 3375,
+            "province_code": 33,
+            "name": "Kota Pekalongan",
+            "latitude": -6.8969497174987,
+            "longitude": 109.66208089654,
+            "coordinates": [...],
+            "postal_codes": [...],
+          },
+          { ... }
+        ],
+        "links": {
+          "first": "http://localhost:8000/nusa/provinces/33/regencies?page=1",
+          "last": "http://localhost:8000/nusa/provinces/33/regencies?page=3",
+          "prev": null,
+          "next": "http://localhost:8000/nusa/provinces/33/regencies?page=2",
+        },
+        "meta": {
+          "current_page": 1,
+          "from": 1,
+          "last_page": 3,
+          "links": [
+            {
+              "url": null,
+              "label": "&laquo; Previous",
+              "active": false,
+            },
+            {
+              "url": "http://localhost:8000/nusa/provinces/33/regencies?page=1",
+              "label": "1",
+              "active": true,
+            },
+            { ... },
+            {
+              "url": "http://localhost/nusa/provinces/33/regencies?page=2",
+              "label": "Next &raquo;",
+              "active": false,
+            },
+          ],
+          "path": "http://localhost:8000/nusa/provinces/33/regencies",
+          "per_page": 15,
+          "to": 15,
+          "total": 35
+        }
+      }
+      ```
+      </details>
 
 - Get all districts in a province
 
-  `GET {BASE_URL}/nusa/provinces/{province}/districts`
+  `GET {APP_URL}/nusa/provinces/{province}/districts`
+
+  - **Route Param :** `{province}` province code
+  - **Example :**
+    - <details><summary><code>GET http://localhost:8000/nusa/provinces/33/districts</code></summary>
+
+      ```jsonc
+      {
+        "data": [
+          {
+            "code": 330101,
+            "regency_code": 3301,
+            "province_code": 33,
+            "name": "Kedungreja",
+            "postal_codes": [
+              53263
+            ]
+          },
+          { ... }
+        ],
+        "links": {
+          "first": "http://localhost:8000/nusa/provinces/33/districts?page=1",
+          "last": "http://localhost:8000/nusa/provinces/33/districts?page=39",
+          "prev": null,
+          "next": "http://localhost/nusa/provinces/33/districts?page=2",
+        },
+        "meta": {
+          "current_page": 1,
+          "from": 1,
+          "last_page": 39,
+          "links": [
+            {
+              "url": null,
+              "label": "&laquo; Previous",
+              "active": false,
+            },
+            {
+              "url": "http://localhost:8000/nusa/provinces/33/districts?page=1",
+              "label": "1",
+              "active": true,
+            },
+            { ... },
+            {
+              "url": "http://localhost/nusa/provinces/33/districts?page=2",
+              "label": "Next &raquo;",
+              "active": false,
+            },
+          ],
+          "path": "http://localhost:8000/nusa/provinces/33/districts",
+          "per_page": 15,
+          "to": 15,
+          "total": 576
+        }
+      }
+      ```
+      </details>
 
 - Get all villages in a province
 
-  `GET {BASE_URL}/nusa/provinces/{province}/villages`
+  `GET {APP_URL}/nusa/provinces/{province}/villages`
+
+  - **Route Param :** `{province}` province code
+  - **Example :**
+    - <details><summary><code>GET http://localhost:8000/nusa/provinces/33/villages</code></summary>
+
+      ```jsonc
+      {
+        "data": [
+          {
+            "code": 3301012001,
+            "district_code": 330101,
+            "regency_code": 3301,
+            "province_code": 33,
+            "name": "Tambakreja",
+            "postal_code": 53263,
+          },
+          { ... }
+        ],
+        "links": {
+          "first": "http://localhost:8000/nusa/provinces/33/villages?page=1",
+          "last": "http://localhost:8000/nusa/provinces/33/villages?page=571",
+          "prev": null,
+          "next": "http://localhost:8000/nusa/provinces/33/villages?page=2",
+        },
+        "meta": {
+          "current_page": 1,
+          "from": 1,
+          "last_page": 571,
+          "links": [
+            {
+              "url": null,
+              "label": "&laquo; Previous",
+              "active": false,
+            },
+            {
+              "url": "http://localhost:8000/nusa/provinces/33/villages?page=1",
+              "label": "1",
+              "active": true,
+            },
+            { ... },
+            {
+              "url": "http://localhost:8000/nusa/provinces/33/villages?page=2",
+              "label": "Next &raquo;",
+              "active": false,
+            },
+          ],
+          "path": "http://localhost:8000/nusa/provinces/33/villages",
+          "per_page": 15,
+          "to": 15,
+          "total": 8562
+        }
+      }
+      ```
+      </details>
 
 - Get all regencies
 
-  `GET {BASE_URL}/nusa/regencies`
+  `GET {APP_URL}/nusa/regencies`
+
+  - **Query Params :** 
+  
+    | Field | Type | Option | Description |
+    | --- | --- | --- | --- |
+    | `codes` | `numeric[]` | `optional` | Fetch only specified regency code |
+    | `search` | `string` | `optional` | Search regency by a keyword |
+  - **Example :**
+    - <details><summary><code>GET http://localhost:8000/nusa/regencies</code></summary>
+
+      ```jsonc
+      {
+        "data": [
+          {
+            "code": 3375,
+            "province_code": 33,
+            "name": "Kota Pekalongan",
+            "latitude": -6.8969497174987,
+            "longitude": 109.66208089654,
+            "coordinates": [...],
+            "postal_codes": [...],
+          },
+          { ... }
+        ],
+        "links": {
+          "first": "http://localhost:8000/nusa/regencies?page=1",
+          "last": "http://localhost:8000/nusa/regencies?page=35",
+          "prev": null,
+          "next": "http://localhost:8000/nusa/regencies?page=2",
+        },
+        "meta": {
+          "current_page": 1,
+          "from": 1,
+          "last_page": 35,
+          "links": [
+            {
+              "url": null,
+              "label": "&laquo; Previous",
+              "active": false,
+            },
+            {
+              "url": "http://localhost:8000/nusa/regencies?page=1",
+              "label": "1",
+              "active": true,
+            },
+            { ... },
+            {
+              "url": "http://localhost/nusa/regencies?page=2",
+              "label": "Next &raquo;",
+              "active": false,
+            },
+          ],
+          "path": "http://localhost:8000/nusa/regencies",
+          "per_page": 15,
+          "to": 15,
+          "total": 514
+        }
+      }
+      ```
+      </details>
 
 - Show a regency
 
-  `GET {BASE_URL}/nusa/regencies/{regency}`
+  `GET {APP_URL}/nusa/regencies/{regency}`
+
+  - **Route Param :** `{regency}` regency code
+  - **Example :**
+    - <details><summary><code>GET http://localhost:8000/nusa/regencies/3375</code></summary>
+
+      ```jsonc
+      {
+        "data": {
+          "code": 3375,
+          "province_code": 33,
+          "name": "Kota Pekalongan",
+          "latitude": -6.8969497174987,
+          "longitude": 109.66208089654,
+          "coordinates": [...],
+          "postal_codes": [...],
+        },
+        "meta": {}
+      }
+      ```
+      </details>
 
 - Get all districts in a regency
 
-  `GET {BASE_URL}/nusa/regencies/{regency}/districts`
+  `GET {APP_URL}/nusa/regencies/{regency}/districts`
+
+  - **Route Param :** `{regency}` regency code
+  - **Example :**
+    - <details><summary><code>GET http://localhost:8000/nusa/regencies/3375/districts</code></summary>
+
+      ```jsonc
+      {
+        "data": [
+          {
+            "code": 337501,
+            "regency_code": 3375,
+            "province_code": 33,
+            "name": "Pekalongan Barat",
+            "postal_codes": [
+              51111
+              51112
+              51113
+              51116
+              51117
+              51151
+            ]
+          },
+          { ... }
+        ],
+        "links": {
+          "first": "http://localhost:8000/nusa/regencies/3375/districts?page=1",
+          "last": "http://localhost:8000/nusa/regencies/3375/districts?page=1",
+          "prev": null,
+          "next": null,
+        },
+        "meta": {
+          "current_page": 1,
+          "from": 1,
+          "last_page": 1,
+          "links": [
+            {
+              "url": null,
+              "label": "&laquo; Previous",
+              "active": false,
+            },
+            {
+              "url": "http://localhost:8000/nusa/regencies/3375/districts?page=1",
+              "label": "1",
+              "active": true,
+            },
+            { ... },
+            {
+              "url": null,
+              "label": "Next &raquo;",
+              "active": false,
+            },
+          ],
+          "path": "http://localhost:8000/nusa/regencies/3375/districts",
+          "per_page": 15,
+          "to": 4,
+          "total": 4
+        }
+      }
+      ```
+      </details>
 
 - Get all villages in a regency
 
-  `GET {BASE_URL}/nusa/regencies/{regency}/villages`
+  `GET {APP_URL}/nusa/regencies/{regency}/villages`
+
+  - **Route Param :** `{regency}` regency code
+  - **Example :**
+    - <details><summary><code>GET http://localhost:8000/nusa/regencies/3375/villages</code></summary>
+
+      ```jsonc
+      {
+        "data": [
+          {
+            "code": 3375011002,
+            "district_code": 337501,
+            "regency_code": 3375,
+            "province_code": 33,
+            "name": "Medono",
+            "postal_code": 51111,
+          },
+          { ... }
+        ],
+        "links": {
+          "first": "http://localhost:8000/nusa/regencies/3375/villages?page=1",
+          "last": "http://localhost:8000/nusa/regencies/3375/villages?page=2",
+          "prev": null,
+          "next": "http://localhost:8000/nusa/regencies/3375/villages?page=2",
+        },
+        "meta": {
+          "current_page": 1,
+          "from": 1,
+          "last_page": 2,
+          "links": [
+            {
+              "url": null,
+              "label": "&laquo; Previous",
+              "active": false,
+            },
+            {
+              "url": "http://localhost:8000/nusa/regencies/3375/villages?page=1",
+              "label": "1",
+              "active": true,
+            },
+            { ... },
+            {
+              "url": "http://localhost:8000/nusa/regencies/3375/villages?page=2",
+              "label": "Next &raquo;",
+              "active": false,
+            },
+          ],
+          "path": "http://localhost:8000/nusa/regencies/3375/villages",
+          "per_page": 15,
+          "to": 15,
+          "total": 27
+        }
+      }
+      ```
+      </details>
 
 - Get all districts
 
-  `GET {BASE_URL}/nusa/districts`
+  `GET {APP_URL}/nusa/districts`
+
+  - **Query Params :** 
+  
+    | Field | Type | Option | Description |
+    | --- | --- | --- | --- |
+    | `codes` | `numeric[]` | `optional` | Fetch only specified district code |
+    | `search` | `string` | `optional` | Search district by a keyword |
+  - **Example :**
+    - <details><summary><code>GET http://localhost:8000/nusa/districts</code></summary>
+
+      ```jsonc
+      {
+        "data": [
+          {
+            "code": 110101,
+            "regency_code": 1101,
+            "province_code": 11,
+            "name": "Bakongan",
+            "postal_codes": [
+              23773
+            ],
+          },
+          { ... }
+        ],
+        "links": {
+          "first": "http://localhost:8000/nusa/districts?page=1",
+          "last": "http://localhost:8000/nusa/districts?page=485",
+          "prev": null,
+          "next": "http://localhost:8000/nusa/districts?page=2",
+        },
+        "meta": {
+          "current_page": 1,
+          "from": 1,
+          "last_page": 485,
+          "links": [
+            {
+              "url": null,
+              "label": "&laquo; Previous",
+              "active": false,
+            },
+            {
+              "url": "http://localhost:8000/nusa/districts?page=1",
+              "label": "1",
+              "active": true,
+            },
+            { ... },
+            {
+              "url": "http://localhost:8000/nusa/districts?page=2",
+              "label": "Next &raquo;",
+              "active": false,
+            },
+          ],
+          "path": "http://localhost:8000/nusa/districts",
+          "per_page": 15,
+          "to": 15,
+          "total": 7266
+        }
+      }
+      ```
+      </details>
 
 - Show a district
 
-  `GET {BASE_URL}/nusa/districts/{district}`
+  `GET {APP_URL}/nusa/districts/{district}`
+
+  - **Route Param :** `{district}` district code
+  - **Example :**
+    - <details><summary><code>GET http://localhost:8000/nusa/districts/337503</code></summary>
+
+      ```jsonc
+      {
+        "data": {
+          "code": 337503,
+          "regency_code": 3375,
+          "province_code": 33,
+          "name": "Pekalongan Utara",
+          "postal_codes": [
+            51141
+            51143
+            51146
+            51147
+            51148
+            51149
+          ],
+        },
+        "meta": {}
+      }
+      ```
+      </details>
 
 - Get all villages in a district
 
-  `GET {BASE_URL}/nusa/districts/{district}/villages`
+  `GET {APP_URL}/nusa/districts/{district}/villages`
+
+  - **Route Param :** `{district}` district code
+  - **Example :**
+    - <details><summary><code>GET http://localhost:8000/nusa/districts/337503/villages</code></summary>
+
+      ```jsonc
+      {
+        "data": [
+          {
+            "code": 3375031002,
+            "district_code": 337503,
+            "regency_code": 3375,
+            "province_code": 33,
+            "name": "Krapyak",
+            "postal_code": 51147,
+          },
+          { ... }
+        ],
+        "links": {
+          "first": "http://localhost:8000/nusa/districts/337503/villages?page=1",
+          "last": "http://localhost:8000/nusa/districts/337503/villages?page=1",
+          "prev": null,
+          "next": null,
+        },
+        "meta": {
+          "current_page": 1,
+          "from": 1,
+          "last_page": 1,
+          "links": [
+            {
+              "url": null,
+              "label": "&laquo; Previous",
+              "active": false,
+            },
+            {
+              "url": "http://localhost:8000/nusa/districts/337503/villages?page=1",
+              "label": "1",
+              "active": true,
+            },
+            { ... },
+            {
+              "url": null,
+              "label": "Next &raquo;",
+              "active": false,
+            },
+          ],
+          "path": "http://localhost:8000/nusa/districts/337503/villages",
+          "per_page": 15,
+          "to": 7,
+          "total": 7
+        }
+      }
+      ```
+      </details>
 
 - Get all villages
 
-  `GET {BASE_URL}/nusa/villages`
+  `GET {APP_URL}/nusa/villages`
+
+  - **Query Params :**
+  
+    | Field | Type | Option | Description |
+    | --- | --- | --- | --- |
+    | `codes` | `numeric[]` | `optional` | Fetch only specified village code |
+    | `search` | `string` | `optional` | Search village by a keyword |
+  - **Example :**
+    - <details><summary><code>GET http://localhost:8000/nusa/villages</code></summary>
+
+      ```jsonc
+      {
+        "data": [
+          {
+            "code": 1101012001,
+            "district_code": 110101,
+            "regency_code": 1101,
+            "province_code": 11,
+            "name": "Keude Bakongan",
+            "postal_code": 23773,
+          },
+          { ... }
+        ],
+        "links": {
+          "first": "http://localhost:8000/nusa/villages?page=1",
+          "last": "http://localhost:8000/nusa/villages?page=5565",
+          "prev": null,
+          "next": "http://localhost:8000/nusa/villages?page=2",
+        },
+        "meta": {
+          "current_page": 1,
+          "from": 1,
+          "last_page": 5565,
+          "links": [
+            {
+              "url": null,
+              "label": "&laquo; Previous",
+              "active": false,
+            },
+            {
+              "url": "http://localhost:8000/nusa/villages?page=1",
+              "label": "1",
+              "active": true,
+            },
+            { ... },
+            {
+              "url": "http://localhost:8000/nusa/villages?page=2",
+              "label": "Next &raquo;",
+              "active": false,
+            },
+          ],
+          "path": "http://localhost:8000/nusa/villages",
+          "per_page": 15,
+          "to": 15,
+          "total": 83467
+        }
+      }
+      ```
+      </details>
 
 - Get a village
 
-  `GET {BASE_URL}/nusa/villages/{village}`
+  `GET {APP_URL}/nusa/villages/{village}`
+
+  - **Route Param :** `{village}` village code
+  - **Example :**
+    - <details><summary><code>GET http://localhost:8000/nusa/villages/3375031006</code></summary>
+
+      ```jsonc
+      {
+        "data": {
+          "code": 3375031006,
+          "district_code": 337503,
+          "regency_code": 3375,
+          "province_code": 33,
+          "name": "Padukuhan Kraton",
+          "postal_code": 51146,
+        },
+        "meta": {}
+      }
+      ```
+      </details>
 
 ### Models
 
