@@ -17,8 +17,8 @@ use Creasi\Nusa\Models\Concerns\WithRegency;
 class Village extends Model implements VillageContract
 {
     use WithDistrict;
-    use WithRegency;
     use WithProvince;
+    use WithRegency;
 
     protected $fillable = ['postal_code'];
 
