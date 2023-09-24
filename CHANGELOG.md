@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/creasico/laravel-nusa/compare/v0.1.2...v0.1.3) (2023-09-24)
+
+
+### Bug Fixes
+
+* fix code styles ([03e157d](https://github.com/creasico/laravel-nusa/commit/03e157d1361c291ea6b885e7349d069d8f29e062))
+* fix some false positive test on province resources ([a20ca86](https://github.com/creasico/laravel-nusa/commit/a20ca86cab732cb97fe2c7d0f8939a2c4ebf13fa))
+
 ### [0.1.2](https://github.com/creasico/laravel-nusa/compare/v0.1.1...v0.1.2) (2023-08-30)
 
 
