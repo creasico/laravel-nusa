@@ -40,7 +40,7 @@ That's all
    - [x] Regencies, includes `laltitude`, `longitude` and `coordinates`
    - [x] Districts
    - [x] Vilages, include `postal_code`
-- [ ] Routing
+- [x] Routing
 
 ## Usage
 
