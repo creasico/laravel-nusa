@@ -15,21 +15,21 @@ class RegencyController
 
     public function show(int $regency)
     {
-        $regency = Regency::query()->find($regency);
+        $regency = Regency::query()->findOrFail($regency);
 
         return new NusaResource($regency);
     }
 
     public function districts(int $regency)
     {
-        $regency = Regency::query()->find($regency);
+        $regency = Regency::query()->findOrFail($regency);
 
         return NusaResource::collection($regency->districts()->paginate());
     }
 
     public function villages(int $regency)
     {
-        $regency = Regency::query()->find($regency);
+        $regency = Regency::query()->findOrFail($regency);
 
         return NusaResource::collection($regency->villages()->paginate());
     }

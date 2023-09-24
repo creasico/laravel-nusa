@@ -15,14 +15,14 @@ class DistrictController
 
     public function show(int $district)
     {
-        $district = District::query()->find($district);
+        $district = District::query()->findOrFail($district);
 
         return new NusaResource($district);
     }
 
     public function villages(int $district)
     {
-        $district = District::query()->find($district);
+        $district = District::query()->findOrFail($district);
 
         return NusaResource::collection($district->villages()->paginate());
     }

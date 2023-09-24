@@ -15,7 +15,7 @@ class VillageController
 
     public function show(int $village)
     {
-        $village = Village::query()->find($village);
+        $village = Village::query()->findOrFail($village);
 
         return new NusaResource($village);
     }

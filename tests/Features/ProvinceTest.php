@@ -11,7 +11,7 @@ class ProvinceTest extends TestCase
 {
     protected $path = 'nusa/provinces';
 
-    protected $fields = ['code', 'name', 'latitude', 'longitude', 'coordinates', 'postal_codes'];
+    protected $fields = ['code', 'name', 'latitude', 'longitude', 'coordinates'];
 
     #[Test]
     public function it_shows_all_available_provinces()
@@ -22,7 +22,7 @@ class ProvinceTest extends TestCase
             'data' => [$this->fields],
             'links' => ['first', 'last', 'prev', 'next'],
             'meta' => ['current_page', 'from', 'last_page', 'links', 'path', 'per_page', 'to', 'total'],
-        ])->dump();
+        ]);
     }
 
     #[Test]
@@ -80,7 +80,9 @@ class ProvinceTest extends TestCase
     {
         $response = $this->getJson($this->path('33/regencies'));
 
-        $response->assertOk();
+        $response->assertOk()->assertJsonStructure([
+            'data' => [$this->fields],
+        ]);
     }
 
     #[Test]
@@ -88,7 +90,9 @@ class ProvinceTest extends TestCase
     {
         $response = $this->getJson($this->path('33/districts'));
 
-        $response->assertOk();
+        $response->assertOk()->assertJsonStructure([
+            'data' => [$this->fields],
+        ]);
     }
 
     #[Test]
@@ -96,6 +100,8 @@ class ProvinceTest extends TestCase
     {
         $response = $this->getJson($this->path('33/villages'));
 
-        $response->assertOk();
+        $response->assertOk()->assertJsonStructure([
+            'data' => [$this->fields],
+        ]);
     }
 }

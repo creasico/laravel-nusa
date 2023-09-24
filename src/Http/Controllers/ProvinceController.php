@@ -20,18 +20,24 @@ class ProvinceController
         return new NusaResource($province);
     }
 
-    public function regencies(Province $province)
+    public function regencies(int $province)
     {
+        $province = Province::query()->findOrFail($province);
+
         return NusaResource::collection($province->regencies()->paginate());
     }
 
-    public function districts(Province $province)
+    public function districts(int $province)
     {
+        $province = Province::query()->findOrFail($province);
+
         return NusaResource::collection($province->districts()->paginate());
     }
 
-    public function villages(Province $province)
+    public function villages(int $province)
     {
+        $province = Province::query()->findOrFail($province);
+
         return NusaResource::collection($province->villages()->paginate());
     }
 }
