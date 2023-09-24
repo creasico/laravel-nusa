@@ -13,7 +13,7 @@ namespace Creasi\Nusa\Contracts;
  * @property-read Regency $regency
  * @property-read District $district
  *
- * @mixin \Illuminate\Database\Eloquent\Model
+ * @mixin \Creasi\Nusa\Models\Model
  */
 interface Village
 {

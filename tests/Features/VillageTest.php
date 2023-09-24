@@ -29,6 +29,8 @@ class VillageTest extends TestCase
 
         $response->assertOk()->assertJsonStructure([
             'data' => [$this->fields],
+            'links' => ['first', 'last', 'prev', 'next'],
+            'meta' => ['current_page', 'from', 'last_page', 'links', 'path', 'per_page', 'to', 'total'],
         ]);
     }
 
