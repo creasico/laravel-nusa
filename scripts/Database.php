@@ -12,7 +12,7 @@ class Database
 
     private readonly string $libPath;
 
-    public function __construct(string $name, string $host, string $user, ?string $pass = null)
+    public function __construct(string $name, string $host, string $user, string $pass = null)
     {
         $this->libPath = \realpath(\dirname(__DIR__.'/../..'));
 
@@ -21,7 +21,7 @@ class Database
         ]);
     }
 
-    public function query(string $statement, ?int $mode = null, mixed ...$args): PDOStatement
+    private function query(string $statement, int $mode = null, mixed ...$args): PDOStatement
     {
         return $this->conn->query($statement, $mode, ...$args);
     }
@@ -35,26 +35,43 @@ class Database
     {
         require_once $event->getComposer()->getConfig()->get('vendor-dir').'/autoload.php';
 
-        $self = new static(
+        $db = new static(
             name: env('DB_NAME', 'nusantara'),
             host: env('DB_HOST', '127.0.0.1'),
             user: env('DB_USER', 'root'),
             pass: env('DB_PASS', 'secret'),
         );
 
-        if ($wilayahSql = file_get_contents($self->libPath.'/submodules/cahyadsn-wilayah/db/wilayah.sql')) {
-            $self->query($wilayahSql);
+        $db->importSql(
+            'cahyadsn-wilayah/db/wilayah.sql',
+            'cahyadsn-wilayah/db/wilayah_level_1_2.sql',
+            'w3appdev-kodepos/kodewilayah2023.sql',
+        );
+
+        foreach ($db->fetchAll() as $table => $content) {
+            $content = \collect($content);
+
+            if ($table === 'provinces') {
+                $db->writeCsv($table, $content);
+
+                $db->writeJson($table, $content);
+
+                continue;
+            }
+
+            $content->groupBy('province_code')->each(function (Collection $content, $key) use ($table, $db) {
+                $db->writeCsv($key.'/'.$table, $content);
+
+                $db->writeJson($key.'/'.$table, $content);
+            });
         }
 
-        if ($coordinatesSql = file_get_contents($self->libPath.'/submodules/cahyadsn-wilayah/db/wilayah_level_1_2.sql')) {
-            $self->query($coordinatesSql);
-        }
+        exit(0);
+    }
 
-        if ($postalSql = file_get_contents($self->libPath.'/submodules/w3appdev-kodepos/kodewilayah2023.sql')) {
-            $self->query($postalSql);
-        }
-
-        $stmt = $self->query(<<<'SQL'
+    private function fetchAll(): array
+    {
+        $stmt = $this->query(<<<'SQL'
             SELECT
                 w.kode, w.nama,
                 p.kodepos,
@@ -65,37 +82,28 @@ class Database
             ORDER BY w.kode
         SQL, PDO::FETCH_OBJ);
 
-        $data = collect($stmt->fetchAll())->reduce(function ($regions, $item) {
+        return collect($stmt->fetchAll())->reduce(function ($regions, $item) {
             $data = new Normalizer($item->kode, $item->nama, $item->kodepos, $item->lat, $item->lng, $item->path);
 
             $regions[$data->type][] = $data->normalize();
 
             return $regions;
         }, []);
+    }
 
-        foreach ($data as $table => $content) {
-            $content = \collect($content);
-
-            if ($table === 'provinces') {
-                $self->writeCsv($table, $content);
-
-                $self->writeJson($table, $content);
-
-                continue;
+    private function importSql(string ...$paths): void
+    {
+        foreach ($paths as $path) {
+            if ($query = file_get_contents("{$this->libPath}/submodules/{$path}")) {
+                $this->query($query);
             }
-
-            $content->groupBy('province_code')->each(function (Collection $content, $key) use ($table, $self) {
-                $self->writeCsv($key.'/'.$table, $content);
-
-                $self->writeJson($key.'/'.$table, $content);
-            });
         }
     }
 
     private function writeCsv(string $filename, Collection $content): void
     {
         $this->ensureDirectoryExists(
-            $path = "{$this->libPath}/resources/csv/$filename.csv"
+            $path = "{$this->libPath}/resources/csv/{$filename}.csv"
         );
 
         $csv = [
@@ -122,7 +130,7 @@ class Database
     private function writeJson(string $filename, Collection $content): void
     {
         $this->ensureDirectoryExists(
-            $path = "{$this->libPath}/resources/json/$filename.json"
+            $path = "{$this->libPath}/resources/json/{$filename}.json"
         );
 
         file_put_contents($path, json_encode($content->toArray(), JSON_PRETTY_PRINT));

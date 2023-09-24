@@ -11,7 +11,16 @@
     "i18n-ally.keystyle": "nested",
     "i18n-ally.enabledFrameworks": ["laravel"],
     "i18n-ally.localesPaths": [
-        "resources/lang"
+        "${workspaceFolder}/resources/lang"
+    ],
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "Nusa",
+            "database": "${workspaceFolder}/database/nusa.sqlite",
+            "group": "Creasi"
+        }
     ],
     "prettier.enable": false,
 }

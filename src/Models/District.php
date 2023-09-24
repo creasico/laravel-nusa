@@ -16,8 +16,8 @@ use Creasi\Nusa\Models\Concerns\WithVillages;
  */
 class District extends Model implements DistrictContract
 {
-    use WithRegency;
     use WithProvince;
+    use WithRegency;
     use WithVillages;
 
     protected $fillable = [];

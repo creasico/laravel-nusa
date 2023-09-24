@@ -16,7 +16,7 @@ class Normalizer
         public readonly ?string $postal_code,
         public readonly ?float $latitude = null,
         public readonly ?float $longitude = null,
-        ?string $coordinates = null,
+        string $coordinates = null,
     ) {
         $this->type = match (strlen($this->code)) {
             2 => 'provinces',
