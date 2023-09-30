@@ -13,9 +13,11 @@ class ProvinceController
         return NusaResource::collection($request->apply($province));
     }
 
-    public function show(int $province)
+    public function show(NusaRequest $request, int $province)
     {
         $province = Province::query()->find($province);
+
+        $province->load($request->relations($province));
 
         return new NusaResource($province);
     }

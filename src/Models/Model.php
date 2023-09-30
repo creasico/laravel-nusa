@@ -14,7 +14,7 @@ use Illuminate\Database\Eloquent\Model as EloquentModel;
  * @property-read string $name
  * @property-read null|array $coordinates
  *
- * @method static static search(string|int $keyword)
+ * @method static static search(string $keyword)
  * @method Builder whereCode(int $code)
  * @method Builder whereName(string $name)
  *
@@ -48,12 +48,8 @@ abstract class Model extends EloquentModel implements HasCoordinate
         return \array_merge(parent::getFillable(), ['code', 'name', 'coordinates']);
     }
 
-    public function scopeSearch(Builder $query, string|int $keyword)
+    public function scopeSearch(Builder $query, string $keyword)
     {
-        if (\is_numeric($keyword)) {
-            return $query->where('code', $keyword);
-        }
-
         return $query->whereRaw(match ($this->getConnection()->getDriverName()) {
             'pgsql' => 'name ilike ?',
             'mysql' => 'lower(name) like lower(?)',

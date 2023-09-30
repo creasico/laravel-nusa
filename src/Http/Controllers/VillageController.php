@@ -13,9 +13,11 @@ class VillageController
         return NusaResource::collection($request->apply($village));
     }
 
-    public function show(int $village)
+    public function show(NusaRequest $request, int $village)
     {
         $village = Village::query()->findOrFail($village);
+
+        $village->load($request->relations($village));
 
         return new NusaResource($village);
     }

@@ -13,9 +13,11 @@ class DistrictController
         return NusaResource::collection($request->apply($district));
     }
 
-    public function show(int $district)
+    public function show(NusaRequest $request, int $district)
     {
         $district = District::query()->findOrFail($district);
+
+        $district->load($request->relations($district));
 
         return new NusaResource($district);
     }

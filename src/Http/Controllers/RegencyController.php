@@ -13,9 +13,11 @@ class RegencyController
         return NusaResource::collection($request->apply($regency));
     }
 
-    public function show(int $regency)
+    public function show(NusaRequest $request, int $regency)
     {
         $regency = Regency::query()->findOrFail($regency);
+
+        $regency->load($request->relations($regency));
 
         return new NusaResource($regency);
     }
