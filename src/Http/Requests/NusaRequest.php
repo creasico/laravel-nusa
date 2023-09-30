@@ -11,8 +11,10 @@ class NusaRequest extends FormRequest
     public function rules(): array
     {
         return [
+            'with' => ['nullable', 'array'],
+            'with.*' => ['string'],
             'codes' => ['nullable', 'array'],
-            'codes.*' => ['nullable', 'numeric'],
+            'codes.*' => ['numeric'],
             'search' => ['nullable', 'string'],
             'page' => ['nullable', 'numeric'],
             'per-page' => ['nullable', 'numeric'],
@@ -21,7 +23,7 @@ class NusaRequest extends FormRequest
 
     public function apply(Model $model)
     {
-        $result = $model->newQuery()
+        $result = $model->load($this->relations($model))->query()
             ->when($this->has('search'), function (Builder $query) {
                 $query->search($this->query('search'));
             })
@@ -30,5 +32,13 @@ class NusaRequest extends FormRequest
             });
 
         return $result->paginate($this->query('per-page'));
+    }
+
+    /**
+     * @return string[]
+     */
+    public function relations(Model $model): array
+    {
+        return \array_filter((array) $this->query('with', []), fn (string $relate) => \method_exists($model, $relate));
     }
 }
