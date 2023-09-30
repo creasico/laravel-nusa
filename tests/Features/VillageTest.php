@@ -2,6 +2,8 @@
 
 namespace Creasi\Tests\Features;
 
+use PHPUnit\Framework\Attributes\DataProvider;
+use PHPUnit\Framework\Attributes\Depends;
 use PHPUnit\Framework\Attributes\DependsOnClass;
 use PHPUnit\Framework\Attributes\Group;
 use PHPUnit\Framework\Attributes\Test;
@@ -10,9 +12,7 @@ use PHPUnit\Framework\Attributes\Test;
 #[Group('villages')]
 class VillageTest extends TestCase
 {
-    protected $path = 'nusa/villages';
-
-    protected $fields = [
+    public const FIELDS = [
         'code',
         'name',
         'district_code',
@@ -21,66 +21,93 @@ class VillageTest extends TestCase
         'postal_code',
     ];
 
+    protected $path = 'nusa/villages';
+
+    public static function availableQueries(): array
+    {
+        return [
+            'basic request' => [],
+            'include province' => ['province'],
+            'include regency' => ['regency'],
+            'include district' => ['district'],
+        ];
+    }
+
+    public static function invalidCodes(): array
+    {
+        return [
+            'array of non-numeric code' => [['foo']],
+            'non-array of numeric code' => [3375031004],
+        ];
+    }
+
     #[Test]
     #[DependsOnClass(DistrictTest::class)]
-    public function it_shows_available_villages()
+    #[DataProvider('availableQueries')]
+    public function it_shows_available_villages(?string ...$with)
     {
-        $response = $this->getJson($this->path);
+        $response = $this->getJson($this->path(query: [
+            'with' => $with,
+        ]));
 
         $response->assertOk()->assertJsonStructure([
-            'data' => [$this->fields],
+            'data' => [self::FIELDS],
             'links' => ['first', 'last', 'prev', 'next'],
             'meta' => ['current_page', 'from', 'last_page', 'links', 'path', 'per_page', 'to', 'total'],
         ]);
     }
 
     #[Test]
+    #[Depends('it_shows_available_villages')]
     public function it_shows_villages_by_selected_codes()
     {
         $response = $this->getJson($this->path(query: [
             'codes' => [3375031004, 3375031006],
         ]));
 
-        $response->assertOk()->assertJsonCount(2, 'data');
+        $response->assertOk()->assertJsonStructure([
+            'data' => [self::FIELDS],
+            'meta' => [],
+        ])->assertJsonCount(2, 'data');
     }
 
     #[Test]
-    public function it_shows_errors_when_codes_item_is_not_numeric()
+    #[Depends('it_shows_available_villages')]
+    #[DataProvider('invalidCodes')]
+    public function it_shows_errors_for_invalid_codes(mixed $codes)
     {
         $response = $this->getJson($this->path(query: [
-            'codes' => ['foo'],
+            'codes' => $codes,
         ]));
 
         $response->assertUnprocessable();
     }
 
     #[Test]
-    public function it_shows_errors_when_codes_is_not_an_array()
-    {
-        $response = $this->getJson($this->path(query: [
-            'codes' => 33,
-        ]));
-
-        $response->assertUnprocessable();
-    }
-
-    #[Test]
+    #[Depends('it_shows_available_villages')]
     public function it_shows_villages_by_search_query()
     {
         $response = $this->getJson($this->path(query: [
             'search' => 'Padukuhan Kraton',
         ]));
 
-        $response->assertOk()->assertJsonCount(1, 'data');
+        $response->assertOk()->assertJsonStructure([
+            'data' => [self::FIELDS],
+            'meta' => [],
+        ])->assertJsonCount(1, 'data');
     }
 
     #[Test]
-    public function it_shows_single_village()
+    #[Depends('it_shows_available_villages')]
+    #[DataProvider('availableQueries')]
+    public function it_shows_single_village(?string ...$with)
     {
-        $response = $this->getJson($this->path('3375031006'));
+        $response = $this->getJson($this->path('3375031006', [
+            'with' => $with,
+        ]));
 
         $response->assertOk()->assertJsonStructure([
-            'data' => $this->fields,
-        ]);
+            'data' => self::FIELDS,
+        ])->dump();
     }
 }

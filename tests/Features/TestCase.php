@@ -4,7 +4,7 @@ namespace Creasi\Tests\Features;
 
 use Creasi\Tests\TestCase as BaseTestCase;
 
-class TestCase extends BaseTestCase
+abstract class TestCase extends BaseTestCase
 {
     protected $path = '';
 
@@ -18,4 +18,8 @@ class TestCase extends BaseTestCase
 
         return $path;
     }
+
+    abstract public static function availableQueries(): array;
+
+    abstract public static function invalidCodes(): array;
 }
