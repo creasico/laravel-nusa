@@ -27,6 +27,7 @@ class DistrictTest extends TestCase
             'basic request' => [],
             'include province' => ['province'],
             'include regency' => ['regency'],
+            'include villages' => ['villages'],
         ];
     }
 

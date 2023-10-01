@@ -27,6 +27,9 @@ class ProvinceTest extends TestCase
             'basic request' => [],
             'include postal_codes' => ['postal_codes'],
             'include coordinates' => ['coordinates'],
+            'include regencies' => ['regencies'],
+            'include districts' => ['districts'],
+            'include villages' => ['villages'],
         ];
     }
 

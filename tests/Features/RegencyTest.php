@@ -27,9 +27,11 @@ class RegencyTest extends TestCase
     {
         return [
             'basic request' => [],
-            'include province' => ['province'],
             'include postal_codes' => ['postal_codes'],
             'include coordinates' => ['coordinates'],
+            'include province' => ['province'],
+            'include districts' => ['districts'],
+            'include villages' => ['villages'],
         ];
     }
 
