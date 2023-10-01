@@ -108,6 +108,6 @@ class VillageTest extends TestCase
 
         $response->assertOk()->assertJsonStructure([
             'data' => self::FIELDS,
-        ])->dump();
+        ]);
     }
 }

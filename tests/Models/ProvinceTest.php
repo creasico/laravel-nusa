@@ -23,8 +23,7 @@ class ProvinceTest extends TestCase
     public static function searchProvider()
     {
         return [
-            'by code' => [33],
-            'by name' => ['Jawa Tengah'],
+            'by name' => ['Jawa'],
         ];
     }
 

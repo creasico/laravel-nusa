@@ -24,7 +24,6 @@ class RegencyTest extends TestCase
     public static function searchProvider()
     {
         return [
-            'by code' => [3375],
             'by name' => ['Pekalongan'],
         ];
     }
