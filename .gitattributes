@@ -5,10 +5,10 @@
 # see: https://redd.it/2jzp6k
 submodules       export-ignore
 .editorconfig    export-ignore
-.gitsubmodules   export-ignore
 .gitattributes   export-ignore
-.gitignore       export-ignore
 .github          export-ignore
+.gitignore       export-ignore
+.gitmodules      export-ignore
 .vscode          export-ignore
 CHANGELOG.md     export-ignore
 # README.md        export-ignore
