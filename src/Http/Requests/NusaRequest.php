@@ -2,11 +2,10 @@
 
 namespace Creasi\Nusa\Http\Requests;
 
-use Creasi\Nusa\Models\Model;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Foundation\Http\FormRequest;
 
-class NusaRequest extends FormRequest
+final class NusaRequest extends FormRequest
 {
     public function rules(): array
     {
@@ -21,7 +20,11 @@ class NusaRequest extends FormRequest
         ];
     }
 
-    public function apply(Model $model)
+    /**
+     * @param  \Creasi\Nusa\Models\Model  $model
+     * @return \Illuminate\Contracts\Pagination\LengthAwarePaginator
+     */
+    public function apply($model)
     {
         $result = $model->load($this->relations($model))->query()
             ->when($this->has('search'), function (Builder $query) {
@@ -35,9 +38,10 @@ class NusaRequest extends FormRequest
     }
 
     /**
+     * @param  \Creasi\Nusa\Models\Model  $model
      * @return string[]
      */
-    public function relations(Model $model): array
+    public function relations($model): array
     {
         return \array_filter((array) $this->query('with', []), fn (string $relate) => \method_exists($model, $relate));
     }

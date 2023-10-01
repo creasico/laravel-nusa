@@ -2,20 +2,26 @@
 
 namespace Creasi\Nusa\Http\Controllers;
 
+use Creasi\Nusa\Contracts\Village;
 use Creasi\Nusa\Http\Requests\NusaRequest;
 use Creasi\Nusa\Http\Resources\NusaResource;
-use Creasi\Nusa\Models\Village;
 
-class VillageController
+final class VillageController
 {
-    public function index(NusaRequest $request, Village $village)
+    public function __construct(
+        private Village $model
+    ) {
+        // .
+    }
+
+    public function index(NusaRequest $request)
     {
-        return NusaResource::collection($request->apply($village));
+        return NusaResource::collection($request->apply($this->model));
     }
 
     public function show(NusaRequest $request, int $village)
     {
-        $village = Village::query()->findOrFail($village);
+        $village = $this->model->findOrFail($village);
 
         $village->load($request->relations($village));
 

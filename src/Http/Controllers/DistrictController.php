@@ -2,20 +2,26 @@
 
 namespace Creasi\Nusa\Http\Controllers;
 
+use Creasi\Nusa\Contracts\District;
 use Creasi\Nusa\Http\Requests\NusaRequest;
 use Creasi\Nusa\Http\Resources\NusaResource;
-use Creasi\Nusa\Models\District;
 
-class DistrictController
+final class DistrictController
 {
-    public function index(NusaRequest $request, District $district)
+    public function __construct(
+        private District $model
+    ) {
+        // .
+    }
+
+    public function index(NusaRequest $request)
     {
-        return NusaResource::collection($request->apply($district));
+        return NusaResource::collection($request->apply($this->model));
     }
 
     public function show(NusaRequest $request, int $district)
     {
-        $district = District::query()->findOrFail($district);
+        $district = $this->model->findOrFail($district);
 
         $district->load($request->relations($district));
 
@@ -24,7 +30,7 @@ class DistrictController
 
     public function villages(int $district)
     {
-        $district = District::query()->findOrFail($district);
+        $district = $this->model->findOrFail($district);
 
         return NusaResource::collection($district->villages()->paginate());
     }

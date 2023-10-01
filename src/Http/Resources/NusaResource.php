@@ -10,7 +10,7 @@ use Illuminate\Http\Resources\Json\JsonResource;
 /**
  * @property-read Model $resource
  */
-class NusaResource extends JsonResource
+final class NusaResource extends JsonResource
 {
     public function __construct($resource)
     {
