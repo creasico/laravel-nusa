@@ -9,10 +9,12 @@ use Creasi\Nusa\Contracts\Province as ProvinceContract;
 use Creasi\Nusa\Contracts\Regency;
 use Creasi\Nusa\Contracts\Village;
 use Creasi\Nusa\Models\Province;
+use Creasi\Tests\ServiceProviderTest;
 use Creasi\Tests\TestCase;
 use Illuminate\Support\Collection;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Depends;
+use PHPUnit\Framework\Attributes\DependsOnClass;
 use PHPUnit\Framework\Attributes\Group;
 use PHPUnit\Framework\Attributes\Test;
 
@@ -20,7 +22,7 @@ use PHPUnit\Framework\Attributes\Test;
 #[Group('provinces')]
 class ProvinceTest extends TestCase
 {
-    public static function searchProvider()
+    public static function searchProvider(): array
     {
         return [
             'by name' => ['Jawa'],
@@ -28,21 +30,21 @@ class ProvinceTest extends TestCase
     }
 
     #[Test]
+    #[DependsOnClass(ServiceProviderTest::class)]
     #[DataProvider('searchProvider')]
-    public function it_should_be_able_to_search(string|int $keyword)
+    public function it_should_be_able_to_search(string $keyword): void
     {
         $province = Province::search($keyword)->first();
 
         $this->assertNotNull($province);
     }
 
+    /**
+     * @return Collection<int, Province>
+     */
     #[Test]
-    public function it_should_be_true()
+    public function it_should_be_true(): Collection
     {
-        if (! env('GIT_BRANCH')) {
-            $this->artisan('nusa:sync');
-        }
-
         $provinces = Province::with([
             'regencies' => function ($query) {
                 $query->take(10);
@@ -70,10 +72,11 @@ class ProvinceTest extends TestCase
 
     /**
      * @param  Collection<int, Province>  $provinces
+     * @return Collection<int, Province>
      */
     #[Test]
     #[Depends('it_should_be_true')]
-    public function it_should_has_many_regencies(Collection $provinces)
+    public function it_should_has_many_regencies(Collection $provinces): Collection
     {
         $regencies = collect();
 
@@ -88,10 +91,11 @@ class ProvinceTest extends TestCase
 
     /**
      * @param  Collection<int, Province>  $provinces
+     * @return Collection<int, Province>
      */
     #[Test]
     #[Depends('it_should_be_true')]
-    public function it_should_has_many_districts(Collection $provinces)
+    public function it_should_has_many_districts(Collection $provinces): Collection
     {
         $districts = \collect();
 
@@ -106,10 +110,11 @@ class ProvinceTest extends TestCase
 
     /**
      * @param  Collection<int, Province>  $provinces
+     * @return Collection<int, Province>
      */
     #[Test]
     #[Depends('it_should_be_true')]
-    public function it_should_has_many_villages(Collection $provinces)
+    public function it_should_has_many_villages(Collection $provinces): Collection
     {
         $villages = \collect();
 

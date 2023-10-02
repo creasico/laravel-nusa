@@ -2,8 +2,10 @@
 
 namespace Creasi\Tests\Features;
 
+use Creasi\Tests\Models\ProvinceTest as ModelTest;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Depends;
+use PHPUnit\Framework\Attributes\DependsOnClass;
 use PHPUnit\Framework\Attributes\Group;
 use PHPUnit\Framework\Attributes\Test;
 
@@ -42,38 +44,21 @@ class ProvinceTest extends TestCase
     }
 
     #[Test]
+    #[DependsOnClass(ModelTest::class)]
     #[DataProvider('availableQueries')]
-    public function it_shows_all_available_provinces(?string ...$with)
+    public function it_shows_all_available_provinces(?string ...$with): void
     {
         $response = $this->getJson($this->path(query: [
             'with' => $with,
         ]));
 
-        $response->assertOk()->assertJsonStructure([
-            'data' => [self::FIELDS],
-            'links' => ['first', 'last', 'prev', 'next'],
-            'meta' => ['current_page', 'from', 'last_page', 'links', 'path', 'per_page', 'to', 'total'],
-        ]);
-    }
-
-    #[Test]
-    #[Depends('it_shows_all_available_provinces')]
-    public function it_shows_provinces_by_selected_codes()
-    {
-        $response = $this->getJson($this->path(query: [
-            'codes' => [33, 32],
-        ]));
-
-        $response->assertOk()->assertJsonStructure([
-            'data' => [self::FIELDS],
-            'meta' => [],
-        ])->assertJsonCount(2, 'data');
+        $this->assertCollectionResponse($response, self::FIELDS, $with);
     }
 
     #[Test]
     #[Depends('it_shows_all_available_provinces')]
     #[DataProvider('invalidCodes')]
-    public function it_shows_errors_for_invalid_codes(mixed $codes)
+    public function it_shows_errors_for_invalid_codes(mixed $codes): void
     {
         $response = $this->getJson($this->path(query: [
             'codes' => $codes,
@@ -84,69 +69,62 @@ class ProvinceTest extends TestCase
 
     #[Test]
     #[Depends('it_shows_all_available_provinces')]
-    public function it_shows_provinces_by_search_query()
+    public function it_shows_provinces_by_selected_codes(): void
+    {
+        $response = $this->getJson($this->path(query: [
+            'codes' => [33, 32],
+        ]));
+
+        $this->assertCollectionResponse($response, self::FIELDS)->assertJsonCount(2, 'data');
+    }
+
+    #[Test]
+    #[Depends('it_shows_all_available_provinces')]
+    public function it_shows_provinces_by_search_query(): void
     {
         $response = $this->getJson($this->path(query: [
             'search' => 'Jawa Tengah',
         ]));
 
-        $response->assertOk()->assertJsonStructure([
-            'data' => [self::FIELDS],
-            'meta' => [],
-        ])->assertJsonCount(1, 'data');
+        $this->assertCollectionResponse($response, self::FIELDS)->assertJsonCount(1, 'data');
     }
 
     #[Test]
     #[Depends('it_shows_all_available_provinces')]
     #[DataProvider('availableQueries')]
-    public function it_shows_single_province(?string ...$with)
+    public function it_shows_single_province(?string ...$with): void
     {
         $response = $this->getJson($this->path('33', [
             'with' => $with,
         ]));
 
-        $response->assertOk()->assertJsonStructure([
-            'data' => self::FIELDS,
-            'meta' => [],
-        ]);
+        $this->assertSingleResponse($response, self::FIELDS, $with);
     }
 
     #[Test]
     #[Depends('it_shows_all_available_provinces')]
-    public function it_shows_available_regencies_in_a_province()
+    public function it_shows_available_regencies_in_a_province(): void
     {
         $response = $this->getJson($this->path('33/regencies'));
 
-        $response->assertOk()->assertJsonStructure([
-            'data' => [RegencyTest::FIELDS],
-            'links' => ['first', 'last', 'prev', 'next'],
-            'meta' => ['current_page', 'from', 'last_page', 'links', 'path', 'per_page', 'to', 'total'],
-        ]);
+        $this->assertCollectionResponse($response, RegencyTest::FIELDS);
     }
 
     #[Test]
     #[Depends('it_shows_all_available_provinces')]
-    public function it_shows_available_districts_in_a_province()
+    public function it_shows_available_districts_in_a_province(): void
     {
         $response = $this->getJson($this->path('33/districts'));
 
-        $response->assertOk()->assertJsonStructure([
-            'data' => [DistrictTest::FIELDS],
-            'links' => ['first', 'last', 'prev', 'next'],
-            'meta' => ['current_page', 'from', 'last_page', 'links', 'path', 'per_page', 'to', 'total'],
-        ]);
+        $this->assertCollectionResponse($response, DistrictTest::FIELDS);
     }
 
     #[Test]
     #[Depends('it_shows_all_available_provinces')]
-    public function it_shows_available_villages_in_a_province()
+    public function it_shows_available_villages_in_a_province(): void
     {
         $response = $this->getJson($this->path('33/villages'));
 
-        $response->assertOk()->assertJsonStructure([
-            'data' => [VillageTest::FIELDS],
-            'links' => ['first', 'last', 'prev', 'next'],
-            'meta' => ['current_page', 'from', 'last_page', 'links', 'path', 'per_page', 'to', 'total'],
-        ]);
+        $this->assertCollectionResponse($response, VillageTest::FIELDS);
     }
 }

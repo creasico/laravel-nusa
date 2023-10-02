@@ -14,6 +14,7 @@ use Illuminate\Support\Collection;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Depends;
 use PHPUnit\Framework\Attributes\DependsExternal;
+use PHPUnit\Framework\Attributes\DependsOnClass;
 use PHPUnit\Framework\Attributes\Group;
 use PHPUnit\Framework\Attributes\Test;
 
@@ -21,7 +22,7 @@ use PHPUnit\Framework\Attributes\Test;
 #[Group('regencies')]
 class RegencyTest extends TestCase
 {
-    public static function searchProvider()
+    public static function searchProvider(): array
     {
         return [
             'by name' => ['Pekalongan'],
@@ -29,12 +30,13 @@ class RegencyTest extends TestCase
     }
 
     #[Test]
+    #[DependsOnClass(ProvinceTest::class)]
     #[DataProvider('searchProvider')]
-    public function it_should_be_able_to_search(string|int $keyword)
+    public function it_should_be_able_to_search(string $keyword): void
     {
-        $province = Regency::search($keyword)->first();
+        $regency = Regency::search($keyword)->first();
 
-        $this->assertNotNull($province);
+        $this->assertNotNull($regency);
     }
 
     /**
@@ -43,7 +45,7 @@ class RegencyTest extends TestCase
      */
     #[Test]
     #[DependsExternal(ProvinceTest::class, 'it_should_has_many_regencies')]
-    public function it_should_has_many_regencies(Collection $regencies)
+    public function it_should_has_many_regencies(Collection $regencies): Collection
     {
         $regencies->each(function (Regency $regency) {
             $this->assertIsInt($regency->code, 'Code should be int');
@@ -63,7 +65,7 @@ class RegencyTest extends TestCase
      */
     #[Test]
     #[Depends('it_should_has_many_regencies')]
-    public function it_should_belongs_to_province(Collection $regencies)
+    public function it_should_belongs_to_province(Collection $regencies): void
     {
         $regencies->each(function (Regency $regency) {
             $this->assertInstanceOf(Province::class, $regency->province);
@@ -75,7 +77,7 @@ class RegencyTest extends TestCase
      */
     #[Test]
     #[Depends('it_should_has_many_regencies')]
-    public function it_should_has_many_districts(Collection $regencies)
+    public function it_should_has_many_districts(Collection $regencies): void
     {
         $regencies->each(function (Regency $regency) {
             $this->assertTrue($regency->districts->every(fn ($dis) => $dis instanceof District));
@@ -87,7 +89,7 @@ class RegencyTest extends TestCase
      */
     #[Test]
     #[Depends('it_should_has_many_regencies')]
-    public function it_should_has_many_villages(Collection $regencies)
+    public function it_should_has_many_villages(Collection $regencies): void
     {
         $regencies->each(function (Regency $regency) {
             $this->assertTrue($regency->villages->every(fn ($vil) => $vil instanceof Village));
