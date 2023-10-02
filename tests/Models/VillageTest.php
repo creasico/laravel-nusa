@@ -11,8 +11,10 @@ use Creasi\Nusa\Contracts\Village as VillageContract;
 use Creasi\Nusa\Models\Village;
 use Creasi\Tests\TestCase;
 use Illuminate\Support\Collection;
+use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Depends;
 use PHPUnit\Framework\Attributes\DependsExternal;
+use PHPUnit\Framework\Attributes\DependsOnClass;
 use PHPUnit\Framework\Attributes\Group;
 use PHPUnit\Framework\Attributes\Test;
 
@@ -20,13 +22,30 @@ use PHPUnit\Framework\Attributes\Test;
 #[Group('villages')]
 class VillageTest extends TestCase
 {
+    public static function searchProvider(): array
+    {
+        return [
+            'by name' => ['Kraton'],
+        ];
+    }
+
+    #[Test]
+    #[DependsOnClass(DistrictTest::class)]
+    #[DataProvider('searchProvider')]
+    public function it_should_be_able_to_search(string $keyword): void
+    {
+        $village = Village::search($keyword)->first();
+
+        $this->assertNotNull($village);
+    }
+
     /**
      * @param  Collection<int, Village>  $villages
      * @return Collection<int, Village>
      */
     #[Test]
     #[DependsExternal(ProvinceTest::class, 'it_should_has_many_villages')]
-    public function it_should_has_many_villages(Collection $villages)
+    public function it_should_has_many_villages(Collection $villages): Collection
     {
         $villages->each(function (Village $village) {
             $this->assertIsInt($village->code, 'Code should be int');
@@ -43,7 +62,7 @@ class VillageTest extends TestCase
      */
     #[Test]
     #[Depends('it_should_has_many_villages')]
-    public function it_should_belongs_to_province(Collection $villages)
+    public function it_should_belongs_to_province(Collection $villages): void
     {
         $villages->each(function (Village $village) {
             $this->assertInstanceOf(Province::class, $village->province);
@@ -55,7 +74,7 @@ class VillageTest extends TestCase
      */
     #[Test]
     #[Depends('it_should_has_many_villages')]
-    public function it_should_belongs_to_regency(Collection $villages)
+    public function it_should_belongs_to_regency(Collection $villages): void
     {
         $villages->each(function (Village $village) {
             $this->assertInstanceOf(Regency::class, $village->regency);
@@ -67,7 +86,7 @@ class VillageTest extends TestCase
      */
     #[Test]
     #[Depends('it_should_has_many_villages')]
-    public function it_should_belongs_to_district(Collection $villages)
+    public function it_should_belongs_to_district(Collection $villages): void
     {
         $villages->each(function (Village $village) {
             $this->assertInstanceOf(District::class, $village->district);

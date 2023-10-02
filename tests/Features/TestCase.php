@@ -3,8 +3,9 @@
 namespace Creasi\Tests\Features;
 
 use Creasi\Tests\TestCase as BaseTestCase;
+use Illuminate\Testing\TestResponse;
 
-class TestCase extends BaseTestCase
+abstract class TestCase extends BaseTestCase
 {
     protected $path = '';
 
@@ -17,5 +18,36 @@ class TestCase extends BaseTestCase
         }
 
         return $path;
+    }
+
+    abstract public static function availableQueries(): array;
+
+    abstract public static function invalidCodes(): array;
+
+    /**
+     * Assert that the response has a 200 "OK" status code and given JSON structure.
+     */
+    protected function assertSingleResponse(TestResponse $response, array $fields): TestResponse
+    {
+        // $fields = \array_merge($fields, $with);
+
+        return $response->assertOk()->assertJsonStructure([
+            'data' => $fields,
+            'meta' => [],
+        ]);
+    }
+
+    /**
+     * Assert that the response has a 200 "OK" status code and given JSON structure.
+     */
+    protected function assertCollectionResponse(TestResponse $response, array $fields): TestResponse
+    {
+        // $fields = \array_merge($fields, $with);
+
+        return $response->assertOk()->assertJsonStructure([
+            'data' => [$fields],
+            'links' => ['first', 'last', 'prev', 'next'],
+            'meta' => ['current_page', 'from', 'last_page', 'links', 'path', 'per_page', 'to', 'total'],
+        ]);
     }
 }

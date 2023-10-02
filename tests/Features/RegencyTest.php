@@ -2,6 +2,9 @@
 
 namespace Creasi\Tests\Features;
 
+use Creasi\Tests\Models\RegencyTest as ModelTest;
+use PHPUnit\Framework\Attributes\DataProvider;
+use PHPUnit\Framework\Attributes\Depends;
 use PHPUnit\Framework\Attributes\DependsOnClass;
 use PHPUnit\Framework\Attributes\Group;
 use PHPUnit\Framework\Attributes\Test;
@@ -10,90 +13,111 @@ use PHPUnit\Framework\Attributes\Test;
 #[Group('regencies')]
 class RegencyTest extends TestCase
 {
+    public const FIELDS = [
+        'code',
+        'name',
+        'province_code',
+        // 'latitude',
+        // 'longitude',
+        // 'coordinates'
+    ];
+
     protected $path = 'nusa/regencies';
 
-    protected $fields = ['code', 'name', 'province_code'];
-
-    #[Test]
-    #[DependsOnClass(ProvinceTest::class)]
-    public function it_shows_all_available_regencies()
+    public static function availableQueries(): array
     {
-        $response = $this->getJson($this->path);
+        return [
+            'basic request' => [],
+            'include postal_codes' => ['postal_codes'],
+            'include coordinates' => ['coordinates'],
+            'include province' => ['province'],
+            'include districts' => ['districts'],
+            'include villages' => ['villages'],
+        ];
+    }
 
-        $response->assertOk()->assertJsonStructure([
-            'data' => [$this->fields],
-            'links' => ['first', 'last', 'prev', 'next'],
-            'meta' => ['current_page', 'from', 'last_page', 'links', 'path', 'per_page', 'to', 'total'],
-        ]);
+    public static function invalidCodes(): array
+    {
+        return [
+            'array of non-numeric code' => [['foo']],
+            'non-array of numeric code' => [3375],
+        ];
     }
 
     #[Test]
-    public function it_shows_regencies_by_selected_codes()
+    #[DependsOnClass(ModelTest::class)]
+    #[DependsOnClass(ProvinceTest::class)]
+    #[DataProvider('availableQueries')]
+    public function it_shows_all_available_regencies(?string ...$with): void
+    {
+        $response = $this->getJson($this->path(query: [
+            'with' => $with,
+        ]));
+
+        $this->assertCollectionResponse($response, self::FIELDS, $with);
+    }
+
+    #[Test]
+    #[Depends('it_shows_all_available_regencies')]
+    #[DataProvider('invalidCodes')]
+    public function it_shows_errors_for_invalid_codes(mixed $codes): void
+    {
+        $response = $this->getJson($this->path(query: [
+            'codes' => $codes,
+        ]));
+
+        $response->assertUnprocessable();
+    }
+
+    #[Test]
+    #[Depends('it_shows_all_available_regencies')]
+    public function it_shows_regencies_by_selected_codes(): void
     {
         $response = $this->getJson($this->path(query: [
             'codes' => [3375, 3325],
         ]));
 
-        $response->assertOk()->assertJsonCount(2, 'data');
+        $this->assertCollectionResponse($response, self::FIELDS)->assertJsonCount(2, 'data');
     }
 
     #[Test]
-    public function it_shows_errors_when_codes_item_is_not_numeric()
-    {
-        $response = $this->getJson($this->path(query: [
-            'codes' => ['foo'],
-        ]));
-
-        $response->assertUnprocessable();
-    }
-
-    #[Test]
-    public function it_shows_errors_when_codes_is_not_an_array()
-    {
-        $response = $this->getJson($this->path(query: [
-            'codes' => 33,
-        ]));
-
-        $response->assertUnprocessable();
-    }
-
-    #[Test]
-    public function it_shows_regencies_by_search_query()
+    #[Depends('it_shows_all_available_regencies')]
+    public function it_shows_regencies_by_search_query(): void
     {
         $response = $this->getJson($this->path(query: [
             'search' => 'Pekalongan',
         ]));
 
-        $response->assertOk()->assertJsonCount(2, 'data');
+        $this->assertCollectionResponse($response, self::FIELDS)->assertJsonCount(2, 'data');
     }
 
     #[Test]
-    public function it_shows_single_regency()
+    #[Depends('it_shows_all_available_regencies')]
+    #[DataProvider('availableQueries')]
+    public function it_shows_single_regency(?string ...$with): void
     {
-        $response = $this->getJson($this->path('3375'));
+        $response = $this->getJson($this->path('3375', [
+            'with' => $with,
+        ]));
 
-        $response->assertOk()->assertJsonStructure([
-            'data' => $this->fields,
-        ]);
+        $this->assertSingleResponse($response, self::FIELDS, $with);
     }
 
     #[Test]
-    public function it_shows_available_districts_in_a_regency()
+    #[Depends('it_shows_all_available_regencies')]
+    public function it_shows_available_districts_in_a_regency(): void
     {
         $response = $this->getJson($this->path('3375/districts'));
 
-        $response->assertOk()->assertJsonStructure([
-            'data' => [$this->fields],
-        ]);
+        $this->assertCollectionResponse($response, DistrictTest::FIELDS);
     }
 
     #[Test]
-    public function it_shows_available_villages_in_a_regency()
+    #[Depends('it_shows_all_available_regencies')]
+    public function it_shows_available_villages_in_a_regency(): void
     {
         $response = $this->getJson($this->path('3375/villages'));
 
-        $response->assertOk()->assertJsonStructure([
-            'data' => [$this->fields],
-        ]);
+        $this->assertCollectionResponse($response, VillageTest::FIELDS);
     }
 }
