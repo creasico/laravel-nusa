@@ -23,7 +23,7 @@ final class ProvinceController
 
     public function show(NusaRequest $request, int $province)
     {
-        $province = $this->model->find($province);
+        $province = $this->model->findOrFail($province);
 
         $request->relations($province);
 
