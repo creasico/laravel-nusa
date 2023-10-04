@@ -43,6 +43,13 @@ final class NusaRequest extends FormRequest
      */
     public function relations($model): array
     {
-        return \array_filter((array) $this->query('with', []), fn (string $relate) => \method_exists($model, $relate));
+        $relations = \array_filter(
+            (array) $this->query('with', []),
+            fn (string $relate) => \method_exists($model, $relate)
+        );
+
+        $model->load($relations);
+
+        return $relations;
     }
 }

@@ -16,6 +16,8 @@ final class ProvinceController
 
     public function index(NusaRequest $request)
     {
+        $request->relations($this->model);
+
         return NusaResource::collection($request->apply($this->model));
     }
 
@@ -23,7 +25,7 @@ final class ProvinceController
     {
         $province = $this->model->find($province);
 
-        $province->load($request->relations($province));
+        $request->relations($province);
 
         return new NusaResource($province);
     }
