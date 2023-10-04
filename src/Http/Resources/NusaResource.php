@@ -27,8 +27,12 @@ final class NusaResource extends JsonResource
         $arr = $this->normalize($this->resource, $with);
 
         foreach ($with as $relation) {
+            if (\in_array($relation, ['postal_codes', 'coordinates'], true)) {
+                continue;
+            }
+
             $arr[$relation] = $this->whenLoaded($relation, function () use ($relation, $with) {
-                $relate = $this->resource->$relation;
+                $relate = $this->resource->getRelation($relation);
 
                 if ($relate instanceof Model) {
                     return $this->normalize($relate, $with);
@@ -38,37 +42,37 @@ final class NusaResource extends JsonResource
             });
         }
 
-        return \array_filter($arr);
+        return $arr;
     }
 
+    /**
+     * @param  string[]  $with
+     * @return array<string, mixed>
+     */
     private function normalize(Model $resource, array $with = []): array
     {
-        $arr = [
+        $arr = \array_filter([
             $resource->getKeyName() => $resource->getKey(),
             'name' => $resource->name,
             'district_code' => $resource->district_code,
             'regency_code' => $resource->regency_code,
             'province_code' => $resource->province_code,
-            'postal_code' => $this->when(
-                $this->isVillage($resource),
-                fn () => $resource->postal_code
-            ),
-        ];
+            'postal_code' => $this->isVillage($resource) ? $resource->postal_code : null,
+            'latitude' => $resource->latitude,
+            'longitude' => $resource->longitude,
+        ]);
 
-        if (\in_array('postal_codes', $with, true)) {
-            $arr['postal_codes'] = $this->when(
-                ! $this->isVillage($resource),
-                fn () => $resource->postal_codes
-            );
+        if (! $this->isVillage($resource)) {
+            if (\in_array('postal_codes', $with)) {
+                $arr['postal_codes'] = $resource->postal_codes->toArray();
+            }
+
+            if (\in_array('coordinates', $with)) {
+                $arr['coordinates'] = $resource->coordinates;
+            }
         }
 
-        if (\in_array('coordinates', $with, true)) {
-            $arr['latitude'] = $resource->latitude;
-            $arr['longitude'] = $resource->longitude;
-            $arr['coordinates'] = $resource->coordinates;
-        }
-
-        return \array_filter($arr);
+        return $arr;
     }
 
     private function isVillage(Model $resource): bool

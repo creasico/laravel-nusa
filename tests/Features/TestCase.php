@@ -27,12 +27,12 @@ abstract class TestCase extends BaseTestCase
     /**
      * Assert that the response has a 200 "OK" status code and given JSON structure.
      */
-    protected function assertSingleResponse(TestResponse $response, array $fields): TestResponse
+    protected function assertSingleResponse(TestResponse $response, array $fields, array $with = []): TestResponse
     {
-        // $fields = \array_merge($fields, $with);
+        $fields = \array_merge($fields, $with);
 
         return $response->assertOk()->assertJsonStructure([
-            'data' => $fields,
+            'data' => \array_filter($fields),
             'meta' => [],
         ]);
     }
@@ -45,7 +45,7 @@ abstract class TestCase extends BaseTestCase
         // $fields = \array_merge($fields, $with);
 
         return $response->assertOk()->assertJsonStructure([
-            'data' => [$fields],
+            'data' => [\array_filter($fields)],
             'links' => ['first', 'last', 'prev', 'next'],
             'meta' => ['current_page', 'from', 'last_page', 'links', 'path', 'per_page', 'to', 'total'],
         ]);
