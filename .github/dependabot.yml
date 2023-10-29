@@ -1,8 +1,28 @@
 version: 2
+
 updates:
-- package-ecosystem: composer
-  directory: "/"
-  schedule:
-    interval: weekly
-    time: "22:00"
-  open-pull-requests-limit: 10
+  - package-ecosystem: composer
+    directory: "/"
+    schedule:
+      interval: monthly
+      timezone: "Asia/Jakarta"
+    open-pull-requests-limit: 5
+    versioning-strategy: increase-if-necessary
+    groups:
+      dependencies:
+        dependency-type: "production"
+        patterns: ['*']
+      dev-dependencies:
+        dependency-type: "development"
+        patterns: ['*']
+
+  - package-ecosystem: npm
+    directory: "/"
+    schedule:
+      interval: monthly
+      timezone: "Asia/Jakarta"
+    open-pull-requests-limit: 5
+    versioning-strategy: increase-if-necessary
+    groups:
+      dependencies:
+        patterns: ['*']
