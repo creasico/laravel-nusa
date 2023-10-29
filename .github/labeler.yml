@@ -1,0 +1,29 @@
+integration:
+- '.github/workflows/*.yml'
+- 'tests/Browser/**.php'
+
+docs:
+- '.env.example'
+- '**.md'
+
+deployment:
+- '.github/workflows/deploy.yml'
+- 'scripts/deploy.php'
+- 'scripts/deploy/**'
+
+api:
+- 'src/**.php'
+- 'routes/*.php'
+
+localization:
+- 'resources/lang/**'
+
+'ui/ux':
+- 'resources/views/**'
+
+'db: schema':
+- 'src/Models/**.php'
+- 'database/migrations/**.php'
+
+enhancement:
+- '**'
