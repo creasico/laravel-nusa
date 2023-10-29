@@ -5,6 +5,7 @@
     "author": "Creasi Developers <developers@creasi.co>",
     "repository": "github:creasico/laravel-nusa",
     "scripts": {
+        "postinstall": "simple-git-hooks",
         "release": "standard-version -s"
     },
     "devDependencies": {
