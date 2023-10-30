@@ -3,7 +3,6 @@
 
 # Exclude unused files
 # see: https://redd.it/2jzp6k
-submodules       export-ignore
 .editorconfig    export-ignore
 .gitattributes   export-ignore
 .github          export-ignore
@@ -11,9 +10,10 @@ submodules       export-ignore
 .gitmodules      export-ignore
 .vscode          export-ignore
 CHANGELOG.md     export-ignore
-# README.md        export-ignore
 composer.lock    export-ignore
 package.json     export-ignore
 phpunit.xml      export-ignore
+pnpm-lock.yaml   export-ignore
 scripts          export-ignore
+submodules       export-ignore
 tests            export-ignore
