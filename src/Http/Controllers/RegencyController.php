@@ -16,6 +16,8 @@ final class RegencyController
 
     public function index(NusaRequest $request)
     {
+        $request->relations($this->model);
+
         return NusaResource::collection($request->apply($this->model));
     }
 
@@ -23,7 +25,7 @@ final class RegencyController
     {
         $regency = $this->model->findOrFail($regency);
 
-        $regency->load($request->relations($regency));
+        $request->relations($regency);
 
         return new NusaResource($regency);
     }

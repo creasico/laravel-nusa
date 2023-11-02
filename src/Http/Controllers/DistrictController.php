@@ -16,6 +16,8 @@ final class DistrictController
 
     public function index(NusaRequest $request)
     {
+        $request->relations($this->model);
+
         return NusaResource::collection($request->apply($this->model));
     }
 
@@ -23,7 +25,7 @@ final class DistrictController
     {
         $district = $this->model->findOrFail($district);
 
-        $district->load($request->relations($district));
+        $request->relations($district);
 
         return new NusaResource($district);
     }

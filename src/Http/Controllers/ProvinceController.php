@@ -16,14 +16,16 @@ final class ProvinceController
 
     public function index(NusaRequest $request)
     {
+        $request->relations($this->model);
+
         return NusaResource::collection($request->apply($this->model));
     }
 
     public function show(NusaRequest $request, int $province)
     {
-        $province = $this->model->find($province);
+        $province = $this->model->findOrFail($province);
 
-        $province->load($request->relations($province));
+        $request->relations($province);
 
         return new NusaResource($province);
     }

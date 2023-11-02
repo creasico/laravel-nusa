@@ -16,6 +16,8 @@ final class VillageController
 
     public function index(NusaRequest $request)
     {
+        $request->relations($this->model);
+
         return NusaResource::collection($request->apply($this->model));
     }
 
@@ -23,7 +25,7 @@ final class VillageController
     {
         $village = $this->model->findOrFail($village);
 
-        $village->load($request->relations($village));
+        $request->relations($village);
 
         return new NusaResource($village);
     }
