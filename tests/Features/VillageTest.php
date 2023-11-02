@@ -80,6 +80,17 @@ class VillageTest extends TestCase
 
     #[Test]
     #[Depends('it_shows_available_villages')]
+    public function it_shows_villages_by_postal_codes(): void
+    {
+        $response = $this->getJson($this->path(query: [
+            'postal_code' => 51252,
+        ]));
+
+        $this->assertCollectionResponse($response, self::FIELDS)->assertJsonCount(15, 'data');
+    }
+
+    #[Test]
+    #[Depends('it_shows_available_villages')]
     public function it_shows_villages_by_search_query(): void
     {
         $response = $this->getJson($this->path(query: [

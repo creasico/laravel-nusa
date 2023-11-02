@@ -30,10 +30,12 @@ final class DistrictController
         return new NusaResource($district);
     }
 
-    public function villages(int $district)
+    public function villages(NusaRequest $request, int $district)
     {
         $district = $this->model->findOrFail($district);
 
-        return NusaResource::collection($district->villages()->paginate());
+        return NusaResource::collection(
+            $request->apply($district->villages())
+        );
     }
 }

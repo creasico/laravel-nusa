@@ -30,17 +30,21 @@ final class RegencyController
         return new NusaResource($regency);
     }
 
-    public function districts(int $regency)
+    public function districts(NusaRequest $request, int $regency)
     {
         $regency = $this->model->findOrFail($regency);
 
-        return NusaResource::collection($regency->districts()->paginate());
+        return NusaResource::collection(
+            $request->apply($regency->districts())
+        );
     }
 
-    public function villages(int $regency)
+    public function villages(NusaRequest $request, int $regency)
     {
         $regency = $this->model->findOrFail($regency);
 
-        return NusaResource::collection($regency->villages()->paginate());
+        return NusaResource::collection(
+            $request->apply($regency->villages())
+        );
     }
 }

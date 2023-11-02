@@ -36,6 +36,22 @@ class RegencyTest extends TestCase
         ];
     }
 
+    public static function possibleSearchDistricts(): array
+    {
+        return [
+            'no search' => [],
+            'with keyword' => ['kedung'],
+        ];
+    }
+
+    public static function possibleSearchVillages(): array
+    {
+        return [
+            'no search' => [],
+            'with keyword' => ['dukuh'],
+        ];
+    }
+
     public static function invalidCodes(): array
     {
         return [
@@ -105,18 +121,24 @@ class RegencyTest extends TestCase
 
     #[Test]
     #[Depends('it_shows_all_available_regencies')]
-    public function it_shows_available_districts_in_a_regency(): void
+    #[DataProvider('possibleSearchDistricts')]
+    public function it_shows_available_districts_in_a_regency(?string $search): void
     {
-        $response = $this->getJson($this->path('3375/districts'));
+        $response = $this->getJson($this->path('3326/districts', [
+            'search' => $search,
+        ]));
 
         $this->assertCollectionResponse($response, DistrictTest::FIELDS);
     }
 
     #[Test]
     #[Depends('it_shows_all_available_regencies')]
-    public function it_shows_available_villages_in_a_regency(): void
+    #[DataProvider('possibleSearchVillages')]
+    public function it_shows_available_villages_in_a_regency(?string $search): void
     {
-        $response = $this->getJson($this->path('3375/villages'));
+        $response = $this->getJson($this->path('3375/villages', [
+            'search' => $search,
+        ]));
 
         $this->assertCollectionResponse($response, VillageTest::FIELDS);
     }

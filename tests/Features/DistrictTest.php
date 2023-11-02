@@ -32,6 +32,14 @@ class DistrictTest extends TestCase
         ];
     }
 
+    public static function possibleSearchVillages(): array
+    {
+        return [
+            'no search' => [],
+            'with keyword' => ['dukuh'],
+        ];
+    }
+
     public static function invalidCodes(): array
     {
         return [
@@ -101,9 +109,12 @@ class DistrictTest extends TestCase
 
     #[Test]
     #[Depends('it_shows_available_districts')]
-    public function it_shows_available_villages_in_a_district(): void
+    #[DataProvider('possibleSearchVillages')]
+    public function it_shows_available_villages_in_a_district(?string $search): void
     {
-        $response = $this->getJson($this->path('337503/villages'));
+        $response = $this->getJson($this->path('337503/villages', [
+            'search' => $search,
+        ]));
 
         $this->assertCollectionResponse($response, VillageTest::FIELDS);
     }
