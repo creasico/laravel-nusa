@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.4](https://github.com/creasico/laravel-nusa/compare/v0.1.3...v0.1.4) (2023-11-02)
+
+
+### Features
+
+* **api:** add `with` query string to include certain fields or relations ([94580b2](https://github.com/creasico/laravel-nusa/commit/94580b229ca8373ec908749beeb865dcda25f902))
+* **api:** add ability to filter villages by `postal_code` ([ffde718](https://github.com/creasico/laravel-nusa/commit/ffde718e32dd1c46cb55eb3d59fc56f0c3f50aeb))
+* **api:** add ability to use `search` query on subroutes ([a0949da](https://github.com/creasico/laravel-nusa/commit/a0949daa9d56eb94a89f6076e4e4dae76d2a64f9))
+* **dev:** enable vscode debuging config ([70c74f3](https://github.com/creasico/laravel-nusa/commit/70c74f3d5a4a4aa294ba34065afbd4c65324d7f7))
+
+
+### Bug Fixes
+
+* **api:** fix `with` query string does not return expected output ([62bc1a6](https://github.com/creasico/laravel-nusa/commit/62bc1a675539cdcafd4b1f7686c083cf0abd0edc))
+
 ### [0.1.3](https://github.com/creasico/laravel-nusa/compare/v0.1.2...v0.1.3) (2023-09-24)
 
 
