@@ -35,6 +35,30 @@ class ProvinceTest extends TestCase
         ];
     }
 
+    public static function possibleSearchRegencies(): array
+    {
+        return [
+            'no search' => [],
+            'with keyword' => ['pekalongan'],
+        ];
+    }
+
+    public static function possibleSearchDistricts(): array
+    {
+        return [
+            'no search' => [],
+            'with keyword' => ['kedung'],
+        ];
+    }
+
+    public static function possibleSearchVillages(): array
+    {
+        return [
+            'no search' => [],
+            'with keyword' => ['dukuh'],
+        ];
+    }
+
     public static function invalidCodes(): array
     {
         return [
@@ -103,27 +127,36 @@ class ProvinceTest extends TestCase
 
     #[Test]
     #[Depends('it_shows_all_available_provinces')]
-    public function it_shows_available_regencies_in_a_province(): void
+    #[DataProvider('possibleSearchRegencies')]
+    public function it_shows_available_regencies_in_a_province(?string $search): void
     {
-        $response = $this->getJson($this->path('33/regencies'));
+        $response = $this->getJson($this->path('33/regencies', [
+            'search' => $search,
+        ]));
 
         $this->assertCollectionResponse($response, RegencyTest::FIELDS);
     }
 
     #[Test]
     #[Depends('it_shows_all_available_provinces')]
-    public function it_shows_available_districts_in_a_province(): void
+    #[DataProvider('possibleSearchDistricts')]
+    public function it_shows_available_districts_in_a_province(?string $search): void
     {
-        $response = $this->getJson($this->path('33/districts'));
+        $response = $this->getJson($this->path('33/districts', [
+            'search' => $search,
+        ]));
 
         $this->assertCollectionResponse($response, DistrictTest::FIELDS);
     }
 
     #[Test]
     #[Depends('it_shows_all_available_provinces')]
-    public function it_shows_available_villages_in_a_province(): void
+    #[DataProvider('possibleSearchVillages')]
+    public function it_shows_available_villages_in_a_province(?string $search): void
     {
-        $response = $this->getJson($this->path('33/villages'));
+        $response = $this->getJson($this->path('33/villages', [
+            'search' => $search,
+        ]));
 
         $this->assertCollectionResponse($response, VillageTest::FIELDS);
     }

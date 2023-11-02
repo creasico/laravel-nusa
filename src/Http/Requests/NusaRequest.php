@@ -3,6 +3,7 @@
 namespace Creasi\Nusa\Http\Requests;
 
 use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Foundation\Http\FormRequest;
 
 final class NusaRequest extends FormRequest
@@ -26,12 +27,16 @@ final class NusaRequest extends FormRequest
      */
     public function apply($model)
     {
-        $result = $model->load($this->relations($model))->query()
+        $model = $model instanceof HasMany
+            ? $model
+            : $model->load($this->relations($model))->query();
+
+        $result = $model
             ->when($this->has('search'), function (Builder $query) {
                 $query->search($this->query('search'));
             })
-            ->when($this->has('codes'), function (Builder $query) use ($model) {
-                $query->whereIn($model->getKeyName(), (array) $this->query('codes'));
+            ->when($this->has('codes'), function (Builder $query) {
+                $query->whereIn($query->getModel()->getKeyName(), (array) $this->query('codes'));
             });
 
         return $result->paginate($this->query('per-page'));
