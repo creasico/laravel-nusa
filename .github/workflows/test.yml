@@ -3,7 +3,6 @@ name: Tests
 on:
   pull_request:
     branches: [main]
-    # types: [labeled]
   push:
     branches: [main]
     # paths: ['.github/**.yml', 'src/*', 'tests/*']
@@ -13,7 +12,6 @@ env:
   CC_TEST_REPORTER_URL: ${{ vars.CC_TEST_REPORTER_URL }}
   DB_USERNAME: creasico
   DB_PASSWORD: secret
-  # GIT_COMMIT_SHA: ${{ github.sha }}
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -25,7 +23,6 @@ jobs:
     runs-on: ubuntu-latest
     env:
       DB_NUSA: nusantara
-      GIT_BRANCH: ${{ github.ref }}
 
     outputs:
       composer-cache: ${{ steps.composer-cache.outputs.dir }}
