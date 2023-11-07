@@ -1944,38 +1944,6 @@
         "postal_code": "93460"
     },
     {
-        "code": 7402152008,
-        "district_code": 740215,
-        "regency_code": 7402,
-        "province_code": 74,
-        "name": "Waworoda Jaya",
-        "postal_code": null
-    },
-    {
-        "code": 7402152009,
-        "district_code": 740215,
-        "regency_code": 7402,
-        "province_code": 74,
-        "name": "Sanuanggamo",
-        "postal_code": null
-    },
-    {
-        "code": 7402152010,
-        "district_code": 740215,
-        "regency_code": 7402,
-        "province_code": 74,
-        "name": "Puundopi",
-        "postal_code": null
-    },
-    {
-        "code": 7402152011,
-        "district_code": 740215,
-        "regency_code": 7402,
-        "province_code": 74,
-        "name": "Ambopi",
-        "postal_code": null
-    },
-    {
         "code": 7402152012,
         "district_code": 740215,
         "regency_code": 7402,
@@ -1992,60 +1960,12 @@
         "postal_code": "93460"
     },
     {
-        "code": 7402152014,
-        "district_code": 740215,
-        "regency_code": 7402,
-        "province_code": 74,
-        "name": "Anggohu",
-        "postal_code": null
-    },
-    {
-        "code": 7402152015,
-        "district_code": 740215,
-        "regency_code": 7402,
-        "province_code": 74,
-        "name": "Olua Ao",
-        "postal_code": null
-    },
-    {
-        "code": 7402152016,
-        "district_code": 740215,
-        "regency_code": 7402,
-        "province_code": 74,
-        "name": "Nambeaboru",
-        "postal_code": null
-    },
-    {
-        "code": 7402152017,
-        "district_code": 740215,
-        "regency_code": 7402,
-        "province_code": 74,
-        "name": "Olo Onua",
-        "postal_code": null
-    },
-    {
         "code": 7402152018,
         "district_code": 740215,
         "regency_code": 7402,
         "province_code": 74,
         "name": "Ambepulu",
         "postal_code": "93460"
-    },
-    {
-        "code": 7402152019,
-        "district_code": 740215,
-        "regency_code": 7402,
-        "province_code": 74,
-        "name": "Barowila",
-        "postal_code": null
-    },
-    {
-        "code": 7402152020,
-        "district_code": 740215,
-        "regency_code": 7402,
-        "province_code": 74,
-        "name": "Andalambe",
-        "postal_code": null
     },
     {
         "code": 7402161003,
@@ -2262,6 +2182,14 @@
         "province_code": 74,
         "name": "Wawosanggula",
         "postal_code": "93464"
+    },
+    {
+        "code": 7402181001,
+        "district_code": 740218,
+        "regency_code": 7402,
+        "province_code": 74,
+        "name": "Uepai",
+        "postal_code": "93466"
     },
     {
         "code": 7402182002,
@@ -3862,6 +3790,86 @@
         "province_code": 74,
         "name": "Anggadola",
         "postal_code": "93469"
+    },
+    {
+        "code": 7402422001,
+        "district_code": 740242,
+        "regency_code": 7402,
+        "province_code": 74,
+        "name": "Waworoda Jaya",
+        "postal_code": "93460"
+    },
+    {
+        "code": 7402422002,
+        "district_code": 740242,
+        "regency_code": 7402,
+        "province_code": 74,
+        "name": "Uluao",
+        "postal_code": "93460"
+    },
+    {
+        "code": 7402422003,
+        "district_code": 740242,
+        "regency_code": 7402,
+        "province_code": 74,
+        "name": "Sanuanggamo",
+        "postal_code": "93460"
+    },
+    {
+        "code": 7402422004,
+        "district_code": 740242,
+        "regency_code": 7402,
+        "province_code": 74,
+        "name": "Anggohu",
+        "postal_code": "93460"
+    },
+    {
+        "code": 7402422005,
+        "district_code": 740242,
+        "regency_code": 7402,
+        "province_code": 74,
+        "name": "Ambopi",
+        "postal_code": "93460"
+    },
+    {
+        "code": 7402422006,
+        "district_code": 740242,
+        "regency_code": 7402,
+        "province_code": 74,
+        "name": "Nambeaboru",
+        "postal_code": "93460"
+    },
+    {
+        "code": 7402422007,
+        "district_code": 740242,
+        "regency_code": 7402,
+        "province_code": 74,
+        "name": "Puundombi",
+        "postal_code": "93460"
+    },
+    {
+        "code": 7402422008,
+        "district_code": 740242,
+        "regency_code": 7402,
+        "province_code": 74,
+        "name": "Olo Onua",
+        "postal_code": "93460"
+    },
+    {
+        "code": 7402422009,
+        "district_code": 740242,
+        "regency_code": 7402,
+        "province_code": 74,
+        "name": "Barowila",
+        "postal_code": "93460"
+    },
+    {
+        "code": 7402422010,
+        "district_code": 740242,
+        "regency_code": 7402,
+        "province_code": 74,
+        "name": "Andalambe",
+        "postal_code": "93460"
     },
     {
         "code": 7403061004,

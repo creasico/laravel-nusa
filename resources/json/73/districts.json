@@ -300,6 +300,18 @@
         "name": "Kepulauan Tanakeke"
     },
     {
+        "code": 730511,
+        "regency_code": 7305,
+        "province_code": 73,
+        "name": "Polongbangkeng Timur"
+    },
+    {
+        "code": 730512,
+        "regency_code": 7305,
+        "province_code": 73,
+        "name": "Laikang"
+    },
+    {
         "code": 730601,
         "regency_code": 7306,
         "province_code": 73,

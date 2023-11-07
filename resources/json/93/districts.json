@@ -1,0 +1,494 @@
+[
+    {
+        "code": 930101,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Merauke"
+    },
+    {
+        "code": 930102,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Muting"
+    },
+    {
+        "code": 930103,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Okaba"
+    },
+    {
+        "code": 930104,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Kimaam"
+    },
+    {
+        "code": 930105,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Semangga"
+    },
+    {
+        "code": 930106,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Tanah Miring"
+    },
+    {
+        "code": 930107,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Jagebob"
+    },
+    {
+        "code": 930108,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Sota"
+    },
+    {
+        "code": 930109,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Ulilin"
+    },
+    {
+        "code": 930110,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Elikobal"
+    },
+    {
+        "code": 930111,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Kurik"
+    },
+    {
+        "code": 930112,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Naukenjerai"
+    },
+    {
+        "code": 930113,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Animha"
+    },
+    {
+        "code": 930114,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Malind"
+    },
+    {
+        "code": 930115,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Tubang"
+    },
+    {
+        "code": 930116,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Ngguti"
+    },
+    {
+        "code": 930117,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Kaptel"
+    },
+    {
+        "code": 930118,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Tabonji"
+    },
+    {
+        "code": 930119,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Waan"
+    },
+    {
+        "code": 930120,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Ilwayab"
+    },
+    {
+        "code": 930121,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Padua"
+    },
+    {
+        "code": 930122,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Kontuar"
+    },
+    {
+        "code": 930201,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Mandobo"
+    },
+    {
+        "code": 930202,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Mindiptana"
+    },
+    {
+        "code": 930203,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Waropko"
+    },
+    {
+        "code": 930204,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Kouh"
+    },
+    {
+        "code": 930205,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Jair"
+    },
+    {
+        "code": 930206,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Bomakia"
+    },
+    {
+        "code": 930207,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Kombut"
+    },
+    {
+        "code": 930208,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Iniyandit"
+    },
+    {
+        "code": 930209,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Arimop"
+    },
+    {
+        "code": 930210,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Fofi"
+    },
+    {
+        "code": 930211,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Ambatkwi"
+    },
+    {
+        "code": 930212,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Manggelum"
+    },
+    {
+        "code": 930213,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Firiwage"
+    },
+    {
+        "code": 930214,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Yaniruma"
+    },
+    {
+        "code": 930215,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Subur"
+    },
+    {
+        "code": 930216,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Kombay"
+    },
+    {
+        "code": 930217,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Ninati"
+    },
+    {
+        "code": 930218,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Sesnuk"
+    },
+    {
+        "code": 930219,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Ki"
+    },
+    {
+        "code": 930220,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Kawagit"
+    },
+    {
+        "code": 930301,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Obaa"
+    },
+    {
+        "code": 930302,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Mambioman Bapai"
+    },
+    {
+        "code": 930303,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Citak-Mitak"
+    },
+    {
+        "code": 930304,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Edera"
+    },
+    {
+        "code": 930305,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Haju"
+    },
+    {
+        "code": 930306,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Assue"
+    },
+    {
+        "code": 930307,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Kaibar"
+    },
+    {
+        "code": 930308,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Passue"
+    },
+    {
+        "code": 930309,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Minyamur"
+    },
+    {
+        "code": 930310,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Venaha"
+    },
+    {
+        "code": 930311,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Syahcame"
+    },
+    {
+        "code": 930312,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Yakomi"
+    },
+    {
+        "code": 930313,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Bamgi"
+    },
+    {
+        "code": 930314,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Passue Bawah"
+    },
+    {
+        "code": 930315,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Ti Zain"
+    },
+    {
+        "code": 930401,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Agats"
+    },
+    {
+        "code": 930402,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Atsj"
+    },
+    {
+        "code": 930403,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Sawa Erma"
+    },
+    {
+        "code": 930404,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Akat"
+    },
+    {
+        "code": 930405,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Fayit"
+    },
+    {
+        "code": 930406,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Pantai Kasuari"
+    },
+    {
+        "code": 930407,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Suator"
+    },
+    {
+        "code": 930408,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Suru-suru"
+    },
+    {
+        "code": 930409,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Kolf Braza"
+    },
+    {
+        "code": 930410,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Unir Sirau"
+    },
+    {
+        "code": 930411,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Joerat"
+    },
+    {
+        "code": 930412,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Pulau Tiga"
+    },
+    {
+        "code": 930413,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Jetsy"
+    },
+    {
+        "code": 930414,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Der Koumur"
+    },
+    {
+        "code": 930415,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Kopay"
+    },
+    {
+        "code": 930416,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Safan"
+    },
+    {
+        "code": 930417,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Sirets"
+    },
+    {
+        "code": 930418,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Ayip"
+    },
+    {
+        "code": 930419,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Betcbamu"
+    },
+    {
+        "code": 930420,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Joutu"
+    },
+    {
+        "code": 930421,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Aswi"
+    },
+    {
+        "code": 930422,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Awyu"
+    },
+    {
+        "code": 930423,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Koroway Buluanop"
+    },
+    {
+        "code": 930424,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Tomor Birip"
+    },
+    {
+        "code": 930425,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Sor Ep"
+    }
+]

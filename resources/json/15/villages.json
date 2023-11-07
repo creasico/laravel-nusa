@@ -10736,6 +10736,14 @@
         "postal_code": "37572"
     },
     {
+        "code": 1509022018,
+        "district_code": 150902,
+        "regency_code": 1509,
+        "province_code": 15,
+        "name": "Kemantan",
+        "postal_code": "37572"
+    },
+    {
         "code": 1509031001,
         "district_code": 150903,
         "regency_code": 1509,
@@ -10880,20 +10888,20 @@
         "postal_code": "37551"
     },
     {
-        "code": 1509041002,
+        "code": 1509041009,
         "district_code": 150904,
         "regency_code": 1509,
         "province_code": 15,
         "name": "Sarana Agung",
-        "postal_code": null
+        "postal_code": "37551"
     },
     {
-        "code": 1509041003,
+        "code": 1509041010,
         "district_code": 150904,
         "regency_code": 1509,
         "province_code": 15,
         "name": "Mandiri Agung",
-        "postal_code": null
+        "postal_code": "37551"
     },
     {
         "code": 1509042002,
@@ -10949,6 +10957,54 @@
         "regency_code": 1509,
         "province_code": 15,
         "name": "Pematang Sapat",
+        "postal_code": "37551"
+    },
+    {
+        "code": 1509042011,
+        "district_code": 150904,
+        "regency_code": 1509,
+        "province_code": 15,
+        "name": "Mekar Kencana",
+        "postal_code": "37551"
+    },
+    {
+        "code": 1509042012,
+        "district_code": 150904,
+        "regency_code": 1509,
+        "province_code": 15,
+        "name": "Purwo Dadi",
+        "postal_code": "37551"
+    },
+    {
+        "code": 1509042013,
+        "district_code": 150904,
+        "regency_code": 1509,
+        "province_code": 15,
+        "name": "Tegal Asri",
+        "postal_code": "37551"
+    },
+    {
+        "code": 1509042014,
+        "district_code": 150904,
+        "regency_code": 1509,
+        "province_code": 15,
+        "name": "Perintis Jaya",
+        "postal_code": "37551"
+    },
+    {
+        "code": 1509042015,
+        "district_code": 150904,
+        "regency_code": 1509,
+        "province_code": 15,
+        "name": "Perintis Makmur",
+        "postal_code": "37551"
+    },
+    {
+        "code": 1509042016,
+        "district_code": 150904,
+        "regency_code": 1509,
+        "province_code": 15,
+        "name": "Jaya Mulya",
         "postal_code": "37551"
     },
     {
@@ -11176,6 +11232,54 @@
         "postal_code": "37553"
     },
     {
+        "code": 1509072007,
+        "district_code": 150907,
+        "regency_code": 1509,
+        "province_code": 15,
+        "name": "Mekar Sari",
+        "postal_code": "37553"
+    },
+    {
+        "code": 1509072008,
+        "district_code": 150907,
+        "regency_code": 1509,
+        "province_code": 15,
+        "name": "Wana Arum",
+        "postal_code": "37553"
+    },
+    {
+        "code": 1509072009,
+        "district_code": 150907,
+        "regency_code": 1509,
+        "province_code": 15,
+        "name": "Wana Mulya",
+        "postal_code": "37553"
+    },
+    {
+        "code": 1509072010,
+        "district_code": 150907,
+        "regency_code": 1509,
+        "province_code": 15,
+        "name": "Damai Makmur",
+        "postal_code": "37553"
+    },
+    {
+        "code": 1509072011,
+        "district_code": 150907,
+        "regency_code": 1509,
+        "province_code": 15,
+        "name": "Suka Jaya",
+        "postal_code": "37553"
+    },
+    {
+        "code": 1509072012,
+        "district_code": 150907,
+        "regency_code": 1509,
+        "province_code": 15,
+        "name": "Sido Mulyo",
+        "postal_code": "37553"
+    },
+    {
         "code": 1509082001,
         "district_code": 150908,
         "regency_code": 1509,
@@ -11248,6 +11352,14 @@
         "postal_code": "37552"
     },
     {
+        "code": 1509082010,
+        "district_code": 150908,
+        "regency_code": 1509,
+        "province_code": 15,
+        "name": "Giri Mulyo",
+        "postal_code": "37552"
+    },
+    {
         "code": 1509092001,
         "district_code": 150909,
         "regency_code": 1509,
@@ -11285,6 +11397,14 @@
         "regency_code": 1509,
         "province_code": 15,
         "name": "Lubuk Mandarsah",
+        "postal_code": "37574"
+    },
+    {
+        "code": 1509092006,
+        "district_code": 150909,
+        "regency_code": 1509,
+        "province_code": 15,
+        "name": "Lubuk Mandarsah Ulu",
         "postal_code": "37574"
     },
     {
@@ -11509,6 +11629,14 @@
         "regency_code": 1571,
         "province_code": 15,
         "name": "Pematang Sulur",
+        "postal_code": "36129"
+    },
+    {
+        "code": 1571011012,
+        "district_code": 157101,
+        "regency_code": 1571,
+        "province_code": 15,
+        "name": "Aur Kenali",
         "postal_code": "36129"
     },
     {
@@ -11784,6 +11912,22 @@
         "postal_code": "36128"
     },
     {
+        "code": 1571071011,
+        "district_code": 157107,
+        "regency_code": 1571,
+        "province_code": 15,
+        "name": "Talang Gulo",
+        "postal_code": "36128"
+    },
+    {
+        "code": 1571071012,
+        "district_code": 157107,
+        "regency_code": 1571,
+        "province_code": 15,
+        "name": "Kenali Asam",
+        "postal_code": "36128"
+    },
+    {
         "code": 1571081001,
         "district_code": 157108,
         "regency_code": 1571,
@@ -11880,6 +12024,22 @@
         "postal_code": "36129"
     },
     {
+        "code": 1571091006,
+        "district_code": 157109,
+        "regency_code": 1571,
+        "province_code": 15,
+        "name": "Simpang Rimbo",
+        "postal_code": "36129"
+    },
+    {
+        "code": 1571091007,
+        "district_code": 157109,
+        "regency_code": 1571,
+        "province_code": 15,
+        "name": "Pinang Merah",
+        "postal_code": "36129"
+    },
+    {
         "code": 1571101001,
         "district_code": 157110,
         "regency_code": 1571,
@@ -11957,6 +12117,14 @@
         "regency_code": 1571,
         "province_code": 15,
         "name": "Paal Merah",
+        "postal_code": "36139"
+    },
+    {
+        "code": 1571111006,
+        "district_code": 157111,
+        "regency_code": 1571,
+        "province_code": 15,
+        "name": "Bakung Jaya",
         "postal_code": "36139"
     },
     {

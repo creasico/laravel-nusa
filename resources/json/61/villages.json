@@ -1072,6 +1072,22 @@
         "postal_code": "79417"
     },
     {
+        "code": 6101102012,
+        "district_code": 610110,
+        "regency_code": 6101,
+        "province_code": 61,
+        "name": "Arga Pura",
+        "postal_code": "79417"
+    },
+    {
+        "code": 6101102013,
+        "district_code": 610110,
+        "regency_code": 6101,
+        "province_code": 61,
+        "name": "Sapak Hulu Trans",
+        "postal_code": "79417"
+    },
+    {
         "code": 6101112001,
         "district_code": 610111,
         "regency_code": 6101,
@@ -13408,6 +13424,30 @@
         "postal_code": "79582"
     },
     {
+        "code": 6109012018,
+        "district_code": 610901,
+        "regency_code": 6109,
+        "province_code": 61,
+        "name": "Sempulau Indah",
+        "postal_code": "79514"
+    },
+    {
+        "code": 6109012019,
+        "district_code": 610901,
+        "regency_code": 6109,
+        "province_code": 61,
+        "name": "Tigur Jaya",
+        "postal_code": "79514"
+    },
+    {
+        "code": 6109012020,
+        "district_code": 610901,
+        "regency_code": 6109,
+        "province_code": 61,
+        "name": "Beringkai Raya",
+        "postal_code": "79514"
+    },
+    {
         "code": 6109022001,
         "district_code": 610902,
         "regency_code": 6109,
@@ -13632,6 +13672,22 @@
         "postal_code": "79584"
     },
     {
+        "code": 6109032014,
+        "district_code": 610903,
+        "regency_code": 6109,
+        "province_code": 61,
+        "name": "Semerawai",
+        "postal_code": "79584"
+    },
+    {
+        "code": 6109032015,
+        "district_code": 610903,
+        "regency_code": 6109,
+        "province_code": 61,
+        "name": "Engkulun Hulu",
+        "postal_code": "79584"
+    },
+    {
         "code": 6109042001,
         "district_code": 610904,
         "regency_code": 6109,
@@ -13805,6 +13861,22 @@
         "regency_code": 6109,
         "province_code": 61,
         "name": "Empajak",
+        "postal_code": "79586"
+    },
+    {
+        "code": 6109052010,
+        "district_code": 610905,
+        "regency_code": 6109,
+        "province_code": 61,
+        "name": "Sepantak",
+        "postal_code": "79586"
+    },
+    {
+        "code": 6109052011,
+        "district_code": 610905,
+        "regency_code": 6109,
+        "province_code": 61,
+        "name": "Melanjan Raya",
         "postal_code": "79586"
     },
     {
@@ -15824,6 +15896,22 @@
         "postal_code": "78391"
     },
     {
+        "code": 6112012021,
+        "district_code": 611201,
+        "regency_code": 6112,
+        "province_code": 61,
+        "name": "Sukulanting",
+        "postal_code": "78391"
+    },
+    {
+        "code": 6112012022,
+        "district_code": 611201,
+        "regency_code": 6112,
+        "province_code": 61,
+        "name": "Permata Jaya",
+        "postal_code": "78391"
+    },
+    {
         "code": 6112022001,
         "district_code": 611202,
         "regency_code": 6112,
@@ -15861,6 +15949,14 @@
         "regency_code": 6112,
         "province_code": 61,
         "name": "Sungai Enau",
+        "postal_code": "78355"
+    },
+    {
+        "code": 6112022006,
+        "district_code": 611202,
+        "regency_code": 6112,
+        "province_code": 61,
+        "name": "Padi Jaya",
         "postal_code": "78355"
     },
     {
@@ -15965,6 +16061,14 @@
         "regency_code": 6112,
         "province_code": 61,
         "name": "Teluk Bakung",
+        "postal_code": "78393"
+    },
+    {
+        "code": 6112032014,
+        "district_code": 611203,
+        "regency_code": 6112,
+        "province_code": 61,
+        "name": "Ampera Raya",
         "postal_code": "78393"
     },
     {
@@ -16597,6 +16701,22 @@
         "regency_code": 6112,
         "province_code": 61,
         "name": "Punggur Kapuas",
+        "postal_code": "78380"
+    },
+    {
+        "code": 6112092014,
+        "district_code": 611209,
+        "regency_code": 6112,
+        "province_code": 61,
+        "name": "Rengas Kapuas",
+        "postal_code": "78380"
+    },
+    {
+        "code": 6112092015,
+        "district_code": 611209,
+        "regency_code": 6112,
+        "province_code": 61,
+        "name": "Parit Keladi",
         "postal_code": "78380"
     },
     {

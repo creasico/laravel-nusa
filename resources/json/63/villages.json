@@ -13552,6 +13552,38 @@
         "postal_code": "72276"
     },
     {
+        "code": 6310042027,
+        "district_code": 631004,
+        "regency_code": 6310,
+        "province_code": 63,
+        "name": "Sido Rejo",
+        "postal_code": "72276"
+    },
+    {
+        "code": 6310042028,
+        "district_code": 631004,
+        "regency_code": 6310,
+        "province_code": 63,
+        "name": "Beruntung Raya",
+        "postal_code": "72276"
+    },
+    {
+        "code": 6310042029,
+        "district_code": 631004,
+        "regency_code": 6310,
+        "province_code": 63,
+        "name": "Berakat Mufakat",
+        "postal_code": "72276"
+    },
+    {
+        "code": 6310042030,
+        "district_code": 631004,
+        "regency_code": 6310,
+        "province_code": 63,
+        "name": "Makmur Jaya",
+        "postal_code": "72276"
+    },
+    {
         "code": 6310052001,
         "district_code": 631005,
         "regency_code": 6310,
@@ -13736,6 +13768,30 @@
         "postal_code": "72213"
     },
     {
+        "code": 6310062013,
+        "district_code": 631006,
+        "regency_code": 6310,
+        "province_code": 63,
+        "name": "Hidayah Makmur",
+        "postal_code": "72213"
+    },
+    {
+        "code": 6310062014,
+        "district_code": 631006,
+        "regency_code": 6310,
+        "province_code": 63,
+        "name": "Plajau Mulia",
+        "postal_code": "72213"
+    },
+    {
+        "code": 6310062015,
+        "district_code": 631006,
+        "regency_code": 6310,
+        "province_code": 63,
+        "name": "Kupang Berkah Jaya",
+        "postal_code": "72211"
+    },
+    {
         "code": 6310072001,
         "district_code": 631007,
         "regency_code": 6310,
@@ -13821,6 +13877,14 @@
         "regency_code": 6310,
         "province_code": 63,
         "name": "Karang Rejo",
+        "postal_code": "72211"
+    },
+    {
+        "code": 6310072013,
+        "district_code": 631007,
+        "regency_code": 6310,
+        "province_code": 63,
+        "name": "Karang Nunggal",
         "postal_code": "72211"
     },
     {

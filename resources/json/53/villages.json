@@ -3640,28 +3640,20 @@
         "postal_code": "85544"
     },
     {
-        "code": 5303011006,
-        "district_code": 530301,
-        "regency_code": 5303,
-        "province_code": 53,
-        "name": "Bitefa",
-        "postal_code": "85654"
-    },
-    {
-        "code": 5303011020,
-        "district_code": 530301,
-        "regency_code": 5303,
-        "province_code": 53,
-        "name": "Oesena",
-        "postal_code": "85654"
-    },
-    {
         "code": 5303012005,
         "district_code": 530301,
         "regency_code": 5303,
         "province_code": 53,
         "name": "Bokon",
         "postal_code": "85654"
+    },
+    {
+        "code": 5303012006,
+        "district_code": 530301,
+        "regency_code": 5303,
+        "province_code": 53,
+        "name": "Bitefa",
+        "postal_code": null
     },
     {
         "code": 5303012007,
@@ -3686,6 +3678,14 @@
         "province_code": 53,
         "name": "Fatusene",
         "postal_code": "85654"
+    },
+    {
+        "code": 5303012020,
+        "district_code": 530301,
+        "regency_code": 5303,
+        "province_code": 53,
+        "name": "Oesena",
+        "postal_code": null
     },
     {
         "code": 5303012021,
@@ -3726,22 +3726,6 @@
         "province_code": 53,
         "name": "Taekas",
         "postal_code": "85654"
-    },
-    {
-        "code": 5303021026,
-        "district_code": 530302,
-        "regency_code": 5303,
-        "province_code": 53,
-        "name": "Eban",
-        "postal_code": "85661"
-    },
-    {
-        "code": 5303021027,
-        "district_code": 530302,
-        "regency_code": 5303,
-        "province_code": 53,
-        "name": "Sallu",
-        "postal_code": "85661"
     },
     {
         "code": 5303022001,
@@ -3824,28 +3808,28 @@
         "postal_code": "85661"
     },
     {
+        "code": 5303022026,
+        "district_code": 530302,
+        "regency_code": 5303,
+        "province_code": 53,
+        "name": "Eban",
+        "postal_code": null
+    },
+    {
+        "code": 5303022027,
+        "district_code": 530302,
+        "regency_code": 5303,
+        "province_code": 53,
+        "name": "Sallu",
+        "postal_code": null
+    },
+    {
         "code": 5303022028,
         "district_code": 530302,
         "regency_code": 5303,
         "province_code": 53,
         "name": "Sa'tab",
         "postal_code": "85661"
-    },
-    {
-        "code": 5303031003,
-        "district_code": 530303,
-        "regency_code": 5303,
-        "province_code": 53,
-        "name": "Up Faon",
-        "postal_code": "85680"
-    },
-    {
-        "code": 5303031011,
-        "district_code": 530303,
-        "regency_code": 5303,
-        "province_code": 53,
-        "name": "Supun",
-        "postal_code": "85680"
     },
     {
         "code": 5303032001,
@@ -3862,6 +3846,14 @@
         "province_code": 53,
         "name": "Oenaem",
         "postal_code": "85680"
+    },
+    {
+        "code": 5303032003,
+        "district_code": 530303,
+        "regency_code": 5303,
+        "province_code": 53,
+        "name": "Up Faon",
+        "postal_code": null
     },
     {
         "code": 5303032007,
@@ -3888,52 +3880,20 @@
         "postal_code": "85680"
     },
     {
+        "code": 5303032011,
+        "district_code": 530303,
+        "regency_code": 5303,
+        "province_code": 53,
+        "name": "Supun",
+        "postal_code": null
+    },
+    {
         "code": 5303032012,
         "district_code": 530303,
         "regency_code": 5303,
         "province_code": 53,
         "name": "Tunbaen",
         "postal_code": "85680"
-    },
-    {
-        "code": 5303041011,
-        "district_code": 530304,
-        "regency_code": 5303,
-        "province_code": 53,
-        "name": "Oenak",
-        "postal_code": "85664"
-    },
-    {
-        "code": 5303041012,
-        "district_code": 530304,
-        "regency_code": 5303,
-        "province_code": 53,
-        "name": "Nifuboke",
-        "postal_code": "85664"
-    },
-    {
-        "code": 5303041013,
-        "district_code": 530304,
-        "regency_code": 5303,
-        "province_code": 53,
-        "name": "Noemuti",
-        "postal_code": "85664"
-    },
-    {
-        "code": 5303041014,
-        "district_code": 530304,
-        "regency_code": 5303,
-        "province_code": 53,
-        "name": "Fatumuti",
-        "postal_code": "85664"
-    },
-    {
-        "code": 5303041015,
-        "district_code": 530304,
-        "regency_code": 5303,
-        "province_code": 53,
-        "name": "Kiuola",
-        "postal_code": "85664"
     },
     {
         "code": 5303042001,
@@ -3982,6 +3942,46 @@
         "province_code": 53,
         "name": "Banfanu",
         "postal_code": "85664"
+    },
+    {
+        "code": 5303042011,
+        "district_code": 530304,
+        "regency_code": 5303,
+        "province_code": 53,
+        "name": "Oenak",
+        "postal_code": null
+    },
+    {
+        "code": 5303042012,
+        "district_code": 530304,
+        "regency_code": 5303,
+        "province_code": 53,
+        "name": "Nifuboke",
+        "postal_code": null
+    },
+    {
+        "code": 5303042013,
+        "district_code": 530304,
+        "regency_code": 5303,
+        "province_code": 53,
+        "name": "Noemuti",
+        "postal_code": null
+    },
+    {
+        "code": 5303042014,
+        "district_code": 530304,
+        "regency_code": 5303,
+        "province_code": 53,
+        "name": "Fatumuti",
+        "postal_code": null
+    },
+    {
+        "code": 5303042015,
+        "district_code": 530304,
+        "regency_code": 5303,
+        "province_code": 53,
+        "name": "Kiuola",
+        "postal_code": null
     },
     {
         "code": 5303042016,
@@ -4064,20 +4064,20 @@
         "postal_code": "85616"
     },
     {
-        "code": 5303061001,
-        "district_code": 530306,
-        "regency_code": 5303,
-        "province_code": 53,
-        "name": "Boronubaen",
-        "postal_code": "85683"
-    },
-    {
         "code": 5303061015,
         "district_code": 530306,
         "regency_code": 5303,
         "province_code": 53,
         "name": "Boronubaen Timur",
         "postal_code": "85683"
+    },
+    {
+        "code": 5303062001,
+        "district_code": 530306,
+        "regency_code": 5303,
+        "province_code": 53,
+        "name": "Boronubaen",
+        "postal_code": null
     },
     {
         "code": 5303062002,
@@ -4144,14 +4144,6 @@
         "postal_code": "85683"
     },
     {
-        "code": 5303071007,
-        "district_code": 530307,
-        "regency_code": 5303,
-        "province_code": 53,
-        "name": "Ponu",
-        "postal_code": "85613"
-    },
-    {
         "code": 5303072001,
         "district_code": 530307,
         "regency_code": 5303,
@@ -4200,6 +4192,14 @@
         "postal_code": "85613"
     },
     {
+        "code": 5303072007,
+        "district_code": 530307,
+        "regency_code": 5303,
+        "province_code": 53,
+        "name": "Ponu",
+        "postal_code": null
+    },
+    {
         "code": 5303072008,
         "district_code": 530307,
         "regency_code": 5303,
@@ -4214,38 +4214,6 @@
         "province_code": 53,
         "name": "Nifutasi",
         "postal_code": "85613"
-    },
-    {
-        "code": 5303081015,
-        "district_code": 530308,
-        "regency_code": 5303,
-        "province_code": 53,
-        "name": "Ainiut",
-        "postal_code": "85671"
-    },
-    {
-        "code": 5303081016,
-        "district_code": 530308,
-        "regency_code": 5303,
-        "province_code": 53,
-        "name": "Nunmafo",
-        "postal_code": "85671"
-    },
-    {
-        "code": 5303081018,
-        "district_code": 530308,
-        "regency_code": 5303,
-        "province_code": 53,
-        "name": "Manunain A",
-        "postal_code": "85671"
-    },
-    {
-        "code": 5303081024,
-        "district_code": 530308,
-        "regency_code": 5303,
-        "province_code": 53,
-        "name": "Fatoin",
-        "postal_code": "85671"
     },
     {
         "code": 5303081029,
@@ -4304,6 +4272,22 @@
         "postal_code": "85671"
     },
     {
+        "code": 5303082015,
+        "district_code": 530308,
+        "regency_code": 5303,
+        "province_code": 53,
+        "name": "Ainiut",
+        "postal_code": null
+    },
+    {
+        "code": 5303082016,
+        "district_code": 530308,
+        "regency_code": 5303,
+        "province_code": 53,
+        "name": "Nunmafo",
+        "postal_code": null
+    },
+    {
         "code": 5303082017,
         "district_code": 530308,
         "regency_code": 5303,
@@ -4312,12 +4296,28 @@
         "postal_code": "85671"
     },
     {
+        "code": 5303082018,
+        "district_code": 530308,
+        "regency_code": 5303,
+        "province_code": 53,
+        "name": "Manunain A",
+        "postal_code": null
+    },
+    {
         "code": 5303082022,
         "district_code": 530308,
         "regency_code": 5303,
         "province_code": 53,
         "name": "Susulaku B",
         "postal_code": "85671"
+    },
+    {
+        "code": 5303082024,
+        "district_code": 530308,
+        "regency_code": 5303,
+        "province_code": 53,
+        "name": "Fatoin",
+        "postal_code": null
     },
     {
         "code": 5303082025,
@@ -4352,14 +4352,6 @@
         "postal_code": "85671"
     },
     {
-        "code": 5303091010,
-        "district_code": 530309,
-        "regency_code": 5303,
-        "province_code": 53,
-        "name": "Humusu C",
-        "postal_code": "85674"
-    },
-    {
         "code": 5303092006,
         "district_code": 530309,
         "regency_code": 5303,
@@ -4390,6 +4382,14 @@
         "province_code": 53,
         "name": "Humusu Oekolo",
         "postal_code": "85674"
+    },
+    {
+        "code": 5303092010,
+        "district_code": 530309,
+        "regency_code": 5303,
+        "province_code": 53,
+        "name": "Humusu Wini",
+        "postal_code": null
     },
     {
         "code": 5303102001,
@@ -4552,20 +4552,12 @@
         "postal_code": "85663"
     },
     {
-        "code": 5303141001,
+        "code": 5303142001,
         "district_code": 530314,
         "regency_code": 5303,
         "province_code": 53,
         "name": "Oelami",
-        "postal_code": "85650"
-    },
-    {
-        "code": 5303141006,
-        "district_code": 530314,
-        "regency_code": 5303,
-        "province_code": 53,
-        "name": "Tublopo",
-        "postal_code": "85650"
+        "postal_code": null
     },
     {
         "code": 5303142002,
@@ -4598,6 +4590,14 @@
         "province_code": 53,
         "name": "Oetalus",
         "postal_code": "85650"
+    },
+    {
+        "code": 5303142006,
+        "district_code": 530314,
+        "regency_code": 5303,
+        "province_code": 53,
+        "name": "Tublopo",
+        "postal_code": null
     },
     {
         "code": 5303142007,
@@ -4904,14 +4904,6 @@
         "postal_code": "85672"
     },
     {
-        "code": 5303201006,
-        "district_code": 530320,
-        "regency_code": 5303,
-        "province_code": 53,
-        "name": "Atmen",
-        "postal_code": "85670"
-    },
-    {
         "code": 5303202001,
         "district_code": 530320,
         "regency_code": 5303,
@@ -4950,6 +4942,14 @@
         "province_code": 53,
         "name": "Bannae",
         "postal_code": "85670"
+    },
+    {
+        "code": 5303202006,
+        "district_code": 530320,
+        "regency_code": 5303,
+        "province_code": 53,
+        "name": "Unini",
+        "postal_code": null
     },
     {
         "code": 5303202007,
@@ -5000,14 +5000,6 @@
         "postal_code": "85670"
     },
     {
-        "code": 5303211004,
-        "district_code": 530321,
-        "regency_code": 5303,
-        "province_code": 53,
-        "name": "Maubesi",
-        "postal_code": "85673"
-    },
-    {
         "code": 5303212001,
         "district_code": 530321,
         "regency_code": 5303,
@@ -5030,6 +5022,14 @@
         "province_code": 53,
         "name": "Tainsala",
         "postal_code": "85673"
+    },
+    {
+        "code": 5303212004,
+        "district_code": 530321,
+        "regency_code": 5303,
+        "province_code": 53,
+        "name": "Maubesi",
+        "postal_code": null
     },
     {
         "code": 5303212005,
@@ -9296,6 +9296,54 @@
         "postal_code": "86153"
     },
     {
+        "code": 5307012017,
+        "district_code": 530701,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Begu",
+        "postal_code": "86153"
+    },
+    {
+        "code": 5307012018,
+        "district_code": 530701,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Kotandelu",
+        "postal_code": "86153"
+    },
+    {
+        "code": 5307012019,
+        "district_code": 530701,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Lowolabo",
+        "postal_code": "86153"
+    },
+    {
+        "code": 5307012020,
+        "district_code": 530701,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Aebubu",
+        "postal_code": "86153"
+    },
+    {
+        "code": 5307012021,
+        "district_code": 530701,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Regapu'u",
+        "postal_code": "86153"
+    },
+    {
+        "code": 5307012022,
+        "district_code": 530701,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Rejo",
+        "postal_code": "86153"
+    },
+    {
         "code": 5307022001,
         "district_code": 530702,
         "regency_code": 5307,
@@ -9373,6 +9421,22 @@
         "regency_code": 5307,
         "province_code": 53,
         "name": "Dobo Nuapuu",
+        "postal_code": "86113"
+    },
+    {
+        "code": 5307022011,
+        "district_code": 530702,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Ratekalo",
+        "postal_code": "86113"
+    },
+    {
+        "code": 5307022012,
+        "district_code": 530702,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Ndaimbere",
         "postal_code": "86113"
     },
     {
@@ -9541,6 +9605,30 @@
         "regency_code": 5307,
         "province_code": 53,
         "name": "Mahebora",
+        "postal_code": "86151"
+    },
+    {
+        "code": 5307042018,
+        "district_code": 530704,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Nangablo",
+        "postal_code": "86151"
+    },
+    {
+        "code": 5307042019,
+        "district_code": 530704,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Kara Kabu",
+        "postal_code": "86151"
+    },
+    {
+        "code": 5307042020,
+        "district_code": 530704,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Tada Lado",
         "postal_code": "86151"
     },
     {
@@ -9800,6 +9888,70 @@
         "postal_code": "86183"
     },
     {
+        "code": 5307082019,
+        "district_code": 530708,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Udek Du'en",
+        "postal_code": "86183"
+    },
+    {
+        "code": 5307082020,
+        "district_code": 530708,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Watu Omok",
+        "postal_code": "86183"
+    },
+    {
+        "code": 5307082021,
+        "district_code": 530708,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Waipaar",
+        "postal_code": "86183"
+    },
+    {
+        "code": 5307082022,
+        "district_code": 530708,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Baokremot",
+        "postal_code": "86183"
+    },
+    {
+        "code": 5307082023,
+        "district_code": 530708,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Henga",
+        "postal_code": "86183"
+    },
+    {
+        "code": 5307082024,
+        "district_code": 530708,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Likonggete",
+        "postal_code": "86183"
+    },
+    {
+        "code": 5307082025,
+        "district_code": 530708,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Watubaing",
+        "postal_code": "86183"
+    },
+    {
+        "code": 5307082026,
+        "district_code": 530708,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Mamai",
+        "postal_code": "86183"
+    },
+    {
         "code": 5307092001,
         "district_code": 530709,
         "regency_code": 5307,
@@ -9872,6 +10024,22 @@
         "postal_code": "86185"
     },
     {
+        "code": 5307092010,
+        "district_code": 530709,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Mahe Kelan",
+        "postal_code": "86185"
+    },
+    {
+        "code": 5307092011,
+        "district_code": 530709,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Egon Buluk",
+        "postal_code": "86185"
+    },
+    {
         "code": 5307102005,
         "district_code": 530710,
         "regency_code": 5307,
@@ -9936,6 +10104,14 @@
         "postal_code": "86182"
     },
     {
+        "code": 5307102026,
+        "district_code": 530710,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Watukobu",
+        "postal_code": "86182"
+    },
+    {
         "code": 5307112001,
         "district_code": 530711,
         "regency_code": 5307,
@@ -9984,6 +10160,22 @@
         "postal_code": "86171"
     },
     {
+        "code": 5307112018,
+        "district_code": 530711,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Bura Bekor",
+        "postal_code": "86171"
+    },
+    {
+        "code": 5307112019,
+        "district_code": 530711,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Watukrus",
+        "postal_code": "86171"
+    },
+    {
         "code": 5307122001,
         "district_code": 530712,
         "regency_code": 5307,
@@ -10021,6 +10213,30 @@
         "regency_code": 5307,
         "province_code": 53,
         "name": "Kolisia B",
+        "postal_code": "86152"
+    },
+    {
+        "code": 5307122006,
+        "district_code": 530712,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Woda Mude",
+        "postal_code": "86152"
+    },
+    {
+        "code": 5307122007,
+        "district_code": 530712,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Legu Woda",
+        "postal_code": "86152"
+    },
+    {
+        "code": 5307122008,
+        "district_code": 530712,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Waturia",
         "postal_code": "86152"
     },
     {
@@ -10069,6 +10285,14 @@
         "regency_code": 5307,
         "province_code": 53,
         "name": "Ilinmedo",
+        "postal_code": "86184"
+    },
+    {
+        "code": 5307132007,
+        "district_code": 530713,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Watu Moning",
         "postal_code": "86184"
     },
     {
@@ -10184,6 +10408,14 @@
         "postal_code": "86116"
     },
     {
+        "code": 5307152011,
+        "district_code": 530715,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Gong Bekor",
+        "postal_code": "86116"
+    },
+    {
         "code": 5307162001,
         "district_code": 530716,
         "regency_code": 5307,
@@ -10229,6 +10461,14 @@
         "regency_code": 5307,
         "province_code": 53,
         "name": "Ribang",
+        "postal_code": "86116"
+    },
+    {
+        "code": 5307162007,
+        "district_code": 530716,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Watu Repa",
         "postal_code": "86116"
     },
     {
@@ -10293,6 +10533,22 @@
         "regency_code": 5307,
         "province_code": 53,
         "name": "Poma",
+        "postal_code": "86154"
+    },
+    {
+        "code": 5307172009,
+        "district_code": 530717,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Bu Barat",
+        "postal_code": "86154"
+    },
+    {
+        "code": 5307172010,
+        "district_code": 530717,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Bu Nuapu'u",
         "postal_code": "86154"
     },
     {
@@ -10477,6 +10733,22 @@
         "regency_code": 5307,
         "province_code": 53,
         "name": "Wolomotong",
+        "postal_code": "86170"
+    },
+    {
+        "code": 5307202008,
+        "district_code": 530720,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Mahe Tanah",
+        "postal_code": "86170"
+    },
+    {
+        "code": 5307202009,
+        "district_code": 530720,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Pelibaler",
         "postal_code": "86170"
     },
     {
@@ -12816,6 +13088,14 @@
         "postal_code": "86452"
     },
     {
+        "code": 5309012024,
+        "district_code": 530901,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Mawwo Kisa",
+        "postal_code": "86452"
+    },
+    {
         "code": 5309021008,
         "district_code": 530902,
         "regency_code": 5309,
@@ -12941,6 +13221,54 @@
         "regency_code": 5309,
         "province_code": 53,
         "name": "Wae La",
+        "postal_code": "86461"
+    },
+    {
+        "code": 5309022039,
+        "district_code": 530902,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Dolupore",
+        "postal_code": "86461"
+    },
+    {
+        "code": 5309022040,
+        "district_code": 530902,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Tiwo Toda",
+        "postal_code": "86461"
+    },
+    {
+        "code": 5309022041,
+        "district_code": 530902,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Kelimolo",
+        "postal_code": "86461"
+    },
+    {
+        "code": 5309022042,
+        "district_code": 530902,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Wogo",
+        "postal_code": "86461"
+    },
+    {
+        "code": 5309022043,
+        "district_code": 530902,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Radabata I",
+        "postal_code": "86461"
+    },
+    {
+        "code": 5309022044,
+        "district_code": 530902,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Bodosare",
         "postal_code": "86461"
     },
     {
@@ -13120,6 +13448,54 @@
         "postal_code": "86413"
     },
     {
+        "code": 5309062029,
+        "district_code": 530906,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Ngadhamana",
+        "postal_code": "86413"
+    },
+    {
+        "code": 5309062030,
+        "district_code": 530906,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Bolonga",
+        "postal_code": "86417"
+    },
+    {
+        "code": 5309062031,
+        "district_code": 530906,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Boradho",
+        "postal_code": "86413"
+    },
+    {
+        "code": 5309062032,
+        "district_code": 530906,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Mukuvoka",
+        "postal_code": "86413"
+    },
+    {
+        "code": 5309062033,
+        "district_code": 530906,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Ubedolumolo II",
+        "postal_code": "86413"
+    },
+    {
+        "code": 5309062034,
+        "district_code": 530906,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Langagedha I",
+        "postal_code": "86418"
+    },
+    {
         "code": 5309072001,
         "district_code": 530907,
         "regency_code": 5309,
@@ -13229,6 +13605,22 @@
         "regency_code": 5309,
         "province_code": 53,
         "name": "Tarawali",
+        "postal_code": "86422"
+    },
+    {
+        "code": 5309072019,
+        "district_code": 530907,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Waepana I",
+        "postal_code": "86422"
+    },
+    {
+        "code": 5309072020,
+        "district_code": 530907,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Lokaweka",
         "postal_code": "86422"
     },
     {
@@ -13360,6 +13752,110 @@
         "postal_code": "86419"
     },
     {
+        "code": 5309092023,
+        "district_code": 530909,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Kota Raja",
+        "postal_code": "86419"
+    },
+    {
+        "code": 5309092024,
+        "district_code": 530909,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Ite Jaya",
+        "postal_code": "86419"
+    },
+    {
+        "code": 5309092025,
+        "district_code": 530909,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Wangka Barat",
+        "postal_code": "86419"
+    },
+    {
+        "code": 5309092026,
+        "district_code": 530909,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Lengkosambi Tengah",
+        "postal_code": "86419"
+    },
+    {
+        "code": 5309092027,
+        "district_code": 530909,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Tadho Timur",
+        "postal_code": "86419"
+    },
+    {
+        "code": 5309092028,
+        "district_code": 530909,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Tadho Barat",
+        "postal_code": "86419"
+    },
+    {
+        "code": 5309092029,
+        "district_code": 530909,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Tadho Tengah",
+        "postal_code": "86419"
+    },
+    {
+        "code": 5309092030,
+        "district_code": 530909,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Sambinasi Tengah",
+        "postal_code": "86419"
+    },
+    {
+        "code": 5309092031,
+        "district_code": 530909,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Latung Barat",
+        "postal_code": "86419"
+    },
+    {
+        "code": 5309092032,
+        "district_code": 530909,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Rawangkalo I",
+        "postal_code": "86419"
+    },
+    {
+        "code": 5309092033,
+        "district_code": 530909,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Rawangkalo II",
+        "postal_code": "86419"
+    },
+    {
+        "code": 5309092034,
+        "district_code": 530909,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Wakamanga",
+        "postal_code": "86419"
+    },
+    {
+        "code": 5309092035,
+        "district_code": 530909,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Lengkosambi Barat Daya",
+        "postal_code": "86419"
+    },
+    {
         "code": 5309122001,
         "district_code": 530912,
         "regency_code": 5309,
@@ -13456,6 +13952,22 @@
         "postal_code": "86451"
     },
     {
+        "code": 5309122016,
+        "district_code": 530912,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Wongawea",
+        "postal_code": "86451"
+    },
+    {
+        "code": 5309122017,
+        "district_code": 530912,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Bowaru",
+        "postal_code": "86451"
+    },
+    {
         "code": 5309142001,
         "district_code": 530914,
         "regency_code": 5309,
@@ -13532,7 +14044,79 @@
         "district_code": 530914,
         "regency_code": 5309,
         "province_code": 53,
-        "name": "Wolomese Dua",
+        "name": "Wolomese II",
+        "postal_code": "86421"
+    },
+    {
+        "code": 5309142011,
+        "district_code": 530914,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Benteng Tawa II",
+        "postal_code": "86421"
+    },
+    {
+        "code": 5309142012,
+        "district_code": 530914,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Benteng Tawa III",
+        "postal_code": "86421"
+    },
+    {
+        "code": 5309142013,
+        "district_code": 530914,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Lanamai II",
+        "postal_code": "86421"
+    },
+    {
+        "code": 5309142014,
+        "district_code": 530914,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Kembang",
+        "postal_code": "86421"
+    },
+    {
+        "code": 5309142015,
+        "district_code": 530914,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Wate",
+        "postal_code": "86421"
+    },
+    {
+        "code": 5309142016,
+        "district_code": 530914,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Ngara I",
+        "postal_code": "86421"
+    },
+    {
+        "code": 5309142017,
+        "district_code": 530914,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Benteng Tawa IV",
+        "postal_code": "86421"
+    },
+    {
+        "code": 5309142018,
+        "district_code": 530914,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Benteng Tawa V",
+        "postal_code": "86421"
+    },
+    {
+        "code": 5309142019,
+        "district_code": 530914,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Nili Waru Sae",
         "postal_code": "86421"
     },
     {
@@ -13624,6 +14208,14 @@
         "postal_code": "86413"
     },
     {
+        "code": 5309152012,
+        "district_code": 530915,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Bowado",
+        "postal_code": "86413"
+    },
+    {
         "code": 5309162001,
         "district_code": 530916,
         "regency_code": 5309,
@@ -13685,6 +14277,30 @@
         "regency_code": 5309,
         "province_code": 53,
         "name": "Denatana Timur",
+        "postal_code": "86423"
+    },
+    {
+        "code": 5309162009,
+        "district_code": 530916,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Larilaki",
+        "postal_code": "86423"
+    },
+    {
+        "code": 5309162010,
+        "district_code": 530916,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Mulumese",
+        "postal_code": "86423"
+    },
+    {
+        "code": 5309162011,
+        "district_code": 530916,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Turaloa Timur",
         "postal_code": "86423"
     },
     {
@@ -13784,6 +14400,54 @@
         "postal_code": "86466"
     },
     {
+        "code": 5309182013,
+        "district_code": 530918,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Bobawa",
+        "postal_code": "86466"
+    },
+    {
+        "code": 5309182014,
+        "district_code": 530918,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Were V",
+        "postal_code": "86466"
+    },
+    {
+        "code": 5309182015,
+        "district_code": 530918,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Were VI",
+        "postal_code": "86466"
+    },
+    {
+        "code": 5309182016,
+        "district_code": 530918,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Kezewea I",
+        "postal_code": "86466"
+    },
+    {
+        "code": 5309182017,
+        "district_code": 530918,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Sadha I",
+        "postal_code": "86466"
+    },
+    {
+        "code": 5309182018,
+        "district_code": 530918,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Takatunga I",
+        "postal_code": "86466"
+    },
+    {
         "code": 5309191001,
         "district_code": 530919,
         "regency_code": 5309,
@@ -13860,7 +14524,31 @@
         "district_code": 530919,
         "regency_code": 5309,
         "province_code": 53,
-        "name": "Bewapawe",
+        "name": "Bewa Pawe",
+        "postal_code": "86460"
+    },
+    {
+        "code": 5309192011,
+        "district_code": 530919,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Bopoma",
+        "postal_code": "86460"
+    },
+    {
+        "code": 5309192012,
+        "district_code": 530919,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Rakalaba I",
+        "postal_code": "86460"
+    },
+    {
+        "code": 5309192013,
+        "district_code": 530919,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Sobo II",
         "postal_code": "86460"
     },
     {
@@ -13941,6 +14629,30 @@
         "regency_code": 5309,
         "province_code": 53,
         "name": "Manubhara",
+        "postal_code": "86450"
+    },
+    {
+        "code": 5309202011,
+        "district_code": 530920,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Ruto",
+        "postal_code": "86450"
+    },
+    {
+        "code": 5309202012,
+        "district_code": 530920,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Enabhara",
+        "postal_code": "86450"
+    },
+    {
+        "code": 5309202013,
+        "district_code": 530920,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Nagebaru",
         "postal_code": "86450"
     },
     {

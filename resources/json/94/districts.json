@@ -1,0 +1,788 @@
+[
+    {
+        "code": 940101,
+        "regency_code": 9401,
+        "province_code": 94,
+        "name": "Nabire"
+    },
+    {
+        "code": 940102,
+        "regency_code": 9401,
+        "province_code": 94,
+        "name": "Napan"
+    },
+    {
+        "code": 940103,
+        "regency_code": 9401,
+        "province_code": 94,
+        "name": "Yaur"
+    },
+    {
+        "code": 940104,
+        "regency_code": 9401,
+        "province_code": 94,
+        "name": "Uwapa"
+    },
+    {
+        "code": 940105,
+        "regency_code": 9401,
+        "province_code": 94,
+        "name": "Wanggar"
+    },
+    {
+        "code": 940106,
+        "regency_code": 9401,
+        "province_code": 94,
+        "name": "Siriwo"
+    },
+    {
+        "code": 940107,
+        "regency_code": 9401,
+        "province_code": 94,
+        "name": "Makimi"
+    },
+    {
+        "code": 940108,
+        "regency_code": 9401,
+        "province_code": 94,
+        "name": "Teluk Umar"
+    },
+    {
+        "code": 940109,
+        "regency_code": 9401,
+        "province_code": 94,
+        "name": "Teluk Kimi"
+    },
+    {
+        "code": 940110,
+        "regency_code": 9401,
+        "province_code": 94,
+        "name": "Yaro"
+    },
+    {
+        "code": 940111,
+        "regency_code": 9401,
+        "province_code": 94,
+        "name": "Wapoga"
+    },
+    {
+        "code": 940112,
+        "regency_code": 9401,
+        "province_code": 94,
+        "name": "Nabire Barat"
+    },
+    {
+        "code": 940113,
+        "regency_code": 9401,
+        "province_code": 94,
+        "name": "Moora"
+    },
+    {
+        "code": 940114,
+        "regency_code": 9401,
+        "province_code": 94,
+        "name": "Dipa"
+    },
+    {
+        "code": 940115,
+        "regency_code": 9401,
+        "province_code": 94,
+        "name": "Menou"
+    },
+    {
+        "code": 940201,
+        "regency_code": 9402,
+        "province_code": 94,
+        "name": "Mulia"
+    },
+    {
+        "code": 940202,
+        "regency_code": 9402,
+        "province_code": 94,
+        "name": "Ilu"
+    },
+    {
+        "code": 940203,
+        "regency_code": 9402,
+        "province_code": 94,
+        "name": "Fawi"
+    },
+    {
+        "code": 940204,
+        "regency_code": 9402,
+        "province_code": 94,
+        "name": "Mewoluk"
+    },
+    {
+        "code": 940205,
+        "regency_code": 9402,
+        "province_code": 94,
+        "name": "Yamo"
+    },
+    {
+        "code": 940206,
+        "regency_code": 9402,
+        "province_code": 94,
+        "name": "Nume"
+    },
+    {
+        "code": 940207,
+        "regency_code": 9402,
+        "province_code": 94,
+        "name": "Torere"
+    },
+    {
+        "code": 940208,
+        "regency_code": 9402,
+        "province_code": 94,
+        "name": "Tingginambut"
+    },
+    {
+        "code": 940209,
+        "regency_code": 9402,
+        "province_code": 94,
+        "name": "Pagaleme"
+    },
+    {
+        "code": 940210,
+        "regency_code": 9402,
+        "province_code": 94,
+        "name": "Gurage"
+    },
+    {
+        "code": 940211,
+        "regency_code": 9402,
+        "province_code": 94,
+        "name": "Irimuli"
+    },
+    {
+        "code": 940212,
+        "regency_code": 9402,
+        "province_code": 94,
+        "name": "Muara"
+    },
+    {
+        "code": 940213,
+        "regency_code": 9402,
+        "province_code": 94,
+        "name": "Ilamburawi"
+    },
+    {
+        "code": 940214,
+        "regency_code": 9402,
+        "province_code": 94,
+        "name": "Yambi"
+    },
+    {
+        "code": 940215,
+        "regency_code": 9402,
+        "province_code": 94,
+        "name": "Lumo"
+    },
+    {
+        "code": 940216,
+        "regency_code": 9402,
+        "province_code": 94,
+        "name": "Molanikime"
+    },
+    {
+        "code": 940217,
+        "regency_code": 9402,
+        "province_code": 94,
+        "name": "Dokome"
+    },
+    {
+        "code": 940218,
+        "regency_code": 9402,
+        "province_code": 94,
+        "name": "Kalome"
+    },
+    {
+        "code": 940219,
+        "regency_code": 9402,
+        "province_code": 94,
+        "name": "Wanwi"
+    },
+    {
+        "code": 940220,
+        "regency_code": 9402,
+        "province_code": 94,
+        "name": "Yamoneri"
+    },
+    {
+        "code": 940221,
+        "regency_code": 9402,
+        "province_code": 94,
+        "name": "Waegi"
+    },
+    {
+        "code": 940222,
+        "regency_code": 9402,
+        "province_code": 94,
+        "name": "Nioga"
+    },
+    {
+        "code": 940223,
+        "regency_code": 9402,
+        "province_code": 94,
+        "name": "Gubume"
+    },
+    {
+        "code": 940224,
+        "regency_code": 9402,
+        "province_code": 94,
+        "name": "Taganombak"
+    },
+    {
+        "code": 940225,
+        "regency_code": 9402,
+        "province_code": 94,
+        "name": "Dagai"
+    },
+    {
+        "code": 940226,
+        "regency_code": 9402,
+        "province_code": 94,
+        "name": "Kiyage"
+    },
+    {
+        "code": 940301,
+        "regency_code": 9403,
+        "province_code": 94,
+        "name": "Paniai Timur"
+    },
+    {
+        "code": 940302,
+        "regency_code": 9403,
+        "province_code": 94,
+        "name": "Paniai Barat"
+    },
+    {
+        "code": 940303,
+        "regency_code": 9403,
+        "province_code": 94,
+        "name": "Aradide"
+    },
+    {
+        "code": 940304,
+        "regency_code": 9403,
+        "province_code": 94,
+        "name": "Bogabaida"
+    },
+    {
+        "code": 940305,
+        "regency_code": 9403,
+        "province_code": 94,
+        "name": "Bibida"
+    },
+    {
+        "code": 940306,
+        "regency_code": 9403,
+        "province_code": 94,
+        "name": "Dumadama"
+    },
+    {
+        "code": 940307,
+        "regency_code": 9403,
+        "province_code": 94,
+        "name": "Siriwo"
+    },
+    {
+        "code": 940308,
+        "regency_code": 9403,
+        "province_code": 94,
+        "name": "Kebo"
+    },
+    {
+        "code": 940309,
+        "regency_code": 9403,
+        "province_code": 94,
+        "name": "Yatamo"
+    },
+    {
+        "code": 940310,
+        "regency_code": 9403,
+        "province_code": 94,
+        "name": "Ekadide"
+    },
+    {
+        "code": 940311,
+        "regency_code": 9403,
+        "province_code": 94,
+        "name": "Wegee Muka"
+    },
+    {
+        "code": 940312,
+        "regency_code": 9403,
+        "province_code": 94,
+        "name": "Wegee Bino"
+    },
+    {
+        "code": 940313,
+        "regency_code": 9403,
+        "province_code": 94,
+        "name": "Pugo Dagi"
+    },
+    {
+        "code": 940314,
+        "regency_code": 9403,
+        "province_code": 94,
+        "name": "Muye"
+    },
+    {
+        "code": 940315,
+        "regency_code": 9403,
+        "province_code": 94,
+        "name": "Nakama"
+    },
+    {
+        "code": 940316,
+        "regency_code": 9403,
+        "province_code": 94,
+        "name": "Teluk Deya"
+    },
+    {
+        "code": 940317,
+        "regency_code": 9403,
+        "province_code": 94,
+        "name": "Yagai"
+    },
+    {
+        "code": 940318,
+        "regency_code": 9403,
+        "province_code": 94,
+        "name": "Youtadi"
+    },
+    {
+        "code": 940319,
+        "regency_code": 9403,
+        "province_code": 94,
+        "name": "Baya Biru"
+    },
+    {
+        "code": 940320,
+        "regency_code": 9403,
+        "province_code": 94,
+        "name": "Deiyai Miyo"
+    },
+    {
+        "code": 940321,
+        "regency_code": 9403,
+        "province_code": 94,
+        "name": "Dogomo"
+    },
+    {
+        "code": 940322,
+        "regency_code": 9403,
+        "province_code": 94,
+        "name": "Aweida"
+    },
+    {
+        "code": 940323,
+        "regency_code": 9403,
+        "province_code": 94,
+        "name": "Topiyai"
+    },
+    {
+        "code": 940324,
+        "regency_code": 9403,
+        "province_code": 94,
+        "name": "Fajar Timur"
+    },
+    {
+        "code": 940401,
+        "regency_code": 9404,
+        "province_code": 94,
+        "name": "Mimika Baru"
+    },
+    {
+        "code": 940402,
+        "regency_code": 9404,
+        "province_code": 94,
+        "name": "Agimuga"
+    },
+    {
+        "code": 940403,
+        "regency_code": 9404,
+        "province_code": 94,
+        "name": "Mimika Timur"
+    },
+    {
+        "code": 940404,
+        "regency_code": 9404,
+        "province_code": 94,
+        "name": "Mimika Barat"
+    },
+    {
+        "code": 940405,
+        "regency_code": 9404,
+        "province_code": 94,
+        "name": "Jita"
+    },
+    {
+        "code": 940406,
+        "regency_code": 9404,
+        "province_code": 94,
+        "name": "Jila"
+    },
+    {
+        "code": 940407,
+        "regency_code": 9404,
+        "province_code": 94,
+        "name": "Mimika Timur Jauh"
+    },
+    {
+        "code": 940408,
+        "regency_code": 9404,
+        "province_code": 94,
+        "name": "Mimika Tengah"
+    },
+    {
+        "code": 940409,
+        "regency_code": 9404,
+        "province_code": 94,
+        "name": "Kuala Kencana"
+    },
+    {
+        "code": 940410,
+        "regency_code": 9404,
+        "province_code": 94,
+        "name": "Tembagapura"
+    },
+    {
+        "code": 940411,
+        "regency_code": 9404,
+        "province_code": 94,
+        "name": "Mimika Barat Jauh"
+    },
+    {
+        "code": 940412,
+        "regency_code": 9404,
+        "province_code": 94,
+        "name": "Mimika Barat Tengah"
+    },
+    {
+        "code": 940413,
+        "regency_code": 9404,
+        "province_code": 94,
+        "name": "Kwamki Narama"
+    },
+    {
+        "code": 940414,
+        "regency_code": 9404,
+        "province_code": 94,
+        "name": "Hoya"
+    },
+    {
+        "code": 940415,
+        "regency_code": 9404,
+        "province_code": 94,
+        "name": "Iwaka"
+    },
+    {
+        "code": 940416,
+        "regency_code": 9404,
+        "province_code": 94,
+        "name": "Wania"
+    },
+    {
+        "code": 940417,
+        "regency_code": 9404,
+        "province_code": 94,
+        "name": "Amar"
+    },
+    {
+        "code": 940418,
+        "regency_code": 9404,
+        "province_code": 94,
+        "name": "Alama"
+    },
+    {
+        "code": 940501,
+        "regency_code": 9405,
+        "province_code": 94,
+        "name": "Ilaga"
+    },
+    {
+        "code": 940502,
+        "regency_code": 9405,
+        "province_code": 94,
+        "name": "Wangbe"
+    },
+    {
+        "code": 940503,
+        "regency_code": 9405,
+        "province_code": 94,
+        "name": "Beoga"
+    },
+    {
+        "code": 940504,
+        "regency_code": 9405,
+        "province_code": 94,
+        "name": "Doufo"
+    },
+    {
+        "code": 940505,
+        "regency_code": 9405,
+        "province_code": 94,
+        "name": "Pogoma"
+    },
+    {
+        "code": 940506,
+        "regency_code": 9405,
+        "province_code": 94,
+        "name": "Sinak"
+    },
+    {
+        "code": 940507,
+        "regency_code": 9405,
+        "province_code": 94,
+        "name": "Agandugume"
+    },
+    {
+        "code": 940508,
+        "regency_code": 9405,
+        "province_code": 94,
+        "name": "Gome"
+    },
+    {
+        "code": 940509,
+        "regency_code": 9405,
+        "province_code": 94,
+        "name": "Dervos"
+    },
+    {
+        "code": 940510,
+        "regency_code": 9405,
+        "province_code": 94,
+        "name": "Beoga Barat"
+    },
+    {
+        "code": 940511,
+        "regency_code": 9405,
+        "province_code": 94,
+        "name": "Beoga Timur"
+    },
+    {
+        "code": 940512,
+        "regency_code": 9405,
+        "province_code": 94,
+        "name": "Ogamanim"
+    },
+    {
+        "code": 940513,
+        "regency_code": 9405,
+        "province_code": 94,
+        "name": "Kembru"
+    },
+    {
+        "code": 940514,
+        "regency_code": 9405,
+        "province_code": 94,
+        "name": "Bina"
+    },
+    {
+        "code": 940515,
+        "regency_code": 9405,
+        "province_code": 94,
+        "name": "Sinak Barat"
+    },
+    {
+        "code": 940516,
+        "regency_code": 9405,
+        "province_code": 94,
+        "name": "Mage'abume"
+    },
+    {
+        "code": 940517,
+        "regency_code": 9405,
+        "province_code": 94,
+        "name": "Yugumuak"
+    },
+    {
+        "code": 940518,
+        "regency_code": 9405,
+        "province_code": 94,
+        "name": "Ilaga Utara"
+    },
+    {
+        "code": 940519,
+        "regency_code": 9405,
+        "province_code": 94,
+        "name": "Mabugi"
+    },
+    {
+        "code": 940520,
+        "regency_code": 9405,
+        "province_code": 94,
+        "name": "Omukia"
+    },
+    {
+        "code": 940521,
+        "regency_code": 9405,
+        "province_code": 94,
+        "name": "Lambewi"
+    },
+    {
+        "code": 940522,
+        "regency_code": 9405,
+        "province_code": 94,
+        "name": "Oneri"
+    },
+    {
+        "code": 940523,
+        "regency_code": 9405,
+        "province_code": 94,
+        "name": "Amungkalpia"
+    },
+    {
+        "code": 940524,
+        "regency_code": 9405,
+        "province_code": 94,
+        "name": "Gome Utara"
+    },
+    {
+        "code": 940525,
+        "regency_code": 9405,
+        "province_code": 94,
+        "name": "Erelmakawia"
+    },
+    {
+        "code": 940601,
+        "regency_code": 9406,
+        "province_code": 94,
+        "name": "Kamu"
+    },
+    {
+        "code": 940602,
+        "regency_code": 9406,
+        "province_code": 94,
+        "name": "Mapia"
+    },
+    {
+        "code": 940603,
+        "regency_code": 9406,
+        "province_code": 94,
+        "name": "Piyaiye"
+    },
+    {
+        "code": 940604,
+        "regency_code": 9406,
+        "province_code": 94,
+        "name": "Kamu Utara"
+    },
+    {
+        "code": 940605,
+        "regency_code": 9406,
+        "province_code": 94,
+        "name": "Sukikai Selatan"
+    },
+    {
+        "code": 940606,
+        "regency_code": 9406,
+        "province_code": 94,
+        "name": "Mapia Barat"
+    },
+    {
+        "code": 940607,
+        "regency_code": 9406,
+        "province_code": 94,
+        "name": "Kamu Selatan"
+    },
+    {
+        "code": 940608,
+        "regency_code": 9406,
+        "province_code": 94,
+        "name": "Kamu Timur"
+    },
+    {
+        "code": 940609,
+        "regency_code": 9406,
+        "province_code": 94,
+        "name": "Mapia Tengah"
+    },
+    {
+        "code": 940610,
+        "regency_code": 9406,
+        "province_code": 94,
+        "name": "Dogiyai"
+    },
+    {
+        "code": 940701,
+        "regency_code": 9407,
+        "province_code": 94,
+        "name": "Sugapa"
+    },
+    {
+        "code": 940702,
+        "regency_code": 9407,
+        "province_code": 94,
+        "name": "Homeyo"
+    },
+    {
+        "code": 940703,
+        "regency_code": 9407,
+        "province_code": 94,
+        "name": "Wandai"
+    },
+    {
+        "code": 940704,
+        "regency_code": 9407,
+        "province_code": 94,
+        "name": "Biandoga"
+    },
+    {
+        "code": 940705,
+        "regency_code": 9407,
+        "province_code": 94,
+        "name": "Agisiga"
+    },
+    {
+        "code": 940706,
+        "regency_code": 9407,
+        "province_code": 94,
+        "name": "Hitadipa"
+    },
+    {
+        "code": 940707,
+        "regency_code": 9407,
+        "province_code": 94,
+        "name": "Ugimba"
+    },
+    {
+        "code": 940708,
+        "regency_code": 9407,
+        "province_code": 94,
+        "name": "Tomosiga"
+    },
+    {
+        "code": 940801,
+        "regency_code": 9408,
+        "province_code": 94,
+        "name": "Tigi"
+    },
+    {
+        "code": 940802,
+        "regency_code": 9408,
+        "province_code": 94,
+        "name": "Tigi Timur"
+    },
+    {
+        "code": 940803,
+        "regency_code": 9408,
+        "province_code": 94,
+        "name": "Bowobado"
+    },
+    {
+        "code": 940804,
+        "regency_code": 9408,
+        "province_code": 94,
+        "name": "Tigi Barat"
+    },
+    {
+        "code": 940805,
+        "regency_code": 9408,
+        "province_code": 94,
+        "name": "Kapiraya"
+    }
+]

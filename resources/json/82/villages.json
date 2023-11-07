@@ -872,6 +872,38 @@
         "postal_code": "97751"
     },
     {
+        "code": 8201052029,
+        "district_code": 820105,
+        "regency_code": 8201,
+        "province_code": 82,
+        "name": "Bobaneigo Madihutu",
+        "postal_code": "97751"
+    },
+    {
+        "code": 8201052030,
+        "district_code": 820105,
+        "regency_code": 8201,
+        "province_code": 82,
+        "name": "Tetewang Joronga",
+        "postal_code": "97751"
+    },
+    {
+        "code": 8201052031,
+        "district_code": 820105,
+        "regency_code": 8201,
+        "province_code": 82,
+        "name": "Akelamo Cinga-Cinga",
+        "postal_code": "97751"
+    },
+    {
+        "code": 8201052032,
+        "district_code": 820105,
+        "regency_code": 8201,
+        "province_code": 82,
+        "name": "Akesahu Madutu",
+        "postal_code": "97751"
+    },
+    {
         "code": 8201072001,
         "district_code": 820107,
         "regency_code": 8201,

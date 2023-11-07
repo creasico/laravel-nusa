@@ -132,6 +132,18 @@
         "name": "Belat"
     },
     {
+        "code": 210213,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Selat Gelam"
+    },
+    {
+        "code": 210214,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Sugie Besar"
+    },
+    {
         "code": 210304,
         "regency_code": 2103,
         "province_code": 21,
@@ -220,6 +232,18 @@
         "regency_code": 2103,
         "province_code": 21,
         "name": "Suak Midai"
+    },
+    {
+        "code": 210323,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Pulau Panjang"
+    },
+    {
+        "code": 210324,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Pulau Seluan"
     },
     {
         "code": 210401,

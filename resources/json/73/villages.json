@@ -3296,22 +3296,6 @@
         "postal_code": "92261"
     },
     {
-        "code": 7305022005,
-        "district_code": 730502,
-        "regency_code": 7305,
-        "province_code": 73,
-        "name": "Laikang",
-        "postal_code": null
-    },
-    {
-        "code": 7305022006,
-        "district_code": 730502,
-        "regency_code": 7305,
-        "province_code": 73,
-        "name": "Panyangkalang",
-        "postal_code": null
-    },
-    {
         "code": 7305022007,
         "district_code": 730502,
         "regency_code": 7305,
@@ -3326,38 +3310,6 @@
         "province_code": 73,
         "name": "Bontomanai",
         "postal_code": "92261"
-    },
-    {
-        "code": 7305022009,
-        "district_code": 730502,
-        "regency_code": 7305,
-        "province_code": 73,
-        "name": "Bontoparang",
-        "postal_code": null
-    },
-    {
-        "code": 7305022010,
-        "district_code": 730502,
-        "regency_code": 7305,
-        "province_code": 73,
-        "name": "Pattopakang",
-        "postal_code": null
-    },
-    {
-        "code": 7305022011,
-        "district_code": 730502,
-        "regency_code": 7305,
-        "province_code": 73,
-        "name": "Punaga",
-        "postal_code": null
-    },
-    {
-        "code": 7305022012,
-        "district_code": 730502,
-        "regency_code": 7305,
-        "province_code": 73,
-        "name": "Cikoang",
-        "postal_code": null
     },
     {
         "code": 7305031001,
@@ -3440,6 +3392,14 @@
         "postal_code": "92252"
     },
     {
+        "code": 7305032011,
+        "district_code": 730503,
+        "regency_code": 7305,
+        "province_code": 73,
+        "name": "Kale Lantang",
+        "postal_code": "92252"
+    },
+    {
         "code": 7305041001,
         "district_code": 730504,
         "regency_code": 7305,
@@ -3496,14 +3456,6 @@
         "postal_code": "92221"
     },
     {
-        "code": 7305042008,
-        "district_code": 730504,
-        "regency_code": 7305,
-        "province_code": 73,
-        "name": "Kampung Beru",
-        "postal_code": null
-    },
-    {
         "code": 7305042009,
         "district_code": 730504,
         "regency_code": 7305,
@@ -3520,68 +3472,12 @@
         "postal_code": "92221"
     },
     {
-        "code": 7305042011,
-        "district_code": 730504,
-        "regency_code": 7305,
-        "province_code": 73,
-        "name": "Barugaya",
-        "postal_code": null
-    },
-    {
-        "code": 7305042012,
-        "district_code": 730504,
-        "regency_code": 7305,
-        "province_code": 73,
-        "name": "Ko'mara",
-        "postal_code": null
-    },
-    {
-        "code": 7305042013,
-        "district_code": 730504,
-        "regency_code": 7305,
-        "province_code": 73,
-        "name": "Timbuseng",
-        "postal_code": null
-    },
-    {
-        "code": 7305042014,
-        "district_code": 730504,
-        "regency_code": 7305,
-        "province_code": 73,
-        "name": "Massamaturu",
-        "postal_code": null
-    },
-    {
-        "code": 7305042015,
-        "district_code": 730504,
-        "regency_code": 7305,
-        "province_code": 73,
-        "name": "Parang Baddo",
-        "postal_code": null
-    },
-    {
         "code": 7305042016,
         "district_code": 730504,
         "regency_code": 7305,
         "province_code": 73,
         "name": "Lassang Barat",
         "postal_code": "92221"
-    },
-    {
-        "code": 7305042017,
-        "district_code": 730504,
-        "regency_code": 7305,
-        "province_code": 73,
-        "name": "Balangtanaya",
-        "postal_code": null
-    },
-    {
-        "code": 7305042018,
-        "district_code": 730504,
-        "regency_code": 7305,
-        "province_code": 73,
-        "name": "Kale Ko'mara",
-        "postal_code": null
     },
     {
         "code": 7305052006,
@@ -3680,6 +3576,14 @@
         "postal_code": "92254"
     },
     {
+        "code": 7305052020,
+        "district_code": 730505,
+        "regency_code": 7305,
+        "province_code": 73,
+        "name": "Kanaeng",
+        "postal_code": "92254"
+    },
+    {
         "code": 7305061004,
         "district_code": 730506,
         "regency_code": 7305,
@@ -3757,6 +3661,38 @@
         "regency_code": 7305,
         "province_code": 73,
         "name": "Sampulungan",
+        "postal_code": "92255"
+    },
+    {
+        "code": 7305062013,
+        "district_code": 730506,
+        "regency_code": 7305,
+        "province_code": 73,
+        "name": "Maccini Sombala",
+        "postal_code": "92255"
+    },
+    {
+        "code": 7305062014,
+        "district_code": 730506,
+        "regency_code": 7305,
+        "province_code": 73,
+        "name": "Sawakung Beba",
+        "postal_code": "92255"
+    },
+    {
+        "code": 7305062015,
+        "district_code": 730506,
+        "regency_code": 7305,
+        "province_code": 73,
+        "name": "Biring Kassi",
+        "postal_code": "92255"
+    },
+    {
+        "code": 7305062016,
+        "district_code": 730506,
+        "regency_code": 7305,
+        "province_code": 73,
+        "name": "Kaballokang Pakkabba",
         "postal_code": "92255"
     },
     {
@@ -3992,6 +3928,30 @@
         "postal_code": "92255"
     },
     {
+        "code": 7305092015,
+        "district_code": 730509,
+        "regency_code": 7305,
+        "province_code": 73,
+        "name": "Galesong Timur",
+        "postal_code": "92255"
+    },
+    {
+        "code": 7305092016,
+        "district_code": 730509,
+        "regency_code": 7305,
+        "province_code": 73,
+        "name": "Kampung Beru",
+        "postal_code": "92255"
+    },
+    {
+        "code": 7305092017,
+        "district_code": 730509,
+        "regency_code": 7305,
+        "province_code": 73,
+        "name": "Tarembang",
+        "postal_code": "92255"
+    },
+    {
         "code": 7305102001,
         "district_code": 730510,
         "regency_code": 7305,
@@ -4030,6 +3990,126 @@
         "province_code": 73,
         "name": "Maccini Baji",
         "postal_code": "92232"
+    },
+    {
+        "code": 7305102006,
+        "district_code": 730510,
+        "regency_code": 7305,
+        "province_code": 73,
+        "name": "Minasa Baji",
+        "postal_code": "92232"
+    },
+    {
+        "code": 7305112001,
+        "district_code": 730511,
+        "regency_code": 7305,
+        "province_code": 73,
+        "name": "Ko'mara",
+        "postal_code": "92221"
+    },
+    {
+        "code": 7305112002,
+        "district_code": 730511,
+        "regency_code": 7305,
+        "province_code": 73,
+        "name": "Kale Ko'mara",
+        "postal_code": "92221"
+    },
+    {
+        "code": 7305112003,
+        "district_code": 730511,
+        "regency_code": 7305,
+        "province_code": 73,
+        "name": "Barugaya",
+        "postal_code": "92221"
+    },
+    {
+        "code": 7305112004,
+        "district_code": 730511,
+        "regency_code": 7305,
+        "province_code": 73,
+        "name": "Parang Baddo",
+        "postal_code": "92221"
+    },
+    {
+        "code": 7305112005,
+        "district_code": 730511,
+        "regency_code": 7305,
+        "province_code": 73,
+        "name": "Massamaturu",
+        "postal_code": "92221"
+    },
+    {
+        "code": 7305112006,
+        "district_code": 730511,
+        "regency_code": 7305,
+        "province_code": 73,
+        "name": "Timbuseng",
+        "postal_code": "92221"
+    },
+    {
+        "code": 7305112007,
+        "district_code": 730511,
+        "regency_code": 7305,
+        "province_code": 73,
+        "name": "Balangtanaya",
+        "postal_code": "92221"
+    },
+    {
+        "code": 7305112008,
+        "district_code": 730511,
+        "regency_code": 7305,
+        "province_code": 73,
+        "name": "Kampung Beru",
+        "postal_code": "92221"
+    },
+    {
+        "code": 7305122001,
+        "district_code": 730512,
+        "regency_code": 7305,
+        "province_code": 73,
+        "name": "Panyangkalang",
+        "postal_code": "92261"
+    },
+    {
+        "code": 7305122002,
+        "district_code": 730512,
+        "regency_code": 7305,
+        "province_code": 73,
+        "name": "Bontoparang",
+        "postal_code": "92261"
+    },
+    {
+        "code": 7305122003,
+        "district_code": 730512,
+        "regency_code": 7305,
+        "province_code": 73,
+        "name": "Pattopakang",
+        "postal_code": "92261"
+    },
+    {
+        "code": 7305122004,
+        "district_code": 730512,
+        "regency_code": 7305,
+        "province_code": 73,
+        "name": "Cikoang",
+        "postal_code": "92261"
+    },
+    {
+        "code": 7305122005,
+        "district_code": 730512,
+        "regency_code": 7305,
+        "province_code": 73,
+        "name": "Punaga",
+        "postal_code": "92261"
+    },
+    {
+        "code": 7305122006,
+        "district_code": 730512,
+        "regency_code": 7305,
+        "province_code": 73,
+        "name": "Laikang",
+        "postal_code": "92261"
     },
     {
         "code": 7306011001,

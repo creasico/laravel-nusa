@@ -8992,6 +8992,14 @@
         "postal_code": "97541"
     },
     {
+        "code": 8109042016,
+        "district_code": 810904,
+        "regency_code": 8109,
+        "province_code": 81,
+        "name": "Waehotong",
+        "postal_code": null
+    },
+    {
         "code": 8109052001,
         "district_code": 810905,
         "regency_code": 8109,
@@ -9222,6 +9230,14 @@
         "province_code": 81,
         "name": "Waeken",
         "postal_code": "97542"
+    },
+    {
+        "code": 8109062011,
+        "district_code": 810906,
+        "regency_code": 8109,
+        "province_code": 81,
+        "name": "Batu Karang",
+        "postal_code": null
     },
     {
         "code": 8171011006,

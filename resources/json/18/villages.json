@@ -15488,6 +15488,22 @@
         "postal_code": "35353"
     },
     {
+        "code": 1809022020,
+        "district_code": 180902,
+        "regency_code": 1809,
+        "province_code": 18,
+        "name": "Pujodadi",
+        "postal_code": "35353"
+    },
+    {
+        "code": 1809022021,
+        "district_code": 180902,
+        "regency_code": 1809,
+        "province_code": 18,
+        "name": "Grujugan Baru",
+        "postal_code": "35353"
+    },
+    {
         "code": 1809032001,
         "district_code": 180903,
         "regency_code": 1809,
@@ -15832,6 +15848,14 @@
         "postal_code": "35451"
     },
     {
+        "code": 1809052032,
+        "district_code": 180905,
+        "regency_code": 1809,
+        "province_code": 18,
+        "name": "Dantar",
+        "postal_code": "35451"
+    },
+    {
         "code": 1809062001,
         "district_code": 180906,
         "regency_code": 1809,
@@ -16016,14 +16040,6 @@
         "postal_code": "35368"
     },
     {
-        "code": 1809072022,
-        "district_code": 180907,
-        "regency_code": 1809,
-        "province_code": 18,
-        "name": "Tanjung Rejo",
-        "postal_code": "35368"
-    },
-    {
         "code": 1809082001,
         "district_code": 180908,
         "regency_code": 1809,
@@ -16174,6 +16190,14 @@
         "province_code": 18,
         "name": "Kubu Batu",
         "postal_code": "35369"
+    },
+    {
+        "code": 1809092010,
+        "district_code": 180909,
+        "regency_code": 1809,
+        "province_code": 18,
+        "name": "Tanjung Rejo",
+        "postal_code": null
     },
     {
         "code": 1809102001,
@@ -16333,6 +16357,14 @@
         "regency_code": 1809,
         "province_code": 18,
         "name": "Harapan Jaya",
+        "postal_code": "35455"
+    },
+    {
+        "code": 1809112011,
+        "district_code": 180911,
+        "regency_code": 1809,
+        "province_code": 18,
+        "name": "Kalirejo",
         "postal_code": "35455"
     },
     {
@@ -18376,6 +18408,22 @@
         "postal_code": "34793"
     },
     {
+        "code": 1812012020,
+        "district_code": 181201,
+        "regency_code": 1812,
+        "province_code": 18,
+        "name": "Marga Asri",
+        "postal_code": "34793"
+    },
+    {
+        "code": 1812012021,
+        "district_code": 181201,
+        "regency_code": 1812,
+        "province_code": 18,
+        "name": "Mekar Asri",
+        "postal_code": "34793"
+    },
+    {
         "code": 1812021001,
         "district_code": 181202,
         "regency_code": 1812,
@@ -18525,6 +18573,38 @@
         "regency_code": 1812,
         "province_code": 18,
         "name": "Way Sido",
+        "postal_code": "34791"
+    },
+    {
+        "code": 1812032010,
+        "district_code": 181203,
+        "regency_code": 1812,
+        "province_code": 18,
+        "name": "Kagungan Ratu Agung",
+        "postal_code": "34791"
+    },
+    {
+        "code": 1812032011,
+        "district_code": 181203,
+        "regency_code": 1812,
+        "province_code": 18,
+        "name": "Gading Kencana",
+        "postal_code": "34791"
+    },
+    {
+        "code": 1812032012,
+        "district_code": 181203,
+        "regency_code": 1812,
+        "province_code": 18,
+        "name": "Karta Raya",
+        "postal_code": "34791"
+    },
+    {
+        "code": 1812032013,
+        "district_code": 181203,
+        "regency_code": 1812,
+        "province_code": 18,
+        "name": "Karta Tanjung Selamat",
         "postal_code": "34791"
     },
     {
@@ -18781,6 +18861,14 @@
         "regency_code": 1812,
         "province_code": 18,
         "name": "Indraloka Mukti",
+        "postal_code": "34788"
+    },
+    {
+        "code": 1812062010,
+        "district_code": 181206,
+        "regency_code": 1812,
+        "province_code": 18,
+        "name": "Sido Agung",
         "postal_code": "34788"
     },
     {

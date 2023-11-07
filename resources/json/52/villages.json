@@ -1280,6 +1280,14 @@
         "postal_code": "83552"
     },
     {
+        "code": 5202032011,
+        "district_code": 520203,
+        "regency_code": 5202,
+        "province_code": 52,
+        "name": "Lendang Tampel",
+        "postal_code": "83552"
+    },
+    {
         "code": 5202042001,
         "district_code": 520204,
         "regency_code": 5202,
@@ -1405,6 +1413,22 @@
         "regency_code": 5202,
         "province_code": 52,
         "name": "Bangket Parak",
+        "postal_code": "83573"
+    },
+    {
+        "code": 5202042017,
+        "district_code": 520204,
+        "regency_code": 5202,
+        "province_code": 52,
+        "name": "Dadap",
+        "postal_code": "83573"
+    },
+    {
+        "code": 5202042018,
+        "district_code": 520204,
+        "regency_code": 5202,
+        "province_code": 52,
+        "name": "Kerame Jati",
         "postal_code": "83573"
     },
     {
@@ -1568,6 +1592,38 @@
         "postal_code": "83581"
     },
     {
+        "code": 5202062011,
+        "district_code": 520206,
+        "regency_code": 5202,
+        "province_code": 52,
+        "name": "Beleke Daye",
+        "postal_code": "83581"
+    },
+    {
+        "code": 5202062012,
+        "district_code": 520206,
+        "regency_code": 5202,
+        "province_code": 52,
+        "name": "Beleke Lebe Sane",
+        "postal_code": "83581"
+    },
+    {
+        "code": 5202062013,
+        "district_code": 520206,
+        "regency_code": 5202,
+        "province_code": 52,
+        "name": "Pegonak",
+        "postal_code": "83581"
+    },
+    {
+        "code": 5202062014,
+        "district_code": 520206,
+        "regency_code": 5202,
+        "province_code": 52,
+        "name": "Jero Puri",
+        "postal_code": "83581"
+    },
+    {
         "code": 5202072001,
         "district_code": 520207,
         "regency_code": 5202,
@@ -1661,6 +1717,38 @@
         "regency_code": 5202,
         "province_code": 52,
         "name": "Setuta",
+        "postal_code": "83554"
+    },
+    {
+        "code": 5202072013,
+        "district_code": 520207,
+        "regency_code": 5202,
+        "province_code": 52,
+        "name": "Prako",
+        "postal_code": "83554"
+    },
+    {
+        "code": 5202072014,
+        "district_code": 520207,
+        "regency_code": 5202,
+        "province_code": 52,
+        "name": "Tibu Sisok",
+        "postal_code": "83554"
+    },
+    {
+        "code": 5202072015,
+        "district_code": 520207,
+        "regency_code": 5202,
+        "province_code": 52,
+        "name": "Janggawana",
+        "postal_code": "83554"
+    },
+    {
+        "code": 5202072016,
+        "district_code": 520207,
+        "regency_code": 5202,
+        "province_code": 52,
+        "name": "Lingkok Berenge",
         "postal_code": "83554"
     },
     {
@@ -1840,6 +1928,22 @@
         "postal_code": "83553"
     },
     {
+        "code": 5202092012,
+        "district_code": 520209,
+        "regency_code": 5202,
+        "province_code": 52,
+        "name": "Berinding",
+        "postal_code": "83553"
+    },
+    {
+        "code": 5202092013,
+        "district_code": 520209,
+        "regency_code": 5202,
+        "province_code": 52,
+        "name": "Pajangan",
+        "postal_code": "83553"
+    },
+    {
         "code": 5202101001,
         "district_code": 520210,
         "regency_code": 5202,
@@ -1936,6 +2040,14 @@
         "postal_code": "83582"
     },
     {
+        "code": 5202102013,
+        "district_code": 520210,
+        "regency_code": 5202,
+        "province_code": 52,
+        "name": "Lelong",
+        "postal_code": "83582"
+    },
+    {
         "code": 5202112001,
         "district_code": 520211,
         "regency_code": 5202,
@@ -2021,6 +2133,14 @@
         "regency_code": 5202,
         "province_code": 52,
         "name": "Teduh",
+        "postal_code": "83571"
+    },
+    {
+        "code": 5202112012,
+        "district_code": 520211,
+        "regency_code": 5202,
+        "province_code": 52,
+        "name": "Pandan Tinggang",
         "postal_code": "83571"
     },
     {
@@ -7765,6 +7885,14 @@
         "regency_code": 5207,
         "province_code": 52,
         "name": "Sermong",
+        "postal_code": "84452"
+    },
+    {
+        "code": 5207022021,
+        "district_code": 520702,
+        "regency_code": 5207,
+        "province_code": 52,
+        "name": "Lamunga",
         "postal_code": "84452"
     },
     {
