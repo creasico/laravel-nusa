@@ -3992,6 +3992,14 @@
         "postal_code": "26473"
     },
     {
+        "code": 1306012004,
+        "district_code": 130601,
+        "regency_code": 1306,
+        "province_code": 13,
+        "name": "Durian Kapeh Darussalam",
+        "postal_code": null
+    },
+    {
         "code": 1306022001,
         "district_code": 130602,
         "regency_code": 1306,
@@ -4102,6 +4110,14 @@
         "province_code": 13,
         "name": "Paninjauan",
         "postal_code": "26471"
+    },
+    {
+        "code": 1306032011,
+        "district_code": 130603,
+        "regency_code": 1306,
+        "province_code": 13,
+        "name": "Dalko",
+        "postal_code": null
     },
     {
         "code": 1306042001,
@@ -4368,6 +4384,22 @@
         "postal_code": "26192"
     },
     {
+        "code": 1306082008,
+        "district_code": 130608,
+        "regency_code": 1306,
+        "province_code": 13,
+        "name": "Sungai Cubadak",
+        "postal_code": null
+    },
+    {
+        "code": 1306082009,
+        "district_code": 130608,
+        "regency_code": 1306,
+        "province_code": 13,
+        "name": "Koto Gadang",
+        "postal_code": null
+    },
+    {
         "code": 1306092001,
         "district_code": 130609,
         "regency_code": 1306,
@@ -4424,6 +4456,14 @@
         "postal_code": "26151"
     },
     {
+        "code": 1306102005,
+        "district_code": 130610,
+        "regency_code": 1306,
+        "province_code": 13,
+        "name": "Nan Limo",
+        "postal_code": "26151"
+    },
+    {
         "code": 1306112001,
         "district_code": 130611,
         "regency_code": 1306,
@@ -4469,6 +4509,30 @@
         "regency_code": 1306,
         "province_code": 13,
         "name": "Salareh Aia",
+        "postal_code": "26164"
+    },
+    {
+        "code": 1306112007,
+        "district_code": 130611,
+        "regency_code": 1306,
+        "province_code": 13,
+        "name": "Salareh Aia Timur",
+        "postal_code": "26164"
+    },
+    {
+        "code": 1306112008,
+        "district_code": 130611,
+        "regency_code": 1306,
+        "province_code": 13,
+        "name": "Salareh Aia Utara",
+        "postal_code": "26164"
+    },
+    {
+        "code": 1306112009,
+        "district_code": 130611,
+        "regency_code": 1306,
+        "province_code": 13,
+        "name": "Salareh Aia Barat",
         "postal_code": "26164"
     },
     {
@@ -4589,6 +4653,22 @@
         "regency_code": 1306,
         "province_code": 13,
         "name": "Kamang Mudiak",
+        "postal_code": "26152"
+    },
+    {
+        "code": 1306152004,
+        "district_code": 130615,
+        "regency_code": 1306,
+        "province_code": 13,
+        "name": "Kamang Tangah Anam Suku",
+        "postal_code": "26152"
+    },
+    {
+        "code": 1306152005,
+        "district_code": 130615,
+        "regency_code": 1306,
+        "province_code": 13,
+        "name": "Pauh Kamang Mudiak",
         "postal_code": "26152"
     },
     {
@@ -5288,6 +5368,14 @@
         "postal_code": "26381"
     },
     {
+        "code": 1308042007,
+        "district_code": 130804,
+        "regency_code": 1308,
+        "province_code": 13,
+        "name": "Koto Kaciak Barat",
+        "postal_code": "26381"
+    },
+    {
         "code": 1308052001,
         "district_code": 130805,
         "regency_code": 1308,
@@ -5336,6 +5424,62 @@
         "postal_code": "26318"
     },
     {
+        "code": 1308052007,
+        "district_code": 130805,
+        "regency_code": 1308,
+        "province_code": 13,
+        "name": "Tanjuang Baringin Utara",
+        "postal_code": "26318"
+    },
+    {
+        "code": 1308052008,
+        "district_code": 130805,
+        "regency_code": 1308,
+        "province_code": 13,
+        "name": "Tanjuang Baringin Selatan",
+        "postal_code": "26318"
+    },
+    {
+        "code": 1308052009,
+        "district_code": 130805,
+        "regency_code": 1308,
+        "province_code": 13,
+        "name": "Aia Manggih Utara",
+        "postal_code": "26318"
+    },
+    {
+        "code": 1308052010,
+        "district_code": 130805,
+        "regency_code": 1308,
+        "province_code": 13,
+        "name": "Aia Manggih Selatan",
+        "postal_code": "26318"
+    },
+    {
+        "code": 1308052011,
+        "district_code": 130805,
+        "regency_code": 1308,
+        "province_code": 13,
+        "name": "Aia Manggih Barat",
+        "postal_code": "26318"
+    },
+    {
+        "code": 1308052012,
+        "district_code": 130805,
+        "regency_code": 1308,
+        "province_code": 13,
+        "name": "Sundata Utara",
+        "postal_code": "26318"
+    },
+    {
+        "code": 1308052013,
+        "district_code": 130805,
+        "regency_code": 1308,
+        "province_code": 13,
+        "name": "Sundata Selatan",
+        "postal_code": "26318"
+    },
+    {
         "code": 1308072001,
         "district_code": 130807,
         "regency_code": 1308,
@@ -5357,6 +5501,14 @@
         "regency_code": 1308,
         "province_code": 13,
         "name": "Panti Selatan",
+        "postal_code": "26351"
+    },
+    {
+        "code": 1308072005,
+        "district_code": 130807,
+        "regency_code": 1308,
+        "province_code": 13,
+        "name": "Panti Utara",
         "postal_code": "26351"
     },
     {
@@ -5384,6 +5536,14 @@
         "postal_code": "26353"
     },
     {
+        "code": 1308082006,
+        "district_code": 130808,
+        "regency_code": 1308,
+        "province_code": 13,
+        "name": "Muaro Tais Koto Gadang",
+        "postal_code": "26353"
+    },
+    {
         "code": 1308122001,
         "district_code": 130812,
         "regency_code": 1308,
@@ -5397,6 +5557,46 @@
         "regency_code": 1308,
         "province_code": 13,
         "name": "Cubadak",
+        "postal_code": "26311"
+    },
+    {
+        "code": 1308122003,
+        "district_code": 130812,
+        "regency_code": 1308,
+        "province_code": 13,
+        "name": "Simpang Tonang Selatan",
+        "postal_code": "26311"
+    },
+    {
+        "code": 1308122004,
+        "district_code": 130812,
+        "regency_code": 1308,
+        "province_code": 13,
+        "name": "Simpang Tonang Utara",
+        "postal_code": "26311"
+    },
+    {
+        "code": 1308122005,
+        "district_code": 130812,
+        "regency_code": 1308,
+        "province_code": 13,
+        "name": "Cubadak Timur",
+        "postal_code": "26311"
+    },
+    {
+        "code": 1308122006,
+        "district_code": 130812,
+        "regency_code": 1308,
+        "province_code": 13,
+        "name": "Cubadak Tengah",
+        "postal_code": "26311"
+    },
+    {
+        "code": 1308122007,
+        "district_code": 130812,
+        "regency_code": 1308,
+        "province_code": 13,
+        "name": "Cubadak Barat",
         "postal_code": "26311"
     },
     {
@@ -5424,6 +5624,22 @@
         "postal_code": "26358"
     },
     {
+        "code": 1308132004,
+        "district_code": 130813,
+        "regency_code": 1308,
+        "province_code": 13,
+        "name": "Malampah Barat",
+        "postal_code": "26358"
+    },
+    {
+        "code": 1308132005,
+        "district_code": 130813,
+        "regency_code": 1308,
+        "province_code": 13,
+        "name": "Ladang Panjang Barat",
+        "postal_code": "26358"
+    },
+    {
         "code": 1308142002,
         "district_code": 130814,
         "regency_code": 1308,
@@ -5437,6 +5653,30 @@
         "regency_code": 1308,
         "province_code": 13,
         "name": "Padang Mantinggi",
+        "postal_code": "26355"
+    },
+    {
+        "code": 1308142008,
+        "district_code": 130814,
+        "regency_code": 1308,
+        "province_code": 13,
+        "name": "Taruang Taruang Selatan",
+        "postal_code": "26355"
+    },
+    {
+        "code": 1308142009,
+        "district_code": 130814,
+        "regency_code": 1308,
+        "province_code": 13,
+        "name": "Taruang Taruang Utara",
+        "postal_code": "26355"
+    },
+    {
+        "code": 1308142010,
+        "district_code": 130814,
+        "regency_code": 1308,
+        "province_code": 13,
+        "name": "Padang Mantinggi Utara",
         "postal_code": "26355"
     },
     {
@@ -5469,6 +5709,22 @@
         "regency_code": 1308,
         "province_code": 13,
         "name": "Simpang",
+        "postal_code": "26382"
+    },
+    {
+        "code": 1308162003,
+        "district_code": 130816,
+        "regency_code": 1308,
+        "province_code": 13,
+        "name": "Alahan Mati Hilia",
+        "postal_code": "26382"
+    },
+    {
+        "code": 1308162004,
+        "district_code": 130816,
+        "regency_code": 1308,
+        "province_code": 13,
+        "name": "Simpang Utara",
         "postal_code": "26382"
     },
     {
@@ -5549,6 +5805,30 @@
         "regency_code": 1308,
         "province_code": 13,
         "name": "Tanjung Betung",
+        "postal_code": "26356"
+    },
+    {
+        "code": 1308192004,
+        "district_code": 130819,
+        "regency_code": 1308,
+        "province_code": 13,
+        "name": "Lansek Kadok Barat",
+        "postal_code": "26356"
+    },
+    {
+        "code": 1308192005,
+        "district_code": 130819,
+        "regency_code": 1308,
+        "province_code": 13,
+        "name": "Tanjung Betung Utara",
+        "postal_code": "26356"
+    },
+    {
+        "code": 1308192006,
+        "district_code": 130819,
+        "regency_code": 1308,
+        "province_code": 13,
+        "name": "Tanjung Betung Timur",
         "postal_code": "26356"
     },
     {
@@ -6640,6 +6920,70 @@
         "postal_code": "26570"
     },
     {
+        "code": 1312022002,
+        "district_code": 131202,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Brastagi Ujung Gading",
+        "postal_code": "26570"
+    },
+    {
+        "code": 1312022003,
+        "district_code": 131202,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Tampus Damai Ujung Gading",
+        "postal_code": "26570"
+    },
+    {
+        "code": 1312022004,
+        "district_code": 131202,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Taluak Ambun Ujung Gading",
+        "postal_code": "26570"
+    },
+    {
+        "code": 1312022005,
+        "district_code": 131202,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Koto Gunung Ujung Gading",
+        "postal_code": "26570"
+    },
+    {
+        "code": 1312022006,
+        "district_code": 131202,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Koto Sawah Ujung Gading",
+        "postal_code": "26570"
+    },
+    {
+        "code": 1312022007,
+        "district_code": 131202,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Salido Saroha Ujung Gading",
+        "postal_code": "26570"
+    },
+    {
+        "code": 1312022008,
+        "district_code": 131202,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Kuamang Alai Ujung Gading",
+        "postal_code": "26570"
+    },
+    {
+        "code": 1312022009,
+        "district_code": 131202,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Situak Ujung Gading",
+        "postal_code": "26570"
+    },
+    {
         "code": 1312032003,
         "district_code": 131203,
         "regency_code": 1312,
@@ -6661,6 +7005,110 @@
         "regency_code": 1312,
         "province_code": 13,
         "name": "Aia Gadang",
+        "postal_code": "26566"
+    },
+    {
+        "code": 1312032007,
+        "district_code": 131203,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Lingkuang Aua Timur",
+        "postal_code": "26566"
+    },
+    {
+        "code": 1312032008,
+        "district_code": 131203,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Lingkuang Aua Baru",
+        "postal_code": "26566"
+    },
+    {
+        "code": 1312032009,
+        "district_code": 131203,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Lingkuang Aua Bandarajo",
+        "postal_code": "26566"
+    },
+    {
+        "code": 1312032010,
+        "district_code": 131203,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Lingkuang Aua Jambak",
+        "postal_code": "26566"
+    },
+    {
+        "code": 1312032011,
+        "district_code": 131203,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Lingkuang Aua Koto Dalam",
+        "postal_code": "26566"
+    },
+    {
+        "code": 1312032012,
+        "district_code": 131203,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Lingkuang Aua Barat",
+        "postal_code": "26566"
+    },
+    {
+        "code": 1312032013,
+        "district_code": 131203,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Lingkuang Aua Hilia",
+        "postal_code": "26566"
+    },
+    {
+        "code": 1312032014,
+        "district_code": 131203,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Sukomananti Aua Kuniang",
+        "postal_code": "26566"
+    },
+    {
+        "code": 1312032015,
+        "district_code": 131203,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Aia Gadang Timur",
+        "postal_code": "26566"
+    },
+    {
+        "code": 1312032016,
+        "district_code": 131203,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Aia Gadang Barat",
+        "postal_code": "26566"
+    },
+    {
+        "code": 1312032017,
+        "district_code": 131203,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Pinaga Aua Kuniang",
+        "postal_code": "26566"
+    },
+    {
+        "code": 1312032018,
+        "district_code": 131203,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Lubuak Landua Aua Kuniang",
+        "postal_code": "26566"
+    },
+    {
+        "code": 1312032019,
+        "district_code": 131203,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Lembah Binuang Aua Kuniang",
         "postal_code": "26566"
     },
     {
@@ -6688,6 +7136,38 @@
         "postal_code": "26561"
     },
     {
+        "code": 1312042004,
+        "district_code": 131204,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Simpang Timbo Abu Kajai",
+        "postal_code": "26561"
+    },
+    {
+        "code": 1312042005,
+        "district_code": 131204,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Kajai Selatan",
+        "postal_code": "26561"
+    },
+    {
+        "code": 1312042006,
+        "district_code": 131204,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Sungai Janiah Talu",
+        "postal_code": "26561"
+    },
+    {
+        "code": 1312042007,
+        "district_code": 131204,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Tabek Sirah Talu",
+        "postal_code": "26561"
+    },
+    {
         "code": 1312052001,
         "district_code": 131205,
         "regency_code": 1312,
@@ -6701,6 +7181,126 @@
         "regency_code": 1312,
         "province_code": 13,
         "name": "Katiagan",
+        "postal_code": "26567"
+    },
+    {
+        "code": 1312052003,
+        "district_code": 131205,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Ampek Koto",
+        "postal_code": "26567"
+    },
+    {
+        "code": 1312052004,
+        "district_code": 131205,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Ampek Koto Barat",
+        "postal_code": "26567"
+    },
+    {
+        "code": 1312052005,
+        "district_code": 131205,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Bancah Kariang",
+        "postal_code": "26567"
+    },
+    {
+        "code": 1312052006,
+        "district_code": 131205,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Mudiak Labuah",
+        "postal_code": "26567"
+    },
+    {
+        "code": 1312052007,
+        "district_code": 131205,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Tandikek",
+        "postal_code": "26567"
+    },
+    {
+        "code": 1312052008,
+        "district_code": 131205,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Langgam Sepakat",
+        "postal_code": "26567"
+    },
+    {
+        "code": 1312052009,
+        "district_code": 131205,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Langgam Saiyo",
+        "postal_code": "26567"
+    },
+    {
+        "code": 1312052010,
+        "district_code": 131205,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Anam Koto Selatan",
+        "postal_code": "26567"
+    },
+    {
+        "code": 1312052011,
+        "district_code": 131205,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Sigunanti",
+        "postal_code": "26567"
+    },
+    {
+        "code": 1312052012,
+        "district_code": 131205,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Koto Gadang Jaya",
+        "postal_code": "26567"
+    },
+    {
+        "code": 1312052013,
+        "district_code": 131205,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Anam Koto Utara",
+        "postal_code": "26567"
+    },
+    {
+        "code": 1312052014,
+        "district_code": 131205,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Bandua Balai",
+        "postal_code": "26567"
+    },
+    {
+        "code": 1312052015,
+        "district_code": 131205,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Bunuik",
+        "postal_code": "26567"
+    },
+    {
+        "code": 1312052016,
+        "district_code": 131205,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Padang Canduh",
+        "postal_code": "26567"
+    },
+    {
+        "code": 1312052017,
+        "district_code": 131205,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Limau Purut",
         "postal_code": "26567"
     },
     {
@@ -6720,6 +7320,46 @@
         "postal_code": "26571"
     },
     {
+        "code": 1312062003,
+        "district_code": 131206,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Seberang Kenaikan",
+        "postal_code": "26571"
+    },
+    {
+        "code": 1312062004,
+        "district_code": 131206,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Bahoras",
+        "postal_code": "26571"
+    },
+    {
+        "code": 1312062005,
+        "district_code": 131206,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Ranah Sungai Magelang",
+        "postal_code": "26571"
+    },
+    {
+        "code": 1312062006,
+        "district_code": 131206,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Muaro Kiawai Barat",
+        "postal_code": "26571"
+    },
+    {
+        "code": 1312062007,
+        "district_code": 131206,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Muaro Kiawai Hilir",
+        "postal_code": "26571"
+    },
+    {
         "code": 1312072001,
         "district_code": 131207,
         "regency_code": 1312,
@@ -6736,6 +7376,46 @@
         "postal_code": "26366"
     },
     {
+        "code": 1312072003,
+        "district_code": 131207,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Batahan Utara",
+        "postal_code": "26366"
+    },
+    {
+        "code": 1312072004,
+        "district_code": 131207,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Batahan Tengah",
+        "postal_code": "26366"
+    },
+    {
+        "code": 1312072005,
+        "district_code": 131207,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Batahan Barat",
+        "postal_code": "26366"
+    },
+    {
+        "code": 1312072006,
+        "district_code": 131207,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Batahan Selatan",
+        "postal_code": "26366"
+    },
+    {
+        "code": 1312072007,
+        "district_code": 131207,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Desa Baru Barat",
+        "postal_code": "26366"
+    },
+    {
         "code": 1312082001,
         "district_code": 131208,
         "regency_code": 1312,
@@ -6744,11 +7424,99 @@
         "postal_code": "26572"
     },
     {
+        "code": 1312082002,
+        "district_code": 131208,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Koto Tangah",
+        "postal_code": "26572"
+    },
+    {
+        "code": 1312082003,
+        "district_code": 131208,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Koto Tuo",
+        "postal_code": "26572"
+    },
+    {
+        "code": 1312082004,
+        "district_code": 131208,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Koto Nan Duo",
+        "postal_code": "26572"
+    },
+    {
+        "code": 1312082005,
+        "district_code": 131208,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Pematang Panjang",
+        "postal_code": "26572"
+    },
+    {
+        "code": 1312082006,
+        "district_code": 131208,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Ranah Koto Tinggi",
+        "postal_code": "26572"
+    },
+    {
         "code": 1312092001,
         "district_code": 131209,
         "regency_code": 1312,
         "province_code": 13,
         "name": "Sungai Aua",
+        "postal_code": "26574"
+    },
+    {
+        "code": 1312092002,
+        "district_code": 131209,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Salingka Muaro",
+        "postal_code": "26574"
+    },
+    {
+        "code": 1312092003,
+        "district_code": 131209,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Ranah Malintang",
+        "postal_code": "26574"
+    },
+    {
+        "code": 1312092004,
+        "district_code": 131209,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Ranah Air Haji",
+        "postal_code": "26574"
+    },
+    {
+        "code": 1312092005,
+        "district_code": 131209,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Kasikputih Sungaitanang",
+        "postal_code": "26574"
+    },
+    {
+        "code": 1312092006,
+        "district_code": 131209,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Aua Serumpun",
+        "postal_code": "26574"
+    },
+    {
+        "code": 1312092007,
+        "district_code": 131209,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Sikilang Sungai Aur Selatan",
         "postal_code": "26574"
     },
     {
@@ -6768,11 +7536,91 @@
         "postal_code": "26568"
     },
     {
+        "code": 1312102003,
+        "district_code": 131210,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Giri Maju",
+        "postal_code": "26568"
+    },
+    {
+        "code": 1312102004,
+        "district_code": 131210,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Ophir",
+        "postal_code": "26568"
+    },
+    {
+        "code": 1312102005,
+        "district_code": 131210,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Mahakarya",
+        "postal_code": "26568"
+    },
+    {
+        "code": 1312102006,
+        "district_code": 131210,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Sariak",
+        "postal_code": "26568"
+    },
+    {
+        "code": 1312102007,
+        "district_code": 131210,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Sungai Talang",
+        "postal_code": "26568"
+    },
+    {
+        "code": 1312102008,
+        "district_code": 131210,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Jambak Selatan",
+        "postal_code": "26568"
+    },
+    {
+        "code": 1312102009,
+        "district_code": 131210,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Pujorahayu",
+        "postal_code": "26568"
+    },
+    {
         "code": 1312112001,
         "district_code": 131211,
         "regency_code": 1312,
         "province_code": 13,
         "name": "Sasak",
+        "postal_code": "26367"
+    },
+    {
+        "code": 1312112002,
+        "district_code": 131211,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Padang Harapan",
+        "postal_code": "26367"
+    },
+    {
+        "code": 1312112003,
+        "district_code": 131211,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Ranah Pasisie",
+        "postal_code": "26367"
+    },
+    {
+        "code": 1312112004,
+        "district_code": 131211,
+        "regency_code": 1312,
+        "province_code": 13,
+        "name": "Maligi",
         "postal_code": "26367"
     },
     {

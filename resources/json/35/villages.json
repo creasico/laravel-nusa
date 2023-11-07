@@ -1144,6 +1144,14 @@
         "postal_code": "63571"
     },
     {
+        "code": 3501102017,
+        "district_code": 350110,
+        "regency_code": 3501,
+        "province_code": 35,
+        "name": "Ketro Harjo",
+        "postal_code": "63571"
+    },
+    {
         "code": 3501112001,
         "district_code": 350111,
         "regency_code": 3501,
@@ -29352,35 +29360,11 @@
         "postal_code": "61274"
     },
     {
-        "code": 3515041005,
-        "district_code": 351504,
-        "regency_code": 3515,
-        "province_code": 35,
-        "name": "Mindi",
-        "postal_code": "61274"
-    },
-    {
         "code": 3515041006,
         "district_code": 351504,
         "regency_code": 3515,
         "province_code": 35,
         "name": "Gedang",
-        "postal_code": "61274"
-    },
-    {
-        "code": 3515041013,
-        "district_code": 351504,
-        "regency_code": 3515,
-        "province_code": 35,
-        "name": "Jatirejo",
-        "postal_code": "61274"
-    },
-    {
-        "code": 3515041017,
-        "district_code": 351504,
-        "regency_code": 3515,
-        "province_code": 35,
-        "name": "Siring",
         "postal_code": "61274"
     },
     {
@@ -29445,14 +29429,6 @@
         "regency_code": 3515,
         "province_code": 35,
         "name": "Pamotan",
-        "postal_code": "61274"
-    },
-    {
-        "code": 3515042014,
-        "district_code": 351504,
-        "regency_code": 3515,
-        "province_code": 35,
-        "name": "Renokenongo",
         "postal_code": "61274"
     },
     {
@@ -29576,22 +29552,6 @@
         "postal_code": "61276"
     },
     {
-        "code": 3515052012,
-        "district_code": 351505,
-        "regency_code": 3515,
-        "province_code": 35,
-        "name": "Pajarakan",
-        "postal_code": "61276"
-    },
-    {
-        "code": 3515052013,
-        "district_code": 351505,
-        "regency_code": 3515,
-        "province_code": 35,
-        "name": "Besuki",
-        "postal_code": "61276"
-    },
-    {
         "code": 3515052014,
         "district_code": 351505,
         "regency_code": 3515,
@@ -29621,14 +29581,6 @@
         "regency_code": 3515,
         "province_code": 35,
         "name": "Ketapang",
-        "postal_code": "61272"
-    },
-    {
-        "code": 3515062003,
-        "district_code": 351506,
-        "regency_code": 3515,
-        "province_code": 35,
-        "name": "Kedungbendo",
         "postal_code": "61272"
     },
     {
@@ -67112,20 +67064,12 @@
         "postal_code": "60163"
     },
     {
-        "code": 3578121004,
+        "code": 3578121006,
         "district_code": 357812,
         "regency_code": 3578,
         "province_code": 35,
-        "name": "Perak Timur",
-        "postal_code": "60164"
-    },
-    {
-        "code": 3578121005,
-        "district_code": 357812,
-        "regency_code": 3578,
-        "province_code": 35,
-        "name": "Perak Utara",
-        "postal_code": "60165"
+        "name": "Tanjung Perak",
+        "postal_code": null
     },
     {
         "code": 3578131001,

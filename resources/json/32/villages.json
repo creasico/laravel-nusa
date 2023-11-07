@@ -40080,6 +40080,14 @@
         "postal_code": "41350"
     },
     {
+        "code": 3216011007,
+        "district_code": 321601,
+        "regency_code": 3216,
+        "province_code": 32,
+        "name": "Setia Asih",
+        "postal_code": null
+    },
+    {
         "code": 3216012001,
         "district_code": 321601,
         "regency_code": 3216,
@@ -40126,14 +40134,6 @@
         "province_code": 32,
         "name": "Samudra Jaya",
         "postal_code": "17217"
-    },
-    {
-        "code": 3216012007,
-        "district_code": 321601,
-        "regency_code": 3216,
-        "province_code": 32,
-        "name": "Setia Asih",
-        "postal_code": "17215"
     },
     {
         "code": 3216012008,

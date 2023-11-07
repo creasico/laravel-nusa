@@ -1,0 +1,1514 @@
+[
+    {
+        "code": 950101,
+        "regency_code": 9501,
+        "province_code": 95,
+        "name": "Wamena"
+    },
+    {
+        "code": 950102,
+        "regency_code": 9501,
+        "province_code": 95,
+        "name": "Kurulu"
+    },
+    {
+        "code": 950103,
+        "regency_code": 9501,
+        "province_code": 95,
+        "name": "Asologaima"
+    },
+    {
+        "code": 950104,
+        "regency_code": 9501,
+        "province_code": 95,
+        "name": "Hubikosi"
+    },
+    {
+        "code": 950105,
+        "regency_code": 9501,
+        "province_code": 95,
+        "name": "Bolakme"
+    },
+    {
+        "code": 950106,
+        "regency_code": 9501,
+        "province_code": 95,
+        "name": "Walelagama"
+    },
+    {
+        "code": 950107,
+        "regency_code": 9501,
+        "province_code": 95,
+        "name": "Musatfak"
+    },
+    {
+        "code": 950108,
+        "regency_code": 9501,
+        "province_code": 95,
+        "name": "Wolo"
+    },
+    {
+        "code": 950109,
+        "regency_code": 9501,
+        "province_code": 95,
+        "name": "Asolokobal"
+    },
+    {
+        "code": 950110,
+        "regency_code": 9501,
+        "province_code": 95,
+        "name": "Pelebaga"
+    },
+    {
+        "code": 950111,
+        "regency_code": 9501,
+        "province_code": 95,
+        "name": "Yalengga"
+    },
+    {
+        "code": 950112,
+        "regency_code": 9501,
+        "province_code": 95,
+        "name": "Trikora"
+    },
+    {
+        "code": 950113,
+        "regency_code": 9501,
+        "province_code": 95,
+        "name": "Napua"
+    },
+    {
+        "code": 950114,
+        "regency_code": 9501,
+        "province_code": 95,
+        "name": "Walaik"
+    },
+    {
+        "code": 950115,
+        "regency_code": 9501,
+        "province_code": 95,
+        "name": "Wouma"
+    },
+    {
+        "code": 950116,
+        "regency_code": 9501,
+        "province_code": 95,
+        "name": "Hubikiak"
+    },
+    {
+        "code": 950117,
+        "regency_code": 9501,
+        "province_code": 95,
+        "name": "Ibele"
+    },
+    {
+        "code": 950118,
+        "regency_code": 9501,
+        "province_code": 95,
+        "name": "Taelarek"
+    },
+    {
+        "code": 950119,
+        "regency_code": 9501,
+        "province_code": 95,
+        "name": "Itlay Hisage"
+    },
+    {
+        "code": 950120,
+        "regency_code": 9501,
+        "province_code": 95,
+        "name": "Siepkosi"
+    },
+    {
+        "code": 950121,
+        "regency_code": 9501,
+        "province_code": 95,
+        "name": "Usilimo"
+    },
+    {
+        "code": 950122,
+        "regency_code": 9501,
+        "province_code": 95,
+        "name": "Wita Waya"
+    },
+    {
+        "code": 950123,
+        "regency_code": 9501,
+        "province_code": 95,
+        "name": "Libarek"
+    },
+    {
+        "code": 950124,
+        "regency_code": 9501,
+        "province_code": 95,
+        "name": "Wadangku"
+    },
+    {
+        "code": 950125,
+        "regency_code": 9501,
+        "province_code": 95,
+        "name": "Pisugi"
+    },
+    {
+        "code": 950126,
+        "regency_code": 9501,
+        "province_code": 95,
+        "name": "Koragi"
+    },
+    {
+        "code": 950127,
+        "regency_code": 9501,
+        "province_code": 95,
+        "name": "Tagime"
+    },
+    {
+        "code": 950128,
+        "regency_code": 9501,
+        "province_code": 95,
+        "name": "Molagalome"
+    },
+    {
+        "code": 950129,
+        "regency_code": 9501,
+        "province_code": 95,
+        "name": "Tagineri"
+    },
+    {
+        "code": 950130,
+        "regency_code": 9501,
+        "province_code": 95,
+        "name": "Silo Karno Doga"
+    },
+    {
+        "code": 950131,
+        "regency_code": 9501,
+        "province_code": 95,
+        "name": "Piramid"
+    },
+    {
+        "code": 950132,
+        "regency_code": 9501,
+        "province_code": 95,
+        "name": "Muliama"
+    },
+    {
+        "code": 950133,
+        "regency_code": 9501,
+        "province_code": 95,
+        "name": "Bugi"
+    },
+    {
+        "code": 950134,
+        "regency_code": 9501,
+        "province_code": 95,
+        "name": "Bpiri"
+    },
+    {
+        "code": 950135,
+        "regency_code": 9501,
+        "province_code": 95,
+        "name": "Welesi"
+    },
+    {
+        "code": 950136,
+        "regency_code": 9501,
+        "province_code": 95,
+        "name": "Asotipo"
+    },
+    {
+        "code": 950137,
+        "regency_code": 9501,
+        "province_code": 95,
+        "name": "Maima"
+    },
+    {
+        "code": 950138,
+        "regency_code": 9501,
+        "province_code": 95,
+        "name": "Popugoba"
+    },
+    {
+        "code": 950139,
+        "regency_code": 9501,
+        "province_code": 95,
+        "name": "Wame"
+    },
+    {
+        "code": 950140,
+        "regency_code": 9501,
+        "province_code": 95,
+        "name": "Wesaput"
+    },
+    {
+        "code": 950201,
+        "regency_code": 9502,
+        "province_code": 95,
+        "name": "Oksibil"
+    },
+    {
+        "code": 950202,
+        "regency_code": 9502,
+        "province_code": 95,
+        "name": "Kiwirok"
+    },
+    {
+        "code": 950203,
+        "regency_code": 9502,
+        "province_code": 95,
+        "name": "Okbibab"
+    },
+    {
+        "code": 950204,
+        "regency_code": 9502,
+        "province_code": 95,
+        "name": "Iwur"
+    },
+    {
+        "code": 950205,
+        "regency_code": 9502,
+        "province_code": 95,
+        "name": "Batom"
+    },
+    {
+        "code": 950206,
+        "regency_code": 9502,
+        "province_code": 95,
+        "name": "Borme"
+    },
+    {
+        "code": 950207,
+        "regency_code": 9502,
+        "province_code": 95,
+        "name": "Kiwirok Timur"
+    },
+    {
+        "code": 950208,
+        "regency_code": 9502,
+        "province_code": 95,
+        "name": "Aboy"
+    },
+    {
+        "code": 950209,
+        "regency_code": 9502,
+        "province_code": 95,
+        "name": "Pepera"
+    },
+    {
+        "code": 950210,
+        "regency_code": 9502,
+        "province_code": 95,
+        "name": "Bime"
+    },
+    {
+        "code": 950211,
+        "regency_code": 9502,
+        "province_code": 95,
+        "name": "Alemsom"
+    },
+    {
+        "code": 950212,
+        "regency_code": 9502,
+        "province_code": 95,
+        "name": "Okbape"
+    },
+    {
+        "code": 950213,
+        "regency_code": 9502,
+        "province_code": 95,
+        "name": "Kalomdol"
+    },
+    {
+        "code": 950214,
+        "regency_code": 9502,
+        "province_code": 95,
+        "name": "Oksop"
+    },
+    {
+        "code": 950215,
+        "regency_code": 9502,
+        "province_code": 95,
+        "name": "Serambakon"
+    },
+    {
+        "code": 950216,
+        "regency_code": 9502,
+        "province_code": 95,
+        "name": "Ok Aom"
+    },
+    {
+        "code": 950217,
+        "regency_code": 9502,
+        "province_code": 95,
+        "name": "Kawor"
+    },
+    {
+        "code": 950218,
+        "regency_code": 9502,
+        "province_code": 95,
+        "name": "Awinbon"
+    },
+    {
+        "code": 950219,
+        "regency_code": 9502,
+        "province_code": 95,
+        "name": "Tarup"
+    },
+    {
+        "code": 950220,
+        "regency_code": 9502,
+        "province_code": 95,
+        "name": "Okhika"
+    },
+    {
+        "code": 950221,
+        "regency_code": 9502,
+        "province_code": 95,
+        "name": "Oksamol"
+    },
+    {
+        "code": 950222,
+        "regency_code": 9502,
+        "province_code": 95,
+        "name": "Oklip"
+    },
+    {
+        "code": 950223,
+        "regency_code": 9502,
+        "province_code": 95,
+        "name": "Okbemtau"
+    },
+    {
+        "code": 950224,
+        "regency_code": 9502,
+        "province_code": 95,
+        "name": "Oksebang"
+    },
+    {
+        "code": 950225,
+        "regency_code": 9502,
+        "province_code": 95,
+        "name": "Okbab"
+    },
+    {
+        "code": 950226,
+        "regency_code": 9502,
+        "province_code": 95,
+        "name": "Batani"
+    },
+    {
+        "code": 950227,
+        "regency_code": 9502,
+        "province_code": 95,
+        "name": "Weime"
+    },
+    {
+        "code": 950228,
+        "regency_code": 9502,
+        "province_code": 95,
+        "name": "Murkim"
+    },
+    {
+        "code": 950229,
+        "regency_code": 9502,
+        "province_code": 95,
+        "name": "Mofinop"
+    },
+    {
+        "code": 950230,
+        "regency_code": 9502,
+        "province_code": 95,
+        "name": "Jetfa"
+    },
+    {
+        "code": 950231,
+        "regency_code": 9502,
+        "province_code": 95,
+        "name": "Teiraplu"
+    },
+    {
+        "code": 950232,
+        "regency_code": 9502,
+        "province_code": 95,
+        "name": "Eipumek"
+    },
+    {
+        "code": 950233,
+        "regency_code": 9502,
+        "province_code": 95,
+        "name": "Pamek"
+    },
+    {
+        "code": 950234,
+        "regency_code": 9502,
+        "province_code": 95,
+        "name": "Nongme"
+    },
+    {
+        "code": 950301,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Kurima"
+    },
+    {
+        "code": 950302,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Anggruk"
+    },
+    {
+        "code": 950303,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Ninia"
+    },
+    {
+        "code": 950304,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Silimo"
+    },
+    {
+        "code": 950305,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Samenage"
+    },
+    {
+        "code": 950306,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Nalca"
+    },
+    {
+        "code": 950307,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Dekai"
+    },
+    {
+        "code": 950308,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Obio"
+    },
+    {
+        "code": 950309,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Suru Suru"
+    },
+    {
+        "code": 950310,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Wusama"
+    },
+    {
+        "code": 950311,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Amuma"
+    },
+    {
+        "code": 950312,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Musaik"
+    },
+    {
+        "code": 950313,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Pasema"
+    },
+    {
+        "code": 950314,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Hogio"
+    },
+    {
+        "code": 950315,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Mugi"
+    },
+    {
+        "code": 950316,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Soba"
+    },
+    {
+        "code": 950317,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Werima"
+    },
+    {
+        "code": 950318,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Tangma"
+    },
+    {
+        "code": 950319,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Ukha"
+    },
+    {
+        "code": 950320,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Panggema"
+    },
+    {
+        "code": 950321,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Kosarek"
+    },
+    {
+        "code": 950322,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Nipsan"
+    },
+    {
+        "code": 950323,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Ubahak"
+    },
+    {
+        "code": 950324,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Pronggoli"
+    },
+    {
+        "code": 950325,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Walma"
+    },
+    {
+        "code": 950326,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Yahuliambut"
+    },
+    {
+        "code": 950327,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Hereapini"
+    },
+    {
+        "code": 950328,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Ubalihi"
+    },
+    {
+        "code": 950329,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Talambo"
+    },
+    {
+        "code": 950330,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Puldama"
+    },
+    {
+        "code": 950331,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Endomen"
+    },
+    {
+        "code": 950332,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Kona"
+    },
+    {
+        "code": 950333,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Dirwemna"
+    },
+    {
+        "code": 950334,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Holuon"
+    },
+    {
+        "code": 950335,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Lolat"
+    },
+    {
+        "code": 950336,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Soloikma"
+    },
+    {
+        "code": 950337,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Sela"
+    },
+    {
+        "code": 950338,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Korupun"
+    },
+    {
+        "code": 950339,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Langda"
+    },
+    {
+        "code": 950340,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Bomela"
+    },
+    {
+        "code": 950341,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Suntamon"
+    },
+    {
+        "code": 950342,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Seradala"
+    },
+    {
+        "code": 950343,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Sobaham"
+    },
+    {
+        "code": 950344,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Kabianggama"
+    },
+    {
+        "code": 950345,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Kwelamdua"
+    },
+    {
+        "code": 950346,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Kwikma"
+    },
+    {
+        "code": 950347,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Hilipuk"
+    },
+    {
+        "code": 950348,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Duram"
+    },
+    {
+        "code": 950349,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Yogosem"
+    },
+    {
+        "code": 950350,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Kayo"
+    },
+    {
+        "code": 950351,
+        "regency_code": 9503,
+        "province_code": 95,
+        "name": "Sumo"
+    },
+    {
+        "code": 950401,
+        "regency_code": 9504,
+        "province_code": 95,
+        "name": "Karubaga"
+    },
+    {
+        "code": 950402,
+        "regency_code": 9504,
+        "province_code": 95,
+        "name": "Bokondini"
+    },
+    {
+        "code": 950403,
+        "regency_code": 9504,
+        "province_code": 95,
+        "name": "Kanggime"
+    },
+    {
+        "code": 950404,
+        "regency_code": 9504,
+        "province_code": 95,
+        "name": "Kembu"
+    },
+    {
+        "code": 950405,
+        "regency_code": 9504,
+        "province_code": 95,
+        "name": "Goyage"
+    },
+    {
+        "code": 950406,
+        "regency_code": 9504,
+        "province_code": 95,
+        "name": "Wunim"
+    },
+    {
+        "code": 950407,
+        "regency_code": 9504,
+        "province_code": 95,
+        "name": "Wina"
+    },
+    {
+        "code": 950408,
+        "regency_code": 9504,
+        "province_code": 95,
+        "name": "Umagi"
+    },
+    {
+        "code": 950409,
+        "regency_code": 9504,
+        "province_code": 95,
+        "name": "Panaga"
+    },
+    {
+        "code": 950410,
+        "regency_code": 9504,
+        "province_code": 95,
+        "name": "Woniki"
+    },
+    {
+        "code": 950411,
+        "regency_code": 9504,
+        "province_code": 95,
+        "name": "Kubu"
+    },
+    {
+        "code": 950412,
+        "regency_code": 9504,
+        "province_code": 95,
+        "name": "Konda\/ Kondaga"
+    },
+    {
+        "code": 950413,
+        "regency_code": 9504,
+        "province_code": 95,
+        "name": "Nelawi"
+    },
+    {
+        "code": 950414,
+        "regency_code": 9504,
+        "province_code": 95,
+        "name": "Kuari"
+    },
+    {
+        "code": 950415,
+        "regency_code": 9504,
+        "province_code": 95,
+        "name": "Bokoneri"
+    },
+    {
+        "code": 950416,
+        "regency_code": 9504,
+        "province_code": 95,
+        "name": "Bewani"
+    },
+    {
+        "code": 950417,
+        "regency_code": 9504,
+        "province_code": 95,
+        "name": "Nabunage"
+    },
+    {
+        "code": 950418,
+        "regency_code": 9504,
+        "province_code": 95,
+        "name": "Gilubandu"
+    },
+    {
+        "code": 950419,
+        "regency_code": 9504,
+        "province_code": 95,
+        "name": "Nunggawi"
+    },
+    {
+        "code": 950420,
+        "regency_code": 9504,
+        "province_code": 95,
+        "name": "Gundagi"
+    },
+    {
+        "code": 950421,
+        "regency_code": 9504,
+        "province_code": 95,
+        "name": "Numba"
+    },
+    {
+        "code": 950422,
+        "regency_code": 9504,
+        "province_code": 95,
+        "name": "Timori"
+    },
+    {
+        "code": 950423,
+        "regency_code": 9504,
+        "province_code": 95,
+        "name": "Dundu"
+    },
+    {
+        "code": 950424,
+        "regency_code": 9504,
+        "province_code": 95,
+        "name": "Geya"
+    },
+    {
+        "code": 950425,
+        "regency_code": 9504,
+        "province_code": 95,
+        "name": "Egiam"
+    },
+    {
+        "code": 950426,
+        "regency_code": 9504,
+        "province_code": 95,
+        "name": "Poganeri"
+    },
+    {
+        "code": 950427,
+        "regency_code": 9504,
+        "province_code": 95,
+        "name": "Kamboneri"
+    },
+    {
+        "code": 950428,
+        "regency_code": 9504,
+        "province_code": 95,
+        "name": "Airgaram"
+    },
+    {
+        "code": 950429,
+        "regency_code": 9504,
+        "province_code": 95,
+        "name": "Wari\/Taiyeve II"
+    },
+    {
+        "code": 950430,
+        "regency_code": 9504,
+        "province_code": 95,
+        "name": "Dow"
+    },
+    {
+        "code": 950431,
+        "regency_code": 9504,
+        "province_code": 95,
+        "name": "Tagineri"
+    },
+    {
+        "code": 950432,
+        "regency_code": 9504,
+        "province_code": 95,
+        "name": "Yuneri"
+    },
+    {
+        "code": 950433,
+        "regency_code": 9504,
+        "province_code": 95,
+        "name": "Wakuwo"
+    },
+    {
+        "code": 950434,
+        "regency_code": 9504,
+        "province_code": 95,
+        "name": "Gika"
+    },
+    {
+        "code": 950435,
+        "regency_code": 9504,
+        "province_code": 95,
+        "name": "Telenggeme"
+    },
+    {
+        "code": 950436,
+        "regency_code": 9504,
+        "province_code": 95,
+        "name": "Anawi"
+    },
+    {
+        "code": 950437,
+        "regency_code": 9504,
+        "province_code": 95,
+        "name": "Wenam"
+    },
+    {
+        "code": 950438,
+        "regency_code": 9504,
+        "province_code": 95,
+        "name": "Wugi"
+    },
+    {
+        "code": 950439,
+        "regency_code": 9504,
+        "province_code": 95,
+        "name": "Danime"
+    },
+    {
+        "code": 950440,
+        "regency_code": 9504,
+        "province_code": 95,
+        "name": "Tagime"
+    },
+    {
+        "code": 950441,
+        "regency_code": 9504,
+        "province_code": 95,
+        "name": "Kai"
+    },
+    {
+        "code": 950442,
+        "regency_code": 9504,
+        "province_code": 95,
+        "name": "Aweku"
+    },
+    {
+        "code": 950443,
+        "regency_code": 9504,
+        "province_code": 95,
+        "name": "Bogonuk"
+    },
+    {
+        "code": 950444,
+        "regency_code": 9504,
+        "province_code": 95,
+        "name": "Li Anogomma"
+    },
+    {
+        "code": 950445,
+        "regency_code": 9504,
+        "province_code": 95,
+        "name": "Biuk"
+    },
+    {
+        "code": 950446,
+        "regency_code": 9504,
+        "province_code": 95,
+        "name": "Yuko"
+    },
+    {
+        "code": 950501,
+        "regency_code": 9505,
+        "province_code": 95,
+        "name": "Kobakma"
+    },
+    {
+        "code": 950502,
+        "regency_code": 9505,
+        "province_code": 95,
+        "name": "Kelila"
+    },
+    {
+        "code": 950503,
+        "regency_code": 9505,
+        "province_code": 95,
+        "name": "Eragayam"
+    },
+    {
+        "code": 950504,
+        "regency_code": 9505,
+        "province_code": 95,
+        "name": "Megambilis"
+    },
+    {
+        "code": 950505,
+        "regency_code": 9505,
+        "province_code": 95,
+        "name": "Ilugwa"
+    },
+    {
+        "code": 950601,
+        "regency_code": 9506,
+        "province_code": 95,
+        "name": "Elelim"
+    },
+    {
+        "code": 950602,
+        "regency_code": 9506,
+        "province_code": 95,
+        "name": "Apalapsili"
+    },
+    {
+        "code": 950603,
+        "regency_code": 9506,
+        "province_code": 95,
+        "name": "Abenaho"
+    },
+    {
+        "code": 950604,
+        "regency_code": 9506,
+        "province_code": 95,
+        "name": "Benawa"
+    },
+    {
+        "code": 950605,
+        "regency_code": 9506,
+        "province_code": 95,
+        "name": "Welarek"
+    },
+    {
+        "code": 950701,
+        "regency_code": 9507,
+        "province_code": 95,
+        "name": "Tiom"
+    },
+    {
+        "code": 950702,
+        "regency_code": 9507,
+        "province_code": 95,
+        "name": "Pirime"
+    },
+    {
+        "code": 950703,
+        "regency_code": 9507,
+        "province_code": 95,
+        "name": "Makki"
+    },
+    {
+        "code": 950704,
+        "regency_code": 9507,
+        "province_code": 95,
+        "name": "Gamelia"
+    },
+    {
+        "code": 950705,
+        "regency_code": 9507,
+        "province_code": 95,
+        "name": "Dimba"
+    },
+    {
+        "code": 950706,
+        "regency_code": 9507,
+        "province_code": 95,
+        "name": "Melagineri"
+    },
+    {
+        "code": 950707,
+        "regency_code": 9507,
+        "province_code": 95,
+        "name": "Balingga"
+    },
+    {
+        "code": 950708,
+        "regency_code": 9507,
+        "province_code": 95,
+        "name": "Tiomneri"
+    },
+    {
+        "code": 950709,
+        "regency_code": 9507,
+        "province_code": 95,
+        "name": "Kuyawage"
+    },
+    {
+        "code": 950710,
+        "regency_code": 9507,
+        "province_code": 95,
+        "name": "Poga"
+    },
+    {
+        "code": 950711,
+        "regency_code": 9507,
+        "province_code": 95,
+        "name": "Niname"
+    },
+    {
+        "code": 950712,
+        "regency_code": 9507,
+        "province_code": 95,
+        "name": "Nogi"
+    },
+    {
+        "code": 950713,
+        "regency_code": 9507,
+        "province_code": 95,
+        "name": "Yiginua"
+    },
+    {
+        "code": 950714,
+        "regency_code": 9507,
+        "province_code": 95,
+        "name": "Tiom Ollo"
+    },
+    {
+        "code": 950715,
+        "regency_code": 9507,
+        "province_code": 95,
+        "name": "Yugungwi"
+    },
+    {
+        "code": 950716,
+        "regency_code": 9507,
+        "province_code": 95,
+        "name": "Mokoni"
+    },
+    {
+        "code": 950717,
+        "regency_code": 9507,
+        "province_code": 95,
+        "name": "Wereka"
+    },
+    {
+        "code": 950718,
+        "regency_code": 9507,
+        "province_code": 95,
+        "name": "Milimbo"
+    },
+    {
+        "code": 950719,
+        "regency_code": 9507,
+        "province_code": 95,
+        "name": "Wiringgambut"
+    },
+    {
+        "code": 950720,
+        "regency_code": 9507,
+        "province_code": 95,
+        "name": "Gollo"
+    },
+    {
+        "code": 950721,
+        "regency_code": 9507,
+        "province_code": 95,
+        "name": "Awina"
+    },
+    {
+        "code": 950722,
+        "regency_code": 9507,
+        "province_code": 95,
+        "name": "Ayumnati"
+    },
+    {
+        "code": 950723,
+        "regency_code": 9507,
+        "province_code": 95,
+        "name": "Wano Barat"
+    },
+    {
+        "code": 950724,
+        "regency_code": 9507,
+        "province_code": 95,
+        "name": "Goa Balim"
+    },
+    {
+        "code": 950725,
+        "regency_code": 9507,
+        "province_code": 95,
+        "name": "Bruwa"
+    },
+    {
+        "code": 950726,
+        "regency_code": 9507,
+        "province_code": 95,
+        "name": "Balingga Barat"
+    },
+    {
+        "code": 950727,
+        "regency_code": 9507,
+        "province_code": 95,
+        "name": "Gupura"
+    },
+    {
+        "code": 950728,
+        "regency_code": 9507,
+        "province_code": 95,
+        "name": "Kolawa"
+    },
+    {
+        "code": 950729,
+        "regency_code": 9507,
+        "province_code": 95,
+        "name": "Gelok Beam"
+    },
+    {
+        "code": 950730,
+        "regency_code": 9507,
+        "province_code": 95,
+        "name": "Kuly Lanny"
+    },
+    {
+        "code": 950731,
+        "regency_code": 9507,
+        "province_code": 95,
+        "name": "Lannyna"
+    },
+    {
+        "code": 950732,
+        "regency_code": 9507,
+        "province_code": 95,
+        "name": "Karu"
+    },
+    {
+        "code": 950733,
+        "regency_code": 9507,
+        "province_code": 95,
+        "name": "Yiluk"
+    },
+    {
+        "code": 950734,
+        "regency_code": 9507,
+        "province_code": 95,
+        "name": "Guna"
+    },
+    {
+        "code": 950735,
+        "regency_code": 9507,
+        "province_code": 95,
+        "name": "Kelulome"
+    },
+    {
+        "code": 950736,
+        "regency_code": 9507,
+        "province_code": 95,
+        "name": "Nikogwe"
+    },
+    {
+        "code": 950737,
+        "regency_code": 9507,
+        "province_code": 95,
+        "name": "Muara"
+    },
+    {
+        "code": 950738,
+        "regency_code": 9507,
+        "province_code": 95,
+        "name": "Buguk Gona"
+    },
+    {
+        "code": 950739,
+        "regency_code": 9507,
+        "province_code": 95,
+        "name": "Melagi"
+    },
+    {
+        "code": 950801,
+        "regency_code": 9508,
+        "province_code": 95,
+        "name": "Kenyam"
+    },
+    {
+        "code": 950802,
+        "regency_code": 9508,
+        "province_code": 95,
+        "name": "Mapenduma"
+    },
+    {
+        "code": 950803,
+        "regency_code": 9508,
+        "province_code": 95,
+        "name": "Yigi"
+    },
+    {
+        "code": 950804,
+        "regency_code": 9508,
+        "province_code": 95,
+        "name": "Wosak"
+    },
+    {
+        "code": 950805,
+        "regency_code": 9508,
+        "province_code": 95,
+        "name": "Geselma"
+    },
+    {
+        "code": 950806,
+        "regency_code": 9508,
+        "province_code": 95,
+        "name": "Mugi"
+    },
+    {
+        "code": 950807,
+        "regency_code": 9508,
+        "province_code": 95,
+        "name": "Mbuwa"
+    },
+    {
+        "code": 950808,
+        "regency_code": 9508,
+        "province_code": 95,
+        "name": "Gearek"
+    },
+    {
+        "code": 950809,
+        "regency_code": 9508,
+        "province_code": 95,
+        "name": "Koroptak"
+    },
+    {
+        "code": 950810,
+        "regency_code": 9508,
+        "province_code": 95,
+        "name": "Kegayem"
+    },
+    {
+        "code": 950811,
+        "regency_code": 9508,
+        "province_code": 95,
+        "name": "Paro"
+    },
+    {
+        "code": 950812,
+        "regency_code": 9508,
+        "province_code": 95,
+        "name": "Mebarok"
+    },
+    {
+        "code": 950813,
+        "regency_code": 9508,
+        "province_code": 95,
+        "name": "Yenggelo"
+    },
+    {
+        "code": 950814,
+        "regency_code": 9508,
+        "province_code": 95,
+        "name": "Kilmid"
+    },
+    {
+        "code": 950815,
+        "regency_code": 9508,
+        "province_code": 95,
+        "name": "Alama"
+    },
+    {
+        "code": 950816,
+        "regency_code": 9508,
+        "province_code": 95,
+        "name": "Yal"
+    },
+    {
+        "code": 950817,
+        "regency_code": 9508,
+        "province_code": 95,
+        "name": "Mam"
+    },
+    {
+        "code": 950818,
+        "regency_code": 9508,
+        "province_code": 95,
+        "name": "Dal"
+    },
+    {
+        "code": 950819,
+        "regency_code": 9508,
+        "province_code": 95,
+        "name": "Nirkuri"
+    },
+    {
+        "code": 950820,
+        "regency_code": 9508,
+        "province_code": 95,
+        "name": "Inikgal"
+    },
+    {
+        "code": 950821,
+        "regency_code": 9508,
+        "province_code": 95,
+        "name": "Iniye"
+    },
+    {
+        "code": 950822,
+        "regency_code": 9508,
+        "province_code": 95,
+        "name": "Mbulmu Yalma"
+    },
+    {
+        "code": 950823,
+        "regency_code": 9508,
+        "province_code": 95,
+        "name": "Mbua Tengah"
+    },
+    {
+        "code": 950824,
+        "regency_code": 9508,
+        "province_code": 95,
+        "name": "Embetpen"
+    },
+    {
+        "code": 950825,
+        "regency_code": 9508,
+        "province_code": 95,
+        "name": "Kora"
+    },
+    {
+        "code": 950826,
+        "regency_code": 9508,
+        "province_code": 95,
+        "name": "Wusi"
+    },
+    {
+        "code": 950827,
+        "regency_code": 9508,
+        "province_code": 95,
+        "name": "Pija"
+    },
+    {
+        "code": 950828,
+        "regency_code": 9508,
+        "province_code": 95,
+        "name": "Moba"
+    },
+    {
+        "code": 950829,
+        "regency_code": 9508,
+        "province_code": 95,
+        "name": "Wutpaga"
+    },
+    {
+        "code": 950830,
+        "regency_code": 9508,
+        "province_code": 95,
+        "name": "Nenggeagin"
+    },
+    {
+        "code": 950831,
+        "regency_code": 9508,
+        "province_code": 95,
+        "name": "Krepkuri"
+    },
+    {
+        "code": 950832,
+        "regency_code": 9508,
+        "province_code": 95,
+        "name": "Pasir Putih"
+    }
+]

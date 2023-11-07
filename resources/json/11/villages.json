@@ -45200,6 +45200,14 @@
         "postal_code": "24477"
     },
     {
+        "code": 1116062021,
+        "district_code": 111606,
+        "regency_code": 1116,
+        "province_code": 11,
+        "name": "Alur Mentawak",
+        "postal_code": "24477"
+    },
+    {
         "code": 1116072001,
         "district_code": 111607,
         "regency_code": 1116,
@@ -45397,6 +45405,14 @@
         "regency_code": 1116,
         "province_code": 11,
         "name": "Suka Mulia",
+        "postal_code": "24474"
+    },
+    {
+        "code": 1116082017,
+        "district_code": 111608,
+        "regency_code": 1116,
+        "province_code": 11,
+        "name": "Mekar Jaya",
         "postal_code": "24474"
     },
     {
@@ -45637,6 +45653,14 @@
         "regency_code": 1116,
         "province_code": 11,
         "name": "Simpang Kiri",
+        "postal_code": "24477"
+    },
+    {
+        "code": 1116112006,
+        "district_code": 111611,
+        "regency_code": 1116,
+        "province_code": 11,
+        "name": "Sumber Makmur",
         "postal_code": "24477"
     },
     {

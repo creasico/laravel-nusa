@@ -10760,6 +10760,14 @@
         "postal_code": "30757"
     },
     {
+        "code": 1606022016,
+        "district_code": 160602,
+        "regency_code": 1606,
+        "province_code": 16,
+        "name": "Epil Barat",
+        "postal_code": "30757"
+    },
+    {
         "code": 1606032002,
         "district_code": 160603,
         "regency_code": 1606,
@@ -11221,6 +11229,14 @@
         "regency_code": 1606,
         "province_code": 16,
         "name": "Pangkalan Jaya",
+        "postal_code": "30752"
+    },
+    {
+        "code": 1606062043,
+        "district_code": 160606,
+        "regency_code": 1606,
+        "province_code": 16,
+        "name": "Toman Baru",
         "postal_code": "30752"
     },
     {
@@ -12992,6 +13008,14 @@
         "postal_code": "30958"
     },
     {
+        "code": 1607051022,
+        "district_code": 160705,
+        "regency_code": 1607,
+        "province_code": 16,
+        "name": "Betung Selatan",
+        "postal_code": "30958"
+    },
+    {
         "code": 1607052002,
         "district_code": 160705,
         "regency_code": 1607,
@@ -13613,6 +13637,62 @@
         "regency_code": 1607,
         "province_code": 16,
         "name": "Talang Keramat",
+        "postal_code": "30961"
+    },
+    {
+        "code": 1607101024,
+        "district_code": 160710,
+        "regency_code": 1607,
+        "province_code": 16,
+        "name": "Sukajadi Timur",
+        "postal_code": "30961"
+    },
+    {
+        "code": 1607101025,
+        "district_code": 160710,
+        "regency_code": 1607,
+        "province_code": 16,
+        "name": "Tanah Mas Indah",
+        "postal_code": "30961"
+    },
+    {
+        "code": 1607101026,
+        "district_code": 160710,
+        "regency_code": 1607,
+        "province_code": 16,
+        "name": "Rawa Maju",
+        "postal_code": "30961"
+    },
+    {
+        "code": 1607101027,
+        "district_code": 160710,
+        "regency_code": 1607,
+        "province_code": 16,
+        "name": "Air Batu Jaya",
+        "postal_code": "30961"
+    },
+    {
+        "code": 1607101028,
+        "district_code": 160710,
+        "regency_code": 1607,
+        "province_code": 16,
+        "name": "Sei Sedapa",
+        "postal_code": "30961"
+    },
+    {
+        "code": 1607101029,
+        "district_code": 160710,
+        "regency_code": 1607,
+        "province_code": 16,
+        "name": "Azhar Permai",
+        "postal_code": "30961"
+    },
+    {
+        "code": 1607101030,
+        "district_code": 160710,
+        "regency_code": 1607,
+        "province_code": 16,
+        "name": "Keramat Raya",
         "postal_code": "30961"
     },
     {

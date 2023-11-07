@@ -432,68 +432,12 @@
         "postal_code": "29663"
     },
     {
-        "code": 2102012005,
-        "district_code": 210201,
-        "regency_code": 2102,
-        "province_code": 21,
-        "name": "Sugie",
-        "postal_code": null
-    },
-    {
-        "code": 2102012006,
-        "district_code": 210201,
-        "regency_code": 2102,
-        "province_code": 21,
-        "name": "Keban",
-        "postal_code": null
-    },
-    {
-        "code": 2102012007,
-        "district_code": 210201,
-        "regency_code": 2102,
-        "province_code": 21,
-        "name": "Selat Mie",
-        "postal_code": null
-    },
-    {
-        "code": 2102012008,
-        "district_code": 210201,
-        "regency_code": 2102,
-        "province_code": 21,
-        "name": "Tanjung Pelanduk",
-        "postal_code": null
-    },
-    {
         "code": 2102012009,
         "district_code": 210201,
         "regency_code": 2102,
         "province_code": 21,
         "name": "Jang",
         "postal_code": "29663"
-    },
-    {
-        "code": 2102012011,
-        "district_code": 210201,
-        "regency_code": 2102,
-        "province_code": 21,
-        "name": "Niur Permai",
-        "postal_code": null
-    },
-    {
-        "code": 2102012012,
-        "district_code": 210201,
-        "regency_code": 2102,
-        "province_code": 21,
-        "name": "Rawajaya",
-        "postal_code": null
-    },
-    {
-        "code": 2102012013,
-        "district_code": 210201,
-        "regency_code": 2102,
-        "province_code": 21,
-        "name": "Buluh Patah",
-        "postal_code": null
     },
     {
         "code": 2102012014,
@@ -598,30 +542,6 @@
         "province_code": 21,
         "name": "Sungailakam Barat",
         "postal_code": "29661"
-    },
-    {
-        "code": 2102032004,
-        "district_code": 210203,
-        "regency_code": 2102,
-        "province_code": 21,
-        "name": "Parit",
-        "postal_code": null
-    },
-    {
-        "code": 2102032005,
-        "district_code": 210203,
-        "regency_code": 2102,
-        "province_code": 21,
-        "name": "Tulang",
-        "postal_code": null
-    },
-    {
-        "code": 2102032009,
-        "district_code": 210203,
-        "regency_code": 2102,
-        "province_code": 21,
-        "name": "Selatmendaun",
-        "postal_code": null
     },
     {
         "code": 2102041001,
@@ -976,6 +896,86 @@
         "postal_code": "29660"
     },
     {
+        "code": 2102132001,
+        "district_code": 210213,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Parit",
+        "postal_code": "29661"
+    },
+    {
+        "code": 2102132002,
+        "district_code": 210213,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Tulang",
+        "postal_code": "29661"
+    },
+    {
+        "code": 2102132003,
+        "district_code": 210213,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Selat Mendaun",
+        "postal_code": "29661"
+    },
+    {
+        "code": 2102142001,
+        "district_code": 210214,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Sugie",
+        "postal_code": "29663"
+    },
+    {
+        "code": 2102142002,
+        "district_code": 210214,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Niur Permai",
+        "postal_code": "29663"
+    },
+    {
+        "code": 2102142003,
+        "district_code": 210214,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Keban",
+        "postal_code": "29663"
+    },
+    {
+        "code": 2102142004,
+        "district_code": 210214,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Rawa Jaya",
+        "postal_code": "29663"
+    },
+    {
+        "code": 2102142005,
+        "district_code": 210214,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Tanjung Pelanduk",
+        "postal_code": "29663"
+    },
+    {
+        "code": 2102142006,
+        "district_code": 210214,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Buluh Patah",
+        "postal_code": "29663"
+    },
+    {
+        "code": 2102142007,
+        "district_code": 210214,
+        "regency_code": 2102,
+        "province_code": 21,
+        "name": "Selat Mie",
+        "postal_code": "29663"
+    },
+    {
         "code": 2103041003,
         "district_code": 210304,
         "regency_code": 2103,
@@ -1168,14 +1168,6 @@
         "postal_code": "29775"
     },
     {
-        "code": 2103082003,
-        "district_code": 210308,
-        "regency_code": 2103,
-        "province_code": 21,
-        "name": "Kelarik Barat",
-        "postal_code": null
-    },
-    {
         "code": 2103082004,
         "district_code": 210308,
         "regency_code": 2103,
@@ -1198,14 +1190,6 @@
         "province_code": 21,
         "name": "Belakang Gunung",
         "postal_code": "29775"
-    },
-    {
-        "code": 2103082007,
-        "district_code": 210308,
-        "regency_code": 2103,
-        "province_code": 21,
-        "name": "Seluan Barat",
-        "postal_code": null
     },
     {
         "code": 2103082008,
@@ -1240,28 +1224,12 @@
         "postal_code": "29779"
     },
     {
-        "code": 2103092004,
-        "district_code": 210309,
-        "regency_code": 2103,
-        "province_code": 21,
-        "name": "Pulau Panjang",
-        "postal_code": null
-    },
-    {
         "code": 2103092005,
         "district_code": 210309,
         "regency_code": 2103,
         "province_code": 21,
         "name": "Terayak",
         "postal_code": "29779"
-    },
-    {
-        "code": 2103092006,
-        "district_code": 210309,
-        "regency_code": 2103,
-        "province_code": 21,
-        "name": "Pulau Kerdau",
-        "postal_code": null
     },
     {
         "code": 2103092007,
@@ -1592,6 +1560,38 @@
         "postal_code": "29785"
     },
     {
+        "code": 2103232001,
+        "district_code": 210323,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Pulau Panjang",
+        "postal_code": "29779"
+    },
+    {
+        "code": 2103232002,
+        "district_code": 210323,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Pulau Kerdau",
+        "postal_code": "29779"
+    },
+    {
+        "code": 2103242001,
+        "district_code": 210324,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Kelarik Barat",
+        "postal_code": "29775"
+    },
+    {
+        "code": 2103242002,
+        "district_code": 210324,
+        "regency_code": 2103,
+        "province_code": 21,
+        "name": "Seluan Barat",
+        "postal_code": "29775"
+    },
+    {
         "code": 2104011001,
         "district_code": 210401,
         "regency_code": 2104,
@@ -1645,6 +1645,14 @@
         "regency_code": 2104,
         "province_code": 21,
         "name": "Daik",
+        "postal_code": "29872"
+    },
+    {
+        "code": 2104021020,
+        "district_code": 210402,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Daik Sepincan",
         "postal_code": "29872"
     },
     {
@@ -1912,14 +1920,6 @@
         "postal_code": "29874"
     },
     {
-        "code": 2104052006,
-        "district_code": 210405,
-        "regency_code": 2104,
-        "province_code": 21,
-        "name": "Teluk",
-        "postal_code": "29874"
-    },
-    {
         "code": 2104052008,
         "district_code": 210405,
         "regency_code": 2104,
@@ -1941,14 +1941,6 @@
         "regency_code": 2104,
         "province_code": 21,
         "name": "Rantau Panjang",
-        "postal_code": "29874"
-    },
-    {
-        "code": 2104052011,
-        "district_code": 210405,
-        "regency_code": 2104,
-        "province_code": 21,
-        "name": "Belungkur",
         "postal_code": "29874"
     },
     {
@@ -2054,6 +2046,22 @@
         "province_code": 21,
         "name": "Kudung",
         "postal_code": "29872"
+    },
+    {
+        "code": 2104072007,
+        "district_code": 210407,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Teluk",
+        "postal_code": null
+    },
+    {
+        "code": 2104072008,
+        "district_code": 210407,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Belungkur",
+        "postal_code": null
     },
     {
         "code": 2104082001,

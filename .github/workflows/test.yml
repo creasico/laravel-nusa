@@ -3,7 +3,7 @@ name: Tests
 on:
   pull_request:
     branches: [main]
-    types: [labeled]
+    # types: [labeled]
   push:
     branches: [main]
     # paths: ['.github/**.yml', 'src/*', 'tests/*']
