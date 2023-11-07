@@ -2,6 +2,7 @@
 
 namespace Creasi\Scripts;
 
+use Dotenv\Dotenv;
 use Illuminate\Support\Collection;
 use PDO;
 use PDOStatement;
@@ -14,7 +15,7 @@ class Database
 
     public function __construct(string $name, string $host, string $user, string $pass = null)
     {
-        $this->libPath = \realpath(\dirname(__DIR__.'/../..'));
+        $this->libPath = \realpath(\dirname(__DIR__));
 
         $this->conn = new PDO("mysql:dbname={$name};host={$host}", $user, $pass, [
             PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
@@ -35,16 +36,18 @@ class Database
     {
         require_once $event->getComposer()->getConfig()->get('vendor-dir').'/autoload.php';
 
+        Dotenv::createImmutable(\dirname(__DIR__))->safeLoad();
+
         $db = new static(
-            name: env('DB_NAME', 'nusantara'),
+            name: env('DB_NUSA', 'nusantara'),
             host: env('DB_HOST', '127.0.0.1'),
-            user: env('DB_USER', 'root'),
-            pass: env('DB_PASS', 'secret'),
+            user: env('DB_USERNAME', 'root'),
+            pass: env('DB_PASSWORD'),
         );
 
         $db->importSql(
             'cahyadsn-wilayah/db/wilayah.sql',
-            'cahyadsn-wilayah/db/wilayah_level_1_2.sql',
+            'cahyadsn-wilayah/db/archive/wilayah_level_1_2.sql',
             'w3appdev-kodepos/kodewilayah2023.sql',
         );
 
