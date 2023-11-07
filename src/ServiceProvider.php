@@ -20,6 +20,8 @@ class ServiceProvider extends IlluminateServiceProvider
             $this->registerCommands();
         }
 
+        $this->loadTranslationsFrom(self::LIB_PATH.'/resources/lang', 'creasico');
+
         $this->defineRoutes();
     }
 
@@ -55,6 +57,10 @@ class ServiceProvider extends IlluminateServiceProvider
         $this->publishes([
             self::LIB_PATH.'/config/nusa.php' => \config_path('creasi/nusa.php'),
         ], ['creasi-config', 'creasi-nusa-config']);
+
+        $this->publishes([
+            self::LIB_PATH.'/resources/lang' => \resource_path('lang/vendor/creasico'),
+        ], ['creasi-lang']);
     }
 
     protected function registerBindings()
