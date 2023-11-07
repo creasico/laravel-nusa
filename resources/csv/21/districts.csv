@@ -21,6 +21,8 @@ code,regency_code,province_code,name
 210210,2102,21,"Meral Barat"
 210211,2102,21,Ungar
 210212,2102,21,Belat
+210213,2102,21,"Selat Gelam"
+210214,2102,21,"Sugie Besar"
 210304,2103,21,Midai
 210305,2103,21,"Bunguran Barat"
 210306,2103,21,Serasan
@@ -36,6 +38,8 @@ code,regency_code,province_code,name
 210320,2103,21,"Bunguran Batubi"
 210321,2103,21,"Pulau Tiga Barat"
 210322,2103,21,"Suak Midai"
+210323,2103,21,"Pulau Panjang"
+210324,2103,21,"Pulau Seluan"
 210401,2104,21,Singkep
 210402,2104,21,Lingga
 210403,2104,21,Senayang
