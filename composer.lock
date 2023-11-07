@@ -647,16 +647,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v10.30.0",
+            "version": "v10.31.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "3dd85d9dbea82b937f8eaf344b50d613c5d1127a"
+                "reference": "507ce9b28bce4b5e4140c28943092ca38e9a52e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/3dd85d9dbea82b937f8eaf344b50d613c5d1127a",
-                "reference": "3dd85d9dbea82b937f8eaf344b50d613c5d1127a",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/507ce9b28bce4b5e4140c28943092ca38e9a52e4",
+                "reference": "507ce9b28bce4b5e4140c28943092ca38e9a52e4",
                 "shasum": ""
             },
             "require": {
@@ -845,7 +845,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2023-10-31T13:19:45+00:00"
+            "time": "2023-11-07T13:48:30+00:00"
         },
         {
             "name": "laravel/prompts",
@@ -1154,16 +1154,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "3.18.0",
+            "version": "3.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "015633a05aee22490495159237a5944091d8281e"
+                "reference": "1b2aa10f2326e0351399b8ce68e287d8e9209a83"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/015633a05aee22490495159237a5944091d8281e",
-                "reference": "015633a05aee22490495159237a5944091d8281e",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/1b2aa10f2326e0351399b8ce68e287d8e9209a83",
+                "reference": "1b2aa10f2326e0351399b8ce68e287d8e9209a83",
                 "shasum": ""
             },
             "require": {
@@ -1228,7 +1228,7 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/flysystem/issues",
-                "source": "https://github.com/thephpleague/flysystem/tree/3.18.0"
+                "source": "https://github.com/thephpleague/flysystem/tree/3.19.0"
             },
             "funding": [
                 {
@@ -1240,20 +1240,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-10-20T17:59:40+00:00"
+            "time": "2023-11-07T09:04:28+00:00"
         },
         {
             "name": "league/flysystem-local",
-            "version": "3.18.0",
+            "version": "3.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem-local.git",
-                "reference": "e7381ef7643f658b87efb7dbe98fe538fb1bbf32"
+                "reference": "8d868217f9eeb4e9a7320db5ccad825e9a7a4076"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem-local/zipball/e7381ef7643f658b87efb7dbe98fe538fb1bbf32",
-                "reference": "e7381ef7643f658b87efb7dbe98fe538fb1bbf32",
+                "url": "https://api.github.com/repos/thephpleague/flysystem-local/zipball/8d868217f9eeb4e9a7320db5ccad825e9a7a4076",
+                "reference": "8d868217f9eeb4e9a7320db5ccad825e9a7a4076",
                 "shasum": ""
             },
             "require": {
@@ -1288,7 +1288,7 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/flysystem-local/issues",
-                "source": "https://github.com/thephpleague/flysystem-local/tree/3.18.0"
+                "source": "https://github.com/thephpleague/flysystem-local/tree/3.19.0"
             },
             "funding": [
                 {
@@ -1300,7 +1300,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-10-19T20:07:13+00:00"
+            "time": "2023-11-06T20:35:28+00:00"
         },
         {
             "name": "league/mime-type-detection",
@@ -5649,16 +5649,16 @@
         },
         {
             "name": "orchestra/canvas",
-            "version": "v8.11.2",
+            "version": "v8.11.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/canvas.git",
-                "reference": "5038b630e2306a8e7486d69628d84fa2d1764cb1"
+                "reference": "d336a5a5b14a3dbcb2c12888c314d6ea34a8545c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/canvas/zipball/5038b630e2306a8e7486d69628d84fa2d1764cb1",
-                "reference": "5038b630e2306a8e7486d69628d84fa2d1764cb1",
+                "url": "https://api.github.com/repos/orchestral/canvas/zipball/d336a5a5b14a3dbcb2c12888c314d6ea34a8545c",
+                "reference": "d336a5a5b14a3dbcb2c12888c314d6ea34a8545c",
                 "shasum": ""
             },
             "require": {
@@ -5716,9 +5716,9 @@
             "description": "Code Generators for Laravel Applications and Packages",
             "support": {
                 "issues": "https://github.com/orchestral/canvas/issues",
-                "source": "https://github.com/orchestral/canvas/tree/v8.11.2"
+                "source": "https://github.com/orchestral/canvas/tree/v8.11.3"
             },
-            "time": "2023-10-26T21:59:54+00:00"
+            "time": "2023-11-06T06:10:13+00:00"
         },
         {
             "name": "orchestra/canvas-core",
@@ -5790,16 +5790,16 @@
         },
         {
             "name": "orchestra/testbench",
-            "version": "v8.14.0",
+            "version": "v8.14.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/testbench.git",
-                "reference": "7dacad632a5f48830443f739cd846212c174448a"
+                "reference": "887556915aed4278ddd97e64f88c2172ab2ff708"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/testbench/zipball/7dacad632a5f48830443f739cd846212c174448a",
-                "reference": "7dacad632a5f48830443f739cd846212c174448a",
+                "url": "https://api.github.com/repos/orchestral/testbench/zipball/887556915aed4278ddd97e64f88c2172ab2ff708",
+                "reference": "887556915aed4278ddd97e64f88c2172ab2ff708",
                 "shasum": ""
             },
             "require": {
@@ -5807,8 +5807,8 @@
                 "fakerphp/faker": "^1.21",
                 "laravel/framework": "^10.23.1",
                 "mockery/mockery": "^1.5.1",
-                "orchestra/testbench-core": ">=8.14.0 <8.15.0",
-                "orchestra/workbench": "^1.0",
+                "orchestra/testbench-core": ">=8.14.4 <8.15.0",
+                "orchestra/workbench": "^1.0 || ^8.0",
                 "php": "^8.1",
                 "phpunit/phpunit": "^9.6 || ^10.1",
                 "spatie/laravel-ray": "^1.32.4",
@@ -5840,22 +5840,22 @@
             ],
             "support": {
                 "issues": "https://github.com/orchestral/testbench/issues",
-                "source": "https://github.com/orchestral/testbench/tree/v8.14.0"
+                "source": "https://github.com/orchestral/testbench/tree/v8.14.1"
             },
-            "time": "2023-10-24T04:44:26+00:00"
+            "time": "2023-11-07T09:03:19+00:00"
         },
         {
             "name": "orchestra/testbench-core",
-            "version": "v8.14.1",
+            "version": "v8.14.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/testbench-core.git",
-                "reference": "5719db860336128ebc4d09e4525c4e0a16e61cb5"
+                "reference": "2501be03ccd199851006b3d286b303b97fc55738"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/testbench-core/zipball/5719db860336128ebc4d09e4525c4e0a16e61cb5",
-                "reference": "5719db860336128ebc4d09e4525c4e0a16e61cb5",
+                "url": "https://api.github.com/repos/orchestral/testbench-core/zipball/2501be03ccd199851006b3d286b303b97fc55738",
+                "reference": "2501be03ccd199851006b3d286b303b97fc55738",
                 "shasum": ""
             },
             "require": {
@@ -5870,7 +5870,6 @@
                 "phpunit/phpunit": "<9.6.0 || >=10.5.0"
             },
             "require-dev": {
-                "composer-runtime-api": "^2.2",
                 "fakerphp/faker": "^1.21",
                 "laravel/framework": "^10.23",
                 "laravel/pint": "^1.6",
@@ -5931,29 +5930,29 @@
                 "issues": "https://github.com/orchestral/testbench/issues",
                 "source": "https://github.com/orchestral/testbench-core"
             },
-            "time": "2023-10-24T06:16:05+00:00"
+            "time": "2023-11-02T13:53:10+00:00"
         },
         {
             "name": "orchestra/workbench",
-            "version": "v1.0.0",
+            "version": "v8.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/workbench.git",
-                "reference": "6b58fd5ab593d9798ebe80c9113ef40c4903069e"
+                "reference": "e9db2771df0a2dbc4924b917c589b8de6df3ee4c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/workbench/zipball/6b58fd5ab593d9798ebe80c9113ef40c4903069e",
-                "reference": "6b58fd5ab593d9798ebe80c9113ef40c4903069e",
+                "url": "https://api.github.com/repos/orchestral/workbench/zipball/e9db2771df0a2dbc4924b917c589b8de6df3ee4c",
+                "reference": "e9db2771df0a2dbc4924b917c589b8de6df3ee4c",
                 "shasum": ""
             },
             "require": {
                 "composer-runtime-api": "^2.2",
                 "fakerphp/faker": "^1.21",
-                "laravel/framework": "^9.52.15 || ^10.26.0",
+                "laravel/framework": "^10.26",
                 "laravel/tinker": "^2.8.2",
-                "orchestra/canvas": "^7.10.0 || ^8.11.0",
-                "orchestra/testbench-core": "^7.34.0 || ^8.14.0",
+                "orchestra/canvas": "^8.11",
+                "orchestra/testbench-core": "^8.14",
                 "php": "^8.0",
                 "symfony/yaml": "^6.0.9"
             },
@@ -5995,9 +5994,9 @@
             ],
             "support": {
                 "issues": "https://github.com/orchestral/workbench/issues",
-                "source": "https://github.com/orchestral/workbench/tree/v1.0.0"
+                "source": "https://github.com/orchestral/workbench/tree/v8.0.0"
             },
-            "time": "2023-10-24T03:15:04+00:00"
+            "time": "2023-11-07T08:53:44+00:00"
         },
         {
             "name": "phar-io/manifest",
@@ -7931,16 +7930,16 @@
         },
         {
             "name": "spatie/ray",
-            "version": "1.39.0",
+            "version": "1.40.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/ray.git",
-                "reference": "7ab6bd01dc6a8ecdd836b3182d40a04308ae0c75"
+                "reference": "d2477d80996416ac33066f4fef8c6bd6e393fedd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/ray/zipball/7ab6bd01dc6a8ecdd836b3182d40a04308ae0c75",
-                "reference": "7ab6bd01dc6a8ecdd836b3182d40a04308ae0c75",
+                "url": "https://api.github.com/repos/spatie/ray/zipball/d2477d80996416ac33066f4fef8c6bd6e393fedd",
+                "reference": "d2477d80996416ac33066f4fef8c6bd6e393fedd",
                 "shasum": ""
             },
             "require": {
@@ -7991,7 +7990,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/ray/issues",
-                "source": "https://github.com/spatie/ray/tree/1.39.0"
+                "source": "https://github.com/spatie/ray/tree/1.40.0"
             },
             "funding": [
                 {
@@ -8003,7 +8002,7 @@
                     "type": "other"
                 }
             ],
-            "time": "2023-09-18T10:36:07+00:00"
+            "time": "2023-11-07T13:53:06+00:00"
         },
         {
             "name": "symfony/polyfill-iconv",
@@ -8152,16 +8151,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v6.3.3",
+            "version": "v6.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "e23292e8c07c85b971b44c1c4b87af52133e2add"
+                "reference": "9758b6c69d179936435d0ffb577c3708d57e38a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/e23292e8c07c85b971b44c1c4b87af52133e2add",
-                "reference": "e23292e8c07c85b971b44c1c4b87af52133e2add",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/9758b6c69d179936435d0ffb577c3708d57e38a8",
+                "reference": "9758b6c69d179936435d0ffb577c3708d57e38a8",
                 "shasum": ""
             },
             "require": {
@@ -8204,7 +8203,7 @@
             "description": "Loads and dumps YAML files",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/yaml/tree/v6.3.3"
+                "source": "https://github.com/symfony/yaml/tree/v6.3.7"
             },
             "funding": [
                 {
@@ -8220,7 +8219,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-07-31T07:08:24+00:00"
+            "time": "2023-10-28T23:31:00+00:00"
         },
         {
             "name": "theseer/tokenizer",
