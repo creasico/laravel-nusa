@@ -13,7 +13,6 @@ env:
   DB_USERNAME: creasico
   DB_PASSWORD: secret
   # GIT_COMMIT_SHA: ${{ github.sha }}
-  # GIT_BRANCH: ${{ github.ref }}
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -25,6 +24,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       DB_NUSA: nusantara
+      GIT_BRANCH: ${{ github.ref }}
 
     outputs:
       composer-cache: ${{ steps.composer-cache.outputs.dir }}
