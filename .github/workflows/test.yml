@@ -24,7 +24,7 @@ jobs:
     name: Prepare Database
     runs-on: ubuntu-latest
     env:
-      DB_DATABASE: nusantara
+      DB_NUSA: nusantara
 
     outputs:
       composer-cache: ${{ steps.composer-cache.outputs.dir }}
@@ -39,7 +39,7 @@ jobs:
         image: mysql:8.0
         env:
           MYSQL_ROOT_PASSWORD: ${{ env.DB_PASSWORD }}
-          MYSQL_DATABASE: ${{ env.DB_DATABASE }}
+          MYSQL_DATABASE: ${{ env.DB_NUSA }}
           MYSQL_USER: ${{ env.DB_USERNAME }}
           MYSQL_PASSWORD: ${{ env.DB_PASSWORD }}
         options: >-
