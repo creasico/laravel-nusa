@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.5](https://github.com/creasico/laravel-nusa/compare/v0.1.4...v0.1.5) (2023-11-08)
+
+
+### Features
+
+* **deps:** let dependabot also manage submodules ([09821d4](https://github.com/creasico/laravel-nusa/commit/09821d49b35d563a61224d8ca9e929bab797870b))
+* **dev:** add thunder-client collection ([0efe822](https://github.com/creasico/laravel-nusa/commit/0efe82262fa46995433ae2aa00f1009c18bd4671))
+* exclude `JSON` and `CSV` resources ([2932794](https://github.com/creasico/laravel-nusa/commit/2932794de6789ae6380c00411d3f9b1b4e7bc60e)), closes [#48](https://github.com/creasico/laravel-nusa/issues/48)
+
+
+### Bug Fixes
+
+* **api:** don't execute query on empty params ([08e902f](https://github.com/creasico/laravel-nusa/commit/08e902f0482c918c3cea44b366d3e2caa6b0c22b))
+
 ### [0.1.4](https://github.com/creasico/laravel-nusa/compare/v0.1.3...v0.1.4) (2023-11-02)
 
 
