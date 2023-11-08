@@ -34,13 +34,13 @@ final class NusaRequest extends FormRequest
             : $model->load($this->relations($model))->query();
 
         $result = $query
-            ->when($this->has('search'), function (Builder $query) {
+            ->when($this->filled('search'), function (Builder $query) {
                 $query->search($this->query('search'));
             })
-            ->when($this->has('codes'), function (Builder $query) {
-                $query->whereIn($query->getModel()->getKeyName(), (array) $this->query('codes'));
+            ->when($this->filled('codes'), function (Builder $query) {
+                $query->whereIn($query->getModel()->getKeyName(), $this->query('codes', []));
             })
-            ->when($this->has('postal_code') && $model instanceof Village, function (Builder $query) {
+            ->when($this->filled('postal_code') && $model instanceof Village, function (Builder $query) {
                 $query->where('postal_code', $this->query('postal_code'));
             });
 
