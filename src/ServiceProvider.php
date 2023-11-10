@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Creasi\Nusa;
 
-use Creasi\Nusa\Console\SyncCommand;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
 
@@ -16,8 +15,6 @@ class ServiceProvider extends IlluminateServiceProvider
     {
         if (app()->runningInConsole()) {
             $this->registerPublishables();
-
-            $this->registerCommands();
         }
 
         $this->loadTranslationsFrom(self::LIB_PATH.'/resources/lang', 'creasico');
@@ -86,13 +83,6 @@ class ServiceProvider extends IlluminateServiceProvider
         $this->app->bind(Contracts\Village::class, function ($app) {
             return $app->make(Models\Village::class);
         });
-    }
-
-    protected function registerCommands()
-    {
-        $this->commands([
-            SyncCommand::class,
-        ]);
     }
 
     public function provides()
