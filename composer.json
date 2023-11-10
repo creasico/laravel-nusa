@@ -35,7 +35,8 @@
     "autoload-dev": {
         "psr-4": {
             "Creasi\\Scripts\\": "scripts",
-            "Creasi\\Tests\\": "tests"
+            "Creasi\\Tests\\": "tests",
+            "Database\\Seeders\\": "database/seeders/"
         }
     },
     "require": {
