@@ -10,7 +10,7 @@ on:
 env:
   CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
   CC_TEST_REPORTER_URL: ${{ vars.CC_TEST_REPORTER_URL }}
-  DB_USERNAME: creasico
+  DB_USERNAME: ${{ github.repository_owner }}
   DB_PASSWORD: secret
 
 concurrency:
@@ -89,7 +89,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       DB_CONNECTION: ${{ matrix.db }}
-      DB_DATABASE: 'creasico'
+      DB_DATABASE: ${{ github.repository_owner }}
 
     services:
       postgresql:
