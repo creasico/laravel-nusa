@@ -5,10 +5,13 @@ namespace Database\Seeders;
 use Creasi\Nusa\Models\District;
 use Creasi\Nusa\Models\Province;
 use Creasi\Nusa\Models\Village;
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
 {
+    use WithoutModelEvents;
+
     public function run(): void
     {
         if (Province::query()->count() > 0) {

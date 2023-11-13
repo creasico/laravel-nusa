@@ -6,13 +6,12 @@ namespace Creasi\Tests\Models;
 
 use Creasi\Nusa\Contracts\Address as AddressContract;
 use Creasi\Nusa\Models\Address;
+use Creasi\Nusa\Models\Village;
 use Creasi\Tests\Fixtures\HasManyAddresses;
 use Creasi\Tests\Fixtures\HasOneAddress;
 use Creasi\Tests\TestCase;
 use Illuminate\Foundation\Testing\WithFaker;
-use Illuminate\Support\Collection;
 use PHPUnit\Framework\Attributes\Depends;
-use PHPUnit\Framework\Attributes\DependsExternal;
 use PHPUnit\Framework\Attributes\Group;
 use PHPUnit\Framework\Attributes\Test;
 
@@ -22,15 +21,10 @@ class AddressTest extends TestCase
 {
     use WithFaker;
 
-    /**
-     * @param  Collection<int, Village>  $villages
-     */
     #[Test]
-    #[DependsExternal(VillageTest::class, 'it_should_has_many_villages')]
-    public function it_may_accociate_with_address(Collection $villages): AddressContract
+    public function it_may_accociate_with_address(): AddressContract
     {
-        $village = $villages->random()->first();
-
+        $village = Village::query()->inRandomOrder()->first();
         $address = $this->app->make(AddressContract::class)->create([
             'line' => $this->faker->streetAddress(),
         ]);
@@ -47,9 +41,7 @@ class AddressTest extends TestCase
     #[Depends('it_may_accociate_with_address')]
     public function may_has_many_addresses(Address $address): void
     {
-        $addressable = new HasManyAddresses();
-
-        $addressable->save();
+        $addressable = HasManyAddresses::create();
 
         $addressable->addresses()->save($address);
 
@@ -60,9 +52,7 @@ class AddressTest extends TestCase
     #[Depends('it_may_accociate_with_address')]
     public function may_has_one_address(Address $address): void
     {
-        $addressable = new HasOneAddress();
-
-        $addressable->save();
+        $addressable = HasOneAddress::create();
 
         $addressable->address()->save($address);
 

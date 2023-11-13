@@ -9,12 +9,10 @@ use Creasi\Nusa\Contracts\Province as ProvinceContract;
 use Creasi\Nusa\Contracts\Regency;
 use Creasi\Nusa\Contracts\Village;
 use Creasi\Nusa\Models\Province;
-use Creasi\Tests\ServiceProviderTest;
 use Creasi\Tests\TestCase;
 use Illuminate\Support\Collection;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Depends;
-use PHPUnit\Framework\Attributes\DependsOnClass;
 use PHPUnit\Framework\Attributes\Group;
 use PHPUnit\Framework\Attributes\Test;
 
@@ -30,7 +28,6 @@ class ProvinceTest extends TestCase
     }
 
     #[Test]
-    #[DependsOnClass(ServiceProviderTest::class)]
     #[DataProvider('searchProvider')]
     public function it_should_be_able_to_search(string $keyword): void
     {

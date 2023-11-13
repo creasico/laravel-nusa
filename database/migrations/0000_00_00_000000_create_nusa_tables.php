@@ -8,7 +8,7 @@ return new class extends Migration
 {
     public function getConnection()
     {
-        return \config('creasi.nusa.connection');
+        return $this->connection = \config('creasi.nusa.connection');
     }
 
     /**
