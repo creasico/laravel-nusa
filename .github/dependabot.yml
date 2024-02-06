@@ -7,13 +7,18 @@ updates:
       interval: weekly
       timezone: "Asia/Jakarta"
 
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: monthly
+      timezone: "Asia/Jakarta"
+
   - package-ecosystem: composer
     directory: "/"
     schedule:
       interval: monthly
       timezone: "Asia/Jakarta"
-    open-pull-requests-limit: 5
-    versioning-strategy: increase-if-necessary
+    versioning-strategy: lockfile-only
     groups:
       dependencies:
         dependency-type: "production"
@@ -27,8 +32,7 @@ updates:
     schedule:
       interval: monthly
       timezone: "Asia/Jakarta"
-    open-pull-requests-limit: 5
-    versioning-strategy: increase-if-necessary
+    versioning-strategy: lockfile-only
     groups:
       dependencies:
         patterns: ['*']
