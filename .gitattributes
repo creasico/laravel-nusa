@@ -4,6 +4,7 @@
 # Exclude unused files
 # see: https://redd.it/2jzp6k
 .editorconfig    export-ignore
+.env.example     export-ignore
 .gitattributes   export-ignore
 .github          export-ignore
 .gitignore       export-ignore
