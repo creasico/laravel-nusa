@@ -10,8 +10,16 @@
             "email": "developers@creasi.co"
         }
     ],
+    "funding": [
+        {
+            "type": "github",
+            "url": "https://github.com/sponsors/creasico"
+        }
+    ],
     "support": {
-        "source": "https://github.com/creasico/laravel-nusa"
+        "source": "https://github.com/creasico/laravel-nusa",
+        "forum": "https://github.com/orgs/creasico/discussions",
+        "issues": "https://github.com/creasico/laravel-nusa/issues"
     },
     "scripts": {
         "db:import": [

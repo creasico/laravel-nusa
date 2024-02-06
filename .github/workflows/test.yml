@@ -18,19 +18,21 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  configs:
+    name: Configure
+    uses: creasico/laravel-package/.github/workflows/configure.yml@main
+    secrets: inherit
+
+    permissions:
+      contents: read
+      pull-requests: write
+
   prepare:
     name: Prepare Database
     runs-on: ubuntu-latest
+    needs: configs
     env:
       DB_NUSA: nusantara
-
-    outputs:
-      composer-cache: ${{ steps.composer-cache.outputs.dir }}
-
-    strategy:
-      fail-fast: false
-      matrix:
-        php: ['8.1']
 
     services:
       mysql:
@@ -50,43 +52,37 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           submodules: true
 
-      - name: Setup PHP ${{ matrix.php }}
+      - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
-          php-version: ${{ matrix.php }}
+          php-version: 8.1
           ini-values: error_reporting=E_ALL
           tools: composer:v2
           coverage: xdebug
 
-      - name: Get Composer cache directory
-        id: composer-cache
-        run: echo "dir=$(composer config cache-files-dir)" >> $GITHUB_OUTPUT
-
       - name: Cache Composer dependencies
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
-          path: ${{ steps.composer-cache.outputs.dir }}
-          key: ${{ runner.os }}-${{ matrix.php }}-composer-${{ hashFiles('**/composer.lock') }}
-          restore-keys: ${{ runner.os }}-${{ matrix.php }}-composer-
+          path: ${{ needs.configs.outputs.composer-cache }}
+          key: ${{ runner.os }}-8.1-composer-${{ hashFiles('**/composer.lock') }}
+          restore-keys: ${{ runner.os }}-8.1-composer-
 
       - name: Install dependencies
-        uses: nick-invision/retry@v2
-        with:
-          timeout_minutes: 5
-          max_attempts: 3
-          command: composer update --prefer-dist --no-interaction --no-progress
+        run: composer update --prefer-dist --no-interaction --no-progress
 
       - name: Import databases
         run: composer db:import
 
   tests:
     name: Test on PHP ${{ matrix.php }} with DB ${{ matrix.db }}
-    needs: prepare
+    needs: [configs, prepare]
     runs-on: ubuntu-latest
+    outputs:
+      has-reports: ${{ steps.reports.outputs.has-reports }}
     env:
       DB_CONNECTION: ${{ matrix.db }}
       DB_DATABASE: ${{ github.repository_owner }}
@@ -100,7 +96,11 @@ jobs:
           POSTGRES_PASSWORD: ${{ env.DB_PASSWORD }}
         ports:
           - 5432:5432
-        options: --health-cmd=pg_isready --health-interval=10s --health-timeout=5s --health-retries=3
+        options: >-
+          --health-cmd=pg_isready
+          --health-interval=10s
+          --health-timeout=5s
+          --health-retries=3
       mysql:
         image: mysql:8.0
         env:
@@ -108,13 +108,13 @@ jobs:
           MYSQL_DATABASE: ${{ env.DB_DATABASE }}
           MYSQL_USER: ${{ env.DB_USERNAME }}
           MYSQL_PASSWORD: ${{ env.DB_PASSWORD }}
+        ports:
+          - 3306:3306
         options: >-
           --health-cmd="mysqladmin ping"
           --health-interval=10s
           --health-timeout=5s
           --health-retries=3
-        ports:
-          - 3306:3306
 
     strategy:
       fail-fast: false
@@ -124,7 +124,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup PHP ${{ matrix.php }}
         uses: shivammathur/setup-php@v2
@@ -137,49 +137,50 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Cache Composer dependencies
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
-          path: ${{ needs.prepare.outputs.composer-cache }}
+          path: ${{ needs.configs.outputs.composer-cache }}
           key: ${{ runner.os }}-${{ matrix.php }}-composer-${{ hashFiles('**/composer.lock') }}
           restore-keys: ${{ runner.os }}-${{ matrix.php }}-composer-
 
       - name: Install dependencies
-        uses: nick-invision/retry@v2
-        with:
-          timeout_minutes: 5
-          max_attempts: 3
-          command: composer update --prefer-dist --no-interaction --no-progress
+        run: composer update --prefer-dist --no-interaction --no-progress
 
       - name: Run tests
         run: composer test -- --coverage
 
       - name: Generate reports for CodeClimate
-        if: github.actor != 'dependabot[bot]'
+        if: ${{ github.actor != 'dependabot[bot]' || needs.configs.outputs.should-reports == '1' }}
+        id: reports
         env:
           COVERAGE_FILE: tests/reports/clover.xml
-          CODECLIMATE_REPORT: ${{ github.workspace }}/tests/reports/codeclimate.${{ matrix.php }}.json
+          CODECLIMATE_REPORT: tests/reports/codeclimate.${{ matrix.php }}.json
         run: |
-          curl -LSs $CC_TEST_REPORTER_URL > ./cc-test-reporter && chmod +x ./cc-test-reporter
-          ./cc-test-reporter format-coverage -t clover -o $CODECLIMATE_REPORT $COVERAGE_FILE
+          if [[ -n \"$CC_TEST_REPORTER_URL\" ]]; then
+            curl -LSs $CC_TEST_REPORTER_URL > ./cc-test-reporter && chmod +x ./cc-test-reporter
+            ./cc-test-reporter format-coverage -t clover -o $CODECLIMATE_REPORT $COVERAGE_FILE
+            echo "has-reports=1" >> $GITHUB_OUTPUT
+          fi
 
       - name: Upload tests reports
-        uses: actions/upload-artifact@v3
-        if: github.actor != 'dependabot[bot]'
+        uses: actions/upload-artifact@v4
+        if: ${{ github.actor != 'dependabot[bot]' || needs.configs.outputs.should-reports == '1' }}
         with:
-          name: test-reports
+          name: test-reports-${{ matrix.php }}-${{ matrix.db }}
           path: tests/reports
 
   reports:
     name: Report Test Coverages
-    if: github.actor != 'dependabot[bot]'
+    if: ${{ github.actor != 'dependabot[bot]' || needs.tests.outputs.has-reports == '1' }}
     runs-on: ubuntu-latest
     needs: tests
 
     steps:
       - name: Download test reports
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
-          name: test-reports
+          pattern: test-reports-*
+          merge-multiple: true
 
       - name: Report to CodeClimate
         run: |
