@@ -5,6 +5,7 @@
     "editor.formatOnSave": false,
     "files.associations": {
         "*.css": "postcss",
+        ".env": "dotenv",
         ".env.*": "dotenv"
     },
     "i18n-ally.sourceLanguage": "id",

@@ -7,9 +7,9 @@
         "editorconfig.editorconfig",
         "github.vscode-pull-request-github",
         "lokalise.i18n-ally",
-        "mikestead.dotenv",
         "mtxr.sqltools",
         "mtxr.sqltools-driver-mysql",
         "mtxr.sqltools-driver-sqlite",
+        "mikestead.dotenv",
     ]
 }
