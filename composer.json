@@ -23,6 +23,7 @@
     },
     "scripts": {
         "db:import": [
+            "Composer\\Config::disableProcessTimeout",
             "Creasi\\Scripts\\Database::import"
         ],
         "fix": [
