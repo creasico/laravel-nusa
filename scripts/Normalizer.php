@@ -6,24 +6,37 @@ namespace Creasi\Scripts;
 
 class Normalizer
 {
-    public readonly string $type;
+    public readonly ?string $type;
 
     public readonly ?array $coordinates;
 
+    public static array $invalid = [];
+
     public function __construct(
-        public readonly string $code,
+        public string $code,
         public readonly string $name,
         public readonly ?string $postal_code,
         public readonly ?float $latitude = null,
         public readonly ?float $longitude = null,
-        string $coordinates = null,
+        ?string $coordinates = null,
     ) {
-        $this->type = match (strlen($this->code)) {
+        // see https://github.com/cahyadsn/wilayah/issues/46
+        if (strlen($code) === 4) {
+            $code .= '0';
+        }
+
+        $this->code = $code;
+        $this->type = match (strlen($code)) {
             2 => 'provinces',
             5 => 'regencies',
             8 => 'districts',
-            default => 'villages',
+            13 => 'villages',
+            default => null,
         };
+
+        if ($this->type === null) {
+            self::$invalid[] = [$code, $name];
+        }
 
         $this->coordinates = $coordinates ? \json_decode($coordinates) : null;
     }
@@ -41,6 +54,7 @@ class Normalizer
                 'longitude' => $this->longitude,
                 'coordinates' => $this->coordinates,
             ],
+            default => null
         };
     }
 

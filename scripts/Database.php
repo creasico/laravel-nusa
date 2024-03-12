@@ -13,7 +13,7 @@ class Database
 
     private readonly string $libPath;
 
-    public function __construct(string $name, string $host, string $user, string $pass = null)
+    public function __construct(string $name, string $host, string $user, ?string $pass = null)
     {
         $this->libPath = \realpath(\dirname(__DIR__));
 
@@ -22,7 +22,7 @@ class Database
         ]);
     }
 
-    private function query(string $statement, int $mode = null, mixed ...$args): PDOStatement
+    private function query(string $statement, ?int $mode = null, mixed ...$args): PDOStatement
     {
         return $this->conn->query($statement, $mode, ...$args);
     }
@@ -85,13 +85,21 @@ class Database
             ORDER BY w.kode
         SQL, PDO::FETCH_OBJ);
 
-        return collect($stmt->fetchAll())->reduce(function ($regions, $item) {
+        $data = collect($stmt->fetchAll())->reduce(function ($regions, $item) {
             $data = new Normalizer($item->kode, $item->nama, $item->kodepos, $item->lat, $item->lng, $item->path);
 
-            $regions[$data->type][] = $data->normalize();
+            if ($normalized = $data->normalize()) {
+                $regions[$data->type][] = $normalized;
+            }
 
             return $regions;
         }, []);
+
+        if (! empty(Normalizer::$invalid)) {
+            dd(Normalizer::$invalid);
+        }
+
+        return $data;
     }
 
     private function importSql(string ...$paths): void
