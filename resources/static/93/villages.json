@@ -1,0 +1,5522 @@
+[
+    {
+        "code": 9301011002,
+        "district_code": 930101,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Samkai",
+        "postal_code": "99615"
+    },
+    {
+        "code": 9301011003,
+        "district_code": 930101,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Karang Indah",
+        "postal_code": "99614"
+    },
+    {
+        "code": 9301011004,
+        "district_code": 930101,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Mandala",
+        "postal_code": "99617"
+    },
+    {
+        "code": 9301011005,
+        "district_code": 930101,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Maro",
+        "postal_code": "99613"
+    },
+    {
+        "code": 9301011006,
+        "district_code": 930101,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Kelapa Lima",
+        "postal_code": "99612"
+    },
+    {
+        "code": 9301011007,
+        "district_code": 930101,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Rimba Jaya",
+        "postal_code": "99610"
+    },
+    {
+        "code": 9301011009,
+        "district_code": 930101,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Bambu Pemali",
+        "postal_code": "99616"
+    },
+    {
+        "code": 9301011010,
+        "district_code": 930101,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Seringgu Jaya",
+        "postal_code": "99619"
+    },
+    {
+        "code": 9301011011,
+        "district_code": 930101,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Kamundu",
+        "postal_code": "99607"
+    },
+    {
+        "code": 9301011012,
+        "district_code": 930101,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Kamahedoga",
+        "postal_code": "99606"
+    },
+    {
+        "code": 9301011013,
+        "district_code": 930101,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Muli",
+        "postal_code": "99608"
+    },
+    {
+        "code": 9301012001,
+        "district_code": 930101,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Nasem",
+        "postal_code": "99618"
+    },
+    {
+        "code": 9301012008,
+        "district_code": 930101,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Wasur",
+        "postal_code": "99611"
+    },
+    {
+        "code": 9301012014,
+        "district_code": 930101,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Bokem",
+        "postal_code": "99604"
+    },
+    {
+        "code": 9301012015,
+        "district_code": 930101,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Buti",
+        "postal_code": "99605"
+    },
+    {
+        "code": 9301012016,
+        "district_code": 930101,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Nggolar",
+        "postal_code": "99609"
+    },
+    {
+        "code": 9301022001,
+        "district_code": 930102,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Muting",
+        "postal_code": "99634"
+    },
+    {
+        "code": 9301022002,
+        "district_code": 930102,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Boha",
+        "postal_code": "99634"
+    },
+    {
+        "code": 9301022003,
+        "district_code": 930102,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Wan",
+        "postal_code": "99634"
+    },
+    {
+        "code": 9301022004,
+        "district_code": 930102,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Kolam",
+        "postal_code": "99634"
+    },
+    {
+        "code": 9301022005,
+        "district_code": 930102,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Selauw",
+        "postal_code": "99634"
+    },
+    {
+        "code": 9301022006,
+        "district_code": 930102,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Pachas",
+        "postal_code": "99634"
+    },
+    {
+        "code": 9301022007,
+        "district_code": 930102,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Seed Agung",
+        "postal_code": "99634"
+    },
+    {
+        "code": 9301022008,
+        "district_code": 930102,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Enggol Jaya",
+        "postal_code": "99634"
+    },
+    {
+        "code": 9301022009,
+        "district_code": 930102,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Manway Bop",
+        "postal_code": "99634"
+    },
+    {
+        "code": 9301022010,
+        "district_code": 930102,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Afkab Makmur",
+        "postal_code": "99634"
+    },
+    {
+        "code": 9301022011,
+        "district_code": 930102,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Sigabel Jaya",
+        "postal_code": "99634"
+    },
+    {
+        "code": 9301022012,
+        "district_code": 930102,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Andaito",
+        "postal_code": "99634"
+    },
+    {
+        "code": 9301032001,
+        "district_code": 930103,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Okaba",
+        "postal_code": "99638"
+    },
+    {
+        "code": 9301032002,
+        "district_code": 930103,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Wambi",
+        "postal_code": "99638"
+    },
+    {
+        "code": 9301032003,
+        "district_code": 930103,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Makaling",
+        "postal_code": "99638"
+    },
+    {
+        "code": 9301032004,
+        "district_code": 930103,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Alatep",
+        "postal_code": "99638"
+    },
+    {
+        "code": 9301032005,
+        "district_code": 930103,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Iwol",
+        "postal_code": "99638"
+    },
+    {
+        "code": 9301032006,
+        "district_code": 930103,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Duf Miraf",
+        "postal_code": "99638"
+    },
+    {
+        "code": 9301032007,
+        "district_code": 930103,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Alaku",
+        "postal_code": "99638"
+    },
+    {
+        "code": 9301032008,
+        "district_code": 930103,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Sanggase",
+        "postal_code": "99638"
+    },
+    {
+        "code": 9301032009,
+        "district_code": 930103,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Es Wambi",
+        "postal_code": "99638"
+    },
+    {
+        "code": 9301042001,
+        "district_code": 930104,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Kimaam",
+        "postal_code": "99641"
+    },
+    {
+        "code": 9301042002,
+        "district_code": 930104,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Komolom",
+        "postal_code": "99641"
+    },
+    {
+        "code": 9301042003,
+        "district_code": 930104,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Kumbis",
+        "postal_code": "99641"
+    },
+    {
+        "code": 9301042004,
+        "district_code": 930104,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Kalilam",
+        "postal_code": "99641"
+    },
+    {
+        "code": 9301042005,
+        "district_code": 930104,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Teri",
+        "postal_code": "99641"
+    },
+    {
+        "code": 9301042006,
+        "district_code": 930104,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Mambum",
+        "postal_code": "99641"
+    },
+    {
+        "code": 9301042007,
+        "district_code": 930104,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Kiworo",
+        "postal_code": "99641"
+    },
+    {
+        "code": 9301042008,
+        "district_code": 930104,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Woner",
+        "postal_code": "99641"
+    },
+    {
+        "code": 9301042009,
+        "district_code": 930104,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Deka",
+        "postal_code": "99641"
+    },
+    {
+        "code": 9301042010,
+        "district_code": 930104,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Turiram",
+        "postal_code": "99641"
+    },
+    {
+        "code": 9301042011,
+        "district_code": 930104,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Purawanderu",
+        "postal_code": "99641"
+    },
+    {
+        "code": 9301042012,
+        "district_code": 930104,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Umanderu",
+        "postal_code": "99641"
+    },
+    {
+        "code": 9301042013,
+        "district_code": 930104,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Webu",
+        "postal_code": "99641"
+    },
+    {
+        "code": 9301052001,
+        "district_code": 930105,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Matara",
+        "postal_code": "99631"
+    },
+    {
+        "code": 9301052002,
+        "district_code": 930105,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Waninggap Nanggo",
+        "postal_code": "99631"
+    },
+    {
+        "code": 9301052003,
+        "district_code": 930105,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Urumb",
+        "postal_code": "99631"
+    },
+    {
+        "code": 9301052004,
+        "district_code": 930105,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Sido Mulyo",
+        "postal_code": "99631"
+    },
+    {
+        "code": 9301052005,
+        "district_code": 930105,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Kuprik",
+        "postal_code": "99631"
+    },
+    {
+        "code": 9301052006,
+        "district_code": 930105,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Kuper",
+        "postal_code": "99631"
+    },
+    {
+        "code": 9301052007,
+        "district_code": 930105,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Semangga Jaya",
+        "postal_code": "99631"
+    },
+    {
+        "code": 9301052008,
+        "district_code": 930105,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Marga Mulya",
+        "postal_code": "99631"
+    },
+    {
+        "code": 9301052009,
+        "district_code": 930105,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Muram Sari",
+        "postal_code": "99631"
+    },
+    {
+        "code": 9301052010,
+        "district_code": 930105,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Waninggap Kai",
+        "postal_code": "99631"
+    },
+    {
+        "code": 9301062001,
+        "district_code": 930106,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Yasa Mulya",
+        "postal_code": "99632"
+    },
+    {
+        "code": 9301062002,
+        "district_code": 930106,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Sumber Harapan",
+        "postal_code": "99632"
+    },
+    {
+        "code": 9301062003,
+        "district_code": 930106,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Waninggap Say",
+        "postal_code": "99632"
+    },
+    {
+        "code": 9301062004,
+        "district_code": 930106,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Amun Kay",
+        "postal_code": "99632"
+    },
+    {
+        "code": 9301062005,
+        "district_code": 930106,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Hidup Baru",
+        "postal_code": "99632"
+    },
+    {
+        "code": 9301062006,
+        "district_code": 930106,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Sarmayam Indah",
+        "postal_code": "99632"
+    },
+    {
+        "code": 9301062007,
+        "district_code": 930106,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Ngguti Bob",
+        "postal_code": "99632"
+    },
+    {
+        "code": 9301062008,
+        "district_code": 930106,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Waninggap Miraf",
+        "postal_code": "99632"
+    },
+    {
+        "code": 9301062009,
+        "district_code": 930106,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Isano Mbias",
+        "postal_code": "99632"
+    },
+    {
+        "code": 9301062010,
+        "district_code": 930106,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Yaba Maru",
+        "postal_code": "99632"
+    },
+    {
+        "code": 9301062011,
+        "district_code": 930106,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Soa",
+        "postal_code": "99632"
+    },
+    {
+        "code": 9301062012,
+        "district_code": 930106,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Tambat",
+        "postal_code": "99632"
+    },
+    {
+        "code": 9301062013,
+        "district_code": 930106,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Bersehati",
+        "postal_code": "99632"
+    },
+    {
+        "code": 9301062014,
+        "district_code": 930106,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Kamangi",
+        "postal_code": "99632"
+    },
+    {
+        "code": 9301072001,
+        "district_code": 930107,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Kartini",
+        "postal_code": "99645"
+    },
+    {
+        "code": 9301072002,
+        "district_code": 930107,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Makarti Jaya",
+        "postal_code": "99645"
+    },
+    {
+        "code": 9301072003,
+        "district_code": 930107,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Nalkin",
+        "postal_code": "99645"
+    },
+    {
+        "code": 9301072004,
+        "district_code": 930107,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Angger Permegi",
+        "postal_code": "99645"
+    },
+    {
+        "code": 9301072005,
+        "district_code": 930107,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Poo",
+        "postal_code": "99645"
+    },
+    {
+        "code": 9301072006,
+        "district_code": 930107,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Mimi Baru",
+        "postal_code": "99645"
+    },
+    {
+        "code": 9301072007,
+        "district_code": 930107,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Kamno Sari",
+        "postal_code": "99645"
+    },
+    {
+        "code": 9301072008,
+        "district_code": 930107,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Blandin Kakayo",
+        "postal_code": "99645"
+    },
+    {
+        "code": 9301072009,
+        "district_code": 930107,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Gurinda Jaya",
+        "postal_code": "99645"
+    },
+    {
+        "code": 9301072010,
+        "district_code": 930107,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Jagebob Raya",
+        "postal_code": "99645"
+    },
+    {
+        "code": 9301072011,
+        "district_code": 930107,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Wenda Asri",
+        "postal_code": "99645"
+    },
+    {
+        "code": 9301072012,
+        "district_code": 930107,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Melin Megikar",
+        "postal_code": "99645"
+    },
+    {
+        "code": 9301072013,
+        "district_code": 930107,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Obaat Throw",
+        "postal_code": "99645"
+    },
+    {
+        "code": 9301072014,
+        "district_code": 930107,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Yemunain Jaya",
+        "postal_code": "99645"
+    },
+    {
+        "code": 9301082001,
+        "district_code": 930108,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Sota",
+        "postal_code": "99648"
+    },
+    {
+        "code": 9301082002,
+        "district_code": 930108,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Yanggandur",
+        "postal_code": "99648"
+    },
+    {
+        "code": 9301082003,
+        "district_code": 930108,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Rawa Biru",
+        "postal_code": "99648"
+    },
+    {
+        "code": 9301082004,
+        "district_code": 930108,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Toray",
+        "postal_code": "99648"
+    },
+    {
+        "code": 9301082005,
+        "district_code": 930108,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Erambu",
+        "postal_code": "99648"
+    },
+    {
+        "code": 9301092001,
+        "district_code": 930109,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Selil",
+        "postal_code": "99635"
+    },
+    {
+        "code": 9301092002,
+        "district_code": 930109,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Kindiki",
+        "postal_code": "99635"
+    },
+    {
+        "code": 9301092003,
+        "district_code": 930109,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Kumaaf",
+        "postal_code": "99635"
+    },
+    {
+        "code": 9301092004,
+        "district_code": 930109,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Nggayu",
+        "postal_code": "99635"
+    },
+    {
+        "code": 9301092005,
+        "district_code": 930109,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Kafyamke",
+        "postal_code": "99635"
+    },
+    {
+        "code": 9301092006,
+        "district_code": 930109,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Mandekman",
+        "postal_code": "99635"
+    },
+    {
+        "code": 9301092007,
+        "district_code": 930109,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Rawahayu",
+        "postal_code": "99635"
+    },
+    {
+        "code": 9301092008,
+        "district_code": 930109,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Belbeland",
+        "postal_code": "99635"
+    },
+    {
+        "code": 9301092009,
+        "district_code": 930109,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Kir-ely",
+        "postal_code": "99635"
+    },
+    {
+        "code": 9301092010,
+        "district_code": 930109,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Kandrakay",
+        "postal_code": "99635"
+    },
+    {
+        "code": 9301092011,
+        "district_code": 930109,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Baidub",
+        "postal_code": "99635"
+    },
+    {
+        "code": 9301102001,
+        "district_code": 930110,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Bupul",
+        "postal_code": "99633"
+    },
+    {
+        "code": 9301102002,
+        "district_code": 930110,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Tanas",
+        "postal_code": "99633"
+    },
+    {
+        "code": 9301102003,
+        "district_code": 930110,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Kweel",
+        "postal_code": "99633"
+    },
+    {
+        "code": 9301102004,
+        "district_code": 930110,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Sipias",
+        "postal_code": "99633"
+    },
+    {
+        "code": 9301102005,
+        "district_code": 930110,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Metaat Makmur",
+        "postal_code": "99633"
+    },
+    {
+        "code": 9301102006,
+        "district_code": 930110,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Enggal Jaya",
+        "postal_code": "99633"
+    },
+    {
+        "code": 9301102007,
+        "district_code": 930110,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Gerisar",
+        "postal_code": "99633"
+    },
+    {
+        "code": 9301102008,
+        "district_code": 930110,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Bupul Indah",
+        "postal_code": "99633"
+    },
+    {
+        "code": 9301102009,
+        "district_code": 930110,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Tof-Tof",
+        "postal_code": "99633"
+    },
+    {
+        "code": 9301102010,
+        "district_code": 930110,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Bunggay",
+        "postal_code": "99633"
+    },
+    {
+        "code": 9301102011,
+        "district_code": 930110,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Bouwer",
+        "postal_code": "99633"
+    },
+    {
+        "code": 9301102012,
+        "district_code": 930110,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Bumun",
+        "postal_code": "99633"
+    },
+    {
+        "code": 9301112001,
+        "district_code": 930111,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Harapan Makmur",
+        "postal_code": "99646"
+    },
+    {
+        "code": 9301112002,
+        "district_code": 930111,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Kurik",
+        "postal_code": "99646"
+    },
+    {
+        "code": 9301112003,
+        "district_code": 930111,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Telaga Sari",
+        "postal_code": "99646"
+    },
+    {
+        "code": 9301112004,
+        "district_code": 930111,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Sumber Rejeki",
+        "postal_code": "99646"
+    },
+    {
+        "code": 9301112005,
+        "district_code": 930111,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Jaya Makmur",
+        "postal_code": "99646"
+    },
+    {
+        "code": 9301112006,
+        "district_code": 930111,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Sumber Mulya",
+        "postal_code": "99646"
+    },
+    {
+        "code": 9301112007,
+        "district_code": 930111,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Kaliki",
+        "postal_code": "99646"
+    },
+    {
+        "code": 9301112008,
+        "district_code": 930111,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Ivimahad",
+        "postal_code": "99646"
+    },
+    {
+        "code": 9301112009,
+        "district_code": 930111,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Salor Indah",
+        "postal_code": "99646"
+    },
+    {
+        "code": 9301112010,
+        "district_code": 930111,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Candra Jaya",
+        "postal_code": "99646"
+    },
+    {
+        "code": 9301112011,
+        "district_code": 930111,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Wonorejo",
+        "postal_code": "99646"
+    },
+    {
+        "code": 9301112012,
+        "district_code": 930111,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Anum Bob",
+        "postal_code": "99646"
+    },
+    {
+        "code": 9301112013,
+        "district_code": 930111,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Wapeko",
+        "postal_code": "99646"
+    },
+    {
+        "code": 9301122001,
+        "district_code": 930112,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Kuler",
+        "postal_code": "99621"
+    },
+    {
+        "code": 9301122002,
+        "district_code": 930112,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Onggaya",
+        "postal_code": "99621"
+    },
+    {
+        "code": 9301122003,
+        "district_code": 930112,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Tomer",
+        "postal_code": "99621"
+    },
+    {
+        "code": 9301122004,
+        "district_code": 930112,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Tomerau",
+        "postal_code": "99621"
+    },
+    {
+        "code": 9301122005,
+        "district_code": 930112,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Kondo",
+        "postal_code": "99621"
+    },
+    {
+        "code": 9301132001,
+        "district_code": 930113,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Koa",
+        "postal_code": "99644"
+    },
+    {
+        "code": 9301132002,
+        "district_code": 930113,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Baad",
+        "postal_code": "99644"
+    },
+    {
+        "code": 9301132003,
+        "district_code": 930113,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Senegi",
+        "postal_code": "99644"
+    },
+    {
+        "code": 9301132004,
+        "district_code": 930113,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Wayau",
+        "postal_code": "99644"
+    },
+    {
+        "code": 9301132005,
+        "district_code": 930113,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Kaisah",
+        "postal_code": "99644"
+    },
+    {
+        "code": 9301142001,
+        "district_code": 930114,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Kumbe",
+        "postal_code": "99647"
+    },
+    {
+        "code": 9301142002,
+        "district_code": 930114,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Onggari",
+        "postal_code": "99647"
+    },
+    {
+        "code": 9301142003,
+        "district_code": 930114,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Rawa Sari",
+        "postal_code": "99647"
+    },
+    {
+        "code": 9301142004,
+        "district_code": 930114,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Padang Raharja",
+        "postal_code": "99647"
+    },
+    {
+        "code": 9301142005,
+        "district_code": 930114,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Kaiburse",
+        "postal_code": "99647"
+    },
+    {
+        "code": 9301142006,
+        "district_code": 930114,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Domande",
+        "postal_code": "99647"
+    },
+    {
+        "code": 9301142007,
+        "district_code": 930114,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Suka Maju",
+        "postal_code": "99647"
+    },
+    {
+        "code": 9301152001,
+        "district_code": 930115,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Yowied",
+        "postal_code": "99639"
+    },
+    {
+        "code": 9301152002,
+        "district_code": 930115,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Dokib",
+        "postal_code": "99639"
+    },
+    {
+        "code": 9301152003,
+        "district_code": 930115,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Wamal",
+        "postal_code": "99639"
+    },
+    {
+        "code": 9301152004,
+        "district_code": 930115,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Dodalim",
+        "postal_code": "99639"
+    },
+    {
+        "code": 9301152005,
+        "district_code": 930115,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Woboyo",
+        "postal_code": "99639"
+    },
+    {
+        "code": 9301152006,
+        "district_code": 930115,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Welbuti",
+        "postal_code": "99639"
+    },
+    {
+        "code": 9301162001,
+        "district_code": 930116,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Po-Epe",
+        "postal_code": "99637"
+    },
+    {
+        "code": 9301162002,
+        "district_code": 930116,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Yawimu",
+        "postal_code": "99637"
+    },
+    {
+        "code": 9301162003,
+        "district_code": 930116,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Taga Epe",
+        "postal_code": "99637"
+    },
+    {
+        "code": 9301162004,
+        "district_code": 930116,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Nakias",
+        "postal_code": "99637"
+    },
+    {
+        "code": 9301162005,
+        "district_code": 930116,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Salam Epe",
+        "postal_code": "99637"
+    },
+    {
+        "code": 9301162006,
+        "district_code": 930116,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Yomop",
+        "postal_code": "99637"
+    },
+    {
+        "code": 9301172001,
+        "district_code": 930117,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Kwemsid",
+        "postal_code": "99636"
+    },
+    {
+        "code": 9301172002,
+        "district_code": 930117,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Kaptel",
+        "postal_code": "99636"
+    },
+    {
+        "code": 9301172003,
+        "district_code": 930117,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Kaniskobat",
+        "postal_code": "99636"
+    },
+    {
+        "code": 9301172004,
+        "district_code": 930117,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Ihalik",
+        "postal_code": "99636"
+    },
+    {
+        "code": 9301172005,
+        "district_code": 930117,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Bu Epe",
+        "postal_code": "99636"
+    },
+    {
+        "code": 9301182001,
+        "district_code": 930118,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Tabonji",
+        "postal_code": "99642"
+    },
+    {
+        "code": 9301182002,
+        "district_code": 930118,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Wanggambi",
+        "postal_code": "99642"
+    },
+    {
+        "code": 9301182003,
+        "district_code": 930118,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Suam",
+        "postal_code": "99642"
+    },
+    {
+        "code": 9301182004,
+        "district_code": 930118,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Yamuka",
+        "postal_code": "99642"
+    },
+    {
+        "code": 9301182005,
+        "district_code": 930118,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Iromoro",
+        "postal_code": "99642"
+    },
+    {
+        "code": 9301182006,
+        "district_code": 930118,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Konjombando",
+        "postal_code": "99642"
+    },
+    {
+        "code": 9301182007,
+        "district_code": 930118,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Yeraha",
+        "postal_code": "99642"
+    },
+    {
+        "code": 9301192001,
+        "district_code": 930119,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Konorau",
+        "postal_code": "99643"
+    },
+    {
+        "code": 9301192002,
+        "district_code": 930119,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Waan",
+        "postal_code": "99643"
+    },
+    {
+        "code": 9301192003,
+        "district_code": 930119,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Toor",
+        "postal_code": "99643"
+    },
+    {
+        "code": 9301192004,
+        "district_code": 930119,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Kladar",
+        "postal_code": "99643"
+    },
+    {
+        "code": 9301192005,
+        "district_code": 930119,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Sabon",
+        "postal_code": "99643"
+    },
+    {
+        "code": 9301192006,
+        "district_code": 930119,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Dafnawanga",
+        "postal_code": "99643"
+    },
+    {
+        "code": 9301202001,
+        "district_code": 930120,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Wanam",
+        "postal_code": "99640"
+    },
+    {
+        "code": 9301202002,
+        "district_code": 930120,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Bibikem",
+        "postal_code": "99640"
+    },
+    {
+        "code": 9301202003,
+        "district_code": 930120,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Wogekel",
+        "postal_code": "99640"
+    },
+    {
+        "code": 9301202004,
+        "district_code": 930120,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Uli Uli",
+        "postal_code": "99640"
+    },
+    {
+        "code": 9301212001,
+        "district_code": 930121,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Sabudom",
+        "postal_code": "99641"
+    },
+    {
+        "code": 9301212002,
+        "district_code": 930121,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Padua",
+        "postal_code": "99640"
+    },
+    {
+        "code": 9301212003,
+        "district_code": 930121,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Sigad",
+        "postal_code": "99640"
+    },
+    {
+        "code": 9301212004,
+        "district_code": 930121,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Bamol I",
+        "postal_code": "99642"
+    },
+    {
+        "code": 9301212005,
+        "district_code": 930121,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Bamol II",
+        "postal_code": "99642"
+    },
+    {
+        "code": 9301222001,
+        "district_code": 930122,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Kawe",
+        "postal_code": "99643"
+    },
+    {
+        "code": 9301222002,
+        "district_code": 930122,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Wetau",
+        "postal_code": "99643"
+    },
+    {
+        "code": 9301222003,
+        "district_code": 930122,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Pembri",
+        "postal_code": "99643"
+    },
+    {
+        "code": 9301222004,
+        "district_code": 930122,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Sibenda",
+        "postal_code": "99643"
+    },
+    {
+        "code": 9301222005,
+        "district_code": 930122,
+        "regency_code": 9301,
+        "province_code": 93,
+        "name": "Wantarma",
+        "postal_code": "99643"
+    },
+    {
+        "code": 9302012001,
+        "district_code": 930201,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Ampera",
+        "postal_code": null
+    },
+    {
+        "code": 9302012002,
+        "district_code": 930201,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Sokanggo",
+        "postal_code": null
+    },
+    {
+        "code": 9302012003,
+        "district_code": 930201,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Persatuan",
+        "postal_code": "99674"
+    },
+    {
+        "code": 9302012004,
+        "district_code": 930201,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Mariam",
+        "postal_code": "99674"
+    },
+    {
+        "code": 9302012005,
+        "district_code": 930201,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Mawan",
+        "postal_code": "99674"
+    },
+    {
+        "code": 9302022001,
+        "district_code": 930202,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Mindiptana",
+        "postal_code": "99663"
+    },
+    {
+        "code": 9302022002,
+        "district_code": 930202,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Umap",
+        "postal_code": null
+    },
+    {
+        "code": 9302022003,
+        "district_code": 930202,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Awayanka",
+        "postal_code": "99663"
+    },
+    {
+        "code": 9302022004,
+        "district_code": 930202,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Wanggatkibi",
+        "postal_code": null
+    },
+    {
+        "code": 9302022005,
+        "district_code": 930202,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Epsembit",
+        "postal_code": "99663"
+    },
+    {
+        "code": 9302022006,
+        "district_code": 930202,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Andobit",
+        "postal_code": null
+    },
+    {
+        "code": 9302022007,
+        "district_code": 930202,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Niyimbang",
+        "postal_code": null
+    },
+    {
+        "code": 9302022008,
+        "district_code": 930202,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Anggumbit",
+        "postal_code": null
+    },
+    {
+        "code": 9302022009,
+        "district_code": 930202,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Imko",
+        "postal_code": "99663"
+    },
+    {
+        "code": 9302022010,
+        "district_code": 930202,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Kamka",
+        "postal_code": null
+    },
+    {
+        "code": 9302022011,
+        "district_code": 930202,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Osso",
+        "postal_code": null
+    },
+    {
+        "code": 9302022012,
+        "district_code": 930202,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Tinggam",
+        "postal_code": "99663"
+    },
+    {
+        "code": 9302022013,
+        "district_code": 930202,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Kakuna",
+        "postal_code": "99663"
+    },
+    {
+        "code": 9302032001,
+        "district_code": 930203,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Woropko",
+        "postal_code": "99684"
+    },
+    {
+        "code": 9302032002,
+        "district_code": 930203,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Winiktit",
+        "postal_code": "99684"
+    },
+    {
+        "code": 9302032003,
+        "district_code": 930203,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Kanggewot",
+        "postal_code": "99684"
+    },
+    {
+        "code": 9302032004,
+        "district_code": 930203,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Jetetkun",
+        "postal_code": "99684"
+    },
+    {
+        "code": 9302032005,
+        "district_code": 930203,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Inggembit",
+        "postal_code": "99684"
+    },
+    {
+        "code": 9302032006,
+        "district_code": 930203,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Wametkapa",
+        "postal_code": "99684"
+    },
+    {
+        "code": 9302032007,
+        "district_code": 930203,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Wombon",
+        "postal_code": null
+    },
+    {
+        "code": 9302032008,
+        "district_code": 930203,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Upkim",
+        "postal_code": null
+    },
+    {
+        "code": 9302032009,
+        "district_code": 930203,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Ikcan",
+        "postal_code": "99684"
+    },
+    {
+        "code": 9302042001,
+        "district_code": 930204,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Kouh",
+        "postal_code": "99655"
+    },
+    {
+        "code": 9302042002,
+        "district_code": 930204,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Jair",
+        "postal_code": null
+    },
+    {
+        "code": 9302042003,
+        "district_code": 930204,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Mandobo",
+        "postal_code": null
+    },
+    {
+        "code": 9302052001,
+        "district_code": 930205,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Getentiri",
+        "postal_code": null
+    },
+    {
+        "code": 9302052002,
+        "district_code": 930205,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Anggai",
+        "postal_code": null
+    },
+    {
+        "code": 9302052003,
+        "district_code": 930205,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Butiptiri",
+        "postal_code": null
+    },
+    {
+        "code": 9302052004,
+        "district_code": 930205,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Asiki",
+        "postal_code": null
+    },
+    {
+        "code": 9302052005,
+        "district_code": 930205,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Kapogu",
+        "postal_code": null
+    },
+    {
+        "code": 9302052006,
+        "district_code": 930205,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Miri",
+        "postal_code": "99651"
+    },
+    {
+        "code": 9302062001,
+        "district_code": 930206,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Bomakia I",
+        "postal_code": "99672"
+    },
+    {
+        "code": 9302062002,
+        "district_code": 930206,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Bomakia II",
+        "postal_code": "99672"
+    },
+    {
+        "code": 9302062003,
+        "district_code": 930206,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Somi",
+        "postal_code": "99672"
+    },
+    {
+        "code": 9302062004,
+        "district_code": 930206,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Aifa",
+        "postal_code": "99672"
+    },
+    {
+        "code": 9302062005,
+        "district_code": 930206,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Uni",
+        "postal_code": "99672"
+    },
+    {
+        "code": 9302072001,
+        "district_code": 930207,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Kombut",
+        "postal_code": "99662"
+    },
+    {
+        "code": 9302072002,
+        "district_code": 930207,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Moukbiran",
+        "postal_code": "99662"
+    },
+    {
+        "code": 9302072003,
+        "district_code": 930207,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Kawangtet",
+        "postal_code": "99662"
+    },
+    {
+        "code": 9302072004,
+        "district_code": 930207,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Amuan",
+        "postal_code": "99662"
+    },
+    {
+        "code": 9302082001,
+        "district_code": 930208,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Langgoan",
+        "postal_code": "99661"
+    },
+    {
+        "code": 9302082002,
+        "district_code": 930208,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Tetop",
+        "postal_code": "99661"
+    },
+    {
+        "code": 9302082003,
+        "district_code": 930208,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Wariktop",
+        "postal_code": "99661"
+    },
+    {
+        "code": 9302082004,
+        "district_code": 930208,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Autriop",
+        "postal_code": "99661"
+    },
+    {
+        "code": 9302082005,
+        "district_code": 930208,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Ogenatan",
+        "postal_code": "99661"
+    },
+    {
+        "code": 9302092001,
+        "district_code": 930209,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Maju",
+        "postal_code": "99671"
+    },
+    {
+        "code": 9302092002,
+        "district_code": 930209,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Bukit",
+        "postal_code": "99671"
+    },
+    {
+        "code": 9302092003,
+        "district_code": 930209,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Ujung",
+        "postal_code": "99671"
+    },
+    {
+        "code": 9302092004,
+        "district_code": 930209,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Ginggimop",
+        "postal_code": "99671"
+    },
+    {
+        "code": 9302092005,
+        "district_code": 930209,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Patriot",
+        "postal_code": "99671"
+    },
+    {
+        "code": 9302092006,
+        "district_code": 930209,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Arimbet",
+        "postal_code": "99671"
+    },
+    {
+        "code": 9302092007,
+        "district_code": 930209,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Aroa",
+        "postal_code": "99671"
+    },
+    {
+        "code": 9302102001,
+        "district_code": 930210,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Sadar",
+        "postal_code": "99673"
+    },
+    {
+        "code": 9302102002,
+        "district_code": 930210,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Bangun",
+        "postal_code": "99673"
+    },
+    {
+        "code": 9302102003,
+        "district_code": 930210,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Makmur",
+        "postal_code": "99673"
+    },
+    {
+        "code": 9302102004,
+        "district_code": 930210,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Sohokanggo",
+        "postal_code": "99673"
+    },
+    {
+        "code": 9302102005,
+        "district_code": 930210,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Domo",
+        "postal_code": "99673"
+    },
+    {
+        "code": 9302102006,
+        "district_code": 930210,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Hamkhu",
+        "postal_code": "99673"
+    },
+    {
+        "code": 9302102007,
+        "district_code": 930210,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Hello",
+        "postal_code": "99673"
+    },
+    {
+        "code": 9302102008,
+        "district_code": 930210,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Navini",
+        "postal_code": "99673"
+    },
+    {
+        "code": 9302112001,
+        "district_code": 930211,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Kuken",
+        "postal_code": "99681"
+    },
+    {
+        "code": 9302112002,
+        "district_code": 930211,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Kolopkam",
+        "postal_code": "99681"
+    },
+    {
+        "code": 9302112003,
+        "district_code": 930211,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Awaken",
+        "postal_code": "99681"
+    },
+    {
+        "code": 9302112004,
+        "district_code": 930211,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Arimbit",
+        "postal_code": "99681"
+    },
+    {
+        "code": 9302112005,
+        "district_code": 930211,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Anyumka",
+        "postal_code": "99681"
+    },
+    {
+        "code": 9302122001,
+        "district_code": 930212,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Manggelum",
+        "postal_code": "99692"
+    },
+    {
+        "code": 9302122002,
+        "district_code": 930212,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Burunggop",
+        "postal_code": "99692"
+    },
+    {
+        "code": 9302122003,
+        "district_code": 930212,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Bayanggop",
+        "postal_code": "99692"
+    },
+    {
+        "code": 9302122004,
+        "district_code": 930212,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Gaguop",
+        "postal_code": "99692"
+    },
+    {
+        "code": 9302122005,
+        "district_code": 930212,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Kewam",
+        "postal_code": "99692"
+    },
+    {
+        "code": 9302122006,
+        "district_code": 930212,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Mangga Tiga",
+        "postal_code": "99692"
+    },
+    {
+        "code": 9302132001,
+        "district_code": 930213,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Firiwage",
+        "postal_code": "99691"
+    },
+    {
+        "code": 9302132002,
+        "district_code": 930213,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Karuwage",
+        "postal_code": "99691"
+    },
+    {
+        "code": 9302132003,
+        "district_code": 930213,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Waliburu",
+        "postal_code": null
+    },
+    {
+        "code": 9302132004,
+        "district_code": 930213,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Kabuwage",
+        "postal_code": null
+    },
+    {
+        "code": 9302142001,
+        "district_code": 930214,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Yaniruma",
+        "postal_code": "99685"
+    },
+    {
+        "code": 9302142002,
+        "district_code": 930214,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Manggemahe",
+        "postal_code": null
+    },
+    {
+        "code": 9302142003,
+        "district_code": 930214,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Fefero",
+        "postal_code": "99685"
+    },
+    {
+        "code": 9302152001,
+        "district_code": 930215,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Subur",
+        "postal_code": "99653"
+    },
+    {
+        "code": 9302152002,
+        "district_code": 930215,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Kaisa",
+        "postal_code": "99653"
+    },
+    {
+        "code": 9302152003,
+        "district_code": 930215,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Waghai",
+        "postal_code": "99653"
+    },
+    {
+        "code": 9302152004,
+        "district_code": 930215,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Aiwat",
+        "postal_code": "99653"
+    },
+    {
+        "code": 9302162001,
+        "district_code": 930216,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Wanggemalo",
+        "postal_code": "99682"
+    },
+    {
+        "code": 9302162002,
+        "district_code": 930216,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Sinimburu",
+        "postal_code": "99682"
+    },
+    {
+        "code": 9302162003,
+        "district_code": 930216,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Yafufla",
+        "postal_code": "99682"
+    },
+    {
+        "code": 9302162004,
+        "district_code": 930216,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Ugo",
+        "postal_code": "99682"
+    },
+    {
+        "code": 9302162005,
+        "district_code": 930216,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Dema",
+        "postal_code": "99682"
+    },
+    {
+        "code": 9302172001,
+        "district_code": 930217,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Ninati",
+        "postal_code": "99683"
+    },
+    {
+        "code": 9302172002,
+        "district_code": 930217,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Upyetetko",
+        "postal_code": "99683"
+    },
+    {
+        "code": 9302172003,
+        "district_code": 930217,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Kawaktembut",
+        "postal_code": "99683"
+    },
+    {
+        "code": 9302172004,
+        "district_code": 930217,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Tembutka",
+        "postal_code": "99683"
+    },
+    {
+        "code": 9302172005,
+        "district_code": 930217,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Timka",
+        "postal_code": "99683"
+    },
+    {
+        "code": 9302182001,
+        "district_code": 930218,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Sesnuk",
+        "postal_code": "99664"
+    },
+    {
+        "code": 9302182002,
+        "district_code": 930218,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Anggamburan",
+        "postal_code": "99664"
+    },
+    {
+        "code": 9302182003,
+        "district_code": 930218,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Kanggup",
+        "postal_code": "99664"
+    },
+    {
+        "code": 9302182004,
+        "district_code": 930218,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Yomkondo",
+        "postal_code": "99664"
+    },
+    {
+        "code": 9302182005,
+        "district_code": 930218,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Amboran",
+        "postal_code": "99664"
+    },
+    {
+        "code": 9302192001,
+        "district_code": 930219,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Metto",
+        "postal_code": "99652"
+    },
+    {
+        "code": 9302192002,
+        "district_code": 930219,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Obinangge",
+        "postal_code": "99652"
+    },
+    {
+        "code": 9302192003,
+        "district_code": 930219,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Watemu",
+        "postal_code": "99652"
+    },
+    {
+        "code": 9302192004,
+        "district_code": 930219,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Ujungkia",
+        "postal_code": "99652"
+    },
+    {
+        "code": 9302202001,
+        "district_code": 930220,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Wanggom",
+        "postal_code": "99654"
+    },
+    {
+        "code": 9302202002,
+        "district_code": 930220,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Kawagit",
+        "postal_code": "99654"
+    },
+    {
+        "code": 9302202003,
+        "district_code": 930220,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Kombai",
+        "postal_code": "99654"
+    },
+    {
+        "code": 9302202004,
+        "district_code": 930220,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Biwage",
+        "postal_code": "99654"
+    },
+    {
+        "code": 9302202005,
+        "district_code": 930220,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Biwage Dua",
+        "postal_code": "99654"
+    },
+    {
+        "code": 9302202006,
+        "district_code": 930220,
+        "regency_code": 9302,
+        "province_code": 93,
+        "name": "Niop",
+        "postal_code": "99654"
+    },
+    {
+        "code": 9303011013,
+        "district_code": 930301,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Kepi",
+        "postal_code": null
+    },
+    {
+        "code": 9303012001,
+        "district_code": 930301,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Obaa",
+        "postal_code": "99870"
+    },
+    {
+        "code": 9303012002,
+        "district_code": 930301,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Dagimon",
+        "postal_code": "99870"
+    },
+    {
+        "code": 9303012003,
+        "district_code": 930301,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Rep",
+        "postal_code": "99870"
+    },
+    {
+        "code": 9303012004,
+        "district_code": 930301,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Mappi Bawah\/Yamui",
+        "postal_code": "99870"
+    },
+    {
+        "code": 9303012005,
+        "district_code": 930301,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Wanggate",
+        "postal_code": "99870"
+    },
+    {
+        "code": 9303012006,
+        "district_code": 930301,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Piai",
+        "postal_code": null
+    },
+    {
+        "code": 9303012007,
+        "district_code": 930301,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Muin",
+        "postal_code": null
+    },
+    {
+        "code": 9303012008,
+        "district_code": 930301,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Gauda",
+        "postal_code": null
+    },
+    {
+        "code": 9303012009,
+        "district_code": 930301,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Soba",
+        "postal_code": "99870"
+    },
+    {
+        "code": 9303012010,
+        "district_code": 930301,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Enem",
+        "postal_code": "99870"
+    },
+    {
+        "code": 9303012011,
+        "district_code": 930301,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Kogo",
+        "postal_code": "99870"
+    },
+    {
+        "code": 9303012012,
+        "district_code": 930301,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Kadam\/Oyim",
+        "postal_code": "99870"
+    },
+    {
+        "code": 9303012014,
+        "district_code": 930301,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Tokhom",
+        "postal_code": "99870"
+    },
+    {
+        "code": 9303012015,
+        "district_code": 930301,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Emete",
+        "postal_code": "99870"
+    },
+    {
+        "code": 9303012016,
+        "district_code": 930301,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Wairu",
+        "postal_code": null
+    },
+    {
+        "code": 9303012017,
+        "district_code": 930301,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Rayam",
+        "postal_code": null
+    },
+    {
+        "code": 9303012018,
+        "district_code": 930301,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Harome",
+        "postal_code": null
+    },
+    {
+        "code": 9303012019,
+        "district_code": 930301,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Metim",
+        "postal_code": null
+    },
+    {
+        "code": 9303012020,
+        "district_code": 930301,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Masin",
+        "postal_code": null
+    },
+    {
+        "code": 9303012021,
+        "district_code": 930301,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Madu",
+        "postal_code": null
+    },
+    {
+        "code": 9303012022,
+        "district_code": 930301,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Yangpop",
+        "postal_code": null
+    },
+    {
+        "code": 9303012023,
+        "district_code": 930301,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Paedam",
+        "postal_code": "99870"
+    },
+    {
+        "code": 9303012024,
+        "district_code": 930301,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Marbin",
+        "postal_code": "99870"
+    },
+    {
+        "code": 9303022001,
+        "district_code": 930302,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Mur",
+        "postal_code": "99873"
+    },
+    {
+        "code": 9303022002,
+        "district_code": 930302,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Agham",
+        "postal_code": null
+    },
+    {
+        "code": 9303022003,
+        "district_code": 930302,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Waghien\/Koba",
+        "postal_code": "99873"
+    },
+    {
+        "code": 9303022004,
+        "district_code": 930302,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Khatan",
+        "postal_code": "99873"
+    },
+    {
+        "code": 9303022005,
+        "district_code": 930302,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Monana",
+        "postal_code": "99873"
+    },
+    {
+        "code": 9303022006,
+        "district_code": 930302,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Wagin",
+        "postal_code": null
+    },
+    {
+        "code": 9303022007,
+        "district_code": 930302,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Waman",
+        "postal_code": null
+    },
+    {
+        "code": 9303022008,
+        "district_code": 930302,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Ima",
+        "postal_code": "99873"
+    },
+    {
+        "code": 9303022009,
+        "district_code": 930302,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Kogoyaman",
+        "postal_code": "99873"
+    },
+    {
+        "code": 9303022010,
+        "district_code": 930302,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Magabag",
+        "postal_code": null
+    },
+    {
+        "code": 9303022011,
+        "district_code": 930302,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Tereyemu",
+        "postal_code": null
+    },
+    {
+        "code": 9303022012,
+        "district_code": 930302,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Yatan",
+        "postal_code": null
+    },
+    {
+        "code": 9303022013,
+        "district_code": 930302,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Linggua",
+        "postal_code": "99873"
+    },
+    {
+        "code": 9303022014,
+        "district_code": 930302,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Waruwe",
+        "postal_code": "99873"
+    },
+    {
+        "code": 9303022015,
+        "district_code": 930302,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Ghanu",
+        "postal_code": "99873"
+    },
+    {
+        "code": 9303032001,
+        "district_code": 930303,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Bidnew",
+        "postal_code": null
+    },
+    {
+        "code": 9303032002,
+        "district_code": 930303,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Senggo",
+        "postal_code": null
+    },
+    {
+        "code": 9303032003,
+        "district_code": 930303,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Kumasma",
+        "postal_code": "99875"
+    },
+    {
+        "code": 9303032004,
+        "district_code": 930303,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Womin",
+        "postal_code": "99875"
+    },
+    {
+        "code": 9303032005,
+        "district_code": 930303,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Tamanin",
+        "postal_code": "99875"
+    },
+    {
+        "code": 9303032006,
+        "district_code": 930303,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Epem",
+        "postal_code": null
+    },
+    {
+        "code": 9303032007,
+        "district_code": 930303,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Abau",
+        "postal_code": null
+    },
+    {
+        "code": 9303041001,
+        "district_code": 930304,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Bade",
+        "postal_code": "99852"
+    },
+    {
+        "code": 9303042002,
+        "district_code": 930304,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Geturki",
+        "postal_code": "99852"
+    },
+    {
+        "code": 9303042003,
+        "district_code": 930304,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Mememu",
+        "postal_code": null
+    },
+    {
+        "code": 9303042004,
+        "district_code": 930304,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Gimikya",
+        "postal_code": null
+    },
+    {
+        "code": 9303042005,
+        "district_code": 930304,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Banamepe",
+        "postal_code": null
+    },
+    {
+        "code": 9303042006,
+        "district_code": 930304,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Yodom",
+        "postal_code": null
+    },
+    {
+        "code": 9303042007,
+        "district_code": 930304,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Isyaman",
+        "postal_code": null
+    },
+    {
+        "code": 9303052001,
+        "district_code": 930305,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Yagatsu",
+        "postal_code": "99881"
+    },
+    {
+        "code": 9303052002,
+        "district_code": 930305,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Amagatsu",
+        "postal_code": "99881"
+    },
+    {
+        "code": 9303052003,
+        "district_code": 930305,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Katage",
+        "postal_code": "99881"
+    },
+    {
+        "code": 9303052004,
+        "district_code": 930305,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Sogope",
+        "postal_code": "99881"
+    },
+    {
+        "code": 9303052005,
+        "district_code": 930305,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Wiyage",
+        "postal_code": "99881"
+    },
+    {
+        "code": 9303052006,
+        "district_code": 930305,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Kasima",
+        "postal_code": "99881"
+    },
+    {
+        "code": 9303052007,
+        "district_code": 930305,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Amenda",
+        "postal_code": "99881"
+    },
+    {
+        "code": 9303052008,
+        "district_code": 930305,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Kaibu",
+        "postal_code": "99881"
+    },
+    {
+        "code": 9303052009,
+        "district_code": 930305,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Omuro",
+        "postal_code": "99881"
+    },
+    {
+        "code": 9303052010,
+        "district_code": 930305,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Okor",
+        "postal_code": "99881"
+    },
+    {
+        "code": 9303052011,
+        "district_code": 930305,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Atsipim",
+        "postal_code": "99881"
+    },
+    {
+        "code": 9303052012,
+        "district_code": 930305,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Semtaipim",
+        "postal_code": "99881"
+    },
+    {
+        "code": 9303052013,
+        "district_code": 930305,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Geiripim",
+        "postal_code": "99881"
+    },
+    {
+        "code": 9303052014,
+        "district_code": 930305,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Warogom",
+        "postal_code": "99881"
+    },
+    {
+        "code": 9303052015,
+        "district_code": 930305,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Kaibusene",
+        "postal_code": "99881"
+    },
+    {
+        "code": 9303052016,
+        "district_code": 930305,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Arare",
+        "postal_code": "99881"
+    },
+    {
+        "code": 9303052017,
+        "district_code": 930305,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Paghai",
+        "postal_code": "99881"
+    },
+    {
+        "code": 9303052018,
+        "district_code": 930305,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Kerke",
+        "postal_code": "99881"
+    },
+    {
+        "code": 9303052019,
+        "district_code": 930305,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Mani",
+        "postal_code": "99881"
+    },
+    {
+        "code": 9303062001,
+        "district_code": 930306,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Sigare",
+        "postal_code": "99874"
+    },
+    {
+        "code": 9303062002,
+        "district_code": 930306,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Jufo Besar",
+        "postal_code": "99874"
+    },
+    {
+        "code": 9303062003,
+        "district_code": 930306,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Eci",
+        "postal_code": "99874"
+    },
+    {
+        "code": 9303062004,
+        "district_code": 930306,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Aboge",
+        "postal_code": "99874"
+    },
+    {
+        "code": 9303062005,
+        "district_code": 930306,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Khanami",
+        "postal_code": "99874"
+    },
+    {
+        "code": 9303062006,
+        "district_code": 930306,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Yame",
+        "postal_code": "99874"
+    },
+    {
+        "code": 9303062007,
+        "district_code": 930306,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Kaitok",
+        "postal_code": "99874"
+    },
+    {
+        "code": 9303062008,
+        "district_code": 930306,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Homang",
+        "postal_code": "99874"
+    },
+    {
+        "code": 9303062009,
+        "district_code": 930306,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Jufo Kecil",
+        "postal_code": "99874"
+    },
+    {
+        "code": 9303062010,
+        "district_code": 930306,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Khabu",
+        "postal_code": "99874"
+    },
+    {
+        "code": 9303062011,
+        "district_code": 930306,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Kiki",
+        "postal_code": "99874"
+    },
+    {
+        "code": 9303062012,
+        "district_code": 930306,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Isage",
+        "postal_code": "99874"
+    },
+    {
+        "code": 9303062013,
+        "district_code": 930306,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Kopi",
+        "postal_code": "99874"
+    },
+    {
+        "code": 9303062014,
+        "district_code": 930306,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Asaren",
+        "postal_code": "99874"
+    },
+    {
+        "code": 9303062015,
+        "district_code": 930306,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Keru",
+        "postal_code": "99874"
+    },
+    {
+        "code": 9303062016,
+        "district_code": 930306,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Girimio",
+        "postal_code": "99874"
+    },
+    {
+        "code": 9303062017,
+        "district_code": 930306,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Haffo",
+        "postal_code": "99874"
+    },
+    {
+        "code": 9303062018,
+        "district_code": 930306,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Meda",
+        "postal_code": "99874"
+    },
+    {
+        "code": 9303072001,
+        "district_code": 930307,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Amazu",
+        "postal_code": "99876"
+    },
+    {
+        "code": 9303072002,
+        "district_code": 930307,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Imembi",
+        "postal_code": "99876"
+    },
+    {
+        "code": 9303072003,
+        "district_code": 930307,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Yemu",
+        "postal_code": "99876"
+    },
+    {
+        "code": 9303072004,
+        "district_code": 930307,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Fomu",
+        "postal_code": null
+    },
+    {
+        "code": 9303072005,
+        "district_code": 930307,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Tiau",
+        "postal_code": "99876"
+    },
+    {
+        "code": 9303072006,
+        "district_code": 930307,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Binerbis",
+        "postal_code": "99876"
+    },
+    {
+        "code": 9303072007,
+        "district_code": 930307,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Tayau",
+        "postal_code": "99876"
+    },
+    {
+        "code": 9303082001,
+        "district_code": 930308,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Sepoh",
+        "postal_code": "99871"
+    },
+    {
+        "code": 9303082002,
+        "district_code": 930308,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Bagaram",
+        "postal_code": "99871"
+    },
+    {
+        "code": 9303082003,
+        "district_code": 930308,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Passue\/Taim",
+        "postal_code": "99871"
+    },
+    {
+        "code": 9303082004,
+        "district_code": 930308,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Nohon",
+        "postal_code": "99871"
+    },
+    {
+        "code": 9303082005,
+        "district_code": 930308,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Kotiak",
+        "postal_code": "99871"
+    },
+    {
+        "code": 9303082006,
+        "district_code": 930308,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Menya",
+        "postal_code": "99871"
+    },
+    {
+        "code": 9303082007,
+        "district_code": 930308,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Tokhompatu",
+        "postal_code": "99871"
+    },
+    {
+        "code": 9303082008,
+        "district_code": 930308,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Kotup",
+        "postal_code": "99871"
+    },
+    {
+        "code": 9303082009,
+        "district_code": 930308,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Rimba Jaya\/Gayu",
+        "postal_code": "99871"
+    },
+    {
+        "code": 9303082010,
+        "district_code": 930308,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Kaime",
+        "postal_code": "99871"
+    },
+    {
+        "code": 9303082011,
+        "district_code": 930308,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Baitate",
+        "postal_code": "99871"
+    },
+    {
+        "code": 9303082012,
+        "district_code": 930308,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Urufu",
+        "postal_code": "99871"
+    },
+    {
+        "code": 9303082013,
+        "district_code": 930308,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Afogoma",
+        "postal_code": "99871"
+    },
+    {
+        "code": 9303092001,
+        "district_code": 930309,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Kabe",
+        "postal_code": "99872"
+    },
+    {
+        "code": 9303092002,
+        "district_code": 930309,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Kaumi",
+        "postal_code": "99872"
+    },
+    {
+        "code": 9303092003,
+        "district_code": 930309,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Kayagai",
+        "postal_code": "99872"
+    },
+    {
+        "code": 9303092004,
+        "district_code": 930309,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Ati",
+        "postal_code": "99872"
+    },
+    {
+        "code": 9303092005,
+        "district_code": 930309,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Upin",
+        "postal_code": "99872"
+    },
+    {
+        "code": 9303092006,
+        "district_code": 930309,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Taragai",
+        "postal_code": "99872"
+    },
+    {
+        "code": 9303092007,
+        "district_code": 930309,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Sene",
+        "postal_code": "99872"
+    },
+    {
+        "code": 9303092008,
+        "district_code": 930309,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Komru",
+        "postal_code": "99872"
+    },
+    {
+        "code": 9303092009,
+        "district_code": 930309,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Kofar",
+        "postal_code": "99872"
+    },
+    {
+        "code": 9303092010,
+        "district_code": 930309,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Sumuraman",
+        "postal_code": "99872"
+    },
+    {
+        "code": 9303092011,
+        "district_code": 930309,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Pano",
+        "postal_code": "99872"
+    },
+    {
+        "code": 9303092012,
+        "district_code": 930309,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Kogir",
+        "postal_code": "99872"
+    },
+    {
+        "code": 9303102001,
+        "district_code": 930310,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Sien",
+        "postal_code": null
+    },
+    {
+        "code": 9303102002,
+        "district_code": 930310,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Sahapikya",
+        "postal_code": null
+    },
+    {
+        "code": 9303102003,
+        "district_code": 930310,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Harapan",
+        "postal_code": null
+    },
+    {
+        "code": 9303102004,
+        "district_code": 930310,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Yibin",
+        "postal_code": null
+    },
+    {
+        "code": 9303102005,
+        "district_code": 930310,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Mopio",
+        "postal_code": null
+    },
+    {
+        "code": 9303102006,
+        "district_code": 930310,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Pies",
+        "postal_code": "99854"
+    },
+    {
+        "code": 9303102007,
+        "district_code": 930310,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Memes",
+        "postal_code": "99854"
+    },
+    {
+        "code": 9303102008,
+        "district_code": 930310,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Getiyo",
+        "postal_code": "99854"
+    },
+    {
+        "code": 9303112001,
+        "district_code": 930311,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Homlikia",
+        "postal_code": "99853"
+    },
+    {
+        "code": 9303112002,
+        "district_code": 930311,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Kobeta",
+        "postal_code": "99853"
+    },
+    {
+        "code": 9303112003,
+        "district_code": 930311,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Asset",
+        "postal_code": "99853"
+    },
+    {
+        "code": 9303112004,
+        "district_code": 930311,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Osso",
+        "postal_code": "99853"
+    },
+    {
+        "code": 9303112005,
+        "district_code": 930311,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Bosma",
+        "postal_code": "99853"
+    },
+    {
+        "code": 9303112006,
+        "district_code": 930311,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Oghoto",
+        "postal_code": "99853"
+    },
+    {
+        "code": 9303122001,
+        "district_code": 930312,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Amk",
+        "postal_code": "99855"
+    },
+    {
+        "code": 9303122002,
+        "district_code": 930312,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Yame",
+        "postal_code": "99855"
+    },
+    {
+        "code": 9303122003,
+        "district_code": 930312,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Benggo",
+        "postal_code": "99855"
+    },
+    {
+        "code": 9303122004,
+        "district_code": 930312,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Kokoya",
+        "postal_code": "99855"
+    },
+    {
+        "code": 9303122005,
+        "district_code": 930312,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Borohaba",
+        "postal_code": "99855"
+    },
+    {
+        "code": 9303122006,
+        "district_code": 930312,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Ogorito",
+        "postal_code": "99855"
+    },
+    {
+        "code": 9303122007,
+        "district_code": 930312,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Hebeske",
+        "postal_code": "99855"
+    },
+    {
+        "code": 9303132001,
+        "district_code": 930313,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Yeloba",
+        "postal_code": "99851"
+    },
+    {
+        "code": 9303132002,
+        "district_code": 930313,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Konebi",
+        "postal_code": "99851"
+    },
+    {
+        "code": 9303132003,
+        "district_code": 930313,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Sibi",
+        "postal_code": "99851"
+    },
+    {
+        "code": 9303132004,
+        "district_code": 930313,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Tagaimon Sino",
+        "postal_code": "99851"
+    },
+    {
+        "code": 9303132005,
+        "district_code": 930313,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Tagaimon Karome",
+        "postal_code": "99851"
+    },
+    {
+        "code": 9303142001,
+        "district_code": 930314,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Wonggi",
+        "postal_code": "99877"
+    },
+    {
+        "code": 9303142002,
+        "district_code": 930314,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Busiri",
+        "postal_code": "99877"
+    },
+    {
+        "code": 9303142003,
+        "district_code": 930314,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Keta",
+        "postal_code": "99877"
+    },
+    {
+        "code": 9303142004,
+        "district_code": 930314,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Veta",
+        "postal_code": "99877"
+    },
+    {
+        "code": 9303142005,
+        "district_code": 930314,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Honya",
+        "postal_code": "99877"
+    },
+    {
+        "code": 9303142006,
+        "district_code": 930314,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Haku",
+        "postal_code": "99877"
+    },
+    {
+        "code": 9303142007,
+        "district_code": 930314,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Bifo",
+        "postal_code": "99877"
+    },
+    {
+        "code": 9303142008,
+        "district_code": 930314,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Samurukie",
+        "postal_code": "99877"
+    },
+    {
+        "code": 9303152001,
+        "district_code": 930315,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Sagis",
+        "postal_code": "99878"
+    },
+    {
+        "code": 9303152002,
+        "district_code": 930315,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Kumaban",
+        "postal_code": "99878"
+    },
+    {
+        "code": 9303152003,
+        "district_code": 930315,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Tugumau",
+        "postal_code": "99878"
+    },
+    {
+        "code": 9303152004,
+        "district_code": 930315,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Basman",
+        "postal_code": "99878"
+    },
+    {
+        "code": 9303152005,
+        "district_code": 930315,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Merokima",
+        "postal_code": "99878"
+    },
+    {
+        "code": 9303152006,
+        "district_code": 930315,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Mu",
+        "postal_code": "99878"
+    },
+    {
+        "code": 9303152007,
+        "district_code": 930315,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Pier",
+        "postal_code": "99878"
+    },
+    {
+        "code": 9303152008,
+        "district_code": 930315,
+        "regency_code": 9303,
+        "province_code": 93,
+        "name": "Tarwa",
+        "postal_code": "99878"
+    },
+    {
+        "code": 9304012001,
+        "district_code": 930401,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Yomoth",
+        "postal_code": "99777"
+    },
+    {
+        "code": 9304012002,
+        "district_code": 930401,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Uwus",
+        "postal_code": "99777"
+    },
+    {
+        "code": 9304012003,
+        "district_code": 930401,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Asuwetsy",
+        "postal_code": "99777"
+    },
+    {
+        "code": 9304012004,
+        "district_code": 930401,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Bismam",
+        "postal_code": "99777"
+    },
+    {
+        "code": 9304012005,
+        "district_code": 930401,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Bis Agats",
+        "postal_code": "99777"
+    },
+    {
+        "code": 9304012006,
+        "district_code": 930401,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Per",
+        "postal_code": "99777"
+    },
+    {
+        "code": 9304012007,
+        "district_code": 930401,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Beriten",
+        "postal_code": "99777"
+    },
+    {
+        "code": 9304012008,
+        "district_code": 930401,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Mbait",
+        "postal_code": "99777"
+    },
+    {
+        "code": 9304012009,
+        "district_code": 930401,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Bou",
+        "postal_code": "99777"
+    },
+    {
+        "code": 9304012010,
+        "district_code": 930401,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Saw",
+        "postal_code": "99777"
+    },
+    {
+        "code": 9304012011,
+        "district_code": 930401,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Kaye",
+        "postal_code": "99777"
+    },
+    {
+        "code": 9304012012,
+        "district_code": 930401,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Suwru",
+        "postal_code": "99777"
+    },
+    {
+        "code": 9304022001,
+        "district_code": 930402,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Atsj",
+        "postal_code": "99775"
+    },
+    {
+        "code": 9304022002,
+        "district_code": 930402,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Sogoni",
+        "postal_code": "99775"
+    },
+    {
+        "code": 9304022003,
+        "district_code": 930402,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Amanamkai",
+        "postal_code": "99775"
+    },
+    {
+        "code": 9304022004,
+        "district_code": 930402,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Ambisu",
+        "postal_code": "99775"
+    },
+    {
+        "code": 9304022005,
+        "district_code": 930402,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Bine",
+        "postal_code": "99775"
+    },
+    {
+        "code": 9304022006,
+        "district_code": 930402,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Bipim",
+        "postal_code": "99775"
+    },
+    {
+        "code": 9304022007,
+        "district_code": 930402,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Yasiuw",
+        "postal_code": "99775"
+    },
+    {
+        "code": 9304022008,
+        "district_code": 930402,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Bakasai",
+        "postal_code": "99775"
+    },
+    {
+        "code": 9304022009,
+        "district_code": 930402,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Cewewyamew",
+        "postal_code": "99775"
+    },
+    {
+        "code": 9304032001,
+        "district_code": 930403,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Sawa",
+        "postal_code": "99783"
+    },
+    {
+        "code": 9304032002,
+        "district_code": 930403,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Erma",
+        "postal_code": "99783"
+    },
+    {
+        "code": 9304032003,
+        "district_code": 930403,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Bu",
+        "postal_code": "99783"
+    },
+    {
+        "code": 9304032004,
+        "district_code": 930403,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Er",
+        "postal_code": "99783"
+    },
+    {
+        "code": 9304032005,
+        "district_code": 930403,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Pupis",
+        "postal_code": "99783"
+    },
+    {
+        "code": 9304032006,
+        "district_code": 930403,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Sona",
+        "postal_code": "99783"
+    },
+    {
+        "code": 9304032007,
+        "district_code": 930403,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Agani",
+        "postal_code": "99783"
+    },
+    {
+        "code": 9304032008,
+        "district_code": 930403,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Mumugu",
+        "postal_code": "99783"
+    },
+    {
+        "code": 9304032009,
+        "district_code": 930403,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Sauti",
+        "postal_code": "99783"
+    },
+    {
+        "code": 9304032010,
+        "district_code": 930403,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Mumugi II",
+        "postal_code": "99783"
+    },
+    {
+        "code": 9304042001,
+        "district_code": 930404,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Ayam",
+        "postal_code": "99779"
+    },
+    {
+        "code": 9304042006,
+        "district_code": 930404,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Waw",
+        "postal_code": "99779"
+    },
+    {
+        "code": 9304042007,
+        "district_code": 930404,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Bayiw Pinam",
+        "postal_code": "99779"
+    },
+    {
+        "code": 9304042008,
+        "district_code": 930404,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Cumnew",
+        "postal_code": "99779"
+    },
+    {
+        "code": 9304042009,
+        "district_code": 930404,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Jewes",
+        "postal_code": "99779"
+    },
+    {
+        "code": 9304052001,
+        "district_code": 930405,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Basim",
+        "postal_code": "99782"
+    },
+    {
+        "code": 9304052002,
+        "district_code": 930405,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Waras",
+        "postal_code": "99782"
+    },
+    {
+        "code": 9304052003,
+        "district_code": 930405,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Biopis",
+        "postal_code": "99782"
+    },
+    {
+        "code": 9304052004,
+        "district_code": 930405,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Nanai",
+        "postal_code": "99782"
+    },
+    {
+        "code": 9304052005,
+        "district_code": 930405,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Pirien",
+        "postal_code": "99782"
+    },
+    {
+        "code": 9304052006,
+        "district_code": 930405,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Ocenep",
+        "postal_code": "99782"
+    },
+    {
+        "code": 9304052007,
+        "district_code": 930405,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Ais",
+        "postal_code": "99782"
+    },
+    {
+        "code": 9304052008,
+        "district_code": 930405,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Yawas",
+        "postal_code": "99782"
+    },
+    {
+        "code": 9304052009,
+        "district_code": 930405,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Bakyor",
+        "postal_code": "99782"
+    },
+    {
+        "code": 9304052010,
+        "district_code": 930405,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Isar",
+        "postal_code": "99782"
+    },
+    {
+        "code": 9304052011,
+        "district_code": 930405,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Kayarpis",
+        "postal_code": "99782"
+    },
+    {
+        "code": 9304052012,
+        "district_code": 930405,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Sayoa",
+        "postal_code": "99782"
+    },
+    {
+        "code": 9304052013,
+        "district_code": 930405,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Bora",
+        "postal_code": "99782"
+    },
+    {
+        "code": 9304062001,
+        "district_code": 930406,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Kamur",
+        "postal_code": "99773"
+    },
+    {
+        "code": 9304062002,
+        "district_code": 930406,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Sanep",
+        "postal_code": "99773"
+    },
+    {
+        "code": 9304062003,
+        "district_code": 930406,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Saramit",
+        "postal_code": "99773"
+    },
+    {
+        "code": 9304062004,
+        "district_code": 930406,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Yahoi",
+        "postal_code": "99773"
+    },
+    {
+        "code": 9304062005,
+        "district_code": 930406,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Hainam",
+        "postal_code": "99773"
+    },
+    {
+        "code": 9304062006,
+        "district_code": 930406,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Yagamit",
+        "postal_code": "99773"
+    },
+    {
+        "code": 9304062007,
+        "district_code": 930406,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Bawor",
+        "postal_code": "99773"
+    },
+    {
+        "code": 9304062008,
+        "district_code": 930406,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Sanapai",
+        "postal_code": "99773"
+    },
+    {
+        "code": 9304062009,
+        "district_code": 930406,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Sarmafo",
+        "postal_code": "99773"
+    },
+    {
+        "code": 9304072001,
+        "district_code": 930407,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Binam",
+        "postal_code": "99792"
+    },
+    {
+        "code": 9304072002,
+        "district_code": 930407,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Wagabus",
+        "postal_code": "99792"
+    },
+    {
+        "code": 9304072003,
+        "district_code": 930407,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Burbis",
+        "postal_code": "99792"
+    },
+    {
+        "code": 9304072004,
+        "district_code": 930407,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Bubis",
+        "postal_code": "99792"
+    },
+    {
+        "code": 9304072005,
+        "district_code": 930407,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Karbis",
+        "postal_code": "99792"
+    },
+    {
+        "code": 9304072006,
+        "district_code": 930407,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Jinak",
+        "postal_code": "99792"
+    },
+    {
+        "code": 9304072007,
+        "district_code": 930407,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Wowi",
+        "postal_code": "99792"
+    },
+    {
+        "code": 9304072008,
+        "district_code": 930407,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Soray",
+        "postal_code": "99792"
+    },
+    {
+        "code": 9304072009,
+        "district_code": 930407,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Waganu Dua",
+        "postal_code": "99792"
+    },
+    {
+        "code": 9304072010,
+        "district_code": 930407,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Waijens",
+        "postal_code": "99792"
+    },
+    {
+        "code": 9304072011,
+        "district_code": 930407,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Bumu",
+        "postal_code": "99792"
+    },
+    {
+        "code": 9304072012,
+        "district_code": 930407,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Kapayap Satu",
+        "postal_code": "99792"
+    },
+    {
+        "code": 9304072013,
+        "district_code": 930407,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Kapayap Dua",
+        "postal_code": "99792"
+    },
+    {
+        "code": 9304072014,
+        "district_code": 930407,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Emnam",
+        "postal_code": "99792"
+    },
+    {
+        "code": 9304082001,
+        "district_code": 930408,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Suru-Suru",
+        "postal_code": "99781"
+    },
+    {
+        "code": 9304082002,
+        "district_code": 930408,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "See",
+        "postal_code": "99781"
+    },
+    {
+        "code": 9304082007,
+        "district_code": 930408,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Tomor",
+        "postal_code": "99781"
+    },
+    {
+        "code": 9304082009,
+        "district_code": 930408,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Dumaten",
+        "postal_code": "99781"
+    },
+    {
+        "code": 9304082010,
+        "district_code": 930408,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Hom-hom",
+        "postal_code": "99781"
+    },
+    {
+        "code": 9304082011,
+        "district_code": 930408,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Ajin",
+        "postal_code": "99781"
+    },
+    {
+        "code": 9304082012,
+        "district_code": 930408,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Laluk",
+        "postal_code": "99781"
+    },
+    {
+        "code": 9304082013,
+        "district_code": 930408,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Kebikduk",
+        "postal_code": "99781"
+    },
+    {
+        "code": 9304082014,
+        "district_code": 930408,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Hulam",
+        "postal_code": "99781"
+    },
+    {
+        "code": 9304082015,
+        "district_code": 930408,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Walase",
+        "postal_code": "99781"
+    },
+    {
+        "code": 9304082016,
+        "district_code": 930408,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Berimono",
+        "postal_code": "99781"
+    },
+    {
+        "code": 9304082017,
+        "district_code": 930408,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Asgun",
+        "postal_code": "99781"
+    },
+    {
+        "code": 9304082018,
+        "district_code": 930408,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Korobuk",
+        "postal_code": "99781"
+    },
+    {
+        "code": 9304082019,
+        "district_code": 930408,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Katalina",
+        "postal_code": "99781"
+    },
+    {
+        "code": 9304082020,
+        "district_code": 930408,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Obio",
+        "postal_code": "99781"
+    },
+    {
+        "code": 9304082021,
+        "district_code": 930408,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Salbik",
+        "postal_code": "99781"
+    },
+    {
+        "code": 9304082022,
+        "district_code": 930408,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Linduk",
+        "postal_code": "99781"
+    },
+    {
+        "code": 9304082023,
+        "district_code": 930408,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Besika",
+        "postal_code": "99781"
+    },
+    {
+        "code": 9304092001,
+        "district_code": 930409,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Binamsain",
+        "postal_code": "99791"
+    },
+    {
+        "code": 9304092002,
+        "district_code": 930409,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Pirabanak",
+        "postal_code": "99791"
+    },
+    {
+        "code": 9304092003,
+        "district_code": 930409,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Woutu Braza",
+        "postal_code": "99791"
+    },
+    {
+        "code": 9304092004,
+        "district_code": 930409,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Patipi",
+        "postal_code": "99791"
+    },
+    {
+        "code": 9304092005,
+        "district_code": 930409,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Ulakin",
+        "postal_code": "99791"
+    },
+    {
+        "code": 9304092006,
+        "district_code": 930409,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Woutu Kolof",
+        "postal_code": "99791"
+    },
+    {
+        "code": 9304092007,
+        "district_code": 930409,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Butukatnau",
+        "postal_code": "99791"
+    },
+    {
+        "code": 9304092008,
+        "district_code": 930409,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Auban",
+        "postal_code": "99791"
+    },
+    {
+        "code": 9304092009,
+        "district_code": 930409,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Pepera",
+        "postal_code": "99791"
+    },
+    {
+        "code": 9304102002,
+        "district_code": 930410,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Amor",
+        "postal_code": "99780"
+    },
+    {
+        "code": 9304102003,
+        "district_code": 930410,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Yipawer",
+        "postal_code": "99780"
+    },
+    {
+        "code": 9304102004,
+        "district_code": 930410,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Berip",
+        "postal_code": "99780"
+    },
+    {
+        "code": 9304102005,
+        "district_code": 930410,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Ayir",
+        "postal_code": "99780"
+    },
+    {
+        "code": 9304102006,
+        "district_code": 930410,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Werer",
+        "postal_code": "99780"
+    },
+    {
+        "code": 9304102009,
+        "district_code": 930410,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Paar",
+        "postal_code": "99780"
+    },
+    {
+        "code": 9304112001,
+        "district_code": 930411,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Yamas",
+        "postal_code": "99784"
+    },
+    {
+        "code": 9304112002,
+        "district_code": 930411,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Yeni",
+        "postal_code": "99784"
+    },
+    {
+        "code": 9304112003,
+        "district_code": 930411,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Omor",
+        "postal_code": "99784"
+    },
+    {
+        "code": 9304112004,
+        "district_code": 930411,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Jufri ",
+        "postal_code": "99784"
+    },
+    {
+        "code": 9304112005,
+        "district_code": 930411,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Yaun",
+        "postal_code": "99784"
+    },
+    {
+        "code": 9304112006,
+        "district_code": 930411,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Onavai",
+        "postal_code": "99784"
+    },
+    {
+        "code": 9304122001,
+        "district_code": 930412,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Kapi",
+        "postal_code": "99778"
+    },
+    {
+        "code": 9304122002,
+        "district_code": 930412,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "As",
+        "postal_code": "99778"
+    },
+    {
+        "code": 9304122003,
+        "district_code": 930412,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Atat",
+        "postal_code": "99778"
+    },
+    {
+        "code": 9304122004,
+        "district_code": 930412,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Aou",
+        "postal_code": "99778"
+    },
+    {
+        "code": 9304122005,
+        "district_code": 930412,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Nakai",
+        "postal_code": "99778"
+    },
+    {
+        "code": 9304122006,
+        "district_code": 930412,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Esmapan",
+        "postal_code": "99778"
+    },
+    {
+        "code": 9304122007,
+        "district_code": 930412,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Eroko",
+        "postal_code": "99778"
+    },
+    {
+        "code": 9304122008,
+        "district_code": 930412,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Yakapis",
+        "postal_code": "99778"
+    },
+    {
+        "code": 9304122009,
+        "district_code": 930412,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Weo",
+        "postal_code": "99778"
+    },
+    {
+        "code": 9304122010,
+        "district_code": 930412,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Aoap",
+        "postal_code": "99778"
+    },
+    {
+        "code": 9304122011,
+        "district_code": 930412,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Fumereipits",
+        "postal_code": "99778"
+    },
+    {
+        "code": 9304132001,
+        "district_code": 930413,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Warse\/Jetsy",
+        "postal_code": "99785"
+    },
+    {
+        "code": 9304132002,
+        "district_code": 930413,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Powetsy\/Amborep",
+        "postal_code": "99785"
+    },
+    {
+        "code": 9304132003,
+        "district_code": 930413,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Pau",
+        "postal_code": "99785"
+    },
+    {
+        "code": 9304132004,
+        "district_code": 930413,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Sesakam",
+        "postal_code": "99785"
+    },
+    {
+        "code": 9304132005,
+        "district_code": 930413,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Akamar",
+        "postal_code": "99785"
+    },
+    {
+        "code": 9304132006,
+        "district_code": 930413,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Birak",
+        "postal_code": "99785"
+    },
+    {
+        "code": 9304132007,
+        "district_code": 930413,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Katew",
+        "postal_code": "99785"
+    },
+    {
+        "code": 9304132008,
+        "district_code": 930413,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Dawer",
+        "postal_code": "99785"
+    },
+    {
+        "code": 9304142001,
+        "district_code": 930414,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Yamkap",
+        "postal_code": "99771"
+    },
+    {
+        "code": 9304142002,
+        "district_code": 930414,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Amkum",
+        "postal_code": "99771"
+    },
+    {
+        "code": 9304142003,
+        "district_code": 930414,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Amaru",
+        "postal_code": "99771"
+    },
+    {
+        "code": 9304142004,
+        "district_code": 930414,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Amkai",
+        "postal_code": "99771"
+    },
+    {
+        "code": 9304142005,
+        "district_code": 930414,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Amagais",
+        "postal_code": "99771"
+    },
+    {
+        "code": 9304142006,
+        "district_code": 930414,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Erosaman",
+        "postal_code": "99771"
+    },
+    {
+        "code": 9304152001,
+        "district_code": 930415,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Kawem",
+        "postal_code": "99772"
+    },
+    {
+        "code": 9304152002,
+        "district_code": 930415,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Hahare",
+        "postal_code": "99772"
+    },
+    {
+        "code": 9304152003,
+        "district_code": 930415,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Aikut",
+        "postal_code": "99772"
+    },
+    {
+        "code": 9304152004,
+        "district_code": 930415,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Sanem",
+        "postal_code": "99772"
+    },
+    {
+        "code": 9304152005,
+        "district_code": 930415,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Kaipom",
+        "postal_code": "99772"
+    },
+    {
+        "code": 9304152006,
+        "district_code": 930415,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Airo Sapem",
+        "postal_code": "99772"
+    },
+    {
+        "code": 9304152007,
+        "district_code": 930415,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Simipit",
+        "postal_code": "99772"
+    },
+    {
+        "code": 9304152008,
+        "district_code": 930415,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Heiyaram",
+        "postal_code": "99772"
+    },
+    {
+        "code": 9304152009,
+        "district_code": 930415,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Wagasu",
+        "postal_code": "99772"
+    },
+    {
+        "code": 9304152010,
+        "district_code": 930415,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Sasime",
+        "postal_code": "99772"
+    },
+    {
+        "code": 9304162001,
+        "district_code": 930416,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Primapun",
+        "postal_code": "99774"
+    },
+    {
+        "code": 9304162002,
+        "district_code": 930416,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Aworket",
+        "postal_code": "99774"
+    },
+    {
+        "code": 9304162003,
+        "district_code": 930416,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Saman",
+        "postal_code": "99774"
+    },
+    {
+        "code": 9304162004,
+        "district_code": 930416,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Bayun",
+        "postal_code": "99774"
+    },
+    {
+        "code": 9304162005,
+        "district_code": 930416,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Semendoro",
+        "postal_code": "99774"
+    },
+    {
+        "code": 9304162006,
+        "district_code": 930416,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Tareo",
+        "postal_code": "99774"
+    },
+    {
+        "code": 9304162007,
+        "district_code": 930416,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Kayirim",
+        "postal_code": "99774"
+    },
+    {
+        "code": 9304162008,
+        "district_code": 930416,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Santambor",
+        "postal_code": "99774"
+    },
+    {
+        "code": 9304162009,
+        "district_code": 930416,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Yaptambor",
+        "postal_code": "99774"
+    },
+    {
+        "code": 9304162010,
+        "district_code": 930416,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Simsagar",
+        "postal_code": "99774"
+    },
+    {
+        "code": 9304162011,
+        "district_code": 930416,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Itersok",
+        "postal_code": "99774"
+    },
+    {
+        "code": 9304162012,
+        "district_code": 930416,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Emene",
+        "postal_code": "99774"
+    },
+    {
+        "code": 9304172001,
+        "district_code": 930417,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Yausakor",
+        "postal_code": "99787"
+    },
+    {
+        "code": 9304172002,
+        "district_code": 930417,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Damen",
+        "postal_code": "99787"
+    },
+    {
+        "code": 9304172003,
+        "district_code": 930417,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Biwar Darat",
+        "postal_code": "99787"
+    },
+    {
+        "code": 9304172004,
+        "district_code": 930417,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Kaimo",
+        "postal_code": "99787"
+    },
+    {
+        "code": 9304172005,
+        "district_code": 930417,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Awok",
+        "postal_code": "99787"
+    },
+    {
+        "code": 9304172006,
+        "district_code": 930417,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Fos",
+        "postal_code": "99787"
+    },
+    {
+        "code": 9304172007,
+        "district_code": 930417,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Waganu",
+        "postal_code": "99787"
+    },
+    {
+        "code": 9304172008,
+        "district_code": 930417,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Sakor",
+        "postal_code": "99787"
+    },
+    {
+        "code": 9304182001,
+        "district_code": 930418,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Comoro",
+        "postal_code": "99776"
+    },
+    {
+        "code": 9304182002,
+        "district_code": 930418,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Kawet",
+        "postal_code": "99776"
+    },
+    {
+        "code": 9304182003,
+        "district_code": 930418,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Mausi",
+        "postal_code": "99776"
+    },
+    {
+        "code": 9304182004,
+        "district_code": 930418,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Sato Yod",
+        "postal_code": "99776"
+    },
+    {
+        "code": 9304182005,
+        "district_code": 930418,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Tamor",
+        "postal_code": "99776"
+    },
+    {
+        "code": 9304182006,
+        "district_code": 930418,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Ero Airo",
+        "postal_code": "99776"
+    },
+    {
+        "code": 9304192001,
+        "district_code": 930419,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Biwar Laut",
+        "postal_code": "99786"
+    },
+    {
+        "code": 9304192002,
+        "district_code": 930419,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Atambuts",
+        "postal_code": "99786"
+    },
+    {
+        "code": 9304192003,
+        "district_code": 930419,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Omanesep",
+        "postal_code": "99786"
+    },
+    {
+        "code": 9304192004,
+        "district_code": 930419,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Warkai",
+        "postal_code": "99786"
+    },
+    {
+        "code": 9304192005,
+        "district_code": 930419,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "You",
+        "postal_code": "99786"
+    },
+    {
+        "code": 9304192006,
+        "district_code": 930419,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Pirpis",
+        "postal_code": "99786"
+    },
+    {
+        "code": 9304192007,
+        "district_code": 930419,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Desep",
+        "postal_code": "99786"
+    },
+    {
+        "code": 9304202001,
+        "district_code": 930420,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Bor",
+        "postal_code": "99792"
+    },
+    {
+        "code": 9304202002,
+        "district_code": 930420,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Daikot",
+        "postal_code": "99792"
+    },
+    {
+        "code": 9304202003,
+        "district_code": 930420,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Somnak",
+        "postal_code": "99792"
+    },
+    {
+        "code": 9304202004,
+        "district_code": 930420,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Wabak",
+        "postal_code": "99792"
+    },
+    {
+        "code": 9304202005,
+        "district_code": 930420,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Vakam",
+        "postal_code": "99792"
+    },
+    {
+        "code": 9304202006,
+        "district_code": 930420,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Vakam Dua",
+        "postal_code": "99792"
+    },
+    {
+        "code": 9304202007,
+        "district_code": 930420,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Dekamer",
+        "postal_code": "99792"
+    },
+    {
+        "code": 9304212001,
+        "district_code": 930421,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Piramat",
+        "postal_code": "99782"
+    },
+    {
+        "code": 9304212002,
+        "district_code": 930421,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Bawos",
+        "postal_code": "99782"
+    },
+    {
+        "code": 9304212003,
+        "district_code": 930421,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Akan Tapak",
+        "postal_code": "99782"
+    },
+    {
+        "code": 9304212004,
+        "district_code": 930421,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Tauro",
+        "postal_code": "99782"
+    },
+    {
+        "code": 9304212005,
+        "district_code": 930421,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Bagair",
+        "postal_code": "99782"
+    },
+    {
+        "code": 9304212006,
+        "district_code": 930421,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Wiyar",
+        "postal_code": "99782"
+    },
+    {
+        "code": 9304212007,
+        "district_code": 930421,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Kagas",
+        "postal_code": "99782"
+    },
+    {
+        "code": 9304212008,
+        "district_code": 930421,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Mapane",
+        "postal_code": "99782"
+    },
+    {
+        "code": 9304212009,
+        "district_code": 930421,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Ainamsato",
+        "postal_code": "99782"
+    },
+    {
+        "code": 9304212010,
+        "district_code": 930421,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Amaita",
+        "postal_code": "99782"
+    },
+    {
+        "code": 9304222001,
+        "district_code": 930422,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Yerfum",
+        "postal_code": "99771"
+    },
+    {
+        "code": 9304222002,
+        "district_code": 930422,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Suagai",
+        "postal_code": "99771"
+    },
+    {
+        "code": 9304222003,
+        "district_code": 930422,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Sohomane",
+        "postal_code": "99771"
+    },
+    {
+        "code": 9304222004,
+        "district_code": 930422,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Sagare",
+        "postal_code": "99776"
+    },
+    {
+        "code": 9304222005,
+        "district_code": 930422,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Yefuwagi",
+        "postal_code": "99776"
+    },
+    {
+        "code": 9304222006,
+        "district_code": 930422,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Wagi",
+        "postal_code": "99776"
+    },
+    {
+        "code": 9304232001,
+        "district_code": 930423,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Mabul",
+        "postal_code": "99791"
+    },
+    {
+        "code": 9304232002,
+        "district_code": 930423,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Banum",
+        "postal_code": "99792"
+    },
+    {
+        "code": 9304232003,
+        "district_code": 930423,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Ayak",
+        "postal_code": "99792"
+    },
+    {
+        "code": 9304232004,
+        "district_code": 930423,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Amakot",
+        "postal_code": "99792"
+    },
+    {
+        "code": 9304232005,
+        "district_code": 930423,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Nagatun",
+        "postal_code": "99792"
+    },
+    {
+        "code": 9304232006,
+        "district_code": 930423,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Ujung Batu",
+        "postal_code": "99792"
+    },
+    {
+        "code": 9304232007,
+        "district_code": 930423,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Kapayap Tiga",
+        "postal_code": "99792"
+    },
+    {
+        "code": 9304232008,
+        "district_code": 930423,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Sipanap",
+        "postal_code": "99791"
+    },
+    {
+        "code": 9304242001,
+        "district_code": 930424,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Tomor",
+        "postal_code": "99780"
+    },
+    {
+        "code": 9304242002,
+        "district_code": 930424,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Munu",
+        "postal_code": "99780"
+    },
+    {
+        "code": 9304242003,
+        "district_code": 930424,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Abamu",
+        "postal_code": "99780"
+    },
+    {
+        "code": 9304242004,
+        "district_code": 930424,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Tie",
+        "postal_code": "99781"
+    },
+    {
+        "code": 9304242005,
+        "district_code": 930424,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Koba",
+        "postal_code": "99781"
+    },
+    {
+        "code": 9304242006,
+        "district_code": 930424,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Sagapu",
+        "postal_code": "99781"
+    },
+    {
+        "code": 9304242007,
+        "district_code": 930424,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Jifak",
+        "postal_code": "99781"
+    },
+    {
+        "code": 9304242008,
+        "district_code": 930424,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Yensuku",
+        "postal_code": "99781"
+    },
+    {
+        "code": 9304252001,
+        "district_code": 930425,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Beco",
+        "postal_code": "99779"
+    },
+    {
+        "code": 9304252002,
+        "district_code": 930425,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Yuni",
+        "postal_code": "99779"
+    },
+    {
+        "code": 9304252003,
+        "district_code": 930425,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Buetkawar",
+        "postal_code": "99779"
+    },
+    {
+        "code": 9304252004,
+        "district_code": 930425,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Manep",
+        "postal_code": "99779"
+    },
+    {
+        "code": 9304252005,
+        "district_code": 930425,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Simini",
+        "postal_code": "99779"
+    },
+    {
+        "code": 9304252006,
+        "district_code": 930425,
+        "regency_code": 9304,
+        "province_code": 93,
+        "name": "Fakan\/Ani",
+        "postal_code": "99779"
+    }
+]

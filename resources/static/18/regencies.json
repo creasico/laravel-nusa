@@ -1,0 +1,107 @@
+[
+    {
+        "code": 1801,
+        "province_code": 18,
+        "name": "Kab. Lampung Selatan",
+        "latitude": -5.717676069034854,
+        "longitude": 105.58534802478252
+    },
+    {
+        "code": 1802,
+        "province_code": 18,
+        "name": "Kab. Lampung Tengah",
+        "latitude": -4.977246742581951,
+        "longitude": 105.21014035161986
+    },
+    {
+        "code": 1803,
+        "province_code": 18,
+        "name": "Kab. Lampung Utara",
+        "latitude": -4.8291901217543,
+        "longitude": 104.88744459932492
+    },
+    {
+        "code": 1804,
+        "province_code": 18,
+        "name": "Kab. Lampung Barat",
+        "latitude": -5.018974596354066,
+        "longitude": 104.06076281355635
+    },
+    {
+        "code": 1805,
+        "province_code": 18,
+        "name": "Kab. Tulang Bawang",
+        "latitude": -4.494996749237475,
+        "longitude": 105.22021203836975
+    },
+    {
+        "code": 1806,
+        "province_code": 18,
+        "name": "Kab. Tanggamus",
+        "latitude": -5.480674664821914,
+        "longitude": 104.68229977472107
+    },
+    {
+        "code": 1807,
+        "province_code": 18,
+        "name": "Kab. Lampung Timur",
+        "latitude": -5.048183264548101,
+        "longitude": 105.52825470212977
+    },
+    {
+        "code": 1808,
+        "province_code": 18,
+        "name": "Kab. Way Kanan",
+        "latitude": -4.506182074363012,
+        "longitude": 104.51131397505866
+    },
+    {
+        "code": 1809,
+        "province_code": 18,
+        "name": "Kab. Pesawaran",
+        "latitude": -5.397533024693423,
+        "longitude": 105.07010811310506
+    },
+    {
+        "code": 1810,
+        "province_code": 18,
+        "name": "Kab. Pringsewu",
+        "latitude": null,
+        "longitude": null
+    },
+    {
+        "code": 1811,
+        "province_code": 18,
+        "name": "Kab. Mesuji",
+        "latitude": -3.873162785665348,
+        "longitude": 105.42787851469521
+    },
+    {
+        "code": 1812,
+        "province_code": 18,
+        "name": "Kab. Tulang Bawang Barat",
+        "latitude": -4.499407459058168,
+        "longitude": 105.11989991165247
+    },
+    {
+        "code": 1813,
+        "province_code": 18,
+        "name": "Kab. Pesisir Barat",
+        "latitude": -5.188425335364648,
+        "longitude": 103.93458368482928
+    },
+    {
+        "code": 1871,
+        "province_code": 18,
+        "name": "Kota Bandar Lampung",
+        "latitude": -5.429579213794452,
+        "longitude": 105.26256765111627
+    },
+    {
+        "code": 1872,
+        "province_code": 18,
+        "name": "Kota Metro",
+        "latitude": -5.113688728188825,
+        "longitude": 105.30690431111174
+    }
+]

@@ -1,0 +1,866 @@
+[
+    {
+        "code": 150101,
+        "regency_code": 1501,
+        "province_code": 15,
+        "name": "Gunung Raya"
+    },
+    {
+        "code": 150102,
+        "regency_code": 1501,
+        "province_code": 15,
+        "name": "Danau Kerinci"
+    },
+    {
+        "code": 150104,
+        "regency_code": 1501,
+        "province_code": 15,
+        "name": "Sitinjau Laut"
+    },
+    {
+        "code": 150105,
+        "regency_code": 1501,
+        "province_code": 15,
+        "name": "Air Hangat"
+    },
+    {
+        "code": 150106,
+        "regency_code": 1501,
+        "province_code": 15,
+        "name": "Gunung Kerinci"
+    },
+    {
+        "code": 150107,
+        "regency_code": 1501,
+        "province_code": 15,
+        "name": "Batang Merangin"
+    },
+    {
+        "code": 150108,
+        "regency_code": 1501,
+        "province_code": 15,
+        "name": "Keliling Danau"
+    },
+    {
+        "code": 150109,
+        "regency_code": 1501,
+        "province_code": 15,
+        "name": "Kayu Aro"
+    },
+    {
+        "code": 150111,
+        "regency_code": 1501,
+        "province_code": 15,
+        "name": "Air Hangat Timur"
+    },
+    {
+        "code": 150115,
+        "regency_code": 1501,
+        "province_code": 15,
+        "name": "Gunung Tujuh"
+    },
+    {
+        "code": 150116,
+        "regency_code": 1501,
+        "province_code": 15,
+        "name": "Siulak"
+    },
+    {
+        "code": 150117,
+        "regency_code": 1501,
+        "province_code": 15,
+        "name": "Depati Tujuh"
+    },
+    {
+        "code": 150118,
+        "regency_code": 1501,
+        "province_code": 15,
+        "name": "Siulak Mukai"
+    },
+    {
+        "code": 150119,
+        "regency_code": 1501,
+        "province_code": 15,
+        "name": "Kayu Aro Barat"
+    },
+    {
+        "code": 150120,
+        "regency_code": 1501,
+        "province_code": 15,
+        "name": "Bukitkerman"
+    },
+    {
+        "code": 150121,
+        "regency_code": 1501,
+        "province_code": 15,
+        "name": "Air Hangat Barat"
+    },
+    {
+        "code": 150122,
+        "regency_code": 1501,
+        "province_code": 15,
+        "name": "Tanah Cogok"
+    },
+    {
+        "code": 150123,
+        "regency_code": 1501,
+        "province_code": 15,
+        "name": "Danau Kerinci Barat"
+    },
+    {
+        "code": 150201,
+        "regency_code": 1502,
+        "province_code": 15,
+        "name": "Jangkat"
+    },
+    {
+        "code": 150202,
+        "regency_code": 1502,
+        "province_code": 15,
+        "name": "Bangko"
+    },
+    {
+        "code": 150203,
+        "regency_code": 1502,
+        "province_code": 15,
+        "name": "Muara Siau"
+    },
+    {
+        "code": 150204,
+        "regency_code": 1502,
+        "province_code": 15,
+        "name": "Sungai Manau"
+    },
+    {
+        "code": 150205,
+        "regency_code": 1502,
+        "province_code": 15,
+        "name": "Tabir"
+    },
+    {
+        "code": 150206,
+        "regency_code": 1502,
+        "province_code": 15,
+        "name": "Pamenang"
+    },
+    {
+        "code": 150207,
+        "regency_code": 1502,
+        "province_code": 15,
+        "name": "Tabir Ulu"
+    },
+    {
+        "code": 150208,
+        "regency_code": 1502,
+        "province_code": 15,
+        "name": "Tabir Selatan"
+    },
+    {
+        "code": 150209,
+        "regency_code": 1502,
+        "province_code": 15,
+        "name": "Lembah Masurai"
+    },
+    {
+        "code": 150210,
+        "regency_code": 1502,
+        "province_code": 15,
+        "name": "Bangko Barat"
+    },
+    {
+        "code": 150211,
+        "regency_code": 1502,
+        "province_code": 15,
+        "name": "Nalo Tantan"
+    },
+    {
+        "code": 150212,
+        "regency_code": 1502,
+        "province_code": 15,
+        "name": "Batang Masumai"
+    },
+    {
+        "code": 150213,
+        "regency_code": 1502,
+        "province_code": 15,
+        "name": "Pamenang Barat"
+    },
+    {
+        "code": 150214,
+        "regency_code": 1502,
+        "province_code": 15,
+        "name": "Tabir Ilir"
+    },
+    {
+        "code": 150215,
+        "regency_code": 1502,
+        "province_code": 15,
+        "name": "Tabir Timur"
+    },
+    {
+        "code": 150216,
+        "regency_code": 1502,
+        "province_code": 15,
+        "name": "Renah Pembarap"
+    },
+    {
+        "code": 150217,
+        "regency_code": 1502,
+        "province_code": 15,
+        "name": "Pangkalan Jambu"
+    },
+    {
+        "code": 150218,
+        "regency_code": 1502,
+        "province_code": 15,
+        "name": "Jangkat Timur"
+    },
+    {
+        "code": 150219,
+        "regency_code": 1502,
+        "province_code": 15,
+        "name": "Renah Pamenang"
+    },
+    {
+        "code": 150220,
+        "regency_code": 1502,
+        "province_code": 15,
+        "name": "Pamenang Selatan"
+    },
+    {
+        "code": 150221,
+        "regency_code": 1502,
+        "province_code": 15,
+        "name": "Margo Tabir"
+    },
+    {
+        "code": 150222,
+        "regency_code": 1502,
+        "province_code": 15,
+        "name": "Tabir Lintas"
+    },
+    {
+        "code": 150223,
+        "regency_code": 1502,
+        "province_code": 15,
+        "name": "Tabir Barat"
+    },
+    {
+        "code": 150224,
+        "regency_code": 1502,
+        "province_code": 15,
+        "name": "Tiang Pumpung"
+    },
+    {
+        "code": 150301,
+        "regency_code": 1503,
+        "province_code": 15,
+        "name": "Batang Asai"
+    },
+    {
+        "code": 150302,
+        "regency_code": 1503,
+        "province_code": 15,
+        "name": "Limun"
+    },
+    {
+        "code": 150303,
+        "regency_code": 1503,
+        "province_code": 15,
+        "name": "Sarolangun"
+    },
+    {
+        "code": 150304,
+        "regency_code": 1503,
+        "province_code": 15,
+        "name": "Pauh"
+    },
+    {
+        "code": 150305,
+        "regency_code": 1503,
+        "province_code": 15,
+        "name": "Pelawan"
+    },
+    {
+        "code": 150306,
+        "regency_code": 1503,
+        "province_code": 15,
+        "name": "Mandiangin"
+    },
+    {
+        "code": 150307,
+        "regency_code": 1503,
+        "province_code": 15,
+        "name": "Air Hitam"
+    },
+    {
+        "code": 150308,
+        "regency_code": 1503,
+        "province_code": 15,
+        "name": "Bathin VIII"
+    },
+    {
+        "code": 150309,
+        "regency_code": 1503,
+        "province_code": 15,
+        "name": "Singkut"
+    },
+    {
+        "code": 150310,
+        "regency_code": 1503,
+        "province_code": 15,
+        "name": "Cermin Nan Gedang"
+    },
+    {
+        "code": 150311,
+        "regency_code": 1503,
+        "province_code": 15,
+        "name": "Mandiangin Timur"
+    },
+    {
+        "code": 150401,
+        "regency_code": 1504,
+        "province_code": 15,
+        "name": "Mersam"
+    },
+    {
+        "code": 150402,
+        "regency_code": 1504,
+        "province_code": 15,
+        "name": "Muara Tembesi"
+    },
+    {
+        "code": 150403,
+        "regency_code": 1504,
+        "province_code": 15,
+        "name": "Muara Bulian"
+    },
+    {
+        "code": 150404,
+        "regency_code": 1504,
+        "province_code": 15,
+        "name": "Batin XXIV"
+    },
+    {
+        "code": 150405,
+        "regency_code": 1504,
+        "province_code": 15,
+        "name": "Pemayung"
+    },
+    {
+        "code": 150406,
+        "regency_code": 1504,
+        "province_code": 15,
+        "name": "Maro Sebo Ulu"
+    },
+    {
+        "code": 150407,
+        "regency_code": 1504,
+        "province_code": 15,
+        "name": "Bajubang"
+    },
+    {
+        "code": 150408,
+        "regency_code": 1504,
+        "province_code": 15,
+        "name": "Maro Sebo Ilir"
+    },
+    {
+        "code": 150501,
+        "regency_code": 1505,
+        "province_code": 15,
+        "name": "Jambi Luar Kota"
+    },
+    {
+        "code": 150502,
+        "regency_code": 1505,
+        "province_code": 15,
+        "name": "Sekernan"
+    },
+    {
+        "code": 150503,
+        "regency_code": 1505,
+        "province_code": 15,
+        "name": "Kumpeh"
+    },
+    {
+        "code": 150504,
+        "regency_code": 1505,
+        "province_code": 15,
+        "name": "Maro Sebo"
+    },
+    {
+        "code": 150505,
+        "regency_code": 1505,
+        "province_code": 15,
+        "name": "Mestong"
+    },
+    {
+        "code": 150506,
+        "regency_code": 1505,
+        "province_code": 15,
+        "name": "Kumpeh Ulu"
+    },
+    {
+        "code": 150507,
+        "regency_code": 1505,
+        "province_code": 15,
+        "name": "Sungai Bahar"
+    },
+    {
+        "code": 150508,
+        "regency_code": 1505,
+        "province_code": 15,
+        "name": "Sungai Gelam"
+    },
+    {
+        "code": 150509,
+        "regency_code": 1505,
+        "province_code": 15,
+        "name": "Bahar Utara"
+    },
+    {
+        "code": 150510,
+        "regency_code": 1505,
+        "province_code": 15,
+        "name": "Bahar Selatan"
+    },
+    {
+        "code": 150511,
+        "regency_code": 1505,
+        "province_code": 15,
+        "name": "Taman Rajo"
+    },
+    {
+        "code": 150601,
+        "regency_code": 1506,
+        "province_code": 15,
+        "name": "Tungkal Ulu"
+    },
+    {
+        "code": 150602,
+        "regency_code": 1506,
+        "province_code": 15,
+        "name": "Tungkal Ilir"
+    },
+    {
+        "code": 150603,
+        "regency_code": 1506,
+        "province_code": 15,
+        "name": "Pengabuan"
+    },
+    {
+        "code": 150604,
+        "regency_code": 1506,
+        "province_code": 15,
+        "name": "Betara"
+    },
+    {
+        "code": 150605,
+        "regency_code": 1506,
+        "province_code": 15,
+        "name": "Merlung"
+    },
+    {
+        "code": 150606,
+        "regency_code": 1506,
+        "province_code": 15,
+        "name": "Tebing Tinggi"
+    },
+    {
+        "code": 150607,
+        "regency_code": 1506,
+        "province_code": 15,
+        "name": "Batang Asam"
+    },
+    {
+        "code": 150608,
+        "regency_code": 1506,
+        "province_code": 15,
+        "name": "Renah Mendaluh"
+    },
+    {
+        "code": 150609,
+        "regency_code": 1506,
+        "province_code": 15,
+        "name": "Muara Papalik"
+    },
+    {
+        "code": 150610,
+        "regency_code": 1506,
+        "province_code": 15,
+        "name": "Seberang Kota"
+    },
+    {
+        "code": 150611,
+        "regency_code": 1506,
+        "province_code": 15,
+        "name": "Bram Itam"
+    },
+    {
+        "code": 150612,
+        "regency_code": 1506,
+        "province_code": 15,
+        "name": "Kuala Betara"
+    },
+    {
+        "code": 150613,
+        "regency_code": 1506,
+        "province_code": 15,
+        "name": "Senyerang"
+    },
+    {
+        "code": 150701,
+        "regency_code": 1507,
+        "province_code": 15,
+        "name": "Muara Sabak Timur"
+    },
+    {
+        "code": 150702,
+        "regency_code": 1507,
+        "province_code": 15,
+        "name": "Nipah Panjang"
+    },
+    {
+        "code": 150703,
+        "regency_code": 1507,
+        "province_code": 15,
+        "name": "Mendahara"
+    },
+    {
+        "code": 150704,
+        "regency_code": 1507,
+        "province_code": 15,
+        "name": "Rantau Rasau"
+    },
+    {
+        "code": 150705,
+        "regency_code": 1507,
+        "province_code": 15,
+        "name": "S a d u"
+    },
+    {
+        "code": 150706,
+        "regency_code": 1507,
+        "province_code": 15,
+        "name": "Dendang"
+    },
+    {
+        "code": 150707,
+        "regency_code": 1507,
+        "province_code": 15,
+        "name": "Muara Sabak Barat"
+    },
+    {
+        "code": 150708,
+        "regency_code": 1507,
+        "province_code": 15,
+        "name": "Kuala Jambi"
+    },
+    {
+        "code": 150709,
+        "regency_code": 1507,
+        "province_code": 15,
+        "name": "Mendahara Ulu"
+    },
+    {
+        "code": 150710,
+        "regency_code": 1507,
+        "province_code": 15,
+        "name": "Geragai"
+    },
+    {
+        "code": 150711,
+        "regency_code": 1507,
+        "province_code": 15,
+        "name": "Berbak"
+    },
+    {
+        "code": 150801,
+        "regency_code": 1508,
+        "province_code": 15,
+        "name": "Tanah Tumbuh"
+    },
+    {
+        "code": 150802,
+        "regency_code": 1508,
+        "province_code": 15,
+        "name": "Rantau Pandan"
+    },
+    {
+        "code": 150803,
+        "regency_code": 1508,
+        "province_code": 15,
+        "name": "Pasar Muaro Bungo"
+    },
+    {
+        "code": 150804,
+        "regency_code": 1508,
+        "province_code": 15,
+        "name": "Jujuhan"
+    },
+    {
+        "code": 150805,
+        "regency_code": 1508,
+        "province_code": 15,
+        "name": "Tanah Sepenggal"
+    },
+    {
+        "code": 150806,
+        "regency_code": 1508,
+        "province_code": 15,
+        "name": "Pelepat"
+    },
+    {
+        "code": 150807,
+        "regency_code": 1508,
+        "province_code": 15,
+        "name": "Limbur Lubuk Mengkuang"
+    },
+    {
+        "code": 150808,
+        "regency_code": 1508,
+        "province_code": 15,
+        "name": "Muko-muko Bathin VII"
+    },
+    {
+        "code": 150809,
+        "regency_code": 1508,
+        "province_code": 15,
+        "name": "Pelepat Ilir"
+    },
+    {
+        "code": 150810,
+        "regency_code": 1508,
+        "province_code": 15,
+        "name": "Batin II Babeko"
+    },
+    {
+        "code": 150811,
+        "regency_code": 1508,
+        "province_code": 15,
+        "name": "Bathin III"
+    },
+    {
+        "code": 150812,
+        "regency_code": 1508,
+        "province_code": 15,
+        "name": "Bungo Dani"
+    },
+    {
+        "code": 150813,
+        "regency_code": 1508,
+        "province_code": 15,
+        "name": "Rimbo Tengah"
+    },
+    {
+        "code": 150814,
+        "regency_code": 1508,
+        "province_code": 15,
+        "name": "Bathin III Ulu"
+    },
+    {
+        "code": 150815,
+        "regency_code": 1508,
+        "province_code": 15,
+        "name": "Bathin II Pelayang"
+    },
+    {
+        "code": 150816,
+        "regency_code": 1508,
+        "province_code": 15,
+        "name": "Jujuhan Ilir"
+    },
+    {
+        "code": 150817,
+        "regency_code": 1508,
+        "province_code": 15,
+        "name": "Tanah Sepenggal Lintas"
+    },
+    {
+        "code": 150901,
+        "regency_code": 1509,
+        "province_code": 15,
+        "name": "Tebo Tengah"
+    },
+    {
+        "code": 150902,
+        "regency_code": 1509,
+        "province_code": 15,
+        "name": "Tebo Ilir"
+    },
+    {
+        "code": 150903,
+        "regency_code": 1509,
+        "province_code": 15,
+        "name": "Tebo Ulu"
+    },
+    {
+        "code": 150904,
+        "regency_code": 1509,
+        "province_code": 15,
+        "name": "Rimbo Bujang"
+    },
+    {
+        "code": 150905,
+        "regency_code": 1509,
+        "province_code": 15,
+        "name": "Sumay"
+    },
+    {
+        "code": 150906,
+        "regency_code": 1509,
+        "province_code": 15,
+        "name": "VII Koto"
+    },
+    {
+        "code": 150907,
+        "regency_code": 1509,
+        "province_code": 15,
+        "name": "Rimbo Ulu"
+    },
+    {
+        "code": 150908,
+        "regency_code": 1509,
+        "province_code": 15,
+        "name": "Rimbo Ilir"
+    },
+    {
+        "code": 150909,
+        "regency_code": 1509,
+        "province_code": 15,
+        "name": "Tengah Ilir"
+    },
+    {
+        "code": 150910,
+        "regency_code": 1509,
+        "province_code": 15,
+        "name": "Serai Serumpun"
+    },
+    {
+        "code": 150911,
+        "regency_code": 1509,
+        "province_code": 15,
+        "name": "VII Koto Ilir"
+    },
+    {
+        "code": 150912,
+        "regency_code": 1509,
+        "province_code": 15,
+        "name": "Muara Tabir"
+    },
+    {
+        "code": 157101,
+        "regency_code": 1571,
+        "province_code": 15,
+        "name": "Telanaipura"
+    },
+    {
+        "code": 157102,
+        "regency_code": 1571,
+        "province_code": 15,
+        "name": "Jambi Selatan"
+    },
+    {
+        "code": 157103,
+        "regency_code": 1571,
+        "province_code": 15,
+        "name": "Jambi Timur"
+    },
+    {
+        "code": 157104,
+        "regency_code": 1571,
+        "province_code": 15,
+        "name": "Pasar Jambi"
+    },
+    {
+        "code": 157105,
+        "regency_code": 1571,
+        "province_code": 15,
+        "name": "Pelayangan"
+    },
+    {
+        "code": 157106,
+        "regency_code": 1571,
+        "province_code": 15,
+        "name": "Danau Teluk"
+    },
+    {
+        "code": 157107,
+        "regency_code": 1571,
+        "province_code": 15,
+        "name": "Kota Baru"
+    },
+    {
+        "code": 157108,
+        "regency_code": 1571,
+        "province_code": 15,
+        "name": "Jelutung"
+    },
+    {
+        "code": 157109,
+        "regency_code": 1571,
+        "province_code": 15,
+        "name": "Alam Barajo"
+    },
+    {
+        "code": 157110,
+        "regency_code": 1571,
+        "province_code": 15,
+        "name": "Danau Sipin"
+    },
+    {
+        "code": 157111,
+        "regency_code": 1571,
+        "province_code": 15,
+        "name": "Paal Merah"
+    },
+    {
+        "code": 157201,
+        "regency_code": 1572,
+        "province_code": 15,
+        "name": "Sungai Penuh"
+    },
+    {
+        "code": 157202,
+        "regency_code": 1572,
+        "province_code": 15,
+        "name": "Pesisir Bukit"
+    },
+    {
+        "code": 157203,
+        "regency_code": 1572,
+        "province_code": 15,
+        "name": "Hamparan Rawang"
+    },
+    {
+        "code": 157204,
+        "regency_code": 1572,
+        "province_code": 15,
+        "name": "Tanah Kampung"
+    },
+    {
+        "code": 157205,
+        "regency_code": 1572,
+        "province_code": 15,
+        "name": "Kumun Debai"
+    },
+    {
+        "code": 157206,
+        "regency_code": 1572,
+        "province_code": 15,
+        "name": "Pondok Tinggi"
+    },
+    {
+        "code": 157207,
+        "regency_code": 1572,
+        "province_code": 15,
+        "name": "Koto Baru"
+    },
+    {
+        "code": 157208,
+        "regency_code": 1572,
+        "province_code": 15,
+        "name": "Sungai Bungkal"
+    }
+]

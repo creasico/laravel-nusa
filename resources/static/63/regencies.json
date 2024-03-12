@@ -1,0 +1,93 @@
+[
+    {
+        "code": 6301,
+        "province_code": 63,
+        "name": "Kab. Tanah Laut",
+        "latitude": -3.799466847049419,
+        "longitude": 114.78255114131447
+    },
+    {
+        "code": 6302,
+        "province_code": 63,
+        "name": "Kab. Kotabaru",
+        "latitude": -3.2362388666435793,
+        "longitude": 116.22797534143119
+    },
+    {
+        "code": 6303,
+        "province_code": 63,
+        "name": "Kab. Banjar",
+        "latitude": -3.408734828681626,
+        "longitude": 114.84815554140891
+    },
+    {
+        "code": 6304,
+        "province_code": 63,
+        "name": "Kab. Barito Kuala",
+        "latitude": -2.9783388223443703,
+        "longitude": 114.76579532814996
+    },
+    {
+        "code": 6305,
+        "province_code": 63,
+        "name": "Kab. Tapin",
+        "latitude": -2.932105977155375,
+        "longitude": 115.16329842419783
+    },
+    {
+        "code": 6306,
+        "province_code": 63,
+        "name": "Kab. Hulu Sungai Selatan",
+        "latitude": -2.786510324118423,
+        "longitude": 115.26594525712335
+    },
+    {
+        "code": 6307,
+        "province_code": 63,
+        "name": "Kab. Hulu Sungai Tengah",
+        "latitude": -2.584768110610726,
+        "longitude": 115.38453172508864
+    },
+    {
+        "code": 6308,
+        "province_code": 63,
+        "name": "Kab. Hulu Sungai Utara",
+        "latitude": -2.4188734176622435,
+        "longitude": 115.254335243741
+    },
+    {
+        "code": 6309,
+        "province_code": 63,
+        "name": "Kab. Tabalong",
+        "latitude": -2.1643540668202728,
+        "longitude": 115.38235677273519
+    },
+    {
+        "code": 6310,
+        "province_code": 63,
+        "name": "Kab. Tanah Bumbu",
+        "latitude": null,
+        "longitude": null
+    },
+    {
+        "code": 6311,
+        "province_code": 63,
+        "name": "Kab. Balangan",
+        "latitude": -2.36356752319171,
+        "longitude": 115.47108222829301
+    },
+    {
+        "code": 6371,
+        "province_code": 63,
+        "name": "Kota Banjarmasin",
+        "latitude": -3.327490958483104,
+        "longitude": 114.58899911265445
+    },
+    {
+        "code": 6372,
+        "province_code": 63,
+        "name": "Kota Banjarbaru",
+        "latitude": -3.438617247106197,
+        "longitude": 114.83106062806887
+    }
+]

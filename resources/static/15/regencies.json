@@ -1,0 +1,79 @@
+[
+    {
+        "code": 1501,
+        "province_code": 15,
+        "name": "Kab. Kerinci",
+        "latitude": -2.057362540443507,
+        "longitude": 101.3884655651427
+    },
+    {
+        "code": 1502,
+        "province_code": 15,
+        "name": "Kab. Merangin",
+        "latitude": -2.060060712192705,
+        "longitude": 102.27432945279186
+    },
+    {
+        "code": 1503,
+        "province_code": 15,
+        "name": "Kab. Sarolangun",
+        "latitude": -2.3132156092521274,
+        "longitude": 102.75041232450403
+    },
+    {
+        "code": 1504,
+        "province_code": 15,
+        "name": "Kab. Batanghari",
+        "latitude": -1.6936093136328045,
+        "longitude": 103.27299563039578
+    },
+    {
+        "code": 1505,
+        "province_code": 15,
+        "name": "Kab. Muaro Jambi",
+        "latitude": -1.4482512111723946,
+        "longitude": 103.51549566092164
+    },
+    {
+        "code": 1506,
+        "province_code": 15,
+        "name": "Kab. Tanjung Jabung Barat",
+        "latitude": -0.8267010584857123,
+        "longitude": 103.46121376201233
+    },
+    {
+        "code": 1507,
+        "province_code": 15,
+        "name": "Kab. Tanjung Jabung Timur",
+        "latitude": -1.2062288175283662,
+        "longitude": 103.79042841792285
+    },
+    {
+        "code": 1508,
+        "province_code": 15,
+        "name": "Kab. Bungo",
+        "latitude": -1.5163157015353335,
+        "longitude": 102.11868862402379
+    },
+    {
+        "code": 1509,
+        "province_code": 15,
+        "name": "Kab. Tebo",
+        "latitude": -1.4662159218571826,
+        "longitude": 102.35827578475197
+    },
+    {
+        "code": 1571,
+        "province_code": 15,
+        "name": "Kota Jambi",
+        "latitude": -1.6305013396917745,
+        "longitude": 103.60727024612254
+    },
+    {
+        "code": 1572,
+        "province_code": 15,
+        "name": "Kota Sungai Penuh",
+        "latitude": -2.070909819809651,
+        "longitude": 101.39607811491697
+    }
+]

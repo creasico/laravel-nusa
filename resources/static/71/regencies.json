@@ -1,0 +1,107 @@
+[
+    {
+        "code": 7101,
+        "province_code": 71,
+        "name": "Kab. Bolaang Mongondow",
+        "latitude": 0.8706059890875782,
+        "longitude": 124.02440439997804
+    },
+    {
+        "code": 7102,
+        "province_code": 71,
+        "name": "Kab. Minahasa",
+        "latitude": 1.3007636720213933,
+        "longitude": 124.91086981555465
+    },
+    {
+        "code": 7103,
+        "province_code": 71,
+        "name": "Kab. Kepulauan Sangihe",
+        "latitude": 3.6124519530653463,
+        "longitude": 125.49964284257182
+    },
+    {
+        "code": 7104,
+        "province_code": 71,
+        "name": "Kab. Kepulauan Talaud",
+        "latitude": 4.005791698949146,
+        "longitude": 126.68188419135473
+    },
+    {
+        "code": 7105,
+        "province_code": 71,
+        "name": "Kab. Minahasa Selatan",
+        "latitude": 1.213251206534312,
+        "longitude": 124.59716997112689
+    },
+    {
+        "code": 7106,
+        "province_code": 71,
+        "name": "Kab. Minahasa Utara",
+        "latitude": 1.4590614069048187,
+        "longitude": 124.97472972676134
+    },
+    {
+        "code": 7107,
+        "province_code": 71,
+        "name": "Kab. Minahasa Tenggara",
+        "latitude": 1.0418132213011337,
+        "longitude": 124.79762142886007
+    },
+    {
+        "code": 7108,
+        "province_code": 71,
+        "name": "Kab. Bolaang Mongondow Utara",
+        "latitude": 0.9064567526907839,
+        "longitude": 123.25905058744213
+    },
+    {
+        "code": 7109,
+        "province_code": 71,
+        "name": "Kab. Kep. Siau Tagulandang Biaro",
+        "latitude": 2.744597043553609,
+        "longitude": 125.36228788467754
+    },
+    {
+        "code": 7110,
+        "province_code": 71,
+        "name": "Kab. Bolaang Mongondow Timur",
+        "latitude": null,
+        "longitude": null
+    },
+    {
+        "code": 7111,
+        "province_code": 71,
+        "name": "Kab. Bolaang Mongondow Selatan",
+        "latitude": 0.38353955588220484,
+        "longitude": 124.04788389200526
+    },
+    {
+        "code": 7171,
+        "province_code": 71,
+        "name": "Kota Manado",
+        "latitude": 1.484553653349368,
+        "longitude": 124.84912511558082
+    },
+    {
+        "code": 7172,
+        "province_code": 71,
+        "name": "Kota Bitung",
+        "latitude": 1.4453964356838027,
+        "longitude": 125.1819828268371
+    },
+    {
+        "code": 7173,
+        "province_code": 71,
+        "name": "Kota Tomohon",
+        "latitude": 1.3145248488354484,
+        "longitude": 124.82744674228223
+    },
+    {
+        "code": 7174,
+        "province_code": 71,
+        "name": "Kota Kotamobagu",
+        "latitude": 0.743496821258547,
+        "longitude": 124.31266847335326
+    }
+]

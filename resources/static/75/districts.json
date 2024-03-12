@@ -1,0 +1,464 @@
+[
+    {
+        "code": 750101,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Limboto"
+    },
+    {
+        "code": 750102,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Telaga"
+    },
+    {
+        "code": 750103,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Batudaa"
+    },
+    {
+        "code": 750104,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Tibawa"
+    },
+    {
+        "code": 750105,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Batudaa Pantai"
+    },
+    {
+        "code": 750109,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Boliyohuto"
+    },
+    {
+        "code": 750110,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Telaga Biru"
+    },
+    {
+        "code": 750111,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Bongomeme"
+    },
+    {
+        "code": 750113,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Tolangohula"
+    },
+    {
+        "code": 750114,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Mootilango"
+    },
+    {
+        "code": 750116,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Pulubala"
+    },
+    {
+        "code": 750117,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Limboto Barat"
+    },
+    {
+        "code": 750118,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Tilango"
+    },
+    {
+        "code": 750119,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Tabongo"
+    },
+    {
+        "code": 750120,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Biluhu"
+    },
+    {
+        "code": 750121,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Asparaga"
+    },
+    {
+        "code": 750122,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Talaga Jaya"
+    },
+    {
+        "code": 750123,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Bilato"
+    },
+    {
+        "code": 750124,
+        "regency_code": 7501,
+        "province_code": 75,
+        "name": "Dungaliyo"
+    },
+    {
+        "code": 750201,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Paguyaman"
+    },
+    {
+        "code": 750202,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Wonosari"
+    },
+    {
+        "code": 750203,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Dulupi"
+    },
+    {
+        "code": 750204,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Tilamuta"
+    },
+    {
+        "code": 750205,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Mananggu"
+    },
+    {
+        "code": 750206,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Botumoito"
+    },
+    {
+        "code": 750207,
+        "regency_code": 7502,
+        "province_code": 75,
+        "name": "Paguyaman Pantai"
+    },
+    {
+        "code": 750301,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Tapa"
+    },
+    {
+        "code": 750302,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Kabila"
+    },
+    {
+        "code": 750303,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Suwawa"
+    },
+    {
+        "code": 750304,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Bonepantai"
+    },
+    {
+        "code": 750305,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Bulango Utara"
+    },
+    {
+        "code": 750306,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Tilongkabila"
+    },
+    {
+        "code": 750307,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Botupingge"
+    },
+    {
+        "code": 750308,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Kabila Bone"
+    },
+    {
+        "code": 750309,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Bone"
+    },
+    {
+        "code": 750310,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Bone Raya"
+    },
+    {
+        "code": 750311,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Suwawa Timur"
+    },
+    {
+        "code": 750312,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Suwawa Selatan"
+    },
+    {
+        "code": 750313,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Suwawa Tengah"
+    },
+    {
+        "code": 750314,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Bulango Ulu"
+    },
+    {
+        "code": 750315,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Bulango Selatan"
+    },
+    {
+        "code": 750316,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Bulango Timur"
+    },
+    {
+        "code": 750317,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Bulawa"
+    },
+    {
+        "code": 750318,
+        "regency_code": 7503,
+        "province_code": 75,
+        "name": "Pinogu"
+    },
+    {
+        "code": 750401,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Popayato"
+    },
+    {
+        "code": 750402,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Lemito"
+    },
+    {
+        "code": 750403,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Randangan"
+    },
+    {
+        "code": 750404,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Marisa"
+    },
+    {
+        "code": 750405,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Paguat"
+    },
+    {
+        "code": 750406,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Patilanggio"
+    },
+    {
+        "code": 750407,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Taluditi"
+    },
+    {
+        "code": 750408,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Dengilo"
+    },
+    {
+        "code": 750409,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Buntulia"
+    },
+    {
+        "code": 750410,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Duhiadaa"
+    },
+    {
+        "code": 750411,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Wanggarasi"
+    },
+    {
+        "code": 750412,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Popayato Timur"
+    },
+    {
+        "code": 750413,
+        "regency_code": 7504,
+        "province_code": 75,
+        "name": "Popayato Barat"
+    },
+    {
+        "code": 750501,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Atinggola"
+    },
+    {
+        "code": 750502,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Kwandang"
+    },
+    {
+        "code": 750503,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Anggrek"
+    },
+    {
+        "code": 750504,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Sumalata"
+    },
+    {
+        "code": 750505,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Tolinggula"
+    },
+    {
+        "code": 750506,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Gentuma Raya"
+    },
+    {
+        "code": 750507,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Tomolito"
+    },
+    {
+        "code": 750508,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Ponelo Kepulauan"
+    },
+    {
+        "code": 750509,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Monano"
+    },
+    {
+        "code": 750510,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Biau"
+    },
+    {
+        "code": 750511,
+        "regency_code": 7505,
+        "province_code": 75,
+        "name": "Sumalata Timur"
+    },
+    {
+        "code": 757101,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Kota Barat"
+    },
+    {
+        "code": 757102,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Kota Selatan"
+    },
+    {
+        "code": 757103,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Kota Utara"
+    },
+    {
+        "code": 757104,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Dungingi"
+    },
+    {
+        "code": 757105,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Kota Timur"
+    },
+    {
+        "code": 757106,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Kota Tengah"
+    },
+    {
+        "code": 757107,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Sipatana"
+    },
+    {
+        "code": 757108,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Dumbo Raya"
+    },
+    {
+        "code": 757109,
+        "regency_code": 7571,
+        "province_code": 75,
+        "name": "Hulonthalangi"
+    }
+]

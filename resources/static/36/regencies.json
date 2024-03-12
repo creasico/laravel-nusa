@@ -1,0 +1,58 @@
+[
+    {
+        "code": 3601,
+        "province_code": 36,
+        "name": "Kab. Pandeglang",
+        "latitude": -6.316855430513631,
+        "longitude": 106.11479446982028
+    },
+    {
+        "code": 3602,
+        "province_code": 36,
+        "name": "Kab. Lebak",
+        "latitude": -6.3607670885178305,
+        "longitude": 106.24618699653327
+    },
+    {
+        "code": 3603,
+        "province_code": 36,
+        "name": "Kab. Tangerang",
+        "latitude": null,
+        "longitude": null
+    },
+    {
+        "code": 3604,
+        "province_code": 36,
+        "name": "Kab. Serang",
+        "latitude": -6.115302501045602,
+        "longitude": 106.15201508303925
+    },
+    {
+        "code": 3671,
+        "province_code": 36,
+        "name": "Kota Tangerang",
+        "latitude": -6.164361554952064,
+        "longitude": 106.64107113819723
+    },
+    {
+        "code": 3672,
+        "province_code": 36,
+        "name": "Kota Cilegon",
+        "latitude": -6.00980901882699,
+        "longitude": 106.04212868303857
+    },
+    {
+        "code": 3673,
+        "province_code": 36,
+        "name": "Kota Serang",
+        "latitude": -6.1196975739996,
+        "longitude": 106.17346069838267
+    },
+    {
+        "code": 3674,
+        "province_code": 36,
+        "name": "Kota Tangerang Selatan",
+        "latitude": -6.321567965040671,
+        "longitude": 106.70774205743535
+    }
+]

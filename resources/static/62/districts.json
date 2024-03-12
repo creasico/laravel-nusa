@@ -1,0 +1,818 @@
+[
+    {
+        "code": 620101,
+        "regency_code": 6201,
+        "province_code": 62,
+        "name": "Kumai"
+    },
+    {
+        "code": 620102,
+        "regency_code": 6201,
+        "province_code": 62,
+        "name": "Arut Selatan"
+    },
+    {
+        "code": 620103,
+        "regency_code": 6201,
+        "province_code": 62,
+        "name": "Kotawaringin Lama"
+    },
+    {
+        "code": 620104,
+        "regency_code": 6201,
+        "province_code": 62,
+        "name": "Arut Utara"
+    },
+    {
+        "code": 620105,
+        "regency_code": 6201,
+        "province_code": 62,
+        "name": "Pangkalan Lada"
+    },
+    {
+        "code": 620106,
+        "regency_code": 6201,
+        "province_code": 62,
+        "name": "Pangkalan Banteng"
+    },
+    {
+        "code": 620201,
+        "regency_code": 6202,
+        "province_code": 62,
+        "name": "Kota Besi"
+    },
+    {
+        "code": 620202,
+        "regency_code": 6202,
+        "province_code": 62,
+        "name": "Cempaga"
+    },
+    {
+        "code": 620203,
+        "regency_code": 6202,
+        "province_code": 62,
+        "name": "Mentaya Hulu"
+    },
+    {
+        "code": 620204,
+        "regency_code": 6202,
+        "province_code": 62,
+        "name": "Parenggean"
+    },
+    {
+        "code": 620205,
+        "regency_code": 6202,
+        "province_code": 62,
+        "name": "Baamang"
+    },
+    {
+        "code": 620206,
+        "regency_code": 6202,
+        "province_code": 62,
+        "name": "Mentawa Baru Ketapang"
+    },
+    {
+        "code": 620207,
+        "regency_code": 6202,
+        "province_code": 62,
+        "name": "Mentaya Hilir Utara"
+    },
+    {
+        "code": 620208,
+        "regency_code": 6202,
+        "province_code": 62,
+        "name": "Mentaya Hilir Selatan"
+    },
+    {
+        "code": 620209,
+        "regency_code": 6202,
+        "province_code": 62,
+        "name": "Pulau Hanaut"
+    },
+    {
+        "code": 620210,
+        "regency_code": 6202,
+        "province_code": 62,
+        "name": "Antang Kalang"
+    },
+    {
+        "code": 620211,
+        "regency_code": 6202,
+        "province_code": 62,
+        "name": "Teluk Sampit"
+    },
+    {
+        "code": 620212,
+        "regency_code": 6202,
+        "province_code": 62,
+        "name": "Seranau"
+    },
+    {
+        "code": 620213,
+        "regency_code": 6202,
+        "province_code": 62,
+        "name": "Cempaga Hulu"
+    },
+    {
+        "code": 620214,
+        "regency_code": 6202,
+        "province_code": 62,
+        "name": "Telawang"
+    },
+    {
+        "code": 620215,
+        "regency_code": 6202,
+        "province_code": 62,
+        "name": "Bukit Santuai"
+    },
+    {
+        "code": 620216,
+        "regency_code": 6202,
+        "province_code": 62,
+        "name": "Tualan Hulu"
+    },
+    {
+        "code": 620217,
+        "regency_code": 6202,
+        "province_code": 62,
+        "name": "Telaga Antang"
+    },
+    {
+        "code": 620301,
+        "regency_code": 6203,
+        "province_code": 62,
+        "name": "Selat"
+    },
+    {
+        "code": 620302,
+        "regency_code": 6203,
+        "province_code": 62,
+        "name": "Kapuas Hilir"
+    },
+    {
+        "code": 620303,
+        "regency_code": 6203,
+        "province_code": 62,
+        "name": "Kapuas Timur"
+    },
+    {
+        "code": 620304,
+        "regency_code": 6203,
+        "province_code": 62,
+        "name": "Kapuas Kuala"
+    },
+    {
+        "code": 620305,
+        "regency_code": 6203,
+        "province_code": 62,
+        "name": "Kapuas Barat"
+    },
+    {
+        "code": 620306,
+        "regency_code": 6203,
+        "province_code": 62,
+        "name": "Pulau Petak"
+    },
+    {
+        "code": 620307,
+        "regency_code": 6203,
+        "province_code": 62,
+        "name": "Kapuas Murung"
+    },
+    {
+        "code": 620308,
+        "regency_code": 6203,
+        "province_code": 62,
+        "name": "Basarang"
+    },
+    {
+        "code": 620309,
+        "regency_code": 6203,
+        "province_code": 62,
+        "name": "Mantangai"
+    },
+    {
+        "code": 620310,
+        "regency_code": 6203,
+        "province_code": 62,
+        "name": "Timpah"
+    },
+    {
+        "code": 620311,
+        "regency_code": 6203,
+        "province_code": 62,
+        "name": "Kapuas Tengah"
+    },
+    {
+        "code": 620312,
+        "regency_code": 6203,
+        "province_code": 62,
+        "name": "Kapuas Hulu"
+    },
+    {
+        "code": 620313,
+        "regency_code": 6203,
+        "province_code": 62,
+        "name": "Tamban Catur"
+    },
+    {
+        "code": 620314,
+        "regency_code": 6203,
+        "province_code": 62,
+        "name": "Pasak Talawang"
+    },
+    {
+        "code": 620315,
+        "regency_code": 6203,
+        "province_code": 62,
+        "name": "Mandau Talawang"
+    },
+    {
+        "code": 620316,
+        "regency_code": 6203,
+        "province_code": 62,
+        "name": "Dadahup"
+    },
+    {
+        "code": 620317,
+        "regency_code": 6203,
+        "province_code": 62,
+        "name": "Bataguh"
+    },
+    {
+        "code": 620401,
+        "regency_code": 6204,
+        "province_code": 62,
+        "name": "Jenamas"
+    },
+    {
+        "code": 620402,
+        "regency_code": 6204,
+        "province_code": 62,
+        "name": "Dusun Hilir"
+    },
+    {
+        "code": 620403,
+        "regency_code": 6204,
+        "province_code": 62,
+        "name": "Karau Kuala"
+    },
+    {
+        "code": 620404,
+        "regency_code": 6204,
+        "province_code": 62,
+        "name": "Dusun Utara"
+    },
+    {
+        "code": 620405,
+        "regency_code": 6204,
+        "province_code": 62,
+        "name": "Gn. Bintang Awai"
+    },
+    {
+        "code": 620406,
+        "regency_code": 6204,
+        "province_code": 62,
+        "name": "Dusun Selatan"
+    },
+    {
+        "code": 620501,
+        "regency_code": 6205,
+        "province_code": 62,
+        "name": "Montallat"
+    },
+    {
+        "code": 620502,
+        "regency_code": 6205,
+        "province_code": 62,
+        "name": "Gunung Timang"
+    },
+    {
+        "code": 620503,
+        "regency_code": 6205,
+        "province_code": 62,
+        "name": "Gunung Purei"
+    },
+    {
+        "code": 620504,
+        "regency_code": 6205,
+        "province_code": 62,
+        "name": "Teweh Timur"
+    },
+    {
+        "code": 620505,
+        "regency_code": 6205,
+        "province_code": 62,
+        "name": "Teweh Tengah"
+    },
+    {
+        "code": 620506,
+        "regency_code": 6205,
+        "province_code": 62,
+        "name": "Lahei"
+    },
+    {
+        "code": 620507,
+        "regency_code": 6205,
+        "province_code": 62,
+        "name": "Teweh Baru"
+    },
+    {
+        "code": 620508,
+        "regency_code": 6205,
+        "province_code": 62,
+        "name": "Teweh Selatan"
+    },
+    {
+        "code": 620509,
+        "regency_code": 6205,
+        "province_code": 62,
+        "name": "Lahei Barat"
+    },
+    {
+        "code": 620601,
+        "regency_code": 6206,
+        "province_code": 62,
+        "name": "Kamipang"
+    },
+    {
+        "code": 620602,
+        "regency_code": 6206,
+        "province_code": 62,
+        "name": "Katingan Hilir"
+    },
+    {
+        "code": 620603,
+        "regency_code": 6206,
+        "province_code": 62,
+        "name": "Tewang Sangalang Garing"
+    },
+    {
+        "code": 620604,
+        "regency_code": 6206,
+        "province_code": 62,
+        "name": "Pulau Malan"
+    },
+    {
+        "code": 620605,
+        "regency_code": 6206,
+        "province_code": 62,
+        "name": "Katingan Tengah"
+    },
+    {
+        "code": 620606,
+        "regency_code": 6206,
+        "province_code": 62,
+        "name": "Sanaman Mantikei"
+    },
+    {
+        "code": 620607,
+        "regency_code": 6206,
+        "province_code": 62,
+        "name": "Marikit"
+    },
+    {
+        "code": 620608,
+        "regency_code": 6206,
+        "province_code": 62,
+        "name": "Katingan Hulu"
+    },
+    {
+        "code": 620609,
+        "regency_code": 6206,
+        "province_code": 62,
+        "name": "Mendawai"
+    },
+    {
+        "code": 620610,
+        "regency_code": 6206,
+        "province_code": 62,
+        "name": "Katingan Kuala"
+    },
+    {
+        "code": 620611,
+        "regency_code": 6206,
+        "province_code": 62,
+        "name": "Tasik Payawan"
+    },
+    {
+        "code": 620612,
+        "regency_code": 6206,
+        "province_code": 62,
+        "name": "Petak Malai"
+    },
+    {
+        "code": 620613,
+        "regency_code": 6206,
+        "province_code": 62,
+        "name": "Bukit Raya"
+    },
+    {
+        "code": 620701,
+        "regency_code": 6207,
+        "province_code": 62,
+        "name": "Seruyan Hilir"
+    },
+    {
+        "code": 620702,
+        "regency_code": 6207,
+        "province_code": 62,
+        "name": "Seruyan Tengah"
+    },
+    {
+        "code": 620703,
+        "regency_code": 6207,
+        "province_code": 62,
+        "name": "Danau Sembuluh"
+    },
+    {
+        "code": 620704,
+        "regency_code": 6207,
+        "province_code": 62,
+        "name": "Hanau"
+    },
+    {
+        "code": 620705,
+        "regency_code": 6207,
+        "province_code": 62,
+        "name": "Seruyan Hulu"
+    },
+    {
+        "code": 620706,
+        "regency_code": 6207,
+        "province_code": 62,
+        "name": "Seruyan Hilir Timur"
+    },
+    {
+        "code": 620707,
+        "regency_code": 6207,
+        "province_code": 62,
+        "name": "Seruyan Raya"
+    },
+    {
+        "code": 620708,
+        "regency_code": 6207,
+        "province_code": 62,
+        "name": "Danau Seluluk"
+    },
+    {
+        "code": 620709,
+        "regency_code": 6207,
+        "province_code": 62,
+        "name": "Batu Ampar"
+    },
+    {
+        "code": 620710,
+        "regency_code": 6207,
+        "province_code": 62,
+        "name": "Suling Tambun"
+    },
+    {
+        "code": 620801,
+        "regency_code": 6208,
+        "province_code": 62,
+        "name": "Sukamara"
+    },
+    {
+        "code": 620802,
+        "regency_code": 6208,
+        "province_code": 62,
+        "name": "Jelai"
+    },
+    {
+        "code": 620803,
+        "regency_code": 6208,
+        "province_code": 62,
+        "name": "Balai Riam"
+    },
+    {
+        "code": 620804,
+        "regency_code": 6208,
+        "province_code": 62,
+        "name": "Pantai Lunci"
+    },
+    {
+        "code": 620805,
+        "regency_code": 6208,
+        "province_code": 62,
+        "name": "Permata Kecubung"
+    },
+    {
+        "code": 620901,
+        "regency_code": 6209,
+        "province_code": 62,
+        "name": "Lamandau"
+    },
+    {
+        "code": 620902,
+        "regency_code": 6209,
+        "province_code": 62,
+        "name": "Delang"
+    },
+    {
+        "code": 620903,
+        "regency_code": 6209,
+        "province_code": 62,
+        "name": "Bulik"
+    },
+    {
+        "code": 620904,
+        "regency_code": 6209,
+        "province_code": 62,
+        "name": "Bulik Timur"
+    },
+    {
+        "code": 620905,
+        "regency_code": 6209,
+        "province_code": 62,
+        "name": "Menthobi Raya"
+    },
+    {
+        "code": 620906,
+        "regency_code": 6209,
+        "province_code": 62,
+        "name": "Sematu Jaya"
+    },
+    {
+        "code": 620907,
+        "regency_code": 6209,
+        "province_code": 62,
+        "name": "Belantikan Raya"
+    },
+    {
+        "code": 620908,
+        "regency_code": 6209,
+        "province_code": 62,
+        "name": "Batang Kawa"
+    },
+    {
+        "code": 621001,
+        "regency_code": 6210,
+        "province_code": 62,
+        "name": "Sepang"
+    },
+    {
+        "code": 621002,
+        "regency_code": 6210,
+        "province_code": 62,
+        "name": "Kurun"
+    },
+    {
+        "code": 621003,
+        "regency_code": 6210,
+        "province_code": 62,
+        "name": "Tewah"
+    },
+    {
+        "code": 621004,
+        "regency_code": 6210,
+        "province_code": 62,
+        "name": "Kahayan Hulu Utara"
+    },
+    {
+        "code": 621005,
+        "regency_code": 6210,
+        "province_code": 62,
+        "name": "Rungan"
+    },
+    {
+        "code": 621006,
+        "regency_code": 6210,
+        "province_code": 62,
+        "name": "Manuhing"
+    },
+    {
+        "code": 621007,
+        "regency_code": 6210,
+        "province_code": 62,
+        "name": "Mihing Raya"
+    },
+    {
+        "code": 621008,
+        "regency_code": 6210,
+        "province_code": 62,
+        "name": "Damang Batu"
+    },
+    {
+        "code": 621009,
+        "regency_code": 6210,
+        "province_code": 62,
+        "name": "Miri Manasa"
+    },
+    {
+        "code": 621010,
+        "regency_code": 6210,
+        "province_code": 62,
+        "name": "Rungan Hulu"
+    },
+    {
+        "code": 621011,
+        "regency_code": 6210,
+        "province_code": 62,
+        "name": "Manuhing Raya"
+    },
+    {
+        "code": 621012,
+        "regency_code": 6210,
+        "province_code": 62,
+        "name": "Rungan Barat"
+    },
+    {
+        "code": 621101,
+        "regency_code": 6211,
+        "province_code": 62,
+        "name": "Pandih Batu"
+    },
+    {
+        "code": 621102,
+        "regency_code": 6211,
+        "province_code": 62,
+        "name": "Kahayan Kuala"
+    },
+    {
+        "code": 621103,
+        "regency_code": 6211,
+        "province_code": 62,
+        "name": "Kahayan Tengah"
+    },
+    {
+        "code": 621104,
+        "regency_code": 6211,
+        "province_code": 62,
+        "name": "Banama Tingang"
+    },
+    {
+        "code": 621105,
+        "regency_code": 6211,
+        "province_code": 62,
+        "name": "Kahayan Hilir"
+    },
+    {
+        "code": 621106,
+        "regency_code": 6211,
+        "province_code": 62,
+        "name": "Maliku"
+    },
+    {
+        "code": 621107,
+        "regency_code": 6211,
+        "province_code": 62,
+        "name": "Jabiren Raya"
+    },
+    {
+        "code": 621108,
+        "regency_code": 6211,
+        "province_code": 62,
+        "name": "Sebangau Kuala"
+    },
+    {
+        "code": 621201,
+        "regency_code": 6212,
+        "province_code": 62,
+        "name": "Murung"
+    },
+    {
+        "code": 621202,
+        "regency_code": 6212,
+        "province_code": 62,
+        "name": "Tanah Siang"
+    },
+    {
+        "code": 621203,
+        "regency_code": 6212,
+        "province_code": 62,
+        "name": "Laung Tuhup"
+    },
+    {
+        "code": 621204,
+        "regency_code": 6212,
+        "province_code": 62,
+        "name": "Permata Intan"
+    },
+    {
+        "code": 621205,
+        "regency_code": 6212,
+        "province_code": 62,
+        "name": "Sumber Barito"
+    },
+    {
+        "code": 621206,
+        "regency_code": 6212,
+        "province_code": 62,
+        "name": "Barito Tuhup Raya"
+    },
+    {
+        "code": 621207,
+        "regency_code": 6212,
+        "province_code": 62,
+        "name": "Tanah Siang Selatan"
+    },
+    {
+        "code": 621208,
+        "regency_code": 6212,
+        "province_code": 62,
+        "name": "Sungai Babuat"
+    },
+    {
+        "code": 621209,
+        "regency_code": 6212,
+        "province_code": 62,
+        "name": "Seribu Riam"
+    },
+    {
+        "code": 621210,
+        "regency_code": 6212,
+        "province_code": 62,
+        "name": "Uut Murung"
+    },
+    {
+        "code": 621301,
+        "regency_code": 6213,
+        "province_code": 62,
+        "name": "Dusun Timur"
+    },
+    {
+        "code": 621302,
+        "regency_code": 6213,
+        "province_code": 62,
+        "name": "Banua Lima"
+    },
+    {
+        "code": 621303,
+        "regency_code": 6213,
+        "province_code": 62,
+        "name": "Patangkep Tutui"
+    },
+    {
+        "code": 621304,
+        "regency_code": 6213,
+        "province_code": 62,
+        "name": "Awang"
+    },
+    {
+        "code": 621305,
+        "regency_code": 6213,
+        "province_code": 62,
+        "name": "Dusun Tengah"
+    },
+    {
+        "code": 621306,
+        "regency_code": 6213,
+        "province_code": 62,
+        "name": "Pematang Karau"
+    },
+    {
+        "code": 621307,
+        "regency_code": 6213,
+        "province_code": 62,
+        "name": "Paju Epat"
+    },
+    {
+        "code": 621308,
+        "regency_code": 6213,
+        "province_code": 62,
+        "name": "Raren Batuah"
+    },
+    {
+        "code": 621309,
+        "regency_code": 6213,
+        "province_code": 62,
+        "name": "Paku"
+    },
+    {
+        "code": 621310,
+        "regency_code": 6213,
+        "province_code": 62,
+        "name": "Karusen Janang"
+    },
+    {
+        "code": 627101,
+        "regency_code": 6271,
+        "province_code": 62,
+        "name": "Pahandut"
+    },
+    {
+        "code": 627102,
+        "regency_code": 6271,
+        "province_code": 62,
+        "name": "Bukit Batu"
+    },
+    {
+        "code": 627103,
+        "regency_code": 6271,
+        "province_code": 62,
+        "name": "Jekan Raya"
+    },
+    {
+        "code": 627104,
+        "regency_code": 6271,
+        "province_code": 62,
+        "name": "Sabangau"
+    },
+    {
+        "code": 627105,
+        "regency_code": 6271,
+        "province_code": 62,
+        "name": "Rakumpit"
+    }
+]

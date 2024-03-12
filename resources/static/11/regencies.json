@@ -1,0 +1,163 @@
+[
+    {
+        "code": 1101,
+        "province_code": 11,
+        "name": "Kab. Aceh Selatan",
+        "latitude": 3.2548016392931354,
+        "longitude": 97.17411233973566
+    },
+    {
+        "code": 1102,
+        "province_code": 11,
+        "name": "Kab. Aceh Tenggara",
+        "latitude": 3.473359853097982,
+        "longitude": 97.81924348302599
+    },
+    {
+        "code": 1103,
+        "province_code": 11,
+        "name": "Kab. Aceh Timur",
+        "latitude": 4.932736888548549,
+        "longitude": 97.7838443591112
+    },
+    {
+        "code": 1104,
+        "province_code": 11,
+        "name": "Kab. Aceh Tengah",
+        "latitude": 4.622057187598997,
+        "longitude": 96.84566791108571
+    },
+    {
+        "code": 1105,
+        "province_code": 11,
+        "name": "Kab. Aceh Barat",
+        "latitude": 4.15301021563362,
+        "longitude": 96.1314406676852
+    },
+    {
+        "code": 1106,
+        "province_code": 11,
+        "name": "Kab. Aceh Besar",
+        "latitude": 5.2973395526628515,
+        "longitude": 95.61087103885502
+    },
+    {
+        "code": 1107,
+        "province_code": 11,
+        "name": "Kab. Pidie",
+        "latitude": 5.367600459124008,
+        "longitude": 95.95788011001953
+    },
+    {
+        "code": 1108,
+        "province_code": 11,
+        "name": "Kab. Aceh Utara",
+        "latitude": 5.07571569194339,
+        "longitude": 97.30262386768965
+    },
+    {
+        "code": 1109,
+        "province_code": 11,
+        "name": "Kab. Simeulue",
+        "latitude": 2.4614125527223116,
+        "longitude": 96.38037739836625
+    },
+    {
+        "code": 1110,
+        "province_code": 11,
+        "name": "Kab. Aceh Singkil",
+        "latitude": null,
+        "longitude": null
+    },
+    {
+        "code": 1111,
+        "province_code": 11,
+        "name": "Kab. Bireuen",
+        "latitude": 5.207564894628741,
+        "longitude": 96.72640339652622
+    },
+    {
+        "code": 1112,
+        "province_code": 11,
+        "name": "Kab. Aceh Barat Daya",
+        "latitude": 3.7391033250335153,
+        "longitude": 96.85150507428492
+    },
+    {
+        "code": 1113,
+        "province_code": 11,
+        "name": "Kab. Gayo Lues",
+        "latitude": 3.993465184564387,
+        "longitude": 97.32450169161383
+    },
+    {
+        "code": 1114,
+        "province_code": 11,
+        "name": "Kab. Aceh Jaya",
+        "latitude": 4.624131830287506,
+        "longitude": 95.61681174202448
+    },
+    {
+        "code": 1115,
+        "province_code": 11,
+        "name": "Kab. Nagan Raya",
+        "latitude": 4.169426810266828,
+        "longitude": 96.32437393884945
+    },
+    {
+        "code": 1116,
+        "province_code": 11,
+        "name": "Kab. Aceh Tamiang",
+        "latitude": 4.301275755472272,
+        "longitude": 98.04571548117825
+    },
+    {
+        "code": 1117,
+        "province_code": 11,
+        "name": "Kab. Bener Meriah",
+        "latitude": 4.702762114549044,
+        "longitude": 96.86195266768776
+    },
+    {
+        "code": 1118,
+        "province_code": 11,
+        "name": "Kab. Pidie Jaya",
+        "latitude": 5.2288994377471605,
+        "longitude": 96.24475688303401
+    },
+    {
+        "code": 1171,
+        "province_code": 11,
+        "name": "Kota Banda Aceh",
+        "latitude": 5.550049859538454,
+        "longitude": 95.31782669652819
+    },
+    {
+        "code": 1172,
+        "province_code": 11,
+        "name": "Kota Sabang",
+        "latitude": 5.892656382959924,
+        "longitude": 95.32111719653021
+    },
+    {
+        "code": 1173,
+        "province_code": 11,
+        "name": "Kota Lhokseumawe",
+        "latitude": 5.179363622042538,
+        "longitude": 97.14894011186956
+    },
+    {
+        "code": 1174,
+        "province_code": 11,
+        "name": "Kota Langsa",
+        "latitude": 4.46948210581997,
+        "longitude": 97.96644605234316
+    },
+    {
+        "code": 1175,
+        "province_code": 11,
+        "name": "Kota Subulussalam",
+        "latitude": 2.6707917619957486,
+        "longitude": 97.99301166767994
+    }
+]

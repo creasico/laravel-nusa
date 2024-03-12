@@ -1,0 +1,1880 @@
+[
+    {
+        "code": 730101,
+        "regency_code": 7301,
+        "province_code": 73,
+        "name": "Benteng"
+    },
+    {
+        "code": 730102,
+        "regency_code": 7301,
+        "province_code": 73,
+        "name": "Bontoharu"
+    },
+    {
+        "code": 730103,
+        "regency_code": 7301,
+        "province_code": 73,
+        "name": "Bontomatene"
+    },
+    {
+        "code": 730104,
+        "regency_code": 7301,
+        "province_code": 73,
+        "name": "Bontomanai"
+    },
+    {
+        "code": 730105,
+        "regency_code": 7301,
+        "province_code": 73,
+        "name": "Bontosikuyu"
+    },
+    {
+        "code": 730106,
+        "regency_code": 7301,
+        "province_code": 73,
+        "name": "Pasimasunggu"
+    },
+    {
+        "code": 730107,
+        "regency_code": 7301,
+        "province_code": 73,
+        "name": "Pasimarannu"
+    },
+    {
+        "code": 730108,
+        "regency_code": 7301,
+        "province_code": 73,
+        "name": "Taka Bonerate"
+    },
+    {
+        "code": 730109,
+        "regency_code": 7301,
+        "province_code": 73,
+        "name": "Pasilambena"
+    },
+    {
+        "code": 730110,
+        "regency_code": 7301,
+        "province_code": 73,
+        "name": "Pasimasunggu Timur"
+    },
+    {
+        "code": 730111,
+        "regency_code": 7301,
+        "province_code": 73,
+        "name": "Buki"
+    },
+    {
+        "code": 730201,
+        "regency_code": 7302,
+        "province_code": 73,
+        "name": "Gantarang"
+    },
+    {
+        "code": 730202,
+        "regency_code": 7302,
+        "province_code": 73,
+        "name": "Ujung Bulu"
+    },
+    {
+        "code": 730203,
+        "regency_code": 7302,
+        "province_code": 73,
+        "name": "Bonto Bahari"
+    },
+    {
+        "code": 730204,
+        "regency_code": 7302,
+        "province_code": 73,
+        "name": "Bonto Tiro"
+    },
+    {
+        "code": 730205,
+        "regency_code": 7302,
+        "province_code": 73,
+        "name": "Herlang"
+    },
+    {
+        "code": 730206,
+        "regency_code": 7302,
+        "province_code": 73,
+        "name": "Kajang"
+    },
+    {
+        "code": 730207,
+        "regency_code": 7302,
+        "province_code": 73,
+        "name": "Bulukumpa"
+    },
+    {
+        "code": 730208,
+        "regency_code": 7302,
+        "province_code": 73,
+        "name": "Kindang"
+    },
+    {
+        "code": 730209,
+        "regency_code": 7302,
+        "province_code": 73,
+        "name": "Ujungloe"
+    },
+    {
+        "code": 730210,
+        "regency_code": 7302,
+        "province_code": 73,
+        "name": "Rilauale"
+    },
+    {
+        "code": 730301,
+        "regency_code": 7303,
+        "province_code": 73,
+        "name": "Bissappu"
+    },
+    {
+        "code": 730302,
+        "regency_code": 7303,
+        "province_code": 73,
+        "name": "Bantaeng"
+    },
+    {
+        "code": 730303,
+        "regency_code": 7303,
+        "province_code": 73,
+        "name": "Eremerasa"
+    },
+    {
+        "code": 730304,
+        "regency_code": 7303,
+        "province_code": 73,
+        "name": "Tompo Bulu"
+    },
+    {
+        "code": 730305,
+        "regency_code": 7303,
+        "province_code": 73,
+        "name": "Pajukukang"
+    },
+    {
+        "code": 730306,
+        "regency_code": 7303,
+        "province_code": 73,
+        "name": "Uluere"
+    },
+    {
+        "code": 730307,
+        "regency_code": 7303,
+        "province_code": 73,
+        "name": "Gantarang Keke"
+    },
+    {
+        "code": 730308,
+        "regency_code": 7303,
+        "province_code": 73,
+        "name": "Sinoa"
+    },
+    {
+        "code": 730401,
+        "regency_code": 7304,
+        "province_code": 73,
+        "name": "Bangkala"
+    },
+    {
+        "code": 730402,
+        "regency_code": 7304,
+        "province_code": 73,
+        "name": "Tamalatea"
+    },
+    {
+        "code": 730403,
+        "regency_code": 7304,
+        "province_code": 73,
+        "name": "Binamu"
+    },
+    {
+        "code": 730404,
+        "regency_code": 7304,
+        "province_code": 73,
+        "name": "Batang"
+    },
+    {
+        "code": 730405,
+        "regency_code": 7304,
+        "province_code": 73,
+        "name": "Kelara"
+    },
+    {
+        "code": 730406,
+        "regency_code": 7304,
+        "province_code": 73,
+        "name": "Bangkala Barat"
+    },
+    {
+        "code": 730407,
+        "regency_code": 7304,
+        "province_code": 73,
+        "name": "Bontoramba"
+    },
+    {
+        "code": 730408,
+        "regency_code": 7304,
+        "province_code": 73,
+        "name": "Turatea"
+    },
+    {
+        "code": 730409,
+        "regency_code": 7304,
+        "province_code": 73,
+        "name": "Arungkeke"
+    },
+    {
+        "code": 730410,
+        "regency_code": 7304,
+        "province_code": 73,
+        "name": "Rumbia"
+    },
+    {
+        "code": 730411,
+        "regency_code": 7304,
+        "province_code": 73,
+        "name": "Tarowang"
+    },
+    {
+        "code": 730501,
+        "regency_code": 7305,
+        "province_code": 73,
+        "name": "Mappakasunggu"
+    },
+    {
+        "code": 730502,
+        "regency_code": 7305,
+        "province_code": 73,
+        "name": "Mangarabombang"
+    },
+    {
+        "code": 730503,
+        "regency_code": 7305,
+        "province_code": 73,
+        "name": "Polongbangkeng Selatan"
+    },
+    {
+        "code": 730504,
+        "regency_code": 7305,
+        "province_code": 73,
+        "name": "Polongbangkeng Utara"
+    },
+    {
+        "code": 730505,
+        "regency_code": 7305,
+        "province_code": 73,
+        "name": "Galesong Selatan"
+    },
+    {
+        "code": 730506,
+        "regency_code": 7305,
+        "province_code": 73,
+        "name": "Galesong Utara"
+    },
+    {
+        "code": 730507,
+        "regency_code": 7305,
+        "province_code": 73,
+        "name": "Pattallassang"
+    },
+    {
+        "code": 730508,
+        "regency_code": 7305,
+        "province_code": 73,
+        "name": "Sanrobone"
+    },
+    {
+        "code": 730509,
+        "regency_code": 7305,
+        "province_code": 73,
+        "name": "Galesong"
+    },
+    {
+        "code": 730510,
+        "regency_code": 7305,
+        "province_code": 73,
+        "name": "Kepulauan Tanakeke"
+    },
+    {
+        "code": 730511,
+        "regency_code": 7305,
+        "province_code": 73,
+        "name": "Polongbangkeng Timur"
+    },
+    {
+        "code": 730512,
+        "regency_code": 7305,
+        "province_code": 73,
+        "name": "Laikang"
+    },
+    {
+        "code": 730601,
+        "regency_code": 7306,
+        "province_code": 73,
+        "name": "Bontonompo"
+    },
+    {
+        "code": 730602,
+        "regency_code": 7306,
+        "province_code": 73,
+        "name": "Bajeng"
+    },
+    {
+        "code": 730603,
+        "regency_code": 7306,
+        "province_code": 73,
+        "name": "Tompobulu"
+    },
+    {
+        "code": 730604,
+        "regency_code": 7306,
+        "province_code": 73,
+        "name": "Tinggimoncong"
+    },
+    {
+        "code": 730605,
+        "regency_code": 7306,
+        "province_code": 73,
+        "name": "Parangloe"
+    },
+    {
+        "code": 730606,
+        "regency_code": 7306,
+        "province_code": 73,
+        "name": "Bontomarannu"
+    },
+    {
+        "code": 730607,
+        "regency_code": 7306,
+        "province_code": 73,
+        "name": "Pallangga"
+    },
+    {
+        "code": 730608,
+        "regency_code": 7306,
+        "province_code": 73,
+        "name": "Somba Opu"
+    },
+    {
+        "code": 730609,
+        "regency_code": 7306,
+        "province_code": 73,
+        "name": "Bungaya"
+    },
+    {
+        "code": 730610,
+        "regency_code": 7306,
+        "province_code": 73,
+        "name": "Tombolopao"
+    },
+    {
+        "code": 730611,
+        "regency_code": 7306,
+        "province_code": 73,
+        "name": "Biringbulu"
+    },
+    {
+        "code": 730612,
+        "regency_code": 7306,
+        "province_code": 73,
+        "name": "Barombong"
+    },
+    {
+        "code": 730613,
+        "regency_code": 7306,
+        "province_code": 73,
+        "name": "Pattallasang"
+    },
+    {
+        "code": 730614,
+        "regency_code": 7306,
+        "province_code": 73,
+        "name": "Manuju"
+    },
+    {
+        "code": 730615,
+        "regency_code": 7306,
+        "province_code": 73,
+        "name": "Bontolempangang"
+    },
+    {
+        "code": 730616,
+        "regency_code": 7306,
+        "province_code": 73,
+        "name": "Bontonompo Selatan"
+    },
+    {
+        "code": 730617,
+        "regency_code": 7306,
+        "province_code": 73,
+        "name": "Parigi"
+    },
+    {
+        "code": 730618,
+        "regency_code": 7306,
+        "province_code": 73,
+        "name": "Bajeng Barat"
+    },
+    {
+        "code": 730701,
+        "regency_code": 7307,
+        "province_code": 73,
+        "name": "Sinjai Barat"
+    },
+    {
+        "code": 730702,
+        "regency_code": 7307,
+        "province_code": 73,
+        "name": "Sinjai Selatan"
+    },
+    {
+        "code": 730703,
+        "regency_code": 7307,
+        "province_code": 73,
+        "name": "Sinjai Timur"
+    },
+    {
+        "code": 730704,
+        "regency_code": 7307,
+        "province_code": 73,
+        "name": "Sinjai Tengah"
+    },
+    {
+        "code": 730705,
+        "regency_code": 7307,
+        "province_code": 73,
+        "name": "Sinjai Utara"
+    },
+    {
+        "code": 730706,
+        "regency_code": 7307,
+        "province_code": 73,
+        "name": "Bulupoddo"
+    },
+    {
+        "code": 730707,
+        "regency_code": 7307,
+        "province_code": 73,
+        "name": "Sinjai Borong"
+    },
+    {
+        "code": 730708,
+        "regency_code": 7307,
+        "province_code": 73,
+        "name": "Tellu Limpoe"
+    },
+    {
+        "code": 730709,
+        "regency_code": 7307,
+        "province_code": 73,
+        "name": "Pulau Sembilan"
+    },
+    {
+        "code": 730801,
+        "regency_code": 7308,
+        "province_code": 73,
+        "name": "Bontocani"
+    },
+    {
+        "code": 730802,
+        "regency_code": 7308,
+        "province_code": 73,
+        "name": "Kahu"
+    },
+    {
+        "code": 730803,
+        "regency_code": 7308,
+        "province_code": 73,
+        "name": "Kajuara"
+    },
+    {
+        "code": 730804,
+        "regency_code": 7308,
+        "province_code": 73,
+        "name": "Salomekko"
+    },
+    {
+        "code": 730805,
+        "regency_code": 7308,
+        "province_code": 73,
+        "name": "Tonra"
+    },
+    {
+        "code": 730806,
+        "regency_code": 7308,
+        "province_code": 73,
+        "name": "Libureng"
+    },
+    {
+        "code": 730807,
+        "regency_code": 7308,
+        "province_code": 73,
+        "name": "Mare"
+    },
+    {
+        "code": 730808,
+        "regency_code": 7308,
+        "province_code": 73,
+        "name": "Sibulue"
+    },
+    {
+        "code": 730809,
+        "regency_code": 7308,
+        "province_code": 73,
+        "name": "Barebbo"
+    },
+    {
+        "code": 730810,
+        "regency_code": 7308,
+        "province_code": 73,
+        "name": "Cina"
+    },
+    {
+        "code": 730811,
+        "regency_code": 7308,
+        "province_code": 73,
+        "name": "Ponre"
+    },
+    {
+        "code": 730812,
+        "regency_code": 7308,
+        "province_code": 73,
+        "name": "Lappariaja"
+    },
+    {
+        "code": 730813,
+        "regency_code": 7308,
+        "province_code": 73,
+        "name": "Lamuru"
+    },
+    {
+        "code": 730814,
+        "regency_code": 7308,
+        "province_code": 73,
+        "name": "Ulaweng"
+    },
+    {
+        "code": 730815,
+        "regency_code": 7308,
+        "province_code": 73,
+        "name": "Palakka"
+    },
+    {
+        "code": 730816,
+        "regency_code": 7308,
+        "province_code": 73,
+        "name": "Awangpone"
+    },
+    {
+        "code": 730817,
+        "regency_code": 7308,
+        "province_code": 73,
+        "name": "Tellu Siattinge"
+    },
+    {
+        "code": 730818,
+        "regency_code": 7308,
+        "province_code": 73,
+        "name": "Ajangale"
+    },
+    {
+        "code": 730819,
+        "regency_code": 7308,
+        "province_code": 73,
+        "name": "Dua Boccoe"
+    },
+    {
+        "code": 730820,
+        "regency_code": 7308,
+        "province_code": 73,
+        "name": "Cenrana"
+    },
+    {
+        "code": 730821,
+        "regency_code": 7308,
+        "province_code": 73,
+        "name": "Tanete Riattang"
+    },
+    {
+        "code": 730822,
+        "regency_code": 7308,
+        "province_code": 73,
+        "name": "Tanete Riattang Barat"
+    },
+    {
+        "code": 730823,
+        "regency_code": 7308,
+        "province_code": 73,
+        "name": "Tanete Riattang Timur"
+    },
+    {
+        "code": 730824,
+        "regency_code": 7308,
+        "province_code": 73,
+        "name": "Amali"
+    },
+    {
+        "code": 730825,
+        "regency_code": 7308,
+        "province_code": 73,
+        "name": "Tellulimpoe"
+    },
+    {
+        "code": 730826,
+        "regency_code": 7308,
+        "province_code": 73,
+        "name": "Bengo"
+    },
+    {
+        "code": 730827,
+        "regency_code": 7308,
+        "province_code": 73,
+        "name": "Patimpeng"
+    },
+    {
+        "code": 730901,
+        "regency_code": 7309,
+        "province_code": 73,
+        "name": "Mandai"
+    },
+    {
+        "code": 730902,
+        "regency_code": 7309,
+        "province_code": 73,
+        "name": "Camba"
+    },
+    {
+        "code": 730903,
+        "regency_code": 7309,
+        "province_code": 73,
+        "name": "Bantimurung"
+    },
+    {
+        "code": 730904,
+        "regency_code": 7309,
+        "province_code": 73,
+        "name": "Maros Baru"
+    },
+    {
+        "code": 730905,
+        "regency_code": 7309,
+        "province_code": 73,
+        "name": "Bontoa"
+    },
+    {
+        "code": 730906,
+        "regency_code": 7309,
+        "province_code": 73,
+        "name": "Malllawa"
+    },
+    {
+        "code": 730907,
+        "regency_code": 7309,
+        "province_code": 73,
+        "name": "Tanralili"
+    },
+    {
+        "code": 730908,
+        "regency_code": 7309,
+        "province_code": 73,
+        "name": "Marusu"
+    },
+    {
+        "code": 730909,
+        "regency_code": 7309,
+        "province_code": 73,
+        "name": "Simbang"
+    },
+    {
+        "code": 730910,
+        "regency_code": 7309,
+        "province_code": 73,
+        "name": "Cenrana"
+    },
+    {
+        "code": 730911,
+        "regency_code": 7309,
+        "province_code": 73,
+        "name": "Tompobulu"
+    },
+    {
+        "code": 730912,
+        "regency_code": 7309,
+        "province_code": 73,
+        "name": "Lau"
+    },
+    {
+        "code": 730913,
+        "regency_code": 7309,
+        "province_code": 73,
+        "name": "Moncongloe"
+    },
+    {
+        "code": 730914,
+        "regency_code": 7309,
+        "province_code": 73,
+        "name": "Turikale"
+    },
+    {
+        "code": 731001,
+        "regency_code": 7310,
+        "province_code": 73,
+        "name": "Liukang Tangaya"
+    },
+    {
+        "code": 731002,
+        "regency_code": 7310,
+        "province_code": 73,
+        "name": "Liukang Kalmas"
+    },
+    {
+        "code": 731003,
+        "regency_code": 7310,
+        "province_code": 73,
+        "name": "Liukang Tupabbiring"
+    },
+    {
+        "code": 731004,
+        "regency_code": 7310,
+        "province_code": 73,
+        "name": "Pangkajene"
+    },
+    {
+        "code": 731005,
+        "regency_code": 7310,
+        "province_code": 73,
+        "name": "Balocci"
+    },
+    {
+        "code": 731006,
+        "regency_code": 7310,
+        "province_code": 73,
+        "name": "Bungoro"
+    },
+    {
+        "code": 731007,
+        "regency_code": 7310,
+        "province_code": 73,
+        "name": "Labakkang"
+    },
+    {
+        "code": 731008,
+        "regency_code": 7310,
+        "province_code": 73,
+        "name": "Marang"
+    },
+    {
+        "code": 731009,
+        "regency_code": 7310,
+        "province_code": 73,
+        "name": "Segeri"
+    },
+    {
+        "code": 731010,
+        "regency_code": 7310,
+        "province_code": 73,
+        "name": "Minasa Tene"
+    },
+    {
+        "code": 731011,
+        "regency_code": 7310,
+        "province_code": 73,
+        "name": "Mandalle"
+    },
+    {
+        "code": 731012,
+        "regency_code": 7310,
+        "province_code": 73,
+        "name": "Tondong Tallasa"
+    },
+    {
+        "code": 731013,
+        "regency_code": 7310,
+        "province_code": 73,
+        "name": "Liukang Tupabbiring Utara"
+    },
+    {
+        "code": 731101,
+        "regency_code": 7311,
+        "province_code": 73,
+        "name": "Tanete Riaja"
+    },
+    {
+        "code": 731102,
+        "regency_code": 7311,
+        "province_code": 73,
+        "name": "Tanete Rilau"
+    },
+    {
+        "code": 731103,
+        "regency_code": 7311,
+        "province_code": 73,
+        "name": "Barru"
+    },
+    {
+        "code": 731104,
+        "regency_code": 7311,
+        "province_code": 73,
+        "name": "Soppeng Riaja"
+    },
+    {
+        "code": 731105,
+        "regency_code": 7311,
+        "province_code": 73,
+        "name": "Mallusetasi"
+    },
+    {
+        "code": 731106,
+        "regency_code": 7311,
+        "province_code": 73,
+        "name": "Pujananting"
+    },
+    {
+        "code": 731107,
+        "regency_code": 7311,
+        "province_code": 73,
+        "name": "Balusu"
+    },
+    {
+        "code": 731201,
+        "regency_code": 7312,
+        "province_code": 73,
+        "name": "Marioriwawo"
+    },
+    {
+        "code": 731202,
+        "regency_code": 7312,
+        "province_code": 73,
+        "name": "Liliraja"
+    },
+    {
+        "code": 731203,
+        "regency_code": 7312,
+        "province_code": 73,
+        "name": "Lilirilau"
+    },
+    {
+        "code": 731204,
+        "regency_code": 7312,
+        "province_code": 73,
+        "name": "Lalabata"
+    },
+    {
+        "code": 731205,
+        "regency_code": 7312,
+        "province_code": 73,
+        "name": "Marioriawa"
+    },
+    {
+        "code": 731206,
+        "regency_code": 7312,
+        "province_code": 73,
+        "name": "Donri Donri"
+    },
+    {
+        "code": 731207,
+        "regency_code": 7312,
+        "province_code": 73,
+        "name": "Ganra"
+    },
+    {
+        "code": 731208,
+        "regency_code": 7312,
+        "province_code": 73,
+        "name": "Citta"
+    },
+    {
+        "code": 731301,
+        "regency_code": 7313,
+        "province_code": 73,
+        "name": "Sabangparu"
+    },
+    {
+        "code": 731302,
+        "regency_code": 7313,
+        "province_code": 73,
+        "name": "Pammana"
+    },
+    {
+        "code": 731303,
+        "regency_code": 7313,
+        "province_code": 73,
+        "name": "Takkalalla"
+    },
+    {
+        "code": 731304,
+        "regency_code": 7313,
+        "province_code": 73,
+        "name": "Sajoanging"
+    },
+    {
+        "code": 731305,
+        "regency_code": 7313,
+        "province_code": 73,
+        "name": "Majauleng"
+    },
+    {
+        "code": 731306,
+        "regency_code": 7313,
+        "province_code": 73,
+        "name": "Tempe"
+    },
+    {
+        "code": 731307,
+        "regency_code": 7313,
+        "province_code": 73,
+        "name": "Belawa"
+    },
+    {
+        "code": 731308,
+        "regency_code": 7313,
+        "province_code": 73,
+        "name": "Tanasitolo"
+    },
+    {
+        "code": 731309,
+        "regency_code": 7313,
+        "province_code": 73,
+        "name": "Maniangpajo"
+    },
+    {
+        "code": 731310,
+        "regency_code": 7313,
+        "province_code": 73,
+        "name": "Pitumpanua"
+    },
+    {
+        "code": 731311,
+        "regency_code": 7313,
+        "province_code": 73,
+        "name": "Bola"
+    },
+    {
+        "code": 731312,
+        "regency_code": 7313,
+        "province_code": 73,
+        "name": "Penrang"
+    },
+    {
+        "code": 731313,
+        "regency_code": 7313,
+        "province_code": 73,
+        "name": "Gilireng"
+    },
+    {
+        "code": 731314,
+        "regency_code": 7313,
+        "province_code": 73,
+        "name": "Keera"
+    },
+    {
+        "code": 731401,
+        "regency_code": 7314,
+        "province_code": 73,
+        "name": "Panca Lautang"
+    },
+    {
+        "code": 731402,
+        "regency_code": 7314,
+        "province_code": 73,
+        "name": "Tellu Limpoe"
+    },
+    {
+        "code": 731403,
+        "regency_code": 7314,
+        "province_code": 73,
+        "name": "Watang Pulu"
+    },
+    {
+        "code": 731404,
+        "regency_code": 7314,
+        "province_code": 73,
+        "name": "Baranti"
+    },
+    {
+        "code": 731405,
+        "regency_code": 7314,
+        "province_code": 73,
+        "name": "Panca Rijang"
+    },
+    {
+        "code": 731406,
+        "regency_code": 7314,
+        "province_code": 73,
+        "name": "Kulo"
+    },
+    {
+        "code": 731407,
+        "regency_code": 7314,
+        "province_code": 73,
+        "name": "Maritengngae"
+    },
+    {
+        "code": 731408,
+        "regency_code": 7314,
+        "province_code": 73,
+        "name": "Watang Sidenreng"
+    },
+    {
+        "code": 731409,
+        "regency_code": 7314,
+        "province_code": 73,
+        "name": "Dua Pitue"
+    },
+    {
+        "code": 731410,
+        "regency_code": 7314,
+        "province_code": 73,
+        "name": "Pitu Riawa"
+    },
+    {
+        "code": 731411,
+        "regency_code": 7314,
+        "province_code": 73,
+        "name": "Pitu Riase"
+    },
+    {
+        "code": 731501,
+        "regency_code": 7315,
+        "province_code": 73,
+        "name": "Mattiro Sompe"
+    },
+    {
+        "code": 731502,
+        "regency_code": 7315,
+        "province_code": 73,
+        "name": "Suppa"
+    },
+    {
+        "code": 731503,
+        "regency_code": 7315,
+        "province_code": 73,
+        "name": "Mattiro Bulu"
+    },
+    {
+        "code": 731504,
+        "regency_code": 7315,
+        "province_code": 73,
+        "name": "Watang Sawitto"
+    },
+    {
+        "code": 731505,
+        "regency_code": 7315,
+        "province_code": 73,
+        "name": "Patampanua"
+    },
+    {
+        "code": 731506,
+        "regency_code": 7315,
+        "province_code": 73,
+        "name": "Duampanua"
+    },
+    {
+        "code": 731507,
+        "regency_code": 7315,
+        "province_code": 73,
+        "name": "Lembang"
+    },
+    {
+        "code": 731508,
+        "regency_code": 7315,
+        "province_code": 73,
+        "name": "Cempa"
+    },
+    {
+        "code": 731509,
+        "regency_code": 7315,
+        "province_code": 73,
+        "name": "Tiroang"
+    },
+    {
+        "code": 731510,
+        "regency_code": 7315,
+        "province_code": 73,
+        "name": "Lanrisang"
+    },
+    {
+        "code": 731511,
+        "regency_code": 7315,
+        "province_code": 73,
+        "name": "Paleteang"
+    },
+    {
+        "code": 731512,
+        "regency_code": 7315,
+        "province_code": 73,
+        "name": "Batulappa"
+    },
+    {
+        "code": 731601,
+        "regency_code": 7316,
+        "province_code": 73,
+        "name": "Maiwa"
+    },
+    {
+        "code": 731602,
+        "regency_code": 7316,
+        "province_code": 73,
+        "name": "Enrekang"
+    },
+    {
+        "code": 731603,
+        "regency_code": 7316,
+        "province_code": 73,
+        "name": "Baraka"
+    },
+    {
+        "code": 731604,
+        "regency_code": 7316,
+        "province_code": 73,
+        "name": "Anggeraja"
+    },
+    {
+        "code": 731605,
+        "regency_code": 7316,
+        "province_code": 73,
+        "name": "Alla"
+    },
+    {
+        "code": 731606,
+        "regency_code": 7316,
+        "province_code": 73,
+        "name": "Bungin"
+    },
+    {
+        "code": 731607,
+        "regency_code": 7316,
+        "province_code": 73,
+        "name": "Cendana"
+    },
+    {
+        "code": 731608,
+        "regency_code": 7316,
+        "province_code": 73,
+        "name": "Curio"
+    },
+    {
+        "code": 731609,
+        "regency_code": 7316,
+        "province_code": 73,
+        "name": "Malua"
+    },
+    {
+        "code": 731610,
+        "regency_code": 7316,
+        "province_code": 73,
+        "name": "Buntu Batu"
+    },
+    {
+        "code": 731611,
+        "regency_code": 7316,
+        "province_code": 73,
+        "name": "Masalle"
+    },
+    {
+        "code": 731612,
+        "regency_code": 7316,
+        "province_code": 73,
+        "name": "Baroko"
+    },
+    {
+        "code": 731701,
+        "regency_code": 7317,
+        "province_code": 73,
+        "name": "Basse Sangtempe"
+    },
+    {
+        "code": 731702,
+        "regency_code": 7317,
+        "province_code": 73,
+        "name": "Larompong"
+    },
+    {
+        "code": 731703,
+        "regency_code": 7317,
+        "province_code": 73,
+        "name": "Suli"
+    },
+    {
+        "code": 731704,
+        "regency_code": 7317,
+        "province_code": 73,
+        "name": "Bajo"
+    },
+    {
+        "code": 731705,
+        "regency_code": 7317,
+        "province_code": 73,
+        "name": "Bua Ponrang"
+    },
+    {
+        "code": 731706,
+        "regency_code": 7317,
+        "province_code": 73,
+        "name": "Walenrang"
+    },
+    {
+        "code": 731707,
+        "regency_code": 7317,
+        "province_code": 73,
+        "name": "Belopa"
+    },
+    {
+        "code": 731708,
+        "regency_code": 7317,
+        "province_code": 73,
+        "name": "Bua"
+    },
+    {
+        "code": 731709,
+        "regency_code": 7317,
+        "province_code": 73,
+        "name": "Lamasi"
+    },
+    {
+        "code": 731710,
+        "regency_code": 7317,
+        "province_code": 73,
+        "name": "Larompong Selatan"
+    },
+    {
+        "code": 731711,
+        "regency_code": 7317,
+        "province_code": 73,
+        "name": "Ponrang"
+    },
+    {
+        "code": 731712,
+        "regency_code": 7317,
+        "province_code": 73,
+        "name": "Latimojong"
+    },
+    {
+        "code": 731713,
+        "regency_code": 7317,
+        "province_code": 73,
+        "name": "Kamanre"
+    },
+    {
+        "code": 731714,
+        "regency_code": 7317,
+        "province_code": 73,
+        "name": "Belopa Utara"
+    },
+    {
+        "code": 731715,
+        "regency_code": 7317,
+        "province_code": 73,
+        "name": "Walenrang Barat"
+    },
+    {
+        "code": 731716,
+        "regency_code": 7317,
+        "province_code": 73,
+        "name": "Walenrang Utara"
+    },
+    {
+        "code": 731717,
+        "regency_code": 7317,
+        "province_code": 73,
+        "name": "Walenrang Timur"
+    },
+    {
+        "code": 731718,
+        "regency_code": 7317,
+        "province_code": 73,
+        "name": "Lamasi Timur"
+    },
+    {
+        "code": 731719,
+        "regency_code": 7317,
+        "province_code": 73,
+        "name": "Suli Barat"
+    },
+    {
+        "code": 731720,
+        "regency_code": 7317,
+        "province_code": 73,
+        "name": "Bajo Barat"
+    },
+    {
+        "code": 731721,
+        "regency_code": 7317,
+        "province_code": 73,
+        "name": "Ponrang Selatan"
+    },
+    {
+        "code": 731722,
+        "regency_code": 7317,
+        "province_code": 73,
+        "name": "Basse Sangtempe Utara"
+    },
+    {
+        "code": 731801,
+        "regency_code": 7318,
+        "province_code": 73,
+        "name": "Saluputi"
+    },
+    {
+        "code": 731802,
+        "regency_code": 7318,
+        "province_code": 73,
+        "name": "Bittuang"
+    },
+    {
+        "code": 731803,
+        "regency_code": 7318,
+        "province_code": 73,
+        "name": "Bonggakaradeng"
+    },
+    {
+        "code": 731805,
+        "regency_code": 7318,
+        "province_code": 73,
+        "name": "Makale"
+    },
+    {
+        "code": 731809,
+        "regency_code": 7318,
+        "province_code": 73,
+        "name": "Simbuang"
+    },
+    {
+        "code": 731811,
+        "regency_code": 7318,
+        "province_code": 73,
+        "name": "Rantetayo"
+    },
+    {
+        "code": 731812,
+        "regency_code": 7318,
+        "province_code": 73,
+        "name": "Mengkendek"
+    },
+    {
+        "code": 731813,
+        "regency_code": 7318,
+        "province_code": 73,
+        "name": "Sangalla"
+    },
+    {
+        "code": 731819,
+        "regency_code": 7318,
+        "province_code": 73,
+        "name": "Gandangbatu Sillanan"
+    },
+    {
+        "code": 731820,
+        "regency_code": 7318,
+        "province_code": 73,
+        "name": "Rembon"
+    },
+    {
+        "code": 731827,
+        "regency_code": 7318,
+        "province_code": 73,
+        "name": "Makale Utara"
+    },
+    {
+        "code": 731828,
+        "regency_code": 7318,
+        "province_code": 73,
+        "name": "Mappak"
+    },
+    {
+        "code": 731829,
+        "regency_code": 7318,
+        "province_code": 73,
+        "name": "Makale Selatan"
+    },
+    {
+        "code": 731831,
+        "regency_code": 7318,
+        "province_code": 73,
+        "name": "Masanda"
+    },
+    {
+        "code": 731833,
+        "regency_code": 7318,
+        "province_code": 73,
+        "name": "Sangalla Selatan"
+    },
+    {
+        "code": 731834,
+        "regency_code": 7318,
+        "province_code": 73,
+        "name": "Sangalla Utara"
+    },
+    {
+        "code": 731835,
+        "regency_code": 7318,
+        "province_code": 73,
+        "name": "Malimbong Balepe"
+    },
+    {
+        "code": 731837,
+        "regency_code": 7318,
+        "province_code": 73,
+        "name": "Rano"
+    },
+    {
+        "code": 731838,
+        "regency_code": 7318,
+        "province_code": 73,
+        "name": "Kurra"
+    },
+    {
+        "code": 732201,
+        "regency_code": 7322,
+        "province_code": 73,
+        "name": "Malangke"
+    },
+    {
+        "code": 732202,
+        "regency_code": 7322,
+        "province_code": 73,
+        "name": "Bone Bone"
+    },
+    {
+        "code": 732203,
+        "regency_code": 7322,
+        "province_code": 73,
+        "name": "Masamba"
+    },
+    {
+        "code": 732204,
+        "regency_code": 7322,
+        "province_code": 73,
+        "name": "Sabbang"
+    },
+    {
+        "code": 732205,
+        "regency_code": 7322,
+        "province_code": 73,
+        "name": "Rongkong"
+    },
+    {
+        "code": 732206,
+        "regency_code": 7322,
+        "province_code": 73,
+        "name": "Sukamaju"
+    },
+    {
+        "code": 732207,
+        "regency_code": 7322,
+        "province_code": 73,
+        "name": "Seko"
+    },
+    {
+        "code": 732208,
+        "regency_code": 7322,
+        "province_code": 73,
+        "name": "Malangke Barat"
+    },
+    {
+        "code": 732209,
+        "regency_code": 7322,
+        "province_code": 73,
+        "name": "Rampi"
+    },
+    {
+        "code": 732210,
+        "regency_code": 7322,
+        "province_code": 73,
+        "name": "Mappedeceng"
+    },
+    {
+        "code": 732211,
+        "regency_code": 7322,
+        "province_code": 73,
+        "name": "Baebunta"
+    },
+    {
+        "code": 732212,
+        "regency_code": 7322,
+        "province_code": 73,
+        "name": "Tana Lili"
+    },
+    {
+        "code": 732213,
+        "regency_code": 7322,
+        "province_code": 73,
+        "name": "Sukamaju Selatan"
+    },
+    {
+        "code": 732214,
+        "regency_code": 7322,
+        "province_code": 73,
+        "name": "Baebunta Selatan"
+    },
+    {
+        "code": 732215,
+        "regency_code": 7322,
+        "province_code": 73,
+        "name": "Sabbang Selatan"
+    },
+    {
+        "code": 732401,
+        "regency_code": 7324,
+        "province_code": 73,
+        "name": "Mangkutana"
+    },
+    {
+        "code": 732402,
+        "regency_code": 7324,
+        "province_code": 73,
+        "name": "Nuha"
+    },
+    {
+        "code": 732403,
+        "regency_code": 7324,
+        "province_code": 73,
+        "name": "Towuti"
+    },
+    {
+        "code": 732404,
+        "regency_code": 7324,
+        "province_code": 73,
+        "name": "Malili"
+    },
+    {
+        "code": 732405,
+        "regency_code": 7324,
+        "province_code": 73,
+        "name": "Angkona"
+    },
+    {
+        "code": 732406,
+        "regency_code": 7324,
+        "province_code": 73,
+        "name": "Wotu"
+    },
+    {
+        "code": 732407,
+        "regency_code": 7324,
+        "province_code": 73,
+        "name": "Burau"
+    },
+    {
+        "code": 732408,
+        "regency_code": 7324,
+        "province_code": 73,
+        "name": "Tomoni"
+    },
+    {
+        "code": 732409,
+        "regency_code": 7324,
+        "province_code": 73,
+        "name": "Tomoni Timur"
+    },
+    {
+        "code": 732410,
+        "regency_code": 7324,
+        "province_code": 73,
+        "name": "Kalaena"
+    },
+    {
+        "code": 732411,
+        "regency_code": 7324,
+        "province_code": 73,
+        "name": "Wasuponda"
+    },
+    {
+        "code": 732601,
+        "regency_code": 7326,
+        "province_code": 73,
+        "name": "Rantepao"
+    },
+    {
+        "code": 732602,
+        "regency_code": 7326,
+        "province_code": 73,
+        "name": "Sesean"
+    },
+    {
+        "code": 732603,
+        "regency_code": 7326,
+        "province_code": 73,
+        "name": "Nanggala"
+    },
+    {
+        "code": 732604,
+        "regency_code": 7326,
+        "province_code": 73,
+        "name": "Rindingallo"
+    },
+    {
+        "code": 732605,
+        "regency_code": 7326,
+        "province_code": 73,
+        "name": "Buntao"
+    },
+    {
+        "code": 732606,
+        "regency_code": 7326,
+        "province_code": 73,
+        "name": "Sa'dan"
+    },
+    {
+        "code": 732607,
+        "regency_code": 7326,
+        "province_code": 73,
+        "name": "Sanggalangi"
+    },
+    {
+        "code": 732608,
+        "regency_code": 7326,
+        "province_code": 73,
+        "name": "Sopai"
+    },
+    {
+        "code": 732609,
+        "regency_code": 7326,
+        "province_code": 73,
+        "name": "Tikala"
+    },
+    {
+        "code": 732610,
+        "regency_code": 7326,
+        "province_code": 73,
+        "name": "Balusu"
+    },
+    {
+        "code": 732611,
+        "regency_code": 7326,
+        "province_code": 73,
+        "name": "Tallunglipu"
+    },
+    {
+        "code": 732612,
+        "regency_code": 7326,
+        "province_code": 73,
+        "name": "Dende' Piongan Napo"
+    },
+    {
+        "code": 732613,
+        "regency_code": 7326,
+        "province_code": 73,
+        "name": "Buntu Pepasan"
+    },
+    {
+        "code": 732614,
+        "regency_code": 7326,
+        "province_code": 73,
+        "name": "Baruppu"
+    },
+    {
+        "code": 732615,
+        "regency_code": 7326,
+        "province_code": 73,
+        "name": "Kesu"
+    },
+    {
+        "code": 732616,
+        "regency_code": 7326,
+        "province_code": 73,
+        "name": "Tondon"
+    },
+    {
+        "code": 732617,
+        "regency_code": 7326,
+        "province_code": 73,
+        "name": "Bangkelekila"
+    },
+    {
+        "code": 732618,
+        "regency_code": 7326,
+        "province_code": 73,
+        "name": "Rantebua"
+    },
+    {
+        "code": 732619,
+        "regency_code": 7326,
+        "province_code": 73,
+        "name": "Sesean Suloara"
+    },
+    {
+        "code": 732620,
+        "regency_code": 7326,
+        "province_code": 73,
+        "name": "Kapala Pitu"
+    },
+    {
+        "code": 732621,
+        "regency_code": 7326,
+        "province_code": 73,
+        "name": "Awan Rante Karua"
+    },
+    {
+        "code": 737101,
+        "regency_code": 7371,
+        "province_code": 73,
+        "name": "Mariso"
+    },
+    {
+        "code": 737102,
+        "regency_code": 7371,
+        "province_code": 73,
+        "name": "Mamajang"
+    },
+    {
+        "code": 737103,
+        "regency_code": 7371,
+        "province_code": 73,
+        "name": "Makassar"
+    },
+    {
+        "code": 737104,
+        "regency_code": 7371,
+        "province_code": 73,
+        "name": "Ujung Pandang"
+    },
+    {
+        "code": 737105,
+        "regency_code": 7371,
+        "province_code": 73,
+        "name": "Wajo"
+    },
+    {
+        "code": 737106,
+        "regency_code": 7371,
+        "province_code": 73,
+        "name": "Bontoala"
+    },
+    {
+        "code": 737107,
+        "regency_code": 7371,
+        "province_code": 73,
+        "name": "Tallo"
+    },
+    {
+        "code": 737108,
+        "regency_code": 7371,
+        "province_code": 73,
+        "name": "Ujung Tanah"
+    },
+    {
+        "code": 737109,
+        "regency_code": 7371,
+        "province_code": 73,
+        "name": "Panakkukang"
+    },
+    {
+        "code": 737110,
+        "regency_code": 7371,
+        "province_code": 73,
+        "name": "Tamalate"
+    },
+    {
+        "code": 737111,
+        "regency_code": 7371,
+        "province_code": 73,
+        "name": "Biringkanaya"
+    },
+    {
+        "code": 737112,
+        "regency_code": 7371,
+        "province_code": 73,
+        "name": "Manggala"
+    },
+    {
+        "code": 737113,
+        "regency_code": 7371,
+        "province_code": 73,
+        "name": "Rappocini"
+    },
+    {
+        "code": 737114,
+        "regency_code": 7371,
+        "province_code": 73,
+        "name": "Tamalanrea"
+    },
+    {
+        "code": 737115,
+        "regency_code": 7371,
+        "province_code": 73,
+        "name": "Kepulauan Sangkarrang"
+    },
+    {
+        "code": 737201,
+        "regency_code": 7372,
+        "province_code": 73,
+        "name": "Bacukiki"
+    },
+    {
+        "code": 737202,
+        "regency_code": 7372,
+        "province_code": 73,
+        "name": "Ujung"
+    },
+    {
+        "code": 737203,
+        "regency_code": 7372,
+        "province_code": 73,
+        "name": "Soreang"
+    },
+    {
+        "code": 737204,
+        "regency_code": 7372,
+        "province_code": 73,
+        "name": "Bacukiki Barat"
+    },
+    {
+        "code": 737301,
+        "regency_code": 7373,
+        "province_code": 73,
+        "name": "Wara"
+    },
+    {
+        "code": 737302,
+        "regency_code": 7373,
+        "province_code": 73,
+        "name": "Wara Utara"
+    },
+    {
+        "code": 737303,
+        "regency_code": 7373,
+        "province_code": 73,
+        "name": "Wara Selatan"
+    },
+    {
+        "code": 737304,
+        "regency_code": 7373,
+        "province_code": 73,
+        "name": "Telluwanua"
+    },
+    {
+        "code": 737305,
+        "regency_code": 7373,
+        "province_code": 73,
+        "name": "Wara Timur"
+    },
+    {
+        "code": 737306,
+        "regency_code": 7373,
+        "province_code": 73,
+        "name": "Wara Barat"
+    },
+    {
+        "code": 737307,
+        "regency_code": 7373,
+        "province_code": 73,
+        "name": "Sendana"
+    },
+    {
+        "code": 737308,
+        "regency_code": 7373,
+        "province_code": 73,
+        "name": "Mungkajang"
+    },
+    {
+        "code": 737309,
+        "regency_code": 7373,
+        "province_code": 73,
+        "name": "Bara"
+    }
+]

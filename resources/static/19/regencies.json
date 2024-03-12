@@ -1,0 +1,51 @@
+[
+    {
+        "code": 1901,
+        "province_code": 19,
+        "name": "Kab. Bangka",
+        "latitude": -1.8873108002346788,
+        "longitude": 106.10482719651391
+    },
+    {
+        "code": 1902,
+        "province_code": 19,
+        "name": "Kab. Belitung",
+        "latitude": -2.742308350486171,
+        "longitude": 107.65431549651602
+    },
+    {
+        "code": 1903,
+        "province_code": 19,
+        "name": "Kab. Bangka Selatan",
+        "latitude": -3.019747321507955,
+        "longitude": 106.5117467118603
+    },
+    {
+        "code": 1904,
+        "province_code": 19,
+        "name": "Kab. Bangka Tengah",
+        "latitude": -2.515349261743928,
+        "longitude": 106.41589404069474
+    },
+    {
+        "code": 1905,
+        "province_code": 19,
+        "name": "Kab. Bangka Barat",
+        "latitude": -2.0586102945536235,
+        "longitude": 105.20138132535004
+    },
+    {
+        "code": 1906,
+        "province_code": 19,
+        "name": "Kab. Belitung Timur",
+        "latitude": -2.883346486095607,
+        "longitude": 108.23930392535223
+    },
+    {
+        "code": 1971,
+        "province_code": 19,
+        "name": "Kota Pangkal Pinang",
+        "latitude": -2.1409794439689436,
+        "longitude": 106.11591390259511
+    }
+]

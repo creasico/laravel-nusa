@@ -1,0 +1,51 @@
+[
+    {
+        "code": 2101,
+        "province_code": 21,
+        "name": "Kab. Bintan",
+        "latitude": 1.0867044293599752,
+        "longitude": 104.50214506989914
+    },
+    {
+        "code": 2102,
+        "province_code": 21,
+        "name": "Kab. Karimun",
+        "latitude": 1.032978125457723,
+        "longitude": 103.37578135747897
+    },
+    {
+        "code": 2103,
+        "province_code": 21,
+        "name": "Kab. Natuna",
+        "latitude": 3.923444039666034,
+        "longitude": 108.3369318453504
+    },
+    {
+        "code": 2104,
+        "province_code": 21,
+        "name": "Kab. Lingga",
+        "latitude": -0.2099928734471007,
+        "longitude": 104.60465899766058
+    },
+    {
+        "code": 2105,
+        "province_code": 21,
+        "name": "Kab. Kepulauan Anambas",
+        "latitude": 3.2145458693401,
+        "longitude": 106.24870240264536
+    },
+    {
+        "code": 2171,
+        "province_code": 21,
+        "name": "Kota Batam",
+        "latitude": 1.1287452751793037,
+        "longitude": 104.05533324230443
+    },
+    {
+        "code": 2172,
+        "province_code": 21,
+        "name": "Kota Tanjung Pinang",
+        "latitude": 0.9653429680491279,
+        "longitude": 104.44098650588683
+    }
+]

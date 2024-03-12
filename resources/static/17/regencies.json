@@ -1,0 +1,72 @@
+[
+    {
+        "code": 1701,
+        "province_code": 17,
+        "name": "Kab. Bengkulu Selatan",
+        "latitude": -4.439935303062977,
+        "longitude": 102.89520237885483
+    },
+    {
+        "code": 1702,
+        "province_code": 17,
+        "name": "Kab. Rejang Lebong",
+        "latitude": -3.4779639096664248,
+        "longitude": 102.53188572612797
+    },
+    {
+        "code": 1703,
+        "province_code": 17,
+        "name": "Kab. Bengkulu Utara",
+        "latitude": -3.436858034706668,
+        "longitude": 102.2017863093631
+    },
+    {
+        "code": 1704,
+        "province_code": 17,
+        "name": "Kab. Kaur",
+        "latitude": -4.7591102206280205,
+        "longitude": 103.34909985473034
+    },
+    {
+        "code": 1705,
+        "province_code": 17,
+        "name": "Kab. Seluma",
+        "latitude": -4.077629925945562,
+        "longitude": 102.55625381723668
+    },
+    {
+        "code": 1706,
+        "province_code": 17,
+        "name": "Kab. Muko Muko",
+        "latitude": -2.5527631166770415,
+        "longitude": 101.10421399515411
+    },
+    {
+        "code": 1707,
+        "province_code": 17,
+        "name": "Kab. Lebong",
+        "latitude": -3.1574485628093467,
+        "longitude": 102.18284672681582
+    },
+    {
+        "code": 1708,
+        "province_code": 17,
+        "name": "Kab. Kepahiang",
+        "latitude": -3.6251092126391558,
+        "longitude": 102.55634520967017
+    },
+    {
+        "code": 1709,
+        "province_code": 17,
+        "name": "Kab. Bengkulu Tengah",
+        "latitude": -3.7728554135369468,
+        "longitude": 102.3899904291284
+    },
+    {
+        "code": 1771,
+        "province_code": 17,
+        "name": "Kota Bengkulu",
+        "latitude": -3.792845099999999,
+        "longitude": 102.26076409999996
+    }
+]

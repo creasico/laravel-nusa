@@ -1,0 +1,1892 @@
+[
+    {
+        "code": 530104,
+        "regency_code": 5301,
+        "province_code": 53,
+        "name": "Semau"
+    },
+    {
+        "code": 530105,
+        "regency_code": 5301,
+        "province_code": 53,
+        "name": "Kupang Barat"
+    },
+    {
+        "code": 530106,
+        "regency_code": 5301,
+        "province_code": 53,
+        "name": "Kupang Timur"
+    },
+    {
+        "code": 530107,
+        "regency_code": 5301,
+        "province_code": 53,
+        "name": "Sulamu"
+    },
+    {
+        "code": 530108,
+        "regency_code": 5301,
+        "province_code": 53,
+        "name": "Kupang Tengah"
+    },
+    {
+        "code": 530109,
+        "regency_code": 5301,
+        "province_code": 53,
+        "name": "Amarasi"
+    },
+    {
+        "code": 530110,
+        "regency_code": 5301,
+        "province_code": 53,
+        "name": "Fatuleu"
+    },
+    {
+        "code": 530111,
+        "regency_code": 5301,
+        "province_code": 53,
+        "name": "Takari"
+    },
+    {
+        "code": 530112,
+        "regency_code": 5301,
+        "province_code": 53,
+        "name": "Amfoang Selatan"
+    },
+    {
+        "code": 530113,
+        "regency_code": 5301,
+        "province_code": 53,
+        "name": "Amfoang Utara"
+    },
+    {
+        "code": 530116,
+        "regency_code": 5301,
+        "province_code": 53,
+        "name": "Nekamese"
+    },
+    {
+        "code": 530117,
+        "regency_code": 5301,
+        "province_code": 53,
+        "name": "Amarasi Barat"
+    },
+    {
+        "code": 530118,
+        "regency_code": 5301,
+        "province_code": 53,
+        "name": "Amarasi Selatan"
+    },
+    {
+        "code": 530119,
+        "regency_code": 5301,
+        "province_code": 53,
+        "name": "Amarasi Timur"
+    },
+    {
+        "code": 530120,
+        "regency_code": 5301,
+        "province_code": 53,
+        "name": "Amabi Oefeto Timur"
+    },
+    {
+        "code": 530121,
+        "regency_code": 5301,
+        "province_code": 53,
+        "name": "Amfoang Barat Daya"
+    },
+    {
+        "code": 530122,
+        "regency_code": 5301,
+        "province_code": 53,
+        "name": "Amfoang Barat Laut"
+    },
+    {
+        "code": 530123,
+        "regency_code": 5301,
+        "province_code": 53,
+        "name": "Semau Selatan"
+    },
+    {
+        "code": 530124,
+        "regency_code": 5301,
+        "province_code": 53,
+        "name": "Taebenu"
+    },
+    {
+        "code": 530125,
+        "regency_code": 5301,
+        "province_code": 53,
+        "name": "Amabi Oefeto"
+    },
+    {
+        "code": 530126,
+        "regency_code": 5301,
+        "province_code": 53,
+        "name": "Amfoang Timur"
+    },
+    {
+        "code": 530127,
+        "regency_code": 5301,
+        "province_code": 53,
+        "name": "Fatuleu Barat"
+    },
+    {
+        "code": 530128,
+        "regency_code": 5301,
+        "province_code": 53,
+        "name": "Fatuleu Tengah"
+    },
+    {
+        "code": 530130,
+        "regency_code": 5301,
+        "province_code": 53,
+        "name": "Amfoang Tengah"
+    },
+    {
+        "code": 530201,
+        "regency_code": 5302,
+        "province_code": 53,
+        "name": "Kota Soe"
+    },
+    {
+        "code": 530202,
+        "regency_code": 5302,
+        "province_code": 53,
+        "name": "Mollo Selatan"
+    },
+    {
+        "code": 530203,
+        "regency_code": 5302,
+        "province_code": 53,
+        "name": "Mollo Utara"
+    },
+    {
+        "code": 530204,
+        "regency_code": 5302,
+        "province_code": 53,
+        "name": "Amanuban Timur"
+    },
+    {
+        "code": 530205,
+        "regency_code": 5302,
+        "province_code": 53,
+        "name": "Amanuban Tengah"
+    },
+    {
+        "code": 530206,
+        "regency_code": 5302,
+        "province_code": 53,
+        "name": "Amanuban Selatan"
+    },
+    {
+        "code": 530207,
+        "regency_code": 5302,
+        "province_code": 53,
+        "name": "Amanuban Barat"
+    },
+    {
+        "code": 530208,
+        "regency_code": 5302,
+        "province_code": 53,
+        "name": "Amanatun Selatan"
+    },
+    {
+        "code": 530209,
+        "regency_code": 5302,
+        "province_code": 53,
+        "name": "Amanatun Utara"
+    },
+    {
+        "code": 530210,
+        "regency_code": 5302,
+        "province_code": 53,
+        "name": "KI'E"
+    },
+    {
+        "code": 530211,
+        "regency_code": 5302,
+        "province_code": 53,
+        "name": "Kuanfatu"
+    },
+    {
+        "code": 530212,
+        "regency_code": 5302,
+        "province_code": 53,
+        "name": "Fatumnasi"
+    },
+    {
+        "code": 530213,
+        "regency_code": 5302,
+        "province_code": 53,
+        "name": "Polen"
+    },
+    {
+        "code": 530214,
+        "regency_code": 5302,
+        "province_code": 53,
+        "name": "Batu Putih"
+    },
+    {
+        "code": 530215,
+        "regency_code": 5302,
+        "province_code": 53,
+        "name": "Boking"
+    },
+    {
+        "code": 530216,
+        "regency_code": 5302,
+        "province_code": 53,
+        "name": "Toianas"
+    },
+    {
+        "code": 530217,
+        "regency_code": 5302,
+        "province_code": 53,
+        "name": "Nunkolo"
+    },
+    {
+        "code": 530218,
+        "regency_code": 5302,
+        "province_code": 53,
+        "name": "Oenino"
+    },
+    {
+        "code": 530219,
+        "regency_code": 5302,
+        "province_code": 53,
+        "name": "Kolbano"
+    },
+    {
+        "code": 530220,
+        "regency_code": 5302,
+        "province_code": 53,
+        "name": "Kot olin"
+    },
+    {
+        "code": 530221,
+        "regency_code": 5302,
+        "province_code": 53,
+        "name": "Kualin"
+    },
+    {
+        "code": 530222,
+        "regency_code": 5302,
+        "province_code": 53,
+        "name": "Mollo Barat"
+    },
+    {
+        "code": 530223,
+        "regency_code": 5302,
+        "province_code": 53,
+        "name": "Kok Baun"
+    },
+    {
+        "code": 530224,
+        "regency_code": 5302,
+        "province_code": 53,
+        "name": "Noebana"
+    },
+    {
+        "code": 530225,
+        "regency_code": 5302,
+        "province_code": 53,
+        "name": "Santian"
+    },
+    {
+        "code": 530226,
+        "regency_code": 5302,
+        "province_code": 53,
+        "name": "Noebeba"
+    },
+    {
+        "code": 530227,
+        "regency_code": 5302,
+        "province_code": 53,
+        "name": "Kuatnana"
+    },
+    {
+        "code": 530228,
+        "regency_code": 5302,
+        "province_code": 53,
+        "name": "Fautmolo"
+    },
+    {
+        "code": 530229,
+        "regency_code": 5302,
+        "province_code": 53,
+        "name": "Fatukopa"
+    },
+    {
+        "code": 530230,
+        "regency_code": 5302,
+        "province_code": 53,
+        "name": "Mollo Tengah"
+    },
+    {
+        "code": 530231,
+        "regency_code": 5302,
+        "province_code": 53,
+        "name": "Tobu"
+    },
+    {
+        "code": 530232,
+        "regency_code": 5302,
+        "province_code": 53,
+        "name": "Nunbena"
+    },
+    {
+        "code": 530301,
+        "regency_code": 5303,
+        "province_code": 53,
+        "name": "Miomaffo Timur"
+    },
+    {
+        "code": 530302,
+        "regency_code": 5303,
+        "province_code": 53,
+        "name": "Miomaffo Barat"
+    },
+    {
+        "code": 530303,
+        "regency_code": 5303,
+        "province_code": 53,
+        "name": "Biboki Selatan"
+    },
+    {
+        "code": 530304,
+        "regency_code": 5303,
+        "province_code": 53,
+        "name": "Noemuti"
+    },
+    {
+        "code": 530305,
+        "regency_code": 5303,
+        "province_code": 53,
+        "name": "Kota Kefamenanu"
+    },
+    {
+        "code": 530306,
+        "regency_code": 5303,
+        "province_code": 53,
+        "name": "Biboki Utara"
+    },
+    {
+        "code": 530307,
+        "regency_code": 5303,
+        "province_code": 53,
+        "name": "Biboki Anleu"
+    },
+    {
+        "code": 530308,
+        "regency_code": 5303,
+        "province_code": 53,
+        "name": "Insana"
+    },
+    {
+        "code": 530309,
+        "regency_code": 5303,
+        "province_code": 53,
+        "name": "Insana Utara"
+    },
+    {
+        "code": 530310,
+        "regency_code": 5303,
+        "province_code": 53,
+        "name": "Noemuti Timur"
+    },
+    {
+        "code": 530311,
+        "regency_code": 5303,
+        "province_code": 53,
+        "name": "Miomaffo Tengah"
+    },
+    {
+        "code": 530312,
+        "regency_code": 5303,
+        "province_code": 53,
+        "name": "Musi"
+    },
+    {
+        "code": 530313,
+        "regency_code": 5303,
+        "province_code": 53,
+        "name": "Mutis"
+    },
+    {
+        "code": 530314,
+        "regency_code": 5303,
+        "province_code": 53,
+        "name": "Bikomi Selatan"
+    },
+    {
+        "code": 530315,
+        "regency_code": 5303,
+        "province_code": 53,
+        "name": "Bikomi Tengah"
+    },
+    {
+        "code": 530316,
+        "regency_code": 5303,
+        "province_code": 53,
+        "name": "Bikomi Nilulat"
+    },
+    {
+        "code": 530317,
+        "regency_code": 5303,
+        "province_code": 53,
+        "name": "Bikomi Utara"
+    },
+    {
+        "code": 530318,
+        "regency_code": 5303,
+        "province_code": 53,
+        "name": "Naibenu"
+    },
+    {
+        "code": 530319,
+        "regency_code": 5303,
+        "province_code": 53,
+        "name": "Insana Fafinesu"
+    },
+    {
+        "code": 530320,
+        "regency_code": 5303,
+        "province_code": 53,
+        "name": "Insana Barat"
+    },
+    {
+        "code": 530321,
+        "regency_code": 5303,
+        "province_code": 53,
+        "name": "Insana Tengah"
+    },
+    {
+        "code": 530322,
+        "regency_code": 5303,
+        "province_code": 53,
+        "name": "Biboki Tan Pah"
+    },
+    {
+        "code": 530323,
+        "regency_code": 5303,
+        "province_code": 53,
+        "name": "Biboki Moenleu"
+    },
+    {
+        "code": 530324,
+        "regency_code": 5303,
+        "province_code": 53,
+        "name": "Biboki Feotleu"
+    },
+    {
+        "code": 530401,
+        "regency_code": 5304,
+        "province_code": 53,
+        "name": "Lamaknen"
+    },
+    {
+        "code": 530402,
+        "regency_code": 5304,
+        "province_code": 53,
+        "name": "TasifetoTimur"
+    },
+    {
+        "code": 530403,
+        "regency_code": 5304,
+        "province_code": 53,
+        "name": "Raihat"
+    },
+    {
+        "code": 530404,
+        "regency_code": 5304,
+        "province_code": 53,
+        "name": "Tasifeto Barat"
+    },
+    {
+        "code": 530405,
+        "regency_code": 5304,
+        "province_code": 53,
+        "name": "Kakuluk Mesak"
+    },
+    {
+        "code": 530412,
+        "regency_code": 5304,
+        "province_code": 53,
+        "name": "Kota Atambua"
+    },
+    {
+        "code": 530413,
+        "regency_code": 5304,
+        "province_code": 53,
+        "name": "Raimanuk"
+    },
+    {
+        "code": 530417,
+        "regency_code": 5304,
+        "province_code": 53,
+        "name": "Lasiolat"
+    },
+    {
+        "code": 530418,
+        "regency_code": 5304,
+        "province_code": 53,
+        "name": "Lamaknen Selatan"
+    },
+    {
+        "code": 530421,
+        "regency_code": 5304,
+        "province_code": 53,
+        "name": "Atambua Barat"
+    },
+    {
+        "code": 530422,
+        "regency_code": 5304,
+        "province_code": 53,
+        "name": "Atambua Selatan"
+    },
+    {
+        "code": 530423,
+        "regency_code": 5304,
+        "province_code": 53,
+        "name": "Nanaet Duabesi"
+    },
+    {
+        "code": 530501,
+        "regency_code": 5305,
+        "province_code": 53,
+        "name": "Teluk Mutiara"
+    },
+    {
+        "code": 530502,
+        "regency_code": 5305,
+        "province_code": 53,
+        "name": "Alor Barat Laut"
+    },
+    {
+        "code": 530503,
+        "regency_code": 5305,
+        "province_code": 53,
+        "name": "Alor Barat Daya"
+    },
+    {
+        "code": 530504,
+        "regency_code": 5305,
+        "province_code": 53,
+        "name": "Alor Selatan"
+    },
+    {
+        "code": 530505,
+        "regency_code": 5305,
+        "province_code": 53,
+        "name": "Alor Timur"
+    },
+    {
+        "code": 530506,
+        "regency_code": 5305,
+        "province_code": 53,
+        "name": "Pantar"
+    },
+    {
+        "code": 530507,
+        "regency_code": 5305,
+        "province_code": 53,
+        "name": "Alor Tengah Utara"
+    },
+    {
+        "code": 530508,
+        "regency_code": 5305,
+        "province_code": 53,
+        "name": "Alor Timur Laut"
+    },
+    {
+        "code": 530509,
+        "regency_code": 5305,
+        "province_code": 53,
+        "name": "Pantar Barat"
+    },
+    {
+        "code": 530510,
+        "regency_code": 5305,
+        "province_code": 53,
+        "name": "Kabola"
+    },
+    {
+        "code": 530511,
+        "regency_code": 5305,
+        "province_code": 53,
+        "name": "Pulau Pura"
+    },
+    {
+        "code": 530512,
+        "regency_code": 5305,
+        "province_code": 53,
+        "name": "Mataru"
+    },
+    {
+        "code": 530513,
+        "regency_code": 5305,
+        "province_code": 53,
+        "name": "Pureman"
+    },
+    {
+        "code": 530514,
+        "regency_code": 5305,
+        "province_code": 53,
+        "name": "Pantar Timur"
+    },
+    {
+        "code": 530515,
+        "regency_code": 5305,
+        "province_code": 53,
+        "name": "Lembur"
+    },
+    {
+        "code": 530516,
+        "regency_code": 5305,
+        "province_code": 53,
+        "name": "Pantar Tengah"
+    },
+    {
+        "code": 530517,
+        "regency_code": 5305,
+        "province_code": 53,
+        "name": "Pantar Baru Laut"
+    },
+    {
+        "code": 530518,
+        "regency_code": 5305,
+        "province_code": 53,
+        "name": "Abad Selatan"
+    },
+    {
+        "code": 530601,
+        "regency_code": 5306,
+        "province_code": 53,
+        "name": "Wulanggitang"
+    },
+    {
+        "code": 530602,
+        "regency_code": 5306,
+        "province_code": 53,
+        "name": "Titehena"
+    },
+    {
+        "code": 530603,
+        "regency_code": 5306,
+        "province_code": 53,
+        "name": "Larantuka"
+    },
+    {
+        "code": 530604,
+        "regency_code": 5306,
+        "province_code": 53,
+        "name": "Ile Mandiri"
+    },
+    {
+        "code": 530605,
+        "regency_code": 5306,
+        "province_code": 53,
+        "name": "Tanjung Bunga"
+    },
+    {
+        "code": 530606,
+        "regency_code": 5306,
+        "province_code": 53,
+        "name": "Solor Barat"
+    },
+    {
+        "code": 530607,
+        "regency_code": 5306,
+        "province_code": 53,
+        "name": "Solor Timur"
+    },
+    {
+        "code": 530608,
+        "regency_code": 5306,
+        "province_code": 53,
+        "name": "Adonara Barat"
+    },
+    {
+        "code": 530609,
+        "regency_code": 5306,
+        "province_code": 53,
+        "name": "Wotan Ulumando"
+    },
+    {
+        "code": 530610,
+        "regency_code": 5306,
+        "province_code": 53,
+        "name": "Adonara Timur"
+    },
+    {
+        "code": 530611,
+        "regency_code": 5306,
+        "province_code": 53,
+        "name": "Kelubagolit"
+    },
+    {
+        "code": 530612,
+        "regency_code": 5306,
+        "province_code": 53,
+        "name": "Witihama"
+    },
+    {
+        "code": 530613,
+        "regency_code": 5306,
+        "province_code": 53,
+        "name": "Ile Boleng"
+    },
+    {
+        "code": 530614,
+        "regency_code": 5306,
+        "province_code": 53,
+        "name": "Demon Pagong"
+    },
+    {
+        "code": 530615,
+        "regency_code": 5306,
+        "province_code": 53,
+        "name": "Lewolema"
+    },
+    {
+        "code": 530616,
+        "regency_code": 5306,
+        "province_code": 53,
+        "name": "Ile Bura"
+    },
+    {
+        "code": 530617,
+        "regency_code": 5306,
+        "province_code": 53,
+        "name": "Adonara"
+    },
+    {
+        "code": 530618,
+        "regency_code": 5306,
+        "province_code": 53,
+        "name": "Adonara Tengah"
+    },
+    {
+        "code": 530619,
+        "regency_code": 5306,
+        "province_code": 53,
+        "name": "Solor Selatan"
+    },
+    {
+        "code": 530701,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Paga"
+    },
+    {
+        "code": 530702,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Mego"
+    },
+    {
+        "code": 530703,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Lela"
+    },
+    {
+        "code": 530704,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Nita"
+    },
+    {
+        "code": 530705,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Alok"
+    },
+    {
+        "code": 530706,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Palue"
+    },
+    {
+        "code": 530707,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Nelle"
+    },
+    {
+        "code": 530708,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Talibura"
+    },
+    {
+        "code": 530709,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Waigete"
+    },
+    {
+        "code": 530710,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Kewapante"
+    },
+    {
+        "code": 530711,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Bola"
+    },
+    {
+        "code": 530712,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Magepanda"
+    },
+    {
+        "code": 530713,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Waiblama"
+    },
+    {
+        "code": 530714,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Alok Barat"
+    },
+    {
+        "code": 530715,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Alok Timur"
+    },
+    {
+        "code": 530716,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Koting"
+    },
+    {
+        "code": 530717,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Tana Wawo"
+    },
+    {
+        "code": 530718,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Hewokloang"
+    },
+    {
+        "code": 530719,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Kangae"
+    },
+    {
+        "code": 530720,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Doreng"
+    },
+    {
+        "code": 530721,
+        "regency_code": 5307,
+        "province_code": 53,
+        "name": "Mapitara"
+    },
+    {
+        "code": 530801,
+        "regency_code": 5308,
+        "province_code": 53,
+        "name": "Nangapanda"
+    },
+    {
+        "code": 530802,
+        "regency_code": 5308,
+        "province_code": 53,
+        "name": "Pulau Ende"
+    },
+    {
+        "code": 530803,
+        "regency_code": 5308,
+        "province_code": 53,
+        "name": "Ende"
+    },
+    {
+        "code": 530804,
+        "regency_code": 5308,
+        "province_code": 53,
+        "name": "Ende Selatan"
+    },
+    {
+        "code": 530805,
+        "regency_code": 5308,
+        "province_code": 53,
+        "name": "Ndona"
+    },
+    {
+        "code": 530806,
+        "regency_code": 5308,
+        "province_code": 53,
+        "name": "Detusoko"
+    },
+    {
+        "code": 530807,
+        "regency_code": 5308,
+        "province_code": 53,
+        "name": "Wewaria"
+    },
+    {
+        "code": 530808,
+        "regency_code": 5308,
+        "province_code": 53,
+        "name": "Wolowaru"
+    },
+    {
+        "code": 530809,
+        "regency_code": 5308,
+        "province_code": 53,
+        "name": "Wolojita"
+    },
+    {
+        "code": 530810,
+        "regency_code": 5308,
+        "province_code": 53,
+        "name": "Maurole"
+    },
+    {
+        "code": 530811,
+        "regency_code": 5308,
+        "province_code": 53,
+        "name": "Maukaro"
+    },
+    {
+        "code": 530812,
+        "regency_code": 5308,
+        "province_code": 53,
+        "name": "Lio Timur"
+    },
+    {
+        "code": 530813,
+        "regency_code": 5308,
+        "province_code": 53,
+        "name": "Kota Baru"
+    },
+    {
+        "code": 530814,
+        "regency_code": 5308,
+        "province_code": 53,
+        "name": "Kelimutu"
+    },
+    {
+        "code": 530815,
+        "regency_code": 5308,
+        "province_code": 53,
+        "name": "Detukeli"
+    },
+    {
+        "code": 530816,
+        "regency_code": 5308,
+        "province_code": 53,
+        "name": "Ndona Timur"
+    },
+    {
+        "code": 530817,
+        "regency_code": 5308,
+        "province_code": 53,
+        "name": "Ndori"
+    },
+    {
+        "code": 530818,
+        "regency_code": 5308,
+        "province_code": 53,
+        "name": "Ende Utara"
+    },
+    {
+        "code": 530819,
+        "regency_code": 5308,
+        "province_code": 53,
+        "name": "Ende Tengah"
+    },
+    {
+        "code": 530820,
+        "regency_code": 5308,
+        "province_code": 53,
+        "name": "Ende Timur"
+    },
+    {
+        "code": 530821,
+        "regency_code": 5308,
+        "province_code": 53,
+        "name": "Lepembusu Kelisoke"
+    },
+    {
+        "code": 530901,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Aimere"
+    },
+    {
+        "code": 530902,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Golewa"
+    },
+    {
+        "code": 530906,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Bajawa"
+    },
+    {
+        "code": 530907,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Soa"
+    },
+    {
+        "code": 530909,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Riung"
+    },
+    {
+        "code": 530912,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Jerebuu"
+    },
+    {
+        "code": 530914,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Riung Barat"
+    },
+    {
+        "code": 530915,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Bajawa Utara"
+    },
+    {
+        "code": 530916,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Wolomeze"
+    },
+    {
+        "code": 530918,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Golewa Selatan"
+    },
+    {
+        "code": 530919,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Golewa Barat"
+    },
+    {
+        "code": 530920,
+        "regency_code": 5309,
+        "province_code": 53,
+        "name": "Inerie"
+    },
+    {
+        "code": 531001,
+        "regency_code": 5310,
+        "province_code": 53,
+        "name": "Wae Rii"
+    },
+    {
+        "code": 531003,
+        "regency_code": 5310,
+        "province_code": 53,
+        "name": "Ruteng"
+    },
+    {
+        "code": 531005,
+        "regency_code": 5310,
+        "province_code": 53,
+        "name": "Satar Mese"
+    },
+    {
+        "code": 531006,
+        "regency_code": 5310,
+        "province_code": 53,
+        "name": "Cibal"
+    },
+    {
+        "code": 531011,
+        "regency_code": 5310,
+        "province_code": 53,
+        "name": "Reok"
+    },
+    {
+        "code": 531012,
+        "regency_code": 5310,
+        "province_code": 53,
+        "name": "Langke Rembong"
+    },
+    {
+        "code": 531013,
+        "regency_code": 5310,
+        "province_code": 53,
+        "name": "Satar Mese Barat"
+    },
+    {
+        "code": 531014,
+        "regency_code": 5310,
+        "province_code": 53,
+        "name": "Rahong Utara"
+    },
+    {
+        "code": 531015,
+        "regency_code": 5310,
+        "province_code": 53,
+        "name": "Lelak"
+    },
+    {
+        "code": 531016,
+        "regency_code": 5310,
+        "province_code": 53,
+        "name": "Reok Barat"
+    },
+    {
+        "code": 531017,
+        "regency_code": 5310,
+        "province_code": 53,
+        "name": "Cibal barat"
+    },
+    {
+        "code": 531018,
+        "regency_code": 5310,
+        "province_code": 53,
+        "name": "Satar Mese Utara"
+    },
+    {
+        "code": 531101,
+        "regency_code": 5311,
+        "province_code": 53,
+        "name": "Kota Waingapu"
+    },
+    {
+        "code": 531102,
+        "regency_code": 5311,
+        "province_code": 53,
+        "name": "Haharu"
+    },
+    {
+        "code": 531103,
+        "regency_code": 5311,
+        "province_code": 53,
+        "name": "Lewa"
+    },
+    {
+        "code": 531104,
+        "regency_code": 5311,
+        "province_code": 53,
+        "name": "Nggaha Ori Angu"
+    },
+    {
+        "code": 531105,
+        "regency_code": 5311,
+        "province_code": 53,
+        "name": "Tabundung"
+    },
+    {
+        "code": 531106,
+        "regency_code": 5311,
+        "province_code": 53,
+        "name": "Pinu Pahar"
+    },
+    {
+        "code": 531107,
+        "regency_code": 5311,
+        "province_code": 53,
+        "name": "Pandawai"
+    },
+    {
+        "code": 531108,
+        "regency_code": 5311,
+        "province_code": 53,
+        "name": "Umalulu"
+    },
+    {
+        "code": 531109,
+        "regency_code": 5311,
+        "province_code": 53,
+        "name": "Rindi"
+    },
+    {
+        "code": 531110,
+        "regency_code": 5311,
+        "province_code": 53,
+        "name": "Pahunga Lodu"
+    },
+    {
+        "code": 531111,
+        "regency_code": 5311,
+        "province_code": 53,
+        "name": "Wulla Waijelu"
+    },
+    {
+        "code": 531112,
+        "regency_code": 5311,
+        "province_code": 53,
+        "name": "Paberiwai"
+    },
+    {
+        "code": 531113,
+        "regency_code": 5311,
+        "province_code": 53,
+        "name": "Karera"
+    },
+    {
+        "code": 531114,
+        "regency_code": 5311,
+        "province_code": 53,
+        "name": "Kahaungu Eti"
+    },
+    {
+        "code": 531115,
+        "regency_code": 5311,
+        "province_code": 53,
+        "name": "Matawai La Pawu"
+    },
+    {
+        "code": 531116,
+        "regency_code": 5311,
+        "province_code": 53,
+        "name": "Kambera"
+    },
+    {
+        "code": 531117,
+        "regency_code": 5311,
+        "province_code": 53,
+        "name": "Kambata Mapambuhang"
+    },
+    {
+        "code": 531118,
+        "regency_code": 5311,
+        "province_code": 53,
+        "name": "Lewa Tidahu"
+    },
+    {
+        "code": 531119,
+        "regency_code": 5311,
+        "province_code": 53,
+        "name": "Katala Hamu Lingu"
+    },
+    {
+        "code": 531120,
+        "regency_code": 5311,
+        "province_code": 53,
+        "name": "Kanatang"
+    },
+    {
+        "code": 531121,
+        "regency_code": 5311,
+        "province_code": 53,
+        "name": "Ngadu Ngala"
+    },
+    {
+        "code": 531122,
+        "regency_code": 5311,
+        "province_code": 53,
+        "name": "Mahu"
+    },
+    {
+        "code": 531204,
+        "regency_code": 5312,
+        "province_code": 53,
+        "name": "Tana Righu"
+    },
+    {
+        "code": 531210,
+        "regency_code": 5312,
+        "province_code": 53,
+        "name": "Loli"
+    },
+    {
+        "code": 531211,
+        "regency_code": 5312,
+        "province_code": 53,
+        "name": "Wanokaka"
+    },
+    {
+        "code": 531212,
+        "regency_code": 5312,
+        "province_code": 53,
+        "name": "Lamboya"
+    },
+    {
+        "code": 531215,
+        "regency_code": 5312,
+        "province_code": 53,
+        "name": "Kota Waikabubak"
+    },
+    {
+        "code": 531218,
+        "regency_code": 5312,
+        "province_code": 53,
+        "name": "Laboya Barat"
+    },
+    {
+        "code": 531301,
+        "regency_code": 5313,
+        "province_code": 53,
+        "name": "Naga Wutung"
+    },
+    {
+        "code": 531302,
+        "regency_code": 5313,
+        "province_code": 53,
+        "name": "Atadei"
+    },
+    {
+        "code": 531303,
+        "regency_code": 5313,
+        "province_code": 53,
+        "name": "Ile Ape"
+    },
+    {
+        "code": 531304,
+        "regency_code": 5313,
+        "province_code": 53,
+        "name": "Lebatukan"
+    },
+    {
+        "code": 531305,
+        "regency_code": 5313,
+        "province_code": 53,
+        "name": "Nubatukan"
+    },
+    {
+        "code": 531306,
+        "regency_code": 5313,
+        "province_code": 53,
+        "name": "Omesuri"
+    },
+    {
+        "code": 531307,
+        "regency_code": 5313,
+        "province_code": 53,
+        "name": "Buyasuri"
+    },
+    {
+        "code": 531308,
+        "regency_code": 5313,
+        "province_code": 53,
+        "name": "Wulandoni"
+    },
+    {
+        "code": 531309,
+        "regency_code": 5313,
+        "province_code": 53,
+        "name": "Ile Ape Timur"
+    },
+    {
+        "code": 531401,
+        "regency_code": 5314,
+        "province_code": 53,
+        "name": "Rote Barat Daya"
+    },
+    {
+        "code": 531402,
+        "regency_code": 5314,
+        "province_code": 53,
+        "name": "Rote Barat Laut"
+    },
+    {
+        "code": 531403,
+        "regency_code": 5314,
+        "province_code": 53,
+        "name": "Lobalain"
+    },
+    {
+        "code": 531404,
+        "regency_code": 5314,
+        "province_code": 53,
+        "name": "Rote Tengah"
+    },
+    {
+        "code": 531405,
+        "regency_code": 5314,
+        "province_code": 53,
+        "name": "Pantai Baru"
+    },
+    {
+        "code": 531406,
+        "regency_code": 5314,
+        "province_code": 53,
+        "name": "Rote Timur"
+    },
+    {
+        "code": 531407,
+        "regency_code": 5314,
+        "province_code": 53,
+        "name": "Rote Barat"
+    },
+    {
+        "code": 531408,
+        "regency_code": 5314,
+        "province_code": 53,
+        "name": "Rote Selatan"
+    },
+    {
+        "code": 531409,
+        "regency_code": 5314,
+        "province_code": 53,
+        "name": "Ndao Nuse"
+    },
+    {
+        "code": 531410,
+        "regency_code": 5314,
+        "province_code": 53,
+        "name": "Landu Leko"
+    },
+    {
+        "code": 531411,
+        "regency_code": 5314,
+        "province_code": 53,
+        "name": "Loaholu"
+    },
+    {
+        "code": 531501,
+        "regency_code": 5315,
+        "province_code": 53,
+        "name": "Macang Pacar"
+    },
+    {
+        "code": 531502,
+        "regency_code": 5315,
+        "province_code": 53,
+        "name": "Kuwus"
+    },
+    {
+        "code": 531503,
+        "regency_code": 5315,
+        "province_code": 53,
+        "name": "Lembor"
+    },
+    {
+        "code": 531504,
+        "regency_code": 5315,
+        "province_code": 53,
+        "name": "Sano Nggoang"
+    },
+    {
+        "code": 531505,
+        "regency_code": 5315,
+        "province_code": 53,
+        "name": "Komodo"
+    },
+    {
+        "code": 531506,
+        "regency_code": 5315,
+        "province_code": 53,
+        "name": "Boleng"
+    },
+    {
+        "code": 531507,
+        "regency_code": 5315,
+        "province_code": 53,
+        "name": "Welak"
+    },
+    {
+        "code": 531508,
+        "regency_code": 5315,
+        "province_code": 53,
+        "name": "Ndoso"
+    },
+    {
+        "code": 531509,
+        "regency_code": 5315,
+        "province_code": 53,
+        "name": "Lembor Selatan"
+    },
+    {
+        "code": 531510,
+        "regency_code": 5315,
+        "province_code": 53,
+        "name": "Mbeliling"
+    },
+    {
+        "code": 531511,
+        "regency_code": 5315,
+        "province_code": 53,
+        "name": "Pacar"
+    },
+    {
+        "code": 531512,
+        "regency_code": 5315,
+        "province_code": 53,
+        "name": "Kuwus Barat"
+    },
+    {
+        "code": 531601,
+        "regency_code": 5316,
+        "province_code": 53,
+        "name": "Aesesa"
+    },
+    {
+        "code": 531602,
+        "regency_code": 5316,
+        "province_code": 53,
+        "name": "Nangaroro"
+    },
+    {
+        "code": 531603,
+        "regency_code": 5316,
+        "province_code": 53,
+        "name": "Boawae"
+    },
+    {
+        "code": 531604,
+        "regency_code": 5316,
+        "province_code": 53,
+        "name": "Mauponggo"
+    },
+    {
+        "code": 531605,
+        "regency_code": 5316,
+        "province_code": 53,
+        "name": "Wolowae"
+    },
+    {
+        "code": 531606,
+        "regency_code": 5316,
+        "province_code": 53,
+        "name": "Keo Tengah"
+    },
+    {
+        "code": 531607,
+        "regency_code": 5316,
+        "province_code": 53,
+        "name": "Aesesa Selatan"
+    },
+    {
+        "code": 531701,
+        "regency_code": 5317,
+        "province_code": 53,
+        "name": "Katiku Tana"
+    },
+    {
+        "code": 531702,
+        "regency_code": 5317,
+        "province_code": 53,
+        "name": "Umbu Ratu Nggay Barat"
+    },
+    {
+        "code": 531703,
+        "regency_code": 5317,
+        "province_code": 53,
+        "name": "Mamboro"
+    },
+    {
+        "code": 531704,
+        "regency_code": 5317,
+        "province_code": 53,
+        "name": "Umbu Ratu Nggay"
+    },
+    {
+        "code": 531705,
+        "regency_code": 5317,
+        "province_code": 53,
+        "name": "Katiku Tana Selatan"
+    },
+    {
+        "code": 531706,
+        "regency_code": 5317,
+        "province_code": 53,
+        "name": "Umbu Ratu Nggay Tengah"
+    },
+    {
+        "code": 531801,
+        "regency_code": 5318,
+        "province_code": 53,
+        "name": "Loura"
+    },
+    {
+        "code": 531802,
+        "regency_code": 5318,
+        "province_code": 53,
+        "name": "Wewewa Utara"
+    },
+    {
+        "code": 531803,
+        "regency_code": 5318,
+        "province_code": 53,
+        "name": "Wewewa Timur"
+    },
+    {
+        "code": 531804,
+        "regency_code": 5318,
+        "province_code": 53,
+        "name": "Wewewa Barat"
+    },
+    {
+        "code": 531805,
+        "regency_code": 5318,
+        "province_code": 53,
+        "name": "Wewewa Selatan"
+    },
+    {
+        "code": 531806,
+        "regency_code": 5318,
+        "province_code": 53,
+        "name": "Kodi Bangedo"
+    },
+    {
+        "code": 531807,
+        "regency_code": 5318,
+        "province_code": 53,
+        "name": "Kodi"
+    },
+    {
+        "code": 531808,
+        "regency_code": 5318,
+        "province_code": 53,
+        "name": "Kodi Utara"
+    },
+    {
+        "code": 531809,
+        "regency_code": 5318,
+        "province_code": 53,
+        "name": "Kota Tambolaka"
+    },
+    {
+        "code": 531810,
+        "regency_code": 5318,
+        "province_code": 53,
+        "name": "Wewewa Tengah"
+    },
+    {
+        "code": 531811,
+        "regency_code": 5318,
+        "province_code": 53,
+        "name": "Kodi Balaghar"
+    },
+    {
+        "code": 531901,
+        "regency_code": 5319,
+        "province_code": 53,
+        "name": "Borong"
+    },
+    {
+        "code": 531902,
+        "regency_code": 5319,
+        "province_code": 53,
+        "name": "Lamba Leda Selatan"
+    },
+    {
+        "code": 531903,
+        "regency_code": 5319,
+        "province_code": 53,
+        "name": "Lamba Leda"
+    },
+    {
+        "code": 531904,
+        "regency_code": 5319,
+        "province_code": 53,
+        "name": "Sambi Rampas"
+    },
+    {
+        "code": 531905,
+        "regency_code": 5319,
+        "province_code": 53,
+        "name": "Elar"
+    },
+    {
+        "code": 531906,
+        "regency_code": 5319,
+        "province_code": 53,
+        "name": "Kota Komba"
+    },
+    {
+        "code": 531907,
+        "regency_code": 5319,
+        "province_code": 53,
+        "name": "Rana Mese"
+    },
+    {
+        "code": 531908,
+        "regency_code": 5319,
+        "province_code": 53,
+        "name": "Lamba Leda Timur"
+    },
+    {
+        "code": 531909,
+        "regency_code": 5319,
+        "province_code": 53,
+        "name": "Elar Selatan"
+    },
+    {
+        "code": 531910,
+        "regency_code": 5319,
+        "province_code": 53,
+        "name": "Kota Komba Utara"
+    },
+    {
+        "code": 531911,
+        "regency_code": 5319,
+        "province_code": 53,
+        "name": "Lamba Leda Utara"
+    },
+    {
+        "code": 531912,
+        "regency_code": 5319,
+        "province_code": 53,
+        "name": "Congkar"
+    },
+    {
+        "code": 532001,
+        "regency_code": 5320,
+        "province_code": 53,
+        "name": "Sabu Barat"
+    },
+    {
+        "code": 532002,
+        "regency_code": 5320,
+        "province_code": 53,
+        "name": "Sabu Tengah"
+    },
+    {
+        "code": 532003,
+        "regency_code": 5320,
+        "province_code": 53,
+        "name": "Sabu Timur"
+    },
+    {
+        "code": 532004,
+        "regency_code": 5320,
+        "province_code": 53,
+        "name": "Sabu Liae"
+    },
+    {
+        "code": 532005,
+        "regency_code": 5320,
+        "province_code": 53,
+        "name": "Hawu Mehara"
+    },
+    {
+        "code": 532006,
+        "regency_code": 5320,
+        "province_code": 53,
+        "name": "Raijua"
+    },
+    {
+        "code": 532101,
+        "regency_code": 5321,
+        "province_code": 53,
+        "name": "Malaka Tengah"
+    },
+    {
+        "code": 532102,
+        "regency_code": 5321,
+        "province_code": 53,
+        "name": "Malaka Barat"
+    },
+    {
+        "code": 532103,
+        "regency_code": 5321,
+        "province_code": 53,
+        "name": "Wewiku"
+    },
+    {
+        "code": 532104,
+        "regency_code": 5321,
+        "province_code": 53,
+        "name": "Weliman"
+    },
+    {
+        "code": 532105,
+        "regency_code": 5321,
+        "province_code": 53,
+        "name": "Rinhat"
+    },
+    {
+        "code": 532106,
+        "regency_code": 5321,
+        "province_code": 53,
+        "name": "Io Kufeu"
+    },
+    {
+        "code": 532107,
+        "regency_code": 5321,
+        "province_code": 53,
+        "name": "Sasitamean"
+    },
+    {
+        "code": 532108,
+        "regency_code": 5321,
+        "province_code": 53,
+        "name": "Laenmanen"
+    },
+    {
+        "code": 532109,
+        "regency_code": 5321,
+        "province_code": 53,
+        "name": "Malaka Timur"
+    },
+    {
+        "code": 532110,
+        "regency_code": 5321,
+        "province_code": 53,
+        "name": "Kobalima Timur"
+    },
+    {
+        "code": 532111,
+        "regency_code": 5321,
+        "province_code": 53,
+        "name": "Kobalima"
+    },
+    {
+        "code": 532112,
+        "regency_code": 5321,
+        "province_code": 53,
+        "name": "Botin Leobele"
+    },
+    {
+        "code": 537101,
+        "regency_code": 5371,
+        "province_code": 53,
+        "name": "Alak"
+    },
+    {
+        "code": 537102,
+        "regency_code": 5371,
+        "province_code": 53,
+        "name": "Maulafa"
+    },
+    {
+        "code": 537103,
+        "regency_code": 5371,
+        "province_code": 53,
+        "name": "Kelapa Lima"
+    },
+    {
+        "code": 537104,
+        "regency_code": 5371,
+        "province_code": 53,
+        "name": "Oebobo"
+    },
+    {
+        "code": 537105,
+        "regency_code": 5371,
+        "province_code": 53,
+        "name": "Kota Raja"
+    },
+    {
+        "code": 537106,
+        "regency_code": 5371,
+        "province_code": 53,
+        "name": "Kota Lama"
+    }
+]

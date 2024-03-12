@@ -1,0 +1,72 @@
+[
+    {
+        "code": 5201,
+        "province_code": 52,
+        "name": "Kab. Lombok Barat",
+        "latitude": -8.681396051887829,
+        "longitude": 116.13670528305914
+    },
+    {
+        "code": 5202,
+        "province_code": 52,
+        "name": "Kab. Lombok Tengah",
+        "latitude": -8.706131863466181,
+        "longitude": 116.27003418305937
+    },
+    {
+        "code": 5203,
+        "province_code": 52,
+        "name": "Kab. Lombok Timur",
+        "latitude": -8.650938604217814,
+        "longitude": 116.52965363887955
+    },
+    {
+        "code": 5204,
+        "province_code": 52,
+        "name": "Kab. Sumbawa",
+        "latitude": -8.489511525311054,
+        "longitude": 117.4196890006745
+    },
+    {
+        "code": 5205,
+        "province_code": 52,
+        "name": "Kab. Dompu",
+        "latitude": -8.534112083030623,
+        "longitude": 118.46474902538593
+    },
+    {
+        "code": 5206,
+        "province_code": 52,
+        "name": "Kab. Bima",
+        "latitude": -8.556532639441706,
+        "longitude": 118.67015779690297
+    },
+    {
+        "code": 5207,
+        "province_code": 52,
+        "name": "Kab. Sumbawa Barat",
+        "latitude": -8.753910149465758,
+        "longitude": 116.85426539840077
+    },
+    {
+        "code": 5208,
+        "province_code": 52,
+        "name": "Kab. Lombok Utara",
+        "latitude": -8.35633546555901,
+        "longitude": 116.15926985422034
+    },
+    {
+        "code": 5271,
+        "province_code": 52,
+        "name": "Kota Mataram",
+        "latitude": -8.582728859362096,
+        "longitude": 116.10813842538651
+    },
+    {
+        "code": 5272,
+        "province_code": 52,
+        "name": "Kota Bima",
+        "latitude": -8.461655165060522,
+        "longitude": 118.74871988305718
+    }
+]

@@ -1,0 +1,1742 @@
+[
+    {
+        "code": 110101,
+        "regency_code": 1101,
+        "province_code": 11,
+        "name": "Bakongan"
+    },
+    {
+        "code": 110102,
+        "regency_code": 1101,
+        "province_code": 11,
+        "name": "Kluet Utara"
+    },
+    {
+        "code": 110103,
+        "regency_code": 1101,
+        "province_code": 11,
+        "name": "Kluet Selatan"
+    },
+    {
+        "code": 110104,
+        "regency_code": 1101,
+        "province_code": 11,
+        "name": "Labuhanhaji"
+    },
+    {
+        "code": 110105,
+        "regency_code": 1101,
+        "province_code": 11,
+        "name": "Meukek"
+    },
+    {
+        "code": 110106,
+        "regency_code": 1101,
+        "province_code": 11,
+        "name": "Samadua"
+    },
+    {
+        "code": 110107,
+        "regency_code": 1101,
+        "province_code": 11,
+        "name": "Sawang"
+    },
+    {
+        "code": 110108,
+        "regency_code": 1101,
+        "province_code": 11,
+        "name": "Tapaktuan"
+    },
+    {
+        "code": 110109,
+        "regency_code": 1101,
+        "province_code": 11,
+        "name": "Trumon"
+    },
+    {
+        "code": 110110,
+        "regency_code": 1101,
+        "province_code": 11,
+        "name": "Pasi Raja"
+    },
+    {
+        "code": 110111,
+        "regency_code": 1101,
+        "province_code": 11,
+        "name": "Labuhan Haji Timur"
+    },
+    {
+        "code": 110112,
+        "regency_code": 1101,
+        "province_code": 11,
+        "name": "Labuhan Haji Barat"
+    },
+    {
+        "code": 110113,
+        "regency_code": 1101,
+        "province_code": 11,
+        "name": "Kluet Tengah"
+    },
+    {
+        "code": 110114,
+        "regency_code": 1101,
+        "province_code": 11,
+        "name": "Kluet Timur"
+    },
+    {
+        "code": 110115,
+        "regency_code": 1101,
+        "province_code": 11,
+        "name": "Bakongan Timur"
+    },
+    {
+        "code": 110116,
+        "regency_code": 1101,
+        "province_code": 11,
+        "name": "Trumon Timur"
+    },
+    {
+        "code": 110117,
+        "regency_code": 1101,
+        "province_code": 11,
+        "name": "Kota Bahagia"
+    },
+    {
+        "code": 110118,
+        "regency_code": 1101,
+        "province_code": 11,
+        "name": "Trumon Tengah"
+    },
+    {
+        "code": 110201,
+        "regency_code": 1102,
+        "province_code": 11,
+        "name": "Lawe Alas"
+    },
+    {
+        "code": 110202,
+        "regency_code": 1102,
+        "province_code": 11,
+        "name": "Lawe Sigala-Gala"
+    },
+    {
+        "code": 110203,
+        "regency_code": 1102,
+        "province_code": 11,
+        "name": "Bambel"
+    },
+    {
+        "code": 110204,
+        "regency_code": 1102,
+        "province_code": 11,
+        "name": "Babussalam"
+    },
+    {
+        "code": 110205,
+        "regency_code": 1102,
+        "province_code": 11,
+        "name": "Badar"
+    },
+    {
+        "code": 110206,
+        "regency_code": 1102,
+        "province_code": 11,
+        "name": "Babul Makmur"
+    },
+    {
+        "code": 110207,
+        "regency_code": 1102,
+        "province_code": 11,
+        "name": "Darul Hasanah"
+    },
+    {
+        "code": 110208,
+        "regency_code": 1102,
+        "province_code": 11,
+        "name": "Lawe Bulan"
+    },
+    {
+        "code": 110209,
+        "regency_code": 1102,
+        "province_code": 11,
+        "name": "Bukit Tusam"
+    },
+    {
+        "code": 110210,
+        "regency_code": 1102,
+        "province_code": 11,
+        "name": "Semadam"
+    },
+    {
+        "code": 110211,
+        "regency_code": 1102,
+        "province_code": 11,
+        "name": "Babul Rahmah"
+    },
+    {
+        "code": 110212,
+        "regency_code": 1102,
+        "province_code": 11,
+        "name": "Ketambe"
+    },
+    {
+        "code": 110213,
+        "regency_code": 1102,
+        "province_code": 11,
+        "name": "Deleng Pokhkisen"
+    },
+    {
+        "code": 110214,
+        "regency_code": 1102,
+        "province_code": 11,
+        "name": "Lawe Sumur"
+    },
+    {
+        "code": 110215,
+        "regency_code": 1102,
+        "province_code": 11,
+        "name": "Tanoh Alas"
+    },
+    {
+        "code": 110216,
+        "regency_code": 1102,
+        "province_code": 11,
+        "name": "Leuser"
+    },
+    {
+        "code": 110301,
+        "regency_code": 1103,
+        "province_code": 11,
+        "name": "Darul Aman"
+    },
+    {
+        "code": 110302,
+        "regency_code": 1103,
+        "province_code": 11,
+        "name": "Julok"
+    },
+    {
+        "code": 110303,
+        "regency_code": 1103,
+        "province_code": 11,
+        "name": "Idi Rayeuk"
+    },
+    {
+        "code": 110304,
+        "regency_code": 1103,
+        "province_code": 11,
+        "name": "Birem Bayeun"
+    },
+    {
+        "code": 110305,
+        "regency_code": 1103,
+        "province_code": 11,
+        "name": "Serbajadi"
+    },
+    {
+        "code": 110306,
+        "regency_code": 1103,
+        "province_code": 11,
+        "name": "Nurussalam"
+    },
+    {
+        "code": 110307,
+        "regency_code": 1103,
+        "province_code": 11,
+        "name": "Peureulak"
+    },
+    {
+        "code": 110308,
+        "regency_code": 1103,
+        "province_code": 11,
+        "name": "Rantau Selamat"
+    },
+    {
+        "code": 110309,
+        "regency_code": 1103,
+        "province_code": 11,
+        "name": "Simpang Ulim"
+    },
+    {
+        "code": 110310,
+        "regency_code": 1103,
+        "province_code": 11,
+        "name": "Ranto Peureulak"
+    },
+    {
+        "code": 110311,
+        "regency_code": 1103,
+        "province_code": 11,
+        "name": "Pante Bidari"
+    },
+    {
+        "code": 110312,
+        "regency_code": 1103,
+        "province_code": 11,
+        "name": "Madat"
+    },
+    {
+        "code": 110313,
+        "regency_code": 1103,
+        "province_code": 11,
+        "name": "Indra Makmu"
+    },
+    {
+        "code": 110314,
+        "regency_code": 1103,
+        "province_code": 11,
+        "name": "Idi Tunong"
+    },
+    {
+        "code": 110315,
+        "regency_code": 1103,
+        "province_code": 11,
+        "name": "Banda Alam"
+    },
+    {
+        "code": 110316,
+        "regency_code": 1103,
+        "province_code": 11,
+        "name": "Peudawa"
+    },
+    {
+        "code": 110317,
+        "regency_code": 1103,
+        "province_code": 11,
+        "name": "Peureulak Timur"
+    },
+    {
+        "code": 110318,
+        "regency_code": 1103,
+        "province_code": 11,
+        "name": "Peureulak Barat"
+    },
+    {
+        "code": 110319,
+        "regency_code": 1103,
+        "province_code": 11,
+        "name": "Sungai Raya"
+    },
+    {
+        "code": 110320,
+        "regency_code": 1103,
+        "province_code": 11,
+        "name": "Simpang Jernih"
+    },
+    {
+        "code": 110321,
+        "regency_code": 1103,
+        "province_code": 11,
+        "name": "Darul Ihsan"
+    },
+    {
+        "code": 110322,
+        "regency_code": 1103,
+        "province_code": 11,
+        "name": "Darul Falah"
+    },
+    {
+        "code": 110323,
+        "regency_code": 1103,
+        "province_code": 11,
+        "name": "Idi Timur"
+    },
+    {
+        "code": 110324,
+        "regency_code": 1103,
+        "province_code": 11,
+        "name": "Peunaron"
+    },
+    {
+        "code": 110401,
+        "regency_code": 1104,
+        "province_code": 11,
+        "name": "Linge"
+    },
+    {
+        "code": 110402,
+        "regency_code": 1104,
+        "province_code": 11,
+        "name": "Silih Nara"
+    },
+    {
+        "code": 110403,
+        "regency_code": 1104,
+        "province_code": 11,
+        "name": "Bebesen"
+    },
+    {
+        "code": 110407,
+        "regency_code": 1104,
+        "province_code": 11,
+        "name": "Pegasing"
+    },
+    {
+        "code": 110408,
+        "regency_code": 1104,
+        "province_code": 11,
+        "name": "Bintang"
+    },
+    {
+        "code": 110410,
+        "regency_code": 1104,
+        "province_code": 11,
+        "name": "Ketol"
+    },
+    {
+        "code": 110411,
+        "regency_code": 1104,
+        "province_code": 11,
+        "name": "Kebayakan"
+    },
+    {
+        "code": 110412,
+        "regency_code": 1104,
+        "province_code": 11,
+        "name": "Kute Panang"
+    },
+    {
+        "code": 110413,
+        "regency_code": 1104,
+        "province_code": 11,
+        "name": "Celala"
+    },
+    {
+        "code": 110417,
+        "regency_code": 1104,
+        "province_code": 11,
+        "name": "Laut Tawar"
+    },
+    {
+        "code": 110418,
+        "regency_code": 1104,
+        "province_code": 11,
+        "name": "Atu Lintang"
+    },
+    {
+        "code": 110419,
+        "regency_code": 1104,
+        "province_code": 11,
+        "name": "Jagong Jeget"
+    },
+    {
+        "code": 110420,
+        "regency_code": 1104,
+        "province_code": 11,
+        "name": "Bies"
+    },
+    {
+        "code": 110421,
+        "regency_code": 1104,
+        "province_code": 11,
+        "name": "Rusip Antara"
+    },
+    {
+        "code": 110501,
+        "regency_code": 1105,
+        "province_code": 11,
+        "name": "Johan Pahlawan"
+    },
+    {
+        "code": 110502,
+        "regency_code": 1105,
+        "province_code": 11,
+        "name": "Kaway XVI"
+    },
+    {
+        "code": 110503,
+        "regency_code": 1105,
+        "province_code": 11,
+        "name": "Sungai Mas"
+    },
+    {
+        "code": 110504,
+        "regency_code": 1105,
+        "province_code": 11,
+        "name": "Woyla"
+    },
+    {
+        "code": 110505,
+        "regency_code": 1105,
+        "province_code": 11,
+        "name": "Samatiga"
+    },
+    {
+        "code": 110506,
+        "regency_code": 1105,
+        "province_code": 11,
+        "name": "Bubon"
+    },
+    {
+        "code": 110507,
+        "regency_code": 1105,
+        "province_code": 11,
+        "name": "Arongan Lambalek"
+    },
+    {
+        "code": 110508,
+        "regency_code": 1105,
+        "province_code": 11,
+        "name": "Pante Ceureumen"
+    },
+    {
+        "code": 110509,
+        "regency_code": 1105,
+        "province_code": 11,
+        "name": "Meureubo"
+    },
+    {
+        "code": 110510,
+        "regency_code": 1105,
+        "province_code": 11,
+        "name": "Woyla Barat"
+    },
+    {
+        "code": 110511,
+        "regency_code": 1105,
+        "province_code": 11,
+        "name": "Woyla Timur"
+    },
+    {
+        "code": 110512,
+        "regency_code": 1105,
+        "province_code": 11,
+        "name": "Panton Reu"
+    },
+    {
+        "code": 110601,
+        "regency_code": 1106,
+        "province_code": 11,
+        "name": "Lhoong"
+    },
+    {
+        "code": 110602,
+        "regency_code": 1106,
+        "province_code": 11,
+        "name": "Lhoknga"
+    },
+    {
+        "code": 110603,
+        "regency_code": 1106,
+        "province_code": 11,
+        "name": "Indrapuri"
+    },
+    {
+        "code": 110604,
+        "regency_code": 1106,
+        "province_code": 11,
+        "name": "Seulimeum"
+    },
+    {
+        "code": 110605,
+        "regency_code": 1106,
+        "province_code": 11,
+        "name": "Montasik"
+    },
+    {
+        "code": 110606,
+        "regency_code": 1106,
+        "province_code": 11,
+        "name": "Sukamakmur"
+    },
+    {
+        "code": 110607,
+        "regency_code": 1106,
+        "province_code": 11,
+        "name": "Darul Imarah"
+    },
+    {
+        "code": 110608,
+        "regency_code": 1106,
+        "province_code": 11,
+        "name": "Peukan Bada"
+    },
+    {
+        "code": 110609,
+        "regency_code": 1106,
+        "province_code": 11,
+        "name": "Mesjid Raya"
+    },
+    {
+        "code": 110610,
+        "regency_code": 1106,
+        "province_code": 11,
+        "name": "Ingin Jaya"
+    },
+    {
+        "code": 110611,
+        "regency_code": 1106,
+        "province_code": 11,
+        "name": "Kuta Baro"
+    },
+    {
+        "code": 110612,
+        "regency_code": 1106,
+        "province_code": 11,
+        "name": "Darussalam"
+    },
+    {
+        "code": 110613,
+        "regency_code": 1106,
+        "province_code": 11,
+        "name": "Pulo Aceh"
+    },
+    {
+        "code": 110614,
+        "regency_code": 1106,
+        "province_code": 11,
+        "name": "Lembah Seulawah"
+    },
+    {
+        "code": 110615,
+        "regency_code": 1106,
+        "province_code": 11,
+        "name": "Kota Jantho"
+    },
+    {
+        "code": 110616,
+        "regency_code": 1106,
+        "province_code": 11,
+        "name": "Kuta Cot Glie"
+    },
+    {
+        "code": 110617,
+        "regency_code": 1106,
+        "province_code": 11,
+        "name": "Kuta Malaka"
+    },
+    {
+        "code": 110618,
+        "regency_code": 1106,
+        "province_code": 11,
+        "name": "Simpang Tiga"
+    },
+    {
+        "code": 110619,
+        "regency_code": 1106,
+        "province_code": 11,
+        "name": "Darul Kamal"
+    },
+    {
+        "code": 110620,
+        "regency_code": 1106,
+        "province_code": 11,
+        "name": "Baitussalam"
+    },
+    {
+        "code": 110621,
+        "regency_code": 1106,
+        "province_code": 11,
+        "name": "Krueng Barona Jaya"
+    },
+    {
+        "code": 110622,
+        "regency_code": 1106,
+        "province_code": 11,
+        "name": "Leupung"
+    },
+    {
+        "code": 110623,
+        "regency_code": 1106,
+        "province_code": 11,
+        "name": "Blang Bintang"
+    },
+    {
+        "code": 110703,
+        "regency_code": 1107,
+        "province_code": 11,
+        "name": "Batee"
+    },
+    {
+        "code": 110704,
+        "regency_code": 1107,
+        "province_code": 11,
+        "name": "Delima"
+    },
+    {
+        "code": 110705,
+        "regency_code": 1107,
+        "province_code": 11,
+        "name": "Geumpang"
+    },
+    {
+        "code": 110706,
+        "regency_code": 1107,
+        "province_code": 11,
+        "name": "Glumpang Tiga"
+    },
+    {
+        "code": 110707,
+        "regency_code": 1107,
+        "province_code": 11,
+        "name": "Indrajaya"
+    },
+    {
+        "code": 110708,
+        "regency_code": 1107,
+        "province_code": 11,
+        "name": "Kembang Tanjong"
+    },
+    {
+        "code": 110709,
+        "regency_code": 1107,
+        "province_code": 11,
+        "name": "Kota Sigli"
+    },
+    {
+        "code": 110711,
+        "regency_code": 1107,
+        "province_code": 11,
+        "name": "Mila"
+    },
+    {
+        "code": 110712,
+        "regency_code": 1107,
+        "province_code": 11,
+        "name": "Muara Tiga"
+    },
+    {
+        "code": 110713,
+        "regency_code": 1107,
+        "province_code": 11,
+        "name": "Mutiara"
+    },
+    {
+        "code": 110714,
+        "regency_code": 1107,
+        "province_code": 11,
+        "name": "Padang Tiji"
+    },
+    {
+        "code": 110715,
+        "regency_code": 1107,
+        "province_code": 11,
+        "name": "Peukan Baro"
+    },
+    {
+        "code": 110716,
+        "regency_code": 1107,
+        "province_code": 11,
+        "name": "Pidie"
+    },
+    {
+        "code": 110717,
+        "regency_code": 1107,
+        "province_code": 11,
+        "name": "Sakti"
+    },
+    {
+        "code": 110718,
+        "regency_code": 1107,
+        "province_code": 11,
+        "name": "Simpang Tiga"
+    },
+    {
+        "code": 110719,
+        "regency_code": 1107,
+        "province_code": 11,
+        "name": "Tangse"
+    },
+    {
+        "code": 110721,
+        "regency_code": 1107,
+        "province_code": 11,
+        "name": "Tiro\/Truseb"
+    },
+    {
+        "code": 110722,
+        "regency_code": 1107,
+        "province_code": 11,
+        "name": "Keumala"
+    },
+    {
+        "code": 110724,
+        "regency_code": 1107,
+        "province_code": 11,
+        "name": "Mutiara Timur"
+    },
+    {
+        "code": 110725,
+        "regency_code": 1107,
+        "province_code": 11,
+        "name": "Grong-grong"
+    },
+    {
+        "code": 110727,
+        "regency_code": 1107,
+        "province_code": 11,
+        "name": "Mane"
+    },
+    {
+        "code": 110729,
+        "regency_code": 1107,
+        "province_code": 11,
+        "name": "Glumpang Baro"
+    },
+    {
+        "code": 110731,
+        "regency_code": 1107,
+        "province_code": 11,
+        "name": "Titeue"
+    },
+    {
+        "code": 110801,
+        "regency_code": 1108,
+        "province_code": 11,
+        "name": "Baktiya"
+    },
+    {
+        "code": 110802,
+        "regency_code": 1108,
+        "province_code": 11,
+        "name": "Dewantara"
+    },
+    {
+        "code": 110803,
+        "regency_code": 1108,
+        "province_code": 11,
+        "name": "Kuta Makmur"
+    },
+    {
+        "code": 110804,
+        "regency_code": 1108,
+        "province_code": 11,
+        "name": "Lhoksukon"
+    },
+    {
+        "code": 110805,
+        "regency_code": 1108,
+        "province_code": 11,
+        "name": "Matangkuli"
+    },
+    {
+        "code": 110806,
+        "regency_code": 1108,
+        "province_code": 11,
+        "name": "Muara Batu"
+    },
+    {
+        "code": 110807,
+        "regency_code": 1108,
+        "province_code": 11,
+        "name": "Meurah Mulia"
+    },
+    {
+        "code": 110808,
+        "regency_code": 1108,
+        "province_code": 11,
+        "name": "Samudera"
+    },
+    {
+        "code": 110809,
+        "regency_code": 1108,
+        "province_code": 11,
+        "name": "Seunuddon"
+    },
+    {
+        "code": 110810,
+        "regency_code": 1108,
+        "province_code": 11,
+        "name": "Syamtalira Aron"
+    },
+    {
+        "code": 110811,
+        "regency_code": 1108,
+        "province_code": 11,
+        "name": "Syamtalira Bayu"
+    },
+    {
+        "code": 110812,
+        "regency_code": 1108,
+        "province_code": 11,
+        "name": "Tanah Luas"
+    },
+    {
+        "code": 110813,
+        "regency_code": 1108,
+        "province_code": 11,
+        "name": "Tanah Pasir"
+    },
+    {
+        "code": 110814,
+        "regency_code": 1108,
+        "province_code": 11,
+        "name": "T. Jambo Aye"
+    },
+    {
+        "code": 110815,
+        "regency_code": 1108,
+        "province_code": 11,
+        "name": "Sawang"
+    },
+    {
+        "code": 110816,
+        "regency_code": 1108,
+        "province_code": 11,
+        "name": "Nisam"
+    },
+    {
+        "code": 110817,
+        "regency_code": 1108,
+        "province_code": 11,
+        "name": "Cot Girek"
+    },
+    {
+        "code": 110818,
+        "regency_code": 1108,
+        "province_code": 11,
+        "name": "Langkahan"
+    },
+    {
+        "code": 110819,
+        "regency_code": 1108,
+        "province_code": 11,
+        "name": "Baktiya Barat"
+    },
+    {
+        "code": 110820,
+        "regency_code": 1108,
+        "province_code": 11,
+        "name": "Paya Bakong"
+    },
+    {
+        "code": 110821,
+        "regency_code": 1108,
+        "province_code": 11,
+        "name": "Nibong"
+    },
+    {
+        "code": 110822,
+        "regency_code": 1108,
+        "province_code": 11,
+        "name": "Simpang Kramat"
+    },
+    {
+        "code": 110823,
+        "regency_code": 1108,
+        "province_code": 11,
+        "name": "Lapang"
+    },
+    {
+        "code": 110824,
+        "regency_code": 1108,
+        "province_code": 11,
+        "name": "Pirak Timur"
+    },
+    {
+        "code": 110825,
+        "regency_code": 1108,
+        "province_code": 11,
+        "name": "Geuredong Pase"
+    },
+    {
+        "code": 110826,
+        "regency_code": 1108,
+        "province_code": 11,
+        "name": "Banda Baro"
+    },
+    {
+        "code": 110827,
+        "regency_code": 1108,
+        "province_code": 11,
+        "name": "Nisam Antara"
+    },
+    {
+        "code": 110901,
+        "regency_code": 1109,
+        "province_code": 11,
+        "name": "Simeulue Tengah"
+    },
+    {
+        "code": 110902,
+        "regency_code": 1109,
+        "province_code": 11,
+        "name": "Salang"
+    },
+    {
+        "code": 110903,
+        "regency_code": 1109,
+        "province_code": 11,
+        "name": "Teupah Barat"
+    },
+    {
+        "code": 110904,
+        "regency_code": 1109,
+        "province_code": 11,
+        "name": "Simeulue Timur"
+    },
+    {
+        "code": 110905,
+        "regency_code": 1109,
+        "province_code": 11,
+        "name": "Teluk Dalam"
+    },
+    {
+        "code": 110906,
+        "regency_code": 1109,
+        "province_code": 11,
+        "name": "Simeulue Barat"
+    },
+    {
+        "code": 110907,
+        "regency_code": 1109,
+        "province_code": 11,
+        "name": "Teupah Selatan"
+    },
+    {
+        "code": 110908,
+        "regency_code": 1109,
+        "province_code": 11,
+        "name": "Alafan"
+    },
+    {
+        "code": 110909,
+        "regency_code": 1109,
+        "province_code": 11,
+        "name": "Teupah Tengah"
+    },
+    {
+        "code": 110910,
+        "regency_code": 1109,
+        "province_code": 11,
+        "name": "Simeulue Cut"
+    },
+    {
+        "code": 111001,
+        "regency_code": 1110,
+        "province_code": 11,
+        "name": "Pulau Banyak"
+    },
+    {
+        "code": 111002,
+        "regency_code": 1110,
+        "province_code": 11,
+        "name": "Simpang Kanan"
+    },
+    {
+        "code": 111004,
+        "regency_code": 1110,
+        "province_code": 11,
+        "name": "Singkil"
+    },
+    {
+        "code": 111006,
+        "regency_code": 1110,
+        "province_code": 11,
+        "name": "Gunung Meriah"
+    },
+    {
+        "code": 111009,
+        "regency_code": 1110,
+        "province_code": 11,
+        "name": "Kota Baharu"
+    },
+    {
+        "code": 111010,
+        "regency_code": 1110,
+        "province_code": 11,
+        "name": "Singkil Utara"
+    },
+    {
+        "code": 111011,
+        "regency_code": 1110,
+        "province_code": 11,
+        "name": "Danau Paris"
+    },
+    {
+        "code": 111012,
+        "regency_code": 1110,
+        "province_code": 11,
+        "name": "Suro Makmur"
+    },
+    {
+        "code": 111013,
+        "regency_code": 1110,
+        "province_code": 11,
+        "name": "Singkohor"
+    },
+    {
+        "code": 111014,
+        "regency_code": 1110,
+        "province_code": 11,
+        "name": "Kuala Baru"
+    },
+    {
+        "code": 111016,
+        "regency_code": 1110,
+        "province_code": 11,
+        "name": "Pulau Banyak Barat"
+    },
+    {
+        "code": 111101,
+        "regency_code": 1111,
+        "province_code": 11,
+        "name": "Samalanga"
+    },
+    {
+        "code": 111102,
+        "regency_code": 1111,
+        "province_code": 11,
+        "name": "Jeunieb"
+    },
+    {
+        "code": 111103,
+        "regency_code": 1111,
+        "province_code": 11,
+        "name": "Peudada"
+    },
+    {
+        "code": 111104,
+        "regency_code": 1111,
+        "province_code": 11,
+        "name": "Jeumpa"
+    },
+    {
+        "code": 111105,
+        "regency_code": 1111,
+        "province_code": 11,
+        "name": "Peusangan"
+    },
+    {
+        "code": 111106,
+        "regency_code": 1111,
+        "province_code": 11,
+        "name": "Makmur"
+    },
+    {
+        "code": 111107,
+        "regency_code": 1111,
+        "province_code": 11,
+        "name": "Gandapura"
+    },
+    {
+        "code": 111108,
+        "regency_code": 1111,
+        "province_code": 11,
+        "name": "Pandrah"
+    },
+    {
+        "code": 111109,
+        "regency_code": 1111,
+        "province_code": 11,
+        "name": "Juli"
+    },
+    {
+        "code": 111110,
+        "regency_code": 1111,
+        "province_code": 11,
+        "name": "Jangka"
+    },
+    {
+        "code": 111111,
+        "regency_code": 1111,
+        "province_code": 11,
+        "name": "Simpang Mamplam"
+    },
+    {
+        "code": 111112,
+        "regency_code": 1111,
+        "province_code": 11,
+        "name": "Peulimbang"
+    },
+    {
+        "code": 111113,
+        "regency_code": 1111,
+        "province_code": 11,
+        "name": "Kota Juang"
+    },
+    {
+        "code": 111114,
+        "regency_code": 1111,
+        "province_code": 11,
+        "name": "Kuala"
+    },
+    {
+        "code": 111115,
+        "regency_code": 1111,
+        "province_code": 11,
+        "name": "Peusangan Siblah Krueng"
+    },
+    {
+        "code": 111116,
+        "regency_code": 1111,
+        "province_code": 11,
+        "name": "Peusangan Selatan"
+    },
+    {
+        "code": 111117,
+        "regency_code": 1111,
+        "province_code": 11,
+        "name": "Kuta Blang"
+    },
+    {
+        "code": 111201,
+        "regency_code": 1112,
+        "province_code": 11,
+        "name": "Blangpidie"
+    },
+    {
+        "code": 111202,
+        "regency_code": 1112,
+        "province_code": 11,
+        "name": "Tangan-Tangan"
+    },
+    {
+        "code": 111203,
+        "regency_code": 1112,
+        "province_code": 11,
+        "name": "Manggeng"
+    },
+    {
+        "code": 111204,
+        "regency_code": 1112,
+        "province_code": 11,
+        "name": "Susoh"
+    },
+    {
+        "code": 111205,
+        "regency_code": 1112,
+        "province_code": 11,
+        "name": "Kuala Batee"
+    },
+    {
+        "code": 111206,
+        "regency_code": 1112,
+        "province_code": 11,
+        "name": "Babah Rot"
+    },
+    {
+        "code": 111207,
+        "regency_code": 1112,
+        "province_code": 11,
+        "name": "Setia"
+    },
+    {
+        "code": 111208,
+        "regency_code": 1112,
+        "province_code": 11,
+        "name": "Jeumpa"
+    },
+    {
+        "code": 111209,
+        "regency_code": 1112,
+        "province_code": 11,
+        "name": "Lembah Sabil"
+    },
+    {
+        "code": 111301,
+        "regency_code": 1113,
+        "province_code": 11,
+        "name": "Blangkejeren"
+    },
+    {
+        "code": 111302,
+        "regency_code": 1113,
+        "province_code": 11,
+        "name": "Kutapanjang"
+    },
+    {
+        "code": 111303,
+        "regency_code": 1113,
+        "province_code": 11,
+        "name": "Rikit Gaib"
+    },
+    {
+        "code": 111304,
+        "regency_code": 1113,
+        "province_code": 11,
+        "name": "Terangun"
+    },
+    {
+        "code": 111305,
+        "regency_code": 1113,
+        "province_code": 11,
+        "name": "Pining"
+    },
+    {
+        "code": 111306,
+        "regency_code": 1113,
+        "province_code": 11,
+        "name": "Blangpegayon"
+    },
+    {
+        "code": 111307,
+        "regency_code": 1113,
+        "province_code": 11,
+        "name": "Puteri Betung"
+    },
+    {
+        "code": 111308,
+        "regency_code": 1113,
+        "province_code": 11,
+        "name": "Dabun Gelang"
+    },
+    {
+        "code": 111309,
+        "regency_code": 1113,
+        "province_code": 11,
+        "name": "Blangjerango"
+    },
+    {
+        "code": 111310,
+        "regency_code": 1113,
+        "province_code": 11,
+        "name": "Teripe Jaya"
+    },
+    {
+        "code": 111311,
+        "regency_code": 1113,
+        "province_code": 11,
+        "name": "Pantan Cuaca"
+    },
+    {
+        "code": 111401,
+        "regency_code": 1114,
+        "province_code": 11,
+        "name": "Teunom"
+    },
+    {
+        "code": 111402,
+        "regency_code": 1114,
+        "province_code": 11,
+        "name": "Krueng Sabee"
+    },
+    {
+        "code": 111403,
+        "regency_code": 1114,
+        "province_code": 11,
+        "name": "Setia Bakti"
+    },
+    {
+        "code": 111404,
+        "regency_code": 1114,
+        "province_code": 11,
+        "name": "Sampoi Niet"
+    },
+    {
+        "code": 111405,
+        "regency_code": 1114,
+        "province_code": 11,
+        "name": "Jaya"
+    },
+    {
+        "code": 111406,
+        "regency_code": 1114,
+        "province_code": 11,
+        "name": "Panga"
+    },
+    {
+        "code": 111407,
+        "regency_code": 1114,
+        "province_code": 11,
+        "name": "Indra Jaya"
+    },
+    {
+        "code": 111408,
+        "regency_code": 1114,
+        "province_code": 11,
+        "name": "Darul Hikmah"
+    },
+    {
+        "code": 111409,
+        "regency_code": 1114,
+        "province_code": 11,
+        "name": "Pasie Raya"
+    },
+    {
+        "code": 111501,
+        "regency_code": 1115,
+        "province_code": 11,
+        "name": "Kuala"
+    },
+    {
+        "code": 111502,
+        "regency_code": 1115,
+        "province_code": 11,
+        "name": "Seunagan"
+    },
+    {
+        "code": 111503,
+        "regency_code": 1115,
+        "province_code": 11,
+        "name": "Seunagan Timur"
+    },
+    {
+        "code": 111504,
+        "regency_code": 1115,
+        "province_code": 11,
+        "name": "Beutong"
+    },
+    {
+        "code": 111505,
+        "regency_code": 1115,
+        "province_code": 11,
+        "name": "Darul Makmur"
+    },
+    {
+        "code": 111506,
+        "regency_code": 1115,
+        "province_code": 11,
+        "name": "Suka Makmue"
+    },
+    {
+        "code": 111507,
+        "regency_code": 1115,
+        "province_code": 11,
+        "name": "Kuala Pesisir"
+    },
+    {
+        "code": 111508,
+        "regency_code": 1115,
+        "province_code": 11,
+        "name": "Tadu Raya"
+    },
+    {
+        "code": 111509,
+        "regency_code": 1115,
+        "province_code": 11,
+        "name": "Tripa Makmur"
+    },
+    {
+        "code": 111510,
+        "regency_code": 1115,
+        "province_code": 11,
+        "name": "Beutong Ateuh Banggalang"
+    },
+    {
+        "code": 111601,
+        "regency_code": 1116,
+        "province_code": 11,
+        "name": "Manyak Payed"
+    },
+    {
+        "code": 111602,
+        "regency_code": 1116,
+        "province_code": 11,
+        "name": "Bendahara"
+    },
+    {
+        "code": 111603,
+        "regency_code": 1116,
+        "province_code": 11,
+        "name": "Karang Baru"
+    },
+    {
+        "code": 111604,
+        "regency_code": 1116,
+        "province_code": 11,
+        "name": "Seruway"
+    },
+    {
+        "code": 111605,
+        "regency_code": 1116,
+        "province_code": 11,
+        "name": "Kota Kualasinpang"
+    },
+    {
+        "code": 111606,
+        "regency_code": 1116,
+        "province_code": 11,
+        "name": "Kejuruan Muda"
+    },
+    {
+        "code": 111607,
+        "regency_code": 1116,
+        "province_code": 11,
+        "name": "Tamiang Hulu"
+    },
+    {
+        "code": 111608,
+        "regency_code": 1116,
+        "province_code": 11,
+        "name": "Rantau"
+    },
+    {
+        "code": 111609,
+        "regency_code": 1116,
+        "province_code": 11,
+        "name": "Banda Mulia"
+    },
+    {
+        "code": 111610,
+        "regency_code": 1116,
+        "province_code": 11,
+        "name": "Bandar Pusaka"
+    },
+    {
+        "code": 111611,
+        "regency_code": 1116,
+        "province_code": 11,
+        "name": "Tenggulun"
+    },
+    {
+        "code": 111612,
+        "regency_code": 1116,
+        "province_code": 11,
+        "name": "Sekerak"
+    },
+    {
+        "code": 111701,
+        "regency_code": 1117,
+        "province_code": 11,
+        "name": "Pintu Rime Gayo"
+    },
+    {
+        "code": 111702,
+        "regency_code": 1117,
+        "province_code": 11,
+        "name": "Permata"
+    },
+    {
+        "code": 111703,
+        "regency_code": 1117,
+        "province_code": 11,
+        "name": "Syiah Utama"
+    },
+    {
+        "code": 111704,
+        "regency_code": 1117,
+        "province_code": 11,
+        "name": "Bandar"
+    },
+    {
+        "code": 111705,
+        "regency_code": 1117,
+        "province_code": 11,
+        "name": "Bukit"
+    },
+    {
+        "code": 111706,
+        "regency_code": 1117,
+        "province_code": 11,
+        "name": "Wih Pesam"
+    },
+    {
+        "code": 111707,
+        "regency_code": 1117,
+        "province_code": 11,
+        "name": "Timang gajah"
+    },
+    {
+        "code": 111708,
+        "regency_code": 1117,
+        "province_code": 11,
+        "name": "Bener Kelipah"
+    },
+    {
+        "code": 111709,
+        "regency_code": 1117,
+        "province_code": 11,
+        "name": "Mesidah"
+    },
+    {
+        "code": 111710,
+        "regency_code": 1117,
+        "province_code": 11,
+        "name": "Gajah Putih"
+    },
+    {
+        "code": 111801,
+        "regency_code": 1118,
+        "province_code": 11,
+        "name": "Meureudu"
+    },
+    {
+        "code": 111802,
+        "regency_code": 1118,
+        "province_code": 11,
+        "name": "Ulim"
+    },
+    {
+        "code": 111803,
+        "regency_code": 1118,
+        "province_code": 11,
+        "name": "Jangka Buaya"
+    },
+    {
+        "code": 111804,
+        "regency_code": 1118,
+        "province_code": 11,
+        "name": "Bandar Dua"
+    },
+    {
+        "code": 111805,
+        "regency_code": 1118,
+        "province_code": 11,
+        "name": "Meurah Dua"
+    },
+    {
+        "code": 111806,
+        "regency_code": 1118,
+        "province_code": 11,
+        "name": "Bandar Baru"
+    },
+    {
+        "code": 111807,
+        "regency_code": 1118,
+        "province_code": 11,
+        "name": "Panteraja"
+    },
+    {
+        "code": 111808,
+        "regency_code": 1118,
+        "province_code": 11,
+        "name": "Trienggadeng"
+    },
+    {
+        "code": 117101,
+        "regency_code": 1171,
+        "province_code": 11,
+        "name": "Baiturrahman"
+    },
+    {
+        "code": 117102,
+        "regency_code": 1171,
+        "province_code": 11,
+        "name": "Kuta Alam"
+    },
+    {
+        "code": 117103,
+        "regency_code": 1171,
+        "province_code": 11,
+        "name": "Meuraxa"
+    },
+    {
+        "code": 117104,
+        "regency_code": 1171,
+        "province_code": 11,
+        "name": "Syiah Kuala"
+    },
+    {
+        "code": 117105,
+        "regency_code": 1171,
+        "province_code": 11,
+        "name": "Lueng Bata"
+    },
+    {
+        "code": 117106,
+        "regency_code": 1171,
+        "province_code": 11,
+        "name": "Kuta Raja"
+    },
+    {
+        "code": 117107,
+        "regency_code": 1171,
+        "province_code": 11,
+        "name": "Banda Raya"
+    },
+    {
+        "code": 117108,
+        "regency_code": 1171,
+        "province_code": 11,
+        "name": "Jaya Baru"
+    },
+    {
+        "code": 117109,
+        "regency_code": 1171,
+        "province_code": 11,
+        "name": "Ulee Kareng"
+    },
+    {
+        "code": 117201,
+        "regency_code": 1172,
+        "province_code": 11,
+        "name": "Sukakarya"
+    },
+    {
+        "code": 117202,
+        "regency_code": 1172,
+        "province_code": 11,
+        "name": "Sukajaya"
+    },
+    {
+        "code": 117203,
+        "regency_code": 1172,
+        "province_code": 11,
+        "name": "Sukamakmue"
+    },
+    {
+        "code": 117301,
+        "regency_code": 1173,
+        "province_code": 11,
+        "name": "Muara Dua"
+    },
+    {
+        "code": 117302,
+        "regency_code": 1173,
+        "province_code": 11,
+        "name": "Banda Sakti"
+    },
+    {
+        "code": 117303,
+        "regency_code": 1173,
+        "province_code": 11,
+        "name": "Blang Mangat"
+    },
+    {
+        "code": 117304,
+        "regency_code": 1173,
+        "province_code": 11,
+        "name": "Muara Satu"
+    },
+    {
+        "code": 117401,
+        "regency_code": 1174,
+        "province_code": 11,
+        "name": "Langsa Timur"
+    },
+    {
+        "code": 117402,
+        "regency_code": 1174,
+        "province_code": 11,
+        "name": "Langsa Barat"
+    },
+    {
+        "code": 117403,
+        "regency_code": 1174,
+        "province_code": 11,
+        "name": "Langsa Kota"
+    },
+    {
+        "code": 117404,
+        "regency_code": 1174,
+        "province_code": 11,
+        "name": "Langsa Lama"
+    },
+    {
+        "code": 117405,
+        "regency_code": 1174,
+        "province_code": 11,
+        "name": "Langsa Baro"
+    },
+    {
+        "code": 117501,
+        "regency_code": 1175,
+        "province_code": 11,
+        "name": "Simpang Kiri"
+    },
+    {
+        "code": 117502,
+        "regency_code": 1175,
+        "province_code": 11,
+        "name": "Penanggalan"
+    },
+    {
+        "code": 117503,
+        "regency_code": 1175,
+        "province_code": 11,
+        "name": "Rundeng"
+    },
+    {
+        "code": 117504,
+        "regency_code": 1175,
+        "province_code": 11,
+        "name": "Sultan Daulat"
+    },
+    {
+        "code": 117505,
+        "regency_code": 1175,
+        "province_code": 11,
+        "name": "Longkib"
+    }
+]

@@ -1,0 +1,121 @@
+[
+    {
+        "code": 1601,
+        "province_code": 16,
+        "name": "Kab. Ogan Komering Ulu",
+        "latitude": -4.165710009351137,
+        "longitude": 104.19777124067642
+    },
+    {
+        "code": 1602,
+        "province_code": 16,
+        "name": "Kab. Ogan Komering Ilir",
+        "latitude": -3.4116461216612666,
+        "longitude": 104.82302047600152
+    },
+    {
+        "code": 1603,
+        "province_code": 16,
+        "name": "Kab. Muara Enim",
+        "latitude": -3.6556303086592794,
+        "longitude": 103.77700425898033
+    },
+    {
+        "code": 1604,
+        "province_code": 16,
+        "name": "Kab. Lahat",
+        "latitude": -3.7781858650486404,
+        "longitude": 103.55048129479607
+    },
+    {
+        "code": 1605,
+        "province_code": 16,
+        "name": "Kab. Musi Rawas",
+        "latitude": -3.243507659535636,
+        "longitude": 103.01158628091243
+    },
+    {
+        "code": 1606,
+        "province_code": 16,
+        "name": "Kab. Musi Banyuasin",
+        "latitude": -2.8888428202148733,
+        "longitude": 103.84022898155693
+    },
+    {
+        "code": 1607,
+        "province_code": 16,
+        "name": "Kab. Banyuasin",
+        "latitude": -2.91681146820806,
+        "longitude": 104.40664162434949
+    },
+    {
+        "code": 1608,
+        "province_code": 16,
+        "name": "Kab. Ogan Komering Ulu Timur",
+        "latitude": -4.368780840384969,
+        "longitude": 104.35844673228776
+    },
+    {
+        "code": 1609,
+        "province_code": 16,
+        "name": "Kab. Ogan Komering Ulu Selatan",
+        "latitude": -4.532324222637718,
+        "longitude": 104.09536192072122
+    },
+    {
+        "code": 1610,
+        "province_code": 16,
+        "name": "Kab. Ogan Ilir",
+        "latitude": null,
+        "longitude": null
+    },
+    {
+        "code": 1611,
+        "province_code": 16,
+        "name": "Kab. Empat Lawang",
+        "latitude": -3.609843671060275,
+        "longitude": 103.10276373795163
+    },
+    {
+        "code": 1612,
+        "province_code": 16,
+        "name": "Kab. Penukal Abab Lematang Ilir",
+        "latitude": -3.3098740053582287,
+        "longitude": 103.88405107482733
+    },
+    {
+        "code": 1613,
+        "province_code": 16,
+        "name": "Kab. Musi Rawas Utara",
+        "latitude": -2.734689531152489,
+        "longitude": 102.90112671236449
+    },
+    {
+        "code": 1671,
+        "province_code": 16,
+        "name": "Kota Palembang",
+        "latitude": -2.991046172915815,
+        "longitude": 104.75675098698375
+    },
+    {
+        "code": 1672,
+        "province_code": 16,
+        "name": "Kota Pagar Alam",
+        "latitude": -4.039321642834122,
+        "longitude": 103.19702046655082
+    },
+    {
+        "code": 1673,
+        "province_code": 16,
+        "name": "Kota Lubuk Linggau",
+        "latitude": -3.3258415506679007,
+        "longitude": 102.82538716626468
+    },
+    {
+        "code": 1674,
+        "province_code": 16,
+        "name": "Kota Prabumulih",
+        "latitude": -3.3689384034331873,
+        "longitude": 104.30842635256347
+    }
+]

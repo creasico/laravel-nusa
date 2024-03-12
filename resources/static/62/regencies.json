@@ -1,0 +1,100 @@
+[
+    {
+        "code": 6201,
+        "province_code": 62,
+        "name": "Kab. Kotawaringin Barat",
+        "latitude": -2.6922174879548355,
+        "longitude": 111.63434121272037
+    },
+    {
+        "code": 6202,
+        "province_code": 62,
+        "name": "Kab. Kotawaringin Timur",
+        "latitude": -2.537536373508974,
+        "longitude": 112.94101118060833
+    },
+    {
+        "code": 6203,
+        "province_code": 62,
+        "name": "Kab. Kapuas",
+        "latitude": -2.9644660187868714,
+        "longitude": 114.4161336148058
+    },
+    {
+        "code": 6204,
+        "province_code": 62,
+        "name": "Kab. Barito Selatan",
+        "latitude": -1.718998796838818,
+        "longitude": 114.84513147281662
+    },
+    {
+        "code": 6205,
+        "province_code": 62,
+        "name": "Kab. Barito Utara",
+        "latitude": -0.9520746870429637,
+        "longitude": 114.89845405524693
+    },
+    {
+        "code": 6206,
+        "province_code": 62,
+        "name": "Kab. Katingan",
+        "latitude": -1.8807186625388674,
+        "longitude": 113.39917637503677
+    },
+    {
+        "code": 6207,
+        "province_code": 62,
+        "name": "Kab. Seruyan",
+        "latitude": -3.4138432398482084,
+        "longitude": 112.54170361471685
+    },
+    {
+        "code": 6208,
+        "province_code": 62,
+        "name": "Kab. Sukamara",
+        "latitude": -2.7605344039108397,
+        "longitude": 111.17662961478362
+    },
+    {
+        "code": 6209,
+        "province_code": 62,
+        "name": "Kab. Lamandau",
+        "latitude": -2.1848222337113796,
+        "longitude": 111.42761967058787
+    },
+    {
+        "code": 6210,
+        "province_code": 62,
+        "name": "Kab. Gunung Mas",
+        "latitude": null,
+        "longitude": null
+    },
+    {
+        "code": 6211,
+        "province_code": 62,
+        "name": "Kab. Pulang Pisau",
+        "latitude": -2.7164345343156215,
+        "longitude": 114.30473004401904
+    },
+    {
+        "code": 6212,
+        "province_code": 62,
+        "name": "Kab. Murung Raya",
+        "latitude": -0.6402071749256474,
+        "longitude": 114.56874629288852
+    },
+    {
+        "code": 6213,
+        "province_code": 62,
+        "name": "Kab. Barito Timur",
+        "latitude": -2.115344993770098,
+        "longitude": 115.16920098606302
+    },
+    {
+        "code": 6271,
+        "province_code": 62,
+        "name": "Kota Palangkaraya",
+        "latitude": -2.173996226380074,
+        "longitude": 113.8802702994111
+    }
+]

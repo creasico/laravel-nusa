@@ -1,0 +1,157 @@
+code,regency_code,province_code,name
+630101,6301,63,Takisung
+630102,6301,63,Jorong
+630103,6301,63,Pelaihari
+630104,6301,63,Kurau
+630105,6301,63,"Bati Bati"
+630106,6301,63,Panyipatan
+630107,6301,63,Kintap
+630108,6301,63,"Tambang Ulang"
+630109,6301,63,"Batu Ampar"
+630110,6301,63,Bajuin
+630111,6301,63,"Bumi Makmur"
+630201,6302,63,"Pulau Sembilan"
+630202,6302,63,"Pulau Laut Barat"
+630203,6302,63,"Pulau Laut Selatan"
+630204,6302,63,"Pulau Laut Timur"
+630205,6302,63,"Pulau Sebuku"
+630206,6302,63,"Pulaulaut Utara"
+630207,6302,63,"Kelumpang Selatan"
+630208,6302,63,"Kelumpang Hulu"
+630209,6302,63,"Kelumpang Tengah"
+630210,6302,63,"Kelumpang Utara"
+630211,6302,63,"Pamukan Selatan"
+630212,6302,63,Sampanahan
+630213,6302,63,"Pamukan Utara"
+630214,6302,63,Hampang
+630215,6302,63,"Sungai Durian"
+630216,6302,63,"Pulau Laut Tengah"
+630217,6302,63,"Kelumpang Hilir"
+630218,6302,63,"Kelumpang Barat"
+630219,6302,63,"Pamukan Barat"
+630220,6302,63,"Pulau Laut Kepulauan"
+630221,6302,63,"Pulau Laut Tanjung Selayar"
+630222,6302,63,"Pulaulaut Sigam"
+630301,6303,63,"Aluh Aluh"
+630302,6303,63,"Kertak Hanyar"
+630303,6303,63,Gambut
+630304,6303,63,"Sungai Tabuk"
+630305,6303,63,Martapura
+630306,6303,63,"Karang Intan"
+630307,6303,63,Astambul
+630308,6303,63,"Simpang Empat"
+630309,6303,63,Pengaron
+630310,6303,63,"Sungai Pinang"
+630311,6303,63,Aranio
+630312,6303,63,Mataraman
+630313,6303,63,"Beruntung Baru"
+630314,6303,63,"Martapura Barat"
+630315,6303,63,"Martapura Timur"
+630316,6303,63,"Sambung Makmur"
+630317,6303,63,Paramasan
+630318,6303,63,"Telaga Bauntung"
+630319,6303,63,"Tatah Makmur"
+630320,6303,63,"Cintapuri Darussalam"
+630401,6304,63,Tabunganen
+630402,6304,63,Tamban
+630403,6304,63,"Anjir Pasar"
+630404,6304,63,"Anjir Muara"
+630405,6304,63,Alalak
+630406,6304,63,Mandastana
+630407,6304,63,"Rantau Badauh"
+630408,6304,63,Belawang
+630409,6304,63,Cerbon
+630410,6304,63,Bakumpai
+630411,6304,63,Kuripan
+630412,6304,63,Tabukan
+630413,6304,63,Mekarsari
+630414,6304,63,Barambai
+630415,6304,63,Marabahan
+630416,6304,63,Wanaraya
+630417,6304,63,Jejangkit
+630501,6305,63,Binuang
+630502,6305,63,"Tapin Selatan"
+630503,6305,63,"Tapin Tengah"
+630504,6305,63,"Tapin Utara"
+630505,6305,63,"Candi Laras Selatan"
+630506,6305,63,"Candi Laras Utara"
+630507,6305,63,Bakarangan
+630508,6305,63,Piani
+630509,6305,63,Bungur
+630510,6305,63,Lokpaikat
+630511,6305,63,"Salam Babaris"
+630512,6305,63,Hatungun
+630601,6306,63,"Sungai Raya"
+630602,6306,63,"Padang Batung"
+630603,6306,63,"Telaga Langsat"
+630604,6306,63,Angkinang
+630605,6306,63,Kandangan
+630606,6306,63,Simpur
+630607,6306,63,"Daha Selatan"
+630608,6306,63,"Daha Utara"
+630609,6306,63,Kalumpang
+630610,6306,63,Loksado
+630611,6306,63,"Daha Barat"
+630701,6307,63,Haruyan
+630702,6307,63,"Batu Benawa"
+630703,6307,63,"Labuan Amas Selatan"
+630704,6307,63,"Labuan Amas Utara"
+630705,6307,63,Pandawan
+630706,6307,63,Barabai
+630707,6307,63,"Batang Alai Selatan"
+630708,6307,63,"Batang Alai Utara"
+630709,6307,63,Hantakan
+630710,6307,63,"Batang Alai Timur"
+630711,6307,63,Limpasu
+630801,6308,63,"Danau Panggang"
+630802,6308,63,Babirik
+630803,6308,63,"Sungai Pandan"
+630804,6308,63,"Amuntai Selatan"
+630805,6308,63,"Amuntai Tengah"
+630806,6308,63,"Amuntai Utara"
+630807,6308,63,Banjang
+630808,6308,63,"Haur Gading"
+630809,6308,63,Paminggir
+630810,6308,63,"Sungai Tabukan"
+630901,6309,63,"Banua Lawas"
+630902,6309,63,Kelua
+630903,6309,63,Tanta
+630904,6309,63,Tanjung
+630905,6309,63,Haruai
+630906,6309,63,"Murung Pudak"
+630907,6309,63,"Muara Uya"
+630908,6309,63,"Muara Harus"
+630909,6309,63,Pugaan
+630910,6309,63,Upau
+630911,6309,63,Jaro
+630912,6309,63,"Bintang Ara"
+631001,6310,63,"Batu Licin"
+631002,6310,63,"Kusan Hilir"
+631003,6310,63,"Sungai Loban"
+631004,6310,63,Satui
+631005,6310,63,"Kusan Hulu"
+631006,6310,63,"Simpang Empat"
+631007,6310,63,"Karang Bintang"
+631008,6310,63,Mantewe
+631009,6310,63,Angsana
+631010,6310,63,Kuranji
+631011,6310,63,"Kusan Tengah"
+631012,6310,63,"Teluk Kepayang"
+631101,6311,63,Juai
+631102,6311,63,Halong
+631103,6311,63,Awayan
+631104,6311,63,"Batu Mandi"
+631105,6311,63,Lampihong
+631106,6311,63,Paringin
+631107,6311,63,"Paringin Selatan"
+631108,6311,63,"Tebing Tinggi"
+637101,6371,63,"Banjarmasin Selatan"
+637102,6371,63,"Banjarmasin Timur"
+637103,6371,63,"Banjarmasin Barat"
+637104,6371,63,"Banjarmasin Utara"
+637105,6371,63,"Banjarmasin Tengah"
+637202,6372,63,"Landasan Ulin"
+637203,6372,63,Cempaka
+637204,6372,63,"Banjarbaru Utara"
+637205,6372,63,"Banjarbaru Selatan"
+637206,6372,63,"Liang Anggang"

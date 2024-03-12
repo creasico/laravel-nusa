@@ -1,0 +1,65 @@
+[
+    {
+        "code": 9103,
+        "province_code": 91,
+        "name": "Kab. Jayapura",
+        "latitude": -2.5498717752817006,
+        "longitude": 140.47710271224273
+    },
+    {
+        "code": 9105,
+        "province_code": 91,
+        "name": "Kab. Kepulauan Yapen",
+        "latitude": -1.874066803353508,
+        "longitude": 136.23707760338652
+    },
+    {
+        "code": 9106,
+        "province_code": 91,
+        "name": "Kab. Biak Numfor",
+        "latitude": -1.170708606082667,
+        "longitude": 136.0901928711222
+    },
+    {
+        "code": 9110,
+        "province_code": 91,
+        "name": "Kab. Sarmi",
+        "latitude": null,
+        "longitude": null
+    },
+    {
+        "code": 9111,
+        "province_code": 91,
+        "name": "Kab. Keerom",
+        "latitude": -2.9087252628071565,
+        "longitude": 140.77334129532647
+    },
+    {
+        "code": 9115,
+        "province_code": 91,
+        "name": "Kab. Waropen",
+        "latitude": -2.2408409305863604,
+        "longitude": 136.3794501810602
+    },
+    {
+        "code": 9119,
+        "province_code": 91,
+        "name": "Kab. Supiori",
+        "latitude": -0.730681951344063,
+        "longitude": 135.7326415849256
+    },
+    {
+        "code": 9120,
+        "province_code": 91,
+        "name": "Kab. Mamberamo Raya",
+        "latitude": null,
+        "longitude": null
+    },
+    {
+        "code": 9171,
+        "province_code": 91,
+        "name": "Kota Jayapura",
+        "latitude": -2.5626261642155557,
+        "longitude": 140.69263309579875
+    }
+]

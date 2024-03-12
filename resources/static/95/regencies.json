@@ -1,0 +1,58 @@
+[
+    {
+        "code": 9501,
+        "province_code": 95,
+        "name": "Kab. Jayawijaya",
+        "latitude": -4.099306801793126,
+        "longitude": 138.94314903715775
+    },
+    {
+        "code": 9502,
+        "province_code": 95,
+        "name": "Kab. Pegunungan Bintang",
+        "latitude": -4.890902753435135,
+        "longitude": 140.6399248830013
+    },
+    {
+        "code": 9503,
+        "province_code": 95,
+        "name": "Kab. Yahukimo",
+        "latitude": -4.886949804165835,
+        "longitude": 139.52051776219918
+    },
+    {
+        "code": 9504,
+        "province_code": 95,
+        "name": "Kab. Tolikara",
+        "latitude": -3.682250900207365,
+        "longitude": 138.4734846330228
+    },
+    {
+        "code": 9505,
+        "province_code": 95,
+        "name": "Kab. Mamberamo Tengah",
+        "latitude": -2.46062374289378,
+        "longitude": 138.45244929624397
+    },
+    {
+        "code": 9506,
+        "province_code": 95,
+        "name": "Kab. Yalimo",
+        "latitude": -3.7787339513974882,
+        "longitude": 139.38314314428376
+    },
+    {
+        "code": 9507,
+        "province_code": 95,
+        "name": "Kab. Lanny Jaya",
+        "latitude": -3.923598745963506,
+        "longitude": 138.4495844424401
+    },
+    {
+        "code": 9508,
+        "province_code": 95,
+        "name": "Kab. Nduga",
+        "latitude": -4.406940530605307,
+        "longitude": 138.23935476923037
+    }
+]

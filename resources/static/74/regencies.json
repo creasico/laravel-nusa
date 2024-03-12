@@ -1,0 +1,121 @@
+[
+    {
+        "code": 7401,
+        "province_code": 74,
+        "name": "Kab. Kolaka",
+        "latitude": -4.060808748107698,
+        "longitude": 121.61611935687937
+    },
+    {
+        "code": 7402,
+        "province_code": 74,
+        "name": "Kab. Konawe",
+        "latitude": -3.854233561558946,
+        "longitude": 122.04272734128605
+    },
+    {
+        "code": 7403,
+        "province_code": 74,
+        "name": "Kab. Muna",
+        "latitude": -4.797870620269443,
+        "longitude": 122.71895870272489
+    },
+    {
+        "code": 7404,
+        "province_code": 74,
+        "name": "Kab. Buton",
+        "latitude": -5.495773575456685,
+        "longitude": 122.84013943527818
+    },
+    {
+        "code": 7405,
+        "province_code": 74,
+        "name": "Kab. Konawe Selatan",
+        "latitude": -4.332035736807719,
+        "longitude": 122.28131524347981
+    },
+    {
+        "code": 7406,
+        "province_code": 74,
+        "name": "Kab. Bombana",
+        "latitude": -4.747234642989351,
+        "longitude": 122.0110926542551
+    },
+    {
+        "code": 7407,
+        "province_code": 74,
+        "name": "Kab. Wakatobi",
+        "latitude": -5.328300233247569,
+        "longitude": 23.5389007621827
+    },
+    {
+        "code": 7408,
+        "province_code": 74,
+        "name": "Kab. Kolaka Utara",
+        "latitude": -3.4901354632505868,
+        "longitude": 120.88752770777094
+    },
+    {
+        "code": 7409,
+        "province_code": 74,
+        "name": "Kab. Konawe Utara",
+        "latitude": -3.51235292694681,
+        "longitude": 122.11073191638067
+    },
+    {
+        "code": 7410,
+        "province_code": 74,
+        "name": "Kab. Buton Utara",
+        "latitude": null,
+        "longitude": null
+    },
+    {
+        "code": 7411,
+        "province_code": 74,
+        "name": "Kab. Kolaka Timur",
+        "latitude": -4.000510057990807,
+        "longitude": 121.8619498140791
+    },
+    {
+        "code": 7412,
+        "province_code": 74,
+        "name": "Kab. Konawe Kepulauan",
+        "latitude": -4.052608169270012,
+        "longitude": 122.9885847942083
+    },
+    {
+        "code": 7413,
+        "province_code": 74,
+        "name": "Kab. Muna Barat",
+        "latitude": -4.7917142624455,
+        "longitude": 122.49418357893698
+    },
+    {
+        "code": 7414,
+        "province_code": 74,
+        "name": "Kab. Buton Tengah",
+        "latitude": -5.316413937156861,
+        "longitude": 122.53197889106548
+    },
+    {
+        "code": 7415,
+        "province_code": 74,
+        "name": "Kab. Buton Selatan",
+        "latitude": -5.608164675860151,
+        "longitude": 122.6006216432974
+    },
+    {
+        "code": 7471,
+        "province_code": 74,
+        "name": "Kota Kendari",
+        "latitude": -3.9729017385837686,
+        "longitude": 122.51174077056197
+    },
+    {
+        "code": 7472,
+        "province_code": 74,
+        "name": "Kota Bau Bau",
+        "latitude": -5.485071885684611,
+        "longitude": 122.58479937279147
+    }
+]

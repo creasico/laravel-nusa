@@ -1,0 +1,65 @@
+[
+    {
+        "code": 5101,
+        "province_code": 51,
+        "name": "Kab. Jembrana",
+        "latitude": -8.357300895935373,
+        "longitude": 114.6369005100411
+    },
+    {
+        "code": 5102,
+        "province_code": 51,
+        "name": "Kab. Tabanan",
+        "latitude": -8.539497666397425,
+        "longitude": 115.13103226771442
+    },
+    {
+        "code": 5103,
+        "province_code": 51,
+        "name": "Kab. Badung",
+        "latitude": -8.601920881989042,
+        "longitude": 115.17914542538679
+    },
+    {
+        "code": 5104,
+        "province_code": 51,
+        "name": "Kab. Gianyar",
+        "latitude": -8.540851437717537,
+        "longitude": 115.32410958305795
+    },
+    {
+        "code": 5105,
+        "province_code": 51,
+        "name": "Kab. Klungkung",
+        "latitude": -8.534402013006794,
+        "longitude": 115.40297954072949
+    },
+    {
+        "code": 5106,
+        "province_code": 51,
+        "name": "Kab. Bangli",
+        "latitude": -8.461762702253463,
+        "longitude": 115.35247721644086
+    },
+    {
+        "code": 5107,
+        "province_code": 51,
+        "name": "Kab. Karangasem",
+        "latitude": -8.438846951802109,
+        "longitude": 115.61223348305695
+    },
+    {
+        "code": 5108,
+        "province_code": 51,
+        "name": "Kab. Buleleng",
+        "latitude": -8.12516022356895,
+        "longitude": 115.09284902538256
+    },
+    {
+        "code": 5171,
+        "province_code": 51,
+        "name": "Kota Denpasar",
+        "latitude": -8.654458853264748,
+        "longitude": 115.21653329890924
+    }
+]

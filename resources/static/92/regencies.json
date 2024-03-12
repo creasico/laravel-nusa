@@ -1,0 +1,93 @@
+[
+    {
+        "code": 9201,
+        "province_code": 92,
+        "name": "Kab. Sorong",
+        "latitude": -0.9884965001187047,
+        "longitude": 131.36625323576942
+    },
+    {
+        "code": 9202,
+        "province_code": 92,
+        "name": "Kab. Manokwari",
+        "latitude": -0.8908143771517435,
+        "longitude": 134.04012022193126
+    },
+    {
+        "code": 9203,
+        "province_code": 92,
+        "name": "Kab. Fak Fak",
+        "latitude": -2.928858303144004,
+        "longitude": 132.29363471143284
+    },
+    {
+        "code": 9204,
+        "province_code": 92,
+        "name": "Kab. Sorong Selatan",
+        "latitude": -1.4752482751322984,
+        "longitude": 132.08562214178235
+    },
+    {
+        "code": 9205,
+        "province_code": 92,
+        "name": "Kab. Raja Ampat",
+        "latitude": -0.41850625897138194,
+        "longitude": 130.82879113180778
+    },
+    {
+        "code": 9206,
+        "province_code": 92,
+        "name": "Kab. Teluk Bintuni",
+        "latitude": -2.0349716122196853,
+        "longitude": 133.73180639786548
+    },
+    {
+        "code": 9207,
+        "province_code": 92,
+        "name": "Kab. Teluk Wondama",
+        "latitude": -2.8276928485593285,
+        "longitude": 134.53572347142966
+    },
+    {
+        "code": 9208,
+        "province_code": 92,
+        "name": "Kab. Kaimana",
+        "latitude": -3.6396913935577087,
+        "longitude": 133.74006737885003
+    },
+    {
+        "code": 9209,
+        "province_code": 92,
+        "name": "Kab. Tambrauw",
+        "latitude": -0.4973012250548381,
+        "longitude": 132.08809753102656
+    },
+    {
+        "code": 9210,
+        "province_code": 92,
+        "name": "Kab. Maybrat",
+        "latitude": null,
+        "longitude": null
+    },
+    {
+        "code": 9211,
+        "province_code": 92,
+        "name": "Kab. Manokwari Selatan",
+        "latitude": -1.5063952702108039,
+        "longitude": 134.16864333913085
+    },
+    {
+        "code": 9212,
+        "province_code": 92,
+        "name": "Kab. Pegunungan Arfak",
+        "latitude": -1.3250472221470158,
+        "longitude": 133.9165696939254
+    },
+    {
+        "code": 9271,
+        "province_code": 92,
+        "name": "Kota Sorong",
+        "latitude": -0.881124482673792,
+        "longitude": 131.28763959924163
+    }
+]

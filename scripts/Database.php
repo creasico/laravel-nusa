@@ -114,7 +114,7 @@ class Database
     private function writeCsv(string $filename, Collection $content): void
     {
         $this->ensureDirectoryExists(
-            $path = "{$this->libPath}/resources/csv/{$filename}.csv"
+            $path = "{$this->libPath}/resources/static/{$filename}.csv"
         );
 
         $csv = [
@@ -123,7 +123,8 @@ class Database
 
         foreach ($content as $value) {
             if (isset($value['coordinates'])) {
-                $value['coordinates'] = \json_encode($value['coordinates']);
+                unset($value['coordinates']);
+                // $value['coordinates'] = \json_encode($value['coordinates']);
             }
 
             $csv[] = array_values($value);
@@ -141,10 +142,16 @@ class Database
     private function writeJson(string $filename, Collection $content): void
     {
         $this->ensureDirectoryExists(
-            $path = "{$this->libPath}/resources/json/{$filename}.json"
+            $path = "{$this->libPath}/resources/static/{$filename}.json"
         );
 
-        file_put_contents($path, json_encode($content->toArray(), JSON_PRETTY_PRINT));
+        file_put_contents($path, json_encode($content->map(function ($value) {
+            if (isset($value['coordinates'])) {
+                unset($value['coordinates']);
+            }
+
+            return $value;
+        })->toArray(), JSON_PRETTY_PRINT));
     }
 
     private function ensureDirectoryExists(string $path)

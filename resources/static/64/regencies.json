@@ -1,0 +1,72 @@
+[
+    {
+        "code": 6401,
+        "province_code": 64,
+        "name": "Kab. Paser",
+        "latitude": -1.9104348021556423,
+        "longitude": 116.19132949946525
+    },
+    {
+        "code": 6402,
+        "province_code": 64,
+        "name": "Kab. Kutai Kartanegara",
+        "latitude": -0.4427799289927499,
+        "longitude": 116.99867075751636
+    },
+    {
+        "code": 6403,
+        "province_code": 64,
+        "name": "Kab. Berau",
+        "latitude": 2.1500322293440193,
+        "longitude": 117.50760061575453
+    },
+    {
+        "code": 6407,
+        "province_code": 64,
+        "name": "Kab. Kutai Barat",
+        "latitude": -0.2365477692797606,
+        "longitude": 115.69643256908253
+    },
+    {
+        "code": 6408,
+        "province_code": 64,
+        "name": "Kab. Kutai Timur",
+        "latitude": 0.5256821109783744,
+        "longitude": 117.60821781465334
+    },
+    {
+        "code": 6409,
+        "province_code": 64,
+        "name": "Kab. Penajam Paser Utara",
+        "latitude": -1.308203498951236,
+        "longitude": 116.72690384014312
+    },
+    {
+        "code": 6411,
+        "province_code": 64,
+        "name": "Kab. Mahakam Ulu",
+        "latitude": 0.5056814783065791,
+        "longitude": 115.27080682675607
+    },
+    {
+        "code": 6471,
+        "province_code": 64,
+        "name": "Kota Balikpapan",
+        "latitude": -1.276337448127985,
+        "longitude": 116.82776028626806
+    },
+    {
+        "code": 6472,
+        "province_code": 64,
+        "name": "Kota Samarinda",
+        "latitude": -0.491364825551253,
+        "longitude": 117.14598009498553
+    },
+    {
+        "code": 6474,
+        "province_code": 64,
+        "name": "Kota Bontang",
+        "latitude": 0.06954899217650308,
+        "longitude": 117.44419874425222
+    }
+]

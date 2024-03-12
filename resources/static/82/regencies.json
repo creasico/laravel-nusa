@@ -1,0 +1,72 @@
+[
+    {
+        "code": 8201,
+        "province_code": 82,
+        "name": "Kab. Halmahera Barat",
+        "latitude": 1.0804684023803615,
+        "longitude": 127.48015504022084
+    },
+    {
+        "code": 8202,
+        "province_code": 82,
+        "name": "Kab. Halmahera Tengah",
+        "latitude": 0.3304236239764005,
+        "longitude": 127.87025115227507
+    },
+    {
+        "code": 8203,
+        "province_code": 82,
+        "name": "Kab. Halmahera Utara",
+        "latitude": 1.728187436226181,
+        "longitude": 127.99219712155028
+    },
+    {
+        "code": 8204,
+        "province_code": 82,
+        "name": "Kab. Halmahera Selatan",
+        "latitude": -0.6454745703649585,
+        "longitude": 127.50498392309089
+    },
+    {
+        "code": 8205,
+        "province_code": 82,
+        "name": "Kab. Kepulauan Sula",
+        "latitude": -2.0069779241586523,
+        "longitude": 125.96414541579409
+    },
+    {
+        "code": 8206,
+        "province_code": 82,
+        "name": "Kab. Halmahera Timur",
+        "latitude": 0.6774434668568071,
+        "longitude": 128.2840838248518
+    },
+    {
+        "code": 8207,
+        "province_code": 82,
+        "name": "Kab. Pulau Morotai",
+        "latitude": 2.0132967093802083,
+        "longitude": 128.2837176160731
+    },
+    {
+        "code": 8208,
+        "province_code": 82,
+        "name": "Kab. Pulau Taliabu",
+        "latitude": -1.9474435273583983,
+        "longitude": 124.3872161387243
+    },
+    {
+        "code": 8271,
+        "province_code": 82,
+        "name": "Kota Ternate",
+        "latitude": 0.7857513986405484,
+        "longitude": 127.38784601086685
+    },
+    {
+        "code": 8272,
+        "province_code": 82,
+        "name": "Kota Tidore Kepulauan",
+        "latitude": 0.671565379994557,
+        "longitude": 127.44672305015295
+    }
+]

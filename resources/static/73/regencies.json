@@ -1,0 +1,170 @@
+[
+    {
+        "code": 7301,
+        "province_code": 73,
+        "name": "Kab. Kepulauan Selayar",
+        "latitude": -6.120175497106447,
+        "longitude": 120.46634581441285
+    },
+    {
+        "code": 7302,
+        "province_code": 73,
+        "name": "Kab. Bulukumba",
+        "latitude": -5.558243996799272,
+        "longitude": 120.19308054104557
+    },
+    {
+        "code": 7303,
+        "province_code": 73,
+        "name": "Kab. Bantaeng",
+        "latitude": -5.5531536726224795,
+        "longitude": 119.96718599882868
+    },
+    {
+        "code": 7304,
+        "province_code": 73,
+        "name": "Kab. Jeneponto",
+        "latitude": -5.67694518150875,
+        "longitude": 119.74938992549147
+    },
+    {
+        "code": 7305,
+        "province_code": 73,
+        "name": "Kab. Takalar",
+        "latitude": -5.4254592918321345,
+        "longitude": 119.44063086993823
+    },
+    {
+        "code": 7306,
+        "province_code": 73,
+        "name": "Kab. Gowa",
+        "latitude": -5.199807421044581,
+        "longitude": 119.45319036991962
+    },
+    {
+        "code": 7307,
+        "province_code": 73,
+        "name": "Kab. Sinjai",
+        "latitude": -5.119898627419877,
+        "longitude": 120.2354438144652
+    },
+    {
+        "code": 7308,
+        "province_code": 73,
+        "name": "Kab. Bone",
+        "latitude": -4.539251732825663,
+        "longitude": 120.30925454114436
+    },
+    {
+        "code": 7309,
+        "province_code": 73,
+        "name": "Kab. Maros",
+        "latitude": -5.01614872131246,
+        "longitude": 119.57445936973654
+    },
+    {
+        "code": 7310,
+        "province_code": 73,
+        "name": "Kab. Pangkajene Kepulauan",
+        "latitude": null,
+        "longitude": null
+    },
+    {
+        "code": 7311,
+        "province_code": 73,
+        "name": "Kab. Barru",
+        "latitude": -4.4140407769508325,
+        "longitude": 119.61729394119529
+    },
+    {
+        "code": 7312,
+        "province_code": 73,
+        "name": "Kab. Soppeng",
+        "latitude": -4.3644497502828505,
+        "longitude": 119.89777167015757
+    },
+    {
+        "code": 7313,
+        "province_code": 73,
+        "name": "Kab. Wajo",
+        "latitude": -4.1120716633903855,
+        "longitude": 120.02715621245426
+    },
+    {
+        "code": 7314,
+        "province_code": 73,
+        "name": "Kab. Sidenreng Rappang",
+        "latitude": -3.933052597666273,
+        "longitude": 119.76930544132097
+    },
+    {
+        "code": 7315,
+        "province_code": 73,
+        "name": "Kab. Pinrang",
+        "latitude": -3.809259094007871,
+        "longitude": 119.65000307873112
+    },
+    {
+        "code": 7316,
+        "province_code": 73,
+        "name": "Kab. Enrekang",
+        "latitude": -3.588329898134274,
+        "longitude": 119.77030102200364
+    },
+    {
+        "code": 7317,
+        "province_code": 73,
+        "name": "Kab. Luwu",
+        "latitude": -3.394691969745157,
+        "longitude": 120.36551044795807
+    },
+    {
+        "code": 7318,
+        "province_code": 73,
+        "name": "Kab. Tana Toraja",
+        "latitude": -3.0865430500830704,
+        "longitude": 119.85708269925097
+    },
+    {
+        "code": 7322,
+        "province_code": 73,
+        "name": "Kab. Luwu Utara",
+        "latitude": -2.5498538223374445,
+        "longitude": 120.34615805711422
+    },
+    {
+        "code": 7324,
+        "province_code": 73,
+        "name": "Kab. Luwu Timur",
+        "latitude": -2.6162481191655704,
+        "longitude": 121.12410632820034
+    },
+    {
+        "code": 7326,
+        "province_code": 73,
+        "name": "Kab. Toraja Utara",
+        "latitude": -2.9736212067823917,
+        "longitude": 119.89482069925177
+    },
+    {
+        "code": 7371,
+        "province_code": 73,
+        "name": "Kota Makassar",
+        "latitude": -5.133215561201631,
+        "longitude": 119.40783685662606
+    },
+    {
+        "code": 7372,
+        "province_code": 73,
+        "name": "Kota Pare Pare",
+        "latitude": -4.027782140067662,
+        "longitude": 119.63332752802752
+    },
+    {
+        "code": 7373,
+        "province_code": 73,
+        "name": "Kota Palopo",
+        "latitude": -3.008386458063242,
+        "longitude": 120.20156382818331
+    }
+]

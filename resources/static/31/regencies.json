@@ -1,0 +1,44 @@
+[
+    {
+        "code": 3101,
+        "province_code": 31,
+        "name": "Kab. Adm. Kep. Seribu",
+        "latitude": -5.746480997815013,
+        "longitude": 106.61316002536523
+    },
+    {
+        "code": 3171,
+        "province_code": 31,
+        "name": "Kota Adm. Jakarta Pusat",
+        "latitude": -6.172913263118424,
+        "longitude": 106.81869625420377
+    },
+    {
+        "code": 3172,
+        "province_code": 31,
+        "name": "Kota Adm. Jakarta Utara",
+        "latitude": -6.1200283357159915,
+        "longitude": 106.89249513885989
+    },
+    {
+        "code": 3173,
+        "province_code": 31,
+        "name": "Kota Adm. Jakarta Barat",
+        "latitude": -6.184334501192923,
+        "longitude": 106.73662053886034
+    },
+    {
+        "code": 3174,
+        "province_code": 31,
+        "name": "Kota Adm. Jakarta Selatan",
+        "latitude": -6.247775007302514,
+        "longitude": 106.80763679653259
+    },
+    {
+        "code": 3175,
+        "province_code": 31,
+        "name": "Kota Adm. Jakarta Timur",
+        "latitude": -6.2136855478344994,
+        "longitude": 106.9440075965323
+    }
+]

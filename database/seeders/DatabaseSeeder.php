@@ -18,7 +18,7 @@ class DatabaseSeeder extends Seeder
             return;
         }
 
-        $path = \realpath(\dirname(__DIR__).'/..').'/resources/json';
+        $path = \realpath(\dirname(__DIR__).'/..').'/resources/static';
 
         foreach ($this->loadJson($path, 'provinces.json') as $province) {
             /** @var Province */

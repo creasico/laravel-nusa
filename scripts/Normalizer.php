@@ -68,7 +68,7 @@ class Normalizer
             'name' => str($this->name)->title(),
             'latitude' => $this->latitude,
             'longitude' => $this->longitude,
-            'coordinates' => $this->coordinates,
+            // 'coordinates' =>  $this->coordinates,
         ];
     }
 

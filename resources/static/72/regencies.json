@@ -1,0 +1,93 @@
+[
+    {
+        "code": 7201,
+        "province_code": 72,
+        "name": "Kab. Banggai",
+        "latitude": -0.9943229896836165,
+        "longitude": 122.78853827900993
+    },
+    {
+        "code": 7202,
+        "province_code": 72,
+        "name": "Kab. Poso",
+        "latitude": -1.3952022331805114,
+        "longitude": 120.75482448623922
+    },
+    {
+        "code": 7203,
+        "province_code": 72,
+        "name": "Kab. Donggala",
+        "latitude": -0.6784643651141344,
+        "longitude": 119.75257412858682
+    },
+    {
+        "code": 7204,
+        "province_code": 72,
+        "name": "Kab. Toli Toli",
+        "latitude": 1.0184933341744755,
+        "longitude": 120.79802306837281
+    },
+    {
+        "code": 7205,
+        "province_code": 72,
+        "name": "Kab. Buol",
+        "latitude": 1.169077637159471,
+        "longitude": 121.40975635779172
+    },
+    {
+        "code": 7206,
+        "province_code": 72,
+        "name": "Kab. Morowali",
+        "latitude": -2.480863226531761,
+        "longitude": 121.93428529937842
+    },
+    {
+        "code": 7207,
+        "province_code": 72,
+        "name": "Kab. Banggai Kepulauan",
+        "latitude": -1.3119041730240604,
+        "longitude": 123.29844358843701
+    },
+    {
+        "code": 7208,
+        "province_code": 72,
+        "name": "Kab. Parigi Moutong",
+        "latitude": -0.8054270040019127,
+        "longitude": 120.16032341521101
+    },
+    {
+        "code": 7209,
+        "province_code": 72,
+        "name": "Kab. Tojo Una Una",
+        "latitude": -0.9146507390533831,
+        "longitude": 121.588520770778
+    },
+    {
+        "code": 7210,
+        "province_code": 72,
+        "name": "Kab. Sigi",
+        "latitude": null,
+        "longitude": null
+    },
+    {
+        "code": 7211,
+        "province_code": 72,
+        "name": "Kab. Banggai Laut",
+        "latitude": -1.6062920063926547,
+        "longitude": 123.4963867573023
+    },
+    {
+        "code": 7212,
+        "province_code": 72,
+        "name": "Kab. Morowali Utara",
+        "latitude": -1.9772829228540625,
+        "longitude": 121.33550832771283
+    },
+    {
+        "code": 7271,
+        "province_code": 72,
+        "name": "Kota Palu",
+        "latitude": -0.8999595654952609,
+        "longitude": 119.89102154408883
+    }
+]

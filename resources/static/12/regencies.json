@@ -1,0 +1,233 @@
+[
+    {
+        "code": 1201,
+        "province_code": 12,
+        "name": "Kab. Tapanuli Tengah",
+        "latitude": 1.684690341229827,
+        "longitude": 98.82771720471466
+    },
+    {
+        "code": 1202,
+        "province_code": 12,
+        "name": "Kab. Tapanuli Utara",
+        "latitude": 2.0218496600101576,
+        "longitude": 98.96179136764661
+    },
+    {
+        "code": 1203,
+        "province_code": 12,
+        "name": "Kab. Tapanuli Selatan",
+        "latitude": 1.519661925116435,
+        "longitude": 99.30284312257872
+    },
+    {
+        "code": 1204,
+        "province_code": 12,
+        "name": "Kab. Nias",
+        "latitude": 1.2417545046363359,
+        "longitude": 97.64991802740695
+    },
+    {
+        "code": 1205,
+        "province_code": 12,
+        "name": "Kab. Langkat",
+        "latitude": 3.7426864805785707,
+        "longitude": 98.44753521807361
+    },
+    {
+        "code": 1206,
+        "province_code": 12,
+        "name": "Kab. Karo",
+        "latitude": 3.110679693532461,
+        "longitude": 98.5013348785831
+    },
+    {
+        "code": 1207,
+        "province_code": 12,
+        "name": "Kab. Deli Serdang",
+        "latitude": 3.550718941711028,
+        "longitude": 98.86644224023665
+    },
+    {
+        "code": 1208,
+        "province_code": 12,
+        "name": "Kab. Simalungun",
+        "latitude": 2.9653486091382972,
+        "longitude": 98.86209969919715
+    },
+    {
+        "code": 1209,
+        "province_code": 12,
+        "name": "Kab. Asahan",
+        "latitude": 2.9881057835467244,
+        "longitude": 99.61283578690154
+    },
+    {
+        "code": 1210,
+        "province_code": 12,
+        "name": "Kab. Labuhanbatu",
+        "latitude": null,
+        "longitude": null
+    },
+    {
+        "code": 1211,
+        "province_code": 12,
+        "name": "Kab. Dairi",
+        "latitude": 2.7479672571598934,
+        "longitude": 98.31396934594967
+    },
+    {
+        "code": 1212,
+        "province_code": 12,
+        "name": "Kab. Toba",
+        "latitude": 2.3318009358602985,
+        "longitude": 99.05102147349844
+    },
+    {
+        "code": 1213,
+        "province_code": 12,
+        "name": "Kab. Mandailing Natal",
+        "latitude": 0.7967262645602773,
+        "longitude": 99.57880901075687
+    },
+    {
+        "code": 1214,
+        "province_code": 12,
+        "name": "Kab. Nias Selatan",
+        "latitude": 0.5833773193046318,
+        "longitude": 97.7778846860258
+    },
+    {
+        "code": 1215,
+        "province_code": 12,
+        "name": "Kab. Pakpak Bharat",
+        "latitude": 2.541054180498141,
+        "longitude": 98.32258850116699
+    },
+    {
+        "code": 1216,
+        "province_code": 12,
+        "name": "Kab. Humbang Hasundutan",
+        "latitude": 2.250279290484845,
+        "longitude": 98.79045401025103
+    },
+    {
+        "code": 1217,
+        "province_code": 12,
+        "name": "Kab. Samosir",
+        "latitude": 2.5598708852610876,
+        "longitude": 98.7223886458626
+    },
+    {
+        "code": 1218,
+        "province_code": 12,
+        "name": "Kab. Serdang Bedagai",
+        "latitude": 3.4912650864166386,
+        "longitude": 99.12592027625313
+    },
+    {
+        "code": 1219,
+        "province_code": 12,
+        "name": "Kab. Batu Bara",
+        "latitude": 3.1717751880433394,
+        "longitude": 99.4209807063729
+    },
+    {
+        "code": 1220,
+        "province_code": 12,
+        "name": "Kab. Padang Lawas Utara",
+        "latitude": null,
+        "longitude": null
+    },
+    {
+        "code": 1221,
+        "province_code": 12,
+        "name": "Kab. Padang Lawas",
+        "latitude": 1.0555897761779505,
+        "longitude": 99.77552008687299
+    },
+    {
+        "code": 1222,
+        "province_code": 12,
+        "name": "Kab. Labuhanbatu Selatan",
+        "latitude": 1.8682211662701844,
+        "longitude": 100.04114555938138
+    },
+    {
+        "code": 1223,
+        "province_code": 12,
+        "name": "Kab. Labuhanbatu Utara",
+        "latitude": 2.5628487863896083,
+        "longitude": 99.65806864456648
+    },
+    {
+        "code": 1224,
+        "province_code": 12,
+        "name": "Kab. Nias Utara",
+        "latitude": 1.389322425641782,
+        "longitude": 97.38136186409508
+    },
+    {
+        "code": 1225,
+        "province_code": 12,
+        "name": "Kab. Nias Barat",
+        "latitude": 0.9989625537417939,
+        "longitude": 97.49525171290033
+    },
+    {
+        "code": 1271,
+        "province_code": 12,
+        "name": "Kota Medan",
+        "latitude": 3.5902455275064686,
+        "longitude": 98.67497243281954
+    },
+    {
+        "code": 1272,
+        "province_code": 12,
+        "name": "Kota Pematangsiantar",
+        "latitude": 2.956496281855757,
+        "longitude": 99.06182098647018
+    },
+    {
+        "code": 1273,
+        "province_code": 12,
+        "name": "Kota Sibolga",
+        "latitude": 1.7460206351072023,
+        "longitude": 98.77558765380772
+    },
+    {
+        "code": 1274,
+        "province_code": 12,
+        "name": "Kota Tanjung Balai",
+        "latitude": 2.9477544593720797,
+        "longitude": 99.76671856261935
+    },
+    {
+        "code": 1275,
+        "province_code": 12,
+        "name": "Kota Binjai",
+        "latitude": 3.6029774611853127,
+        "longitude": 98.48318146773616
+    },
+    {
+        "code": 1276,
+        "province_code": 12,
+        "name": "Kota Tebing Tinggi",
+        "latitude": 3.3275651079027178,
+        "longitude": 99.16631751787298
+    },
+    {
+        "code": 1277,
+        "province_code": 12,
+        "name": "Kota Padangsidimpuan",
+        "latitude": 1.3776451726865724,
+        "longitude": 99.27144601728223
+    },
+    {
+        "code": 1278,
+        "province_code": 12,
+        "name": "Kota Gunungsitoli",
+        "latitude": 1.2826405556021396,
+        "longitude": 97.61346302920929
+    }
+]

@@ -1,0 +1,135 @@
+[
+    {
+        "code": 1301,
+        "province_code": 13,
+        "name": "Kab. Pesisir Selatan",
+        "latitude": -1.3480157543827396,
+        "longitude": 100.57771703088352
+    },
+    {
+        "code": 1302,
+        "province_code": 13,
+        "name": "Kab. Solok",
+        "latitude": -0.9515709623485049,
+        "longitude": 100.621363864246
+    },
+    {
+        "code": 1303,
+        "province_code": 13,
+        "name": "Kab. Sijunjung",
+        "latitude": -0.6657814625085021,
+        "longitude": 100.94461003602282
+    },
+    {
+        "code": 1304,
+        "province_code": 13,
+        "name": "Kab. Tanah Datar",
+        "latitude": -0.47436500293745626,
+        "longitude": 100.62341833230498
+    },
+    {
+        "code": 1305,
+        "province_code": 13,
+        "name": "Kab. Padang Pariaman",
+        "latitude": -0.6209981455774217,
+        "longitude": 100.30654186745963
+    },
+    {
+        "code": 1306,
+        "province_code": 13,
+        "name": "Kab. Agam",
+        "latitude": -0.3151932364711986,
+        "longitude": 100.02965550313753
+    },
+    {
+        "code": 1307,
+        "province_code": 13,
+        "name": "Kab. Lima Puluh Kota",
+        "latitude": -0.1523939738781051,
+        "longitude": 100.66073826825613
+    },
+    {
+        "code": 1308,
+        "province_code": 13,
+        "name": "Kab. Pasaman",
+        "latitude": 0.14039088869184965,
+        "longitude": 100.16698745256477
+    },
+    {
+        "code": 1309,
+        "province_code": 13,
+        "name": "Kab. Kepulauan Mentawai",
+        "latitude": -2.054155901765037,
+        "longitude": 99.58047028483205
+    },
+    {
+        "code": 1310,
+        "province_code": 13,
+        "name": "Kab. Dharmasraya",
+        "latitude": null,
+        "longitude": null
+    },
+    {
+        "code": 1311,
+        "province_code": 13,
+        "name": "Kab. Solok Selatan",
+        "latitude": -1.55622109073616,
+        "longitude": 101.23950314232809
+    },
+    {
+        "code": 1312,
+        "province_code": 13,
+        "name": "Kab. Pasaman Barat",
+        "latitude": 0.11037800042690936,
+        "longitude": 99.82778738745613
+    },
+    {
+        "code": 1371,
+        "province_code": 13,
+        "name": "Kota Padang",
+        "latitude": -0.8758770365307109,
+        "longitude": 100.38728839371491
+    },
+    {
+        "code": 1372,
+        "province_code": 13,
+        "name": "Kota Solok",
+        "latitude": -0.7994814749336137,
+        "longitude": 100.65278211152693
+    },
+    {
+        "code": 1373,
+        "province_code": 13,
+        "name": "Kota Sawahlunto",
+        "latitude": -0.6750372451200484,
+        "longitude": 100.76750125689844
+    },
+    {
+        "code": 1374,
+        "province_code": 13,
+        "name": "Kota Padang Panjang",
+        "latitude": -0.4621189750496027,
+        "longitude": 100.39039860910817
+    },
+    {
+        "code": 1375,
+        "province_code": 13,
+        "name": "Kota Bukittinggi",
+        "latitude": -0.2854652709845979,
+        "longitude": 100.36780701021121
+    },
+    {
+        "code": 1376,
+        "province_code": 13,
+        "name": "Kota Payakumbuh",
+        "latitude": -0.22251750962688782,
+        "longitude": 100.63197810693005
+    },
+    {
+        "code": 1377,
+        "province_code": 13,
+        "name": "Kota Pariaman",
+        "latitude": -0.6289899582270029,
+        "longitude": 100.1377134437062
+    }
+]

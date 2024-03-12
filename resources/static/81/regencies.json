@@ -1,0 +1,79 @@
+[
+    {
+        "code": 8101,
+        "province_code": 81,
+        "name": "Kab. Maluku Tengah",
+        "latitude": -3.3042648189510224,
+        "longitude": 128.95408633796967
+    },
+    {
+        "code": 8102,
+        "province_code": 81,
+        "name": "Kab. Maluku Tenggara",
+        "latitude": -5.682916545472394,
+        "longitude": 132.71727708818904
+    },
+    {
+        "code": 8103,
+        "province_code": 81,
+        "name": "Kab. Kepulauan Tanimbar",
+        "latitude": -7.970115508208761,
+        "longitude": 131.3122650572608
+    },
+    {
+        "code": 8104,
+        "province_code": 81,
+        "name": "Kab. Buru",
+        "latitude": -3.2591745680268827,
+        "longitude": 127.10278183791851
+    },
+    {
+        "code": 8105,
+        "province_code": 81,
+        "name": "Kab. Seram Bagian Timur",
+        "latitude": -3.10374969502556,
+        "longitude": 130.4886076064629
+    },
+    {
+        "code": 8106,
+        "province_code": 81,
+        "name": "Kab. Seram Bagian Barat",
+        "latitude": -3.066663330229327,
+        "longitude": 128.23003905355495
+    },
+    {
+        "code": 8107,
+        "province_code": 81,
+        "name": "Kab. Kepulauan Aru",
+        "latitude": -5.775177775557766,
+        "longitude": 134.21458787827214
+    },
+    {
+        "code": 8108,
+        "province_code": 81,
+        "name": "Kab. Maluku Barat Daya",
+        "latitude": -8.148038324123522,
+        "longitude": 127.8015502463786
+    },
+    {
+        "code": 8109,
+        "province_code": 81,
+        "name": "Kab. Buru Selatan",
+        "latitude": -3.8377899371827398,
+        "longitude": 126.73425882890845
+    },
+    {
+        "code": 8171,
+        "province_code": 81,
+        "name": "Kota Ambon",
+        "latitude": -3.6943237268737126,
+        "longitude": 128.1813033560866
+    },
+    {
+        "code": 8172,
+        "province_code": 81,
+        "name": "Kota Tual",
+        "latitude": -5.6346805376740114,
+        "longitude": 132.75172074301332
+    }
+]
