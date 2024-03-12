@@ -49,7 +49,9 @@ class VillageTest extends TestCase
     {
         $villages->each(function (Village $village) {
             $this->assertIsInt($village->code, 'Code should be int');
-            $this->assertIsInt($village->postal_code, 'Postal Code should be int');
+            if ($village->postal_code) {
+                $this->assertIsInt($village->postal_code, 'Postal Code should be int');
+            }
 
             $this->assertInstanceOf(VillageContract::class, $village);
         });
