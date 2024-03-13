@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.7](https://github.com/creasico/laravel-nusa/compare/v0.1.6...v0.1.7) (2024-03-13)
+
+
+### Features
+
+* **ci:** init tests on laravel 11 ([975fe02](https://github.com/creasico/laravel-nusa/commit/975fe021773137662b77bc2974344c0469e534e3))
+
 ### [0.1.6](https://github.com/creasico/laravel-nusa/compare/v0.1.5...v0.1.6) (2024-02-06)
 
 ### [0.1.5](https://github.com/creasico/laravel-nusa/compare/v0.1.4...v0.1.5) (2023-11-08)
