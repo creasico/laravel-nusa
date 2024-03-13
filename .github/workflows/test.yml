@@ -78,7 +78,7 @@ jobs:
         run: composer db:import
 
   tests:
-    name: Test on PHP ${{ matrix.php }} with DB ${{ matrix.db }}
+    name: Test on PHP ${{ matrix.php }} Laravel ${{ matrix.laravel }} DB ${{ matrix.db }}
     needs: [configs, prepare]
     runs-on: ubuntu-latest
     outputs:
@@ -119,8 +119,14 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        php: ['8.1', '8.2']
         db: ['mysql', 'pgsql', 'sqlite']
+        laravel: ['10.x', '11.x']
+        php: ['8.1', '8.2', '8.3']
+        exclude:
+          - php: '8.1'
+            laravel: '11.x'
+          - php: '8.3'
+            laravel: '9.x'
 
     steps:
       - name: Checkout
@@ -144,13 +150,16 @@ jobs:
           restore-keys: ${{ runner.os }}-${{ matrix.php }}-composer-
 
       - name: Install dependencies
-        run: composer update --prefer-dist --no-interaction --no-progress
+        run: |
+          composer require "laravel/framework=${{ matrix.laravel }}" --no-update
+          composer update --prefer-dist --no-interaction --no-progress
 
       - name: Run tests
-        run: composer test -- --coverage
+        run: |
+          vendor/bin/testbench package:test --ansi --coverage
 
       - name: Generate reports for CodeClimate
-        if: ${{ github.actor != 'dependabot[bot]' || needs.configs.outputs.should-reports == '1' }}
+        if: ${{ matrix.laravel == '10.x' && ( github.actor != 'dependabot[bot]' || needs.configs.outputs.should-reports == '1' ) }}
         id: reports
         env:
           COVERAGE_FILE: tests/reports/clover.xml
@@ -164,7 +173,7 @@ jobs:
 
       - name: Upload tests reports
         uses: actions/upload-artifact@v4
-        if: ${{ github.actor != 'dependabot[bot]' || needs.configs.outputs.should-reports == '1' }}
+        if: ${{ matrix.laravel == '10.x' && ( github.actor != 'dependabot[bot]' || needs.configs.outputs.should-reports == '1' ) }}
         with:
           name: test-reports-${{ matrix.php }}-${{ matrix.db }}
           path: tests/reports
