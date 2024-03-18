@@ -13,19 +13,13 @@ class Normalizer
     public static array $invalid = [];
 
     public function __construct(
-        public string $code,
+        public readonly string $code,
         public readonly string $name,
         public readonly ?string $postal_code,
         public readonly ?float $latitude = null,
         public readonly ?float $longitude = null,
         ?string $coordinates = null,
     ) {
-        // see https://github.com/cahyadsn/wilayah/issues/46
-        if (strlen($code) === 4) {
-            $code .= '0';
-        }
-
-        $this->code = $code;
         $this->type = match (strlen($code)) {
             2 => 'provinces',
             5 => 'regencies',

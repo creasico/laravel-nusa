@@ -66,8 +66,8 @@
         "code": 3310,
         "province_code": 33,
         "name": "Kab. Klaten",
-        "latitude": null,
-        "longitude": null
+        "latitude": -7.712385036340197,
+        "longitude": 110.59213566770745
     },
     {
         "code": 3311,
@@ -136,8 +136,8 @@
         "code": 3320,
         "province_code": 33,
         "name": "Kab. Jepara",
-        "latitude": null,
-        "longitude": null
+        "latitude": -6.59009446252794,
+        "longitude": 110.66812971187831
     },
     {
         "code": 3321,

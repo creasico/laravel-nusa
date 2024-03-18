@@ -66,8 +66,8 @@
         "code": 3510,
         "province_code": 35,
         "name": "Kab. Banyuwangi",
-        "latitude": null,
-        "longitude": null
+        "latitude": -8.223037204830721,
+        "longitude": 114.36643523941463
     },
     {
         "code": 3511,
@@ -136,8 +136,8 @@
         "code": 3520,
         "province_code": 35,
         "name": "Kab. Magetan",
-        "latitude": null,
-        "longitude": null
+        "latitude": -7.656157297486492,
+        "longitude": 111.32926865421445
     },
     {
         "code": 3521,

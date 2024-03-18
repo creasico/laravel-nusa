@@ -24,8 +24,8 @@
         "code": 9110,
         "province_code": 91,
         "name": "Kab. Sarmi",
-        "latitude": null,
-        "longitude": null
+        "latitude": -1.8685726776038396,
+        "longitude": 138.74422616800342
     },
     {
         "code": 9111,
@@ -52,8 +52,8 @@
         "code": 9120,
         "province_code": 91,
         "name": "Kab. Mamberamo Raya",
-        "latitude": null,
-        "longitude": null
+        "latitude": -2.3708064074858095,
+        "longitude": 138.04986837362105
     },
     {
         "code": 9171,

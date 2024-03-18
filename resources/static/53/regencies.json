@@ -66,8 +66,8 @@
         "code": 5310,
         "province_code": 53,
         "name": "Kab. Manggarai",
-        "latitude": null,
-        "longitude": null
+        "latitude": -8.611446513623472,
+        "longitude": 120.4642990196421
     },
     {
         "code": 5311,
@@ -136,8 +136,8 @@
         "code": 5320,
         "province_code": 53,
         "name": "Kab. Sabu Raijua",
-        "latitude": null,
-        "longitude": null
+        "latitude": -10.452783457995888,
+        "longitude": 121.87803338600901
     },
     {
         "code": 5321,

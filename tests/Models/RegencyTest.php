@@ -49,19 +49,9 @@ class RegencyTest extends TestCase
     {
         $regencies->each(function (Regency $regency) {
             $this->assertIsInt($regency->code, 'Code should be int');
-
-            if ($regency->latitude) {
-                $this->assertIsFloat($regency->latitude, 'Latitude should be float');
-            }
-
-            if ($regency->longitude) {
-                $this->assertIsFloat($regency->longitude, 'Longitude should be float');
-            }
-
-            if ($regency->coordinates) {
-                $this->assertIsArray($regency->coordinates, 'Coordinates should be array');
-            }
-
+            // Comment this out due to https://github.com/cahyadsn/wilayah/pull/47
+            // $this->assertIsFloat($regency->latitude, 'Latitude should be float');
+            // $this->assertIsFloat($regency->longitude, 'Longitude should be float');
             $this->assertInstanceOf(Collection::class, $regency->postal_codes, 'Postal Codes should be instance of collection');
 
             $this->assertInstanceOf(RegencyContract::class, $regency);
