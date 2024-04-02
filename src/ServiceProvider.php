@@ -27,7 +27,7 @@ class ServiceProvider extends IlluminateServiceProvider
         config([
             'database.connections.nusa' => array_merge([
                 'driver' => 'sqlite',
-                'database' => self::LIB_PATH.'/database/nusa.sqlite',
+                'database' => \realpath(self::LIB_PATH.'/database/nusa.sqlite'),
                 'foreign_key_constraints' => true,
             ], config('database.connections.nusa', [])),
         ]);
