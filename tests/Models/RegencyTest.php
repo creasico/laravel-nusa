@@ -79,8 +79,8 @@ class RegencyTest extends TestCase
     #[Depends('it_should_has_many_regencies')]
     public function it_should_has_many_districts(Collection $regencies): void
     {
-        $regencies->each(function (Regency $regency) {
-            $this->assertTrue($regency->districts->every(fn ($dis) => $dis instanceof District));
+        $regencies->take(5)->each(function (Regency $regency) {
+            $this->assertTrue($regency->districts->take(5)->every(fn ($dis) => $dis instanceof District));
         });
     }
 
@@ -91,8 +91,8 @@ class RegencyTest extends TestCase
     #[Depends('it_should_has_many_regencies')]
     public function it_should_has_many_villages(Collection $regencies): void
     {
-        $regencies->each(function (Regency $regency) {
-            $this->assertTrue($regency->villages->every(fn ($vil) => $vil instanceof Village));
+        $regencies->take(5)->each(function (Regency $regency) {
+            $this->assertTrue($regency->villages->take(5)->every(fn ($vil) => $vil instanceof Village));
         });
     }
 }

@@ -7,10 +7,13 @@ namespace Creasi\Tests;
 use Creasi\Nusa\ServiceProvider;
 use Database\Seeders\DatabaseSeeder;
 use Illuminate\Config\Repository;
+use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {
+    use DatabaseMigrations;
+
     private static $shouldMigrate = true;
 
     protected function getPackageProviders($app)
@@ -51,28 +54,28 @@ class TestCase extends Orchestra
             $config->set('app.locale', 'id');
             $config->set('app.faker_locale', 'id_ID');
 
-            $conn = env('DB_CONNECTION', 'sqlite');
+            // $conn = env('DB_CONNECTION', 'sqlite');
 
-            $config->set('database.default', $conn);
+            // $conn = $config->get('database.default');
 
-            if ($conn === 'sqlite') {
-                $database = __DIR__.'/test.sqlite';
+            // if ($conn === 'sqlite') {
+            //     // $database = __DIR__.'/test.sqlite';
 
-                if (self::$shouldMigrate) {
-                    $this->recreateDatabase($database);
-                }
+            //     // if (self::$shouldMigrate) {
+            //     //     $this->recreateDatabase($database);
+            //     // }
 
-                $this->mergeConfig($config, 'database.connections.sqlite', [
-                    'database' => $database,
-                    'foreign_key_constraints' => true,
-                ]);
-            } else {
-                $this->mergeConfig($config, 'database.connections.'.$conn, [
-                    'database' => env('DB_DATABASE', 'creasi_test'),
-                    'username' => env('DB_USERNAME', 'creasico'),
-                    'password' => env('DB_PASSWORD', 'secret'),
-                ]);
-            }
+            //     $this->mergeConfig($config, 'database.connections.sqlite', [
+            //         'database' => ':memory:',
+            //         'foreign_key_constraints' => true,
+            //     ]);
+            // } else {
+            //     $this->mergeConfig($config, 'database.connections.'.$conn, [
+            //         'database' => env('DB_DATABASE', 'creasi_test'),
+            //         'username' => env('DB_USERNAME', 'creasico'),
+            //         'password' => env('DB_PASSWORD', 'secret'),
+            //     ]);
+            // }
         });
     }
 
