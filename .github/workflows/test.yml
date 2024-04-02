@@ -68,8 +68,8 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ${{ needs.configs.outputs.composer-cache }}
-          key: ${{ runner.os }}-8.1-composer-${{ hashFiles('**/composer.lock') }}
-          restore-keys: ${{ runner.os }}-8.1-composer-
+          key: php-8.1-10.x-composer-${{ hashFiles('**/composer.lock') }}
+          restore-keys: php-8.1-10.x--composer-
 
       - name: Install dependencies
         run: composer update --prefer-dist --no-interaction --no-progress
@@ -140,14 +140,14 @@ jobs:
           tools: composer:v2
           coverage: xdebug
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT }}
 
       - name: Cache Composer dependencies
         uses: actions/cache@v4
         with:
           path: ${{ needs.configs.outputs.composer-cache }}
-          key: ${{ runner.os }}-${{ matrix.php }}-composer-${{ hashFiles('**/composer.lock') }}
-          restore-keys: ${{ runner.os }}-${{ matrix.php }}-composer-
+          key: php-${{ matrix.php }}-${{ matrix.laravel }}-composer-${{ hashFiles('**/composer.lock') }}
+          restore-keys: php-${{ matrix.php }}-${{ matrix.laravel }}-composer-
 
       - name: Install dependencies
         run: |
@@ -155,12 +155,11 @@ jobs:
           composer update --prefer-dist --no-interaction --no-progress
 
       - name: Run tests
-        run: |
-          vendor/bin/testbench package:test --ansi --coverage
+        run: composer test -- --coverage
 
       - name: Generate reports for CodeClimate
-        if: ${{ matrix.laravel == '10.x' && ( github.actor != 'dependabot[bot]' || needs.configs.outputs.should-reports == '1' ) }}
         id: reports
+        if: ${{ matrix.db == 'pgsql' && ( github.actor != 'dependabot[bot]' || needs.configs.outputs.should-reports == '1' ) }}
         env:
           COVERAGE_FILE: tests/reports/clover.xml
           CODECLIMATE_REPORT: tests/reports/codeclimate.${{ matrix.php }}.json
@@ -173,10 +172,10 @@ jobs:
 
       - name: Upload tests reports
         uses: actions/upload-artifact@v4
-        if: ${{ matrix.laravel == '10.x' && ( github.actor != 'dependabot[bot]' || needs.configs.outputs.should-reports == '1' ) }}
+        if: ${{ steps.reports.outputs.has-reports == '1' }}
         with:
-          name: test-reports-${{ matrix.php }}-${{ matrix.db }}
-          path: tests/reports
+          name: cc-reports-${{ matrix.php }}-L${{ matrix.laravel }}
+          path: tests/reports/codeclimate-${{ matrix.php }}-L${{ matrix.laravel }}.json
 
   reports:
     name: Report Test Coverages
@@ -188,7 +187,7 @@ jobs:
       - name: Download test reports
         uses: actions/download-artifact@v4
         with:
-          pattern: test-reports-*
+          pattern: cc-reports-*
           merge-multiple: true
 
       - name: Report to CodeClimate
