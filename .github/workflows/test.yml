@@ -175,7 +175,7 @@ jobs:
         if: ${{ steps.reports.outputs.has-reports == '1' }}
         with:
           name: cc-reports-${{ matrix.php }}-L${{ matrix.laravel }}
-          path: tests/reports/codeclimate-${{ matrix.php }}-L${{ matrix.laravel }}.json
+          path: tests/reports/codeclimate.${{ matrix.php }}-L${{ matrix.laravel }}.json
 
   reports:
     name: Report Test Coverages
