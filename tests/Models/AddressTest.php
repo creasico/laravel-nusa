@@ -11,7 +11,6 @@ use Creasi\Tests\Fixtures\HasManyAddresses;
 use Creasi\Tests\Fixtures\HasOneAddress;
 use Creasi\Tests\TestCase;
 use Illuminate\Foundation\Testing\WithFaker;
-use PHPUnit\Framework\Attributes\Depends;
 use PHPUnit\Framework\Attributes\Group;
 use PHPUnit\Framework\Attributes\Test;
 
@@ -21,11 +20,16 @@ class AddressTest extends TestCase
 {
     use WithFaker;
 
+    private function createAddress(array $attrs): Address
+    {
+        return $this->app->make(AddressContract::class)->create($attrs);
+    }
+
     #[Test]
-    public function it_may_accociate_with_address(): AddressContract
+    public function it_may_accociate_with_address(): void
     {
         $village = Village::query()->inRandomOrder()->first();
-        $address = $this->app->make(AddressContract::class)->create([
+        $address = $this->createAddress([
             'line' => $this->faker->streetAddress(),
         ]);
 
@@ -33,28 +37,30 @@ class AddressTest extends TestCase
 
         $this->assertSame($village->province, $address->province);
         $this->assertNull($address->addressable);
-
-        return $address->fresh();
     }
 
     #[Test]
-    #[Depends('it_may_accociate_with_address')]
-    public function may_has_many_addresses(Address $address): void
+    public function may_has_many_addresses(): void
     {
+        /** @var HasManyAddresses */
         $addressable = HasManyAddresses::create();
 
-        $addressable->addresses()->save($address);
+        $addressable->addresses()->save(
+            $this->createAddress(['line' => 'Coba Alamat'])
+        );
 
         $this->assertCount(1, $addressable->addresses);
     }
 
     #[Test]
-    #[Depends('it_may_accociate_with_address')]
-    public function may_has_one_address(Address $address): void
+    public function may_has_one_address(): void
     {
+        /** @var HasOneAddress */
         $addressable = HasOneAddress::create();
 
-        $addressable->address()->save($address);
+        $addressable->address()->save(
+            $this->createAddress(['line' => 'Coba Alamat'])
+        );
 
         $this->assertInstanceOf(AddressContract::class, $addressable->address);
     }

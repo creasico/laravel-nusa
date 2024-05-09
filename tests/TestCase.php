@@ -39,40 +39,6 @@ class TestCase extends Orchestra
         }
     }
 
-    /**
-     * @param  \Illuminate\Foundation\Application  $app
-     */
-    protected function getEnvironmentSetUp($app): void
-    {
-        tap($app->make('config'), function (Repository $config) {
-            $config->set('app.locale', 'id');
-            $config->set('app.faker_locale', 'id_ID');
-
-            // $conn = env('DB_CONNECTION', 'sqlite');
-
-            // $conn = $config->get('database.default');
-
-            // if ($conn === 'sqlite') {
-            //     // $database = __DIR__.'/test.sqlite';
-
-            //     // if (self::$shouldMigrate) {
-            //     //     $this->recreateDatabase($database);
-            //     // }
-
-            //     $this->mergeConfig($config, 'database.connections.sqlite', [
-            //         'database' => ':memory:',
-            //         'foreign_key_constraints' => true,
-            //     ]);
-            // } else {
-            //     $this->mergeConfig($config, 'database.connections.'.$conn, [
-            //         'database' => env('DB_DATABASE', 'creasi_test'),
-            //         'username' => env('DB_USERNAME', 'creasico'),
-            //         'password' => env('DB_PASSWORD', 'secret'),
-            //     ]);
-            // }
-        });
-    }
-
     private function recreateDatabase(string $path)
     {
         if (\file_exists($path)) {
