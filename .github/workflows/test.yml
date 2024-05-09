@@ -162,7 +162,7 @@ jobs:
         if: ${{ matrix.db == 'pgsql' && ( github.actor != 'dependabot[bot]' || needs.configs.outputs.should-reports == '1' ) }}
         env:
           COVERAGE_FILE: tests/reports/clover.xml
-          CODECLIMATE_REPORT: tests/reports/codeclimate.${{ matrix.php }}.json
+          CODECLIMATE_REPORT: tests/reports/codeclimate.${{ matrix.php }}-L${{ matrix.laravel }}.json
         run: |
           if [[ -n \"$CC_TEST_REPORTER_URL\" ]]; then
             curl -LSs $CC_TEST_REPORTER_URL > ./cc-test-reporter && chmod +x ./cc-test-reporter
