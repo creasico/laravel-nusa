@@ -1,0 +1,3 @@
+providers:
+  - Creasi\Nusa\ServiceProvider
+  - Workbench\App\Providers\WorkbenchServiceProvider

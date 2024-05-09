@@ -207,21 +207,18 @@
         "code": 93,
         "name": "Papua Selatan",
         "latitude": -8.508696154665504,
-        "longitude": 140.40967635178788,
-        "coordinates": null
+        "longitude": 140.40967635178788
     },
     {
         "code": 94,
         "name": "Papua Tengah",
         "latitude": -3.363365864105701,
-        "longitude": 135.50389107766932,
-        "coordinates": null
+        "longitude": 135.50389107766932
     },
     {
         "code": 95,
         "name": "Papua Pegunungan",
         "latitude": -4.099306801793126,
-        "longitude": 138.94314903715775,
-        "coordinates": null
+        "longitude": 138.94314903715775
     }
 ]

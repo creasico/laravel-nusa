@@ -1,7 +1,17 @@
 {
     "name": "creasi/laravel-nusa",
     "description": "A Laravel package that aim to provide Indonesia' Administrative Data",
-    "keywords": ["laravel", "package", "indonesia", "provinsi", "kabupaten", "kota", "kecamatan", "kelurahan", "desa"],
+    "keywords": [
+        "laravel",
+        "package",
+        "indonesia",
+        "provinsi",
+        "kabupaten",
+        "kota",
+        "kecamatan",
+        "kelurahan",
+        "desa"
+    ],
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -34,6 +44,10 @@
         ],
         "testbench": [
             "testbench"
+        ],
+        "tinker": [
+            "Composer\\Config::disableProcessTimeout",
+            "testbench tinker"
         ]
     },
     "autoload": {
@@ -45,7 +59,8 @@
         "psr-4": {
             "Creasi\\Scripts\\": "scripts",
             "Creasi\\Tests\\": "tests",
-            "Database\\Seeders\\": "database/seeders/"
+            "Database\\Seeders\\": "database/seeders/",
+            "Workbench\\App\\": "workbench/app/"
         }
     },
     "require": {
