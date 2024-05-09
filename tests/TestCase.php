@@ -4,28 +4,22 @@ declare(strict_types=1);
 
 namespace Creasi\Tests;
 
-use Creasi\Nusa\ServiceProvider;
 use Database\Seeders\DatabaseSeeder;
 use Illuminate\Config\Repository;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
+use Orchestra\Testbench\Concerns\WithWorkbench;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {
     use DatabaseMigrations;
+    use WithWorkbench;
 
     private static $shouldMigrate = true;
 
-    protected function getPackageProviders($app)
-    {
-        return [
-            ServiceProvider::class,
-        ];
-    }
-
     protected function defineDatabaseMigrations()
     {
-        $nusa = \config('database.connections.nusa');
+        $nusa = \config('database.connections.nusa', []);
 
         if (self::$shouldMigrate) {
             $this->recreateDatabase($nusa['database']);
