@@ -40,9 +40,9 @@ class Address extends EloquentModel implements AddressContract
 
     public function associateWith(
         Village $village,
-        District $district = null,
-        Regency $regency = null,
-        Province $province = null,
+        ?District $district = null,
+        ?Regency $regency = null,
+        ?Province $province = null,
     ) {
         $this->village()->associate($village);
 
