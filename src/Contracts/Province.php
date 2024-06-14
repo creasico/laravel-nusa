@@ -27,4 +27,9 @@ interface Province
      * @return \Illuminate\Database\Eloquent\Relations\HasMany|Village
      */
     public function villages();
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany|LatitudeLongitude
+     */
+    public function longitudes();
 }

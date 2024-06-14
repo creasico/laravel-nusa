@@ -8,14 +8,9 @@ namespace Creasi\Nusa\Contracts;
 interface LatitudeLongitude
 {
     /**
-     * @return float
+     * @return \Illuminate\Database\Eloquent\Relations\MorphTo
      */
-    public function latitude(): float;
-
-    /**
-     * @return float
-     */
-    public function longitude(): float;
+    public function latitudeLongitudeable();
 }
 
 
