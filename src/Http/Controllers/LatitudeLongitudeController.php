@@ -20,9 +20,32 @@ final class LatitudeLongitudeController
 
         return NusaResource::collection($request->apply($this->model));
     }
+
+    public function show(NusaRequest $request, int $latitudeLongitude)
+    {
+        $latitudeLongitude = $this->model->findOrFail($latitudeLongitude);
+
+        $request->relations($latitudeLongitude);
+
+        return new NusaResource($latitudeLongitude);
+    }
+
+    public function districts(NusaRequest $request, int $latitudeLongitude)
+    {
+        $latitudeLongitude = $this->model->findOrFail($latitudeLongitude);
+
+        return NusaResource::collection(
+            $request->apply($latitudeLongitude->districts())
+        );
+    }
+
+    public function villages(NusaRequest $request, int $latitudeLongitude)
+    {
+        $latitudeLongitude = $this->model->findOrFail($latitudeLongitude);
+
+        return NusaResource::collection(
+            $request->apply($latitudeLongitude->villages())
+        );
+    }
+
 }
-
-
-
-
-?>
