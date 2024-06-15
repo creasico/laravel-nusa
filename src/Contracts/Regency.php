@@ -28,4 +28,14 @@ interface Regency
      * @return \Illuminate\Database\Eloquent\Relations\HasMany|Village
      */
     public function villages();
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo|LatitudeLongitude
+     */
+    public function longitude();
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo|LatitudeLongitude
+     */
+    public function latitude();
 }
