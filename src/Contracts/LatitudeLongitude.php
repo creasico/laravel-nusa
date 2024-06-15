@@ -7,6 +7,12 @@ namespace Creasi\Nusa\Contracts;
 
 interface LatitudeLongitude
 {
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo|Province
+     */
+    public function province();
+
     /**
      * @return \Illuminate\Database\Eloquent\Relations\MorphTo
      */

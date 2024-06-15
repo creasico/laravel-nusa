@@ -32,12 +32,7 @@ interface District
     public function villages();
 
     /**
-     * @return \Illuminate\Database\Eloquent\Relations\HasMany|LatitudeLongitude
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo|LatitudeLongitude
      */
-    public function longitudes();
-
-    /**
-     * @return \Illuminate\Database\Eloquent\Relations\HasMany|LatitudeLongitude
-     */
-    public function latitudes();
+    public function coordinate();
 }

@@ -31,10 +31,5 @@ interface Province
     /**
      * @return \Illuminate\Database\Eloquent\Relations\HasMany|LatitudeLongitude
      */
-    public function longitudes();
-
-    /**
-     * @return \Illuminate\Database\Eloquent\Relations\HasMany|LatitudeLongitude
-     */
-    public function latitudes();
+    public function coordinates();
 }
