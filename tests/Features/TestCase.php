@@ -9,7 +9,7 @@ abstract class TestCase extends BaseTestCase
 {
     protected $path = '';
 
-    protected function path(string $path = null, array $query = []): string
+    protected function path(?string $path = null, array $query = []): string
     {
         $path = $this->path.'/'.ltrim($path);
 
