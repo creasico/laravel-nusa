@@ -5,9 +5,11 @@ declare(strict_types=1);
 namespace Creasi\Tests\Models;
 
 use Creasi\Nusa\Contracts\HasCoordinate;
-use Creasi\Nusa\Contracts\LatitudeLongitude as LatitudeLongitudeContract;
-use Creasi\Nusa\Contracts\Village;
+use Creasi\Nusa\Models\Village;
 use Creasi\Nusa\Models\Coordinate;
+use Creasi\Nusa\Models\District;
+use Creasi\Nusa\Models\Province;
+use Creasi\Nusa\Models\Regency;
 use Creasi\Tests\TestCase;
 use Illuminate\Foundation\Testing\WithFaker;
 use PHPUnit\Framework\Attributes\Group;
@@ -28,8 +30,34 @@ class CoordinateTest extends TestCase
     #[Test]
     public function it_may_accociate_with_coordinate(): void
     {
-
+        $coordinate = Coordinate::query()->inRandomOrder()->first();
+        $this->assertNotNull($coordinate);
     }
+    #[Test]
+    public function it_may_accociate_with_province(): void
+    {
+        $province = Province::query()->inRandomOrder()->first();
+        $this->assertNotNull($province);
+    }
+    #[Test]
+    public function it_may_accociate_with_regency(): void
+    {
+        $regency = Regency::query()->inRandomOrder()->first();
+        $this->assertNotNull($regency);
+    }
+    #[Test]
+    public function it_may_accociate_with_district(): void
+    {
+        $district = District::query()->inRandomOrder()->first();
+        $this->assertNotNull($district);
+    }
+    #[Test]
+    public function it_may_accociate_with_village(): void
+    {
+        $village = Village::query()->inRandomOrder()->first();
+        $this->assertNotNull($village);
+    }
+
 }
 
 
