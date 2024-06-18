@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Creasi\Nusa\Models;
 
+use Creasi\Nusa\Contracts\LatitudeLongitude;
 use Creasi\Nusa\Contracts\Village as VillageContract;
 use Creasi\Nusa\Models\Concerns\WithDistrict;
 use Creasi\Nusa\Models\Concerns\WithProvince;
@@ -29,5 +30,10 @@ class Village extends Model implements VillageContract
     public function getTable()
     {
         return config('creasi.nusa.table_names.villages', parent::getTable());
+    }
+
+    public function coordinates()
+    {
+        return $this->hasMany(LatitudeLongitude::class);
     }
 }

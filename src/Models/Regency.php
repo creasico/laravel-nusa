@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Creasi\Nusa\Models;
 
+use Creasi\Nusa\Contracts\LatitudeLongitude;
 use Creasi\Nusa\Contracts\Regency as RegencyContract;
 use Creasi\Nusa\Models\Concerns\WithDistricts;
 use Creasi\Nusa\Models\Concerns\WithProvince;
@@ -27,5 +28,10 @@ class Regency extends Model implements RegencyContract
     public function getTable()
     {
         return config('creasi.nusa.table_names.regencies', parent::getTable());
+    }
+
+    public function coordinates()
+    {
+        return $this->hasMany(LatitudeLongitude::class);
     }
 }

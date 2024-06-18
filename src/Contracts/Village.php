@@ -35,10 +35,6 @@ interface Village
     /**
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo|LatitudeLongitude
      */
-    public function longitude();
 
-    /**
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo|LatitudeLongitude
-     */
-    public function latitude();
+     public function coordinates();
 }

@@ -30,12 +30,7 @@ interface Regency
     public function villages();
 
     /**
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo|LatitudeLongitude
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany|LatitudeLongitude
      */
-    public function longitude();
-
-    /**
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo|LatitudeLongitude
-     */
-    public function latitude();
+    public function coordinates();
 }
