@@ -2,14 +2,14 @@
 
 namespace Creasi\Nusa\Http\Controllers;
 
-use Creasi\Nusa\Contracts\LatitudeLongitude;
+use Creasi\Nusa\Contracts\Coordinate;
 use Creasi\Nusa\Http\Requests\NusaRequest;
 use Creasi\Nusa\Http\Resources\NusaResource;
 
-final class LatitudeLongitudeController
+final class CoordinateController
 {
     public function __construct(
-        private LatitudeLongitude $model
+        private Coordinate $model
     ) {
         // .
     }

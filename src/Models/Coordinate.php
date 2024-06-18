@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Creasi\Nusa\Models;
 
-use Creasi\Nusa\Contracts\HasCoordinate as LatitudeLongitudeContract;
+use Creasi\Nusa\Contracts\Coordinate as CoordinateContract;
 use Creasi\Nusa\Contracts\District;
 use Creasi\Nusa\Contracts\Province;
 use Creasi\Nusa\Contracts\Regency;
@@ -19,7 +19,7 @@ use Illuminate\Database\Eloquent\Model as EloquentModel;
  *
  * @mixin \Illuminate\Contracts\Database\Eloquent\Builder
  */
-class Coordinate extends EloquentModel implements LatitudeLongitudeContract
+class Coordinate extends EloquentModel implements CoordinateContract
 {
     use Concerns\WithDistrict;
     use Concerns\WithProvince;

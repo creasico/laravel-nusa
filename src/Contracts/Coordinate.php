@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Creasi\Nusa\Contracts;
 
 
-interface LatitudeLongitude
+interface Coordinate
 {
 
     /**
@@ -16,7 +16,7 @@ interface LatitudeLongitude
     /**
      * @return \Illuminate\Database\Eloquent\Relations\MorphTo
      */
-    public function latitudeLongitudeable();
+    public function coordinateable();
 }
 
 

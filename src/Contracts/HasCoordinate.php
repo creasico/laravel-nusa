@@ -13,7 +13,7 @@ namespace Creasi\Nusa\Contracts;
 interface HasCoordinate
 {
     /**
-     * @return \Illuminate\Database\Eloquent\Relations\MorphMany|LatitudeLongitude
+     * @return \Illuminate\Database\Eloquent\Relations\MorphOne|Coordinate
      */
-    public function coordinates();
+    public function coordinate();
 }

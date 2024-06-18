@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Creasi\Tests\Models;
 
-use Creasi\Nusa\Contracts\HasCoordinate;
+use Creasi\Nusa\Contracts\Coordinate as CoordinateContracts;
 use Creasi\Nusa\Models\Village;
 use Creasi\Nusa\Models\Coordinate;
 use Creasi\Nusa\Models\District;
@@ -24,7 +24,7 @@ class CoordinateTest extends TestCase
 
     private function createCoordinates(array $attrs): Coordinate
     {
-        return $this->app->make(HasCoordinate::class)->create($attrs);
+        return $this->app->make(CoordinateContracts::class)->create($attrs);
     }
 
     #[Test]
