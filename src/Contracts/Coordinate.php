@@ -14,9 +14,14 @@ interface Coordinate
     public function province();
 
     /**
-     * @return \Illuminate\Database\Eloquent\Relations\MorphTo
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo|Regency
      */
-    public function coordinateable();
+    public function regency();
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany|Village
+     */
+    public function villages();
 }
 
 

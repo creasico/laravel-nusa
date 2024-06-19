@@ -29,7 +29,7 @@ interface Province
     public function villages();
 
     /**
-     * @return \Illuminate\Database\Eloquent\Relations\HasMany|LatitudeLongitude
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo|Coordinate
      */
-    public function coordinates();
+    public function coordinate();
 }

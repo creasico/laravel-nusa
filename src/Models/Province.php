@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Creasi\Nusa\Models;
 
-use Creasi\Nusa\Contracts\LatitudeLongitude;
 use Creasi\Nusa\Contracts\Province as ProvinceContract;
 use Creasi\Nusa\Models\Concerns\WithDistricts;
 use Creasi\Nusa\Models\Concerns\WithVillages;
@@ -32,10 +31,5 @@ class Province extends Model implements ProvinceContract
     public function regencies()
     {
         return $this->hasMany(Regency::class);
-    }
-
-    public function coordinates()
-    {
-        return $this->hasMany(LatitudeLongitude::class);
     }
 }
