@@ -31,4 +31,9 @@ class District extends Model implements DistrictContract
     {
         return config('creasi.nusa.table_names.districts', parent::getTable());
     }
+
+    public function coordinates()
+    {
+        return $this->hasMany(Coordinate::class);
+    }
 }

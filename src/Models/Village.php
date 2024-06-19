@@ -32,4 +32,9 @@ class Village extends Model implements VillageContract
     {
         return config('creasi.nusa.table_names.villages', parent::getTable());
     }
+
+    public function coordinates()
+    {
+        return $this->hasMany(Coordinate::class);
+    }
 }

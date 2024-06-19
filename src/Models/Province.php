@@ -32,4 +32,9 @@ class Province extends Model implements ProvinceContract
     {
         return $this->hasMany(Regency::class);
     }
+
+    public function coordinates()
+    {
+        return $this->hasMany(Coordinate::class);
+    }
 }
