@@ -38,33 +38,8 @@ class Coordinate extends EloquentModel implements CoordinateContract
     {
         return \array_merge(parent::getFillable(), ['latitude', 'longitude']);
     }
-
-    public function associateWith(
-        Village $village,
-        ?District $district = null,
-        ?Regency $regency = null,
-        ?Province $province = null,
-    ) {
-        $this->village()->associate($village);
-
-        if (! $district) {
-            $district = $village->district;
-        }
-
-        $this->district()->associate($district);
-
-        if (! $regency) {
-            $regency = $village->regency;
-        }
-
-        $this->regency()->associate($regency);
-
-        if (! $province) {
-            $province = $village->province;
-        }
-
-        $this->province()->associate($province);
-
-        return $this->fresh();
+    public function getTable()
+    {
+        return config('creasi.nusa.table_names.coordinates', parent::getTable());
     }
 }

@@ -21,30 +21,30 @@ final class CoordinateController
         return NusaResource::collection($request->apply($this->model));
     }
 
-    public function show(NusaRequest $request, int $latitudeLongitude)
+    public function show(NusaRequest $request, int $coordinates)
     {
-        $latitudeLongitude = $this->model->findOrFail($latitudeLongitude);
+        $coordinates = $this->model->findOrFail($coordinates);
 
-        $request->relations($latitudeLongitude);
+        $request->relations($coordinates);
 
-        return new NusaResource($latitudeLongitude);
+        return new NusaResource($coordinates);
     }
 
-    public function districts(NusaRequest $request, int $latitudeLongitude)
+    public function districts(NusaRequest $request, int $coordinates)
     {
-        $latitudeLongitude = $this->model->findOrFail($latitudeLongitude);
+        $coordinates = $this->model->findOrFail($coordinates);
 
         return NusaResource::collection(
-            $request->apply($latitudeLongitude->districts())
+            $request->apply($coordinates->districts())
         );
     }
 
-    public function villages(NusaRequest $request, int $latitudeLongitude)
+    public function villages(NusaRequest $request, int $coordinates)
     {
-        $latitudeLongitude = $this->model->findOrFail($latitudeLongitude);
+        $coordinates = $this->model->findOrFail($coordinates);
 
         return NusaResource::collection(
-            $request->apply($latitudeLongitude->villages())
+            $request->apply($coordinates->villages())
         );
     }
 

@@ -10,7 +10,7 @@ use PHPUnit\Framework\Attributes\Group;
 use PHPUnit\Framework\Attributes\Test;
 
 #[Group('api')]
-#[Group('coordinate')]
+#[Group('coordinates')]
 class CoordinateTest extends TestCase
 {
     public const FIELDS = [
