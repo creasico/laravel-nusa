@@ -19,9 +19,9 @@ interface Coordinate
     public function regency();
 
     /**
-     * @return \Illuminate\Database\Eloquent\Relations\HasMany|Village
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo|Village
      */
-    public function villages();
+    public function village();
 }
 
 

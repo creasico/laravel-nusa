@@ -67,10 +67,4 @@ class Coordinate extends EloquentModel implements CoordinateContract
 
         return $this->fresh();
     }
-
-
-    public function coordinateable()
-    {
-        return $this->morphTo('coordinateable');
-    }
 }
