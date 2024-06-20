@@ -30,6 +30,15 @@ final class CoordinateController
         return new NusaResource($coordinates);
     }
 
+    public function provinces(NusaRequest $request, int $coordinates)
+    {
+        $coordinates = $this->model->findOrFail($coordinates);
+
+        return NusaResource::collection(
+            $request->apply($coordinates->provinces())
+        );
+    }
+
     public function districts(NusaRequest $request, int $coordinates)
     {
         $coordinates = $this->model->findOrFail($coordinates);
