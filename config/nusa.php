@@ -13,7 +13,6 @@ return [
         'districts' => 'districts',
         'regencies' => 'regencies',
         'villages' => 'villages',
-        'coordinates' => 'coordinates'
     ],
 
     'addressable' => Address::class,

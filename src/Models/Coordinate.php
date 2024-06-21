@@ -38,8 +38,4 @@ class Coordinate extends EloquentModel implements CoordinateContract
     {
         return \array_merge(parent::getFillable(), ['latitude', 'longitude']);
     }
-    public function getTable()
-    {
-        return config('creasi.nusa.table_names.coordinates', parent::getTable());
-    }
 }
