@@ -4,3 +4,6 @@
 [submodule "submodules/w3appdev-kodepos"]
 	path = submodules/w3appdev-kodepos
 	url = https://github.com/w3appdev/kodepos.git
+[submodule "indonesia"]
+	path = indonesia
+	url = git@github.com:laravolt/indonesia.git
