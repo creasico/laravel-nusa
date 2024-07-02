@@ -31,4 +31,9 @@ interface Village
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo|District
      */
     public function district();
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany|Coordinate
+     */
+     public function coordinates();
 }

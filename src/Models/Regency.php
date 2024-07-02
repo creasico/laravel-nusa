@@ -28,4 +28,9 @@ class Regency extends Model implements RegencyContract
     {
         return config('creasi.nusa.table_names.regencies', parent::getTable());
     }
+
+    public function coordinates()
+    {
+        return $this->hasMany(Coordinate::class);
+    }
 }

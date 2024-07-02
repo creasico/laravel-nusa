@@ -28,4 +28,9 @@ interface Regency
      * @return \Illuminate\Database\Eloquent\Relations\HasMany|Village
      */
     public function villages();
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany|Coordinate
+     */
+    public function coordinates();
 }
