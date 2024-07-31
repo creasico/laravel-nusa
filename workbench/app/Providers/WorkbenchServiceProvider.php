@@ -29,7 +29,7 @@ class WorkbenchServiceProvider extends ServiceProvider
 
         if (app()->runningInConsole()) {
             $this->commands([
-                StatCommand::class
+                StatCommand::class,
             ]);
         }
 
