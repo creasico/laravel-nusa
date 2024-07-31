@@ -9,11 +9,6 @@ use Creasi\Nusa\Models\Concerns\WithDistricts;
 use Creasi\Nusa\Models\Concerns\WithProvince;
 use Creasi\Nusa\Models\Concerns\WithVillages;
 
-/**
- * @property-read Province $province
- * @property-read \Illuminate\Database\Eloquent\Collection<int, District> $districts
- * @property-read \Illuminate\Database\Eloquent\Collection<int, Village> $villages
- */
 class Regency extends Model implements RegencyContract
 {
     use WithDistricts;

@@ -7,6 +7,8 @@ namespace Creasi\Nusa\Models\Concerns;
 use Creasi\Nusa\Models\Village;
 
 /**
+ * @property-read Village|\Creasi\Nusa\Contracts\Village $village
+ *
  * @mixin \Illuminate\Database\Eloquent\Model
  */
 trait WithVillage

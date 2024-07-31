@@ -9,7 +9,7 @@ use Illuminate\Database\Eloquent\Casts\Attribute;
 
 /**
  * @property-read \Illuminate\Database\Eloquent\Collection<int, int> $postal_codes
- * @property-read \Illuminate\Database\Eloquent\Collection<int, \Creasi\Nusa\Contracts\Village> $villages
+ * @property-read \Illuminate\Database\Eloquent\Collection<int, Village|\Creasi\Nusa\Contracts\Village> $villages
  *
  * @mixin \Illuminate\Database\Eloquent\Model
  */

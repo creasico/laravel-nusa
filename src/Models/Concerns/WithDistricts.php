@@ -7,7 +7,7 @@ namespace Creasi\Nusa\Models\Concerns;
 use Creasi\Nusa\Models\District;
 
 /**
- * @property-read \Illuminate\Database\Eloquent\Collection<int, \Creasi\Nusa\Contracts\District> $districts
+ * @property-read \Illuminate\Database\Eloquent\Collection<int, District|\Creasi\Nusa\Contracts\District> $districts
  *
  * @mixin \Illuminate\Database\Eloquent\Model
  */

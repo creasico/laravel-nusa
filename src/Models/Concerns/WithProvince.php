@@ -7,6 +7,8 @@ namespace Creasi\Nusa\Models\Concerns;
 use Creasi\Nusa\Models\Province;
 
 /**
+ * @property-read Province|\Creasi\Nusa\Contracts\Province $province
+ *
  * @mixin \Illuminate\Database\Eloquent\Model
  */
 trait WithProvince
@@ -26,7 +28,7 @@ trait WithProvince
     }
 
     /**
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo|\Creasi\Nusa\Contracts\Province
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */
     public function province()
     {

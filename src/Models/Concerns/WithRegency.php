@@ -7,6 +7,8 @@ namespace Creasi\Nusa\Models\Concerns;
 use Creasi\Nusa\Models\Regency;
 
 /**
+ * @property-read Regency|\Creasi\Nusa\Contracts\Regency $regency
+ *
  * @mixin \Illuminate\Database\Eloquent\Model
  */
 trait WithRegency
@@ -26,7 +28,7 @@ trait WithRegency
     }
 
     /**
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo|\Creasi\Nusa\Contracts\Regency
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */
     public function regency()
     {
