@@ -4,6 +4,7 @@ namespace Workbench\App\Providers;
 
 use Illuminate\Config\Repository;
 use Illuminate\Support\ServiceProvider;
+use Workbench\App\Console\StatCommand;
 
 use function Orchestra\Testbench\workbench_path;
 
@@ -25,6 +26,12 @@ class WorkbenchServiceProvider extends ServiceProvider
         $this->loadMigrationsFrom(
             workbench_path('database/migrations')
         );
+
+        if (app()->runningInConsole()) {
+            $this->commands([
+                StatCommand::class
+            ]);
+        }
 
         tap(app()->make('config'), function (Repository $config) {
             $config->set('app.locale', 'id');

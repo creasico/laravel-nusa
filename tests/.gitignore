@@ -10,3 +10,4 @@ coveralls.*.json
 coveralls.json
 lcov.*.info
 lcov.info
+stats.json
