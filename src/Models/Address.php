@@ -12,11 +12,6 @@ use Creasi\Nusa\Contracts\Village;
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 
 /**
- * @property-read null|Province $province
- * @property-read null|Regency $regency
- * @property-read null|District $district
- * @property-read null|Village $village
- *
  * @mixin \Illuminate\Contracts\Database\Eloquent\Builder
  */
 class Address extends EloquentModel implements AddressContract
@@ -40,9 +35,9 @@ class Address extends EloquentModel implements AddressContract
 
     public function associateWith(
         Village $village,
-        District $district = null,
-        Regency $regency = null,
-        Province $province = null,
+        ?District $district = null,
+        ?Regency $regency = null,
+        ?Province $province = null,
     ) {
         $this->village()->associate($village);
 

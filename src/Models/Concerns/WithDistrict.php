@@ -7,6 +7,8 @@ namespace Creasi\Nusa\Models\Concerns;
 use Creasi\Nusa\Models\District;
 
 /**
+ * @property-read District|\Creasi\Nusa\Contracts\District $district
+ *
  * @mixin \Illuminate\Database\Eloquent\Model
  */
 trait WithDistrict
@@ -26,7 +28,7 @@ trait WithDistrict
     }
 
     /**
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo|\Creasi\Nusa\Contracts\District
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */
     public function district()
     {
