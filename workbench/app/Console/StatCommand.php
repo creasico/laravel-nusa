@@ -4,7 +4,6 @@ namespace Workbench\App\Console;
 
 use Creasi\Nusa\Contracts\Province;
 use Illuminate\Console\Command;
-use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\File;
 
 class StatCommand extends Command
@@ -28,26 +27,33 @@ class StatCommand extends Command
         ];
 
         $rows = $this->getStats($province, \array_keys($table));
-        $storePath = \realpath(\dirname(__DIR__).'/../../tests');
 
-        if ($this->option('diff')) {
-            $storedStat = File::json($storePath.'/stats.json');
-            $diffs = \array_filter($rows, fn ($row, $key) => $storedStat[$key] !== $row, \ARRAY_FILTER_USE_BOTH);
+        if ($diffs = $this->getDiffs($rows)) {
+            $this->info('Changes');
+            $this->table(\array_values($table), $diffs);
 
-            if (! empty($diffs)) {
-                $this->info('Changes');
-                $this->table(\array_values($table), $diffs);
-            } else {
-                $this->info('Unchanged');
-            }
-        } else {
-            File::put(
-                $storePath.'/stats.json',
-                \json_encode($rows, \JSON_PRETTY_PRINT)
-            );
-
-            $this->table(\array_values($table), $rows);
+            return;
         }
+
+        File::put($this->getStorePath(), \json_encode($rows, \JSON_PRETTY_PRINT));
+
+        $this->table(\array_values($table), $rows);
+    }
+
+    private function getDiffs(array $rows): ?array
+    {
+        if (! $this->option('diff')) {
+            return null;
+        }
+
+        $storedStat = File::json($this->getStorePath());
+        $diffs = \array_filter($rows, fn ($row, $key) => $storedStat[$key] !== $row, \ARRAY_FILTER_USE_BOTH);
+
+        if (empty($diffs)) {
+            return null;
+        }
+
+        return $diffs;
     }
 
     private function getStats(Province $province, array $fields): array
@@ -66,5 +72,12 @@ class StatCommand extends Command
         }
 
         return $rows;
+    }
+
+    private function getStorePath(): string
+    {
+        $storePath = \realpath(\dirname(__DIR__).'/../../tests');
+
+        return $storePath.'/stats.json';
     }
 }
