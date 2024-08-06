@@ -801,6 +801,14 @@ class User extends Model implements HasAddresses
 }
 ```
 
+To be able to use `Address` model, all you need is to publish the migration, like so
+
+```sh
+php artisan vendor:publish --tag creasi-migrations
+```
+
+Then simply run `artisan migrate` to apply the additional migrations.
+
 ### Databases
 
 The database structure documentation please consult to [`database/README.md`](https://github.com/creasico/laravel-nusa/blob/main/database/README.md).
