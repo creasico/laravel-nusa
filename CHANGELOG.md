@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.8](https://github.com/creasico/laravel-nusa/compare/v0.1.7...v0.1.8) (2024-08-06)
+
+
+### Features
+
+* add `pint` config to exclude `submodules` dir ([404032d](https://github.com/creasico/laravel-nusa/commit/404032d48d02dea2744d5e679a7eb4b315cb5d18))
+* **db:** create basic migration for `addresses` tabel ([62ee6d3](https://github.com/creasico/laravel-nusa/commit/62ee6d3239f994698bf9208c0657b71615e39e6f)), closes [#85](https://github.com/creasico/laravel-nusa/issues/85)
+* init stat command ([ba48cdb](https://github.com/creasico/laravel-nusa/commit/ba48cdbf3f8b2297f76f1958e0d4c79ad82db017))
+
+
+### Bug Fixes
+
+* **test:** fix test issue with address model relations ([a95b38a](https://github.com/creasico/laravel-nusa/commit/a95b38ad76592f16389bee3696f9f85e111bf564))
+
 ### [0.1.7](https://github.com/creasico/laravel-nusa/compare/v0.1.6...v0.1.7) (2024-03-13)
 
 
