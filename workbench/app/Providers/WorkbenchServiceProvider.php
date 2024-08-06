@@ -6,8 +6,6 @@ use Illuminate\Config\Repository;
 use Illuminate\Support\ServiceProvider;
 use Workbench\App\Console\StatCommand;
 
-use function Orchestra\Testbench\workbench_path;
-
 class WorkbenchServiceProvider extends ServiceProvider
 {
     /**
@@ -23,10 +21,6 @@ class WorkbenchServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        $this->loadMigrationsFrom(
-            workbench_path('database/migrations')
-        );
-
         if (app()->runningInConsole()) {
             $this->commands([
                 StatCommand::class,

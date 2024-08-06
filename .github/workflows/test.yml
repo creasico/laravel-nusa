@@ -154,6 +154,11 @@ jobs:
           composer require "laravel/framework=${{ matrix.laravel }}" --no-update
           composer update --prefer-dist --no-interaction --no-progress
 
+      - name: Run migrations
+        run: |
+          composer testbench vendor:publish -- --tag creasi-migrations
+          composer testbench migrate
+
       - name: Run tests
         run: composer test -- --coverage
 

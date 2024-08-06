@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Creasi\Nusa;
 
+use Illuminate\Filesystem\Filesystem;
+use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
 
@@ -58,6 +60,10 @@ class ServiceProvider extends IlluminateServiceProvider
         $this->publishes([
             self::LIB_PATH.'/resources/lang' => \resource_path('lang/vendor/creasico'),
         ], ['creasi-lang']);
+
+        $this->publishes([
+            self::LIB_PATH.'/database/migrations/create_addresses_tables.php.stub' => $this->getMigrationFileName('create_addresses_tables.php'),
+        ], 'creasi-migrations');
     }
 
     protected function registerBindings()
@@ -83,6 +89,22 @@ class ServiceProvider extends IlluminateServiceProvider
         $this->app->bind(Contracts\Village::class, function ($app) {
             return $app->make(Models\Village::class);
         });
+    }
+
+    /**
+     * Returns existing migration file if found, else uses the current timestamp.
+     *
+     * @link https://github.com/spatie/laravel-permission/blob/main/src/PermissionServiceProvider.php
+     */
+    protected function getMigrationFileName(string $migrationFileName): string
+    {
+        $timestamp = date('Y_m_d_His');
+        $filesystem = $this->app->make(Filesystem::class);
+
+        return Collection::make([$this->app->databasePath().DIRECTORY_SEPARATOR.'migrations'.DIRECTORY_SEPARATOR])
+            ->flatMap(fn ($path) => $filesystem->glob($path.'*_'.$migrationFileName))
+            ->push($this->app->databasePath()."/migrations/{$timestamp}_{$migrationFileName}")
+            ->first();
     }
 
     public function provides()
