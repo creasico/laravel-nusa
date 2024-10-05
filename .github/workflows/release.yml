@@ -8,19 +8,4 @@ on:
 jobs:
   publish:
     name: Publish Release
-    runs-on: ubuntu-latest
-
-    steps:
-    - name: Checkout
-      uses: actions/checkout@v4
-
-    - name: Read Changelog file
-      run: npx @feryardiant/read-changelog > PUBLISH.md
-
-    - name: Publish
-      uses: softprops/action-gh-release@v2
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        body_path: PUBLISH.md
-        generate_release_notes: true
+    uses: feryardiant/actions/.github/workflows/release.yml@main
