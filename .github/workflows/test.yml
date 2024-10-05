@@ -1,6 +1,8 @@
 name: Tests
 
 on:
+  schedule: # scheduled to run at 23.00 on Saturday (UTC), means 6.00 on Monday (WIB)
+    - cron: '0 23 * * 6'
   pull_request:
     branches: [main]
   push:
@@ -8,8 +10,6 @@ on:
     # paths: ['.github/**.yml', 'src/*', 'tests/*']
 
 env:
-  CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
-  CC_TEST_REPORTER_URL: ${{ vars.CC_TEST_REPORTER_URL }}
   DB_USERNAME: ${{ github.repository_owner }}
   DB_PASSWORD: secret
 
@@ -20,12 +20,9 @@ concurrency:
 jobs:
   configs:
     name: Configure
-    uses: creasico/laravel-package/.github/workflows/configure.yml@main
-    secrets: inherit
-
-    permissions:
-      contents: read
-      pull-requests: write
+    uses: feryardiant/actions/.github/workflows/configure.yml@main
+    secrets:
+      CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
 
   prepare:
     name: Prepare Database
@@ -60,7 +57,6 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: 8.1
-          ini-values: error_reporting=E_ALL
           tools: composer:v2
           coverage: xdebug
 
@@ -81,8 +77,6 @@ jobs:
     name: Test on PHP ${{ matrix.php }} Laravel ${{ matrix.laravel }} DB ${{ matrix.db }}
     needs: [configs, prepare]
     runs-on: ubuntu-latest
-    outputs:
-      has-reports: ${{ steps.reports.outputs.has-reports }}
     env:
       DB_CONNECTION: ${{ matrix.db }}
       DB_DATABASE: ${{ github.repository_owner }}
@@ -164,39 +158,29 @@ jobs:
 
       - name: Generate reports for CodeClimate
         id: reports
-        if: ${{ matrix.db == 'pgsql' && ( github.actor != 'dependabot[bot]' || needs.configs.outputs.should-reports == '1' ) }}
+        if: needs.configs.outputs.has-codeclimate == 'true'
         env:
-          COVERAGE_FILE: tests/reports/clover.xml
-          CODECLIMATE_REPORT: tests/reports/codeclimate.${{ matrix.php }}-L${{ matrix.laravel }}.json
+          CODECLIMATE_REPORT: tests/reports/codeclimate.PHP${{ matrix.php }}-L${{ matrix.laravel }}-${{ matrix.db }}.json
+          CC_TEST_REPORTER_URL: ${{ vars.CC_TEST_REPORTER_URL }}
         run: |
-          if [[ -n \"$CC_TEST_REPORTER_URL\" ]]; then
-            curl -LSs $CC_TEST_REPORTER_URL > ./cc-test-reporter && chmod +x ./cc-test-reporter
-            ./cc-test-reporter format-coverage -t clover -o $CODECLIMATE_REPORT $COVERAGE_FILE
-            echo "has-reports=1" >> $GITHUB_OUTPUT
-          fi
+          curl -LSs $CC_TEST_REPORTER_URL > ./cc-test-reporter && chmod +x ./cc-test-reporter
+          ./cc-test-reporter format-coverage -t clover -o $CODECLIMATE_REPORT tests/reports/clover.xml
 
       - name: Upload tests reports
         uses: actions/upload-artifact@v4
-        if: ${{ steps.reports.outputs.has-reports == '1' }}
+        if: needs.configs.outputs.has-codeclimate == 'true'
         with:
-          name: cc-reports-${{ matrix.php }}-L${{ matrix.laravel }}
-          path: tests/reports/codeclimate.${{ matrix.php }}-L${{ matrix.laravel }}.json
+          name: test-reports-PHP${{ matrix.php }}-L${{ matrix.laravel }}-${{ matrix.db }}
+          path: tests/reports/codeclimate.PHP${{ matrix.php }}-L${{ matrix.laravel }}-${{ matrix.db }}.json
 
   reports:
     name: Report Test Coverages
-    if: ${{ github.actor != 'dependabot[bot]' && needs.tests.outputs.has-reports == '1' }}
-    runs-on: ubuntu-latest
-    needs: tests
-
-    steps:
-      - name: Download test reports
-        uses: actions/download-artifact@v4
-        with:
-          pattern: cc-reports-*
-          merge-multiple: true
-
-      - name: Report to CodeClimate
-        run: |
-          curl -LSs $CC_TEST_REPORTER_URL > ./cc-test-reporter && chmod +x ./cc-test-reporter
-          ./cc-test-reporter sum-coverage -o - codeclimate.*.json | ./cc-test-reporter upload-coverage --input -
+    needs: [configs, tests]
+    if: needs.configs.outputs.should-reports == '1'
+    uses: feryardiant/actions/.github/workflows/report.yml@main
+    secrets:
+      CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
+    with:
+      has-coveralls: ${{ needs.configs.outputs.has-coveralls == 'true' }}
+      has-codeclimate: ${{ needs.configs.outputs.has-codeclimate == 'true' }}
 
