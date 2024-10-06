@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.9](https://github.com/creasico/laravel-nusa/compare/v0.1.8...v0.1.9) (2024-10-06)
+
+
+### Features
+
+* **ci:** update ci config to use workflow from `feryardiant/actions` ([#90](https://github.com/creasico/laravel-nusa/issues/90)) ([612ce59](https://github.com/creasico/laravel-nusa/commit/612ce59246db9025b8653dfb3b6c803523bfdfae))
+
 ### [0.1.8](https://github.com/creasico/laravel-nusa/compare/v0.1.7...v0.1.8) (2024-08-06)
 
 
