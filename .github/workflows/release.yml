@@ -8,4 +8,4 @@ on:
 jobs:
   publish:
     name: Publish Release
-    uses: feryardiant/actions/.github/workflows/release.yml@main
+    uses: projek-xyz/actions/.github/workflows/release.yml@main
