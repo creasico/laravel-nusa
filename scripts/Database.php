@@ -78,7 +78,7 @@ class Database
             SELECT
                 w.kode, w.nama,
                 p.kodepos,
-                l.lat, l.lng, l.elv, l.tz, l.luas, l.penduduk, l.paths path
+                l.lat, l.lng, l.elv, l.tz, l.luas, l.penduduk, l.path path
             FROM wilayah w
             LEFT JOIN wilayah_level_1_2 l ON w.kode = l.kode
             LEFT JOIN kodewilayah2023 p on w.kode = p.kodewilayah
