@@ -4,6 +4,7 @@ namespace Workbench\App\Providers;
 
 use Illuminate\Config\Repository;
 use Illuminate\Support\ServiceProvider;
+use Workbench\App\Console\DatabaseImport;
 use Workbench\App\Console\StatCommand;
 
 class WorkbenchServiceProvider extends ServiceProvider
@@ -24,6 +25,7 @@ class WorkbenchServiceProvider extends ServiceProvider
         if (app()->runningInConsole()) {
             $this->commands([
                 StatCommand::class,
+                DatabaseImport::class,
             ]);
         }
 
@@ -32,6 +34,17 @@ class WorkbenchServiceProvider extends ServiceProvider
             $config->set('app.faker_locale', 'id_ID');
 
             $conn = env('DB_CONNECTION', 'sqlite');
+
+            $config->set([
+                'database.connections.upstream' => [
+                    'driver' => 'mysql',
+                    'host' => env('DB_HOST', '127.0.0.1'),
+                    'port' => env('DB_PORT', '3306'),
+                    'database' => env('DB_NUSA', 'nusantara'),
+                    'username' => env('DB_USERNAME', 'creasico'),
+                    'password' => env('DB_PASSWORD', 'secret'),
+                ],
+            ]);
 
             // $conn = $config->get('database.default');
 

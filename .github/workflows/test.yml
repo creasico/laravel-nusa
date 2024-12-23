@@ -69,11 +69,29 @@ jobs:
           key: php-8.1-10.x-composer-${{ hashFiles('**/composer.lock') }}
           restore-keys: php-8.1-10.x--composer-
 
+      # - name: Download previous stat
+      #   uses: actions/download-artifact@v4
+      #   with:
+      #     name: upstream-stats
+      #     path: tests/stats.json
+
       - name: Install dependencies
         run: composer update --prefer-dist --no-interaction --no-progress
 
       - name: Import databases
-        run: composer db:import
+        run: ./vendor/bin/testbench nusa:import
+
+      - name: Stat databases
+        run: |
+          git diff resources/**/*.csv
+          ./vendor/bin/testbench nusa:stat --diff
+          ./vendor/bin/testbench nusa:stat > /dev/null
+
+      - name: Upload current stat
+        uses: actions/upload-artifact@v4
+        with:
+          name: upstream-stats
+          path: tests/stats.json
 
   tests:
     name: Test on PHP ${{ matrix.php }} Laravel ${{ matrix.laravel }} DB ${{ matrix.db }}
