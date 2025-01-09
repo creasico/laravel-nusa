@@ -1,6 +1,6 @@
+[submodule "workbench/submodules/w3appdev-kodepos"]
+	path = workbench/submodules/w3appdev-kodepos
+	url = https://github.com/w3appdev/kodepos.git
 [submodule "workbench/submodules/cahyadsn-wilayah"]
 	path = workbench/submodules/cahyadsn-wilayah
 	url = https://github.com/cahyadsn/wilayah.git
-[submodule "workbench/submodules/w3appdev-kodepos"]
-	path = workbench/w3appdev-kodepos
-	url = https://github.com/w3appdev/kodepos.git
