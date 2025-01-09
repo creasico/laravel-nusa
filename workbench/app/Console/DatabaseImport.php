@@ -110,7 +110,7 @@ class DatabaseImport extends Command
         foreach ($paths as $path) {
             $this->line(" - Importing '{$path}'");
 
-            if ($query = file_get_contents("{$this->libPath}/submodules/{$path}")) {
+            if ($query = file_get_contents("{$this->libPath}/workbench/submodules/{$path}")) {
                 /*dd($query);*/
                 $this->query($query);
             }
@@ -128,7 +128,7 @@ class DatabaseImport extends Command
             $path = str("{$this->libPath}/resources/static/{$filename}.csv")
         );
 
-        $this->line(" - Writing: '{$path->substr(strlen($this->libPath)+1)}'");
+        $this->line(" - Writing: '{$path->substr(strlen($this->libPath) + 1)}'");
 
         $csv = [
             array_keys($content[0]),
@@ -158,7 +158,7 @@ class DatabaseImport extends Command
             $path = str("{$this->libPath}/resources/static/{$filename}.json")
         );
 
-        $this->line(" - Writing: '{$path->substr(strlen($this->libPath)+1)}'");
+        $this->line(" - Writing: '{$path->substr(strlen($this->libPath) + 1)}'");
 
         file_put_contents((string) $path, json_encode($content->map(function ($value) {
             if (isset($value['coordinates'])) {
