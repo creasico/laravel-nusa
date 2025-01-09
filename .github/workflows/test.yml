@@ -81,11 +81,17 @@ jobs:
       - name: Import databases
         run: ./vendor/bin/testbench nusa:import
 
+      # - name: Get file changed
+      #   uses: tj-actions/changed-files@v45
+      #   with:
+      #     exclude_submodules: true
+      #     # files: resources/**
+
       - name: Stat databases
         run: |
-          git diff resources/**/*.csv
           ./vendor/bin/testbench nusa:stat --diff
           ./vendor/bin/testbench nusa:stat > /dev/null
+          git status -s resources
 
       - name: Upload current stat
         uses: actions/upload-artifact@v4

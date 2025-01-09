@@ -65,8 +65,9 @@ class StatCommand extends Command
 
     private function getStats(Province $province, array $fields): array
     {
-        $stats = $province->withCount(['regencies', 'districts', 'villages'])->get(['code', 'name']);
         $rows = [];
+        $stats = $province->withCount(['regencies', 'districts', 'villages'])
+            ->get(['code', 'name']);
 
         foreach ($stats as $stat) {
             $row = [];

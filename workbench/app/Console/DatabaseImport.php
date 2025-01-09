@@ -18,6 +18,8 @@ class DatabaseImport extends Command
 
     private PDO $conn;
 
+    private bool $ciGroup = false;
+
     public function __construct()
     {
         parent::__construct();
@@ -42,11 +44,15 @@ class DatabaseImport extends Command
 
     public function handle()
     {
+        $this->group('Importing files');
+
         $this->importSql(
             'cahyadsn-wilayah/db/wilayah.sql',
             'cahyadsn-wilayah/db/archive/wilayah_level_1_2.sql',
             'w3appdev-kodepos/kodewilayah2023.sql',
         );
+
+        $this->group('Writing CSV and JSON files');
 
         foreach ($this->fetchAll() as $table => $content) {
             $content = \collect($content);
@@ -65,6 +71,8 @@ class DatabaseImport extends Command
                 $this->writeJson($key.'/'.$table, $content);
             });
         }
+
+        $this->endGroup();
     }
 
     private function fetchAll(): array
@@ -167,6 +175,30 @@ class DatabaseImport extends Command
 
         if (! is_dir($dir)) {
             \mkdir($dir, 0755);
+        }
+    }
+
+    private function group(string $title): void
+    {
+        if (env('CI') === null) {
+            return;
+        }
+
+        $this->endGroup();
+
+        $this->line('::group::'.$title);
+        $this->ciGroup = true;
+    }
+
+    private function endGroup(): void
+    {
+        if (env('CI') === null) {
+            return;
+        }
+
+        if ($this->ciGroup) {
+            $this->line('::endgroup::');
+            $this->ciGroup = false;
         }
     }
 }
