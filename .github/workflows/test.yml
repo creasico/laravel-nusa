@@ -69,11 +69,11 @@ jobs:
           key: php-8.1-10.x-composer-${{ hashFiles('**/composer.lock') }}
           restore-keys: php-8.1-10.x--composer-
 
-      # - name: Download previous stat
-      #   uses: actions/download-artifact@v4
-      #   with:
-      #     name: upstream-stats
-      #     path: tests/stats.json
+      - name: Download previous stat
+        uses: actions/download-artifact@v4
+        with:
+          name: upstream-stats
+          path: tests/stats.json
 
       - name: Install dependencies
         run: composer update --prefer-dist --no-interaction --no-progress
