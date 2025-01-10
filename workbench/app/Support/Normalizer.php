@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Creasi\Scripts;
+namespace Workbench\App\Support;
 
 class Normalizer
 {

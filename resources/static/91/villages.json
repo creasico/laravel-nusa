@@ -48,22 +48,6 @@
         "postal_code": "99352"
     },
     {
-        "code": 9103012007,
-        "district_code": 910301,
-        "regency_code": 9103,
-        "province_code": 91,
-        "name": "Keheran",
-        "postal_code": "99352"
-    },
-    {
-        "code": 9103012010,
-        "district_code": 910301,
-        "regency_code": 9103,
-        "province_code": 91,
-        "name": "Ifar Besar",
-        "postal_code": "99352"
-    },
-    {
         "code": 9103012011,
         "district_code": 910301,
         "regency_code": 9103,
@@ -78,6 +62,22 @@
         "province_code": 91,
         "name": "Yahim",
         "postal_code": "99352"
+    },
+    {
+        "code": 9103013007,
+        "district_code": 910301,
+        "regency_code": 9103,
+        "province_code": 91,
+        "name": "Desa Adat Yoboi",
+        "postal_code": null
+    },
+    {
+        "code": 9103013010,
+        "district_code": 910301,
+        "regency_code": 9103,
+        "province_code": 91,
+        "name": "Desa Adat Heaiseai Yomo Heai",
+        "postal_code": null
     },
     {
         "code": 9103022001,
@@ -96,27 +96,11 @@
         "postal_code": "99359"
     },
     {
-        "code": 9103022003,
-        "district_code": 910302,
-        "regency_code": 9103,
-        "province_code": 91,
-        "name": "Ayapo",
-        "postal_code": "99359"
-    },
-    {
         "code": 9103022004,
         "district_code": 910302,
         "regency_code": 9103,
         "province_code": 91,
         "name": "Asei Besar",
-        "postal_code": "99359"
-    },
-    {
-        "code": 9103022005,
-        "district_code": 910302,
-        "regency_code": 9103,
-        "province_code": 91,
-        "name": "Asei Kecil",
         "postal_code": "99359"
     },
     {
@@ -128,12 +112,28 @@
         "postal_code": "99359"
     },
     {
-        "code": 9103022007,
+        "code": 9103023003,
         "district_code": 910302,
         "regency_code": 9103,
         "province_code": 91,
-        "name": "Yokiwa",
-        "postal_code": "99359"
+        "name": "Desa Adat Ayapo",
+        "postal_code": null
+    },
+    {
+        "code": 9103023005,
+        "district_code": 910302,
+        "regency_code": 9103,
+        "province_code": 91,
+        "name": "Desa Adat Kleuwblou",
+        "postal_code": null
+    },
+    {
+        "code": 9103023007,
+        "district_code": 910302,
+        "regency_code": 9103,
+        "province_code": 91,
+        "name": "Desa Adat Yokiwa",
+        "postal_code": null
     },
     {
         "code": 9103032001,
@@ -216,14 +216,6 @@
         "postal_code": "99358"
     },
     {
-        "code": 9103042006,
-        "district_code": 910304,
-        "regency_code": 9103,
-        "province_code": 91,
-        "name": "Waibron",
-        "postal_code": "99358"
-    },
-    {
         "code": 9103042008,
         "district_code": 910304,
         "regency_code": 9103,
@@ -238,6 +230,14 @@
         "province_code": 91,
         "name": "Sabro Yaru",
         "postal_code": "99358"
+    },
+    {
+        "code": 9103043006,
+        "district_code": 910304,
+        "regency_code": 9103,
+        "province_code": 91,
+        "name": "Desa Adat Waibron Bano",
+        "postal_code": null
     },
     {
         "code": 9103052001,
@@ -528,20 +528,20 @@
         "postal_code": "99361"
     },
     {
-        "code": 9103072018,
-        "district_code": 910307,
-        "regency_code": 9103,
-        "province_code": 91,
-        "name": "Kaitemung",
-        "postal_code": "99361"
-    },
-    {
         "code": 9103072019,
         "district_code": 910307,
         "regency_code": 9103,
         "province_code": 91,
         "name": "Pobaim",
         "postal_code": "99361"
+    },
+    {
+        "code": 9103073018,
+        "district_code": 910307,
+        "regency_code": 9103,
+        "province_code": 91,
+        "name": "Desa Adat Ketemung",
+        "postal_code": null
     },
     {
         "code": 9103082001,
@@ -776,14 +776,6 @@
         "postal_code": "99351"
     },
     {
-        "code": 9103122003,
-        "district_code": 910312,
-        "regency_code": 9103,
-        "province_code": 91,
-        "name": "Bobrongko",
-        "postal_code": "99351"
-    },
-    {
         "code": 9103122004,
         "district_code": 910312,
         "regency_code": 9103,
@@ -792,20 +784,20 @@
         "postal_code": "99351"
     },
     {
-        "code": 9103122005,
+        "code": 9103123003,
         "district_code": 910312,
         "regency_code": 9103,
         "province_code": 91,
-        "name": "Simporo",
-        "postal_code": "99351"
+        "name": "Desa Adat Bobrongko",
+        "postal_code": null
     },
     {
-        "code": 9103132001,
-        "district_code": 910313,
+        "code": 9103123005,
+        "district_code": 910312,
         "regency_code": 9103,
         "province_code": 91,
-        "name": "Donday",
-        "postal_code": "99368"
+        "name": "Desa Adat Homfolo",
+        "postal_code": null
     },
     {
         "code": 9103132002,
@@ -848,12 +840,20 @@
         "postal_code": "99368"
     },
     {
-        "code": 9103132007,
+        "code": 9103133001,
         "district_code": 910313,
         "regency_code": 9103,
         "province_code": 91,
-        "name": "Bambar",
-        "postal_code": "99368"
+        "name": "Desa Adat Dondai",
+        "postal_code": null
+    },
+    {
+        "code": 9103133007,
+        "district_code": 910313,
+        "regency_code": 9103,
+        "province_code": 91,
+        "name": "Desa Adat Bambar",
+        "postal_code": null
     },
     {
         "code": 9103142001,
@@ -992,12 +992,12 @@
         "postal_code": "99365"
     },
     {
-        "code": 9103152009,
+        "code": 9103153009,
         "district_code": 910315,
         "regency_code": 9103,
         "province_code": 91,
-        "name": "Bundru",
-        "postal_code": "99365"
+        "name": "Desa Adat Bundru",
+        "postal_code": null
     },
     {
         "code": 9103162001,
@@ -1072,12 +1072,12 @@
         "postal_code": "99350"
     },
     {
-        "code": 9103172004,
+        "code": 9103173004,
         "district_code": 910317,
         "regency_code": 9103,
         "province_code": 91,
-        "name": "Nehibe",
-        "postal_code": "99350"
+        "name": "Desa Adat Nechive",
+        "postal_code": null
     },
     {
         "code": 9103182001,
@@ -1085,14 +1085,6 @@
         "regency_code": 9103,
         "province_code": 91,
         "name": "Omon",
-        "postal_code": "99357"
-    },
-    {
-        "code": 9103182002,
-        "district_code": 910318,
-        "regency_code": 9103,
-        "province_code": 91,
-        "name": "Iwon",
         "postal_code": "99357"
     },
     {
@@ -1110,6 +1102,14 @@
         "province_code": 91,
         "name": "Bangai",
         "postal_code": "99357"
+    },
+    {
+        "code": 9103183002,
+        "district_code": 910318,
+        "regency_code": 9103,
+        "province_code": 91,
+        "name": "Desa Adat Iwon",
+        "postal_code": null
     },
     {
         "code": 9103192001,
@@ -7344,12 +7344,12 @@
         "postal_code": "98694"
     },
     {
-        "code": 9120022016,
+        "code": 9120022015,
         "district_code": 912002,
         "regency_code": 9120,
         "province_code": 91,
-        "name": "Haya",
-        "postal_code": "98694"
+        "name": "Taria",
+        "postal_code": null
     },
     {
         "code": 9120032001,
@@ -7384,20 +7384,20 @@
         "postal_code": "98695"
     },
     {
-        "code": 9120032005,
-        "district_code": 912003,
-        "regency_code": 9120,
-        "province_code": 91,
-        "name": "Taria",
-        "postal_code": "98695"
-    },
-    {
         "code": 9120032006,
         "district_code": 912003,
         "regency_code": 9120,
         "province_code": 91,
         "name": "Kai",
         "postal_code": "98695"
+    },
+    {
+        "code": 9120032007,
+        "district_code": 912003,
+        "regency_code": 9120,
+        "province_code": 91,
+        "name": "Haya",
+        "postal_code": null
     },
     {
         "code": 9120042001,
@@ -7512,6 +7512,14 @@
         "postal_code": "98691"
     },
     {
+        "code": 9120052008,
+        "district_code": 912005,
+        "regency_code": 9120,
+        "province_code": 91,
+        "name": "Taya",
+        "postal_code": null
+    },
+    {
         "code": 9120062001,
         "district_code": 912006,
         "regency_code": 9120,
@@ -7589,14 +7597,6 @@
         "regency_code": 9120,
         "province_code": 91,
         "name": "Kerema",
-        "postal_code": "98683"
-    },
-    {
-        "code": 9120072004,
-        "district_code": 912007,
-        "regency_code": 9120,
-        "province_code": 91,
-        "name": "Taya",
         "postal_code": "98683"
     },
     {

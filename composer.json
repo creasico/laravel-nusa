@@ -32,10 +32,6 @@
         "issues": "https://github.com/creasico/laravel-nusa/issues"
     },
     "scripts": {
-        "db:import": [
-            "Composer\\Config::disableProcessTimeout",
-            "Creasi\\Scripts\\Database::import"
-        ],
         "fix": [
             "pint --preset laravel"
         ],
@@ -44,6 +40,7 @@
             "testbench package:test --ansi"
         ],
         "testbench": [
+            "Composer\\Config::disableProcessTimeout",
             "testbench"
         ],
         "tinker": [

@@ -4,6 +4,7 @@ namespace Workbench\App\Console;
 
 use Creasi\Nusa\Contracts\Province;
 use Illuminate\Console\Command;
+use Illuminate\Contracts\Filesystem\FileNotFoundException;
 use Illuminate\Support\Facades\File;
 
 class StatCommand extends Command
@@ -46,20 +47,27 @@ class StatCommand extends Command
             return null;
         }
 
-        $storedStat = File::json($this->getStorePath());
-        $diffs = \array_filter($rows, fn ($row, $key) => $storedStat[$key] !== $row, \ARRAY_FILTER_USE_BOTH);
+        try {
+            $storedStat = File::json($this->getStorePath());
+            $diffs = \array_filter($rows, fn ($row, $key) => $storedStat[$key] !== $row, \ARRAY_FILTER_USE_BOTH);
 
-        if (empty($diffs)) {
+            if (empty($diffs)) {
+                return null;
+            }
+
+            return $diffs;
+        } catch (FileNotFoundException $err) {
+            $this->warn($err->getMessage());
+
             return null;
         }
-
-        return $diffs;
     }
 
     private function getStats(Province $province, array $fields): array
     {
-        $stats = $province->withCount(['regencies', 'districts', 'villages'])->get(['code', 'name']);
         $rows = [];
+        $stats = $province->withCount(['regencies', 'districts', 'villages'])
+            ->get(['code', 'name']);
 
         foreach ($stats as $stat) {
             $row = [];
