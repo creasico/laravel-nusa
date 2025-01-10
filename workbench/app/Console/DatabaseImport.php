@@ -10,6 +10,8 @@ use Workbench\App\Support\Normalizer;
 
 class DatabaseImport extends Command
 {
+    use CommandHelpers;
+
     protected $signature = 'nusa:import';
 
     protected $description = 'Import upstream database';
@@ -17,8 +19,6 @@ class DatabaseImport extends Command
     private string $libPath;
 
     private PDO $conn;
-
-    private bool $ciGroup = false;
 
     public function __construct()
     {
@@ -175,30 +175,6 @@ class DatabaseImport extends Command
 
         if (! is_dir($dir)) {
             \mkdir($dir, 0755);
-        }
-    }
-
-    private function group(string $title): void
-    {
-        if (env('CI') === null) {
-            return;
-        }
-
-        $this->endGroup();
-
-        $this->line('::group::'.$title);
-        $this->ciGroup = true;
-    }
-
-    private function endGroup(): void
-    {
-        if (env('CI') === null) {
-            return;
-        }
-
-        if ($this->ciGroup) {
-            $this->line('::endgroup::');
-            $this->ciGroup = false;
         }
     }
 }
