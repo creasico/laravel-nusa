@@ -136,7 +136,7 @@ class DatabaseImport extends Command
 
         foreach ($content as $value) {
             if (isset($value['coordinates'])) {
-                unset($value['coordinates']);
+                $value['coordinates'] = null;
                 // $value['coordinates'] = \json_encode($value['coordinates']);
             }
 
@@ -162,7 +162,7 @@ class DatabaseImport extends Command
 
         file_put_contents((string) $path, json_encode($content->map(function ($value) {
             if (isset($value['coordinates'])) {
-                unset($value['coordinates']);
+                $value['coordinates'] = null;
             }
 
             return $value;
