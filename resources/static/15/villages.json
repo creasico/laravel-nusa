@@ -5264,20 +5264,20 @@
         "postal_code": "37492"
     },
     {
+        "code": 1503112009,
+        "district_code": 150311,
+        "regency_code": 1503,
+        "province_code": 15,
+        "name": "Meranti Jaya",
+        "postal_code": "37492"
+    },
+    {
         "code": 1503112010,
         "district_code": 150311,
         "regency_code": 1503,
         "province_code": 15,
         "name": "Jernang Baru",
         "postal_code": "37492"
-    },
-    {
-        "code": 1503112019,
-        "district_code": 150311,
-        "regency_code": 1503,
-        "province_code": 15,
-        "name": "Meranti Jaya",
-        "postal_code": null
     },
     {
         "code": 1504011001,

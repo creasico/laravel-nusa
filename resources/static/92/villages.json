@@ -1968,6 +1968,14 @@
         "postal_code": "98433"
     },
     {
+        "code": 9201542005,
+        "district_code": 920154,
+        "regency_code": 9201,
+        "province_code": 92,
+        "name": "Botain",
+        "postal_code": null
+    },
+    {
         "code": 9201552001,
         "district_code": 920155,
         "regency_code": 9201,
@@ -5440,14 +5448,6 @@
         "postal_code": "98213"
     },
     {
-        "code": 9204222010,
-        "district_code": 920422,
-        "regency_code": 9204,
-        "province_code": 92,
-        "name": "Botain",
-        "postal_code": "98213"
-    },
-    {
         "code": 9204242001,
         "district_code": 920424,
         "regency_code": 9204,
@@ -8864,22 +8864,6 @@
         "postal_code": "98371"
     },
     {
-        "code": 9209022002,
-        "district_code": 920902,
-        "regency_code": 9209,
-        "province_code": 92,
-        "name": "Ruvewes",
-        "postal_code": "98371"
-    },
-    {
-        "code": 9209022005,
-        "district_code": 920902,
-        "regency_code": 9209,
-        "province_code": 92,
-        "name": "Yabuow",
-        "postal_code": "98371"
-    },
-    {
         "code": 9209022006,
         "district_code": 920902,
         "regency_code": 9209,
@@ -8893,14 +8877,6 @@
         "regency_code": 9209,
         "province_code": 92,
         "name": "Ayae",
-        "postal_code": "98371"
-    },
-    {
-        "code": 9209022011,
-        "district_code": 920902,
-        "regency_code": 9209,
-        "province_code": 92,
-        "name": "Hobiah",
         "postal_code": "98371"
     },
     {
@@ -8952,20 +8928,20 @@
         "postal_code": "98379"
     },
     {
-        "code": 9209032011,
-        "district_code": 920903,
-        "regency_code": 9209,
-        "province_code": 92,
-        "name": "Wormon",
-        "postal_code": "98379"
-    },
-    {
         "code": 9209032012,
         "district_code": 920903,
         "regency_code": 9209,
         "province_code": 92,
         "name": "Salem",
         "postal_code": "98379"
+    },
+    {
+        "code": 9209032013,
+        "district_code": 920903,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Metbesa",
+        "postal_code": null
     },
     {
         "code": 9209042001,
@@ -8981,14 +8957,6 @@
         "regency_code": 9209,
         "province_code": 92,
         "name": "Hopmare",
-        "postal_code": "98369"
-    },
-    {
-        "code": 9209042010,
-        "district_code": 920904,
-        "regency_code": 9209,
-        "province_code": 92,
-        "name": "Sunggak",
         "postal_code": "98369"
     },
     {
@@ -9120,14 +9088,6 @@
         "postal_code": "98363"
     },
     {
-        "code": 9209062004,
-        "district_code": 920906,
-        "regency_code": 9209,
-        "province_code": 92,
-        "name": "Saubeba",
-        "postal_code": "98363"
-    },
-    {
         "code": 9209062005,
         "district_code": 920906,
         "regency_code": 9209,
@@ -9141,14 +9101,6 @@
         "regency_code": 9209,
         "province_code": 92,
         "name": "Weprari",
-        "postal_code": "98363"
-    },
-    {
-        "code": 9209062007,
-        "district_code": 920906,
-        "regency_code": 9209,
-        "province_code": 92,
-        "name": "Wowom",
         "postal_code": "98363"
     },
     {
@@ -9328,14 +9280,6 @@
         "postal_code": "98391"
     },
     {
-        "code": 9209092029,
-        "district_code": 920909,
-        "regency_code": 9209,
-        "province_code": 92,
-        "name": "Pubuan",
-        "postal_code": "98391"
-    },
-    {
         "code": 9209102002,
         "district_code": 920910,
         "regency_code": 9209,
@@ -9352,27 +9296,11 @@
         "postal_code": "98381"
     },
     {
-        "code": 9209102005,
-        "district_code": 920910,
-        "regency_code": 9209,
-        "province_code": 92,
-        "name": "Serayo",
-        "postal_code": "98381"
-    },
-    {
         "code": 9209102006,
         "district_code": 920910,
         "regency_code": 9209,
         "province_code": 92,
         "name": "Wasarak",
-        "postal_code": "98381"
-    },
-    {
-        "code": 9209102010,
-        "district_code": 920910,
-        "regency_code": 9209,
-        "province_code": 92,
-        "name": "Wekari",
         "postal_code": "98381"
     },
     {
@@ -9414,6 +9342,14 @@
         "province_code": 92,
         "name": "Waramui",
         "postal_code": "98381"
+    },
+    {
+        "code": 9209102021,
+        "district_code": 920910,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Warpaperi",
+        "postal_code": null
     },
     {
         "code": 9209112003,
@@ -9480,6 +9416,14 @@
         "postal_code": "98396"
     },
     {
+        "code": 9209112016,
+        "district_code": 920911,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Hobiah",
+        "postal_code": null
+    },
+    {
         "code": 9209122001,
         "district_code": 920912,
         "regency_code": 9209,
@@ -9525,14 +9469,6 @@
         "regency_code": 9209,
         "province_code": 92,
         "name": "Meriambeker",
-        "postal_code": "98385"
-    },
-    {
-        "code": 9209122007,
-        "district_code": 920912,
-        "regency_code": 9209,
-        "province_code": 92,
-        "name": "Bijamfou",
         "postal_code": "98385"
     },
     {
@@ -9672,14 +9608,6 @@
         "postal_code": "98378"
     },
     {
-        "code": 9209142004,
-        "district_code": 920914,
-        "regency_code": 9209,
-        "province_code": 92,
-        "name": "Metbesa",
-        "postal_code": "98378"
-    },
-    {
         "code": 9209142005,
         "district_code": 920914,
         "regency_code": 9209,
@@ -9694,6 +9622,14 @@
         "province_code": 92,
         "name": "Bano",
         "postal_code": "98378"
+    },
+    {
+        "code": 9209142007,
+        "district_code": 920914,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Wormon",
+        "postal_code": null
     },
     {
         "code": 9209152001,
@@ -9784,6 +9720,22 @@
         "postal_code": "98372"
     },
     {
+        "code": 9209162008,
+        "district_code": 920916,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Ruvewes",
+        "postal_code": null
+    },
+    {
+        "code": 9209162009,
+        "district_code": 920916,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Yabuow",
+        "postal_code": null
+    },
+    {
         "code": 9209172001,
         "district_code": 920917,
         "regency_code": 9209,
@@ -9832,6 +9784,14 @@
         "postal_code": "98367"
     },
     {
+        "code": 9209172007,
+        "district_code": 920917,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Wufmana",
+        "postal_code": null
+    },
+    {
         "code": 9209182001,
         "district_code": 920918,
         "regency_code": 9209,
@@ -9856,20 +9816,28 @@
         "postal_code": "98376"
     },
     {
-        "code": 9209182004,
+        "code": 9209182006,
         "district_code": 920918,
         "regency_code": 9209,
         "province_code": 92,
-        "name": "Donan",
-        "postal_code": "98376"
+        "name": "Sunggak",
+        "postal_code": null
     },
     {
-        "code": 9209182005,
+        "code": 9209182007,
         "district_code": 920918,
         "regency_code": 9209,
         "province_code": 92,
-        "name": "Dombron",
-        "postal_code": "98376"
+        "name": "Wowom",
+        "postal_code": null
+    },
+    {
+        "code": 9209182008,
+        "district_code": 920918,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Resye",
+        "postal_code": null
     },
     {
         "code": 9209192001,
@@ -10000,6 +9968,22 @@
         "postal_code": "98368"
     },
     {
+        "code": 9209212008,
+        "district_code": 920921,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Donan",
+        "postal_code": null
+    },
+    {
+        "code": 9209212009,
+        "district_code": 920921,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Dombron",
+        "postal_code": null
+    },
+    {
         "code": 9209222001,
         "district_code": 920922,
         "regency_code": 9209,
@@ -10021,14 +10005,6 @@
         "regency_code": 9209,
         "province_code": 92,
         "name": "Bisaud",
-        "postal_code": "98395"
-    },
-    {
-        "code": 9209222004,
-        "district_code": 920922,
-        "regency_code": 9209,
-        "province_code": 92,
-        "name": "Wufmana",
         "postal_code": "98395"
     },
     {
@@ -10125,30 +10101,6 @@
         "regency_code": 9209,
         "province_code": 92,
         "name": "Arampak",
-        "postal_code": "98393"
-    },
-    {
-        "code": 9209232010,
-        "district_code": 920923,
-        "regency_code": 9209,
-        "province_code": 92,
-        "name": "Kasi Inom",
-        "postal_code": "98393"
-    },
-    {
-        "code": 9209232011,
-        "district_code": 920923,
-        "regency_code": 9209,
-        "province_code": 92,
-        "name": "Ireji",
-        "postal_code": "98393"
-    },
-    {
-        "code": 9209232012,
-        "district_code": 920923,
-        "regency_code": 9209,
-        "province_code": 92,
-        "name": "Meycocforga",
         "postal_code": "98393"
     },
     {
@@ -10328,14 +10280,6 @@
         "postal_code": "98384"
     },
     {
-        "code": 9209262002,
-        "district_code": 920926,
-        "regency_code": 9209,
-        "province_code": 92,
-        "name": "Warpaperi",
-        "postal_code": "98384"
-    },
-    {
         "code": 9209262003,
         "district_code": 920926,
         "regency_code": 9209,
@@ -10366,6 +10310,22 @@
         "province_code": 92,
         "name": "Araro",
         "postal_code": "98384"
+    },
+    {
+        "code": 9209262007,
+        "district_code": 920926,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Wekari",
+        "postal_code": null
+    },
+    {
+        "code": 9209262008,
+        "district_code": 920926,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Serayo",
+        "postal_code": null
     },
     {
         "code": 9209272001,
@@ -10462,6 +10422,46 @@
         "province_code": 92,
         "name": "Irumfei",
         "postal_code": "98383"
+    },
+    {
+        "code": 9209282008,
+        "district_code": 920928,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Pubuan",
+        "postal_code": null
+    },
+    {
+        "code": 9209282009,
+        "district_code": 920928,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Ireji",
+        "postal_code": null
+    },
+    {
+        "code": 9209282010,
+        "district_code": 920928,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Kasi Inom",
+        "postal_code": null
+    },
+    {
+        "code": 9209282011,
+        "district_code": 920928,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Meycocforga",
+        "postal_code": null
+    },
+    {
+        "code": 9209282012,
+        "district_code": 920928,
+        "regency_code": 9209,
+        "province_code": 92,
+        "name": "Meyomnar",
+        "postal_code": null
     },
     {
         "code": 9209292001,

@@ -19024,20 +19024,20 @@
         "postal_code": "91875"
     },
     {
-        "code": 7318381002,
+        "code": 7318381001,
+        "district_code": 731838,
+        "regency_code": 7318,
+        "province_code": 73,
+        "name": "Ratte Kurra",
+        "postal_code": null
+    },
+    {
+        "code": 7318382002,
         "district_code": 731838,
         "regency_code": 7318,
         "province_code": 73,
         "name": "Bambalu",
-        "postal_code": "91862"
-    },
-    {
-        "code": 7318382001,
-        "district_code": 731838,
-        "regency_code": 7318,
-        "province_code": 73,
-        "name": "Rante Kurra",
-        "postal_code": "91862"
+        "postal_code": null
     },
     {
         "code": 7318382003,

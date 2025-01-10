@@ -9840,6 +9840,30 @@
         "postal_code": "22170"
     },
     {
+        "code": 1206042034,
+        "district_code": 120604,
+        "regency_code": 1206,
+        "province_code": 12,
+        "name": "Sukameriah",
+        "postal_code": null
+    },
+    {
+        "code": 1206042035,
+        "district_code": 120604,
+        "regency_code": 1206,
+        "province_code": 12,
+        "name": "Bekerah",
+        "postal_code": null
+    },
+    {
+        "code": 1206042036,
+        "district_code": 120604,
+        "regency_code": 1206,
+        "province_code": 12,
+        "name": "Simacem",
+        "postal_code": null
+    },
+    {
         "code": 1206052001,
         "district_code": 120605,
         "regency_code": 1206,
@@ -10760,14 +10784,6 @@
         "postal_code": "22154"
     },
     {
-        "code": 1206112005,
-        "district_code": 120611,
-        "regency_code": 1206,
-        "province_code": 12,
-        "name": "Sukameriah",
-        "postal_code": "22154"
-    },
-    {
         "code": 1206112007,
         "district_code": 120611,
         "regency_code": 1206,
@@ -11200,14 +11216,6 @@
         "postal_code": "22153"
     },
     {
-        "code": 1206162001,
-        "district_code": 120616,
-        "regency_code": 1206,
-        "province_code": 12,
-        "name": "Simacem",
-        "postal_code": "22151"
-    },
-    {
         "code": 1206162002,
         "district_code": 120616,
         "regency_code": 1206,
@@ -11253,14 +11261,6 @@
         "regency_code": 1206,
         "province_code": 12,
         "name": "Kutarayat",
-        "postal_code": "22151"
-    },
-    {
-        "code": 1206162008,
-        "district_code": 120616,
-        "regency_code": 1206,
-        "province_code": 12,
-        "name": "Bekerah",
         "postal_code": "22151"
     },
     {
@@ -24032,22 +24032,6 @@
         "postal_code": "22979"
     },
     {
-        "code": 1213022023,
-        "district_code": 121302,
-        "regency_code": 1213,
-        "province_code": 12,
-        "name": "Binanga",
-        "postal_code": "22979"
-    },
-    {
-        "code": 1213022024,
-        "district_code": 121302,
-        "regency_code": 1213,
-        "province_code": 12,
-        "name": "Hutanaingkan",
-        "postal_code": "22979"
-    },
-    {
         "code": 1213031002,
         "district_code": 121303,
         "regency_code": 1213,
@@ -24936,14 +24920,6 @@
         "postal_code": "22994"
     },
     {
-        "code": 1213082037,
-        "district_code": 121308,
-        "regency_code": 1213,
-        "province_code": 12,
-        "name": "Muara Saladi",
-        "postal_code": "22994"
-    },
-    {
         "code": 1213091008,
         "district_code": 121309,
         "regency_code": 1213,
@@ -25214,6 +25190,14 @@
         "province_code": 12,
         "name": "Hutaimbaru UP",
         "postal_code": "22999"
+    },
+    {
+        "code": 1213112006,
+        "district_code": 121311,
+        "regency_code": 1213,
+        "province_code": 12,
+        "name": "Muara Saladi",
+        "postal_code": null
     },
     {
         "code": 1213112007,
@@ -25781,14 +25765,6 @@
         "regency_code": 1213,
         "province_code": 12,
         "name": "Bonca Bayuon",
-        "postal_code": "22982"
-    },
-    {
-        "code": 1213142033,
-        "district_code": 121314,
-        "regency_code": 1213,
-        "province_code": 12,
-        "name": "Padang Silojongan",
         "postal_code": "22982"
     },
     {
@@ -26440,6 +26416,14 @@
         "postal_code": "22984"
     },
     {
+        "code": 1213182018,
+        "district_code": 121318,
+        "regency_code": 1213,
+        "province_code": 12,
+        "name": "Padang Silojongan",
+        "postal_code": null
+    },
+    {
         "code": 1213192001,
         "district_code": 121319,
         "regency_code": 1213,
@@ -26534,6 +26518,22 @@
         "province_code": 12,
         "name": "Saba Padang",
         "postal_code": "22978"
+    },
+    {
+        "code": 1213192013,
+        "district_code": 121319,
+        "regency_code": 1213,
+        "province_code": 12,
+        "name": "Binanga",
+        "postal_code": null
+    },
+    {
+        "code": 1213192014,
+        "district_code": 121319,
+        "regency_code": 1213,
+        "province_code": 12,
+        "name": "Huta Naingkan",
+        "postal_code": null
     },
     {
         "code": 1213202001,
@@ -40928,14 +40928,6 @@
         "postal_code": "22765"
     },
     {
-        "code": 1221082031,
-        "district_code": 122108,
-        "regency_code": 1221,
-        "province_code": 12,
-        "name": "Sungai Jior",
-        "postal_code": null
-    },
-    {
         "code": 1221092001,
         "district_code": 122109,
         "regency_code": 1221,
@@ -41765,6 +41757,14 @@
         "regency_code": 1221,
         "province_code": 12,
         "name": "Pasir Jae",
+        "postal_code": "22765"
+    },
+    {
+        "code": 1221152012,
+        "district_code": 122115,
+        "regency_code": 1221,
+        "province_code": 12,
+        "name": "Sungai Jior",
         "postal_code": "22765"
     },
     {

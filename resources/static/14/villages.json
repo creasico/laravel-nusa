@@ -14168,30 +14168,6 @@
         "postal_code": "28267"
     },
     {
-        "code": 1471061006,
-        "district_code": 147106,
-        "regency_code": 1471,
-        "province_code": 14,
-        "name": "Umban Sari",
-        "postal_code": null
-    },
-    {
-        "code": 1471061008,
-        "district_code": 147106,
-        "regency_code": 1471,
-        "province_code": 14,
-        "name": "Sri Meranti",
-        "postal_code": null
-    },
-    {
-        "code": 1471061009,
-        "district_code": 147106,
-        "regency_code": 1471,
-        "province_code": 14,
-        "name": "Palas",
-        "postal_code": null
-    },
-    {
         "code": 1471061010,
         "district_code": 147106,
         "regency_code": 1471,
@@ -14294,6 +14270,14 @@
         "province_code": 14,
         "name": "Binawidya",
         "postal_code": "28295"
+    },
+    {
+        "code": 1471081014,
+        "district_code": 147108,
+        "regency_code": 1471,
+        "province_code": 14,
+        "name": "Sungaisibam",
+        "postal_code": "28292"
     },
     {
         "code": 1471091001,
@@ -14448,14 +14432,6 @@
         "postal_code": "28292"
     },
     {
-        "code": 1471111006,
-        "district_code": 147111,
-        "regency_code": 1471,
-        "province_code": 14,
-        "name": "Sungaisibam",
-        "postal_code": null
-    },
-    {
         "code": 1471111007,
         "district_code": 147111,
         "regency_code": 1471,
@@ -14486,6 +14462,30 @@
         "province_code": 14,
         "name": "Limbungan Baru",
         "postal_code": "28261"
+    },
+    {
+        "code": 1471121009,
+        "district_code": 147112,
+        "regency_code": 1471,
+        "province_code": 14,
+        "name": "Sri Meranti",
+        "postal_code": "28261"
+    },
+    {
+        "code": 1471121010,
+        "district_code": 147112,
+        "regency_code": 1471,
+        "province_code": 14,
+        "name": "Palas",
+        "postal_code": "28264"
+    },
+    {
+        "code": 1471121011,
+        "district_code": 147112,
+        "regency_code": 1471,
+        "province_code": 14,
+        "name": "Umban Sari",
+        "postal_code": "28265"
     },
     {
         "code": 1471131001,

@@ -648,35 +648,11 @@
         "postal_code": "77281"
     },
     {
-        "code": 6502012001,
-        "district_code": 650201,
-        "regency_code": 6502,
-        "province_code": 65,
-        "name": "Long Gafid",
-        "postal_code": "77555"
-    },
-    {
         "code": 6502012002,
         "district_code": 650201,
         "regency_code": 6502,
         "province_code": 65,
         "name": "Long Bisai",
-        "postal_code": "77555"
-    },
-    {
-        "code": 6502012003,
-        "district_code": 650201,
-        "regency_code": 6502,
-        "province_code": 65,
-        "name": "Temalang",
-        "postal_code": "77555"
-    },
-    {
-        "code": 6502012004,
-        "district_code": 650201,
-        "regency_code": 6502,
-        "province_code": 65,
-        "name": "Long Liku",
         "postal_code": "77555"
     },
     {
@@ -1350,6 +1326,30 @@
         "province_code": 65,
         "name": "Lung Semamu",
         "postal_code": "77155"
+    },
+    {
+        "code": 6502122008,
+        "district_code": 650212,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Long Gafid",
+        "postal_code": null
+    },
+    {
+        "code": 6502122009,
+        "district_code": 650212,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Temalang",
+        "postal_code": null
+    },
+    {
+        "code": 6502122010,
+        "district_code": 650212,
+        "regency_code": 6502,
+        "province_code": 65,
+        "name": "Long Liku",
+        "postal_code": null
     },
     {
         "code": 6502132001,

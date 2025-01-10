@@ -25080,6 +25080,22 @@
         "postal_code": "45151"
     },
     {
+        "code": 3209212016,
+        "district_code": 320921,
+        "regency_code": 3209,
+        "province_code": 32,
+        "name": "Sambeng",
+        "postal_code": null
+    },
+    {
+        "code": 3209212017,
+        "district_code": 320921,
+        "regency_code": 3209,
+        "province_code": 32,
+        "name": "Sirnabaya",
+        "postal_code": null
+    },
+    {
         "code": 3209222010,
         "district_code": 320922,
         "regency_code": 3209,
@@ -26398,22 +26414,6 @@
         "province_code": 32,
         "name": "Nanggela",
         "postal_code": "45170"
-    },
-    {
-        "code": 3209392001,
-        "district_code": 320939,
-        "regency_code": 3209,
-        "province_code": 32,
-        "name": "Sambeng",
-        "postal_code": "45150"
-    },
-    {
-        "code": 3209392002,
-        "district_code": 320939,
-        "regency_code": 3209,
-        "province_code": 32,
-        "name": "Sirnabaya",
-        "postal_code": "45150"
     },
     {
         "code": 3209392003,
