@@ -84,7 +84,8 @@ jobs:
 
       - name: Import databases
         run: |
-          ./vendor/bin/testbench nusa:import
+          ./vendor/bin/testbench nusa:import --ansi
+          ./vendor/bin/testbench nusa:stat -dw --ansi
           git status -s resources
 
       # - name: Get file changed
@@ -93,16 +94,13 @@ jobs:
       #     exclude_submodules: true
       #     # files: resources/**
 
-      - name: Stat databases
-        run: |
-          ./vendor/bin/testbench nusa:stat --diff
-          ./vendor/bin/testbench nusa:stat > /dev/null
-
       - name: Upload current stat
+        if: ${{ github.event_name != 'pull_request' }}
         uses: actions/upload-artifact@v4
         with:
           name: upstream-stats
           path: tests/stats.json
+          if-no-files-found: ignore
 
   tests:
     name: Test on PHP ${{ matrix.php }} Laravel ${{ matrix.laravel }} DB ${{ matrix.db }}
