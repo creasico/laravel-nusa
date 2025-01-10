@@ -49,6 +49,9 @@ jobs:
         ports:
           - 3306:3306
 
+    permissions:
+      actions: read
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -70,16 +73,19 @@ jobs:
           restore-keys: php-8.1-10.x--composer-
 
       - name: Download previous stat
-        uses: actions/download-artifact@v4
+        uses: dawidd6/action-download-artifact@v4
         with:
+          branch: main
           name: upstream-stats
-          path: tests/stats.json
+          path: tests
 
       - name: Install dependencies
         run: composer update --prefer-dist --no-interaction --no-progress
 
       - name: Import databases
-        run: ./vendor/bin/testbench nusa:import
+        run: |
+          ./vendor/bin/testbench nusa:import
+          git status -s resources
 
       # - name: Get file changed
       #   uses: tj-actions/changed-files@v45
@@ -91,7 +97,6 @@ jobs:
         run: |
           ./vendor/bin/testbench nusa:stat --diff
           ./vendor/bin/testbench nusa:stat > /dev/null
-          git status -s resources
 
       - name: Upload current stat
         uses: actions/upload-artifact@v4
