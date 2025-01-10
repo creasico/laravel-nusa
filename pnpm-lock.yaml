@@ -3,12 +3,12 @@ lockfileVersion: '6.0'
 devDependencies:
   '@commitlint/cli':
     specifier: ^18.6.1
-    version: 18.6.1(@types/node@22.10.2)(typescript@5.7.2)
+    version: 18.6.1(@types/node@22.10.5)(typescript@5.7.3)
   '@commitlint/config-conventional':
     specifier: ^18.6.3
     version: 18.6.3
   lint-staged:
-    specifier: ^15.2.11
+    specifier: ^15.3.0
     version: 15.3.0
   simple-git-hooks:
     specifier: ^2.11.1
@@ -33,14 +33,14 @@ packages:
     engines: {node: '>=6.9.0'}
     dev: true
 
-  /@commitlint/cli@18.6.1(@types/node@22.10.2)(typescript@5.7.2):
+  /@commitlint/cli@18.6.1(@types/node@22.10.5)(typescript@5.7.3):
     resolution: {integrity: sha512-5IDE0a+lWGdkOvKH892HHAZgbAjcj1mT5QrfA/SVbLJV/BbBMGyKN0W5mhgjekPJJwEQdVNvhl9PwUacY58Usw==}
     engines: {node: '>=v18'}
     hasBin: true
     dependencies:
       '@commitlint/format': 18.6.1
       '@commitlint/lint': 18.6.1
-      '@commitlint/load': 18.6.1(@types/node@22.10.2)(typescript@5.7.2)
+      '@commitlint/load': 18.6.1(@types/node@22.10.5)(typescript@5.7.3)
       '@commitlint/read': 18.6.1
       '@commitlint/types': 18.6.1
       execa: 5.1.1
@@ -112,7 +112,7 @@ packages:
       '@commitlint/types': 18.6.1
     dev: true
 
-  /@commitlint/load@18.6.1(@types/node@22.10.2)(typescript@5.7.2):
+  /@commitlint/load@18.6.1(@types/node@22.10.5)(typescript@5.7.3):
     resolution: {integrity: sha512-p26x8734tSXUHoAw0ERIiHyW4RaI4Bj99D8YgUlVV9SedLf8hlWAfyIFhHRIhfPngLlCe0QYOdRKYFt8gy56TA==}
     engines: {node: '>=v18'}
     dependencies:
@@ -121,8 +121,8 @@ packages:
       '@commitlint/resolve-extends': 18.6.1
       '@commitlint/types': 18.6.1
       chalk: 4.1.2
-      cosmiconfig: 8.3.6(typescript@5.7.2)
-      cosmiconfig-typescript-loader: 5.1.0(@types/node@22.10.2)(cosmiconfig@8.3.6)(typescript@5.7.2)
+      cosmiconfig: 8.3.6(typescript@5.7.3)
+      cosmiconfig-typescript-loader: 5.1.0(@types/node@22.10.5)(cosmiconfig@8.3.6)(typescript@5.7.3)
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
@@ -207,8 +207,8 @@ packages:
     resolution: {integrity: sha512-hov8bUuiLiyFPGyFPE1lwWhmzYbirOXQNNo40+y3zow8aFVTeyn3VWL0VFFfdNddA8S4Vf0Tc062rzyNr7Paag==}
     dev: true
 
-  /@types/node@22.10.2:
-    resolution: {integrity: sha512-Xxr6BBRCAOQixvonOye19wnzyDiUtTeqldOOmj3CkeblonbccA12PFwlufvRdrpjXxqnmUaeiU5EOA+7s5diUQ==}
+  /@types/node@22.10.5:
+    resolution: {integrity: sha512-F8Q+SeGimwOo86fiovQh8qiXfFEh2/ocYv7tU5pJ3EXMSSxk1Joj5wefpFK2fHTf/N6HKGSxIDBT9f3gCxXPkQ==}
     dependencies:
       undici-types: 6.20.0
     dev: true
@@ -233,7 +233,7 @@ packages:
     resolution: {integrity: sha512-B/gBuNg5SiMTrPkC+A2+cW0RszwxYmn6VYxB/inlBStS5nx6xHIt/ehKRhIMhqusl7a8LjQoZnjCs5vhwxOQ1g==}
     dependencies:
       fast-deep-equal: 3.1.3
-      fast-uri: 3.0.3
+      fast-uri: 3.0.5
       json-schema-traverse: 1.0.0
       require-from-string: 2.0.2
     dev: true
@@ -627,7 +627,7 @@ packages:
     resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==}
     dev: true
 
-  /cosmiconfig-typescript-loader@5.1.0(@types/node@22.10.2)(cosmiconfig@8.3.6)(typescript@5.7.2):
+  /cosmiconfig-typescript-loader@5.1.0(@types/node@22.10.5)(cosmiconfig@8.3.6)(typescript@5.7.3):
     resolution: {integrity: sha512-7PtBB+6FdsOvZyJtlF3hEPpACq7RQX6BVGsgC7/lfVXnKMvNCu/XY3ykreqG5w/rBNdu2z8LCIKoF3kpHHdHlA==}
     engines: {node: '>=v16'}
     peerDependencies:
@@ -635,13 +635,13 @@ packages:
       cosmiconfig: '>=8.2'
       typescript: '>=4'
     dependencies:
-      '@types/node': 22.10.2
-      cosmiconfig: 8.3.6(typescript@5.7.2)
+      '@types/node': 22.10.5
+      cosmiconfig: 8.3.6(typescript@5.7.3)
       jiti: 1.21.7
-      typescript: 5.7.2
+      typescript: 5.7.3
     dev: true
 
-  /cosmiconfig@8.3.6(typescript@5.7.2):
+  /cosmiconfig@8.3.6(typescript@5.7.3):
     resolution: {integrity: sha512-kcZ6+W5QzcJ3P1Mt+83OUv/oHFqZHIx8DuxG6eZ5RGMERoLqp4BuGjhHLYGK+Kf5XVkQvqBSmAy/nGWN3qDgEA==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -654,7 +654,7 @@ packages:
       js-yaml: 4.1.0
       parse-json: 5.2.0
       path-type: 4.0.0
-      typescript: 5.7.2
+      typescript: 5.7.3
     dev: true
 
   /cross-spawn@7.0.6:
@@ -792,8 +792,8 @@ packages:
     resolution: {integrity: sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==}
     dev: true
 
-  /fast-uri@3.0.3:
-    resolution: {integrity: sha512-aLrHthzCjH5He4Z2H9YZ+v6Ujb9ocRuW6ZzkJQOrTxleEijANq4v1TsaPaVG1PZcuurEzrLcWRyYBYXD5cEiaw==}
+  /fast-uri@3.0.5:
+    resolution: {integrity: sha512-5JnBCWpFlMo0a3ciDy/JckMzzv1U9coZrIhedq+HXxxUfDTAiS0LA8OKVao4G9BxmCVck/jtA5r3KAtRWEyD8Q==}
     dev: true
 
   /figures@3.2.0:
@@ -1981,8 +1981,8 @@ packages:
     resolution: {integrity: sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==}
     dev: true
 
-  /typescript@5.7.2:
-    resolution: {integrity: sha512-i5t66RHxDvVN40HfDd1PsEThGNnlMCMT3jMUuoh9/0TaqWevNontacunWyN02LA9/fIbEWlcHZcgTKb9QoaLfg==}
+  /typescript@5.7.3:
+    resolution: {integrity: sha512-84MVSjMEHP+FQRPy3pX9sTVV/INIex71s9TL2Gm5FG/WG1SqXeKyZ0k7/blY/4FdOzI12CBy1vGc4og/eus0fw==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true

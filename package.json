@@ -11,7 +11,7 @@
     "devDependencies": {
         "@commitlint/cli": "^18.6.1",
         "@commitlint/config-conventional": "^18.6.3",
-        "lint-staged": "^15.2.11",
+        "lint-staged": "^15.3.0",
         "simple-git-hooks": "^2.11.1",
         "standard-version": "^9.5.0"
     },
