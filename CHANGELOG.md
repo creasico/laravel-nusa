@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.10](https://github.com/creasico/laravel-nusa/compare/v0.1.9...v0.1.10) (2025-01-11)
+
+
+### Features
+
+* **db:** swap `w3appdev/kodepos` to `cahyadsn/wilayah_kodepos` ([#103](https://github.com/creasico/laravel-nusa/issues/103)) ([58b5d43](https://github.com/creasico/laravel-nusa/commit/58b5d43d4c80a38273f108d4c8f1bf1db4f8f863))
+* **db:** update embeded db due to upstream changes, see e2ffdf9 ([3e5a96c](https://github.com/creasico/laravel-nusa/commit/3e5a96ca648dcb66c901285bda3713f1b6ae155a))
+* **dev:** update `nusa:stat` ([5fe7b00](https://github.com/creasico/laravel-nusa/commit/5fe7b009473cc4e6ed015239f8818840f39a8297))
+* switch back to `projek-xyz/actions` workflows ([#92](https://github.com/creasico/laravel-nusa/issues/92)) ([f325387](https://github.com/creasico/laravel-nusa/commit/f325387c43de3c941ed0f9a045f7e4e5e0540891)), closes [projek-xyz/actions#1](https://github.com/projek-xyz/actions/issues/1)
+* **test:** disable process timeout while running tests ([8755fca](https://github.com/creasico/laravel-nusa/commit/8755fca6057782907fc5f91ead6f2eae327a5435))
+
+
+### Bug Fixes
+
+* **dev:** fix issue regarding upstream artifacts ([#101](https://github.com/creasico/laravel-nusa/issues/101)) ([466afb3](https://github.com/creasico/laravel-nusa/commit/466afb381297c34989c5b79e0ae75a96a5014b68))
+* fix `csv` file generation issue ([4760249](https://github.com/creasico/laravel-nusa/commit/4760249ac4fffde63cc55b06d1e893740bb39701))
+* upstream field changed from `paths` to `path` ([667a860](https://github.com/creasico/laravel-nusa/commit/667a860dd1dc0b530510e777b898ac5c8fc66043))
+
 ### [0.1.9](https://github.com/creasico/laravel-nusa/compare/v0.1.8...v0.1.9) (2024-10-06)
 
 
