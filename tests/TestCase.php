@@ -10,4 +10,9 @@ use Orchestra\Testbench\TestCase as Orchestra;
 class TestCase extends Orchestra
 {
     use WithWorkbench;
+
+    protected function defineEnvironment($app)
+    {
+        // $app['config']->set('database.default', env('DB_CONNECTION'));
+    }
 }

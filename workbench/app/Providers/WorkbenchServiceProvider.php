@@ -35,55 +35,36 @@ class WorkbenchServiceProvider extends ServiceProvider
 
             if (app()->runningInConsole()) {
                 $nusa = $config->get('database.connections.nusa', []);
-                $dbpath = $this->recreateDatabase($nusa['database']);
 
-                $this->loadMigrationsFrom(\realpath($dbpath).'/migrations');
+                $this->loadMigrationsFrom(\dirname($nusa['database']).'/migrations');
             }
 
             $config->set([
                 'database.connections.upstream' => [
                     'driver' => 'mysql',
-                    'host' => env('DB_HOST', '127.0.0.1'),
+                    'host' => env('UPSTREAM_DB_HOST', env('DB_HOST', '127.0.0.1')),
                     'port' => env('DB_PORT', '3306'),
-                    'database' => env('DB_NUSA', 'nusantara'),
+                    'database' => env('UPSTREAM_DB_DATABASE', 'nusantara'),
                     'username' => env('DB_USERNAME', 'creasico'),
                     'password' => env('DB_PASSWORD', 'secret'),
                 ],
             ]);
 
-            // $conn = $config->get('database.default');
+            if (env('DB_CONNECTION') === 'sqlite') {
+                if (! file_exists($database = database_path('database.sqlite'))) {
+                    touch($database);
+                }
 
-            // if ($conn === 'sqlite') {
-            //     // $database = __DIR__.'/test.sqlite';
-
-            //     // if (self::$shouldMigrate) {
-            //     //     $this->recreateDatabase($database);
-            //     // }
-
-            //     $this->mergeConfig($config, 'database.connections.sqlite', [
-            //         'database' => ':memory:',
-            //         'foreign_key_constraints' => true,
-            //     ]);
-            // } else {
-            //     $this->mergeConfig($config, 'database.connections.'.$conn, [
-            //         'database' => env('DB_DATABASE', 'creasi_test'),
-            //         'username' => env('DB_USERNAME', 'creasico'),
-            //         'password' => env('DB_PASSWORD', 'secret'),
-            //     ]);
-            // }
+                $this->mergeConfig($config, 'database.connections.testing', [
+                    'database' => $database,
+                    'foreign_key_constraints' => true,
+                ]);
+            }
         });
     }
 
-    private function recreateDatabase(string $path): string
+    private function mergeConfig(Repository $config, string $key, array $value)
     {
-        if (! app()->runningUnitTests()) {
-            if (\file_exists($path)) {
-                \unlink($path);
-            }
-
-            \touch($path);
-        }
-
-        return \dirname($path);
+        $config->set($key, array_merge($config->get($key, []), $value));
     }
 }

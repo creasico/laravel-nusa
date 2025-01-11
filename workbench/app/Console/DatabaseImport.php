@@ -15,7 +15,8 @@ class DatabaseImport extends Command
 {
     use CommandHelpers;
 
-    protected $signature = 'nusa:import';
+    protected $signature = 'nusa:import
+                            {--fresh : Refresh database migrations and seeders}';
 
     protected $description = 'Import upstream database';
 
@@ -72,10 +73,22 @@ class DatabaseImport extends Command
             });
         }
 
-        $this->endGroup();
+        if ($this->option('fresh') || env('CI') !== null) {
+            $this->group('Run migrations and seeders');
 
-        $this->call('vendor:publish', ['--tag' => 'creasi-migrations']);
-        $this->call('migrate:fresh', ['--seeder' => DatabaseSeeder::class]);
+            $path = config('database.connections.nusa', [])['database'];
+
+            if (\file_exists($path)) {
+                \unlink($path);
+            }
+
+            \touch($path);
+
+            $this->call('vendor:publish', ['--tag' => 'creasi-migrations']);
+            $this->call('migrate:fresh', ['--seeder' => DatabaseSeeder::class]);
+        }
+
+        $this->endGroup();
     }
 
     private function fetchAll(): array
