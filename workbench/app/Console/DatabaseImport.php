@@ -10,21 +10,17 @@ use Workbench\App\Support\Normalizer;
 
 class DatabaseImport extends Command
 {
+    use CommandHelpers;
+
     protected $signature = 'nusa:import';
 
     protected $description = 'Import upstream database';
 
-    private string $libPath;
-
     private PDO $conn;
-
-    private bool $ciGroup = false;
 
     public function __construct()
     {
         parent::__construct();
-
-        $this->libPath = \realpath(\dirname(__DIR__).'/../..');
 
         try {
             $conn = DB::connection('upstream');
@@ -110,8 +106,8 @@ class DatabaseImport extends Command
         foreach ($paths as $path) {
             $this->line(" - Importing '{$path}'");
 
-            if ($query = file_get_contents("{$this->libPath}/workbench/submodules/{$path}")) {
-                /*dd($query);*/
+            if ($query = file_get_contents((string) $this->libPath('workbench/submodules', $path))) {
+                /* dd($query); */
                 $this->query($query);
             }
         }
@@ -125,10 +121,10 @@ class DatabaseImport extends Command
     private function writeCsv(string $filename, Collection $content): void
     {
         $this->ensureDirectoryExists(
-            $path = str("{$this->libPath}/resources/static/{$filename}.csv")
+            $path = $this->libPath('resources/static', $filename.'.csv')
         );
 
-        $this->line(" - Writing: '{$path->substr(strlen($this->libPath) + 1)}'");
+        $this->line(" - Writing: '{$path->substr(strlen($this->libPath()) + 1)}'");
 
         $csv = [
             array_keys($content[0]),
@@ -155,10 +151,10 @@ class DatabaseImport extends Command
     private function writeJson(string $filename, Collection $content): void
     {
         $this->ensureDirectoryExists(
-            $path = str("{$this->libPath}/resources/static/{$filename}.json")
+            $path = $this->libPath('resources/static', $filename.'.json')
         );
 
-        $this->line(" - Writing: '{$path->substr(strlen($this->libPath) + 1)}'");
+        $this->line(" - Writing: '{$path->substr(strlen($this->libPath()) + 1)}'");
 
         file_put_contents((string) $path, json_encode($content->map(function ($value) {
             if (isset($value['coordinates'])) {
@@ -175,30 +171,6 @@ class DatabaseImport extends Command
 
         if (! is_dir($dir)) {
             \mkdir($dir, 0755);
-        }
-    }
-
-    private function group(string $title): void
-    {
-        if (env('CI') === null) {
-            return;
-        }
-
-        $this->endGroup();
-
-        $this->line('::group::'.$title);
-        $this->ciGroup = true;
-    }
-
-    private function endGroup(): void
-    {
-        if (env('CI') === null) {
-            return;
-        }
-
-        if ($this->ciGroup) {
-            $this->line('::endgroup::');
-            $this->ciGroup = false;
         }
     }
 }

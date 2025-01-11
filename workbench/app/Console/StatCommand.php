@@ -9,8 +9,11 @@ use Illuminate\Support\Facades\File;
 
 class StatCommand extends Command
 {
+    use CommandHelpers;
+
     protected $signature = 'nusa:stat
-                            {--diff : Generate diff from existing stats}';
+                            {--d|diff : Generate diff from existing stats}
+                            {--w|write : Write latest stat to file}';
 
     protected $description = 'Generate stats after test';
 
@@ -27,33 +30,64 @@ class StatCommand extends Command
             'villages_count' => 'Villages',
         ];
 
+        $this->group('Database stats');
+
         $rows = $this->getStats($province, \array_keys($table));
+        $diff = $this->option('diff') ?: false;
+        $diffs = $diff ? $this->getDiffs($rows) : [];
 
-        if ($diffs = $this->getDiffs($rows)) {
-            $this->info('Changes');
-            $this->table(\array_values($table), $diffs);
-
-            return;
+        if (! empty($diffs) && $this->option('write')) {
+            File::put($this->libPath('tests/stats.json'), \json_encode($rows, \JSON_PRETTY_PRINT));
         }
 
-        File::put($this->getStorePath(), \json_encode($rows, \JSON_PRETTY_PRINT));
+        $this->table(\array_values($table), $this->calculate($rows, $diffs));
 
-        $this->table(\array_values($table), $rows);
+        $this->endGroup();
+    }
+
+    private function calculate(array $rows, array $diffs = []): array
+    {
+        if (empty($diffs)) {
+            return $rows;
+        }
+
+        $out = [];
+        $fields = ['regencies_count', 'districts_count', 'villages_count'];
+        $diffs = collect($diffs);
+
+        foreach ($rows as $i => $row) {
+            $diff = $diffs->first(static fn ($diff) => $diff['code'] === $row['code']);
+
+            if ($diff === null) {
+                $out[$i] = $row;
+
+                continue;
+            }
+
+            foreach ($row as $field => $value) {
+                if (! in_array($field, $fields)) {
+                    $out[$i][$field] = '<fg=yellow>'.$value.'</>';
+
+                    continue;
+                }
+
+                $delta = $value - $diff[$field];
+                $out[$i][$field] = $delta !== 0
+                    ? '<fg=yellow>'.$value.' (</>'.$delta.'<fg=yellow>)</>'
+                    : "<fg=yellow>{$value}</>";
+            }
+        }
+
+        return $out;
     }
 
     private function getDiffs(array $rows): ?array
     {
-        if (! $this->option('diff')) {
-            return null;
-        }
-
         try {
-            $storedStat = File::json($this->getStorePath());
-            $diffs = \array_filter($rows, fn ($row, $key) => $storedStat[$key] !== $row, \ARRAY_FILTER_USE_BOTH);
-
-            if (empty($diffs)) {
-                return null;
-            }
+            $diffs = \array_filter(
+                File::json($this->libPath('tests/stats.json')),
+                static fn ($row, $key) => $rows[$key] !== $row, \ARRAY_FILTER_USE_BOTH
+            );
 
             return $diffs;
         } catch (FileNotFoundException $err) {
@@ -80,12 +114,5 @@ class StatCommand extends Command
         }
 
         return $rows;
-    }
-
-    private function getStorePath(): string
-    {
-        $storePath = \realpath(\dirname(__DIR__).'/../../tests');
-
-        return $storePath.'/stats.json';
     }
 }

@@ -21,7 +21,7 @@
         ]
     },
     "lint-staged": {
-        "{config,database,src,scripts,tests}/**/*.php": [
+        "{config,database,src,tests,workbench}/**/*.php": [
             "php vendor/bin/pint --preset laravel"
         ]
     },
