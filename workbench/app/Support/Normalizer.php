@@ -75,8 +75,8 @@ class Normalizer
             'regency_code' => (int) ($province_code.$regency_code),
             'province_code' => (int) $province_code,
             'name' => $this->name,
-            // 'latitude' => $this->latitude,
-            // 'longitude' => $this->longitude,
+            'latitude' => $this->latitude,
+            'longitude' => $this->longitude,
             // 'coordinates' => $this->coordinates,
         ];
     }
@@ -92,8 +92,8 @@ class Normalizer
             'province_code' => (int) $province_code,
             'name' => $this->name,
             'postal_code' => $this->postal_code,
-            // 'latitude' => $this->latitude,
-            // 'longitude' => $this->longitude,
+            'latitude' => $this->latitude,
+            'longitude' => $this->longitude,
             // 'coordinates' => $this->coordinates,
         ];
     }
