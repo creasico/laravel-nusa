@@ -45,7 +45,7 @@ class DatabaseImport extends Command
         $this->importSql(
             'cahyadsn-wilayah/db/wilayah.sql',
             'cahyadsn-wilayah/db/archive/wilayah_level_1_2.sql',
-            'w3appdev-kodepos/kodewilayah2023.sql',
+            'cahyadsn-wilayah_kodepos/db/wilayah_kodepos.sql',
         );
 
         $this->group('Writing CSV and JSON files');
@@ -80,7 +80,7 @@ class DatabaseImport extends Command
                 l.lat, l.lng, l.elv, l.tz, l.luas, l.penduduk, l.path path
             FROM wilayah w
             LEFT JOIN wilayah_level_1_2 l ON w.kode = l.kode
-            LEFT JOIN kodewilayah2023 p on w.kode = p.kodewilayah
+            LEFT JOIN wilayah_kodepos p on w.kode = p.kode
             ORDER BY w.kode
         SQL, PDO::FETCH_OBJ);
 
