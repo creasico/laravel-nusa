@@ -19,7 +19,7 @@ I've been using [edwardsamuel/Wilayah-Administratif-Indonesia](https://github.co
 
 That's why we choose [cahyadsn/wilayah](https://github.com/cahyadsn/wilayah) it has robust and strong database in terms of legality, but its not actually a package that can be installed as dependency. By that said, it has some work to-do.
 
-We also found that [w3appdev/kodepos](https://github.com/w3appdev/kodepos) provides better database structures that can easily mapped with databases from [cahyadsn/wilayah](https://github.com/cahyadsn/wilayah) in single query.
+We also found that [w3appdev/kodepos](https://github.com/w3appdev/kodepos) provides better database structures that can easily mapped with databases from [cahyadsn/wilayah](https://github.com/cahyadsn/wilayah) in single query. Until we decided to swap it with [cahyadsn/wilayah_kodepos](https://github.com/cahyadsn/wilayah_kodepos) due to [`#41`](https://github.com/creasico/laravel-nusa/issues/41)
 
 Our takes for the words **"easily integrated"** and **"ready-to-use once its installed"** means we shouldn't dealing with the data migration and seeding, hence Indonesia isn't a small country, right? running seeder for such amount of data can takes quite some times to proceed let alone the app seeder.
 
