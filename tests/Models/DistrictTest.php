@@ -49,6 +49,8 @@ class DistrictTest extends TestCase
     {
         $districts->each(function (District $district) {
             $this->assertIsInt($district->code, 'Code should be int');
+            $this->assertIsFloat($district->latitude, \sprintf('Latitude of district "%s" should be float', $district->code));
+            $this->assertIsFloat($district->longitude, \sprintf('Longitude of district "%s" should be float', $district->code));
             $this->assertInstanceOf(Collection::class, $district->postal_codes, 'Postal Codes should be instance of collection');
 
             $this->assertInstanceOf(DistrictContract::class, $district);
