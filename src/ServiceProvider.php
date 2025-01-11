@@ -48,6 +48,7 @@ class ServiceProvider extends IlluminateServiceProvider
         }
 
         Route::prefix(config('creasi.nusa.routes_prefix', 'nusa'))
+            ->name('nusa.')
             ->group(self::LIB_PATH.'/routes/nusa.php');
     }
 
