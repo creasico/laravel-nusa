@@ -2,6 +2,7 @@
 
 namespace Workbench\App\Console;
 
+use Database\Seeders\DatabaseSeeder;
 use Illuminate\Console\Command;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
@@ -72,6 +73,9 @@ class DatabaseImport extends Command
         }
 
         $this->endGroup();
+
+        $this->call('vendor:publish', ['--tag' => 'creasi-migrations']);
+        $this->call('migrate:fresh', ['--seeder' => DatabaseSeeder::class]);
     }
 
     private function fetchAll(): array

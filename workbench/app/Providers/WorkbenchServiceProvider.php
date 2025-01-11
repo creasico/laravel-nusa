@@ -33,7 +33,12 @@ class WorkbenchServiceProvider extends ServiceProvider
             $config->set('app.locale', 'id');
             $config->set('app.faker_locale', 'id_ID');
 
-            $conn = env('DB_CONNECTION', 'sqlite');
+            if (app()->runningInConsole()) {
+                $nusa = $config->get('database.connections.nusa', []);
+                $dbpath = $this->recreateDatabase($nusa['database']);
+
+                $this->loadMigrationsFrom(\realpath($dbpath).'/migrations');
+            }
 
             $config->set([
                 'database.connections.upstream' => [
@@ -67,5 +72,18 @@ class WorkbenchServiceProvider extends ServiceProvider
             //     ]);
             // }
         });
+    }
+
+    private function recreateDatabase(string $path): string
+    {
+        if (! app()->runningUnitTests()) {
+            if (\file_exists($path)) {
+                \unlink($path);
+            }
+
+            \touch($path);
+        }
+
+        return \dirname($path);
     }
 }
