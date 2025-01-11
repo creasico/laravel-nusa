@@ -55,7 +55,6 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Creasi\\Scripts\\": "scripts",
             "Creasi\\Tests\\": "tests",
             "Database\\Seeders\\": "database/seeders/",
             "Workbench\\App\\": "workbench/app/"

@@ -15,6 +15,5 @@ composer.lock    export-ignore
 package.json     export-ignore
 phpunit.xml      export-ignore
 pnpm-lock.yaml   export-ignore
-scripts          export-ignore
-submodules       export-ignore
 tests            export-ignore
+workbench        export-ignore
