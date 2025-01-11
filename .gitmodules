@@ -4,3 +4,6 @@
 [submodule "workbench/submodules/cahyadsn-wilayah"]
 	path = workbench/submodules/cahyadsn-wilayah
 	url = https://github.com/cahyadsn/wilayah.git
+[submodule "workbench/submodules/cahyadsn-wilayah_kodepos"]
+	path = workbench/submodules/cahyadsn-wilayah_kodepos
+	url = https://github.com/cahyadsn/wilayah_kodepos.git
