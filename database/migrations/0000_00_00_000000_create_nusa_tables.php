@@ -18,6 +18,10 @@ return new class extends Migration
     {
         $tableNames = config('creasi.nusa.table_names');
 
+        if (Schema::hasTable($tableNames['provinces'])) {
+            return;
+        }
+
         Schema::create($tableNames['provinces'], function (Blueprint $table) {
             $table->char('code', 2)->primary();
             $table->string('name', 50)->index();

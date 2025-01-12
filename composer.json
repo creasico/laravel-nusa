@@ -32,6 +32,9 @@
         "issues": "https://github.com/creasico/laravel-nusa/issues"
     },
     "scripts": {
+        "post-autoload-dump": [
+            "testbench vendor:publish --tag=creasi-migrations"
+        ],
         "fix": [
             "pint --preset laravel"
         ],

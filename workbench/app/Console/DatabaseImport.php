@@ -2,17 +2,21 @@
 
 namespace Workbench\App\Console;
 
+use Database\Seeders\DatabaseSeeder;
 use Illuminate\Console\Command;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
 use PDO;
+use Symfony\Component\Finder\Finder;
+use Symfony\Component\Finder\SplFileInfo;
 use Workbench\App\Support\Normalizer;
 
 class DatabaseImport extends Command
 {
     use CommandHelpers;
 
-    protected $signature = 'nusa:import';
+    protected $signature = 'nusa:import
+                            {--fresh : Refresh database migrations and seeders}';
 
     protected $description = 'Import upstream database';
 
@@ -44,9 +48,10 @@ class DatabaseImport extends Command
 
         $this->importSql(
             'cahyadsn-wilayah/db/wilayah.sql',
-            'cahyadsn-wilayah/db/archive/wilayah_level_1_2.sql',
             'cahyadsn-wilayah_kodepos/db/wilayah_kodepos.sql',
         );
+
+        $this->importSqlBoundaries();
 
         $this->group('Writing CSV and JSON files');
 
@@ -68,6 +73,21 @@ class DatabaseImport extends Command
             });
         }
 
+        if ($this->option('fresh') || env('CI') !== null) {
+            $this->group('Run migrations and seeders');
+
+            $path = config('database.connections.nusa', [])['database'];
+
+            if (\file_exists($path)) {
+                \unlink($path);
+            }
+
+            \touch($path);
+
+            $this->call('vendor:publish', ['--tag' => 'creasi-migrations']);
+            $this->call('migrate:fresh', ['--seeder' => DatabaseSeeder::class]);
+        }
+
         $this->endGroup();
     }
 
@@ -77,9 +97,9 @@ class DatabaseImport extends Command
             SELECT
                 w.kode, w.nama,
                 p.kodepos,
-                l.lat, l.lng, l.elv, l.tz, l.luas, l.penduduk, l.path path
+                l.lat, l.lng, l.path path
             FROM wilayah w
-            LEFT JOIN wilayah_level_1_2 l ON w.kode = l.kode
+            LEFT JOIN wilayah_boundaries l ON w.kode = l.kode
             LEFT JOIN wilayah_kodepos p on w.kode = p.kode
             ORDER BY w.kode
         SQL, PDO::FETCH_OBJ);
@@ -110,6 +130,48 @@ class DatabaseImport extends Command
                 /* dd($query); */
                 $this->query($query);
             }
+        }
+    }
+
+    private function importSqlBoundaries()
+    {
+        $path = 'workbench/submodules/cahyadsn-wilayah_boundaries';
+        // $schema = file_get_contents(
+        //     (string) $this->libPath($path, $schemaPath = 'db/ddl_wilayah_boundaries.sql')
+        // );
+
+        // $this->line(" - Importing 'cahyadsn-wilayah_boundaries/{$schemaPath}'");
+        // $lines = explode("\n", explode('-- ', $schema)[1]);
+        // $schema = implode("\n", array_slice($lines, 1, count($lines)));
+
+        $this->line(" - Importing 'cahyadsn-wilayah_boundaries/db/ddl_wilayah_boundaries.sql'");
+        $this->query(<<<'SQL'
+            DROP TABLE IF EXISTS `wilayah_boundaries`;
+            CREATE TABLE `wilayah_boundaries` (
+                `kode` varchar(13) NOT NULL,
+                `nama` varchar(100) DEFAULT NULL,
+                `lat` double DEFAULT NULL,
+                `lng` double DEFAULT NULL,
+                `path` longtext,
+                `status` int DEFAULT NULL,
+                UNIQUE KEY `wilayah_boundaries_kode_IDX` (`kode`) USING BTREE
+            )
+        SQL);
+
+        $sqls = Finder::create()
+            ->files()
+            ->in($path.'/db/*/')
+            ->name('*.sql')
+            ->filter(static function (SplFileInfo $file) {
+                return ! in_array($file->getFilename(), [
+                    'wilayah_boundaries_kab_75.sql',
+                ]);
+            });
+
+        foreach ($sqls as $sqlPath => $sql) {
+            $sqlPath = substr($sqlPath, 21);
+            $this->line(" - Importing '{$sqlPath}'");
+            $this->query($sql->getContents());
         }
     }
 

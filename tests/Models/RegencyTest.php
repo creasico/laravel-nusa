@@ -50,8 +50,8 @@ class RegencyTest extends TestCase
         $regencies->each(function (Regency $regency) {
             $this->assertIsInt($regency->code, 'Code should be int');
             // Comment this out due to https://github.com/cahyadsn/wilayah/pull/47
-            // $this->assertIsFloat($regency->latitude, 'Latitude should be float');
-            // $this->assertIsFloat($regency->longitude, 'Longitude should be float');
+            // $this->assertIsFloat($regency->latitude, \sprintf('Latitude of regency "%s" should be float', $regency->code));
+            // $this->assertIsFloat($regency->longitude, \sprintf('Longitude of regency "%s" should be float', $regency->code));
             $this->assertInstanceOf(Collection::class, $regency->postal_codes, 'Postal Codes should be instance of collection');
 
             $this->assertInstanceOf(RegencyContract::class, $regency);

@@ -35,6 +35,8 @@ classDiagram
         +int regency_code
         +int province_code
         +string name
+        +double latitude
+        +double longitude
         +province() Province
         +regency() Regency
         +villages() Village[]
@@ -45,6 +47,8 @@ classDiagram
         +int regency_code
         +int province_code
         +string name
+        +double latitude
+        +double longitude
         +int postal_code
         +province() Province
         +regency() Regency
@@ -84,6 +88,8 @@ classDiagram
 | `regency_code` | `char(4)` | `foreign` | - |
 | `province_code` | `char(2)` | `foreign` | - |
 | `name` | `varchar` | - | - |
+| `latitude` | `double`, `nullable` | - | - |
+| `longitude` | `double`, `nullable` | - | - |
 
 **Relation Properties**
 - `regency_code` : reference `regencies`
@@ -98,6 +104,8 @@ classDiagram
 | `regency_code` | `char(4)` | `foreign` | - |
 | `province_code` | `char(2)` | `foreign` | - |
 | `name` | `varchar` | - | - |
+| `latitude` | `double`, `nullable` | - | - |
+| `longitude` | `double`, `nullable` | - | - |
 | `postal_code` | `char(5)`, `nullable` | - | - |
 
 **Relation Properties**

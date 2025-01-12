@@ -883,26 +883,39 @@ using `sqlite` driver. Let us know if you had any issue using another database d
 
    ```sh
    composer install
+   pnpm install
    ```
 
-3. Create new database, by default we use the following configuration :
-   
-   - `dbname` : `nusantara`
-   - `dbhost` : `127.0.0.1` 
-   - `dbuser` : `root`
-   - `dbpass` : `secret`
+3. Copy `workbench/.env.example` to `workbench/.env` and update the content you desire
 
    ```sh
-   mysql -e 'create database nusantara;'
+   DB_CONNECTION=mysql     # Your main db connection to test againsts
+   DB_HOST=127.0.0.1
+   DB_DATABASE=creasi_test # To store the testing data
+   DB_USERNAME=creasico
+   DB_PASSWORD=secret
+   
+   UPSTREAM_DB_DATABASE=nusantara # To store the upstream data
    ```
 
-4. Last but not least, run `db:import` command
+4. Create new database to store our upstream and testing data:
+
+   ```sh
+   mysql -e 'create database creasi_test;' # Based on the value of `DB_DATABASE`
+   mysql -e 'create database nusantara;'   # Based on the value of `UPSTREAM_DB_DATABASE`
+   ```
+
+5. Last but not least, run `db:import` command
 
    ```sh
    composer db:import
    ```
 
-If you were using different configuration you can edit [this file](https://github.com/creasico/laravel-nusa/blob/94cd261d7726b9a5cb46cdef4aa9914522a33b4a/tests/NusaTest.php#L16-L19) but please don't submit your changes.
+As you might noticed that we use 3 different databases to develop and maintain this library. Here's the explanation :
+
+- `database/nusa.sqlite` is the main database in this library that will be included when you install this library as a dependency
+- `DB_DATABASE` is mainly for testing purposes, it simulate the actual application where this library installed on
+- `UPSTREAM_DB_DATABASE` is contains the upstream database tables that will be used as source of truth for this library
 
 Once you've done with your meaningful contributions, run the following command to ensure everythings is works as expected.
 
