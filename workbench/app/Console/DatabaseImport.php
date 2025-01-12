@@ -135,27 +135,15 @@ class DatabaseImport extends Command
     private function importSqlBoundaries()
     {
         $path = 'workbench/submodules/cahyadsn-wilayah_boundaries';
-        // $schema = file_get_contents(
-        //     (string) $this->libPath($path, $schemaPath = 'db/ddl_wilayah_boundaries.sql')
-        // );
 
-        // $this->line(" - Importing 'cahyadsn-wilayah_boundaries/{$schemaPath}'");
-        // $lines = explode("\n", explode('-- ', $schema)[1]);
-        // $schema = implode("\n", array_slice($lines, 1, count($lines)));
+        // This should grab the exact line where the MySQL schema definition
+        // See: https://github.com/cahyadsn/wilayah_boundaries/blob/4555b3098670bafa7842726a4b4d81f6bfcfc481/db/ddl_wilayah_boundaries.sql#L35-L44
+        $lines = explode("\n", explode('-- ', file_get_contents(
+            (string) $this->libPath($path, $schemaPath = 'db/ddl_wilayah_boundaries.sql')
+        ))[1]);
 
-        $this->line(" - Importing 'cahyadsn-wilayah_boundaries/db/ddl_wilayah_boundaries.sql'");
-        $this->query(<<<'SQL'
-            DROP TABLE IF EXISTS `wilayah_boundaries`;
-            CREATE TABLE `wilayah_boundaries` (
-                `kode` varchar(13) NOT NULL,
-                `nama` varchar(100) DEFAULT NULL,
-                `lat` double DEFAULT NULL,
-                `lng` double DEFAULT NULL,
-                `path` longtext,
-                `status` int DEFAULT NULL,
-                UNIQUE KEY `wilayah_boundaries_kode_IDX` (`kode`) USING BTREE
-            )
-        SQL);
+        $this->line(" - Importing 'cahyadsn-wilayah_boundaries/{$schemaPath}'");
+        $this->query(implode("\n", array_slice($lines, 1, count($lines))));
 
         $sqls = Finder::create()
             ->files()
