@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.11](https://github.com/creasico/laravel-nusa/compare/v0.1.10...v0.1.11) (2025-01-12)
+
+
+### Features
+
+* **ci:** add `codeclimate` config ([3cbff63](https://github.com/creasico/laravel-nusa/commit/3cbff635b5810f83d392aa5942f72ac5a985aeeb))
+* **db:** init boundaries data using `cahyadsn/wilayah_boundaries` ([#104](https://github.com/creasico/laravel-nusa/issues/104)) ([ac10c2f](https://github.com/creasico/laravel-nusa/commit/ac10c2fa9421dde0f441906086c1691096ca17a1))
+* **dev:** call `vendor:publish` and `migrate:fresh` from `nusa:import` ([3bc71c6](https://github.com/creasico/laravel-nusa/commit/3bc71c621904ed68c9ee24ff34d3d184c3a5496d))
+
+
+### Bug Fixes
+
+* fix known issue on `cahyadsn/wilayah_boundaries` ([#105](https://github.com/creasico/laravel-nusa/issues/105)) ([b10e096](https://github.com/creasico/laravel-nusa/commit/b10e09613765d266572d80aa3dc9f8fbe6e63b8d))
+
 ### [0.1.10](https://github.com/creasico/laravel-nusa/compare/v0.1.9...v0.1.10) (2025-01-11)
 
 
