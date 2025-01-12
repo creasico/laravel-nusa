@@ -3,1890 +3,2520 @@
         "code": 530104,
         "regency_code": 5301,
         "province_code": 53,
-        "name": "Semau"
+        "name": "Semau",
+        "latitude": -10.184063582513245,
+        "longitude": 123.42356623959172
     },
     {
         "code": 530105,
         "regency_code": 5301,
         "province_code": 53,
-        "name": "Kupang Barat"
+        "name": "Kupang Barat",
+        "latitude": -10.286234820265815,
+        "longitude": 123.52441770873341
     },
     {
         "code": 530106,
         "regency_code": 5301,
         "province_code": 53,
-        "name": "Kupang Timur"
+        "name": "Kupang Timur",
+        "latitude": -10.091604224438376,
+        "longitude": 123.82363659463027
     },
     {
         "code": 530107,
         "regency_code": 5301,
         "province_code": 53,
-        "name": "Sulamu"
+        "name": "Sulamu",
+        "latitude": -9.99157156482141,
+        "longitude": 123.71451456440585
     },
     {
         "code": 530108,
         "regency_code": 5301,
         "province_code": 53,
-        "name": "Kupang Tengah"
+        "name": "Kupang Tengah",
+        "latitude": -10.144476580022015,
+        "longitude": 123.72635817199506
     },
     {
         "code": 530109,
         "regency_code": 5301,
         "province_code": 53,
-        "name": "Amarasi"
+        "name": "Amarasi",
+        "latitude": -10.216369316874866,
+        "longitude": 123.8823694681073
     },
     {
         "code": 530110,
         "regency_code": 5301,
         "province_code": 53,
-        "name": "Fatuleu"
+        "name": "Fatuleu",
+        "latitude": -10.021235423086406,
+        "longitude": 123.9688107176202
     },
     {
         "code": 530111,
         "regency_code": 5301,
         "province_code": 53,
-        "name": "Takari"
+        "name": "Takari",
+        "latitude": -9.874121970241651,
+        "longitude": 124.0005996970436
     },
     {
         "code": 530112,
         "regency_code": 5301,
         "province_code": 53,
-        "name": "Amfoang Selatan"
+        "name": "Amfoang Selatan",
+        "latitude": -9.720867981309427,
+        "longitude": 123.91182548517178
     },
     {
         "code": 530113,
         "regency_code": 5301,
         "province_code": 53,
-        "name": "Amfoang Utara"
+        "name": "Amfoang Utara",
+        "latitude": -9.508629978715604,
+        "longitude": 123.87544057247655
     },
     {
         "code": 530116,
         "regency_code": 5301,
         "province_code": 53,
-        "name": "Nekamese"
+        "name": "Nekamese",
+        "latitude": -10.298316954970435,
+        "longitude": 123.63323188942393
     },
     {
         "code": 530117,
         "regency_code": 5301,
         "province_code": 53,
-        "name": "Amarasi Barat"
+        "name": "Amarasi Barat",
+        "latitude": -10.298757634715654,
+        "longitude": 123.73798541691808
     },
     {
         "code": 530118,
         "regency_code": 5301,
         "province_code": 53,
-        "name": "Amarasi Selatan"
+        "name": "Amarasi Selatan",
+        "latitude": -10.288719261685852,
+        "longitude": 123.86717333333429
     },
     {
         "code": 530119,
         "regency_code": 5301,
         "province_code": 53,
-        "name": "Amarasi Timur"
+        "name": "Amarasi Timur",
+        "latitude": -10.182240333721158,
+        "longitude": 124.07830460250833
     },
     {
         "code": 530120,
         "regency_code": 5301,
         "province_code": 53,
-        "name": "Amabi Oefeto Timur"
+        "name": "Amabi Oefeto Timur",
+        "latitude": -10.099208259199612,
+        "longitude": 124.09607323363491
     },
     {
         "code": 530121,
         "regency_code": 5301,
         "province_code": 53,
-        "name": "Amfoang Barat Daya"
+        "name": "Amfoang Barat Daya",
+        "latitude": -9.697099581958682,
+        "longitude": 123.7533765900706
     },
     {
         "code": 530122,
         "regency_code": 5301,
         "province_code": 53,
-        "name": "Amfoang Barat Laut"
+        "name": "Amfoang Barat Laut",
+        "latitude": -9.603571746407306,
+        "longitude": 123.82954641625116
     },
     {
         "code": 530123,
         "regency_code": 5301,
         "province_code": 53,
-        "name": "Semau Selatan"
+        "name": "Semau Selatan",
+        "latitude": -10.2843185939966,
+        "longitude": 123.35760662555631
     },
     {
         "code": 530124,
         "regency_code": 5301,
         "province_code": 53,
-        "name": "Taebenu"
+        "name": "Taebenu",
+        "latitude": -10.208571990838974,
+        "longitude": 123.72581152830851
     },
     {
         "code": 530125,
         "regency_code": 5301,
         "province_code": 53,
-        "name": "Amabi Oefeto"
+        "name": "Amabi Oefeto",
+        "latitude": -10.143724755715697,
+        "longitude": 123.93121414578935
     },
     {
         "code": 530126,
         "regency_code": 5301,
         "province_code": 53,
-        "name": "Amfoang Timur"
+        "name": "Amfoang Timur",
+        "latitude": -9.442027981241933,
+        "longitude": 124.02986700428772
     },
     {
         "code": 530127,
         "regency_code": 5301,
         "province_code": 53,
-        "name": "Fatuleu Barat"
+        "name": "Fatuleu Barat",
+        "latitude": -9.857773462362662,
+        "longitude": 123.72469532901388
     },
     {
         "code": 530128,
         "regency_code": 5301,
         "province_code": 53,
-        "name": "Fatuleu Tengah"
+        "name": "Fatuleu Tengah",
+        "latitude": -9.92189186336441,
+        "longitude": 123.85876123695948
     },
     {
         "code": 530130,
         "regency_code": 5301,
         "province_code": 53,
-        "name": "Amfoang Tengah"
+        "name": "Amfoang Tengah",
+        "latitude": -9.605359404049187,
+        "longitude": 124.04050085412145
     },
     {
         "code": 530201,
         "regency_code": 5302,
         "province_code": 53,
-        "name": "Kota Soe"
+        "name": "Kota Soe",
+        "latitude": -9.862283242979606,
+        "longitude": 124.28092445796402
     },
     {
         "code": 530202,
         "regency_code": 5302,
         "province_code": 53,
-        "name": "Mollo Selatan"
+        "name": "Mollo Selatan",
+        "latitude": -9.84213934923726,
+        "longitude": 124.23082961321771
     },
     {
         "code": 530203,
         "regency_code": 5302,
         "province_code": 53,
-        "name": "Mollo Utara"
+        "name": "Mollo Utara",
+        "latitude": -9.71894669229896,
+        "longitude": 124.20683849896481
     },
     {
         "code": 530204,
         "regency_code": 5302,
         "province_code": 53,
-        "name": "Amanuban Timur"
+        "name": "Amanuban Timur",
+        "latitude": -9.705642650807174,
+        "longitude": 124.58050506946063
     },
     {
         "code": 530205,
         "regency_code": 5302,
         "province_code": 53,
-        "name": "Amanuban Tengah"
+        "name": "Amanuban Tengah",
+        "latitude": -9.867911465793666,
+        "longitude": 124.47643582909126
     },
     {
         "code": 530206,
         "regency_code": 5302,
         "province_code": 53,
-        "name": "Amanuban Selatan"
+        "name": "Amanuban Selatan",
+        "latitude": -10.062221592149204,
+        "longitude": 124.25207691678743
     },
     {
         "code": 530207,
         "regency_code": 5302,
         "province_code": 53,
-        "name": "Amanuban Barat"
+        "name": "Amanuban Barat",
+        "latitude": -9.889371968834324,
+        "longitude": 124.32963953006792
     },
     {
         "code": 530208,
         "regency_code": 5302,
         "province_code": 53,
-        "name": "Amanatun Selatan"
+        "name": "Amanatun Selatan",
+        "latitude": -9.843410125559627,
+        "longitude": 124.623659904696
     },
     {
         "code": 530209,
         "regency_code": 5302,
         "province_code": 53,
-        "name": "Amanatun Utara"
+        "name": "Amanatun Utara",
+        "latitude": -9.694073821408452,
+        "longitude": 124.70229948844273
     },
     {
         "code": 530210,
         "regency_code": 5302,
         "province_code": 53,
-        "name": "KI'E"
+        "name": "KI'E",
+        "latitude": -9.856494599061184,
+        "longitude": 124.54445399551825
     },
     {
         "code": 530211,
         "regency_code": 5302,
         "province_code": 53,
-        "name": "Kuanfatu"
+        "name": "Kuanfatu",
+        "latitude": -9.99915449130721,
+        "longitude": 124.43396841947492
     },
     {
         "code": 530212,
         "regency_code": 5302,
         "province_code": 53,
-        "name": "Fatumnasi"
+        "name": "Fatumnasi",
+        "latitude": -9.579657746266612,
+        "longitude": 124.18891515529869
     },
     {
         "code": 530213,
         "regency_code": 5302,
         "province_code": 53,
-        "name": "Polen"
+        "name": "Polen",
+        "latitude": -9.663106409436905,
+        "longitude": 124.39878490719583
     },
     {
         "code": 530214,
         "regency_code": 5302,
         "province_code": 53,
-        "name": "Batu Putih"
+        "name": "Batu Putih",
+        "latitude": -9.939423734853321,
+        "longitude": 124.18062913801451
     },
     {
         "code": 530215,
         "regency_code": 5302,
         "province_code": 53,
-        "name": "Boking"
+        "name": "Boking",
+        "latitude": -9.820041272698084,
+        "longitude": 124.73955027298118
     },
     {
         "code": 530216,
         "regency_code": 5302,
         "province_code": 53,
-        "name": "Toianas"
+        "name": "Toianas",
+        "latitude": -9.705044287719286,
+        "longitude": 124.7767391661195
     },
     {
         "code": 530217,
         "regency_code": 5302,
         "province_code": 53,
-        "name": "Nunkolo"
+        "name": "Nunkolo",
+        "latitude": -9.890828206181096,
+        "longitude": 124.68554577735685
     },
     {
         "code": 530218,
         "regency_code": 5302,
         "province_code": 53,
-        "name": "Oenino"
+        "name": "Oenino",
+        "latitude": -9.742005007082492,
+        "longitude": 124.4406634040924
     },
     {
         "code": 530219,
         "regency_code": 5302,
         "province_code": 53,
-        "name": "Kolbano"
+        "name": "Kolbano",
+        "latitude": -9.986616442323673,
+        "longitude": 124.52357546023055
     },
     {
         "code": 530220,
         "regency_code": 5302,
         "province_code": 53,
-        "name": "Kot olin"
+        "name": "Kot olin",
+        "latitude": -9.949948476562778,
+        "longitude": 124.60121840089012
     },
     {
         "code": 530221,
         "regency_code": 5302,
         "province_code": 53,
-        "name": "Kualin"
+        "name": "Kualin",
+        "latitude": -10.105250934814714,
+        "longitude": 124.40988953448303
     },
     {
         "code": 530222,
         "regency_code": 5302,
         "province_code": 53,
-        "name": "Mollo Barat"
+        "name": "Mollo Barat",
+        "latitude": -9.847276408375881,
+        "longitude": 124.13031717361083
     },
     {
         "code": 530223,
         "regency_code": 5302,
         "province_code": 53,
-        "name": "Kok Baun"
+        "name": "Kok Baun",
+        "latitude": -9.625332192296838,
+        "longitude": 124.76219734614692
     },
     {
         "code": 530224,
         "regency_code": 5302,
         "province_code": 53,
-        "name": "Noebana"
+        "name": "Noebana",
+        "latitude": -9.771390547216193,
+        "longitude": 124.64657161868341
     },
     {
         "code": 530225,
         "regency_code": 5302,
         "province_code": 53,
-        "name": "Santian"
+        "name": "Santian",
+        "latitude": -9.780987516683867,
+        "longitude": 124.70626888267033
     },
     {
         "code": 530226,
         "regency_code": 5302,
         "province_code": 53,
-        "name": "Noebeba"
+        "name": "Noebeba",
+        "latitude": -9.980126686938513,
+        "longitude": 124.32705607566054
     },
     {
         "code": 530227,
         "regency_code": 5302,
         "province_code": 53,
-        "name": "Kuatnana"
+        "name": "Kuatnana",
+        "latitude": -9.846399529010345,
+        "longitude": 124.39844073290243
     },
     {
         "code": 530228,
         "regency_code": 5302,
         "province_code": 53,
-        "name": "Fautmolo"
+        "name": "Fautmolo",
+        "latitude": -9.781036684467654,
+        "longitude": 124.56828372702377
     },
     {
         "code": 530229,
         "regency_code": 5302,
         "province_code": 53,
-        "name": "Fatukopa"
+        "name": "Fatukopa",
+        "latitude": -9.649348302227951,
+        "longitude": 124.6232040432842
     },
     {
         "code": 530230,
         "regency_code": 5302,
         "province_code": 53,
-        "name": "Mollo Tengah"
+        "name": "Mollo Tengah",
+        "latitude": -9.774992580746757,
+        "longitude": 124.27315678109142
     },
     {
         "code": 530231,
         "regency_code": 5302,
         "province_code": 53,
-        "name": "Tobu"
+        "name": "Tobu",
+        "latitude": -9.617985963103333,
+        "longitude": 124.2807518014652
     },
     {
         "code": 530232,
         "regency_code": 5302,
         "province_code": 53,
-        "name": "Nunbena"
+        "name": "Nunbena",
+        "latitude": -9.64372988863351,
+        "longitude": 124.12135777908375
     },
     {
         "code": 530301,
         "regency_code": 5303,
         "province_code": 53,
-        "name": "Miomaffo Timur"
+        "name": "Miomaffo Timur",
+        "latitude": -9.381124778462294,
+        "longitude": 124.49000979306336
     },
     {
         "code": 530302,
         "regency_code": 5303,
         "province_code": 53,
-        "name": "Miomaffo Barat"
+        "name": "Miomaffo Barat",
+        "latitude": -9.553243367267017,
+        "longitude": 124.33152332733196
     },
     {
         "code": 530303,
         "regency_code": 5303,
         "province_code": 53,
-        "name": "Biboki Selatan"
+        "name": "Biboki Selatan",
+        "latitude": -9.340324464973708,
+        "longitude": 124.69089328683522
     },
     {
         "code": 530304,
         "regency_code": 5303,
         "province_code": 53,
-        "name": "Noemuti"
+        "name": "Noemuti",
+        "latitude": -9.600882139975262,
+        "longitude": 124.49425889636733
     },
     {
         "code": 530305,
         "regency_code": 5303,
         "province_code": 53,
-        "name": "Kota Kefamenanu"
+        "name": "Kota Kefamenanu",
+        "latitude": -9.46803565533527,
+        "longitude": 124.49982135489324
     },
     {
         "code": 530306,
         "regency_code": 5303,
         "province_code": 53,
-        "name": "Biboki Utara"
+        "name": "Biboki Utara",
+        "latitude": -9.292667001249498,
+        "longitude": 124.80978302687468
     },
     {
         "code": 530307,
         "regency_code": 5303,
         "province_code": 53,
-        "name": "Biboki Anleu"
+        "name": "Biboki Anleu",
+        "latitude": -9.136892636310957,
+        "longitude": 124.73833432322334
     },
     {
         "code": 530308,
         "regency_code": 5303,
         "province_code": 53,
-        "name": "Insana"
+        "name": "Insana",
+        "latitude": -9.468612329303687,
+        "longitude": 124.69961597147598
     },
     {
         "code": 530309,
         "regency_code": 5303,
         "province_code": 53,
-        "name": "Insana Utara"
+        "name": "Insana Utara",
+        "latitude": -9.240717825148058,
+        "longitude": 124.54842888331842
     },
     {
         "code": 530310,
         "regency_code": 5303,
         "province_code": 53,
-        "name": "Noemuti Timur"
+        "name": "Noemuti Timur",
+        "latitude": -9.58863511132529,
+        "longitude": 124.58618339975403
     },
     {
         "code": 530311,
         "regency_code": 5303,
         "province_code": 53,
-        "name": "Miomaffo Tengah"
+        "name": "Miomaffo Tengah",
+        "latitude": -9.528836550409661,
+        "longitude": 124.4271640490229
     },
     {
         "code": 530312,
         "regency_code": 5303,
         "province_code": 53,
-        "name": "Musi"
+        "name": "Musi",
+        "latitude": -9.495939041822135,
+        "longitude": 124.37350061944457
     },
     {
         "code": 530313,
         "regency_code": 5303,
         "province_code": 53,
-        "name": "Mutis"
+        "name": "Mutis",
+        "latitude": -9.44812704161021,
+        "longitude": 124.21756260631238
     },
     {
         "code": 530314,
         "regency_code": 5303,
         "province_code": 53,
-        "name": "Bikomi Selatan"
+        "name": "Bikomi Selatan",
+        "latitude": -9.535307278521344,
+        "longitude": 124.56282496884955
     },
     {
         "code": 530315,
         "regency_code": 5303,
         "province_code": 53,
-        "name": "Bikomi Tengah"
+        "name": "Bikomi Tengah",
+        "latitude": -9.436289217302086,
+        "longitude": 124.41881776707245
     },
     {
         "code": 530316,
         "regency_code": 5303,
         "province_code": 53,
-        "name": "Bikomi Nilulat"
+        "name": "Bikomi Nilulat",
+        "latitude": -9.462161005077677,
+        "longitude": 124.35763728308297
     },
     {
         "code": 530317,
         "regency_code": 5303,
         "province_code": 53,
-        "name": "Bikomi Utara"
+        "name": "Bikomi Utara",
+        "latitude": -9.37362533973675,
+        "longitude": 124.41868263407216
     },
     {
         "code": 530318,
         "regency_code": 5303,
         "province_code": 53,
-        "name": "Naibenu"
+        "name": "Naibenu",
+        "latitude": -9.281062085430557,
+        "longitude": 124.48416127012209
     },
     {
         "code": 530319,
         "regency_code": 5303,
         "province_code": 53,
-        "name": "Insana Fafinesu"
+        "name": "Insana Fafinesu",
+        "latitude": -9.344981821544916,
+        "longitude": 124.58084049489666
     },
     {
         "code": 530320,
         "regency_code": 5303,
         "province_code": 53,
-        "name": "Insana Barat"
+        "name": "Insana Barat",
+        "latitude": -9.472800952733355,
+        "longitude": 124.57778622423612
     },
     {
         "code": 530321,
         "regency_code": 5303,
         "province_code": 53,
-        "name": "Insana Tengah"
+        "name": "Insana Tengah",
+        "latitude": -9.366114062402106,
+        "longitude": 124.60339440686568
     },
     {
         "code": 530322,
         "regency_code": 5303,
         "province_code": 53,
-        "name": "Biboki Tan Pah"
+        "name": "Biboki Tan Pah",
+        "latitude": -9.362165325860017,
+        "longitude": 124.76579635409588
     },
     {
         "code": 530323,
         "regency_code": 5303,
         "province_code": 53,
-        "name": "Biboki Moenleu"
+        "name": "Biboki Moenleu",
+        "latitude": -9.223925063037305,
+        "longitude": 124.64748402203855
     },
     {
         "code": 530324,
         "regency_code": 5303,
         "province_code": 53,
-        "name": "Biboki Feotleu"
+        "name": "Biboki Feotleu",
+        "latitude": -9.23026982155635,
+        "longitude": 124.78215558635377
     },
     {
         "code": 530401,
         "regency_code": 5304,
         "province_code": 53,
-        "name": "Lamaknen"
+        "name": "Lamaknen",
+        "latitude": -9.086680703296523,
+        "longitude": 125.12640824715714
     },
     {
         "code": 530402,
         "regency_code": 5304,
         "province_code": 53,
-        "name": "TasifetoTimur"
+        "name": "TasifetoTimur",
+        "latitude": -9.109814711334245,
+        "longitude": 124.96147000596397
     },
     {
         "code": 530403,
         "regency_code": 5304,
         "province_code": 53,
-        "name": "Raihat"
+        "name": "Raihat",
+        "latitude": -9.033752034036977,
+        "longitude": 125.11300895949842
     },
     {
         "code": 530404,
         "regency_code": 5304,
         "province_code": 53,
-        "name": "Tasifeto Barat"
+        "name": "Tasifeto Barat",
+        "latitude": -9.212220643534273,
+        "longitude": 124.8849782586883
     },
     {
         "code": 530405,
         "regency_code": 5304,
         "province_code": 53,
-        "name": "Kakuluk Mesak"
+        "name": "Kakuluk Mesak",
+        "latitude": -9.040650131398863,
+        "longitude": 124.85995320890338
     },
     {
         "code": 530412,
         "regency_code": 5304,
         "province_code": 53,
-        "name": "Kota Atambua"
+        "name": "Kota Atambua",
+        "latitude": -9.095461831691878,
+        "longitude": 124.90430042371736
     },
     {
         "code": 530413,
         "regency_code": 5304,
         "province_code": 53,
-        "name": "Raimanuk"
+        "name": "Raimanuk",
+        "latitude": -9.34524343641125,
+        "longitude": 124.90529899303893
     },
     {
         "code": 530417,
         "regency_code": 5304,
         "province_code": 53,
-        "name": "Lasiolat"
+        "name": "Lasiolat",
+        "latitude": -9.07153509857305,
+        "longitude": 125.04916602055116
     },
     {
         "code": 530418,
         "regency_code": 5304,
         "province_code": 53,
-        "name": "Lamaknen Selatan"
+        "name": "Lamaknen Selatan",
+        "latitude": -9.15136564756183,
+        "longitude": 125.11572558798714
     },
     {
         "code": 530421,
         "regency_code": 5304,
         "province_code": 53,
-        "name": "Atambua Barat"
+        "name": "Atambua Barat",
+        "latitude": -9.093070113525313,
+        "longitude": 124.8733201031209
     },
     {
         "code": 530422,
         "regency_code": 5304,
         "province_code": 53,
-        "name": "Atambua Selatan"
+        "name": "Atambua Selatan",
+        "latitude": -9.123478026451291,
+        "longitude": 124.88604134920679
     },
     {
         "code": 530423,
         "regency_code": 5304,
         "province_code": 53,
-        "name": "Nanaet Duabesi"
+        "name": "Nanaet Duabesi",
+        "latitude": -9.288442287453083,
+        "longitude": 124.96606709271751
     },
     {
         "code": 530501,
         "regency_code": 5305,
         "province_code": 53,
-        "name": "Teluk Mutiara"
+        "name": "Teluk Mutiara",
+        "latitude": -8.228689070640348,
+        "longitude": 124.54185279499877
     },
     {
         "code": 530502,
         "regency_code": 5305,
         "province_code": 53,
-        "name": "Alor Barat Laut"
+        "name": "Alor Barat Laut",
+        "latitude": -8.19932610699499,
+        "longitude": 124.45167722661503
     },
     {
         "code": 530503,
         "regency_code": 5305,
         "province_code": 53,
-        "name": "Alor Barat Daya"
+        "name": "Alor Barat Daya",
+        "latitude": -8.338896013588233,
+        "longitude": 124.47091602174851
     },
     {
         "code": 530504,
         "regency_code": 5305,
         "province_code": 53,
-        "name": "Alor Selatan"
+        "name": "Alor Selatan",
+        "latitude": -8.330581661815156,
+        "longitude": 124.7317051082285
     },
     {
         "code": 530505,
         "regency_code": 5305,
         "province_code": 53,
-        "name": "Alor Timur"
+        "name": "Alor Timur",
+        "latitude": -8.246631526387809,
+        "longitude": 125.0065044596887
     },
     {
         "code": 530506,
         "regency_code": 5305,
         "province_code": 53,
-        "name": "Pantar"
+        "name": "Pantar",
+        "latitude": -8.254920341756375,
+        "longitude": 124.23995776368646
     },
     {
         "code": 530507,
         "regency_code": 5305,
         "province_code": 53,
-        "name": "Alor Tengah Utara"
+        "name": "Alor Tengah Utara",
+        "latitude": -8.237564893281368,
+        "longitude": 124.63633525141634
     },
     {
         "code": 530508,
         "regency_code": 5305,
         "province_code": 53,
-        "name": "Alor Timur Laut"
+        "name": "Alor Timur Laut",
+        "latitude": -8.226626423125827,
+        "longitude": 124.80476266248122
     },
     {
         "code": 530509,
         "regency_code": 5305,
         "province_code": 53,
-        "name": "Pantar Barat"
+        "name": "Pantar Barat",
+        "latitude": -8.351617700653863,
+        "longitude": 124.06916443977111
     },
     {
         "code": 530510,
         "regency_code": 5305,
         "province_code": 53,
-        "name": "Kabola"
+        "name": "Kabola",
+        "latitude": -8.159703971311945,
+        "longitude": 124.55426670371384
     },
     {
         "code": 530511,
         "regency_code": 5305,
         "province_code": 53,
-        "name": "Pulau Pura"
+        "name": "Pulau Pura",
+        "latitude": -8.300604868869716,
+        "longitude": 124.34601539210279
     },
     {
         "code": 530512,
         "regency_code": 5305,
         "province_code": 53,
-        "name": "Mataru"
+        "name": "Mataru",
+        "latitude": -8.364144774552933,
+        "longitude": 124.63478438026792
     },
     {
         "code": 530513,
         "regency_code": 5305,
         "province_code": 53,
-        "name": "Pureman"
+        "name": "Pureman",
+        "latitude": -8.336033084274963,
+        "longitude": 124.88288148417556
     },
     {
         "code": 530514,
         "regency_code": 5305,
         "province_code": 53,
-        "name": "Pantar Timur"
+        "name": "Pantar Timur",
+        "latitude": -8.329118380916498,
+        "longitude": 124.24032467969056
     },
     {
         "code": 530515,
         "regency_code": 5305,
         "province_code": 53,
-        "name": "Lembur"
+        "name": "Lembur",
+        "latitude": -8.198564835546355,
+        "longitude": 124.71693222217023
     },
     {
         "code": 530516,
         "regency_code": 5305,
         "province_code": 53,
-        "name": "Pantar Tengah"
+        "name": "Pantar Tengah",
+        "latitude": -8.453638001346313,
+        "longitude": 124.12260288489756
     },
     {
         "code": 530517,
         "regency_code": 5305,
         "province_code": 53,
-        "name": "Pantar Baru Laut"
+        "name": "Pantar Baru Laut",
+        "latitude": -8.380849649364023,
+        "longitude": 123.9681422429673
     },
     {
         "code": 530518,
         "regency_code": 5305,
         "province_code": 53,
-        "name": "Abad Selatan"
+        "name": "Abad Selatan",
+        "latitude": -8.399543672349472,
+        "longitude": 124.4923890944341
     },
     {
         "code": 530601,
         "regency_code": 5306,
         "province_code": 53,
-        "name": "Wulanggitang"
+        "name": "Wulanggitang",
+        "latitude": -8.529782844943169,
+        "longitude": 122.711391403011
     },
     {
         "code": 530602,
         "regency_code": 5306,
         "province_code": 53,
-        "name": "Titehena"
+        "name": "Titehena",
+        "latitude": -8.391390393143638,
+        "longitude": 122.772442396508
     },
     {
         "code": 530603,
         "regency_code": 5306,
         "province_code": 53,
-        "name": "Larantuka"
+        "name": "Larantuka",
+        "latitude": -8.330952182000358,
+        "longitude": 122.94107560283709
     },
     {
         "code": 530604,
         "regency_code": 5306,
         "province_code": 53,
-        "name": "Ile Mandiri"
+        "name": "Ile Mandiri",
+        "latitude": -8.27964617836066,
+        "longitude": 122.9606161152617
     },
     {
         "code": 530605,
         "regency_code": 5306,
         "province_code": 53,
-        "name": "Tanjung Bunga"
+        "name": "Tanjung Bunga",
+        "latitude": -8.149775665143542,
+        "longitude": 122.85901646039855
     },
     {
         "code": 530606,
         "regency_code": 5306,
         "province_code": 53,
-        "name": "Solor Barat"
+        "name": "Solor Barat",
+        "latitude": -8.530361037631234,
+        "longitude": 122.93368215108677
     },
     {
         "code": 530607,
         "regency_code": 5306,
         "province_code": 53,
-        "name": "Solor Timur"
+        "name": "Solor Timur",
+        "latitude": -8.453968284906868,
+        "longitude": 123.09303477468595
     },
     {
         "code": 530608,
         "regency_code": 5306,
         "province_code": 53,
-        "name": "Adonara Barat"
+        "name": "Adonara Barat",
+        "latitude": -8.306785848345644,
+        "longitude": 123.09441005226255
     },
     {
         "code": 530609,
         "regency_code": 5306,
         "province_code": 53,
-        "name": "Wotan Ulumando"
+        "name": "Wotan Ulumando",
+        "latitude": -8.370201830504424,
+        "longitude": 123.05042863163091
     },
     {
         "code": 530610,
         "regency_code": 5306,
         "province_code": 53,
-        "name": "Adonara Timur"
+        "name": "Adonara Timur",
+        "latitude": -8.36137354995957,
+        "longitude": 123.17402922713843
     },
     {
         "code": 530611,
         "regency_code": 5306,
         "province_code": 53,
-        "name": "Kelubagolit"
+        "name": "Kelubagolit",
+        "latitude": -8.283552423018728,
+        "longitude": 123.23267154567512
     },
     {
         "code": 530612,
         "regency_code": 5306,
         "province_code": 53,
-        "name": "Witihama"
+        "name": "Witihama",
+        "latitude": -8.2894395145429,
+        "longitude": 123.28276647977728
     },
     {
         "code": 530613,
         "regency_code": 5306,
         "province_code": 53,
-        "name": "Ile Boleng"
+        "name": "Ile Boleng",
+        "latitude": -8.366508431872386,
+        "longitude": 123.26839680235877
     },
     {
         "code": 530614,
         "regency_code": 5306,
         "province_code": 53,
-        "name": "Demon Pagong"
+        "name": "Demon Pagong",
+        "latitude": -8.38334312565087,
+        "longitude": 122.85306877636768
     },
     {
         "code": 530615,
         "regency_code": 5306,
         "province_code": 53,
-        "name": "Lewolema"
+        "name": "Lewolema",
+        "latitude": -8.268209394656001,
+        "longitude": 122.90832547317996
     },
     {
         "code": 530616,
         "regency_code": 5306,
         "province_code": 53,
-        "name": "Ile Bura"
+        "name": "Ile Bura",
+        "latitude": -8.541197088629607,
+        "longitude": 122.79378236161662
     },
     {
         "code": 530617,
         "regency_code": 5306,
         "province_code": 53,
-        "name": "Adonara"
+        "name": "Adonara",
+        "latitude": -8.264615738760172,
+        "longitude": 123.18221864850848
     },
     {
         "code": 530618,
         "regency_code": 5306,
         "province_code": 53,
-        "name": "Adonara Tengah"
+        "name": "Adonara Tengah",
+        "latitude": -8.316412379638193,
+        "longitude": 123.15340725520181
     },
     {
         "code": 530619,
         "regency_code": 5306,
         "province_code": 53,
-        "name": "Solor Selatan"
+        "name": "Solor Selatan",
+        "latitude": -8.488696641921175,
+        "longitude": 122.9954646581786
     },
     {
         "code": 530701,
         "regency_code": 5307,
         "province_code": 53,
-        "name": "Paga"
+        "name": "Paga",
+        "latitude": -8.742157003040981,
+        "longitude": 122.02488936062477
     },
     {
         "code": 530702,
         "regency_code": 5307,
         "province_code": 53,
-        "name": "Mego"
+        "name": "Mego",
+        "latitude": -8.669717965970047,
+        "longitude": 122.04918058600687
     },
     {
         "code": 530703,
         "regency_code": 5307,
         "province_code": 53,
-        "name": "Lela"
+        "name": "Lela",
+        "latitude": -8.721933207662342,
+        "longitude": 122.17110672851327
     },
     {
         "code": 530704,
         "regency_code": 5307,
         "province_code": 53,
-        "name": "Nita"
+        "name": "Nita",
+        "latitude": -8.654041743448127,
+        "longitude": 122.13092130684215
     },
     {
         "code": 530705,
         "regency_code": 5307,
         "province_code": 53,
-        "name": "Alok"
+        "name": "Alok",
+        "latitude": -8.457590240012665,
+        "longitude": 122.22087118204374
     },
     {
         "code": 530706,
         "regency_code": 5307,
         "province_code": 53,
-        "name": "Palue"
+        "name": "Palue",
+        "latitude": -8.325502989529182,
+        "longitude": 121.71024343533063
     },
     {
         "code": 530707,
         "regency_code": 5307,
         "province_code": 53,
-        "name": "Nelle"
+        "name": "Nelle",
+        "latitude": -8.679467974874695,
+        "longitude": 122.21596499920665
     },
     {
         "code": 530708,
         "regency_code": 5307,
         "province_code": 53,
-        "name": "Talibura"
+        "name": "Talibura",
+        "latitude": -8.479484416761357,
+        "longitude": 122.60044685135716
     },
     {
         "code": 530709,
         "regency_code": 5307,
         "province_code": 53,
-        "name": "Waigete"
+        "name": "Waigete",
+        "latitude": -8.639741559370947,
+        "longitude": 122.44922604399221
     },
     {
         "code": 530710,
         "regency_code": 5307,
         "province_code": 53,
-        "name": "Kewapante"
+        "name": "Kewapante",
+        "latitude": -8.66818300288754,
+        "longitude": 122.29310680315136
     },
     {
         "code": 530711,
         "regency_code": 5307,
         "province_code": 53,
-        "name": "Bola"
+        "name": "Bola",
+        "latitude": -8.728769906477101,
+        "longitude": 122.28048141646707
     },
     {
         "code": 530712,
         "regency_code": 5307,
         "province_code": 53,
-        "name": "Magepanda"
+        "name": "Magepanda",
+        "latitude": -8.570297744227798,
+        "longitude": 122.06007966513943
     },
     {
         "code": 530713,
         "regency_code": 5307,
         "province_code": 53,
-        "name": "Waiblama"
+        "name": "Waiblama",
+        "latitude": -8.58954405537876,
+        "longitude": 122.59472106191588
     },
     {
         "code": 530714,
         "regency_code": 5307,
         "province_code": 53,
-        "name": "Alok Barat"
+        "name": "Alok Barat",
+        "latitude": -8.594013817025884,
+        "longitude": 122.16274795601323
     },
     {
         "code": 530715,
         "regency_code": 5307,
         "province_code": 53,
-        "name": "Alok Timur"
+        "name": "Alok Timur",
+        "latitude": -8.504400659789864,
+        "longitude": 122.35211069733516
     },
     {
         "code": 530716,
         "regency_code": 5307,
         "province_code": 53,
-        "name": "Koting"
+        "name": "Koting",
+        "latitude": -8.688094824293367,
+        "longitude": 122.19716326503988
     },
     {
         "code": 530717,
         "regency_code": 5307,
         "province_code": 53,
-        "name": "Tana Wawo"
+        "name": "Tana Wawo",
+        "latitude": -8.701208095202226,
+        "longitude": 121.97428814464577
     },
     {
         "code": 530718,
         "regency_code": 5307,
         "province_code": 53,
-        "name": "Hewokloang"
+        "name": "Hewokloang",
+        "latitude": -8.692508371322425,
+        "longitude": 122.32323974741357
     },
     {
         "code": 530719,
         "regency_code": 5307,
         "province_code": 53,
-        "name": "Kangae"
+        "name": "Kangae",
+        "latitude": -8.674661389073336,
+        "longitude": 122.25694409592124
     },
     {
         "code": 530720,
         "regency_code": 5307,
         "province_code": 53,
-        "name": "Doreng"
+        "name": "Doreng",
+        "latitude": -8.718140402921048,
+        "longitude": 122.37542439423798
     },
     {
         "code": 530721,
         "regency_code": 5307,
         "province_code": 53,
-        "name": "Mapitara"
+        "name": "Mapitara",
+        "latitude": -8.699061500074121,
+        "longitude": 122.47029758115387
     },
     {
         "code": 530801,
         "regency_code": 5308,
         "province_code": 53,
-        "name": "Nangapanda"
+        "name": "Nangapanda",
+        "latitude": -8.74673126641943,
+        "longitude": 121.47987689484661
     },
     {
         "code": 530802,
         "regency_code": 5308,
         "province_code": 53,
-        "name": "Pulau Ende"
+        "name": "Pulau Ende",
+        "latitude": -8.882640316105768,
+        "longitude": 121.52208153754803
     },
     {
         "code": 530803,
         "regency_code": 5308,
         "province_code": 53,
-        "name": "Ende"
+        "name": "Ende",
+        "latitude": -8.741058278728012,
+        "longitude": 121.62787166837886
     },
     {
         "code": 530804,
         "regency_code": 5308,
         "province_code": 53,
-        "name": "Ende Selatan"
+        "name": "Ende Selatan",
+        "latitude": -8.87611267008453,
+        "longitude": 121.64623182223755
     },
     {
         "code": 530805,
         "regency_code": 5308,
         "province_code": 53,
-        "name": "Ndona"
+        "name": "Ndona",
+        "latitude": -8.837231582601747,
+        "longitude": 121.74136925642902
     },
     {
         "code": 530806,
         "regency_code": 5308,
         "province_code": 53,
-        "name": "Detusoko"
+        "name": "Detusoko",
+        "latitude": -8.726035193534303,
+        "longitude": 121.75053521539982
     },
     {
         "code": 530807,
         "regency_code": 5308,
         "province_code": 53,
-        "name": "Wewaria"
+        "name": "Wewaria",
+        "latitude": -8.59463712695853,
+        "longitude": 121.6848805317557
     },
     {
         "code": 530808,
         "regency_code": 5308,
         "province_code": 53,
-        "name": "Wolowaru"
+        "name": "Wolowaru",
+        "latitude": -8.77578438727764,
+        "longitude": 121.88581685697439
     },
     {
         "code": 530809,
         "regency_code": 5308,
         "province_code": 53,
-        "name": "Wolojita"
+        "name": "Wolojita",
+        "latitude": -8.816369137759603,
+        "longitude": 121.83605043298726
     },
     {
         "code": 530810,
         "regency_code": 5308,
         "province_code": 53,
-        "name": "Maurole"
+        "name": "Maurole",
+        "latitude": -8.53191637909713,
+        "longitude": 121.79399452572731
     },
     {
         "code": 530811,
         "regency_code": 5308,
         "province_code": 53,
-        "name": "Maukaro"
+        "name": "Maukaro",
+        "latitude": -8.651074949165553,
+        "longitude": 121.56058546028326
     },
     {
         "code": 530812,
         "regency_code": 5308,
         "province_code": 53,
-        "name": "Lio Timur"
+        "name": "Lio Timur",
+        "latitude": -8.766624599297804,
+        "longitude": 121.95061936967166
     },
     {
         "code": 530813,
         "regency_code": 5308,
         "province_code": 53,
-        "name": "Kota Baru"
+        "name": "Kota Baru",
+        "latitude": -8.539689086163161,
+        "longitude": 121.95255883141841
     },
     {
         "code": 530814,
         "regency_code": 5308,
         "province_code": 53,
-        "name": "Kelimutu"
+        "name": "Kelimutu",
+        "latitude": -8.74149047639594,
+        "longitude": 121.83444680785388
     },
     {
         "code": 530815,
         "regency_code": 5308,
         "province_code": 53,
-        "name": "Detukeli"
+        "name": "Detukeli",
+        "latitude": -8.604928913235925,
+        "longitude": 121.82614095452732
     },
     {
         "code": 530816,
         "regency_code": 5308,
         "province_code": 53,
-        "name": "Ndona Timur"
+        "name": "Ndona Timur",
+        "latitude": -8.80636596059763,
+        "longitude": 121.77533724341674
     },
     {
         "code": 530817,
         "regency_code": 5308,
         "province_code": 53,
-        "name": "Ndori"
+        "name": "Ndori",
+        "latitude": -8.806849791740124,
+        "longitude": 121.93212985663999
     },
     {
         "code": 530818,
         "regency_code": 5308,
         "province_code": 53,
-        "name": "Ende Utara"
+        "name": "Ende Utara",
+        "latitude": -8.818525486476974,
+        "longitude": 121.62947125838676
     },
     {
         "code": 530819,
         "regency_code": 5308,
         "province_code": 53,
-        "name": "Ende Tengah"
+        "name": "Ende Tengah",
+        "latitude": -8.833989234506888,
+        "longitude": 121.65762104369013
     },
     {
         "code": 530820,
         "regency_code": 5308,
         "province_code": 53,
-        "name": "Ende Timur"
+        "name": "Ende Timur",
+        "latitude": -8.798765528227062,
+        "longitude": 121.67091404849138
     },
     {
         "code": 530821,
         "regency_code": 5308,
         "province_code": 53,
-        "name": "Lepembusu Kelisoke"
+        "name": "Lepembusu Kelisoke",
+        "latitude": -8.665976395901822,
+        "longitude": 121.8886414525149
     },
     {
         "code": 530901,
         "regency_code": 5309,
         "province_code": 53,
-        "name": "Aimere"
+        "name": "Aimere",
+        "latitude": -8.804254054926847,
+        "longitude": 120.88551026173604
     },
     {
         "code": 530902,
         "regency_code": 5309,
         "province_code": 53,
-        "name": "Golewa"
+        "name": "Golewa",
+        "latitude": -8.822816209066104,
+        "longitude": 121.07713696596383
     },
     {
         "code": 530906,
         "regency_code": 5309,
         "province_code": 53,
-        "name": "Bajawa"
+        "name": "Bajawa",
+        "latitude": -8.798109471049036,
+        "longitude": 120.96550680834326
     },
     {
         "code": 530907,
         "regency_code": 5309,
         "province_code": 53,
-        "name": "Soa"
+        "name": "Soa",
+        "latitude": -8.705273683802329,
+        "longitude": 121.06898078444486
     },
     {
         "code": 530909,
         "regency_code": 5309,
         "province_code": 53,
-        "name": "Riung"
+        "name": "Riung",
+        "latitude": -8.469173168709109,
+        "longitude": 121.05714473874461
     },
     {
         "code": 530912,
         "regency_code": 5309,
         "province_code": 53,
-        "name": "Jerebuu"
+        "name": "Jerebuu",
+        "latitude": -8.893195287236932,
+        "longitude": 121.00090510765189
     },
     {
         "code": 530914,
         "regency_code": 5309,
         "province_code": 53,
-        "name": "Riung Barat"
+        "name": "Riung Barat",
+        "latitude": -8.537246078683523,
+        "longitude": 120.9397665165103
     },
     {
         "code": 530915,
         "regency_code": 5309,
         "province_code": 53,
-        "name": "Bajawa Utara"
+        "name": "Bajawa Utara",
+        "latitude": -8.70366105051839,
+        "longitude": 120.94779611344508
     },
     {
         "code": 530916,
         "regency_code": 5309,
         "province_code": 53,
-        "name": "Wolomeze"
+        "name": "Wolomeze",
+        "latitude": -8.618645370685671,
+        "longitude": 121.04402092978582
     },
     {
         "code": 530918,
         "regency_code": 5309,
         "province_code": 53,
-        "name": "Golewa Selatan"
+        "name": "Golewa Selatan",
+        "latitude": -8.89844866094845,
+        "longitude": 121.07987042936435
     },
     {
         "code": 530919,
         "regency_code": 5309,
         "province_code": 53,
-        "name": "Golewa Barat"
+        "name": "Golewa Barat",
+        "latitude": -8.806596711908048,
+        "longitude": 121.03008719210794
     },
     {
         "code": 530920,
         "regency_code": 5309,
         "province_code": 53,
-        "name": "Inerie"
+        "name": "Inerie",
+        "latitude": -8.908943339379046,
+        "longitude": 120.94496177207323
     },
     {
         "code": 531001,
         "regency_code": 5310,
         "province_code": 53,
-        "name": "Wae Rii"
+        "name": "Wae Rii",
+        "latitude": -8.574357281239292,
+        "longitude": 120.4820468110406
     },
     {
         "code": 531003,
         "regency_code": 5310,
         "province_code": 53,
-        "name": "Ruteng"
+        "name": "Ruteng",
+        "latitude": -8.595198679723639,
+        "longitude": 120.38067896633687
     },
     {
         "code": 531005,
         "regency_code": 5310,
         "province_code": 53,
-        "name": "Satar Mese"
+        "name": "Satar Mese",
+        "latitude": -8.73056572292353,
+        "longitude": 120.43736169728676
     },
     {
         "code": 531006,
         "regency_code": 5310,
         "province_code": 53,
-        "name": "Cibal"
+        "name": "Cibal",
+        "latitude": -8.472382233052961,
+        "longitude": 120.50125662463788
     },
     {
         "code": 531011,
         "regency_code": 5310,
         "province_code": 53,
-        "name": "Reok"
+        "name": "Reok",
+        "latitude": -8.328232011986339,
+        "longitude": 120.44034366959185
     },
     {
         "code": 531012,
         "regency_code": 5310,
         "province_code": 53,
-        "name": "Langke Rembong"
+        "name": "Langke Rembong",
+        "latitude": -8.61856941581071,
+        "longitude": 120.4635667637031
     },
     {
         "code": 531013,
         "regency_code": 5310,
         "province_code": 53,
-        "name": "Satar Mese Barat"
+        "name": "Satar Mese Barat",
+        "latitude": -8.806426324212335,
+        "longitude": 120.31610216196934
     },
     {
         "code": 531014,
         "regency_code": 5310,
         "province_code": 53,
-        "name": "Rahong Utara"
+        "name": "Rahong Utara",
+        "latitude": -8.521957581195858,
+        "longitude": 120.39847988755348
     },
     {
         "code": 531015,
         "regency_code": 5310,
         "province_code": 53,
-        "name": "Lelak"
+        "name": "Lelak",
+        "latitude": -8.624803135368854,
+        "longitude": 120.31319370028743
     },
     {
         "code": 531016,
         "regency_code": 5310,
         "province_code": 53,
-        "name": "Reok Barat"
+        "name": "Reok Barat",
+        "latitude": -8.363899947088857,
+        "longitude": 120.34652229580854
     },
     {
         "code": 531017,
         "regency_code": 5310,
         "province_code": 53,
-        "name": "Cibal barat"
+        "name": "Cibal barat",
+        "latitude": -8.461943729443385,
+        "longitude": 120.44082507211156
     },
     {
         "code": 531018,
         "regency_code": 5310,
         "province_code": 53,
-        "name": "Satar Mese Utara"
+        "name": "Satar Mese Utara",
+        "latitude": -8.700126934819172,
+        "longitude": 120.35127734124056
     },
     {
         "code": 531101,
         "regency_code": 5311,
         "province_code": 53,
-        "name": "Kota Waingapu"
+        "name": "Kota Waingapu",
+        "latitude": -9.726723846563846,
+        "longitude": 120.16555347035367
     },
     {
         "code": 531102,
         "regency_code": 5311,
         "province_code": 53,
-        "name": "Haharu"
+        "name": "Haharu",
+        "latitude": -9.465967852895062,
+        "longitude": 119.98042329439727
     },
     {
         "code": 531103,
         "regency_code": 5311,
         "province_code": 53,
-        "name": "Lewa"
+        "name": "Lewa",
+        "latitude": -9.649352234273616,
+        "longitude": 119.8977258255185
     },
     {
         "code": 531104,
         "regency_code": 5311,
         "province_code": 53,
-        "name": "Nggaha Ori Angu"
+        "name": "Nggaha Ori Angu",
+        "latitude": -9.719602762398855,
+        "longitude": 120.03314924625624
     },
     {
         "code": 531105,
         "regency_code": 5311,
         "province_code": 53,
-        "name": "Tabundung"
+        "name": "Tabundung",
+        "latitude": -9.955753210341479,
+        "longitude": 120.0670098602132
     },
     {
         "code": 531106,
         "regency_code": 5311,
         "province_code": 53,
-        "name": "Pinu Pahar"
+        "name": "Pinu Pahar",
+        "latitude": -10.091157433939827,
+        "longitude": 120.10947542276563
     },
     {
         "code": 531107,
         "regency_code": 5311,
         "province_code": 53,
-        "name": "Pandawai"
+        "name": "Pandawai",
+        "latitude": -9.747564811000208,
+        "longitude": 120.4039816213039
     },
     {
         "code": 531108,
         "regency_code": 5311,
         "province_code": 53,
-        "name": "Umalulu"
+        "name": "Umalulu",
+        "latitude": -9.879461545051749,
+        "longitude": 120.58492674275931
     },
     {
         "code": 531109,
         "regency_code": 5311,
         "province_code": 53,
-        "name": "Rindi"
+        "name": "Rindi",
+        "latitude": -10.002329524335108,
+        "longitude": 120.69012908133666
     },
     {
         "code": 531110,
         "regency_code": 5311,
         "province_code": 53,
-        "name": "Pahunga Lodu"
+        "name": "Pahunga Lodu",
+        "latitude": -10.122996495862187,
+        "longitude": 120.68342309829733
     },
     {
         "code": 531111,
         "regency_code": 5311,
         "province_code": 53,
-        "name": "Wulla Waijelu"
+        "name": "Wulla Waijelu",
+        "latitude": -10.21891763062163,
+        "longitude": 120.52499470184252
     },
     {
         "code": 531112,
         "regency_code": 5311,
         "province_code": 53,
-        "name": "Paberiwai"
+        "name": "Paberiwai",
+        "latitude": -10.033426668097796,
+        "longitude": 120.42107236833685
     },
     {
         "code": 531113,
         "regency_code": 5311,
         "province_code": 53,
-        "name": "Karera"
+        "name": "Karera",
+        "latitude": -10.172733583110473,
+        "longitude": 120.2528779200461
     },
     {
         "code": 531114,
         "regency_code": 5311,
         "province_code": 53,
-        "name": "Kahaungu Eti"
+        "name": "Kahaungu Eti",
+        "latitude": -9.869833136145655,
+        "longitude": 120.47184928610801
     },
     {
         "code": 531115,
         "regency_code": 5311,
         "province_code": 53,
-        "name": "Matawai La Pawu"
+        "name": "Matawai La Pawu",
+        "latitude": -10.010196240049316,
+        "longitude": 120.2801205014323
     },
     {
         "code": 531116,
         "regency_code": 5311,
         "province_code": 53,
-        "name": "Kambera"
+        "name": "Kambera",
+        "latitude": -9.7055127217147,
+        "longitude": 120.27208344523505
     },
     {
         "code": 531117,
         "regency_code": 5311,
         "province_code": 53,
-        "name": "Kambata Mapambuhang"
+        "name": "Kambata Mapambuhang",
+        "latitude": -9.848265442451321,
+        "longitude": 120.23532332814541
     },
     {
         "code": 531118,
         "regency_code": 5311,
         "province_code": 53,
-        "name": "Lewa Tidahu"
+        "name": "Lewa Tidahu",
+        "latitude": -9.795235070623189,
+        "longitude": 119.78642080523448
     },
     {
         "code": 531119,
         "regency_code": 5311,
         "province_code": 53,
-        "name": "Katala Hamu Lingu"
+        "name": "Katala Hamu Lingu",
+        "latitude": -9.850954055259967,
+        "longitude": 119.92071424443259
     },
     {
         "code": 531120,
         "regency_code": 5311,
         "province_code": 53,
-        "name": "Kanatang"
+        "name": "Kanatang",
+        "latitude": -9.575980141109232,
+        "longitude": 120.16041363383417
     },
     {
         "code": 531121,
         "regency_code": 5311,
         "province_code": 53,
-        "name": "Ngadu Ngala"
+        "name": "Ngadu Ngala",
+        "latitude": -10.194434127452988,
+        "longitude": 120.40292209191477
     },
     {
         "code": 531122,
         "regency_code": 5311,
         "province_code": 53,
-        "name": "Mahu"
+        "name": "Mahu",
+        "latitude": -10.091245788157556,
+        "longitude": 120.49182461433608
     },
     {
         "code": 531204,
         "regency_code": 5312,
         "province_code": 53,
-        "name": "Tana Righu"
+        "name": "Tana Righu",
+        "latitude": -9.475951228937799,
+        "longitude": 119.41359585107534
     },
     {
         "code": 531210,
         "regency_code": 5312,
         "province_code": 53,
-        "name": "Loli"
+        "name": "Loli",
+        "latitude": -9.61861396886119,
+        "longitude": 119.44210238954408
     },
     {
         "code": 531211,
         "regency_code": 5312,
         "province_code": 53,
-        "name": "Wanokaka"
+        "name": "Wanokaka",
+        "latitude": -9.717714651671152,
+        "longitude": 119.44963302653422
     },
     {
         "code": 531212,
         "regency_code": 5312,
         "province_code": 53,
-        "name": "Lamboya"
+        "name": "Lamboya",
+        "latitude": -9.703870894394898,
+        "longitude": 119.35151098261093
     },
     {
         "code": 531215,
         "regency_code": 5312,
         "province_code": 53,
-        "name": "Kota Waikabubak"
+        "name": "Kota Waikabubak",
+        "latitude": -9.623671619231828,
+        "longitude": 119.45130329659068
     },
     {
         "code": 531218,
         "regency_code": 5312,
         "province_code": 53,
-        "name": "Laboya Barat"
+        "name": "Laboya Barat",
+        "latitude": -9.708874525959107,
+        "longitude": 119.23154596171341
     },
     {
         "code": 531301,
         "regency_code": 5313,
         "province_code": 53,
-        "name": "Naga Wutung"
+        "name": "Naga Wutung",
+        "latitude": -8.510493093551665,
+        "longitude": 123.31554847995208
     },
     {
         "code": 531302,
         "regency_code": 5313,
         "province_code": 53,
-        "name": "Atadei"
+        "name": "Atadei",
+        "latitude": -8.480535736514774,
+        "longitude": 123.51787402589774
     },
     {
         "code": 531303,
         "regency_code": 5313,
         "province_code": 53,
-        "name": "Ile Ape"
+        "name": "Ile Ape",
+        "latitude": -8.296687208810617,
+        "longitude": 123.4508346513235
     },
     {
         "code": 531304,
         "regency_code": 5313,
         "province_code": 53,
-        "name": "Lebatukan"
+        "name": "Lebatukan",
+        "latitude": -8.370606832054317,
+        "longitude": 123.5988869063557
     },
     {
         "code": 531305,
         "regency_code": 5313,
         "province_code": 53,
-        "name": "Nubatukan"
+        "name": "Nubatukan",
+        "latitude": -8.429136268421264,
+        "longitude": 123.40069725304934
     },
     {
         "code": 531306,
         "regency_code": 5313,
         "province_code": 53,
-        "name": "Omesuri"
+        "name": "Omesuri",
+        "latitude": -8.263224064111029,
+        "longitude": 123.71021970530438
     },
     {
         "code": 531307,
         "regency_code": 5313,
         "province_code": 53,
-        "name": "Buyasuri"
+        "name": "Buyasuri",
+        "latitude": -8.23198601534022,
+        "longitude": 123.83689380721809
     },
     {
         "code": 531308,
         "regency_code": 5313,
         "province_code": 53,
-        "name": "Wulandoni"
+        "name": "Wulandoni",
+        "latitude": -8.535912566687724,
+        "longitude": 123.43854016052903
     },
     {
         "code": 531309,
         "regency_code": 5313,
         "province_code": 53,
-        "name": "Ile Ape Timur"
+        "name": "Ile Ape Timur",
+        "latitude": -8.268371475775464,
+        "longitude": 123.52357647252981
     },
     {
         "code": 531401,
         "regency_code": 5314,
         "province_code": 53,
-        "name": "Rote Barat Daya"
+        "name": "Rote Barat Daya",
+        "latitude": -10.876317793258574,
+        "longitude": 122.95551672012066
     },
     {
         "code": 531402,
         "regency_code": 5314,
         "province_code": 53,
-        "name": "Rote Barat Laut"
+        "name": "Rote Barat Laut",
+        "latitude": -10.777635728299597,
+        "longitude": 122.97052088381673
     },
     {
         "code": 531403,
         "regency_code": 5314,
         "province_code": 53,
-        "name": "Lobalain"
+        "name": "Lobalain",
+        "latitude": -10.78693017279533,
+        "longitude": 123.07819604171783
     },
     {
         "code": 531404,
         "regency_code": 5314,
         "province_code": 53,
-        "name": "Rote Tengah"
+        "name": "Rote Tengah",
+        "latitude": -10.703964387597212,
+        "longitude": 123.15446901899946
     },
     {
         "code": 531405,
         "regency_code": 5314,
         "province_code": 53,
-        "name": "Pantai Baru"
+        "name": "Pantai Baru",
+        "latitude": -10.66307509359434,
+        "longitude": 123.25707865046625
     },
     {
         "code": 531406,
         "regency_code": 5314,
         "province_code": 53,
-        "name": "Rote Timur"
+        "name": "Rote Timur",
+        "latitude": -10.637333333429806,
+        "longitude": 123.36209101742651
     },
     {
         "code": 531407,
         "regency_code": 5314,
         "province_code": 53,
-        "name": "Rote Barat"
+        "name": "Rote Barat",
+        "latitude": -10.863625134363286,
+        "longitude": 122.85206293915594
     },
     {
         "code": 531408,
         "regency_code": 5314,
         "province_code": 53,
-        "name": "Rote Selatan"
+        "name": "Rote Selatan",
+        "latitude": -10.787114303428574,
+        "longitude": 123.19504447320537
     },
     {
         "code": 531409,
         "regency_code": 5314,
         "province_code": 53,
-        "name": "Ndao Nuse"
+        "name": "Ndao Nuse",
+        "latitude": -10.804438255580768,
+        "longitude": 122.70835110690594
     },
     {
         "code": 531410,
         "regency_code": 5314,
         "province_code": 53,
-        "name": "Landu Leko"
+        "name": "Landu Leko",
+        "latitude": -10.533079165871008,
+        "longitude": 123.33035260475836
     },
     {
         "code": 531411,
         "regency_code": 5314,
         "province_code": 53,
-        "name": "Loaholu"
+        "name": "Loaholu",
+        "latitude": -10.799721554419095,
+        "longitude": 122.89257967923115
     },
     {
         "code": 531501,
         "regency_code": 5315,
         "province_code": 53,
-        "name": "Macang Pacar"
+        "name": "Macang Pacar",
+        "latitude": -8.383836733865898,
+        "longitude": 120.21422888934868
     },
     {
         "code": 531502,
         "regency_code": 5315,
         "province_code": 53,
-        "name": "Kuwus"
+        "name": "Kuwus",
+        "latitude": -8.559968541239535,
+        "longitude": 120.3048641673735
     },
     {
         "code": 531503,
         "regency_code": 5315,
         "province_code": 53,
-        "name": "Lembor"
+        "name": "Lembor",
+        "latitude": -8.701758678949247,
+        "longitude": 120.16775468663
     },
     {
         "code": 531504,
         "regency_code": 5315,
         "province_code": 53,
-        "name": "Sano Nggoang"
+        "name": "Sano Nggoang",
+        "latitude": -8.688111524471879,
+        "longitude": 119.97588920507522
     },
     {
         "code": 531505,
         "regency_code": 5315,
         "province_code": 53,
-        "name": "Komodo"
+        "name": "Komodo",
+        "latitude": -8.625922058581944,
+        "longitude": 119.68593903883222
     },
     {
         "code": 531506,
         "regency_code": 5315,
         "province_code": 53,
-        "name": "Boleng"
+        "name": "Boleng",
+        "latitude": -8.481465145998666,
+        "longitude": 120.04319450879304
     },
     {
         "code": 531507,
         "regency_code": 5315,
         "province_code": 53,
-        "name": "Welak"
+        "name": "Welak",
+        "latitude": -8.621491890684368,
+        "longitude": 120.20302382254381
     },
     {
         "code": 531508,
         "regency_code": 5315,
         "province_code": 53,
-        "name": "Ndoso"
+        "name": "Ndoso",
+        "latitude": -8.4831715869954,
+        "longitude": 120.33267030340578
     },
     {
         "code": 531509,
         "regency_code": 5315,
         "province_code": 53,
-        "name": "Lembor Selatan"
+        "name": "Lembor Selatan",
+        "latitude": -8.773393917111633,
+        "longitude": 120.1044330578665
     },
     {
         "code": 531510,
         "regency_code": 5315,
         "province_code": 53,
-        "name": "Mbeliling"
+        "name": "Mbeliling",
+        "latitude": -8.593876891034691,
+        "longitude": 120.04574703807488
     },
     {
         "code": 531511,
         "regency_code": 5315,
         "province_code": 53,
-        "name": "Pacar"
+        "name": "Pacar",
+        "latitude": -8.502524297655242,
+        "longitude": 120.19284114347197
     },
     {
         "code": 531512,
         "regency_code": 5315,
         "province_code": 53,
-        "name": "Kuwus Barat"
+        "name": "Kuwus Barat",
+        "latitude": -8.553378208667011,
+        "longitude": 120.25110422637029
     },
     {
         "code": 531601,
         "regency_code": 5316,
         "province_code": 53,
-        "name": "Aesesa"
+        "name": "Aesesa",
+        "latitude": -8.570207650833161,
+        "longitude": 121.2625589597625
     },
     {
         "code": 531602,
         "regency_code": 5316,
         "province_code": 53,
-        "name": "Nangaroro"
+        "name": "Nangaroro",
+        "latitude": -8.763735837912918,
+        "longitude": 121.34794774765734
     },
     {
         "code": 531603,
         "regency_code": 5316,
         "province_code": 53,
-        "name": "Boawae"
+        "name": "Boawae",
+        "latitude": -8.736195888819053,
+        "longitude": 121.18559222448732
     },
     {
         "code": 531604,
         "regency_code": 5316,
         "province_code": 53,
-        "name": "Mauponggo"
+        "name": "Mauponggo",
+        "latitude": -8.857899590145038,
+        "longitude": 121.19351208404092
     },
     {
         "code": 531605,
         "regency_code": 5316,
         "province_code": 53,
-        "name": "Wolowae"
+        "name": "Wolowae",
+        "latitude": -8.618071263408607,
+        "longitude": 121.43261354098804
     },
     {
         "code": 531606,
         "regency_code": 5316,
         "province_code": 53,
-        "name": "Keo Tengah"
+        "name": "Keo Tengah",
+        "latitude": -8.870995242430025,
+        "longitude": 121.29692739717025
     },
     {
         "code": 531607,
         "regency_code": 5316,
         "province_code": 53,
-        "name": "Aesesa Selatan"
+        "name": "Aesesa Selatan",
+        "latitude": -8.664009332289726,
+        "longitude": 121.2423180146339
     },
     {
         "code": 531701,
         "regency_code": 5317,
         "province_code": 53,
-        "name": "Katiku Tana"
+        "name": "Katiku Tana",
+        "latitude": -9.582633144854734,
+        "longitude": 119.53851979282813
     },
     {
         "code": 531702,
         "regency_code": 5317,
         "province_code": 53,
-        "name": "Umbu Ratu Nggay Barat"
+        "name": "Umbu Ratu Nggay Barat",
+        "latitude": -9.589311188807566,
+        "longitude": 119.63248913636774
     },
     {
         "code": 531703,
         "regency_code": 5317,
         "province_code": 53,
-        "name": "Mamboro"
+        "name": "Mamboro",
+        "latitude": -9.423704179456772,
+        "longitude": 119.52997610609299
     },
     {
         "code": 531704,
         "regency_code": 5317,
         "province_code": 53,
-        "name": "Umbu Ratu Nggay"
+        "name": "Umbu Ratu Nggay",
+        "latitude": -9.50900305487675,
+        "longitude": 119.79137195172184
     },
     {
         "code": 531705,
         "regency_code": 5317,
         "province_code": 53,
-        "name": "Katiku Tana Selatan"
+        "name": "Katiku Tana Selatan",
+        "latitude": -9.706457535353486,
+        "longitude": 119.61040474166293
     },
     {
         "code": 531706,
         "regency_code": 5317,
         "province_code": 53,
-        "name": "Umbu Ratu Nggay Tengah"
+        "name": "Umbu Ratu Nggay Tengah",
+        "latitude": -9.51738704193962,
+        "longitude": 119.69139401186226
     },
     {
         "code": 531801,
         "regency_code": 5318,
         "province_code": 53,
-        "name": "Loura"
+        "name": "Loura",
+        "latitude": -9.417981807444207,
+        "longitude": 119.30518275573702
     },
     {
         "code": 531802,
         "regency_code": 5318,
         "province_code": 53,
-        "name": "Wewewa Utara"
+        "name": "Wewewa Utara",
+        "latitude": -9.51927350002479,
+        "longitude": 119.37042267339704
     },
     {
         "code": 531803,
         "regency_code": 5318,
         "province_code": 53,
-        "name": "Wewewa Timur"
+        "name": "Wewewa Timur",
+        "latitude": -9.610179288742334,
+        "longitude": 119.31000753094635
     },
     {
         "code": 531804,
         "regency_code": 5318,
         "province_code": 53,
-        "name": "Wewewa Barat"
+        "name": "Wewewa Barat",
+        "latitude": -9.501736262936454,
+        "longitude": 119.1916875979946
     },
     {
         "code": 531805,
         "regency_code": 5318,
         "province_code": 53,
-        "name": "Wewewa Selatan"
+        "name": "Wewewa Selatan",
+        "latitude": -9.60284142481294,
+        "longitude": 119.17911779350779
     },
     {
         "code": 531806,
         "regency_code": 5318,
         "province_code": 53,
-        "name": "Kodi Bangedo"
+        "name": "Kodi Bangedo",
+        "latitude": -9.632721966077863,
+        "longitude": 119.07022459258552
     },
     {
         "code": 531807,
         "regency_code": 5318,
         "province_code": 53,
-        "name": "Kodi"
+        "name": "Kodi",
+        "latitude": -9.557765741276574,
+        "longitude": 118.9820555826504
     },
     {
         "code": 531808,
         "regency_code": 5318,
         "province_code": 53,
-        "name": "Kodi Utara"
+        "name": "Kodi Utara",
+        "latitude": -9.49080923097707,
+        "longitude": 119.05458576119156
     },
     {
         "code": 531809,
         "regency_code": 5318,
         "province_code": 53,
-        "name": "Kota Tambolaka"
+        "name": "Kota Tambolaka",
+        "latitude": -9.43076487492111,
+        "longitude": 119.19945287872663
     },
     {
         "code": 531810,
         "regency_code": 5318,
         "province_code": 53,
-        "name": "Wewewa Tengah"
+        "name": "Wewewa Tengah",
+        "latitude": -9.530027997321703,
+        "longitude": 119.29442067200142
     },
     {
         "code": 531811,
         "regency_code": 5318,
         "province_code": 53,
-        "name": "Kodi Balaghar"
+        "name": "Kodi Balaghar",
+        "latitude": -9.654519749441322,
+        "longitude": 119.07687939539144
     },
     {
         "code": 531901,
         "regency_code": 5319,
         "province_code": 53,
-        "name": "Borong"
+        "name": "Borong",
+        "latitude": -8.72031903595313,
+        "longitude": 120.62739420495538
     },
     {
         "code": 531902,
         "regency_code": 5319,
         "province_code": 53,
-        "name": "Lamba Leda Selatan"
+        "name": "Lamba Leda Selatan",
+        "latitude": -8.563480603770051,
+        "longitude": 120.56192328354533
     },
     {
         "code": 531903,
         "regency_code": 5319,
         "province_code": 53,
-        "name": "Lamba Leda"
+        "name": "Lamba Leda",
+        "latitude": -8.446454499319376,
+        "longitude": 120.58650622413089
     },
     {
         "code": 531904,
         "regency_code": 5319,
         "province_code": 53,
-        "name": "Sambi Rampas"
+        "name": "Sambi Rampas",
+        "latitude": -8.401348462866075,
+        "longitude": 120.74185368299324
     },
     {
         "code": 531905,
         "regency_code": 5319,
         "province_code": 53,
-        "name": "Elar"
+        "name": "Elar",
+        "latitude": -8.470053092787287,
+        "longitude": 120.81646142750319
     },
     {
         "code": 531906,
         "regency_code": 5319,
         "province_code": 53,
-        "name": "Kota Komba"
+        "name": "Kota Komba",
+        "latitude": -8.79348250368974,
+        "longitude": 120.74273051251741
     },
     {
         "code": 531907,
         "regency_code": 5319,
         "province_code": 53,
-        "name": "Rana Mese"
+        "name": "Rana Mese",
+        "latitude": -8.712854138281383,
+        "longitude": 120.5447860853252
     },
     {
         "code": 531908,
         "regency_code": 5319,
         "province_code": 53,
-        "name": "Lamba Leda Timur"
+        "name": "Lamba Leda Timur",
+        "latitude": -8.561720427504754,
+        "longitude": 120.6303538784948
     },
     {
         "code": 531909,
         "regency_code": 5319,
         "province_code": 53,
-        "name": "Elar Selatan"
+        "name": "Elar Selatan",
+        "latitude": -8.606805630218672,
+        "longitude": 120.82107612570196
     },
     {
         "code": 531910,
         "regency_code": 5319,
         "province_code": 53,
-        "name": "Kota Komba Utara"
+        "name": "Kota Komba Utara",
+        "latitude": -8.677600038074496,
+        "longitude": 120.72209542546737
     },
     {
         "code": 531911,
         "regency_code": 5319,
         "province_code": 53,
-        "name": "Lamba Leda Utara"
+        "name": "Lamba Leda Utara",
+        "latitude": -8.346840430968491,
+        "longitude": 120.57861478481044
     },
     {
         "code": 531912,
         "regency_code": 5319,
         "province_code": 53,
-        "name": "Congkar"
+        "name": "Congkar",
+        "latitude": -8.543416029030574,
+        "longitude": 120.69544277994768
     },
     {
         "code": 532001,
         "regency_code": 5320,
         "province_code": 53,
-        "name": "Sabu Barat"
+        "name": "Sabu Barat",
+        "latitude": -10.514914567457048,
+        "longitude": 121.85526756479692
     },
     {
         "code": 532002,
         "regency_code": 5320,
         "province_code": 53,
-        "name": "Sabu Tengah"
+        "name": "Sabu Tengah",
+        "latitude": -10.48307756128879,
+        "longitude": 121.93765803944227
     },
     {
         "code": 532003,
         "regency_code": 5320,
         "province_code": 53,
-        "name": "Sabu Timur"
+        "name": "Sabu Timur",
+        "latitude": -10.497676566336244,
+        "longitude": 121.97832581010773
     },
     {
         "code": 532004,
         "regency_code": 5320,
         "province_code": 53,
-        "name": "Sabu Liae"
+        "name": "Sabu Liae",
+        "latitude": -10.588279619848937,
+        "longitude": 121.87048134542152
     },
     {
         "code": 532005,
         "regency_code": 5320,
         "province_code": 53,
-        "name": "Hawu Mehara"
+        "name": "Hawu Mehara",
+        "latitude": -10.579225932543292,
+        "longitude": 121.74971140071749
     },
     {
         "code": 532006,
         "regency_code": 5320,
         "province_code": 53,
-        "name": "Raijua"
+        "name": "Raijua",
+        "latitude": -10.623309777198083,
+        "longitude": 121.5718986576177
     },
     {
         "code": 532101,
         "regency_code": 5321,
         "province_code": 53,
-        "name": "Malaka Tengah"
+        "name": "Malaka Tengah",
+        "latitude": -9.568495049323444,
+        "longitude": 124.89707288525611
     },
     {
         "code": 532102,
         "regency_code": 5321,
         "province_code": 53,
-        "name": "Malaka Barat"
+        "name": "Malaka Barat",
+        "latitude": -9.653161632177783,
+        "longitude": 124.92323562912233
     },
     {
         "code": 532103,
         "regency_code": 5321,
         "province_code": 53,
-        "name": "Wewiku"
+        "name": "Wewiku",
+        "latitude": -9.714463143656577,
+        "longitude": 124.83662425078342
     },
     {
         "code": 532104,
         "regency_code": 5321,
         "province_code": 53,
-        "name": "Weliman"
+        "name": "Weliman",
+        "latitude": -9.625089113105108,
+        "longitude": 124.86808390519343
     },
     {
         "code": 532105,
         "regency_code": 5321,
         "province_code": 53,
-        "name": "Rinhat"
+        "name": "Rinhat",
+        "latitude": -9.602315293834566,
+        "longitude": 124.74041252058026
     },
     {
         "code": 532106,
         "regency_code": 5321,
         "province_code": 53,
-        "name": "Io Kufeu"
+        "name": "Io Kufeu",
+        "latitude": -9.508715239184276,
+        "longitude": 124.77247976900173
     },
     {
         "code": 532107,
         "regency_code": 5321,
         "province_code": 53,
-        "name": "Sasitamean"
+        "name": "Sasitamean",
+        "latitude": -9.493976279683853,
+        "longitude": 124.82453025065139
     },
     {
         "code": 532108,
         "regency_code": 5321,
         "province_code": 53,
-        "name": "Laenmanen"
+        "name": "Laenmanen",
+        "latitude": -9.415797867598044,
+        "longitude": 124.84201959106832
     },
     {
         "code": 532109,
         "regency_code": 5321,
         "province_code": 53,
-        "name": "Malaka Timur"
+        "name": "Malaka Timur",
+        "latitude": -9.424296683593534,
+        "longitude": 124.91332404601596
     },
     {
         "code": 532110,
         "regency_code": 5321,
         "province_code": 53,
-        "name": "Kobalima Timur"
+        "name": "Kobalima Timur",
+        "latitude": -9.387820233733255,
+        "longitude": 125.03664958714903
     },
     {
         "code": 532111,
         "regency_code": 5321,
         "province_code": 53,
-        "name": "Kobalima"
+        "name": "Kobalima",
+        "latitude": -9.468843412644077,
+        "longitude": 124.98856767144632
     },
     {
         "code": 532112,
         "regency_code": 5321,
         "province_code": 53,
-        "name": "Botin Leobele"
+        "name": "Botin Leobele",
+        "latitude": -9.494025971276443,
+        "longitude": 124.90500633530604
     },
     {
         "code": 537101,
         "regency_code": 5371,
         "province_code": 53,
-        "name": "Alak"
+        "name": "Alak",
+        "latitude": -10.222344361411002,
+        "longitude": 123.57154089397989
     },
     {
         "code": 537102,
         "regency_code": 5371,
         "province_code": 53,
-        "name": "Maulafa"
+        "name": "Maulafa",
+        "latitude": -10.215740439923565,
+        "longitude": 123.62734861841227
     },
     {
         "code": 537103,
         "regency_code": 5371,
         "province_code": 53,
-        "name": "Kelapa Lima"
+        "name": "Kelapa Lima",
+        "latitude": -10.148320925135422,
+        "longitude": 123.64977013550842
     },
     {
         "code": 537104,
         "regency_code": 5371,
         "province_code": 53,
-        "name": "Oebobo"
+        "name": "Oebobo",
+        "latitude": -10.167940235850304,
+        "longitude": 123.6249747126272
     },
     {
         "code": 537105,
         "regency_code": 5371,
         "province_code": 53,
-        "name": "Kota Raja"
+        "name": "Kota Raja",
+        "latitude": -10.18196499571997,
+        "longitude": 123.5918044091379
     },
     {
         "code": 537106,
         "regency_code": 5371,
         "province_code": 53,
-        "name": "Kota Lama"
+        "name": "Kota Lama",
+        "latitude": -10.157480892461125,
+        "longitude": 123.59396200105327
     }
 ]

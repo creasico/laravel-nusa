@@ -3,1026 +3,1368 @@
         "code": 710105,
         "regency_code": 7101,
         "province_code": 71,
-        "name": "Sang Tombolang"
+        "name": "Sang Tombolang",
+        "latitude": 0.7619590239464775,
+        "longitude": 123.80315881925961
     },
     {
         "code": 710109,
         "regency_code": 7101,
         "province_code": 71,
-        "name": "Dumoga Barat"
+        "name": "Dumoga Barat",
+        "latitude": 0.5204754366354557,
+        "longitude": 123.82606080089134
     },
     {
         "code": 710110,
         "regency_code": 7101,
         "province_code": 71,
-        "name": "Dumoga Timur"
+        "name": "Dumoga Timur",
+        "latitude": 0.5780906310818363,
+        "longitude": 124.08713335178086
     },
     {
         "code": 710111,
         "regency_code": 7101,
         "province_code": 71,
-        "name": "Dumoga Utara"
+        "name": "Dumoga Utara",
+        "latitude": 0.6166381228201262,
+        "longitude": 123.86175474710596
     },
     {
         "code": 710112,
         "regency_code": 7101,
         "province_code": 71,
-        "name": "Lolak"
+        "name": "Lolak",
+        "latitude": 0.7872863547933135,
+        "longitude": 123.99805737797723
     },
     {
         "code": 710113,
         "regency_code": 7101,
         "province_code": 71,
-        "name": "Bolaang"
+        "name": "Bolaang",
+        "latitude": 0.8147166685106393,
+        "longitude": 124.15052125215526
     },
     {
         "code": 710114,
         "regency_code": 7101,
         "province_code": 71,
-        "name": "Lolayan"
+        "name": "Lolayan",
+        "latitude": 0.6213731828495436,
+        "longitude": 124.24912389039591
     },
     {
         "code": 710119,
         "regency_code": 7101,
         "province_code": 71,
-        "name": "Passi Barat"
+        "name": "Passi Barat",
+        "latitude": 0.7936753855105433,
+        "longitude": 124.25719815648837
     },
     {
         "code": 710120,
         "regency_code": 7101,
         "province_code": 71,
-        "name": "Poigar"
+        "name": "Poigar",
+        "latitude": 0.9297940687019626,
+        "longitude": 124.27973555853625
     },
     {
         "code": 710122,
         "regency_code": 7101,
         "province_code": 71,
-        "name": "Passi Timur"
+        "name": "Passi Timur",
+        "latitude": 0.8072906114296378,
+        "longitude": 124.38363282510656
     },
     {
         "code": 710131,
         "regency_code": 7101,
         "province_code": 71,
-        "name": "Bolaang Timur"
+        "name": "Bolaang Timur",
+        "latitude": 0.9040635143473968,
+        "longitude": 124.17906792171284
     },
     {
         "code": 710132,
         "regency_code": 7101,
         "province_code": 71,
-        "name": "Bilalang"
+        "name": "Bilalang",
+        "latitude": 0.849677506148415,
+        "longitude": 124.34263479222932
     },
     {
         "code": 710133,
         "regency_code": 7101,
         "province_code": 71,
-        "name": "Dumoga"
+        "name": "Dumoga",
+        "latitude": 0.6694056260699058,
+        "longitude": 124.12901777614721
     },
     {
         "code": 710134,
         "regency_code": 7101,
         "province_code": 71,
-        "name": "Dumoga Tenggara"
+        "name": "Dumoga Tenggara",
+        "latitude": 0.6423978955187053,
+        "longitude": 124.00781053360888
     },
     {
         "code": 710135,
         "regency_code": 7101,
         "province_code": 71,
-        "name": "Dumoga Tengah"
+        "name": "Dumoga Tengah",
+        "latitude": 0.5267304791365928,
+        "longitude": 124.01928557383955
     },
     {
         "code": 710201,
         "regency_code": 7102,
         "province_code": 71,
-        "name": "Tondano Barat"
+        "name": "Tondano Barat",
+        "latitude": 1.2990583444265036,
+        "longitude": 124.89436339746594
     },
     {
         "code": 710202,
         "regency_code": 7102,
         "province_code": 71,
-        "name": "Tondano Timur"
+        "name": "Tondano Timur",
+        "latitude": 1.291001624580364,
+        "longitude": 124.93986837269556
     },
     {
         "code": 710203,
         "regency_code": 7102,
         "province_code": 71,
-        "name": "Eris"
+        "name": "Eris",
+        "latitude": 1.2260756078321642,
+        "longitude": 124.92729070225136
     },
     {
         "code": 710204,
         "regency_code": 7102,
         "province_code": 71,
-        "name": "Kombi"
+        "name": "Kombi",
+        "latitude": 1.2548801349721899,
+        "longitude": 125.0048447034799
     },
     {
         "code": 710205,
         "regency_code": 7102,
         "province_code": 71,
-        "name": "Lembean Timur"
+        "name": "Lembean Timur",
+        "latitude": 1.1661568752540128,
+        "longitude": 124.9784451828162
     },
     {
         "code": 710206,
         "regency_code": 7102,
         "province_code": 71,
-        "name": "Kakas"
+        "name": "Kakas",
+        "latitude": 1.1471639626835395,
+        "longitude": 124.92831766371611
     },
     {
         "code": 710207,
         "regency_code": 7102,
         "province_code": 71,
-        "name": "Tompaso"
+        "name": "Tompaso",
+        "latitude": 1.1849155390119495,
+        "longitude": 124.81373609331192
     },
     {
         "code": 710208,
         "regency_code": 7102,
         "province_code": 71,
-        "name": "Remboken"
+        "name": "Remboken",
+        "latitude": 1.2360335630431185,
+        "longitude": 124.85092381751531
     },
     {
         "code": 710209,
         "regency_code": 7102,
         "province_code": 71,
-        "name": "Langowan Timur"
+        "name": "Langowan Timur",
+        "latitude": 1.1479467459593435,
+        "longitude": 124.85628127770453
     },
     {
         "code": 710210,
         "regency_code": 7102,
         "province_code": 71,
-        "name": "Langowan Barat"
+        "name": "Langowan Barat",
+        "latitude": 1.12760612025538,
+        "longitude": 124.78958911708719
     },
     {
         "code": 710211,
         "regency_code": 7102,
         "province_code": 71,
-        "name": "Sonder"
+        "name": "Sonder",
+        "latitude": 1.2663290420482805,
+        "longitude": 124.77380059382826
     },
     {
         "code": 710212,
         "regency_code": 7102,
         "province_code": 71,
-        "name": "Kawangkoan"
+        "name": "Kawangkoan",
+        "latitude": 1.2102975388932078,
+        "longitude": 124.80797004444945
     },
     {
         "code": 710213,
         "regency_code": 7102,
         "province_code": 71,
-        "name": "Pineleng"
+        "name": "Pineleng",
+        "latitude": 1.4115680455893822,
+        "longitude": 124.81629387864778
     },
     {
         "code": 710214,
         "regency_code": 7102,
         "province_code": 71,
-        "name": "Tombulu"
+        "name": "Tombulu",
+        "latitude": 1.4029420170322815,
+        "longitude": 124.88534385984441
     },
     {
         "code": 710215,
         "regency_code": 7102,
         "province_code": 71,
-        "name": "Tombariri"
+        "name": "Tombariri",
+        "latitude": 1.3740315215077943,
+        "longitude": 124.64890613525921
     },
     {
         "code": 710216,
         "regency_code": 7102,
         "province_code": 71,
-        "name": "Tondano Utara"
+        "name": "Tondano Utara",
+        "latitude": 1.3269165027388548,
+        "longitude": 124.9212882934588
     },
     {
         "code": 710217,
         "regency_code": 7102,
         "province_code": 71,
-        "name": "Langowan Selatan"
+        "name": "Langowan Selatan",
+        "latitude": 1.0815898131408255,
+        "longitude": 124.88743459446512
     },
     {
         "code": 710218,
         "regency_code": 7102,
         "province_code": 71,
-        "name": "Tondano Selatan"
+        "name": "Tondano Selatan",
+        "latitude": 1.2613550935636888,
+        "longitude": 124.8841954735159
     },
     {
         "code": 710219,
         "regency_code": 7102,
         "province_code": 71,
-        "name": "Langowan Utara"
+        "name": "Langowan Utara",
+        "latitude": 1.1695935067251908,
+        "longitude": 124.82652217385586
     },
     {
         "code": 710220,
         "regency_code": 7102,
         "province_code": 71,
-        "name": "Kakas Barat"
+        "name": "Kakas Barat",
+        "latitude": 1.130439825421337,
+        "longitude": 124.90092894579412
     },
     {
         "code": 710221,
         "regency_code": 7102,
         "province_code": 71,
-        "name": "Kawangkoan Utara"
+        "name": "Kawangkoan Utara",
+        "latitude": 1.2249915662115394,
+        "longitude": 124.78204701328704
     },
     {
         "code": 710222,
         "regency_code": 7102,
         "province_code": 71,
-        "name": "Kawangkoan Barat"
+        "name": "Kawangkoan Barat",
+        "latitude": 1.1869243070314623,
+        "longitude": 124.75426287996537
     },
     {
         "code": 710223,
         "regency_code": 7102,
         "province_code": 71,
-        "name": "Mandolang"
+        "name": "Mandolang",
+        "latitude": 1.4191958411777916,
+        "longitude": 124.7573777591006
     },
     {
         "code": 710224,
         "regency_code": 7102,
         "province_code": 71,
-        "name": "Tombariri Timur"
+        "name": "Tombariri Timur",
+        "latitude": 1.3549861207145097,
+        "longitude": 124.72842319360804
     },
     {
         "code": 710225,
         "regency_code": 7102,
         "province_code": 71,
-        "name": "Tompaso Barat"
+        "name": "Tompaso Barat",
+        "latitude": 1.1576068853509873,
+        "longitude": 124.7792267668287
     },
     {
         "code": 710308,
         "regency_code": 7103,
         "province_code": 71,
-        "name": "Tabukan Utara"
+        "name": "Tabukan Utara",
+        "latitude": 3.6758687250652495,
+        "longitude": 125.50745097294602
     },
     {
         "code": 710309,
         "regency_code": 7103,
         "province_code": 71,
-        "name": "Nusa Tabukan"
+        "name": "Nusa Tabukan",
+        "latitude": 3.7741756292837128,
+        "longitude": 125.59003459501373
     },
     {
         "code": 710310,
         "regency_code": 7103,
         "province_code": 71,
-        "name": "Manganitu Selatan"
+        "name": "Manganitu Selatan",
+        "latitude": 3.4155785503770884,
+        "longitude": 125.60560380711031
     },
     {
         "code": 710311,
         "regency_code": 7103,
         "province_code": 71,
-        "name": "Tatoareng"
+        "name": "Tatoareng",
+        "latitude": 3.170139802013771,
+        "longitude": 125.49670396869182
     },
     {
         "code": 710312,
         "regency_code": 7103,
         "province_code": 71,
-        "name": "Tamako"
+        "name": "Tamako",
+        "latitude": 3.459239369086043,
+        "longitude": 125.54281756796159
     },
     {
         "code": 710313,
         "regency_code": 7103,
         "province_code": 71,
-        "name": "Manganitu"
+        "name": "Manganitu",
+        "latitude": 3.535266168099001,
+        "longitude": 125.51508438372527
     },
     {
         "code": 710314,
         "regency_code": 7103,
         "province_code": 71,
-        "name": "Tabukan Tengah"
+        "name": "Tabukan Tengah",
+        "latitude": 3.568855717202445,
+        "longitude": 125.56452516425762
     },
     {
         "code": 710315,
         "regency_code": 7103,
         "province_code": 71,
-        "name": "Tabukan Selatan"
+        "name": "Tabukan Selatan",
+        "latitude": 3.5018833160796365,
+        "longitude": 125.6117188755976
     },
     {
         "code": 710316,
         "regency_code": 7103,
         "province_code": 71,
-        "name": "Kendahe"
+        "name": "Kendahe",
+        "latitude": 3.7142983042709314,
+        "longitude": 125.42454135102841
     },
     {
         "code": 710317,
         "regency_code": 7103,
         "province_code": 71,
-        "name": "Tahuna"
+        "name": "Tahuna",
+        "latitude": 3.6247336474243057,
+        "longitude": 125.48472310395219
     },
     {
         "code": 710319,
         "regency_code": 7103,
         "province_code": 71,
-        "name": "Tabukan Selatan Tengah"
+        "name": "Tabukan Selatan Tengah",
+        "latitude": 3.4643489111425536,
+        "longitude": 125.66455378450814
     },
     {
         "code": 710320,
         "regency_code": 7103,
         "province_code": 71,
-        "name": "Tabukan Selatan Tenggara"
+        "name": "Tabukan Selatan Tenggara",
+        "latitude": 3.440975412765562,
+        "longitude": 125.63103034480602
     },
     {
         "code": 710323,
         "regency_code": 7103,
         "province_code": 71,
-        "name": "Tahuna Barat"
+        "name": "Tahuna Barat",
+        "latitude": 3.6489610841086466,
+        "longitude": 125.44967359505779
     },
     {
         "code": 710324,
         "regency_code": 7103,
         "province_code": 71,
-        "name": "Tahuna Timur"
+        "name": "Tahuna Timur",
+        "latitude": 3.6067814217541505,
+        "longitude": 125.50980998930586
     },
     {
         "code": 710325,
         "regency_code": 7103,
         "province_code": 71,
-        "name": "Kepulauan Marore"
+        "name": "Kepulauan Marore",
+        "latitude": 4.660708603771068,
+        "longitude": 125.5009154416523
     },
     {
         "code": 710401,
         "regency_code": 7104,
         "province_code": 71,
-        "name": "Lirung"
+        "name": "Lirung",
+        "latitude": 3.9432729870290886,
+        "longitude": 126.6712696887042
     },
     {
         "code": 710402,
         "regency_code": 7104,
         "province_code": 71,
-        "name": "Beo"
+        "name": "Beo",
+        "latitude": 4.2399430505602,
+        "longitude": 126.8042888842459
     },
     {
         "code": 710403,
         "regency_code": 7104,
         "province_code": 71,
-        "name": "Rainis"
+        "name": "Rainis",
+        "latitude": 4.248665952065751,
+        "longitude": 126.85217362377625
     },
     {
         "code": 710404,
         "regency_code": 7104,
         "province_code": 71,
-        "name": "Essang"
+        "name": "Essang",
+        "latitude": 4.4702158643590755,
+        "longitude": 126.74817087916773
     },
     {
         "code": 710405,
         "regency_code": 7104,
         "province_code": 71,
-        "name": "Nanusa"
+        "name": "Nanusa",
+        "latitude": 4.7322823383873915,
+        "longitude": 127.11269708731562
     },
     {
         "code": 710406,
         "regency_code": 7104,
         "province_code": 71,
-        "name": "Kabaruan"
+        "name": "Kabaruan",
+        "latitude": 3.80972561167686,
+        "longitude": 126.77185687274779
     },
     {
         "code": 710407,
         "regency_code": 7104,
         "province_code": 71,
-        "name": "Melonguane"
+        "name": "Melonguane",
+        "latitude": 4.03280975140481,
+        "longitude": 126.71307556297994
     },
     {
         "code": 710408,
         "regency_code": 7104,
         "province_code": 71,
-        "name": "Gemeh"
+        "name": "Gemeh",
+        "latitude": 4.479264355814168,
+        "longitude": 126.80058321125011
     },
     {
         "code": 710409,
         "regency_code": 7104,
         "province_code": 71,
-        "name": "Damau"
+        "name": "Damau",
+        "latitude": 3.773169319880113,
+        "longitude": 126.81503872851158
     },
     {
         "code": 710410,
         "regency_code": 7104,
         "province_code": 71,
-        "name": "Tampan' Amma"
+        "name": "Tampan' Amma",
+        "latitude": 4.365072175286918,
+        "longitude": 126.82564616958713
     },
     {
         "code": 710411,
         "regency_code": 7104,
         "province_code": 71,
-        "name": "Salibabu"
+        "name": "Salibabu",
+        "latitude": 3.8755044827773024,
+        "longitude": 126.68287380626118
     },
     {
         "code": 710412,
         "regency_code": 7104,
         "province_code": 71,
-        "name": "Kalongan"
+        "name": "Kalongan",
+        "latitude": 4.001985408001533,
+        "longitude": 126.63187608807112
     },
     {
         "code": 710413,
         "regency_code": 7104,
         "province_code": 71,
-        "name": "Miangas"
+        "name": "Miangas",
+        "latitude": 5.557455701263763,
+        "longitude": 126.5831438147669
     },
     {
         "code": 710414,
         "regency_code": 7104,
         "province_code": 71,
-        "name": "Beo Utara"
+        "name": "Beo Utara",
+        "latitude": 4.319515657533372,
+        "longitude": 126.75149475510263
     },
     {
         "code": 710415,
         "regency_code": 7104,
         "province_code": 71,
-        "name": "Pulutan"
+        "name": "Pulutan",
+        "latitude": 4.115843896084634,
+        "longitude": 126.78205536050497
     },
     {
         "code": 710416,
         "regency_code": 7104,
         "province_code": 71,
-        "name": "Melonguane Timur"
+        "name": "Melonguane Timur",
+        "latitude": 4.045461572030233,
+        "longitude": 126.77657614064928
     },
     {
         "code": 710417,
         "regency_code": 7104,
         "province_code": 71,
-        "name": "Moronge"
+        "name": "Moronge",
+        "latitude": 3.9029352692267842,
+        "longitude": 126.70899275707924
     },
     {
         "code": 710418,
         "regency_code": 7104,
         "province_code": 71,
-        "name": "Beo Selatan"
+        "name": "Beo Selatan",
+        "latitude": 4.1271123633856455,
+        "longitude": 126.75159077400075
     },
     {
         "code": 710419,
         "regency_code": 7104,
         "province_code": 71,
-        "name": "Essang Selatan"
+        "name": "Essang Selatan",
+        "latitude": 4.3970704852153695,
+        "longitude": 126.72397986716256
     },
     {
         "code": 710501,
         "regency_code": 7105,
         "province_code": 71,
-        "name": "Modoinding"
+        "name": "Modoinding",
+        "latitude": 0.8145019205954679,
+        "longitude": 124.45110428682388
     },
     {
         "code": 710502,
         "regency_code": 7105,
         "province_code": 71,
-        "name": "Tompaso Baru"
+        "name": "Tompaso Baru",
+        "latitude": 0.9295258419239848,
+        "longitude": 124.49936140603678
     },
     {
         "code": 710503,
         "regency_code": 7105,
         "province_code": 71,
-        "name": "Ranoyapo"
+        "name": "Ranoyapo",
+        "latitude": 0.9912655957496623,
+        "longitude": 124.51248458088088
     },
     {
         "code": 710507,
         "regency_code": 7105,
         "province_code": 71,
-        "name": "Motoling"
+        "name": "Motoling",
+        "latitude": 1.031193156226813,
+        "longitude": 124.46516897328553
     },
     {
         "code": 710508,
         "regency_code": 7105,
         "province_code": 71,
-        "name": "Sinonsayang"
+        "name": "Sinonsayang",
+        "latitude": 1.0486163585297033,
+        "longitude": 124.36186304404403
     },
     {
         "code": 710509,
         "regency_code": 7105,
         "province_code": 71,
-        "name": "Tenga"
+        "name": "Tenga",
+        "latitude": 1.1448998441678548,
+        "longitude": 124.42680662874442
     },
     {
         "code": 710510,
         "regency_code": 7105,
         "province_code": 71,
-        "name": "Amurang"
+        "name": "Amurang",
+        "latitude": 1.1427007161355602,
+        "longitude": 124.62181428259221
     },
     {
         "code": 710512,
         "regency_code": 7105,
         "province_code": 71,
-        "name": "Tumpaan"
+        "name": "Tumpaan",
+        "latitude": 1.2908678357823287,
+        "longitude": 124.65279003575947
     },
     {
         "code": 710513,
         "regency_code": 7105,
         "province_code": 71,
-        "name": "Tareran"
+        "name": "Tareran",
+        "latitude": 1.2259121403018887,
+        "longitude": 124.70568116540596
     },
     {
         "code": 710515,
         "regency_code": 7105,
         "province_code": 71,
-        "name": "Kumelembuai"
+        "name": "Kumelembuai",
+        "latitude": 1.08625932111093,
+        "longitude": 124.47151518274035
     },
     {
         "code": 710516,
         "regency_code": 7105,
         "province_code": 71,
-        "name": "Maesaan"
+        "name": "Maesaan",
+        "latitude": 0.8735361407366906,
+        "longitude": 124.47416355645075
     },
     {
         "code": 710517,
         "regency_code": 7105,
         "province_code": 71,
-        "name": "Amurang Barat"
+        "name": "Amurang Barat",
+        "latitude": 1.1543449561101116,
+        "longitude": 124.52935469523467
     },
     {
         "code": 710518,
         "regency_code": 7105,
         "province_code": 71,
-        "name": "Amurang Timur"
+        "name": "Amurang Timur",
+        "latitude": 1.1778404149280262,
+        "longitude": 124.66417258217915
     },
     {
         "code": 710519,
         "regency_code": 7105,
         "province_code": 71,
-        "name": "Tatapaan"
+        "name": "Tatapaan",
+        "latitude": 1.317746400417009,
+        "longitude": 124.57296997895823
     },
     {
         "code": 710521,
         "regency_code": 7105,
         "province_code": 71,
-        "name": "Motoling Barat"
+        "name": "Motoling Barat",
+        "latitude": 1.0008636688808223,
+        "longitude": 124.40973710218009
     },
     {
         "code": 710522,
         "regency_code": 7105,
         "province_code": 71,
-        "name": "Motoling Timur"
+        "name": "Motoling Timur",
+        "latitude": 1.0715468679012208,
+        "longitude": 124.53332386032352
     },
     {
         "code": 710523,
         "regency_code": 7105,
         "province_code": 71,
-        "name": "Suluun Tareran"
+        "name": "Suluun Tareran",
+        "latitude": 1.2693215076258186,
+        "longitude": 124.69475646819862
     },
     {
         "code": 710601,
         "regency_code": 7106,
         "province_code": 71,
-        "name": "Kema"
+        "name": "Kema",
+        "latitude": 1.352139102658811,
+        "longitude": 125.05434797694129
     },
     {
         "code": 710602,
         "regency_code": 7106,
         "province_code": 71,
-        "name": "Kauditan"
+        "name": "Kauditan",
+        "latitude": 1.3955614397978124,
+        "longitude": 125.02647263050017
     },
     {
         "code": 710603,
         "regency_code": 7106,
         "province_code": 71,
-        "name": "Airmadidi"
+        "name": "Airmadidi",
+        "latitude": 1.398409522213499,
+        "longitude": 124.96234539000339
     },
     {
         "code": 710604,
         "regency_code": 7106,
         "province_code": 71,
-        "name": "Wori"
+        "name": "Wori",
+        "latitude": 1.6458442177173205,
+        "longitude": 124.86199969006911
     },
     {
         "code": 710605,
         "regency_code": 7106,
         "province_code": 71,
-        "name": "Dimembe"
+        "name": "Dimembe",
+        "latitude": 1.5223089034379598,
+        "longitude": 125.00692334344512
     },
     {
         "code": 710606,
         "regency_code": 7106,
         "province_code": 71,
-        "name": "Likupang Barat"
+        "name": "Likupang Barat",
+        "latitude": 1.7252609652417905,
+        "longitude": 125.00505226520998
     },
     {
         "code": 710607,
         "regency_code": 7106,
         "province_code": 71,
-        "name": "Likupang Timur"
+        "name": "Likupang Timur",
+        "latitude": 1.672299685093949,
+        "longitude": 125.11271250340529
     },
     {
         "code": 710608,
         "regency_code": 7106,
         "province_code": 71,
-        "name": "Kalawat"
+        "name": "Kalawat",
+        "latitude": 1.4511256969291058,
+        "longitude": 124.92477732885284
     },
     {
         "code": 710609,
         "regency_code": 7106,
         "province_code": 71,
-        "name": "Talawaan"
+        "name": "Talawaan",
+        "latitude": 1.5659406328523495,
+        "longitude": 124.94029805022862
     },
     {
         "code": 710610,
         "regency_code": 7106,
         "province_code": 71,
-        "name": "Likupang Selatan"
+        "name": "Likupang Selatan",
+        "latitude": 1.6213400125425619,
+        "longitude": 125.02816944716807
     },
     {
         "code": 710701,
         "regency_code": 7107,
         "province_code": 71,
-        "name": "Ratahan"
+        "name": "Ratahan",
+        "latitude": 1.0519590928105942,
+        "longitude": 124.7899333235369
     },
     {
         "code": 710702,
         "regency_code": 7107,
         "province_code": 71,
-        "name": "Pusomaen"
+        "name": "Pusomaen",
+        "latitude": 1.0049508468897397,
+        "longitude": 124.8691107208012
     },
     {
         "code": 710703,
         "regency_code": 7107,
         "province_code": 71,
-        "name": "Belang"
+        "name": "Belang",
+        "latitude": 0.961660085472812,
+        "longitude": 124.782557444044
     },
     {
         "code": 710704,
         "regency_code": 7107,
         "province_code": 71,
-        "name": "Ratatotok"
+        "name": "Ratatotok",
+        "latitude": 0.9064574075895457,
+        "longitude": 124.69329537506472
     },
     {
         "code": 710705,
         "regency_code": 7107,
         "province_code": 71,
-        "name": "Tombatu"
+        "name": "Tombatu",
+        "latitude": 0.9863492006855265,
+        "longitude": 124.67455761127705
     },
     {
         "code": 710706,
         "regency_code": 7107,
         "province_code": 71,
-        "name": "Touluaan"
+        "name": "Touluaan",
+        "latitude": 1.0691997607946044,
+        "longitude": 124.62071251554913
     },
     {
         "code": 710707,
         "regency_code": 7107,
         "province_code": 71,
-        "name": "Touluaan Selatan"
+        "name": "Touluaan Selatan",
+        "latitude": 1.0082562783443683,
+        "longitude": 124.59620530649377
     },
     {
         "code": 710708,
         "regency_code": 7107,
         "province_code": 71,
-        "name": "Silian Raya"
+        "name": "Silian Raya",
+        "latitude": 1.094799742105129,
+        "longitude": 124.68015271317537
     },
     {
         "code": 710709,
         "regency_code": 7107,
         "province_code": 71,
-        "name": "Tombatu Timur"
+        "name": "Tombatu Timur",
+        "latitude": 1.0102759294786166,
+        "longitude": 124.71732564735859
     },
     {
         "code": 710710,
         "regency_code": 7107,
         "province_code": 71,
-        "name": "Tombatu Utara"
+        "name": "Tombatu Utara",
+        "latitude": 1.0556592640991385,
+        "longitude": 124.71366915277271
     },
     {
         "code": 710711,
         "regency_code": 7107,
         "province_code": 71,
-        "name": "Pasan"
+        "name": "Pasan",
+        "latitude": 1.0212920078317365,
+        "longitude": 124.7480340313464
     },
     {
         "code": 710712,
         "regency_code": 7107,
         "province_code": 71,
-        "name": "Ratahan Timur"
+        "name": "Ratahan Timur",
+        "latitude": 1.0667612405628488,
+        "longitude": 124.83731266419856
     },
     {
         "code": 710801,
         "regency_code": 7108,
         "province_code": 71,
-        "name": "Sangkub"
+        "name": "Sangkub",
+        "latitude": 0.8547940655296596,
+        "longitude": 123.65599533632766
     },
     {
         "code": 710802,
         "regency_code": 7108,
         "province_code": 71,
-        "name": "Bintauna"
+        "name": "Bintauna",
+        "latitude": 0.7155420173167825,
+        "longitude": 123.60458750837365
     },
     {
         "code": 710803,
         "regency_code": 7108,
         "province_code": 71,
-        "name": "Bolangitang Timur"
+        "name": "Bolangitang Timur",
+        "latitude": 0.7678448144343886,
+        "longitude": 123.44763110317948
     },
     {
         "code": 710804,
         "regency_code": 7108,
         "province_code": 71,
-        "name": "Bolangitang Barat"
+        "name": "Bolangitang Barat",
+        "latitude": 0.7861433273060049,
+        "longitude": 123.33791151561073
     },
     {
         "code": 710805,
         "regency_code": 7108,
         "province_code": 71,
-        "name": "Kaidipang"
+        "name": "Kaidipang",
+        "latitude": 0.8832087686273128,
+        "longitude": 123.25496386699771
     },
     {
         "code": 710806,
         "regency_code": 7108,
         "province_code": 71,
-        "name": "Pinogaluman"
+        "name": "Pinogaluman",
+        "latitude": 0.8890569851197058,
+        "longitude": 123.18536272868745
     },
     {
         "code": 710901,
         "regency_code": 7109,
         "province_code": 71,
-        "name": "Siau Timur"
+        "name": "Siau Timur",
+        "latitude": 2.75687806134605,
+        "longitude": 125.41999295119572
     },
     {
         "code": 710902,
         "regency_code": 7109,
         "province_code": 71,
-        "name": "Siau Barat"
+        "name": "Siau Barat",
+        "latitude": 2.729847231035003,
+        "longitude": 125.33158061684418
     },
     {
         "code": 710903,
         "regency_code": 7109,
         "province_code": 71,
-        "name": "Tagulandang"
+        "name": "Tagulandang",
+        "latitude": 2.3358587178731174,
+        "longitude": 125.38080973608781
     },
     {
         "code": 710904,
         "regency_code": 7109,
         "province_code": 71,
-        "name": "Siau Timur Selatan"
+        "name": "Siau Timur Selatan",
+        "latitude": 2.6692585497051335,
+        "longitude": 125.41844480640782
     },
     {
         "code": 710905,
         "regency_code": 7109,
         "province_code": 71,
-        "name": "Siau Barat Selatan"
+        "name": "Siau Barat Selatan",
+        "latitude": 2.6590182984635873,
+        "longitude": 125.38935027564418
     },
     {
         "code": 710906,
         "regency_code": 7109,
         "province_code": 71,
-        "name": "Tagulandang Utara"
+        "name": "Tagulandang Utara",
+        "latitude": 2.3577301256314738,
+        "longitude": 125.42503702611576
     },
     {
         "code": 710907,
         "regency_code": 7109,
         "province_code": 71,
-        "name": "Biaro"
+        "name": "Biaro",
+        "latitude": 2.102907873909401,
+        "longitude": 125.37011970410198
     },
     {
         "code": 710908,
         "regency_code": 7109,
         "province_code": 71,
-        "name": "Siau Barat Utara"
+        "name": "Siau Barat Utara",
+        "latitude": 2.78954274401339,
+        "longitude": 125.39708448046686
     },
     {
         "code": 710909,
         "regency_code": 7109,
         "province_code": 71,
-        "name": "Siau Tengah"
+        "name": "Siau Tengah",
+        "latitude": 2.743286447747499,
+        "longitude": 125.38352197495202
     },
     {
         "code": 710910,
         "regency_code": 7109,
         "province_code": 71,
-        "name": "Tagulandang Selatan"
+        "name": "Tagulandang Selatan",
+        "latitude": 2.342144829807052,
+        "longitude": 125.44457518338432
     },
     {
         "code": 711001,
         "regency_code": 7110,
         "province_code": 71,
-        "name": "Tutuyan"
+        "name": "Tutuyan",
+        "latitude": 0.7791519256974349,
+        "longitude": 124.58121502342242
     },
     {
         "code": 711002,
         "regency_code": 7110,
         "province_code": 71,
-        "name": "Kotabunan"
+        "name": "Kotabunan",
+        "latitude": 0.870737958384579,
+        "longitude": 124.62621161028363
     },
     {
         "code": 711003,
         "regency_code": 7110,
         "province_code": 71,
-        "name": "Nuangan"
+        "name": "Nuangan",
+        "latitude": 0.5690762446060654,
+        "longitude": 124.48913637147474
     },
     {
         "code": 711004,
         "regency_code": 7110,
         "province_code": 71,
-        "name": "Modayag"
+        "name": "Modayag",
+        "latitude": 0.6602724239193296,
+        "longitude": 124.42254742608334
     },
     {
         "code": 711005,
         "regency_code": 7110,
         "province_code": 71,
-        "name": "Modayag Barat"
+        "name": "Modayag Barat",
+        "latitude": 0.6679023743130756,
+        "longitude": 124.36039577165221
     },
     {
         "code": 711006,
         "regency_code": 7110,
         "province_code": 71,
-        "name": "Motongkad"
+        "name": "Motongkad",
+        "latitude": 0.6958554447011616,
+        "longitude": 124.52725765974726
     },
     {
         "code": 711007,
         "regency_code": 7110,
         "province_code": 71,
-        "name": "Mooat"
+        "name": "Mooat",
+        "latitude": 0.7656916615093188,
+        "longitude": 124.47362028170438
     },
     {
         "code": 711101,
         "regency_code": 7111,
         "province_code": 71,
-        "name": "Bolaang Uki"
+        "name": "Bolaang Uki",
+        "latitude": 0.4114755367819265,
+        "longitude": 123.96743399810623
     },
     {
         "code": 711102,
         "regency_code": 7111,
         "province_code": 71,
-        "name": "Posigadan"
+        "name": "Posigadan",
+        "latitude": 0.4370852842467251,
+        "longitude": 123.6064889666527
     },
     {
         "code": 711103,
         "regency_code": 7111,
         "province_code": 71,
-        "name": "Pinolosian"
+        "name": "Pinolosian",
+        "latitude": 0.4589941025288934,
+        "longitude": 124.12088026142428
     },
     {
         "code": 711104,
         "regency_code": 7111,
         "province_code": 71,
-        "name": "Pinolosian Tengah"
+        "name": "Pinolosian Tengah",
+        "latitude": 0.47286154777595923,
+        "longitude": 124.25291739731628
     },
     {
         "code": 711105,
         "regency_code": 7111,
         "province_code": 71,
-        "name": "Pinolosian Timur"
+        "name": "Pinolosian Timur",
+        "latitude": 0.5164529643823211,
+        "longitude": 124.38147122926578
     },
     {
         "code": 711106,
         "regency_code": 7111,
         "province_code": 71,
-        "name": "Helumo"
+        "name": "Helumo",
+        "latitude": 0.3877164774218536,
+        "longitude": 123.82674568728075
     },
     {
         "code": 711107,
         "regency_code": 7111,
         "province_code": 71,
-        "name": "Tomini"
+        "name": "Tomini",
+        "latitude": 0.38687858286739657,
+        "longitude": 123.7243237588327
     },
     {
         "code": 717101,
         "regency_code": 7171,
         "province_code": 71,
-        "name": "Bunaken"
+        "name": "Bunaken",
+        "latitude": 1.5541249971887188,
+        "longitude": 124.8416408108078
     },
     {
         "code": 717102,
         "regency_code": 7171,
         "province_code": 71,
-        "name": "Tuminting"
+        "name": "Tuminting",
+        "latitude": 1.513431722382329,
+        "longitude": 124.85478113311461
     },
     {
         "code": 717103,
         "regency_code": 7171,
         "province_code": 71,
-        "name": "Singkil"
+        "name": "Singkil",
+        "latitude": 1.4999561247723405,
+        "longitude": 124.85835791379353
     },
     {
         "code": 717104,
         "regency_code": 7171,
         "province_code": 71,
-        "name": "Wenang"
+        "name": "Wenang",
+        "latitude": 1.4857407743901374,
+        "longitude": 124.84134119697896
     },
     {
         "code": 717105,
         "regency_code": 7171,
         "province_code": 71,
-        "name": "Tikala"
+        "name": "Tikala",
+        "latitude": 1.4671567498511842,
+        "longitude": 124.86200052858885
     },
     {
         "code": 717106,
         "regency_code": 7171,
         "province_code": 71,
-        "name": "Sario"
+        "name": "Sario",
+        "latitude": 1.468929155792951,
+        "longitude": 124.83433510039643
     },
     {
         "code": 717107,
         "regency_code": 7171,
         "province_code": 71,
-        "name": "Wanea"
+        "name": "Wanea",
+        "latitude": 1.4555004610193654,
+        "longitude": 124.84870188064893
     },
     {
         "code": 717108,
         "regency_code": 7171,
         "province_code": 71,
-        "name": "Mapanget"
+        "name": "Mapanget",
+        "latitude": 1.5314791851145582,
+        "longitude": 124.8969892395655
     },
     {
         "code": 717109,
         "regency_code": 7171,
         "province_code": 71,
-        "name": "Malalayang"
+        "name": "Malalayang",
+        "latitude": 1.446658629037961,
+        "longitude": 124.81611503971278
     },
     {
         "code": 717110,
         "regency_code": 7171,
         "province_code": 71,
-        "name": "Bunaken Kepulauan"
+        "name": "Bunaken Kepulauan",
+        "latitude": 1.627035695966551,
+        "longitude": 124.72805289398075
     },
     {
         "code": 717111,
         "regency_code": 7171,
         "province_code": 71,
-        "name": "Paal Dua"
+        "name": "Paal Dua",
+        "latitude": 1.4817411936050864,
+        "longitude": 124.87434350845997
     },
     {
         "code": 717201,
         "regency_code": 7172,
         "province_code": 71,
-        "name": "Lembeh Selatan"
+        "name": "Lembeh Selatan",
+        "latitude": 1.4168121636839042,
+        "longitude": 125.2151515319648
     },
     {
         "code": 717202,
         "regency_code": 7172,
         "province_code": 71,
-        "name": "Madidir"
+        "name": "Madidir",
+        "latitude": 1.4595980836427105,
+        "longitude": 125.16202451514539
     },
     {
         "code": 717203,
         "regency_code": 7172,
         "province_code": 71,
-        "name": "Ranowulu"
+        "name": "Ranowulu",
+        "latitude": 1.5163922171981554,
+        "longitude": 125.12245533142683
     },
     {
         "code": 717204,
         "regency_code": 7172,
         "province_code": 71,
-        "name": "Aertembaga"
+        "name": "Aertembaga",
+        "latitude": 1.4959454023831829,
+        "longitude": 125.21177238469451
     },
     {
         "code": 717205,
         "regency_code": 7172,
         "province_code": 71,
-        "name": "Matuari"
+        "name": "Matuari",
+        "latitude": 1.4311400834059216,
+        "longitude": 125.10627834287281
     },
     {
         "code": 717206,
         "regency_code": 7172,
         "province_code": 71,
-        "name": "Girian"
+        "name": "Girian",
+        "latitude": 1.4458366772683904,
+        "longitude": 125.13190523022543
     },
     {
         "code": 717207,
         "regency_code": 7172,
         "province_code": 71,
-        "name": "Maesa"
+        "name": "Maesa",
+        "latitude": 1.4624699479421206,
+        "longitude": 125.18820513901943
     },
     {
         "code": 717208,
         "regency_code": 7172,
         "province_code": 71,
-        "name": "Lembeh Utara"
+        "name": "Lembeh Utara",
+        "latitude": 1.473787902555404,
+        "longitude": 125.26090429658369
     },
     {
         "code": 717301,
         "regency_code": 7173,
         "province_code": 71,
-        "name": "Tomohon Selatan"
+        "name": "Tomohon Selatan",
+        "latitude": 1.2864600806638067,
+        "longitude": 124.82050253313142
     },
     {
         "code": 717302,
         "regency_code": 7173,
         "province_code": 71,
-        "name": "Tomohon Tengah"
+        "name": "Tomohon Tengah",
+        "latitude": 1.3196249213872169,
+        "longitude": 124.84791184080655
     },
     {
         "code": 717303,
         "regency_code": 7173,
         "province_code": 71,
-        "name": "Tomohon Utara"
+        "name": "Tomohon Utara",
+        "latitude": 1.3650352175381595,
+        "longitude": 124.8144254917763
     },
     {
         "code": 717304,
         "regency_code": 7173,
         "province_code": 71,
-        "name": "Tomohon Barat"
+        "name": "Tomohon Barat",
+        "latitude": 1.3215555368797849,
+        "longitude": 124.77183417881167
     },
     {
         "code": 717305,
         "regency_code": 7173,
         "province_code": 71,
-        "name": "Tomohon Timur"
+        "name": "Tomohon Timur",
+        "latitude": 1.334480634072962,
+        "longitude": 124.87332609235979
     },
     {
         "code": 717401,
         "regency_code": 7174,
         "province_code": 71,
-        "name": "Kotamobagu Utara"
+        "name": "Kotamobagu Utara",
+        "latitude": 0.7596198187516711,
+        "longitude": 124.32528206111945
     },
     {
         "code": 717402,
         "regency_code": 7174,
         "province_code": 71,
-        "name": "Kotamobagu Timur"
+        "name": "Kotamobagu Timur",
+        "latitude": 0.7224741414119111,
+        "longitude": 124.33897785997806
     },
     {
         "code": 717403,
         "regency_code": 7174,
         "province_code": 71,
-        "name": "Kotamobagu Selatan"
+        "name": "Kotamobagu Selatan",
+        "latitude": 0.6897752256939788,
+        "longitude": 124.3168785969211
     },
     {
         "code": 717404,
         "regency_code": 7174,
         "province_code": 71,
-        "name": "Kotamobagu Barat"
+        "name": "Kotamobagu Barat",
+        "latitude": 0.7391478585840481,
+        "longitude": 124.28488198725556
     }
 ]

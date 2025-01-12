@@ -3,56 +3,56 @@
         "code": 9401,
         "province_code": 94,
         "name": "Kab. Nabire",
-        "latitude": -3.363365864105701,
-        "longitude": 135.50389107766932
+        "latitude": -3.3765980498556565,
+        "longitude": 135.6276187893784
     },
     {
         "code": 9402,
         "province_code": 94,
         "name": "Kab. Puncak Jaya",
-        "latitude": -3.716207542016092,
-        "longitude": 137.98781735692376
+        "latitude": -3.43974741596136,
+        "longitude": 137.906138274894
     },
     {
         "code": 9403,
         "province_code": 94,
         "name": "Kab. Paniai",
-        "latitude": -3.941435318407964,
-        "longitude": 136.4216307854296
+        "latitude": -3.807472181923729,
+        "longitude": 136.47224842940946
     },
     {
         "code": 9404,
         "province_code": 94,
         "name": "Kab. Mimika",
-        "latitude": -4.4558567246897995,
-        "longitude": 136.85372895723708
+        "latitude": -4.524117392373519,
+        "longitude": 136.84485488118645
     },
     {
         "code": 9405,
         "province_code": 94,
         "name": "Kab. Puncak",
-        "latitude": -3.971608513617806,
-        "longitude": 137.64179825141554
+        "latitude": -3.705201736487963,
+        "longitude": 137.49745998911942
     },
     {
         "code": 9406,
         "province_code": 94,
         "name": "Kab. Dogiyai",
-        "latitude": -4.004608084689695,
-        "longitude": 136.0377620012195
+        "latitude": -4.047015185782538,
+        "longitude": 135.6071190841978
     },
     {
         "code": 9407,
         "province_code": 94,
         "name": "Kab. Intan Jaya",
-        "latitude": -3.7405289181387547,
-        "longitude": 137.04395179418287
+        "latitude": -3.5117091423573847,
+        "longitude": 136.81191419647266
     },
     {
         "code": 9408,
         "province_code": 94,
         "name": "Kab. Deiyai",
-        "latitude": -4.032249309755539,
-        "longitude": 136.29899153745475
+        "latitude": -4.190358343203619,
+        "longitude": 136.3950235315806
     }
 ]

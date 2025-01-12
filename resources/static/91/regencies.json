@@ -3,63 +3,63 @@
         "code": 9103,
         "province_code": 91,
         "name": "Kab. Jayapura",
-        "latitude": -2.5498717752817006,
-        "longitude": 140.47710271224273
+        "latitude": -3.010016138055507,
+        "longitude": 139.9887188705249
     },
     {
         "code": 9105,
         "province_code": 91,
         "name": "Kab. Kepulauan Yapen",
-        "latitude": -1.874066803353508,
-        "longitude": 136.23707760338652
+        "latitude": -1.7454798571025159,
+        "longitude": 136.17414376824914
     },
     {
         "code": 9106,
         "province_code": 91,
         "name": "Kab. Biak Numfor",
-        "latitude": -1.170708606082667,
-        "longitude": 136.0901928711222
+        "latitude": -1.002845377296286,
+        "longitude": 135.84436896649183
     },
     {
         "code": 9110,
         "province_code": 91,
         "name": "Kab. Sarmi",
-        "latitude": -1.8685726776038396,
-        "longitude": 138.74422616800342
+        "latitude": -2.4518394621297976,
+        "longitude": 139.01295139208892
     },
     {
         "code": 9111,
         "province_code": 91,
         "name": "Kab. Keerom",
-        "latitude": -2.9087252628071565,
-        "longitude": 140.77334129532647
+        "latitude": -3.353179530121135,
+        "longitude": 140.69238314512145
     },
     {
         "code": 9115,
         "province_code": 91,
         "name": "Kab. Waropen",
-        "latitude": -2.2408409305863604,
-        "longitude": 136.3794501810602
+        "latitude": -2.7539459904801205,
+        "longitude": 136.75471104290878
     },
     {
         "code": 9119,
         "province_code": 91,
         "name": "Kab. Supiori",
-        "latitude": -0.730681951344063,
-        "longitude": 135.7326415849256
+        "latitude": -0.7365836880830829,
+        "longitude": 135.56426869365518
     },
     {
         "code": 9120,
         "province_code": 91,
         "name": "Kab. Mamberamo Raya",
-        "latitude": -2.3708064074858095,
-        "longitude": 138.04986837362105
+        "latitude": -2.4442941655249477,
+        "longitude": 137.96808599941696
     },
     {
         "code": 9171,
         "province_code": 91,
         "name": "Kota Jayapura",
-        "latitude": -2.5626261642155557,
-        "longitude": 140.69263309579875
+        "latitude": -2.6645260079687545,
+        "longitude": 140.80013636538115
     }
 ]

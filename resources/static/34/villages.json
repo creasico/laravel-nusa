@@ -5,7 +5,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Jangkaran",
-        "postal_code": "55654"
+        "postal_code": "55654",
+        "latitude": -7.892453159106781,
+        "longitude": 110.03010699053038
     },
     {
         "code": 3401012002,
@@ -13,7 +15,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Sindutan",
-        "postal_code": "55654"
+        "postal_code": "55654",
+        "latitude": -7.885713139868196,
+        "longitude": 110.04686301651567
     },
     {
         "code": 3401012003,
@@ -21,7 +25,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Palihan",
-        "postal_code": "55654"
+        "postal_code": "55654",
+        "latitude": -7.8944068693577325,
+        "longitude": 110.05467758148538
     },
     {
         "code": 3401012004,
@@ -29,7 +35,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Glagah",
-        "postal_code": "55654"
+        "postal_code": "55654",
+        "latitude": -7.904248005125765,
+        "longitude": 110.07130091056027
     },
     {
         "code": 3401012005,
@@ -37,7 +45,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Kalidengen",
-        "postal_code": "55654"
+        "postal_code": "55654",
+        "latitude": -7.893625156806615,
+        "longitude": 110.0848564716432
     },
     {
         "code": 3401012006,
@@ -45,7 +55,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Plumbon",
-        "postal_code": "55654"
+        "postal_code": "55654",
+        "latitude": -7.900469579879023,
+        "longitude": 110.09920501782986
     },
     {
         "code": 3401012007,
@@ -53,7 +65,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Kedundang",
-        "postal_code": "55654"
+        "postal_code": "55654",
+        "latitude": -7.886770124457658,
+        "longitude": 110.10219791493434
     },
     {
         "code": 3401012008,
@@ -61,7 +75,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Demen",
-        "postal_code": "55654"
+        "postal_code": "55654",
+        "latitude": -7.887372204348908,
+        "longitude": 110.09594196689459
     },
     {
         "code": 3401012009,
@@ -69,7 +85,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Kulur",
-        "postal_code": "55654"
+        "postal_code": "55654",
+        "latitude": -7.872205040863347,
+        "longitude": 110.10214992208391
     },
     {
         "code": 3401012010,
@@ -77,7 +95,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Kaligintung",
-        "postal_code": "55654"
+        "postal_code": "55654",
+        "latitude": -7.87650951513098,
+        "longitude": 110.08996146090894
     },
     {
         "code": 3401012011,
@@ -85,7 +105,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Temon Wetan",
-        "postal_code": "55654"
+        "postal_code": "55654",
+        "latitude": -7.876061144229924,
+        "longitude": 110.08138548758347
     },
     {
         "code": 3401012012,
@@ -93,7 +115,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Temon Kulon",
-        "postal_code": "55654"
+        "postal_code": "55654",
+        "latitude": -7.8864081876195575,
+        "longitude": 110.07599260419322
     },
     {
         "code": 3401012013,
@@ -101,7 +125,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Kebonrejo",
-        "postal_code": "55654"
+        "postal_code": "55654",
+        "latitude": -7.88307298153676,
+        "longitude": 110.0695166227975
     },
     {
         "code": 3401012014,
@@ -109,7 +135,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Janten",
-        "postal_code": "55654"
+        "postal_code": "55654",
+        "latitude": -7.877260147645458,
+        "longitude": 110.0640322559108
     },
     {
         "code": 3401012015,
@@ -117,7 +145,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Karangwuluh",
-        "postal_code": "55654"
+        "postal_code": "55654",
+        "latitude": -7.873748910016269,
+        "longitude": 110.05485082684176
     },
     {
         "code": 3401021008,
@@ -125,7 +155,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Wates",
-        "postal_code": "55651"
+        "postal_code": "55651",
+        "latitude": -7.859654260580633,
+        "longitude": 110.15189379131617
     },
     {
         "code": 3401022001,
@@ -133,7 +165,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Karangwuni",
-        "postal_code": "55651"
+        "postal_code": "55651",
+        "latitude": -7.916475326610847,
+        "longitude": 110.09789100589002
     },
     {
         "code": 3401022002,
@@ -141,7 +175,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Sogan",
-        "postal_code": "55651"
+        "postal_code": "55651",
+        "latitude": -7.899477446879158,
+        "longitude": 110.11244737961869
     },
     {
         "code": 3401022003,
@@ -149,7 +185,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Kulwaru",
-        "postal_code": "55651"
+        "postal_code": "55651",
+        "latitude": -7.902225145005741,
+        "longitude": 110.12243796185591
     },
     {
         "code": 3401022004,
@@ -157,7 +195,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Ngestiharjo",
-        "postal_code": "55651"
+        "postal_code": "55651",
+        "latitude": -7.901326952631751,
+        "longitude": 110.13480401395587
     },
     {
         "code": 3401022005,
@@ -165,7 +205,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Bendungan",
-        "postal_code": "55651"
+        "postal_code": "55651",
+        "latitude": -7.891504848493439,
+        "longitude": 110.14739614212947
     },
     {
         "code": 3401022006,
@@ -173,7 +215,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Triharjo",
-        "postal_code": "55651"
+        "postal_code": "55651",
+        "latitude": -7.882514497568773,
+        "longitude": 110.13471811357513
     },
     {
         "code": 3401022007,
@@ -181,7 +225,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Giripeni",
-        "postal_code": "55651"
+        "postal_code": "55651",
+        "latitude": -7.87374855874069,
+        "longitude": 110.16237359738331
     },
     {
         "code": 3401032001,
@@ -189,7 +235,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Garongan",
-        "postal_code": "55655"
+        "postal_code": "55655",
+        "latitude": -7.9268412351862,
+        "longitude": 110.12570883830605
     },
     {
         "code": 3401032002,
@@ -197,7 +245,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Pleret",
-        "postal_code": "55655"
+        "postal_code": "55655",
+        "latitude": -7.934735041348168,
+        "longitude": 110.14593890507608
     },
     {
         "code": 3401032003,
@@ -205,7 +255,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Bugel",
-        "postal_code": "55655"
+        "postal_code": "55655",
+        "latitude": -7.9397565128773655,
+        "longitude": 110.16327175523702
     },
     {
         "code": 3401032004,
@@ -213,7 +265,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Kanoman",
-        "postal_code": "55655"
+        "postal_code": "55655",
+        "latitude": -7.920450798088057,
+        "longitude": 110.17180075409433
     },
     {
         "code": 3401032005,
@@ -221,7 +275,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Depok",
-        "postal_code": "55655"
+        "postal_code": "55655",
+        "latitude": -7.9152621826182665,
+        "longitude": 110.15635634423815
     },
     {
         "code": 3401032006,
@@ -229,7 +285,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Bojong",
-        "postal_code": "55655"
+        "postal_code": "55655",
+        "latitude": -7.914417047086273,
+        "longitude": 110.13463859369746
     },
     {
         "code": 3401032007,
@@ -237,7 +295,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Tayuban",
-        "postal_code": "55655"
+        "postal_code": "55655",
+        "latitude": -7.90309620757907,
+        "longitude": 110.15664735620214
     },
     {
         "code": 3401032008,
@@ -245,7 +305,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Gotakan",
-        "postal_code": "55655"
+        "postal_code": "55655",
+        "latitude": -7.890627523766826,
+        "longitude": 110.16277349367995
     },
     {
         "code": 3401032009,
@@ -253,7 +315,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Panjatan",
-        "postal_code": "55655"
+        "postal_code": "55655",
+        "latitude": -7.909726858149255,
+        "longitude": 110.1694804497501
     },
     {
         "code": 3401032010,
@@ -261,7 +325,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Cerme",
-        "postal_code": "55655"
+        "postal_code": "55655",
+        "latitude": -7.895125777860873,
+        "longitude": 110.17509468349812
     },
     {
         "code": 3401032011,
@@ -269,7 +335,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Krembangan",
-        "postal_code": "55655"
+        "postal_code": "55655",
+        "latitude": -7.892248925843304,
+        "longitude": 110.1858243131774
     },
     {
         "code": 3401042001,
@@ -277,7 +345,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Banaran",
-        "postal_code": "55661"
+        "postal_code": "55661",
+        "latitude": -7.96840122514831,
+        "longitude": 110.20933483285451
     },
     {
         "code": 3401042002,
@@ -285,7 +355,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Kranggan",
-        "postal_code": "55661"
+        "postal_code": "55661",
+        "latitude": -7.954919186885086,
+        "longitude": 110.22015325572217
     },
     {
         "code": 3401042003,
@@ -293,7 +365,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Nomporejo",
-        "postal_code": "55661"
+        "postal_code": "55661",
+        "latitude": -7.954556182491566,
+        "longitude": 110.21104172044583
     },
     {
         "code": 3401042004,
@@ -301,7 +375,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Karangsewu",
-        "postal_code": "55661"
+        "postal_code": "55661",
+        "latitude": -7.952398981187648,
+        "longitude": 110.18838978664859
     },
     {
         "code": 3401042005,
@@ -309,7 +385,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Tirtorahayu",
-        "postal_code": "55661"
+        "postal_code": "55661",
+        "latitude": -7.9360570599288796,
+        "longitude": 110.18989561199808
     },
     {
         "code": 3401042006,
@@ -317,7 +395,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Pandowan",
-        "postal_code": "55661"
+        "postal_code": "55661",
+        "latitude": -7.938902262775958,
+        "longitude": 110.2104941877349
     },
     {
         "code": 3401042007,
@@ -325,7 +405,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Brosot",
-        "postal_code": "55661"
+        "postal_code": "55661",
+        "latitude": -7.940740790067566,
+        "longitude": 110.22959910729095
     },
     {
         "code": 3401052001,
@@ -333,7 +415,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Wahyuharjo",
-        "postal_code": "55663"
+        "postal_code": "55663",
+        "latitude": -7.926414234656749,
+        "longitude": 110.18865787399854
     },
     {
         "code": 3401052002,
@@ -341,7 +425,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Bumirejo",
-        "postal_code": "55663"
+        "postal_code": "55663",
+        "latitude": -7.912854251019211,
+        "longitude": 110.20051320196569
     },
     {
         "code": 3401052003,
@@ -349,7 +435,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Jatirejo",
-        "postal_code": "55663"
+        "postal_code": "55663",
+        "latitude": -7.925022136479949,
+        "longitude": 110.22186842184153
     },
     {
         "code": 3401052004,
@@ -357,7 +445,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Sidorejo",
-        "postal_code": "55663"
+        "postal_code": "55663",
+        "latitude": -7.917070295239475,
+        "longitude": 110.23762619981913
     },
     {
         "code": 3401052005,
@@ -365,7 +455,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Gulurejo",
-        "postal_code": "55663"
+        "postal_code": "55663",
+        "latitude": -7.911512274512951,
+        "longitude": 110.25686405331294
     },
     {
         "code": 3401052006,
@@ -373,7 +465,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Ngentakrejo",
-        "postal_code": "55663"
+        "postal_code": "55663",
+        "latitude": -7.896942342748782,
+        "longitude": 110.26089896640953
     },
     {
         "code": 3401062001,
@@ -381,7 +475,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Demangrejo",
-        "postal_code": "55664"
+        "postal_code": "55664",
+        "latitude": -7.887647274108072,
+        "longitude": 110.20019118567973
     },
     {
         "code": 3401062002,
@@ -389,7 +485,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Srikayangan",
-        "postal_code": "55664"
+        "postal_code": "55664",
+        "latitude": -7.8930182586828534,
+        "longitude": 110.22099388892903
     },
     {
         "code": 3401062003,
@@ -397,7 +495,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Tuksono",
-        "postal_code": "55664"
+        "postal_code": "55664",
+        "latitude": -7.877237865703396,
+        "longitude": 110.24577987729882
     },
     {
         "code": 3401062004,
@@ -405,7 +505,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Salamrejo",
-        "postal_code": "55664"
+        "postal_code": "55664",
+        "latitude": -7.854696399610696,
+        "longitude": 110.22924690144167
     },
     {
         "code": 3401062005,
@@ -413,7 +515,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Sukoreno",
-        "postal_code": "55664"
+        "postal_code": "55664",
+        "latitude": -7.86364718553184,
+        "longitude": 110.21456982614461
     },
     {
         "code": 3401062006,
@@ -421,7 +525,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Kaliagung",
-        "postal_code": "55664"
+        "postal_code": "55664",
+        "latitude": -7.836961061051173,
+        "longitude": 110.19584231209188
     },
     {
         "code": 3401062007,
@@ -429,7 +535,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Sentolo",
-        "postal_code": "55664"
+        "postal_code": "55664",
+        "latitude": -7.831585963167841,
+        "longitude": 110.2170047909738
     },
     {
         "code": 3401062008,
@@ -437,7 +545,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Banguncipto",
-        "postal_code": "55664"
+        "postal_code": "55664",
+        "latitude": -7.81466931725188,
+        "longitude": 110.21994439370083
     },
     {
         "code": 3401072001,
@@ -445,7 +555,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Tawangsari",
-        "postal_code": "55652"
+        "postal_code": "55652",
+        "latitude": -7.883496962062782,
+        "longitude": 110.11725162315656
     },
     {
         "code": 3401072002,
@@ -453,7 +565,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Karangsari",
-        "postal_code": "55652"
+        "postal_code": "55652",
+        "latitude": -7.839601418377864,
+        "longitude": 110.13548688495935
     },
     {
         "code": 3401072003,
@@ -461,7 +575,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Kedungsari",
-        "postal_code": "55652"
+        "postal_code": "55652",
+        "latitude": -7.866750471933609,
+        "longitude": 110.18928720390211
     },
     {
         "code": 3401072004,
@@ -469,7 +585,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Margosari",
-        "postal_code": "55652"
+        "postal_code": "55652",
+        "latitude": -7.854049618737002,
+        "longitude": 110.1791280647543
     },
     {
         "code": 3401072005,
@@ -477,7 +595,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Pengasih",
-        "postal_code": "55652"
+        "postal_code": "55652",
+        "latitude": -7.843226972097637,
+        "longitude": 110.16643858535352
     },
     {
         "code": 3401072006,
@@ -485,7 +605,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Sendangsari",
-        "postal_code": "55652"
+        "postal_code": "55652",
+        "latitude": -7.82253956522998,
+        "longitude": 110.15576237342476
     },
     {
         "code": 3401072007,
@@ -493,7 +615,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Sidomulyo",
-        "postal_code": "55652"
+        "postal_code": "55652",
+        "latitude": -7.788579333426567,
+        "longitude": 110.15227938878857
     },
     {
         "code": 3401082001,
@@ -501,7 +625,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Hargomulyo",
-        "postal_code": "55653"
+        "postal_code": "55653",
+        "latitude": -7.856629985815405,
+        "longitude": 110.07055769977336
     },
     {
         "code": 3401082002,
@@ -509,7 +635,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Hargorejo",
-        "postal_code": "55653"
+        "postal_code": "55653",
+        "latitude": -7.85137738718957,
+        "longitude": 110.11013841705719
     },
     {
         "code": 3401082003,
@@ -517,7 +645,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Hargowilis",
-        "postal_code": "55653"
+        "postal_code": "55653",
+        "latitude": -7.814723921285117,
+        "longitude": 110.11961368244363
     },
     {
         "code": 3401082004,
@@ -525,7 +655,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Kalirejo",
-        "postal_code": "55653"
+        "postal_code": "55653",
+        "latitude": -7.827710613465059,
+        "longitude": 110.07530213166461
     },
     {
         "code": 3401082005,
@@ -533,7 +665,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Hargotirto",
-        "postal_code": "55653"
+        "postal_code": "55653",
+        "latitude": -7.797472465609345,
+        "longitude": 110.10326850266254
     },
     {
         "code": 3401092001,
@@ -541,7 +675,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Jatimulyo",
-        "postal_code": "55674"
+        "postal_code": "55674",
+        "latitude": -7.758788690767841,
+        "longitude": 110.13567627636505
     },
     {
         "code": 3401092002,
@@ -549,7 +685,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Giripurwo",
-        "postal_code": "55674"
+        "postal_code": "55674",
+        "latitude": -7.7649826435215745,
+        "longitude": 110.17100921249721
     },
     {
         "code": 3401092003,
@@ -557,7 +695,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Pendoworejo",
-        "postal_code": "55674"
+        "postal_code": "55674",
+        "latitude": -7.745269827174719,
+        "longitude": 110.18683125738067
     },
     {
         "code": 3401092004,
@@ -565,7 +705,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Purwosari",
-        "postal_code": "55674"
+        "postal_code": "55674",
+        "latitude": -7.725685452523285,
+        "longitude": 110.15516487257632
     },
     {
         "code": 3401102001,
@@ -573,7 +715,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Banyuroto",
-        "postal_code": "55671"
+        "postal_code": "55671",
+        "latitude": -7.803459277222015,
+        "longitude": 110.17788979491358
     },
     {
         "code": 3401102002,
@@ -581,7 +725,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Donomulyo",
-        "postal_code": "55671"
+        "postal_code": "55671",
+        "latitude": -7.8073893851337814,
+        "longitude": 110.20104335355038
     },
     {
         "code": 3401102003,
@@ -589,7 +735,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Wijimulyo",
-        "postal_code": "55671"
+        "postal_code": "55671",
+        "latitude": -7.787891166461065,
+        "longitude": 110.2196989784755
     },
     {
         "code": 3401102004,
@@ -597,7 +745,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Tanjungharjo",
-        "postal_code": "55671"
+        "postal_code": "55671",
+        "latitude": -7.7818457845595015,
+        "longitude": 110.19710956866614
     },
     {
         "code": 3401102005,
@@ -605,7 +755,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Jatisarono",
-        "postal_code": "55671"
+        "postal_code": "55671",
+        "latitude": -7.762937902432689,
+        "longitude": 110.21059713646835
     },
     {
         "code": 3401102006,
@@ -613,7 +765,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Kembang",
-        "postal_code": "55671"
+        "postal_code": "55671",
+        "latitude": -7.744427193755346,
+        "longitude": 110.20887652391254
     },
     {
         "code": 3401112001,
@@ -621,7 +775,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Kebonharjo",
-        "postal_code": "55673"
+        "postal_code": "55673",
+        "latitude": -7.707641195772427,
+        "longitude": 110.15025933823091
     },
     {
         "code": 3401112002,
@@ -629,7 +785,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Banjarsari",
-        "postal_code": "55673"
+        "postal_code": "55673",
+        "latitude": -7.700443794373067,
+        "longitude": 110.166173511029
     },
     {
         "code": 3401112003,
@@ -637,7 +795,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Purwoharjo",
-        "postal_code": "55673"
+        "postal_code": "55673",
+        "latitude": -7.698851722528454,
+        "longitude": 110.19413172714624
     },
     {
         "code": 3401112004,
@@ -645,7 +805,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Sidoharjo",
-        "postal_code": "55673"
+        "postal_code": "55673",
+        "latitude": -7.668215953498462,
+        "longitude": 110.19745926472095
     },
     {
         "code": 3401112005,
@@ -653,7 +815,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Gerbosari",
-        "postal_code": "55673"
+        "postal_code": "55673",
+        "latitude": -7.671590758504975,
+        "longitude": 110.17329243794939
     },
     {
         "code": 3401112006,
@@ -661,7 +825,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Ngargosari",
-        "postal_code": "55673"
+        "postal_code": "55673",
+        "latitude": -7.660339004079138,
+        "longitude": 110.15646779450307
     },
     {
         "code": 3401112007,
@@ -669,7 +835,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Pagerharjo",
-        "postal_code": "55673"
+        "postal_code": "55673",
+        "latitude": -7.6719640368843445,
+        "longitude": 110.13596093722938
     },
     {
         "code": 3401122001,
@@ -677,7 +845,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Banjararum",
-        "postal_code": "55672"
+        "postal_code": "55672",
+        "latitude": -7.718910796968733,
+        "longitude": 110.21146865194086
     },
     {
         "code": 3401122002,
@@ -685,7 +855,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Banjarasri",
-        "postal_code": "55672"
+        "postal_code": "55672",
+        "latitude": -7.693345374181897,
+        "longitude": 110.22550880403334
     },
     {
         "code": 3401122003,
@@ -693,7 +865,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Banjarharjo",
-        "postal_code": "55672"
+        "postal_code": "55672",
+        "latitude": -7.688086477007434,
+        "longitude": 110.25000677662277
     },
     {
         "code": 3401122004,
@@ -701,7 +875,9 @@
         "regency_code": 3401,
         "province_code": 34,
         "name": "Banjaroyo",
-        "postal_code": "55672"
+        "postal_code": "55672",
+        "latitude": -7.6598574481663935,
+        "longitude": 110.23934414714986
     },
     {
         "code": 3402012001,
@@ -709,7 +885,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Poncosari",
-        "postal_code": "55762"
+        "postal_code": "55762",
+        "latitude": -7.973401213269842,
+        "longitude": 110.23476136349552
     },
     {
         "code": 3402012002,
@@ -717,7 +895,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Trimurti",
-        "postal_code": "55762"
+        "postal_code": "55762",
+        "latitude": -7.938877322794398,
+        "longitude": 110.25395770583836
     },
     {
         "code": 3402022001,
@@ -725,7 +905,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Gadingsari",
-        "postal_code": "55763"
+        "postal_code": "55763",
+        "latitude": -7.979883256520426,
+        "longitude": 110.25256587439894
     },
     {
         "code": 3402022002,
@@ -733,7 +915,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Gadingharjo",
-        "postal_code": "55763"
+        "postal_code": "55763",
+        "latitude": -7.984129823162431,
+        "longitude": 110.26580761343455
     },
     {
         "code": 3402022003,
@@ -741,7 +925,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Srigading",
-        "postal_code": "55763"
+        "postal_code": "55763",
+        "latitude": -7.988021973982189,
+        "longitude": 110.27734883785999
     },
     {
         "code": 3402022004,
@@ -749,7 +935,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Murtigading",
-        "postal_code": "55763"
+        "postal_code": "55763",
+        "latitude": -7.967047053819679,
+        "longitude": 110.26851803610563
     },
     {
         "code": 3402032001,
@@ -757,7 +945,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Tirtomulyo",
-        "postal_code": "55772"
+        "postal_code": "55772",
+        "latitude": -7.970622943221835,
+        "longitude": 110.29446899721067
     },
     {
         "code": 3402032002,
@@ -765,7 +955,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Parangtritis",
-        "postal_code": "55772"
+        "postal_code": "55772",
+        "latitude": -8.00938749512707,
+        "longitude": 110.31463709625916
     },
     {
         "code": 3402032003,
@@ -773,7 +965,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Donotirto",
-        "postal_code": "55772"
+        "postal_code": "55772",
+        "latitude": -7.982359291615805,
+        "longitude": 110.31481912316222
     },
     {
         "code": 3402032004,
@@ -781,7 +975,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Tirtosari",
-        "postal_code": "55772"
+        "postal_code": "55772",
+        "latitude": -7.986553758645451,
+        "longitude": 110.29740860978983
     },
     {
         "code": 3402032005,
@@ -789,7 +985,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Tirtohargo",
-        "postal_code": "55772"
+        "postal_code": "55772",
+        "latitude": -8.001612107151198,
+        "longitude": 110.28894144067252
     },
     {
         "code": 3402042001,
@@ -797,7 +995,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Seloharjo",
-        "postal_code": "55771"
+        "postal_code": "55771",
+        "latitude": -7.981681399117804,
+        "longitude": 110.34309891722305
     },
     {
         "code": 3402042002,
@@ -805,7 +1005,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Panjangrejo",
-        "postal_code": "55771"
+        "postal_code": "55771",
+        "latitude": -7.964375857484301,
+        "longitude": 110.33243458864214
     },
     {
         "code": 3402042003,
@@ -813,7 +1015,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Srihardono",
-        "postal_code": "55771"
+        "postal_code": "55771",
+        "latitude": -7.953416401467138,
+        "longitude": 110.34753125202022
     },
     {
         "code": 3402052001,
@@ -821,7 +1025,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Sidomulyo",
-        "postal_code": "55764"
+        "postal_code": "55764",
+        "latitude": -7.957629301033773,
+        "longitude": 110.30047850198767
     },
     {
         "code": 3402052002,
@@ -829,7 +1035,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Mulyodadi",
-        "postal_code": "55764"
+        "postal_code": "55764",
+        "latitude": -7.9481304378184845,
+        "longitude": 110.31584025547222
     },
     {
         "code": 3402052003,
@@ -837,7 +1045,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Sumbermulyo",
-        "postal_code": "55764"
+        "postal_code": "55764",
+        "latitude": -7.928636457774828,
+        "longitude": 110.32267106872789
     },
     {
         "code": 3402062001,
@@ -845,7 +1055,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Catuharjo",
-        "postal_code": "55761"
+        "postal_code": "55761",
+        "latitude": -7.945475653667825,
+        "longitude": 110.2699507831225
     },
     {
         "code": 3402062002,
@@ -853,7 +1065,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Triharjo",
-        "postal_code": "55761"
+        "postal_code": "55761",
+        "latitude": -7.9244415545433124,
+        "longitude": 110.28180833652839
     },
     {
         "code": 3402062003,
@@ -861,7 +1075,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Gilangharjo",
-        "postal_code": "55761"
+        "postal_code": "55761",
+        "latitude": -7.920949291561631,
+        "longitude": 110.30148442309176
     },
     {
         "code": 3402062004,
@@ -869,7 +1085,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Wijirejo",
-        "postal_code": "55761"
+        "postal_code": "55761",
+        "latitude": -7.904615744427641,
+        "longitude": 110.29464787140049
     },
     {
         "code": 3402072001,
@@ -877,7 +1095,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Triwidadi",
-        "postal_code": "55751"
+        "postal_code": "55751",
+        "latitude": -7.859416822124069,
+        "longitude": 110.27287660844836
     },
     {
         "code": 3402072002,
@@ -885,7 +1105,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Sendangsari",
-        "postal_code": "55751"
+        "postal_code": "55751",
+        "latitude": -7.879004587577057,
+        "longitude": 110.28805681494674
     },
     {
         "code": 3402072003,
@@ -893,7 +1115,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Guwosari",
-        "postal_code": "55751"
+        "postal_code": "55751",
+        "latitude": -7.874224458540299,
+        "longitude": 110.30927981251703
     },
     {
         "code": 3402082001,
@@ -901,7 +1125,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Palbapang",
-        "postal_code": "55713"
+        "postal_code": "55713",
+        "latitude": -7.908371682335048,
+        "longitude": 110.32374777967817
     },
     {
         "code": 3402082002,
@@ -909,7 +1135,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Ringinharjo",
-        "postal_code": "55712"
+        "postal_code": "55712",
+        "latitude": -7.8886669387400525,
+        "longitude": 110.31772162483453
     },
     {
         "code": 3402082003,
@@ -917,7 +1145,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Bantul",
-        "postal_code": "55711"
+        "postal_code": "55711",
+        "latitude": -7.8828549430907255,
+        "longitude": 110.32931908807977
     },
     {
         "code": 3402082004,
@@ -925,7 +1155,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Trirenggo",
-        "postal_code": "55714"
+        "postal_code": "55714",
+        "latitude": -7.898838434335286,
+        "longitude": 110.34224392714809
     },
     {
         "code": 3402082005,
@@ -933,7 +1165,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Sabdodadi",
-        "postal_code": "55715"
+        "postal_code": "55715",
+        "latitude": -7.89252048251705,
+        "longitude": 110.3557089445011
     },
     {
         "code": 3402092001,
@@ -941,7 +1175,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Patalan",
-        "postal_code": "55781"
+        "postal_code": "55781",
+        "latitude": -7.925472850308044,
+        "longitude": 110.34730536051684
     },
     {
         "code": 3402092002,
@@ -949,7 +1185,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Canden",
-        "postal_code": "55781"
+        "postal_code": "55781",
+        "latitude": -7.92999627744146,
+        "longitude": 110.35944674223897
     },
     {
         "code": 3402092003,
@@ -957,7 +1195,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Sumberagung",
-        "postal_code": "55781"
+        "postal_code": "55781",
+        "latitude": -7.901156033406037,
+        "longitude": 110.3673941852743
     },
     {
         "code": 3402092004,
@@ -965,7 +1205,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Trimulyo",
-        "postal_code": "55781"
+        "postal_code": "55781",
+        "latitude": -7.89081582917264,
+        "longitude": 110.38386516584607
     },
     {
         "code": 3402102001,
@@ -973,7 +1215,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Selopamioro",
-        "postal_code": "55782"
+        "postal_code": "55782",
+        "latitude": -7.9616672926570775,
+        "longitude": 110.396326259301
     },
     {
         "code": 3402102002,
@@ -981,7 +1225,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Sriharjo",
-        "postal_code": "55782"
+        "postal_code": "55782",
+        "latitude": -7.944366683499727,
+        "longitude": 110.38935618575957
     },
     {
         "code": 3402102003,
@@ -989,7 +1235,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Wukirsari",
-        "postal_code": "55782"
+        "postal_code": "55782",
+        "latitude": -7.910488094669257,
+        "longitude": 110.40945410899978
     },
     {
         "code": 3402102004,
@@ -997,7 +1245,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Kebonagung",
-        "postal_code": "55782"
+        "postal_code": "55782",
+        "latitude": -7.93151186955326,
+        "longitude": 110.37005534921808
     },
     {
         "code": 3402102005,
@@ -1005,7 +1255,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Karangtengah",
-        "postal_code": "55782"
+        "postal_code": "55782",
+        "latitude": -7.938872064325626,
+        "longitude": 110.38721965295981
     },
     {
         "code": 3402102006,
@@ -1013,7 +1265,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Girirejo",
-        "postal_code": "55782"
+        "postal_code": "55782",
+        "latitude": -7.930229251709881,
+        "longitude": 110.39450911884602
     },
     {
         "code": 3402102007,
@@ -1021,7 +1275,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Karangtalun",
-        "postal_code": "55782"
+        "postal_code": "55782",
+        "latitude": -7.922843631177675,
+        "longitude": 110.37698416740002
     },
     {
         "code": 3402102008,
@@ -1029,7 +1285,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Imogiri",
-        "postal_code": "55782"
+        "postal_code": "55782",
+        "latitude": -7.916077353516526,
+        "longitude": 110.38199442988476
     },
     {
         "code": 3402112001,
@@ -1037,7 +1295,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Mangunan",
-        "postal_code": "55783"
+        "postal_code": "55783",
+        "latitude": -7.941099750720782,
+        "longitude": 110.43148819611427
     },
     {
         "code": 3402112002,
@@ -1045,7 +1305,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Muntuk",
-        "postal_code": "55783"
+        "postal_code": "55783",
+        "latitude": -7.916621586827348,
+        "longitude": 110.44718803954243
     },
     {
         "code": 3402112003,
@@ -1053,7 +1315,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Dlingo",
-        "postal_code": "55783"
+        "postal_code": "55783",
+        "latitude": -7.947387263396347,
+        "longitude": 110.46736048824101
     },
     {
         "code": 3402112004,
@@ -1061,7 +1325,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Temuwuh",
-        "postal_code": "55783"
+        "postal_code": "55783",
+        "latitude": -7.919737566734589,
+        "longitude": 110.46942829907181
     },
     {
         "code": 3402112005,
@@ -1069,7 +1335,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Terong",
-        "postal_code": "55783"
+        "postal_code": "55783",
+        "latitude": -7.886886263285058,
+        "longitude": 110.46190821825759
     },
     {
         "code": 3402112006,
@@ -1077,7 +1345,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Jatimulyo",
-        "postal_code": "55783"
+        "postal_code": "55783",
+        "latitude": -7.909415827202595,
+        "longitude": 110.48597237750852
     },
     {
         "code": 3402122001,
@@ -1085,7 +1355,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Baturetno",
-        "postal_code": "55197"
+        "postal_code": "55197",
+        "latitude": -7.819986071240128,
+        "longitude": 110.41618070157188
     },
     {
         "code": 3402122002,
@@ -1093,7 +1365,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Banguntapan",
-        "postal_code": "55198"
+        "postal_code": "55198",
+        "latitude": -7.80210909118712,
+        "longitude": 110.40892083117568
     },
     {
         "code": 3402122003,
@@ -1101,7 +1375,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Jagalan",
-        "postal_code": "55192"
+        "postal_code": "55192",
+        "latitude": -7.8297858437639265,
+        "longitude": 110.3961442386012
     },
     {
         "code": 3402122004,
@@ -1109,7 +1385,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Singosaren",
-        "postal_code": "55193"
+        "postal_code": "55193",
+        "latitude": -7.837453978429369,
+        "longitude": 110.39919494365297
     },
     {
         "code": 3402122005,
@@ -1117,7 +1395,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Jambidan",
-        "postal_code": "55195"
+        "postal_code": "55195",
+        "latitude": -7.8525994186197945,
+        "longitude": 110.41840955993965
     },
     {
         "code": 3402122006,
@@ -1125,7 +1405,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Potorono",
-        "postal_code": "55196"
+        "postal_code": "55196",
+        "latitude": -7.836631730254608,
+        "longitude": 110.41984644997994
     },
     {
         "code": 3402122007,
@@ -1133,7 +1415,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Tamanan",
-        "postal_code": "55191"
+        "postal_code": "55191",
+        "latitude": -7.842921351341835,
+        "longitude": 110.38454653810508
     },
     {
         "code": 3402122008,
@@ -1141,7 +1425,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Wirokerten",
-        "postal_code": "55194"
+        "postal_code": "55194",
+        "latitude": -7.84862849840607,
+        "longitude": 110.39992413907713
     },
     {
         "code": 3402132001,
@@ -1149,7 +1435,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Wonokromo",
-        "postal_code": "55791"
+        "postal_code": "55791",
+        "latitude": -7.865564790092091,
+        "longitude": 110.3869826669855
     },
     {
         "code": 3402132002,
@@ -1157,7 +1445,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Pleret",
-        "postal_code": "55791"
+        "postal_code": "55791",
+        "latitude": -7.868069333180804,
+        "longitude": 110.40583090921471
     },
     {
         "code": 3402132003,
@@ -1165,7 +1455,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Segoroyoso",
-        "postal_code": "55791"
+        "postal_code": "55791",
+        "latitude": -7.886304764212373,
+        "longitude": 110.40860653471613
     },
     {
         "code": 3402132004,
@@ -1173,7 +1465,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Bawuran",
-        "postal_code": "55791"
+        "postal_code": "55791",
+        "latitude": -7.8731371250710644,
+        "longitude": 110.42745085501655
     },
     {
         "code": 3402132005,
@@ -1181,7 +1475,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Wonolelo",
-        "postal_code": "55791"
+        "postal_code": "55791",
+        "latitude": -7.884464009072864,
+        "longitude": 110.43721021754412
     },
     {
         "code": 3402142001,
@@ -1189,7 +1485,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Sitimulyo",
-        "postal_code": "55792"
+        "postal_code": "55792",
+        "latitude": -7.847865001397499,
+        "longitude": 110.43844359498266
     },
     {
         "code": 3402142002,
@@ -1197,7 +1495,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Srimulyo",
-        "postal_code": "55792"
+        "postal_code": "55792",
+        "latitude": -7.847635560581769,
+        "longitude": 110.46082503873092
     },
     {
         "code": 3402142003,
@@ -1205,7 +1505,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Srimartani",
-        "postal_code": "55792"
+        "postal_code": "55792",
+        "latitude": -7.8309555594815885,
+        "longitude": 110.49302763387875
     },
     {
         "code": 3402152001,
@@ -1213,7 +1515,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Pendowoharjo",
-        "postal_code": "55185"
+        "postal_code": "55185",
+        "latitude": -7.861955175538229,
+        "longitude": 110.33725222826685
     },
     {
         "code": 3402152002,
@@ -1221,7 +1525,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Timbulharjo",
-        "postal_code": "55186"
+        "postal_code": "55186",
+        "latitude": -7.8729852285474395,
+        "longitude": 110.36251309961852
     },
     {
         "code": 3402152003,
@@ -1229,7 +1535,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Bangunharjo",
-        "postal_code": "55188"
+        "postal_code": "55188",
+        "latitude": -7.8462100069651335,
+        "longitude": 110.36924517692196
     },
     {
         "code": 3402152004,
@@ -1237,7 +1545,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Panggungharjo",
-        "postal_code": "55188"
+        "postal_code": "55188",
+        "latitude": -7.842747187466505,
+        "longitude": 110.35578302477444
     },
     {
         "code": 3402162001,
@@ -1245,7 +1555,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Bangunjiwo",
-        "postal_code": "55184"
+        "postal_code": "55184",
+        "latitude": -7.841634455002868,
+        "longitude": 110.31087740815543
     },
     {
         "code": 3402162002,
@@ -1253,7 +1565,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Tirtonirmolo",
-        "postal_code": "55181"
+        "postal_code": "55181",
+        "latitude": -7.830514966199127,
+        "longitude": 110.34311740759938
     },
     {
         "code": 3402162003,
@@ -1261,7 +1575,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Tamantirto",
-        "postal_code": "55183"
+        "postal_code": "55183",
+        "latitude": -7.821083226207132,
+        "longitude": 110.32558923964142
     },
     {
         "code": 3402162004,
@@ -1269,7 +1585,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Ngestiharjo",
-        "postal_code": "55182"
+        "postal_code": "55182",
+        "latitude": -7.799313960716833,
+        "longitude": 110.34231007729115
     },
     {
         "code": 3402172001,
@@ -1277,7 +1595,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Argodadi",
-        "postal_code": "55752"
+        "postal_code": "55752",
+        "latitude": -7.843245293345385,
+        "longitude": 110.24601236183598
     },
     {
         "code": 3402172002,
@@ -1285,7 +1605,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Argorejo",
-        "postal_code": "55752"
+        "postal_code": "55752",
+        "latitude": -7.824145078613314,
+        "longitude": 110.26108943316144
     },
     {
         "code": 3402172003,
@@ -1293,7 +1615,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Argosari",
-        "postal_code": "55752"
+        "postal_code": "55752",
+        "latitude": -7.812580788495493,
+        "longitude": 110.24698962366024
     },
     {
         "code": 3402172004,
@@ -1301,7 +1625,9 @@
         "regency_code": 3402,
         "province_code": 34,
         "name": "Argomulyo",
-        "postal_code": "55752"
+        "postal_code": "55752",
+        "latitude": -7.808749856483667,
+        "longitude": 110.27763911864693
     },
     {
         "code": 3403012001,
@@ -1309,7 +1635,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Wonosari",
-        "postal_code": "55851"
+        "postal_code": "55851",
+        "latitude": -7.959759306433069,
+        "longitude": 110.60805508967736
     },
     {
         "code": 3403012002,
@@ -1317,7 +1645,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Kepek",
-        "postal_code": "55813"
+        "postal_code": "55813",
+        "latitude": -7.961812944227089,
+        "longitude": 110.59241350059456
     },
     {
         "code": 3403012003,
@@ -1325,7 +1655,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Piyaman",
-        "postal_code": "55851"
+        "postal_code": "55851",
+        "latitude": -7.939708566405487,
+        "longitude": 110.59655516990664
     },
     {
         "code": 3403012004,
@@ -1333,7 +1665,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Gari",
-        "postal_code": "55851"
+        "postal_code": "55851",
+        "latitude": -7.918044430203705,
+        "longitude": 110.59479072369896
     },
     {
         "code": 3403012005,
@@ -1341,7 +1675,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Karangtengah",
-        "postal_code": "55851"
+        "postal_code": "55851",
+        "latitude": -7.927217326223823,
+        "longitude": 110.6119594319444
     },
     {
         "code": 3403012006,
@@ -1349,7 +1685,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Selang",
-        "postal_code": "55851"
+        "postal_code": "55851",
+        "latitude": -7.969327333149192,
+        "longitude": 110.62279778819429
     },
     {
         "code": 3403012007,
@@ -1357,7 +1695,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Baleharjo",
-        "postal_code": "55811"
+        "postal_code": "55811",
+        "latitude": -7.98007888638729,
+        "longitude": 110.61445626953147
     },
     {
         "code": 3403012008,
@@ -1365,7 +1705,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Siraman",
-        "postal_code": "55851"
+        "postal_code": "55851",
+        "latitude": -7.971783551176817,
+        "longitude": 110.5837013355827
     },
     {
         "code": 3403012009,
@@ -1373,7 +1715,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Pulutan",
-        "postal_code": "55851"
+        "postal_code": "55851",
+        "latitude": -7.966609462117019,
+        "longitude": 110.56439293127193
     },
     {
         "code": 3403012010,
@@ -1381,7 +1725,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Wareng",
-        "postal_code": "55851"
+        "postal_code": "55851",
+        "latitude": -7.989571046732701,
+        "longitude": 110.57301730079325
     },
     {
         "code": 3403012011,
@@ -1389,7 +1735,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Duwet",
-        "postal_code": "55851"
+        "postal_code": "55851",
+        "latitude": -7.99921872169208,
+        "longitude": 110.59896692927538
     },
     {
         "code": 3403012012,
@@ -1397,7 +1745,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Mulo",
-        "postal_code": "55851"
+        "postal_code": "55851",
+        "latitude": -8.031419247005886,
+        "longitude": 110.58628007251828
     },
     {
         "code": 3403012013,
@@ -1405,7 +1755,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Wunung",
-        "postal_code": "55851"
+        "postal_code": "55851",
+        "latitude": -8.025870479451788,
+        "longitude": 110.57274178363424
     },
     {
         "code": 3403012014,
@@ -1413,7 +1765,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Karangrejek",
-        "postal_code": "55851"
+        "postal_code": "55851",
+        "latitude": -7.986152940305403,
+        "longitude": 110.59714268123717
     },
     {
         "code": 3403022001,
@@ -1421,7 +1775,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Natah",
-        "postal_code": "55852"
+        "postal_code": "55852",
+        "latitude": -7.8448452527769446,
+        "longitude": 110.65571852930358
     },
     {
         "code": 3403022002,
@@ -1429,7 +1785,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Pilangrejo",
-        "postal_code": "55852"
+        "postal_code": "55852",
+        "latitude": -7.846566442079095,
+        "longitude": 110.63805915521154
     },
     {
         "code": 3403022003,
@@ -1437,7 +1795,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Kedungpoh",
-        "postal_code": "55852"
+        "postal_code": "55852",
+        "latitude": -7.873952712410086,
+        "longitude": 110.633813765595
     },
     {
         "code": 3403022004,
@@ -1445,7 +1805,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Pengkol",
-        "postal_code": "55852"
+        "postal_code": "55852",
+        "latitude": -7.870148014812815,
+        "longitude": 110.59950379314282
     },
     {
         "code": 3403022005,
@@ -1453,7 +1815,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Kedungkeris",
-        "postal_code": "55852"
+        "postal_code": "55852",
+        "latitude": -7.899142513230416,
+        "longitude": 110.60691584074058
     },
     {
         "code": 3403022006,
@@ -1461,7 +1825,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Nglipar",
-        "postal_code": "55852"
+        "postal_code": "55852",
+        "latitude": -7.8971915369490056,
+        "longitude": 110.6360150520856
     },
     {
         "code": 3403022007,
@@ -1469,7 +1835,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Katongan",
-        "postal_code": "55852"
+        "postal_code": "55852",
+        "latitude": -7.875973619527613,
+        "longitude": 110.65694665946393
     },
     {
         "code": 3403032001,
@@ -1477,7 +1845,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Banyusoco",
-        "postal_code": "55861"
+        "postal_code": "55861",
+        "latitude": -7.974446234624708,
+        "longitude": 110.47466712626726
     },
     {
         "code": 3403032002,
@@ -1485,7 +1855,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Plembutan",
-        "postal_code": "55861"
+        "postal_code": "55861",
+        "latitude": -7.9667117206311655,
+        "longitude": 110.54507774014982
     },
     {
         "code": 3403032003,
@@ -1493,7 +1865,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Bleberan",
-        "postal_code": "55861"
+        "postal_code": "55861",
+        "latitude": -7.95836670616418,
+        "longitude": 110.50511476830793
     },
     {
         "code": 3403032004,
@@ -1501,7 +1875,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Getas",
-        "postal_code": "55861"
+        "postal_code": "55861",
+        "latitude": -7.933380824182582,
+        "longitude": 110.50479976230173
     },
     {
         "code": 3403032005,
@@ -1509,7 +1885,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Dengok",
-        "postal_code": "55861"
+        "postal_code": "55861",
+        "latitude": -7.947960970496941,
+        "longitude": 110.52880365522098
     },
     {
         "code": 3403032006,
@@ -1517,7 +1895,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Ngunut",
-        "postal_code": "55861"
+        "postal_code": "55861",
+        "latitude": -7.941176284883968,
+        "longitude": 110.53875898591485
     },
     {
         "code": 3403032007,
@@ -1525,7 +1905,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Playen",
-        "postal_code": "55861"
+        "postal_code": "55861",
+        "latitude": -7.948106001120514,
+        "longitude": 110.55673750436354
     },
     {
         "code": 3403032008,
@@ -1533,7 +1915,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Ngawu",
-        "postal_code": "55861"
+        "postal_code": "55861",
+        "latitude": -7.93334188172321,
+        "longitude": 110.54837495780441
     },
     {
         "code": 3403032009,
@@ -1541,7 +1925,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Bandung",
-        "postal_code": "55861"
+        "postal_code": "55861",
+        "latitude": -7.929502132151871,
+        "longitude": 110.56372231355512
     },
     {
         "code": 3403032010,
@@ -1549,7 +1935,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Logandeng",
-        "postal_code": "55861"
+        "postal_code": "55861",
+        "latitude": -7.93918896206696,
+        "longitude": 110.57814155821404
     },
     {
         "code": 3403032011,
@@ -1557,7 +1945,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Gading",
-        "postal_code": "55861"
+        "postal_code": "55861",
+        "latitude": -7.907116162667836,
+        "longitude": 110.56364305295372
     },
     {
         "code": 3403032012,
@@ -1565,7 +1955,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Banaran",
-        "postal_code": "55861"
+        "postal_code": "55861",
+        "latitude": -7.9126732556409225,
+        "longitude": 110.53370198084295
     },
     {
         "code": 3403032013,
@@ -1573,7 +1965,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Ngleri",
-        "postal_code": "55861"
+        "postal_code": "55861",
+        "latitude": -7.908121543715825,
+        "longitude": 110.50953057265548
     },
     {
         "code": 3403042001,
@@ -1581,7 +1975,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Bunder",
-        "postal_code": "55862"
+        "postal_code": "55862",
+        "latitude": -7.887245252440797,
+        "longitude": 110.53320245165433
     },
     {
         "code": 3403042002,
@@ -1589,7 +1985,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Beji",
-        "postal_code": "55862"
+        "postal_code": "55862",
+        "latitude": -7.877893359318836,
+        "longitude": 110.51653574637233
     },
     {
         "code": 3403042003,
@@ -1597,7 +1995,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Pengkok",
-        "postal_code": "55862"
+        "postal_code": "55862",
+        "latitude": -7.878761811585755,
+        "longitude": 110.49294010767848
     },
     {
         "code": 3403042004,
@@ -1605,7 +2005,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Semoyo",
-        "postal_code": "55862"
+        "postal_code": "55862",
+        "latitude": -7.871045208790034,
+        "longitude": 110.47817295153925
     },
     {
         "code": 3403042005,
@@ -1613,7 +2015,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Salam",
-        "postal_code": "55862"
+        "postal_code": "55862",
+        "latitude": -7.859038823922212,
+        "longitude": 110.49484497004596
     },
     {
         "code": 3403042006,
@@ -1621,7 +2025,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Patuk",
-        "postal_code": "55862"
+        "postal_code": "55862",
+        "latitude": -7.844982371333994,
+        "longitude": 110.49087475943095
     },
     {
         "code": 3403042007,
@@ -1629,7 +2035,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Ngoro-oro",
-        "postal_code": "55862"
+        "postal_code": "55862",
+        "latitude": -7.838173235521033,
+        "longitude": 110.52367212210466
     },
     {
         "code": 3403042008,
@@ -1637,7 +2045,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Nglanggeran",
-        "postal_code": "55862"
+        "postal_code": "55862",
+        "latitude": -7.851050911151559,
+        "longitude": 110.52930483025682
     },
     {
         "code": 3403042009,
@@ -1645,7 +2055,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Putat",
-        "postal_code": "55862"
+        "postal_code": "55862",
+        "latitude": -7.863605906610362,
+        "longitude": 110.53227017638255
     },
     {
         "code": 3403042010,
@@ -1653,7 +2065,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Nglegi",
-        "postal_code": "55862"
+        "postal_code": "55862",
+        "latitude": -7.8627101800017964,
+        "longitude": 110.55989950142032
     },
     {
         "code": 3403042011,
@@ -1661,7 +2075,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Terbah",
-        "postal_code": "55862"
+        "postal_code": "55862",
+        "latitude": -7.828615904035798,
+        "longitude": 110.55399809037435
     },
     {
         "code": 3403052001,
@@ -1669,7 +2085,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Sodo",
-        "postal_code": "55871"
+        "postal_code": "55871",
+        "latitude": -8.006305956763264,
+        "longitude": 110.55982082478924
     },
     {
         "code": 3403052002,
@@ -1677,7 +2095,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Pampang",
-        "postal_code": "55871"
+        "postal_code": "55871",
+        "latitude": -7.989590621497888,
+        "longitude": 110.54956697772369
     },
     {
         "code": 3403052003,
@@ -1685,7 +2105,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Grogol",
-        "postal_code": "55871"
+        "postal_code": "55871",
+        "latitude": -7.984536640679855,
+        "longitude": 110.53092887646869
     },
     {
         "code": 3403052004,
@@ -1693,7 +2115,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Karangduwet",
-        "postal_code": "55871"
+        "postal_code": "55871",
+        "latitude": -8.005574378028799,
+        "longitude": 110.50014827308554
     },
     {
         "code": 3403052005,
@@ -1701,7 +2125,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Karangasem",
-        "postal_code": "55871"
+        "postal_code": "55871",
+        "latitude": -8.020046758267908,
+        "longitude": 110.52541785248954
     },
     {
         "code": 3403052006,
@@ -1709,7 +2135,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Mulusan",
-        "postal_code": "55871"
+        "postal_code": "55871",
+        "latitude": -8.016401540988632,
+        "longitude": 110.54424057776029
     },
     {
         "code": 3403052007,
@@ -1717,7 +2145,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Giring",
-        "postal_code": "55871"
+        "postal_code": "55871",
+        "latitude": -8.0447813608135,
+        "longitude": 110.55695522194542
     },
     {
         "code": 3403062001,
@@ -1725,7 +2155,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Girikarto",
-        "postal_code": "55872"
+        "postal_code": "55872",
+        "latitude": -8.085070379750626,
+        "longitude": 110.44916714358857
     },
     {
         "code": 3403062002,
@@ -1733,7 +2165,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Girisekar",
-        "postal_code": "55872"
+        "postal_code": "55872",
+        "latitude": -8.040886676860735,
+        "longitude": 110.46470164682289
     },
     {
         "code": 3403062003,
@@ -1741,7 +2175,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Girimulyo",
-        "postal_code": "55872"
+        "postal_code": "55872",
+        "latitude": -8.049011838491207,
+        "longitude": 110.43343278528377
     },
     {
         "code": 3403062004,
@@ -1749,7 +2185,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Giriwungu",
-        "postal_code": "55872"
+        "postal_code": "55872",
+        "latitude": -8.055223683410622,
+        "longitude": 110.42053564681125
     },
     {
         "code": 3403062005,
@@ -1757,7 +2195,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Giriharjo",
-        "postal_code": "55872"
+        "postal_code": "55872",
+        "latitude": -7.994544674697858,
+        "longitude": 110.40985719231678
     },
     {
         "code": 3403062006,
@@ -1765,7 +2205,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Girisuko",
-        "postal_code": "55872"
+        "postal_code": "55872",
+        "latitude": -7.997642232962385,
+        "longitude": 110.44441887123304
     },
     {
         "code": 3403072001,
@@ -1773,7 +2215,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Giripanggung",
-        "postal_code": "55882"
+        "postal_code": "55882",
+        "latitude": -8.104720902921839,
+        "longitude": 110.68985659430007
     },
     {
         "code": 3403072002,
@@ -1781,7 +2225,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Sumberwungu",
-        "postal_code": "55882"
+        "postal_code": "55882",
+        "latitude": -8.089735822912417,
+        "longitude": 110.65460348571087
     },
     {
         "code": 3403072003,
@@ -1789,7 +2235,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Sidoharjo",
-        "postal_code": "55882"
+        "postal_code": "55882",
+        "latitude": -8.111229430435795,
+        "longitude": 110.62203600931642
     },
     {
         "code": 3403072004,
@@ -1797,7 +2245,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Tepus",
-        "postal_code": "55882"
+        "postal_code": "55882",
+        "latitude": -8.133998955435743,
+        "longitude": 110.64257291070922
     },
     {
         "code": 3403072005,
@@ -1805,7 +2255,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Purwodadi",
-        "postal_code": "55882"
+        "postal_code": "55882",
+        "latitude": -8.156118090907256,
+        "longitude": 110.67714548200904
     },
     {
         "code": 3403082001,
@@ -1813,7 +2265,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Ngeposari",
-        "postal_code": "55893"
+        "postal_code": "55893",
+        "latitude": -8.008012380275959,
+        "longitude": 110.6711859822221
     },
     {
         "code": 3403082002,
@@ -1821,7 +2275,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Semanu",
-        "postal_code": "55893"
+        "postal_code": "55893",
+        "latitude": -7.997610137534652,
+        "longitude": 110.64756961411652
     },
     {
         "code": 3403082003,
@@ -1829,7 +2285,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Pacarejo",
-        "postal_code": "55893"
+        "postal_code": "55893",
+        "latitude": -8.02462521093598,
+        "longitude": 110.61443579473861
     },
     {
         "code": 3403082004,
@@ -1837,7 +2295,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Candirejo",
-        "postal_code": "55893"
+        "postal_code": "55893",
+        "latitude": -8.0589992052216,
+        "longitude": 110.66821214070625
     },
     {
         "code": 3403082005,
@@ -1845,7 +2305,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Dadapayu",
-        "postal_code": "55893"
+        "postal_code": "55893",
+        "latitude": -8.053973479196975,
+        "longitude": 110.69794442612634
     },
     {
         "code": 3403092001,
@@ -1853,7 +2315,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Bejiharjo",
-        "postal_code": "55891"
+        "postal_code": "55891",
+        "latitude": -7.931215476869972,
+        "longitude": 110.63883813664562
     },
     {
         "code": 3403092002,
@@ -1861,7 +2325,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Wiladeg",
-        "postal_code": "55891"
+        "postal_code": "55891",
+        "latitude": -7.95788259654587,
+        "longitude": 110.64428326577665
     },
     {
         "code": 3403092003,
@@ -1869,7 +2335,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Bendungan",
-        "postal_code": "55891"
+        "postal_code": "55891",
+        "latitude": -7.9694494565300396,
+        "longitude": 110.6326404512514
     },
     {
         "code": 3403092004,
@@ -1877,7 +2345,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Kelor",
-        "postal_code": "55891"
+        "postal_code": "55891",
+        "latitude": -7.967099684780851,
+        "longitude": 110.65945251238591
     },
     {
         "code": 3403092005,
@@ -1885,7 +2355,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Ngipak",
-        "postal_code": "55891"
+        "postal_code": "55891",
+        "latitude": -7.966937093015638,
+        "longitude": 110.67615872160732
     },
     {
         "code": 3403092006,
@@ -1893,7 +2365,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Karangmojo",
-        "postal_code": "55891"
+        "postal_code": "55891",
+        "latitude": -7.951320272220842,
+        "longitude": 110.69529181217786
     },
     {
         "code": 3403092007,
@@ -1901,7 +2375,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Gedangrejo",
-        "postal_code": "55891"
+        "postal_code": "55891",
+        "latitude": -7.934418144721697,
+        "longitude": 110.68780182451304
     },
     {
         "code": 3403092008,
@@ -1909,7 +2385,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Ngawis",
-        "postal_code": "55891"
+        "postal_code": "55891",
+        "latitude": -7.930218389853907,
+        "longitude": 110.66698068005108
     },
     {
         "code": 3403092009,
@@ -1917,7 +2395,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Jatiayu",
-        "postal_code": "55891"
+        "postal_code": "55891",
+        "latitude": -7.906869567594351,
+        "longitude": 110.69118548737556
     },
     {
         "code": 3403102001,
@@ -1925,7 +2405,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Umbulrejo",
-        "postal_code": "55892"
+        "postal_code": "55892",
+        "latitude": -7.928304709600824,
+        "longitude": 110.72190231160468
     },
     {
         "code": 3403102002,
@@ -1933,7 +2415,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Sawahan",
-        "postal_code": "55892"
+        "postal_code": "55892",
+        "latitude": -7.923278473721089,
+        "longitude": 110.74470799510154
     },
     {
         "code": 3403102003,
@@ -1941,7 +2425,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Tambakromo",
-        "postal_code": "55892"
+        "postal_code": "55892",
+        "latitude": -7.937668131229944,
+        "longitude": 110.76112877224571
     },
     {
         "code": 3403102004,
@@ -1949,7 +2435,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Kenteng",
-        "postal_code": "55892"
+        "postal_code": "55892",
+        "latitude": -7.974585634469594,
+        "longitude": 110.7562811525273
     },
     {
         "code": 3403102005,
@@ -1957,7 +2445,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Sumbergiri",
-        "postal_code": "55892"
+        "postal_code": "55892",
+        "latitude": -7.968636467489319,
+        "longitude": 110.73607021756241
     },
     {
         "code": 3403102006,
@@ -1965,7 +2455,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Genjahan",
-        "postal_code": "55892"
+        "postal_code": "55892",
+        "latitude": -7.964772709575902,
+        "longitude": 110.71111320491299
     },
     {
         "code": 3403102007,
@@ -1973,7 +2465,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Ponjong",
-        "postal_code": "55892"
+        "postal_code": "55892",
+        "latitude": -7.986145607468781,
+        "longitude": 110.71921823114437
     },
     {
         "code": 3403102008,
@@ -1981,7 +2475,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Karangasem",
-        "postal_code": "55892"
+        "postal_code": "55892",
+        "latitude": -8.004207257742499,
+        "longitude": 110.74579330895449
     },
     {
         "code": 3403102009,
@@ -1989,7 +2485,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Bedoyo",
-        "postal_code": "55892"
+        "postal_code": "55892",
+        "latitude": -8.019425330803129,
+        "longitude": 110.73645459662096
     },
     {
         "code": 3403102010,
@@ -1997,7 +2495,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Sidorejo",
-        "postal_code": "55892"
+        "postal_code": "55892",
+        "latitude": -7.995986086113834,
+        "longitude": 110.69925179192305
     },
     {
         "code": 3403102011,
@@ -2005,7 +2505,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Gombang",
-        "postal_code": "55892"
+        "postal_code": "55892",
+        "latitude": -8.021097316806182,
+        "longitude": 110.69857281585696
     },
     {
         "code": 3403112001,
@@ -2013,7 +2515,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Bohol",
-        "postal_code": "55884"
+        "postal_code": "55884",
+        "latitude": -8.132808780835987,
+        "longitude": 110.74895344784677
     },
     {
         "code": 3403112002,
@@ -2021,7 +2525,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Pringombo",
-        "postal_code": "55884"
+        "postal_code": "55884",
+        "latitude": -8.105725739384,
+        "longitude": 110.74589662338947
     },
     {
         "code": 3403112003,
@@ -2029,7 +2535,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Botodayaan",
-        "postal_code": "55884"
+        "postal_code": "55884",
+        "latitude": -8.118725816194685,
+        "longitude": 110.72102331019214
     },
     {
         "code": 3403112004,
@@ -2037,7 +2545,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Petir",
-        "postal_code": "55884"
+        "postal_code": "55884",
+        "latitude": -8.083630696216437,
+        "longitude": 110.72897048403837
     },
     {
         "code": 3403112005,
@@ -2045,7 +2555,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Pucanganom",
-        "postal_code": "55884"
+        "postal_code": "55884",
+        "latitude": -8.044070343856315,
+        "longitude": 110.72695947275656
     },
     {
         "code": 3403112006,
@@ -2053,7 +2565,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Semugih",
-        "postal_code": "55884"
+        "postal_code": "55884",
+        "latitude": -8.074752815549445,
+        "longitude": 110.7560177380958
     },
     {
         "code": 3403112007,
@@ -2061,7 +2575,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Melikan",
-        "postal_code": "55884"
+        "postal_code": "55884",
+        "latitude": -8.110564819785921,
+        "longitude": 110.77747109787765
     },
     {
         "code": 3403112008,
@@ -2069,7 +2585,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Karangwuni",
-        "postal_code": "55884"
+        "postal_code": "55884",
+        "latitude": -8.058034119366473,
+        "longitude": 110.7614708396639
     },
     {
         "code": 3403122001,
@@ -2077,7 +2595,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Kalitekuk",
-        "postal_code": "55854"
+        "postal_code": "55854",
+        "latitude": -7.8798649695005905,
+        "longitude": 110.70463638840138
     },
     {
         "code": 3403122002,
@@ -2085,7 +2605,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Kemejing",
-        "postal_code": "55854"
+        "postal_code": "55854",
+        "latitude": -7.868417169583938,
+        "longitude": 110.71370741343365
     },
     {
         "code": 3403122003,
@@ -2093,7 +2615,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Bulurejo",
-        "postal_code": "55854"
+        "postal_code": "55854",
+        "latitude": -7.858051435150799,
+        "longitude": 110.73592813762421
     },
     {
         "code": 3403122004,
@@ -2101,7 +2625,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Sumberejo",
-        "postal_code": "55854"
+        "postal_code": "55854",
+        "latitude": -7.838114478473502,
+        "longitude": 110.7332894889669
     },
     {
         "code": 3403122005,
@@ -2109,7 +2635,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Bendung",
-        "postal_code": "55854"
+        "postal_code": "55854",
+        "latitude": -7.847548571456605,
+        "longitude": 110.71691238217691
     },
     {
         "code": 3403122006,
@@ -2117,7 +2645,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Candirejo",
-        "postal_code": "55854"
+        "postal_code": "55854",
+        "latitude": -7.8270666044849815,
+        "longitude": 110.76125339632826
     },
     {
         "code": 3403122007,
@@ -2125,7 +2655,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Rejosari",
-        "postal_code": "55854"
+        "postal_code": "55854",
+        "latitude": -7.848671612533576,
+        "longitude": 110.76991007070372
     },
     {
         "code": 3403122008,
@@ -2133,7 +2665,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Karangsari",
-        "postal_code": "55854"
+        "postal_code": "55854",
+        "latitude": -7.874132601957524,
+        "longitude": 110.76646273175041
     },
     {
         "code": 3403122009,
@@ -2141,7 +2675,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Pundungsari",
-        "postal_code": "55854"
+        "postal_code": "55854",
+        "latitude": -7.88839618486349,
+        "longitude": 110.75433630316856
     },
     {
         "code": 3403122010,
@@ -2149,7 +2685,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Semin",
-        "postal_code": "55854"
+        "postal_code": "55854",
+        "latitude": -7.8899698425360985,
+        "longitude": 110.73238953128424
     },
     {
         "code": 3403132001,
@@ -2157,7 +2695,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Tancep",
-        "postal_code": "55853"
+        "postal_code": "55853",
+        "latitude": -7.805837688299213,
+        "longitude": 110.68234268837962
     },
     {
         "code": 3403132002,
@@ -2165,7 +2705,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Sambirejo",
-        "postal_code": "55853"
+        "postal_code": "55853",
+        "latitude": -7.810237142945085,
+        "longitude": 110.7253377007124
     },
     {
         "code": 3403132003,
@@ -2173,7 +2715,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Jurangjero",
-        "postal_code": "55853"
+        "postal_code": "55853",
+        "latitude": -7.819607307028617,
+        "longitude": 110.68402932012033
     },
     {
         "code": 3403132004,
@@ -2181,7 +2725,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Kampung",
-        "postal_code": "55853"
+        "postal_code": "55853",
+        "latitude": -7.833540395310006,
+        "longitude": 110.68917794713515
     },
     {
         "code": 3403132005,
@@ -2189,7 +2735,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Beji",
-        "postal_code": "55853"
+        "postal_code": "55853",
+        "latitude": -7.846470352817885,
+        "longitude": 110.67824511408054
     },
     {
         "code": 3403132006,
@@ -2197,7 +2745,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Watusigar",
-        "postal_code": "55853"
+        "postal_code": "55853",
+        "latitude": -7.868983822008298,
+        "longitude": 110.68259536402351
     },
     {
         "code": 3403142001,
@@ -2205,7 +2755,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Hargomulyo",
-        "postal_code": "55863"
+        "postal_code": "55863",
+        "latitude": -7.8358587842574785,
+        "longitude": 110.5902622515884
     },
     {
         "code": 3403142002,
@@ -2213,7 +2765,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Mertelu",
-        "postal_code": "55863"
+        "postal_code": "55863",
+        "latitude": -7.825995833764103,
+        "longitude": 110.61768086123746
     },
     {
         "code": 3403142003,
@@ -2221,7 +2775,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Watugajah",
-        "postal_code": "55863"
+        "postal_code": "55863",
+        "latitude": -7.810767878152631,
+        "longitude": 110.59868625434586
     },
     {
         "code": 3403142004,
@@ -2229,7 +2785,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Sampang",
-        "postal_code": "55863"
+        "postal_code": "55863",
+        "latitude": -7.809107902840824,
+        "longitude": 110.57085004790837
     },
     {
         "code": 3403142005,
@@ -2237,7 +2795,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Serut",
-        "postal_code": "55863"
+        "postal_code": "55863",
+        "latitude": -7.799393519000971,
+        "longitude": 110.5582699314584
     },
     {
         "code": 3403142006,
@@ -2245,7 +2805,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Ngalang",
-        "postal_code": "55863"
+        "postal_code": "55863",
+        "latitude": -7.871801622371805,
+        "longitude": 110.5774423466792
     },
     {
         "code": 3403142007,
@@ -2253,7 +2815,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Tegalrejo",
-        "postal_code": "55863"
+        "postal_code": "55863",
+        "latitude": -7.810925267850078,
+        "longitude": 110.64135204574612
     },
     {
         "code": 3403152001,
@@ -2261,7 +2825,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Krambilsawit",
-        "postal_code": "55870"
+        "postal_code": "55870",
+        "latitude": -8.089661397482176,
+        "longitude": 110.47918717787871
     },
     {
         "code": 3403152002,
@@ -2269,7 +2835,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Ngloro",
-        "postal_code": "55870"
+        "postal_code": "55870",
+        "latitude": -8.064173363891523,
+        "longitude": 110.49409356454953
     },
     {
         "code": 3403152003,
@@ -2277,7 +2845,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Jetis",
-        "postal_code": "55870"
+        "postal_code": "55870",
+        "latitude": -8.038709285794146,
+        "longitude": 110.48955833512373
     },
     {
         "code": 3403152004,
@@ -2285,7 +2855,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Kepek",
-        "postal_code": "55870"
+        "postal_code": "55870",
+        "latitude": -8.05960142656141,
+        "longitude": 110.5111296148972
     },
     {
         "code": 3403152005,
@@ -2293,7 +2865,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Kanigoro",
-        "postal_code": "55870"
+        "postal_code": "55870",
+        "latitude": -8.103871750524108,
+        "longitude": 110.51834503032897
     },
     {
         "code": 3403152006,
@@ -2301,7 +2875,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Monggol",
-        "postal_code": "55870"
+        "postal_code": "55870",
+        "latitude": -8.048142234829752,
+        "longitude": 110.53808638134355
     },
     {
         "code": 3403152007,
@@ -2309,7 +2885,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Planjan",
-        "postal_code": "55870"
+        "postal_code": "55870",
+        "latitude": -8.086942649935436,
+        "longitude": 110.54184647626849
     },
     {
         "code": 3403162001,
@@ -2317,7 +2895,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Balong",
-        "postal_code": "55883"
+        "postal_code": "55883",
+        "latitude": -8.158694998324941,
+        "longitude": 110.70149360444911
     },
     {
         "code": 3403162002,
@@ -2325,7 +2905,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Jepitu",
-        "postal_code": "55883"
+        "postal_code": "55883",
+        "latitude": -8.169316044094256,
+        "longitude": 110.7211678923668
     },
     {
         "code": 3403162003,
@@ -2333,7 +2915,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Karangawen",
-        "postal_code": "55883"
+        "postal_code": "55883",
+        "latitude": -8.153969013788462,
+        "longitude": 110.73829443310315
     },
     {
         "code": 3403162004,
@@ -2341,7 +2925,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Nglindur",
-        "postal_code": "55883"
+        "postal_code": "55883",
+        "latitude": -8.130468743094788,
+        "longitude": 110.76265471037316
     },
     {
         "code": 3403162005,
@@ -2349,7 +2935,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Jerukwudel",
-        "postal_code": "55883"
+        "postal_code": "55883",
+        "latitude": -8.149922417332785,
+        "longitude": 110.77225852390272
     },
     {
         "code": 3403162006,
@@ -2357,7 +2945,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Tileng",
-        "postal_code": "55883"
+        "postal_code": "55883",
+        "latitude": -8.175631244483235,
+        "longitude": 110.75547655947416
     },
     {
         "code": 3403162007,
@@ -2365,7 +2955,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Pucung",
-        "postal_code": "55883"
+        "postal_code": "55883",
+        "latitude": -8.173212641555848,
+        "longitude": 110.78674738184378
     },
     {
         "code": 3403162008,
@@ -2373,7 +2965,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Songbanyu",
-        "postal_code": "55883"
+        "postal_code": "55883",
+        "latitude": -8.177691287862679,
+        "longitude": 110.81815115503224
     },
     {
         "code": 3403172001,
@@ -2381,7 +2975,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Hargosari",
-        "postal_code": "55881"
+        "postal_code": "55881",
+        "latitude": -8.056181053105282,
+        "longitude": 110.6252882642284
     },
     {
         "code": 3403172002,
@@ -2389,7 +2985,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Kemiri",
-        "postal_code": "55881"
+        "postal_code": "55881",
+        "latitude": -8.068527024806464,
+        "longitude": 110.57644241780905
     },
     {
         "code": 3403172003,
@@ -2397,7 +2995,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Kemadang",
-        "postal_code": "55881"
+        "postal_code": "55881",
+        "latitude": -8.109738995527172,
+        "longitude": 110.56700345595092
     },
     {
         "code": 3403172004,
@@ -2405,7 +3005,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Banjarejo",
-        "postal_code": "55881"
+        "postal_code": "55881",
+        "latitude": -8.10073468378737,
+        "longitude": 110.59300688786861
     },
     {
         "code": 3403172005,
@@ -2413,7 +3015,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Ngestirejo",
-        "postal_code": "55881"
+        "postal_code": "55881",
+        "latitude": -8.101339082487291,
+        "longitude": 110.60853548131426
     },
     {
         "code": 3403182001,
@@ -2421,7 +3025,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Giripurwo",
-        "postal_code": "55873"
+        "postal_code": "55873",
+        "latitude": -8.040802215902845,
+        "longitude": 110.39498724537685
     },
     {
         "code": 3403182002,
@@ -2429,7 +3035,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Giricahyo",
-        "postal_code": "55873"
+        "postal_code": "55873",
+        "latitude": -8.037274232826457,
+        "longitude": 110.36432303277448
     },
     {
         "code": 3403182003,
@@ -2437,7 +3045,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Girijati",
-        "postal_code": "55873"
+        "postal_code": "55873",
+        "latitude": -8.00519996990972,
+        "longitude": 110.34301059169388
     },
     {
         "code": 3403182004,
@@ -2445,7 +3055,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Giriasih",
-        "postal_code": "55873"
+        "postal_code": "55873",
+        "latitude": -8.000404092551344,
+        "longitude": 110.36146585723486
     },
     {
         "code": 3403182005,
@@ -2453,7 +3065,9 @@
         "regency_code": 3403,
         "province_code": 34,
         "name": "Giritirto",
-        "postal_code": "55873"
+        "postal_code": "55873",
+        "latitude": -7.9965842198242445,
+        "longitude": 110.38271807119722
     },
     {
         "code": 3404012001,
@@ -2461,7 +3075,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Balecatur",
-        "postal_code": "55295"
+        "postal_code": "55295",
+        "latitude": -7.811240305555209,
+        "longitude": 110.2962030370496
     },
     {
         "code": 3404012002,
@@ -2469,7 +3085,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Ambarketawang",
-        "postal_code": "55294"
+        "postal_code": "55294",
+        "latitude": -7.802502153594945,
+        "longitude": 110.31688732086785
     },
     {
         "code": 3404012003,
@@ -2477,7 +3095,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Banyuraden",
-        "postal_code": "55293"
+        "postal_code": "55293",
+        "latitude": -7.787103102980255,
+        "longitude": 110.33527223486836
     },
     {
         "code": 3404012004,
@@ -2485,7 +3105,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Nogotirto",
-        "postal_code": "55592"
+        "postal_code": "55592",
+        "latitude": -7.770189346134354,
+        "longitude": 110.337281167044
     },
     {
         "code": 3404012005,
@@ -2493,7 +3115,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Trihanggo",
-        "postal_code": "55291"
+        "postal_code": "55291",
+        "latitude": -7.754007651762133,
+        "longitude": 110.34532346843699
     },
     {
         "code": 3404022001,
@@ -2501,7 +3125,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Sidorejo",
-        "postal_code": "55264"
+        "postal_code": "55264",
+        "latitude": -7.751767750304553,
+        "longitude": 110.27321384515538
     },
     {
         "code": 3404022002,
@@ -2509,7 +3135,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Sidoluhur",
-        "postal_code": "55264"
+        "postal_code": "55264",
+        "latitude": -7.76899310044543,
+        "longitude": 110.28121859323599
     },
     {
         "code": 3404022003,
@@ -2517,7 +3145,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Sidomulyo",
-        "postal_code": "55264"
+        "postal_code": "55264",
+        "latitude": -7.786821905641408,
+        "longitude": 110.2942090974435
     },
     {
         "code": 3404022004,
@@ -2525,7 +3155,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Sidoagung",
-        "postal_code": "55264"
+        "postal_code": "55264",
+        "latitude": -7.7657365099059765,
+        "longitude": 110.29812374908202
     },
     {
         "code": 3404022005,
@@ -2533,7 +3165,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Sidokarto",
-        "postal_code": "55264"
+        "postal_code": "55264",
+        "latitude": -7.777018391010711,
+        "longitude": 110.30578764022503
     },
     {
         "code": 3404022006,
@@ -2541,7 +3175,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Sidoarum",
-        "postal_code": "55264"
+        "postal_code": "55264",
+        "latitude": -7.7779657594971185,
+        "longitude": 110.3194108473779
     },
     {
         "code": 3404022007,
@@ -2549,7 +3185,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Sidomoyo",
-        "postal_code": "55264"
+        "postal_code": "55264",
+        "latitude": -7.758213423622309,
+        "longitude": 110.31840292470106
     },
     {
         "code": 3404032001,
@@ -2557,7 +3195,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Sumberrahayu",
-        "postal_code": "55563"
+        "postal_code": "55563",
+        "latitude": -7.795776483391958,
+        "longitude": 110.24306588575517
     },
     {
         "code": 3404032002,
@@ -2565,7 +3205,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Sumbersari",
-        "postal_code": "55563"
+        "postal_code": "55563",
+        "latitude": -7.78336051746961,
+        "longitude": 110.26787840703992
     },
     {
         "code": 3404032003,
@@ -2573,7 +3215,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Sumberagung",
-        "postal_code": "55563"
+        "postal_code": "55563",
+        "latitude": -7.767427601750262,
+        "longitude": 110.2536573238809
     },
     {
         "code": 3404032004,
@@ -2581,7 +3225,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Sumberarum",
-        "postal_code": "55563"
+        "postal_code": "55563",
+        "latitude": -7.768721532759563,
+        "longitude": 110.23107411390146
     },
     {
         "code": 3404042001,
@@ -2589,7 +3235,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Sendangarum",
-        "postal_code": "55562"
+        "postal_code": "55562",
+        "latitude": -7.747253039534545,
+        "longitude": 110.25350888394324
     },
     {
         "code": 3404042002,
@@ -2597,7 +3245,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Sendangmulyo",
-        "postal_code": "55562"
+        "postal_code": "55562",
+        "latitude": -7.744020054548863,
+        "longitude": 110.23595131059561
     },
     {
         "code": 3404042003,
@@ -2605,7 +3255,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Sendangagung",
-        "postal_code": "55562"
+        "postal_code": "55562",
+        "latitude": -7.726129792726656,
+        "longitude": 110.23461699891452
     },
     {
         "code": 3404042004,
@@ -2613,7 +3265,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Sendangsari",
-        "postal_code": "55562"
+        "postal_code": "55562",
+        "latitude": -7.7189089804102196,
+        "longitude": 110.25543618356507
     },
     {
         "code": 3404042005,
@@ -2621,7 +3275,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Sendangrejo",
-        "postal_code": "55562"
+        "postal_code": "55562",
+        "latitude": -7.725259899611684,
+        "longitude": 110.26895356254037
     },
     {
         "code": 3404052001,
@@ -2629,7 +3285,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Margoluwih",
-        "postal_code": "55561"
+        "postal_code": "55561",
+        "latitude": -7.751211186667399,
+        "longitude": 110.30186781873093
     },
     {
         "code": 3404052002,
@@ -2637,7 +3295,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Margodadi",
-        "postal_code": "55561"
+        "postal_code": "55561",
+        "latitude": -7.735255358957103,
+        "longitude": 110.29354656753537
     },
     {
         "code": 3404052003,
@@ -2645,7 +3305,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Margokaton",
-        "postal_code": "55561"
+        "postal_code": "55561",
+        "latitude": -7.720147366558509,
+        "longitude": 110.28716733419603
     },
     {
         "code": 3404052004,
@@ -2653,7 +3315,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Margomulyo",
-        "postal_code": "55561"
+        "postal_code": "55561",
+        "latitude": -7.719090287891666,
+        "longitude": 110.31562297988255
     },
     {
         "code": 3404052005,
@@ -2661,7 +3325,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Margoagung",
-        "postal_code": "55561"
+        "postal_code": "55561",
+        "latitude": -7.706277449941606,
+        "longitude": 110.3042067283622
     },
     {
         "code": 3404062001,
@@ -2669,7 +3335,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Sinduadi",
-        "postal_code": "55284"
+        "postal_code": "55284",
+        "latitude": -7.7589075263732505,
+        "longitude": 110.36636314803769
     },
     {
         "code": 3404062002,
@@ -2677,7 +3345,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Sendangadi",
-        "postal_code": "55285"
+        "postal_code": "55285",
+        "latitude": -7.734174506413113,
+        "longitude": 110.36155876828225
     },
     {
         "code": 3404062003,
@@ -2685,7 +3355,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Tlogoadi",
-        "postal_code": "55286"
+        "postal_code": "55286",
+        "latitude": -7.733336255384379,
+        "longitude": 110.34060596239564
     },
     {
         "code": 3404062004,
@@ -2693,7 +3365,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Tirtoadi",
-        "postal_code": "55287"
+        "postal_code": "55287",
+        "latitude": -7.745521753440624,
+        "longitude": 110.3226990300395
     },
     {
         "code": 3404062005,
@@ -2701,7 +3375,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Sumberadi",
-        "postal_code": "55288"
+        "postal_code": "55288",
+        "latitude": -7.719893433267709,
+        "longitude": 110.33011808221087
     },
     {
         "code": 3404072001,
@@ -2709,7 +3385,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Caturtunggal",
-        "postal_code": "55281"
+        "postal_code": "55281",
+        "latitude": -7.773337765309589,
+        "longitude": 110.3966530491623
     },
     {
         "code": 3404072002,
@@ -2717,7 +3395,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Maguwoharjo",
-        "postal_code": "55282"
+        "postal_code": "55282",
+        "latitude": -7.769706910267935,
+        "longitude": 110.42954360249604
     },
     {
         "code": 3404072003,
@@ -2725,7 +3405,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Condongcatur",
-        "postal_code": "55283"
+        "postal_code": "55283",
+        "latitude": -7.754791151062691,
+        "longitude": 110.39900237631008
     },
     {
         "code": 3404082001,
@@ -2733,7 +3415,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Sendangtirto",
-        "postal_code": "55573"
+        "postal_code": "55573",
+        "latitude": -7.811929677321499,
+        "longitude": 110.43193046247023
     },
     {
         "code": 3404082002,
@@ -2741,7 +3425,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Tegaltirto",
-        "postal_code": "55573"
+        "postal_code": "55573",
+        "latitude": -7.8098706761384245,
+        "longitude": 110.44663160591055
     },
     {
         "code": 3404082003,
@@ -2749,7 +3435,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Kalitirto",
-        "postal_code": "55573"
+        "postal_code": "55573",
+        "latitude": -7.794384076969633,
+        "longitude": 110.45518557221058
     },
     {
         "code": 3404082004,
@@ -2757,7 +3445,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Jogotirto",
-        "postal_code": "55573"
+        "postal_code": "55573",
+        "latitude": -7.813053894707572,
+        "longitude": 110.47088373627663
     },
     {
         "code": 3404092001,
@@ -2765,7 +3455,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Sumberharjo",
-        "postal_code": "55572"
+        "postal_code": "55572",
+        "latitude": -7.810288551200144,
+        "longitude": 110.50057750665201
     },
     {
         "code": 3404092002,
@@ -2773,7 +3465,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Wukirharjo",
-        "postal_code": "55572"
+        "postal_code": "55572",
+        "latitude": -7.816672867585837,
+        "longitude": 110.52126512640861
     },
     {
         "code": 3404092003,
@@ -2781,7 +3475,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Gayamharjo",
-        "postal_code": "55572"
+        "postal_code": "55572",
+        "latitude": -7.807149975437963,
+        "longitude": 110.53503928940198
     },
     {
         "code": 3404092004,
@@ -2789,7 +3485,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Sambirejo",
-        "postal_code": "55572"
+        "postal_code": "55572",
+        "latitude": -7.783628413509442,
+        "longitude": 110.50845636631978
     },
     {
         "code": 3404092005,
@@ -2797,7 +3495,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Madurejo",
-        "postal_code": "55572"
+        "postal_code": "55572",
+        "latitude": -7.793652104981222,
+        "longitude": 110.48253586576448
     },
     {
         "code": 3404092006,
@@ -2805,7 +3505,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Bokoharjo",
-        "postal_code": "55572"
+        "postal_code": "55572",
+        "latitude": -7.771914355307786,
+        "longitude": 110.48531659996887
     },
     {
         "code": 3404102001,
@@ -2813,7 +3515,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Purwomartani",
-        "postal_code": "55571"
+        "postal_code": "55571",
+        "latitude": -7.757592445738222,
+        "longitude": 110.45201487820623
     },
     {
         "code": 3404102002,
@@ -2821,7 +3525,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Tirtomartani",
-        "postal_code": "55571"
+        "postal_code": "55571",
+        "latitude": -7.760088862572283,
+        "longitude": 110.46872981940507
     },
     {
         "code": 3404102003,
@@ -2829,7 +3535,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Tamanmartani",
-        "postal_code": "55571"
+        "postal_code": "55571",
+        "latitude": -7.742714777806093,
+        "longitude": 110.48221533947851
     },
     {
         "code": 3404102004,
@@ -2837,7 +3545,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Selomartani",
-        "postal_code": "55571"
+        "postal_code": "55571",
+        "latitude": -7.723838320603579,
+        "longitude": 110.46177590433848
     },
     {
         "code": 3404112001,
@@ -2845,7 +3555,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Sindumartani",
-        "postal_code": "55584"
+        "postal_code": "55584",
+        "latitude": -7.693140199916026,
+        "longitude": 110.47464167359813
     },
     {
         "code": 3404112002,
@@ -2853,7 +3565,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Bimomartani",
-        "postal_code": "55584"
+        "postal_code": "55584",
+        "latitude": -7.697914036760928,
+        "longitude": 110.46312903749211
     },
     {
         "code": 3404112003,
@@ -2861,7 +3575,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Widodomartani",
-        "postal_code": "55584"
+        "postal_code": "55584",
+        "latitude": -7.69890941875789,
+        "longitude": 110.4482224592708
     },
     {
         "code": 3404112004,
@@ -2869,7 +3585,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Wedomartani",
-        "postal_code": "55584"
+        "postal_code": "55584",
+        "latitude": -7.733772920444383,
+        "longitude": 110.42697624541744
     },
     {
         "code": 3404112005,
@@ -2877,7 +3595,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Umbulmartani",
-        "postal_code": "55584"
+        "postal_code": "55584",
+        "latitude": -7.683047619362522,
+        "longitude": 110.42733959017846
     },
     {
         "code": 3404122001,
@@ -2885,7 +3605,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Sariharjo",
-        "postal_code": "55581"
+        "postal_code": "55581",
+        "latitude": -7.729919242148166,
+        "longitude": 110.37864631304383
     },
     {
         "code": 3404122002,
@@ -2893,7 +3615,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Minomartani",
-        "postal_code": "55581"
+        "postal_code": "55581",
+        "latitude": -7.73741786229182,
+        "longitude": 110.40606778082969
     },
     {
         "code": 3404122003,
@@ -2901,7 +3625,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Sinduharjo",
-        "postal_code": "55581"
+        "postal_code": "55581",
+        "latitude": -7.726551991430437,
+        "longitude": 110.39988882658024
     },
     {
         "code": 3404122004,
@@ -2909,7 +3635,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Sukoharjo",
-        "postal_code": "55581"
+        "postal_code": "55581",
+        "latitude": -7.703844721862788,
+        "longitude": 110.42703239725813
     },
     {
         "code": 3404122005,
@@ -2917,7 +3645,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Sardonoharjo",
-        "postal_code": "55581"
+        "postal_code": "55581",
+        "latitude": -7.705151102718162,
+        "longitude": 110.40090765396846
     },
     {
         "code": 3404122006,
@@ -2925,7 +3655,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Donoharjo",
-        "postal_code": "55581"
+        "postal_code": "55581",
+        "latitude": -7.692575174993401,
+        "longitude": 110.38284814210256
     },
     {
         "code": 3404132001,
@@ -2933,7 +3665,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Caturharjo",
-        "postal_code": "55515"
+        "postal_code": "55515",
+        "latitude": -7.688695125064232,
+        "longitude": 110.32555277084015
     },
     {
         "code": 3404132002,
@@ -2941,7 +3675,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Triharjo",
-        "postal_code": "55514"
+        "postal_code": "55514",
+        "latitude": -7.6921661730144235,
+        "longitude": 110.34381122614614
     },
     {
         "code": 3404132003,
@@ -2949,7 +3685,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Tridadi",
-        "postal_code": "55511"
+        "postal_code": "55511",
+        "latitude": -7.712884208426034,
+        "longitude": 110.35302509198215
     },
     {
         "code": 3404132004,
@@ -2957,7 +3695,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Pandowoharjo",
-        "postal_code": "55512"
+        "postal_code": "55512",
+        "latitude": -7.698816716349449,
+        "longitude": 110.36866857126661
     },
     {
         "code": 3404132005,
@@ -2965,7 +3705,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Trimulyo",
-        "postal_code": "55513"
+        "postal_code": "55513",
+        "latitude": -7.678909951013783,
+        "longitude": 110.3561303832755
     },
     {
         "code": 3404142001,
@@ -2973,7 +3715,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Banyurejo",
-        "postal_code": "55552"
+        "postal_code": "55552",
+        "latitude": -7.699553821096161,
+        "longitude": 110.28524540203371
     },
     {
         "code": 3404142002,
@@ -2981,7 +3725,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Tambakrejo",
-        "postal_code": "55552"
+        "postal_code": "55552",
+        "latitude": -7.686823475063096,
+        "longitude": 110.30299124690137
     },
     {
         "code": 3404142003,
@@ -2989,7 +3735,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Sumberrejo",
-        "postal_code": "55552"
+        "postal_code": "55552",
+        "latitude": -7.6775951520529055,
+        "longitude": 110.29601375906985
     },
     {
         "code": 3404142004,
@@ -2997,7 +3745,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Pondokrejo",
-        "postal_code": "55552"
+        "postal_code": "55552",
+        "latitude": -7.663762975043816,
+        "longitude": 110.30780257280412
     },
     {
         "code": 3404142005,
@@ -3005,7 +3755,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Mororejo",
-        "postal_code": "55552"
+        "postal_code": "55552",
+        "latitude": -7.671450653518802,
+        "longitude": 110.31943773221388
     },
     {
         "code": 3404142006,
@@ -3013,7 +3765,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Margorejo",
-        "postal_code": "55552"
+        "postal_code": "55552",
+        "latitude": -7.660938685824488,
+        "longitude": 110.33377937920129
     },
     {
         "code": 3404142007,
@@ -3021,7 +3775,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Lumbungrejo",
-        "postal_code": "55552"
+        "postal_code": "55552",
+        "latitude": -7.648073251704905,
+        "longitude": 110.32580315840366
     },
     {
         "code": 3404142008,
@@ -3029,7 +3785,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Merdikorejo",
-        "postal_code": "55552"
+        "postal_code": "55552",
+        "latitude": -7.634198018955248,
+        "longitude": 110.34870308774381
     },
     {
         "code": 3404152001,
@@ -3037,7 +3795,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Bangunkerto",
-        "postal_code": "55551"
+        "postal_code": "55551",
+        "latitude": -7.645539873239319,
+        "longitude": 110.35717739913126
     },
     {
         "code": 3404152002,
@@ -3045,7 +3805,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Donokerto",
-        "postal_code": "55551"
+        "postal_code": "55551",
+        "latitude": -7.66047533995419,
+        "longitude": 110.37310626836071
     },
     {
         "code": 3404152003,
@@ -3053,7 +3815,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Girikerto",
-        "postal_code": "55551"
+        "postal_code": "55551",
+        "latitude": -7.610010423555698,
+        "longitude": 110.40015717588325
     },
     {
         "code": 3404152004,
@@ -3061,7 +3825,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Wonokerto",
-        "postal_code": "55551"
+        "postal_code": "55551",
+        "latitude": -7.619467251195518,
+        "longitude": 110.38129100103986
     },
     {
         "code": 3404162001,
@@ -3069,7 +3835,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Purwobinangun",
-        "postal_code": "55582"
+        "postal_code": "55582",
+        "latitude": -7.611166859534626,
+        "longitude": 110.41122269475281
     },
     {
         "code": 3404162002,
@@ -3077,7 +3845,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Candibinangun",
-        "postal_code": "55582"
+        "postal_code": "55582",
+        "latitude": -7.6585234006501555,
+        "longitude": 110.40262275686909
     },
     {
         "code": 3404162003,
@@ -3085,7 +3855,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Harjobinangun",
-        "postal_code": "55582"
+        "postal_code": "55582",
+        "latitude": -7.6693065913194145,
+        "longitude": 110.40940208066398
     },
     {
         "code": 3404162004,
@@ -3093,7 +3865,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Pakembinangun",
-        "postal_code": "55582"
+        "postal_code": "55582",
+        "latitude": -7.659047880143069,
+        "longitude": 110.42345381539002
     },
     {
         "code": 3404162005,
@@ -3101,7 +3875,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Hargobinangun",
-        "postal_code": "55582"
+        "postal_code": "55582",
+        "latitude": -7.607924934350723,
+        "longitude": 110.42579193924014
     },
     {
         "code": 3404172001,
@@ -3109,7 +3885,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Argomulyo",
-        "postal_code": "55583"
+        "postal_code": "55583",
+        "latitude": -7.668480860936287,
+        "longitude": 110.46178509942591
     },
     {
         "code": 3404172002,
@@ -3117,7 +3895,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Wukirsari",
-        "postal_code": "55583"
+        "postal_code": "55583",
+        "latitude": -7.650996516429965,
+        "longitude": 110.44470954211646
     },
     {
         "code": 3404172003,
@@ -3125,7 +3905,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Glagaharjo",
-        "postal_code": "55583"
+        "postal_code": "55583",
+        "latitude": -7.596615382973552,
+        "longitude": 110.45724499011432
     },
     {
         "code": 3404172004,
@@ -3133,7 +3915,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Kepuharjo",
-        "postal_code": "55583"
+        "postal_code": "55583",
+        "latitude": -7.609084394393708,
+        "longitude": 110.45097404736364
     },
     {
         "code": 3404172005,
@@ -3141,7 +3925,9 @@
         "regency_code": 3404,
         "province_code": 34,
         "name": "Umbulharjo",
-        "postal_code": "55583"
+        "postal_code": "55583",
+        "latitude": -7.610601933633202,
+        "longitude": 110.43768663072558
     },
     {
         "code": 3471011001,
@@ -3149,7 +3935,9 @@
         "regency_code": 3471,
         "province_code": 34,
         "name": "Kricak",
-        "postal_code": "55242"
+        "postal_code": "55242",
+        "latitude": -7.773598780779162,
+        "longitude": 110.3571889625452
     },
     {
         "code": 3471011002,
@@ -3157,7 +3945,9 @@
         "regency_code": 3471,
         "province_code": 34,
         "name": "Karangwaru",
-        "postal_code": "55241"
+        "postal_code": "55241",
+        "latitude": -7.774100117568653,
+        "longitude": 110.36399182375753
     },
     {
         "code": 3471011003,
@@ -3165,7 +3955,9 @@
         "regency_code": 3471,
         "province_code": 34,
         "name": "Tegalrejo",
-        "postal_code": "55244"
+        "postal_code": "55244",
+        "latitude": -7.787953510621015,
+        "longitude": 110.35286468844993
     },
     {
         "code": 3471011004,
@@ -3173,7 +3965,9 @@
         "regency_code": 3471,
         "province_code": 34,
         "name": "Bener",
-        "postal_code": "55243"
+        "postal_code": "55243",
+        "latitude": -7.777820432181523,
+        "longitude": 110.35407233296054
     },
     {
         "code": 3471021001,
@@ -3181,7 +3975,9 @@
         "regency_code": 3471,
         "province_code": 34,
         "name": "Bumijo",
-        "postal_code": "55231"
+        "postal_code": "55231",
+        "latitude": -7.785133771609984,
+        "longitude": 110.35927424466799
     },
     {
         "code": 3471021002,
@@ -3189,7 +3985,9 @@
         "regency_code": 3471,
         "province_code": 34,
         "name": "Cokrodiningratan",
-        "postal_code": "55233"
+        "postal_code": "55233",
+        "latitude": -7.778957205057843,
+        "longitude": 110.36723237173693
     },
     {
         "code": 3471021003,
@@ -3197,7 +3995,9 @@
         "regency_code": 3471,
         "province_code": 34,
         "name": "Gowongan",
-        "postal_code": "55232"
+        "postal_code": "55232",
+        "latitude": -7.785205680478278,
+        "longitude": 110.36626198832961
     },
     {
         "code": 3471031001,
@@ -3205,7 +4005,9 @@
         "regency_code": 3471,
         "province_code": 34,
         "name": "Demangan",
-        "postal_code": "55221"
+        "postal_code": "55221",
+        "latitude": -7.786157724739054,
+        "longitude": 110.38827652502435
     },
     {
         "code": 3471031002,
@@ -3213,7 +4015,9 @@
         "regency_code": 3471,
         "province_code": 34,
         "name": "Kotabaru",
-        "postal_code": "55224"
+        "postal_code": "55224",
+        "latitude": -7.786409097893575,
+        "longitude": 110.37362901087349
     },
     {
         "code": 3471031003,
@@ -3221,7 +4025,9 @@
         "regency_code": 3471,
         "province_code": 34,
         "name": "Klitren",
-        "postal_code": "55222"
+        "postal_code": "55222",
+        "latitude": -7.784124407185107,
+        "longitude": 110.38319238941898
     },
     {
         "code": 3471031004,
@@ -3229,7 +4035,9 @@
         "regency_code": 3471,
         "province_code": 34,
         "name": "Baciro",
-        "postal_code": "55225"
+        "postal_code": "55225",
+        "latitude": -7.791997357993756,
+        "longitude": 110.38547283868411
     },
     {
         "code": 3471031005,
@@ -3237,7 +4045,9 @@
         "regency_code": 3471,
         "province_code": 34,
         "name": "Terban",
-        "postal_code": "55223"
+        "postal_code": "55223",
+        "latitude": -7.779586360742209,
+        "longitude": 110.3751733910978
     },
     {
         "code": 3471041001,
@@ -3245,7 +4055,9 @@
         "regency_code": 3471,
         "province_code": 34,
         "name": "Suryatmajan",
-        "postal_code": "55213"
+        "postal_code": "55213",
+        "latitude": -7.793666245483764,
+        "longitude": 110.36760345959428
     },
     {
         "code": 3471041002,
@@ -3253,7 +4065,9 @@
         "regency_code": 3471,
         "province_code": 34,
         "name": "Tegalpanggung",
-        "postal_code": "55212"
+        "postal_code": "55212",
+        "latitude": -7.792947909886883,
+        "longitude": 110.37118696268679
     },
     {
         "code": 3471041003,
@@ -3261,7 +4075,9 @@
         "regency_code": 3471,
         "province_code": 34,
         "name": "Bausasran",
-        "postal_code": "55211"
+        "postal_code": "55211",
+        "latitude": -7.7930458577179325,
+        "longitude": 110.37561243656073
     },
     {
         "code": 3471051001,
@@ -3269,7 +4085,9 @@
         "regency_code": 3471,
         "province_code": 34,
         "name": "Sosromenduran",
-        "postal_code": "55271"
+        "postal_code": "55271",
+        "latitude": -7.791714138147221,
+        "longitude": 110.3636868877315
     },
     {
         "code": 3471051002,
@@ -3277,7 +4095,9 @@
         "regency_code": 3471,
         "province_code": 34,
         "name": "Pringgokusuman",
-        "postal_code": "55272"
+        "postal_code": "55272",
+        "latitude": -7.792352974438066,
+        "longitude": 110.35856251713717
     },
     {
         "code": 3471061001,
@@ -3285,7 +4105,9 @@
         "regency_code": 3471,
         "province_code": 34,
         "name": "Ngampilan",
-        "postal_code": "55261"
+        "postal_code": "55261",
+        "latitude": -7.798443060178678,
+        "longitude": 110.35855612989094
     },
     {
         "code": 3471061002,
@@ -3293,7 +4115,9 @@
         "regency_code": 3471,
         "province_code": 34,
         "name": "Notoprajan",
-        "postal_code": "55262"
+        "postal_code": "55262",
+        "latitude": -7.803799484997499,
+        "longitude": 110.35683323925198
     },
     {
         "code": 3471071001,
@@ -3301,7 +4125,9 @@
         "regency_code": 3471,
         "province_code": 34,
         "name": "Pakuncen",
-        "postal_code": "55253"
+        "postal_code": "55253",
+        "latitude": -7.797332799338687,
+        "longitude": 110.35170543278556
     },
     {
         "code": 3471071002,
@@ -3309,7 +4135,9 @@
         "regency_code": 3471,
         "province_code": 34,
         "name": "Wirobrajan",
-        "postal_code": "55252"
+        "postal_code": "55252",
+        "latitude": -7.804533221867539,
+        "longitude": 110.35021541781765
     },
     {
         "code": 3471071003,
@@ -3317,7 +4145,9 @@
         "regency_code": 3471,
         "province_code": 34,
         "name": "Patangpuluhan",
-        "postal_code": "55251"
+        "postal_code": "55251",
+        "latitude": -7.810143422462693,
+        "longitude": 110.34897040576342
     },
     {
         "code": 3471081001,
@@ -3325,7 +4155,9 @@
         "regency_code": 3471,
         "province_code": 34,
         "name": "Gedongkiwo",
-        "postal_code": "55142"
+        "postal_code": "55142",
+        "latitude": -7.817433941826408,
+        "longitude": 110.35384091213847
     },
     {
         "code": 3471081002,
@@ -3333,7 +4165,9 @@
         "regency_code": 3471,
         "province_code": 34,
         "name": "Suryodiningratan",
-        "postal_code": "55141"
+        "postal_code": "55141",
+        "latitude": -7.819256828570691,
+        "longitude": 110.35887350860645
     },
     {
         "code": 3471081003,
@@ -3341,7 +4175,9 @@
         "regency_code": 3471,
         "province_code": 34,
         "name": "Mantrijeron",
-        "postal_code": "55143"
+        "postal_code": "55143",
+        "latitude": -7.820200684304673,
+        "longitude": 110.3648720594291
     },
     {
         "code": 3471091001,
@@ -3349,7 +4185,9 @@
         "regency_code": 3471,
         "province_code": 34,
         "name": "Patehan",
-        "postal_code": "55133"
+        "postal_code": "55133",
+        "latitude": -7.811105222259074,
+        "longitude": 110.36028498072213
     },
     {
         "code": 3471091002,
@@ -3357,7 +4195,9 @@
         "regency_code": 3471,
         "province_code": 34,
         "name": "Panembahan",
-        "postal_code": "55131"
+        "postal_code": "55131",
+        "latitude": -7.808977068952255,
+        "longitude": 110.36629380482329
     },
     {
         "code": 3471091003,
@@ -3365,7 +4205,9 @@
         "regency_code": 3471,
         "province_code": 34,
         "name": "Kadipaten",
-        "postal_code": "55132"
+        "postal_code": "55132",
+        "latitude": -7.8069056928675575,
+        "longitude": 110.35927053867138
     },
     {
         "code": 3471101001,
@@ -3373,7 +4215,9 @@
         "regency_code": 3471,
         "province_code": 34,
         "name": "Ngupasan",
-        "postal_code": "55122"
+        "postal_code": "55122",
+        "latitude": -7.799952431762726,
+        "longitude": 110.3653761904412
     },
     {
         "code": 3471101002,
@@ -3381,7 +4225,9 @@
         "regency_code": 3471,
         "province_code": 34,
         "name": "Prawirodirjan",
-        "postal_code": "55121"
+        "postal_code": "55121",
+        "latitude": -7.804560345156852,
+        "longitude": 110.37016584384992
     },
     {
         "code": 3471111001,
@@ -3389,7 +4235,9 @@
         "regency_code": 3471,
         "province_code": 34,
         "name": "Purwokinanti",
-        "postal_code": "55112"
+        "postal_code": "55112",
+        "latitude": -7.799157333245309,
+        "longitude": 110.37355195758555
     },
     {
         "code": 3471111002,
@@ -3397,7 +4245,9 @@
         "regency_code": 3471,
         "province_code": 34,
         "name": "Gunungketur",
-        "postal_code": "55111"
+        "postal_code": "55111",
+        "latitude": -7.801007147555098,
+        "longitude": 110.37788519472548
     },
     {
         "code": 3471121001,
@@ -3405,7 +4255,9 @@
         "regency_code": 3471,
         "province_code": 34,
         "name": "Keparakan",
-        "postal_code": "55152"
+        "postal_code": "55152",
+        "latitude": -7.811705163816483,
+        "longitude": 110.3718636007157
     },
     {
         "code": 3471121002,
@@ -3413,7 +4265,9 @@
         "regency_code": 3471,
         "province_code": 34,
         "name": "Wirogunan",
-        "postal_code": "55151"
+        "postal_code": "55151",
+        "latitude": -7.808139806423622,
+        "longitude": 110.37701954655569
     },
     {
         "code": 3471121003,
@@ -3421,7 +4275,9 @@
         "regency_code": 3471,
         "province_code": 34,
         "name": "Brontokusuman",
-        "postal_code": "55153"
+        "postal_code": "55153",
+        "latitude": -7.820168343859393,
+        "longitude": 110.37170568251192
     },
     {
         "code": 3471131001,
@@ -3429,7 +4285,9 @@
         "regency_code": 3471,
         "province_code": 34,
         "name": "Semaki",
-        "postal_code": "55166"
+        "postal_code": "55166",
+        "latitude": -7.7979231893882135,
+        "longitude": 110.38388255036503
     },
     {
         "code": 3471131002,
@@ -3437,7 +4295,9 @@
         "regency_code": 3471,
         "province_code": 34,
         "name": "Muja Muju",
-        "postal_code": "55165"
+        "postal_code": "55165",
+        "latitude": -7.7994258957530205,
+        "longitude": 110.39304956354752
     },
     {
         "code": 3471131003,
@@ -3445,7 +4305,9 @@
         "regency_code": 3471,
         "province_code": 34,
         "name": "Tahunan",
-        "postal_code": "55167"
+        "postal_code": "55167",
+        "latitude": -7.806607701536511,
+        "longitude": 110.38337523518835
     },
     {
         "code": 3471131004,
@@ -3453,7 +4315,9 @@
         "regency_code": 3471,
         "province_code": 34,
         "name": "Warungboto",
-        "postal_code": "55164"
+        "postal_code": "55164",
+        "latitude": -7.808310822901723,
+        "longitude": 110.39006238349572
     },
     {
         "code": 3471131005,
@@ -3461,7 +4325,9 @@
         "regency_code": 3471,
         "province_code": 34,
         "name": "Pandeyan",
-        "postal_code": "55161"
+        "postal_code": "55161",
+        "latitude": -7.817135548496369,
+        "longitude": 110.38798038927155
     },
     {
         "code": 3471131006,
@@ -3469,7 +4335,9 @@
         "regency_code": 3471,
         "province_code": 34,
         "name": "Sorosutan",
-        "postal_code": "55162"
+        "postal_code": "55162",
+        "latitude": -7.823249882385364,
+        "longitude": 110.380202588281
     },
     {
         "code": 3471131007,
@@ -3477,7 +4345,9 @@
         "regency_code": 3471,
         "province_code": 34,
         "name": "Giwangan",
-        "postal_code": "55163"
+        "postal_code": "55163",
+        "latitude": -7.8308412085861585,
+        "longitude": 110.38995526723905
     },
     {
         "code": 3471141001,
@@ -3485,7 +4355,9 @@
         "regency_code": 3471,
         "province_code": 34,
         "name": "Rejowinangun",
-        "postal_code": "55171"
+        "postal_code": "55171",
+        "latitude": -7.810922086349436,
+        "longitude": 110.39894685251305
     },
     {
         "code": 3471141002,
@@ -3493,7 +4365,9 @@
         "regency_code": 3471,
         "province_code": 34,
         "name": "Prenggan",
-        "postal_code": "55172"
+        "postal_code": "55172",
+        "latitude": -7.821785128514162,
+        "longitude": 110.39605674975053
     },
     {
         "code": 3471141003,
@@ -3501,6 +4375,8 @@
         "regency_code": 3471,
         "province_code": 34,
         "name": "Purbayan",
-        "postal_code": "55173"
+        "postal_code": "55173",
+        "latitude": -7.827283812120311,
+        "longitude": 110.40178629734092
     }
 ]

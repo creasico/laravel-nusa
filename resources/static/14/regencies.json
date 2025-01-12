@@ -3,84 +3,84 @@
         "code": 1401,
         "province_code": 14,
         "name": "Kab. Kampar",
-        "latitude": 0.3138917999795952,
-        "longitude": 101.01798894984739
+        "latitude": 0.32139448332871634,
+        "longitude": 101.06575454365552
     },
     {
         "code": 1402,
         "province_code": 14,
         "name": "Kab. Indragiri Hulu",
-        "latitude": -0.39300278228698865,
-        "longitude": 102.43757196516648
+        "latitude": -0.5414319300525708,
+        "longitude": 102.33188543087458
     },
     {
         "code": 1403,
         "province_code": 14,
         "name": "Kab. Bengkalis",
-        "latitude": 1.4731922402874156,
-        "longitude": 102.11333539019962
+        "latitude": 1.4119064602346694,
+        "longitude": 101.6428613308168
     },
     {
         "code": 1404,
         "province_code": 14,
         "name": "Kab. Indragiri Hilir",
-        "latitude": -0.3151906894045306,
-        "longitude": 103.15785004555477
+        "latitude": -0.23344038798816516,
+        "longitude": 103.16381105606023
     },
     {
         "code": 1405,
         "province_code": 14,
         "name": "Kab. Pelalawan",
-        "latitude": 0.38378706324101214,
-        "longitude": 101.8419575583448
+        "latitude": 0.21750886847275797,
+        "longitude": 102.28038767796743
     },
     {
         "code": 1406,
         "province_code": 14,
         "name": "Kab. Rokan Hulu",
-        "latitude": 0.8997093117054642,
-        "longitude": 100.30741018024709
+        "latitude": 0.9430253250780288,
+        "longitude": 100.50535633512773
     },
     {
         "code": 1407,
         "province_code": 14,
         "name": "Kab. Rokan Hilir",
-        "latitude": 2.0994939613474934,
-        "longitude": 100.81765082131788
+        "latitude": 1.773127276388596,
+        "longitude": 100.74919106632665
     },
     {
         "code": 1408,
         "province_code": 14,
         "name": "Kab. Siak",
-        "latitude": 0.8045392202011306,
-        "longitude": 102.02031850446771
+        "latitude": 0.8170147895117068,
+        "longitude": 101.87542601370852
     },
     {
         "code": 1409,
         "province_code": 14,
         "name": "Kab. Kuantan Singingi",
-        "latitude": -0.5053008502336358,
-        "longitude": 101.53807726174774
+        "latitude": -0.4741700387601444,
+        "longitude": 101.50591624999501
     },
     {
         "code": 1410,
         "province_code": 14,
         "name": "Kab. Kepulauan Meranti",
-        "latitude": 1.0007034465615983,
-        "longitude": 102.72568179719613
+        "latitude": 1.003260429879574,
+        "longitude": 102.6493398838568
     },
     {
         "code": 1471,
         "province_code": 14,
         "name": "Kota Pekanbaru",
-        "latitude": 0.5134188210148788,
-        "longitude": 101.44702176089957
+        "latitude": 0.5512765526855368,
+        "longitude": 101.4657262945736
     },
     {
         "code": 1472,
         "province_code": 14,
         "name": "Kota Dumai",
-        "latitude": 1.605410676514873,
-        "longitude": 101.39165976395793
+        "latitude": 1.8207559200441943,
+        "longitude": 101.28228692078588
     }
 ]

@@ -5,7 +5,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Tanjung Palas Hulu",
-        "postal_code": "77215"
+        "postal_code": "77215",
+        "latitude": 2.8142505836643026,
+        "longitude": 117.35495782589244
     },
     {
         "code": 6501011002,
@@ -13,7 +15,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Tanjung Palas Tengah",
-        "postal_code": "77216"
+        "postal_code": "77216",
+        "latitude": 2.8301735884507084,
+        "longitude": 117.35269264038484
     },
     {
         "code": 6501011003,
@@ -21,7 +25,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Tanjung Palas Hilir",
-        "postal_code": "77211"
+        "postal_code": "77211",
+        "latitude": 2.892476051571829,
+        "longitude": 117.32263099941581
     },
     {
         "code": 6501011004,
@@ -29,7 +35,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Karang Anyar",
-        "postal_code": "77214"
+        "postal_code": "77214",
+        "latitude": 2.8367174576079695,
+        "longitude": 117.34860325772851
     },
     {
         "code": 6501012005,
@@ -37,7 +45,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Gunung Putih",
-        "postal_code": "77211"
+        "postal_code": "77211",
+        "latitude": 2.842107860477587,
+        "longitude": 117.33431853114384
     },
     {
         "code": 6501012006,
@@ -45,7 +55,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Pejalin",
-        "postal_code": "77211"
+        "postal_code": "77211",
+        "latitude": 2.8473131835972048,
+        "longitude": 117.28211785329455
     },
     {
         "code": 6501012007,
@@ -53,7 +65,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Antutan",
-        "postal_code": "77211"
+        "postal_code": "77211",
+        "latitude": 2.6248886635651716,
+        "longitude": 117.31152313347434
     },
     {
         "code": 6501012008,
@@ -61,7 +75,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Teras Baru",
-        "postal_code": "77214"
+        "postal_code": "77214",
+        "latitude": 2.8885791523639783,
+        "longitude": 117.32962531058469
     },
     {
         "code": 6501012009,
@@ -69,7 +85,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Teras Nawang",
-        "postal_code": "77214"
+        "postal_code": "77214",
+        "latitude": 2.8848048901831485,
+        "longitude": 117.3485708345733
     },
     {
         "code": 6501022001,
@@ -77,7 +95,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Long Beluah",
-        "postal_code": "77217"
+        "postal_code": "77217",
+        "latitude": 2.7495051818405,
+        "longitude": 117.10417844305145
     },
     {
         "code": 6501022002,
@@ -85,7 +105,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Long Sam",
-        "postal_code": "77217"
+        "postal_code": "77217",
+        "latitude": 2.654722081889172,
+        "longitude": 117.12712584069857
     },
     {
         "code": 6501022003,
@@ -93,7 +115,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Mara I",
-        "postal_code": "77217"
+        "postal_code": "77217",
+        "latitude": 2.680353771489893,
+        "longitude": 117.20082304941666
     },
     {
         "code": 6501022004,
@@ -101,7 +125,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Mara Hilir",
-        "postal_code": "77217"
+        "postal_code": "77217",
+        "latitude": 2.643839168433948,
+        "longitude": 117.24841823316804
     },
     {
         "code": 6501022005,
@@ -109,7 +135,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Long Pari",
-        "postal_code": "77217"
+        "postal_code": "77217",
+        "latitude": 2.857901478471553,
+        "longitude": 117.19025851178846
     },
     {
         "code": 6501032001,
@@ -117,7 +145,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Karang Agung",
-        "postal_code": "77218"
+        "postal_code": "77218",
+        "latitude": 3.0350927638033545,
+        "longitude": 117.1197773808522
     },
     {
         "code": 6501032002,
@@ -125,7 +155,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Pimping",
-        "postal_code": "77218"
+        "postal_code": "77218",
+        "latitude": 2.9741309113291354,
+        "longitude": 117.17603094598404
     },
     {
         "code": 6501032003,
@@ -133,7 +165,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Panca Agung",
-        "postal_code": "77218"
+        "postal_code": "77218",
+        "latitude": 3.089945263622083,
+        "longitude": 117.17113657829917
     },
     {
         "code": 6501032004,
@@ -141,7 +175,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Ruhui Rahayu",
-        "postal_code": "77218"
+        "postal_code": "77218",
+        "latitude": 3.062715465225499,
+        "longitude": 117.2556922424061
     },
     {
         "code": 6501032005,
@@ -149,7 +185,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Ardi Mulyo",
-        "postal_code": "77218"
+        "postal_code": "77218",
+        "latitude": 3.0983404725881027,
+        "longitude": 117.23546574256584
     },
     {
         "code": 6501032006,
@@ -157,7 +195,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Kelubir",
-        "postal_code": "77218"
+        "postal_code": "77218",
+        "latitude": 3.021799227185154,
+        "longitude": 117.26904876402095
     },
     {
         "code": 6501042001,
@@ -165,7 +205,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Tanah Kuning",
-        "postal_code": "77215"
+        "postal_code": "77215",
+        "latitude": 2.6199039626137406,
+        "longitude": 117.74863023746585
     },
     {
         "code": 6501042002,
@@ -173,7 +215,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Mangkupadi",
-        "postal_code": "77215"
+        "postal_code": "77215",
+        "latitude": 2.4587196098452666,
+        "longitude": 117.79753626249727
     },
     {
         "code": 6501042003,
@@ -181,7 +225,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Sajau",
-        "postal_code": "77215"
+        "postal_code": "77215",
+        "latitude": 2.600044422913253,
+        "longitude": 117.56800750305509
     },
     {
         "code": 6501042004,
@@ -189,7 +235,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Wonomulyo",
-        "postal_code": "77215"
+        "postal_code": "77215",
+        "latitude": 2.703285143766672,
+        "longitude": 117.54254997115886
     },
     {
         "code": 6501042005,
@@ -197,7 +245,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Tanjung Agung",
-        "postal_code": "77215"
+        "postal_code": "77215",
+        "latitude": 2.7196049107914533,
+        "longitude": 117.5074954323467
     },
     {
         "code": 6501042006,
@@ -205,7 +255,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Binai",
-        "postal_code": "77215"
+        "postal_code": "77215",
+        "latitude": 2.613585220098918,
+        "longitude": 117.68527226062633
     },
     {
         "code": 6501042007,
@@ -213,7 +265,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Sajau Hilir",
-        "postal_code": "77215"
+        "postal_code": "77215",
+        "latitude": 2.761089864545966,
+        "longitude": 117.65047748310079
     },
     {
         "code": 6501042008,
@@ -221,7 +275,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Pura Sajau",
-        "postal_code": "77215"
+        "postal_code": "77215",
+        "latitude": 2.6858793268062526,
+        "longitude": 117.64554359815402
     },
     {
         "code": 6501051001,
@@ -229,7 +285,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Tanjung Selor Hulu",
-        "postal_code": "77211"
+        "postal_code": "77211",
+        "latitude": 2.825008917776076,
+        "longitude": 117.36969365273873
     },
     {
         "code": 6501051002,
@@ -237,7 +295,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Tanjung Selor Hilir",
-        "postal_code": "77212"
+        "postal_code": "77212",
+        "latitude": 2.8675128223290636,
+        "longitude": 117.40590108310211
     },
     {
         "code": 6501051008,
@@ -245,7 +305,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Tanjung Selor Timur",
-        "postal_code": "77212"
+        "postal_code": "77212",
+        "latitude": 2.8494027185829287,
+        "longitude": 117.43652027065177
     },
     {
         "code": 6501052003,
@@ -253,7 +315,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Jelarai Selor",
-        "postal_code": "77212"
+        "postal_code": "77212",
+        "latitude": 2.6436202409116674,
+        "longitude": 117.43377777395949
     },
     {
         "code": 6501052004,
@@ -261,7 +325,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Gunung Seriang",
-        "postal_code": "77212"
+        "postal_code": "77212",
+        "latitude": 2.7247614893438175,
+        "longitude": 117.36772258762548
     },
     {
         "code": 6501052005,
@@ -269,7 +335,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Bumi Rahayu",
-        "postal_code": "77212"
+        "postal_code": "77212",
+        "latitude": 2.792696443642021,
+        "longitude": 117.45674234213914
     },
     {
         "code": 6501052006,
@@ -277,7 +345,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Gunung Sari",
-        "postal_code": "77212"
+        "postal_code": "77212",
+        "latitude": 2.7525095179100876,
+        "longitude": 117.46048391920066
     },
     {
         "code": 6501052007,
@@ -285,7 +355,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Apung",
-        "postal_code": "77212"
+        "postal_code": "77212",
+        "latitude": 2.7729830466590504,
+        "longitude": 117.51041965367249
     },
     {
         "code": 6501052009,
@@ -293,7 +365,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Tengkapak",
-        "postal_code": "77212"
+        "postal_code": "77212",
+        "latitude": 2.827196460388892,
+        "longitude": 117.50644089238787
     },
     {
         "code": 6501062001,
@@ -301,7 +375,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Salimbatu",
-        "postal_code": "77216"
+        "postal_code": "77216",
+        "latitude": 3.041173422913161,
+        "longitude": 117.4181810002263
     },
     {
         "code": 6501062002,
@@ -309,7 +385,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Silva Rahayu",
-        "postal_code": "77216"
+        "postal_code": "77216",
+        "latitude": 2.9954578738138546,
+        "longitude": 117.29640578049505
     },
     {
         "code": 6501062003,
@@ -317,7 +395,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Tanjung Buka",
-        "postal_code": "77216"
+        "postal_code": "77216",
+        "latitude": 2.898247552976002,
+        "longitude": 117.5909845359858
     },
     {
         "code": 6501072001,
@@ -325,7 +405,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Lepak Aru",
-        "postal_code": "77261"
+        "postal_code": "77261",
+        "latitude": 2.8499661824444544,
+        "longitude": 116.79736789910157
     },
     {
         "code": 6501072002,
@@ -333,7 +415,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Long Lasan",
-        "postal_code": "77261"
+        "postal_code": "77261",
+        "latitude": 2.811186820090239,
+        "longitude": 116.80435781340736
     },
     {
         "code": 6501072003,
@@ -341,7 +425,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Long Peso",
-        "postal_code": "77261"
+        "postal_code": "77261",
+        "latitude": 2.6887328691444354,
+        "longitude": 116.76663257808335
     },
     {
         "code": 6501072004,
@@ -349,7 +435,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Long Bia",
-        "postal_code": "77261"
+        "postal_code": "77261",
+        "latitude": 2.7363887891545526,
+        "longitude": 116.78528707554952
     },
     {
         "code": 6501072005,
@@ -357,7 +445,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Muara Pangean",
-        "postal_code": "77261"
+        "postal_code": "77261",
+        "latitude": 2.6909630543354677,
+        "longitude": 116.77629017114312
     },
     {
         "code": 6501072006,
@@ -365,7 +455,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Long Lian",
-        "postal_code": "77261"
+        "postal_code": "77261",
+        "latitude": 2.613269681822547,
+        "longitude": 116.72379482733857
     },
     {
         "code": 6501072007,
@@ -373,7 +465,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Long Pelaah",
-        "postal_code": "77261"
+        "postal_code": "77261",
+        "latitude": 2.481361537858971,
+        "longitude": 116.62126591500531
     },
     {
         "code": 6501072008,
@@ -381,7 +475,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Long Lejuh",
-        "postal_code": "77261"
+        "postal_code": "77261",
+        "latitude": 2.5607310634648655,
+        "longitude": 116.36256006199379
     },
     {
         "code": 6501072009,
@@ -389,7 +485,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Long Pelban",
-        "postal_code": "77261"
+        "postal_code": "77261",
+        "latitude": 2.430443780789442,
+        "longitude": 116.41613648636525
     },
     {
         "code": 6501072010,
@@ -397,7 +495,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Long Buang",
-        "postal_code": "77261"
+        "postal_code": "77261",
+        "latitude": 2.5660831285417856,
+        "longitude": 116.67164351685001
     },
     {
         "code": 6501082001,
@@ -405,7 +505,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Long Tungu",
-        "postal_code": "77262"
+        "postal_code": "77262",
+        "latitude": 2.843212269750092,
+        "longitude": 117.0377966713873
     },
     {
         "code": 6501082002,
@@ -413,7 +515,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Long Bang",
-        "postal_code": "77262"
+        "postal_code": "77262",
+        "latitude": 2.8550999311783207,
+        "longitude": 116.99254745170145
     },
     {
         "code": 6501082003,
@@ -421,7 +525,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Long Telenjau",
-        "postal_code": "77262"
+        "postal_code": "77262",
+        "latitude": 2.7198680757113234,
+        "longitude": 116.95578334434411
     },
     {
         "code": 6501082004,
@@ -429,7 +535,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Naha Aya",
-        "postal_code": "77262"
+        "postal_code": "77262",
+        "latitude": 2.7465734027425053,
+        "longitude": 116.88763865707982
     },
     {
         "code": 6501082005,
@@ -437,7 +545,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Long Lembu",
-        "postal_code": "77262"
+        "postal_code": "77262",
+        "latitude": 2.806777546255385,
+        "longitude": 117.08208119248953
     },
     {
         "code": 6501082006,
@@ -445,7 +555,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Long Bang Hulu",
-        "postal_code": "77262"
+        "postal_code": "77262",
+        "latitude": 2.916205904250861,
+        "longitude": 116.95721958485665
     },
     {
         "code": 6501092001,
@@ -453,7 +565,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Sekatak Buji",
-        "postal_code": "77263"
+        "postal_code": "77263",
+        "latitude": 3.30022229614068,
+        "longitude": 117.22915357620097
     },
     {
         "code": 6501092002,
@@ -461,7 +575,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Paru Abang",
-        "postal_code": "77263"
+        "postal_code": "77263",
+        "latitude": 3.2952959614577506,
+        "longitude": 117.0161182971535
     },
     {
         "code": 6501092003,
@@ -469,7 +585,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Bunau",
-        "postal_code": "77263"
+        "postal_code": "77263",
+        "latitude": 3.235881390131338,
+        "longitude": 117.02900290022104
     },
     {
         "code": 6501092004,
@@ -477,7 +595,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Ujang",
-        "postal_code": "77263"
+        "postal_code": "77263",
+        "latitude": 3.1239615155955156,
+        "longitude": 116.81785349682302
     },
     {
         "code": 6501092005,
@@ -485,7 +605,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Tenggiling",
-        "postal_code": "77263"
+        "postal_code": "77263",
+        "latitude": 3.1721832098784337,
+        "longitude": 116.90974839302022
     },
     {
         "code": 6501092006,
@@ -493,7 +615,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Kelembunan",
-        "postal_code": "77263"
+        "postal_code": "77263",
+        "latitude": 3.3512790755081947,
+        "longitude": 116.92688002912968
     },
     {
         "code": 6501092007,
@@ -501,7 +625,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Turung",
-        "postal_code": "77263"
+        "postal_code": "77263",
+        "latitude": 3.3667983315227903,
+        "longitude": 117.04596728489969
     },
     {
         "code": 6501092008,
@@ -509,7 +635,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Terindak",
-        "postal_code": "77263"
+        "postal_code": "77263",
+        "latitude": 3.147127250824556,
+        "longitude": 116.99459647564449
     },
     {
         "code": 6501092009,
@@ -517,7 +645,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Kelising",
-        "postal_code": "77263"
+        "postal_code": "77263",
+        "latitude": 3.2684751708646114,
+        "longitude": 116.9603225584455
     },
     {
         "code": 6501092010,
@@ -525,7 +655,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Ambalat",
-        "postal_code": "77263"
+        "postal_code": "77263",
+        "latitude": 3.2282649308084954,
+        "longitude": 117.13167549551851
     },
     {
         "code": 6501092011,
@@ -533,7 +665,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Keriting",
-        "postal_code": "77263"
+        "postal_code": "77263",
+        "latitude": 3.206214670786205,
+        "longitude": 117.14113939694155
     },
     {
         "code": 6501092012,
@@ -541,7 +675,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Kendari",
-        "postal_code": "77263"
+        "postal_code": "77263",
+        "latitude": 3.2333775888281435,
+        "longitude": 117.10076891461905
     },
     {
         "code": 6501092013,
@@ -549,7 +685,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Bambang",
-        "postal_code": "77263"
+        "postal_code": "77263",
+        "latitude": 3.3433916705318936,
+        "longitude": 116.8901847982334
     },
     {
         "code": 6501092014,
@@ -557,7 +695,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Maritam",
-        "postal_code": "77263"
+        "postal_code": "77263",
+        "latitude": 3.3686521792944597,
+        "longitude": 116.96941055431635
     },
     {
         "code": 6501092015,
@@ -565,7 +705,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Pentian",
-        "postal_code": "77263"
+        "postal_code": "77263",
+        "latitude": 3.2217157648454164,
+        "longitude": 117.19528803443848
     },
     {
         "code": 6501092016,
@@ -573,7 +715,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Punan Dulau",
-        "postal_code": "77263"
+        "postal_code": "77263",
+        "latitude": 3.301347144833825,
+        "longitude": 116.8130576203916
     },
     {
         "code": 6501092017,
@@ -581,7 +725,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Kelincauan",
-        "postal_code": "77263"
+        "postal_code": "77263",
+        "latitude": 3.23090712072663,
+        "longitude": 117.07996651872467
     },
     {
         "code": 6501092018,
@@ -589,7 +735,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Bekiliu",
-        "postal_code": "77263"
+        "postal_code": "77263",
+        "latitude": 3.2992403380773583,
+        "longitude": 116.94397430765792
     },
     {
         "code": 6501092019,
@@ -597,7 +745,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Sekatak Bengara",
-        "postal_code": "77263"
+        "postal_code": "77263",
+        "latitude": 3.1657384304695615,
+        "longitude": 117.22754955706155
     },
     {
         "code": 6501092020,
@@ -605,7 +755,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Pungit",
-        "postal_code": "77263"
+        "postal_code": "77263",
+        "latitude": 3.12326432076482,
+        "longitude": 117.08052349318757
     },
     {
         "code": 6501092021,
@@ -613,7 +765,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Anjar Arip",
-        "postal_code": "77263"
+        "postal_code": "77263",
+        "latitude": 3.2671090747269043,
+        "longitude": 117.13923969802693
     },
     {
         "code": 6501092022,
@@ -621,7 +775,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Liagu",
-        "postal_code": "77263"
+        "postal_code": "77263",
+        "latitude": 3.3145090644437616,
+        "longitude": 117.41116656621666
     },
     {
         "code": 6501102001,
@@ -629,7 +785,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Bunyu Barat",
-        "postal_code": "77281"
+        "postal_code": "77281",
+        "latitude": 3.5263382507815177,
+        "longitude": 117.60008484864548
     },
     {
         "code": 6501102002,
@@ -637,7 +795,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Bunyu Selatan",
-        "postal_code": "77281"
+        "postal_code": "77281",
+        "latitude": 3.459902182536625,
+        "longitude": 117.8601735669239
     },
     {
         "code": 6501102003,
@@ -645,7 +805,9 @@
         "regency_code": 6501,
         "province_code": 65,
         "name": "Bunyu Timur",
-        "postal_code": "77281"
+        "postal_code": "77281",
+        "latitude": 3.537704820240895,
+        "longitude": 117.81437451987414
     },
     {
         "code": 6502012002,
@@ -653,7 +815,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Long Bisai",
-        "postal_code": "77555"
+        "postal_code": "77555",
+        "latitude": 3.543537062577907,
+        "longitude": 116.45287056880895
     },
     {
         "code": 6502012005,
@@ -661,7 +825,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Pulau Sapi",
-        "postal_code": "77555"
+        "postal_code": "77555",
+        "latitude": 3.552517648361938,
+        "longitude": 116.47840558025271
     },
     {
         "code": 6502012006,
@@ -669,7 +835,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Paking",
-        "postal_code": "77555"
+        "postal_code": "77555",
+        "latitude": 3.5903272182400148,
+        "longitude": 116.3399022549102
     },
     {
         "code": 6502012007,
@@ -677,7 +845,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Lidung Kemenci",
-        "postal_code": "77555"
+        "postal_code": "77555",
+        "latitude": 3.499970225027581,
+        "longitude": 116.52890105308553
     },
     {
         "code": 6502012008,
@@ -685,7 +855,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Mentarang Baru",
-        "postal_code": "77555"
+        "postal_code": "77555",
+        "latitude": 3.5565210945862504,
+        "longitude": 116.5344691475748
     },
     {
         "code": 6502012009,
@@ -693,7 +865,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Harapan Maju",
-        "postal_code": "77555"
+        "postal_code": "77555",
+        "latitude": 3.5224014869919182,
+        "longitude": 116.19376135255449
     },
     {
         "code": 6502022001,
@@ -701,7 +875,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Batu Lidung",
-        "postal_code": "77550"
+        "postal_code": "77550",
+        "latitude": 3.5419101994837745,
+        "longitude": 116.65922898914665
     },
     {
         "code": 6502022002,
@@ -709,7 +885,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Malinau Kota",
-        "postal_code": "77550"
+        "postal_code": "77550",
+        "latitude": 3.58682554253629,
+        "longitude": 116.6426200363264
     },
     {
         "code": 6502022003,
@@ -717,7 +895,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Pelita Kanaan",
-        "postal_code": "77550"
+        "postal_code": "77550",
+        "latitude": 3.576742008013372,
+        "longitude": 116.61280961519816
     },
     {
         "code": 6502022004,
@@ -725,7 +905,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Malinau Hulu",
-        "postal_code": "77550"
+        "postal_code": "77550",
+        "latitude": 3.5623683504324064,
+        "longitude": 116.60221431227791
     },
     {
         "code": 6502022005,
@@ -733,7 +915,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Malinau Hilir",
-        "postal_code": "77550"
+        "postal_code": "77550",
+        "latitude": 3.5960830445021084,
+        "longitude": 116.68792798235481
     },
     {
         "code": 6502022006,
@@ -741,7 +925,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Tanjung Keranjang",
-        "postal_code": "77550"
+        "postal_code": "77550",
+        "latitude": 3.5620380156789877,
+        "longitude": 116.67165859402049
     },
     {
         "code": 6502032001,
@@ -749,7 +935,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Long Pujungan",
-        "postal_code": "77563"
+        "postal_code": "77563",
+        "latitude": 2.646713738845158,
+        "longitude": 115.82061360264491
     },
     {
         "code": 6502032002,
@@ -757,7 +945,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Long Ketaman",
-        "postal_code": "77563"
+        "postal_code": "77563",
+        "latitude": 2.4995945579059735,
+        "longitude": 115.7402333307333
     },
     {
         "code": 6502032003,
@@ -765,7 +955,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Long Pua",
-        "postal_code": "77563"
+        "postal_code": "77563",
+        "latitude": 2.5713555241725885,
+        "longitude": 115.66275807703313
     },
     {
         "code": 6502032004,
@@ -773,7 +965,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Long Lame",
-        "postal_code": "77563"
+        "postal_code": "77563",
+        "latitude": 2.7646593370164645,
+        "longitude": 115.26386535491721
     },
     {
         "code": 6502032005,
@@ -781,7 +975,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Long Jelet",
-        "postal_code": "77563"
+        "postal_code": "77563",
+        "latitude": 2.4463845099248642,
+        "longitude": 115.49291775127189
     },
     {
         "code": 6502032006,
@@ -789,7 +985,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Long Aran",
-        "postal_code": "77563"
+        "postal_code": "77563",
+        "latitude": 2.516179055659698,
+        "longitude": 116.02630125289379
     },
     {
         "code": 6502032007,
@@ -797,7 +995,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Long Peliran",
-        "postal_code": "77563"
+        "postal_code": "77563",
+        "latitude": 2.7179796599527823,
+        "longitude": 115.79611033572205
     },
     {
         "code": 6502032008,
@@ -805,7 +1005,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Long Bena",
-        "postal_code": "77563"
+        "postal_code": "77563",
+        "latitude": 2.796593868643541,
+        "longitude": 115.52203084890856
     },
     {
         "code": 6502032009,
@@ -813,7 +1015,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Long Belaka Pitau",
-        "postal_code": "77563"
+        "postal_code": "77563",
+        "latitude": 2.6731264433646844,
+        "longitude": 115.6682272709726
     },
     {
         "code": 6502042001,
@@ -821,7 +1025,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Data Dian",
-        "postal_code": "77571"
+        "postal_code": "77571",
+        "latitude": 2.2119285496531416,
+        "longitude": 115.40355420326857
     },
     {
         "code": 6502042002,
@@ -829,7 +1035,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Long Pipa",
-        "postal_code": "77571"
+        "postal_code": "77571",
+        "latitude": 1.8656069508212618,
+        "longitude": 115.4976425402601
     },
     {
         "code": 6502042003,
@@ -837,7 +1045,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Long Sule",
-        "postal_code": "77571"
+        "postal_code": "77571",
+        "latitude": 1.8312790012798372,
+        "longitude": 115.8825915052668
     },
     {
         "code": 6502042004,
@@ -845,7 +1055,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Sungai Anai",
-        "postal_code": "77571"
+        "postal_code": "77571",
+        "latitude": 2.166136453564463,
+        "longitude": 114.99408539630384
     },
     {
         "code": 6502042005,
@@ -853,7 +1065,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Long Metun",
-        "postal_code": "77571"
+        "postal_code": "77571",
+        "latitude": 1.9250207025147232,
+        "longitude": 115.13224552770963
     },
     {
         "code": 6502052001,
@@ -861,7 +1075,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Long Nawang",
-        "postal_code": "77572"
+        "postal_code": "77572",
+        "latitude": 1.8668209492445509,
+        "longitude": 114.89277364457217
     },
     {
         "code": 6502052002,
@@ -869,7 +1085,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Nawang Baru",
-        "postal_code": "77572"
+        "postal_code": "77572",
+        "latitude": 1.512991377342048,
+        "longitude": 114.79775030156584
     },
     {
         "code": 6502052003,
@@ -877,7 +1095,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Long Temuyat",
-        "postal_code": "77572"
+        "postal_code": "77572",
+        "latitude": 1.7432757230667566,
+        "longitude": 114.8919140737623
     },
     {
         "code": 6502052004,
@@ -885,7 +1105,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Long Betaoh",
-        "postal_code": "77572"
+        "postal_code": "77572",
+        "latitude": 1.7937078882151374,
+        "longitude": 114.77461586883737
     },
     {
         "code": 6502052005,
@@ -893,7 +1115,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Long Payau",
-        "postal_code": "77572"
+        "postal_code": "77572",
+        "latitude": 1.8341222625527251,
+        "longitude": 114.97704862431524
     },
     {
         "code": 6502062001,
@@ -901,7 +1125,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Bila Bekayuk",
-        "postal_code": "77551"
+        "postal_code": "77551",
+        "latitude": 3.231690345262249,
+        "longitude": 116.51226315061571
     },
     {
         "code": 6502062002,
@@ -909,7 +1135,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Long Loreh",
-        "postal_code": "77551"
+        "postal_code": "77551",
+        "latitude": 3.1890320412637374,
+        "longitude": 116.50528270822208
     },
     {
         "code": 6502062003,
@@ -917,7 +1145,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Langap",
-        "postal_code": "77551"
+        "postal_code": "77551",
+        "latitude": 3.1691137154277484,
+        "longitude": 116.51833617880148
     },
     {
         "code": 6502062004,
@@ -925,7 +1155,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Laban Nyarit",
-        "postal_code": "77551"
+        "postal_code": "77551",
+        "latitude": 3.127385108259124,
+        "longitude": 116.5078428405785
     },
     {
         "code": 6502062005,
@@ -933,7 +1165,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Nunuk Tanah Kibang",
-        "postal_code": "77551"
+        "postal_code": "77551",
+        "latitude": 3.163043037286731,
+        "longitude": 116.37091583246247
     },
     {
         "code": 6502062006,
@@ -941,7 +1175,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Pelencau",
-        "postal_code": "77551"
+        "postal_code": "77551",
+        "latitude": 3.092887783336109,
+        "longitude": 116.63479712942706
     },
     {
         "code": 6502062007,
@@ -949,7 +1185,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Paya Seturan",
-        "postal_code": "77551"
+        "postal_code": "77551",
+        "latitude": 3.0536922554641204,
+        "longitude": 116.48390166472743
     },
     {
         "code": 6502062008,
@@ -957,7 +1195,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Punan Rian",
-        "postal_code": "77551"
+        "postal_code": "77551",
+        "latitude": 2.9660948566889402,
+        "longitude": 116.55519991357146
     },
     {
         "code": 6502062009,
@@ -965,7 +1205,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Sengayan",
-        "postal_code": "77551"
+        "postal_code": "77551",
+        "latitude": 3.20700797811284,
+        "longitude": 116.39238611771151
     },
     {
         "code": 6502072001,
@@ -973,7 +1215,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Kaliamok",
-        "postal_code": "77557"
+        "postal_code": "77557",
+        "latitude": 3.6366685301918,
+        "longitude": 116.63609532459124
     },
     {
         "code": 6502072002,
@@ -981,7 +1225,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Luso",
-        "postal_code": "77557"
+        "postal_code": "77557",
+        "latitude": 3.6122980492847665,
+        "longitude": 116.59996329622577
     },
     {
         "code": 6502072003,
@@ -989,7 +1235,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Malinau Seberang",
-        "postal_code": "77557"
+        "postal_code": "77557",
+        "latitude": 3.6058057661002376,
+        "longitude": 116.62657533748019
     },
     {
         "code": 6502072004,
@@ -997,7 +1245,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Putat",
-        "postal_code": "77557"
+        "postal_code": "77557",
+        "latitude": 3.648388263042569,
+        "longitude": 116.68471921909514
     },
     {
         "code": 6502072005,
@@ -1005,7 +1255,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Salap",
-        "postal_code": "77557"
+        "postal_code": "77557",
+        "latitude": 3.6434597820783785,
+        "longitude": 116.7073632443033
     },
     {
         "code": 6502072006,
@@ -1013,7 +1265,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Seruyung",
-        "postal_code": "77557"
+        "postal_code": "77557",
+        "latitude": 3.6828258809083763,
+        "longitude": 116.7143724403579
     },
     {
         "code": 6502072007,
@@ -1021,7 +1275,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Respen Tubu",
-        "postal_code": "77557"
+        "postal_code": "77557",
+        "latitude": 3.76889065498633,
+        "longitude": 116.40785995266117
     },
     {
         "code": 6502072008,
@@ -1029,7 +1285,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Belayan",
-        "postal_code": "77557"
+        "postal_code": "77557",
+        "latitude": 3.7573339978792206,
+        "longitude": 116.56893504213645
     },
     {
         "code": 6502072009,
@@ -1037,7 +1295,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Sembuak Warod",
-        "postal_code": "77557"
+        "postal_code": "77557",
+        "latitude": 3.6476285168585014,
+        "longitude": 116.48258546986521
     },
     {
         "code": 6502072010,
@@ -1045,7 +1305,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Lubak Manis",
-        "postal_code": "77557"
+        "postal_code": "77557",
+        "latitude": 3.615161253005596,
+        "longitude": 116.65292595359222
     },
     {
         "code": 6502072011,
@@ -1053,7 +1315,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Kelapis",
-        "postal_code": "77557"
+        "postal_code": "77557",
+        "latitude": 3.6392990095598545,
+        "longitude": 116.65943341263322
     },
     {
         "code": 6502072012,
@@ -1061,7 +1325,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Semengaris",
-        "postal_code": "77557"
+        "postal_code": "77557",
+        "latitude": 3.620762843155337,
+        "longitude": 116.66014603318173
     },
     {
         "code": 6502082001,
@@ -1069,7 +1335,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Long Bila",
-        "postal_code": "77554"
+        "postal_code": "77554",
+        "latitude": 3.4785575339601413,
+        "longitude": 116.48388038196164
     },
     {
         "code": 6502082002,
@@ -1077,7 +1345,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Long Kenipe",
-        "postal_code": "77554"
+        "postal_code": "77554",
+        "latitude": 3.4955611029089027,
+        "longitude": 116.49019323977234
     },
     {
         "code": 6502082003,
@@ -1085,7 +1355,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Punan Bengalun",
-        "postal_code": "77554"
+        "postal_code": "77554",
+        "latitude": 3.2738897076248272,
+        "longitude": 116.70457959195554
     },
     {
         "code": 6502082004,
@@ -1093,7 +1365,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Sesua",
-        "postal_code": "77554"
+        "postal_code": "77554",
+        "latitude": 3.394257364451218,
+        "longitude": 116.637343790642
     },
     {
         "code": 6502082005,
@@ -1101,7 +1375,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Sentaban",
-        "postal_code": "77554"
+        "postal_code": "77554",
+        "latitude": 3.473669663233655,
+        "longitude": 116.48528324918152
     },
     {
         "code": 6502082006,
@@ -1109,7 +1385,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Tanjung Lapang",
-        "postal_code": "77554"
+        "postal_code": "77554",
+        "latitude": 3.517634957934118,
+        "longitude": 116.58202883782597
     },
     {
         "code": 6502082007,
@@ -1117,7 +1395,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Taras",
-        "postal_code": "77554"
+        "postal_code": "77554",
+        "latitude": 3.5288467172392006,
+        "longitude": 116.55466757063995
     },
     {
         "code": 6502082008,
@@ -1125,7 +1405,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Kuala Lapang",
-        "postal_code": "77554"
+        "postal_code": "77554",
+        "latitude": 3.4596939615796534,
+        "longitude": 116.59880088218493
     },
     {
         "code": 6502082009,
@@ -1133,7 +1415,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Sempayang",
-        "postal_code": "77554"
+        "postal_code": "77554",
+        "latitude": 3.5069173933563236,
+        "longitude": 116.63892051892603
     },
     {
         "code": 6502092001,
@@ -1141,7 +1425,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Dumu Mahak",
-        "postal_code": "77574"
+        "postal_code": "77574",
+        "latitude": 1.2741814786484693,
+        "longitude": 115.27984750078794
     },
     {
         "code": 6502092002,
@@ -1149,7 +1435,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Long Lebusan",
-        "postal_code": "77574"
+        "postal_code": "77574",
+        "latitude": 1.4858763236687293,
+        "longitude": 115.50291196276743
     },
     {
         "code": 6502092003,
@@ -1157,7 +1445,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Mahak Baru",
-        "postal_code": "77574"
+        "postal_code": "77574",
+        "latitude": 1.5755005371544983,
+        "longitude": 115.2986504861627
     },
     {
         "code": 6502092004,
@@ -1165,7 +1455,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Long Top",
-        "postal_code": "77574"
+        "postal_code": "77574",
+        "latitude": 1.349250665987053,
+        "longitude": 115.48858979546753
     },
     {
         "code": 6502092005,
@@ -1173,7 +1465,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Agung Baru",
-        "postal_code": "77574"
+        "postal_code": "77574",
+        "latitude": 1.5132083262031575,
+        "longitude": 115.377924313512
     },
     {
         "code": 6502092006,
@@ -1181,7 +1475,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Data Baru",
-        "postal_code": "77574"
+        "postal_code": "77574",
+        "latitude": 1.440821891418082,
+        "longitude": 115.3651346266774
     },
     {
         "code": 6502102001,
@@ -1189,7 +1485,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Long Ampung",
-        "postal_code": "77573"
+        "postal_code": "77573",
+        "latitude": 1.6833338690953452,
+        "longitude": 114.91705286959709
     },
     {
         "code": 6502102002,
@@ -1197,7 +1495,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Long Uro",
-        "postal_code": "77573"
+        "postal_code": "77573",
+        "latitude": 1.6515090863023325,
+        "longitude": 114.99937441929467
     },
     {
         "code": 6502102003,
@@ -1205,7 +1505,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Lidung Payau",
-        "postal_code": "77573"
+        "postal_code": "77573",
+        "latitude": 1.6379109081544663,
+        "longitude": 115.04578901205903
     },
     {
         "code": 6502102004,
@@ -1213,7 +1515,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Sungai Barang",
-        "postal_code": "77573"
+        "postal_code": "77573",
+        "latitude": 1.6234592660964107,
+        "longitude": 115.13686520852463
     },
     {
         "code": 6502102005,
@@ -1221,7 +1525,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Metulang",
-        "postal_code": "77573"
+        "postal_code": "77573",
+        "latitude": 1.7782935768537773,
+        "longitude": 115.02303175526052
     },
     {
         "code": 6502112001,
@@ -1229,7 +1535,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Long Uli",
-        "postal_code": "77562"
+        "postal_code": "77562",
+        "latitude": 2.793386986201534,
+        "longitude": 115.84672943446945
     },
     {
         "code": 6502112002,
@@ -1237,7 +1545,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Long Alango",
-        "postal_code": "77562"
+        "postal_code": "77562",
+        "latitude": 2.891520864895405,
+        "longitude": 115.79861782740066
     },
     {
         "code": 6502112003,
@@ -1245,7 +1555,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Long Berini",
-        "postal_code": "77562"
+        "postal_code": "77562",
+        "latitude": 3.0379981020096727,
+        "longitude": 115.82174675213591
     },
     {
         "code": 6502112004,
@@ -1253,7 +1565,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Long Tebulo",
-        "postal_code": "77562"
+        "postal_code": "77562",
+        "latitude": 2.8517392770745755,
+        "longitude": 115.85454340790474
     },
     {
         "code": 6502112005,
@@ -1261,7 +1575,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Apau Ping",
-        "postal_code": "77562"
+        "postal_code": "77562",
+        "latitude": 3.243365704399606,
+        "longitude": 115.72419134872085
     },
     {
         "code": 6502112006,
@@ -1269,7 +1585,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Long Kemuat",
-        "postal_code": "77562"
+        "postal_code": "77562",
+        "latitude": 2.963664489983108,
+        "longitude": 115.83762939363884
     },
     {
         "code": 6502122001,
@@ -1277,7 +1595,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Lung Fala",
-        "postal_code": "77155"
+        "postal_code": "77155",
+        "latitude": 4.055928368727999,
+        "longitude": 116.07684297438207
     },
     {
         "code": 6502122002,
@@ -1285,7 +1605,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Lung Kebinu",
-        "postal_code": "77155"
+        "postal_code": "77155",
+        "latitude": 4.018723408213905,
+        "longitude": 116.15749691618602
     },
     {
         "code": 6502122003,
@@ -1293,7 +1615,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Lung Mekatif",
-        "postal_code": "77155"
+        "postal_code": "77155",
+        "latitude": 3.904128162418816,
+        "longitude": 116.18822810891102
     },
     {
         "code": 6502122004,
@@ -1301,7 +1625,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Lung Simau",
-        "postal_code": "77155"
+        "postal_code": "77155",
+        "latitude": 3.798738846141733,
+        "longitude": 116.27618068520184
     },
     {
         "code": 6502122005,
@@ -1309,7 +1635,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Lung Berang",
-        "postal_code": "77155"
+        "postal_code": "77155",
+        "latitude": 3.8814334449874677,
+        "longitude": 116.0995908129967
     },
     {
         "code": 6502122006,
@@ -1317,7 +1645,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Lung Sulit",
-        "postal_code": "77155"
+        "postal_code": "77155",
+        "latitude": 3.841952036778651,
+        "longitude": 116.0270817835813
     },
     {
         "code": 6502122007,
@@ -1325,7 +1655,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Lung Semamu",
-        "postal_code": "77155"
+        "postal_code": "77155",
+        "latitude": 3.671570750502137,
+        "longitude": 116.0381220823546
     },
     {
         "code": 6502122008,
@@ -1333,7 +1665,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Long Gafid",
-        "postal_code": "77555"
+        "postal_code": "77555",
+        "latitude": 3.9967112442031674,
+        "longitude": 116.24089562853172
     },
     {
         "code": 6502122009,
@@ -1341,7 +1675,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Temalang",
-        "postal_code": "77555"
+        "postal_code": "77555",
+        "latitude": 3.730678239181007,
+        "longitude": 116.17674774456438
     },
     {
         "code": 6502122010,
@@ -1349,7 +1685,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Long Liku",
-        "postal_code": "77555"
+        "postal_code": "77555",
+        "latitude": 3.4911742491225546,
+        "longitude": 116.38801338137844
     },
     {
         "code": 6502132001,
@@ -1357,7 +1695,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Setulang",
-        "postal_code": "77552"
+        "postal_code": "77552",
+        "latitude": 3.4311639477974474,
+        "longitude": 116.46209803393104
     },
     {
         "code": 6502132002,
@@ -1365,7 +1705,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Setarap",
-        "postal_code": "77552"
+        "postal_code": "77552",
+        "latitude": 3.4142464567592676,
+        "longitude": 116.52527003049406
     },
     {
         "code": 6502132003,
@@ -1373,7 +1715,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Punan Setarap",
-        "postal_code": "77552"
+        "postal_code": "77552",
+        "latitude": 3.3755995222118402,
+        "longitude": 116.45290023513594
     },
     {
         "code": 6502132004,
@@ -1381,7 +1725,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Batu Kajang",
-        "postal_code": "77552"
+        "postal_code": "77552",
+        "latitude": 3.371440317208564,
+        "longitude": 116.54749269568349
     },
     {
         "code": 6502132005,
@@ -1389,7 +1735,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Gong Solok",
-        "postal_code": "77552"
+        "postal_code": "77552",
+        "latitude": 3.3030288655982982,
+        "longitude": 116.56710901059107
     },
     {
         "code": 6502132006,
@@ -1397,7 +1745,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Punan Gong Solok",
-        "postal_code": "77552"
+        "postal_code": "77552",
+        "latitude": 3.2178076662285378,
+        "longitude": 116.60186007531748
     },
     {
         "code": 6502132007,
@@ -1405,7 +1755,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Long Adiu",
-        "postal_code": "77552"
+        "postal_code": "77552",
+        "latitude": 3.2911424294739047,
+        "longitude": 116.50724360320102
     },
     {
         "code": 6502132008,
@@ -1413,7 +1765,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Punan Long Adiu",
-        "postal_code": "77552"
+        "postal_code": "77552",
+        "latitude": 3.3079454493233547,
+        "longitude": 116.4203251480631
     },
     {
         "code": 6502142001,
@@ -1421,7 +1775,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Long Lake",
-        "postal_code": "77553"
+        "postal_code": "77553",
+        "latitude": 2.9464001135091777,
+        "longitude": 116.2672117017332
     },
     {
         "code": 6502142002,
@@ -1429,7 +1785,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Punan Mirau",
-        "postal_code": "77553"
+        "postal_code": "77553",
+        "latitude": 3.072811850702407,
+        "longitude": 116.29363262600424
     },
     {
         "code": 6502142003,
@@ -1437,7 +1795,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Long Rat",
-        "postal_code": "77553"
+        "postal_code": "77553",
+        "latitude": 3.1783808606535477,
+        "longitude": 116.19659338047946
     },
     {
         "code": 6502142004,
@@ -1445,7 +1805,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Halanga",
-        "postal_code": "77553"
+        "postal_code": "77553",
+        "latitude": 3.1106649521282312,
+        "longitude": 116.39451476376733
     },
     {
         "code": 6502142005,
@@ -1453,7 +1815,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Metut",
-        "postal_code": "77553"
+        "postal_code": "77553",
+        "latitude": 2.8296694640222455,
+        "longitude": 116.33576426020922
     },
     {
         "code": 6502142006,
@@ -1461,7 +1825,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Long Jalan",
-        "postal_code": "77553"
+        "postal_code": "77553",
+        "latitude": 2.8609414129906536,
+        "longitude": 116.15366615790126
     },
     {
         "code": 6502142007,
@@ -1469,7 +1835,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Nahakramo",
-        "postal_code": "77553"
+        "postal_code": "77553",
+        "latitude": 2.8034819517506446,
+        "longitude": 116.04218707867273
     },
     {
         "code": 6502142008,
@@ -1477,7 +1845,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Tanjung Nanga",
-        "postal_code": "77553"
+        "postal_code": "77553",
+        "latitude": 2.9782716696087745,
+        "longitude": 116.47325664707336
     },
     {
         "code": 6502152001,
@@ -1485,7 +1855,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Long Nyau",
-        "postal_code": "77556"
+        "postal_code": "77556",
+        "latitude": 3.023933656376223,
+        "longitude": 116.00982161263651
     },
     {
         "code": 6502152002,
@@ -1493,7 +1865,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Long Titi",
-        "postal_code": "77556"
+        "postal_code": "77556",
+        "latitude": 3.4205866244624623,
+        "longitude": 116.0247667053397
     },
     {
         "code": 6502152003,
@@ -1501,7 +1875,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Long Ranau",
-        "postal_code": "77556"
+        "postal_code": "77556",
+        "latitude": 3.173800027717121,
+        "longitude": 116.08808896421053
     },
     {
         "code": 6502152004,
@@ -1509,7 +1885,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Rian Tubu",
-        "postal_code": "77556"
+        "postal_code": "77556",
+        "latitude": 3.339364661923261,
+        "longitude": 116.24472209383887
     },
     {
         "code": 6502152005,
@@ -1517,7 +1895,9 @@
         "regency_code": 6502,
         "province_code": 65,
         "name": "Long Pada",
-        "postal_code": "77556"
+        "postal_code": "77556",
+        "latitude": 3.0417450453540518,
+        "longitude": 116.14430555291068
     },
     {
         "code": 6503012001,
@@ -1525,7 +1905,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Tanjungkarang",
-        "postal_code": "77483"
+        "postal_code": "77483",
+        "latitude": 4.0568868508664435,
+        "longitude": 117.89683515181119
     },
     {
         "code": 6503012002,
@@ -1533,7 +1915,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Balansiku",
-        "postal_code": "77483"
+        "postal_code": "77483",
+        "latitude": 4.061060473998311,
+        "longitude": 117.86180921508566
     },
     {
         "code": 6503012003,
@@ -1541,7 +1925,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Sungai Manurung",
-        "postal_code": "77483"
+        "postal_code": "77483",
+        "latitude": 4.076647017783935,
+        "longitude": 117.90250595397633
     },
     {
         "code": 6503012004,
@@ -1549,7 +1935,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Padaidi",
-        "postal_code": "77483"
+        "postal_code": "77483",
+        "latitude": 4.091551152332128,
+        "longitude": 117.90055087027272
     },
     {
         "code": 6503021001,
@@ -1557,7 +1945,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Nunukan Timur",
-        "postal_code": "77482"
+        "postal_code": "77482",
+        "latitude": 4.140248750486134,
+        "longitude": 117.66192148168128
     },
     {
         "code": 6503021002,
@@ -1565,7 +1955,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Nunukan Barat",
-        "postal_code": "77482"
+        "postal_code": "77482",
+        "latitude": 3.9573768281045667,
+        "longitude": 117.50215197296797
     },
     {
         "code": 6503021003,
@@ -1573,7 +1965,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Nunukan Utara",
-        "postal_code": "77482"
+        "postal_code": "77482",
+        "latitude": 4.143538351481405,
+        "longitude": 117.65146595125157
     },
     {
         "code": 6503021005,
@@ -1581,7 +1975,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Nunukan Tengah",
-        "postal_code": "77482"
+        "postal_code": "77482",
+        "latitude": 4.11721674665445,
+        "longitude": 117.65560189640316
     },
     {
         "code": 6503022004,
@@ -1589,7 +1985,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Binusan",
-        "postal_code": "77482"
+        "postal_code": "77482",
+        "latitude": 4.045004256032312,
+        "longitude": 117.63177848996703
     },
     {
         "code": 6503032001,
@@ -1597,7 +1995,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Tagul",
-        "postal_code": "77453"
+        "postal_code": "77453",
+        "latitude": 3.81789245864742,
+        "longitude": 117.16961638589935
     },
     {
         "code": 6503032002,
@@ -1605,7 +2005,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Lubakan",
-        "postal_code": "77453"
+        "postal_code": "77453",
+        "latitude": 3.8114530901151107,
+        "longitude": 117.0959026397459
     },
     {
         "code": 6503032003,
@@ -1613,7 +2015,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Atap",
-        "postal_code": "77453"
+        "postal_code": "77453",
+        "latitude": 3.827554949883197,
+        "longitude": 117.04217938437016
     },
     {
         "code": 6503032004,
@@ -1621,7 +2025,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Manuk Bungkul",
-        "postal_code": "77453"
+        "postal_code": "77453",
+        "latitude": 3.8195948429423905,
+        "longitude": 116.99724974081585
     },
     {
         "code": 6503032005,
@@ -1629,7 +2035,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Tujung",
-        "postal_code": "77453"
+        "postal_code": "77453",
+        "latitude": 3.8212544215555355,
+        "longitude": 116.95938160327084
     },
     {
         "code": 6503032006,
@@ -1637,7 +2045,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Pagar",
-        "postal_code": "77453"
+        "postal_code": "77453",
+        "latitude": 3.827636148331355,
+        "longitude": 116.92067599891487
     },
     {
         "code": 6503032007,
@@ -1645,7 +2055,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Labuk",
-        "postal_code": "77453"
+        "postal_code": "77453",
+        "latitude": 3.8323544717865015,
+        "longitude": 116.89101686706981
     },
     {
         "code": 6503032008,
@@ -1653,7 +2065,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Butas Bagu",
-        "postal_code": "77453"
+        "postal_code": "77453",
+        "latitude": 3.790883829045695,
+        "longitude": 116.88369001786741
     },
     {
         "code": 6503032009,
@@ -1661,7 +2075,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Pelaju",
-        "postal_code": "77453"
+        "postal_code": "77453",
+        "latitude": 3.7998581009483927,
+        "longitude": 117.30133045141609
     },
     {
         "code": 6503032010,
@@ -1669,7 +2085,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Tepian",
-        "postal_code": "77453"
+        "postal_code": "77453",
+        "latitude": 3.796186022349527,
+        "longitude": 117.56831606709835
     },
     {
         "code": 6503042001,
@@ -1677,7 +2095,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Deralon",
-        "postal_code": "77457"
+        "postal_code": "77457",
+        "latitude": 4.196615046972171,
+        "longitude": 116.1683010611203
     },
     {
         "code": 6503042002,
@@ -1685,7 +2105,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Liang",
-        "postal_code": "77457"
+        "postal_code": "77457",
+        "latitude": 4.066726517112102,
+        "longitude": 116.60423655624389
     },
     {
         "code": 6503042003,
@@ -1693,7 +2115,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Dabulon",
-        "postal_code": "77457"
+        "postal_code": "77457",
+        "latitude": 4.136148001347031,
+        "longitude": 116.52980216607494
     },
     {
         "code": 6503042004,
@@ -1701,7 +2125,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Taluan",
-        "postal_code": "77457"
+        "postal_code": "77457",
+        "latitude": 3.849296904550119,
+        "longitude": 116.68921410984376
     },
     {
         "code": 6503042005,
@@ -1709,7 +2135,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Podong",
-        "postal_code": "77457"
+        "postal_code": "77457",
+        "latitude": 3.8840045225034534,
+        "longitude": 116.71035794662083
     },
     {
         "code": 6503042006,
@@ -1717,7 +2145,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Patal I",
-        "postal_code": "77457"
+        "postal_code": "77457",
+        "latitude": 3.8576475642132,
+        "longitude": 116.72425032834639
     },
     {
         "code": 6503042007,
@@ -1725,7 +2155,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Siawang",
-        "postal_code": "77457"
+        "postal_code": "77457",
+        "latitude": 4.152500714001723,
+        "longitude": 116.50922432934378
     },
     {
         "code": 6503042008,
@@ -1733,7 +2165,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Sapuyan",
-        "postal_code": "77457"
+        "postal_code": "77457",
+        "latitude": 3.795906356832982,
+        "longitude": 116.7117052438474
     },
     {
         "code": 6503042009,
@@ -1741,7 +2175,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Nainsid",
-        "postal_code": "77457"
+        "postal_code": "77457",
+        "latitude": 3.9237533442889787,
+        "longitude": 116.44256238602219
     },
     {
         "code": 6503042010,
@@ -1749,7 +2185,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Sasibu",
-        "postal_code": "77457"
+        "postal_code": "77457",
+        "latitude": 4.145091642950899,
+        "longitude": 116.38687179439258
     },
     {
         "code": 6503042011,
@@ -1757,7 +2195,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Saludan",
-        "postal_code": "77457"
+        "postal_code": "77457",
+        "latitude": 4.0712266145249965,
+        "longitude": 116.40266452101919
     },
     {
         "code": 6503042012,
@@ -1765,7 +2205,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Semalat",
-        "postal_code": "77457"
+        "postal_code": "77457",
+        "latitude": 4.121085069169654,
+        "longitude": 116.45097648412431
     },
     {
         "code": 6503042013,
@@ -1773,7 +2215,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Libang",
-        "postal_code": "77457"
+        "postal_code": "77457",
+        "latitude": 3.7181010734209194,
+        "longitude": 116.7192669752427
     },
     {
         "code": 6503042014,
@@ -1781,7 +2225,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Sedongon",
-        "postal_code": "77457"
+        "postal_code": "77457",
+        "latitude": 3.917416697934042,
+        "longitude": 116.5854157710617
     },
     {
         "code": 6503042015,
@@ -1789,7 +2235,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Tanjung Hilir",
-        "postal_code": "77457"
+        "postal_code": "77457",
+        "latitude": 3.7592239670500764,
+        "longitude": 116.68992028415884
     },
     {
         "code": 6503042016,
@@ -1797,7 +2245,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Sumalumung",
-        "postal_code": "77457"
+        "postal_code": "77457",
+        "latitude": 4.131890043991044,
+        "longitude": 116.53378647461
     },
     {
         "code": 6503042017,
@@ -1805,7 +2255,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Lintong",
-        "postal_code": "77457"
+        "postal_code": "77457",
+        "latitude": 3.8085833793148285,
+        "longitude": 116.67215349640023
     },
     {
         "code": 6503042018,
@@ -1813,7 +2265,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Pulu Bulawan",
-        "postal_code": "77457"
+        "postal_code": "77457",
+        "latitude": 3.8372479538070245,
+        "longitude": 116.68001536426434
     },
     {
         "code": 6503042019,
@@ -1821,7 +2275,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Tanjung Hulu",
-        "postal_code": "77457"
+        "postal_code": "77457",
+        "latitude": 3.781331177284127,
+        "longitude": 116.73722160034968
     },
     {
         "code": 6503042020,
@@ -1829,7 +2285,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Patal II",
-        "postal_code": "77457"
+        "postal_code": "77457",
+        "latitude": 3.8399667988575295,
+        "longitude": 116.68759933240523
     },
     {
         "code": 6503042021,
@@ -1837,7 +2295,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Pa'loo",
-        "postal_code": "77457"
+        "postal_code": "77457",
+        "latitude": 4.267375878765781,
+        "longitude": 115.95730913842023
     },
     {
         "code": 6503042022,
@@ -1845,7 +2305,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Sangkub",
-        "postal_code": "77457"
+        "postal_code": "77457",
+        "latitude": 4.122868481427111,
+        "longitude": 116.17594059843185
     },
     {
         "code": 6503042023,
@@ -1853,7 +2315,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Tubus",
-        "postal_code": "77457"
+        "postal_code": "77457",
+        "latitude": 3.829674834517081,
+        "longitude": 116.72593424962882
     },
     {
         "code": 6503042024,
@@ -1861,7 +2325,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Likos",
-        "postal_code": "77457"
+        "postal_code": "77457",
+        "latitude": 4.197053393983572,
+        "longitude": 116.11276030516706
     },
     {
         "code": 6503042025,
@@ -1869,7 +2335,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Bulan-Bulan",
-        "postal_code": "77457"
+        "postal_code": "77457",
+        "latitude": 3.791472529279737,
+        "longitude": 116.73001380588519
     },
     {
         "code": 6503042026,
@@ -1877,7 +2345,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Kalampising",
-        "postal_code": "77457"
+        "postal_code": "77457",
+        "latitude": 3.74383848237451,
+        "longitude": 116.7621332852372
     },
     {
         "code": 6503042027,
@@ -1885,7 +2355,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Pa'lemumut",
-        "postal_code": "77457"
+        "postal_code": "77457",
+        "latitude": 4.1529340955901315,
+        "longitude": 116.00175565502106
     },
     {
         "code": 6503042028,
@@ -1893,7 +2365,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Mansalong",
-        "postal_code": "77457"
+        "postal_code": "77457",
+        "latitude": 3.7562520688309164,
+        "longitude": 116.73578275249538
     },
     {
         "code": 6503052002,
@@ -1901,7 +2375,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Pa' Padi",
-        "postal_code": "77456"
+        "postal_code": "77456",
+        "latitude": 3.8304852422273243,
+        "longitude": 115.72969050188635
     },
     {
         "code": 6503052003,
@@ -1909,7 +2385,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Cinglat",
-        "postal_code": "77456"
+        "postal_code": "77456",
+        "latitude": 3.833974123135046,
+        "longitude": 115.76104628995654
     },
     {
         "code": 6503052022,
@@ -1917,7 +2395,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Liang Butan",
-        "postal_code": "77456"
+        "postal_code": "77456",
+        "latitude": 3.9021284472477977,
+        "longitude": 115.69274805161795
     },
     {
         "code": 6503052029,
@@ -1925,7 +2405,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Pa' Rupai",
-        "postal_code": "77456"
+        "postal_code": "77456",
+        "latitude": 3.9100964347676253,
+        "longitude": 115.59226547264063
     },
     {
         "code": 6503052030,
@@ -1933,7 +2415,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Ba Sikor",
-        "postal_code": "77456"
+        "postal_code": "77456",
+        "latitude": 3.932059124767004,
+        "longitude": 115.60941415276118
     },
     {
         "code": 6503052031,
@@ -1941,7 +2425,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Pa' Nado",
-        "postal_code": "77456"
+        "postal_code": "77456",
+        "latitude": 3.9394629433325354,
+        "longitude": 115.63620071269777
     },
     {
         "code": 6503052032,
@@ -1949,7 +2435,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Buduk Kinangan",
-        "postal_code": "77456"
+        "postal_code": "77456",
+        "latitude": 3.944215392599236,
+        "longitude": 115.62975191089329
     },
     {
         "code": 6503052033,
@@ -1957,7 +2445,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Liang Tuer",
-        "postal_code": "77456"
+        "postal_code": "77456",
+        "latitude": 3.9057006181113794,
+        "longitude": 115.6219998805579
     },
     {
         "code": 6503052034,
@@ -1965,7 +2455,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Buduk Tumu",
-        "postal_code": "77456"
+        "postal_code": "77456",
+        "latitude": 3.9372345277001233,
+        "longitude": 115.64268434613487
     },
     {
         "code": 6503052035,
@@ -1973,7 +2465,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Long Berayang",
-        "postal_code": "77456"
+        "postal_code": "77456",
+        "latitude": 3.916370693819093,
+        "longitude": 115.64192436670145
     },
     {
         "code": 6503052036,
@@ -1981,7 +2475,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Pa' Api",
-        "postal_code": "77456"
+        "postal_code": "77456",
+        "latitude": 3.9377335797572353,
+        "longitude": 115.65944533906844
     },
     {
         "code": 6503052037,
@@ -1989,7 +2485,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Pa' Sire",
-        "postal_code": "77456"
+        "postal_code": "77456",
+        "latitude": 3.9094268178276996,
+        "longitude": 115.6643336767418
     },
     {
         "code": 6503052038,
@@ -1997,7 +2495,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Wa' Yanud",
-        "postal_code": "77456"
+        "postal_code": "77456",
+        "latitude": 3.924854975553399,
+        "longitude": 115.67799358250848
     },
     {
         "code": 6503052039,
@@ -2005,7 +2505,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Long Nawang",
-        "postal_code": "77456"
+        "postal_code": "77456",
+        "latitude": 3.9215366319954406,
+        "longitude": 115.687251565458
     },
     {
         "code": 6503052040,
@@ -2013,7 +2515,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Long Katung",
-        "postal_code": "77456"
+        "postal_code": "77456",
+        "latitude": 3.9170571795869598,
+        "longitude": 115.69533310415243
     },
     {
         "code": 6503052041,
@@ -2021,7 +2525,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Long Bawan",
-        "postal_code": "77456"
+        "postal_code": "77456",
+        "latitude": 3.9032043403653516,
+        "longitude": 115.7025107358694
     },
     {
         "code": 6503052044,
@@ -2029,7 +2535,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Long Matung",
-        "postal_code": "77456"
+        "postal_code": "77456",
+        "latitude": 3.897556781567298,
+        "longitude": 115.71291664456193
     },
     {
         "code": 6503052045,
@@ -2037,7 +2545,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Long Rupan",
-        "postal_code": "77456"
+        "postal_code": "77456",
+        "latitude": 3.868048292658179,
+        "longitude": 115.7262798017303
     },
     {
         "code": 6503052046,
@@ -2045,7 +2555,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Liang Biadung",
-        "postal_code": "77456"
+        "postal_code": "77456",
+        "latitude": 3.8700654613378305,
+        "longitude": 115.76588106341977
     },
     {
         "code": 6503052047,
@@ -2053,7 +2565,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Wa' Laya",
-        "postal_code": "77456"
+        "postal_code": "77456",
+        "latitude": 3.8888211271051003,
+        "longitude": 115.76112503721468
     },
     {
         "code": 6503052048,
@@ -2061,7 +2575,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Pa' Matung",
-        "postal_code": "77456"
+        "postal_code": "77456",
+        "latitude": 3.8846270156623857,
+        "longitude": 115.7106621628874
     },
     {
         "code": 6503052049,
@@ -2069,7 +2585,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Pa' Terutun",
-        "postal_code": "77456"
+        "postal_code": "77456",
+        "latitude": 3.916991795383417,
+        "longitude": 115.74158429871714
     },
     {
         "code": 6503052065,
@@ -2077,7 +2595,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Pa' Putuk",
-        "postal_code": "77456"
+        "postal_code": "77456",
+        "latitude": 3.849950675842285,
+        "longitude": 115.71213629225821
     },
     {
         "code": 6503062001,
@@ -2085,7 +2605,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Pembeliangan",
-        "postal_code": "77481"
+        "postal_code": "77481",
+        "latitude": 3.9687398518674377,
+        "longitude": 117.23410133822796
     },
     {
         "code": 6503062002,
@@ -2093,7 +2615,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Apas",
-        "postal_code": "77481"
+        "postal_code": "77481",
+        "latitude": 4.011720705513315,
+        "longitude": 116.97711646064204
     },
     {
         "code": 6503062003,
@@ -2101,7 +2625,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Kunyit",
-        "postal_code": "77481"
+        "postal_code": "77481",
+        "latitude": 3.9464169713897705,
+        "longitude": 116.95940441580309
     },
     {
         "code": 6503062004,
@@ -2109,7 +2635,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Tetaban",
-        "postal_code": "77481"
+        "postal_code": "77481",
+        "latitude": 4.012713400772686,
+        "longitude": 116.923449657962
     },
     {
         "code": 6503062005,
@@ -2117,7 +2645,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Kekayap",
-        "postal_code": "77481"
+        "postal_code": "77481",
+        "latitude": 3.945090648896811,
+        "longitude": 116.99801076053454
     },
     {
         "code": 6503062006,
@@ -2125,7 +2655,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Bebanas",
-        "postal_code": "77481"
+        "postal_code": "77481",
+        "latitude": 4.020683152628146,
+        "longitude": 116.87621775060046
     },
     {
         "code": 6503062007,
@@ -2133,7 +2665,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Lulu",
-        "postal_code": "77481"
+        "postal_code": "77481",
+        "latitude": 3.9820802439039644,
+        "longitude": 116.84741537423604
     },
     {
         "code": 6503062008,
@@ -2141,7 +2675,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Sujau",
-        "postal_code": "77481"
+        "postal_code": "77481",
+        "latitude": 4.002318006929213,
+        "longitude": 116.7594203526063
     },
     {
         "code": 6503062009,
@@ -2149,7 +2685,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Melasu Baru",
-        "postal_code": "77481"
+        "postal_code": "77481",
+        "latitude": 3.9304550923285198,
+        "longitude": 116.91888863053681
     },
     {
         "code": 6503062010,
@@ -2157,7 +2695,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Harapan",
-        "postal_code": "77481"
+        "postal_code": "77481",
+        "latitude": 4.001127617211433,
+        "longitude": 116.97033376981375
     },
     {
         "code": 6503072001,
@@ -2165,7 +2705,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Long Pasia",
-        "postal_code": "77454"
+        "postal_code": "77454",
+        "latitude": 3.584290512736049,
+        "longitude": 115.71398504095508
     },
     {
         "code": 6503072002,
@@ -2173,7 +2715,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Liang Lunuk",
-        "postal_code": "77454"
+        "postal_code": "77454",
+        "latitude": 3.5913646256513654,
+        "longitude": 115.72920574802782
     },
     {
         "code": 6503072003,
@@ -2181,7 +2725,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Pa' Ibang",
-        "postal_code": "77454"
+        "postal_code": "77454",
+        "latitude": 3.4916676459119893,
+        "longitude": 115.74885160857855
     },
     {
         "code": 6503072004,
@@ -2189,7 +2735,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Pa' Amai",
-        "postal_code": "77454"
+        "postal_code": "77454",
+        "latitude": 3.5044596842508002,
+        "longitude": 115.79539117355016
     },
     {
         "code": 6503072005,
@@ -2197,7 +2745,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Pa' Kaber",
-        "postal_code": "77454"
+        "postal_code": "77454",
+        "latitude": 3.56569641030751,
+        "longitude": 115.73791658813029
     },
     {
         "code": 6503072006,
@@ -2205,7 +2755,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Pa' Tera",
-        "postal_code": "77454"
+        "postal_code": "77454",
+        "latitude": 3.643848606125334,
+        "longitude": 115.71111365888335
     },
     {
         "code": 6503072007,
@@ -2213,7 +2765,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Pa' Sing",
-        "postal_code": "77454"
+        "postal_code": "77454",
+        "latitude": 3.5170744404393632,
+        "longitude": 115.66779549364608
     },
     {
         "code": 6503072009,
@@ -2221,7 +2775,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Pa' Dalan",
-        "postal_code": "77454"
+        "postal_code": "77454",
+        "latitude": 3.694696808527894,
+        "longitude": 115.76422485801733
     },
     {
         "code": 6503072010,
@@ -2229,7 +2785,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Long Birar",
-        "postal_code": "77454"
+        "postal_code": "77454",
+        "latitude": 3.5740667660684315,
+        "longitude": 115.73318028149787
     },
     {
         "code": 6503072011,
@@ -2237,7 +2795,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Pa' Upan",
-        "postal_code": "77454"
+        "postal_code": "77454",
+        "latitude": 3.5552080310408662,
+        "longitude": 115.77785872700551
     },
     {
         "code": 6503072016,
@@ -2245,7 +2805,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Long Budung",
-        "postal_code": "77454"
+        "postal_code": "77454",
+        "latitude": 3.643566411856466,
+        "longitude": 115.68755134530603
     },
     {
         "code": 6503072018,
@@ -2253,7 +2815,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Long Pupung",
-        "postal_code": "77454"
+        "postal_code": "77454",
+        "latitude": 3.629893233516893,
+        "longitude": 115.62642047262233
     },
     {
         "code": 6503072020,
@@ -2261,7 +2825,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Pa' Urang",
-        "postal_code": "77454"
+        "postal_code": "77454",
+        "latitude": 3.657409267070206,
+        "longitude": 115.72303272573654
     },
     {
         "code": 6503082001,
@@ -2269,7 +2835,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Liang Bunyu",
-        "postal_code": "77486"
+        "postal_code": "77486",
+        "latitude": 4.126117210310666,
+        "longitude": 117.75265549075057
     },
     {
         "code": 6503082002,
@@ -2277,7 +2845,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Binalawan",
-        "postal_code": "77486"
+        "postal_code": "77486",
+        "latitude": 4.113973083200096,
+        "longitude": 117.78598788645142
     },
     {
         "code": 6503082003,
@@ -2285,7 +2855,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Setabu",
-        "postal_code": "77486"
+        "postal_code": "77486",
+        "latitude": 4.086517024450776,
+        "longitude": 117.82162122050003
     },
     {
         "code": 6503082004,
@@ -2293,7 +2865,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Bambangan",
-        "postal_code": "77486"
+        "postal_code": "77486",
+        "latitude": 4.153779088685656,
+        "longitude": 117.72794595833034
     },
     {
         "code": 6503091001,
@@ -2301,7 +2875,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Selisun",
-        "postal_code": "77480"
+        "postal_code": "77480",
+        "latitude": 4.101116439765938,
+        "longitude": 117.67398173868722
     },
     {
         "code": 6503091002,
@@ -2309,7 +2885,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Nunukan Selatan",
-        "postal_code": "77480"
+        "postal_code": "77480",
+        "latitude": 4.087889706682815,
+        "longitude": 117.69940087548467
     },
     {
         "code": 6503091003,
@@ -2317,7 +2895,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Mansapa",
-        "postal_code": "77480"
+        "postal_code": "77480",
+        "latitude": 4.055879205475947,
+        "longitude": 117.70768630124171
     },
     {
         "code": 6503091004,
@@ -2325,7 +2905,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Tanjung Harapan",
-        "postal_code": "77480"
+        "postal_code": "77480",
+        "latitude": 4.011731759251006,
+        "longitude": 117.69753261247993
     },
     {
         "code": 6503102001,
@@ -2333,7 +2915,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Sungai Nyamuk",
-        "postal_code": "77488"
+        "postal_code": "77488",
+        "latitude": 4.12891416485068,
+        "longitude": 117.88275237516747
     },
     {
         "code": 6503102002,
@@ -2341,7 +2925,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Tanjung Harapan",
-        "postal_code": "77488"
+        "postal_code": "77488",
+        "latitude": 4.118932273807856,
+        "longitude": 117.88380734913771
     },
     {
         "code": 6503102003,
@@ -2349,7 +2935,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Bukit Aru Indah",
-        "postal_code": "77488"
+        "postal_code": "77488",
+        "latitude": 4.112330814961011,
+        "longitude": 117.88988155712804
     },
     {
         "code": 6503102004,
@@ -2357,7 +2945,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Tanjung Aru",
-        "postal_code": "77488"
+        "postal_code": "77488",
+        "latitude": 4.10137635763295,
+        "longitude": 117.89643880303508
     },
     {
         "code": 6503112001,
@@ -2365,7 +2955,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Sungai Pancang",
-        "postal_code": "77489"
+        "postal_code": "77489",
+        "latitude": 4.155370493293865,
+        "longitude": 117.90016966242081
     },
     {
         "code": 6503112002,
@@ -2373,7 +2965,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Lapri",
-        "postal_code": "77489"
+        "postal_code": "77489",
+        "latitude": 4.140917149776015,
+        "longitude": 117.8746695423605
     },
     {
         "code": 6503112003,
@@ -2381,7 +2975,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Seberang",
-        "postal_code": "77489"
+        "postal_code": "77489",
+        "latitude": 4.157422981826257,
+        "longitude": 117.87667070757317
     },
     {
         "code": 6503122001,
@@ -2389,7 +2985,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Sungai Limau",
-        "postal_code": "77487"
+        "postal_code": "77487",
+        "latitude": 4.152708551406901,
+        "longitude": 117.79397866898697
     },
     {
         "code": 6503122002,
@@ -2397,7 +2995,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Maspul",
-        "postal_code": "77487"
+        "postal_code": "77487",
+        "latitude": 4.150084309032742,
+        "longitude": 117.82807855867011
     },
     {
         "code": 6503122003,
@@ -2405,7 +3005,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Aji Kuning",
-        "postal_code": "77487"
+        "postal_code": "77487",
+        "latitude": 4.1554858718311865,
+        "longitude": 117.85304064796188
     },
     {
         "code": 6503122004,
@@ -2413,7 +3015,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Bukit Harapan",
-        "postal_code": "77487"
+        "postal_code": "77487",
+        "latitude": 4.129267939340177,
+        "longitude": 117.83693076096509
     },
     {
         "code": 6503132001,
@@ -2421,7 +3025,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Srinanti",
-        "postal_code": "77484"
+        "postal_code": "77484",
+        "latitude": 4.133617948170284,
+        "longitude": 117.30972993121178
     },
     {
         "code": 6503132002,
@@ -2429,7 +3035,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Tabur Lestari",
-        "postal_code": "77484"
+        "postal_code": "77484",
+        "latitude": 4.23467388333481,
+        "longitude": 117.1731688422577
     },
     {
         "code": 6503132003,
@@ -2437,7 +3045,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Samaenre Semaja",
-        "postal_code": "77484"
+        "postal_code": "77484",
+        "latitude": 4.2717428325423885,
+        "longitude": 117.2384190445905
     },
     {
         "code": 6503132004,
@@ -2445,7 +3055,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Sekaduyan Taka",
-        "postal_code": "77484"
+        "postal_code": "77484",
+        "latitude": 4.215880033098037,
+        "longitude": 117.38759020838748
     },
     {
         "code": 6503142001,
@@ -2453,7 +3065,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Sanur",
-        "postal_code": "77485"
+        "postal_code": "77485",
+        "latitude": 4.030963257415149,
+        "longitude": 116.98731259411369
     },
     {
         "code": 6503142002,
@@ -2461,7 +3075,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Makmur",
-        "postal_code": "77485"
+        "postal_code": "77485",
+        "latitude": 4.053305881573861,
+        "longitude": 117.00950764124858
     },
     {
         "code": 6503142003,
@@ -2469,7 +3085,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Semunad",
-        "postal_code": "77485"
+        "postal_code": "77485",
+        "latitude": 4.087033189553,
+        "longitude": 117.12331782172282
     },
     {
         "code": 6503142004,
@@ -2477,7 +3095,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Sekikilan",
-        "postal_code": "77485"
+        "postal_code": "77485",
+        "latitude": 4.136790837070577,
+        "longitude": 117.08012659109147
     },
     {
         "code": 6503142005,
@@ -2485,7 +3105,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Kalunsayan",
-        "postal_code": "77485"
+        "postal_code": "77485",
+        "latitude": 4.154329165102968,
+        "longitude": 117.0369341126609
     },
     {
         "code": 6503142006,
@@ -2493,7 +3115,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Tembalang",
-        "postal_code": "77485"
+        "postal_code": "77485",
+        "latitude": 4.219474889835956,
+        "longitude": 117.04504878023
     },
     {
         "code": 6503142007,
@@ -2501,7 +3125,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Salang",
-        "postal_code": "77485"
+        "postal_code": "77485",
+        "latitude": 4.257325518431964,
+        "longitude": 117.01516073215554
     },
     {
         "code": 6503142008,
@@ -2509,7 +3135,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Tinampak I",
-        "postal_code": "77485"
+        "postal_code": "77485",
+        "latitude": 4.292163564809009,
+        "longitude": 116.97605733747439
     },
     {
         "code": 6503142009,
@@ -2517,7 +3145,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Tinampak II",
-        "postal_code": "77485"
+        "postal_code": "77485",
+        "latitude": 4.261279838627178,
+        "longitude": 116.93435865409708
     },
     {
         "code": 6503142010,
@@ -2525,7 +3155,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Naputi",
-        "postal_code": "77485"
+        "postal_code": "77485",
+        "latitude": 4.272589550655678,
+        "longitude": 116.7528603721682
     },
     {
         "code": 6503142011,
@@ -2533,7 +3165,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Tau Baru",
-        "postal_code": "77485"
+        "postal_code": "77485",
+        "latitude": 4.256103088918549,
+        "longitude": 116.88392678996414
     },
     {
         "code": 6503142012,
@@ -2541,7 +3175,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Balatikon",
-        "postal_code": "77485"
+        "postal_code": "77485",
+        "latitude": 4.133984179049426,
+        "longitude": 116.81027745400299
     },
     {
         "code": 6503152001,
@@ -2549,7 +3185,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Payang",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 3.8895345281965095,
+        "longitude": 116.69055227004941
     },
     {
         "code": 6503152002,
@@ -2557,7 +3195,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Suyadon",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 3.888103241821004,
+        "longitude": 116.67102476704541
     },
     {
         "code": 6503152003,
@@ -2565,7 +3205,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Bulu Mengolom",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 3.8611115238983094,
+        "longitude": 116.6424618340063
     },
     {
         "code": 6503152004,
@@ -2573,7 +3215,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Tukulon",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 3.8915889554518586,
+        "longitude": 116.64957718530864
     },
     {
         "code": 6503152005,
@@ -2581,7 +3225,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Ubol Sulok",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 3.9898768824160724,
+        "longitude": 116.64363149948339
     },
     {
         "code": 6503152006,
@@ -2589,7 +3235,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Batung",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 3.926482432444917,
+        "longitude": 116.64164828275571
     },
     {
         "code": 6503152007,
@@ -2597,7 +3245,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Ubol Alung",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 3.8720948914684405,
+        "longitude": 116.59371942754066
     },
     {
         "code": 6503152008,
@@ -2605,7 +3255,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Nansapan",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 3.8778494461777533,
+        "longitude": 116.58291915031606
     },
     {
         "code": 6503152009,
@@ -2613,7 +3265,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Samunti",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 3.9897213114489154,
+        "longitude": 116.51789796315327
     },
     {
         "code": 6503152010,
@@ -2621,7 +3275,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Semata",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 3.966295923955367,
+        "longitude": 116.5219028324522
     },
     {
         "code": 6503152011,
@@ -2629,7 +3285,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Sungoi",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 4.010393518808271,
+        "longitude": 116.57172246224172
     },
     {
         "code": 6503152012,
@@ -2637,7 +3295,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Salan",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 4.244990977359164,
+        "longitude": 116.47235697545631
     },
     {
         "code": 6503152013,
@@ -2645,7 +3305,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Sinampila I",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 3.942093586702107,
+        "longitude": 116.51084018974134
     },
     {
         "code": 6503152014,
@@ -2653,7 +3315,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Paluan",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 3.893243961404174,
+        "longitude": 116.53264975817837
     },
     {
         "code": 6503152015,
@@ -2661,7 +3325,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Sedalit",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 3.943312336691667,
+        "longitude": 116.57389142922872
     },
     {
         "code": 6503152016,
@@ -2669,7 +3335,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Tambalang Hilir",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 3.8951648770985168,
+        "longitude": 116.55703478688909
     },
     {
         "code": 6503152017,
@@ -2677,7 +3345,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Tadungus",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 3.970953083944238,
+        "longitude": 116.4648684574602
     },
     {
         "code": 6503152018,
@@ -2685,7 +3355,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Sinampila II",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 3.893604383957556,
+        "longitude": 116.51484535512496
     },
     {
         "code": 6503152019,
@@ -2693,7 +3365,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Kalambuku",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 3.949553552743363,
+        "longitude": 116.54963557274257
     },
     {
         "code": 6503152020,
@@ -2701,7 +3375,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Jukup",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 3.9287395164620222,
+        "longitude": 116.52867278293749
     },
     {
         "code": 6503152021,
@@ -2709,7 +3385,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Long Bulu",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 3.8919142476974327,
+        "longitude": 116.54499110230869
     },
     {
         "code": 6503152023,
@@ -2717,7 +3395,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Linsayung",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 4.1880760917788065,
+        "longitude": 116.56779916816235
     },
     {
         "code": 6503152024,
@@ -2725,7 +3405,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Tumantalas",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 4.228371890530192,
+        "longitude": 116.44305659128085
     },
     {
         "code": 6503152025,
@@ -2733,7 +3415,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Sanal",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 4.0491064522229125,
+        "longitude": 116.46458845347956
     },
     {
         "code": 6503152026,
@@ -2741,7 +3425,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Limpakon",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 4.296398927909038,
+        "longitude": 116.59846289779287
     },
     {
         "code": 6503152027,
@@ -2749,7 +3435,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Labuk",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 4.225633763707845,
+        "longitude": 116.55947532524821
     },
     {
         "code": 6503162001,
@@ -2757,7 +3445,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Lubok Buat",
-        "postal_code": "77452"
+        "postal_code": "77452",
+        "latitude": 3.792606800738255,
+        "longitude": 116.84052870349426
     },
     {
         "code": 6503162002,
@@ -2765,7 +3455,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Katul",
-        "postal_code": "77452"
+        "postal_code": "77452",
+        "latitude": 3.8057720400647606,
+        "longitude": 116.86627517277071
     },
     {
         "code": 6503162003,
@@ -2773,7 +3465,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Mambulu",
-        "postal_code": "77452"
+        "postal_code": "77452",
+        "latitude": 3.80150496637233,
+        "longitude": 116.82400236865311
     },
     {
         "code": 6503162004,
@@ -2781,7 +3475,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Pagaluyon",
-        "postal_code": "77452"
+        "postal_code": "77452",
+        "latitude": 3.812559497864958,
+        "longitude": 116.85317924029873
     },
     {
         "code": 6503162005,
@@ -2789,7 +3485,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Saduman",
-        "postal_code": "77452"
+        "postal_code": "77452",
+        "latitude": 3.8098751803025137,
+        "longitude": 116.81326672056187
     },
     {
         "code": 6503162006,
@@ -2797,7 +3495,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Tulang",
-        "postal_code": "77452"
+        "postal_code": "77452",
+        "latitude": 3.8101548207078357,
+        "longitude": 116.80351544423525
     },
     {
         "code": 6503162007,
@@ -2805,7 +3505,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Sabuluan",
-        "postal_code": "77452"
+        "postal_code": "77452",
+        "latitude": 3.8233872844824317,
+        "longitude": 116.79281499217562
     },
     {
         "code": 6503162008,
@@ -2813,7 +3515,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Pulau Keras",
-        "postal_code": "77452"
+        "postal_code": "77452",
+        "latitude": 3.8294941284358885,
+        "longitude": 116.78434514858492
     },
     {
         "code": 6503162009,
@@ -2821,7 +3525,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Liuk Bulu",
-        "postal_code": "77452"
+        "postal_code": "77452",
+        "latitude": 3.8012209198590483,
+        "longitude": 116.77234540500966
     },
     {
         "code": 6503162010,
@@ -2829,7 +3535,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Binanun",
-        "postal_code": "77452"
+        "postal_code": "77452",
+        "latitude": 3.81162564800297,
+        "longitude": 116.78080354355848
     },
     {
         "code": 6503172001,
@@ -2837,7 +3545,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Tang Paye",
-        "postal_code": "77458"
+        "postal_code": "77458",
+        "latitude": 3.5681607131746684,
+        "longitude": 115.81791431016482
     },
     {
         "code": 6503172002,
@@ -2845,7 +3555,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Long Rungan",
-        "postal_code": "77458"
+        "postal_code": "77458",
+        "latitude": 3.5781775635317943,
+        "longitude": 115.90214312868332
     },
     {
         "code": 6503172003,
@@ -2853,7 +3565,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Long Kelupan",
-        "postal_code": "77458"
+        "postal_code": "77458",
+        "latitude": 3.6426722665798152,
+        "longitude": 115.83313164347628
     },
     {
         "code": 6503172004,
@@ -2861,7 +3575,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Long Padi",
-        "postal_code": "77458"
+        "postal_code": "77458",
+        "latitude": 3.687450609714319,
+        "longitude": 115.84671398529562
     },
     {
         "code": 6503172005,
@@ -2869,7 +3585,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Tang Badui",
-        "postal_code": "77458"
+        "postal_code": "77458",
+        "latitude": 3.720452582173006,
+        "longitude": 115.84103687189773
     },
     {
         "code": 6503172006,
@@ -2877,7 +3595,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Binuang",
-        "postal_code": "77458"
+        "postal_code": "77458",
+        "latitude": 3.763673146394482,
+        "longitude": 115.8457798472729
     },
     {
         "code": 6503172007,
@@ -2885,7 +3605,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Long Mutan",
-        "postal_code": "77458"
+        "postal_code": "77458",
+        "latitude": 3.731930304840074,
+        "longitude": 115.87856447685077
     },
     {
         "code": 6503172008,
@@ -2893,7 +3615,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Pa' Milau",
-        "postal_code": "77458"
+        "postal_code": "77458",
+        "latitude": 3.7803368265694246,
+        "longitude": 115.91149024496922
     },
     {
         "code": 6503172009,
@@ -2901,7 +3625,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Ba' Liku",
-        "postal_code": "77458"
+        "postal_code": "77458",
+        "latitude": 3.7747507639599713,
+        "longitude": 115.81058814490183
     },
     {
         "code": 6503172010,
@@ -2909,7 +3635,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Long Rian",
-        "postal_code": "77458"
+        "postal_code": "77458",
+        "latitude": 3.8741957424669646,
+        "longitude": 115.86412389475545
     },
     {
         "code": 6503172011,
@@ -2917,7 +3645,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Pa' Yalau",
-        "postal_code": "77458"
+        "postal_code": "77458",
+        "latitude": 3.8129565428203978,
+        "longitude": 115.8922594054157
     },
     {
         "code": 6503182001,
@@ -2925,7 +3655,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Pa' Betung",
-        "postal_code": "77459"
+        "postal_code": "77459",
+        "latitude": 4.05885142156619,
+        "longitude": 115.69920405575371
     },
     {
         "code": 6503182002,
@@ -2933,7 +3665,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Long Sepayang",
-        "postal_code": "77459"
+        "postal_code": "77459",
+        "latitude": 3.971886261758235,
+        "longitude": 115.95728615658794
     },
     {
         "code": 6503182003,
@@ -2941,7 +3675,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Pa' Pawan",
-        "postal_code": "77459"
+        "postal_code": "77459",
+        "latitude": 3.8787334428789735,
+        "longitude": 115.85629308788876
     },
     {
         "code": 6503182004,
@@ -2949,7 +3685,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Pa' Melade",
-        "postal_code": "77459"
+        "postal_code": "77459",
+        "latitude": 3.9457770684929603,
+        "longitude": 115.81991845424342
     },
     {
         "code": 6503182005,
@@ -2957,7 +3695,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Pa' Kebuan",
-        "postal_code": "77459"
+        "postal_code": "77459",
+        "latitude": 4.068416707693166,
+        "longitude": 115.81777496108518
     },
     {
         "code": 6503182006,
@@ -2965,7 +3705,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Pa' Umung",
-        "postal_code": "77459"
+        "postal_code": "77459",
+        "latitude": 3.90822549224288,
+        "longitude": 115.79705930750121
     },
     {
         "code": 6503182007,
@@ -2973,7 +3715,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Pa' Rangeb",
-        "postal_code": "77459"
+        "postal_code": "77459",
+        "latitude": 3.995348143370544,
+        "longitude": 115.90764405019402
     },
     {
         "code": 6503182008,
@@ -2981,7 +3725,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Long Umung",
-        "postal_code": "77459"
+        "postal_code": "77459",
+        "latitude": 4.033483932196097,
+        "longitude": 115.85682676037912
     },
     {
         "code": 6503182009,
@@ -2989,7 +3735,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Long Tenem",
-        "postal_code": "77459"
+        "postal_code": "77459",
+        "latitude": 3.975660970928192,
+        "longitude": 115.78449463551235
     },
     {
         "code": 6503182010,
@@ -2997,7 +3745,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Long Nuat",
-        "postal_code": "77459"
+        "postal_code": "77459",
+        "latitude": 4.152834854010465,
+        "longitude": 115.88155940702205
     },
     {
         "code": 6503182011,
@@ -3005,7 +3755,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Pa' Pala",
-        "postal_code": "77459"
+        "postal_code": "77459",
+        "latitude": 4.006845028013978,
+        "longitude": 115.83134162251335
     },
     {
         "code": 6503182012,
@@ -3013,7 +3765,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Sinar Baru",
-        "postal_code": "77459"
+        "postal_code": "77459",
+        "latitude": 3.9774604005639853,
+        "longitude": 115.75683158500827
     },
     {
         "code": 6503182013,
@@ -3021,7 +3775,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Pa' Lidung",
-        "postal_code": "77459"
+        "postal_code": "77459",
+        "latitude": 3.915543139238437,
+        "longitude": 115.83307218433478
     },
     {
         "code": 6503182014,
@@ -3029,7 +3785,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Pa' Raye",
-        "postal_code": "77459"
+        "postal_code": "77459",
+        "latitude": 4.106304080231932,
+        "longitude": 115.76648873269721
     },
     {
         "code": 6503182015,
@@ -3037,7 +3795,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Bungayan",
-        "postal_code": "77459"
+        "postal_code": "77459",
+        "latitude": 3.9128788105008994,
+        "longitude": 115.82353231256212
     },
     {
         "code": 6503182016,
@@ -3045,7 +3805,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Wa' Yagung",
-        "postal_code": "77459"
+        "postal_code": "77459",
+        "latitude": 3.976909991473804,
+        "longitude": 115.8344907290295
     },
     {
         "code": 6503182017,
@@ -3053,7 +3815,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Kampung Baru",
-        "postal_code": "77459"
+        "postal_code": "77459",
+        "latitude": 3.9248586052279633,
+        "longitude": 115.70683359817234
     },
     {
         "code": 6503192001,
@@ -3061,7 +3825,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Pa' Mulak",
-        "postal_code": "77455"
+        "postal_code": "77455",
+        "latitude": 3.748962787150756,
+        "longitude": 115.7377793311847
     },
     {
         "code": 6503192002,
@@ -3069,7 +3835,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Long Puak",
-        "postal_code": "77455"
+        "postal_code": "77455",
+        "latitude": 3.787794267517203,
+        "longitude": 115.745463633391
     },
     {
         "code": 6503192003,
@@ -3077,7 +3845,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Long Mangan",
-        "postal_code": "77455"
+        "postal_code": "77455",
+        "latitude": 3.7555214926193266,
+        "longitude": 115.71542339628388
     },
     {
         "code": 6503192004,
@@ -3085,7 +3855,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Buduk Kubul",
-        "postal_code": "77455"
+        "postal_code": "77455",
+        "latitude": 3.8151060522241975,
+        "longitude": 115.69655214730454
     },
     {
         "code": 6503192005,
@@ -3093,7 +3865,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Long Kabid",
-        "postal_code": "77455"
+        "postal_code": "77455",
+        "latitude": 3.7442657970953515,
+        "longitude": 115.69687969458481
     },
     {
         "code": 6503192006,
@@ -3101,7 +3875,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Pa' Inan",
-        "postal_code": "77455"
+        "postal_code": "77455",
+        "latitude": 3.771741237361056,
+        "longitude": 115.68199137276827
     },
     {
         "code": 6503192007,
@@ -3109,7 +3885,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Lembudud",
-        "postal_code": "77455"
+        "postal_code": "77455",
+        "latitude": 3.755875702683523,
+        "longitude": 115.61580377776357
     },
     {
         "code": 6503192008,
@@ -3117,7 +3895,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Long Tugul",
-        "postal_code": "77455"
+        "postal_code": "77455",
+        "latitude": 3.7364586605419023,
+        "longitude": 115.65592927337595
     },
     {
         "code": 6503192009,
@@ -3125,7 +3905,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Pa' Butal",
-        "postal_code": "77455"
+        "postal_code": "77455",
+        "latitude": 3.844977817895864,
+        "longitude": 115.63659928676658
     },
     {
         "code": 6503192010,
@@ -3133,7 +3915,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Pa' Delung",
-        "postal_code": "77455"
+        "postal_code": "77455",
+        "latitude": 3.8625489767363264,
+        "longitude": 115.62991511704926
     },
     {
         "code": 6503192011,
@@ -3141,7 +3925,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Pa' Urud",
-        "postal_code": "77455"
+        "postal_code": "77455",
+        "latitude": 3.8662140851690965,
+        "longitude": 115.64835561793348
     },
     {
         "code": 6503192012,
@@ -3149,7 +3935,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Pa' Kemut",
-        "postal_code": "77455"
+        "postal_code": "77455",
+        "latitude": 3.8450937568400705,
+        "longitude": 115.67132561800346
     },
     {
         "code": 6503192013,
@@ -3157,7 +3945,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Pa' Kidang",
-        "postal_code": "77455"
+        "postal_code": "77455",
+        "latitude": 3.86994427809502,
+        "longitude": 115.62737338499345
     },
     {
         "code": 6503192014,
@@ -3165,7 +3955,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Lembada",
-        "postal_code": "77455"
+        "postal_code": "77455",
+        "latitude": 3.873640278637409,
+        "longitude": 115.62798342959817
     },
     {
         "code": 6503192015,
@@ -3173,7 +3965,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Pa' Payak",
-        "postal_code": "77455"
+        "postal_code": "77455",
+        "latitude": 3.8851745404910223,
+        "longitude": 115.63307806540794
     },
     {
         "code": 6503192016,
@@ -3181,7 +3975,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Pa' Pirit",
-        "postal_code": "77455"
+        "postal_code": "77455",
+        "latitude": 3.8805291864974167,
+        "longitude": 115.62838665121694
     },
     {
         "code": 6503192017,
@@ -3189,7 +3985,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Liang Aliq",
-        "postal_code": "77455"
+        "postal_code": "77455",
+        "latitude": 3.892618512063214,
+        "longitude": 115.63170790933164
     },
     {
         "code": 6503192018,
@@ -3197,7 +3995,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Sembudud",
-        "postal_code": "77455"
+        "postal_code": "77455",
+        "latitude": 3.8768200113441686,
+        "longitude": 115.65287957036085
     },
     {
         "code": 6503192019,
@@ -3205,7 +4005,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Liang Turan",
-        "postal_code": "77455"
+        "postal_code": "77455",
+        "latitude": 3.89829141857877,
+        "longitude": 115.64348827092778
     },
     {
         "code": 6503192020,
@@ -3213,7 +4015,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Liang Bua",
-        "postal_code": "77455"
+        "postal_code": "77455",
+        "latitude": 3.888205989031199,
+        "longitude": 115.65808681687398
     },
     {
         "code": 6503192021,
@@ -3221,7 +4025,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Lepatar",
-        "postal_code": "77455"
+        "postal_code": "77455",
+        "latitude": 3.889542962904449,
+        "longitude": 115.66784823641788
     },
     {
         "code": 6503192022,
@@ -3229,7 +4035,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Pa' Mering",
-        "postal_code": "77455"
+        "postal_code": "77455",
+        "latitude": 3.8680770545653673,
+        "longitude": 115.6783916752137
     },
     {
         "code": 6503192023,
@@ -3237,7 +4045,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Pa' Pani",
-        "postal_code": "77455"
+        "postal_code": "77455",
+        "latitude": 3.8893450306808623,
+        "longitude": 115.69358617117483
     },
     {
         "code": 6503192024,
@@ -3245,7 +4055,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Pa' Lutut",
-        "postal_code": "77455"
+        "postal_code": "77455",
+        "latitude": 3.896664531743417,
+        "longitude": 115.67610382235232
     },
     {
         "code": 6503192025,
@@ -3253,7 +4065,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Ma' Libu",
-        "postal_code": "77455"
+        "postal_code": "77455",
+        "latitude": 3.8771186909860043,
+        "longitude": 115.68911595412304
     },
     {
         "code": 6503202001,
@@ -3261,7 +4075,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Sumentobol",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 4.307814528652116,
+        "longitude": 116.52836884635268
     },
     {
         "code": 6503202002,
@@ -3269,7 +4085,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Nantukidan",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 4.2892007389659135,
+        "longitude": 116.46105402656175
     },
     {
         "code": 6503202003,
@@ -3277,7 +4095,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Labang",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 4.289565565594499,
+        "longitude": 116.41668838053324
     },
     {
         "code": 6503202004,
@@ -3285,7 +4105,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Sumantipal",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 4.352714433774707,
+        "longitude": 116.38032728401205
     },
     {
         "code": 6503202005,
@@ -3293,7 +4115,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Ngawol",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 4.351944663634136,
+        "longitude": 116.3492683116161
     },
     {
         "code": 6503202006,
@@ -3301,7 +4125,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Bululaun Hilir",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 4.311241171318661,
+        "longitude": 116.38905197555782
     },
     {
         "code": 6503202007,
@@ -3309,7 +4135,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Lagas",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 4.24954476359173,
+        "longitude": 116.36768240793445
     },
     {
         "code": 6503202008,
@@ -3317,7 +4145,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Panas",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 4.259964927740234,
+        "longitude": 116.31690120665623
     },
     {
         "code": 6503202009,
@@ -3325,7 +4155,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Langgason",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 4.280183699331764,
+        "longitude": 116.26322323153809
     },
     {
         "code": 6503202010,
@@ -3333,7 +4165,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Tantalujuk",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 4.330776705160349,
+        "longitude": 116.33309827251439
     },
     {
         "code": 6503202011,
@@ -3341,7 +4175,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Tambalang Hulu",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 4.334156101054043,
+        "longitude": 116.29230539815275
     },
     {
         "code": 6503202012,
@@ -3349,7 +4185,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Kuyo",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 4.210574661561784,
+        "longitude": 116.2325666328951
     },
     {
         "code": 6503202013,
@@ -3357,7 +4195,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Bokok",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 4.157831731517069,
+        "longitude": 116.30424926046253
     },
     {
         "code": 6503212001,
@@ -3365,7 +4205,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Tau Lumbis",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 4.2996667977671414,
+        "longitude": 116.22122539505406
     },
     {
         "code": 6503212002,
@@ -3373,7 +4215,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Lipaga",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 4.296113229972553,
+        "longitude": 116.11762495490935
     },
     {
         "code": 6503212003,
@@ -3381,7 +4225,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Bululaun Hulu",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 4.341695720307105,
+        "longitude": 116.21706727224083
     },
     {
         "code": 6503212004,
@@ -3389,7 +4235,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Kalisun",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 4.301366556457582,
+        "longitude": 116.00329266690649
     },
     {
         "code": 6503212005,
@@ -3397,7 +4245,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Mamasin",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 4.307690737223189,
+        "longitude": 116.23367085758746
     },
     {
         "code": 6503212006,
@@ -3405,7 +4255,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Sibalu",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 4.330107910575138,
+        "longitude": 116.25293688297162
     },
     {
         "code": 6503212007,
@@ -3413,7 +4265,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Duyan",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 4.283322995828943,
+        "longitude": 116.23037377565605
     },
     {
         "code": 6503212008,
@@ -3421,7 +4275,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Tuntulibing",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 4.286153596069507,
+        "longitude": 116.20146704405535
     },
     {
         "code": 6503212009,
@@ -3429,7 +4285,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Tetagas",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 4.305421912157675,
+        "longitude": 116.16692462591277
     },
     {
         "code": 6503212010,
@@ -3437,7 +4295,9 @@
         "regency_code": 6503,
         "province_code": 65,
         "name": "Kabungolor",
-        "postal_code": "77450"
+        "postal_code": "77450",
+        "latitude": 4.354474420366163,
+        "longitude": 116.18014327036768
     },
     {
         "code": 6504012001,
@@ -3445,7 +4305,9 @@
         "regency_code": 6504,
         "province_code": 65,
         "name": "Tideng Pale",
-        "postal_code": "77151"
+        "postal_code": "77151",
+        "latitude": 3.678764586358726,
+        "longitude": 116.9113158982836
     },
     {
         "code": 6504012002,
@@ -3453,7 +4315,9 @@
         "regency_code": 6504,
         "province_code": 65,
         "name": "Limbu Sedulun",
-        "postal_code": "77151"
+        "postal_code": "77151",
+        "latitude": 3.544373724612705,
+        "longitude": 116.89545531934567
     },
     {
         "code": 6504012003,
@@ -3461,7 +4325,9 @@
         "regency_code": 6504,
         "province_code": 65,
         "name": "Sebidai",
-        "postal_code": "77151"
+        "postal_code": "77151",
+        "latitude": 3.5630071026136654,
+        "longitude": 116.93415198906715
     },
     {
         "code": 6504012004,
@@ -3469,7 +4335,9 @@
         "regency_code": 6504,
         "province_code": 65,
         "name": "Sedulun",
-        "postal_code": "77151"
+        "postal_code": "77151",
+        "latitude": 3.5857853724251525,
+        "longitude": 116.85310963814865
     },
     {
         "code": 6504012005,
@@ -3477,7 +4345,9 @@
         "regency_code": 6504,
         "province_code": 65,
         "name": "Tideng Pale Timur",
-        "postal_code": "77151"
+        "postal_code": "77151",
+        "latitude": 3.647063214502261,
+        "longitude": 116.93723810967234
     },
     {
         "code": 6504012006,
@@ -3485,7 +4355,9 @@
         "regency_code": 6504,
         "province_code": 65,
         "name": "Gunawan",
-        "postal_code": "77151"
+        "postal_code": "77151",
+        "latitude": 3.5328174643374664,
+        "longitude": 116.91529327736194
     },
     {
         "code": 6504012007,
@@ -3493,7 +4365,9 @@
         "regency_code": 6504,
         "province_code": 65,
         "name": "Sebawang",
-        "postal_code": "77151"
+        "postal_code": "77151",
+        "latitude": 3.5586841024263274,
+        "longitude": 116.95563093665277
     },
     {
         "code": 6504022001,
@@ -3501,7 +4375,9 @@
         "regency_code": 6504,
         "province_code": 65,
         "name": "Sesayap",
-        "postal_code": "77153"
+        "postal_code": "77153",
+        "latitude": 3.6473470671555677,
+        "longitude": 116.9941181044115
     },
     {
         "code": 6504022002,
@@ -3509,7 +4385,9 @@
         "regency_code": 6504,
         "province_code": 65,
         "name": "Sengkong",
-        "postal_code": "77153"
+        "postal_code": "77153",
+        "latitude": 3.6372388826641324,
+        "longitude": 117.33098634417476
     },
     {
         "code": 6504022003,
@@ -3517,7 +4395,9 @@
         "regency_code": 6504,
         "province_code": 65,
         "name": "Bebatu",
-        "postal_code": "77153"
+        "postal_code": "77153",
+        "latitude": 3.5167099014167453,
+        "longitude": 117.31633667328869
     },
     {
         "code": 6504022004,
@@ -3525,7 +4405,9 @@
         "regency_code": 6504,
         "province_code": 65,
         "name": "Bandan Bikis",
-        "postal_code": "77153"
+        "postal_code": "77153",
+        "latitude": 3.4205991386415753,
+        "longitude": 117.2786530746881
     },
     {
         "code": 6504022005,
@@ -3533,7 +4415,9 @@
         "regency_code": 6504,
         "province_code": 65,
         "name": "Sepala Dalung",
-        "postal_code": "77153"
+        "postal_code": "77153",
+        "latitude": 3.64055211725789,
+        "longitude": 117.06182053979852
     },
     {
         "code": 6504022006,
@@ -3541,7 +4425,9 @@
         "regency_code": 6504,
         "province_code": 65,
         "name": "Seludau",
-        "postal_code": "77153"
+        "postal_code": "77153",
+        "latitude": 3.5486992338825565,
+        "longitude": 116.99954451682625
     },
     {
         "code": 6504022007,
@@ -3549,7 +4435,9 @@
         "regency_code": 6504,
         "province_code": 65,
         "name": "Menjelutung",
-        "postal_code": "77153"
+        "postal_code": "77153",
+        "latitude": 3.692713304005129,
+        "longitude": 117.18877234274753
     },
     {
         "code": 6504022008,
@@ -3557,7 +4445,9 @@
         "regency_code": 6504,
         "province_code": 65,
         "name": "Sesayap Selor",
-        "postal_code": "77153"
+        "postal_code": "77153",
+        "latitude": 3.5746287062959974,
+        "longitude": 116.97793532700507
     },
     {
         "code": 6504032001,
@@ -3565,7 +4455,9 @@
         "regency_code": 6504,
         "province_code": 65,
         "name": "Tanah Merah",
-        "postal_code": "77451"
+        "postal_code": "77451",
+        "latitude": 3.704938678294644,
+        "longitude": 117.60008704040777
     },
     {
         "code": 6504032002,
@@ -3573,7 +4465,9 @@
         "regency_code": 6504,
         "province_code": 65,
         "name": "Tengku Dacing",
-        "postal_code": "77451"
+        "postal_code": "77451",
+        "latitude": 3.730353985557052,
+        "longitude": 117.70218766335277
     },
     {
         "code": 6504032003,
@@ -3581,7 +4475,9 @@
         "regency_code": 6504,
         "province_code": 65,
         "name": "Sambungan",
-        "postal_code": "77451"
+        "postal_code": "77451",
+        "latitude": 3.652603260615774,
+        "longitude": 117.62577398315445
     },
     {
         "code": 6504032004,
@@ -3589,7 +4485,9 @@
         "regency_code": 6504,
         "province_code": 65,
         "name": "Tanah Merah Barat",
-        "postal_code": "77451"
+        "postal_code": "77451",
+        "latitude": 3.7293110612502773,
+        "longitude": 117.517563973547
     },
     {
         "code": 6504032005,
@@ -3597,7 +4495,9 @@
         "regency_code": 6504,
         "province_code": 65,
         "name": "Sambungan Selatan",
-        "postal_code": "77451"
+        "postal_code": "77451",
+        "latitude": 3.667921385699856,
+        "longitude": 117.56359990139686
     },
     {
         "code": 6504042001,
@@ -3605,7 +4505,9 @@
         "regency_code": 6504,
         "province_code": 65,
         "name": "Buong Baru",
-        "postal_code": "77152"
+        "postal_code": "77152",
+        "latitude": 3.4505050123161762,
+        "longitude": 117.0984512431475
     },
     {
         "code": 6504042002,
@@ -3613,7 +4515,9 @@
         "regency_code": 6504,
         "province_code": 65,
         "name": "Bebakung",
-        "postal_code": "77152"
+        "postal_code": "77152",
+        "latitude": 3.4747253721031846,
+        "longitude": 116.9153595493514
     },
     {
         "code": 6504042003,
@@ -3621,7 +4525,9 @@
         "regency_code": 6504,
         "province_code": 65,
         "name": "Kujau",
-        "postal_code": "77152"
+        "postal_code": "77152",
+        "latitude": 3.427790401546877,
+        "longitude": 117.0113919749474
     },
     {
         "code": 6504042004,
@@ -3629,7 +4535,9 @@
         "regency_code": 6504,
         "province_code": 65,
         "name": "Mendupo",
-        "postal_code": "77152"
+        "postal_code": "77152",
+        "latitude": 3.4199775706438156,
+        "longitude": 116.88350463218187
     },
     {
         "code": 6504042005,
@@ -3637,7 +4545,9 @@
         "regency_code": 6504,
         "province_code": 65,
         "name": "Maning",
-        "postal_code": "77152"
+        "postal_code": "77152",
+        "latitude": 3.473059065975469,
+        "longitude": 117.01259127382126
     },
     {
         "code": 6504042006,
@@ -3645,7 +4555,9 @@
         "regency_code": 6504,
         "province_code": 65,
         "name": "Periuk",
-        "postal_code": "77152"
+        "postal_code": "77152",
+        "latitude": 3.4387054518951667,
+        "longitude": 116.90337660698574
     },
     {
         "code": 6504052001,
@@ -3653,7 +4565,9 @@
         "regency_code": 6504,
         "province_code": 65,
         "name": "Seputuk",
-        "postal_code": "77154"
+        "postal_code": "77154",
+        "latitude": 3.5436073954410325,
+        "longitude": 116.73226943075555
     },
     {
         "code": 6504052002,
@@ -3661,7 +4575,9 @@
         "regency_code": 6504,
         "province_code": 65,
         "name": "Rian",
-        "postal_code": "77154"
+        "postal_code": "77154",
+        "latitude": 3.6031671548951105,
+        "longitude": 116.81076579730757
     },
     {
         "code": 6504052003,
@@ -3669,7 +4585,9 @@
         "regency_code": 6504,
         "province_code": 65,
         "name": "Balayan Ari",
-        "postal_code": "77154"
+        "postal_code": "77154",
+        "latitude": 3.4317779755571642,
+        "longitude": 116.74729452020229
     },
     {
         "code": 6504052004,
@@ -3677,7 +4595,9 @@
         "regency_code": 6504,
         "province_code": 65,
         "name": "Rian Rayo",
-        "postal_code": "77154"
+        "postal_code": "77154",
+        "latitude": 3.5573567815592493,
+        "longitude": 116.78169529194403
     },
     {
         "code": 6504052005,
@@ -3685,7 +4605,9 @@
         "regency_code": 6504,
         "province_code": 65,
         "name": "Kapuak",
-        "postal_code": "77154"
+        "postal_code": "77154",
+        "latitude": 3.6051411920947602,
+        "longitude": 116.78794250397341
     },
     {
         "code": 6504052006,
@@ -3693,7 +4615,9 @@
         "regency_code": 6504,
         "province_code": 65,
         "name": "Sapari",
-        "postal_code": "77154"
+        "postal_code": "77154",
+        "latitude": 3.53458486809886,
+        "longitude": 116.84978446150832
     },
     {
         "code": 6571011001,
@@ -3701,7 +4625,9 @@
         "regency_code": 6571,
         "province_code": 65,
         "name": "Karang Anyar",
-        "postal_code": "77111"
+        "postal_code": "77111",
+        "latitude": 3.325506141531946,
+        "longitude": 117.58455667400501
     },
     {
         "code": 6571011002,
@@ -3709,7 +4635,9 @@
         "regency_code": 6571,
         "province_code": 65,
         "name": "Karang Rejo",
-        "postal_code": "77112"
+        "postal_code": "77112",
+        "latitude": 3.304218995419975,
+        "longitude": 117.57974295345667
     },
     {
         "code": 6571011003,
@@ -3717,7 +4645,9 @@
         "regency_code": 6571,
         "province_code": 65,
         "name": "Karang Anyar Pantai",
-        "postal_code": "77111"
+        "postal_code": "77111",
+        "latitude": 3.323078286644417,
+        "longitude": 117.56477091091234
     },
     {
         "code": 6571011004,
@@ -3725,7 +4655,9 @@
         "regency_code": 6571,
         "province_code": 65,
         "name": "Karang Balik",
-        "postal_code": "77112"
+        "postal_code": "77112",
+        "latitude": 3.307450551041291,
+        "longitude": 117.58844615396778
     },
     {
         "code": 6571011005,
@@ -3733,7 +4665,9 @@
         "regency_code": 6571,
         "province_code": 65,
         "name": "Karang Harapan",
-        "postal_code": "77111"
+        "postal_code": "77111",
+        "latitude": 3.3490616236297956,
+        "longitude": 117.55404305957336
     },
     {
         "code": 6571021001,
@@ -3741,7 +4675,9 @@
         "regency_code": 6571,
         "province_code": 65,
         "name": "Kampung I Skip",
-        "postal_code": "77113"
+        "postal_code": "77113",
+        "latitude": 3.3609340231920277,
+        "longitude": 117.61807137746132
     },
     {
         "code": 6571021002,
@@ -3749,7 +4685,9 @@
         "regency_code": 6571,
         "province_code": 65,
         "name": "Pamusian",
-        "postal_code": "77113"
+        "postal_code": "77113",
+        "latitude": 3.3066735218802896,
+        "longitude": 117.60375432132658
     },
     {
         "code": 6571021003,
@@ -3757,7 +4695,9 @@
         "regency_code": 6571,
         "province_code": 65,
         "name": "Sebengkok",
-        "postal_code": "77114"
+        "postal_code": "77114",
+        "latitude": 3.2986423295607867,
+        "longitude": 117.59268430458178
     },
     {
         "code": 6571021004,
@@ -3765,7 +4705,9 @@
         "regency_code": 6571,
         "province_code": 65,
         "name": "Selumit",
-        "postal_code": "77113"
+        "postal_code": "77113",
+        "latitude": 3.3013165144595424,
+        "longitude": 117.58844029042916
     },
     {
         "code": 6571021005,
@@ -3773,7 +4715,9 @@
         "regency_code": 6571,
         "province_code": 65,
         "name": "Selumit Pantai",
-        "postal_code": "77113"
+        "postal_code": "77113",
+        "latitude": 3.2981624177306146,
+        "longitude": 117.58345808400809
     },
     {
         "code": 6571031001,
@@ -3781,7 +4725,9 @@
         "regency_code": 6571,
         "province_code": 65,
         "name": "Lingkas Ujung",
-        "postal_code": "77126"
+        "postal_code": "77126",
+        "latitude": 3.2846379217907478,
+        "longitude": 117.59999930205848
     },
     {
         "code": 6571031002,
@@ -3789,7 +4735,9 @@
         "regency_code": 6571,
         "province_code": 65,
         "name": "Gunung Lingkas",
-        "postal_code": "77115"
+        "postal_code": "77115",
+        "latitude": 3.29218013745675,
+        "longitude": 117.60169313916951
     },
     {
         "code": 6571031003,
@@ -3797,7 +4745,9 @@
         "regency_code": 6571,
         "province_code": 65,
         "name": "Kampung Empat",
-        "postal_code": "77124"
+        "postal_code": "77124",
+        "latitude": 3.300343786630189,
+        "longitude": 117.62533236224036
     },
     {
         "code": 6571031004,
@@ -3805,7 +4755,9 @@
         "regency_code": 6571,
         "province_code": 65,
         "name": "Kampung Enam",
-        "postal_code": "77123"
+        "postal_code": "77123",
+        "latitude": 3.3282325046227488,
+        "longitude": 117.6321722877681
     },
     {
         "code": 6571031005,
@@ -3813,7 +4765,9 @@
         "regency_code": 6571,
         "province_code": 65,
         "name": "Mamburungan",
-        "postal_code": "77125"
+        "postal_code": "77125",
+        "latitude": 3.266440486550722,
+        "longitude": 117.63000843156144
     },
     {
         "code": 6571031006,
@@ -3821,7 +4775,9 @@
         "regency_code": 6571,
         "province_code": 65,
         "name": "Pantai Amal",
-        "postal_code": "77115"
+        "postal_code": "77115",
+        "latitude": 3.3190413650835926,
+        "longitude": 117.65050275677332
     },
     {
         "code": 6571031007,
@@ -3829,7 +4785,9 @@
         "regency_code": 6571,
         "province_code": 65,
         "name": "Mamburungan Timur",
-        "postal_code": "77115"
+        "postal_code": "77115",
+        "latitude": 3.2703793523750666,
+        "longitude": 117.63449936015503
     },
     {
         "code": 6571041001,
@@ -3837,7 +4795,9 @@
         "regency_code": 6571,
         "province_code": 65,
         "name": "Juata Laut",
-        "postal_code": "77116"
+        "postal_code": "77116",
+        "latitude": 3.4128489494248098,
+        "longitude": 117.59202720365037
     },
     {
         "code": 6571041002,
@@ -3845,7 +4805,9 @@
         "regency_code": 6571,
         "province_code": 65,
         "name": "Juata Permai",
-        "postal_code": "77116"
+        "postal_code": "77116",
+        "latitude": 3.3767645773176107,
+        "longitude": 117.5322872996822
     },
     {
         "code": 6571041003,
@@ -3853,6 +4815,8 @@
         "regency_code": 6571,
         "province_code": 65,
         "name": "Juata Kerikil",
-        "postal_code": "77116"
+        "postal_code": "77116",
+        "latitude": 3.37003036897396,
+        "longitude": 117.5692889392047
     }
 ]

@@ -3,56 +3,56 @@
         "code": 9501,
         "province_code": 95,
         "name": "Kab. Jayawijaya",
-        "latitude": -4.099306801793126,
-        "longitude": 138.94314903715775
+        "latitude": -4.093457440422625,
+        "longitude": 138.86676235179297
     },
     {
         "code": 9502,
         "province_code": 95,
         "name": "Kab. Pegunungan Bintang",
-        "latitude": -4.890902753435135,
-        "longitude": 140.6399248830013
+        "latitude": -4.540964683231836,
+        "longitude": 140.5352615258933
     },
     {
         "code": 9503,
         "province_code": 95,
         "name": "Kab. Yahukimo",
-        "latitude": -4.886949804165835,
-        "longitude": 139.52051776219918
+        "latitude": -4.472568177528574,
+        "longitude": 139.56483395328334
     },
     {
         "code": 9504,
         "province_code": 95,
         "name": "Kab. Tolikara",
-        "latitude": -3.682250900207365,
-        "longitude": 138.4734846330228
+        "latitude": -3.453926883638689,
+        "longitude": 138.47333095879188
     },
     {
         "code": 9505,
         "province_code": 95,
         "name": "Kab. Mamberamo Tengah",
-        "latitude": -3.671617193020148,
-        "longitude": 139.06076334013963
+        "latitude": -3.586650430212689,
+        "longitude": 139.01982774088373
     },
     {
         "code": 9506,
         "province_code": 95,
         "name": "Kab. Yalimo",
-        "latitude": -3.7788529007356377,
-        "longitude": 139.38315671497205
+        "latitude": -3.827696213111702,
+        "longitude": 139.46703542517307
     },
     {
         "code": 9507,
         "province_code": 95,
         "name": "Kab. Lanny Jaya",
-        "latitude": -3.923598745963506,
-        "longitude": 138.4495844424401
+        "latitude": -3.9621549623101373,
+        "longitude": 138.38440906026074
     },
     {
         "code": 9508,
         "province_code": 95,
         "name": "Kab. Nduga",
-        "latitude": -4.406940530605307,
-        "longitude": 138.23935476923037
+        "latitude": -4.415756260918866,
+        "longitude": 138.3367076242913
     }
 ]

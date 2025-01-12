@@ -5,7 +5,9 @@
         "regency_code": 3101,
         "province_code": 31,
         "name": "Pulau Panggang",
-        "postal_code": "14530"
+        "postal_code": "14530",
+        "latitude": -5.733788950766017,
+        "longitude": 106.5900424294979
     },
     {
         "code": 3101011002,
@@ -13,7 +15,9 @@
         "regency_code": 3101,
         "province_code": 31,
         "name": "Pulau Kelapa",
-        "postal_code": "14540"
+        "postal_code": "14540",
+        "latitude": -5.644844751391586,
+        "longitude": 106.56236720009834
     },
     {
         "code": 3101011003,
@@ -21,7 +25,9 @@
         "regency_code": 3101,
         "province_code": 31,
         "name": "Pulau Harapan",
-        "postal_code": "14540"
+        "postal_code": "14540",
+        "latitude": -5.533857271702461,
+        "longitude": 106.54421750016645
     },
     {
         "code": 3101021001,
@@ -29,7 +35,9 @@
         "regency_code": 3101,
         "province_code": 31,
         "name": "Pulau Untung Jawa",
-        "postal_code": "14510"
+        "postal_code": "14510",
+        "latitude": -5.981778580909652,
+        "longitude": 106.73864406656043
     },
     {
         "code": 3101021002,
@@ -37,7 +45,9 @@
         "regency_code": 3101,
         "province_code": 31,
         "name": "Pulau Tidung",
-        "postal_code": "14520"
+        "postal_code": "14520",
+        "latitude": -5.804079748698364,
+        "longitude": 106.51370139067053
     },
     {
         "code": 3101021003,
@@ -45,7 +55,9 @@
         "regency_code": 3101,
         "province_code": 31,
         "name": "Pulau Pari",
-        "postal_code": "14520"
+        "postal_code": "14520",
+        "latitude": -5.898892336461643,
+        "longitude": 106.5976125493874
     },
     {
         "code": 3171011001,
@@ -53,7 +65,9 @@
         "regency_code": 3171,
         "province_code": 31,
         "name": "Gambir",
-        "postal_code": "10110"
+        "postal_code": "10110",
+        "latitude": -6.176384269281675,
+        "longitude": 106.82670735619568
     },
     {
         "code": 3171011002,
@@ -61,7 +75,9 @@
         "regency_code": 3171,
         "province_code": 31,
         "name": "Cideng",
-        "postal_code": "10150"
+        "postal_code": "10150",
+        "latitude": -6.1729803094614795,
+        "longitude": 106.80831082065578
     },
     {
         "code": 3171011003,
@@ -69,7 +85,9 @@
         "regency_code": 3171,
         "province_code": 31,
         "name": "Petojo Utara",
-        "postal_code": "10130"
+        "postal_code": "10130",
+        "latitude": -6.165353782803291,
+        "longitude": 106.81529944963525
     },
     {
         "code": 3171011004,
@@ -77,7 +95,9 @@
         "regency_code": 3171,
         "province_code": 31,
         "name": "Petojo Selatan",
-        "postal_code": "10160"
+        "postal_code": "10160",
+        "latitude": -6.174770761766998,
+        "longitude": 106.81640797309846
     },
     {
         "code": 3171011005,
@@ -85,7 +105,9 @@
         "regency_code": 3171,
         "province_code": 31,
         "name": "Kebon Kelapa",
-        "postal_code": "10120"
+        "postal_code": "10120",
+        "latitude": -6.164150614386454,
+        "longitude": 106.82454997479549
     },
     {
         "code": 3171011006,
@@ -93,7 +115,9 @@
         "regency_code": 3171,
         "province_code": 31,
         "name": "Duri Pulo",
-        "postal_code": "10140"
+        "postal_code": "10140",
+        "latitude": -6.163380799883931,
+        "longitude": 106.80458246447154
     },
     {
         "code": 3171021001,
@@ -101,7 +125,9 @@
         "regency_code": 3171,
         "province_code": 31,
         "name": "Pasar Baru",
-        "postal_code": "10710"
+        "postal_code": "10710",
+        "latitude": -6.1660294705465155,
+        "longitude": 106.83448401586124
     },
     {
         "code": 3171021002,
@@ -109,7 +135,9 @@
         "regency_code": 3171,
         "province_code": 31,
         "name": "Karang Anyar",
-        "postal_code": "10740"
+        "postal_code": "10740",
+        "latitude": -6.153974781441201,
+        "longitude": 106.82913543203112
     },
     {
         "code": 3171021003,
@@ -117,7 +145,9 @@
         "regency_code": 3171,
         "province_code": 31,
         "name": "Kartini",
-        "postal_code": "10750"
+        "postal_code": "10750",
+        "latitude": -6.153245178627838,
+        "longitude": 106.83311808588823
     },
     {
         "code": 3171021004,
@@ -125,7 +155,9 @@
         "regency_code": 3171,
         "province_code": 31,
         "name": "Gunung Sahari Utara",
-        "postal_code": "10720"
+        "postal_code": "10720",
+        "latitude": -6.149215369570201,
+        "longitude": 106.83828331698066
     },
     {
         "code": 3171021005,
@@ -133,7 +165,9 @@
         "regency_code": 3171,
         "province_code": 31,
         "name": "Mangga Dua Selatan",
-        "postal_code": "10730"
+        "postal_code": "10730",
+        "latitude": -6.142074900418962,
+        "longitude": 106.82826025689549
     },
     {
         "code": 3171031001,
@@ -141,7 +175,9 @@
         "regency_code": 3171,
         "province_code": 31,
         "name": "Kemayoran",
-        "postal_code": "10620"
+        "postal_code": "10620",
+        "latitude": -6.16472147780022,
+        "longitude": 106.84538378668795
     },
     {
         "code": 3171031002,
@@ -149,7 +185,9 @@
         "regency_code": 3171,
         "province_code": 31,
         "name": "Kebon Kosong",
-        "postal_code": "10630"
+        "postal_code": "10630",
+        "latitude": -6.158195998120798,
+        "longitude": 106.85346180817811
     },
     {
         "code": 3171031003,
@@ -157,7 +195,9 @@
         "regency_code": 3171,
         "province_code": 31,
         "name": "Harapan Mulia",
-        "postal_code": "10640"
+        "postal_code": "10640",
+        "latitude": -6.1705125921053865,
+        "longitude": 106.85586697034435
     },
     {
         "code": 3171031004,
@@ -165,7 +205,9 @@
         "regency_code": 3171,
         "province_code": 31,
         "name": "Serdang",
-        "postal_code": "10650"
+        "postal_code": "10650",
+        "latitude": -6.1589130143060995,
+        "longitude": 106.86114649752928
     },
     {
         "code": 3171031005,
@@ -173,7 +215,9 @@
         "regency_code": 3171,
         "province_code": 31,
         "name": "Gunung Sahari Selatan",
-        "postal_code": "10610"
+        "postal_code": "10610",
+        "latitude": -6.159342361043174,
+        "longitude": 106.84401792361629
     },
     {
         "code": 3171031006,
@@ -181,7 +225,9 @@
         "regency_code": 3171,
         "province_code": 31,
         "name": "Cempaka Baru",
-        "postal_code": "10640"
+        "postal_code": "10640",
+        "latitude": -6.168108425037689,
+        "longitude": 106.86277917406173
     },
     {
         "code": 3171031007,
@@ -189,7 +235,9 @@
         "regency_code": 3171,
         "province_code": 31,
         "name": "Sumur Batu",
-        "postal_code": "10640"
+        "postal_code": "10640",
+        "latitude": -6.163490175241949,
+        "longitude": 106.87104726192737
     },
     {
         "code": 3171031008,
@@ -197,7 +245,9 @@
         "regency_code": 3171,
         "province_code": 31,
         "name": "Utan Panjang",
-        "postal_code": "10650"
+        "postal_code": "10650",
+        "latitude": -6.165354425119488,
+        "longitude": 106.85432622184595
     },
     {
         "code": 3171041001,
@@ -205,7 +255,9 @@
         "regency_code": 3171,
         "province_code": 31,
         "name": "Senen",
-        "postal_code": "10410"
+        "postal_code": "10410",
+        "latitude": -6.176101353358782,
+        "longitude": 106.83963164197402
     },
     {
         "code": 3171041002,
@@ -213,7 +265,9 @@
         "regency_code": 3171,
         "province_code": 31,
         "name": "Kenari",
-        "postal_code": "10430"
+        "postal_code": "10430",
+        "latitude": -6.193560002498997,
+        "longitude": 106.84668347271543
     },
     {
         "code": 3171041003,
@@ -221,7 +275,9 @@
         "regency_code": 3171,
         "province_code": 31,
         "name": "Paseban",
-        "postal_code": "10440"
+        "postal_code": "10440",
+        "latitude": -6.1933914752466315,
+        "longitude": 106.85258725071063
     },
     {
         "code": 3171041004,
@@ -229,7 +285,9 @@
         "regency_code": 3171,
         "province_code": 31,
         "name": "Kramat",
-        "postal_code": "10450"
+        "postal_code": "10450",
+        "latitude": -6.183486406119588,
+        "longitude": 106.84632043758337
     },
     {
         "code": 3171041005,
@@ -237,7 +295,9 @@
         "regency_code": 3171,
         "province_code": 31,
         "name": "Kwitang",
-        "postal_code": "10420"
+        "postal_code": "10420",
+        "latitude": -6.183183763231892,
+        "longitude": 106.8401935465586
     },
     {
         "code": 3171041006,
@@ -245,7 +305,9 @@
         "regency_code": 3171,
         "province_code": 31,
         "name": "Bungur",
-        "postal_code": "10460"
+        "postal_code": "10460",
+        "latitude": -6.171571377780266,
+        "longitude": 106.8479715067537
     },
     {
         "code": 3171051001,
@@ -253,7 +315,9 @@
         "regency_code": 3171,
         "province_code": 31,
         "name": "Cempaka Putih Timur",
-        "postal_code": "10510"
+        "postal_code": "10510",
+        "latitude": -6.176000217310941,
+        "longitude": 106.87174915332302
     },
     {
         "code": 3171051002,
@@ -261,7 +325,9 @@
         "regency_code": 3171,
         "province_code": 31,
         "name": "Cempaka Putih Barat",
-        "postal_code": "10520"
+        "postal_code": "10520",
+        "latitude": -6.179929831273953,
+        "longitude": 106.8638457949168
     },
     {
         "code": 3171051003,
@@ -269,7 +335,9 @@
         "regency_code": 3171,
         "province_code": 31,
         "name": "Rawasari",
-        "postal_code": "10570"
+        "postal_code": "10570",
+        "latitude": -6.190446627909917,
+        "longitude": 106.86604650892974
     },
     {
         "code": 3171061001,
@@ -277,7 +345,9 @@
         "regency_code": 3171,
         "province_code": 31,
         "name": "Menteng",
-        "postal_code": "10310"
+        "postal_code": "10310",
+        "latitude": -6.200896699778712,
+        "longitude": 106.83392059173829
     },
     {
         "code": 3171061002,
@@ -285,7 +355,9 @@
         "regency_code": 3171,
         "province_code": 31,
         "name": "Pegangsaan",
-        "postal_code": "10320"
+        "postal_code": "10320",
+        "latitude": -6.201964604404639,
+        "longitude": 106.84807216725606
     },
     {
         "code": 3171061003,
@@ -293,7 +365,9 @@
         "regency_code": 3171,
         "province_code": 31,
         "name": "Cikini",
-        "postal_code": "10330"
+        "postal_code": "10330",
+        "latitude": -6.191449330801438,
+        "longitude": 106.8393879906989
     },
     {
         "code": 3171061004,
@@ -301,7 +375,9 @@
         "regency_code": 3171,
         "province_code": 31,
         "name": "Gondangdia",
-        "postal_code": "10350"
+        "postal_code": "10350",
+        "latitude": -6.191796111021643,
+        "longitude": 106.82943589171788
     },
     {
         "code": 3171061005,
@@ -309,7 +385,9 @@
         "regency_code": 3171,
         "province_code": 31,
         "name": "Kebon Sirih",
-        "postal_code": "10340"
+        "postal_code": "10340",
+        "latitude": -6.185086887635875,
+        "longitude": 106.83075257340303
     },
     {
         "code": 3171071001,
@@ -317,7 +395,9 @@
         "regency_code": 3171,
         "province_code": 31,
         "name": "Gelora",
-        "postal_code": "10270"
+        "postal_code": "10270",
+        "latitude": -6.216258882675461,
+        "longitude": 106.80150533961634
     },
     {
         "code": 3171071002,
@@ -325,7 +405,9 @@
         "regency_code": 3171,
         "province_code": 31,
         "name": "Bendungan Hilir",
-        "postal_code": "10210"
+        "postal_code": "10210",
+        "latitude": -6.208630726810858,
+        "longitude": 106.8090417771676
     },
     {
         "code": 3171071003,
@@ -333,7 +415,9 @@
         "regency_code": 3171,
         "province_code": 31,
         "name": "Karet Tengsin",
-        "postal_code": "10220"
+        "postal_code": "10220",
+        "latitude": -6.20706662493576,
+        "longitude": 106.81655151435194
     },
     {
         "code": 3171071004,
@@ -341,7 +425,9 @@
         "regency_code": 3171,
         "province_code": 31,
         "name": "Petamburan",
-        "postal_code": "10260"
+        "postal_code": "10260",
+        "latitude": -6.196875662893176,
+        "longitude": 106.80600168584422
     },
     {
         "code": 3171071005,
@@ -349,7 +435,9 @@
         "regency_code": 3171,
         "province_code": 31,
         "name": "Kebon Melati",
-        "postal_code": "10230"
+        "postal_code": "10230",
+        "latitude": -6.197052719903746,
+        "longitude": 106.81596823959143
     },
     {
         "code": 3171071006,
@@ -357,7 +445,9 @@
         "regency_code": 3171,
         "province_code": 31,
         "name": "Kebon Kacang",
-        "postal_code": "10240"
+        "postal_code": "10240",
+        "latitude": -6.190299316082055,
+        "longitude": 106.81720194589612
     },
     {
         "code": 3171071007,
@@ -365,7 +455,9 @@
         "regency_code": 3171,
         "province_code": 31,
         "name": "Kampung Bali",
-        "postal_code": "10250"
+        "postal_code": "10250",
+        "latitude": -6.185187752481591,
+        "longitude": 106.81613457990065
     },
     {
         "code": 3171081001,
@@ -373,7 +465,9 @@
         "regency_code": 3171,
         "province_code": 31,
         "name": "Johar Baru",
-        "postal_code": "10560"
+        "postal_code": "10560",
+        "latitude": -6.1856986478664115,
+        "longitude": 106.85702964510114
     },
     {
         "code": 3171081002,
@@ -381,7 +475,9 @@
         "regency_code": 3171,
         "province_code": 31,
         "name": "Kampung Rawa",
-        "postal_code": "10550"
+        "postal_code": "10550",
+        "latitude": -6.179503569567763,
+        "longitude": 106.85551322979812
     },
     {
         "code": 3171081003,
@@ -389,7 +485,9 @@
         "regency_code": 3171,
         "province_code": 31,
         "name": "Galur",
-        "postal_code": "10530"
+        "postal_code": "10530",
+        "latitude": -6.176170787834254,
+        "longitude": 106.85543630394946
     },
     {
         "code": 3171081004,
@@ -397,7 +495,9 @@
         "regency_code": 3171,
         "province_code": 31,
         "name": "Tanah Tinggi",
-        "postal_code": "10540"
+        "postal_code": "10540",
+        "latitude": -6.179226073292423,
+        "longitude": 106.84924869338082
     },
     {
         "code": 3172011001,
@@ -405,7 +505,9 @@
         "regency_code": 3172,
         "province_code": 31,
         "name": "Penjaringan",
-        "postal_code": "14440"
+        "postal_code": "14440",
+        "latitude": -6.12204491716837,
+        "longitude": 106.80002178076417
     },
     {
         "code": 3172011002,
@@ -413,7 +515,9 @@
         "regency_code": 3172,
         "province_code": 31,
         "name": "Kamal Muara",
-        "postal_code": "14470"
+        "postal_code": "14470",
+        "latitude": -6.104372402978514,
+        "longitude": 106.73833563536311
     },
     {
         "code": 3172011003,
@@ -421,7 +525,9 @@
         "regency_code": 3172,
         "province_code": 31,
         "name": "Kapuk Muara",
-        "postal_code": "14460"
+        "postal_code": "14460",
+        "latitude": -6.122124903284632,
+        "longitude": 106.76328536523461
     },
     {
         "code": 3172011004,
@@ -429,7 +535,9 @@
         "regency_code": 3172,
         "province_code": 31,
         "name": "Pejagalan",
-        "postal_code": "14450"
+        "postal_code": "14450",
+        "latitude": -6.135806584703488,
+        "longitude": 106.78482745000579
     },
     {
         "code": 3172011005,
@@ -437,7 +545,9 @@
         "regency_code": 3172,
         "province_code": 31,
         "name": "Pluit",
-        "postal_code": "14450"
+        "postal_code": "14450",
+        "latitude": -6.1140802563260666,
+        "longitude": 106.78646766143548
     },
     {
         "code": 3172021001,
@@ -445,7 +555,9 @@
         "regency_code": 3172,
         "province_code": 31,
         "name": "Tanjung Priok",
-        "postal_code": "14310"
+        "postal_code": "14310",
+        "latitude": -6.10887349208286,
+        "longitude": 106.87914910181566
     },
     {
         "code": 3172021002,
@@ -453,7 +565,9 @@
         "regency_code": 3172,
         "province_code": 31,
         "name": "Sunter Jaya",
-        "postal_code": "14360"
+        "postal_code": "14360",
+        "latitude": -6.1513538193629405,
+        "longitude": 106.87681260162502
     },
     {
         "code": 3172021003,
@@ -461,7 +575,9 @@
         "regency_code": 3172,
         "province_code": 31,
         "name": "Papanggo",
-        "postal_code": "14340"
+        "postal_code": "14340",
+        "latitude": -6.129006174591576,
+        "longitude": 106.87110876724093
     },
     {
         "code": 3172021004,
@@ -469,7 +585,9 @@
         "regency_code": 3172,
         "province_code": 31,
         "name": "Sungai Bambu",
-        "postal_code": "14330"
+        "postal_code": "14330",
+        "latitude": -6.13074025574866,
+        "longitude": 106.88622432840798
     },
     {
         "code": 3172021005,
@@ -477,7 +595,9 @@
         "regency_code": 3172,
         "province_code": 31,
         "name": "Kebon Bawang",
-        "postal_code": "14320"
+        "postal_code": "14320",
+        "latitude": -6.119372344445652,
+        "longitude": 106.88901949867962
     },
     {
         "code": 3172021006,
@@ -485,7 +605,9 @@
         "regency_code": 3172,
         "province_code": 31,
         "name": "Sunter Agung",
-        "postal_code": "14350"
+        "postal_code": "14350",
+        "latitude": -6.138082051742422,
+        "longitude": 106.8620890538488
     },
     {
         "code": 3172021007,
@@ -493,7 +615,9 @@
         "regency_code": 3172,
         "province_code": 31,
         "name": "Warakas",
-        "postal_code": "14370"
+        "postal_code": "14370",
+        "latitude": -6.121830067041429,
+        "longitude": 106.87778226149358
     },
     {
         "code": 3172031001,
@@ -501,7 +625,9 @@
         "regency_code": 3172,
         "province_code": 31,
         "name": "Koja",
-        "postal_code": "14210"
+        "postal_code": "14210",
+        "latitude": -6.105783359874192,
+        "longitude": 106.89911543287627
     },
     {
         "code": 3172031002,
@@ -509,7 +635,9 @@
         "regency_code": 3172,
         "province_code": 31,
         "name": "Tugu Utara",
-        "postal_code": "14260"
+        "postal_code": "14260",
+        "latitude": -6.124276745640159,
+        "longitude": 106.91234429284253
     },
     {
         "code": 3172031003,
@@ -517,7 +645,9 @@
         "regency_code": 3172,
         "province_code": 31,
         "name": "Lagoa",
-        "postal_code": "14270"
+        "postal_code": "14270",
+        "latitude": -6.113997436502097,
+        "longitude": 106.9106191330772
     },
     {
         "code": 3172031004,
@@ -525,7 +655,9 @@
         "regency_code": 3172,
         "province_code": 31,
         "name": "Rawa Badak Utara",
-        "postal_code": "14230"
+        "postal_code": "14230",
+        "latitude": -6.119612755799791,
+        "longitude": 106.89789310993554
     },
     {
         "code": 3172031005,
@@ -533,7 +665,9 @@
         "regency_code": 3172,
         "province_code": 31,
         "name": "Tugu Selatan",
-        "postal_code": "14260"
+        "postal_code": "14260",
+        "latitude": -6.1354086569232935,
+        "longitude": 106.91034543746554
     },
     {
         "code": 3172031006,
@@ -541,7 +675,9 @@
         "regency_code": 3172,
         "province_code": 31,
         "name": "Rawa Badak Selatan",
-        "postal_code": "14230"
+        "postal_code": "14230",
+        "latitude": -6.132306658595298,
+        "longitude": 106.89868533302905
     },
     {
         "code": 3172041001,
@@ -549,7 +685,9 @@
         "regency_code": 3172,
         "province_code": 31,
         "name": "Cilincing",
-        "postal_code": "14120"
+        "postal_code": "14120",
+        "latitude": -6.110745823040859,
+        "longitude": 106.94515421932199
     },
     {
         "code": 3172041002,
@@ -557,7 +695,9 @@
         "regency_code": 3172,
         "province_code": 31,
         "name": "Sukapura",
-        "postal_code": "14140"
+        "postal_code": "14140",
+        "latitude": -6.147960467247473,
+        "longitude": 106.92797260167765
     },
     {
         "code": 3172041003,
@@ -565,7 +705,9 @@
         "regency_code": 3172,
         "province_code": 31,
         "name": "Marunda",
-        "postal_code": "14150"
+        "postal_code": "14150",
+        "latitude": -6.113374924418361,
+        "longitude": 106.96132454864181
     },
     {
         "code": 3172041004,
@@ -573,7 +715,9 @@
         "regency_code": 3172,
         "province_code": 31,
         "name": "Kalibaru",
-        "postal_code": "14110"
+        "postal_code": "14110",
+        "latitude": -6.094926844538226,
+        "longitude": 106.91597909712473
     },
     {
         "code": 3172041005,
@@ -581,7 +725,9 @@
         "regency_code": 3172,
         "province_code": 31,
         "name": "Semper Timur",
-        "postal_code": "14130"
+        "postal_code": "14130",
+        "latitude": -6.120611991231101,
+        "longitude": 106.93325238202897
     },
     {
         "code": 3172041006,
@@ -589,7 +735,9 @@
         "regency_code": 3172,
         "province_code": 31,
         "name": "Rorotan",
-        "postal_code": "14140"
+        "postal_code": "14140",
+        "latitude": -6.1453220884409845,
+        "longitude": 106.95526510594776
     },
     {
         "code": 3172041007,
@@ -597,7 +745,9 @@
         "regency_code": 3172,
         "province_code": 31,
         "name": "Semper Barat",
-        "postal_code": "14130"
+        "postal_code": "14130",
+        "latitude": -6.125967943443232,
+        "longitude": 106.92425959281461
     },
     {
         "code": 3172051001,
@@ -605,7 +755,9 @@
         "regency_code": 3172,
         "province_code": 31,
         "name": "Pademangan Timur",
-        "postal_code": "14410"
+        "postal_code": "14410",
+        "latitude": -6.142328440599613,
+        "longitude": 106.84780700559634
     },
     {
         "code": 3172051002,
@@ -613,7 +765,9 @@
         "regency_code": 3172,
         "province_code": 31,
         "name": "Pademangan Barat",
-        "postal_code": "14420"
+        "postal_code": "14420",
+        "latitude": -6.134926777793416,
+        "longitude": 106.83676458902762
     },
     {
         "code": 3172051003,
@@ -621,7 +775,9 @@
         "regency_code": 3172,
         "province_code": 31,
         "name": "Ancol",
-        "postal_code": "14430"
+        "postal_code": "14430",
+        "latitude": -6.123942446681986,
+        "longitude": 106.83425873527986
     },
     {
         "code": 3172061001,
@@ -629,7 +785,9 @@
         "regency_code": 3172,
         "province_code": 31,
         "name": "Kelapa Gading Timur",
-        "postal_code": "14240"
+        "postal_code": "14240",
+        "latitude": -6.168399166917722,
+        "longitude": 106.90360715143817
     },
     {
         "code": 3172061002,
@@ -637,7 +795,9 @@
         "regency_code": 3172,
         "province_code": 31,
         "name": "Pegangsaan Dua",
-        "postal_code": "14250"
+        "postal_code": "14250",
+        "latitude": -6.16408683210865,
+        "longitude": 106.91471688230423
     },
     {
         "code": 3172061003,
@@ -645,7 +805,9 @@
         "regency_code": 3172,
         "province_code": 31,
         "name": "Kelapa Gading Barat",
-        "postal_code": "14240"
+        "postal_code": "14240",
+        "latitude": -6.15552378746545,
+        "longitude": 106.8952691427424
     },
     {
         "code": 3173011001,
@@ -653,7 +815,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Cengkareng Barat",
-        "postal_code": "11730"
+        "postal_code": "11730",
+        "latitude": -6.138677075927934,
+        "longitude": 106.72379099715288
     },
     {
         "code": 3173011002,
@@ -661,7 +825,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Duri Kosambi",
-        "postal_code": "11750"
+        "postal_code": "11750",
+        "latitude": -6.170010638175043,
+        "longitude": 106.71923753912918
     },
     {
         "code": 3173011003,
@@ -669,7 +835,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Rawa Buaya",
-        "postal_code": "11740"
+        "postal_code": "11740",
+        "latitude": -6.1628713556517765,
+        "longitude": 106.73638915099419
     },
     {
         "code": 3173011004,
@@ -677,7 +845,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Kedaung Kali Angke",
-        "postal_code": "11710"
+        "postal_code": "11710",
+        "latitude": -6.152569496052011,
+        "longitude": 106.75857601542747
     },
     {
         "code": 3173011005,
@@ -685,7 +855,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Kapuk",
-        "postal_code": "11720"
+        "postal_code": "11720",
+        "latitude": -6.142186470045508,
+        "longitude": 106.75406591622267
     },
     {
         "code": 3173011006,
@@ -693,7 +865,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Cengkareng Timur",
-        "postal_code": "11730"
+        "postal_code": "11730",
+        "latitude": -6.1412819646437855,
+        "longitude": 106.73564717043978
     },
     {
         "code": 3173021001,
@@ -701,7 +875,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Grogol",
-        "postal_code": "11450"
+        "postal_code": "11450",
+        "latitude": -6.161846805272537,
+        "longitude": 106.79432529991688
     },
     {
         "code": 3173021002,
@@ -709,7 +885,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Tanjung Duren Utara",
-        "postal_code": "11470"
+        "postal_code": "11470",
+        "latitude": -6.1728186511304965,
+        "longitude": 106.78327245937551
     },
     {
         "code": 3173021003,
@@ -717,7 +895,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Tomang",
-        "postal_code": "11440"
+        "postal_code": "11440",
+        "latitude": -6.171738996629252,
+        "longitude": 106.79647396594483
     },
     {
         "code": 3173021004,
@@ -725,7 +905,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Jelambar",
-        "postal_code": "11460"
+        "postal_code": "11460",
+        "latitude": -6.1593992294022755,
+        "longitude": 106.78576281009009
     },
     {
         "code": 3173021005,
@@ -733,7 +915,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Tanjung Duren Selatan",
-        "postal_code": "11470"
+        "postal_code": "11470",
+        "latitude": -6.179352445373923,
+        "longitude": 106.78859556004258
     },
     {
         "code": 3173021006,
@@ -741,7 +925,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Jelambar Baru",
-        "postal_code": "11460"
+        "postal_code": "11460",
+        "latitude": -6.149094508047478,
+        "longitude": 106.78722699432907
     },
     {
         "code": 3173021007,
@@ -749,7 +935,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Wijaya Kusuma",
-        "postal_code": "11460"
+        "postal_code": "11460",
+        "latitude": -6.154821470003554,
+        "longitude": 106.77590882426783
     },
     {
         "code": 3173031001,
@@ -757,7 +945,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Taman Sari",
-        "postal_code": "11150"
+        "postal_code": "11150",
+        "latitude": -6.153576684064221,
+        "longitude": 106.82453124108052
     },
     {
         "code": 3173031002,
@@ -765,7 +955,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Krukut",
-        "postal_code": "11140"
+        "postal_code": "11140",
+        "latitude": -6.1569581402847735,
+        "longitude": 106.81499366852073
     },
     {
         "code": 3173031003,
@@ -773,7 +965,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Maphar",
-        "postal_code": "11160"
+        "postal_code": "11160",
+        "latitude": -6.156012577571579,
+        "longitude": 106.82117233832025
     },
     {
         "code": 3173031004,
@@ -781,7 +975,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Tangki",
-        "postal_code": "11170"
+        "postal_code": "11170",
+        "latitude": -6.146197137361405,
+        "longitude": 106.82313668244258
     },
     {
         "code": 3173031005,
@@ -789,7 +985,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Mangga Besar",
-        "postal_code": "11180"
+        "postal_code": "11180",
+        "latitude": -6.144800147781874,
+        "longitude": 106.81830616265557
     },
     {
         "code": 3173031006,
@@ -797,7 +995,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Keagungan",
-        "postal_code": "11130"
+        "postal_code": "11130",
+        "latitude": -6.151170895691736,
+        "longitude": 106.81427813900645
     },
     {
         "code": 3173031007,
@@ -805,7 +1005,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Glodok",
-        "postal_code": "11120"
+        "postal_code": "11120",
+        "latitude": -6.144977468953345,
+        "longitude": 106.81321413125646
     },
     {
         "code": 3173031008,
@@ -813,7 +1015,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Pinangsia",
-        "postal_code": "11110"
+        "postal_code": "11110",
+        "latitude": -6.137082493567182,
+        "longitude": 106.81580428246802
     },
     {
         "code": 3173041001,
@@ -821,7 +1025,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Tambora",
-        "postal_code": "11220"
+        "postal_code": "11220",
+        "latitude": -6.144629157092716,
+        "longitude": 106.80884620772467
     },
     {
         "code": 3173041002,
@@ -829,7 +1035,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Kali Anyar",
-        "postal_code": "11310"
+        "postal_code": "11310",
+        "latitude": -6.157691346823927,
+        "longitude": 106.79903386756781
     },
     {
         "code": 3173041003,
@@ -837,7 +1045,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Duri Utara",
-        "postal_code": "11270"
+        "postal_code": "11270",
+        "latitude": -6.1543100444673104,
+        "longitude": 106.80494228316499
     },
     {
         "code": 3173041004,
@@ -845,7 +1055,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Tanah Sereal",
-        "postal_code": "11210"
+        "postal_code": "11210",
+        "latitude": -6.154045854791734,
+        "longitude": 106.80984185275868
     },
     {
         "code": 3173041005,
@@ -853,7 +1065,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Krendang",
-        "postal_code": "11260"
+        "postal_code": "11260",
+        "latitude": -6.150214535998677,
+        "longitude": 106.80398375311206
     },
     {
         "code": 3173041006,
@@ -861,7 +1075,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Jembatan Besi",
-        "postal_code": "11320"
+        "postal_code": "11320",
+        "latitude": -6.151866783016047,
+        "longitude": 106.79775120172414
     },
     {
         "code": 3173041007,
@@ -869,7 +1085,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Angke",
-        "postal_code": "11330"
+        "postal_code": "11330",
+        "latitude": -6.14552741426966,
+        "longitude": 106.79579436058563
     },
     {
         "code": 3173041008,
@@ -877,7 +1095,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Jembatan Lima",
-        "postal_code": "11250"
+        "postal_code": "11250",
+        "latitude": -6.1449051905952645,
+        "longitude": 106.80379277399483
     },
     {
         "code": 3173041009,
@@ -885,7 +1105,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Pekojan",
-        "postal_code": "11240"
+        "postal_code": "11240",
+        "latitude": -6.137344955582009,
+        "longitude": 106.80402879490663
     },
     {
         "code": 3173041010,
@@ -893,7 +1115,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Roa Malaka",
-        "postal_code": "11230"
+        "postal_code": "11230",
+        "latitude": -6.136374493393998,
+        "longitude": 106.80946936821962
     },
     {
         "code": 3173041011,
@@ -901,7 +1125,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Duri Selatan",
-        "postal_code": "11270"
+        "postal_code": "11270",
+        "latitude": -6.159027814122883,
+        "longitude": 106.80501318831688
     },
     {
         "code": 3173051001,
@@ -909,7 +1135,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Kebon Jeruk",
-        "postal_code": "11530"
+        "postal_code": "11530",
+        "latitude": -6.195003584375161,
+        "longitude": 106.77213489761992
     },
     {
         "code": 3173051002,
@@ -917,7 +1145,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Sukabumi Utara",
-        "postal_code": "11540"
+        "postal_code": "11540",
+        "latitude": -6.208836291242536,
+        "longitude": 106.77763478548313
     },
     {
         "code": 3173051003,
@@ -925,7 +1155,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Sukabumi Selatan",
-        "postal_code": "11560"
+        "postal_code": "11560",
+        "latitude": -6.221745135385176,
+        "longitude": 106.77197670057944
     },
     {
         "code": 3173051004,
@@ -933,7 +1165,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Kelapa Dua",
-        "postal_code": "11550"
+        "postal_code": "11550",
+        "latitude": -6.209351901818702,
+        "longitude": 106.76872577750127
     },
     {
         "code": 3173051005,
@@ -941,7 +1175,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Duri Kepa",
-        "postal_code": "11510"
+        "postal_code": "11510",
+        "latitude": -6.176072235387847,
+        "longitude": 106.77385164730647
     },
     {
         "code": 3173051006,
@@ -949,7 +1185,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Kedoya Utara",
-        "postal_code": "11520"
+        "postal_code": "11520",
+        "latitude": -6.16857000417099,
+        "longitude": 106.76098829987599
     },
     {
         "code": 3173051007,
@@ -957,7 +1195,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Kedoya Selatan",
-        "postal_code": "11520"
+        "postal_code": "11520",
+        "latitude": -6.182533928644812,
+        "longitude": 106.7604182870555
     },
     {
         "code": 3173061001,
@@ -965,7 +1205,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Kalideres",
-        "postal_code": "11840"
+        "postal_code": "11840",
+        "latitude": -6.149227804349633,
+        "longitude": 106.69878551972351
     },
     {
         "code": 3173061002,
@@ -973,7 +1215,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Semanan",
-        "postal_code": "11850"
+        "postal_code": "11850",
+        "latitude": -6.166179474052674,
+        "longitude": 106.70242313861232
     },
     {
         "code": 3173061003,
@@ -981,7 +1225,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Tegal Alur",
-        "postal_code": "11820"
+        "postal_code": "11820",
+        "latitude": -6.116498168258095,
+        "longitude": 106.71591915669407
     },
     {
         "code": 3173061004,
@@ -989,7 +1235,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Kamal",
-        "postal_code": "11810"
+        "postal_code": "11810",
+        "latitude": -6.106560936299757,
+        "longitude": 106.70005361477408
     },
     {
         "code": 3173061005,
@@ -997,7 +1245,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Pegadungan",
-        "postal_code": "11830"
+        "postal_code": "11830",
+        "latitude": -6.132757188473529,
+        "longitude": 106.70235394472017
     },
     {
         "code": 3173071001,
@@ -1005,7 +1255,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Palmerah",
-        "postal_code": "11480"
+        "postal_code": "11480",
+        "latitude": -6.201038763900555,
+        "longitude": 106.78948896203399
     },
     {
         "code": 3173071002,
@@ -1013,7 +1265,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Slipi",
-        "postal_code": "11410"
+        "postal_code": "11410",
+        "latitude": -6.193992548834864,
+        "longitude": 106.80137659256415
     },
     {
         "code": 3173071003,
@@ -1021,7 +1275,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Kota Bambu Utara",
-        "postal_code": "11420"
+        "postal_code": "11420",
+        "latitude": -6.183565229999836,
+        "longitude": 106.8034176136176
     },
     {
         "code": 3173071004,
@@ -1029,7 +1285,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Jatipulo",
-        "postal_code": "11430"
+        "postal_code": "11430",
+        "latitude": -6.178790246771568,
+        "longitude": 106.80382219920138
     },
     {
         "code": 3173071005,
@@ -1037,7 +1295,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Kemanggisan",
-        "postal_code": "11480"
+        "postal_code": "11480",
+        "latitude": -6.1898754779480285,
+        "longitude": 106.79138030164887
     },
     {
         "code": 3173071006,
@@ -1045,7 +1305,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Kota Bambu Selatan",
-        "postal_code": "11420"
+        "postal_code": "11420",
+        "latitude": -6.187349748614009,
+        "longitude": 106.80335390192496
     },
     {
         "code": 3173081001,
@@ -1053,7 +1315,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Kembangan Utara",
-        "postal_code": "11610"
+        "postal_code": "11610",
+        "latitude": -6.172323984419734,
+        "longitude": 106.74251160050824
     },
     {
         "code": 3173081002,
@@ -1061,7 +1325,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Meruya Utara",
-        "postal_code": "11620"
+        "postal_code": "11620",
+        "latitude": -6.196634641870374,
+        "longitude": 106.73876778940641
     },
     {
         "code": 3173081003,
@@ -1069,7 +1335,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Meruya Selatan",
-        "postal_code": "11650"
+        "postal_code": "11650",
+        "latitude": -6.209317158374514,
+        "longitude": 106.73400034035797
     },
     {
         "code": 3173081004,
@@ -1077,7 +1345,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Srengseng",
-        "postal_code": "11630"
+        "postal_code": "11630",
+        "latitude": -6.20748107493733,
+        "longitude": 106.75527775660207
     },
     {
         "code": 3173081005,
@@ -1085,7 +1355,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Joglo",
-        "postal_code": "11640"
+        "postal_code": "11640",
+        "latitude": -6.219110801987725,
+        "longitude": 106.73908014613156
     },
     {
         "code": 3173081006,
@@ -1093,7 +1365,9 @@
         "regency_code": 3173,
         "province_code": 31,
         "name": "Kembangan Selatan",
-        "postal_code": "11610"
+        "postal_code": "11610",
+        "latitude": -6.186158083248626,
+        "longitude": 106.7385846908563
     },
     {
         "code": 3174011001,
@@ -1101,7 +1375,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Tebet Timur",
-        "postal_code": "12820"
+        "postal_code": "12820",
+        "latitude": -6.233819454515753,
+        "longitude": 106.85552310206188
     },
     {
         "code": 3174011002,
@@ -1109,7 +1385,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Tebet Barat",
-        "postal_code": "12810"
+        "postal_code": "12810",
+        "latitude": -6.234940786012193,
+        "longitude": 106.84898016616786
     },
     {
         "code": 3174011003,
@@ -1117,7 +1395,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Menteng Dalam",
-        "postal_code": "12870"
+        "postal_code": "12870",
+        "latitude": -6.231623844895276,
+        "longitude": 106.8412468498221
     },
     {
         "code": 3174011004,
@@ -1125,7 +1405,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Kebon Baru",
-        "postal_code": "12830"
+        "postal_code": "12830",
+        "latitude": -6.233709846293671,
+        "longitude": 106.86163154527628
     },
     {
         "code": 3174011005,
@@ -1133,7 +1415,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Bukit Duri",
-        "postal_code": "12840"
+        "postal_code": "12840",
+        "latitude": -6.221304273225495,
+        "longitude": 106.8581472388641
     },
     {
         "code": 3174011006,
@@ -1141,7 +1425,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Manggarai Selatan",
-        "postal_code": "12860"
+        "postal_code": "12860",
+        "latitude": -6.219965804080107,
+        "longitude": 106.84851790429215
     },
     {
         "code": 3174011007,
@@ -1149,7 +1435,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Manggarai",
-        "postal_code": "12850"
+        "postal_code": "12850",
+        "latitude": -6.213526569684802,
+        "longitude": 106.8510629107983
     },
     {
         "code": 3174021001,
@@ -1157,7 +1445,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Setia Budi",
-        "postal_code": "12910"
+        "postal_code": "12910",
+        "latitude": -6.207419995139931,
+        "longitude": 106.82583793800015
     },
     {
         "code": 3174021002,
@@ -1165,7 +1455,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Karet Semanggi",
-        "postal_code": "12930"
+        "postal_code": "12930",
+        "latitude": -6.222539031492862,
+        "longitude": 106.81793433089646
     },
     {
         "code": 3174021003,
@@ -1173,7 +1465,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Karet Kuningan",
-        "postal_code": "12940"
+        "postal_code": "12940",
+        "latitude": -6.220603629362727,
+        "longitude": 106.82797024590636
     },
     {
         "code": 3174021004,
@@ -1181,7 +1475,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Karet",
-        "postal_code": "12920"
+        "postal_code": "12920",
+        "latitude": -6.2137996743202395,
+        "longitude": 106.82696472575935
     },
     {
         "code": 3174021005,
@@ -1189,7 +1485,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Menteng Atas",
-        "postal_code": "12960"
+        "postal_code": "12960",
+        "latitude": -6.218169890333186,
+        "longitude": 106.83953722620649
     },
     {
         "code": 3174021006,
@@ -1197,7 +1495,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Pasar Manggis",
-        "postal_code": "12970"
+        "postal_code": "12970",
+        "latitude": -6.210441374801523,
+        "longitude": 106.84158253746273
     },
     {
         "code": 3174021007,
@@ -1205,7 +1505,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Guntur",
-        "postal_code": "12980"
+        "postal_code": "12980",
+        "latitude": -6.207946948853919,
+        "longitude": 106.83324903430224
     },
     {
         "code": 3174021008,
@@ -1213,7 +1515,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Kuningan Timur",
-        "postal_code": "12950"
+        "postal_code": "12950",
+        "latitude": -6.2315860751960255,
+        "longitude": 106.82951215911224
     },
     {
         "code": 3174031001,
@@ -1221,7 +1525,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Mampang Prapatan",
-        "postal_code": "12790"
+        "postal_code": "12790",
+        "latitude": -6.242757879816164,
+        "longitude": 106.82863716352897
     },
     {
         "code": 3174031002,
@@ -1229,7 +1535,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Bangka",
-        "postal_code": "12730"
+        "postal_code": "12730",
+        "latitude": -6.2632169433670635,
+        "longitude": 106.81832238666918
     },
     {
         "code": 3174031003,
@@ -1237,7 +1545,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Pela Mampang",
-        "postal_code": "12720"
+        "postal_code": "12720",
+        "latitude": -6.248539101296936,
+        "longitude": 106.81714857603716
     },
     {
         "code": 3174031004,
@@ -1245,7 +1555,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Tegal Parang",
-        "postal_code": "12790"
+        "postal_code": "12790",
+        "latitude": -6.248814501056917,
+        "longitude": 106.82923126478721
     },
     {
         "code": 3174031005,
@@ -1253,7 +1565,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Kuningan Barat",
-        "postal_code": "12710"
+        "postal_code": "12710",
+        "latitude": -6.235957533348793,
+        "longitude": 106.82214488056343
     },
     {
         "code": 3174041001,
@@ -1261,7 +1575,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Pasar Minggu",
-        "postal_code": "12520"
+        "postal_code": "12520",
+        "latitude": -6.289919225702971,
+        "longitude": 106.83936345415965
     },
     {
         "code": 3174041002,
@@ -1269,7 +1585,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Jati Padang",
-        "postal_code": "12540"
+        "postal_code": "12540",
+        "latitude": -6.288259384380449,
+        "longitude": 106.83105803201074
     },
     {
         "code": 3174041003,
@@ -1277,7 +1595,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Cilandak Timur",
-        "postal_code": "12560"
+        "postal_code": "12560",
+        "latitude": -6.291247159379823,
+        "longitude": 106.81276439447991
     },
     {
         "code": 3174041004,
@@ -1285,7 +1605,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Ragunan",
-        "postal_code": "12550"
+        "postal_code": "12550",
+        "latitude": -6.298761361276872,
+        "longitude": 106.82123877578357
     },
     {
         "code": 3174041005,
@@ -1293,7 +1615,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Pejaten Timur",
-        "postal_code": "12510"
+        "postal_code": "12510",
+        "latitude": -6.280161406502128,
+        "longitude": 106.8482823107878
     },
     {
         "code": 3174041006,
@@ -1301,7 +1625,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Pejaten Barat",
-        "postal_code": "12510"
+        "postal_code": "12510",
+        "latitude": -6.272993126402823,
+        "longitude": 106.83528254714103
     },
     {
         "code": 3174041007,
@@ -1309,7 +1635,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Kebagusan",
-        "postal_code": "12520"
+        "postal_code": "12520",
+        "latitude": -6.309734928837363,
+        "longitude": 106.8309423614025
     },
     {
         "code": 3174051001,
@@ -1317,7 +1645,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Kebayoran Lama Utara",
-        "postal_code": "12240"
+        "postal_code": "12240",
+        "latitude": -6.246143666139899,
+        "longitude": 106.77684872416074
     },
     {
         "code": 3174051002,
@@ -1325,7 +1655,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Pondok Pinang",
-        "postal_code": "12310"
+        "postal_code": "12310",
+        "latitude": -6.276066026909346,
+        "longitude": 106.77885740916595
     },
     {
         "code": 3174051003,
@@ -1333,7 +1665,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Cipulir",
-        "postal_code": "12230"
+        "postal_code": "12230",
+        "latitude": -6.23793520511659,
+        "longitude": 106.77315512264298
     },
     {
         "code": 3174051004,
@@ -1341,7 +1675,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Grogol Utara",
-        "postal_code": "12210"
+        "postal_code": "12210",
+        "latitude": -6.217220211571916,
+        "longitude": 106.78713688768369
     },
     {
         "code": 3174051005,
@@ -1349,7 +1685,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Grogol Selatan",
-        "postal_code": "12220"
+        "postal_code": "12220",
+        "latitude": -6.22970438547002,
+        "longitude": 106.78144943114287
     },
     {
         "code": 3174051006,
@@ -1357,7 +1695,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Kebayoran Lama Selatan",
-        "postal_code": "12240"
+        "postal_code": "12240",
+        "latitude": -6.254567622028294,
+        "longitude": 106.78014848470835
     },
     {
         "code": 3174061001,
@@ -1365,7 +1705,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Cilandak Barat",
-        "postal_code": "12430"
+        "postal_code": "12430",
+        "latitude": -6.290514296100265,
+        "longitude": 106.79715624969658
     },
     {
         "code": 3174061002,
@@ -1373,7 +1715,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Lebak Bulus",
-        "postal_code": "12440"
+        "postal_code": "12440",
+        "latitude": -6.301123192554507,
+        "longitude": 106.778941610399
     },
     {
         "code": 3174061003,
@@ -1381,7 +1725,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Pondok Labu",
-        "postal_code": "12450"
+        "postal_code": "12450",
+        "latitude": -6.309275063799206,
+        "longitude": 106.79702946107001
     },
     {
         "code": 3174061004,
@@ -1389,7 +1735,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Gandaria Selatan",
-        "postal_code": "12420"
+        "postal_code": "12420",
+        "latitude": -6.270943723708807,
+        "longitude": 106.79301033584926
     },
     {
         "code": 3174061005,
@@ -1397,7 +1745,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Cipete Selatan",
-        "postal_code": "12410"
+        "postal_code": "12410",
+        "latitude": -6.272776327946096,
+        "longitude": 106.80505730349216
     },
     {
         "code": 3174071001,
@@ -1405,7 +1755,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Melawai",
-        "postal_code": "12160"
+        "postal_code": "12160",
+        "latitude": -6.2455926318440556,
+        "longitude": 106.80224665902547
     },
     {
         "code": 3174071002,
@@ -1413,7 +1765,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Gunung",
-        "postal_code": "12120"
+        "postal_code": "12120",
+        "latitude": -6.235943886569029,
+        "longitude": 106.79277512668891
     },
     {
         "code": 3174071003,
@@ -1421,7 +1775,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Kramat Pela",
-        "postal_code": "12130"
+        "postal_code": "12130",
+        "latitude": -6.244728759745504,
+        "longitude": 106.79244241906073
     },
     {
         "code": 3174071004,
@@ -1429,7 +1785,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Selong",
-        "postal_code": "12110"
+        "postal_code": "12110",
+        "latitude": -6.2342158152837905,
+        "longitude": 106.80459451077343
     },
     {
         "code": 3174071005,
@@ -1437,7 +1795,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Rawa Barat",
-        "postal_code": "12180"
+        "postal_code": "12180",
+        "latitude": -6.23636215033247,
+        "longitude": 106.81313901419446
     },
     {
         "code": 3174071006,
@@ -1445,7 +1805,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Senayan",
-        "postal_code": "12190"
+        "postal_code": "12190",
+        "latitude": -6.22678603219927,
+        "longitude": 106.81039481739766
     },
     {
         "code": 3174071007,
@@ -1453,7 +1815,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Pulo",
-        "postal_code": "12160"
+        "postal_code": "12160",
+        "latitude": -6.253309977095582,
+        "longitude": 106.8020450889087
     },
     {
         "code": 3174071008,
@@ -1461,7 +1825,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Petogogan",
-        "postal_code": "12170"
+        "postal_code": "12170",
+        "latitude": -6.243198148151567,
+        "longitude": 106.81119169378869
     },
     {
         "code": 3174071009,
@@ -1469,7 +1835,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Gandaria Utara",
-        "postal_code": "12140"
+        "postal_code": "12140",
+        "latitude": -6.257779730432962,
+        "longitude": 106.791041341618
     },
     {
         "code": 3174071010,
@@ -1477,7 +1845,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Cipete Utara",
-        "postal_code": "12150"
+        "postal_code": "12150",
+        "latitude": -6.261730140387474,
+        "longitude": 106.80436442074578
     },
     {
         "code": 3174081001,
@@ -1485,7 +1855,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Pancoran",
-        "postal_code": "12780"
+        "postal_code": "12780",
+        "latitude": -6.247443360115455,
+        "longitude": 106.84070783307129
     },
     {
         "code": 3174081002,
@@ -1493,7 +1865,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Kalibata",
-        "postal_code": "12740"
+        "postal_code": "12740",
+        "latitude": -6.263330541205617,
+        "longitude": 106.83765835990425
     },
     {
         "code": 3174081003,
@@ -1501,7 +1875,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Rawajati",
-        "postal_code": "12750"
+        "postal_code": "12750",
+        "latitude": -6.258095675385908,
+        "longitude": 106.8546520695792
     },
     {
         "code": 3174081004,
@@ -1509,7 +1885,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Duren Tiga",
-        "postal_code": "12760"
+        "postal_code": "12760",
+        "latitude": -6.255836155066868,
+        "longitude": 106.83529128358988
     },
     {
         "code": 3174081005,
@@ -1517,7 +1895,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Pengadegan",
-        "postal_code": "12770"
+        "postal_code": "12770",
+        "latitude": -6.249256487055357,
+        "longitude": 106.8554241626897
     },
     {
         "code": 3174081006,
@@ -1525,7 +1905,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Cikoko",
-        "postal_code": "12770"
+        "postal_code": "12770",
+        "latitude": -6.24497535344204,
+        "longitude": 106.85427982541597
     },
     {
         "code": 3174091001,
@@ -1533,7 +1915,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Jagakarsa",
-        "postal_code": "12620"
+        "postal_code": "12620",
+        "latitude": -6.32537371959041,
+        "longitude": 106.81924769166557
     },
     {
         "code": 3174091002,
@@ -1541,7 +1925,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Srengseng Sawah",
-        "postal_code": "12640"
+        "postal_code": "12640",
+        "latitude": -6.348348482168362,
+        "longitude": 106.82445192638917
     },
     {
         "code": 3174091003,
@@ -1549,7 +1935,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Ciganjur",
-        "postal_code": "12630"
+        "postal_code": "12630",
+        "latitude": -6.336355830847992,
+        "longitude": 106.8086703966192
     },
     {
         "code": 3174091004,
@@ -1557,7 +1945,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Lenteng Agung",
-        "postal_code": "12630"
+        "postal_code": "12630",
+        "latitude": -6.325644387246466,
+        "longitude": 106.83690011500335
     },
     {
         "code": 3174091005,
@@ -1565,7 +1955,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Tanjung Barat",
-        "postal_code": "12530"
+        "postal_code": "12530",
+        "latitude": -6.306757981882846,
+        "longitude": 106.8474972826299
     },
     {
         "code": 3174091006,
@@ -1573,7 +1965,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Cipedak",
-        "postal_code": "12630"
+        "postal_code": "12630",
+        "latitude": -6.353683698050854,
+        "longitude": 106.8021253128786
     },
     {
         "code": 3174101001,
@@ -1581,7 +1975,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Pesanggrahan",
-        "postal_code": "12320"
+        "postal_code": "12320",
+        "latitude": -6.256428418887117,
+        "longitude": 106.75876778450983
     },
     {
         "code": 3174101002,
@@ -1589,7 +1985,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Bintaro",
-        "postal_code": "12330"
+        "postal_code": "12330",
+        "latitude": -6.270373038505826,
+        "longitude": 106.76361812604974
     },
     {
         "code": 3174101003,
@@ -1597,7 +1995,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Petukangan Utara",
-        "postal_code": "12260"
+        "postal_code": "12260",
+        "latitude": -6.229288153982509,
+        "longitude": 106.75101122606176
     },
     {
         "code": 3174101004,
@@ -1605,7 +2005,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Petukangan Selatan",
-        "postal_code": "12270"
+        "postal_code": "12270",
+        "latitude": -6.243315896033098,
+        "longitude": 106.75379233440678
     },
     {
         "code": 3174101005,
@@ -1613,7 +2015,9 @@
         "regency_code": 3174,
         "province_code": 31,
         "name": "Ulujami",
-        "postal_code": "12250"
+        "postal_code": "12250",
+        "latitude": -6.236288348355207,
+        "longitude": 106.76318348957277
     },
     {
         "code": 3175011001,
@@ -1621,7 +2025,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Pisangan Baru",
-        "postal_code": "13110"
+        "postal_code": "13110",
+        "latitude": -6.211704020809191,
+        "longitude": 106.86898414245151
     },
     {
         "code": 3175011002,
@@ -1629,7 +2035,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Utan Kayu Utara",
-        "postal_code": "13120"
+        "postal_code": "13120",
+        "latitude": -6.195506521406927,
+        "longitude": 106.86826904911211
     },
     {
         "code": 3175011003,
@@ -1637,7 +2045,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Kayu Manis",
-        "postal_code": "13130"
+        "postal_code": "13130",
+        "latitude": -6.202704084223185,
+        "longitude": 106.86221383126674
     },
     {
         "code": 3175011004,
@@ -1645,7 +2055,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Palmeriam",
-        "postal_code": "13140"
+        "postal_code": "13140",
+        "latitude": -6.203623189052063,
+        "longitude": 106.8589741923608
     },
     {
         "code": 3175011005,
@@ -1653,7 +2065,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Kebon Manggis",
-        "postal_code": "13150"
+        "postal_code": "13150",
+        "latitude": -6.207274736124836,
+        "longitude": 106.85534627169213
     },
     {
         "code": 3175011006,
@@ -1661,7 +2075,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Utan Kayu Selatan",
-        "postal_code": "13120"
+        "postal_code": "13120",
+        "latitude": -6.203495814553454,
+        "longitude": 106.86893412900399
     },
     {
         "code": 3175021001,
@@ -1669,7 +2085,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Pulo Gadung",
-        "postal_code": "13260"
+        "postal_code": "13260",
+        "latitude": -6.182990618651001,
+        "longitude": 106.89890355200404
     },
     {
         "code": 3175021002,
@@ -1677,7 +2095,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Pisangan Timur",
-        "postal_code": "13230"
+        "postal_code": "13230",
+        "latitude": -6.208576279597741,
+        "longitude": 106.88013491579277
     },
     {
         "code": 3175021003,
@@ -1685,7 +2105,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Cipinang",
-        "postal_code": "13240"
+        "postal_code": "13240",
+        "latitude": -6.207556082884652,
+        "longitude": 106.89126077407708
     },
     {
         "code": 3175021004,
@@ -1693,7 +2115,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Jatinegara Kaum",
-        "postal_code": "13250"
+        "postal_code": "13250",
+        "latitude": -6.202348348809875,
+        "longitude": 106.90145792386552
     },
     {
         "code": 3175021005,
@@ -1701,7 +2125,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Rawamangun",
-        "postal_code": "13220"
+        "postal_code": "13220",
+        "latitude": -6.195909044493624,
+        "longitude": 106.88244828348249
     },
     {
         "code": 3175021006,
@@ -1709,7 +2135,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Kayu Putih",
-        "postal_code": "13210"
+        "postal_code": "13210",
+        "latitude": -6.179400019185839,
+        "longitude": 106.88369309542438
     },
     {
         "code": 3175021007,
@@ -1717,7 +2145,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Jati",
-        "postal_code": "13220"
+        "postal_code": "13220",
+        "latitude": -6.1945262374006,
+        "longitude": 106.8970290236502
     },
     {
         "code": 3175031001,
@@ -1725,7 +2155,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Kampung Melayu",
-        "postal_code": "13320"
+        "postal_code": "13320",
+        "latitude": -6.217384812735315,
+        "longitude": 106.86127759904149
     },
     {
         "code": 3175031002,
@@ -1733,7 +2165,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Bidara Cina",
-        "postal_code": "13330"
+        "postal_code": "13330",
+        "latitude": -6.235372136292182,
+        "longitude": 106.86695250680621
     },
     {
         "code": 3175031003,
@@ -1741,7 +2175,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Bali Mester",
-        "postal_code": "13310"
+        "postal_code": "13310",
+        "latitude": -6.219545312788981,
+        "longitude": 106.86636534662286
     },
     {
         "code": 3175031004,
@@ -1749,7 +2185,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Rawa Bunga",
-        "postal_code": "13350"
+        "postal_code": "13350",
+        "latitude": -6.219961930209954,
+        "longitude": 106.87132709061714
     },
     {
         "code": 3175031005,
@@ -1757,7 +2195,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Cipinang Cempedak",
-        "postal_code": "13340"
+        "postal_code": "13340",
+        "latitude": -6.236614803492515,
+        "longitude": 106.87347167796717
     },
     {
         "code": 3175031006,
@@ -1765,7 +2205,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Cipinang Muara",
-        "postal_code": "13420"
+        "postal_code": "13420",
+        "latitude": -6.226116907213883,
+        "longitude": 106.88922262663237
     },
     {
         "code": 3175031007,
@@ -1773,7 +2215,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Cipinang Besar Selatan",
-        "postal_code": "13410"
+        "postal_code": "13410",
+        "latitude": -6.229768032604845,
+        "longitude": 106.88083547695724
     },
     {
         "code": 3175031008,
@@ -1781,7 +2225,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Cipinang Besar Utara",
-        "postal_code": "13410"
+        "postal_code": "13410",
+        "latitude": -6.218634802920538,
+        "longitude": 106.87958664136109
     },
     {
         "code": 3175041001,
@@ -1789,7 +2235,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Kramatjati",
-        "postal_code": "13510"
+        "postal_code": "13510",
+        "latitude": -6.274111736129747,
+        "longitude": 106.87070680689577
     },
     {
         "code": 3175041002,
@@ -1797,7 +2245,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Tengah",
-        "postal_code": "13540"
+        "postal_code": "13540",
+        "latitude": -6.289619629098191,
+        "longitude": 106.86663079239123
     },
     {
         "code": 3175041003,
@@ -1805,7 +2255,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Dukuh",
-        "postal_code": "13550"
+        "postal_code": "13550",
+        "latitude": -6.295890287835327,
+        "longitude": 106.87778386180582
     },
     {
         "code": 3175041004,
@@ -1813,7 +2265,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Batu Ampar",
-        "postal_code": "13520"
+        "postal_code": "13520",
+        "latitude": -6.279100710543826,
+        "longitude": 106.86105254879568
     },
     {
         "code": 3175041005,
@@ -1821,7 +2275,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Balekambang",
-        "postal_code": "13530"
+        "postal_code": "13530",
+        "latitude": -6.2815946334369075,
+        "longitude": 106.85277016755674
     },
     {
         "code": 3175041006,
@@ -1829,7 +2285,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Cililitan",
-        "postal_code": "13640"
+        "postal_code": "13640",
+        "latitude": -6.262491322571751,
+        "longitude": 106.86443463347247
     },
     {
         "code": 3175041007,
@@ -1837,7 +2295,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Cawang",
-        "postal_code": "13630"
+        "postal_code": "13630",
+        "latitude": -6.25088030874286,
+        "longitude": 106.86689550795998
     },
     {
         "code": 3175051001,
@@ -1845,7 +2305,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Gedong",
-        "postal_code": "13760"
+        "postal_code": "13760",
+        "latitude": -6.301477735498737,
+        "longitude": 106.85996530875539
     },
     {
         "code": 3175051002,
@@ -1853,7 +2315,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Baru",
-        "postal_code": "13780"
+        "postal_code": "13780",
+        "latitude": -6.323929937517451,
+        "longitude": 106.84721034491581
     },
     {
         "code": 3175051003,
@@ -1861,7 +2325,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Cijantung",
-        "postal_code": "13770"
+        "postal_code": "13770",
+        "latitude": -6.321570989744277,
+        "longitude": 106.85887578031175
     },
     {
         "code": 3175051004,
@@ -1869,7 +2335,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Kalisari",
-        "postal_code": "13790"
+        "postal_code": "13790",
+        "latitude": -6.335377807654655,
+        "longitude": 106.85303843786117
     },
     {
         "code": 3175051005,
@@ -1877,7 +2345,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Pekayon",
-        "postal_code": "13710"
+        "postal_code": "13710",
+        "latitude": -6.344954095402633,
+        "longitude": 106.86438976221488
     },
     {
         "code": 3175061001,
@@ -1885,7 +2355,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Jatinegara",
-        "postal_code": "13930"
+        "postal_code": "13930",
+        "latitude": -6.203448025683606,
+        "longitude": 106.91605341668193
     },
     {
         "code": 3175061002,
@@ -1893,7 +2365,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Rawa Terate",
-        "postal_code": "13920"
+        "postal_code": "13920",
+        "latitude": -6.184471789307476,
+        "longitude": 106.9204471074281
     },
     {
         "code": 3175061003,
@@ -1901,7 +2375,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Penggilingan",
-        "postal_code": "13940"
+        "postal_code": "13940",
+        "latitude": -6.204842147384322,
+        "longitude": 106.93484423637985
     },
     {
         "code": 3175061004,
@@ -1909,7 +2385,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Cakung Timur",
-        "postal_code": "13910"
+        "postal_code": "13910",
+        "latitude": -6.171004338613193,
+        "longitude": 106.95533201052109
     },
     {
         "code": 3175061005,
@@ -1917,7 +2395,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Pulo Gebang",
-        "postal_code": "13950"
+        "postal_code": "13950",
+        "latitude": -6.205007066551554,
+        "longitude": 106.95295521383638
     },
     {
         "code": 3175061006,
@@ -1925,7 +2405,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Ujung Menteng",
-        "postal_code": "13960"
+        "postal_code": "13960",
+        "latitude": -6.1862760449516925,
+        "longitude": 106.96334481267016
     },
     {
         "code": 3175061007,
@@ -1933,7 +2415,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Cakung Barat",
-        "postal_code": "13910"
+        "postal_code": "13910",
+        "latitude": -6.173051161504783,
+        "longitude": 106.93468685613966
     },
     {
         "code": 3175071001,
@@ -1941,7 +2425,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Duren Sawit",
-        "postal_code": "13440"
+        "postal_code": "13440",
+        "latitude": -6.233284164457843,
+        "longitude": 106.91572127111964
     },
     {
         "code": 3175071002,
@@ -1949,7 +2435,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Pondok Bambu",
-        "postal_code": "13430"
+        "postal_code": "13430",
+        "latitude": -6.234848466494459,
+        "longitude": 106.90087841626402
     },
     {
         "code": 3175071003,
@@ -1957,7 +2445,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Klender",
-        "postal_code": "13470"
+        "postal_code": "13470",
+        "latitude": -6.2185124197882775,
+        "longitude": 106.90813621652887
     },
     {
         "code": 3175071004,
@@ -1965,7 +2455,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Pondok Kelapa",
-        "postal_code": "13450"
+        "postal_code": "13450",
+        "latitude": -6.243424012522902,
+        "longitude": 106.93188774182154
     },
     {
         "code": 3175071005,
@@ -1973,7 +2465,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Malaka Sari",
-        "postal_code": "13460"
+        "postal_code": "13460",
+        "latitude": -6.2238442230848845,
+        "longitude": 106.92842559437511
     },
     {
         "code": 3175071006,
@@ -1981,7 +2475,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Malaka Jaya",
-        "postal_code": "13460"
+        "postal_code": "13460",
+        "latitude": -6.22336512227283,
+        "longitude": 106.93486242462218
     },
     {
         "code": 3175071007,
@@ -1989,7 +2485,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Pondok Kopi",
-        "postal_code": "13460"
+        "postal_code": "13460",
+        "latitude": -6.226961892665663,
+        "longitude": 106.94255033324292
     },
     {
         "code": 3175081001,
@@ -1997,7 +2495,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Makasar",
-        "postal_code": "13570"
+        "postal_code": "13570",
+        "latitude": -6.275772245012511,
+        "longitude": 106.87703358728297
     },
     {
         "code": 3175081002,
@@ -2005,7 +2505,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Pinangranti",
-        "postal_code": "13560"
+        "postal_code": "13560",
+        "latitude": -6.291687881340996,
+        "longitude": 106.88496932951604
     },
     {
         "code": 3175081003,
@@ -2013,7 +2515,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Kebon Pala",
-        "postal_code": "13650"
+        "postal_code": "13650",
+        "latitude": -6.255710306030867,
+        "longitude": 106.87783390048334
     },
     {
         "code": 3175081004,
@@ -2021,7 +2525,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Halim Perdana Kusuma",
-        "postal_code": "13610"
+        "postal_code": "13610",
+        "latitude": -6.265908008760549,
+        "longitude": 106.8932475482824
     },
     {
         "code": 3175081005,
@@ -2029,7 +2535,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Cipinang Melayu",
-        "postal_code": "13620"
+        "postal_code": "13620",
+        "latitude": -6.249556286840372,
+        "longitude": 106.90583122531513
     },
     {
         "code": 3175091001,
@@ -2037,7 +2545,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Ciracas",
-        "postal_code": "13740"
+        "postal_code": "13740",
+        "latitude": -6.326063000165169,
+        "longitude": 106.87531669345687
     },
     {
         "code": 3175091002,
@@ -2045,7 +2555,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Cibubur",
-        "postal_code": "13720"
+        "postal_code": "13720",
+        "latitude": -6.3573746190403995,
+        "longitude": 106.88231527489688
     },
     {
         "code": 3175091003,
@@ -2053,7 +2565,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Kelapa Dua Wetan",
-        "postal_code": "13730"
+        "postal_code": "13730",
+        "latitude": -6.341125822539601,
+        "longitude": 106.88297088022165
     },
     {
         "code": 3175091004,
@@ -2061,7 +2575,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Susukan",
-        "postal_code": "13750"
+        "postal_code": "13750",
+        "latitude": -6.312481409492645,
+        "longitude": 106.86884147039852
     },
     {
         "code": 3175091005,
@@ -2069,7 +2585,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Rambutan",
-        "postal_code": "13830"
+        "postal_code": "13830",
+        "latitude": -6.307103799202882,
+        "longitude": 106.87774834191872
     },
     {
         "code": 3175101001,
@@ -2077,7 +2595,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Cipayung",
-        "postal_code": "13840"
+        "postal_code": "13840",
+        "latitude": -6.329055033959101,
+        "longitude": 106.89389744940863
     },
     {
         "code": 3175101002,
@@ -2085,7 +2605,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Cilangkap",
-        "postal_code": "13870"
+        "postal_code": "13870",
+        "latitude": -6.333591082409207,
+        "longitude": 106.90886677676788
     },
     {
         "code": 3175101003,
@@ -2093,7 +2615,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Pondok Ranggon",
-        "postal_code": "13860"
+        "postal_code": "13860",
+        "latitude": -6.355391483785419,
+        "longitude": 106.90685049909793
     },
     {
         "code": 3175101004,
@@ -2101,7 +2625,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Munjul",
-        "postal_code": "13850"
+        "postal_code": "13850",
+        "latitude": -6.3478093874125125,
+        "longitude": 106.89567772702355
     },
     {
         "code": 3175101005,
@@ -2109,7 +2635,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Setu",
-        "postal_code": "13880"
+        "postal_code": "13880",
+        "latitude": -6.313036499699489,
+        "longitude": 106.91480965329947
     },
     {
         "code": 3175101006,
@@ -2117,7 +2645,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Bambu Apus",
-        "postal_code": "13890"
+        "postal_code": "13890",
+        "latitude": -6.312424134163983,
+        "longitude": 106.90230616532001
     },
     {
         "code": 3175101007,
@@ -2125,7 +2655,9 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Lubang Buaya",
-        "postal_code": "13810"
+        "postal_code": "13810",
+        "latitude": -6.293921708402271,
+        "longitude": 106.90352857324544
     },
     {
         "code": 3175101008,
@@ -2133,6 +2665,8 @@
         "regency_code": 3175,
         "province_code": 31,
         "name": "Ceger",
-        "postal_code": "13820"
+        "postal_code": "13820",
+        "latitude": -6.30849238804805,
+        "longitude": 106.89239366075682
     }
 ]

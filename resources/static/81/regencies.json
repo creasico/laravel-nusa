@@ -3,77 +3,77 @@
         "code": 8101,
         "province_code": 81,
         "name": "Kab. Maluku Tengah",
-        "latitude": -3.3042648189510224,
-        "longitude": 128.95408633796967
+        "latitude": -3.1811823367851715,
+        "longitude": 129.2954507123729
     },
     {
         "code": 8102,
         "province_code": 81,
         "name": "Kab. Maluku Tenggara",
-        "latitude": -5.682916545472394,
-        "longitude": 132.71727708818904
+        "latitude": -5.676915912766446,
+        "longitude": 132.88811310390176
     },
     {
         "code": 8103,
         "province_code": 81,
         "name": "Kab. Kepulauan Tanimbar",
-        "latitude": -7.970115508208761,
-        "longitude": 131.3122650572608
+        "latitude": -7.5842912378285225,
+        "longitude": 131.3666387715113
     },
     {
         "code": 8104,
         "province_code": 81,
         "name": "Kab. Buru",
-        "latitude": -3.2591745680268827,
-        "longitude": 127.10278183791851
+        "latitude": -3.329386509497523,
+        "longitude": 126.72700514026903
     },
     {
         "code": 8105,
         "province_code": 81,
         "name": "Kab. Seram Bagian Timur",
-        "latitude": -3.10374969502556,
-        "longitude": 130.4886076064629
+        "latitude": -3.4198608430589887,
+        "longitude": 130.44264202960468
     },
     {
         "code": 8106,
         "province_code": 81,
         "name": "Kab. Seram Bagian Barat",
-        "latitude": -3.066663330229327,
-        "longitude": 128.23003905355495
+        "latitude": -3.1359014347017617,
+        "longitude": 128.35599436030654
     },
     {
         "code": 8107,
         "province_code": 81,
         "name": "Kab. Kepulauan Aru",
-        "latitude": -5.775177775557766,
-        "longitude": 134.21458787827214
+        "latitude": -6.196214247698293,
+        "longitude": 134.45098477116449
     },
     {
         "code": 8108,
         "province_code": 81,
         "name": "Kab. Maluku Barat Daya",
-        "latitude": -8.148038324123522,
-        "longitude": 127.8015502463786
+        "latitude": -7.833108464540153,
+        "longitude": 127.30411016496188
     },
     {
         "code": 8109,
         "province_code": 81,
         "name": "Kab. Buru Selatan",
-        "latitude": -3.8377899371827398,
-        "longitude": 126.73425882890845
+        "latitude": -3.5676029877132702,
+        "longitude": 126.52422898421871
     },
     {
         "code": 8171,
         "province_code": 81,
         "name": "Kota Ambon",
-        "latitude": -3.6943237268737126,
-        "longitude": 128.1813033560866
+        "latitude": -3.685356631086119,
+        "longitude": 128.1949770914955
     },
     {
         "code": 8172,
         "province_code": 81,
         "name": "Kota Tual",
-        "latitude": -5.6346805376740114,
-        "longitude": 132.75172074301332
+        "latitude": -5.556896109620628,
+        "longitude": 132.48263622671456
     }
 ]

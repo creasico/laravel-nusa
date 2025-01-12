@@ -185,7 +185,6 @@ jobs:
 
       - name: Run tests
         run: |
-          ./vendor/bin/testbench config:show database --ansi
           ./vendor/bin/testbench package:test --ansi --coverage
 
       - name: Generate reports for CodeClimate

@@ -3,1512 +3,2016 @@
         "code": 950101,
         "regency_code": 9501,
         "province_code": 95,
-        "name": "Wamena"
+        "name": "Wamena",
+        "latitude": -4.092212656482027,
+        "longitude": 138.93252108301908
     },
     {
         "code": 950102,
         "regency_code": 9501,
         "province_code": 95,
-        "name": "Kurulu"
+        "name": "Kurulu",
+        "latitude": -3.9687147773150455,
+        "longitude": 138.92871932885072
     },
     {
         "code": 950103,
         "regency_code": 9501,
         "province_code": 95,
-        "name": "Asologaima"
+        "name": "Asologaima",
+        "latitude": -3.9588919796495974,
+        "longitude": 138.7723233162222
     },
     {
         "code": 950104,
         "regency_code": 9501,
         "province_code": 95,
-        "name": "Hubikosi"
+        "name": "Hubikosi",
+        "latitude": -4.048845129660586,
+        "longitude": 138.87451264937692
     },
     {
         "code": 950105,
         "regency_code": 9501,
         "province_code": 95,
-        "name": "Bolakme"
+        "name": "Bolakme",
+        "latitude": -3.833509396317158,
+        "longitude": 138.7471347552019
     },
     {
         "code": 950106,
         "regency_code": 9501,
         "province_code": 95,
-        "name": "Walelagama"
+        "name": "Walelagama",
+        "latitude": -4.092168517522896,
+        "longitude": 139.01300823174736
     },
     {
         "code": 950107,
         "regency_code": 9501,
         "province_code": 95,
-        "name": "Musatfak"
+        "name": "Musatfak",
+        "latitude": -3.9979625314834695,
+        "longitude": 138.8658915999823
     },
     {
         "code": 950108,
         "regency_code": 9501,
         "province_code": 95,
-        "name": "Wolo"
+        "name": "Wolo",
+        "latitude": -3.86956867610103,
+        "longitude": 138.88396798944774
     },
     {
         "code": 950109,
         "regency_code": 9501,
         "province_code": 95,
-        "name": "Asolokobal"
+        "name": "Asolokobal",
+        "latitude": -4.157563847146394,
+        "longitude": 138.94421926229737
     },
     {
         "code": 950110,
         "regency_code": 9501,
         "province_code": 95,
-        "name": "Pelebaga"
+        "name": "Pelebaga",
+        "latitude": -4.084524658331336,
+        "longitude": 138.84462968300838
     },
     {
         "code": 950111,
         "regency_code": 9501,
         "province_code": 95,
-        "name": "Yalengga"
+        "name": "Yalengga",
+        "latitude": -3.882456957271621,
+        "longitude": 138.7921786922695
     },
     {
         "code": 950112,
         "regency_code": 9501,
         "province_code": 95,
-        "name": "Trikora"
+        "name": "Trikora",
+        "latitude": -4.331941501432655,
+        "longitude": 138.69098261257838
     },
     {
         "code": 950113,
         "regency_code": 9501,
         "province_code": 95,
-        "name": "Napua"
+        "name": "Napua",
+        "latitude": -4.120833330480222,
+        "longitude": 138.88943645185773
     },
     {
         "code": 950114,
         "regency_code": 9501,
         "province_code": 95,
-        "name": "Walaik"
+        "name": "Walaik",
+        "latitude": -4.166742665735381,
+        "longitude": 138.79330787346612
     },
     {
         "code": 950115,
         "regency_code": 9501,
         "province_code": 95,
-        "name": "Wouma"
+        "name": "Wouma",
+        "latitude": -4.114211936239186,
+        "longitude": 138.94899631069936
     },
     {
         "code": 950116,
         "regency_code": 9501,
         "province_code": 95,
-        "name": "Hubikiak"
+        "name": "Hubikiak",
+        "latitude": -4.0632625366572235,
+        "longitude": 138.91492535070736
     },
     {
         "code": 950117,
         "regency_code": 9501,
         "province_code": 95,
-        "name": "Ibele"
+        "name": "Ibele",
+        "latitude": -4.055191452199547,
+        "longitude": 138.73429239137835
     },
     {
         "code": 950118,
         "regency_code": 9501,
         "province_code": 95,
-        "name": "Taelarek"
+        "name": "Taelarek",
+        "latitude": -4.105199240989103,
+        "longitude": 138.7542466900129
     },
     {
         "code": 950119,
         "regency_code": 9501,
         "province_code": 95,
-        "name": "Itlay Hisage"
+        "name": "Itlay Hisage",
+        "latitude": -4.043688351893077,
+        "longitude": 139.1417525262162
     },
     {
         "code": 950120,
         "regency_code": 9501,
         "province_code": 95,
-        "name": "Siepkosi"
+        "name": "Siepkosi",
+        "latitude": -4.005145622613298,
+        "longitude": 139.05939422711677
     },
     {
         "code": 950121,
         "regency_code": 9501,
         "province_code": 95,
-        "name": "Usilimo"
+        "name": "Usilimo",
+        "latitude": -3.9134409073053993,
+        "longitude": 138.88323159228935
     },
     {
         "code": 950122,
         "regency_code": 9501,
         "province_code": 95,
-        "name": "Wita Waya"
+        "name": "Wita Waya",
+        "latitude": -4.018837087943681,
+        "longitude": 138.9190809451333
     },
     {
         "code": 950123,
         "regency_code": 9501,
         "province_code": 95,
-        "name": "Libarek"
+        "name": "Libarek",
+        "latitude": -3.9918729351628324,
+        "longitude": 138.9751977980117
     },
     {
         "code": 950124,
         "regency_code": 9501,
         "province_code": 95,
-        "name": "Wadangku"
+        "name": "Wadangku",
+        "latitude": -3.936619268205865,
+        "longitude": 138.98004880542365
     },
     {
         "code": 950125,
         "regency_code": 9501,
         "province_code": 95,
-        "name": "Pisugi"
+        "name": "Pisugi",
+        "latitude": -4.043797325704524,
+        "longitude": 138.95429054848537
     },
     {
         "code": 950126,
         "regency_code": 9501,
         "province_code": 95,
-        "name": "Koragi"
+        "name": "Koragi",
+        "latitude": -3.8661019772836345,
+        "longitude": 138.80264573822635
     },
     {
         "code": 950127,
         "regency_code": 9501,
         "province_code": 95,
-        "name": "Tagime"
+        "name": "Tagime",
+        "latitude": -3.8023873068528173,
+        "longitude": 138.7263063309315
     },
     {
         "code": 950128,
         "regency_code": 9501,
         "province_code": 95,
-        "name": "Molagalome"
+        "name": "Molagalome",
+        "latitude": -3.8499684300202204,
+        "longitude": 138.69324821600148
     },
     {
         "code": 950129,
         "regency_code": 9501,
         "province_code": 95,
-        "name": "Tagineri"
+        "name": "Tagineri",
+        "latitude": -3.78958743938829,
+        "longitude": 138.6589703098784
     },
     {
         "code": 950130,
         "regency_code": 9501,
         "province_code": 95,
-        "name": "Silo Karno Doga"
+        "name": "Silo Karno Doga",
+        "latitude": -3.932312055829569,
+        "longitude": 138.82512962189787
     },
     {
         "code": 950131,
         "regency_code": 9501,
         "province_code": 95,
-        "name": "Piramid"
+        "name": "Piramid",
+        "latitude": -3.8893249017870035,
+        "longitude": 138.74892083527934
     },
     {
         "code": 950132,
         "regency_code": 9501,
         "province_code": 95,
-        "name": "Muliama"
+        "name": "Muliama",
+        "latitude": -4.005097219440501,
+        "longitude": 138.7971433191886
     },
     {
         "code": 950133,
         "regency_code": 9501,
         "province_code": 95,
-        "name": "Bugi"
+        "name": "Bugi",
+        "latitude": -3.8736424224124795,
+        "longitude": 138.82451634689423
     },
     {
         "code": 950134,
         "regency_code": 9501,
         "province_code": 95,
-        "name": "Bpiri"
+        "name": "Bpiri",
+        "latitude": -3.823730803172646,
+        "longitude": 138.85380837346113
     },
     {
         "code": 950135,
         "regency_code": 9501,
         "province_code": 95,
-        "name": "Welesi"
+        "name": "Welesi",
+        "latitude": -4.202080612763456,
+        "longitude": 138.889315825723
     },
     {
         "code": 950136,
         "regency_code": 9501,
         "province_code": 95,
-        "name": "Asotipo"
+        "name": "Asotipo",
+        "latitude": -4.1979529889306475,
+        "longitude": 138.9677316180946
     },
     {
         "code": 950137,
         "regency_code": 9501,
         "province_code": 95,
-        "name": "Maima"
+        "name": "Maima",
+        "latitude": -4.145526589565343,
+        "longitude": 139.07277766701966
     },
     {
         "code": 950138,
         "regency_code": 9501,
         "province_code": 95,
-        "name": "Popugoba"
+        "name": "Popugoba",
+        "latitude": -4.10960279486581,
+        "longitude": 139.1531994221041
     },
     {
         "code": 950139,
         "regency_code": 9501,
         "province_code": 95,
-        "name": "Wame"
+        "name": "Wame",
+        "latitude": -3.9247039744904826,
+        "longitude": 138.74680561472078
     },
     {
         "code": 950140,
         "regency_code": 9501,
         "province_code": 95,
-        "name": "Wesaput"
+        "name": "Wesaput",
+        "latitude": -4.090512740686971,
+        "longitude": 138.9657209957859
     },
     {
         "code": 950201,
         "regency_code": 9502,
         "province_code": 95,
-        "name": "Oksibil"
+        "name": "Oksibil",
+        "latitude": -4.915528512027108,
+        "longitude": 140.66795050218352
     },
     {
         "code": 950202,
         "regency_code": 9502,
         "province_code": 95,
-        "name": "Kiwirok"
+        "name": "Kiwirok",
+        "latitude": -4.695597010688442,
+        "longitude": 140.78357697639237
     },
     {
         "code": 950203,
         "regency_code": 9502,
         "province_code": 95,
-        "name": "Okbibab"
+        "name": "Okbibab",
+        "latitude": -4.660389789552289,
+        "longitude": 140.5681218434222
     },
     {
         "code": 950204,
         "regency_code": 9502,
         "province_code": 95,
-        "name": "Iwur"
+        "name": "Iwur",
+        "latitude": -5.191602253738118,
+        "longitude": 140.8104972507494
     },
     {
         "code": 950205,
         "regency_code": 9502,
         "province_code": 95,
-        "name": "Batom"
+        "name": "Batom",
+        "latitude": -4.424362537789224,
+        "longitude": 140.87968041237036
     },
     {
         "code": 950206,
         "regency_code": 9502,
         "province_code": 95,
-        "name": "Borme"
+        "name": "Borme",
+        "latitude": -4.2278578372918325,
+        "longitude": 140.35733178049344
     },
     {
         "code": 950207,
         "regency_code": 9502,
         "province_code": 95,
-        "name": "Kiwirok Timur"
+        "name": "Kiwirok Timur",
+        "latitude": -4.726234124985907,
+        "longitude": 140.89562009996817
     },
     {
         "code": 950208,
         "regency_code": 9502,
         "province_code": 95,
-        "name": "Aboy"
+        "name": "Aboy",
+        "latitude": -4.252091410495286,
+        "longitude": 140.54669642519673
     },
     {
         "code": 950209,
         "regency_code": 9502,
         "province_code": 95,
-        "name": "Pepera"
+        "name": "Pepera",
+        "latitude": -4.875107313605651,
+        "longitude": 140.78813230953273
     },
     {
         "code": 950210,
         "regency_code": 9502,
         "province_code": 95,
-        "name": "Bime"
+        "name": "Bime",
+        "latitude": -4.520422913487533,
+        "longitude": 140.25981449363954
     },
     {
         "code": 950211,
         "regency_code": 9502,
         "province_code": 95,
-        "name": "Alemsom"
+        "name": "Alemsom",
+        "latitude": -4.821832530305545,
+        "longitude": 140.15327400406733
     },
     {
         "code": 950212,
         "regency_code": 9502,
         "province_code": 95,
-        "name": "Okbape"
+        "name": "Okbape",
+        "latitude": -4.775494971739431,
+        "longitude": 140.35969028353767
     },
     {
         "code": 950213,
         "regency_code": 9502,
         "province_code": 95,
-        "name": "Kalomdol"
+        "name": "Kalomdol",
+        "latitude": -4.976078800576934,
+        "longitude": 140.6241669424759
     },
     {
         "code": 950214,
         "regency_code": 9502,
         "province_code": 95,
-        "name": "Oksop"
+        "name": "Oksop",
+        "latitude": -4.761103567824343,
+        "longitude": 140.52815830280406
     },
     {
         "code": 950215,
         "regency_code": 9502,
         "province_code": 95,
-        "name": "Serambakon"
+        "name": "Serambakon",
+        "latitude": -4.887799179815677,
+        "longitude": 140.50661048389276
     },
     {
         "code": 950216,
         "regency_code": 9502,
         "province_code": 95,
-        "name": "Ok Aom"
+        "name": "Ok Aom",
+        "latitude": -4.801296372673172,
+        "longitude": 140.60996290230605
     },
     {
         "code": 950217,
         "regency_code": 9502,
         "province_code": 95,
-        "name": "Kawor"
+        "name": "Kawor",
+        "latitude": -5.119569218333865,
+        "longitude": 140.56662578577897
     },
     {
         "code": 950218,
         "regency_code": 9502,
         "province_code": 95,
-        "name": "Awinbon"
+        "name": "Awinbon",
+        "latitude": -5.032657341380581,
+        "longitude": 140.36165574650278
     },
     {
         "code": 950219,
         "regency_code": 9502,
         "province_code": 95,
-        "name": "Tarup"
+        "name": "Tarup",
+        "latitude": -5.03805536317336,
+        "longitude": 140.903355507907
     },
     {
         "code": 950220,
         "regency_code": 9502,
         "province_code": 95,
-        "name": "Okhika"
+        "name": "Okhika",
+        "latitude": -4.6362990718275245,
+        "longitude": 140.65506060891303
     },
     {
         "code": 950221,
         "regency_code": 9502,
         "province_code": 95,
-        "name": "Oksamol"
+        "name": "Oksamol",
+        "latitude": -4.813404998047507,
+        "longitude": 140.92241233564692
     },
     {
         "code": 950222,
         "regency_code": 9502,
         "province_code": 95,
-        "name": "Oklip"
+        "name": "Oklip",
+        "latitude": -4.749403018083816,
+        "longitude": 140.7779442893508
     },
     {
         "code": 950223,
         "regency_code": 9502,
         "province_code": 95,
-        "name": "Okbemtau"
+        "name": "Okbemtau",
+        "latitude": -4.533487065585096,
+        "longitude": 140.76769505176705
     },
     {
         "code": 950224,
         "regency_code": 9502,
         "province_code": 95,
-        "name": "Oksebang"
+        "name": "Oksebang",
+        "latitude": -4.744602686340973,
+        "longitude": 140.6697538142278
     },
     {
         "code": 950225,
         "regency_code": 9502,
         "province_code": 95,
-        "name": "Okbab"
+        "name": "Okbab",
+        "latitude": -4.551991579802802,
+        "longitude": 140.4899473017715
     },
     {
         "code": 950226,
         "regency_code": 9502,
         "province_code": 95,
-        "name": "Batani"
+        "name": "Batani",
+        "latitude": -3.946088935433891,
+        "longitude": 140.19575507562473
     },
     {
         "code": 950227,
         "regency_code": 9502,
         "province_code": 95,
-        "name": "Weime"
+        "name": "Weime",
+        "latitude": -4.368000092184836,
+        "longitude": 140.28241055815428
     },
     {
         "code": 950228,
         "regency_code": 9502,
         "province_code": 95,
-        "name": "Murkim"
+        "name": "Murkim",
+        "latitude": -3.980370789993797,
+        "longitude": 140.85342817380115
     },
     {
         "code": 950229,
         "regency_code": 9502,
         "province_code": 95,
-        "name": "Mofinop"
+        "name": "Mofinop",
+        "latitude": -4.178375955719403,
+        "longitude": 140.84760229352312
     },
     {
         "code": 950230,
         "regency_code": 9502,
         "province_code": 95,
-        "name": "Jetfa"
+        "name": "Jetfa",
+        "latitude": -3.9429568149747984,
+        "longitude": 140.60269445072822
     },
     {
         "code": 950231,
         "regency_code": 9502,
         "province_code": 95,
-        "name": "Teiraplu"
+        "name": "Teiraplu",
+        "latitude": -3.9075874758404,
+        "longitude": 140.36470626054415
     },
     {
         "code": 950232,
         "regency_code": 9502,
         "province_code": 95,
-        "name": "Eipumek"
+        "name": "Eipumek",
+        "latitude": -4.468373218547643,
+        "longitude": 140.09170891175407
     },
     {
         "code": 950233,
         "regency_code": 9502,
         "province_code": 95,
-        "name": "Pamek"
+        "name": "Pamek",
+        "latitude": -4.375481575857323,
+        "longitude": 140.00062507722166
     },
     {
         "code": 950234,
         "regency_code": 9502,
         "province_code": 95,
-        "name": "Nongme"
+        "name": "Nongme",
+        "latitude": -4.271734676898202,
+        "longitude": 140.1655422761418
     },
     {
         "code": 950301,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Kurima"
+        "name": "Kurima",
+        "latitude": -4.3042576335143705,
+        "longitude": 138.92024955472127
     },
     {
         "code": 950302,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Anggruk"
+        "name": "Anggruk",
+        "latitude": -4.212948642994596,
+        "longitude": 139.36459245525677
     },
     {
         "code": 950303,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Ninia"
+        "name": "Ninia",
+        "latitude": -4.38883191611166,
+        "longitude": 139.3146546439404
     },
     {
         "code": 950304,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Silimo"
+        "name": "Silimo",
+        "latitude": -4.461311010400878,
+        "longitude": 138.93088241756854
     },
     {
         "code": 950305,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Samenage"
+        "name": "Samenage",
+        "latitude": -4.484301179699775,
+        "longitude": 139.12808149216792
     },
     {
         "code": 950306,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Nalca"
+        "name": "Nalca",
+        "latitude": -4.413905623796633,
+        "longitude": 139.91179815189653
     },
     {
         "code": 950307,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Dekai"
+        "name": "Dekai",
+        "latitude": -4.886356144132921,
+        "longitude": 139.5445365594481
     },
     {
         "code": 950308,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Obio"
+        "name": "Obio",
+        "latitude": -4.819587824230052,
+        "longitude": 139.21264049425614
     },
     {
         "code": 950309,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Suru Suru"
+        "name": "Suru Suru",
+        "latitude": -4.694405737464231,
+        "longitude": 139.0254841142071
     },
     {
         "code": 950310,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Wusama"
+        "name": "Wusama",
+        "latitude": -4.547771122222686,
+        "longitude": 138.88095662100002
     },
     {
         "code": 950311,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Amuma"
+        "name": "Amuma",
+        "latitude": -4.522839672306044,
+        "longitude": 139.0570946729516
     },
     {
         "code": 950312,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Musaik"
+        "name": "Musaik",
+        "latitude": -4.568735316294905,
+        "longitude": 139.0481731138477
     },
     {
         "code": 950313,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Pasema"
+        "name": "Pasema",
+        "latitude": -4.435038409854144,
+        "longitude": 139.15768796956522
     },
     {
         "code": 950314,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Hogio"
+        "name": "Hogio",
+        "latitude": -4.554927456649447,
+        "longitude": 139.26023938131652
     },
     {
         "code": 950315,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Mugi"
+        "name": "Mugi",
+        "latitude": -4.239632713203733,
+        "longitude": 139.11472559428742
     },
     {
         "code": 950316,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Soba"
+        "name": "Soba",
+        "latitude": -4.3416616294082155,
+        "longitude": 139.20288119937078
     },
     {
         "code": 950317,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Werima"
+        "name": "Werima",
+        "latitude": -4.357564122861104,
+        "longitude": 139.1224529929956
     },
     {
         "code": 950318,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Tangma"
+        "name": "Tangma",
+        "latitude": -4.300586866586968,
+        "longitude": 139.06496368396918
     },
     {
         "code": 950319,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Ukha"
+        "name": "Ukha",
+        "latitude": -4.405814187986688,
+        "longitude": 139.0031065462437
     },
     {
         "code": 950320,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Panggema"
+        "name": "Panggema",
+        "latitude": -4.153452807773947,
+        "longitude": 139.47351882392906
     },
     {
         "code": 950321,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Kosarek"
+        "name": "Kosarek",
+        "latitude": -4.1150568882941805,
+        "longitude": 139.5831871393389
     },
     {
         "code": 950322,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Nipsan"
+        "name": "Nipsan",
+        "latitude": -4.196730471067506,
+        "longitude": 139.69703659627223
     },
     {
         "code": 950323,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Ubahak"
+        "name": "Ubahak",
+        "latitude": -4.102546721427717,
+        "longitude": 139.7819496908159
     },
     {
         "code": 950324,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Pronggoli"
+        "name": "Pronggoli",
+        "latitude": -4.170392781814595,
+        "longitude": 139.30801340428488
     },
     {
         "code": 950325,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Walma"
+        "name": "Walma",
+        "latitude": -4.260740323219976,
+        "longitude": 139.40730643101398
     },
     {
         "code": 950326,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Yahuliambut"
+        "name": "Yahuliambut",
+        "latitude": -4.043638224096881,
+        "longitude": 139.64778247265448
     },
     {
         "code": 950327,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Hereapini"
+        "name": "Hereapini",
+        "latitude": -4.314612811129915,
+        "longitude": 139.4603933759802
     },
     {
         "code": 950328,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Ubalihi"
+        "name": "Ubalihi",
+        "latitude": -4.306144721731703,
+        "longitude": 139.59123055589333
     },
     {
         "code": 950329,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Talambo"
+        "name": "Talambo",
+        "latitude": -3.902781034107719,
+        "longitude": 139.9364023454522
     },
     {
         "code": 950330,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Puldama"
+        "name": "Puldama",
+        "latitude": -4.304448176111465,
+        "longitude": 139.8730687046816
     },
     {
         "code": 950331,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Endomen"
+        "name": "Endomen",
+        "latitude": -4.187169310397084,
+        "longitude": 140.00168942400828
     },
     {
         "code": 950332,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Kona"
+        "name": "Kona",
+        "latitude": -4.2815220087231305,
+        "longitude": 139.7509912912665
     },
     {
         "code": 950333,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Dirwemna"
+        "name": "Dirwemna",
+        "latitude": -4.311346234451974,
+        "longitude": 140.01212168647623
     },
     {
         "code": 950334,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Holuon"
+        "name": "Holuon",
+        "latitude": -4.500955412753824,
+        "longitude": 139.3211558274812
     },
     {
         "code": 950335,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Lolat"
+        "name": "Lolat",
+        "latitude": -4.513313978207169,
+        "longitude": 139.47075167107977
     },
     {
         "code": 950336,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Soloikma"
+        "name": "Soloikma",
+        "latitude": -4.458443956617704,
+        "longitude": 139.59434283135664
     },
     {
         "code": 950337,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Sela"
+        "name": "Sela",
+        "latitude": -4.574435793267176,
+        "longitude": 139.8048115023248
     },
     {
         "code": 950338,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Korupun"
+        "name": "Korupun",
+        "latitude": -4.497299658862244,
+        "longitude": 139.71752977454832
     },
     {
         "code": 950339,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Langda"
+        "name": "Langda",
+        "latitude": -4.617600816580752,
+        "longitude": 139.99111556886288
     },
     {
         "code": 950340,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Bomela"
+        "name": "Bomela",
+        "latitude": -4.771657855673588,
+        "longitude": 139.89735152652594
     },
     {
         "code": 950341,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Suntamon"
+        "name": "Suntamon",
+        "latitude": -4.891026276864132,
+        "longitude": 140.00767210991333
     },
     {
         "code": 950342,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Seradala"
+        "name": "Seradala",
+        "latitude": -4.989183192555879,
+        "longitude": 139.83466159083375
     },
     {
         "code": 950343,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Sobaham"
+        "name": "Sobaham",
+        "latitude": -4.4024911489539775,
+        "longitude": 139.36918933847798
     },
     {
         "code": 950344,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Kabianggama"
+        "name": "Kabianggama",
+        "latitude": -4.419530437928339,
+        "longitude": 139.4638950189515
     },
     {
         "code": 950345,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Kwelamdua"
+        "name": "Kwelamdua",
+        "latitude": -4.72674064383443,
+        "longitude": 139.77852415323687
     },
     {
         "code": 950346,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Kwikma"
+        "name": "Kwikma",
+        "latitude": -4.30033443367976,
+        "longitude": 139.3112550236081
     },
     {
         "code": 950347,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Hilipuk"
+        "name": "Hilipuk",
+        "latitude": -4.5766822899354445,
+        "longitude": 139.42270718796132
     },
     {
         "code": 950348,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Duram"
+        "name": "Duram",
+        "latitude": -4.64841635498422,
+        "longitude": 139.54904259658488
     },
     {
         "code": 950349,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Yogosem"
+        "name": "Yogosem",
+        "latitude": -4.245318514663039,
+        "longitude": 139.20300737691576
     },
     {
         "code": 950350,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Kayo"
+        "name": "Kayo",
+        "latitude": -4.408964564153849,
+        "longitude": 139.21742721078382
     },
     {
         "code": 950351,
         "regency_code": 9503,
         "province_code": 95,
-        "name": "Sumo"
+        "name": "Sumo",
+        "latitude": -4.792526704386421,
+        "longitude": 139.36588869185985
     },
     {
         "code": 950401,
         "regency_code": 9504,
         "province_code": 95,
-        "name": "Karubaga"
+        "name": "Karubaga",
+        "latitude": -3.687478998829376,
+        "longitude": 138.47954337220287
     },
     {
         "code": 950402,
         "regency_code": 9504,
         "province_code": 95,
-        "name": "Bokondini"
+        "name": "Bokondini",
+        "latitude": -3.699712386784559,
+        "longitude": 138.6865196413049
     },
     {
         "code": 950403,
         "regency_code": 9504,
         "province_code": 95,
-        "name": "Kanggime"
+        "name": "Kanggime",
+        "latitude": -3.6462114035241333,
+        "longitude": 138.35013374203024
     },
     {
         "code": 950404,
         "regency_code": 9504,
         "province_code": 95,
-        "name": "Kembu"
+        "name": "Kembu",
+        "latitude": -3.569776935284642,
+        "longitude": 138.37756563098776
     },
     {
         "code": 950405,
         "regency_code": 9504,
         "province_code": 95,
-        "name": "Goyage"
+        "name": "Goyage",
+        "latitude": -3.750755764835277,
+        "longitude": 138.44784805628004
     },
     {
         "code": 950406,
         "regency_code": 9504,
         "province_code": 95,
-        "name": "Wunim"
+        "name": "Wunim",
+        "latitude": -3.6228172494716593,
+        "longitude": 138.5591108807475
     },
     {
         "code": 950407,
         "regency_code": 9504,
         "province_code": 95,
-        "name": "Wina"
+        "name": "Wina",
+        "latitude": -3.3711716469001614,
+        "longitude": 138.18171449949676
     },
     {
         "code": 950408,
         "regency_code": 9504,
         "province_code": 95,
-        "name": "Umagi"
+        "name": "Umagi",
+        "latitude": -3.5250323905201504,
+        "longitude": 138.35733424360333
     },
     {
         "code": 950409,
         "regency_code": 9504,
         "province_code": 95,
-        "name": "Panaga"
+        "name": "Panaga",
+        "latitude": -3.5638772399981775,
+        "longitude": 138.4750073173397
     },
     {
         "code": 950410,
         "regency_code": 9504,
         "province_code": 95,
-        "name": "Woniki"
+        "name": "Woniki",
+        "latitude": -3.679725911067006,
+        "longitude": 138.30778894749014
     },
     {
         "code": 950411,
         "regency_code": 9504,
         "province_code": 95,
-        "name": "Kubu"
+        "name": "Kubu",
+        "latitude": -3.760164367079839,
+        "longitude": 138.4972325300764
     },
     {
         "code": 950412,
         "regency_code": 9504,
         "province_code": 95,
-        "name": "Konda\/ Kondaga"
+        "name": "Konda\/ Kondaga",
+        "latitude": -3.687923191978677,
+        "longitude": 138.50544258163612
     },
     {
         "code": 950413,
         "regency_code": 9504,
         "province_code": 95,
-        "name": "Nelawi"
+        "name": "Nelawi",
+        "latitude": -3.6747016836252144,
+        "longitude": 138.46155314110578
     },
     {
         "code": 950414,
         "regency_code": 9504,
         "province_code": 95,
-        "name": "Kuari"
+        "name": "Kuari",
+        "latitude": -3.6848506077121628,
+        "longitude": 138.43795023642664
     },
     {
         "code": 950415,
         "regency_code": 9504,
         "province_code": 95,
-        "name": "Bokoneri"
+        "name": "Bokoneri",
+        "latitude": -3.663715556589955,
+        "longitude": 138.62731495772624
     },
     {
         "code": 950416,
         "regency_code": 9504,
         "province_code": 95,
-        "name": "Bewani"
+        "name": "Bewani",
+        "latitude": -3.5489097810459027,
+        "longitude": 138.6495646030592
     },
     {
         "code": 950417,
         "regency_code": 9504,
         "province_code": 95,
-        "name": "Nabunage"
+        "name": "Nabunage",
+        "latitude": -3.6863202480450004,
+        "longitude": 138.4095264053371
     },
     {
         "code": 950418,
         "regency_code": 9504,
         "province_code": 95,
-        "name": "Gilubandu"
+        "name": "Gilubandu",
+        "latitude": -3.607394481331721,
+        "longitude": 138.35078971764662
     },
     {
         "code": 950419,
         "regency_code": 9504,
         "province_code": 95,
-        "name": "Nunggawi"
+        "name": "Nunggawi",
+        "latitude": -3.7027540153058762,
+        "longitude": 138.339981043824
     },
     {
         "code": 950420,
         "regency_code": 9504,
         "province_code": 95,
-        "name": "Gundagi"
+        "name": "Gundagi",
+        "latitude": -3.399876853311655,
+        "longitude": 138.30578250053676
     },
     {
         "code": 950421,
         "regency_code": 9504,
         "province_code": 95,
-        "name": "Numba"
+        "name": "Numba",
+        "latitude": -3.6641831743770683,
+        "longitude": 138.51242228725437
     },
     {
         "code": 950422,
         "regency_code": 9504,
         "province_code": 95,
-        "name": "Timori"
+        "name": "Timori",
+        "latitude": -3.608634913071025,
+        "longitude": 138.46909285393372
     },
     {
         "code": 950423,
         "regency_code": 9504,
         "province_code": 95,
-        "name": "Dundu"
+        "name": "Dundu",
+        "latitude": -3.4453001250494912,
+        "longitude": 138.38285821979102
     },
     {
         "code": 950424,
         "regency_code": 9504,
         "province_code": 95,
-        "name": "Geya"
+        "name": "Geya",
+        "latitude": -3.7146916603386577,
+        "longitude": 138.46259818959754
     },
     {
         "code": 950425,
         "regency_code": 9504,
         "province_code": 95,
-        "name": "Egiam"
+        "name": "Egiam",
+        "latitude": -3.458373099686639,
+        "longitude": 138.50795848269357
     },
     {
         "code": 950426,
         "regency_code": 9504,
         "province_code": 95,
-        "name": "Poganeri"
+        "name": "Poganeri",
+        "latitude": -3.784027008264828,
+        "longitude": 138.57380644539356
     },
     {
         "code": 950427,
         "regency_code": 9504,
         "province_code": 95,
-        "name": "Kamboneri"
+        "name": "Kamboneri",
+        "latitude": -3.7065309478892794,
+        "longitude": 138.6025313524486
     },
     {
         "code": 950428,
         "regency_code": 9504,
         "province_code": 95,
-        "name": "Airgaram"
+        "name": "Airgaram",
+        "latitude": -3.7517629093949916,
+        "longitude": 138.52436857811392
     },
     {
         "code": 950429,
         "regency_code": 9504,
         "province_code": 95,
-        "name": "Wari\/Taiyeve II"
+        "name": "Wari\/Taiyeve II",
+        "latitude": -3.3191041086461133,
+        "longitude": 138.66755949457283
     },
     {
         "code": 950430,
         "regency_code": 9504,
         "province_code": 95,
-        "name": "Dow"
+        "name": "Dow",
+        "latitude": -3.2393703025511438,
+        "longitude": 138.22679156090817
     },
     {
         "code": 950431,
         "regency_code": 9504,
         "province_code": 95,
-        "name": "Tagineri"
+        "name": "Tagineri",
+        "latitude": -3.7509050416066945,
+        "longitude": 138.5790471148361
     },
     {
         "code": 950432,
         "regency_code": 9504,
         "province_code": 95,
-        "name": "Yuneri"
+        "name": "Yuneri",
+        "latitude": -3.790646624272163,
+        "longitude": 138.5240867482677
     },
     {
         "code": 950433,
         "regency_code": 9504,
         "province_code": 95,
-        "name": "Wakuwo"
+        "name": "Wakuwo",
+        "latitude": -3.728680340193612,
+        "longitude": 138.39801901319245
     },
     {
         "code": 950434,
         "regency_code": 9504,
         "province_code": 95,
-        "name": "Gika"
+        "name": "Gika",
+        "latitude": -3.512579747658124,
+        "longitude": 138.4262114906974
     },
     {
         "code": 950435,
         "regency_code": 9504,
         "province_code": 95,
-        "name": "Telenggeme"
+        "name": "Telenggeme",
+        "latitude": -3.523068689957731,
+        "longitude": 138.29127056604335
     },
     {
         "code": 950436,
         "regency_code": 9504,
         "province_code": 95,
-        "name": "Anawi"
+        "name": "Anawi",
+        "latitude": -3.716745187823175,
+        "longitude": 138.53840345126903
     },
     {
         "code": 950437,
         "regency_code": 9504,
         "province_code": 95,
-        "name": "Wenam"
+        "name": "Wenam",
+        "latitude": -3.705383834667574,
+        "longitude": 138.4769730516476
     },
     {
         "code": 950438,
         "regency_code": 9504,
         "province_code": 95,
-        "name": "Wugi"
+        "name": "Wugi",
+        "latitude": -3.707245381191378,
+        "longitude": 138.49271803452706
     },
     {
         "code": 950439,
         "regency_code": 9504,
         "province_code": 95,
-        "name": "Danime"
+        "name": "Danime",
+        "latitude": -3.7324034058657287,
+        "longitude": 138.62775248224946
     },
     {
         "code": 950440,
         "regency_code": 9504,
         "province_code": 95,
-        "name": "Tagime"
+        "name": "Tagime",
+        "latitude": -3.7076176995546577,
+        "longitude": 138.63575424687147
     },
     {
         "code": 950441,
         "regency_code": 9504,
         "province_code": 95,
-        "name": "Kai"
+        "name": "Kai",
+        "latitude": -3.6796382206219307,
+        "longitude": 138.55477468347652
     },
     {
         "code": 950442,
         "regency_code": 9504,
         "province_code": 95,
-        "name": "Aweku"
+        "name": "Aweku",
+        "latitude": -3.7224281790701736,
+        "longitude": 138.36834592076997
     },
     {
         "code": 950443,
         "regency_code": 9504,
         "province_code": 95,
-        "name": "Bogonuk"
+        "name": "Bogonuk",
+        "latitude": -3.6299808252001085,
+        "longitude": 138.29066857454322
     },
     {
         "code": 950444,
         "regency_code": 9504,
         "province_code": 95,
-        "name": "Li Anogomma"
+        "name": "Li Anogomma",
+        "latitude": -3.6564131870470966,
+        "longitude": 138.48168820986726
     },
     {
         "code": 950445,
         "regency_code": 9504,
         "province_code": 95,
-        "name": "Biuk"
+        "name": "Biuk",
+        "latitude": -3.6380055532679862,
+        "longitude": 138.43690580479128
     },
     {
         "code": 950446,
         "regency_code": 9504,
         "province_code": 95,
-        "name": "Yuko"
+        "name": "Yuko",
+        "latitude": -3.8156905611925707,
+        "longitude": 138.55645998830607
     },
     {
         "code": 950501,
         "regency_code": 9505,
         "province_code": 95,
-        "name": "Kobakma"
+        "name": "Kobakma",
+        "latitude": -3.6949191016726437,
+        "longitude": 139.11678225662172
     },
     {
         "code": 950502,
         "regency_code": 9505,
         "province_code": 95,
-        "name": "Kelila"
+        "name": "Kelila",
+        "latitude": -3.742131446126602,
+        "longitude": 138.70754345243557
     },
     {
         "code": 950503,
         "regency_code": 9505,
         "province_code": 95,
-        "name": "Eragayam"
+        "name": "Eragayam",
+        "latitude": -3.6173966994210334,
+        "longitude": 138.86161879073148
     },
     {
         "code": 950504,
         "regency_code": 9505,
         "province_code": 95,
-        "name": "Megambilis"
+        "name": "Megambilis",
+        "latitude": -3.4750228587078937,
+        "longitude": 139.0970133635499
     },
     {
         "code": 950505,
         "regency_code": 9505,
         "province_code": 95,
-        "name": "Ilugwa"
+        "name": "Ilugwa",
+        "latitude": -3.8080002751326907,
+        "longitude": 138.92695148803784
     },
     {
         "code": 950601,
         "regency_code": 9506,
         "province_code": 95,
-        "name": "Elelim"
+        "name": "Elelim",
+        "latitude": -3.7578881733245733,
+        "longitude": 139.50526397626197
     },
     {
         "code": 950602,
         "regency_code": 9506,
         "province_code": 95,
-        "name": "Apalapsili"
+        "name": "Apalapsili",
+        "latitude": -3.9418450332545496,
+        "longitude": 139.30148638027666
     },
     {
         "code": 950603,
         "regency_code": 9506,
         "province_code": 95,
-        "name": "Abenaho"
+        "name": "Abenaho",
+        "latitude": -3.772528099753516,
+        "longitude": 139.25339261129508
     },
     {
         "code": 950604,
         "regency_code": 9506,
         "province_code": 95,
-        "name": "Benawa"
+        "name": "Benawa",
+        "latitude": -3.6823565145670485,
+        "longitude": 139.80758323904254
     },
     {
         "code": 950605,
         "regency_code": 9506,
         "province_code": 95,
-        "name": "Welarek"
+        "name": "Welarek",
+        "latitude": -3.96764775889663,
+        "longitude": 139.4788688962738
     },
     {
         "code": 950701,
         "regency_code": 9507,
         "province_code": 95,
-        "name": "Tiom"
+        "name": "Tiom",
+        "latitude": -3.9188518138415853,
+        "longitude": 138.4516594256065
     },
     {
         "code": 950702,
         "regency_code": 9507,
         "province_code": 95,
-        "name": "Pirime"
+        "name": "Pirime",
+        "latitude": -4.011506558825528,
+        "longitude": 138.55306674202478
     },
     {
         "code": 950703,
         "regency_code": 9507,
         "province_code": 95,
-        "name": "Makki"
+        "name": "Makki",
+        "latitude": -4.006248188164179,
+        "longitude": 138.6788471928062
     },
     {
         "code": 950704,
         "regency_code": 9507,
         "province_code": 95,
-        "name": "Gamelia"
+        "name": "Gamelia",
+        "latitude": -3.8837510800763315,
+        "longitude": 138.6708953682215
     },
     {
         "code": 950705,
         "regency_code": 9507,
         "province_code": 95,
-        "name": "Dimba"
+        "name": "Dimba",
+        "latitude": -3.839554183813911,
+        "longitude": 138.54261903409724
     },
     {
         "code": 950706,
         "regency_code": 9507,
         "province_code": 95,
-        "name": "Melagineri"
+        "name": "Melagineri",
+        "latitude": -3.9259101550882525,
+        "longitude": 138.2902418216708
     },
     {
         "code": 950707,
         "regency_code": 9507,
         "province_code": 95,
-        "name": "Balingga"
+        "name": "Balingga",
+        "latitude": -3.975854795090215,
+        "longitude": 138.4184540592108
     },
     {
         "code": 950708,
         "regency_code": 9507,
         "province_code": 95,
-        "name": "Tiomneri"
+        "name": "Tiomneri",
+        "latitude": -3.8938480559508597,
+        "longitude": 138.42851687488243
     },
     {
         "code": 950709,
         "regency_code": 9507,
         "province_code": 95,
-        "name": "Kuyawage"
+        "name": "Kuyawage",
+        "latitude": -4.035769300850522,
+        "longitude": 138.2925484836574
     },
     {
         "code": 950710,
         "regency_code": 9507,
         "province_code": 95,
-        "name": "Poga"
+        "name": "Poga",
+        "latitude": -3.786643083220309,
+        "longitude": 138.60752823264374
     },
     {
         "code": 950711,
         "regency_code": 9507,
         "province_code": 95,
-        "name": "Niname"
+        "name": "Niname",
+        "latitude": -3.9348251635200744,
+        "longitude": 138.40749836818418
     },
     {
         "code": 950712,
         "regency_code": 9507,
         "province_code": 95,
-        "name": "Nogi"
+        "name": "Nogi",
+        "latitude": -3.9024530763796657,
+        "longitude": 138.47496558518904
     },
     {
         "code": 950713,
         "regency_code": 9507,
         "province_code": 95,
-        "name": "Yiginua"
+        "name": "Yiginua",
+        "latitude": -3.933041431377899,
+        "longitude": 138.44444573903152
     },
     {
         "code": 950714,
         "regency_code": 9507,
         "province_code": 95,
-        "name": "Tiom Ollo"
+        "name": "Tiom Ollo",
+        "latitude": -3.8701232353251083,
+        "longitude": 138.4443378328436
     },
     {
         "code": 950715,
         "regency_code": 9507,
         "province_code": 95,
-        "name": "Yugungwi"
+        "name": "Yugungwi",
+        "latitude": -3.9079008733220055,
+        "longitude": 138.4121456750038
     },
     {
         "code": 950716,
         "regency_code": 9507,
         "province_code": 95,
-        "name": "Mokoni"
+        "name": "Mokoni",
+        "latitude": -3.950361453300749,
+        "longitude": 138.438370476197
     },
     {
         "code": 950717,
         "regency_code": 9507,
         "province_code": 95,
-        "name": "Wereka"
+        "name": "Wereka",
+        "latitude": -3.842324470511764,
+        "longitude": 138.34887200651414
     },
     {
         "code": 950718,
         "regency_code": 9507,
         "province_code": 95,
-        "name": "Milimbo"
+        "name": "Milimbo",
+        "latitude": -3.941535755270656,
+        "longitude": 138.54048438188107
     },
     {
         "code": 950719,
         "regency_code": 9507,
         "province_code": 95,
-        "name": "Wiringgambut"
+        "name": "Wiringgambut",
+        "latitude": -3.9454872883738754,
+        "longitude": 138.498526095055
     },
     {
         "code": 950720,
         "regency_code": 9507,
         "province_code": 95,
-        "name": "Gollo"
+        "name": "Gollo",
+        "latitude": -3.914779063431904,
+        "longitude": 138.5071489536657
     },
     {
         "code": 950721,
         "regency_code": 9507,
         "province_code": 95,
-        "name": "Awina"
+        "name": "Awina",
+        "latitude": -4.008394868093681,
+        "longitude": 138.59606322678587
     },
     {
         "code": 950722,
         "regency_code": 9507,
         "province_code": 95,
-        "name": "Ayumnati"
+        "name": "Ayumnati",
+        "latitude": -3.961668730305899,
+        "longitude": 138.47168823263132
     },
     {
         "code": 950723,
         "regency_code": 9507,
         "province_code": 95,
-        "name": "Wano Barat"
+        "name": "Wano Barat",
+        "latitude": -3.994342377997134,
+        "longitude": 138.07781003060973
     },
     {
         "code": 950724,
         "regency_code": 9507,
         "province_code": 95,
-        "name": "Goa Balim"
+        "name": "Goa Balim",
+        "latitude": -3.9685510158304487,
+        "longitude": 138.27354933825552
     },
     {
         "code": 950725,
         "regency_code": 9507,
         "province_code": 95,
-        "name": "Bruwa"
+        "name": "Bruwa",
+        "latitude": -4.079877129151177,
+        "longitude": 138.5620324700619
     },
     {
         "code": 950726,
         "regency_code": 9507,
         "province_code": 95,
-        "name": "Balingga Barat"
+        "name": "Balingga Barat",
+        "latitude": -4.026258749670696,
+        "longitude": 138.39152733375013
     },
     {
         "code": 950727,
         "regency_code": 9507,
         "province_code": 95,
-        "name": "Gupura"
+        "name": "Gupura",
+        "latitude": -3.9345468356915747,
+        "longitude": 138.60568773346506
     },
     {
         "code": 950728,
         "regency_code": 9507,
         "province_code": 95,
-        "name": "Kolawa"
+        "name": "Kolawa",
+        "latitude": -3.945891827451225,
+        "longitude": 138.68764845270638
     },
     {
         "code": 950729,
         "regency_code": 9507,
         "province_code": 95,
-        "name": "Gelok Beam"
+        "name": "Gelok Beam",
+        "latitude": -3.9018901868158196,
+        "longitude": 138.70585453395864
     },
     {
         "code": 950730,
         "regency_code": 9507,
         "province_code": 95,
-        "name": "Kuly Lanny"
+        "name": "Kuly Lanny",
+        "latitude": -3.9766944410158347,
+        "longitude": 138.61505256121205
     },
     {
         "code": 950731,
         "regency_code": 9507,
         "province_code": 95,
-        "name": "Lannyna"
+        "name": "Lannyna",
+        "latitude": -3.9324662685201566,
+        "longitude": 138.57092868961897
     },
     {
         "code": 950732,
         "regency_code": 9507,
         "province_code": 95,
-        "name": "Karu"
+        "name": "Karu",
+        "latitude": -3.846977310236951,
+        "longitude": 138.63410447683557
     },
     {
         "code": 950733,
         "regency_code": 9507,
         "province_code": 95,
-        "name": "Yiluk"
+        "name": "Yiluk",
+        "latitude": -3.891811242270972,
+        "longitude": 138.61131076272463
     },
     {
         "code": 950734,
         "regency_code": 9507,
         "province_code": 95,
-        "name": "Guna"
+        "name": "Guna",
+        "latitude": -3.9198089814017947,
+        "longitude": 138.64808432163292
     },
     {
         "code": 950735,
         "regency_code": 9507,
         "province_code": 95,
-        "name": "Kelulome"
+        "name": "Kelulome",
+        "latitude": -3.832808736767827,
+        "longitude": 138.4765427885477
     },
     {
         "code": 950736,
         "regency_code": 9507,
         "province_code": 95,
-        "name": "Nikogwe"
+        "name": "Nikogwe",
+        "latitude": -3.8657705236598163,
+        "longitude": 138.5724741243329
     },
     {
         "code": 950737,
         "regency_code": 9507,
         "province_code": 95,
-        "name": "Muara"
+        "name": "Muara",
+        "latitude": -3.8197074882308057,
+        "longitude": 138.5966238213025
     },
     {
         "code": 950738,
         "regency_code": 9507,
         "province_code": 95,
-        "name": "Buguk Gona"
+        "name": "Buguk Gona",
+        "latitude": -3.998090869971148,
+        "longitude": 138.51014567231988
     },
     {
         "code": 950739,
         "regency_code": 9507,
         "province_code": 95,
-        "name": "Melagi"
+        "name": "Melagi",
+        "latitude": -3.8915734380970135,
+        "longitude": 138.30694177937863
     },
     {
         "code": 950801,
         "regency_code": 9508,
         "province_code": 95,
-        "name": "Kenyam"
+        "name": "Kenyam",
+        "latitude": -4.613354931322124,
+        "longitude": 138.41888782003952
     },
     {
         "code": 950802,
         "regency_code": 9508,
         "province_code": 95,
-        "name": "Mapenduma"
+        "name": "Mapenduma",
+        "latitude": -4.288823628952928,
+        "longitude": 138.2457835977892
     },
     {
         "code": 950803,
         "regency_code": 9508,
         "province_code": 95,
-        "name": "Yigi"
+        "name": "Yigi",
+        "latitude": -4.157277272235006,
+        "longitude": 138.41430888970365
     },
     {
         "code": 950804,
         "regency_code": 9508,
         "province_code": 95,
-        "name": "Wosak"
+        "name": "Wosak",
+        "latitude": -4.331945056085327,
+        "longitude": 138.76937618028907
     },
     {
         "code": 950805,
         "regency_code": 9508,
         "province_code": 95,
-        "name": "Geselma"
+        "name": "Geselma",
+        "latitude": -4.20039461343633,
+        "longitude": 138.07814173941037
     },
     {
         "code": 950806,
         "regency_code": 9508,
         "province_code": 95,
-        "name": "Mugi"
+        "name": "Mugi",
+        "latitude": -4.1845378659846935,
+        "longitude": 138.32071847274605
     },
     {
         "code": 950807,
         "regency_code": 9508,
         "province_code": 95,
-        "name": "Mbuwa"
+        "name": "Mbuwa",
+        "latitude": -4.189426835793181,
+        "longitude": 138.54727547966837
     },
     {
         "code": 950808,
         "regency_code": 9508,
         "province_code": 95,
-        "name": "Gearek"
+        "name": "Gearek",
+        "latitude": -4.635221114842656,
+        "longitude": 138.75660316555528
     },
     {
         "code": 950809,
         "regency_code": 9508,
         "province_code": 95,
-        "name": "Koroptak"
+        "name": "Koroptak",
+        "latitude": -4.339982236906992,
+        "longitude": 138.34472281058277
     },
     {
         "code": 950810,
         "regency_code": 9508,
         "province_code": 95,
-        "name": "Kegayem"
+        "name": "Kegayem",
+        "latitude": -4.298311560961339,
+        "longitude": 138.2825223771915
     },
     {
         "code": 950811,
         "regency_code": 9508,
         "province_code": 95,
-        "name": "Paro"
+        "name": "Paro",
+        "latitude": -4.431648920444563,
+        "longitude": 138.257614185291
     },
     {
         "code": 950812,
         "regency_code": 9508,
         "province_code": 95,
-        "name": "Mebarok"
+        "name": "Mebarok",
+        "latitude": -4.195446766123893,
+        "longitude": 138.18441034658366
     },
     {
         "code": 950813,
         "regency_code": 9508,
         "province_code": 95,
-        "name": "Yenggelo"
+        "name": "Yenggelo",
+        "latitude": -4.266507337391216,
+        "longitude": 138.02240633162967
     },
     {
         "code": 950814,
         "regency_code": 9508,
         "province_code": 95,
-        "name": "Kilmid"
+        "name": "Kilmid",
+        "latitude": -4.379975026107348,
+        "longitude": 138.10386138860568
     },
     {
         "code": 950815,
         "regency_code": 9508,
         "province_code": 95,
-        "name": "Alama"
+        "name": "Alama",
+        "latitude": -4.399280136597763,
+        "longitude": 137.92776555783854
     },
     {
         "code": 950816,
         "regency_code": 9508,
         "province_code": 95,
-        "name": "Yal"
+        "name": "Yal",
+        "latitude": -4.238541548456389,
+        "longitude": 138.35924209116544
     },
     {
         "code": 950817,
         "regency_code": 9508,
         "province_code": 95,
-        "name": "Mam"
+        "name": "Mam",
+        "latitude": -4.216276845531205,
+        "longitude": 138.29098629789337
     },
     {
         "code": 950818,
         "regency_code": 9508,
         "province_code": 95,
-        "name": "Dal"
+        "name": "Dal",
+        "latitude": -4.160757067905187,
+        "longitude": 138.4515161632727
     },
     {
         "code": 950819,
         "regency_code": 9508,
         "province_code": 95,
-        "name": "Nirkuri"
+        "name": "Nirkuri",
+        "latitude": -4.1354236801593895,
+        "longitude": 138.3736329488297
     },
     {
         "code": 950820,
         "regency_code": 9508,
         "province_code": 95,
-        "name": "Inikgal"
+        "name": "Inikgal",
+        "latitude": -4.273977725152813,
+        "longitude": 138.39196564095906
     },
     {
         "code": 950821,
         "regency_code": 9508,
         "province_code": 95,
-        "name": "Iniye"
+        "name": "Iniye",
+        "latitude": -4.324048581890866,
+        "longitude": 138.5576681493201
     },
     {
         "code": 950822,
         "regency_code": 9508,
         "province_code": 95,
-        "name": "Mbulmu Yalma"
+        "name": "Mbulmu Yalma",
+        "latitude": -4.322377183903786,
+        "longitude": 138.4570289110971
     },
     {
         "code": 950823,
         "regency_code": 9508,
         "province_code": 95,
-        "name": "Mbua Tengah"
+        "name": "Mbua Tengah",
+        "latitude": -4.456092124192399,
+        "longitude": 138.5228470776473
     },
     {
         "code": 950824,
         "regency_code": 9508,
         "province_code": 95,
-        "name": "Embetpen"
+        "name": "Embetpen",
+        "latitude": -4.581764894961509,
+        "longitude": 138.55848206887734
     },
     {
         "code": 950825,
         "regency_code": 9508,
         "province_code": 95,
-        "name": "Kora"
+        "name": "Kora",
+        "latitude": -4.602699916804981,
+        "longitude": 138.65408752738608
     },
     {
         "code": 950826,
         "regency_code": 9508,
         "province_code": 95,
-        "name": "Wusi"
+        "name": "Wusi",
+        "latitude": -4.644319007345778,
+        "longitude": 138.8206965541097
     },
     {
         "code": 950827,
         "regency_code": 9508,
         "province_code": 95,
-        "name": "Pija"
+        "name": "Pija",
+        "latitude": -4.470171822417198,
+        "longitude": 138.7925760795971
     },
     {
         "code": 950828,
         "regency_code": 9508,
         "province_code": 95,
-        "name": "Moba"
+        "name": "Moba",
+        "latitude": -4.541505466938206,
+        "longitude": 138.76969229059574
     },
     {
         "code": 950829,
         "regency_code": 9508,
         "province_code": 95,
-        "name": "Wutpaga"
+        "name": "Wutpaga",
+        "latitude": -4.093959847357653,
+        "longitude": 138.27130966843632
     },
     {
         "code": 950830,
         "regency_code": 9508,
         "province_code": 95,
-        "name": "Nenggeagin"
+        "name": "Nenggeagin",
+        "latitude": -4.07300716396158,
+        "longitude": 138.17835217631315
     },
     {
         "code": 950831,
         "regency_code": 9508,
         "province_code": 95,
-        "name": "Krepkuri"
+        "name": "Krepkuri",
+        "latitude": -4.63964263156687,
+        "longitude": 138.35108173958372
     },
     {
         "code": 950832,
         "regency_code": 9508,
         "province_code": 95,
-        "name": "Pasir Putih"
+        "name": "Pasir Putih",
+        "latitude": -4.713885659913008,
+        "longitude": 138.85414758896525
     }
 ]

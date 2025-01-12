@@ -3,468 +3,624 @@
         "code": 340101,
         "regency_code": 3401,
         "province_code": 34,
-        "name": "Temon"
+        "name": "Temon",
+        "latitude": -7.888895639212023,
+        "longitude": 110.07196019719323
     },
     {
         "code": 340102,
         "regency_code": 3401,
         "province_code": 34,
-        "name": "Wates"
+        "name": "Wates",
+        "latitude": -7.890615524294856,
+        "longitude": 110.13206745296065
     },
     {
         "code": 340103,
         "regency_code": 3401,
         "province_code": 34,
-        "name": "Panjatan"
+        "name": "Panjatan",
+        "latitude": -7.915962780415187,
+        "longitude": 110.15692877152158
     },
     {
         "code": 340104,
         "regency_code": 3401,
         "province_code": 34,
-        "name": "Galur"
+        "name": "Galur",
+        "latitude": -7.9525191907774,
+        "longitude": 110.20283091966184
     },
     {
         "code": 340105,
         "regency_code": 3401,
         "province_code": 34,
-        "name": "Lendah"
+        "name": "Lendah",
+        "latitude": -7.913718315041878,
+        "longitude": 110.23099067380456
     },
     {
         "code": 340106,
         "regency_code": 3401,
         "province_code": 34,
-        "name": "Sentolo"
+        "name": "Sentolo",
+        "latitude": -7.859855032410664,
+        "longitude": 110.22022574830196
     },
     {
         "code": 340107,
         "regency_code": 3401,
         "province_code": 34,
-        "name": "Pengasih"
+        "name": "Pengasih",
+        "latitude": -7.830284079326769,
+        "longitude": 110.15466319712007
     },
     {
         "code": 340108,
         "regency_code": 3401,
         "province_code": 34,
-        "name": "Kokap"
+        "name": "Kokap",
+        "latitude": -7.830757726691454,
+        "longitude": 110.09568089042534
     },
     {
         "code": 340109,
         "regency_code": 3401,
         "province_code": 34,
-        "name": "Girimulyo"
+        "name": "Girimulyo",
+        "latitude": -7.750010396466045,
+        "longitude": 110.15926389694552
     },
     {
         "code": 340110,
         "regency_code": 3401,
         "province_code": 34,
-        "name": "Nanggulan"
+        "name": "Nanggulan",
+        "latitude": -7.7871854608445625,
+        "longitude": 110.20092026888776
     },
     {
         "code": 340111,
         "regency_code": 3401,
         "province_code": 34,
-        "name": "Samigaluh"
+        "name": "Samigaluh",
+        "latitude": -7.681493829869527,
+        "longitude": 110.1693935602977
     },
     {
         "code": 340112,
         "regency_code": 3401,
         "province_code": 34,
-        "name": "Kalibawang"
+        "name": "Kalibawang",
+        "latitude": -7.687723180857333,
+        "longitude": 110.23247281638848
     },
     {
         "code": 340201,
         "regency_code": 3402,
         "province_code": 34,
-        "name": "Srandakan"
+        "name": "Srandakan",
+        "latitude": -7.961094045856654,
+        "longitude": 110.2416045261647
     },
     {
         "code": 340202,
         "regency_code": 3402,
         "province_code": 34,
-        "name": "Sanden"
+        "name": "Sanden",
+        "latitude": -7.980632222158085,
+        "longitude": 110.26572933621179
     },
     {
         "code": 340203,
         "regency_code": 3402,
         "province_code": 34,
-        "name": "Kretek"
+        "name": "Kretek",
+        "latitude": -7.9951078226213514,
+        "longitude": 110.30583290768759
     },
     {
         "code": 340204,
         "regency_code": 3402,
         "province_code": 34,
-        "name": "Pundong"
+        "name": "Pundong",
+        "latitude": -7.969072783720227,
+        "longitude": 110.34201699986663
     },
     {
         "code": 340205,
         "regency_code": 3402,
         "province_code": 34,
-        "name": "Bambanglipuro"
+        "name": "Bambanglipuro",
+        "latitude": -7.944397161540704,
+        "longitude": 110.31287498149524
     },
     {
         "code": 340206,
         "regency_code": 3402,
         "province_code": 34,
-        "name": "Pandak"
+        "name": "Pandak",
+        "latitude": -7.924351711911663,
+        "longitude": 110.28762902166503
     },
     {
         "code": 340207,
         "regency_code": 3402,
         "province_code": 34,
-        "name": "Pajangan"
+        "name": "Pajangan",
+        "latitude": -7.870616154244499,
+        "longitude": 110.28753604226586
     },
     {
         "code": 340208,
         "regency_code": 3402,
         "province_code": 34,
-        "name": "Bantul"
+        "name": "Bantul",
+        "latitude": -7.8954261050041845,
+        "longitude": 110.33296363998339
     },
     {
         "code": 340209,
         "regency_code": 3402,
         "province_code": 34,
-        "name": "Jetis"
+        "name": "Jetis",
+        "latitude": -7.910759073665267,
+        "longitude": 110.36514692583643
     },
     {
         "code": 340210,
         "regency_code": 3402,
         "province_code": 34,
-        "name": "Imogiri"
+        "name": "Imogiri",
+        "latitude": -7.9372914245211925,
+        "longitude": 110.39766034191663
     },
     {
         "code": 340211,
         "regency_code": 3402,
         "province_code": 34,
-        "name": "Dlingo"
+        "name": "Dlingo",
+        "latitude": -7.920952627003953,
+        "longitude": 110.45876086602986
     },
     {
         "code": 340212,
         "regency_code": 3402,
         "province_code": 34,
-        "name": "Banguntapan"
+        "name": "Banguntapan",
+        "latitude": -7.82939357521849,
+        "longitude": 110.40754602201638
     },
     {
         "code": 340213,
         "regency_code": 3402,
         "province_code": 34,
-        "name": "Pleret"
+        "name": "Pleret",
+        "latitude": -7.876701361359256,
+        "longitude": 110.41409418949021
     },
     {
         "code": 340214,
         "regency_code": 3402,
         "province_code": 34,
-        "name": "Piyungan"
+        "name": "Piyungan",
+        "latitude": -7.843193378814685,
+        "longitude": 110.46276571282884
     },
     {
         "code": 340215,
         "regency_code": 3402,
         "province_code": 34,
-        "name": "Sewon"
+        "name": "Sewon",
+        "latitude": -7.857506264728945,
+        "longitude": 110.35702891955927
     },
     {
         "code": 340216,
         "regency_code": 3402,
         "province_code": 34,
-        "name": "Kasihan"
+        "name": "Kasihan",
+        "latitude": -7.828881427866199,
+        "longitude": 110.3244355218998
     },
     {
         "code": 340217,
         "regency_code": 3402,
         "province_code": 34,
-        "name": "Sedayu"
+        "name": "Sedayu",
+        "latitude": -7.824289509386203,
+        "longitude": 110.25833482288596
     },
     {
         "code": 340301,
         "regency_code": 3403,
         "province_code": 34,
-        "name": "Wonosari"
+        "name": "Wonosari",
+        "latitude": -7.977600725087336,
+        "longitude": 110.5907709370838
     },
     {
         "code": 340302,
         "regency_code": 3403,
         "province_code": 34,
-        "name": "Nglipar"
+        "name": "Nglipar",
+        "latitude": -7.875684096411509,
+        "longitude": 110.63309144548928
     },
     {
         "code": 340303,
         "regency_code": 3403,
         "province_code": 34,
-        "name": "Playen"
+        "name": "Playen",
+        "latitude": -7.9415429809703975,
+        "longitude": 110.52215277566535
     },
     {
         "code": 340304,
         "regency_code": 3403,
         "province_code": 34,
-        "name": "Patuk"
+        "name": "Patuk",
+        "latitude": -7.861286420086372,
+        "longitude": 110.52490850269565
     },
     {
         "code": 340305,
         "regency_code": 3403,
         "province_code": 34,
-        "name": "Paliyan"
+        "name": "Paliyan",
+        "latitude": -8.014589529446754,
+        "longitude": 110.52948735271866
     },
     {
         "code": 340306,
         "regency_code": 3403,
         "province_code": 34,
-        "name": "Panggang"
+        "name": "Panggang",
+        "latitude": -8.032106789269356,
+        "longitude": 110.44057349602477
     },
     {
         "code": 340307,
         "regency_code": 3403,
         "province_code": 34,
-        "name": "Tepus"
+        "name": "Tepus",
+        "latitude": -8.121770315156368,
+        "longitude": 110.6578426711878
     },
     {
         "code": 340308,
         "regency_code": 3403,
         "province_code": 34,
-        "name": "Semanu"
+        "name": "Semanu",
+        "latitude": -8.031638656983555,
+        "longitude": 110.65721645049136
     },
     {
         "code": 340309,
         "regency_code": 3403,
         "province_code": 34,
-        "name": "Karangmojo"
+        "name": "Karangmojo",
+        "latitude": -7.938418768808864,
+        "longitude": 110.6677831105174
     },
     {
         "code": 340310,
         "regency_code": 3403,
         "province_code": 34,
-        "name": "Ponjong"
+        "name": "Ponjong",
+        "latitude": -7.9711691859972325,
+        "longitude": 110.7308181459954
     },
     {
         "code": 340311,
         "regency_code": 3403,
         "province_code": 34,
-        "name": "Rongkop"
+        "name": "Rongkop",
+        "latitude": -8.087212342115178,
+        "longitude": 110.74408875030771
     },
     {
         "code": 340312,
         "regency_code": 3403,
         "province_code": 34,
-        "name": "Semin"
+        "name": "Semin",
+        "latitude": -7.862180356989138,
+        "longitude": 110.74262446108068
     },
     {
         "code": 340313,
         "regency_code": 3403,
         "province_code": 34,
-        "name": "Ngawen"
+        "name": "Ngawen",
+        "latitude": -7.83113282013138,
+        "longitude": 110.69138488365148
     },
     {
         "code": 340314,
         "regency_code": 3403,
         "province_code": 34,
-        "name": "Gedangsari"
+        "name": "Gedangsari",
+        "latitude": -7.828707032142989,
+        "longitude": 110.5949392179404
     },
     {
         "code": 340315,
         "regency_code": 3403,
         "province_code": 34,
-        "name": "Saptosari"
+        "name": "Saptosari",
+        "latitude": -8.078832908751945,
+        "longitude": 110.51145078735232
     },
     {
         "code": 340316,
         "regency_code": 3403,
         "province_code": 34,
-        "name": "Girisubo"
+        "name": "Girisubo",
+        "latitude": -8.166430845295794,
+        "longitude": 110.75907338986794
     },
     {
         "code": 340317,
         "regency_code": 3403,
         "province_code": 34,
-        "name": "Tanjungsari"
+        "name": "Tanjungsari",
+        "latitude": -8.092000410840065,
+        "longitude": 110.59089987174087
     },
     {
         "code": 340318,
         "regency_code": 3403,
         "province_code": 34,
-        "name": "Purwosari"
+        "name": "Purwosari",
+        "latitude": -8.024431044620156,
+        "longitude": 110.3766990125754
     },
     {
         "code": 340401,
         "regency_code": 3404,
         "province_code": 34,
-        "name": "Gamping"
+        "name": "Gamping",
+        "latitude": -7.790316418954764,
+        "longitude": 110.32020368650912
     },
     {
         "code": 340402,
         "regency_code": 3404,
         "province_code": 34,
-        "name": "Godean"
+        "name": "Godean",
+        "latitude": -7.768057580220639,
+        "longitude": 110.29568421739609
     },
     {
         "code": 340403,
         "regency_code": 3404,
         "province_code": 34,
-        "name": "Moyudan"
+        "name": "Moyudan",
+        "latitude": -7.777419877880338,
+        "longitude": 110.24783059640122
     },
     {
         "code": 340404,
         "regency_code": 3404,
         "province_code": 34,
-        "name": "Minggir"
+        "name": "Minggir",
+        "latitude": -7.731786278090584,
+        "longitude": 110.24841251935842
     },
     {
         "code": 340405,
         "regency_code": 3404,
         "province_code": 34,
-        "name": "Seyegan"
+        "name": "Seyegan",
+        "latitude": -7.726521888310193,
+        "longitude": 110.30028869065919
     },
     {
         "code": 340406,
         "regency_code": 3404,
         "province_code": 34,
-        "name": "Mlati"
+        "name": "Mlati",
+        "latitude": -7.739391242269725,
+        "longitude": 110.34587950501745
     },
     {
         "code": 340407,
         "regency_code": 3404,
         "province_code": 34,
-        "name": "Depok"
+        "name": "Depok",
+        "latitude": -7.766896527885662,
+        "longitude": 110.41075482459014
     },
     {
         "code": 340408,
         "regency_code": 3404,
         "province_code": 34,
-        "name": "Berbah"
+        "name": "Berbah",
+        "latitude": -7.807384790863873,
+        "longitude": 110.4504539057439
     },
     {
         "code": 340409,
         "regency_code": 3404,
         "province_code": 34,
-        "name": "Prambanan"
+        "name": "Prambanan",
+        "latitude": -7.797198667940567,
+        "longitude": 110.50493756575406
     },
     {
         "code": 340410,
         "regency_code": 3404,
         "province_code": 34,
-        "name": "Kalasan"
+        "name": "Kalasan",
+        "latitude": -7.746653966392916,
+        "longitude": 110.4641217930921
     },
     {
         "code": 340411,
         "regency_code": 3404,
         "province_code": 34,
-        "name": "Ngemplak"
+        "name": "Ngemplak",
+        "latitude": -7.706860535407649,
+        "longitude": 110.44355872478914
     },
     {
         "code": 340412,
         "regency_code": 3404,
         "province_code": 34,
-        "name": "Ngaglik"
+        "name": "Ngaglik",
+        "latitude": -7.7118557696844565,
+        "longitude": 110.39923130245162
     },
     {
         "code": 340413,
         "regency_code": 3404,
         "province_code": 34,
-        "name": "Sleman"
+        "name": "Sleman",
+        "latitude": -7.693776338229793,
+        "longitude": 110.34899376460888
     },
     {
         "code": 340414,
         "regency_code": 3404,
         "province_code": 34,
-        "name": "Tempel"
+        "name": "Tempel",
+        "latitude": -7.665681904889085,
+        "longitude": 110.3179664820878
     },
     {
         "code": 340415,
         "regency_code": 3404,
         "province_code": 34,
-        "name": "Turi"
+        "name": "Turi",
+        "latitude": -7.628473124195894,
+        "longitude": 110.38172493523673
     },
     {
         "code": 340416,
         "regency_code": 3404,
         "province_code": 34,
-        "name": "Pakem"
+        "name": "Pakem",
+        "latitude": -7.62812173689757,
+        "longitude": 110.41542247352041
     },
     {
         "code": 340417,
         "regency_code": 3404,
         "province_code": 34,
-        "name": "Cangkringan"
+        "name": "Cangkringan",
+        "latitude": -7.627229842771238,
+        "longitude": 110.44985790988437
     },
     {
         "code": 347101,
         "regency_code": 3471,
         "province_code": 34,
-        "name": "Tegalrejo"
+        "name": "Tegalrejo",
+        "latitude": -7.778655573141476,
+        "longitude": 110.3569349937438
     },
     {
         "code": 347102,
         "regency_code": 3471,
         "province_code": 34,
-        "name": "Jetis"
+        "name": "Jetis",
+        "latitude": -7.78284844635095,
+        "longitude": 110.36413809070793
     },
     {
         "code": 347103,
         "regency_code": 3471,
         "province_code": 34,
-        "name": "Gondokusuman"
+        "name": "Gondokusuman",
+        "latitude": -7.786121843091508,
+        "longitude": 110.38135105951328
     },
     {
         "code": 347104,
         "regency_code": 3471,
         "province_code": 34,
-        "name": "Danurejan"
+        "name": "Danurejan",
+        "latitude": -7.7931859985373615,
+        "longitude": 110.3721830138383
     },
     {
         "code": 347105,
         "regency_code": 3471,
         "province_code": 34,
-        "name": "Gedongtengen"
+        "name": "Gedongtengen",
+        "latitude": -7.792037003873532,
+        "longitude": 110.36109704829887
     },
     {
         "code": 347106,
         "regency_code": 3471,
         "province_code": 34,
-        "name": "Ngampilan"
+        "name": "Ngampilan",
+        "latitude": -7.800732252404164,
+        "longitude": 110.35781981259629
     },
     {
         "code": 347107,
         "regency_code": 3471,
         "province_code": 34,
-        "name": "Wirobrajan"
+        "name": "Wirobrajan",
+        "latitude": -7.803393177948915,
+        "longitude": 110.35042992858618
     },
     {
         "code": 347108,
         "regency_code": 3471,
         "province_code": 34,
-        "name": "Mantrijeron"
+        "name": "Mantrijeron",
+        "latitude": -7.8189367410480015,
+        "longitude": 110.35909866257825
     },
     {
         "code": 347109,
         "regency_code": 3471,
         "province_code": 34,
-        "name": "Kraton"
+        "name": "Kraton",
+        "latitude": -7.808989764458782,
+        "longitude": 110.36283118629741
     },
     {
         "code": 347110,
         "regency_code": 3471,
         "province_code": 34,
-        "name": "Gondomanan"
+        "name": "Gondomanan",
+        "latitude": -7.801682411236859,
+        "longitude": 110.36717440167278
     },
     {
         "code": 347111,
         "regency_code": 3471,
         "province_code": 34,
-        "name": "Pakualaman"
+        "name": "Pakualaman",
+        "latitude": -7.799972520873065,
+        "longitude": 110.37546155544233
     },
     {
         "code": 347112,
         "regency_code": 3471,
         "province_code": 34,
-        "name": "Mergangsan"
+        "name": "Mergangsan",
+        "latitude": -7.813726804479111,
+        "longitude": 110.3737904310483
     },
     {
         "code": 347113,
         "regency_code": 3471,
         "province_code": 34,
-        "name": "Umbulharjo"
+        "name": "Umbulharjo",
+        "latitude": -7.813820712565175,
+        "longitude": 110.38712367125586
     },
     {
         "code": 347114,
         "regency_code": 3471,
         "province_code": 34,
-        "name": "Kotagede"
+        "name": "Kotagede",
+        "latitude": -7.818640127069969,
+        "longitude": 110.39878839966228
     }
 ]

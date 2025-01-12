@@ -3,28 +3,28 @@
         "code": 9301,
         "province_code": 93,
         "name": "Kab. Merauke",
-        "latitude": -8.508696154665504,
-        "longitude": 140.40967635178788
+        "latitude": -7.829209126022099,
+        "longitude": 139.6924671786766
     },
     {
         "code": 9302,
         "province_code": 93,
         "name": "Kab. Boven Digoel",
-        "latitude": -6.100403916696958,
-        "longitude": 140.32061122283034
+        "latitude": -6.01522969567516,
+        "longitude": 140.39116227393046
     },
     {
         "code": 9303,
         "province_code": 93,
         "name": "Kab. Mappi",
-        "latitude": -6.5281463061129115,
-        "longitude": 139.3192523694171
+        "latitude": -6.502428402008184,
+        "longitude": 139.37838627852855
     },
     {
         "code": 9304,
         "province_code": 93,
         "name": "Kab. Asmat",
-        "latitude": -5.5409474839359305,
-        "longitude": 138.13682960832256
+        "latitude": -5.372607349382938,
+        "longitude": 138.65747503256526
     }
 ]

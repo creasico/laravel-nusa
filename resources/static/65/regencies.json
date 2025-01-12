@@ -3,35 +3,35 @@
         "code": 6501,
         "province_code": 65,
         "name": "Kab. Bulungan",
-        "latitude": 2.840859024940894,
-        "longitude": 117.3980777424597
+        "latitude": 2.79748207893874,
+        "longitude": 117.03198421071075
     },
     {
         "code": 6502,
         "province_code": 65,
         "name": "Kab. Malinau",
-        "latitude": 3.5519331947811477,
-        "longitude": 116.62208456556772
+        "latitude": 2.5129735296381583,
+        "longitude": 115.73544145508232
     },
     {
         "code": 6503,
         "province_code": 65,
         "name": "Kab. Nunukan",
-        "latitude": 4.077076241826642,
-        "longitude": 117.71891117176128
+        "latitude": 4.009177924112818,
+        "longitude": 116.64285776284274
     },
     {
         "code": 6504,
         "province_code": 65,
         "name": "Kab. Tana Tidung",
-        "latitude": 3.6022672070166344,
-        "longitude": 116.90275124391299
+        "latitude": 3.5704781391655227,
+        "longitude": 117.15773007640406
     },
     {
         "code": 6571,
         "province_code": 65,
         "name": "Kota Tarakan",
-        "latitude": 3.313742611777654,
-        "longitude": 117.60485527164477
+        "latitude": 3.359405466080686,
+        "longitude": 117.59951145618294
     }
 ]

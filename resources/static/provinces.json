@@ -2,260 +2,260 @@
     {
         "code": 11,
         "name": "Aceh",
-        "latitude": 5.570546962920454,
-        "longitude": 95.34080851187178,
+        "latitude": 4.225728583038235,
+        "longitude": 96.91187408609952,
         "coordinates": null
     },
     {
         "code": 12,
         "name": "Sumatera Utara",
-        "latitude": 3.5806304901245087,
-        "longitude": 98.67199998443536,
+        "latitude": 2.1884379790819697,
+        "longitude": 99.05805717982136,
         "coordinates": null
     },
     {
         "code": 13,
         "name": "Sumatera Barat",
-        "latitude": -0.9376701384195396,
-        "longitude": 100.36044388689072,
+        "latitude": -0.8485217528678419,
+        "longitude": 100.46541730525067,
         "coordinates": null
     },
     {
         "code": 14,
         "name": "Riau",
-        "latitude": 0.5177095634585358,
-        "longitude": 101.44583958102103,
+        "latitude": 0.5087444806663094,
+        "longitude": 101.81497000628609,
         "coordinates": null
     },
     {
         "code": 15,
         "name": "Jambi",
-        "latitude": -1.6039983307773444,
-        "longitude": 103.58357974539331,
+        "latitude": -1.6988005447434649,
+        "longitude": 102.71589131899545,
         "coordinates": null
     },
     {
         "code": 16,
         "name": "Sumatera Selatan",
-        "latitude": -2.977157075921556,
-        "longitude": 104.7505301047306,
+        "latitude": -3.2126961773830502,
+        "longitude": 104.17033311473567,
         "coordinates": null
     },
     {
         "code": 17,
         "name": "Bengkulu",
-        "latitude": -3.8209403998102185,
-        "longitude": 102.28398936428187,
+        "latitude": -3.556319345904471,
+        "longitude": 102.34247132066047,
         "coordinates": null
     },
     {
         "code": 18,
         "name": "Lampung",
-        "latitude": -5.441205932213826,
-        "longitude": 105.25828977341541,
+        "latitude": -4.917314824098222,
+        "longitude": 105.02166076303229,
         "coordinates": null
     },
     {
         "code": 19,
         "name": "Kepulauan Bangka Belitung",
-        "latitude": -2.1529207668890473,
-        "longitude": 106.1578880676786,
+        "latitude": -2.449935699425567,
+        "longitude": 106.55613967526148,
         "coordinates": null
     },
     {
         "code": 21,
         "name": "Kepulauan Riau",
-        "latitude": 0.8761625985061989,
-        "longitude": 104.44522264606073,
+        "latitude": 1.4810032134282223,
+        "longitude": 105.40492588052649,
         "coordinates": null
     },
     {
         "code": 31,
         "name": "Dki Jakarta",
-        "latitude": -6.177801577599116,
-        "longitude": 106.82844443327093,
+        "latitude": -6.199048542607956,
+        "longitude": 106.83437824682376,
         "coordinates": null
     },
     {
         "code": 32,
         "name": "Jawa Barat",
-        "latitude": -6.902224715926122,
-        "longitude": 107.61875975420881,
+        "latitude": -6.920631357785788,
+        "longitude": 107.60331918557674,
         "coordinates": null
     },
     {
         "code": 33,
         "name": "Jawa Tengah",
-        "latitude": -6.993480920680563,
-        "longitude": 110.42024335420943,
+        "latitude": -7.259392265876053,
+        "longitude": 110.2014881759208,
         "coordinates": null
     },
     {
         "code": 34,
         "name": "Daerah Istimewa Yogyakarta",
-        "latitude": -7.794743145500835,
-        "longitude": 110.36728160024609,
+        "latitude": -7.894921269797175,
+        "longitude": 110.44558810593688,
         "coordinates": null
     },
     {
         "code": 35,
         "name": "Jawa Timur",
-        "latitude": -7.245567102087254,
-        "longitude": 112.73916609839065,
+        "latitude": -7.719383482967257,
+        "longitude": 112.73244037323282,
         "coordinates": null
     },
     {
         "code": 36,
         "name": "Banten",
-        "latitude": -6.173707363485645,
-        "longitude": 106.15663472536797,
+        "latitude": -6.456132803995097,
+        "longitude": 106.10895696008346,
         "coordinates": null
     },
     {
         "code": 51,
         "name": "Bali",
-        "latitude": -8.667787148634874,
-        "longitude": 115.23408728305897,
+        "latitude": -8.369769699656143,
+        "longitude": 115.13167541864175,
         "coordinates": null
     },
     {
         "code": 52,
         "name": "Nusa Tenggara Barat",
-        "latitude": -8.581476167133006,
-        "longitude": 116.10975172538652,
+        "latitude": -8.606609171075474,
+        "longitude": 117.50762093778069,
         "coordinates": null
     },
     {
         "code": 53,
         "name": "Nusa Tenggara Timur",
-        "latitude": -10.17131484748244,
-        "longitude": 123.60743691005865,
+        "latitude": -9.260420975885916,
+        "longitude": 122.1818295163483,
         "coordinates": null
     },
     {
         "code": 61,
         "name": "Kalimantan Barat",
-        "latitude": -0.061003094530619764,
-        "longitude": 109.35334833884026,
+        "latitude": -0.086523724678437,
+        "longitude": 111.12076049059415,
         "coordinates": null
     },
     {
         "code": 62,
         "name": "Kalimantan Tengah",
-        "latitude": -2.2168389137766815,
-        "longitude": 113.91875072828039,
+        "latitude": -1.6061537640941033,
+        "longitude": 113.41627458610972,
         "coordinates": null
     },
     {
         "code": 63,
         "name": "Kalimantan Selatan",
-        "latitude": -3.484313042784926,
-        "longitude": 114.83380115548034,
+        "latitude": -3.0020676284315178,
+        "longitude": 115.43961754350589,
         "coordinates": null
     },
     {
         "code": 64,
         "name": "Kalimantan Timur",
-        "latitude": -0.500805988208827,
-        "longitude": 117.13935225749547,
+        "latitude": 0.4546885880388276,
+        "longitude": 116.45094318132922,
         "coordinates": null
     },
     {
         "code": 65,
         "name": "Kalimantan Utara",
-        "latitude": 2.842226302918071,
-        "longitude": 117.37404172923969,
+        "latitude": 2.915025102027767,
+        "longitude": 116.24567929615681,
         "coordinates": null
     },
     {
         "code": 71,
         "name": "Sulawesi Utara",
-        "latitude": 1.4701280309214388,
-        "longitude": 124.84481101343636,
+        "latitude": 1.2611200722402653,
+        "longitude": 124.52273057269113,
         "coordinates": null
     },
     {
         "code": 72,
         "name": "Sulawesi Tengah",
-        "latitude": -0.8906090371916697,
-        "longitude": 119.8710737989323,
+        "latitude": -1.0179487916987044,
+        "longitude": 121.20690427525082,
         "coordinates": null
     },
     {
         "code": 73,
         "name": "Sulawesi Selatan",
-        "latitude": -5.139084409729953,
-        "longitude": 119.45236967094257,
+        "latitude": -3.734059470692148,
+        "longitude": 120.16108812544049,
         "coordinates": null
     },
     {
         "code": 74,
         "name": "Sulawesi Tenggara",
-        "latitude": -4.024739702684666,
-        "longitude": 122.54045915103508,
+        "latitude": -4.1364611491307475,
+        "longitude": 122.07459069007979,
         "coordinates": null
     },
     {
         "code": 75,
         "name": "Gorontalo",
-        "latitude": 0.5239062370158745,
-        "longitude": 123.07745587796073,
+        "latitude": 0.6863018602241926,
+        "longitude": 122.37570455293411,
         "coordinates": null
     },
     {
         "code": 76,
         "name": "Sulawesi Barat",
-        "latitude": -2.664913765308631,
-        "longitude": 118.85279559870158,
+        "latitude": -2.4655741522297205,
+        "longitude": 119.34743476950884,
         "coordinates": null
     },
     {
         "code": 81,
         "name": "Maluku",
-        "latitude": -3.6944133689812366,
-        "longitude": 128.1827028392808,
+        "latitude": -4.738146361226596,
+        "longitude": 129.84017376291038,
         "coordinates": null
     },
     {
         "code": 82,
         "name": "Maluku Utara",
-        "latitude": 0.7558581433769408,
-        "longitude": 127.60980236944843,
+        "latitude": 0.21161515429599007,
+        "longitude": 127.54213573832187,
         "coordinates": null
     },
     {
         "code": 91,
         "name": "Papua",
-        "latitude": -2.536300864438473,
-        "longitude": 140.71502399915792,
+        "latitude": -2.6178780251772356,
+        "longitude": 138.5321560216282,
         "coordinates": null
     },
     {
         "code": 92,
         "name": "Papua Barat",
-        "latitude": -0.9183508078420117,
-        "longitude": 134.03048752217148,
+        "latitude": -2.6540391778109638,
+        "longitude": 133.64947782326237,
         "coordinates": null
     },
     {
         "code": 93,
         "name": "Papua Selatan",
-        "latitude": -8.508696154665504,
-        "longitude": 140.40967635178788,
+        "latitude": -6.680063683843342,
+        "longitude": 139.54696286744857,
         "coordinates": null
     },
     {
         "code": 94,
         "name": "Papua Tengah",
-        "latitude": -3.363365864105701,
-        "longitude": 135.50389107766932,
+        "latitude": -3.90333032589129,
+        "longitude": 136.64416653892764,
         "coordinates": null
     },
     {
         "code": 95,
         "name": "Papua Pegunungan",
-        "latitude": -4.099306801793126,
-        "longitude": 138.94314903715775,
+        "latitude": -4.269444191165071,
+        "longitude": 139.49860571993986,
         "coordinates": null
     }
 ]

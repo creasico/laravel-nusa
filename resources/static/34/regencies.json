@@ -3,35 +3,35 @@
         "code": 3401,
         "province_code": 34,
         "name": "Kab. Kulon Progo",
-        "latitude": -7.857808676282555,
-        "longitude": 110.15916128305197
+        "latitude": -7.818708973161017,
+        "longitude": 110.16711452957185
     },
     {
         "code": 3402,
         "province_code": 34,
         "name": "Kab. Bantul",
-        "latitude": -7.886189837551494,
-        "longitude": 110.3278379965447
+        "latitude": -7.901333454949657,
+        "longitude": 110.35488149436632
     },
     {
         "code": 3403,
         "province_code": 34,
         "name": "Kab. Gunungkidul",
-        "latitude": -7.964079635059824,
-        "longitude": 110.6015380965454
+        "latitude": -7.9939102537875755,
+        "longitude": 110.611797527351
     },
     {
         "code": 3404,
         "province_code": 34,
         "name": "Kab. Sleman",
-        "latitude": -7.71654673418279,
-        "longitude": 110.35577266770737
+        "latitude": -7.716463527037873,
+        "longitude": 110.38321299281007
     },
     {
         "code": 3471,
         "province_code": 34,
         "name": "Kota Yogyakarta",
-        "latitude": -7.799905025562796,
-        "longitude": 110.39137075421564
+        "latitude": -7.803297519308451,
+        "longitude": 110.37435793496881
     }
 ]

@@ -3,245 +3,245 @@
         "code": 3301,
         "province_code": 33,
         "name": "Kab. Cilacap",
-        "latitude": -7.725598913851234,
-        "longitude": 109.00953989681535
+        "latitude": -7.4889272895910715,
+        "longitude": 108.88983867499971
     },
     {
         "code": 3302,
         "province_code": 33,
         "name": "Kab. Banyumas",
-        "latitude": -7.4227990604767795,
-        "longitude": 109.23008333914095
+        "latitude": -7.455508579690273,
+        "longitude": 109.17578818103475
     },
     {
         "code": 3303,
         "province_code": 33,
         "name": "Kab. Purbalingga",
-        "latitude": -7.388814420295788,
-        "longitude": 109.3640761679762
+        "latitude": -7.323229861975122,
+        "longitude": 109.40720469770457
     },
     {
         "code": 3304,
         "province_code": 33,
         "name": "Kab. Banjarnegara",
-        "latitude": -7.395695390770286,
-        "longitude": 109.69606973623053
+        "latitude": -7.351327102062803,
+        "longitude": 109.65705151499313
     },
     {
         "code": 3305,
         "province_code": 33,
         "name": "Kab. Kebumen",
-        "latitude": -7.668443736529897,
-        "longitude": 109.65371583117799
+        "latitude": -7.654964269929172,
+        "longitude": 109.61735310996204
     },
     {
         "code": 3306,
         "province_code": 33,
         "name": "Kab. Purworejo",
-        "latitude": -7.713974600894097,
-        "longitude": 110.00829855421505
+        "latitude": -7.700380551881616,
+        "longitude": 109.96612571432587
     },
     {
         "code": 3307,
         "province_code": 33,
         "name": "Kab. Wonosobo",
-        "latitude": -7.358331142315653,
-        "longitude": 109.90516253886881
+        "latitude": -7.416302371545865,
+        "longitude": 109.907354944526
     },
     {
         "code": 3308,
         "province_code": 33,
         "name": "Kab. Magelang",
-        "latitude": -7.596984026372694,
-        "longitude": 110.22353113036982
+        "latitude": -7.501736891104946,
+        "longitude": 110.24721339287834
     },
     {
         "code": 3309,
         "province_code": 33,
         "name": "Kab. Boyolali",
-        "latitude": -7.545656104163497,
-        "longitude": 110.61059579654192
+        "latitude": -7.416522443495546,
+        "longitude": 110.65249878352462
     },
     {
         "code": 3310,
         "province_code": 33,
         "name": "Kab. Klaten",
-        "latitude": -7.712385036340197,
-        "longitude": 110.59213566770745
+        "latitude": -7.685818105806987,
+        "longitude": 110.61945204176338
     },
     {
         "code": 3311,
         "province_code": 33,
         "name": "Kab. Sukoharjo",
-        "latitude": -7.664598872152095,
-        "longitude": 110.83586765421464
+        "latitude": -7.680843499997678,
+        "longitude": 110.8348369454555
     },
     {
         "code": 3312,
         "province_code": 33,
         "name": "Kab. Wonogiri",
-        "latitude": -7.815058364755334,
-        "longitude": 110.9256844677081
+        "latitude": -7.91928517416729,
+        "longitude": 110.99921317719837
     },
     {
         "code": 3313,
         "province_code": 33,
         "name": "Kab. Karanganyar",
-        "latitude": -7.595516965884652,
-        "longitude": 110.93964029654224
+        "latitude": -7.614138970463525,
+        "longitude": 111.01924162577282
     },
     {
         "code": 3314,
         "province_code": 33,
         "name": "Kab. Sragen",
-        "latitude": -7.426354762546872,
-        "longitude": 111.02317943886926
+        "latitude": -7.385336820860583,
+        "longitude": 110.97414413327868
     },
     {
         "code": 3315,
         "province_code": 33,
         "name": "Kab. Grobogan",
-        "latitude": -7.082058555310319,
-        "longitude": 110.91737159653837
+        "latitude": -7.117636869059132,
+        "longitude": 110.92717766001368
     },
     {
         "code": 3316,
         "province_code": 33,
         "name": "Kab. Blora",
-        "latitude": -6.969718505731454,
-        "longitude": 111.41492279653751
+        "latitude": -7.074438334017534,
+        "longitude": 111.38743501291204
     },
     {
         "code": 3317,
         "province_code": 33,
         "name": "Kab. Rembang",
-        "latitude": -6.703466029933058,
-        "longitude": 111.34262144071498
+        "latitude": -6.7751335384755045,
+        "longitude": 111.46151952053158
     },
     {
         "code": 3318,
         "province_code": 33,
         "name": "Kab. Pati",
-        "latitude": -6.75222674353357,
-        "longitude": 111.03994759653601
+        "latitude": -6.743327254060841,
+        "longitude": 111.04228281320049
     },
     {
         "code": 3319,
         "province_code": 33,
         "name": "Kab. Kudus",
-        "latitude": -6.805651710957646,
-        "longitude": 110.84219531187978
+        "latitude": -6.790261256524975,
+        "longitude": 110.8699072012289
     },
     {
         "code": 3320,
         "province_code": 33,
         "name": "Kab. Jepara",
-        "latitude": -6.59009446252794,
-        "longitude": 110.66812971187831
+        "latitude": -6.549003459017641,
+        "longitude": 110.76812946110833
     },
     {
         "code": 3321,
         "province_code": 33,
         "name": "Kab. Demak",
-        "latitude": -6.891354614610146,
-        "longitude": 110.63838933886524
+        "latitude": -6.9107740982652315,
+        "longitude": 110.63400470826234
     },
     {
         "code": 3322,
         "province_code": 33,
         "name": "Kab. Semarang",
-        "latitude": -7.128957393445669,
-        "longitude": 110.40409099653884
+        "latitude": -7.270899093648872,
+        "longitude": 110.4735077147706
     },
     {
         "code": 3323,
         "province_code": 33,
         "name": "Kab. Temanggung",
-        "latitude": -7.315316457103409,
-        "longitude": 110.18189242537592
+        "latitude": -7.257697521950911,
+        "longitude": 110.1363023235599
     },
     {
         "code": 3324,
         "province_code": 33,
         "name": "Kab. Kendal",
-        "latitude": -6.922836880283628,
-        "longitude": 110.20356709653716
+        "latitude": -7.038694558164344,
+        "longitude": 110.15733769391919
     },
     {
         "code": 3325,
         "province_code": 33,
         "name": "Kab. Batang",
-        "latitude": -6.910710871962525,
-        "longitude": 109.72968238304469
+        "latitude": -7.021001563463884,
+        "longitude": 109.86159308132908
     },
     {
         "code": 3326,
         "province_code": 33,
         "name": "Kab. Pekalongan",
-        "latitude": -7.0250357325518875,
-        "longitude": 109.59114532537376
+        "latitude": -7.057005515874333,
+        "longitude": 109.6205006129399
     },
     {
         "code": 3327,
         "province_code": 33,
         "name": "Kab. Pemalang",
-        "latitude": -6.893151410423199,
-        "longitude": 109.38071935420861
+        "latitude": -7.036804246055557,
+        "longitude": 109.39517261663187
     },
     {
         "code": 3328,
         "province_code": 33,
         "name": "Kab. Tegal",
-        "latitude": -6.995407828046843,
-        "longitude": 109.12789492537367
+        "latitude": -7.028775498372325,
+        "longitude": 109.15851536345737
     },
     {
         "code": 3329,
         "province_code": 33,
         "name": "Kab. Brebes",
-        "latitude": -6.870110551867783,
-        "longitude": 109.03921083886512
+        "latitude": -7.06277205117945,
+        "longitude": 108.92952648130553
     },
     {
         "code": 3371,
         "province_code": 33,
         "name": "Kota Magelang",
-        "latitude": -7.50371096633142,
-        "longitude": 110.22147082537745
+        "latitude": -7.476554510351185,
+        "longitude": 110.2201113973988
     },
     {
         "code": 3372,
         "province_code": 33,
         "name": "Kota Surakarta",
-        "latitude": -7.569260552279098,
-        "longitude": 110.82945951003452
+        "latitude": -7.557893978396063,
+        "longitude": 110.82314485261672
     },
     {
         "code": 3373,
         "province_code": 33,
         "name": "Kota Salatiga",
-        "latitude": -7.33043714839692,
-        "longitude": 110.5008298965402
+        "latitude": -7.337677561574648,
+        "longitude": 110.49837382368315
     },
     {
         "code": 3374,
         "province_code": 33,
         "name": "Kota Semarang",
-        "latitude": -6.98167961659711,
-        "longitude": 110.4122341695528
+        "latitude": -7.023898605392694,
+        "longitude": 110.3915226316209
     },
     {
         "code": 3375,
         "province_code": 33,
         "name": "Kota Pekalongan",
-        "latitude": -6.896949717498735,
-        "longitude": 109.66208089653703
+        "latitude": -6.893408682233895,
+        "longitude": 109.67715508609544
     },
     {
         "code": 3376,
         "province_code": 33,
         "name": "Kota Tegal",
-        "latitude": -6.8704087484501155,
-        "longitude": 109.13741611002918
+        "latitude": -6.86917455895336,
+        "longitude": 109.11574708742589
     }
 ]

@@ -3,70 +3,70 @@
         "code": 8201,
         "province_code": 82,
         "name": "Kab. Halmahera Barat",
-        "latitude": 1.0804684023803615,
-        "longitude": 127.48015504022084
+        "latitude": 1.3517194119510298,
+        "longitude": 127.5907994974363
     },
     {
         "code": 8202,
         "province_code": 82,
         "name": "Kab. Halmahera Tengah",
-        "latitude": 0.3304236239764005,
-        "longitude": 127.87025115227507
+        "latitude": 0.40186973835904394,
+        "longitude": 128.29530738774008
     },
     {
         "code": 8203,
         "province_code": 82,
         "name": "Kab. Halmahera Utara",
-        "latitude": 1.728187436226181,
-        "longitude": 127.99219712155028
+        "latitude": 1.5543739854895127,
+        "longitude": 127.83479678193713
     },
     {
         "code": 8204,
         "province_code": 82,
         "name": "Kab. Halmahera Selatan",
-        "latitude": -0.6454745703649585,
-        "longitude": 127.50498392309089
+        "latitude": -0.827058467220832,
+        "longitude": 127.70517835211768
     },
     {
         "code": 8205,
         "province_code": 82,
         "name": "Kab. Kepulauan Sula",
-        "latitude": -2.0069779241586523,
-        "longitude": 125.96414541579409
+        "latitude": -1.9637969894083347,
+        "longitude": 125.83968701602316
     },
     {
         "code": 8206,
         "province_code": 82,
         "name": "Kab. Halmahera Timur",
-        "latitude": 0.6774434668568071,
-        "longitude": 128.2840838248518
+        "latitude": 1.029477842427827,
+        "longitude": 128.30863629502863
     },
     {
         "code": 8207,
         "province_code": 82,
         "name": "Kab. Pulau Morotai",
-        "latitude": 2.0132967093802083,
-        "longitude": 128.2837176160731
+        "latitude": 2.316449334863889,
+        "longitude": 128.44837805900477
     },
     {
         "code": 8208,
         "province_code": 82,
         "name": "Kab. Pulau Taliabu",
-        "latitude": -1.9474435273583983,
-        "longitude": 124.3872161387243
+        "latitude": -1.819427460602358,
+        "longitude": 124.73939757509935
     },
     {
         "code": 8271,
         "province_code": 82,
         "name": "Kota Ternate",
-        "latitude": 0.7857513986405484,
-        "longitude": 127.38784601086685
+        "latitude": 0.8384805548974003,
+        "longitude": 127.17252685947392
     },
     {
         "code": 8272,
         "province_code": 82,
         "name": "Kota Tidore Kepulauan",
-        "latitude": 0.671565379994557,
-        "longitude": 127.44672305015295
+        "latitude": 0.47927604386986966,
+        "longitude": 127.67501110325107
     }
 ]

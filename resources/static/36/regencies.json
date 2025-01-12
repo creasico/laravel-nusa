@@ -3,56 +3,56 @@
         "code": 3601,
         "province_code": 36,
         "name": "Kab. Pandeglang",
-        "latitude": -6.316855430513631,
-        "longitude": 106.11479446982028
+        "latitude": -6.590233346882594,
+        "longitude": 105.74297025290407
     },
     {
         "code": 3602,
         "province_code": 36,
         "name": "Kab. Lebak",
-        "latitude": -6.3607670885178305,
-        "longitude": 106.24618699653327
+        "latitude": -6.64202012285075,
+        "longitude": 106.2124224818975
     },
     {
         "code": 3603,
         "province_code": 36,
         "name": "Kab. Tangerang",
-        "latitude": -6.269630455565761,
-        "longitude": 106.48440474071201
+        "latitude": -6.174464598725415,
+        "longitude": 106.51892886777627
     },
     {
         "code": 3604,
         "province_code": 36,
         "name": "Kab. Serang",
-        "latitude": -6.115302501045602,
-        "longitude": 106.15201508303925
+        "latitude": -6.141738117820271,
+        "longitude": 106.1460756084399
     },
     {
         "code": 3671,
         "province_code": 36,
         "name": "Kota Tangerang",
-        "latitude": -6.164361554952064,
-        "longitude": 106.64107113819723
+        "latitude": -6.1843711090906055,
+        "longitude": 106.65199394470586
     },
     {
         "code": 3672,
         "province_code": 36,
         "name": "Kota Cilegon",
-        "latitude": -6.00980901882699,
-        "longitude": 106.04212868303857
+        "latitude": -5.998895625700708,
+        "longitude": 106.01849218045317
     },
     {
         "code": 3673,
         "province_code": 36,
         "name": "Kota Serang",
-        "latitude": -6.1196975739996,
-        "longitude": 106.17346069838267
+        "latitude": -6.12332358762211,
+        "longitude": 106.1667505708747
     },
     {
         "code": 3674,
         "province_code": 36,
         "name": "Kota Tangerang Selatan",
-        "latitude": -6.321567965040671,
-        "longitude": 106.70774205743535
+        "latitude": -6.3021200760979115,
+        "longitude": 106.70738498604467
     }
 ]

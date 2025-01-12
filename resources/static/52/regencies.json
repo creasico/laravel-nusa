@@ -3,70 +3,70 @@
         "code": 5201,
         "province_code": 52,
         "name": "Kab. Lombok Barat",
-        "latitude": -8.681396051887829,
-        "longitude": 116.13670528305914
+        "latitude": -8.665468042936132,
+        "longitude": 116.0934574456719
     },
     {
         "code": 5202,
         "province_code": 52,
         "name": "Kab. Lombok Tengah",
-        "latitude": -8.706131863466181,
-        "longitude": 116.27003418305937
+        "latitude": -8.72214701149353,
+        "longitude": 116.28983887403636
     },
     {
         "code": 5203,
         "province_code": 52,
         "name": "Kab. Lombok Timur",
-        "latitude": -8.650938604217814,
-        "longitude": 116.52965363887955
+        "latitude": -8.532324119332554,
+        "longitude": 116.53081208389017
     },
     {
         "code": 5204,
         "province_code": 52,
         "name": "Kab. Sumbawa",
-        "latitude": -8.489511525311054,
-        "longitude": 117.4196890006745
+        "latitude": -8.703298122597804,
+        "longitude": 117.48426111079142
     },
     {
         "code": 5205,
         "province_code": 52,
         "name": "Kab. Dompu",
-        "latitude": -8.534112083030623,
-        "longitude": 118.46474902538593
+        "latitude": -8.472224492886417,
+        "longitude": 118.21686473283386
     },
     {
         "code": 5206,
         "province_code": 52,
         "name": "Kab. Bima",
-        "latitude": -8.556532639441706,
-        "longitude": 118.67015779690297
+        "latitude": -8.474806634490488,
+        "longitude": 118.61901683987931
     },
     {
         "code": 5207,
         "province_code": 52,
         "name": "Kab. Sumbawa Barat",
-        "latitude": -8.753910149465758,
-        "longitude": 116.85426539840077
+        "latitude": -8.830288146953638,
+        "longitude": 116.91442832769782
     },
     {
         "code": 5208,
         "province_code": 52,
         "name": "Kab. Lombok Utara",
-        "latitude": -8.35633546555901,
-        "longitude": 116.15926985422034
+        "latitude": -8.348893738948336,
+        "longitude": 116.28292084053918
     },
     {
         "code": 5271,
         "province_code": 52,
         "name": "Kota Mataram",
-        "latitude": -8.582728859362096,
-        "longitude": 116.10813842538651
+        "latitude": -8.590154382224897,
+        "longitude": 116.11095859047046
     },
     {
         "code": 5272,
         "province_code": 52,
         "name": "Kota Bima",
-        "latitude": -8.461655165060522,
-        "longitude": 118.74871988305718
+        "latitude": -8.454868239344206,
+        "longitude": 118.78210646272291
     }
 ]

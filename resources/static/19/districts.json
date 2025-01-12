@@ -3,282 +3,376 @@
         "code": 190101,
         "regency_code": 1901,
         "province_code": 19,
-        "name": "Sungailiat"
+        "name": "Sungailiat",
+        "latitude": -1.87928670423535,
+        "longitude": 106.11878018857095
     },
     {
         "code": 190102,
         "regency_code": 1901,
         "province_code": 19,
-        "name": "Belinyu"
+        "name": "Belinyu",
+        "latitude": -1.6267392723062686,
+        "longitude": 105.84285686269045
     },
     {
         "code": 190103,
         "regency_code": 1901,
         "province_code": 19,
-        "name": "Merawang"
+        "name": "Merawang",
+        "latitude": -2.0111133694399075,
+        "longitude": 106.08708278651486
     },
     {
         "code": 190104,
         "regency_code": 1901,
         "province_code": 19,
-        "name": "Mendo Barat"
+        "name": "Mendo Barat",
+        "latitude": -2.170527286964809,
+        "longitude": 105.91557770641587
     },
     {
         "code": 190105,
         "regency_code": 1901,
         "province_code": 19,
-        "name": "Pemali"
+        "name": "Pemali",
+        "latitude": -1.8912622853232923,
+        "longitude": 106.03530514634309
     },
     {
         "code": 190106,
         "regency_code": 1901,
         "province_code": 19,
-        "name": "Bakam"
+        "name": "Bakam",
+        "latitude": -1.911192719740121,
+        "longitude": 105.8721109085327
     },
     {
         "code": 190107,
         "regency_code": 1901,
         "province_code": 19,
-        "name": "Riau Silip"
+        "name": "Riau Silip",
+        "latitude": -1.7545266909411352,
+        "longitude": 105.92764750903589
     },
     {
         "code": 190108,
         "regency_code": 1901,
         "province_code": 19,
-        "name": "Puding Besar"
+        "name": "Puding Besar",
+        "latitude": -2.044680812830355,
+        "longitude": 105.85703739690264
     },
     {
         "code": 190201,
         "regency_code": 1902,
         "province_code": 19,
-        "name": "Tanjung Pandan"
+        "name": "Tanjung Pandan",
+        "latitude": -2.7571426024105716,
+        "longitude": 107.69488266886577
     },
     {
         "code": 190202,
         "regency_code": 1902,
         "province_code": 19,
-        "name": "Membalong"
+        "name": "Membalong",
+        "latitude": -3.047305905446813,
+        "longitude": 107.69492908511654
     },
     {
         "code": 190203,
         "regency_code": 1902,
         "province_code": 19,
-        "name": "Selat Nasik"
+        "name": "Selat Nasik",
+        "latitude": -2.88534496275577,
+        "longitude": 107.42279669670847
     },
     {
         "code": 190204,
         "regency_code": 1902,
         "province_code": 19,
-        "name": "Sijuk"
+        "name": "Sijuk",
+        "latitude": -2.6269220930408657,
+        "longitude": 107.77224164238172
     },
     {
         "code": 190205,
         "regency_code": 1902,
         "province_code": 19,
-        "name": "Badau"
+        "name": "Badau",
+        "latitude": -2.799436889426842,
+        "longitude": 107.78435874529129
     },
     {
         "code": 190301,
         "regency_code": 1903,
         "province_code": 19,
-        "name": "Toboali"
+        "name": "Toboali",
+        "latitude": -2.9111582797510653,
+        "longitude": 106.50903237117913
     },
     {
         "code": 190302,
         "regency_code": 1903,
         "province_code": 19,
-        "name": "Lepar"
+        "name": "Lepar",
+        "latitude": -2.957975152494504,
+        "longitude": 106.81205225371328
     },
     {
         "code": 190303,
         "regency_code": 1903,
         "province_code": 19,
-        "name": "Airgegas"
+        "name": "Airgegas",
+        "latitude": -2.7190931869048347,
+        "longitude": 106.37391463464397
     },
     {
         "code": 190304,
         "regency_code": 1903,
         "province_code": 19,
-        "name": "Simpang Rimba"
+        "name": "Simpang Rimba",
+        "latitude": -2.651140053646343,
+        "longitude": 105.98300321906063
     },
     {
         "code": 190305,
         "regency_code": 1903,
         "province_code": 19,
-        "name": "Payung"
+        "name": "Payung",
+        "latitude": -2.6236462377961614,
+        "longitude": 106.13844974847825
     },
     {
         "code": 190306,
         "regency_code": 1903,
         "province_code": 19,
-        "name": "Tukak Sadai"
+        "name": "Tukak Sadai",
+        "latitude": -3.0248859880274876,
+        "longitude": 106.66608721043076
     },
     {
         "code": 190307,
         "regency_code": 1903,
         "province_code": 19,
-        "name": "Pulaubesar"
+        "name": "Pulaubesar",
+        "latitude": -2.8007649897350873,
+        "longitude": 106.13961586372278
     },
     {
         "code": 190308,
         "regency_code": 1903,
         "province_code": 19,
-        "name": "Kepulauan Pongok"
+        "name": "Kepulauan Pongok",
+        "latitude": -2.871799913695547,
+        "longitude": 107.05980726895184
     },
     {
         "code": 190401,
         "regency_code": 1904,
         "province_code": 19,
-        "name": "Koba"
+        "name": "Koba",
+        "latitude": -2.4989066095815162,
+        "longitude": 106.30544356523296
     },
     {
         "code": 190402,
         "regency_code": 1904,
         "province_code": 19,
-        "name": "Pangkalan Baru"
+        "name": "Pangkalan Baru",
+        "latitude": -2.1928031160753436,
+        "longitude": 106.13769263603139
     },
     {
         "code": 190403,
         "regency_code": 1904,
         "province_code": 19,
-        "name": "Sungai Selan"
+        "name": "Sungai Selan",
+        "latitude": -2.3916163987465464,
+        "longitude": 106.00904200350126
     },
     {
         "code": 190404,
         "regency_code": 1904,
         "province_code": 19,
-        "name": "Simpang Katis"
+        "name": "Simpang Katis",
+        "latitude": -2.281248947855543,
+        "longitude": 106.0948002652493
     },
     {
         "code": 190405,
         "regency_code": 1904,
         "province_code": 19,
-        "name": "Namang"
+        "name": "Namang",
+        "latitude": -2.3313182336315537,
+        "longitude": 106.20280377536145
     },
     {
         "code": 190406,
         "regency_code": 1904,
         "province_code": 19,
-        "name": "Lubuk Besar"
+        "name": "Lubuk Besar",
+        "latitude": -2.594885782094926,
+        "longitude": 106.60559183724259
     },
     {
         "code": 190501,
         "regency_code": 1905,
         "province_code": 19,
-        "name": "Mentok"
+        "name": "Mentok",
+        "latitude": -2.022737608068278,
+        "longitude": 105.23018789438225
     },
     {
         "code": 190502,
         "regency_code": 1905,
         "province_code": 19,
-        "name": "Simpang Teritip"
+        "name": "Simpang Teritip",
+        "latitude": -1.9634285309748019,
+        "longitude": 105.40549175527035
     },
     {
         "code": 190503,
         "regency_code": 1905,
         "province_code": 19,
-        "name": "Jebus"
+        "name": "Jebus",
+        "latitude": -1.7157090420333592,
+        "longitude": 105.49282929051698
     },
     {
         "code": 190504,
         "regency_code": 1905,
         "province_code": 19,
-        "name": "Kelapa"
+        "name": "Kelapa",
+        "latitude": -1.869420681859623,
+        "longitude": 105.59829704091132
     },
     {
         "code": 190505,
         "regency_code": 1905,
         "province_code": 19,
-        "name": "Tempilang"
+        "name": "Tempilang",
+        "latitude": -2.033662620644679,
+        "longitude": 105.6662023063116
     },
     {
         "code": 190506,
         "regency_code": 1905,
         "province_code": 19,
-        "name": "Parittiga"
+        "name": "Parittiga",
+        "latitude": -1.6283482420091604,
+        "longitude": 105.5616311752015
     },
     {
         "code": 190601,
         "regency_code": 1906,
         "province_code": 19,
-        "name": "Manggar"
+        "name": "Manggar",
+        "latitude": -2.8436990652261565,
+        "longitude": 108.19780930300132
     },
     {
         "code": 190602,
         "regency_code": 1906,
         "province_code": 19,
-        "name": "Gantung"
+        "name": "Gantung",
+        "latitude": -3.0376847892970043,
+        "longitude": 108.1266529937317
     },
     {
         "code": 190603,
         "regency_code": 1906,
         "province_code": 19,
-        "name": "Dendang"
+        "name": "Dendang",
+        "latitude": -2.976415599565454,
+        "longitude": 107.88244329513633
     },
     {
         "code": 190604,
         "regency_code": 1906,
         "province_code": 19,
-        "name": "Kelapa Kampit"
+        "name": "Kelapa Kampit",
+        "latitude": -2.7011396665850094,
+        "longitude": 108.02286063284602
     },
     {
         "code": 190605,
         "regency_code": 1906,
         "province_code": 19,
-        "name": "Damar"
+        "name": "Damar",
+        "latitude": -2.7636457049753296,
+        "longitude": 108.20326124507098
     },
     {
         "code": 190606,
         "regency_code": 1906,
         "province_code": 19,
-        "name": "Simpang Renggiang"
+        "name": "Simpang Renggiang",
+        "latitude": -2.8814628271943983,
+        "longitude": 107.9927273834439
     },
     {
         "code": 190607,
         "regency_code": 1906,
         "province_code": 19,
-        "name": "Simpang Pesak"
+        "name": "Simpang Pesak",
+        "latitude": -3.161790898057767,
+        "longitude": 108.00575158395503
     },
     {
         "code": 197101,
         "regency_code": 1971,
         "province_code": 19,
-        "name": "Bukit Intan"
+        "name": "Bukit Intan",
+        "latitude": -2.1247129225456063,
+        "longitude": 106.15082181674661
     },
     {
         "code": 197102,
         "regency_code": 1971,
         "province_code": 19,
-        "name": "Taman Sari"
+        "name": "Taman Sari",
+        "latitude": -2.1225206559655456,
+        "longitude": 106.10996640299972
     },
     {
         "code": 197103,
         "regency_code": 1971,
         "province_code": 19,
-        "name": "Pangkal Balam"
+        "name": "Pangkal Balam",
+        "latitude": -2.101309454760011,
+        "longitude": 106.12590838763555
     },
     {
         "code": 197104,
         "regency_code": 1971,
         "province_code": 19,
-        "name": "Rangkui"
+        "name": "Rangkui",
+        "latitude": -2.1382850074858366,
+        "longitude": 106.1021971419399
     },
     {
         "code": 197105,
         "regency_code": 1971,
         "province_code": 19,
-        "name": "Gerunggang"
+        "name": "Gerunggang",
+        "latitude": -2.101445251215524,
+        "longitude": 106.07072795793435
     },
     {
         "code": 197106,
         "regency_code": 1971,
         "province_code": 19,
-        "name": "Gabek"
+        "name": "Gabek",
+        "latitude": -2.085701399315572,
+        "longitude": 106.11164507416538
     },
     {
         "code": 197107,
         "regency_code": 1971,
         "province_code": 19,
-        "name": "Girimaya"
+        "name": "Girimaya",
+        "latitude": -2.1437078984863014,
+        "longitude": 106.11876713352021
     }
 ]

@@ -3,98 +3,98 @@
         "code": 6101,
         "province_code": 61,
         "name": "Kab. Sambas",
-        "latitude": 1.3610923732904279,
-        "longitude": 109.3285001118564
+        "latitude": 1.4230857823487124,
+        "longitude": 109.34956822007936
     },
     {
         "code": 6102,
         "province_code": 61,
         "name": "Kab. Mempawah",
-        "latitude": 0.3507375156189089,
-        "longitude": 108.96247645418383
+        "latitude": 0.35177711745461443,
+        "longitude": 109.15419102762336
     },
     {
         "code": 6103,
         "province_code": 61,
         "name": "Kab. Sanggau",
-        "latitude": 0.12348442018479931,
-        "longitude": 110.59604636952717
+        "latitude": 0.26868109656721084,
+        "longitude": 110.43072660296725
     },
     {
         "code": 6104,
         "province_code": 61,
         "name": "Kab. Ketapang",
-        "latitude": -1.8442282167132769,
-        "longitude": 109.97893875233444
+        "latitude": -1.632936277348147,
+        "longitude": 110.60543693031319
     },
     {
         "code": 6105,
         "province_code": 61,
         "name": "Kab. Sintang",
-        "latitude": 0.0786531223680243,
-        "longitude": 111.49548392534787
+        "latitude": 0.09259557504131383,
+        "longitude": 112.05439324661614
     },
     {
         "code": 6106,
         "province_code": 61,
         "name": "Kab. Kapuas Hulu",
-        "latitude": 0.8792574508162577,
-        "longitude": 112.92539148302002
+        "latitude": 0.8256013629435552,
+        "longitude": 112.80355038457326
     },
     {
         "code": 6107,
         "province_code": 61,
         "name": "Kab. Bengkayang",
-        "latitude": 0.8691040170174341,
-        "longitude": 109.49749129836343
+        "latitude": 1.0119529327335561,
+        "longitude": 109.57839986717872
     },
     {
         "code": 6108,
         "province_code": 61,
         "name": "Kab. Landak",
-        "latitude": 0.37478897210209017,
-        "longitude": 109.9382701253479
+        "latitude": 0.5076819153096951,
+        "longitude": 109.76407733028154
     },
     {
         "code": 6109,
         "province_code": 61,
         "name": "Kab. Sekadau",
-        "latitude": 0.007190078560764424,
-        "longitude": 110.95471874069129
+        "latitude": -0.01713673939063842,
+        "longitude": 110.9489264982842
     },
     {
         "code": 6110,
         "province_code": 61,
         "name": "Kab. Melawi",
-        "latitude": -0.3769284988267002,
-        "longitude": 111.7643663695273
+        "latitude": -0.6304366772343024,
+        "longitude": 111.7245970579792
     },
     {
         "code": 6111,
         "province_code": 61,
         "name": "Kab. Kayong Utara",
-        "latitude": -1.253324768640413,
-        "longitude": 109.95437986952808
+        "latitude": -1.1044317344796102,
+        "longitude": 109.875360189189
     },
     {
         "code": 6112,
         "province_code": 61,
         "name": "Kab. Kubu Raya",
-        "latitude": -0.12685886609816646,
-        "longitude": 109.40395645418373
+        "latitude": -0.39182681946736114,
+        "longitude": 109.540374395073
     },
     {
         "code": 6171,
         "province_code": 61,
         "name": "Kota Pontianak",
-        "latitude": -0.022086396871511572,
-        "longitude": 109.3381039118554
+        "latitude": -0.025780638413533955,
+        "longitude": 109.3316974690969
     },
     {
         "code": 6172,
         "province_code": 61,
         "name": "Kota Singkawang",
-        "latitude": 0.904786196799786,
-        "longitude": 108.97740501185594
+        "latitude": 0.8866504290802595,
+        "longitude": 109.03227743444673
     }
 ]

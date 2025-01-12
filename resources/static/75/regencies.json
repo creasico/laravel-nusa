@@ -3,42 +3,42 @@
         "code": 7501,
         "province_code": 75,
         "name": "Kab. Gorontalo",
-        "latitude": 0.6290030224702096,
-        "longitude": 122.98093758487616
+        "latitude": null,
+        "longitude": null
     },
     {
         "code": 7502,
         "province_code": 75,
         "name": "Kab. Boalemo",
-        "latitude": 0.5292719285160986,
-        "longitude": 122.34754187571235
+        "latitude": null,
+        "longitude": null
     },
     {
         "code": 7503,
         "province_code": 75,
         "name": "Kab. Bone Bolango",
-        "latitude": 0.5574113394247833,
-        "longitude": 123.14391729846989
+        "latitude": null,
+        "longitude": null
     },
     {
         "code": 7504,
         "province_code": 75,
         "name": "Kab. Pohuwato",
-        "latitude": 0.7055277999999999,
-        "longitude": 121.71954589999996
+        "latitude": null,
+        "longitude": null
     },
     {
         "code": 7505,
         "province_code": 75,
         "name": "Kab. Gorontalo Utara",
-        "latitude": 0.7909498464253044,
-        "longitude": 122.86871529758803
+        "latitude": null,
+        "longitude": null
     },
     {
         "code": 7571,
         "province_code": 75,
         "name": "Kota Gorontalo",
-        "latitude": 0.5319060577592112,
-        "longitude": 123.0595026528477
+        "latitude": null,
+        "longitude": null
     }
 ]

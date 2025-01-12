@@ -3,154 +3,154 @@
         "code": 5301,
         "province_code": 53,
         "name": "Kab. Kupang",
-        "latitude": -10.072767460089674,
-        "longitude": 123.86446322540102
+        "latitude": -9.91608621677014,
+        "longitude": 123.86145044415542
     },
     {
         "code": 5302,
         "province_code": 53,
         "name": "Kab. Timor Tengah Selatan",
-        "latitude": -9.851780619986599,
-        "longitude": 124.26648135633013
+        "latitude": -9.829235491223097,
+        "longitude": 124.39709152941671
     },
     {
         "code": 5303,
         "province_code": 53,
         "name": "Kab. Timor Tengah Utara",
-        "latitude": -9.456934944114428,
-        "longitude": 124.47508769420945
+        "latitude": -9.377866610519083,
+        "longitude": 124.56921631425968
     },
     {
         "code": 5304,
         "province_code": 53,
         "name": "Kab. Belu",
-        "latitude": -9.105891366920305,
-        "longitude": 124.87357678138326
+        "latitude": -9.155098413389897,
+        "longitude": 124.96742242230712
     },
     {
         "code": 5305,
         "province_code": 53,
         "name": "Kab. Alor",
-        "latitude": -8.209309443192296,
-        "longitude": 124.5734638597916
+        "latitude": -8.303915014674587,
+        "longitude": 124.56844814765837
     },
     {
         "code": 5306,
         "province_code": 53,
         "name": "Kab. Flores Timur",
-        "latitude": -8.326454792692857,
-        "longitude": 123.00311081827232
+        "latitude": -8.365129999424317,
+        "longitude": 122.94448301607842
     },
     {
         "code": 5307,
         "province_code": 53,
         "name": "Kab. Sikka",
-        "latitude": -8.616591300597133,
-        "longitude": 122.2080821234478
+        "latitude": -8.609344971709035,
+        "longitude": 122.306654974676
     },
     {
         "code": 5308,
         "province_code": 53,
         "name": "Kab. Ende",
-        "latitude": -8.84344514400059,
-        "longitude": 121.66223033425577
+        "latitude": -8.676355693519394,
+        "longitude": 121.73544304526368
     },
     {
         "code": 5309,
         "province_code": 53,
         "name": "Kab. Ngada",
-        "latitude": -8.785172765189195,
-        "longitude": 120.97473007615979
+        "latitude": -8.664544007349,
+        "longitude": 121.00156828857828
     },
     {
         "code": 5310,
         "province_code": 53,
         "name": "Kab. Manggarai",
-        "latitude": -8.611446513623472,
-        "longitude": 120.4642990196421
+        "latitude": -8.568809462339917,
+        "longitude": 120.40106921539837
     },
     {
         "code": 5311,
         "province_code": 53,
         "name": "Kab. Sumba Timur",
-        "latitude": -9.660787895234368,
-        "longitude": 120.26131862254613
+        "latitude": -9.877804207779791,
+        "longitude": 120.2547683848084
     },
     {
         "code": 5312,
         "province_code": 53,
         "name": "Kab. Sumba Barat",
-        "latitude": -9.647321540554708,
-        "longitude": 119.39400717233693
+        "latitude": -9.641422259331291,
+        "longitude": 119.3833826777653
     },
     {
         "code": 5313,
         "province_code": 53,
         "name": "Kab. Lembata",
-        "latitude": -8.359888246008067,
-        "longitude": 123.45924285276752
+        "latitude": -8.381171613765762,
+        "longitude": 123.54081786348164
     },
     {
         "code": 5314,
         "province_code": 53,
         "name": "Kab. Rote Ndao",
-        "latitude": -10.75780320710065,
-        "longitude": 123.06259078628618
+        "latitude": -10.725959995065217,
+        "longitude": 123.12444836806907
     },
     {
         "code": 5315,
         "province_code": 53,
         "name": "Kab. Manggarai Barat",
-        "latitude": -8.495964947540392,
-        "longitude": 119.89429877413119
+        "latitude": -8.60271673193086,
+        "longitude": 119.98854525873647
     },
     {
         "code": 5316,
         "province_code": 53,
         "name": "Kab. Nagekeo",
-        "latitude": -8.575463250173927,
-        "longitude": 121.28112874980738
+        "latitude": -8.68973640750257,
+        "longitude": 121.27320368591111
     },
     {
         "code": 5317,
         "province_code": 53,
         "name": "Kab. Sumba Tengah",
-        "latitude": -9.62267937221953,
-        "longitude": 119.60043476625835
+        "latitude": -9.543165016266101,
+        "longitude": 119.66865013952577
     },
     {
         "code": 5318,
         "province_code": 53,
         "name": "Kab. Sumba Barat Daya",
-        "latitude": -9.391735416331608,
-        "longitude": 119.18099193903856
+        "latitude": -9.534148748186425,
+        "longitude": 119.17734222577997
     },
     {
         "code": 5319,
         "province_code": 53,
         "name": "Kab. Manggarai Timur",
-        "latitude": -8.749471050872256,
-        "longitude": 120.60861905890188
+        "latitude": -8.572788876505832,
+        "longitude": 120.68930688807022
     },
     {
         "code": 5320,
         "province_code": 53,
         "name": "Kab. Sabu Raijua",
-        "latitude": -10.452783457995888,
-        "longitude": 121.87803338600901
+        "latitude": -10.535687374038487,
+        "longitude": 121.84446825694981
     },
     {
         "code": 5321,
         "province_code": 53,
         "name": "Kab. Malaka",
-        "latitude": -9.444597244521727,
-        "longitude": 124.91757971876395
+        "latitude": -9.524259235578747,
+        "longitude": 124.88844674206781
     },
     {
         "code": 5371,
         "province_code": 53,
         "name": "Kota Kupang",
-        "latitude": -10.15389633793275,
-        "longitude": 123.61939014385608
+        "latitude": -10.204506383995435,
+        "longitude": 123.60454402769143
     }
 ]
