@@ -8,7 +8,6 @@ use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
 use PDO;
 use Symfony\Component\Finder\Finder;
-use Symfony\Component\Finder\SplFileInfo;
 use Workbench\App\Support\Normalizer;
 
 class DatabaseImport extends Command
@@ -161,12 +160,7 @@ class DatabaseImport extends Command
         $sqls = Finder::create()
             ->files()
             ->in($path.'/db/*/')
-            ->name('*.sql')
-            ->filter(static function (SplFileInfo $file) {
-                return ! in_array($file->getFilename(), [
-                    'wilayah_boundaries_kab_75.sql',
-                ]);
-            });
+            ->name('*.sql');
 
         foreach ($sqls as $sqlPath => $sql) {
             $sqlPath = substr($sqlPath, 21);
