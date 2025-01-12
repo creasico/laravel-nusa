@@ -17,6 +17,11 @@ plugins:
     config:
       rulesets: workbench/phpmd.xml
 
+exclude_patterns:
+  - database/**
+  - tests/**
+  - workbench/**
+
 ratings:
   paths:
     - src/**.php
