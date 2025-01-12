@@ -929,10 +929,12 @@ composer test
 - **Code Style**: This project uses [`Laravel Pint`](https://laravel.com/docs/pint) with `laravel` preset as coding standard, so make sure you follow the rules.
 
 ## Credits
-- [cahyadsn/wilayah](https://github.com/cahyadsn/wilayah)
+- [cahyadsn/wilayah](https://github.com/cahyadsn/wilayah) [![License](https://img.shields.io/github/license/cahyadsn/wilayah?style=flat-square)](https://github.com/cahyadsn/wilayah/blob/master/LICENSE)
+- [cahyadsn/wilayah_kodepos](https://github.com/cahyadsn/wilayah_kodepos) [![License](https://img.shields.io/github/license/cahyadsn/wilayah_kodepos?style=flat-square)](https://github.com/cahyadsn/wilayah_kodepos/blob/master/LICENSE)
+- [cahyadsn/wilayah_boundaries](https://github.com/cahyadsn/wilayah_boundaries) [![License](https://img.shields.io/github/license/cahyadsn/wilayah_boundaries?style=flat-square)](https://github.com/cahyadsn/wilayah_boundaries/blob/master/LICENSE)
 - [w3appdev/kodepos](https://github.com/w3appdev/kodepos)
-- [edwardsamuel/Wilayah-Administratif-Indonesia](https://github.com/edwardsamuel/Wilayah-Administratif-Indonesia)
-- [laravolt/indonesia](https://github.com/laravolt/indonesia)
+- [edwardsamuel/Wilayah-Administratif-Indonesia](https://github.com/edwardsamuel/Wilayah-Administratif-Indonesia) [![License](https://img.shields.io/github/license/edwardsamuel/Wilayah-Administratif-Indonesia?style=flat-square)](https://github.com/edwardsamuel/Wilayah-Administratif-Indonesia/blob/master/license.md)
+- [laravolt/indonesia](https://github.com/laravolt/indonesia) [![License](https://img.shields.io/github/license/laravolt/indonesia?style=flat-square)](https://github.com/laravolt/indonesia/blob/master/LICENSE)
 
 ## License
 
