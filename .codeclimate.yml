@@ -1,0 +1,22 @@
+version: "2"
+
+checks:
+  similar-code:
+    enabled: false
+  method-complexity:
+    config:
+      threshold: 9
+
+plugins:
+  fixme:
+    enabled: true
+  phpcodesniffer:
+    enabled: false
+  phpmd:
+    enabled: true
+    config:
+      rulesets: workbench/phpmd.xml
+
+ratings:
+  paths:
+    - src/**.php
