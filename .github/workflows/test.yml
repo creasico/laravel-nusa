@@ -88,11 +88,11 @@ jobs:
           name: upstream-stats
           path: tests/stats.json
           if-no-files-found: ignore
-          retention-days: 60
 
       - name: Store static resources
         uses: actions/upload-artifact@v4
         with:
+          retention-days: 14
           name: static-resources
           path: |
             database/nusa.sqlite
@@ -203,6 +203,7 @@ jobs:
         uses: actions/upload-artifact@v4
         if: needs.configs.outputs.has-codeclimate == '1'
         with:
+          retention-days: 14
           name: test-reports-PHP${{ matrix.php }}-L${{ matrix.laravel }}-${{ matrix.db }}
           path: tests/reports/codeclimate.*.json
 
