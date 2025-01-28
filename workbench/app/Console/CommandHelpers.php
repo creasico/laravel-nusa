@@ -13,13 +13,13 @@ trait CommandHelpers
 
     private function libPath(string ...$paths): Stringable
     {
-        $path = \dirname(__DIR__).'/../..';
+        $path = realpath(\dirname(__DIR__).'/../..');
 
         if (! empty($paths)) {
-            $path .= '/'.implode(DIRECTORY_SEPARATOR, $paths);
+            $path .= DIRECTORY_SEPARATOR.implode(DIRECTORY_SEPARATOR, $paths);
         }
 
-        return str(\realpath($path) ?: null);
+        return str($path);
     }
 
     private function group(string $title): void

@@ -36,7 +36,7 @@ class StatCommand extends Command
         $diff = $this->option('diff') ?: false;
         $diffs = $diff ? $this->getDiffs($rows) : [];
 
-        if (! empty($diffs) && $this->option('write')) {
+        if ($this->option('write')) {
             File::put($this->libPath('tests/stats.json'), \json_encode($rows, \JSON_PRETTY_PRINT));
         }
 
@@ -81,7 +81,7 @@ class StatCommand extends Command
         return $out;
     }
 
-    private function getDiffs(array $rows): ?array
+    private function getDiffs(array $rows): array
     {
         try {
             $diffs = \array_filter(
@@ -93,7 +93,7 @@ class StatCommand extends Command
         } catch (FileNotFoundException $err) {
             $this->warn($err->getMessage());
 
-            return null;
+            return [];
         }
     }
 
