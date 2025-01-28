@@ -64,6 +64,7 @@ jobs:
           branch: main
           name: upstream-stats
           path: tests
+          if_no_artifact_found: warn
 
       - name: Install dependencies
         run: composer update --prefer-dist --no-interaction --no-progress
