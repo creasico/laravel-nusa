@@ -87,6 +87,7 @@ jobs:
           name: upstream-stats
           path: tests/stats.json
           if-no-files-found: ignore
+          retention-days: 60
 
       - name: Store static resources
         uses: actions/upload-artifact@v4
