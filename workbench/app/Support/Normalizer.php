@@ -46,7 +46,7 @@ class Normalizer
                 'name' => str($this->name)->title(),
                 'latitude' => $this->latitude,
                 'longitude' => $this->longitude,
-                'coordinates' => $this->coordinates,
+                'coordinates' => $this->normalizeCoordinate($this->coordinates),
             ],
             default => null
         };
@@ -62,7 +62,7 @@ class Normalizer
             'name' => str($this->name)->title(),
             'latitude' => $this->latitude,
             'longitude' => $this->longitude,
-            // 'coordinates' =>  $this->coordinates,
+            // 'coordinates' => $this->normalizeCoordinate($this->coordinates),
         ];
     }
 
@@ -77,7 +77,7 @@ class Normalizer
             'name' => $this->name,
             'latitude' => $this->latitude,
             'longitude' => $this->longitude,
-            // 'coordinates' => $this->coordinates,
+            // 'coordinates' => $this->normalizeCoordinate($this->coordinates),
         ];
     }
 
@@ -94,7 +94,33 @@ class Normalizer
             'postal_code' => $this->postal_code,
             'latitude' => $this->latitude,
             'longitude' => $this->longitude,
-            // 'coordinates' => $this->coordinates,
+            // 'coordinates' => $this->normalizeCoordinate($this->coordinates),
         ];
+    }
+
+    /**
+     * Normalize the coordinates data from upstream.
+     *
+     * The upstream coordinates are formated in `[lat, lng]` format,
+     * all we need is to flip them become `[lng, lat]` so it could be
+     * viewed correctly natively in github `.geojson` preview.
+     */
+    private function normalizeCoordinate(?array $arr): ?array
+    {
+        if (! $arr) {
+            return null;
+        }
+
+        foreach ($arr as $key => $value) {
+            if (count($value) === 2 && is_numeric($value[0]) && is_numeric($value[1])) {
+                $arr[$key] = [$value[1], $value[0]];
+
+                continue;
+            }
+
+            $arr[$key] = $this->normalizeCoordinate($value);
+        }
+
+        return $arr;
     }
 }
