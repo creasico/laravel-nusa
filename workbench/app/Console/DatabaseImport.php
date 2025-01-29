@@ -168,7 +168,7 @@ class DatabaseImport extends Command
             $path = $this->libPath('resources/static', $filename.'.csv')
         );
 
-        $this->line(" - Writing: '{$path->substr(strlen($this->libPath()) + 1)}'");
+        $this->line(" - Writing: '{$path->substr($this->libPath()->length() + 1)}'");
 
         $csv = [
             array_keys($content[0]),
@@ -176,8 +176,7 @@ class DatabaseImport extends Command
 
         foreach ($content as $value) {
             if (isset($value['coordinates'])) {
-                $value['coordinates'] = null;
-                // $value['coordinates'] = \json_encode($value['coordinates']);
+                $value['coordinates'] = null; // \json_encode($value['coordinates']);
             }
 
             $csv[] = array_values($value);
@@ -198,7 +197,7 @@ class DatabaseImport extends Command
             $path = $this->libPath('resources/static', $filename.'.json')
         );
 
-        $this->line(" - Writing: '{$path->substr(strlen($this->libPath()) + 1)}'");
+        $this->line(" - Writing: '{$path->substr($this->libPath()->length() + 1)}'");
 
         file_put_contents((string) $path, json_encode($content->map(function ($value) {
             if (isset($value['coordinates'])) {
@@ -207,6 +206,60 @@ class DatabaseImport extends Command
 
             return $value;
         })->toArray(), JSON_PRETTY_PRINT));
+
+        if ($filename !== 'provinces') {
+            return;
+        }
+
+        foreach ($content as $value) {
+            if (! $value['latitude'] || ! $value['longitude'] || empty($value['coordinates'])) {
+                continue;
+            }
+
+            $this->writeGeoJson($filename, $value['code'].'/path', $value);
+        }
+    }
+
+    private function writeGeoJson(string $kind, string $filename, array $value): void
+    {
+        $this->ensureDirectoryExists(
+            $path = $this->libPath('resources/static', $filename.'.geojson')
+        );
+
+        $this->line(" - Writing: '{$path->substr($this->libPath()->length() + 1)}'");
+
+        file_put_contents((string) $path, json_encode([
+            'type' => 'FeatureCollection',
+            'features' => [
+                [
+                    'type' => 'Feature',
+                    'properties' => [
+                        'code' => $value['code'],
+                        'kind' => $kind,
+                        'name' => $value['name'],
+                    ],
+                    'geometry' => [
+                        'type' => 'Point',
+                        'coordinates' => [
+                            $value['longitude'],
+                            $value['latitude'],
+                        ],
+                    ],
+                ],
+                [
+                    'type' => 'Feature',
+                    'properties' => [
+                        'code' => $value['code'],
+                        'kind' => $kind,
+                        'name' => $value['name'],
+                    ],
+                    'geometry' => [
+                        'type' => 'MultiPolygon',
+                        'coordinates' => $value['coordinates'],
+                    ],
+                ],
+            ],
+        ]));
     }
 
     private function ensureDirectoryExists(string $path)
