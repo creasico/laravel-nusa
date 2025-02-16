@@ -16,6 +16,8 @@ class DatabaseImport extends Command
 {
     use CommandHelpers;
 
+    private int $chunkSize = 5_000;
+
     protected $signature = 'nusa:import
                             {--fresh : Refresh database migrations and seeders}';
 
@@ -45,13 +47,16 @@ class DatabaseImport extends Command
         $this->group('Seeding from upstream');
 
         foreach ($this->fetchAll() as $table => $values) {
+            $count = count($values);
             $timer = $this->timer(
-                "Seeding <fg=yellow>{$values->count()}</> data to '<fg=yellow>{$table}</>'"
+                "Seeding <fg=yellow>{$count}</> data to '<fg=yellow>{$table}</>'"
             );
 
-            $values->chunk(2_000)->each(function ($values) use ($table) {
-                $this->importFromUpstream($table, $values);
-            });
+            foreach (array_chunk($values, $this->chunkSize) as $chunks) {
+                $this->importFromUpstream($table, $chunks);
+
+                unset($chunks);
+            }
 
             $timer->stop();
         }
@@ -59,7 +64,7 @@ class DatabaseImport extends Command
         $this->endGroup();
     }
 
-    public function importFromUpstream(string $table, Collection $values): void
+    public function importFromUpstream(string $table, array $values): void
     {
         DB::transaction(static function () use ($table, $values) {
             $query = match ($table) {
@@ -70,13 +75,13 @@ class DatabaseImport extends Command
             };
 
             $query->insert(
-                $values->map(static function (array $data) {
+                array_map(static function (array $data) {
                     if (isset($data['coordinates'])) {
                         $data['coordinates'] = json_encode($data['coordinates']);
                     }
 
                     return $data;
-                })->all()
+                }, $values)
             );
         });
 
@@ -112,7 +117,7 @@ class DatabaseImport extends Command
     }
 
     /**
-     * @return \Generator<string, Collection<string, array>>
+     * @return \Generator<string, array>
      */
     private function fetchAll(): \Generator
     {
@@ -131,34 +136,39 @@ class DatabaseImport extends Command
 
         $timer->stop();
 
+        foreach ($this->normalize($data) as $table => $content) {
+            yield $table => $content;
+        }
+    }
+
+    private function normalize(array $data): array
+    {
+        $outputs = [];
+
         $timer = $this->timer('Normalizing fetched data');
 
-        $data = array_reduce($data, static function ($outputs, $item) {
-            $data = new Normalizer(
-                $item->kode,
-                $item->nama,
-                $item->kodepos,
-                $item->lat,
-                $item->lng,
-                $item->path
-            );
+        foreach (array_chunk($data, $this->chunkSize) as $chunks) {
+            foreach ($chunks as $item) {
+                $normalizer = new Normalizer(
+                    $item->kode,
+                    $item->nama,
+                    $item->kodepos,
+                    $item->lat,
+                    $item->lng,
+                    $item->path
+                );
 
-            if ($normalized = $data->normalize()) {
-                $outputs[$data->type][] = $normalized;
+                if ($normalized = $normalizer->normalize()) {
+                    $outputs[$normalizer->type][] = $normalized;
+                }
             }
 
-            return $outputs;
-        }, []);
+            unset($chunks);
+        }
 
         $timer->stop();
 
-        if (! empty(Normalizer::$invalid)) {
-            dd(Normalizer::$invalid);
-        }
-
-        foreach ($data as $table => $content) {
-            yield $table => collect($content);
-        }
+        return $outputs;
     }
 
     /**
