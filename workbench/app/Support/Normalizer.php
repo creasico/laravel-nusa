@@ -46,7 +46,7 @@ class Normalizer
                 'name' => (string) str($this->name)->title(),
                 'latitude' => $this->latitude,
                 'longitude' => $this->longitude,
-                'coordinates' => $this->swapCoordinate($this->coordinates),
+                'coordinates' => $this->normalizeCoordinates($this->coordinates),
             ],
             default => null
         };
@@ -62,7 +62,7 @@ class Normalizer
             'name' => (string) str($this->name)->title(),
             'latitude' => $this->latitude,
             'longitude' => $this->longitude,
-            'coordinates' => $this->swapCoordinate($this->coordinates),
+            'coordinates' => $this->normalizeCoordinates($this->coordinates),
         ];
     }
 
@@ -77,7 +77,7 @@ class Normalizer
             'name' => $this->name,
             'latitude' => $this->latitude,
             'longitude' => $this->longitude,
-            'coordinates' => $this->swapCoordinate($this->coordinates),
+            'coordinates' => $this->normalizeCoordinates($this->coordinates),
         ];
     }
 
@@ -94,8 +94,17 @@ class Normalizer
             'postal_code' => $this->postal_code,
             'latitude' => $this->latitude,
             'longitude' => $this->longitude,
-            'coordinates' => $this->swapCoordinate($this->coordinates),
+            'coordinates' => $this->normalizeCoordinates($this->coordinates),
         ];
+    }
+
+    private function normalizeCoordinates(?array $arr)
+    {
+        if (! $arr) {
+            return null;
+        }
+
+        return json_encode($this->swapCoordinate($arr));
     }
 
     /**
@@ -105,12 +114,8 @@ class Normalizer
      * all we need is to flip them become `[lng, lat]` so it could be
      * viewed correctly natively in github `.geojson` preview.
      */
-    private function swapCoordinate(?array $arr): ?array
+    private function swapCoordinate(array $arr): array
     {
-        if (! $arr) {
-            return null;
-        }
-
         foreach ($arr as $key => $val) {
             if (
                 count($val) === 2 &&

@@ -53,7 +53,9 @@ class DatabaseImport extends Command
             );
 
             foreach (array_chunk($values, $this->chunkSize) as $chunks) {
-                $this->importFromUpstream($table, $chunks);
+                DB::transaction(
+                    fn () => $this->model($table)->insert($chunks)
+                );
 
                 unset($chunks);
             }
@@ -62,42 +64,6 @@ class DatabaseImport extends Command
         }
 
         $this->endGroup();
-    }
-
-    public function importFromUpstream(string $table, array $values): void
-    {
-        DB::transaction(static function () use ($table, $values) {
-            $query = match ($table) {
-                'provinces' => Models\Province::query(),
-                'regencies' => Models\Regency::query(),
-                'districts' => Models\District::query(),
-                'villages' => Models\Village::query(),
-            };
-
-            $query->insert(
-                array_map(static function (array $data) {
-                    if (isset($data['coordinates'])) {
-                        $data['coordinates'] = json_encode($data['coordinates']);
-                    }
-
-                    return $data;
-                }, $values)
-            );
-        });
-
-        // if ($table === 'provinces') {
-        //     $this->writeCsv($table, $values);
-
-        //     $this->writeJson($table, $values);
-
-        //     continue;
-        // }
-
-        // $values->groupBy('province_code')->each(function (Collection $content, string $key) use ($table) {
-        //     $this->writeCsv($key.'/'.$table, $content);
-
-        //     $this->writeJson($key.'/'.$table, $content);
-        // });
     }
 
     private function refreshDatabase(): bool
@@ -116,10 +82,7 @@ class DatabaseImport extends Command
         return $fresh;
     }
 
-    /**
-     * @return \Generator<string, array>
-     */
-    private function fetchAll(): \Generator
+    private function fetchAll(): array
     {
         $timer = $this->timer('Fetching upstream data');
 
@@ -136,13 +99,6 @@ class DatabaseImport extends Command
 
         $timer->stop();
 
-        foreach ($this->normalize($data) as $table => $content) {
-            yield $table => $content;
-        }
-    }
-
-    private function normalize(array $data): array
-    {
         $outputs = [];
 
         $timer = $this->timer('Normalizing fetched data');
@@ -332,6 +288,16 @@ class DatabaseImport extends Command
         $stmt = $conn->query($statement, PDO::FETCH_OBJ);
 
         return $stmt->fetchAll();
+    }
+
+    private function model(string $table)
+    {
+        return match ($table) {
+            'provinces' => Models\Province::query(),
+            'regencies' => Models\Regency::query(),
+            'districts' => Models\District::query(),
+            'villages' => Models\Village::query(),
+        };
     }
 
     private function recreateDatabaseFile(): void
