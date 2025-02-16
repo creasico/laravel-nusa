@@ -25,25 +25,18 @@ class DatabaseImport extends Command
     {
         $this->group('Importing files');
 
-        $column = new TwoColumnDetail($this->output);
-
-        $this->upstream(function (PDO $conn) use ($column) {
+        $this->upstream(function (PDO $conn) {
             $files = $this->scanSqlFiles([
                 'cahyadsn-wilayah/db/wilayah.sql',
                 'cahyadsn-wilayah_kodepos/db/wilayah_kodepos.sql',
             ]);
 
             foreach ($files as $path => $query) {
-                $startTime = microtime(true);
+                $timer = $this->timer("Imported '<fg=yellow>{$path}</>'");
 
                 $conn->query($query);
 
-                $runTime = number_format((microtime(true) - $startTime) * 1000);
-
-                $column->render(
-                    "  Imported '<fg=yellow>{$path}</>'",
-                    "<fg=gray>{$runTime}ms</> <fg=green;options=bold>DONE</>"
-                );
+                $timer->stop();
             }
         });
 
@@ -52,18 +45,15 @@ class DatabaseImport extends Command
         $this->group('Seeding from upstream');
 
         foreach ($this->fetchAll() as $table => $values) {
-            $startTime = microtime(true);
+            $timer = $this->timer(
+                "Seeding <fg=yellow>{$values->count()}</> data to '<fg=yellow>{$table}</>'"
+            );
 
             $values->chunk(2_000)->each(function ($values) use ($table) {
                 $this->importFromUpstream($table, $values);
             });
 
-            $runTime = number_format((microtime(true) - $startTime) * 1000);
-
-            $column->render(
-                "  Seeding <fg=yellow>{$values->count()}</> data to '<fg=yellow>{$table}</>'",
-                "<fg=gray>{$runTime}ms</> <fg=green;options=bold>DONE</>"
-            );
+            $timer->stop();
         }
 
         $this->endGroup();
@@ -126,9 +116,7 @@ class DatabaseImport extends Command
      */
     private function fetchAll(): \Generator
     {
-        $column = new TwoColumnDetail($this->output);
-
-        $startTime = microtime(true);
+        $timer = $this->timer('Fetching upstream data');
 
         $data = $this->upstream(<<<'SQL'
             SELECT
@@ -141,14 +129,11 @@ class DatabaseImport extends Command
             ORDER BY w.kode
         SQL);
 
-        $runTime = number_format((microtime(true) - $startTime) * 1000);
+        $timer->stop();
 
-        $column->render(
-            '  Fetching upstream data',
-            "<fg=gray>{$runTime}ms</> <fg=green;options=bold>DONE</>"
-        );
+        $timer = $this->timer('Normalizing fetched data');
 
-        $data = $data->reduce(function ($regions, $item) {
+        $data = array_reduce($data, static function ($outputs, $item) {
             $data = new Normalizer(
                 $item->kode,
                 $item->nama,
@@ -159,18 +144,13 @@ class DatabaseImport extends Command
             );
 
             if ($normalized = $data->normalize()) {
-                $regions[$data->type][] = $normalized;
+                $outputs[$data->type][] = $normalized;
             }
 
-            return $regions;
+            return $outputs;
         }, []);
 
-        $runTime = number_format((microtime(true) - $startTime) * 1000);
-
-        $column->render(
-            '  Normalizing fetched data',
-            "<fg=gray>{$runTime}ms</> <fg=green;options=bold>DONE</>"
-        );
+        $timer->stop();
 
         if (! empty(Normalizer::$invalid)) {
             dd(Normalizer::$invalid);
@@ -316,7 +296,7 @@ class DatabaseImport extends Command
     }
 
     /**
-     * @return PDO|Collection|void
+     * @return PDO|array|void
      */
     private function upstream(string|\Closure|null $statement = null)
     {
@@ -341,7 +321,7 @@ class DatabaseImport extends Command
 
         $stmt = $conn->query($statement, PDO::FETCH_OBJ);
 
-        return collect($stmt->fetchAll());
+        return $stmt->fetchAll();
     }
 
     private function recreateDatabaseFile(): void
@@ -353,5 +333,32 @@ class DatabaseImport extends Command
         }
 
         \touch($path);
+    }
+
+    private function timer(string $caption)
+    {
+        $column = new TwoColumnDetail($this->output);
+
+        return new class($caption, $column)
+        {
+            private float $startTime;
+
+            public function __construct(
+                private string $caption,
+                private TwoColumnDetail $column,
+            ) {
+                $this->startTime = microtime(true);
+            }
+
+            public function stop()
+            {
+                $runTime = number_format((microtime(true) - $this->startTime) * 1000);
+
+                $this->column->render(
+                    "  {$this->caption}",
+                    "<fg=gray>{$runTime}ms</> <fg=green;options=bold>DONE</>"
+                );
+            }
+        };
     }
 }
