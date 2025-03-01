@@ -59,7 +59,7 @@ jobs:
           restore-keys: php-8.1-10.x--composer-
 
       - name: Download previous stat
-        uses: dawidd6/action-download-artifact@v8
+        uses: dawidd6/action-download-artifact@v9
         with:
           branch: main
           name: upstream-stats
