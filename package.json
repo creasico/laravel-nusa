@@ -1,7 +1,7 @@
 {
     "version": "0.1.11",
     "private": true,
-    "packageManager": "pnpm@8.5.0",
+    "packageManager": "pnpm@10.5.0",
     "author": "Creasi Developers <developers@creasi.co>",
     "repository": "github:creasico/laravel-nusa",
     "scripts": {
@@ -9,9 +9,9 @@
         "release": "standard-version -s"
     },
     "devDependencies": {
-        "@commitlint/cli": "^18.6.1",
-        "@commitlint/config-conventional": "^18.6.3",
-        "lint-staged": "^15.3.0",
+        "@commitlint/cli": "^19.8.0",
+        "@commitlint/config-conventional": "^19.8.0",
+        "lint-staged": "^15.5.0",
         "simple-git-hooks": "^2.11.1",
         "standard-version": "^9.5.0"
     },
