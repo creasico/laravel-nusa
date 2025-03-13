@@ -26320,6 +26320,16 @@
         "longitude": 120.86781762609351
     },
     {
+        "code": 7324062017,
+        "district_code": 732406,
+        "regency_code": 7324,
+        "province_code": 73,
+        "name": "Arolipu",
+        "postal_code": "92971",
+        "latitude": null,
+        "longitude": null
+    },
+    {
         "code": 7324072001,
         "district_code": 732407,
         "regency_code": 7324,
