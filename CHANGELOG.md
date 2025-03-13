@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.12](https://github.com/creasico/laravel-nusa/compare/v0.1.11...v0.1.12) (2025-03-13)
+
+
+### Features
+
+* **db:** update embeded db due to upstream changes, see [#114](https://github.com/creasico/laravel-nusa/issues/114) [#118](https://github.com/creasico/laravel-nusa/issues/118) & [#119](https://github.com/creasico/laravel-nusa/issues/119) ([ac1b312](https://github.com/creasico/laravel-nusa/commit/ac1b312e519d2405c9b8e9fb70a2527a7bfadb91))
+* provide `.geojson` data for provinces ([#110](https://github.com/creasico/laravel-nusa/issues/110)) ([0b8731e](https://github.com/creasico/laravel-nusa/commit/0b8731e08b0ea862fef81a1c116af99a09050644))
+
+
+### Bug Fixes
+
+* **ci:** unable to regenerate stat file even `-w` option is passed to the `stat` command ([fddc68f](https://github.com/creasico/laravel-nusa/commit/fddc68f0212d3267da522f7ea4afe25e08dd9d0d))
+
 ### [0.1.11](https://github.com/creasico/laravel-nusa/compare/v0.1.10...v0.1.11) (2025-01-12)
 
 
