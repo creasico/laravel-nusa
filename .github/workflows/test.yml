@@ -71,7 +71,7 @@ jobs:
 
       - name: Import databases
         run: |
-          ./vendor/bin/testbench nusa:import --ansi
+          ./vendor/bin/testbench nusa:import --fresh --ansi
           ./vendor/bin/testbench nusa:stat -dw --ansi
           git status -s {database,resources}
 
