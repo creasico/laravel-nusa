@@ -2620,6 +2620,16 @@
         "longitude": 104.42723029892457
     },
     {
+        "code": 2104091004,
+        "district_code": 210409,
+        "regency_code": 2104,
+        "province_code": 21,
+        "name": "Berlian",
+        "postal_code": "29878",
+        "latitude": null,
+        "longitude": null
+    },
+    {
         "code": 2104092001,
         "district_code": 210409,
         "regency_code": 2104,
