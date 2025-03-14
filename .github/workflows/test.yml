@@ -70,6 +70,8 @@ jobs:
         run: composer update --prefer-dist --no-interaction --no-progress
 
       - name: Import databases
+        env:
+          COLUMNS: 120
         run: |
           ./vendor/bin/testbench nusa:import --fresh --ansi
           ./vendor/bin/testbench nusa:stat -dw --ansi
