@@ -53,9 +53,7 @@ class DatabaseImport extends Command
             );
 
             foreach (array_chunk($values, $this->chunkSize) as $chunks) {
-                DB::transaction(
-                    fn () => $this->model($table)->insert($chunks)
-                );
+                DB::transaction(fn () => $this->model($table)->insert($chunks));
 
                 unset($chunks);
             }
@@ -100,7 +98,6 @@ class DatabaseImport extends Command
         $timer->stop();
 
         $outputs = [];
-
         $timer = $this->timer('Normalizing fetched data');
 
         foreach (array_chunk($data, $this->chunkSize) as $chunks) {
