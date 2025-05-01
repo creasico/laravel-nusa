@@ -1056,16 +1056,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v12.4.1",
+            "version": "v12.11.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "cdefd852ecb459a65392cd6ccb578c92a15b8e2b"
+                "reference": "bd0d62bd9c5196728e428cd695d89ec8640daac1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/cdefd852ecb459a65392cd6ccb578c92a15b8e2b",
-                "reference": "cdefd852ecb459a65392cd6ccb578c92a15b8e2b",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/bd0d62bd9c5196728e428cd695d89ec8640daac1",
+                "reference": "bd0d62bd9c5196728e428cd695d89ec8640daac1",
                 "shasum": ""
             },
             "require": {
@@ -1174,7 +1174,7 @@
                 "league/flysystem-sftp-v3": "^3.25.1",
                 "mockery/mockery": "^1.6.10",
                 "orchestra/testbench-core": "^10.0.0",
-                "pda/pheanstalk": "^5.0.6",
+                "pda/pheanstalk": "^5.0.6|^7.0.0",
                 "php-http/discovery": "^1.15",
                 "phpstan/phpstan": "^2.0",
                 "phpunit/phpunit": "^10.5.35|^11.5.3|^12.0.1",
@@ -1267,7 +1267,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2025-03-30T16:27:26+00:00"
+            "time": "2025-04-30T13:48:39+00:00"
         },
         {
             "name": "laravel/prompts",
@@ -1391,16 +1391,16 @@
         },
         {
             "name": "league/commonmark",
-            "version": "2.6.1",
+            "version": "2.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/commonmark.git",
-                "reference": "d990688c91cedfb69753ffc2512727ec646df2ad"
+                "reference": "06c3b0bf2540338094575612f4a1778d0d2d5e94"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/d990688c91cedfb69753ffc2512727ec646df2ad",
-                "reference": "d990688c91cedfb69753ffc2512727ec646df2ad",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/06c3b0bf2540338094575612f4a1778d0d2d5e94",
+                "reference": "06c3b0bf2540338094575612f4a1778d0d2d5e94",
                 "shasum": ""
             },
             "require": {
@@ -1494,7 +1494,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-12-29T14:10:59+00:00"
+            "time": "2025-04-18T21:09:27+00:00"
         },
         {
             "name": "league/config",
@@ -2045,16 +2045,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "3.8.6",
+            "version": "3.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CarbonPHP/carbon.git",
-                "reference": "ff2f20cf83bd4d503720632ce8a426dc747bf7fd"
+                "reference": "6d16a8a015166fe54e22c042e0805c5363aef50d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CarbonPHP/carbon/zipball/ff2f20cf83bd4d503720632ce8a426dc747bf7fd",
-                "reference": "ff2f20cf83bd4d503720632ce8a426dc747bf7fd",
+                "url": "https://api.github.com/repos/CarbonPHP/carbon/zipball/6d16a8a015166fe54e22c042e0805c5363aef50d",
+                "reference": "6d16a8a015166fe54e22c042e0805c5363aef50d",
                 "shasum": ""
             },
             "require": {
@@ -2147,7 +2147,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-02-20T17:33:38+00:00"
+            "time": "2025-03-27T12:57:33+00:00"
         },
         {
             "name": "nette/schema",
@@ -5368,16 +5368,16 @@
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "v5.6.1",
+            "version": "v5.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "a59a13791077fe3d44f90e7133eb68e7d22eaff2"
+                "reference": "24ac4c74f91ee2c193fa1aaa5c249cb0822809af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/a59a13791077fe3d44f90e7133eb68e7d22eaff2",
-                "reference": "a59a13791077fe3d44f90e7133eb68e7d22eaff2",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/24ac4c74f91ee2c193fa1aaa5c249cb0822809af",
+                "reference": "24ac4c74f91ee2c193fa1aaa5c249cb0822809af",
                 "shasum": ""
             },
             "require": {
@@ -5436,7 +5436,7 @@
             ],
             "support": {
                 "issues": "https://github.com/vlucas/phpdotenv/issues",
-                "source": "https://github.com/vlucas/phpdotenv/tree/v5.6.1"
+                "source": "https://github.com/vlucas/phpdotenv/tree/v5.6.2"
             },
             "funding": [
                 {
@@ -5448,7 +5448,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-07-20T21:52:34+00:00"
+            "time": "2025-04-30T23:37:27+00:00"
         },
         {
             "name": "voku/portable-ascii",
