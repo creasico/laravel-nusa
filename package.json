@@ -9,10 +9,10 @@
         "release": "standard-version -s"
     },
     "devDependencies": {
-        "@commitlint/cli": "^19.8.0",
-        "@commitlint/config-conventional": "^19.8.0",
-        "lint-staged": "^15.5.0",
-        "simple-git-hooks": "^2.11.1",
+        "@commitlint/cli": "^19.8.1",
+        "@commitlint/config-conventional": "^19.8.1",
+        "lint-staged": "^16.0.0",
+        "simple-git-hooks": "^2.13.0",
         "standard-version": "^9.5.0"
     },
     "commitlint": {
