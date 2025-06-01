@@ -1,0 +1,28 @@
+services:
+  db:
+    image: mysql:8.0
+    container_name: nusa-mysql
+    ports:
+      - ${FORWARD_DB_PORT:-3306}:3306
+    environment:
+      MYSQL_USER: ${DB_USERNAME}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+      MYSQL_DATABASE: ${UPSTREAM_DB_DATABASE}
+    env_file: workbench/.env
+    volumes:
+      - local-db:/var/lib/mysql
+      - ./workbench/create-testing-database.sh:/docker-entrypoint-initdb.d/10-create-testing-database.sh
+    healthcheck:
+      test: [CMD, mysqladmin, ping, "-p${DB_PASSWORD}"]
+      retries: 3
+      timeout: 5s
+
+networks:
+  default:
+    name: creasi-nusa
+    enable_ipv6: false
+
+volumes:
+  local-db:
+    driver: local
