@@ -43,10 +43,10 @@ class Normalizer
             'regencies' => $this->toRegency(),
             'provinces' => [
                 'code' => (int) $this->code,
-                'name' => str($this->name)->title(),
+                'name' => (string) str($this->name)->title(),
                 'latitude' => $this->latitude,
                 'longitude' => $this->longitude,
-                'coordinates' => $this->normalizeCoordinate($this->coordinates),
+                'coordinates' => $this->normalizeCoordinates($this->coordinates),
             ],
             default => null
         };
@@ -59,10 +59,10 @@ class Normalizer
         return [
             'code' => (int) ($province_code.$code),
             'province_code' => (int) $province_code,
-            'name' => str($this->name)->title(),
+            'name' => (string) str($this->name)->title(),
             'latitude' => $this->latitude,
             'longitude' => $this->longitude,
-            // 'coordinates' => $this->normalizeCoordinate($this->coordinates),
+            'coordinates' => $this->normalizeCoordinates($this->coordinates),
         ];
     }
 
@@ -77,7 +77,7 @@ class Normalizer
             'name' => $this->name,
             'latitude' => $this->latitude,
             'longitude' => $this->longitude,
-            // 'coordinates' => $this->normalizeCoordinate($this->coordinates),
+            'coordinates' => $this->normalizeCoordinates($this->coordinates),
         ];
     }
 
@@ -94,8 +94,17 @@ class Normalizer
             'postal_code' => $this->postal_code,
             'latitude' => $this->latitude,
             'longitude' => $this->longitude,
-            // 'coordinates' => $this->normalizeCoordinate($this->coordinates),
+            'coordinates' => $this->normalizeCoordinates($this->coordinates),
         ];
+    }
+
+    private function normalizeCoordinates(?array $arr)
+    {
+        if (! $arr) {
+            return null;
+        }
+
+        return json_encode($this->swapCoordinate($arr));
     }
 
     /**
@@ -105,20 +114,19 @@ class Normalizer
      * all we need is to flip them become `[lng, lat]` so it could be
      * viewed correctly natively in github `.geojson` preview.
      */
-    private function normalizeCoordinate(?array $arr): ?array
+    private function swapCoordinate(array $arr): array
     {
-        if (! $arr) {
-            return null;
-        }
-
-        foreach ($arr as $key => $value) {
-            if (count($value) === 2 && is_numeric($value[0]) && is_numeric($value[1])) {
-                $arr[$key] = [$value[1], $value[0]];
+        foreach ($arr as $key => $val) {
+            if (
+                count($val) === 2 &&
+                (is_numeric($val[0]) && is_numeric($val[1]))
+            ) {
+                $arr[$key] = [$val[1], $val[0]];
 
                 continue;
             }
 
-            $arr[$key] = $this->normalizeCoordinate($value);
+            $arr[$key] = $this->swapCoordinate($val);
         }
 
         return $arr;

@@ -49,6 +49,19 @@
         "tinker": [
             "Composer\\Config::disableProcessTimeout",
             "testbench tinker"
+        ],
+        "upstream": [
+            "docker compose --env-file workbench/.env"
+        ],
+        "upstream:up": [
+            "docker compose --env-file workbench/.env up -d"
+        ],
+        "upstream:down": [
+            "docker compose --env-file workbench/.env down"
+        ],
+        "upstream:exec": [
+            "Composer\\Config::disableProcessTimeout",
+            "docker compose --env-file workbench/.env exec db"
         ]
     },
     "autoload": {

@@ -9,7 +9,7 @@ use Illuminate\Support\Stringable;
  */
 trait CommandHelpers
 {
-    private bool $ciGroup = false;
+    private bool $groupStarted = false;
 
     private function libPath(string ...$paths): Stringable
     {
@@ -24,25 +24,35 @@ trait CommandHelpers
 
     private function group(string $title): void
     {
-        if (env('CI') === null) {
+        $this->endGroup();
+
+        $this->groupStarted = true;
+
+        if ($this->runningInCI()) {
+            $this->line('::group::'.$title);
+
             return;
         }
 
-        $this->endGroup();
-
-        $this->line('::group::'.$title);
-        $this->ciGroup = true;
+        $this->line($title);
     }
 
     private function endGroup(): void
     {
-        if (env('CI') === null) {
+        if (! $this->groupStarted) {
             return;
         }
 
-        if ($this->ciGroup) {
+        if ($this->runningInCI()) {
             $this->line('::endgroup::');
-            $this->ciGroup = false;
         }
+
+        $this->groupStarted = false;
+        $this->line('');
+    }
+
+    private function runningInCI(): bool
+    {
+        return env('CI') !== null;
     }
 }

@@ -2,173 +2,174 @@
 
 namespace Workbench\App\Console;
 
-use Database\Seeders\DatabaseSeeder;
+use Creasi\Nusa\Models;
 use Illuminate\Console\Command;
+use Illuminate\Console\View\Components\TwoColumnDetail;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\File;
 use PDO;
 use Symfony\Component\Finder\Finder;
+use Throwable;
 use Workbench\App\Support\Normalizer;
 
 class DatabaseImport extends Command
 {
     use CommandHelpers;
 
+    private int $chunkSize = 5_000;
+
     protected $signature = 'nusa:import
                             {--fresh : Refresh database migrations and seeders}';
 
     protected $description = 'Import upstream database';
 
-    private PDO $conn;
-
-    public function __construct()
-    {
-        parent::__construct();
-
-        try {
-            $conn = DB::connection('upstream');
-
-            $this->conn = new PDO(
-                "mysql:dbname={$conn->getConfig('database')};host={$conn->getConfig('host')}",
-                $conn->getConfig('username'),
-                $conn->getConfig('password'),
-                [
-                    PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
-                ]
-            );
-        } catch (\PDOException $_) {
-            //
-        }
-    }
-
     public function handle()
     {
         $this->group('Importing files');
 
-        $this->importSql(
-            'cahyadsn-wilayah/db/wilayah.sql',
-            'cahyadsn-wilayah_kodepos/db/wilayah_kodepos.sql',
-        );
+        $this->upstream(function (PDO $conn) {
+            $files = $this->scanSqlFiles([
+                'cahyadsn-wilayah/db/wilayah.sql',
+                'cahyadsn-wilayah_kodepos/db/wilayah_kodepos.sql',
+            ]);
 
-        $this->importSqlBoundaries();
+            foreach ($files as $path => $query) {
+                $timer = $this->timer("Imported '<fg=yellow>{$path}</>'");
 
-        $this->group('Writing CSV and JSON files');
+                $conn->query($query);
 
-        foreach ($this->fetchAll() as $table => $content) {
-            $content = \collect($content);
+                $timer->stop();
+            }
+        });
 
-            if ($table === 'provinces') {
-                $this->writeCsv($table, $content);
+        $this->refreshDatabase();
 
-                $this->writeJson($table, $content);
+        $this->group('Seeding from upstream');
 
-                continue;
+        foreach ($this->fetchAll() as $table => $values) {
+            $count = count($values);
+            $timer = $this->timer(
+                "Seeding <fg=yellow>{$count}</> data to '<fg=yellow>{$table}</>'"
+            );
+
+            foreach (array_chunk($values, $this->chunkSize) as $chunks) {
+                try {
+                    DB::transaction(fn () => $this->model($table)->insert($chunks));
+                } catch (Throwable $err) {
+                    logger()->error($err->getMessage(), ['exception' => $err]);
+                }
+
+                unset($chunks);
             }
 
-            $content->groupBy('province_code')->each(function (Collection $content, string $key) use ($table) {
-                $this->writeCsv($key.'/'.$table, $content);
-
-                $this->writeJson($key.'/'.$table, $content);
-            });
-        }
-
-        if ($this->option('fresh') || env('CI') !== null) {
-            $this->group('Run migrations and seeders');
-
-            $path = config('database.connections.nusa', [])['database'];
-
-            if (\file_exists($path)) {
-                \unlink($path);
-            }
-
-            \touch($path);
-
-            $this->call('vendor:publish', ['--tag' => 'creasi-migrations']);
-            $this->call('migrate:fresh', ['--seeder' => DatabaseSeeder::class]);
+            $timer->stop();
         }
 
         $this->endGroup();
     }
 
+    private function refreshDatabase(): bool
+    {
+        if (! ($fresh = $this->option('fresh'))) {
+            return false;
+        }
+
+        $this->group('Recreating database');
+
+        $this->recreateDatabaseFile();
+
+        $this->callSilent('vendor:publish', ['--tag' => 'creasi-migrations']);
+        $this->call('migrate:fresh');
+
+        return $fresh;
+    }
+
     private function fetchAll(): array
     {
-        $stmt = $this->query(<<<'SQL'
+        $timer = $this->timer('Fetching upstream data');
+
+        $data = $this->upstream(<<<'SQL'
             SELECT
                 w.kode, w.nama,
                 p.kodepos,
-                l.lat, l.lng, l.path path
+                l.lat, l.lng, l.path
             FROM wilayah w
             LEFT JOIN wilayah_boundaries l ON w.kode = l.kode
             LEFT JOIN wilayah_kodepos p on w.kode = p.kode
             ORDER BY w.kode
-        SQL, PDO::FETCH_OBJ);
+        SQL);
 
-        $data = collect($stmt->fetchAll())->reduce(function ($regions, $item) {
-            $data = new Normalizer($item->kode, $item->nama, $item->kodepos, $item->lat, $item->lng, $item->path);
+        $timer->stop();
 
-            if ($normalized = $data->normalize()) {
-                $regions[$data->type][] = $normalized;
+        $outputs = [];
+        $timer = $this->timer('Normalizing fetched data');
+
+        foreach (array_chunk($data, $this->chunkSize) as $chunks) {
+            foreach ($chunks as $item) {
+                $normalizer = new Normalizer(
+                    $item->kode,
+                    $item->nama,
+                    $item->kodepos,
+                    $item->lat,
+                    $item->lng,
+                    $item->path
+                );
+
+                if ($normalized = $normalizer->normalize()) {
+                    $outputs[$normalizer->type][] = $normalized;
+                }
             }
 
-            return $regions;
-        }, []);
-
-        if (! empty(Normalizer::$invalid)) {
-            dd(Normalizer::$invalid);
+            unset($chunks);
         }
 
-        return $data;
+        $timer->stop();
+
+        return $outputs;
     }
 
-    private function importSql(string ...$paths): void
+    /**
+     * @param  array<int, string>  $paths
+     * @return \Generator<string, string>
+     */
+    private function scanSqlFiles(array $paths = []): \Generator
     {
+        $libPath = $this->libPath('workbench/submodules');
+
         foreach ($paths as $path) {
-            $this->line(" - Importing '{$path}'");
-
-            if ($query = file_get_contents((string) $this->libPath('workbench/submodules', $path))) {
-                /* dd($query); */
-                $this->query($query);
-            }
+            yield $path => file_get_contents((string) $libPath->append("/{$path}"));
         }
-    }
-
-    private function importSqlBoundaries()
-    {
-        $path = 'workbench/submodules/cahyadsn-wilayah_boundaries';
 
         // This should grab the exact line where the MySQL schema definition
-        // See: https://github.com/cahyadsn/wilayah_boundaries/blob/4555b3098670bafa7842726a4b4d81f6bfcfc481/db/ddl_wilayah_boundaries.sql#L35-L44
-        $lines = explode("\n", explode('-- ', file_get_contents(
-            (string) $this->libPath($path, $schemaPath = 'db/ddl_wilayah_boundaries.sql')
+        // See: https://github.com/cahyadsn/wilayah_boundaries/blob/4555b309/db/ddl_wilayah_boundaries.sql#L35-L44
+        $boundariesPath = 'cahyadsn-wilayah_boundaries/db';
+        $ddlPath = "{$boundariesPath}/ddl_wilayah_boundaries.sql";
+        $lines = explode(PHP_EOL, explode('-- ', file_get_contents(
+            (string) $libPath->append("/{$ddlPath}")
         ))[1]);
 
-        $this->line(" - Importing 'cahyadsn-wilayah_boundaries/{$schemaPath}'");
-        $this->query(implode("\n", array_slice($lines, 1, count($lines))));
+        yield $ddlPath => implode(PHP_EOL, array_slice($lines, 1, count($lines)));
 
         $sqls = Finder::create()
             ->files()
-            ->in($path.'/db/*/')
+            ->in((string) $libPath->append("/{$boundariesPath}/*/"))
             ->name('*.sql');
 
-        foreach ($sqls as $sqlPath => $sql) {
-            $sqlPath = substr($sqlPath, 21);
-            $this->line(" - Importing '{$sqlPath}'");
-            $this->query($sql->getContents());
-        }
-    }
+        foreach ($sqls as $path => $file) {
+            $path = substr($path, $libPath->length() + 1);
 
-    private function query(string $statement, ?int $mode = null, mixed ...$args)
-    {
-        return $this->conn->query($statement, $mode, ...$args);
+            yield $path => $file->getContents();
+        }
     }
 
     private function writeCsv(string $filename, Collection $content): void
     {
-        $this->ensureDirectoryExists(
+        File::ensureDirectoryExists(
             $path = $this->libPath('resources/static', $filename.'.csv')
         );
 
-        $this->line(" - Writing: '{$path->substr($this->libPath()->length() + 1)}'");
+        $this->line(" - Writing: '<fg=yellow>{$path->substr($this->libPath()->length() + 1)}</>'");
 
         $csv = [
             array_keys($content[0]),
@@ -193,11 +194,11 @@ class DatabaseImport extends Command
 
     private function writeJson(string $filename, Collection $content): void
     {
-        $this->ensureDirectoryExists(
+        File::ensureDirectoryExists(
             $path = $this->libPath('resources/static', $filename.'.json')
         );
 
-        $this->line(" - Writing: '{$path->substr($this->libPath()->length() + 1)}'");
+        $this->line(" - Writing: '<fg=yellow>{$path->substr($this->libPath()->length() + 1)}</>'");
 
         file_put_contents((string) $path, json_encode($content->map(function ($value) {
             if (isset($value['coordinates'])) {
@@ -222,11 +223,11 @@ class DatabaseImport extends Command
 
     private function writeGeoJson(string $kind, string $filename, array $value): void
     {
-        $this->ensureDirectoryExists(
+        File::ensureDirectoryExists(
             $path = $this->libPath('resources/static', $filename.'.geojson')
         );
 
-        $this->line(" - Writing: '{$path->substr($this->libPath()->length() + 1)}'");
+        $this->line(" - Writing: '<fg=yellow>{$path->substr($this->libPath()->length() + 1)}</>'");
 
         file_put_contents((string) $path, json_encode([
             'type' => 'FeatureCollection',
@@ -262,12 +263,80 @@ class DatabaseImport extends Command
         ]));
     }
 
-    private function ensureDirectoryExists(string $path)
+    /**
+     * @return PDO|array|void
+     */
+    private function upstream(string|\Closure|null $statement = null)
     {
-        $dir = \dirname($path);
+        $config = config('database.connections')['upstream'];
 
-        if (! is_dir($dir)) {
-            \mkdir($dir, 0755);
+        $conn = new PDO(
+            "mysql:dbname={$config['database']};host={$config['host']}",
+            $config['username'],
+            $config['password'],
+            [
+                PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+            ]
+        );
+
+        if (! $statement) {
+            return $conn;
         }
+
+        if ($statement instanceof \Closure) {
+            return $statement($conn);
+        }
+
+        $stmt = $conn->query($statement, PDO::FETCH_OBJ);
+
+        return $stmt->fetchAll();
+    }
+
+    private function model(string $table)
+    {
+        return match ($table) {
+            'provinces' => Models\Province::query(),
+            'regencies' => Models\Regency::query(),
+            'districts' => Models\District::query(),
+            'villages' => Models\Village::query(),
+        };
+    }
+
+    private function recreateDatabaseFile(): void
+    {
+        $path = config('database.connections.nusa', [])['database'];
+
+        if (\file_exists($path)) {
+            \unlink($path);
+        }
+
+        \touch($path);
+    }
+
+    private function timer(string $caption)
+    {
+        $column = new TwoColumnDetail($this->output);
+
+        return new class($caption, $column)
+        {
+            private float $startTime;
+
+            public function __construct(
+                private string $caption,
+                private TwoColumnDetail $column,
+            ) {
+                $this->startTime = microtime(true);
+            }
+
+            public function stop()
+            {
+                $runTime = number_format((microtime(true) - $this->startTime) * 1000);
+
+                $this->column->render(
+                    "  {$this->caption}",
+                    "<fg=gray>{$runTime}ms</> <fg=green;options=bold>DONE</>"
+                );
+            }
+        };
     }
 }
