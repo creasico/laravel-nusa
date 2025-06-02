@@ -14,7 +14,26 @@ class WorkbenchServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        //
+        if (app()->runningInConsole()) {
+            $nusa = config('database.connections.nusa', []);
+
+            $this->loadMigrationsFrom(\dirname($nusa['database']).'/migrations');
+        }
+
+        config([
+            'app' => [
+                'locale' => 'id',
+                'faker_locale' => 'id_ID',
+            ],
+            'database.connections.upstream' => [
+                'driver' => 'mysql',
+                'host' => env('UPSTREAM_DB_HOST', env('DB_HOST', '127.0.0.1')),
+                'port' => env('DB_PORT', '3306'),
+                'database' => env('UPSTREAM_DB_DATABASE', 'nusantara'),
+                'username' => env('DB_USERNAME', 'creasico'),
+                'password' => env('DB_PASSWORD', 'secret'),
+            ],
+        ]);
     }
 
     /**
@@ -30,26 +49,6 @@ class WorkbenchServiceProvider extends ServiceProvider
         }
 
         tap(app()->make('config'), function (Repository $config) {
-            $config->set('app.locale', 'id');
-            $config->set('app.faker_locale', 'id_ID');
-
-            if (app()->runningInConsole()) {
-                $nusa = $config->get('database.connections.nusa', []);
-
-                $this->loadMigrationsFrom(\dirname($nusa['database']).'/migrations');
-            }
-
-            $config->set([
-                'database.connections.upstream' => [
-                    'driver' => 'mysql',
-                    'host' => env('UPSTREAM_DB_HOST', env('DB_HOST', '127.0.0.1')),
-                    'port' => env('DB_PORT', '3306'),
-                    'database' => env('UPSTREAM_DB_DATABASE', 'nusantara'),
-                    'username' => env('DB_USERNAME', 'creasico'),
-                    'password' => env('DB_PASSWORD', 'secret'),
-                ],
-            ]);
-
             if (env('DB_CONNECTION') === 'sqlite') {
                 if (! file_exists($database = database_path('database.sqlite'))) {
                     touch($database);
