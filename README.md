@@ -882,34 +882,52 @@ using `sqlite` driver. Let us know if you had any issue using another database d
 2. Install dependencies
 
    ```sh
-   composer install
-   pnpm install
+   composer install && pnpm install
    ```
 
-3. Copy `workbench/.env.example` to `workbench/.env` and update the content you desire
+3. Update `workbench/.env` as you desire
 
    ```sh
-   DB_CONNECTION=mysql     # Your main db connection to test againsts
-   DB_HOST=127.0.0.1
-   DB_DATABASE=creasi_test # To store the testing data
-   DB_USERNAME=creasico
+   DB_CONNECTION=mysql  # Your main db connection to test againsts
+   DB_HOST=127.0.0.1    # Change this to `upstream` if you wanna use your docker
+   DB_DATABASE=testing  # To store the testing data
+   DB_USERNAME=creasi
    DB_PASSWORD=secret
    
    UPSTREAM_DB_DATABASE=nusantara # To store the upstream data
    ```
 
-4. Create new database to store our upstream and testing data:
+4. Init the databases, here you have 2 options:
+   
+   1. Use your local MySQL server.
+   
+      All you need is create 2 database for testing and upstream as you define in `workbench/.env` file
+        
+      ```sh
+      mysql -e 'create database testing;'    # Based on the value of `DB_DATABASE`
+      mysql -e 'create database nusantara;'  # Based on the value of `UPSTREAM_DB_DATABASE`
+      ```
+      
+      Once you've done, run the following command to import the upstream db.
+      
+      ```sh
+      composer testbench nusa:import -- --fresh
+      ```
 
-   ```sh
-   mysql -e 'create database creasi_test;' # Based on the value of `DB_DATABASE`
-   mysql -e 'create database nusantara;'   # Based on the value of `UPSTREAM_DB_DATABASE`
-   ```
-
-5. Last but not least, run `db:import` command
-
-   ```sh
-   composer db:import
-   ```
+   2. Use our provided docker `compose.yaml` by simply run the following command
+   
+      > [!IMPORTANT]
+      > Make sure that the value of `DB_HOST` is set to service name on `compose.yaml` which is `upstream`
+   
+      ```sh
+      composer upstream:up
+      ```
+      
+      The command will create all required database and run the `nusa:import` command for you, and use the following command to stop the container.
+      
+      ```sh
+      composer upstream:down
+      ```
 
 As you might noticed that we use 3 different databases to develop and maintain this library. Here's the explanation :
 
@@ -923,10 +941,11 @@ Once you've done with your meaningful contributions, run the following command t
 composer test
 ```
 
-### Notes
-- **Commit Convention**: This project follows [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
-  using [@commitlint/config-conventional](https://github.com/conventional-changelog/commitlint/tree/master/@commitlint/config-conventional) as standart, so make sure you install its npm dependencies.
-- **Code Style**: This project uses [`Laravel Pint`](https://laravel.com/docs/pint) with `laravel` preset as coding standard, so make sure you follow the rules.
+> [!IMPORTANT]
+> - **Commit Convention**: This project follows [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+>   using [@commitlint/config-conventional](https://github.com/conventional-changelog/commitlint/tree/master/@commitlint/config-conventional) as standart, so make sure you install its npm dependencies.
+> - **Code Style**: This project uses [`Laravel Pint`](https://laravel.com/docs/pint) with `laravel` preset as coding standard, so make sure you follow the rules.
+> - Anytime you make a change on `workbench/.env` file, make sure to run `composer testbench:purge`.
 
 ## Credits
 - [cahyadsn/wilayah](https://github.com/cahyadsn/wilayah) [![License](https://img.shields.io/github/license/cahyadsn/wilayah?style=flat-square)](https://github.com/cahyadsn/wilayah/blob/master/LICENSE)
