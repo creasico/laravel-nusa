@@ -60,6 +60,7 @@
             "docker compose --env-file workbench/.env"
         ],
         "upstream:up": [
+            "Composer\\Config::disableProcessTimeout",
             "docker compose --env-file workbench/.env up -d",
             "@php -r \"sleep(3);\"",
             "testbench nusa:import --fresh"
