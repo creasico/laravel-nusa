@@ -10,6 +10,7 @@ use Creasi\Nusa\Models\Village;
 use Creasi\Tests\Fixtures\HasManyAddresses;
 use Creasi\Tests\Fixtures\HasOneAddress;
 use Creasi\Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\WithFaker;
 use PHPUnit\Framework\Attributes\Group;
 use PHPUnit\Framework\Attributes\Test;
@@ -18,6 +19,7 @@ use PHPUnit\Framework\Attributes\Test;
 #[Group('addresses')]
 class AddressTest extends TestCase
 {
+    use RefreshDatabase;
     use WithFaker;
 
     private function createAddress(array $attrs): Address
