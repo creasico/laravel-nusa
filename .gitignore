@@ -27,6 +27,10 @@ dist
 node_modules
 vendor
 
+# Other IDEs
+.idea
+.zed
+
 # Node.js lock files
 .pnpm-store
 package-lock.json
@@ -36,5 +40,4 @@ yarn.lock
 # --------------------------
 !.env.example
 !.env.*.example
-!.htaccess
 !.gitkeep

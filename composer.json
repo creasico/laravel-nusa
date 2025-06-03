@@ -35,6 +35,9 @@
         "post-autoload-dump": [
             "testbench vendor:publish --tag=creasi-migrations"
         ],
+        "post-install-cmd": [
+            "@php -r \"file_exists('workbench/.env') || copy('workbench/.env.example', 'workbench/.env');\""
+        ],
         "fix": [
             "pint --preset laravel"
         ],
@@ -46,6 +49,9 @@
             "Composer\\Config::disableProcessTimeout",
             "testbench"
         ],
+        "testbench:purge": [
+            "testbench workbench:purge-skeleton"
+        ],
         "tinker": [
             "Composer\\Config::disableProcessTimeout",
             "testbench tinker"
@@ -54,14 +60,13 @@
             "docker compose --env-file workbench/.env"
         ],
         "upstream:up": [
-            "docker compose --env-file workbench/.env up -d"
+            "docker compose --env-file workbench/.env up -d",
+            "@php -r \"sleep(3);\"",
+            "testbench nusa:import --fresh"
         ],
         "upstream:down": [
-            "docker compose --env-file workbench/.env down"
-        ],
-        "upstream:exec": [
-            "Composer\\Config::disableProcessTimeout",
-            "docker compose --env-file workbench/.env exec db"
+            "docker compose --env-file workbench/.env down",
+            "testbench workbench:purge-skeleton"
         ]
     },
     "autoload": {
