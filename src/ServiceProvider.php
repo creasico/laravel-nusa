@@ -29,7 +29,7 @@ class ServiceProvider extends IlluminateServiceProvider
         config([
             'database.connections.nusa' => array_merge([
                 'driver' => 'sqlite',
-                'database' => \realpath(self::LIB_PATH.'/database/nusa.sqlite'),
+                'database' => $this->nusaDatabasePath(),
                 'foreign_key_constraints' => true,
             ], config('database.connections.nusa', [])),
         ]);
@@ -106,6 +106,29 @@ class ServiceProvider extends IlluminateServiceProvider
             ->flatMap(fn ($path) => $filesystem->glob($path.'*_'.$migrationFileName))
             ->push($this->app->databasePath()."/migrations/{$timestamp}_{$migrationFileName}")
             ->first();
+    }
+
+    private function nusaDatabasePath(): string
+    {
+        $path = '/database/nusa.sqlite';
+
+        if (! file_exists(self::LIB_PATH.'/vendor/autoload.php')) {
+            return realpath(self::LIB_PATH.$path);
+        }
+
+        $branch = trim(shell_exec('git rev-parse --abbrev-ref HEAD'));
+
+        if ($branch !== 'main') {
+            $branch = (string) str($branch)->slug();
+
+            $path = "/database/nusa.{$branch}.sqlite";
+        }
+
+        if (! file_exists(self::LIB_PATH.$path)) {
+            touch(self::LIB_PATH.$path);
+        }
+
+        return realpath(self::LIB_PATH.$path);
     }
 
     public function provides()
