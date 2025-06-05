@@ -54,11 +54,11 @@ class Normalizer
 
     private function toRegency(): array
     {
-        [$province_code, $code] = explode('.', $this->code, 2);
+        [$province_code] = explode('.', $this->code, 2);
 
         return [
-            'code' => (int) ($province_code.$code),
-            'province_code' => (int) $province_code,
+            'code' => $this->code,
+            'province_code' => $province_code,
             'name' => (string) str($this->name)->title(),
             'latitude' => $this->latitude,
             'longitude' => $this->longitude,
@@ -68,12 +68,12 @@ class Normalizer
 
     private function toDistrict(): array
     {
-        [$province_code, $regency_code, $code] = explode('.', $this->code, 3);
+        [$province_code, $regency_code] = explode('.', $this->code, 3);
 
         return [
-            'code' => (int) ($province_code.$regency_code.$code),
-            'regency_code' => (int) ($province_code.$regency_code),
-            'province_code' => (int) $province_code,
+            'code' => $this->code,
+            'regency_code' => $this->join($province_code, $regency_code),
+            'province_code' => $province_code,
             'name' => $this->name,
             'latitude' => $this->latitude,
             'longitude' => $this->longitude,
@@ -83,19 +83,24 @@ class Normalizer
 
     private function toVillage(): array
     {
-        [$province_code, $regency_code, $district_code, $code] = explode('.', $this->code, 4);
+        [$province_code, $regency_code, $district_code] = explode('.', $this->code, 4);
 
         return [
-            'code' => (int) ($province_code.$regency_code.$district_code.$code),
-            'district_code' => (int) ($province_code.$regency_code.$district_code),
-            'regency_code' => (int) ($province_code.$regency_code),
-            'province_code' => (int) $province_code,
+            'code' => $this->code,
+            'district_code' => $this->join($province_code, $regency_code, $district_code),
+            'regency_code' => $this->join($province_code, $regency_code),
+            'province_code' => $province_code,
             'name' => $this->name,
             'postal_code' => $this->postal_code,
             'latitude' => $this->latitude,
             'longitude' => $this->longitude,
             'coordinates' => $this->normalizeCoordinates($this->coordinates),
         ];
+    }
+
+    private function join(string ...$codes): string
+    {
+        return implode('.', $codes);
     }
 
     private function normalizeCoordinates(?array $arr)

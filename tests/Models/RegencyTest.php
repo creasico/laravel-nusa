@@ -48,7 +48,7 @@ class RegencyTest extends TestCase
     public function it_should_has_many_regencies(Collection $regencies): Collection
     {
         $regencies->each(function (Regency $regency) {
-            $this->assertIsInt($regency->code, 'Code should be int');
+            $this->assertIsString($regency->code, 'Code should be string');
             // Comment this out due to https://github.com/cahyadsn/wilayah/pull/47
             // $this->assertIsFloat($regency->latitude, \sprintf('Latitude of regency "%s" should be float', $regency->code));
             // $this->assertIsFloat($regency->longitude, \sprintf('Longitude of regency "%s" should be float', $regency->code));

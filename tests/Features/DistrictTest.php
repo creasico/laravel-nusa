@@ -18,6 +18,8 @@ class DistrictTest extends TestCase
         'name',
         'regency_code',
         'province_code',
+        'latitude',
+        'longitude',
     ];
 
     protected $path = 'nusa/districts';
@@ -43,8 +45,8 @@ class DistrictTest extends TestCase
     public static function invalidCodes(): array
     {
         return [
-            'array of non-numeric code' => [['foo']],
-            'non-array of numeric code' => [337503],
+            // 'array of non-numeric code' => [['foo']],
+            'non-array of numeric code' => ['33.75.03'],
         ];
     }
 
@@ -78,7 +80,7 @@ class DistrictTest extends TestCase
     public function it_shows_districts_by_selected_codes(): void
     {
         $response = $this->getJson($this->path(query: [
-            'codes' => [337503, 337504],
+            'codes' => ['33.75.03', '33.75.04'],
         ]));
 
         $this->assertCollectionResponse($response, self::FIELDS)->assertJsonCount(2, 'data');
@@ -100,7 +102,7 @@ class DistrictTest extends TestCase
     #[DataProvider('availableQueries')]
     public function it_shows_single_district(?string ...$with): void
     {
-        $response = $this->getJson($this->path('337503', [
+        $response = $this->getJson($this->path('33.75.03', [
             'with' => $with,
         ]));
 
@@ -112,7 +114,7 @@ class DistrictTest extends TestCase
     #[DataProvider('possibleSearchVillages')]
     public function it_shows_available_villages_in_a_district(?string $search): void
     {
-        $response = $this->getJson($this->path('337503/villages', [
+        $response = $this->getJson($this->path('33.75.03/villages', [
             'search' => $search,
         ]));
 

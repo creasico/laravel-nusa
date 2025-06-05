@@ -5,16 +5,17 @@ declare(strict_types=1);
 namespace Creasi\Nusa\Models;
 
 use Creasi\Nusa\Contracts\Province as ProvinceContract;
-use Creasi\Nusa\Models\Concerns\WithDistricts;
-use Creasi\Nusa\Models\Concerns\WithVillages;
 
 /**
  * @property-read \Illuminate\Database\Eloquent\Collection<int, Regency> $regencies
  */
 class Province extends Model implements ProvinceContract
 {
-    use WithDistricts;
-    use WithVillages;
+    /** @use Concerns\WithDistricts<static> */
+    use Concerns\WithDistricts;
+
+    /** @use Concerns\WithVillages<static> */
+    use Concerns\WithVillages;
 
     protected $fillable = [];
 

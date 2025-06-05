@@ -20,6 +20,8 @@ class VillageTest extends TestCase
         'regency_code',
         'province_code',
         'postal_code',
+        'latitude',
+        'longitude',
     ];
 
     protected $path = 'nusa/villages';
@@ -37,8 +39,8 @@ class VillageTest extends TestCase
     public static function invalidCodes(): array
     {
         return [
-            'array of non-numeric code' => [['foo']],
-            'non-array of numeric code' => [3375031004],
+            // 'array of non-numeric code' => [['foo']],
+            'non-array of numeric code' => ['33.75.03.1004'],
         ];
     }
 
@@ -72,7 +74,7 @@ class VillageTest extends TestCase
     public function it_shows_villages_by_selected_codes(): void
     {
         $response = $this->getJson($this->path(query: [
-            'codes' => [3375031004, 3375031006],
+            'codes' => ['33.75.03.1004', '33.75.03.1006'],
         ]));
 
         $this->assertCollectionResponse($response, self::FIELDS)->assertJsonCount(2, 'data');
@@ -105,7 +107,7 @@ class VillageTest extends TestCase
     #[DataProvider('availableQueries')]
     public function it_shows_single_village(?string ...$with): void
     {
-        $response = $this->getJson($this->path('3375031006', [
+        $response = $this->getJson($this->path('33.75.03.1006', [
             'with' => $with,
         ]));
 

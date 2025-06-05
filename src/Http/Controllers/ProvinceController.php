@@ -21,7 +21,7 @@ final class ProvinceController
         return NusaResource::collection($request->apply($this->model));
     }
 
-    public function show(NusaRequest $request, int $province)
+    public function show(NusaRequest $request, string $province)
     {
         $province = $this->model->findOrFail($province);
 
@@ -30,7 +30,7 @@ final class ProvinceController
         return new NusaResource($province);
     }
 
-    public function regencies(NusaRequest $request, int $province)
+    public function regencies(NusaRequest $request, string $province)
     {
         $province = $this->model->findOrFail($province);
 
@@ -39,7 +39,7 @@ final class ProvinceController
         );
     }
 
-    public function districts(NusaRequest $request, int $province)
+    public function districts(NusaRequest $request, string $province)
     {
         $province = $this->model->findOrFail($province);
 
@@ -48,7 +48,7 @@ final class ProvinceController
         );
     }
 
-    public function villages(NusaRequest $request, int $province)
+    public function villages(NusaRequest $request, string $province)
     {
         $province = $this->model->findOrFail($province);
 

@@ -5,8 +5,11 @@ declare(strict_types=1);
 namespace Creasi\Nusa\Models\Concerns;
 
 use Creasi\Nusa\Models\Regency;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 /**
+ * @template TDeclaringModel of \Illuminate\Database\Eloquent\Model
+ *
  * @property-read Regency|\Creasi\Nusa\Contracts\Regency $regency
  *
  * @mixin \Illuminate\Database\Eloquent\Model
@@ -18,19 +21,15 @@ trait WithRegency
      */
     final protected function initializeWithRegency(): void
     {
-        $this->mergeCasts([
-            $this->regencyKeyName() => 'int',
-        ]);
-
         $this->mergeFillable([
             $this->regencyKeyName(),
         ]);
     }
 
     /**
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     * @return BelongsTo<Regency, TDeclaringModel>
      */
-    public function regency()
+    public function regency(): BelongsTo
     {
         return $this->belongsTo(Regency::class, $this->regencyKeyName());
     }

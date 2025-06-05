@@ -5,8 +5,11 @@ declare(strict_types=1);
 namespace Creasi\Nusa\Models\Concerns;
 
 use Creasi\Nusa\Models\District;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 /**
+ * @template TDeclaringModel of \Illuminate\Database\Eloquent\Model
+ *
  * @property-read District|\Creasi\Nusa\Contracts\District $district
  *
  * @mixin \Illuminate\Database\Eloquent\Model
@@ -18,19 +21,15 @@ trait WithDistrict
      */
     final protected function initializeWithDistrict(): void
     {
-        $this->mergeCasts([
-            $this->districtKeyName() => 'int',
-        ]);
-
         $this->mergeFillable([
             $this->districtKeyName(),
         ]);
     }
 
     /**
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     * @return BelongsTo<District, TDeclaringModel>
      */
-    public function district()
+    public function district(): BelongsTo
     {
         return $this->belongsTo(District::class, $this->districtKeyName());
     }

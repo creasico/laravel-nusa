@@ -17,8 +17,8 @@ class RegencyTest extends TestCase
         'code',
         'name',
         'province_code',
-        // 'latitude',
-        // 'longitude',
+        'latitude',
+        'longitude',
         // 'coordinates'
     ];
 
@@ -55,8 +55,8 @@ class RegencyTest extends TestCase
     public static function invalidCodes(): array
     {
         return [
-            'array of non-numeric code' => [['foo']],
-            'non-array of numeric code' => [3375],
+            // 'array of non-numeric code' => [['foo']],
+            'non-array of numeric code' => ['33.75'],
         ];
     }
 
@@ -90,7 +90,7 @@ class RegencyTest extends TestCase
     public function it_shows_regencies_by_selected_codes(): void
     {
         $response = $this->getJson($this->path(query: [
-            'codes' => [3375, 3325],
+            'codes' => ['33.75', '33.25'],
         ]));
 
         $this->assertCollectionResponse($response, self::FIELDS)->assertJsonCount(2, 'data');
@@ -112,7 +112,7 @@ class RegencyTest extends TestCase
     #[DataProvider('availableQueries')]
     public function it_shows_single_regency(?string ...$with): void
     {
-        $response = $this->getJson($this->path('3375', [
+        $response = $this->getJson($this->path('33.75', [
             'with' => $with,
         ]));
 
@@ -124,7 +124,7 @@ class RegencyTest extends TestCase
     #[DataProvider('possibleSearchDistricts')]
     public function it_shows_available_districts_in_a_regency(?string $search): void
     {
-        $response = $this->getJson($this->path('3326/districts', [
+        $response = $this->getJson($this->path('33.26/districts', [
             'search' => $search,
         ]));
 
@@ -136,7 +136,7 @@ class RegencyTest extends TestCase
     #[DataProvider('possibleSearchVillages')]
     public function it_shows_available_villages_in_a_regency(?string $search): void
     {
-        $response = $this->getJson($this->path('3375/villages', [
+        $response = $this->getJson($this->path('33.75/villages', [
             'search' => $search,
         ]));
 

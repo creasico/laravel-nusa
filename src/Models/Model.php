@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Creasi\Nusa\Models;
 
 use Creasi\Nusa\Contracts\HasCoordinate;
-use Creasi\Nusa\Models\Concerns\WithCoordinate;
 use Illuminate\Contracts\Database\Query\Builder;
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 
@@ -22,13 +21,15 @@ use Illuminate\Database\Eloquent\Model as EloquentModel;
  */
 abstract class Model extends EloquentModel implements HasCoordinate
 {
-    use WithCoordinate;
+    use Concerns\WithCoordinate;
 
     public $incrementing = false;
 
     public $timestamps = false;
 
     protected $primaryKey = 'code';
+
+    protected $keyType = 'string';
 
     public function getConnectionName()
     {
@@ -38,7 +39,6 @@ abstract class Model extends EloquentModel implements HasCoordinate
     public function getCasts()
     {
         return \array_merge(parent::getCasts(), [
-            'code' => 'int',
             'coordinates' => 'array',
         ]);
     }

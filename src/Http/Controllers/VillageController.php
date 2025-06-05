@@ -21,7 +21,7 @@ final class VillageController
         return NusaResource::collection($request->apply($this->model));
     }
 
-    public function show(NusaRequest $request, int $village)
+    public function show(NusaRequest $request, string $village)
     {
         $village = $this->model->findOrFail($village);
 
