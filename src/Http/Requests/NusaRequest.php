@@ -15,7 +15,7 @@ final class NusaRequest extends FormRequest
             'with' => ['nullable', 'array'],
             'with.*' => ['string'],
             'codes' => ['nullable', 'array'],
-            'codes.*' => ['numeric'],
+            'codes.*' => ['string'],
             'search' => ['nullable', 'string'],
             'postal_code' => ['nullable', 'numeric', 'digits:5'],
             'page' => ['nullable', 'numeric'],

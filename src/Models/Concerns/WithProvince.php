@@ -18,10 +18,6 @@ trait WithProvince
      */
     final protected function initializeWithProvince(): void
     {
-        $this->mergeCasts([
-            $this->provinceKeyName() => 'int',
-        ]);
-
         $this->mergeFillable([
             $this->provinceKeyName(),
         ]);

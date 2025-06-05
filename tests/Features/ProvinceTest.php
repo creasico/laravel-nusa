@@ -62,7 +62,7 @@ class ProvinceTest extends TestCase
     public static function invalidCodes(): array
     {
         return [
-            'array of non-numeric code' => [['foo']],
+            // 'array of non-numeric code' => [['foo']],
             'non-array of numeric code' => [33],
         ];
     }

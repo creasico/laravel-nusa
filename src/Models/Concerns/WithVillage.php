@@ -18,10 +18,6 @@ trait WithVillage
      */
     final protected function initializeWithVillage(): void
     {
-        $this->mergeCasts([
-            $this->villageKeyName() => 'int',
-        ]);
-
         $this->mergeFillable([
             $this->villageKeyName(),
         ]);

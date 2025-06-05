@@ -30,6 +30,8 @@ abstract class Model extends EloquentModel implements HasCoordinate
 
     protected $primaryKey = 'code';
 
+    protected $keyType = 'string';
+
     public function getConnectionName()
     {
         return \config('creasi.nusa.connection');
@@ -38,7 +40,6 @@ abstract class Model extends EloquentModel implements HasCoordinate
     public function getCasts()
     {
         return \array_merge(parent::getCasts(), [
-            'code' => 'int',
             'coordinates' => 'array',
         ]);
     }

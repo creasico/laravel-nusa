@@ -21,7 +21,7 @@ final class DistrictController
         return NusaResource::collection($request->apply($this->model));
     }
 
-    public function show(NusaRequest $request, int $district)
+    public function show(NusaRequest $request, string $district)
     {
         $district = $this->model->findOrFail($district);
 
@@ -30,7 +30,7 @@ final class DistrictController
         return new NusaResource($district);
     }
 
-    public function villages(NusaRequest $request, int $district)
+    public function villages(NusaRequest $request, string $district)
     {
         $district = $this->model->findOrFail($district);
 

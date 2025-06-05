@@ -18,10 +18,6 @@ trait WithRegency
      */
     final protected function initializeWithRegency(): void
     {
-        $this->mergeCasts([
-            $this->regencyKeyName() => 'int',
-        ]);
-
         $this->mergeFillable([
             $this->regencyKeyName(),
         ]);

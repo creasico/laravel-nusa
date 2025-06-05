@@ -18,10 +18,6 @@ trait WithDistrict
      */
     final protected function initializeWithDistrict(): void
     {
-        $this->mergeCasts([
-            $this->districtKeyName() => 'int',
-        ]);
-
         $this->mergeFillable([
             $this->districtKeyName(),
         ]);
