@@ -10,7 +10,6 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;
 use PDO;
 use Symfony\Component\Finder\Finder;
-use Throwable;
 use Workbench\App\Support\Normalizer;
 
 class DatabaseImport extends Command
@@ -54,11 +53,7 @@ class DatabaseImport extends Command
             );
 
             foreach (array_chunk($values, $this->chunkSize) as $chunks) {
-                try {
-                    DB::transaction(fn () => $this->model($table)->insert($chunks));
-                } catch (Throwable $err) {
-                    logger()->error($err->getMessage(), ['exception' => $err]);
-                }
+                DB::transaction(fn () => $this->model($table)->insert($chunks));
 
                 unset($chunks);
             }

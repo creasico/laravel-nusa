@@ -31,7 +31,7 @@ return new class extends Migration
         });
 
         Schema::create($tableNames['regencies'], function (Blueprint $table) use ($tableNames) {
-            $table->char('code', 4)->primary();
+            $table->char('code', 5)->primary();
             $table->char('province_code', 2);
             $table->string('name', 50)->index();
             $table->double('latitude')->nullable();
@@ -42,8 +42,8 @@ return new class extends Migration
         });
 
         Schema::create($tableNames['districts'], function (Blueprint $table) use ($tableNames) {
-            $table->char('code', 6)->primary();
-            $table->char('regency_code', 4);
+            $table->char('code', 8)->primary();
+            $table->char('regency_code', 5);
             $table->char('province_code', 2);
             $table->string('name', 50)->index();
             $table->double('latitude')->nullable();
@@ -55,9 +55,9 @@ return new class extends Migration
         });
 
         Schema::create($tableNames['villages'], function (Blueprint $table) use ($tableNames) {
-            $table->char('code', 10)->primary();
-            $table->char('district_code', 6);
-            $table->char('regency_code', 4);
+            $table->char('code', 13)->primary();
+            $table->char('district_code', 8);
+            $table->char('regency_code', 5);
             $table->char('province_code', 2);
             $table->string('name', 50)->index();
             $table->char('postal_code', 5)->nullable();
