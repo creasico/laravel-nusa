@@ -9,12 +9,12 @@ use Illuminate\Contracts\Database\Query\Builder;
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 
 /**
- * @property-read int $code
+ * @property-read string $code
  * @property-read string $name
  * @property-read null|array $coordinates
  *
  * @method static static search(string $keyword)
- * @method Builder whereCode(int $code)
+ * @method Builder whereCode(string $code)
  * @method Builder whereName(string $name)
  *
  * @mixin \Illuminate\Contracts\Database\Eloquent\Builder

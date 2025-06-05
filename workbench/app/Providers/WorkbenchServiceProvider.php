@@ -5,6 +5,7 @@ namespace Workbench\App\Providers;
 use Illuminate\Config\Repository;
 use Illuminate\Support\ServiceProvider;
 use Workbench\App\Console\DatabaseImport;
+use Workbench\App\Console\GenerateStaticCommand;
 use Workbench\App\Console\StatCommand;
 
 class WorkbenchServiceProvider extends ServiceProvider
@@ -45,6 +46,7 @@ class WorkbenchServiceProvider extends ServiceProvider
             $this->commands([
                 StatCommand::class,
                 DatabaseImport::class,
+                GenerateStaticCommand::class,
             ]);
         }
 
