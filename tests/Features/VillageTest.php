@@ -20,6 +20,8 @@ class VillageTest extends TestCase
         'regency_code',
         'province_code',
         'postal_code',
+        'latitude',
+        'longitude',
     ];
 
     protected $path = 'nusa/villages';

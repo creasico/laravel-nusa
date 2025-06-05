@@ -5,9 +5,9 @@ declare(strict_types=1);
 namespace Creasi\Nusa\Contracts;
 
 /**
- * @property-read int $district_code
- * @property-read int $regency_code
- * @property-read int $province_code
+ * @property-read string $district_code
+ * @property-read string $regency_code
+ * @property-read string $province_code
  * @property-read null|int $postal_code
  * @property-read Province $province
  * @property-read Regency $regency

@@ -16,8 +16,8 @@ class ProvinceTest extends TestCase
     public const FIELDS = [
         'code',
         'name',
-        // 'latitude',
-        // 'longitude',
+        'latitude',
+        'longitude',
         // 'coordinates'
     ];
 
@@ -63,7 +63,7 @@ class ProvinceTest extends TestCase
     {
         return [
             // 'array of non-numeric code' => [['foo']],
-            'non-array of numeric code' => [33],
+            'non-array of numeric code' => ['33'],
         ];
     }
 
@@ -96,7 +96,7 @@ class ProvinceTest extends TestCase
     public function it_shows_provinces_by_selected_codes(): void
     {
         $response = $this->getJson($this->path(query: [
-            'codes' => [33, 32],
+            'codes' => ['33', '32'],
         ]));
 
         $this->assertCollectionResponse($response, self::FIELDS)->assertJsonCount(2, 'data');

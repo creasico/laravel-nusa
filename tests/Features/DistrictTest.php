@@ -18,6 +18,8 @@ class DistrictTest extends TestCase
         'name',
         'regency_code',
         'province_code',
+        'latitude',
+        'longitude',
     ];
 
     protected $path = 'nusa/districts';

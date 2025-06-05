@@ -48,7 +48,7 @@ class DistrictTest extends TestCase
     public function it_should_has_many_districts(Collection $districts): Collection
     {
         $districts->each(function (District $district) {
-            $this->assertIsString($district->code, 'Code should be int');
+            $this->assertIsString($district->code, 'Code should be string');
             // $this->assertIsFloat($district->latitude, \sprintf('Latitude of district "%s" should be float', $district->code));
             // $this->assertIsFloat($district->longitude, \sprintf('Longitude of district "%s" should be float', $district->code));
             $this->assertInstanceOf(Collection::class, $district->postal_codes, 'Postal Codes should be instance of collection');

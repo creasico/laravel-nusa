@@ -48,7 +48,7 @@ class VillageTest extends TestCase
     public function it_should_has_many_villages(Collection $villages): Collection
     {
         $villages->each(function (Village $village) {
-            $this->assertIsString($village->code, 'Code should be int');
+            $this->assertIsString($village->code, 'Code should be string');
             // $this->assertIsFloat($village->latitude, \sprintf('Latitude of village "%s" should be float', $village->code));
             // $this->assertIsFloat($village->longitude, \sprintf('Longitude of village "%s" should be float', $village->code));
             if ($village->postal_code) {

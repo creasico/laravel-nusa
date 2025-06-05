@@ -55,7 +55,7 @@ class ProvinceTest extends TestCase
         ])->get();
 
         $provinces->each(function (Province $province) {
-            $this->assertIsString($province->code, 'Code should be int');
+            $this->assertIsString($province->code, 'Code should be string');
             $this->assertIsFloat($province->latitude, \sprintf('Latitude of province "%s" should be float', $province->code));
             $this->assertIsFloat($province->longitude, \sprintf('Longitude of province "%s" should be float', $province->code));
             $this->assertInstanceOf(Collection::class, $province->postal_codes, 'Postal Codes should be instance of collection');
