@@ -5,15 +5,17 @@ declare(strict_types=1);
 namespace Creasi\Nusa\Models;
 
 use Creasi\Nusa\Contracts\Village as VillageContract;
-use Creasi\Nusa\Models\Concerns\WithDistrict;
-use Creasi\Nusa\Models\Concerns\WithProvince;
-use Creasi\Nusa\Models\Concerns\WithRegency;
 
 class Village extends Model implements VillageContract
 {
-    use WithDistrict;
-    use WithProvince;
-    use WithRegency;
+    /** @use Concerns\WithDistrict<static> */
+    use Concerns\WithDistrict;
+
+    /** @use Concerns\WithProvince<static> */
+    use Concerns\WithProvince;
+
+    /** @use Concerns\WithRegency<static> */
+    use Concerns\WithRegency;
 
     protected $fillable = ['postal_code'];
 

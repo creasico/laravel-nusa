@@ -6,8 +6,11 @@ namespace Creasi\Nusa\Models\Concerns;
 
 use Creasi\Nusa\Models\Village;
 use Illuminate\Database\Eloquent\Casts\Attribute;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 
 /**
+ * @template TDeclaringModel of \Illuminate\Database\Eloquent\Model
+ *
  * @property-read \Illuminate\Database\Eloquent\Collection<int, int> $postal_codes
  * @property-read \Illuminate\Database\Eloquent\Collection<int, Village|\Creasi\Nusa\Contracts\Village> $villages
  *
@@ -26,9 +29,9 @@ trait WithVillages
     }
 
     /**
-     * @return \Illuminate\Database\Eloquent\Relations\HasMany|\Creasi\Nusa\Contracts\Village
+     * @return HasMany<Village, TDeclaringModel>
      */
-    public function villages()
+    public function villages(): HasMany
     {
         return $this->hasMany(Village::class);
     }

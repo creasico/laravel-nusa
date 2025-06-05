@@ -5,8 +5,11 @@ declare(strict_types=1);
 namespace Creasi\Nusa\Models\Concerns;
 
 use Creasi\Nusa\Models\Village;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 /**
+ * @template TDeclaringModel of \Illuminate\Database\Eloquent\Model
+ *
  * @property-read Village|\Creasi\Nusa\Contracts\Village $village
  *
  * @mixin \Illuminate\Database\Eloquent\Model
@@ -24,9 +27,9 @@ trait WithVillage
     }
 
     /**
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo|\Creasi\Nusa\Contracts\Village
+     * @return BelongsTo<Village, TDeclaringModel>
      */
-    public function village()
+    public function village(): BelongsTo
     {
         return $this->belongsTo(Village::class, $this->villageKeyName());
     }

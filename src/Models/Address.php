@@ -10,15 +10,25 @@ use Creasi\Nusa\Contracts\Province;
 use Creasi\Nusa\Contracts\Regency;
 use Creasi\Nusa\Contracts\Village;
 use Illuminate\Database\Eloquent\Model as EloquentModel;
+use Illuminate\Database\Eloquent\Relations\MorphTo;
 
 /**
+ * @template TAddressableModel of \Creasi\Nusa\Contracts\Address
+ *
  * @mixin \Illuminate\Contracts\Database\Eloquent\Builder
  */
 class Address extends EloquentModel implements AddressContract
 {
+    /** @use Concerns\WithDistrict<static> */
     use Concerns\WithDistrict;
+
+    /** @use Concerns\WithProvince<static> */
     use Concerns\WithProvince;
+
+    /** @use Concerns\WithRegency<static> */
     use Concerns\WithRegency;
+
+    /** @use Concerns\WithVillage<static> */
     use Concerns\WithVillage;
 
     public function getCasts()
@@ -63,9 +73,9 @@ class Address extends EloquentModel implements AddressContract
     }
 
     /**
-     * @return \Illuminate\Database\Eloquent\Relations\MorphTo
+     * @return MorphTo<TAddressableModel>
      */
-    public function addressable()
+    public function addressable(): MorphTo
     {
         return $this->morphTo('addressable');
     }
