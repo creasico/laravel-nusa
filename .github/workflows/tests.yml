@@ -20,7 +20,7 @@ concurrency:
 jobs:
   tests:
     name: Test on PHP ${{ matrix.php }} Laravel ${{ matrix.laravel }} DB ${{ matrix.db }}
-    needs: [configs, prepare]
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     env:
       DB_CONNECTION: ${{ matrix.db }}
@@ -63,7 +63,7 @@ jobs:
         db: [mysql, pgsql, sqlite]
         include:
           - php: 8.4
-            laravel: 10.x
+            laravel: 12.x
           - php: 8.3
             laravel: 11.x
           - php: 8.2
@@ -72,6 +72,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_branch }}
 
       - name: Setup PHP ${{ matrix.php }}
         uses: shivammathur/setup-php@v2
@@ -83,12 +85,23 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.PAT }}
 
+      - name: Composer
+        if: steps.environment.outputs.has-php == '1'
+        id: composer
+        env:
+          LARAVEL_VERSION: ${{ matrix.laravel }}
+          COMPOSER_CACHE_KEY: php-${{ matrix.php }}
+        run: |
+          if ! [ -z "${LARAVEL_VERSION}" ]; then COMPOSER_CACHE_KEY="${COMPOSER_CACHE_KEY}-l${LARAVEL_VERSION}"; fi
+          echo "cache-dir=$(composer config cache-files-dir)" >> $GITHUB_OUTPUT
+          echo "cache-key=${COMPOSER_CACHE_KEY}" >> $GITHUB_OUTPUT
+
       - name: Cache Composer dependencies
         uses: actions/cache@v4
         with:
-          path: ${{ needs.configs.outputs.composer-cache }}
-          key: php-${{ matrix.php }}-${{ matrix.laravel }}-composer-${{ hashFiles('**/composer.lock') }}
-          restore-keys: php-${{ matrix.php }}-${{ matrix.laravel }}-composer-
+          path: ${{ steps.composer.outputs.cache-dir }}
+          key: ${{ steps.composer.outputs.cache-key }}-composer-${{ hashFiles('**/composer.lock') }}
+          restore-keys: ${{ steps.composer.outputs.cache-key }}-composer-
 
       - name: Install dependencies
         run: |
@@ -98,9 +111,8 @@ jobs:
       - name: Download static resources
         uses: dawidd6/action-download-artifact@v10
         with:
-          # branch: main
+          # branch: ${{ github.event.workflow_run.head_branch }}
           name: static-resources
-          # path: tests
           if_no_artifact_found: warn
 
       # - name: Restore static resources
