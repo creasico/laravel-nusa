@@ -5,9 +5,7 @@ namespace Workbench\App\Console;
 use Creasi\Nusa\Models;
 use Illuminate\Console\Command;
 use Illuminate\Console\View\Components\TwoColumnDetail;
-use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\File;
 use PDO;
 use Symfony\Component\Finder\Finder;
 use Workbench\App\Support\Normalizer;
@@ -156,106 +154,6 @@ class DatabaseImport extends Command
 
             yield $path => $file->getContents();
         }
-    }
-
-    private function writeCsv(string $filename, Collection $content): void
-    {
-        File::ensureDirectoryExists(
-            $path = $this->libPath('resources/static', $filename.'.csv')
-        );
-
-        $this->line(" - Writing: '<fg=yellow>{$path->substr($this->libPath()->length() + 1)}</>'");
-
-        $csv = [
-            array_keys($content[0]),
-        ];
-
-        foreach ($content as $value) {
-            if (isset($value['coordinates'])) {
-                $value['coordinates'] = null; // \json_encode($value['coordinates']);
-            }
-
-            $csv[] = array_values($value);
-        }
-
-        $fp = fopen((string) $path, 'w');
-
-        foreach ($csv as $line) {
-            fputcsv($fp, $line);
-        }
-
-        fclose($fp);
-    }
-
-    private function writeJson(string $filename, Collection $content): void
-    {
-        File::ensureDirectoryExists(
-            $path = $this->libPath('resources/static', $filename.'.json')
-        );
-
-        $this->line(" - Writing: '<fg=yellow>{$path->substr($this->libPath()->length() + 1)}</>'");
-
-        file_put_contents((string) $path, json_encode($content->map(function ($value) {
-            if (isset($value['coordinates'])) {
-                $value['coordinates'] = null;
-            }
-
-            return $value;
-        })->toArray(), JSON_PRETTY_PRINT));
-
-        if ($filename !== 'provinces') {
-            return;
-        }
-
-        foreach ($content as $value) {
-            if (! $value['latitude'] || ! $value['longitude'] || empty($value['coordinates'])) {
-                continue;
-            }
-
-            $this->writeGeoJson($filename, $value['code'].'/path', $value);
-        }
-    }
-
-    private function writeGeoJson(string $kind, string $filename, array $value): void
-    {
-        File::ensureDirectoryExists(
-            $path = $this->libPath('resources/static', $filename.'.geojson')
-        );
-
-        $this->line(" - Writing: '<fg=yellow>{$path->substr($this->libPath()->length() + 1)}</>'");
-
-        file_put_contents((string) $path, json_encode([
-            'type' => 'FeatureCollection',
-            'features' => [
-                [
-                    'type' => 'Feature',
-                    'properties' => [
-                        'code' => $value['code'],
-                        'kind' => $kind,
-                        'name' => $value['name'],
-                    ],
-                    'geometry' => [
-                        'type' => 'Point',
-                        'coordinates' => [
-                            $value['longitude'],
-                            $value['latitude'],
-                        ],
-                    ],
-                ],
-                [
-                    'type' => 'Feature',
-                    'properties' => [
-                        'code' => $value['code'],
-                        'kind' => $kind,
-                        'name' => $value['name'],
-                    ],
-                    'geometry' => [
-                        'type' => 'MultiPolygon',
-                        'coordinates' => $value['coordinates'],
-                    ],
-                ],
-            ],
-        ]));
     }
 
     /**

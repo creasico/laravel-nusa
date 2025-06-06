@@ -105,12 +105,11 @@ class Normalizer
 
     private function normalizeCoordinates(?array $arr)
     {
-        return null;
-        // if (! $arr) {
-        //     return null;
-        // }
+        if (! $arr) {
+            return null;
+        }
 
-        // return json_encode($this->swapCoordinate($arr));
+        return json_encode($this->swapCoordinate($arr));
     }
 
     /**
