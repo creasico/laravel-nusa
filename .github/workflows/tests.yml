@@ -95,10 +95,18 @@ jobs:
           composer require "laravel/framework=${{ matrix.laravel }}" --no-update
           composer update --prefer-dist --no-interaction --no-progress
 
-      - name: Restore static resources
-        uses: actions/download-artifact@v4
+      - name: Download static resources
+        uses: dawidd6/action-download-artifact@v10
         with:
+          # branch: main
           name: static-resources
+          # path: tests
+          if_no_artifact_found: warn
+
+      # - name: Restore static resources
+      #   uses: actions/download-artifact@v4
+      #   with:
+      #     name: static-resources
 
       - name: Run migrations
         run: |
