@@ -1,27 +1,94 @@
 name: Tests
 
 on:
-  workflow_run:
-    workflows: [Prepare]
-    types:
-      - completed
-  # schedule: # scheduled to run at 23.00 on Saturday (UTC), means 6.00 on Monday (WIB)
-  #   - cron: '0 23 * * 6'
-  # pull_request:
-  #   branches: [main]
-  # push:
-  #   branches: [main]
-  #   paths: ['.github/**.yml', 'src/*', 'tests/*']
+  schedule: # scheduled to run at 23.00 on Saturday (UTC), means 6.00 on Monday (WIB)
+    - cron: '0 23 * * 6'
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+    # paths: ['.github/**.yml', 'src/*', 'tests/*']
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
+  configs:
+    name: Configure
+    uses: projek-xyz/actions/.github/workflows/configure.yml@main
+    with:
+      php-version: 8.2
+      laravel-version: 10.x
+    secrets:
+      CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
+
+  upstream:
+    name: Upstream Database
+    runs-on: ubuntu-latest
+    needs: configs
+    env:
+      DB_USERNAME: root
+      DB_PASSWORD: root
+      DB_DATABASE: ${{ github.repository_owner }}
+      UPSTREAM_DB_DATABASE: nusantara
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+
+      - name: Setup MySQL
+        run: |
+          sudo /etc/init.d/mysql start
+          mysql -e 'CREATE DATABASE ${{ env.DB_DATABASE }};' -u${{ env.DB_USERNAME }} -p${{ env.DB_PASSWORD }}
+          mysql -e 'CREATE DATABASE ${{ env.UPSTREAM_DB_DATABASE }};' -u${{ env.DB_USERNAME }} -p${{ env.DB_PASSWORD }}
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: 8.2
+          tools: composer:v2
+
+      - name: Cache Composer dependencies
+        uses: actions/cache@v4
+        with:
+          path: ${{ needs.configs.outputs.composer-cache }}
+          key: ${{ needs.configs.outputs.composer-cache-key }}-composer-${{ hashFiles('**/composer.lock') }}
+          restore-keys: ${{ needs.configs.outputs.composer-cache-key }}-composer-
+
+      - name: Install dependencies
+        if: ${{ github.event.action != 'synchronize' }}
+        run: composer update --prefer-dist --no-interaction --no-progress
+
+      - name: Import databases
+        if: ${{ github.event.action != 'synchronize' }}
+        env:
+          COLUMNS: 100
+        run: ./vendor/bin/testbench nusa:import --fresh --ansi
+
+      - name: Store Embedded Database
+        if: ${{ github.event.action != 'synchronize' && needs.configs.outputs.target-branch == 'main' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: embedded-database
+          path: |
+            database/nusa.sqlite
+
+      - name: Store Embedded Database (PR)
+        if: ${{ github.event.action != 'synchronize' && needs.configs.outputs.target-branch != 'main' }}
+        uses: actions/upload-artifact@v4
+        with:
+          retention-days: 14
+          name: embedded-database-pr
+          path: |
+            database/nusa.*.sqlite
+
   tests:
     name: Test on PHP ${{ matrix.php }} Laravel ${{ matrix.laravel }} DB ${{ matrix.db }}
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
+    needs: [configs, upstream]
     env:
       DB_CONNECTION: ${{ matrix.db }}
       DB_DATABASE: ${{ github.repository_owner }}
@@ -61,13 +128,13 @@ jobs:
       fail-fast: false
       matrix:
         db: [mysql, pgsql, sqlite]
+        laravel: [10.x, 11.x, 12.x]
+        # php: [8.2, 8.3, 8.4]
         include:
           - php: 8.4
             laravel: 12.x
           - php: 8.3
             laravel: 11.x
-          - php: 8.2
-            laravel: 10.x
 
     steps:
       - name: Checkout
@@ -85,22 +152,12 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.PAT }}
 
-      - name: Composer Caches
-        id: composer
-        env:
-          LARAVEL_VERSION: ${{ matrix.laravel }}
-          COMPOSER_CACHE_KEY: php-${{ matrix.php }}
-        run: |
-          if ! [ -z "${LARAVEL_VERSION}" ]; then COMPOSER_CACHE_KEY="${COMPOSER_CACHE_KEY}-l${LARAVEL_VERSION}"; fi
-          echo "cache-dir=$(composer config cache-files-dir)" >> $GITHUB_OUTPUT
-          echo "cache-key=${COMPOSER_CACHE_KEY}" >> $GITHUB_OUTPUT
-
       - name: Cache dependencies
         uses: actions/cache@v4
         with:
-          path: ${{ steps.composer.outputs.cache-dir }}
-          key: ${{ steps.composer.outputs.cache-key }}-composer-${{ hashFiles('**/composer.lock') }}
-          restore-keys: ${{ steps.composer.outputs.cache-key }}-composer-
+          path: ${{ needs.configs.outputs.composer-cache }}
+          key: ${{ needs.configs.outputs.composer-cache-key }}-composer-${{ hashFiles('**/composer.lock') }}
+          restore-keys: ${{ needs.configs.outputs.composer-cache-key }}-composer-
 
       - name: Install dependencies
         run: |
