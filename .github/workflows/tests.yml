@@ -85,8 +85,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.PAT }}
 
-      - name: Composer
-        if: steps.environment.outputs.has-php == '1'
+      - name: Composer Caches
         id: composer
         env:
           LARAVEL_VERSION: ${{ matrix.laravel }}
@@ -96,7 +95,7 @@ jobs:
           echo "cache-dir=$(composer config cache-files-dir)" >> $GITHUB_OUTPUT
           echo "cache-key=${COMPOSER_CACHE_KEY}" >> $GITHUB_OUTPUT
 
-      - name: Cache Composer dependencies
+      - name: Cache dependencies
         uses: actions/cache@v4
         with:
           path: ${{ steps.composer.outputs.cache-dir }}
@@ -108,17 +107,12 @@ jobs:
           composer require "laravel/framework=${{ matrix.laravel }}" --no-update
           composer update --prefer-dist --no-interaction --no-progress
 
-      - name: Download static resources
+      - name: Download Embedded Databases
         uses: dawidd6/action-download-artifact@v10
         with:
-          # branch: ${{ github.event.workflow_run.head_branch }}
-          name: static-resources
+          name: embedded-database
+          path: database
           if_no_artifact_found: warn
-
-      # - name: Restore static resources
-      #   uses: actions/download-artifact@v4
-      #   with:
-      #     name: static-resources
 
       - name: Run migrations
         run: |
@@ -147,13 +141,13 @@ jobs:
           name: test-reports-PHP${{ matrix.php }}-L${{ matrix.laravel }}-${{ matrix.db }}
           path: tests/reports/codeclimate.*.json
 
-  reports:
-    name: Report Test Coverages
-    needs: [configs, tests]
-    if: needs.configs.outputs.should-reports == '1'
-    uses: projek-xyz/actions/.github/workflows/report.yml@main
-    secrets:
-      CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
-    with:
-      has-coveralls: ${{ needs.configs.outputs.has-coveralls == '1' }}
-      has-codeclimate: ${{ needs.configs.outputs.has-codeclimate == '1' }}
+  # reports:
+  #   name: Report Test Coverages
+  #   needs: [configs, tests]
+  #   if: needs.configs.outputs.should-reports == '1'
+  #   uses: projek-xyz/actions/.github/workflows/report.yml@main
+  #   secrets:
+  #     CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
+  #   with:
+  #     has-coveralls: ${{ needs.configs.outputs.has-coveralls == '1' }}
+  #     has-codeclimate: ${{ needs.configs.outputs.has-codeclimate == '1' }}

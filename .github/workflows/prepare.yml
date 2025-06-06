@@ -66,11 +66,10 @@ jobs:
           COLUMNS: 120
         run: ./vendor/bin/testbench nusa:import --fresh --ansi
 
-      - name: Store static resources
+      - name: Store Embedded Database
         uses: actions/upload-artifact@v4
         with:
           retention-days: 14
-          name: static-resources
+          name: embedded-database
           path: |
             database/nusa.*.sqlite
-            resources/static/**
