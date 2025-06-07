@@ -162,7 +162,7 @@ jobs:
       - name: Download Embedded Databases
         uses: dawidd6/action-download-artifact@v10
         with:
-          name: embedded-database
+          name: embedded-database-pr
           path: database
           if_no_artifact_found: warn
 
