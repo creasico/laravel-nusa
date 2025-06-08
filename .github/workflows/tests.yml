@@ -51,8 +51,10 @@ jobs:
         uses: actions/cache@v4
         with:
           path: database/*.sqlite
-          key: upstream-database_${{ needs.configs.outputs.target-branch }}
-          restore-keys: upstream-database_
+          key: upstream-database_${{ needs.configs.outputs.target-branch }}_${{ hashFiles('/workbench/**/*.sql') }}
+          restore-keys: |
+            upstream-database_${{ needs.configs.outputs.target-branch }}_
+            upstream-database_
 
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
@@ -158,8 +160,10 @@ jobs:
         uses: actions/cache@v4
         with:
           path: database/*.sqlite
-          key: upstream-database_${{ needs.configs.outputs.target-branch }}
-          restore-keys: upstream-database_
+          key: upstream-database_${{ needs.configs.outputs.target-branch }}_${{ hashFiles('/workbench/**/*.sql') }}
+          restore-keys: |
+            upstream-database_${{ needs.configs.outputs.target-branch }}_
+            upstream-database_
 
       - name: Install dependencies
         run: |
