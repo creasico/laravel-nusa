@@ -109,9 +109,8 @@ jobs:
         uses: dawidd6/action-download-artifact@v10
         with:
           if_no_artifact_found: warn
-          name: imported-database
+          name: imported-database_${{ needs.configs.outputs.target-branch }}
           path: database
-          ref: ${{ needs.configs.outputs.target-branch }}
           workflow_search: true
 
       - name: Install dependencies
