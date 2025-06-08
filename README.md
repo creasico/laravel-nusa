@@ -1,6 +1,6 @@
 [![Version](https://img.shields.io/packagist/v/creasi/laravel-nusa?style=flat-square)](https://packagist.org/packages/creasi/laravel-nusa)
 [![License](https://img.shields.io/github/license/creasico/laravel-nusa?style=flat-square)](https://github.com/creasico/laravel-nusa/blob/main/LICENSE)
-[![Actions Status](https://img.shields.io/github/actions/workflow/status/creasico/laravel-nusa/test.yml?branch=main&style=flat-square)](https://github.com/creasico/laravel-nusa/actions)
+[![Actions Status](https://img.shields.io/github/actions/workflow/status/creasico/laravel-nusa/tests.yml?branch=main&style=flat-square)](https://github.com/creasico/laravel-nusa/actions)
 
 # Creasi Nusa
 
