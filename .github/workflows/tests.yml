@@ -42,16 +42,15 @@ jobs:
       - name: Setup MySQL
         run: |
           sudo /etc/init.d/mysql start
-          mysql -e 'CREATE DATABASE ${{ env.DB_DATABASE }};' -u${{ env.DB_USERNAME }} -p${{ env.DB_PASSWORD }}
-          mysql -e 'CREATE DATABASE ${{ env.UPSTREAM_DB_DATABASE }};' -u${{ env.DB_USERNAME }} -p${{ env.DB_PASSWORD }}
-          git submodule status
+          mysql -e "CREATE DATABASE $DB_DATABASE;" -u$DB_USERNAME -p$DB_PASSWORD
+          mysql -e "CREATE DATABASE $UPSTREAM_DB_DATABASE;" -u$DB_USERNAME -p$DB_PASSWORD
 
       - name: Cache upstream
         id: upstream
         uses: actions/cache@v4
         with:
           path: database/*.sqlite
-          key: upstream-database_${{ needs.configs.outputs.target-branch }}_${{ hashFiles('/workbench/**/*.sql') }}
+          key: upstream-database_${{ needs.configs.outputs.target-branch }}_${{ hashFiles('**/*.sql') }}
           restore-keys: |
             upstream-database_${{ needs.configs.outputs.target-branch }}_
             upstream-database_
@@ -148,6 +147,16 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.PAT }}
 
+      - name: Cache upstream
+        id: upstream
+        uses: actions/cache@v4
+        with:
+          path: database/*.sqlite
+          key: upstream-database_${{ needs.configs.outputs.target-branch }}_${{ hashFiles('**/*.sql') }}
+          restore-keys: |
+            upstream-database_${{ needs.configs.outputs.target-branch }}_
+            upstream-database_
+
       - name: Cache dependencies
         uses: actions/cache@v4
         with:
@@ -155,23 +164,14 @@ jobs:
           key: php-${{ matrix.php }}-l${{ matrix.laravel }}-composer-${{ hashFiles('**/composer.lock') }}
           restore-keys: php-${{ matrix.php }}-l${{ matrix.laravel }}-composer-
 
-      - name: Cache upstream
-        id: upstream
-        uses: actions/cache@v4
-        with:
-          path: database/*.sqlite
-          key: upstream-database_${{ needs.configs.outputs.target-branch }}_${{ hashFiles('/workbench/**/*.sql') }}
-          restore-keys: |
-            upstream-database_${{ needs.configs.outputs.target-branch }}_
-            upstream-database_
-
       - name: Install dependencies
         run: |
           composer require "laravel/framework=${{ matrix.laravel }}" --no-update
           composer update --prefer-dist --no-interaction --no-progress
-          ls -lah database
 
       - name: Run tests
+        env:
+          COLUMNS: 100
         run: |
           ./vendor/bin/testbench migrate --ansi
           ./vendor/bin/testbench package:test --ansi --coverage
