@@ -25,65 +25,13 @@ jobs:
 
   upstream:
     name: Upstream Database
-    runs-on: ubuntu-latest
+    uses: ./.github/workflows/upstream.yml
     needs: configs
-    env:
-      DB_USERNAME: root
-      DB_PASSWORD: root
-      DB_DATABASE: ${{ github.repository_owner }}
-      UPSTREAM_DB_DATABASE: nusantara
-
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          submodules: true
-
-      - name: Setup MySQL
-        run: |
-          sudo /etc/init.d/mysql start
-          mysql -e 'CREATE DATABASE ${{ env.DB_DATABASE }};' -u${{ env.DB_USERNAME }} -p${{ env.DB_PASSWORD }}
-          mysql -e 'CREATE DATABASE ${{ env.UPSTREAM_DB_DATABASE }};' -u${{ env.DB_USERNAME }} -p${{ env.DB_PASSWORD }}
-
-      - name: Setup PHP
-        uses: shivammathur/setup-php@v2
-        with:
-          php-version: 8.2
-          tools: composer:v2
-
-      - name: Cache Composer dependencies
-        uses: actions/cache@v4
-        with:
-          path: ${{ needs.configs.outputs.composer-cache }}
-          key: ${{ needs.configs.outputs.composer-cache-key }}-composer-${{ hashFiles('**/composer.lock') }}
-          restore-keys: ${{ needs.configs.outputs.composer-cache-key }}-composer-
-
-      - name: Install dependencies
-        if: ${{ github.event.action != 'synchronize' }}
-        run: composer update --prefer-dist --no-interaction --no-progress
-
-      - name: Import databases
-        if: ${{ github.event.action != 'synchronize' }}
-        env:
-          COLUMNS: 100
-        run: ./vendor/bin/testbench nusa:import --fresh --ansi
-
-      - name: Store Embedded Database
-        if: ${{ github.event.action != 'synchronize' && needs.configs.outputs.target-branch == 'main' }}
-        uses: actions/upload-artifact@v4
-        with:
-          name: embedded-database
-          path: |
-            database/nusa.sqlite
-
-      - name: Store Embedded Database (PR)
-        if: ${{ github.event.action != 'synchronize' && needs.configs.outputs.target-branch != 'main' }}
-        uses: actions/upload-artifact@v4
-        with:
-          retention-days: 14
-          name: embedded-database-pr
-          path: |
-            database/nusa.*.sqlite
+    with:
+      branch: ${{ needs.configs.outputs.target-branch }}
+      composer-cache-dir: ${{ needs.configs.outputs.composer-cache-dir }}
+      composer-cache-key: ${{ needs.configs.outputs.composer-cache-key }}
+      php-version: 8.2
 
   tests:
     name: Test on PHP ${{ matrix.php }} Laravel ${{ matrix.laravel }} DB ${{ matrix.db }}
@@ -129,12 +77,12 @@ jobs:
       matrix:
         db: [mysql, pgsql, sqlite]
         laravel: [10.x, 11.x, 12.x]
-        # php: [8.2, 8.3, 8.4]
+        php: [8.4]
         include:
-          - php: 8.4
-            laravel: 12.x
           - php: 8.3
             laravel: 11.x
+          - php: 8.2
+            laravel: 10.x
 
     steps:
       - name: Checkout
@@ -153,26 +101,27 @@ jobs:
       - name: Cache dependencies
         uses: actions/cache@v4
         with:
-          path: ${{ needs.configs.outputs.composer-cache }}
-          key: ${{ needs.configs.outputs.composer-cache-key }}-composer-${{ hashFiles('**/composer.lock') }}
-          restore-keys: ${{ needs.configs.outputs.composer-cache-key }}-composer-
+          path: ${{ needs.configs.outputs.composer-cache-dir }}
+          key: php-${{ matrix.php }}-l${{ matrix.laravel }}-composer-${{ hashFiles('**/composer.lock') }}
+          restore-keys: php-${{ matrix.php }}-l${{ matrix.laravel }}-composer-
 
       - name: Download Embedded Databases
         uses: dawidd6/action-download-artifact@v10
         with:
-          name: embedded-database-pr
-          path: database
           if_no_artifact_found: warn
+          name: imported-database
+          path: database
+          ref: ${{ needs.configs.outputs.target-branch }}
           workflow_search: true
 
       - name: Install dependencies
         run: |
           composer require "laravel/framework=${{ matrix.laravel }}" --no-update
           composer update --prefer-dist --no-interaction --no-progress
+          ls -lah database
 
       - name: Run tests
         run: |
-          ls -lah database
           ./vendor/bin/testbench migrate --ansi
           ./vendor/bin/testbench package:test --ansi --coverage
 
