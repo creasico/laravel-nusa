@@ -29,7 +29,7 @@ class ServiceProvider extends IlluminateServiceProvider
         config([
             'database.connections.nusa' => array_merge([
                 'driver' => 'sqlite',
-                'database' => $this->nusaDatabasePath(),
+                'database' => realpath(self::LIB_PATH.'/database/nusa.sqlite'),
                 'foreign_key_constraints' => true,
             ], config('database.connections.nusa', [])),
         ]);
@@ -75,21 +75,10 @@ class ServiceProvider extends IlluminateServiceProvider
             return $app->make($addressable);
         });
 
-        $this->app->bind(Contracts\Province::class, function ($app) {
-            return $app->make(Models\Province::class);
-        });
-
-        $this->app->bind(Contracts\Regency::class, function ($app) {
-            return $app->make(Models\Regency::class);
-        });
-
-        $this->app->bind(Contracts\District::class, function ($app) {
-            return $app->make(Models\District::class);
-        });
-
-        $this->app->bind(Contracts\Village::class, function ($app) {
-            return $app->make(Models\Village::class);
-        });
+        $this->app->bind(Contracts\Province::class, Models\Province::class);
+        $this->app->bind(Contracts\Regency::class, Models\Regency::class);
+        $this->app->bind(Contracts\District::class, Models\District::class);
+        $this->app->bind(Contracts\Village::class, Models\Village::class);
     }
 
     /**
@@ -99,36 +88,13 @@ class ServiceProvider extends IlluminateServiceProvider
      */
     protected function getMigrationFileName(string $migrationFileName): string
     {
-        $timestamp = date('Y_m_d_His');
-        $filesystem = $this->app->make(Filesystem::class);
+        $filesystem = app()->make(Filesystem::class);
+        $migrationPath = app()->databasePath().DIRECTORY_SEPARATOR.'migrations'.DIRECTORY_SEPARATOR;
 
-        return Collection::make([$this->app->databasePath().DIRECTORY_SEPARATOR.'migrations'.DIRECTORY_SEPARATOR])
+        return Collection::make([$migrationPath])
             ->flatMap(fn ($path) => $filesystem->glob($path.'*_'.$migrationFileName))
-            ->push($this->app->databasePath()."/migrations/{$timestamp}_{$migrationFileName}")
+            ->push($migrationPath.date('Y_m_d_His').'_'.$migrationFileName)
             ->first();
-    }
-
-    private function nusaDatabasePath(): string
-    {
-        $path = '/database/nusa.sqlite';
-
-        if (! file_exists(self::LIB_PATH.'/vendor/autoload.php')) {
-            return realpath(self::LIB_PATH.$path);
-        }
-
-        $branch = trim(shell_exec('git rev-parse --abbrev-ref HEAD'));
-
-        if ($branch !== 'main') {
-            $branch = (string) str($branch)->slug();
-
-            $path = "/database/nusa.{$branch}.sqlite";
-        }
-
-        if (! file_exists(self::LIB_PATH.$path)) {
-            touch(self::LIB_PATH.$path);
-        }
-
-        return realpath(self::LIB_PATH.$path);
     }
 
     public function provides()
