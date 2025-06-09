@@ -15,10 +15,17 @@ class WorkbenchServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        if (app()->runningInConsole()) {
-            $nusa = config('database.connections.nusa', []);
+        $nusa = config('database.connections.nusa');
+        $databaseDir = \dirname($nusa['database']);
 
-            $this->loadMigrationsFrom(\dirname($nusa['database']).'/migrations');
+        if (app()->runningInConsole()) {
+            $this->loadMigrationsFrom($databaseDir.'/migrations');
+        }
+
+        $path = "{$databaseDir}/nusa.{$this->currentBranch()}.sqlite";
+
+        if (! file_exists($path)) {
+            touch($path);
         }
 
         config([
@@ -26,6 +33,9 @@ class WorkbenchServiceProvider extends ServiceProvider
                 'locale' => 'id',
                 'faker_locale' => 'id_ID',
             ],
+            'database.connections.nusa' => array_merge($nusa, [
+                'database' => $path,
+            ]),
             'database.connections.upstream' => [
                 'driver' => 'mysql',
                 'host' => env('UPSTREAM_DB_HOST', env('DB_HOST', '127.0.0.1')),
@@ -67,5 +77,16 @@ class WorkbenchServiceProvider extends ServiceProvider
     private function mergeConfig(Repository $config, string $key, array $value)
     {
         $config->set($key, array_merge($config->get($key, []), $value));
+    }
+
+    private function currentBranch(): string
+    {
+        $branch = env('GIT_BRANCH');
+
+        if (! $branch) {
+            $branch = trim(shell_exec('git rev-parse --abbrev-ref HEAD'));
+        }
+
+        return (string) str(str_replace('/', '_', $branch))->slug();
     }
 }

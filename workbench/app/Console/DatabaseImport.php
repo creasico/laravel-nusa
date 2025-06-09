@@ -40,7 +40,9 @@ class DatabaseImport extends Command
             }
         });
 
-        $this->refreshDatabase();
+        if ($this->option('fresh')) {
+            $this->refreshDatabase();
+        }
 
         $this->group('Seeding from upstream');
 
@@ -62,20 +64,14 @@ class DatabaseImport extends Command
         $this->endGroup();
     }
 
-    private function refreshDatabase(): bool
+    private function refreshDatabase(): void
     {
-        if (! ($fresh = $this->option('fresh'))) {
-            return false;
-        }
-
         $this->group('Recreating database');
 
         $this->recreateDatabaseFile();
 
         $this->callSilent('vendor:publish', ['--tag' => 'creasi-migrations']);
         $this->call('migrate:fresh');
-
-        return $fresh;
     }
 
     private function fetchAll(): array
@@ -161,7 +157,7 @@ class DatabaseImport extends Command
      */
     private function upstream(string|\Closure|null $statement = null)
     {
-        $config = config('database.connections')['upstream'];
+        $config = config('database.connections.upstream', []);
 
         $conn = new PDO(
             "mysql:dbname={$config['database']};host={$config['host']}",
@@ -197,7 +193,7 @@ class DatabaseImport extends Command
 
     private function recreateDatabaseFile(): void
     {
-        $path = config('database.connections.nusa', [])['database'];
+        $path = config('database.connections.nusa.database');
 
         if (\file_exists($path)) {
             \unlink($path);

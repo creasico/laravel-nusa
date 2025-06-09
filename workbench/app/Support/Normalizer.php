@@ -12,6 +12,8 @@ class Normalizer
 
     public static array $invalid = [];
 
+    public static bool $dist = false;
+
     public function __construct(
         public readonly string $code,
         public readonly string $name,
