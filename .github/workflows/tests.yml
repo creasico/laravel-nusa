@@ -169,11 +169,11 @@ jobs:
         run: |
           composer require "laravel/framework=${{ matrix.laravel }}" --no-update
           composer update --prefer-dist --no-interaction --no-progress
-          ls -lah database
 
       - name: Run tests
         env:
           COLUMNS: 100
+          GIT_BRANCH: ${{ needs.configs.outputs.target-branch }}
         run: |
           ./vendor/bin/testbench migrate --ansi
           ./vendor/bin/testbench package:test --ansi --coverage
