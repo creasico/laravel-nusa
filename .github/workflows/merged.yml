@@ -1,0 +1,84 @@
+name: Merged
+
+on:
+  workflow_run:
+    branches: [main]
+    types: [completed]
+    workflows: [Tests]
+
+jobs:
+  configs:
+    name: Configure
+    uses: projek-xyz/actions/.github/workflows/configure.yml@main
+    with:
+      php-version: 8.2
+      laravel-version: 10.x
+
+  distribution:
+    name: Create Distribution Database
+    runs-on: ubuntu-latest
+    needs: [configs]
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    env:
+      DB_USERNAME: root
+      DB_PASSWORD: root
+      DB_DATABASE: ${{ github.repository_owner }}
+      UPSTREAM_DB_DATABASE: nusantara
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: 8.2
+          tools: composer:v2
+
+      - name: Cache upstream
+        id: upstream
+        uses: actions/cache@v4
+        with:
+          path: database/nusa.*.sqlite
+          key: upstream-database_${{ needs.configs.outputs.target-branch }}_${{ hashFiles('**/*.sql') }}
+          restore-keys: |
+            upstream-database_${{ needs.configs.outputs.target-branch }}_
+            upstream-database_
+
+      - name: Cache dependencies
+        uses: actions/cache@v4
+        with:
+          path: ${{ needs.configs.outputs.composer-cache-dir }}
+          key: ${{ needs.configs.outputs.composer-cache-key }}-composer-${{ hashFiles('**/composer.lock') }}
+          restore-keys: ${{ needs.configs.outputs.composer-cache-key }}-composer-
+
+      - name: Install dependencies
+        run: composer update --prefer-dist --no-interaction --no-progress
+
+      - name: Create distribution database
+        id: changes
+        env:
+          COLUMNS: 100
+          GIT_BRANCH: ${{ needs.configs.outputs.target-branch }}
+        run: |
+          ./vendor/bin/testbench nusa:dist --force --ansi
+          ./.github/scripts/check-changes.sh
+
+      - name: Commit distribution database
+        if: steps.changes.outputs.dist-changed == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
+          COMMIT_AUTHOR: ${{ github.event.head_commit.author.name }}
+        run: ./.github/scripts/commit-changes.sh
+
+      - name: Create summary
+        if: always()
+        env:
+          COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
+          COMMIT_AUTHOR: ${{ github.event.head_commit.author.name }}
+          DIST_CHANGED: ${{ steps.changes.outputs.dist-changed }}
+          DEV_CHANGED: ${{ steps.changes.outputs.dev-changed }}
+        run: ./.github/scripts/create-summary.sh

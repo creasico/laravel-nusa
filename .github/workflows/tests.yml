@@ -49,7 +49,7 @@ jobs:
         id: upstream
         uses: actions/cache@v4
         with:
-          path: database/*.sqlite
+          path: database/nusa.*.sqlite
           key: upstream-database_${{ needs.configs.outputs.target-branch }}_${{ hashFiles('**/*.sql') }}
           restore-keys: |
             upstream-database_${{ needs.configs.outputs.target-branch }}_
@@ -57,27 +57,28 @@ jobs:
 
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
-        if: ${{ steps.upstream.outputs.cache-hit != 'true' }}
+        if: ${{ steps.upstream.outputs.cache-hit == '' }}
         with:
           php-version: 8.2
           tools: composer:v2
 
       - name: Cache dependencies
         uses: actions/cache@v4
-        if: ${{ steps.upstream.outputs.cache-hit != 'true' }}
+        if: ${{ steps.upstream.outputs.cache-hit == '' }}
         with:
           path: ${{ needs.configs.outputs.composer-cache-dir }}
           key: ${{ needs.configs.outputs.composer-cache-key }}-composer-${{ hashFiles('**/composer.lock') }}
           restore-keys: ${{ needs.configs.outputs.composer-cache-key }}-composer-
 
       - name: Install dependencies
-        if: ${{ steps.upstream.outputs.cache-hit != 'true' }}
+        if: ${{ steps.upstream.outputs.cache-hit == '' }}
         run: composer update --prefer-dist --no-interaction --no-progress
 
       - name: Import databases
-        if: ${{ steps.upstream.outputs.cache-hit != 'true' }}
+        if: ${{ steps.upstream.outputs.cache-hit == '' }}
         env:
           COLUMNS: 100
+          GIT_BRANCH: ${{ needs.configs.outputs.target-branch }}
         run: ./vendor/bin/testbench nusa:import --fresh --ansi
 
   tests:
@@ -151,7 +152,7 @@ jobs:
         id: upstream
         uses: actions/cache@v4
         with:
-          path: database/*.sqlite
+          path: database/nusa.*.sqlite
           key: upstream-database_${{ needs.configs.outputs.target-branch }}_${{ hashFiles('**/*.sql') }}
           restore-keys: |
             upstream-database_${{ needs.configs.outputs.target-branch }}_
@@ -172,6 +173,7 @@ jobs:
       - name: Run tests
         env:
           COLUMNS: 100
+          GIT_BRANCH: ${{ needs.configs.outputs.target-branch }}
         run: |
           ./vendor/bin/testbench migrate --ansi
           ./vendor/bin/testbench package:test --ansi --coverage
