@@ -947,6 +947,77 @@ composer test
 > - **Code Style**: This project uses [`Laravel Pint`](https://laravel.com/docs/pint) with `laravel` preset as coding standard, so make sure you follow the rules.
 > - Anytime you make a change on `workbench/.env` file, make sure to run `composer testbench:purge`.
 
+## GitHub Actions Workflows
+
+This project includes automated workflows for maintaining the Indonesian administrative database, especially when upstream data sources are updated by Dependabot.
+
+### Automated Distribution Database Updates
+
+When Dependabot updates the upstream submodules containing Indonesian administrative data, our workflows automatically:
+
+1. **Import fresh data** from updated submodules
+2. **Create distribution database** with coordinates removed for privacy
+3. **Commit updated databases** back to the repository
+4. **Upload artifacts** for backup and distribution
+
+### Workflow Files
+
+#### `merged.yml` - General Merge Handler
+- **Triggers**: All pushes to `main` branch
+- **Purpose**: Creates distribution database for any merge to main
+- Detects if the merge was from Dependabot and handles accordingly
+
+#### `dependabot-merged.yml` - Dependabot Specialist  
+- **Triggers**: Pushes to `main` affecting submodules or `.gitmodules`
+- **Purpose**: Handles submodule updates with fresh data import
+- Runs `nusa:import --fresh` and `nusa:dist --force` automatically
+
+### Database Files Managed
+
+- **Development Database**: `database/nusa.{branch-name}.sqlite` (~407MB with coordinates)
+- **Distribution Database**: `database/nusa.sqlite` (~10MB without coordinates)
+
+### Scripts
+
+All workflow logic is organized in reusable scripts in `.github/scripts/`:
+
+- `check-dependabot.sh` - Detects Dependabot updates
+- `update-databases.sh` - Handles database import and distribution creation
+- `check-changes.sh` - Analyzes database changes
+- `commit-changes.sh` - Commits changes with appropriate messages
+- `create-summary.sh` - Generates comprehensive workflow reports
+
+### Testing Workflows Locally
+
+You can test these workflows locally using [`act`](https://github.com/nektos/act):
+
+```bash
+# Install act (macOS)
+brew install act
+
+# List available workflows
+act -l --container-architecture linux/amd64
+
+# Test dependabot workflow (dry run)
+act push -W .github/workflows/dependabot-merged.yml --container-architecture linux/amd64 -n
+
+# Test main workflow
+act push -W .github/workflows/merged.yml --container-architecture linux/amd64 -n
+```
+
+### What Happens When Dependabot Updates Submodules
+
+1. Dependabot creates PR updating `workbench/submodules/cahyadsn-wilayah` (or other submodules)
+2. PR gets merged to main branch
+3. `dependabot-merged.yml` workflow triggers automatically
+4. Fresh upstream data import runs: `testbench nusa:import --fresh`
+5. Distribution database creation runs: `testbench nusa:dist --force`
+6. Updated databases are committed with detailed commit messages
+7. Database artifacts are uploaded for download/backup
+8. Comprehensive summary is generated with database statistics
+
+This ensures the distribution database stays current with upstream changes while maintaining data privacy by removing coordinate information.
+
 ## Credits
 - [cahyadsn/wilayah](https://github.com/cahyadsn/wilayah) [![License](https://img.shields.io/github/license/cahyadsn/wilayah?style=flat-square)](https://github.com/cahyadsn/wilayah/blob/master/LICENSE)
 - [cahyadsn/wilayah_kodepos](https://github.com/cahyadsn/wilayah_kodepos) [![License](https://img.shields.io/github/license/cahyadsn/wilayah_kodepos?style=flat-square)](https://github.com/cahyadsn/wilayah_kodepos/blob/master/LICENSE)
