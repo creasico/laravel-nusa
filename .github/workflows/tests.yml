@@ -167,6 +167,7 @@ jobs:
         run: |
           composer require "laravel/framework=${{ matrix.laravel }}" --no-update
           composer update --prefer-dist --no-interaction --no-progress
+          ls -lah database
 
       - name: Run tests
         env:
