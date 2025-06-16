@@ -62,7 +62,7 @@
         "upstream:up": [
             "Composer\\Config::disableProcessTimeout",
             "docker compose --env-file workbench/.env up -d",
-            "@php -r \"sleep(3);\"",
+            "@php -r \"sleep(5);\"",
             "testbench nusa:import --fresh"
         ],
         "upstream:down": [
