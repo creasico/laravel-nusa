@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.13](https://github.com/creasico/laravel-nusa/compare/v0.1.12...v0.1.13) (2025-07-02)
+
+
+### ⚠ BREAKING CHANGES
+
+* The area codes are no longer stored as numeric value.
+* refactor the way importing data from `upstream` (#120)
+
+### Features
+
+* add `coordinates` field ([#143](https://github.com/creasico/laravel-nusa/issues/143)) ([cef1b71](https://github.com/creasico/laravel-nusa/commit/cef1b717062fdeabf78f94b9bd5b8d819395c16d))
+* add `nusa:generate-static` command ([62ff7f1](https://github.com/creasico/laravel-nusa/commit/62ff7f170c13a402f33d3571218c05a795ca2c6f))
+* add ability to create sqlite file on branch other than `main` ([1fa131e](https://github.com/creasico/laravel-nusa/commit/1fa131e4e66263acdd5010fa122e3f23b395a300))
+* **ci:** rearrange actions workflows ([#144](https://github.com/creasico/laravel-nusa/issues/144)) ([d62e3d8](https://github.com/creasico/laravel-nusa/commit/d62e3d8ec094066820f0fd7171363306b01008cb))
+* **dev:** init `nusa:dist` command ([#147](https://github.com/creasico/laravel-nusa/issues/147)) ([ae00383](https://github.com/creasico/laravel-nusa/commit/ae003837c98a742ce5b106ad8855549d41859dfd))
+* refactor the way importing data from `upstream` ([#120](https://github.com/creasico/laravel-nusa/issues/120)) ([443e4e9](https://github.com/creasico/laravel-nusa/commit/443e4e95e4ebc66775f57c032f63c55cf9e46f3f))
+* update composer scripts to accommodate dev ([8efb4e7](https://github.com/creasico/laravel-nusa/commit/8efb4e7bd839cfd52db678127ef70d24b8cfd987))
+* use legal area code format ([#142](https://github.com/creasico/laravel-nusa/issues/142)) ([31915e5](https://github.com/creasico/laravel-nusa/commit/31915e518eb7bae5c60336270599088e13768cfe))
+
 ### [0.1.12](https://github.com/creasico/laravel-nusa/compare/v0.1.11...v0.1.12) (2025-03-13)
 
 
