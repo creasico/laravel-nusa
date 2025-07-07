@@ -4,7 +4,6 @@
     },
     "editor.formatOnSave": false,
     "files.associations": {
-        "*.css": "postcss",
         ".env": "dotenv",
         ".env.*": "dotenv"
     },
