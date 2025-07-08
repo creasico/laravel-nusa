@@ -71,7 +71,9 @@ jobs:
 
       - name: Install dependencies
         if: ${{ steps.upstream.outputs.cache-hit == '' }}
-        run: composer update --prefer-dist --no-interaction --no-progress
+        run: |
+          composer update --prefer-dist --no-interaction --no-progress
+          sudo apt-get install -y sqlite3-tools
 
       - name: Import databases
         if: ${{ steps.upstream.outputs.cache-hit == '' }}
