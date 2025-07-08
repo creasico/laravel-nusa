@@ -50,7 +50,7 @@ jobs:
 
       - name: Cache upstream
         id: upstream
-        uses: actions/cache@v4
+        uses: actions/cache/restore@v4
         with:
           path: |
             database/nusa.*.sqlite
@@ -93,6 +93,15 @@ jobs:
         run: |
           ls -lah database/*.sqlite
           vendor/bin/testbench nusa:stat --ansi
+
+      - name: Cache upstream
+        if: ${{ steps.stats.outputs.has-changes == '1' }}
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            database/nusa.*.sqlite
+            !database/nusa.head-full.sqlite
+          key: upstream-database_${{ needs.configs.outputs.target-branch }}_${{ hashFiles('**/*.sql') }}
 
   tests:
     name: Test on PHP ${{ matrix.php }} Laravel ${{ matrix.laravel }} DB ${{ matrix.db }}
