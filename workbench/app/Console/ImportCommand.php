@@ -6,8 +6,11 @@ namespace Workbench\App\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Console\View\Components\TwoColumnDetail;
+use Illuminate\Support\Facades\Concurrency;
 use Illuminate\Support\Facades\DB;
 use PDO;
+use PhpMyAdmin\SqlParser\Parser;
+use PhpMyAdmin\SqlParser\Statements\DeleteStatement;
 use Symfony\Component\Finder\Finder;
 use Workbench\App\Support\Normalizer;
 
@@ -36,7 +39,22 @@ class ImportCommand extends Command
             foreach ($files as $path => $query) {
                 $timer = $this->timer("Imported '<fg=yellow>{$path}</>'");
 
-                $conn->query($query);
+                if (str_contains($path, 'boundaries')) {
+                    $parser = new Parser($query);
+                    $tasks = [];
+
+                    foreach ($parser->statements as $statement) {
+                        if ($statement instanceof DeleteStatement) {
+                            continue;
+                        }
+
+                        $tasks[] = fn () => $conn->query((string) $statement);
+                    }
+
+                    Concurrency::driver('fork')->run($tasks);
+                } else {
+                    $conn->query($query);
+                }
 
                 $timer->stop();
             }
