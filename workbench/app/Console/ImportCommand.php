@@ -2,7 +2,6 @@
 
 namespace Workbench\App\Console;
 
-use Creasi\Nusa\Models;
 use Illuminate\Console\Command;
 use Illuminate\Console\View\Components\TwoColumnDetail;
 use Illuminate\Support\Facades\DB;
@@ -10,7 +9,7 @@ use PDO;
 use Symfony\Component\Finder\Finder;
 use Workbench\App\Support\Normalizer;
 
-class DatabaseImport extends Command
+class ImportCommand extends Command
 {
     use CommandHelpers;
 
@@ -179,16 +178,6 @@ class DatabaseImport extends Command
         $stmt = $conn->query($statement, PDO::FETCH_OBJ);
 
         return $stmt->fetchAll();
-    }
-
-    private function model(string $table)
-    {
-        return match ($table) {
-            'provinces' => Models\Province::query(),
-            'regencies' => Models\Regency::query(),
-            'districts' => Models\District::query(),
-            'villages' => Models\Village::query(),
-        };
     }
 
     private function recreateDatabaseFile(): void
