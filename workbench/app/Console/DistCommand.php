@@ -98,20 +98,16 @@ class DistCommand extends Command
         foreach ($this->models() as $table => $modelClass) {
             $this->line("Removing coordinates from {$table}...");
 
-            // Create a temporary model instance that uses the dist connection
-            $model = new $modelClass;
-            $model->setConnection('dist');
-
             // Update all records to set coordinates to empty string using raw query
-            $count = DB::connection('dist')->table($table)->update(['coordinates' => null]);
+            $count = $modelClass::resolveConnection('dist')
+                ->table($table)
+                ->update(['coordinates' => null]);
 
             $this->line("  → {$count} records updated");
         }
 
         // Compact the database to reclaim space
-        $this->line('Compacting database...');
         DB::connection('dist')->statement('VACUUM');
-        $this->line('Database compacted successfully.');
     }
 
     private function restoreFromBackup(string $backupPath, string $devPath): void
