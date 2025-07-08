@@ -46,12 +46,15 @@ trait CommandHelpers
             return;
         }
 
-        if ($this->runningInCI()) {
+        if ($ci = $this->runningInCI()) {
             $this->line('::endgroup::');
         }
 
         $this->groupStarted = false;
-        $this->line('');
+
+        if (! $ci) {
+            $this->line('');
+        }
     }
 
     private function runningInCI(): bool

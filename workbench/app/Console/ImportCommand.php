@@ -66,7 +66,7 @@ class ImportCommand extends Command
         $this->endGroup();
 
         if ($this->option('dist')) {
-            $this->call(DistCommand::class, ['--force']);
+            $this->call(DistCommand::class, ['--force' => true]);
         }
     }
 

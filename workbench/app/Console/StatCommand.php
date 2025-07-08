@@ -61,17 +61,13 @@ class StatCommand extends Command
                         }
 
                         foreach ($res as $field => $value) {
-                            if (! isset($changes[$i][$field])) {
+                            if (! array_key_exists($field, $changes[$i])) {
                                 continue;
                             }
 
                             $newValue = $changes[$i][$field];
 
-                            if ($newValue === 'NULL') {
-                                $newValue = null;
-                            }
-
-                            if ($newValue && in_array($field, ['latitude', 'longitude'], true)) {
+                            if (in_array($field, ['latitude', 'longitude'], true) && $newValue) {
                                 $newValue = (float) $newValue;
                             }
 
@@ -172,7 +168,7 @@ class StatCommand extends Command
 
         $this->endGroup();
 
-        if (env('GITHUB_OUTPUT')) {
+        if ($this->runningInCI()) {
             if ($hasChanges) {
                 exec('echo "has-changes=1" >> $GITHUB_OUTPUT');
             } else {
@@ -200,13 +196,10 @@ class StatCommand extends Command
 
         foreach ($parser->statements as $statement) {
             if ($statement instanceof InsertStatement) {
-                $reports['added'][$statement->into->dest->table][] = array_map(function ($value) {
-                    if ($value === 'NULL') {
-                        $value = null;
-                    }
-
-                    return $value;
-                }, $statement->values[0]->values);
+                $reports['added'][$statement->into->dest->table][] = array_map(
+                    [$this, 'sanitizeValue'],
+                    $statement->values[0]->values
+                );
 
                 continue;
             }
@@ -215,11 +208,11 @@ class StatCommand extends Command
                 [$field, $value] = explode('=', $statement->where[0]->expr, 2);
 
                 $changes = [
-                    $field => trim($value, "'"),
+                    $field => $this->sanitizeValue($value),
                 ];
 
                 foreach ($statement->set as $set) {
-                    $changes[$set->column] = trim($set->value, "'");
+                    $changes[$set->column] = $this->sanitizeValue($set->value);
                 }
 
                 $reports['changed'][$statement->tables[0]->expr][] = $changes;
@@ -231,7 +224,7 @@ class StatCommand extends Command
                 [$field, $value] = explode('=', $statement->where[0]->expr, 2);
 
                 $reports['deleted'][$statement->from[0]->table][] = [
-                    $field => trim($value, "'"),
+                    $field => $this->sanitizeValue($value),
                 ];
 
                 continue;
@@ -252,5 +245,16 @@ class StatCommand extends Command
         }
 
         return $output;
+    }
+
+    private function sanitizeValue(string $value): ?string
+    {
+        $value = trim($value, "'");
+
+        if ($value === 'NULL') {
+            $value = null;
+        }
+
+        return $value;
     }
 }
