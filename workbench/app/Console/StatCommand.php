@@ -28,6 +28,7 @@ class StatCommand extends Command
         $this->info('Database stats');
 
         $header = ['code', 'name'];
+        $hasChanges = false;
 
         foreach ($this->getDiffs() as $table => $diff) {
             $added = $changed = $moved = $deleted = [];
@@ -129,25 +130,39 @@ class StatCommand extends Command
             if ($added_count > 0) {
                 $this->info('Added');
                 $this->table($header, $added);
+
+                $hasChanges = true;
             }
 
             if ($deleted_count > 0) {
                 $this->info('Deleted');
                 $this->table($header, $deleted);
+
+                $hasChanges = true;
             }
 
             if ($moved_count > 0) {
                 $this->info('Moved');
                 $this->table($header, $moved);
+
+                $hasChanges = true;
             }
 
             if ($changed_count > 0) {
                 $this->info('Changed');
                 $this->table($columns, $changed);
+
+                $hasChanges = true;
             }
         }
 
         $this->endGroup();
+
+        if ($hasChanges) {
+            exec('echo "has-changes=1" >> $GITHUB_OUTPUT');
+        } else {
+            exec('echo "has-changes=0" >> $GITHUB_OUTPUT');
+        }
     }
 
     /**

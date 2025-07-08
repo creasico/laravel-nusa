@@ -62,19 +62,30 @@ jobs:
           restore-keys: ${{ needs.configs.outputs.composer-cache-key }}-composer-
 
       - name: Install dependencies
-        run: composer update --prefer-dist --no-interaction --no-progress
+        run: |
+          composer update --prefer-dist --no-interaction --no-progress
+          sudo apt-get install -y sqlite3-tools
 
-      - name: Create distribution database
-        id: changes
+      - name: Stat summary
+        id: stats
         env:
-          COLUMNS: 100
+          COLUMNS: 120
           GIT_BRANCH: ${{ needs.configs.outputs.target-branch }}
         run: |
-          ./vendor/bin/testbench nusa:dist --force --ansi
-          ./.github/scripts/check-changes.sh
+          ls -lah database/*.sqlite
+          vendor/bin/testbench nusa:stat --ansi
+
+      # - name: Create distribution database
+      #   id: changes
+      #   env:
+      #     COLUMNS: 100
+      #     GIT_BRANCH: ${{ needs.configs.outputs.target-branch }}
+      #   run: |
+      #     ./vendor/bin/testbench nusa:dist --force --ansi
+      #     ./.github/scripts/check-changes.sh
 
       - name: Commit distribution database
-        if: steps.changes.outputs.dist-changed == 'true'
+        if: steps.stats.outputs.has-changes == '1'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
