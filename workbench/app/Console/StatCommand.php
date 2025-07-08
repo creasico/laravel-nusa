@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Workbench\App\Console;
 
 use Creasi\Nusa\Contracts\Province;
@@ -50,8 +52,8 @@ class StatCommand extends Command
                         $res = [
                             'code' => $row->code,
                             'name' => $row->name,
-                            'latitude' => $row->latitude ? (float) trim($row->latitude) : null,
-                            'longitude' => $row->longitude ? (float) trim($row->longitude) : null,
+                            'latitude' => $row->latitude ? (float) $row->latitude : null,
+                            'longitude' => $row->longitude ? (float) $row->longitude : null,
                         ];
 
                         if ($table === 'villages') {
@@ -65,19 +67,27 @@ class StatCommand extends Command
 
                             $newValue = $changes[$i][$field];
 
-                            if (in_array($field, ['latitude', 'longitude'], true)) {
-                                $newValue = (float) trim($newValue);
+                            if ($newValue && in_array($field, ['latitude', 'longitude'], true)) {
+                                $newValue = (float) $newValue;
                             }
 
                             if ($newValue === $res[$field]) {
                                 continue;
                             }
 
-                            if (is_null($res[$field])) {
+                            if (is_null($res[$field]) && $newValue) {
                                 $res[$field] = "<fg=green>{$newValue}</>";
-                            } else {
-                                $res[$field] .= " <fg=yellow>→</> {$newValue}";
+
+                                continue;
                             }
+
+                            if ($res[$field] && is_null($newValue)) {
+                                $res[$field] = "<fg=red>{$res[$field]}</>";
+
+                                continue;
+                            }
+
+                            $res[$field] .= " <fg=yellow>→</> {$newValue}";
                         }
 
                         return $res;
@@ -158,10 +168,12 @@ class StatCommand extends Command
 
         $this->endGroup();
 
-        if ($hasChanges) {
-            exec('echo "has-changes=1" >> $GITHUB_OUTPUT');
-        } else {
-            exec('echo "has-changes=0" >> $GITHUB_OUTPUT');
+        if (env('GITHUB_OUTPUT')) {
+            if ($hasChanges) {
+                exec('echo "has-changes=1" >> $GITHUB_OUTPUT');
+            } else {
+                exec('echo "has-changes=0" >> $GITHUB_OUTPUT');
+            }
         }
     }
 

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Workbench\App\Console;
 
 use Creasi\Nusa\Contracts\Province;
