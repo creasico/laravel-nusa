@@ -78,7 +78,7 @@ jobs:
           sudo apt-get install -y sqlite3-tools
 
       - name: Import databases
-        if: ${{ steps.upstream.outputs.cache-hit == '' }}
+        if: ${{ steps.upstream.outputs.cache-hit == '' || needs.configs.outputs.target-branch == 'main' }}
         env:
           COLUMNS: 100
           GIT_BRANCH: ${{ needs.configs.outputs.target-branch }}
