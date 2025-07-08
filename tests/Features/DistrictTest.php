@@ -37,7 +37,7 @@ class DistrictTest extends TestCase
     public static function possibleSearchVillages(): array
     {
         return [
-            'no search' => [],
+            'no search' => [null],
             'with keyword' => ['dukuh'],
         ];
     }

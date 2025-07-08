@@ -16,7 +16,8 @@ class ImportCommand extends Command
     private int $chunkSize = 5_000;
 
     protected $signature = 'nusa:import
-                            {--fresh : Refresh database migrations and seeders}';
+                            {--fresh : Refresh database migrations and seeders}
+                            {--dist : Generate distribution database}';
 
     protected $description = 'Import upstream database';
 
@@ -61,6 +62,10 @@ class ImportCommand extends Command
         }
 
         $this->endGroup();
+
+        if ($this->option('dist')) {
+            $this->call(DistCommand::class, ['--force']);
+        }
     }
 
     private function refreshDatabase(): void

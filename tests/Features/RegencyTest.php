@@ -39,7 +39,7 @@ class RegencyTest extends TestCase
     public static function possibleSearchDistricts(): array
     {
         return [
-            'no search' => [],
+            'no search' => [null],
             'with keyword' => ['kedung'],
         ];
     }
@@ -47,7 +47,7 @@ class RegencyTest extends TestCase
     public static function possibleSearchVillages(): array
     {
         return [
-            'no search' => [],
+            'no search' => [null],
             'with keyword' => ['dukuh'],
         ];
     }

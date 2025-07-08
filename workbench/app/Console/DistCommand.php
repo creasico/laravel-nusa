@@ -5,10 +5,11 @@ namespace Workbench\App\Console;
 use Creasi\Nusa\Models;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
+use Workbench\App\Support\GitHelper;
 
 class DistCommand extends Command
 {
-    use CommandHelpers;
+    use CommandHelpers, GitHelper;
 
     protected $signature = 'nusa:dist {--force : Force overwrite existing distribution database}';
 
@@ -18,8 +19,10 @@ class DistCommand extends Command
     {
         $this->group('Creating distribution database');
 
-        $distPath = $this->getDistributionPath();
-        $devPath = $this->getDevelopmentPath();
+        $branch = $this->currentBranch();
+
+        $distPath = $this->libPath('database', "nusa.{$branch}.sqlite")->toString();
+        $devPath = $this->libPath('database', "nusa.{$branch}-full.sqlite")->toString();
 
         if (! file_exists($devPath)) {
             $this->error("Development database not found at: {$devPath}");
@@ -59,29 +62,6 @@ class DistCommand extends Command
         return 0;
     }
 
-    private function getDistributionPath(): string
-    {
-        return $this->libPath('database', 'nusa.sqlite')->toString();
-    }
-
-    private function getDevelopmentPath(): string
-    {
-        $branch = $this->getCurrentBranch();
-
-        return $this->libPath('database', "nusa.{$branch}.sqlite")->toString();
-    }
-
-    private function getCurrentBranch(): string
-    {
-        $branch = env('GIT_BRANCH');
-
-        if (! $branch) {
-            $branch = trim(shell_exec('git rev-parse --abbrev-ref HEAD'));
-        }
-
-        return (string) str(str_replace('/', '_', $branch))->slug();
-    }
-
     private function createBackup(string $devPath): string
     {
         $backupPath = $devPath.'.backup';
@@ -118,20 +98,16 @@ class DistCommand extends Command
         foreach ($this->models() as $table => $modelClass) {
             $this->line("Removing coordinates from {$table}...");
 
-            // Create a temporary model instance that uses the dist connection
-            $model = new $modelClass;
-            $model->setConnection('dist');
-
             // Update all records to set coordinates to empty string using raw query
-            $count = DB::connection('dist')->table($table)->update(['coordinates' => null]);
+            $count = $modelClass::resolveConnection('dist')
+                ->table($table)
+                ->update(['coordinates' => null]);
 
             $this->line("  → {$count} records updated");
         }
 
         // Compact the database to reclaim space
-        $this->line('Compacting database...');
         DB::connection('dist')->statement('VACUUM');
-        $this->line('Database compacted successfully.');
     }
 
     private function restoreFromBackup(string $backupPath, string $devPath): void

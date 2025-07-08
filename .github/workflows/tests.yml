@@ -27,6 +27,9 @@ jobs:
     name: Upstream Database
     runs-on: ubuntu-latest
     needs: configs
+    outputs:
+      has-changes: ${{ steps.stats.outputs.has-changes }}
+
     env:
       DB_USERNAME: root
       DB_PASSWORD: root
@@ -49,41 +52,54 @@ jobs:
         id: upstream
         uses: actions/cache@v4
         with:
-          path: database/nusa.*.sqlite
+          path: |
+            database/nusa.*.sqlite
+            !database/nusa.head-full.sqlite
           key: upstream-database_${{ needs.configs.outputs.target-branch }}_${{ hashFiles('**/*.sql') }}
           restore-keys: |
             upstream-database_${{ needs.configs.outputs.target-branch }}_
 
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
-        if: ${{ steps.upstream.outputs.cache-hit == '' }}
         with:
           php-version: 8.2
           tools: composer:v2
 
       - name: Cache dependencies
         uses: actions/cache@v4
-        if: ${{ steps.upstream.outputs.cache-hit == '' }}
         with:
           path: ${{ needs.configs.outputs.composer-cache-dir }}
           key: ${{ needs.configs.outputs.composer-cache-key }}-composer-${{ hashFiles('**/composer.lock') }}
           restore-keys: ${{ needs.configs.outputs.composer-cache-key }}-composer-
 
       - name: Install dependencies
-        if: ${{ steps.upstream.outputs.cache-hit == '' }}
-        run: composer update --prefer-dist --no-interaction --no-progress
+        run: |
+          composer update --prefer-dist --no-interaction --no-progress
+          sudo apt-get install -y sqlite3-tools
 
       - name: Import databases
         if: ${{ steps.upstream.outputs.cache-hit == '' }}
         env:
           COLUMNS: 100
           GIT_BRANCH: ${{ needs.configs.outputs.target-branch }}
-        run: ./vendor/bin/testbench nusa:import --fresh --ansi
+        run: |
+          vendor/bin/testbench nusa:import --fresh --dist --ansi
+
+      - name: Stat summary
+        id: stats
+        env:
+          COLUMNS: 160
+          GIT_BRANCH: ${{ needs.configs.outputs.target-branch }}
+        run: |
+          ls -lah database/*.sqlite
+          vendor/bin/testbench nusa:stat --ansi
 
   tests:
     name: Test on PHP ${{ matrix.php }} Laravel ${{ matrix.laravel }} DB ${{ matrix.db }}
+    if: ${{ needs.upstream.outputs.has-changes == '1' }}
     runs-on: ubuntu-latest
     needs: [configs, upstream]
+
     env:
       DB_CONNECTION: ${{ matrix.db }}
       DB_DATABASE: ${{ github.repository_owner }}
@@ -151,7 +167,9 @@ jobs:
         id: upstream
         uses: actions/cache@v4
         with:
-          path: database/nusa.*.sqlite
+          path: |
+            database/nusa.*.sqlite
+            !database/nusa.head-full.sqlite
           key: upstream-database_${{ needs.configs.outputs.target-branch }}_${{ hashFiles('**/*.sql') }}
           restore-keys: |
             upstream-database_${{ needs.configs.outputs.target-branch }}_
@@ -174,8 +192,8 @@ jobs:
           COLUMNS: 100
           GIT_BRANCH: ${{ needs.configs.outputs.target-branch }}
         run: |
-          ./vendor/bin/testbench migrate --ansi
-          ./vendor/bin/testbench package:test --ansi --coverage
+          vendor/bin/testbench migrate --ansi
+          vendor/bin/testbench package:test --ansi --coverage
 
       - name: Generate reports for CodeClimate
         id: reports

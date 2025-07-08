@@ -4,115 +4,237 @@ namespace Workbench\App\Console;
 
 use Creasi\Nusa\Contracts\Province;
 use Illuminate\Console\Command;
-use Illuminate\Contracts\Filesystem\FileNotFoundException;
-use Illuminate\Support\Facades\File;
+use Illuminate\Support\Arr;
+use Illuminate\Support\Facades\DB;
+use PhpMyAdmin\SqlParser\Parser;
+use PhpMyAdmin\SqlParser\Statements\DeleteStatement;
+use PhpMyAdmin\SqlParser\Statements\InsertStatement;
+use PhpMyAdmin\SqlParser\Statements\UpdateStatement;
+use Workbench\App\Support\GitHelper;
 
 class StatCommand extends Command
 {
-    use CommandHelpers;
+    use CommandHelpers, GitHelper;
 
-    protected $signature = 'nusa:stat
-                            {--d|diff : Generate diff from existing stats}
-                            {--w|write : Write latest stat to file}';
+    protected $signature = 'nusa:stat';
 
-    protected $description = 'Generate stats after test';
+    protected $description = 'Generate stats of imported database from upstream';
 
     /**
      * Execute the console command.
      */
     public function handle(Province $province): void
     {
-        $table = [
-            'code' => 'Code',
-            'name' => 'Name',
-            'regencies_count' => 'Regencies',
-            'districts_count' => 'Districts',
-            'villages_count' => 'Villages',
-        ];
+        $this->info('Database stats');
 
-        $this->group('Database stats');
+        $header = ['code', 'name'];
+        $hasChanges = false;
 
-        $rows = $this->getStats($province, \array_keys($table));
-        $diff = $this->option('diff') ?: false;
-        $diffs = $diff ? $this->getDiffs($rows) : [];
+        foreach ($this->getDiffs() as $table => $diff) {
+            $added = $changed = $moved = $deleted = [];
 
-        if ($this->option('write')) {
-            File::put($this->libPath('tests/stats.json'), \json_encode($rows, \JSON_PRETTY_PRINT));
+            if (array_key_exists('changed', $diff)) {
+                $changes = $diff['changed'];
+                $codes = Arr::pluck($changes, 'code');
+                $columns = ['code', 'name', 'latitude', 'longitude'];
+
+                if ($table === 'villages') {
+                    $columns[] = 'postal_code';
+                }
+
+                $changed = DB::connection('current')
+                    ->table($table)
+                    ->whereIn('code', $codes)
+                    ->get($columns)
+                    ->map(function ($row, $i) use ($table, $changes) {
+                        $res = [
+                            'code' => $row->code,
+                            'name' => $row->name,
+                            'latitude' => $row->latitude ? (float) trim($row->latitude) : null,
+                            'longitude' => $row->longitude ? (float) trim($row->longitude) : null,
+                        ];
+
+                        if ($table === 'villages') {
+                            $res['postal_code'] = $row->postal_code;
+                        }
+
+                        foreach ($res as $field => $value) {
+                            if (! isset($changes[$i][$field])) {
+                                continue;
+                            }
+
+                            $newValue = $changes[$i][$field];
+
+                            if (in_array($field, ['latitude', 'longitude'], true)) {
+                                $newValue = (float) trim($newValue);
+                            }
+
+                            if ($newValue === $res[$field]) {
+                                continue;
+                            }
+
+                            if (is_null($res[$field])) {
+                                $res[$field] = "<fg=green>{$newValue}</>";
+                            } else {
+                                $res[$field] .= " <fg=yellow>→</> {$newValue}";
+                            }
+                        }
+
+                        return $res;
+                    });
+            }
+
+            if (array_key_exists('added', $diff)) {
+                foreach ($diff['added'] as $row) {
+                    $added[] = match ($table) {
+                        'provinces' => [$row[0], $row[1]],
+                        'regencies' => [$row[0], $row[2]],
+                        'districts' => [$row[0], $row[3]],
+                        'villages' => [$row[0], $row[4]],
+                    };
+                }
+            }
+
+            if (array_key_exists('deleted', $diff)) {
+                $codes = Arr::pluck($diff['deleted'], 'code');
+                $deleted = DB::connection('current')
+                    ->table($table)
+                    ->whereIn('code', $codes)
+                    ->get(['code', 'name'])
+                    ->map(fn ($row) => [$row->code, $row->name]);
+
+                foreach ($deleted as $d => [$dCode, $dName]) {
+                    $move = array_filter($added, fn ($arr) => $arr[1] === $dName);
+
+                    if (empty($move)) {
+                        continue;
+                    }
+
+                    $a = key($move);
+                    $moved[] = [
+                        'code' => "{$dCode} <fg=yellow>→</> {$move[$a][0]}",
+                        'name' => $move[$a][1],
+                    ];
+
+                    unset($deleted[$d], $added[$a]);
+                }
+            }
+
+            $added_count = count($added);
+            $changed_count = count($changed);
+            $moved_count = count($moved);
+            $deleted_count = count($deleted);
+
+            $this->group("{$table}: <fg=yellow>{$added_count}</> new, <fg=yellow>{$moved_count}</> moved, <fg=yellow>{$changed_count}</> changes and <fg=yellow>{$deleted_count}</> deleted");
+
+            if ($added_count > 0) {
+                $this->info('Added');
+                $this->table($header, $added);
+
+                $hasChanges = true;
+            }
+
+            if ($deleted_count > 0) {
+                $this->info('Deleted');
+                $this->table($header, $deleted);
+
+                $hasChanges = true;
+            }
+
+            if ($moved_count > 0) {
+                $this->info('Moved');
+                $this->table($header, $moved);
+
+                $hasChanges = true;
+            }
+
+            if ($changed_count > 0) {
+                $this->info('Changed');
+                $this->table($columns, $changed);
+
+                $hasChanges = true;
+            }
         }
-
-        $this->table(\array_values($table), $this->calculate($rows, $diffs));
 
         $this->endGroup();
+
+        if ($hasChanges) {
+            exec('echo "has-changes=1" >> $GITHUB_OUTPUT');
+        } else {
+            exec('echo "has-changes=0" >> $GITHUB_OUTPUT');
+        }
     }
 
-    private function calculate(array $rows, array $diffs = []): array
+    /**
+     * Summary of getChanges
+     *
+     * @return array{districts: array, provinces: array, regencies: array, villages: array}
+     */
+    public function getDiffs()
     {
-        if (empty($diffs)) {
-            return $rows;
-        }
+        $current = $this->libPath('database', 'nusa.sqlite');
+        $updated = $this->libPath('database', "nusa.{$this->currentBranch()}.sqlite");
+        $reports = [
+            'added' => [],
+            'changed' => [],
+            'deleted' => [],
+        ];
 
-        $out = [];
-        $fields = ['regencies_count', 'districts_count', 'villages_count'];
-        $diffs = collect($diffs);
+        $parser = new Parser(shell_exec("sqldiff --primarykey {$current} {$updated}"));
 
-        foreach ($rows as $i => $row) {
-            $diff = $diffs->first(static fn ($diff) => $diff['code'] === $row['code']);
+        foreach ($parser->statements as $statement) {
+            if ($statement instanceof InsertStatement) {
+                $reports['added'][$statement->into->dest->table][] = array_map(function ($value) {
+                    if ($value === 'NULL') {
+                        $value = null;
+                    }
 
-            if ($diff === null) {
-                $out[$i] = $row;
+                    return $value;
+                }, $statement->values[0]->values);
 
                 continue;
             }
 
-            foreach ($row as $field => $value) {
-                if (! in_array($field, $fields)) {
-                    $out[$i][$field] = '<fg=yellow>'.$value.'</>';
+            if ($statement instanceof UpdateStatement) {
+                [$field, $value] = explode('=', $statement->where[0]->expr, 2);
 
-                    continue;
+                $changes = [
+                    $field => trim($value, "'"),
+                ];
+
+                foreach ($statement->set as $set) {
+                    $changes[$set->column] = trim($set->value, "'");
                 }
 
-                $delta = $value - $diff[$field];
-                $out[$i][$field] = $delta !== 0
-                    ? '<fg=yellow>'.$value.' (</>'.$delta.'<fg=yellow>)</>'
-                    : "<fg=yellow>{$value}</>";
+                $reports['changed'][$statement->tables[0]->expr][] = $changes;
+
+                continue;
+            }
+
+            if ($statement instanceof DeleteStatement) {
+                [$field, $value] = explode('=', $statement->where[0]->expr, 2);
+
+                $reports['deleted'][$statement->from[0]->table][] = [
+                    $field => trim($value, "'"),
+                ];
+
+                continue;
             }
         }
 
-        return $out;
-    }
+        $output = [
+            'provinces' => [],
+            'regencies' => [],
+            'districts' => [],
+            'villages' => [],
+        ];
 
-    private function getDiffs(array $rows): array
-    {
-        try {
-            $diffs = \array_filter(
-                File::json($this->libPath('tests/stats.json')),
-                static fn ($row, $key) => $rows[$key] !== $row, \ARRAY_FILTER_USE_BOTH
-            );
-
-            return $diffs;
-        } catch (FileNotFoundException $err) {
-            $this->warn($err->getMessage());
-
-            return [];
-        }
-    }
-
-    private function getStats(Province $province, array $fields): array
-    {
-        $rows = [];
-        $stats = $province->withCount(['regencies', 'districts', 'villages'])
-            ->get(['code', 'name']);
-
-        foreach ($stats as $stat) {
-            $row = [];
-
-            foreach ($fields as $field) {
-                $row[$field] = $stat->$field;
+        foreach ($reports as $state => $report) {
+            foreach ($report as $table => $statement) {
+                $output[$table][$state] = $statement;
             }
-
-            $rows[] = $row;
         }
 
-        return $rows;
+        return $output;
     }
 }

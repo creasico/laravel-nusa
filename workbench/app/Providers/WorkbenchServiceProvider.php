@@ -8,9 +8,12 @@ use Workbench\App\Console\DistCommand;
 use Workbench\App\Console\GenerateStaticCommand;
 use Workbench\App\Console\ImportCommand;
 use Workbench\App\Console\StatCommand;
+use Workbench\App\Support\GitHelper;
 
 class WorkbenchServiceProvider extends ServiceProvider
 {
+    use GitHelper;
+
     /**
      * Register services.
      */
@@ -23,7 +26,7 @@ class WorkbenchServiceProvider extends ServiceProvider
             $this->loadMigrationsFrom($databaseDir.'/migrations');
         }
 
-        $path = "{$databaseDir}/nusa.{$this->currentBranch()}.sqlite";
+        $path = "{$databaseDir}/nusa.{$this->currentBranch()}-full.sqlite";
 
         if (! file_exists($path)) {
             touch($path);
@@ -34,6 +37,7 @@ class WorkbenchServiceProvider extends ServiceProvider
                 'locale' => 'id',
                 'faker_locale' => 'id_ID',
             ],
+            'database.connections.current' => $nusa,
             'database.connections.nusa' => array_merge($nusa, [
                 'database' => $path,
             ]),
@@ -79,16 +83,5 @@ class WorkbenchServiceProvider extends ServiceProvider
     private function mergeConfig(Repository $config, string $key, array $value)
     {
         $config->set($key, array_merge($config->get($key, []), $value));
-    }
-
-    private function currentBranch(): string
-    {
-        $branch = env('GIT_BRANCH');
-
-        if (! $branch) {
-            $branch = trim(shell_exec('git rev-parse --abbrev-ref HEAD'));
-        }
-
-        return (string) str(str_replace('/', '_', $branch))->slug();
     }
 }
