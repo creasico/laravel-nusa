@@ -82,6 +82,13 @@ jobs:
           GIT_BRANCH: ${{ needs.configs.outputs.target-branch }}
         run: |
           ./vendor/bin/testbench nusa:import --fresh --ansi
+
+      - name: Stat summary
+        env:
+          COLUMNS: 120
+          GIT_BRANCH: ${{ needs.configs.outputs.target-branch }}
+        run: |
+          ls -lah database/*.sqlite
           ./vendor/bin/testbench nusa:stat --ansi
 
   tests:
