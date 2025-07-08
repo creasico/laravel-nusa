@@ -67,6 +67,10 @@ class StatCommand extends Command
 
                             $newValue = $changes[$i][$field];
 
+                            if ($newValue === 'NULL') {
+                                $newValue = null;
+                            }
+
                             if ($newValue && in_array($field, ['latitude', 'longitude'], true)) {
                                 $newValue = (float) $newValue;
                             }
