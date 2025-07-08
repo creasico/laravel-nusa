@@ -38,7 +38,7 @@ class ProvinceTest extends TestCase
     public static function possibleSearchRegencies(): array
     {
         return [
-            'no search' => [],
+            'no search' => [null],
             'with keyword' => ['pekalongan'],
         ];
     }
@@ -46,7 +46,7 @@ class ProvinceTest extends TestCase
     public static function possibleSearchDistricts(): array
     {
         return [
-            'no search' => [],
+            'no search' => [null],
             'with keyword' => ['kedung'],
         ];
     }
@@ -54,7 +54,7 @@ class ProvinceTest extends TestCase
     public static function possibleSearchVillages(): array
     {
         return [
-            'no search' => [],
+            'no search' => [null],
             'with keyword' => ['dukuh'],
         ];
     }
