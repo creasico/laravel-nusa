@@ -2,6 +2,7 @@
 
 namespace Workbench\App\Console;
 
+use Creasi\Nusa\Models;
 use Illuminate\Support\Stringable;
 
 /**
@@ -54,5 +55,15 @@ trait CommandHelpers
     private function runningInCI(): bool
     {
         return env('CI') !== null;
+    }
+
+    private function model(string $table)
+    {
+        return match ($table) {
+            'provinces' => Models\Province::query(),
+            'regencies' => Models\Regency::query(),
+            'districts' => Models\District::query(),
+            'villages' => Models\Village::query(),
+        };
     }
 }
