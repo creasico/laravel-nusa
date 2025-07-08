@@ -78,7 +78,9 @@ jobs:
         env:
           COLUMNS: 100
           GIT_BRANCH: ${{ needs.configs.outputs.target-branch }}
-        run: ./vendor/bin/testbench nusa:import --fresh --ansi
+        run: |
+          ./vendor/bin/testbench nusa:import --fresh --ansi
+          ./vendor/bin/testbench nusa:stat --ansi
 
   tests:
     name: Test on PHP ${{ matrix.php }} Laravel ${{ matrix.laravel }} DB ${{ matrix.db }}
