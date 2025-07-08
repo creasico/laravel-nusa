@@ -1,15 +1,12 @@
 #!/bin/bash
 set -e
 
-echo "::group::📝 Committing database changes..."
-
 # Configure git
 git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
 git config --local user.name "github-actions[bot]"
 
-# Show what will be committed
-echo "::endgroup::"
 echo "::group::📋 Files to be committed:"
+
 git status --porcelain database/nusa.sqlite || echo "No database changes to commit"
 
 # Add any changed database files
