@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Workbench\App\Console;
 
-use Creasi\Nusa\Contracts\Province;
 use Illuminate\Console\Command;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\DB;
@@ -25,140 +24,84 @@ class StatCommand extends Command
     /**
      * Execute the console command.
      */
-    public function handle(Province $province): void
+    public function handle(): int
     {
         $this->info('Database stats');
 
         $header = ['code', 'name'];
         $hasChanges = false;
+        $diffs = $this->getDiffs();
 
-        foreach ($this->getDiffs() as $table => $diff) {
-            $added = $changed = $moved = $deleted = [];
+        if ($diffs === null) {
+            $this->line('<error> ERROR </> Cannot open database file, please run the following command if necessary:');
+            $this->line(' - <fg=yellow>vendor/bin/testbench nusa:import --fresh --dist</>');
 
-            if (array_key_exists('changed', $diff)) {
-                $changes = $diff['changed'];
-                $codes = Arr::pluck($changes, 'code');
-                $columns = ['code', 'name', 'latitude', 'longitude'];
+            return 1;
+        }
 
-                if ($table === 'villages') {
-                    $columns[] = 'postal_code';
-                }
+        foreach ($diffs as $table => $diff) {
+            $columns = ['code', 'name', 'latitude', 'longitude'];
 
-                $changed = DB::connection('current')
-                    ->table($table)
-                    ->whereIn('code', $codes)
-                    ->get($columns)
-                    ->map(function ($row, $i) use ($table, $changes) {
-                        $res = [
-                            'code' => $row->code,
-                            'name' => $row->name,
-                            'latitude' => $row->latitude ? (float) $row->latitude : null,
-                            'longitude' => $row->longitude ? (float) $row->longitude : null,
-                        ];
-
-                        if ($table === 'villages') {
-                            $res['postal_code'] = $row->postal_code;
-                        }
-
-                        foreach ($res as $field => $value) {
-                            if (! array_key_exists($field, $changes[$i])) {
-                                continue;
-                            }
-
-                            $newValue = $changes[$i][$field];
-
-                            if (in_array($field, ['latitude', 'longitude'], true) && $newValue) {
-                                $newValue = (float) $newValue;
-                            }
-
-                            if ($newValue === $res[$field]) {
-                                continue;
-                            }
-
-                            if (is_null($res[$field]) && $newValue) {
-                                $res[$field] = "<fg=green>{$newValue}</>";
-
-                                continue;
-                            }
-
-                            if ($res[$field] && is_null($newValue)) {
-                                $res[$field] = "<fg=red>{$res[$field]}</>";
-
-                                continue;
-                            }
-
-                            $res[$field] .= " <fg=yellow>→</> {$newValue}";
-                        }
-
-                        return $res;
-                    });
+            if ($table === 'villages') {
+                $columns[] = 'postal_code';
             }
 
-            if (array_key_exists('added', $diff)) {
-                foreach ($diff['added'] as $row) {
-                    $added[] = match ($table) {
-                        'provinces' => [$row[0], $row[1]],
-                        'regencies' => [$row[0], $row[2]],
-                        'districts' => [$row[0], $row[3]],
-                        'villages' => [$row[0], $row[4]],
-                    };
+            $changed = $this->marshalChanges($diff['changed'], $table, $columns);
+            $added = $this->marshalAdditions($diff['added'], $table);
+            $deleted = $this->marshalDeletion($diff['deleted'], $table);
+            $moved = [];
+
+            foreach ($deleted as $d => [$dCode, $dName]) {
+                $move = array_filter($added, fn ($arr) => $arr[1] === $dName);
+
+                if (empty($move)) {
+                    continue;
                 }
+
+                $a = key($move);
+                $moved[] = [
+                    'code' => "{$dCode} <fg=yellow>→</> {$move[$a][0]}",
+                    'name' => $move[$a][1],
+                ];
+
+                unset($deleted[$d], $added[$a]);
             }
 
-            if (array_key_exists('deleted', $diff)) {
-                $codes = Arr::pluck($diff['deleted'], 'code');
-                $deleted = DB::connection('current')
-                    ->table($table)
-                    ->whereIn('code', $codes)
-                    ->get(['code', 'name'])
-                    ->map(fn ($row) => [$row->code, $row->name]);
+            $addedCount = count($added);
+            $changedCount = count($changed);
+            $movedCount = count($moved);
+            $deletedCount = count($deleted);
 
-                foreach ($deleted as $d => [$dCode, $dName]) {
-                    $move = array_filter($added, fn ($arr) => $arr[1] === $dName);
+            if (($addedCount + $changedCount + $movedCount + $deletedCount) === 0) {
+                $this->line("<fg=green>{$table}</>: No database changes detected");
 
-                    if (empty($move)) {
-                        continue;
-                    }
-
-                    $a = key($move);
-                    $moved[] = [
-                        'code' => "{$dCode} <fg=yellow>→</> {$move[$a][0]}",
-                        'name' => $move[$a][1],
-                    ];
-
-                    unset($deleted[$d], $added[$a]);
-                }
+                continue;
             }
 
-            $added_count = count($added);
-            $changed_count = count($changed);
-            $moved_count = count($moved);
-            $deleted_count = count($deleted);
+            $this->group("<fg=green>{$table}</>: <fg=yellow>{$addedCount}</> new, <fg=yellow>{$movedCount}</> moved, <fg=yellow>{$changedCount}</> changes and <fg=yellow>{$deletedCount}</> deleted");
 
-            $this->group("{$table}: <fg=yellow>{$added_count}</> new, <fg=yellow>{$moved_count}</> moved, <fg=yellow>{$changed_count}</> changes and <fg=yellow>{$deleted_count}</> deleted");
-
-            if ($added_count > 0) {
+            if ($addedCount > 0) {
                 $this->info('Added');
                 $this->table($header, $added);
 
                 $hasChanges = true;
             }
 
-            if ($deleted_count > 0) {
+            if ($deletedCount > 0) {
                 $this->info('Deleted');
                 $this->table($header, $deleted);
 
                 $hasChanges = true;
             }
 
-            if ($moved_count > 0) {
+            if ($movedCount > 0) {
                 $this->info('Moved');
                 $this->table($header, $moved);
 
                 $hasChanges = true;
             }
 
-            if ($changed_count > 0) {
+            if ($changedCount > 0) {
                 $this->info('Changed');
                 $this->table($columns, $changed);
 
@@ -175,22 +118,26 @@ class StatCommand extends Command
                 exec('echo "has-changes=0" >> $GITHUB_OUTPUT');
             }
         }
+
+        return 0;
     }
 
     /**
-     * Summary of getChanges
-     *
-     * @return array{districts: array, provinces: array, regencies: array, villages: array}
+     * @return null|array{districts: array, provinces: array, regencies: array, villages: array}
      */
-    public function getDiffs()
+    public function getDiffs(): ?array
     {
         $current = $this->libPath('database', 'nusa.sqlite');
         $updated = $this->libPath('database', "nusa.{$this->currentBranch()}.sqlite");
-        $reports = [
+        $reports = $states = [
             'added' => [],
             'changed' => [],
             'deleted' => [],
         ];
+
+        if (! file_exists((string) $updated)) {
+            return null;
+        }
 
         $parser = new Parser(shell_exec("sqldiff --primarykey {$current} {$updated}"));
 
@@ -232,10 +179,10 @@ class StatCommand extends Command
         }
 
         $output = [
-            'provinces' => [],
-            'regencies' => [],
-            'districts' => [],
-            'villages' => [],
+            'provinces' => $states,
+            'regencies' => $states,
+            'districts' => $states,
+            'villages' => $states,
         ];
 
         foreach ($reports as $state => $report) {
@@ -245,6 +192,98 @@ class StatCommand extends Command
         }
 
         return $output;
+    }
+
+    /**
+     * @return array{code: string, name: string, latitude?: float, longitude?: float, postal_code?: string}
+     */
+    private function marshalChanges(array $changes, string $table, array $columns): array
+    {
+        if (empty($changes)) {
+            return [];
+        }
+
+        $result = DB::connection('current')
+            ->table($table)
+            ->whereIn('code', Arr::pluck($changes, 'code'))
+            ->get($columns);
+
+        return $result->map(function ($row, $i) use ($table, $changes) {
+            $res = [
+                'code' => $row->code,
+                'name' => $row->name,
+                'latitude' => $row->latitude,
+                'longitude' => $row->longitude,
+            ];
+
+            if ($table === 'villages') {
+                $res['postal_code'] = $row->postal_code;
+            }
+
+            foreach ($res as $field => $value) {
+                if (! array_key_exists($field, $changes[$i])) {
+                    continue;
+                }
+
+                $newValue = $changes[$i][$field];
+
+                if (in_array($field, ['latitude', 'longitude'], true) && $newValue) {
+                    $newValue = (float) $newValue;
+                }
+
+                if ($newValue === $value) {
+                    continue;
+                }
+
+                if (! $value && $newValue) {
+                    $res[$field] = "<fg=green>{$newValue}</>";
+
+                    continue;
+                }
+
+                if ($res[$field] && ! $newValue) {
+                    $res[$field] = "<fg=red>{$value}</>";
+
+                    continue;
+                }
+
+                $res[$field] .= " <fg=yellow>→</> {$newValue}";
+            }
+
+            return $res;
+        })->all();
+    }
+
+    /**
+     * @return array{0: string, 1: string}
+     */
+    private function marshalAdditions(array $adds, string $table): array
+    {
+        $result = [];
+
+        foreach ($adds as $row) {
+            $result[] = match ($table) {
+                'provinces' => [$row[0], $row[1]],
+                'regencies' => [$row[0], $row[2]],
+                'districts' => [$row[0], $row[3]],
+                'villages' => [$row[0], $row[4]],
+            };
+        }
+
+        return $result;
+    }
+
+    /**
+     * @return array{0: string, 1: string}
+     */
+    private function marshalDeletion(array $deletes, string $table): array
+    {
+        $result = DB::connection('current')
+            ->table($table)
+            ->whereIn('code', Arr::pluck($deletes, 'code'))
+            ->get(['code', 'name']);
+
+        return $result->map(fn ($row) => [$row->code, $row->name])->all();
     }
 
     private function sanitizeValue(string $value): ?string
