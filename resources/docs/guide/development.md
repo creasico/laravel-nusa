@@ -497,5 +497,3 @@ After setting up your development environment:
 2. **Run tests** - Ensure everything works correctly
 3. **Read contributing guidelines** - Learn the development workflow
 4. **Start contributing** - Pick an issue or suggest improvements
-
-For contributing guidelines, see [Contributing](/contributing).

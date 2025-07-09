@@ -28,7 +28,6 @@ export default withMermaid(defineConfig({
         text: 'v0.1.14',
         items: [
           { text: 'Changelog', link: 'https://github.com/creasico/laravel-nusa/blob/main/CHANGELOG.md' },
-          { text: 'Contributing', link: '/contributing' }
         ]
       }
     ],
