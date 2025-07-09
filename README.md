@@ -78,7 +78,7 @@ it, then all we need is use it from our project with convenience of eloquent mod
       {
         "data": [
           {
-            "code": 33,
+            "code": "33",
             "name": "Jawa Tengah",
             "latitude": -6.9934809206806,
             "longitude": 110.42024335421,
@@ -135,7 +135,7 @@ it, then all we need is use it from our project with convenience of eloquent mod
       ```jsonc
       {
         "data": {
-          "code": 33,
+          "code": "33",
           "name": "Jawa Tengah",
           "latitude": -6.9934809206806,
           "longitude": 110.42024335421,
@@ -159,8 +159,8 @@ it, then all we need is use it from our project with convenience of eloquent mod
       {
         "data": [
           {
-            "code": 3375,
-            "province_code": 33,
+            "code": "33.75",
+            "province_code": "33",
             "name": "Kota Pekalongan",
             "latitude": -6.8969497174987,
             "longitude": 109.66208089654,
@@ -218,12 +218,12 @@ it, then all we need is use it from our project with convenience of eloquent mod
       {
         "data": [
           {
-            "code": 330101,
-            "regency_code": 3301,
-            "province_code": 33,
+            "code": "33.01.01",
+            "regency_code": "33.01",
+            "province_code": "33",
             "name": "Kedungreja",
             "postal_codes": [
-              53263
+              "53263"
             ]
           },
           { ... }
@@ -277,12 +277,12 @@ it, then all we need is use it from our project with convenience of eloquent mod
       {
         "data": [
           {
-            "code": 3301012001,
-            "district_code": 330101,
-            "regency_code": 3301,
-            "province_code": 33,
+            "code": "33.01.01.2001",
+            "district_code": "33.01.01",
+            "regency_code": "33.01",
+            "province_code": "33",
             "name": "Tambakreja",
-            "postal_code": 53263,
+            "postal_code": "53263",
           },
           { ... }
         ],
@@ -487,12 +487,12 @@ it, then all we need is use it from our project with convenience of eloquent mod
       {
         "data": [
           {
-            "code": 3375011002,
-            "district_code": 337501,
-            "regency_code": 3375,
-            "province_code": 33,
+            "code": "33.75.01.1002",
+            "district_code": "33.75.01",
+            "regency_code": "33.75",
+            "province_code": "33",
             "name": "Medono",
-            "postal_code": 51111,
+            "postal_code": "51111",
           },
           { ... }
         ],
@@ -911,7 +911,7 @@ using `sqlite` driver. Let us know if you had any issue using another database d
       Once you've done, run the following command to import the upstream db.
       
       ```sh
-      composer testbench nusa:import -- --fresh
+      composer testbench nusa:import --fresh
       ```
 
    2. Use our provided docker `compose.yaml` by simply run the following command

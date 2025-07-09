@@ -6,14 +6,21 @@
     "repository": "github:creasico/laravel-nusa",
     "scripts": {
         "postinstall": "simple-git-hooks",
-        "release": "standard-version -s"
+        "release": "standard-version -s",
+        "docs:dev": "vitepress dev resources/docs",
+        "docs:build": "vitepress build resources/docs",
+        "docs:preview": "vitepress preview resources/docs"
     },
     "devDependencies": {
         "@commitlint/cli": "^19.8.1",
         "@commitlint/config-conventional": "^19.8.1",
         "lint-staged": "^16.0.0",
+        "mermaid": "^11.8.1",
         "simple-git-hooks": "^2.13.0",
-        "standard-version": "^9.5.0"
+        "standard-version": "^9.5.0",
+        "vitepress": "^1.6.3",
+        "vitepress-plugin-mermaid": "^2.0.17",
+        "vue": "^3.5.17"
     },
     "commitlint": {
         "extends": [
