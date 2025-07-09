@@ -10,7 +10,7 @@ classDiagram
     District "1" --> "*" Village
 
     class Province {
-        +int code
+        +string code
         +string name
         +double latitude
         +double longitude
@@ -20,8 +20,8 @@ classDiagram
         +villages() Village[]
     }
     class Regency {
-        +int code
-        +int province_code
+        +string code
+        +string province_code
         +string name
         +double latitude
         +double longitude
@@ -31,9 +31,9 @@ classDiagram
         +villages() Village[]
     }
     class District {
-        +int code
-        +int regency_code
-        +int province_code
+        +string code
+        +string regency_code
+        +string province_code
         +string name
         +double latitude
         +double longitude
@@ -42,14 +42,14 @@ classDiagram
         +villages() Village[]
     }
     class Village {
-        +int code
-        +int district_code
-        +int regency_code
-        +int province_code
+        +string code
+        +string district_code
+        +string regency_code
+        +string province_code
         +string name
         +double latitude
         +double longitude
-        +int postal_code
+        +string postal_code
         +province() Province
         +regency() Regency
         +district() District
@@ -70,7 +70,7 @@ classDiagram
 
 | Field | Attribute | Key | Description |
 | --- | --- | --- | --- |
-| `code` | `char(4)` | `primary` | - |
+| `code` | `varchar(5)` | `primary` | Format: `xx.xx` |
 | `province_code` | `char(2)` | `foreign` | - |
 | `name` | `varchar` | - | - |
 | `latitude` | `double`, `nullable` | - | - |
@@ -84,8 +84,8 @@ classDiagram
 
 | Field | Attribute | Key | Description |
 | --- | --- | --- | --- |
-| `code` | `char(6)` | `primary` | - |
-| `regency_code` | `char(4)` | `foreign` | - |
+| `code` | `varchar(8)` | `primary` | Format: `xx.xx.xx` |
+| `regency_code` | `varchar(5)` | `foreign` | - |
 | `province_code` | `char(2)` | `foreign` | - |
 | `name` | `varchar` | - | - |
 | `latitude` | `double`, `nullable` | - | - |
@@ -99,14 +99,14 @@ classDiagram
 
 | Field | Attribute | Key | Description |
 | --- | --- | --- | --- |
-| `code` | `char(10)` | `primary` | - |
-| `district_code` | `char(6)` | `foreign` | - |
-| `regency_code` | `char(4)` | `foreign` | - |
+| `code` | `varchar(13)` | `primary` | Format: `xx.xx.xx.xxxx` |
+| `district_code` | `varchar(8)` | `foreign` | - |
+| `regency_code` | `varchar(5)` | `foreign` | - |
 | `province_code` | `char(2)` | `foreign` | - |
 | `name` | `varchar` | - | - |
 | `latitude` | `double`, `nullable` | - | - |
 | `longitude` | `double`, `nullable` | - | - |
-| `postal_code` | `char(5)`, `nullable` | - | - |
+| `postal_code` | `varchar(5)`, `nullable` | - | - |
 
 **Relation Properties**
 - `district_code` : reference `districts`
