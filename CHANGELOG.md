@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.14](https://github.com/creasico/laravel-nusa/compare/v0.1.13...v0.1.14) (2025-07-09)
+
+
+### Features
+
+* **deps:** bump workbench/submodules/cahyadsn-wilayah_boundaries from `a8f919e` to `be7b869` ([#158](https://github.com/creasico/laravel-nusa/issues/158)) ([34fd04f](https://github.com/creasico/laravel-nusa/commit/34fd04fe7f39076c8f518496513bc52afe940390))
+* **dev:** enhance changes stat generation ([e651a4f](https://github.com/creasico/laravel-nusa/commit/e651a4f28069bce71fabba2baddb9b378bcac389))
+* enhance import process and database diff reporting ([#160](https://github.com/creasico/laravel-nusa/issues/160)) ([eebcfb6](https://github.com/creasico/laravel-nusa/commit/eebcfb6b9e87db5c9ca69d2b651c56d339d54934))
+* show detailed changes from upstream ([#159](https://github.com/creasico/laravel-nusa/issues/159)) ([aa2a7f6](https://github.com/creasico/laravel-nusa/commit/aa2a7f68b1c2250c61f9b5359289678f2e706d1d))
+
+
+### Bug Fixes
+
+* **ci:** ensure `dist` workflow got the latest data from upstream ([4aed5e9](https://github.com/creasico/laravel-nusa/commit/4aed5e9071e9299aa8c02ae9b9f08b38918f2946))
+
 ### [0.1.13](https://github.com/creasico/laravel-nusa/compare/v0.1.12...v0.1.13) (2025-07-02)
 
 
