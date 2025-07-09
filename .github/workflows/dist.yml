@@ -43,17 +43,6 @@ jobs:
           php-version: 8.2
           tools: composer:v2
 
-      - name: Cache upstream
-        id: upstream
-        uses: actions/cache@v4
-        with:
-          path: |
-            database/nusa.*.sqlite
-            !database/nusa.head-full.sqlite
-          key: upstream-database_${{ needs.configs.outputs.target-branch }}_${{ hashFiles('**/*.sql') }}
-          restore-keys: |
-            upstream-database_${{ needs.configs.outputs.target-branch }}_
-
       - name: Cache dependencies
         uses: actions/cache@v4
         with:
@@ -66,13 +55,20 @@ jobs:
           composer update --prefer-dist --no-interaction --no-progress
           sudo apt-get install -y sqlite3-tools
 
+      - name: Import databases
+        env:
+          COLUMNS: 100
+          GIT_BRANCH: ${{ needs.configs.outputs.target-branch }}
+        run: |
+          vendor/bin/testbench nusa:import --fresh --dist --ansi
+          ls -lah database/*.sqlite
+
       - name: Stat summary
         id: stats
         env:
           COLUMNS: 120
           GIT_BRANCH: ${{ needs.configs.outputs.target-branch }}
         run: |
-          ls -lah database/*.sqlite
           vendor/bin/testbench nusa:stat --ansi
           ./.github/scripts/check-changes.sh
 
