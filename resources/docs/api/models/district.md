@@ -106,7 +106,7 @@ $westDistricts = District::search('barat')->get();
 
 ```php
 // Get districts in a specific regency
-$regencyDistricts = District::where('regency_code', '3375')->get();
+$regencyDistricts = District::where('regency_code', '33.75')->get();
 
 // Get districts in a specific province
 $provinceDistricts = District::where('province_code', '33')->get();
@@ -115,7 +115,7 @@ $provinceDistricts = District::where('province_code', '33')->get();
 $districts = District::with(['regency', 'province'])->get();
 
 // Get districts in multiple regencies
-$districts = District::whereIn('regency_code', ['3375', '3376', '3377'])->get();
+$districts = District::whereIn('regency_code', ['33.75', '33.76', '33.77'])->get();
 ```
 
 ### With Relationships
@@ -247,7 +247,7 @@ $districtCounts = District::selectRaw('province_code, count(*) as total')
 $districts = District::paginate(50);
 
 // Good: Filter by parent region first
-$districts = District::where('regency_code', '3375')
+$districts = District::where('regency_code', '33.75')
     ->with('villages')
     ->get();
 
@@ -337,8 +337,8 @@ class ValidDistrictForRegency implements Rule
 
 ```sql
 CREATE TABLE districts (
-    code VARCHAR(6) PRIMARY KEY,
-    regency_code VARCHAR(4) NOT NULL,
+    code VARCHAR(8) PRIMARY KEY,
+    regency_code VARCHAR(5) NOT NULL,
     province_code VARCHAR(2) NOT NULL,
     name VARCHAR(255) NOT NULL,
     latitude DOUBLE NULL,

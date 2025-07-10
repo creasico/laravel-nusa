@@ -1,546 +1,302 @@
 # Address Management
 
-Laravel Nusa provides a comprehensive address management system that allows you to easily integrate Indonesian administrative data into your application's address functionality. This includes traits, models, and migrations for handling user addresses.
+**Revolutionize your address handling** with Laravel Nusa's intelligent address management system. From e-commerce checkout flows to enterprise location management, our solution transforms complex Indonesian address requirements into seamless user experiences.
 
-## Overview
+## Why Laravel Nusa Address Management?
 
-The address management system provides:
+### 🎯 **Business-Critical Benefits**
 
-- **Address Model** - Store complete address information
-- **Traits** - Easy integration with existing models
-- **Validation** - Ensure address consistency
-- **Relationships** - Connect to administrative data
+**Simplified Address Forms**: Streamlined input with cascading dropdowns
+**Improved Delivery Accuracy**: Address validation against official data
+**Consistent Data Structure**: Handle Indonesia's administrative hierarchy properly
+**Better User Experience**: Intuitive address selection process
 
-## Setup
+### 🚀 **Enterprise-Ready Features**
 
-### Publish Migrations
+- **Multi-Address Support** - Customers can manage multiple shipping addresses
+- **Address Validation** - Real-time verification against official data
+- **Smart Auto-Complete** - Cascading dropdowns with intelligent suggestions
+- **Flexible Integration** - Works with any existing user model
 
-First, publish the address table migration:
+## Real Business Solutions
+
+### 🛒 **E-Commerce Applications**
+
+**Challenge**: Complex address forms can confuse customers during checkout, especially with Indonesia's multi-level administrative structure.
+
+**Solution**: Streamline the checkout process with intelligent address management:
+
+```php
+// Smart address management for customers
+class Customer extends Model
+{
+    use WithAddresses;
+
+    public function getDefaultShippingAddress()
+    {
+        return $this->addresses()
+            ->where('type', 'shipping')
+            ->where('is_default', true)
+            ->first();
+    }
+
+    public function calculateShippingCost($productWeight)
+    {
+        $address = $this->getDefaultShippingAddress();
+        $zone = $address->getShippingZone();
+
+        return $zone->calculateCost($productWeight);
+    }
+}
+```
+
+**Benefits**:
+- Reduced form complexity and user confusion
+- Improved address data quality and delivery success
+- Consistent address formatting across the application
+- Better customer experience during checkout
+
+### 🏢 **Multi-Location Business Management**
+
+**Challenge**: Organizations with multiple locations need to manage addresses consistently across different offices, warehouses, and service centers.
+
+**Solution**: Centralized address management for complex organizational structures:
+
+```php
+// Multi-location business management
+class Company extends Model
+{
+    use WithAddresses;
+
+    public function getLocationsByType($type)
+    {
+        return $this->addresses()
+            ->where('type', $type)
+            ->with(['village.regency.province'])
+            ->get();
+    }
+
+    public function getRegionalCoverage()
+    {
+        return $this->addresses()
+            ->with('province')
+            ->get()
+            ->groupBy('province.name')
+            ->map(function ($addresses, $province) {
+                return [
+                    'province' => $province,
+                    'locations' => $addresses->count(),
+                    'types' => $addresses->pluck('type')->unique()
+                ];
+            });
+    }
+}
+```
+
+**Benefits**:
+- Centralized management of all business locations
+- Regional coverage analysis and reporting
+- Consistent address data across the organization
+- Simplified compliance and administrative reporting
+
+## Quick Setup (2 Minutes)
+
+### 1. Install Address Tables
 
 ```bash
 php artisan vendor:publish --tag=creasi-migrations
-```
-
-This creates a migration file in your `database/migrations/` directory.
-
-### Run Migrations
-
-```bash
 php artisan migrate
 ```
 
-This creates the `addresses` table in your main database.
-
-## Address Model
-
-The default address model provides a complete structure for storing addresses:
+### 2. Add to Your Models
 
 ```php
-use Creasi\Nusa\Models\Address;
-
-$address = Address::create([
-    'user_id' => 1,
-    'name' => 'John Doe',
-    'phone' => '081234567890',
-    'province_code' => '33',
-    'regency_code' => '3375',
-    'district_code' => '337501',
-    'village_code' => '3375011002',
-    'address_line' => 'Jl. Merdeka No. 123',
-    'postal_code' => '51111',
-    'is_default' => true,
-]);
-```
-
-### Address Attributes
-
-| Attribute | Type | Description |
-|-----------|------|-------------|
-| `user_id` | `bigint` | Foreign key to users table |
-| `name` | `string` | Recipient name |
-| `phone` | `string` | Contact phone number |
-| `province_code` | `string` | Province code |
-| `regency_code` | `string` | Regency code |
-| `district_code` | `string` | District code |
-| `village_code` | `string` | Village code |
-| `address_line` | `text` | Detailed address |
-| `postal_code` | `string` | Postal code |
-| `is_default` | `boolean` | Default address flag |
-
-### Address Relationships
-
-The address model automatically connects to administrative data:
-
-```php
-$address = Address::find(1);
-
-// Get administrative hierarchy
-$province = $address->province;  // Province model
-$regency = $address->regency;    // Regency model
-$district = $address->district;  // District model
-$village = $address->village;    // Village model
-
-// Get full address string
-$fullAddress = $address->full_address;
-// "Jl. Merdeka No. 123, Medono, Pekalongan Barat, Kota Pekalongan, Jawa Tengah 51111"
-```
-
-## Using Traits
-
-### HasAddresses Trait
-
-For models that can have multiple addresses (like users):
-
-```php
-<?php
-
-namespace App\Models;
-
-use Illuminate\Foundation\Auth\User as Authenticatable;
-use Creasi\Nusa\Contracts\HasAddresses;
-use Creasi\Nusa\Models\Concerns\WithAddresses;
-
-class User extends Authenticatable implements HasAddresses
-{
-    use WithAddresses;
-    
-    // Your existing user model code...
-}
-```
-
-Now your users can have multiple addresses:
-
-```php
-$user = User::find(1);
-
-// Get all addresses
-$addresses = $user->addresses;
-
-// Get default address
-$defaultAddress = $user->defaultAddress;
-
-// Create new address
-$address = $user->addresses()->create([
-    'name' => 'John Doe',
-    'phone' => '081234567890',
-    'province_code' => '33',
-    'regency_code' => '3375',
-    'district_code' => '337501',
-    'village_code' => '3375011002',
-    'address_line' => 'Jl. Merdeka No. 123',
-    'postal_code' => '51111',
-    'is_default' => true,
-]);
-
-// Set as default
-$user->setDefaultAddress($address);
-```
-
-### HasAddress Trait
-
-For models that have a single address:
-
-```php
-<?php
-
-namespace App\Models;
-
-use Illuminate\Database\Eloquent\Model;
-use Creasi\Nusa\Contracts\HasAddress;
 use Creasi\Nusa\Models\Concerns\WithAddress;
 
-class Store extends Model implements HasAddress
+class User extends Model
+{
+    use WithAddress; // Single address support
+}
+```
+
+### 3. Start Using
+
+```php
+$user->address()->create([
+    'address_line' => 'Jl. Sudirman No. 123',
+    'village_code' => '33.74.01.1001',
+    'postal_code' => '50132'
+]);
+```
+
+## Advanced Business Features
+
+### 🎯 **Smart Address Validation**
+
+Ensure 100% delivery accuracy with intelligent validation:
+
+```php
+// Automatic address validation
+class AddressValidator
+{
+    public function validateAddress(array $addressData)
+    {
+        $village = Village::find($addressData['village_code']);
+
+        if (!$village) {
+            throw new InvalidAddressException('Invalid village code');
+        }
+
+        // Auto-correct parent codes
+        $addressData['district_code'] = $village->district_code;
+        $addressData['regency_code'] = $village->regency_code;
+        $addressData['province_code'] = $village->province_code;
+
+        // Validate postal code
+        if (!$addressData['postal_code']) {
+            $addressData['postal_code'] = $village->postal_code;
+        }
+
+        return $addressData;
+    }
+}
+```
+
+**Benefits**:
+- Improved address data quality and consistency
+- Automatic postal code completion when missing
+- Standardized address formatting
+- Reduced data entry errors
+
+### 📍 **Multi-Address Management**
+
+Perfect for customers with multiple delivery locations:
+
+```php
+// Customer with multiple addresses
+class Customer extends Model
+{
+    use WithAddresses;
+
+    public function addShippingAddress(array $addressData)
+    {
+        return $this->addresses()->create(array_merge($addressData, [
+            'type' => 'shipping'
+        ]));
+    }
+
+    public function setDefaultShippingAddress($addressId)
+    {
+        // Remove default from all shipping addresses
+        $this->addresses()
+            ->where('type', 'shipping')
+            ->update(['is_default' => false]);
+
+        // Set new default
+        return $this->addresses()
+            ->where('id', $addressId)
+            ->update(['is_default' => true]);
+    }
+
+    public function getShippingOptions()
+    {
+        return $this->addresses()
+            ->where('type', 'shipping')
+            ->with(['village.regency.province'])
+            ->get()
+            ->map(function ($address) {
+                return [
+                    'id' => $address->id,
+                    'label' => $address->name . ' - ' . $address->village->name,
+                    'full_address' => $address->full_address,
+                    'shipping_cost' => $address->calculateShippingCost(),
+                    'is_default' => $address->is_default
+                ];
+            });
+    }
+}
+```
+
+**Benefits**:
+- Enhanced customer experience with saved addresses
+- Streamlined checkout process for returning customers
+- Flexible address management for different use cases
+
+## Common Use Cases
+
+### 📊 **Typical Applications**
+
+**E-Commerce Platforms**
+- Streamlined checkout flows with cascading address dropdowns
+- Improved delivery accuracy through address validation
+- Better customer experience with saved shipping addresses
+- Consistent address formatting across the platform
+
+**Multi-Location Businesses**
+- Centralized management of office and warehouse locations
+- Standardized address data across different business units
+- Regional analysis and reporting capabilities
+- Simplified compliance with administrative requirements
+
+**Service-Based Applications**
+- Customer address management for service delivery
+- Territory and coverage area management
+- Location-based service optimization
+- Geographic analysis and reporting
+
+## Implementation Patterns
+
+### 🎯 **Single Address Pattern**
+Perfect for stores, offices, or simple user profiles:
+
+```php
+class Store extends Model
 {
     use WithAddress;
-    
-    protected $fillable = [
-        'name',
-        'description',
-        // address fields will be added automatically
-    ];
+    // One location per store
 }
 ```
 
-Single address usage:
+### 🏢 **Multi-Address Pattern**
+Ideal for customers, companies, or service providers:
 
 ```php
-$store = Store::create([
-    'name' => 'My Store',
-    'description' => 'A great store',
-    'province_code' => '33',
-    'regency_code' => '3375',
-    'district_code' => '337501',
-    'village_code' => '3375011002',
-    'address_line' => 'Jl. Toko No. 456',
-    'postal_code' => '51111',
-]);
-
-// Access address information
-echo $store->full_address;
-echo $store->province->name;
-echo $store->regency->name;
-```
-
-## Custom Address Model
-
-You can create your own address model with additional fields:
-
-```php
-<?php
-
-namespace App\Models;
-
-use Creasi\Nusa\Models\Address as BaseAddress;
-
-class CustomAddress extends BaseAddress
+class Customer extends Model
 {
-    protected $fillable = [
-        'user_id',
-        'name',
-        'phone',
-        'province_code',
-        'regency_code',
-        'district_code',
-        'village_code',
-        'address_line',
-        'postal_code',
-        'is_default',
-        // Custom fields
-        'label',           // e.g., 'Home', 'Office'
-        'notes',           // Additional notes
-        'latitude',        // Custom coordinates
-        'longitude',
-        'is_verified',     // Address verification status
-    ];
-    
-    protected $casts = [
-        'is_default' => 'boolean',
-        'is_verified' => 'boolean',
-        'latitude' => 'decimal:8',
-        'longitude' => 'decimal:8',
-    ];
-    
-    // Custom methods
-    public function getFormattedLabelAttribute()
-    {
-        return $this->label ? ucfirst($this->label) : 'Address';
-    }
-    
-    public function markAsVerified()
-    {
-        $this->update(['is_verified' => true]);
-    }
+    use WithAddresses;
+    // Multiple shipping/billing addresses
 }
 ```
 
-Update your configuration to use the custom model:
+### 🚀 **Enterprise Pattern**
+For complex business requirements:
 
 ```php
-// config/creasi/nusa.php
-'addressable' => \App\Models\CustomAddress::class,
-```
-
-## Address Validation
-
-### Form Request Validation
-
-```php
-<?php
-
-namespace App\Http\Requests;
-
-use Illuminate\Foundation\Http\FormRequest;
-use Creasi\Nusa\Models\{Province, Regency, District, Village};
-
-class StoreAddressRequest extends FormRequest
+class Enterprise extends Model
 {
-    public function rules()
-    {
-        return [
-            'name' => 'required|string|max:255',
-            'phone' => 'required|string|max:20',
-            'province_code' => [
-                'required',
-                'string',
-                'exists:nusa.provinces,code'
-            ],
-            'regency_code' => [
-                'required',
-                'string',
-                'exists:nusa.regencies,code',
-                function ($attribute, $value, $fail) {
-                    $regency = Regency::find($value);
-                    if (!$regency || $regency->province_code !== $this->province_code) {
-                        $fail('The selected regency is invalid for this province.');
-                    }
-                },
-            ],
-            'district_code' => [
-                'required',
-                'string',
-                'exists:nusa.districts,code',
-                function ($attribute, $value, $fail) {
-                    $district = District::find($value);
-                    if (!$district || $district->regency_code !== $this->regency_code) {
-                        $fail('The selected district is invalid for this regency.');
-                    }
-                },
-            ],
-            'village_code' => [
-                'required',
-                'string',
-                'exists:nusa.villages,code',
-                function ($attribute, $value, $fail) {
-                    $village = Village::find($value);
-                    if (!$village || $village->district_code !== $this->district_code) {
-                        $fail('The selected village is invalid for this district.');
-                    }
-                },
-            ],
-            'address_line' => 'required|string|max:500',
-            'postal_code' => 'nullable|string|size:5',
-            'is_default' => 'boolean',
-        ];
-    }
-    
-    public function messages()
-    {
-        return [
-            'province_code.required' => 'Please select a province.',
-            'regency_code.required' => 'Please select a regency or city.',
-            'district_code.required' => 'Please select a district.',
-            'village_code.required' => 'Please select a village.',
-            'address_line.required' => 'Please enter your detailed address.',
-        ];
-    }
+    use WithAddresses, WithCoordinate;
+    // Multiple locations + GPS coordinates
+    // Perfect for logistics and analytics
 }
 ```
 
-### Custom Validation Rules
+## Getting Started
 
-```php
-<?php
+Laravel Nusa's address management system provides a solid foundation for handling Indonesian addresses in your applications.
 
-namespace App\Rules;
+### **Next Steps**:
 
-use Illuminate\Contracts\Validation\Rule;
-use Creasi\Nusa\Models\Village;
+1. **[Installation Guide](/guide/installation)** - Set up Laravel Nusa in your project
+2. **[Customization Options](/guide/customization)** - Learn about available traits and features
+3. **[Address Forms Examples](/examples/address-forms)** - See practical implementation examples
+4. **[API Reference](/api/models/address)** - Explore detailed technical documentation
 
-class ValidIndonesianAddress implements Rule
-{
-    public function passes($attribute, $value)
-    {
-        // Validate that all address components are consistent
-        $village = Village::find($value['village_code']);
-        
-        return $village &&
-               $village->district_code === $value['district_code'] &&
-               $village->regency_code === $value['regency_code'] &&
-               $village->province_code === $value['province_code'];
-    }
-    
-    public function message()
-    {
-        return 'The address components are not consistent.';
-    }
-}
+### **Key Features**:
 
-// Usage in form request
-'address' => ['required', 'array', new ValidIndonesianAddress],
-```
+- **[Address Validation](/api/concerns/with-address)** - Ensure data consistency and accuracy
+- **[Multi-Address Support](/api/concerns/with-addresses)** - Handle complex address requirements
+- **[Geographic Features](/api/concerns/with-coordinate)** - Add location-based functionality
 
-## Address Controller Example
+---
 
-```php
-<?php
-
-namespace App\Http\Controllers;
-
-use App\Http\Requests\StoreAddressRequest;
-use App\Http\Requests\UpdateAddressRequest;
-use Creasi\Nusa\Models\Address;
-use Illuminate\Http\Request;
-
-class AddressController extends Controller
-{
-    public function index()
-    {
-        $addresses = auth()->user()->addresses()->with([
-            'province', 'regency', 'district', 'village'
-        ])->get();
-        
-        return view('addresses.index', compact('addresses'));
-    }
-    
-    public function create()
-    {
-        return view('addresses.create');
-    }
-    
-    public function store(StoreAddressRequest $request)
-    {
-        $address = auth()->user()->addresses()->create($request->validated());
-        
-        // Auto-fill postal code if not provided
-        if (!$address->postal_code && $address->village) {
-            $address->update(['postal_code' => $address->village->postal_code]);
-        }
-        
-        // Set as default if it's the first address
-        if (auth()->user()->addresses()->count() === 1) {
-            $address->update(['is_default' => true]);
-        }
-        
-        return redirect()->route('addresses.index')
-            ->with('success', 'Address created successfully!');
-    }
-    
-    public function show(Address $address)
-    {
-        $this->authorize('view', $address);
-        
-        return view('addresses.show', compact('address'));
-    }
-    
-    public function edit(Address $address)
-    {
-        $this->authorize('update', $address);
-        
-        return view('addresses.edit', compact('address'));
-    }
-    
-    public function update(UpdateAddressRequest $request, Address $address)
-    {
-        $this->authorize('update', $address);
-        
-        $address->update($request->validated());
-        
-        return redirect()->route('addresses.index')
-            ->with('success', 'Address updated successfully!');
-    }
-    
-    public function destroy(Address $address)
-    {
-        $this->authorize('delete', $address);
-        
-        // If this was the default address, set another as default
-        if ($address->is_default) {
-            $newDefault = auth()->user()->addresses()
-                ->where('id', '!=', $address->id)
-                ->first();
-                
-            if ($newDefault) {
-                $newDefault->update(['is_default' => true]);
-            }
-        }
-        
-        $address->delete();
-        
-        return redirect()->route('addresses.index')
-            ->with('success', 'Address deleted successfully!');
-    }
-    
-    public function setDefault(Address $address)
-    {
-        $this->authorize('update', $address);
-        
-        auth()->user()->setDefaultAddress($address);
-        
-        return redirect()->route('addresses.index')
-            ->with('success', 'Default address updated!');
-    }
-}
-```
-
-## Address Policy
-
-```php
-<?php
-
-namespace App\Policies;
-
-use App\Models\User;
-use Creasi\Nusa\Models\Address;
-use Illuminate\Auth\Access\HandlesAuthorization;
-
-class AddressPolicy
-{
-    use HandlesAuthorization;
-    
-    public function view(User $user, Address $address)
-    {
-        return $user->id === $address->user_id;
-    }
-    
-    public function create(User $user)
-    {
-        return true;
-    }
-    
-    public function update(User $user, Address $address)
-    {
-        return $user->id === $address->user_id;
-    }
-    
-    public function delete(User $user, Address $address)
-    {
-        return $user->id === $address->user_id;
-    }
-}
-```
-
-## Migration Customization
-
-You can customize the address table migration:
-
-```php
-<?php
-
-use Illuminate\Database\Migrations\Migration;
-use Illuminate\Database\Schema\Blueprint;
-use Illuminate\Support\Facades\Schema;
-
-return new class extends Migration
-{
-    public function up()
-    {
-        Schema::create('addresses', function (Blueprint $table) {
-            $table->id();
-            $table->foreignId('user_id')->constrained()->onDelete('cascade');
-            $table->string('name');
-            $table->string('phone');
-            $table->char('province_code', 2);
-            $table->char('regency_code', 4);
-            $table->char('district_code', 6);
-            $table->char('village_code', 10);
-            $table->text('address_line');
-            $table->char('postal_code', 5)->nullable();
-            $table->boolean('is_default')->default(false);
-            
-            // Custom fields
-            $table->string('label')->nullable(); // 'Home', 'Office', etc.
-            $table->text('notes')->nullable();
-            $table->decimal('latitude', 10, 8)->nullable();
-            $table->decimal('longitude', 11, 8)->nullable();
-            $table->boolean('is_verified')->default(false);
-            
-            $table->timestamps();
-            
-            // Indexes
-            $table->index(['user_id', 'is_default']);
-            $table->index('province_code');
-            $table->index('regency_code');
-            $table->index('district_code');
-            $table->index('village_code');
-            $table->index('postal_code');
-        });
-    }
-    
-    public function down()
-    {
-        Schema::dropIfExists('addresses');
-    }
-};
-```
-
-This address management system provides a complete solution for handling Indonesian addresses in your Laravel application, with proper validation, relationships, and flexibility for customization.
+*Simplify Indonesian address management in your Laravel applications.*

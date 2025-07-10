@@ -1,6 +1,6 @@
 # Installation
 
-This page provides detailed installation instructions for Laravel Nusa in production applications.
+This guide provides comprehensive installation instructions, configuration options, and troubleshooting for Laravel Nusa.
 
 ## System Requirements
 
@@ -18,82 +18,79 @@ Laravel Nusa supports multiple Laravel versions:
 
 - **Laravel 9.x** - Minimum version 9.0
 - **Laravel 10.x** - Full support
-- **Laravel 11.x** - Full support  
+- **Laravel 11.x** - Full support
 - **Laravel 12.x** - Full support
 
 ### Server Requirements
 
 - **Disk Space**: ~15MB for the package and database
-- **Memory**: No additional memory requirements
 - **Database**: Uses separate SQLite connection (no impact on your main database)
+- **Memory**: No additional memory requirements
 
-## Installation Methods
+## Installation
 
-### Method 1: Composer (Recommended)
-
-Install via Composer in your Laravel project:
+### Step 1: Install via Composer
 
 ```bash
 composer require creasi/laravel-nusa
 ```
 
-### Method 2: Composer with Version Constraint
+### Step 2: Verify Installation
 
-Install a specific version:
-
-```bash
-# Install latest stable
-composer require creasi/laravel-nusa:^0.1
-
-# Install specific version
-composer require creasi/laravel-nusa:0.1.14
-```
-
-
-
-## Post-Installation Setup
-
-### Automatic Configuration
-
-Laravel Nusa automatically configures itself when installed:
-
-1. **Service Provider Registration** - Auto-discovered by Laravel
-2. **Database Connection** - Adds `nusa` connection to your database config
-3. **Route Registration** - Registers API routes (if enabled)
-
-### Verify Installation
-
-Check that everything is working:
-
-```php
-<?php
-
-use Creasi\Nusa\Models\Province;
-
-// This should return 34 provinces
-$count = Province::count();
-echo "Provinces loaded: {$count}";
-```
-
-### Check Database Connection
-
-Verify the SQLite database is accessible:
+Laravel Nusa automatically configures itself. Verify it's working:
 
 ```bash
 php artisan tinker
 ```
 
 ```php
-// In Tinker
-use Creasi\Nusa\Models\Province;
-Province::first(); // Should return a Province model
+// In Tinker - this should return 34
+\Creasi\Nusa\Models\Province::count();
 ```
 
-## Configuration Options
+If you see `34`, the installation was successful!
 
-### Publishing Configuration
+### Step 3: Test API Routes (Optional)
 
-Publish the configuration file to customize settings:
+If you plan to use the API, test the endpoints:
+
+```bash
+# Test in your browser or with curl
+curl http://your-app.test/nusa/provinces
+```
+
+## What Gets Installed
+
+Laravel Nusa automatically sets up:
+
+1. **Service Provider Registration** - Auto-discovered by Laravel
+2. **Database Connection** - Adds `nusa` connection to your database config
+3. **SQLite Database** - Pre-built database with all Indonesian administrative data
+4. **API Routes** - RESTful endpoints (can be disabled)
+5. **Eloquent Models** - Ready-to-use models with relationships
+
+## Configuration
+
+Laravel Nusa works out of the box with sensible defaults, but you can customize it for your specific needs.
+
+### Basic Configuration
+
+The most common configuration options can be set via environment variables:
+
+```dotenv
+# Enable/disable API routes (default: true)
+CREASI_NUSA_ROUTES_ENABLE=true
+
+# Change API route prefix (default: nusa)
+CREASI_NUSA_ROUTES_PREFIX=api/indonesia
+
+# Use custom database connection (default: nusa)
+CREASI_NUSA_CONNECTION=custom_nusa
+```
+
+### Advanced Configuration
+
+For more advanced customization, publish the configuration file:
 
 ```bash
 php artisan vendor:publish --tag=creasi-nusa-config
@@ -104,60 +101,35 @@ This creates `config/creasi/nusa.php`:
 ```php
 <?php
 
-use Creasi\Nusa\Models\Address;
-
 return [
-    /**
-     * Database connection name for Nusa data
-     */
+    // Database connection name for Nusa data
     'connection' => env('CREASI_NUSA_CONNECTION', 'nusa'),
 
-    /**
-     * Table names (customize if needed)
-     */
+    // Table names (customize if needed)
     'table_names' => [
         'provinces' => 'provinces',
-        'regencies' => 'regencies', 
+        'regencies' => 'regencies',
         'districts' => 'districts',
         'villages' => 'villages',
     ],
 
-    /**
-     * Address model implementation
-     */
-    'addressable' => Address::class,
+    // Address model implementation
+    'addressable' => \Creasi\Nusa\Models\Address::class,
 
-    /**
-     * API routes configuration
-     */
+    // API routes configuration
     'routes_enable' => env('CREASI_NUSA_ROUTES_ENABLE', true),
     'routes_prefix' => env('CREASI_NUSA_ROUTES_PREFIX', 'nusa'),
 ];
 ```
 
-### Environment Configuration
-
-Add these variables to your `.env` file:
-
-```dotenv
-# Database connection (default: nusa)
-CREASI_NUSA_CONNECTION=nusa
-
-# Enable/disable API routes (default: true)
-CREASI_NUSA_ROUTES_ENABLE=true
-
-# API route prefix (default: nusa)
-CREASI_NUSA_ROUTES_PREFIX=nusa
-```
-
 ### Custom Database Connection
 
-To use a custom database connection, add it to `config/database.php`:
+If you need to use a different database connection, add it to `config/database.php`:
 
 ```php
 'connections' => [
     // Your existing connections...
-    
+
     'indonesia' => [
         'driver' => 'sqlite',
         'database' => database_path('indonesia.sqlite'),
@@ -173,31 +145,31 @@ Then update your environment:
 CREASI_NUSA_CONNECTION=indonesia
 ```
 
-## Address Management Setup
+## Optional Features Setup
 
-If you plan to use the address management features:
+### Address Management
 
-### Publish Migrations
+If you plan to use the address management features for storing user addresses:
+
+#### 1. Publish Migrations
 
 ```bash
 php artisan vendor:publish --tag=creasi-migrations
 ```
 
-This publishes the address table migration to `database/migrations/`.
-
-### Run Migrations
+#### 2. Run Migrations
 
 ```bash
 php artisan migrate
 ```
 
-This creates the `addresses` table in your main database for storing user addresses.
+This creates the `addresses` table in your main database for storing user addresses with references to administrative regions.
 
-## API Routes Setup
+### API Routes
 
-### Default Routes
+Laravel Nusa provides RESTful API endpoints by default:
 
-By default, Laravel Nusa registers these API routes:
+#### Available Routes
 
 ```
 GET /nusa/provinces
@@ -219,17 +191,17 @@ GET /nusa/villages
 GET /nusa/villages/{village}
 ```
 
-### Disable API Routes
+#### Disable API Routes
 
-To disable API routes:
+If you don't need the API endpoints:
 
 ```dotenv
 CREASI_NUSA_ROUTES_ENABLE=false
 ```
 
-### Custom Route Prefix
+#### Custom Route Prefix
 
-To change the route prefix:
+To change the route prefix from `/nusa` to something else:
 
 ```dotenv
 CREASI_NUSA_ROUTES_PREFIX=api/indonesia
@@ -239,42 +211,47 @@ Routes will then be available at `/api/indonesia/provinces`, etc.
 
 ## Troubleshooting
 
-### Common Issues
+### Common Installation Issues
 
 #### SQLite Extension Not Found
 
-**Error**: `could not find driver`
+**Error**: `could not find driver` or `PDO SQLite driver not found`
 
-**Solution**: Install PHP SQLite extension:
+**Solution**: Install the PHP SQLite extension:
 
 ```bash
 # Ubuntu/Debian
 sudo apt-get install php8.2-sqlite3
 
-# CentOS/RHEL
+# CentOS/RHEL/Fedora
 sudo yum install php-sqlite3
+# or
+sudo dnf install php-sqlite3
 
 # macOS with Homebrew
 brew install php@8.2
+
+# Windows (uncomment in php.ini)
+extension=pdo_sqlite
+extension=sqlite3
 ```
 
-#### Database File Not Found
+After installation, restart your web server and PHP-FPM if applicable.
 
-**Error**: `database disk image is malformed`
+#### Database File Issues
 
-**Solution**: Clear Composer cache and reinstall:
+**Error**: `database disk image is malformed` or `database locked`
 
+**Solutions**:
+
+1. Clear Composer cache and reinstall:
 ```bash
 composer clear-cache
-composer install --no-cache
+rm -rf vendor/creasi/laravel-nusa
+composer install
 ```
 
-#### Permission Denied
-
-**Error**: `SQLSTATE[HY000] [14] unable to open database file`
-
-**Solution**: Check file permissions:
-
+2. Check file permissions:
 ```bash
 # Check if file exists and is readable
 ls -la vendor/creasi/laravel-nusa/database/nusa.sqlite
@@ -283,27 +260,112 @@ ls -la vendor/creasi/laravel-nusa/database/nusa.sqlite
 chmod 644 vendor/creasi/laravel-nusa/database/nusa.sqlite
 ```
 
-#### Routes Not Working
+3. Verify disk space:
+```bash
+df -h # Check available disk space
+```
+
+#### Route Registration Issues
 
 **Error**: `Route [nusa.provinces.index] not defined`
 
 **Solutions**:
-1. Clear route cache: `php artisan route:clear`
-2. Check if routes are enabled in config
-3. Verify service provider is loaded: `php artisan config:show app.providers`
+
+1. Clear route cache:
+```bash
+php artisan route:clear
+php artisan config:clear
+```
+
+2. Verify routes are enabled:
+```bash
+php artisan route:list | grep nusa
+```
+
+3. Check service provider registration:
+```bash
+php artisan config:show app.providers | grep Nusa
+```
+
+#### Memory or Performance Issues
+
+**Error**: `Maximum execution time exceeded` or `Memory limit exceeded`
+
+**Solutions**:
+
+1. Increase PHP limits in `php.ini`:
+```ini
+memory_limit = 256M
+max_execution_time = 300
+```
+
+2. Use pagination for large queries:
+```php
+// Instead of
+$villages = Village::all(); // 83,467 records!
+
+// Use
+$villages = Village::paginate(50);
+```
+
+### Production Deployment
+
+#### File Permissions
+
+Ensure proper file permissions in production:
+
+```bash
+# Make database readable by web server
+chmod 644 vendor/creasi/laravel-nusa/database/nusa.sqlite
+chown www-data:www-data vendor/creasi/laravel-nusa/database/nusa.sqlite
+```
+
+#### Caching
+
+Enable caching for better performance:
+
+```bash
+php artisan config:cache
+php artisan route:cache
+php artisan view:cache
+```
+
+#### Security
+
+Consider these security measures:
+
+1. Disable API routes if not needed:
+```dotenv
+CREASI_NUSA_ROUTES_ENABLE=false
+```
+
+2. Add rate limiting to API routes:
+```php
+// In RouteServiceProvider or custom middleware
+Route::middleware(['throttle:100,1'])->group(function () {
+    // Your API routes
+});
+```
 
 ### Getting Help
 
-If you encounter issues:
+If you still encounter issues:
 
-1. **Check the logs**: `storage/logs/laravel.log`
-2. **GitHub Issues**: [Report bugs](https://github.com/creasico/laravel-nusa/issues)
-3. **Discussions**: [Community support](https://github.com/orgs/creasico/discussions)
+1. **Check Laravel logs**: `storage/logs/laravel.log`
+2. **Enable debug mode**: Set `APP_DEBUG=true` in `.env` (development only)
+3. **GitHub Issues**: [Report bugs](https://github.com/creasico/laravel-nusa/issues)
+4. **Community Support**: [GitHub Discussions](https://github.com/orgs/creasico/discussions)
+
+When reporting issues, please include:
+- PHP version (`php -v`)
+- Laravel version
+- Error messages from logs
+- Steps to reproduce the issue
 
 ## Next Steps
 
 After successful installation:
 
-- **[Getting Started](/guide/getting-started)** - Learn basic usage
-- **[Models & Relationships](/guide/models)** - Understand the data structure
-- **[Configuration](/guide/configuration)** - Customize for your needs
+- **[Getting Started](/guide/getting-started)** - Quick start guide and basic usage
+- **[Configuration](/guide/configuration)** - Detailed configuration options
+- **[Models & Relationships](/guide/models)** - Understanding the data structure

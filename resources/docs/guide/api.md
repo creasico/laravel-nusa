@@ -1,10 +1,10 @@
 # RESTful API
 
-Laravel Nusa provides a comprehensive RESTful API for accessing Indonesian administrative data. The API is automatically available after installation and follows Laravel conventions for consistency and ease of use.
+Laravel Nusa provides a comprehensive RESTful API for accessing Indonesian administrative data. This guide covers the essential concepts and common usage patterns for integrating the API into your applications.
 
 ## Quick Start
 
-The API is available immediately after installation at the `/nusa` endpoint:
+The API is automatically available after installation at the `/nusa` endpoint:
 
 ```bash
 # Get all provinces
@@ -17,18 +17,11 @@ curl http://your-app.test/nusa/provinces/33
 curl "http://your-app.test/nusa/provinces?search=jawa"
 ```
 
-## Base Configuration
+## Configuration
 
-### Default Settings
+### Enable/Disable API Routes
 
-- **Base URL**: `/nusa`
-- **Authentication**: None (public by default)
-- **Rate Limiting**: None (configurable)
-- **Response Format**: JSON with pagination
-
-### Customization
-
-You can customize the API behavior:
+The API routes are enabled by default. You can control this behavior:
 
 ```dotenv
 # Disable API routes
@@ -38,202 +31,11 @@ CREASI_NUSA_ROUTES_ENABLE=false
 CREASI_NUSA_ROUTES_PREFIX=api/indonesia
 ```
 
-## Response Format
+### Security Considerations
 
-All API responses follow a consistent structure:
+Since the API endpoints are **public by default**, consider these security measures for production:
 
-### Collection Response
-
-```json
-{
-  "data": [
-    {
-      "code": "33",
-      "name": "Jawa Tengah",
-      "latitude": -6.9934809206806,
-      "longitude": 110.42024335421
-    }
-  ],
-  "links": {
-    "first": "http://localhost:8000/nusa/provinces?page=1",
-    "last": "http://localhost:8000/nusa/provinces?page=3",
-    "prev": null,
-    "next": "http://localhost:8000/nusa/provinces?page=2"
-  },
-  "meta": {
-    "current_page": 1,
-    "from": 1,
-    "last_page": 3,
-    "per_page": 15,
-    "to": 15,
-    "total": 34
-  }
-}
-```
-
-### Single Resource Response
-
-```json
-{
-  "data": {
-    "code": "33",
-    "name": "Jawa Tengah",
-    "latitude": -6.9934809206806,
-    "longitude": 110.42024335421
-  },
-  "meta": {}
-}
-```
-
-## Available Endpoints
-
-### Province Endpoints
-
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | `/nusa/provinces` | List all provinces |
-| GET | `/nusa/provinces/{code}` | Get specific province |
-| GET | `/nusa/provinces/{code}/regencies` | Get regencies in province |
-| GET | `/nusa/provinces/{code}/districts` | Get districts in province |
-| GET | `/nusa/provinces/{code}/villages` | Get villages in province |
-
-### Regency Endpoints
-
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | `/nusa/regencies` | List all regencies |
-| GET | `/nusa/regencies/{code}` | Get specific regency |
-| GET | `/nusa/regencies/{code}/districts` | Get districts in regency |
-| GET | `/nusa/regencies/{code}/villages` | Get villages in regency |
-
-### District Endpoints
-
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | `/nusa/districts` | List all districts |
-| GET | `/nusa/districts/{code}` | Get specific district |
-| GET | `/nusa/districts/{code}/villages` | Get villages in district |
-
-### Village Endpoints
-
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | `/nusa/villages` | List all villages |
-| GET | `/nusa/villages/{code}` | Get specific village |
-
-## Query Parameters
-
-### Pagination
-
-```bash
-# Get second page with 25 items per page
-GET /nusa/provinces?page=2&per_page=25
-```
-
-### Search
-
-```bash
-# Search by name or code
-GET /nusa/provinces?search=jawa
-GET /nusa/regencies?search=33
-```
-
-### Filtering
-
-```bash
-# Filter by specific codes
-GET /nusa/provinces?codes[]=33&codes[]=34&codes[]=35
-```
-
-## Usage Examples
-
-### JavaScript/Fetch
-
-```javascript
-// Get all provinces
-async function getProvinces() {
-  const response = await fetch('/nusa/provinces');
-  const data = await response.json();
-  return data.data;
-}
-
-// Search regencies
-async function searchRegencies(query) {
-  const response = await fetch(`/nusa/regencies?search=${encodeURIComponent(query)}`);
-  const data = await response.json();
-  return data.data;
-}
-
-// Get regencies in a province
-async function getRegenciesByProvince(provinceCode) {
-  const response = await fetch(`/nusa/provinces/${provinceCode}/regencies`);
-  const data = await response.json();
-  return data.data;
-}
-```
-
-### PHP/Guzzle
-
-```php
-use GuzzleHttp\Client;
-
-$client = new Client(['base_uri' => 'https://your-app.com/']);
-
-// Get provinces
-$response = $client->get('nusa/provinces');
-$provinces = json_decode($response->getBody(), true);
-
-// Search with parameters
-$response = $client->get('nusa/regencies', [
-    'query' => [
-        'search' => 'jakarta',
-        'per_page' => 50
-    ]
-]);
-$regencies = json_decode($response->getBody(), true);
-```
-
-### cURL
-
-```bash
-# Basic request
-curl -X GET "https://your-app.com/nusa/provinces" \
-  -H "Accept: application/json"
-
-# With search parameters
-curl -X GET "https://your-app.com/nusa/regencies?search=jakarta&per_page=25" \
-  -H "Accept: application/json"
-
-# Get nested resources
-curl -X GET "https://your-app.com/nusa/provinces/33/regencies" \
-  -H "Accept: application/json"
-```
-
-## Security Considerations
-
-### Authentication
-
-By default, the API is public. For production applications, consider adding authentication:
-
-```php
-// In your RouteServiceProvider
-Route::middleware(['auth:sanctum'])->group(function () {
-    Route::get('nusa/provinces', [ProvinceController::class, 'index']);
-    // Other protected routes...
-});
-```
-
-### Rate Limiting
-
-Apply rate limiting to prevent abuse:
-
-```php
-Route::middleware(['throttle:60,1'])->group(function () {
-    // Your API routes
-});
-```
-
-### CORS
+#### CORS Configuration
 
 Configure CORS for frontend applications:
 
@@ -244,66 +46,108 @@ Configure CORS for frontend applications:
 'allowed_origins' => ['https://yourdomain.com'],
 ```
 
-## Error Handling
+#### Rate Limiting
 
-### HTTP Status Codes
+Add rate limiting to prevent abuse:
 
-- **200 OK** - Successful request
-- **404 Not Found** - Resource not found
-- **422 Unprocessable Entity** - Validation errors
-- **429 Too Many Requests** - Rate limit exceeded
+```php
+// routes/api.php
+Route::middleware(['throttle:100,1'])->group(function () {
+    // Your custom API routes
+});
+```
 
-### Error Response Format
+## Common Integration Patterns
 
-```json
-{
-  "message": "No query results for model [Creasi\\Nusa\\Models\\Province] 99",
-  "exception": "Illuminate\\Database\\Eloquent\\ModelNotFoundException"
+### Frontend Applications
+
+For building address forms and location-based features:
+
+```javascript
+// Fetch provinces for dropdown
+async function loadProvinces() {
+    const response = await fetch('/nusa/provinces');
+    const data = await response.json();
+    return data.data;
+}
+
+// Cascading dropdown implementation
+async function loadRegencies(provinceCode) {
+    const response = await fetch(`/nusa/provinces/${provinceCode}/regencies`);
+    const data = await response.json();
+    return data.data;
 }
 ```
 
-## Performance Tips
+### Backend Services
 
-### Caching
+For server-side data processing and validation:
+
+```php
+use GuzzleHttp\Client;
+
+class LocationService
+{
+    private $client;
+
+    public function __construct()
+    {
+        $this->client = new Client(['base_uri' => config('app.url')]);
+    }
+
+    public function validateAddress(array $addressData): bool
+    {
+        $response = $this->client->get("nusa/villages/{$addressData['village_code']}");
+
+        if ($response->getStatusCode() !== 200) {
+            return false;
+        }
+
+        $village = json_decode($response->getBody(), true)['data'];
+
+        return $village['district_code'] === $addressData['district_code'] &&
+               $village['regency_code'] === $addressData['regency_code'] &&
+               $village['province_code'] === $addressData['province_code'];
+    }
+}
+```
+
+## Performance Optimization
+
+### Caching Strategy
 
 Implement caching for frequently accessed data:
 
 ```php
 use Illuminate\Support\Facades\Cache;
 
-Route::get('nusa/provinces', function () {
-    return Cache::remember('nusa.provinces', 3600, function () {
-        return Province::orderBy('name')->paginate();
-    });
-});
+class CachedLocationService
+{
+    public function getProvinces()
+    {
+        return Cache::remember('nusa.provinces', 3600, function () {
+            $response = Http::get('/nusa/provinces');
+            return $response->json()['data'];
+        });
+    }
+}
 ```
 
-### Pagination
+### Pagination Best Practices
 
 Always use pagination for large datasets:
 
 ```javascript
 // Good: Use pagination
-const response = await fetch('/nusa/villages?per_page=50');
+const response = await fetch('/nusa/villages?per_page=50&page=1');
 
 // Avoid: Loading all villages at once
 const response = await fetch('/nusa/villages'); // 83,467 records!
 ```
 
-### Selective Fields
-
-Request only the fields you need:
-
-```php
-// In your custom controller
-public function index(Request $request)
-{
-    $fields = $request->get('fields', ['code', 'name']);
-    return Province::select($fields)->paginate();
-}
-```
-
 ## Custom Implementation
+
+If you need more control over the API behavior, you can disable the default routes and create your own:
 
 ### Disable Default Routes
 
@@ -311,62 +155,39 @@ public function index(Request $request)
 CREASI_NUSA_ROUTES_ENABLE=false
 ```
 
-### Create Custom Routes
+### Create Custom API Routes
 
 ```php
 // routes/api.php
-use Creasi\Nusa\Http\Controllers\ProvinceController;
+use Creasi\Nusa\Models\Province;
 
 Route::prefix('v1/indonesia')->middleware(['auth:api', 'throttle:100,1'])->group(function () {
-    Route::get('provinces', [ProvinceController::class, 'index']);
-    Route::get('provinces/{province}', [ProvinceController::class, 'show']);
-    Route::get('provinces/{province}/regencies', [ProvinceController::class, 'regencies']);
-    // Add more routes as needed
-});
-```
-
-### Custom Controllers
-
-```php
-<?php
-
-namespace App\Http\Controllers\Api;
-
-use App\Http\Controllers\Controller;
-use Creasi\Nusa\Models\Province;
-use Illuminate\Http\Request;
-
-class IndonesiaController extends Controller
-{
-    public function provinces(Request $request)
-    {
+    Route::get('provinces', function (Request $request) {
         $query = Province::query();
-        
+
         if ($search = $request->get('search')) {
             $query->search($search);
         }
-        
-        if ($codes = $request->get('codes')) {
-            $query->whereIn('code', $codes);
-        }
-        
+
         return $query->paginate($request->get('per_page', 15));
-    }
-    
-    public function province(string $code)
-    {
+    });
+
+    Route::get('provinces/{province}/regencies', function (string $code) {
         $province = Province::findOrFail($code);
-        
-        return response()->json([
-            'data' => $province,
-            'meta' => [
-                'regencies_count' => $province->regencies()->count(),
-                'districts_count' => $province->districts()->count(),
-                'villages_count' => $province->villages()->count(),
-            ]
-        ]);
-    }
-}
+        return $province->regencies()->paginate(15);
+    });
+});
 ```
 
-For detailed API reference, see the [API Reference](/api/overview) section.
+## Complete API Reference
+
+For detailed information about all available endpoints, parameters, and response formats, see the comprehensive [API Reference](/api/overview) documentation.
+
+The API reference includes:
+
+- **Complete endpoint listing** with all available routes
+- **Detailed response formats** and data structures
+- **Query parameters** for search, filtering, and pagination
+- **Error handling** and status codes
+- **Usage examples** in multiple programming languages
+- **Data attributes** for each administrative level

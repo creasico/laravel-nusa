@@ -33,7 +33,7 @@ curl "https://your-app.com/nusa/regencies?search=jakarta&per_page=10"
 {
   "data": [
     {
-      "code": "3171",
+      "code": "31.71",
       "province_code": "31",
       "name": "Kota Jakarta Selatan",
       "latitude": -6.2615,
@@ -71,12 +71,12 @@ Returns a specific regency by its code.
 
 | Parameter | Type | Description |
 |-----------|------|-------------|
-| `code` | string | 4-digit regency code |
+| `code` | string | Regency code in xx.xx format |
 
 #### Example Request
 
 ```bash
-curl "https://your-app.com/nusa/regencies/3375"
+curl "https://your-app.com/nusa/regencies/33.75"
 ```
 
 ### Get Regency Districts
@@ -90,7 +90,7 @@ Returns all districts within a specific regency.
 #### Example Request
 
 ```bash
-curl "https://your-app.com/nusa/regencies/3375/districts"
+curl "https://your-app.com/nusa/regencies/33.75/districts"
 ```
 
 ### Get Regency Villages
@@ -104,7 +104,7 @@ Returns all villages within a specific regency.
 #### Example Request
 
 ```bash
-curl "https://your-app.com/nusa/regencies/3375/villages?per_page=50"
+curl "https://your-app.com/nusa/regencies/33.75/villages?per_page=50"
 ```
 
 ## Data Attributes
@@ -113,7 +113,7 @@ curl "https://your-app.com/nusa/regencies/3375/villages?per_page=50"
 
 | Attribute | Type | Description |
 |-----------|------|-------------|
-| `code` | string | 4-digit regency code |
+| `code` | string | Regency code in xx.xx format |
 | `province_code` | string | Parent province code |
 | `name` | string | Regency/City name in Indonesian |
 | `latitude` | number | Geographic center latitude |

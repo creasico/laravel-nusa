@@ -172,7 +172,7 @@ GET /nusa/regencies?search=jakarta&codes[]=31&codes[]=32
 
 ```json
 {
-  "code": "33",                    // 2-digit province code
+  "code": "33",                   // 2-digit province code
   "name": "Jawa Tengah",          // Province name
   "latitude": -6.9934809206806,   // Center latitude
   "longitude": 110.42024335421,   // Center longitude
@@ -185,7 +185,7 @@ GET /nusa/regencies?search=jakarta&codes[]=31&codes[]=32
 
 ```json
 {
-  "code": "3375",                 // 4-digit regency code
+  "code": "33.75",                // xx.xx regency code
   "province_code": "33",          // Parent province code
   "name": "Kota Pekalongan",      // Regency name
   "latitude": -6.8969497174987,   // Center latitude
@@ -199,8 +199,8 @@ GET /nusa/regencies?search=jakarta&codes[]=31&codes[]=32
 
 ```json
 {
-  "code": "337501",               // 6-digit district code
-  "regency_code": "3375",         // Parent regency code
+  "code": "33.75.01",             // xx.xx.xx district code
+  "regency_code": "33.75",        // Parent regency code
   "province_code": "33",          // Parent province code
   "name": "Pekalongan Barat",     // District name
   "postal_codes": [51111, 51112]  // Postal codes in district
@@ -211,9 +211,9 @@ GET /nusa/regencies?search=jakarta&codes[]=31&codes[]=32
 
 ```json
 {
-  "code": "3375011002",           // 10-digit village code
-  "district_code": "337501",      // Parent district code
-  "regency_code": "3375",         // Parent regency code
+  "code": "33.75.01.1002",        // xx.xx.xx.xxxx village code
+  "district_code": "33.75.01",    // Parent district code
+  "regency_code": "33.75",        // Parent regency code
   "province_code": "33",          // Parent province code
   "name": "Medono",               // Village name
   "postal_code": "51111"          // Village postal code
@@ -238,17 +238,6 @@ The API returns standard HTTP status codes:
 }
 ```
 
-## Rate Limiting
-
-By default, there are no rate limits on the API endpoints. However, you can apply Laravel's rate limiting middleware if needed:
-
-```php
-// In your RouteServiceProvider or middleware
-Route::middleware(['throttle:60,1'])->group(function () {
-    // Your protected routes
-});
-```
-
 ## CORS Support
 
 If you need to access the API from a browser application on a different domain, configure CORS in your Laravel application:
@@ -262,9 +251,9 @@ If you need to access the API from a browser application on a different domain, 
 
 ## Usage Examples
 
-### JavaScript/Fetch
+::: code-group
 
-```javascript
+```javascript [fetch]
 // Get all provinces
 const response = await fetch('/nusa/provinces');
 const data = await response.json();
@@ -275,9 +264,7 @@ const searchResponse = await fetch('/nusa/regencies?search=jakarta');
 const searchData = await searchResponse.json();
 ```
 
-### cURL
-
-```bash
+```bash [curl]
 # Get provinces
 curl -X GET "https://your-app.com/nusa/provinces" \
   -H "Accept: application/json"
@@ -287,9 +274,7 @@ curl -X GET "https://your-app.com/nusa/provinces/33/regencies" \
   -H "Accept: application/json"
 ```
 
-### PHP/Guzzle
-
-```php
+```php [guzzle]
 use GuzzleHttp\Client;
 
 $client = new Client(['base_uri' => 'https://your-app.com/']);
@@ -304,6 +289,8 @@ $response = $client->get('nusa/regencies', [
 ]);
 $regencies = json_decode($response->getBody(), true);
 ```
+
+:::
 
 ## Next Steps
 

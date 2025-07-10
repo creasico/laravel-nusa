@@ -88,7 +88,7 @@ GET /nusa/provinces/33
 GET /nusa/provinces/33/regencies
 
 # Search with query parameters
-GET /nusa/villages?search=jakarta&codes[]=3171
+GET /nusa/villages?search=jakarta&codes[]=31.71
 ```
 
 ## Address Management
@@ -107,9 +107,9 @@ class User extends Model implements HasAddresses
 // Now your users can have addresses
 $user->addresses()->create([
     'province_code' => '33',
-    'regency_code' => '3375',
-    'district_code' => '337501',
-    'village_code' => '3375011002',
+    'regency_code' => '33.75',
+    'district_code' => '33.75.01',
+    'village_code' => '33.75.01.1002',
     'address_line' => 'Jl. Merdeka No. 123'
 ]);
 ```

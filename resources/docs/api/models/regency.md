@@ -344,7 +344,7 @@ class ValidRegencyForProvince implements Rule
 
 ```sql
 CREATE TABLE regencies (
-    code VARCHAR(4) PRIMARY KEY,
+    code VARCHAR(5) PRIMARY KEY,
     province_code VARCHAR(2) NOT NULL,
     name VARCHAR(255) NOT NULL,
     latitude DOUBLE NULL,

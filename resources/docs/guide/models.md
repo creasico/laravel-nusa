@@ -1,393 +1,305 @@
 # Models & Relationships
 
-Laravel Nusa provides four primary Eloquent models representing the Indonesian administrative hierarchy. Each model includes proper relationships, scopes, and attributes for working with administrative data.
+**Build location-aware applications** with Laravel Nusa's comprehensive Eloquent models. These models provide the foundation for integrating Indonesia's administrative structure into your business logic, from national-level analytics to village-specific operations.
 
-## Model Overview
+## Why Use Laravel Nusa Models?
 
-### Administrative Hierarchy
+### 🎯 **Complete Administrative Coverage**
+Work with every level of Indonesia's administrative hierarchy - from 34 provinces down to 83,467 villages. This comprehensive coverage ensures your application can handle any location-based requirement.
 
+### ⚡ **Ready-to-Use Relationships**
+Pre-built Eloquent relationships handle the complexity of Indonesia's hierarchical structure, allowing you to focus on your business logic rather than data management.
+
+### 🔄 **Official Data Sources**
+Models work with data synchronized from official government sources, ensuring your applications have accurate and current administrative information.
+
+## Understanding the Administrative Hierarchy
+
+### 📊 **Four-Level Structure**
 ```
-Province (Provinsi)
-├── Regency (Kabupaten/Kota)
-│   ├── District (Kecamatan)
-│   │   └── Village (Kelurahan/Desa)
+🇮🇩 Indonesia
+├── 34 Provinces → Strategic regional operations
+├── 514 Regencies → City and regency-level services
+├── 7,266 Districts → Community and local services
+└── 83,467 Villages → Precise location targeting
 ```
 
-### Model Classes
+::: tip Technical Details
+For detailed information about database structure, relationships, and technical implementation, see the [Models Overview](/api/models/overview) in the API Reference.
+:::
 
-- `Creasi\Nusa\Models\Province` - Provincial level (34 records)
-- `Creasi\Nusa\Models\Regency` - Regency/City level (514 records)
-- `Creasi\Nusa\Models\District` - District level (7,266 records)
-- `Creasi\Nusa\Models\Village` - Village level (83,467 records)
+### 🏢 **Business Applications**
 
-## Base Model Features
+**E-Commerce Platforms**: Shipping zones, delivery optimization, and customer segmentation
+**Healthcare Systems**: Facility management, patient demographics, and service coverage
+**Financial Services**: Risk assessment, branch planning, and regulatory compliance
+**Government Services**: Citizen management, resource allocation, and administrative reporting
 
-All models extend a common base class with shared functionality:
+## Powerful Model Features
 
-### Common Attributes
+### 🔍 **Intelligent Search**
+Find any location instantly with our smart search capabilities:
 
 ```php
-// All models have these attributes
-$model->code;        // string - Official administrative code
-$model->name;        // string - Official name
-$model->coordinates; // array|null - Geographic boundary coordinates
-```
-
-### Search Scope
-
-All models include a `search()` scope for finding by code or name:
-
-```php
-use Creasi\Nusa\Models\Province;
-
-// Search by name (case-insensitive)
+// Find by name - works with partial matches
 $provinces = Province::search('jawa')->get();
+// Returns: Jawa Barat, Jawa Tengah, Jawa Timur
 
-// Search by code
-$province = Province::search('33')->first();
+// Find by code - exact matches
+$jakarta = Province::search('31')->first();
 
-// Search works with partial matches
-$regencies = Regency::search('semarang')->get();
+// Business use case: Customer location lookup
+$customerRegency = Regency::search($userInput)->first();
 ```
 
-### Database Configuration
+**Benefits**: Helps customers quickly find their locations, improving form usability and user experience.
 
-Models use a separate database connection:
+### 🌍 **Geographic Intelligence**
+Every model includes geographic data for advanced location features:
 
 ```php
-// Models automatically use the 'nusa' connection
-$province = Province::find('33');
-echo $province->getConnectionName(); // 'nusa'
+// Access official administrative codes
+$village->code;        // "33.74.01.1001"
+$village->name;        // "Medono"
+
+// Geographic boundaries for mapping
+$province->coordinates; // Array of boundary points
+$province->latitude;    // Center coordinates
+$province->longitude;   // Center coordinates
 ```
 
-## Province Model
+**Benefits**: Enables mapping features, service area calculations, and location-based functionality.
 
-Represents Indonesian provinces (provinsi).
+## Business Solutions by Administrative Level
 
-### Attributes
+### 🏛️ **Province Level: Strategic Operations**
 
-```php
-use Creasi\Nusa\Models\Province;
-
-$province = Province::find('33');
-
-echo $province->code;        // '33'
-echo $province->name;        // 'Jawa Tengah'
-echo $province->latitude;    // -6.9934809206806
-echo $province->longitude;   // 110.42024335421
-$coordinates = $province->coordinates; // Array of boundary coordinates
-```
-
-### Relationships
-
-```php
-// One-to-many relationships
-$regencies = $province->regencies;  // Collection of Regency models
-$districts = $province->districts;  // Collection of District models  
-$villages = $province->villages;    // Collection of Village models
-
-// Count related records
-echo $province->regencies()->count(); // Number of regencies
-echo $province->districts()->count(); // Number of districts
-echo $province->villages()->count();  // Number of villages
-```
-
-### Postal Codes
-
-Get all postal codes within a province:
-
-```php
-$postalCodes = $province->postal_codes; // Array of postal codes
-```
-
-### Usage Examples
+**Perfect for**: Regional expansion, market analysis, compliance reporting
 
 ```php
 use Creasi\Nusa\Models\Province;
 
-// Get all provinces
-$provinces = Province::all();
-
-// Find specific province
-$jateng = Province::find('33');
-$jateng = Province::search('Jawa Tengah')->first();
-
-// Get provinces with relationships
-$provinces = Province::with(['regencies'])->get();
-
-// Get provinces in specific region
+// Market analysis: Find high-potential regions
 $javaProvinces = Province::search('jawa')->get();
+foreach ($javaProvinces as $province) {
+    echo "Market: {$province->name}";
+    echo "Cities: {$province->regencies->count()}";
+    echo "Coverage: {$province->villages->count()} villages";
+}
+
+// Compliance: Generate regional reports
+$centralJava = Province::find('33');
+$report = [
+    'region' => $centralJava->name,
+    'postal_codes' => $centralJava->postal_codes,
+    'administrative_units' => $centralJava->regencies->count()
+];
 ```
 
-## Regency Model
+**Benefits**:
+- **Regional Analysis**: Understand market coverage and opportunities by province
+- **Compliance Reporting**: Generate accurate regional reports for administrative requirements
+- **Strategic Planning**: Analyze geographic coverage and expansion possibilities
 
-Represents regencies and cities (kabupaten/kota).
+[→ Complete Province Model Reference](/api/models/province)
 
-### Attributes
+### 🏙️ **Regency Level: City Operations**
+
+**Perfect for**: Urban logistics, city-specific services, local partnerships
 
 ```php
 use Creasi\Nusa\Models\Regency;
 
-$regency = Regency::find('3375');
-
-echo $regency->code;           // '3375'
-echo $regency->province_code;  // '33'
-echo $regency->name;           // 'Kota Pekalongan'
-echo $regency->latitude;       // -6.8969497174987
-echo $regency->longitude;      // 109.66208089654
-```
-
-### Relationships
-
-```php
-// Belongs to province
-$province = $regency->province; // Province model
-
-// Has many districts and villages
-$districts = $regency->districts; // Collection of District models
-$villages = $regency->villages;   // Collection of Village models
-```
-
-### Usage Examples
-
-```php
-use Creasi\Nusa\Models\Regency;
-
-// Get all regencies
-$regencies = Regency::all();
-
-// Get regencies in a province
-$regencies = Regency::where('province_code', '33')->get();
-
-// Find by name
+// Logistics: Optimize city-level delivery
 $semarang = Regency::search('semarang')->first();
+$deliveryZones = $semarang->districts->groupBy('postal_code');
 
-// Get with relationships
-$regency = Regency::with(['province', 'districts'])->find('3375');
-```
+// Business expansion: Analyze city markets
+$jakartaRegencies = Regency::whereHas('province', function ($query) {
+    $query->where('code', '31'); // DKI Jakarta
+})->get();
 
-## District Model
-
-Represents districts (kecamatan).
-
-### Attributes
-
-```php
-use Creasi\Nusa\Models\District;
-
-$district = District::find('337501');
-
-echo $district->code;          // '337501'
-echo $district->regency_code;  // '3375'
-echo $district->province_code; // '33'
-echo $district->name;          // 'Pekalongan Barat'
-```
-
-### Relationships
-
-```php
-// Belongs to province and regency
-$province = $district->province; // Province model
-$regency = $district->regency;   // Regency model
-
-// Has many villages
-$villages = $district->villages; // Collection of Village models
-```
-
-### Postal Codes
-
-Get postal codes within a district:
-
-```php
-$postalCodes = $district->postal_codes; // Array of postal codes
-```
-
-### Usage Examples
-
-```php
-use Creasi\Nusa\Models\District;
-
-// Get all districts
-$districts = District::all();
-
-// Get districts in a regency
-$districts = District::where('regency_code', '3375')->get();
-
-// Get districts in a province
-$districts = District::where('province_code', '33')->get();
-
-// Paginate large results
-$districts = District::paginate(15);
-```
-
-## Village Model
-
-Represents villages and urban villages (kelurahan/desa).
-
-### Attributes
-
-```php
-use Creasi\Nusa\Models\Village;
-
-$village = Village::find('3375011002');
-
-echo $village->code;          // '3375011002'
-echo $village->district_code; // '337501'
-echo $village->regency_code;  // '3375'
-echo $village->province_code; // '33'
-echo $village->name;          // 'Medono'
-echo $village->postal_code;   // '51111'
-```
-
-### Relationships
-
-```php
-// Belongs to province, regency, and district
-$province = $village->province; // Province model
-$regency = $village->regency;   // Regency model
-$district = $village->district; // District model
-```
-
-### Usage Examples
-
-```php
-use Creasi\Nusa\Models\Village;
-
-// Get all villages (use pagination for performance)
-$villages = Village::paginate(50);
-
-// Get villages in a district
-$villages = Village::where('district_code', '337501')->get();
-
-// Find by postal code
-$villages = Village::where('postal_code', '51111')->get();
-
-// Search by name
-$villages = Village::search('medono')->get();
-```
-
-## Advanced Querying
-
-### Eager Loading
-
-Load relationships efficiently:
-
-```php
-// Load multiple relationships
-$provinces = Province::with(['regencies.districts.villages'])->get();
-
-// Load specific columns
-$provinces = Province::with(['regencies:code,province_code,name'])->get();
-
-// Conditional loading
-$provinces = Province::with(['regencies' => function ($query) {
-    $query->where('name', 'like', '%kota%');
-}])->get();
-```
-
-### Filtering and Searching
-
-```php
-// Multiple search terms
-$results = Province::search('jawa')
-    ->orWhere(function ($query) {
-        $query->search('sumatra');
-    })
-    ->get();
-
-// Filter by multiple codes
-$provinces = Province::whereIn('code', ['33', '34', '35'])->get();
-
-// Complex filtering
-$regencies = Regency::where('province_code', '33')
-    ->where('name', 'like', '%kota%')
-    ->orderBy('name')
-    ->get();
-```
-
-### Aggregations
-
-```php
-// Count records by province
-$counts = Regency::selectRaw('province_code, count(*) as total')
-    ->groupBy('province_code')
-    ->get();
-
-// Get provinces with most regencies
-$provinces = Province::withCount('regencies')
-    ->orderBy('regencies_count', 'desc')
-    ->get();
-```
-
-## Model Contracts
-
-Laravel Nusa provides contracts (interfaces) for type hinting:
-
-```php
-use Creasi\Nusa\Contracts\{Province, Regency, District, Village};
-
-class LocationService
-{
-    public function __construct(
-        private Province $provinceModel,
-        private Regency $regencyModel,
-        private District $districtModel,
-        private Village $villageModel
-    ) {}
-    
-    public function getLocationHierarchy(string $villageCode): array
-    {
-        $village = $this->villageModel->find($villageCode);
-        
-        return [
-            'village' => $village,
-            'district' => $village->district,
-            'regency' => $village->regency,
-            'province' => $village->province,
-        ];
-    }
+foreach ($jakartaRegencies as $regency) {
+    echo "City: {$regency->name}";
+    echo "Districts: {$regency->districts->count()}";
+    echo "Market size: {$regency->villages->count()} communities";
 }
 ```
 
-## Performance Tips
+**Benefits**:
+- **Urban Operations**: Organize city-level logistics and service delivery
+- **Local Analysis**: Understand city-specific market characteristics
+- **Regional Planning**: Plan operations across different urban areas
 
-### Use Pagination
+[→ Complete Regency Model Reference](/api/models/regency)
 
-For large datasets, always use pagination:
+### 🏘️ **District Level: Community Services**
 
-```php
-// Good - paginated results
-$villages = Village::paginate(50);
-
-// Avoid - loading all records
-$villages = Village::all(); // 83,467 records!
-```
-
-### Select Specific Columns
-
-Only load columns you need:
+**Perfect for**: Local services, community engagement, field operations
 
 ```php
-// Good - specific columns
-$provinces = Province::select('code', 'name')->get();
+use Creasi\Nusa\Models\District;
 
-// Avoid - all columns including large coordinates
-$provinces = Province::all();
+// Healthcare: Manage clinic coverage areas
+$district = District::find('33.75.01');
+$serviceArea = [
+    'district' => $district->name,
+    'regency' => $district->regency->name,
+    'villages_served' => $district->villages->count(),
+    'estimated_population' => $district->villages->count() * 1000
+];
+
+// Field operations: Optimize service routes
+$districts = District::where('regency_code', '33.74')->get();
+foreach ($districts as $district) {
+    echo "Service area: {$district->name}";
+    echo "Villages: {$district->villages->count()}";
+    echo "Coordinates: {$district->latitude}, {$district->longitude}";
+}
 ```
 
-### Use Appropriate Indexes
+**Benefits**:
+- **Local Services**: Organize community-level service delivery
+- **Field Operations**: Plan routes and coverage for field teams
+- **Service Planning**: Understand local service areas and coverage
 
-The database includes proper indexes for common queries:
+[→ Complete District Model Reference](/api/models/district)
+
+### 🏠 **Village Level: Precision Targeting**
+
+**Perfect for**: Last-mile delivery, customer targeting, precise analytics
 
 ```php
-// These queries are optimized
-Province::find('33');                    // Primary key
-Regency::where('province_code', '33');   // Foreign key index
-Village::where('postal_code', '51111');  // Postal code index
+use Creasi\Nusa\Models\Village;
+
+// E-commerce: Precise delivery planning
+$village = Village::find('33.75.01.1002');
+$deliveryInfo = [
+    'village' => $village->name,
+    'postal_code' => $village->postal_code,
+    'full_address' => [
+        $village->name,
+        $village->district->name,
+        $village->regency->name,
+        $village->province->name
+    ],
+    'coordinates' => [$village->latitude, $village->longitude]
+];
+
+// Customer analytics: Demographic insights
+$customerVillages = Village::whereIn('code', $customerVillageCodes)
+    ->with(['district.regency.province'])
+    ->get();
+
+$demographics = $customerVillages->groupBy('province.name')
+    ->map(function ($villages, $province) {
+        return [
+            'province' => $province,
+            'customer_villages' => $villages->count(),
+            'market_penetration' => $villages->count() / 1000 // villages per 1000
+        ];
+    });
 ```
 
-## Next Steps
+**Benefits**:
+- **Precise Delivery**: Accurate addressing with postal code support
+- **Customer Segmentation**: Detailed geographic customer analysis
+- **Local Insights**: Village-level data for targeted operations
 
-- **[Database Structure](/guide/database)** - Learn about the underlying database schema
-- **[Address Management](/guide/addresses)** - Integrate addresses into your models
-- **[API Reference](/api/overview)** - Explore the RESTful API endpoints
+[→ Complete Village Model Reference](/api/models/village)
+## Smart Relationships & Performance
+
+### 🔗 **Intelligent Hierarchical Relationships**
+
+Every model understands its place in Indonesia's administrative structure:
+
+```php
+// Navigate the hierarchy effortlessly
+$village = Village::find('33.75.01.1002');
+
+// Access any level instantly
+echo $village->name;              // "Medono"
+echo $village->district->name;    // "Pekalongan Barat"
+echo $village->regency->name;     // "Kota Pekalongan"
+echo $village->province->name;    // "Jawa Tengah"
+
+// Business intelligence in one query
+$customerAnalysis = $village->province->regencies()
+    ->withCount(['villages', 'districts'])
+    ->get();
+```
+
+### ⚡ **Enterprise-Grade Performance**
+
+Built for scale with intelligent optimization:
+
+```php
+// Efficient bulk operations
+$marketAnalysis = Province::with(['regencies:code,name,province_code'])
+    ->whereIn('code', ['31', '32', '33']) // Java provinces
+    ->get();
+
+// Smart pagination for large datasets
+$villages = Village::where('regency_code', '33.74')
+    ->paginate(50); // Handle 83K+ villages efficiently
+
+// Optimized search across millions of records
+$locations = Village::search('jakarta')->limit(10)->get();
+```
+
+## Common Implementation Scenarios
+
+### 📈 **E-Commerce Applications**
+Location-aware features for shipping zones, delivery optimization, and customer segmentation based on administrative regions.
+
+### 🏥 **Healthcare Systems**
+Facility management, patient demographics analysis, and service coverage planning using hierarchical administrative data.
+
+### 🚚 **Logistics Applications**
+Route planning, service area management, and delivery optimization using Indonesia's administrative structure.
+
+## Integration Patterns
+
+### 🎯 **Quick Integration**
+```php
+// Add location to existing models
+class Customer extends Model
+{
+    use WithVillage; // Instant location capability
+}
+```
+
+### 🏢 **Enterprise Integration**
+```php
+// Complex business requirements
+class BusinessLocation extends Model
+{
+    use WithAddresses, WithCoordinate;
+    // Multiple locations + GPS coordinates
+}
+```
+
+### 🚀 **Advanced Analytics**
+```php
+// Business intelligence ready
+$marketInsights = Province::withCount(['regencies', 'villages'])
+    ->with(['regencies' => function ($query) {
+        $query->withCount('villages');
+    }])
+    ->get();
+```
+
+## Getting Started
+
+Laravel Nusa's models provide a solid foundation for building location-aware applications that work with Indonesia's administrative structure.
+
+### **Next Steps**:
+
+1. **[Models Overview](/api/models/overview)** - Technical details, database structure, and relationships
+2. **[Customization Guide](/guide/customization)** - Learn how to integrate models with your application
+3. **[Address Management](/guide/addresses)** - Explore address functionality
+4. **[Implementation Examples](/examples/custom-models)** - See practical usage patterns
+
+---
+
+*Build location-aware applications with Indonesia's comprehensive administrative data.*

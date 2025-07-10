@@ -41,7 +41,17 @@ export default withMermaid(defineConfig({
           items: [
             { text: 'What is Laravel Nusa?', link: '/guide/what-is-laravel-nusa' },
             { text: 'Getting Started', link: '/guide/getting-started' },
-            { text: 'Installation', link: '/guide/installation' }
+            { text: 'Installation', link: '/guide/installation' },
+            { text: 'Configuration', link: '/guide/configuration' }
+          ]
+        },
+        {
+          text: 'Features',
+          items: [
+            { text: 'Models & Relationships', link: '/guide/models' },
+            { text: 'Address Management', link: '/guide/addresses' },
+            { text: 'Customization', link: '/guide/customization' },
+            { text: 'RESTful API', link: '/guide/api' }
           ]
         },
         {
@@ -49,21 +59,6 @@ export default withMermaid(defineConfig({
           items: [
             { text: 'Development Setup', link: '/guide/development' },
             { text: 'Troubleshooting', link: '/guide/troubleshooting' }
-          ]
-        },
-        {
-          text: 'Core Concepts',
-          items: [
-            { text: 'Models & Relationships', link: '/guide/models' },
-            { text: 'Database Structure', link: '/guide/database' },
-            { text: 'Configuration', link: '/guide/configuration' }
-          ]
-        },
-        {
-          text: 'Features',
-          items: [
-            { text: 'RESTful API', link: '/guide/api' },
-            { text: 'Address Management', link: '/guide/addresses' }
           ]
         }
       ],
@@ -81,11 +76,27 @@ export default withMermaid(defineConfig({
         {
           text: 'Models',
           items: [
+            { text: 'Overview', link: '/api/models/overview' },
             { text: 'Province Model', link: '/api/models/province' },
             { text: 'Regency Model', link: '/api/models/regency' },
             { text: 'District Model', link: '/api/models/district' },
             { text: 'Village Model', link: '/api/models/village' },
             { text: 'Address Model', link: '/api/models/address' }
+          ]
+        },
+        {
+          text: 'Customization',
+          items: [
+            { text: 'Model Concerns Overview', link: '/api/concerns/' },
+            { text: 'WithProvince', link: '/api/concerns/with-province' },
+            { text: 'WithRegency', link: '/api/concerns/with-regency' },
+            { text: 'WithDistrict', link: '/api/concerns/with-district' },
+            { text: 'WithVillage', link: '/api/concerns/with-village' },
+            { text: 'WithDistricts', link: '/api/concerns/with-districts' },
+            { text: 'WithVillages', link: '/api/concerns/with-villages' },
+            { text: 'WithAddress', link: '/api/concerns/with-address' },
+            { text: 'WithAddresses', link: '/api/concerns/with-addresses' },
+            { text: 'WithCoordinate', link: '/api/concerns/with-coordinate' }
           ]
         }
       ],

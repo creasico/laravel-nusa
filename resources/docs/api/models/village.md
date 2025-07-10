@@ -98,10 +98,10 @@ $villages = Village::search('kelurahan')->get();
 
 ```php
 // Get villages in a specific district
-$districtVillages = Village::where('district_code', '337501')->get();
+$districtVillages = Village::where('district_code', '33.75.01')->get();
 
 // Get villages in a specific regency
-$regencyVillages = Village::where('regency_code', '3375')->get();
+$regencyVillages = Village::where('regency_code', '33.75')->get();
 
 // Get villages in a specific province
 $provinceVillages = Village::where('province_code', '33')->paginate(100);
@@ -269,7 +269,7 @@ $postalStats = Village::selectRaw('postal_code, count(*) as village_count')
 $villages = Village::paginate(50);
 
 // Good: Filter by parent region first
-$villages = Village::where('district_code', '337501')
+$villages = Village::where('district_code', '33.75.01')
     ->select('code', 'name', 'postal_code')
     ->get();
 
@@ -392,9 +392,9 @@ class ValidVillageForDistrict implements Rule
 
 ```sql
 CREATE TABLE villages (
-    code VARCHAR(10) PRIMARY KEY,
-    district_code VARCHAR(6) NOT NULL,
-    regency_code VARCHAR(4) NOT NULL,
+    code VARCHAR(13) PRIMARY KEY,
+    district_code VARCHAR(8) NOT NULL,
+    regency_code VARCHAR(5) NOT NULL,
     province_code VARCHAR(2) NOT NULL,
     name VARCHAR(255) NOT NULL,
     latitude DOUBLE NULL,

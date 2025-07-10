@@ -39,12 +39,12 @@ Returns a specific district by its code.
 
 | Parameter | Type | Description |
 |-----------|------|-------------|
-| `code` | string | 6-digit district code |
+| `code` | string | District code in xx.xx.xx format |
 
 #### Example Request
 
 ```bash
-curl "https://your-app.com/nusa/districts/337501"
+curl "https://your-app.com/nusa/districts/33.75.01"
 ```
 
 ### Get District Villages
@@ -58,7 +58,7 @@ Returns all villages within a specific district.
 #### Example Request
 
 ```bash
-curl "https://your-app.com/nusa/districts/337501/villages"
+curl "https://your-app.com/nusa/districts/33.75.01/villages"
 ```
 
 ## Data Attributes
@@ -67,7 +67,7 @@ curl "https://your-app.com/nusa/districts/337501/villages"
 
 | Attribute | Type | Description |
 |-----------|------|-------------|
-| `code` | string | 6-digit district code |
+| `code` | string | District code in xx.xx.xx format |
 | `regency_code` | string | Parent regency code |
 | `province_code` | string | Parent province code |
 | `name` | string | District name in Indonesian |

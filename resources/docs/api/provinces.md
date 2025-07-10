@@ -220,9 +220,9 @@ curl "https://your-app.com/nusa/provinces/33/villages?per_page=50"
 
 ## Usage Examples
 
-### JavaScript
+::: code-group
 
-```javascript
+```javascript [fetch]
 class ProvinceService {
   constructor(baseUrl = '/nusa') {
     this.baseUrl = baseUrl;
@@ -267,11 +267,7 @@ const centralJava = await provinceService.getById('33');
 const regencies = await provinceService.getRegencies('33');
 ```
 
-### PHP
-
-```php
-<?php
-
+```php [guzzle]
 use GuzzleHttp\Client;
 
 class ProvinceService
@@ -331,9 +327,7 @@ $centralJava = $provinceService->getById('33');
 $regencies = $provinceService->getRegencies('33', ['per_page' => 50]);
 ```
 
-### Python
-
-```python
+```python [python]
 import requests
 from typing import Dict, List, Optional
 
@@ -374,6 +368,8 @@ central_java = province_service.get_by_id("33")
 # Get regencies in Central Java
 regencies = province_service.get_regencies("33", {"per_page": 50})
 ```
+
+:::
 
 ## Error Handling
 

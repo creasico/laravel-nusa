@@ -10,9 +10,10 @@ This guide covers setting up Laravel Nusa for development, contributing, and wor
   - `ext-sqlite3` - For SQLite database support
   - `ext-json` - For JSON handling
   - `ext-mbstring` - For string manipulation
-- **Node.js** ≥ 18 with pnpm package manager
+- **Node.js** ≥ 20 with pnpm package manager
 - **Git** with submodule support
 - **Docker** (recommended) or local MySQL server
+- **SQLite CLI Tool** with `sqldiff` for SQLite database management
 
 ### Development Tools
 
@@ -107,7 +108,7 @@ composer testbench nusa:stat
 composer upstream logs
 
 # Access MySQL CLI (using docker compose)
-composer upstream exec mysql mysql -u root -p
+composer upstream exec mysql mysql -u root -psecret nusantara
 
 # Generate static files
 composer testbench nusa:generate-static
@@ -178,28 +179,28 @@ Available via `composer testbench nusa:*`:
 #### `nusa:import`
 Import data from upstream sources:
 ```bash
-composer testbench nusa:import           # Import data
+composer testbench nusa:import           # Import data from upstream
 composer testbench nusa:import --fresh   # Recreate database + import
-composer testbench nusa:import --dist    # Import + create distribution
+composer testbench nusa:import --dist    # Import + create distribution database
 ```
 
 #### `nusa:dist`
-Create distribution database (removes coordinates):
+Create distribution database (removes coordinates for privacy):
 ```bash
 composer testbench nusa:dist             # Create distribution database
-composer testbench nusa:dist --force     # Force overwrite existing
+composer testbench nusa:dist --force     # Force overwrite existing distribution
 ```
 
 #### `nusa:stat`
-Generate database statistics:
+Generate database statistics and show changes:
 ```bash
-composer testbench nusa:stat             # Show database changes/stats
+composer testbench nusa:stat             # Show database stats and changes
 ```
 
 #### `nusa:generate-static`
-Generate static files (CSV, JSON, GeoJSON):
+Generate static files (CSV, JSON formats):
 ```bash
-composer testbench nusa:generate-static  # Generate static files
+composer testbench nusa:generate-static  # Generate static data files
 ```
 
 ## Data Management
@@ -217,41 +218,49 @@ workbench/submodules/
 
 ### Import Process
 
+The import process pulls data from upstream Git submodules and processes it:
+
 ```bash
-# Full import process
-composer testbench nusa:import -- --fresh
+# Full import process (recommended)
+composer testbench nusa:import --fresh
 
-# Import specific data types
-composer testbench nusa:import -- --provinces
-composer testbench nusa:import -- --regencies
-composer testbench nusa:import -- --districts
-composer testbench nusa:import -- --villages
+# Import without recreating database
+composer testbench nusa:import
 
-# Import with coordinates
-composer testbench nusa:import -- --with-coordinates
+# Import and create distribution database
+composer testbench nusa:import --dist
 ```
+
+::: tip Import Options
+The import command only supports `--fresh` and `--dist` options. It automatically imports all administrative levels (provinces, regencies, districts, villages) from the upstream sources.
+:::
 
 ### Distribution Database
 
-Create privacy-compliant distribution database:
+Create privacy-compliant distribution database (removes coordinate data):
 
 ```bash
-# Generate distribution database (removes coordinates)
-composer testbench nusa:dist --force
+# Generate distribution database
+composer testbench nusa:dist
 
-# Note: --keep-coordinates option is not available
-# Distribution database always removes coordinates
+# Force overwrite existing distribution database
+composer testbench nusa:dist --force
 ```
+
+::: warning Privacy Compliance
+The distribution database automatically removes all coordinate data to ensure privacy compliance. This is the database included in the package distribution.
+:::
 
 ### Data Statistics
 
-```bash
-# Generate comprehensive statistics
-composer testbench nusa:stat
+View database statistics and changes:
 
-# Generate statistics (no export option available)
+```bash
+# Show database statistics and changes from upstream
 composer testbench nusa:stat
 ```
+
+This command compares the current distribution database with the development database to show what has changed.
 
 ## Development Workflow
 
@@ -358,7 +367,7 @@ sqlite3 database/nusa.sqlite
 mysql -h 127.0.0.1 -u root -psecret nusantara
 
 # Via Docker
-composer upstream:mysql
+composer upstream exec mysql mysql -u root -psecret nusantara
 ```
 
 ### Database Inspection

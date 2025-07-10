@@ -107,134 +107,42 @@ $province = $village->province;
 echo "Full address: {$village->name}, {$district->name}, {$regency->name}, {$province->name}";
 ```
 
-## Building Address Forms
+## Address Form Integration
 
-### Cascading Dropdowns
+For building complete address forms with cascading dropdowns, see the dedicated [Address Forms](/examples/address-forms) guide which covers:
+
+- Complete backend controller implementation
+- Frontend JavaScript integration with multiple frameworks
+- Form validation and error handling
+- Styling and UX considerations
+
+### Quick Address Form Data
 
 ```php
-// Controller method for address form
+// Simple cascading dropdown data endpoints
 class AddressController extends Controller
 {
-    public function getProvinces()
-    {
-        return Province::orderBy('name')->get(['code', 'name']);
-    }
-    
     public function getRegencies(Request $request)
     {
-        $provinceCode = $request->get('province_code');
-        
-        return Regency::where('province_code', $provinceCode)
+        return Regency::where('province_code', $request->province_code)
             ->orderBy('name')
             ->get(['code', 'name']);
     }
-    
+
     public function getDistricts(Request $request)
     {
-        $regencyCode = $request->get('regency_code');
-        
-        return District::where('regency_code', $regencyCode)
+        return District::where('regency_code', $request->regency_code)
             ->orderBy('name')
             ->get(['code', 'name']);
     }
-    
+
     public function getVillages(Request $request)
     {
-        $districtCode = $request->get('district_code');
-        
-        return Village::where('district_code', $districtCode)
+        return Village::where('district_code', $request->district_code)
             ->orderBy('name')
             ->get(['code', 'name', 'postal_code']);
     }
 }
-```
-
-### JavaScript Integration
-
-```javascript
-// Frontend JavaScript for cascading dropdowns
-class AddressForm {
-    constructor() {
-        this.provinceSelect = document.getElementById('province');
-        this.regencySelect = document.getElementById('regency');
-        this.districtSelect = document.getElementById('district');
-        this.villageSelect = document.getElementById('village');
-        
-        this.bindEvents();
-        this.loadProvinces();
-    }
-    
-    bindEvents() {
-        this.provinceSelect.addEventListener('change', () => {
-            this.loadRegencies(this.provinceSelect.value);
-        });
-        
-        this.regencySelect.addEventListener('change', () => {
-            this.loadDistricts(this.regencySelect.value);
-        });
-        
-        this.districtSelect.addEventListener('change', () => {
-            this.loadVillages(this.districtSelect.value);
-        });
-    }
-    
-    async loadProvinces() {
-        const response = await fetch('/nusa/provinces');
-        const data = await response.json();
-        
-        this.populateSelect(this.provinceSelect, data.data);
-    }
-    
-    async loadRegencies(provinceCode) {
-        if (!provinceCode) return this.clearSelect(this.regencySelect);
-        
-        const response = await fetch(`/nusa/provinces/${provinceCode}/regencies`);
-        const data = await response.json();
-        
-        this.populateSelect(this.regencySelect, data.data);
-        this.clearSelect(this.districtSelect);
-        this.clearSelect(this.villageSelect);
-    }
-    
-    async loadDistricts(regencyCode) {
-        if (!regencyCode) return this.clearSelect(this.districtSelect);
-        
-        const response = await fetch(`/nusa/regencies/${regencyCode}/districts`);
-        const data = await response.json();
-        
-        this.populateSelect(this.districtSelect, data.data);
-        this.clearSelect(this.villageSelect);
-    }
-    
-    async loadVillages(districtCode) {
-        if (!districtCode) return this.clearSelect(this.villageSelect);
-        
-        const response = await fetch(`/nusa/districts/${districtCode}/villages`);
-        const data = await response.json();
-        
-        this.populateSelect(this.villageSelect, data.data);
-    }
-    
-    populateSelect(select, options) {
-        this.clearSelect(select);
-        
-        options.forEach(option => {
-            const optionElement = document.createElement('option');
-            optionElement.value = option.code;
-            optionElement.textContent = option.name;
-            select.appendChild(optionElement);
-        });
-    }
-    
-    clearSelect(select) {
-        select.innerHTML = '<option value="">-- Select --</option>';
-    }
-}
-
-// Initialize when DOM is ready
-document.addEventListener('DOMContentLoaded', () => {
-    new AddressForm();
-});
 ```
 
 ## Geographic Data Usage

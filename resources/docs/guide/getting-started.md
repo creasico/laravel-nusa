@@ -1,16 +1,8 @@
 # Getting Started
 
-This guide will help you install and start using Laravel Nusa in your Laravel application.
+This guide will help you quickly install and start using Laravel Nusa in your Laravel application.
 
-## Prerequisites
-
-Before installing Laravel Nusa, ensure your system meets these requirements:
-
-- **PHP** ≥ 8.2 with `php-sqlite3` extension
-- **Laravel** ≥ 9.0 (supports up to Laravel 12.0)
-- **Composer** for package management
-
-## Installation
+## Quick Installation
 
 Install Laravel Nusa via Composer:
 
@@ -25,223 +17,139 @@ That's it! Laravel Nusa is now ready to use. The package includes:
 - ✅ Database connection configuration
 - ✅ RESTful API routes (optional)
 
+::: tip Requirements
+Laravel Nusa requires **PHP ≥ 8.2** with `php-sqlite3` extension and **Laravel ≥ 9.0**. For detailed system requirements and troubleshooting, see the [Installation Guide](/guide/installation).
+:::
+
 ## Verify Installation
 
-Let's verify the installation by testing some basic functionality:
-
-### 1. Test Models
-
-Create a simple test in your application:
+Let's verify the installation works correctly:
 
 ```php
-<?php
-
 use Creasi\Nusa\Models\Province;
 
-// Get all provinces
+// Test basic functionality
 $provinces = Province::all();
 echo "Total provinces: " . $provinces->count(); // Should output: 34
 
-// Get a specific province
+// Test search functionality
 $jateng = Province::search('Jawa Tengah')->first();
-echo "Province: " . $jateng->name; // Should output: Jawa Tengah
-echo "Code: " . $jateng->code; // Should output: 33
+echo "Found: " . $jateng->name; // Should output: Jawa Tengah
 ```
 
-### 2. Test API Endpoints
+If this works, you're ready to go! If you encounter issues, check the [Installation Guide](/guide/installation) for troubleshooting.
 
-If you have API routes enabled (default), test the endpoints:
+## First Steps with Laravel Nusa
 
-```bash
-# Get all provinces
-curl http://your-app.test/nusa/provinces
+### 1. Understanding the Data Structure
 
-# Get specific province
-curl http://your-app.test/nusa/provinces/33
+Laravel Nusa provides a complete hierarchy of Indonesian administrative regions:
 
-# Search provinces
-curl "http://your-app.test/nusa/provinces?search=jawa"
+```
+Indonesia
+└── 34 Provinces (Provinsi)
+    └── 514 Regencies (Kabupaten/Kota)
+        └── 7,266 Districts (Kecamatan)
+            └── 83,467 Villages (Kelurahan/Desa)
 ```
 
-### 3. Test Relationships
+Each level has a specific code format:
+- **Province**: `33` (2 digits)
+- **Regency**: `33.75` (province.regency)
+- **District**: `33.75.01` (province.regency.district)
+- **Village**: `33.75.01.1002` (province.regency.district.village)
 
-Verify that relationships work correctly:
-
-```php
-<?php
-
-use Creasi\Nusa\Models\Province;
-
-$jateng = Province::find('33');
-
-// Get regencies in Central Java
-$regencies = $jateng->regencies;
-echo "Regencies in Central Java: " . $regencies->count();
-
-// Get all districts in Central Java
-$districts = $jateng->districts;
-echo "Districts in Central Java: " . $districts->count();
-
-// Get all villages in Central Java
-$villages = $jateng->villages;
-echo "Villages in Central Java: " . $villages->count();
-```
-
-## Basic Usage Examples
-
-### Finding Administrative Regions
+### 2. Basic Queries
 
 ```php
 use Creasi\Nusa\Models\{Province, Regency, District, Village};
 
 // Find by code
-$province = Province::find('33');
-$regency = Regency::find('3375');
-$district = District::find('337501');
-$village = Village::find('3375011002');
+$province = Province::find('33');              // Central Java
+$regency = Regency::find('33.75');            // Pekalongan City
+$district = District::find('33.75.01');       // West Pekalongan
+$village = Village::find('33.75.01.1002');    // Medono Village
 
-// Search by name
+// Search by name (case-insensitive)
 $provinces = Province::search('jawa')->get();
 $regencies = Regency::search('semarang')->get();
-$districts = District::search('pekalongan')->get();
-$villages = Village::search('medono')->get();
 
 // Get with relationships
-$province = Province::with(['regencies', 'districts'])->find('33');
+$province = Province::with('regencies')->find('33');
+$regencies = $province->regencies; // All regencies in Central Java
 ```
 
-### Working with Geographic Data
+### 3. Building Address Forms
+
+A common use case is building cascading dropdown forms:
 
 ```php
-use Creasi\Nusa\Models\Province;
-
-$province = Province::find('33');
-
-// Access coordinates
-echo "Latitude: " . $province->latitude;
-echo "Longitude: " . $province->longitude;
-
-// Access boundary coordinates (if available)
-$coordinates = $province->coordinates; // Array of coordinate points
-
-// Get postal codes in this province
-$postalCodes = $province->postal_codes; // Array of postal codes
-```
-
-### Building Address Forms
-
-```php
-use Creasi\Nusa\Models\{Province, Regency, District, Village};
-
-// Get data for cascading dropdowns
+// Get provinces for the first dropdown
 $provinces = Province::orderBy('name')->get(['code', 'name']);
 
-// When user selects a province
+// When user selects a province, get its regencies
 $regencies = Regency::where('province_code', '33')
     ->orderBy('name')
     ->get(['code', 'name']);
 
-// When user selects a regency
-$districts = District::where('regency_code', '3375')
+// When user selects a regency, get its districts
+$districts = District::where('regency_code', '33.75')
     ->orderBy('name')
     ->get(['code', 'name']);
 
-// When user selects a district
-$villages = Village::where('district_code', '337501')
+// When user selects a district, get its villages
+$villages = Village::where('district_code', '33.75.01')
     ->orderBy('name')
     ->get(['code', 'name', 'postal_code']);
 ```
 
-## Configuration
+### 4. Using the API
 
-Laravel Nusa works out of the box with sensible defaults, but you can customize it if needed.
-
-### Publish Configuration
+Laravel Nusa provides RESTful API endpoints out of the box:
 
 ```bash
-php artisan vendor:publish --tag=creasi-nusa-config
+# Get all provinces
+curl http://your-app.test/nusa/provinces
+
+# Get regencies in a province
+curl http://your-app.test/nusa/provinces/33/regencies
+
+# Search for locations
+curl "http://your-app.test/nusa/regencies?search=jakarta"
 ```
 
-This creates `config/creasi/nusa.php` with these options:
+### 5. Working with Geographic Data
+
+Access coordinates and postal codes:
 
 ```php
-<?php
+$province = Province::find('33');
 
-return [
-    // Database connection name
-    'connection' => env('CREASI_NUSA_CONNECTION', 'nusa'),
-    
-    // Table names (if you need to customize)
-    'table_names' => [
-        'provinces' => 'provinces',
-        'regencies' => 'regencies',
-        'districts' => 'districts',
-        'villages' => 'villages',
-    ],
-    
-    // Address model implementation
-    'addressable' => \Creasi\Nusa\Models\Address::class,
-    
-    // API routes configuration
-    'routes_enable' => env('CREASI_NUSA_ROUTES_ENABLE', true),
-    'routes_prefix' => env('CREASI_NUSA_ROUTES_PREFIX', 'nusa'),
-];
-```
+// Get center coordinates
+echo "Center: {$province->latitude}, {$province->longitude}";
 
-### Environment Variables
+// Get all postal codes in this province
+$postalCodes = $province->postal_codes;
+echo "Postal codes: " . implode(', ', $postalCodes);
 
-Add these to your `.env` file if you need to customize:
-
-```dotenv
-# Disable API routes
-CREASI_NUSA_ROUTES_ENABLE=false
-
-# Change API prefix
-CREASI_NUSA_ROUTES_PREFIX=api/indonesia
-
-# Use custom database connection
-CREASI_NUSA_CONNECTION=indonesia
+// Get boundary coordinates (if available)
+if ($province->coordinates) {
+    echo "Has " . count($province->coordinates) . " boundary points";
+}
 ```
 
 ## Next Steps
 
-Now that you have Laravel Nusa installed and working, explore these topics:
+Now that you understand the basics, explore these guides:
 
-- **[Models & Relationships](/guide/models)** - Learn about the Eloquent models and their relationships
-- **[RESTful API](/guide/api)** - Discover the built-in API endpoints
-- **[Address Management](/guide/addresses)** - Integrate address functionality into your models
-- **[Configuration](/guide/configuration)** - Customize Laravel Nusa for your needs
+- **[Basic Usage Examples](/examples/basic-usage)** - More detailed usage patterns and examples
+- **[Address Forms](/examples/address-forms)** - Complete address form implementation
+- **[Models & Relationships](/guide/models)** - Deep dive into the Eloquent models
+- **[RESTful API](/guide/api)** - Using the built-in API endpoints
+- **[Configuration](/guide/configuration)** - Customizing Laravel Nusa for your needs
 
-## Troubleshooting
+## Need Help?
 
-### SQLite Extension Missing
-
-If you get an error about SQLite, install the PHP SQLite extension:
-
-```bash
-# Ubuntu/Debian
-sudo apt-get install php-sqlite3
-
-# CentOS/RHEL
-sudo yum install php-sqlite3
-
-# macOS with Homebrew
-brew install php@8.2 --with-sqlite3
-```
-
-### Permission Issues
-
-If you encounter permission issues with the SQLite database:
-
-```bash
-# Make sure the database file is readable
-chmod 644 vendor/creasi/laravel-nusa/database/nusa.sqlite
-```
-
-### API Routes Not Working
-
-If API routes aren't accessible:
-
-1. Check that routes are enabled in config
-2. Clear route cache: `php artisan route:clear`
-3. Verify the route prefix in your configuration
+- **Installation Issues**: See the [Installation Guide](/guide/installation) for detailed setup and troubleshooting
+- **Usage Questions**: Check the [Examples](/examples/basic-usage) section for common patterns
+- **API Reference**: Browse the [API Documentation](/api/overview) for complete endpoint details

@@ -151,8 +151,6 @@ INDONESIA_DB_PASSWORD=secret_password
 For advanced customization, you can create your own service provider:
 
 ```php
-<?php
-
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
@@ -295,8 +293,6 @@ Implement caching for frequently accessed data:
 Create a caching service:
 
 ```php
-<?php
-
 namespace App\Services;
 
 use Illuminate\Support\Facades\Cache;
@@ -393,8 +389,6 @@ For testing environments:
 Create a command to validate your configuration:
 
 ```php
-<?php
-
 namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
