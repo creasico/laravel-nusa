@@ -3,6 +3,7 @@
 
 # Exclude unused files
 # see: https://redd.it/2jzp6k
+.agent.md.       export-ignore
 .codeclimate.yml export-ignore
 .editorconfig    export-ignore
 .env.example     export-ignore
