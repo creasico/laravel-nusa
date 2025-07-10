@@ -1,8 +1,8 @@
 # Laravel Nusa
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/creasi/laravel-nusa.svg?style=flat-square)](https://packagist.org/packages/creasi/laravel-nusa)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/creasico/laravel-nusa/tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/creasico/laravel-nusa/actions?query=workflow%3Atests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/creasico/laravel-nusa/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/creasico/laravel-nusa/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
+[![Version](https://img.shields.io/packagist/v/creasi/laravel-nusa?style=flat-square)](https://packagist.org/packages/creasi/laravel-nusa)
+[![License](https://img.shields.io/github/license/creasico/laravel-nusa?style=flat-square)](https://github.com/creasico/laravel-nusa/blob/main/LICENSE)
+[![Actions Status](https://img.shields.io/github/actions/workflow/status/creasico/laravel-nusa/tests.yml?branch=main&style=flat-square)](https://github.com/creasico/laravel-nusa/actions)
 [![Total Downloads](https://img.shields.io/packagist/dt/creasi/laravel-nusa.svg?style=flat-square)](https://packagist.org/packages/creasi/laravel-nusa)
 
 Laravel Nusa provides complete, ready-to-use Indonesian administrative region data for Laravel applications. This package includes all 34 provinces, 514 regencies/cities, 7,266 districts, and 83,467 villages with their hierarchical relationships, postal codes, and geographic coordinates.
