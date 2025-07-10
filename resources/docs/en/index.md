@@ -61,7 +61,6 @@ Install the package via Composer:
 
 ```bash
 composer require creasi/laravel-nusa
-php artisan nusa:install
 ```
 
 Start using immediately:

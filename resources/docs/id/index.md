@@ -59,7 +59,6 @@ Larave Nusa menyediakan solusi untuk kendala integrasi dengan wilayah - wilayah 
 Install package menggunakan Composer:
 ```bash
 composer require creasi/laravel-nusa
-php artisan nusa:install
 ```
 
 ### 💡 Cara Penggunaan
