@@ -18,7 +18,7 @@ class BusinessUnit extends Model
     protected $fillable = ['name', 'province_code'];
 }
 
-// Usage
+// Penggunaan
 $unit = BusinessUnit::create([
     'name' => 'Central Java Division',
     'province_code' => '33'
@@ -40,7 +40,7 @@ class Branch extends Model
 }
 ```
 
-### WithDistrict Trait
+### Trait WithDistrict
 
 ```php
 use Creasi\Nusa\Models\Concerns\WithDistrict;
@@ -53,7 +53,7 @@ class ServiceCenter extends Model
 }
 ```
 
-### WithVillage Trait
+### Trait WithVillage
 
 ```php
 use Creasi\Nusa\Models\Concerns\WithVillage;
@@ -66,9 +66,9 @@ class Customer extends Model
 }
 ```
 
-## Multiple Location Traits
+## Trait Multiple Lokasi
 
-### WithDistricts Trait (Multiple Districts)
+### Trait WithDistricts (Multiple Kecamatan)
 
 ```php
 use Creasi\Nusa\Models\Concerns\WithDistricts;
@@ -78,15 +78,15 @@ class DeliveryZone extends Model
     use WithDistricts;
 }
 
-// Usage
+// Penggunaan
 $zone = DeliveryZone::create(['name' => 'Zone A']);
 $zone->districts()->attach(['33.74.01', '33.74.02', '33.74.03']);
 
-// Get all districts in this zone
+// Dapatkan semua kecamatan dalam zona ini
 $districts = $zone->districts;
 ```
 
-### WithVillages Trait (Multiple Villages)
+### Trait WithVillages (Multiple Kelurahan/Desa)
 
 ```php
 use Creasi\Nusa\Models\Concerns\WithVillages;
@@ -96,7 +96,7 @@ class CoverageArea extends Model
     use WithVillages;
 }
 
-// Usage
+// Penggunaan
 $area = CoverageArea::create(['name' => 'Coverage Area 1']);
 $area->villages()->attach([
     '33.74.01.1001',
@@ -105,9 +105,9 @@ $area->villages()->attach([
 ]);
 ```
 
-## Address Management Traits
+## Trait Manajemen Alamat
 
-### WithAddress Trait (Single Address)
+### Trait WithAddress (Alamat Tunggal)
 
 ```php
 use Creasi\Nusa\Models\Concerns\WithAddress;
@@ -117,7 +117,7 @@ class Company extends Model
     use WithAddress;
 }
 
-// Usage
+// Penggunaan
 $company = Company::create(['name' => 'PT Example']);
 $company->address()->create([
     'village_code' => '33.74.01.1001',
@@ -125,7 +125,7 @@ $company->address()->create([
 ]);
 ```
 
-### WithAddresses Trait (Multiple Addresses)
+### Trait WithAddresses (Multiple Alamat)
 
 ```php
 use Creasi\Nusa\Models\Concerns\WithAddresses;
@@ -135,7 +135,7 @@ class User extends Model
     use WithAddresses;
 }
 
-// Usage
+// Penggunaan
 $user = User::find(1);
 $user->addresses()->create([
     'name' => 'Home',
@@ -145,9 +145,9 @@ $user->addresses()->create([
 ]);
 ```
 
-## Coordinate Traits
+## Trait Koordinat
 
-### WithCoordinate Trait
+### Trait WithCoordinate
 
 ```php
 use Creasi\Nusa\Models\Concerns\WithCoordinate;

@@ -26,9 +26,9 @@ php artisan nusa:download --force
 
 ### Memory Limit Exceeded
 
-**Problem**: `Fatal error: Allowed memory size exhausted`
+**Masalah**: `Fatal error: Allowed memory size exhausted`
 
-**Solution**:
+**Solusi**:
 ```bash
 # Increase memory limit temporarily
 php -d memory_limit=512M artisan nusa:install
@@ -41,11 +41,11 @@ memory_limit = 512M
 'memory_limit' => '512M',
 ```
 
-### Permission Denied Errors
+### Error Permission Denied
 
-**Problem**: Permission denied when accessing database files
+**Masalah**: Permission denied saat mengakses file database
 
-**Solution**:
+**Solusi**:
 ```bash
 # Fix directory permissions
 chmod 755 database/
@@ -60,13 +60,13 @@ chmod -R 775 database/
 chmod -R 775 storage/
 ```
 
-## Configuration Issues
+## Masalah Konfigurasi
 
-### API Routes Not Working
+### API Routes Tidak Berfungsi
 
-**Problem**: API endpoints return 404 errors
+**Masalah**: Endpoint API mengembalikan error 404
 
-**Solution**:
+**Solusi**:
 ```bash
 # Clear route cache
 php artisan route:clear
@@ -332,7 +332,7 @@ php artisan nusa:check
 - **Discussions**: [Community Q&A](https://github.com/creasico/laravel-nusa/discussions)
 - **Documentation**: [Complete guides and API reference](/id/guide/getting-started)
 
-## Next Steps
+## Langkah Selanjutnya
 
 - **[Development Setup](/id/guide/development)** - Development environment configuration
 - **[API Reference](/id/api/overview)** - Complete API documentation

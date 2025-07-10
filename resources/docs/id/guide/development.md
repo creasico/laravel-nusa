@@ -8,13 +8,13 @@ Panduan lengkap untuk menyiapkan lingkungan pengembangan Laravel Nusa, termasuk 
 
 Sebelum menyiapkan environment development, pastikan Anda memiliki:
 
-- **PHP 8.1+** with required extensions
-- **Composer** for dependency management
-- **Node.js & npm** for frontend tooling
-- **Git** for version control
-- **SQLite** for the default database
+- **PHP 8.1+** dengan ekstensi yang diperlukan
+- **Composer** untuk manajemen dependensi
+- **Node.js & npm** untuk tooling frontend
+- **Git** untuk version control
+- **SQLite** untuk database default
 
-### Cloning the Repository
+### Clone Repository
 
 ```bash
 # Clone the repository
@@ -28,7 +28,7 @@ composer install
 npm install
 ```
 
-### Environment Configuration
+### Konfigurasi Environment
 
 ```bash
 # Copy environment file
@@ -41,7 +41,7 @@ php artisan key:generate
 touch database/nusa.sqlite
 ```
 
-### Database Setup
+### Setup Database
 
 ```bash
 # Run migrations
@@ -54,9 +54,9 @@ php artisan db:seed
 php artisan nusa:download
 ```
 
-## Development Commands
+## Command Development
 
-### Available Artisan Commands
+### Command Artisan yang Tersedia
 
 ```bash
 # Check Laravel Nusa installation
@@ -78,7 +78,7 @@ php artisan nusa:cache:clear
 php artisan nusa:config:validate
 ```
 
-### Development Server
+### Server Development
 
 ```bash
 # Start Laravel development server
@@ -326,7 +326,7 @@ composer require laravel/telescope
 php artisan telescope:install
 ```
 
-## Next Steps
+## Langkah Selanjutnya
 
 - **[Troubleshooting](/id/guide/troubleshooting)** - Common development issues
 - **[API Reference](/id/api/overview)** - Complete API documentation

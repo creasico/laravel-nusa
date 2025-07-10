@@ -2,23 +2,21 @@
 
 Trait `WithAddress` memungkinkan model Anda memiliki satu alamat dengan dukungan penuh untuk hierarki administratif Indonesia, validasi alamat, dan akses ke data geografis.
 
-The `WithAddress` trait allows your model to have a single address with full support for Indonesian administrative hierarchy, address validation, and geographic data access.
+## Gambaran Umum
 
-## Overview
+Trait `WithAddress` sempurna untuk model yang membutuhkan tepat satu alamat, seperti toko, kantor, atau entitas apa pun yang memiliki satu lokasi utama. Ini menyediakan interface yang bersih dan sederhana untuk manajemen alamat tanpa kompleksitas multiple alamat.
 
-The `WithAddress` trait is perfect for models that need exactly one address, such as stores, offices, or any entity that has a single primary location. It provides a clean, simple interface for address management without the complexity of multiple addresses.
+### Apa yang Anda Dapatkan
 
-### What You Get
+- **Relasi alamat tunggal** - Satu model memiliki satu alamat
+- **Manajemen alamat otomatis** - Pembuatan dan update alamat yang disederhanakan
+- **Akses hierarki lengkap** - Akses ke kelurahan/desa, kecamatan, kabupaten/kota, dan provinsi
+- **Koordinat geografis** - Akses ke koordinat lokasi melalui kelurahan/desa
+- **Validasi alamat** - Validasi bawaan untuk hierarki alamat
 
-- **Single address relationship** - One model has one address
-- **Automatic address management** - Simplified address creation and updates
-- **Complete hierarchy access** - Access to village, district, regency, and province
-- **Geographic coordinates** - Access to location coordinates through village
-- **Address validation** - Built-in validation for address hierarchy
+## Penggunaan Dasar
 
-## Basic Usage
-
-### Adding the Trait
+### Menambahkan Trait
 
 ```php
 use Creasi\Nusa\Models\Concerns\WithAddress;
@@ -35,11 +33,11 @@ class Store extends Model
 }
 ```
 
-### No Database Changes Required
+### Tidak Perlu Perubahan Database
 
-The trait uses polymorphic relationships through the existing `addresses` table, so no changes to your model's table are needed.
+Trait ini menggunakan relasi polimorfik melalui tabel `addresses` yang sudah ada, jadi tidak diperlukan perubahan pada tabel model Anda.
 
-### Creating Store with Address
+### Membuat Store dengan Alamat
 
 ```php
 $store = Store::create([
@@ -473,9 +471,9 @@ class StoreAddressTest extends TestCase
 }
 ```
 
-## Next Steps
+## Langkah Selanjutnya
 
-- **[WithAddresses](/id/api/concerns/with-addresses)** - Multiple addresses management
-- **[Address Model](/id/api/models/address)** - Complete address model documentation
-- **[WithVillage](/id/api/concerns/with-village)** - Village relationship trait
-- **[WithCoordinate](/id/api/concerns/with-coordinate)** - Geographic coordinates trait
+- **[WithAddresses](/id/api/concerns/with-addresses)** - Manajemen multiple alamat
+- **[Model Address](/id/api/models/address)** - Dokumentasi lengkap model alamat
+- **[WithVillage](/id/api/concerns/with-village)** - Trait relasi kelurahan/desa
+- **[WithCoordinate](/id/api/concerns/with-coordinate)** - Trait koordinat geografis

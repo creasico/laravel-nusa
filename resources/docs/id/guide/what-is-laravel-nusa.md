@@ -25,85 +25,85 @@ Dirancang dengan mengikuti best practice Laravel, menampilkan API yang intuitif,
 
 ## Apa yang Bisa Anda Bangun
 
-### 🏪 **E-Commerce Platforms**
-- **Shipping zones** based on administrative regions
-- **Delivery cost calculation** by distance and location
-- **Customer segmentation** by geographic areas
-- **Inventory distribution** across regions
+### 🏪 **Platform E-Commerce**
+- **Zona pengiriman** berdasarkan wilayah administratif
+- **Kalkulasi biaya pengiriman** berdasarkan jarak dan lokasi
+- **Segmentasi pelanggan** berdasarkan area geografis
+- **Distribusi inventori** lintas wilayah
 
-### 🏥 **Healthcare Systems**
-- **Facility management** with precise location data
-- **Patient demographics** and regional health analytics
-- **Service coverage** mapping and optimization
-- **Emergency response** coordination
+### 🏥 **Sistem Kesehatan**
+- **Manajemen fasilitas** dengan data lokasi yang presisi
+- **Demografi pasien** dan analitik kesehatan regional
+- **Pemetaan cakupan layanan** dan optimasi
+- **Koordinasi tanggap darurat**
 
-### 🏦 **Financial Services**
-- **Branch network** planning and optimization
-- **Risk assessment** based on geographic factors
-- **Regulatory compliance** with regional requirements
-- **Market penetration** analysis
+### 🏦 **Layanan Keuangan**
+- **Perencanaan jaringan cabang** dan optimasi
+- **Penilaian risiko** berdasarkan faktor geografis
+- **Kepatuhan regulasi** dengan persyaratan regional
+- **Analisis penetrasi pasar**
 
-### 🏛️ **Government Services**
-- **Citizen management** with accurate address data
-- **Resource allocation** based on administrative boundaries
-- **Service delivery** optimization
-- **Administrative reporting** and analytics
+### 🏛️ **Layanan Pemerintah**
+- **Manajemen warga** dengan data alamat yang akurat
+- **Alokasi sumber daya** berdasarkan batas administratif
+- **Optimasi penyampaian layanan**
+- **Pelaporan administratif** dan analitik
 
-## Key Features
+## Fitur Utama
 
-### 📊 **Complete Hierarchy**
-Access the full Indonesian administrative structure from province level down to individual villages, with proper parent-child relationships maintained throughout.
+### 📊 **Hierarki Lengkap**
+Akses struktur administratif Indonesia lengkap dari tingkat provinsi hingga desa individual, dengan relasi parent-child yang terjaga dengan baik.
 
-### 🔍 **Powerful Search**
-Built-in search capabilities allow you to find locations by name, code, or postal code with flexible matching options.
+### 🔍 **Pencarian Powerful**
+Kemampuan pencarian bawaan memungkinkan Anda menemukan lokasi berdasarkan nama, kode, atau kode pos dengan opsi pencocokan yang fleksibel.
 
-### 📍 **Geographic Data**
-Coordinate data for all administrative levels enables distance calculations, mapping, and location-based services.
+### 📍 **Data Geografis**
+Data koordinat untuk semua tingkat administratif memungkinkan kalkulasi jarak, pemetaan, dan layanan berbasis lokasi.
 
-### 🏠 **Address Management**
-Comprehensive address management system with validation, formatting, and integration with the administrative hierarchy.
+### 🏠 **Manajemen Alamat**
+Sistem manajemen alamat komprehensif dengan validasi, formatting, dan integrasi dengan hierarki administratif.
 
-### 🔧 **Flexible Integration**
-Multiple traits and helper methods make it easy to add location functionality to your existing models without major refactoring.
+### 🔧 **Integrasi Fleksibel**
+Multiple trait dan helper method memudahkan penambahan fungsionalitas lokasi ke model existing tanpa refactoring besar.
 
-## Technical Highlights
+## Highlight Teknis
 
-### 🚀 **Performance Optimized**
-- Efficient database structure with proper indexing
-- Optimized queries for large datasets
-- Caching support for frequently accessed data
-- Pagination support for handling large result sets
+### 🚀 **Optimasi Performa**
+- Struktur database efisien dengan indexing yang tepat
+- Query yang dioptimasi untuk dataset besar
+- Dukungan caching untuk data yang sering diakses
+- Dukungan pagination untuk menangani result set besar
 
-### 🔒 **Data Integrity**
-- Foreign key constraints ensure referential integrity
-- Validation rules prevent invalid location combinations
-- Consistent data formatting across all levels
-- Regular data validation and cleanup processes
+### 🔒 **Integritas Data**
+- Foreign key constraint memastikan integritas referensial
+- Rule validasi mencegah kombinasi lokasi yang tidak valid
+- Format data konsisten di semua tingkat
+- Proses validasi dan pembersihan data berkala
 
-### 🎨 **Customizable**
-- Extend base models with your own functionality
-- Add custom relationships and business logic
-- Configure API endpoints and middleware
-- Customize validation rules and error messages
+### 🎨 **Dapat Dikustomisasi**
+- Extend model dasar dengan fungsionalitas Anda sendiri
+- Tambahkan relasi kustom dan logika bisnis
+- Konfigurasi endpoint API dan middleware
+- Kustomisasi rule validasi dan pesan error
 
-### 📱 **API Ready**
-- RESTful API endpoints for all administrative levels
-- JSON responses with proper HTTP status codes
-- Rate limiting and authentication support
-- OpenAPI documentation for easy integration
+### 📱 **Siap API**
+- Endpoint RESTful API untuk semua tingkat administratif
+- Response JSON dengan kode status HTTP yang tepat
+- Dukungan rate limiting dan autentikasi
+- Dokumentasi OpenAPI untuk integrasi mudah
 
-## Getting Started
+## Memulai
 
-Laravel Nusa is designed to be simple to install and use, while providing powerful features for complex applications.
+Laravel Nusa dirancang untuk mudah diinstal dan digunakan, sambil menyediakan fitur powerful untuk aplikasi kompleks.
 
-### Quick Installation
+### Instalasi Cepat
 
 ```bash
 composer require creasi/laravel-nusa
 php artisan nusa:install
 ```
 
-### Basic Usage
+### Penggunaan Dasar
 
 ```php
 use Creasi\Nusa\Models\Province;
@@ -120,7 +120,7 @@ $districts = $jateng->districts;
 $villages = $jateng->villages;
 ```
 
-### Add to Your Models
+### Tambahkan ke Model Anda
 
 ```php
 use Creasi\Nusa\Models\Concerns\WithVillage;
