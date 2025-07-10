@@ -410,7 +410,7 @@ $users = User::with([
 
 ## Related Documentation
 
-- **[WithAddresses Trait](/api/concerns/with-addresses)** - For multiple address support
-- **[Address Model](/api/models/address)** - Complete Address model documentation
-- **[Address Management Guide](/guide/addresses)** - Complete address functionality guide
-- **[Address Forms Example](/examples/address-forms)** - Building address forms
+- **[WithAddresses Trait](/en/api/concerns/with-addresses)** - For multiple address support
+- **[Address Model](/en/api/models/address)** - Complete Address model documentation
+- **[Address Management Guide](/en/guide/addresses)** - Complete address functionality guide
+- **[Address Forms Example](/en/examples/address-forms)** - Building address forms

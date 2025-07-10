@@ -143,7 +143,7 @@ class DistrictOffice extends Model
 
 ## Related Documentation
 
-- **[Regency Model](/api/models/regency)** - Complete Regency model documentation
-- **[WithProvince Trait](/api/concerns/with-province)** - For province-level associations
-- **[WithDistrict Trait](/api/concerns/with-district)** - For district-level associations
-- **[WithVillage Trait](/api/concerns/with-village)** - For village-level associations
+- **[Regency Model](/en/api/models/regency)** - Complete Regency model documentation
+- **[WithProvince Trait](/en/api/concerns/with-province)** - For province-level associations
+- **[WithDistrict Trait](/en/api/concerns/with-district)** - For district-level associations
+- **[WithVillage Trait](/en/api/concerns/with-village)** - For village-level associations

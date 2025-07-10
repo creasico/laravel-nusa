@@ -366,6 +366,6 @@ When reporting issues, please include:
 
 After successful installation:
 
-- **[Getting Started](/guide/getting-started)** - Quick start guide and basic usage
-- **[Configuration](/guide/configuration)** - Detailed configuration options
-- **[Models & Relationships](/guide/models)** - Understanding the data structure
+- **[Getting Started](/en/guide/getting-started)** - Quick start guide and basic usage
+- **[Configuration](/en/guide/configuration)** - Detailed configuration options
+- **[Models & Relationships](/en/guide/models)** - Understanding the data structure

@@ -489,6 +489,6 @@ public function scopeNearbyOptimized($query, $lat, $lng, $radiusKm)
 
 ## Related Documentation
 
-- **[Geographic Queries Example](/examples/geographic-queries)** - Advanced geographic query examples
-- **[WithAddress Trait](/api/concerns/with-address)** - For address-based locations
-- **[Models & Relationships](/guide/models)** - Understanding Laravel Nusa models
+- **[Geographic Queries Example](/en/examples/geographic-queries)** - Advanced geographic query examples
+- **[WithAddress Trait](/en/api/concerns/with-address)** - For address-based locations
+- **[Models & Relationships](/en/guide/models)** - Understanding Laravel Nusa models

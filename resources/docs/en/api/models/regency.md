@@ -372,7 +372,7 @@ $kabupaten = Regency::where('name', 'like', '%Kabupaten%')->count(); // ~416 reg
 
 ## Related Models
 
-- **[Province Model](/api/models/province)** - Parent administrative division
-- **[District Model](/api/models/district)** - Child administrative division
-- **[Village Model](/api/models/village)** - Grandchild administrative division
-- **[Address Model](/api/models/address)** - Address management with regency reference
+- **[Province Model](/en/api/models/province)** - Parent administrative division
+- **[District Model](/en/api/models/district)** - Child administrative division
+- **[Village Model](/en/api/models/village)** - Grandchild administrative division
+- **[Address Model](/en/api/models/address)** - Address management with regency reference

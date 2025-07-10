@@ -118,4 +118,4 @@ Laravel Nusa is perfect for:
 
 ## Next Steps
 
-Ready to get started? Check out our [Getting Started](/guide/getting-started) guide to install and configure Laravel Nusa in your application.
+Ready to get started? Check out our [Getting Started](/en/guide/getting-started) guide to install and configure Laravel Nusa in your application.

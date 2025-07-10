@@ -193,7 +193,7 @@ foreach ($regencies as $regency) {
 
 ## Related Documentation
 
-- **[District Model](/api/models/district)** - Complete District model documentation
-- **[WithDistrict Trait](/api/concerns/with-district)** - For single district associations
-- **[WithVillages Trait](/api/concerns/with-villages)** - For multiple village relationships
-- **[Models & Relationships](/guide/models)** - Understanding Laravel Nusa models
+- **[District Model](/en/api/models/district)** - Complete District model documentation
+- **[WithDistrict Trait](/en/api/concerns/with-district)** - For single district associations
+- **[WithVillages Trait](/en/api/concerns/with-villages)** - For multiple village relationships
+- **[Models & Relationships](/en/guide/models)** - Understanding Laravel Nusa models

@@ -272,15 +272,15 @@ The database is compiled from official Indonesian government sources:
 
 For detailed information about each model:
 
-- **[Province Model](/api/models/province)** - Provincial-level operations and relationships
-- **[Regency Model](/api/models/regency)** - City/regency-level functionality
-- **[District Model](/api/models/district)** - District-level features and usage
-- **[Village Model](/api/models/village)** - Village-level operations and postal codes
-- **[Address Model](/api/models/address)** - Address management and polymorphic relationships
+- **[Province Model](/en/api/models/province)** - Provincial-level operations and relationships
+- **[Regency Model](/en/api/models/regency)** - City/regency-level functionality
+- **[District Model](/en/api/models/district)** - District-level features and usage
+- **[Village Model](/en/api/models/village)** - Village-level operations and postal codes
+- **[Address Model](/en/api/models/address)** - Address management and polymorphic relationships
 
 ## Customization Options
 
 Learn how to extend and customize the models:
 
-- **[Model Concerns](/api/concerns/)** - Reusable traits for your own models
-- **[Customization Guide](/guide/customization)** - Integration patterns and examples
+- **[Model Concerns](/en/api/concerns/)** - Reusable traits for your own models
+- **[Customization Guide](/en/guide/customization)** - Integration patterns and examples

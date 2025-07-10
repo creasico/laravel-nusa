@@ -10,7 +10,7 @@ All API endpoints are prefixed with `/nusa` by default:
 https://your-app.com/nusa/
 ```
 
-You can customize this prefix in the [configuration](/guide/configuration).
+You can customize this prefix in the [configuration](/en/guide/configuration).
 
 ## Authentication
 
@@ -296,7 +296,7 @@ $regencies = json_decode($response->getBody(), true);
 
 Explore the detailed API documentation for each endpoint:
 
-- **[Provinces API](/api/provinces)** - Province endpoints and examples
-- **[Regencies API](/api/regencies)** - Regency endpoints and examples
-- **[Districts API](/api/districts)** - District endpoints and examples
-- **[Villages API](/api/villages)** - Village endpoints and examples
+- **[Provinces API](/en/api/provinces)** - Province endpoints and examples
+- **[Regencies API](/en/api/regencies)** - Regency endpoints and examples
+- **[Districts API](/en/api/districts)** - District endpoints and examples
+- **[Villages API](/en/api/villages)** - Village endpoints and examples

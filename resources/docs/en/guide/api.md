@@ -181,7 +181,7 @@ Route::prefix('v1/indonesia')->middleware(['auth:api', 'throttle:100,1'])->group
 
 ## Complete API Reference
 
-For detailed information about all available endpoints, parameters, and response formats, see the comprehensive [API Reference](/api/overview) documentation.
+For detailed information about all available endpoints, parameters, and response formats, see the comprehensive [API Reference](/en/api/overview) documentation.
 
 The API reference includes:
 

@@ -26,10 +26,9 @@
 
 <script setup>
 import { ref, computed, onMounted, onBeforeUnmount } from 'vue'
-import { useData, useRoute } from 'vitepress'
+import { useData } from 'vitepress'
 
-const { site, localeIndex, theme, page } = useData()
-const route = useRoute()
+const { site, localeIndex, page } = useData()
 
 const isOpen = ref(false)
 
@@ -68,27 +67,39 @@ const availableLocales = computed(() => {
 const getLocalePath = (locale) => {
   // Get current path
   const currentPath = page.value.relativePath
-  
+
   // Handle root locale (English)
   if (locale.lang === 'en') {
-    // If we're in Indonesian, remove the 'id/' prefix
+    // If we're in Indonesian, convert to English path
     if (currentPath.startsWith('id/')) {
-      return '/' + currentPath.replace(/^id\//, '')
+      const englishPath = currentPath.replace(/^id\//, 'en/')
+      return '/' + englishPath
     }
-    return '/'
+    // If we're already in English, keep the path
+    if (currentPath.startsWith('en/')) {
+      return '/' + currentPath
+    }
+    // If we're at root, go to English home
+    return '/en/'
   }
-  
+
   // Handle Indonesian locale
   if (locale.lang === 'id') {
     // If we're already in Indonesian, keep the path
     if (currentPath.startsWith('id/')) {
       return '/' + currentPath
     }
-    
-    // If we're in root (English), add 'id/' prefix
-    return '/id/' + currentPath
+
+    // If we're in English, convert to Indonesian path
+    if (currentPath.startsWith('en/')) {
+      const indonesianPath = currentPath.replace(/^en\//, 'id/')
+      return '/' + indonesianPath
+    }
+
+    // If we're at root, go to Indonesian home
+    return '/id/'
   }
-  
+
   // Default fallback
   return '/'
 }

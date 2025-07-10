@@ -109,7 +109,7 @@ echo "Full address: {$village->name}, {$district->name}, {$regency->name}, {$pro
 
 ## Address Form Integration
 
-For building complete address forms with cascading dropdowns, see the dedicated [Address Forms](/examples/address-forms) guide which covers:
+For building complete address forms with cascading dropdowns, see the dedicated [Address Forms](/en/examples/address-forms) guide which covers:
 
 - Complete backend controller implementation
 - Frontend JavaScript integration with multiple frameworks
@@ -354,6 +354,6 @@ function buildFullAddress(array $codes): string
 
 ## Next Steps
 
-- **[API Integration](/examples/api-integration)** - Learn to use the RESTful API
-- **[Address Forms](/examples/address-forms)** - Build complete address forms
-- **[Geographic Queries](/examples/geographic-queries)** - Work with coordinates and boundaries
+- **[API Integration](/en/examples/api-integration)** - Learn to use the RESTful API
+- **[Address Forms](/en/examples/address-forms)** - Build complete address forms
+- **[Geographic Queries](/en/examples/geographic-queries)** - Work with coordinates and boundaries

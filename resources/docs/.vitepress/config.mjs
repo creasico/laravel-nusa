@@ -9,6 +9,13 @@ export default withMermaid(defineConfig({
   // Default language (English)
   lang: 'en',
 
+  // Rewrites for redirecting old paths to new language-specific paths
+  rewrites: {
+    'guide/:page': 'en/guide/:page',
+    'api/:page*': 'en/api/:page*',
+    'examples/:page': 'en/examples/:page'
+  },
+
   // Internationalization
   locales: {
     root: {
@@ -16,11 +23,12 @@ export default withMermaid(defineConfig({
       lang: 'en',
       title: 'Laravel Nusa',
       description: 'Indonesian Administrative Region Data for Laravel',
+      link: '/en/',
       themeConfig: {
         nav: [
-          { text: 'Guide', link: '/guide/getting-started' },
-          { text: 'API Reference', link: '/api/overview' },
-          { text: 'Examples', link: '/examples/basic-usage' },
+          { text: 'Guide', link: '/en/guide/getting-started' },
+          { text: 'API Reference', link: '/en/api/overview' },
+          { text: 'Examples', link: '/en/examples/basic-usage' },
           {
             text: 'v0.1.14',
             items: [
@@ -30,80 +38,80 @@ export default withMermaid(defineConfig({
           }
         ],
         sidebar: {
-          '/guide/': [
+          '/en/guide/': [
             {
               text: 'Getting Started',
               items: [
-                { text: 'What is Laravel Nusa?', link: '/guide/what-is-laravel-nusa' },
-                { text: 'Getting Started', link: '/guide/getting-started' },
-                { text: 'Installation', link: '/guide/installation' },
-                { text: 'Configuration', link: '/guide/configuration' }
+                { text: 'What is Laravel Nusa?', link: '/en/guide/what-is-laravel-nusa' },
+                { text: 'Getting Started', link: '/en/guide/getting-started' },
+                { text: 'Installation', link: '/en/guide/installation' },
+                { text: 'Configuration', link: '/en/guide/configuration' }
               ]
             },
             {
               text: 'Features',
               items: [
-                { text: 'Models & Relationships', link: '/guide/models' },
-                { text: 'Address Management', link: '/guide/addresses' },
-                { text: 'Customization', link: '/guide/customization' },
-                { text: 'RESTful API', link: '/guide/api' }
+                { text: 'Models & Relationships', link: '/en/guide/models' },
+                { text: 'Address Management', link: '/en/guide/addresses' },
+                { text: 'Customization', link: '/en/guide/customization' },
+                { text: 'RESTful API', link: '/en/guide/api' }
               ]
             },
             {
               text: 'Development',
               items: [
-                { text: 'Development Setup', link: '/guide/development' },
-                { text: 'Troubleshooting', link: '/guide/troubleshooting' }
+                { text: 'Development Setup', link: '/en/guide/development' },
+                { text: 'Troubleshooting', link: '/en/guide/troubleshooting' }
               ]
             }
           ],
-          '/api/': [
+          '/en/api/': [
             {
               text: 'API Reference',
               items: [
-                { text: 'Overview', link: '/api/overview' },
-                { text: 'Provinces', link: '/api/provinces' },
-                { text: 'Regencies', link: '/api/regencies' },
-                { text: 'Districts', link: '/api/districts' },
-                { text: 'Villages', link: '/api/villages' }
+                { text: 'Overview', link: '/en/api/overview' },
+                { text: 'Provinces', link: '/en/api/provinces' },
+                { text: 'Regencies', link: '/en/api/regencies' },
+                { text: 'Districts', link: '/en/api/districts' },
+                { text: 'Villages', link: '/en/api/villages' }
               ]
             },
             {
               text: 'Models',
               items: [
-                { text: 'Overview', link: '/api/models/overview' },
-                { text: 'Province Model', link: '/api/models/province' },
-                { text: 'Regency Model', link: '/api/models/regency' },
-                { text: 'District Model', link: '/api/models/district' },
-                { text: 'Village Model', link: '/api/models/village' },
-                { text: 'Address Model', link: '/api/models/address' }
+                { text: 'Overview', link: '/en/api/models/overview' },
+                { text: 'Province Model', link: '/en/api/models/province' },
+                { text: 'Regency Model', link: '/en/api/models/regency' },
+                { text: 'District Model', link: '/en/api/models/district' },
+                { text: 'Village Model', link: '/en/api/models/village' },
+                { text: 'Address Model', link: '/en/api/models/address' }
               ]
             },
             {
               text: 'Customization',
               items: [
-                { text: 'Model Concerns Overview', link: '/api/concerns/' },
-                { text: 'WithProvince', link: '/api/concerns/with-province' },
-                { text: 'WithRegency', link: '/api/concerns/with-regency' },
-                { text: 'WithDistrict', link: '/api/concerns/with-district' },
-                { text: 'WithVillage', link: '/api/concerns/with-village' },
-                { text: 'WithDistricts', link: '/api/concerns/with-districts' },
-                { text: 'WithVillages', link: '/api/concerns/with-villages' },
-                { text: 'WithAddress', link: '/api/concerns/with-address' },
-                { text: 'WithAddresses', link: '/api/concerns/with-addresses' },
-                { text: 'WithCoordinate', link: '/api/concerns/with-coordinate' }
+                { text: 'Model Concerns Overview', link: '/en/api/concerns/' },
+                { text: 'WithProvince', link: '/en/api/concerns/with-province' },
+                { text: 'WithRegency', link: '/en/api/concerns/with-regency' },
+                { text: 'WithDistrict', link: '/en/api/concerns/with-district' },
+                { text: 'WithVillage', link: '/en/api/concerns/with-village' },
+                { text: 'WithDistricts', link: '/en/api/concerns/with-districts' },
+                { text: 'WithVillages', link: '/en/api/concerns/with-villages' },
+                { text: 'WithAddress', link: '/en/api/concerns/with-address' },
+                { text: 'WithAddresses', link: '/en/api/concerns/with-addresses' },
+                { text: 'WithCoordinate', link: '/en/api/concerns/with-coordinate' }
               ]
             }
           ],
-          '/examples/': [
+          '/en/examples/': [
             {
               text: 'Usage Examples',
               items: [
-                { text: 'Basic Usage', link: '/examples/basic-usage' },
-                { text: 'API Integration', link: '/examples/api-integration' },
-                { text: 'Address Forms', link: '/examples/address-forms' },
-                { text: 'Geographic Queries', link: '/examples/geographic-queries' },
-                { text: 'Custom Models', link: '/examples/custom-models' }
+                { text: 'Basic Usage', link: '/en/examples/basic-usage' },
+                { text: 'API Integration', link: '/en/examples/api-integration' },
+                { text: 'Address Forms', link: '/en/examples/address-forms' },
+                { text: 'Geographic Queries', link: '/en/examples/geographic-queries' },
+                { text: 'Custom Models', link: '/en/examples/custom-models' }
               ]
             }
           ]
@@ -258,9 +266,9 @@ export default withMermaid(defineConfig({
     logo: '/logo.svg',
 
     nav: [
-      { text: 'Guide', link: '/guide/getting-started' },
-      { text: 'API Reference', link: '/api/overview' },
-      { text: 'Examples', link: '/examples/basic-usage' },
+      { text: 'Guide', link: '/en/guide/getting-started' },
+      { text: 'API Reference', link: '/en/api/overview' },
+      { text: 'Examples', link: '/en/examples/basic-usage' },
       {
         text: 'v0.1.14',
         items: [

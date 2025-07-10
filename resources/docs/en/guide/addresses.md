@@ -286,16 +286,16 @@ Laravel Nusa's address management system provides a solid foundation for handlin
 
 ### **Next Steps**:
 
-1. **[Installation Guide](/guide/installation)** - Set up Laravel Nusa in your project
-2. **[Customization Options](/guide/customization)** - Learn about available traits and features
-3. **[Address Forms Examples](/examples/address-forms)** - See practical implementation examples
-4. **[API Reference](/api/models/address)** - Explore detailed technical documentation
+1. **[Installation Guide](/en/guide/installation)** - Set up Laravel Nusa in your project
+2. **[Customization Options](/en/guide/customization)** - Learn about available traits and features
+3. **[Address Forms Examples](/en/examples/address-forms)** - See practical implementation examples
+4. **[API Reference](/en/api/models/address)** - Explore detailed technical documentation
 
 ### **Key Features**:
 
-- **[Address Validation](/api/concerns/with-address)** - Ensure data consistency and accuracy
-- **[Multi-Address Support](/api/concerns/with-addresses)** - Handle complex address requirements
-- **[Geographic Features](/api/concerns/with-coordinate)** - Add location-based functionality
+- **[Address Validation](/en/api/concerns/with-address)** - Ensure data consistency and accuracy
+- **[Multi-Address Support](/en/api/concerns/with-addresses)** - Handle complex address requirements
+- **[Geographic Features](/en/api/concerns/with-coordinate)** - Add location-based functionality
 
 ---
 

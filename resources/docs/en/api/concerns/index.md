@@ -8,21 +8,21 @@ The model concerns are located in the `Creasi\Nusa\Models\Concerns` namespace an
 
 ### Relationship Traits
 
-- **[WithProvince](/api/concerns/with-province)** - Adds a `belongsTo` relationship to a province
-- **[WithRegency](/api/concerns/with-regency)** - Adds a `belongsTo` relationship to a regency
-- **[WithDistrict](/api/concerns/with-district)** - Adds a `belongsTo` relationship to a district
-- **[WithVillage](/api/concerns/with-village)** - Adds a `belongsTo` relationship to a village
-- **[WithDistricts](/api/concerns/with-districts)** - Adds a `hasMany` relationship to districts
-- **[WithVillages](/api/concerns/with-villages)** - Adds a `hasMany` relationship to villages with postal codes
+- **[WithProvince](/en/api/concerns/with-province)** - Adds a `belongsTo` relationship to a province
+- **[WithRegency](/en/api/concerns/with-regency)** - Adds a `belongsTo` relationship to a regency
+- **[WithDistrict](/en/api/concerns/with-district)** - Adds a `belongsTo` relationship to a district
+- **[WithVillage](/en/api/concerns/with-village)** - Adds a `belongsTo` relationship to a village
+- **[WithDistricts](/en/api/concerns/with-districts)** - Adds a `hasMany` relationship to districts
+- **[WithVillages](/en/api/concerns/with-villages)** - Adds a `hasMany` relationship to villages with postal codes
 
 ### Address Management Traits
 
-- **[WithAddress](/api/concerns/with-address)** - Adds a single polymorphic address relationship
-- **[WithAddresses](/api/concerns/with-addresses)** - Adds multiple polymorphic address relationships
+- **[WithAddress](/en/api/concerns/with-address)** - Adds a single polymorphic address relationship
+- **[WithAddresses](/en/api/concerns/with-addresses)** - Adds multiple polymorphic address relationships
 
 ### Geographic Traits
 
-- **[WithCoordinate](/api/concerns/with-coordinate)** - Adds latitude/longitude coordinate functionality
+- **[WithCoordinate](/en/api/concerns/with-coordinate)** - Adds latitude/longitude coordinate functionality
 
 ## Common Use Cases
 
@@ -220,7 +220,7 @@ public function rules()
 
 ## Related Documentation
 
-- **[Address Management Guide](/guide/addresses)** - Complete guide to using address functionality
-- **[Models & Relationships](/guide/models)** - Understanding Laravel Nusa's core models
-- **[Custom Models Example](/examples/custom-models)** - Practical examples of using traits
-- **[Address Forms Example](/examples/address-forms)** - Building forms with administrative regions
+- **[Address Management Guide](/en/guide/addresses)** - Complete guide to using address functionality
+- **[Models & Relationships](/en/guide/models)** - Understanding Laravel Nusa's core models
+- **[Custom Models Example](/en/examples/custom-models)** - Practical examples of using traits
+- **[Address Forms Example](/en/examples/address-forms)** - Building forms with administrative regions

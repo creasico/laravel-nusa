@@ -299,7 +299,7 @@ class District extends Model
 
 ## Related Documentation
 
-- **[Village Model](/api/models/village)** - Complete Village model documentation
-- **[WithVillage Trait](/api/concerns/with-village)** - For single village associations
-- **[WithDistricts Trait](/api/concerns/with-districts)** - For multiple district relationships
-- **[Models & Relationships](/guide/models)** - Understanding Laravel Nusa models
+- **[Village Model](/en/api/models/village)** - Complete Village model documentation
+- **[WithVillage Trait](/en/api/concerns/with-village)** - For single village associations
+- **[WithDistricts Trait](/en/api/concerns/with-districts)** - For multiple district relationships
+- **[Models & Relationships](/en/guide/models)** - Understanding Laravel Nusa models

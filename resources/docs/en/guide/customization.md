@@ -56,7 +56,7 @@ class Store extends Model
 - Efficient store locator and mapping functionality
 - Support for regional business operations
 
-[→ See Complete Implementation](/api/concerns/with-addresses)
+[→ See Complete Implementation](/en/api/concerns/with-addresses)
 
 ### 🏢 **Multi-Location Business Management**
 
@@ -108,7 +108,7 @@ class SalesTerritory extends Model
 - Territory planning and organization
 - Administrative region-based reporting
 
-[→ Explore Enterprise Solutions](/api/concerns/with-address)
+[→ Explore Enterprise Solutions](/en/api/concerns/with-address)
 
 ### 🚚 **Logistics & Delivery**
 
@@ -157,7 +157,7 @@ class LogisticsProvider extends Model
 - Location-based pricing capabilities
 - Improved delivery planning
 
-[→ Master Logistics Solutions](/api/concerns/with-villages)
+[→ Master Logistics Solutions](/en/api/concerns/with-villages)
 
 ### 🏥 **Healthcare & Public Services**
 
@@ -202,7 +202,7 @@ class Patient extends Model
 - Patient location tracking and analysis
 - Service coverage optimization
 
-[→ Healthcare Solutions Guide](/api/concerns/with-district)
+[→ Healthcare Solutions Guide](/en/api/concerns/with-district)
 
 ### 🏛️ **Government & Administration**
 
@@ -250,7 +250,7 @@ class Citizen extends Model
 - Better resource planning and distribution
 - Improved government service delivery
 
-[→ Government Solutions](/api/concerns/with-regency)
+[→ Government Solutions](/en/api/concerns/with-regency)
 
 ## Available Customization Tools
 
@@ -265,7 +265,7 @@ Connect your models to Indonesia's administrative hierarchy:
 | **WithDistrict** | Local facilities, community services | District-level service delivery |
 | **WithVillage** | Customer addresses, precise locations | Village-level precision and targeting |
 
-[→ Explore All Relationship Traits](/api/concerns/)
+[→ Explore All Relationship Traits](/en/api/concerns/)
 
 ### 📍 **Address Management**
 
@@ -276,7 +276,7 @@ Handle complex address requirements:
 | **WithAddress** | User profiles, single locations | One address per model, full hierarchy |
 | **WithAddresses** | Multi-location businesses | Multiple addresses, type categorization |
 
-[→ Master Address Management](/guide/addresses)
+[→ Master Address Management](/en/guide/addresses)
 
 ### 🌍 **Geographic Features**
 
@@ -288,7 +288,7 @@ Add location intelligence:
 | **WithVillages** | Multiple villages, postal codes | Service coverage, territory management |
 | **WithDistricts** | Multiple districts | Regional administration, service areas |
 
-[→ Geographic Solutions](/api/concerns/with-coordinate)
+[→ Geographic Solutions](/en/api/concerns/with-coordinate)
 
 ## Implementation Patterns
 
@@ -387,10 +387,10 @@ Building route optimization, service area management, and delivery planning syst
 
 Ready to add location features to your application?
 
-1. **[Explore All Traits](/api/concerns/)** - Browse comprehensive trait documentation
-2. **[Implementation Examples](/examples/custom-models)** - See practical usage patterns
-3. **[Address Management](/guide/addresses)** - Learn about address functionality
-4. **[Geographic Features](/examples/geographic-queries)** - Discover location-based capabilities
+1. **[Explore All Traits](/en/api/concerns/)** - Browse comprehensive trait documentation
+2. **[Implementation Examples](/en/examples/custom-models)** - See practical usage patterns
+3. **[Address Management](/en/guide/addresses)** - Learn about address functionality
+4. **[Geographic Features](/en/examples/geographic-queries)** - Discover location-based capabilities
 
 ---
 

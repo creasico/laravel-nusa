@@ -141,7 +141,7 @@ class HealthCenter extends Model
 
 ## Related Documentation
 
-- **[District Model](/api/models/district)** - Complete District model documentation
-- **[WithProvince Trait](/api/concerns/with-province)** - For province-level associations
-- **[WithRegency Trait](/api/concerns/with-regency)** - For regency-level associations
-- **[WithVillage Trait](/api/concerns/with-village)** - For village-level associations
+- **[District Model](/en/api/models/district)** - Complete District model documentation
+- **[WithProvince Trait](/en/api/concerns/with-province)** - For province-level associations
+- **[WithRegency Trait](/en/api/concerns/with-regency)** - For regency-level associations
+- **[WithVillage Trait](/en/api/concerns/with-village)** - For village-level associations

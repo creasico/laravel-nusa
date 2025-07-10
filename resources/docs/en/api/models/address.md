@@ -442,7 +442,7 @@ function getUserAddresses($userId) {
 
 ## Related Models
 
-- **[Province Model](/api/models/province)** - Administrative region reference
-- **[Regency Model](/api/models/regency)** - Administrative region reference
-- **[District Model](/api/models/district)** - Administrative region reference
-- **[Village Model](/api/models/village)** - Administrative region reference
+- **[Province Model](/en/api/models/province)** - Administrative region reference
+- **[Regency Model](/en/api/models/regency)** - Administrative region reference
+- **[District Model](/en/api/models/district)** - Administrative region reference
+- **[Village Model](/en/api/models/village)** - Administrative region reference

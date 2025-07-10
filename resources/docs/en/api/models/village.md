@@ -429,7 +429,7 @@ $villagesWithPostal = Village::whereNotNull('postal_code')->count();
 
 ## Related Models
 
-- **[Province Model](/api/models/province)** - Great-grandparent administrative division
-- **[Regency Model](/api/models/regency)** - Grandparent administrative division
-- **[District Model](/api/models/district)** - Parent administrative division
-- **[Address Model](/api/models/address)** - Address management with village reference
+- **[Province Model](/en/api/models/province)** - Great-grandparent administrative division
+- **[Regency Model](/en/api/models/regency)** - Grandparent administrative division
+- **[District Model](/en/api/models/district)** - Parent administrative division
+- **[Address Model](/en/api/models/address)** - Address management with village reference

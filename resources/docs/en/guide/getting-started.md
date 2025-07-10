@@ -18,7 +18,7 @@ That's it! Laravel Nusa is now ready to use. The package includes:
 - ✅ RESTful API routes (optional)
 
 ::: tip Requirements
-Laravel Nusa requires **PHP ≥ 8.2** with `php-sqlite3` extension and **Laravel ≥ 9.0**. For detailed system requirements and troubleshooting, see the [Installation Guide](/guide/installation).
+Laravel Nusa requires **PHP ≥ 8.2** with `php-sqlite3` extension and **Laravel ≥ 9.0**. For detailed system requirements and troubleshooting, see the [Installation Guide](/en/guide/installation).
 :::
 
 ## Verify Installation
@@ -37,7 +37,7 @@ $jateng = Province::search('Jawa Tengah')->first();
 echo "Found: " . $jateng->name; // Should output: Jawa Tengah
 ```
 
-If this works, you're ready to go! If you encounter issues, check the [Installation Guide](/guide/installation) for troubleshooting.
+If this works, you're ready to go! If you encounter issues, check the [Installation Guide](/en/guide/installation) for troubleshooting.
 
 ## First Steps with Laravel Nusa
 
@@ -142,14 +142,14 @@ if ($province->coordinates) {
 
 Now that you understand the basics, explore these guides:
 
-- **[Basic Usage Examples](/examples/basic-usage)** - More detailed usage patterns and examples
-- **[Address Forms](/examples/address-forms)** - Complete address form implementation
-- **[Models & Relationships](/guide/models)** - Deep dive into the Eloquent models
-- **[RESTful API](/guide/api)** - Using the built-in API endpoints
-- **[Configuration](/guide/configuration)** - Customizing Laravel Nusa for your needs
+- **[Basic Usage Examples](/en/examples/basic-usage)** - More detailed usage patterns and examples
+- **[Address Forms](/en/examples/address-forms)** - Complete address form implementation
+- **[Models & Relationships](/en/guide/models)** - Deep dive into the Eloquent models
+- **[RESTful API](/en/guide/api)** - Using the built-in API endpoints
+- **[Configuration](/en/guide/configuration)** - Customizing Laravel Nusa for your needs
 
 ## Need Help?
 
-- **Installation Issues**: See the [Installation Guide](/guide/installation) for detailed setup and troubleshooting
-- **Usage Questions**: Check the [Examples](/examples/basic-usage) section for common patterns
-- **API Reference**: Browse the [API Documentation](/api/overview) for complete endpoint details
+- **Installation Issues**: See the [Installation Guide](/en/guide/installation) for detailed setup and troubleshooting
+- **Usage Questions**: Check the [Examples](/en/examples/basic-usage) section for common patterns
+- **API Reference**: Browse the [API Documentation](/en/api/overview) for complete endpoint details

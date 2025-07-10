@@ -360,8 +360,8 @@ class RegionalOffice extends Model
 
 ## Related Documentation
 
-- **[Province Model](/api/models/province)** - Complete Province model documentation
-- **[WithRegency Trait](/api/concerns/with-regency)** - For regency-level associations
-- **[WithDistrict Trait](/api/concerns/with-district)** - For district-level associations
-- **[WithVillage Trait](/api/concerns/with-village)** - For village-level associations
-- **[Geographic Queries Example](/examples/geographic-queries)** - Advanced geographic queries
+- **[Province Model](/en/api/models/province)** - Complete Province model documentation
+- **[WithRegency Trait](/en/api/concerns/with-regency)** - For regency-level associations
+- **[WithDistrict Trait](/en/api/concerns/with-district)** - For district-level associations
+- **[WithVillage Trait](/en/api/concerns/with-village)** - For village-level associations
+- **[Geographic Queries Example](/en/examples/geographic-queries)** - Advanced geographic queries

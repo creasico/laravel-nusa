@@ -25,7 +25,7 @@ Models work with data synchronized from official government sources, ensuring yo
 ```
 
 ::: tip Technical Details
-For detailed information about database structure, relationships, and technical implementation, see the [Models Overview](/api/models/overview) in the API Reference.
+For detailed information about database structure, relationships, and technical implementation, see the [Models Overview](/en/api/models/overview) in the API Reference.
 :::
 
 ### 🏢 **Business Applications**
@@ -101,7 +101,7 @@ $report = [
 - **Compliance Reporting**: Generate accurate regional reports for administrative requirements
 - **Strategic Planning**: Analyze geographic coverage and expansion possibilities
 
-[→ Complete Province Model Reference](/api/models/province)
+[→ Complete Province Model Reference](/en/api/models/province)
 
 ### 🏙️ **Regency Level: City Operations**
 
@@ -131,7 +131,7 @@ foreach ($jakartaRegencies as $regency) {
 - **Local Analysis**: Understand city-specific market characteristics
 - **Regional Planning**: Plan operations across different urban areas
 
-[→ Complete Regency Model Reference](/api/models/regency)
+[→ Complete Regency Model Reference](/en/api/models/regency)
 
 ### 🏘️ **District Level: Community Services**
 
@@ -163,7 +163,7 @@ foreach ($districts as $district) {
 - **Field Operations**: Plan routes and coverage for field teams
 - **Service Planning**: Understand local service areas and coverage
 
-[→ Complete District Model Reference](/api/models/district)
+[→ Complete District Model Reference](/en/api/models/district)
 
 ### 🏠 **Village Level: Precision Targeting**
 
@@ -206,7 +206,7 @@ $demographics = $customerVillages->groupBy('province.name')
 - **Customer Segmentation**: Detailed geographic customer analysis
 - **Local Insights**: Village-level data for targeted operations
 
-[→ Complete Village Model Reference](/api/models/village)
+[→ Complete Village Model Reference](/en/api/models/village)
 ## Smart Relationships & Performance
 
 ### 🔗 **Intelligent Hierarchical Relationships**
@@ -295,10 +295,10 @@ Laravel Nusa's models provide a solid foundation for building location-aware app
 
 ### **Next Steps**:
 
-1. **[Models Overview](/api/models/overview)** - Technical details, database structure, and relationships
-2. **[Customization Guide](/guide/customization)** - Learn how to integrate models with your application
-3. **[Address Management](/guide/addresses)** - Explore address functionality
-4. **[Implementation Examples](/examples/custom-models)** - See practical usage patterns
+1. **[Models Overview](/en/api/models/overview)** - Technical details, database structure, and relationships
+2. **[Customization Guide](/en/guide/customization)** - Learn how to integrate models with your application
+3. **[Address Management](/en/guide/addresses)** - Explore address functionality
+4. **[Implementation Examples](/en/examples/custom-models)** - See practical usage patterns
 
 ---
 

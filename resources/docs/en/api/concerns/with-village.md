@@ -306,8 +306,8 @@ Schema::table('customers', function (Blueprint $table) {
 
 ## Related Documentation
 
-- **[Village Model](/api/models/village)** - Complete Village model documentation
-- **[WithDistrict Trait](/api/concerns/with-district)** - For district-level associations
-- **[WithRegency Trait](/api/concerns/with-regency)** - For regency-level associations
-- **[WithProvince Trait](/api/concerns/with-province)** - For province-level associations
-- **[Address Forms Example](/examples/address-forms)** - Building cascading address forms
+- **[Village Model](/en/api/models/village)** - Complete Village model documentation
+- **[WithDistrict Trait](/en/api/concerns/with-district)** - For district-level associations
+- **[WithRegency Trait](/en/api/concerns/with-regency)** - For regency-level associations
+- **[WithProvince Trait](/en/api/concerns/with-province)** - For province-level associations
+- **[Address Forms Example](/en/examples/address-forms)** - Building cascading address forms

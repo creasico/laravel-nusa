@@ -366,7 +366,7 @@ $avgDistrictsPerRegency = District::count() / Regency::count(); // ~14.1
 
 ## Related Models
 
-- **[Province Model](/api/models/province)** - Grandparent administrative division
-- **[Regency Model](/api/models/regency)** - Parent administrative division
-- **[Village Model](/api/models/village)** - Child administrative division
-- **[Address Model](/api/models/address)** - Address management with district reference
+- **[Province Model](/en/api/models/province)** - Grandparent administrative division
+- **[Regency Model](/en/api/models/regency)** - Parent administrative division
+- **[Village Model](/en/api/models/village)** - Child administrative division
+- **[Address Model](/en/api/models/address)** - Address management with district reference

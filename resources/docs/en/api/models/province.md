@@ -354,7 +354,7 @@ Province::count(); // 34
 
 ## Related Models
 
-- **[Regency Model](/api/models/regency)** - Second-level administrative division
-- **[District Model](/api/models/district)** - Third-level administrative division  
-- **[Village Model](/api/models/village)** - Fourth-level administrative division
-- **[Address Model](/api/models/address)** - Address management with province reference
+- **[Regency Model](/en/api/models/regency)** - Second-level administrative division
+- **[District Model](/en/api/models/district)** - Third-level administrative division  
+- **[Village Model](/en/api/models/village)** - Fourth-level administrative division
+- **[Address Model](/en/api/models/address)** - Address management with province reference
