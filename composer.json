@@ -27,6 +27,7 @@
         }
     ],
     "support": {
+        "docs": "https://nusa.creasi.dev",
         "source": "https://github.com/creasico/laravel-nusa",
         "forum": "https://github.com/orgs/creasico/discussions",
         "issues": "https://github.com/creasico/laravel-nusa/issues"

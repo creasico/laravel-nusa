@@ -12,8 +12,13 @@
         "docs:preview": "vitepress preview resources/docs"
     },
     "devDependencies": {
+        "@braintree/sanitize-url": "^7.1.1",
         "@commitlint/cli": "^19.8.1",
         "@commitlint/config-conventional": "^19.8.1",
+        "cytoscape": "^3.32.1",
+        "cytoscape-cose-bilkent": "^4.1.0",
+        "dayjs": "^1.11.13",
+        "debug": "^4.4.1",
         "lint-staged": "^16.0.0",
         "mermaid": "^11.8.1",
         "simple-git-hooks": "^2.13.0",
