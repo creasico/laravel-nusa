@@ -4,17 +4,19 @@ import { withMermaid } from 'vitepress-plugin-mermaid'
 export default withMermaid(defineConfig({
   title: 'Laravel Nusa',
   description: 'Indonesian Administrative Region Data for Laravel',
-  base: '/laravel-nusa/',
+  base: '/',
 
   head: [
-    ['link', { rel: 'icon', href: '/laravel-nusa/favicon.ico' }],
+    ['link', { rel: 'icon', sizes: '32x32', href: '/favicon-32x32.png' }],
+    ['link', { rel: 'icon', sizes: 'any', type: 'image/svg+xml', href: '/favicon.svg' }],
+    ['link', { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' }],
     ['meta', { name: 'theme-color', content: '#3c82f6' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:locale', content: 'en' }],
     ['meta', { property: 'og:title', content: 'Laravel Nusa | Indonesian Administrative Data' }],
     ['meta', { property: 'og:site_name', content: 'Laravel Nusa' }],
-    ['meta', { property: 'og:image', content: '/laravel-nusa/og-image.png' }],
-    ['meta', { property: 'og:url', content: 'https://creasico.github.io/laravel-nusa/' }],
+    ['meta', { property: 'og:image', content: '/og-image.png' }],
+    ['meta', { property: 'og:url', content: 'https://nusa.creasi.co/' }],
   ],
 
   themeConfig: {
@@ -133,6 +135,6 @@ export default withMermaid(defineConfig({
       light: 'github-light',
       dark: 'github-dark'
     },
-    lineNumbers: true
+    lineNumbers: false
   }
 }))
