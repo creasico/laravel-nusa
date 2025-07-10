@@ -1,6 +1,8 @@
 import { defineConfig } from 'vitepress'
 import { withMermaid } from 'vitepress-plugin-mermaid'
 
+import pkg from '../../../package.json'
+
 export default withMermaid(defineConfig({
   title: 'Laravel Nusa',
   description: 'Indonesian Administrative Region Data for Laravel',
@@ -30,7 +32,7 @@ export default withMermaid(defineConfig({
           { text: 'API Reference', link: '/en/api/overview' },
           { text: 'Examples', link: '/en/examples/basic-usage' },
           {
-            text: 'v0.1.14',
+            text: pkg.version,
             items: [
               { text: 'Changelog', link: 'https://github.com/creasico/laravel-nusa/blob/main/CHANGELOG.md' },
               { text: 'Contributing', link: 'https://github.com/creasico/laravel-nusa/blob/main/CONTRIBUTING.md' }
@@ -129,7 +131,7 @@ export default withMermaid(defineConfig({
           { text: 'Referensi API', link: '/id/api/overview' },
           { text: 'Contoh', link: '/id/examples/basic-usage' },
           {
-            text: 'v0.1.14',
+            text: pkg.version,
             items: [
               { text: 'Changelog', link: 'https://github.com/creasico/laravel-nusa/blob/main/CHANGELOG.md' },
               { text: 'Contributing', link: 'https://github.com/creasico/laravel-nusa/blob/main/CONTRIBUTING.md' }
@@ -230,14 +232,13 @@ export default withMermaid(defineConfig({
     ['meta', { property: 'og:title', content: 'Laravel Nusa | Indonesian Administrative Data' }],
     ['meta', { property: 'og:site_name', content: 'Laravel Nusa' }],
     ['meta', { property: 'og:image', content: '/og-image.png' }],
-    ['meta', { property: 'og:url', content: 'https://nusa.creasi.co/' }],
+    ['meta', { property: 'og:url', content: 'https://nusa.creasi.dev/' }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
-    ['meta', { name: 'twitter:site', content: '@laravelnusa' }],
   ],
 
   // Sitemap generation for SEO
   sitemap: {
-    hostname: 'https://nusa.creasi.co',
+    hostname: 'https://nusa.creasi.dev',
     transformItems: (items) => {
       return items.map((item) => {
         // Homepage gets highest priority
@@ -277,15 +278,13 @@ export default withMermaid(defineConfig({
       }
     ],
 
-
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/creasico/laravel-nusa' }
     ],
 
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2024-present Creasi Developers'
+      copyright: 'Copyright © 2024-present Creasi.co'
     },
 
     editLink: {
