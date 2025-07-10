@@ -39,12 +39,12 @@ features:
 
 ## Mengapa Memilih Laravel Nusa?
 
-Larave Nusa menyediakan solusi untuk kendala integrasi dengan wilayah - wilayah administratif Indonesia kedalam aplikasi Laravel. Alih-alih membuang waktu untuk mengimpor dan me-maintain data secara manual, Anda akan langsung mendapatkan manfaat sebagai berikut:
+Laravel Nusa menyediakan solusi untuk kendala integrasi dengan wilayah-wilayah administratif Indonesia kedalam aplikasi Laravel. Alih-alih membuang waktu untuk mengimpor dan me-maintain data secara manual, Anda akan langsung mendapatkan manfaat sebagai berikut:
 
 - **Siap Pakai**: Database SQLite siap pakai dengan data lengkap tanpa perlu konfigurasi manual
 - **Data Resmi Terpercaya**: Bersumber langsung dari database resmi milik instansi pemerintah yang berwenang
 - **Performa Optimal**: Struktur database telah dioptimalkan dan dilengkapi dengan indexing yang efisien
-- **Maintenance Otomatis**: Update otomatis saat terjadi perubahan data di sumber resmi, tanpa campur tangan manual.
+- **Maintenance Otomatis**: Update otomatis saat terjadi perubahan data di sumber resmi, tanpa campur tangan manual
 - **Privasi Terjamin**: Versi distribusi tidak menyertakan data koordinat sensitif demi menjaga keamanan informasi
 
 
@@ -99,7 +99,7 @@ GET /nusa/villages?search=jakarta&codes[]=31.71
 
 ### 📍 Pengaturan Alamat
 
-Integrasikan fitur alamat ke dalam model Anda dengan mudah:
+Integrasikan fitur alamat kedalam model Anda dengan mudah:
 
 ```php
 use Creasi\Nusa\Contracts\HasAddresses;
