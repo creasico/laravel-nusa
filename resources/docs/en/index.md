@@ -37,12 +37,31 @@ features:
     details: Automatically synchronized with official government data sources through automated workflows
 ---
 
+## Why Laravel Nusa?
+
+Laravel Nusa solves the common challenge of integrating Indonesian administrative data into Laravel applications. Instead of manually importing and maintaining large datasets, you get:
+
+- **Instant Setup**: Pre-packaged SQLite database with all data ready to use
+- **Official Data**: Sourced from authoritative government databases
+- **Performance**: Optimized database structure with proper indexing
+- **Maintenance**: Automated updates when official data changes
+- **Privacy**: Distribution version excludes sensitive coordinate data
+
+
+### 🏢 Best Suited For
+
+- **E-Commerce**: Optimize delivery routes and define efficient shipping zones to streamline logistics.
+- **Healthcare**: Manage facility coverage and understand patient demographics for better service planning
+- **Public Services**: Empower citizen management and simplify administrative reporting with spatial insights.
+- **Business Applications**: Analyze regional performance and plan strategic expansion with location-based analytics
+
 ## Quick Start
 
 Install the package via Composer:
 
 ```bash
 composer require creasi/laravel-nusa
+php artisan nusa:install
 ```
 
 Start using immediately:
@@ -63,15 +82,7 @@ $districts = $jateng->districts;
 $villages = $jateng->villages;
 ```
 
-## Why Laravel Nusa?
 
-Laravel Nusa solves the common challenge of integrating Indonesian administrative data into Laravel applications. Instead of manually importing and maintaining large datasets, you get:
-
-- **Instant Setup**: Pre-packaged SQLite database with all data ready to use
-- **Official Data**: Sourced from authoritative government databases
-- **Performance**: Optimized database structure with proper indexing
-- **Maintenance**: Automated updates when official data changes
-- **Privacy**: Distribution version excludes sensitive coordinate data
 
 ## API Example
 
@@ -113,3 +124,15 @@ $user->addresses()->create([
     'address_line' => 'Jl. Merdeka No. 123'
 ]);
 ```
+
+## Get Started
+
+<div class="vp-doc">
+
+[Installation Guide →](/id/guide/installation)
+
+[Usage Example→](/id/examples/basic-usage)
+
+[API Reference→](/id/api/overview)
+
+</div>
