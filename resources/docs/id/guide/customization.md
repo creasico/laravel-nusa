@@ -1,59 +1,349 @@
 # Kustomisasi
 
-Panduan lengkap untuk mengkustomisasi Laravel Nusa sesuai dengan kebutuhan aplikasi Anda, termasuk penggunaan trait, pembuatan model kustom, dan integrasi dengan sistem existing.
+Tingkatkan aplikasi Laravel Anda dengan fitur berbasis lokasi menggunakan *trait* model fleksibel Laravel Nusa. Alat kustomisasi ini membantu Anda mengintegrasikan data administratif Indonesia ke dalam model dan logika bisnis aplikasi Anda.
 
-## Trait yang Tersedia
+## Manfaat *Trait* Laravel Nusa
 
-Laravel Nusa menyediakan beberapa trait yang dapat Anda gunakan untuk menambahkan fungsionalitas lokasi ke model existing Anda:
+### 🎯 **Solusi Siap Pakai**
+*Trait* yang sudah dibuat sebelumnya yang menangani persyaratan umum berbasis lokasi, menghemat waktu pengembangan dan memastikan konsistensi.
 
-### WithProvince Trait
+### 🚀 **Integrasi Cepat**
+Tambahkan fungsionalitas lokasi ke model Anda yang sudah ada dengan perubahan kode minimal. *Trait* menangani kompleksitas relasi administratif.
+
+### 🔧 **Pendekatan Fleksibel**
+Pilih hanya *trait* yang Anda butuhkan. Gabungkan *trait* yang berbeda untuk menciptakan solusi yang tepat untuk persyaratan spesifik Anda.
+
+## Kasus Penggunaan Umum
+
+### 🏪 **Aplikasi E-Commerce**
+
+**Tantangan**: Mengelola alamat pelanggan, zona pengiriman, dan lokasi toko di seluruh struktur administratif Indonesia yang kompleks.
+
+**Solusi**: Terapkan fitur berbasis lokasi untuk pengalaman pelanggan yang lebih baik:
 
 ```php
-use Creasi\Nusa\Models\Concerns\WithProvince;
-
-class BusinessUnit extends Model
+// Pelanggan dengan beberapa alamat pengiriman
+class Customer extends Model
 {
-    use WithProvince;
+    use WithAddresses;
     
-    protected $fillable = ['name', 'province_code'];
+    public function getPreferredShippingZone()
+    {
+        return $this->addresses()
+            ->where('type', 'shipping')
+            ->where('is_default', true)
+            ->first()?->getShippingZone();
+    }
 }
 
-// Penggunaan
-$unit = BusinessUnit::create([
-    'name' => 'Central Java Division',
-    'province_code' => '33'
-]);
-
-echo $unit->province->name; // "Jawa Tengah"
+// Pencari toko dengan perhitungan jarak
+class Store extends Model
+{
+    use WithCoordinate, WithAddress;
+    
+    public function findNearbyStores($userLat, $userLng, $radiusKm = 10)
+    {
+        return static::nearby($userLat, $userLng, $radiusKm)
+            ->with('address.village.regency.province')
+            ->get();
+    }
+}
 ```
 
-### WithRegency Trait
+**Manfaat**:
+- Perhitungan biaya pengiriman yang lebih akurat
+- Pengalaman pelanggan yang lebih baik dengan fitur berbasis lokasi
+- Fungsionalitas pencari toko dan pemetaan yang efisien
+- Dukungan untuk operasi bisnis regional
+
+[→ Lihat Implementasi Lengkap](/id/api/concerns/with-addresses)
+
+### 🏢 **Manajemen Bisnis Multi-Lokasi**
+
+**Tantangan**: Mengelola struktur perusahaan dengan kantor pusat, cabang, dan kantor regional di beberapa provinsi.
+
+**Solusi**: Mengatur operasi bisnis multi-lokasi:
 
 ```php
-use Creasi\Nusa\Models\Concerns\WithRegency;
+// Perusahaan dengan beberapa lokasi kantor
+class Company extends Model
+{
+    use WithAddresses;
+    
+    public function getRegionalCoverage()
+    {
+        return $this->addresses()
+            ->with('province')
+            ->get()
+            ->groupBy('province.name')
+            ->map(function ($addresses, $province) {
+                return [
+                    'province' => $province,
+                    'locations' => $addresses->count(),
+                    'types' => $addresses->pluck('type')->unique()
+                ];
+            });
+    }
+}
 
-class Branch extends Model
+// Manajemen wilayah penjualan regional
+class SalesTerritory extends Model
 {
     use WithRegency;
     
-    protected $fillable = ['name', 'regency_code'];
+    public function calculateTerritoryMetrics()
+    {
+        return [
+            'coverage_area' => $this->regency->name,
+            'population_estimate' => $this->regency->villages->count() * 1000,
+            'market_potential' => $this->calculateMarketSize()
+        ];
+    }
 }
 ```
 
-### Trait WithDistrict
+**Manfaat**:
+- Manajemen data lokasi terpusat
+- Analisis dan pelaporan regional
+- Perencanaan dan organisasi wilayah
+- Pelaporan berbasis wilayah administratif
+
+[→ Jelajahi Solusi Perusahaan](/id/api/concerns/with-address)
+
+### 🚚 **Logistik & Pengiriman**
+
+**Tantangan**: Mengoptimalkan rute pengiriman, mengelola area layanan, dan menghitung biaya pengiriman di seluruh geografi Indonesia yang beragam.
+
+**Solusi**: Membangun sistem logistik cerdas:
 
 ```php
-use Creasi\Nusa\Models\Concerns\WithDistrict;
-
-class ServiceCenter extends Model
+// Manajemen zona pengiriman
+class DeliveryZone extends Model
 {
-    use WithDistrict;
+    use WithVillages;
     
-    protected $fillable = ['name', 'district_code'];
+    public function calculateOptimalRoutes()
+    {
+        return $this->villages()
+            ->with('coordinates')
+            ->get()
+            ->groupBy('district_code')
+            ->map(function ($villages) {
+                return $this->optimizeRoute($villages);
+            });
+    }
+}
+
+// Penyedia logistik dengan cakupan layanan
+class LogisticsProvider extends Model
+{
+    use WithAddresses;
+    
+    public function canServeLocation($villageCode)
+    {
+        $village = Village::find($villageCode);
+        
+        return $this->addresses()
+            ->where('province_code', $village->province_code)
+            ->where('type', 'warehouse')
+            ->exists();
+    }
 }
 ```
 
-### Trait WithVillage
+**Manfaat**:
+- Perencanaan dan optimasi rute yang lebih baik
+- Pemetaan cakupan layanan yang jelas
+- Kemampuan penetapan harga berbasis lokasi
+- Perencanaan pengiriman yang lebih baik
+
+[→ Kuasai Solusi Logistik](/id/api/concerns/with-villages)
+
+### 🏥 **Layanan Kesehatan & Publik**
+
+**Tantangan**: Mengelola fasilitas kesehatan, cakupan layanan, dan demografi pasien di seluruh wilayah administratif.
+
+**Solusi**: Meningkatkan penyediaan layanan publik:
+
+```php
+// Manajemen fasilitas kesehatan
+class HealthFacility extends Model
+{
+    use WithDistrict, WithCoordinate;
+    
+    public function getServiceCoverage()
+    {
+        return [
+            'primary_district' => $this->district->name,
+            'coverage_radius' => $this->service_radius_km,
+            'estimated_population' => $this->calculateCoveredPopulation(),
+            'nearby_facilities' => $this->findNearbyFacilities()
+        ];
+    }
+}
+
+// Manajemen pasien dengan pelacakan lokasi
+class Patient extends Model
+{
+    use WithVillage;
+    
+    public function getNearestHealthFacility()
+    {
+        return HealthFacility::whereHas('district', function ($query) {
+            $query->where('regency_code', $this->village->regency_code);
+        })->first();
+    }
+}
+```
+
+**Manfaat**:
+- Manajemen fasilitas kesehatan yang lebih baik
+- Perencanaan sumber daya yang lebih baik
+- Pelacakan dan analisis lokasi pasien
+- Optimasi cakupan layanan
+
+[→ Panduan Solusi Kesehatan](/id/api/concerns/with-district)
+
+### 🏛️ **Pemerintahan & Administrasi**
+
+**Tantangan**: Mengelola layanan warga, batas administratif, dan tata kelola regional di seluruh hierarki administratif Indonesia.
+
+**Solusi**: Memodernisasi layanan pemerintah:
+
+```php
+// Pusat layanan pemerintah
+class ServiceCenter extends Model
+{
+    use WithRegency, WithDistricts;
+    
+    public function getJurisdictionInfo()
+    {
+        return [
+            'regency' => $this->regency->name,
+            'districts_served' => $this->districts->count(),
+            'total_villages' => $this->districts->sum(function ($district) {
+                return $district->villages->count();
+            }),
+            'estimated_citizens' => $this->calculateCitizenCount()
+        ];
+    }
+}
+
+// Pendaftaran warga dengan verifikasi lokasi
+class Citizen extends Model
+{
+    use WithVillage;
+    
+    public function verifyResidency()
+    {
+        return $this->village && 
+               $this->village->district &&
+               $this->village->regency &&
+               $this->village->province;
+    }
+}
+```
+
+**Manfaat**:
+- Manajemen layanan warga yang terorganisir
+- Data demografi dan lokasi yang akurat
+- Perencanaan dan distribusi sumber daya yang lebih baik
+- Peningkatan penyediaan layanan pemerintah
+
+[→ Solusi Pemerintah](/id/api/concerns/with-regency)
+
+## Alat Kustomisasi yang Tersedia
+
+### 🔗 **Trait Relasi**
+
+Hubungkan model Anda ke hierarki administratif Indonesia:
+
+| Trait | Kasus Penggunaan | Nilai Bisnis |
+|-------|----------|----------------|
+| **WithProvince** | Kantor regional, wilayah penjualan | Analisis dan manajemen tingkat provinsi |
+| **WithRegency** | Pusat layanan, hub distribusi | Operasi tingkat kota/kabupaten |
+| **WithDistrict** | Fasilitas lokal, layanan komunitas | Pengiriman layanan tingkat kecamatan |
+| **WithVillage** | Alamat pelanggan, lokasi presisi | Presisi dan penargetan tingkat desa/kelurahan |
+
+[→ Jelajahi Semua Trait Relasi](/id/api/concerns/)
+
+### 📍 **Manajemen Alamat**
+
+Tangani persyaratan alamat yang kompleks:
+
+| Trait | Terbaik Untuk | Fitur Utama |
+|-------|----------|--------------|
+| **WithAddress** | Profil pengguna, lokasi tunggal | Satu alamat per model, hierarki lengkap |
+| **WithAddresses** | Bisnis multi-lokasi | Beberapa alamat, kategorisasi tipe |
+
+[→ Kuasai Manajemen Alamat](/id/guide/addresses)
+
+### 🌍 **Fitur Geografis**
+
+Tambahkan intelijen lokasi:
+
+| Trait | Kemampuan | Aplikasi Bisnis |
+|-------|--------------|----------------------|
+| **WithCoordinate** | Koordinat GPS, perhitungan jarak | Pencari toko, optimasi pengiriman |
+| **WithVillages** | Beberapa desa/kelurahan, kode pos | Cakupan layanan, manajemen wilayah |
+| **WithDistricts** | Beberapa kecamatan | Administrasi regional, area layanan |
+
+[→ Solusi Geografis](/id/api/concerns/with-coordinate)
+
+## Pola Implementasi
+
+### 🎯 **Pola Mulai Cepat**
+
+Untuk asosiasi lokasi sederhana:
+
+```php
+class YourModel extends Model
+{
+    use WithVillage; // Lokasi paling spesifik
+    
+    protected $fillable = ['name', 'village_code'];
+}
+```
+
+### 🏢 **Pola Perusahaan**
+
+Untuk persyaratan bisnis yang kompleks:
+
+```php
+class BusinessModel extends Model
+{
+    use WithAddresses, WithCoordinate;
+    
+    // Beberapa lokasi dengan koordinat GPS
+    // Sempurna untuk bisnis multi-cabang
+}
+```
+
+### 🚀 **Pola Berfitur Lengkap**
+
+Untuk solusi lokasi yang komprehensif:
+
+```php
+class AdvancedModel extends Model
+{
+    use WithProvince, WithAddresses, WithCoordinate;
+    
+    // Asosiasi provinsi + beberapa alamat + GPS
+    // Ideal untuk aplikasi perusahaan
+}
+```
+
+## Memulai
+
+### 1. **Pilih *Trait* Anda**
+
+Pilih *trait* berdasarkan kebutuhan bisnis Anda:
+- **Lokasi tunggal**: Gunakan `WithVillage` atau `WithAddress`
+- **Beberapa lokasi**: Gunakan `WithAddresses`
+- **Fitur geografis**: Tambahkan `WithCoordinate`
+- **Manajemen regional**: Gunakan `WithProvince` atau `WithRegency`
+
+### 2. **Implementasikan di Model Anda**
 
 ```php
 use Creasi\Nusa\Models\Concerns\WithVillage;
@@ -66,352 +356,42 @@ class Customer extends Model
 }
 ```
 
-## Trait Multiple Lokasi
-
-### Trait WithDistricts (Multiple Kecamatan)
+### 3. **Perbarui Database Anda**
 
 ```php
-use Creasi\Nusa\Models\Concerns\WithDistricts;
-
-class DeliveryZone extends Model
-{
-    use WithDistricts;
-}
-
-// Penggunaan
-$zone = DeliveryZone::create(['name' => 'Zone A']);
-$zone->districts()->attach(['33.74.01', '33.74.02', '33.74.03']);
-
-// Dapatkan semua kecamatan dalam zona ini
-$districts = $zone->districts;
-```
-
-### Trait WithVillages (Multiple Kelurahan/Desa)
-
-```php
-use Creasi\Nusa\Models\Concerns\WithVillages;
-
-class CoverageArea extends Model
-{
-    use WithVillages;
-}
-
-// Penggunaan
-$area = CoverageArea::create(['name' => 'Coverage Area 1']);
-$area->villages()->attach([
-    '33.74.01.1001',
-    '33.74.01.1002',
-    '33.74.01.1003'
-]);
-```
-
-## Trait Manajemen Alamat
-
-### Trait WithAddress (Alamat Tunggal)
-
-```php
-use Creasi\Nusa\Models\Concerns\WithAddress;
-
-class Company extends Model
-{
-    use WithAddress;
-}
-
-// Penggunaan
-$company = Company::create(['name' => 'PT Example']);
-$company->address()->create([
-    'village_code' => '33.74.01.1001',
-    'address_line' => 'Jl. Sudirman No. 123'
-]);
-```
-
-### Trait WithAddresses (Multiple Alamat)
-
-```php
-use Creasi\Nusa\Models\Concerns\WithAddresses;
-
-class User extends Model
-{
-    use WithAddresses;
-}
-
-// Penggunaan
-$user = User::find(1);
-$user->addresses()->create([
-    'name' => 'Home',
-    'village_code' => '33.74.01.1001',
-    'address_line' => 'Jl. Merdeka No. 456',
-    'is_default' => true
-]);
-```
-
-## Trait Koordinat
-
-### Trait WithCoordinate
-
-```php
-use Creasi\Nusa\Models\Concerns\WithCoordinate;
-
-class Store extends Model
-{
-    use WithCoordinate;
-    
-    protected $fillable = [
-        'name',
-        'latitude',
-        'longitude'
-    ];
-}
-
-// Usage
-$store = Store::create([
-    'name' => 'Store A',
-    'latitude' => -6.2088,
-    'longitude' => 106.8456
-]);
-
-// Calculate distance to another store
-$distance = $store->distanceTo($anotherStore);
-```
-
-## Custom Model Extensions
-
-### Extending Base Models
-
-```php
-// app/Models/CustomProvince.php
-namespace App\Models;
-
-use Creasi\Nusa\Models\Province as BaseProvince;
-
-class CustomProvince extends BaseProvince
-{
-    protected $appends = ['display_name'];
-    
-    public function getDisplayNameAttribute()
-    {
-        return "Provinsi {$this->name}";
-    }
-    
-    // Add custom relationships
-    public function businesses()
-    {
-        return $this->hasMany(Business::class, 'province_code', 'code');
-    }
-    
-    // Add custom scopes
-    public function scopeJava($query)
-    {
-        return $query->whereIn('code', ['31', '32', '33', '34', '35', '36']);
-    }
-}
-```
-
-### Configuration Update
-
-```php
-// config/nusa.php
-return [
-    'models' => [
-        'province' => \App\Models\CustomProvince::class,
-        'regency' => \Creasi\Nusa\Models\Regency::class,
-        'district' => \Creasi\Nusa\Models\District::class,
-        'village' => \Creasi\Nusa\Models\Village::class,
-        'address' => \Creasi\Nusa\Models\Address::class,
-    ],
-];
-```
-
-## Creating Custom Traits
-
-### Location Analytics Trait
-
-```php
-// app/Traits/HasLocationAnalytics.php
-namespace App\Traits;
-
-trait HasLocationAnalytics
-{
-    public function getLocationStats()
-    {
-        return [
-            'total_customers' => $this->customers()->count(),
-            'total_orders' => $this->orders()->count(),
-            'revenue' => $this->orders()->sum('total'),
-            'coverage_area' => $this->getCoverageArea()
-        ];
-    }
-    
-    public function getCoverageArea()
-    {
-        // Implementation depends on your business logic
-        return $this->serviceAreas()->count();
-    }
-}
-```
-
-### Geographic Search Trait
-
-```php
-// app/Traits/HasGeographicSearch.php
-namespace App\Traits;
-
-trait HasGeographicSearch
-{
-    public function scopeNearby($query, $latitude, $longitude, $radiusKm)
-    {
-        return $query->selectRaw("
-            *,
-            (6371 * acos(
-                cos(radians(?)) * 
-                cos(radians(latitude)) * 
-                cos(radians(longitude) - radians(?)) + 
-                sin(radians(?)) * 
-                sin(radians(latitude))
-            )) AS distance
-        ", [$latitude, $longitude, $latitude])
-        ->having('distance', '<=', $radiusKm)
-        ->orderBy('distance');
-    }
-}
-```
-
-## Integration Patterns
-
-### User Model Integration
-
-```php
-class User extends Authenticatable
-{
-    use WithVillage, WithAddresses;
-    
-    protected $fillable = [
-        'name',
-        'email',
-        'village_code'
-    ];
-    
-    // Get user's full location
-    public function getFullLocationAttribute()
-    {
-        if ($this->village) {
-            return $this->village->full_address;
-        }
-        return null;
-    }
-}
-```
-
-### Business Model Integration
-
-```php
-class Business extends Model
-{
-    use WithRegency, WithCoordinate, HasLocationAnalytics;
-    
-    protected $fillable = [
-        'name',
-        'regency_code',
-        'latitude',
-        'longitude'
-    ];
-    
-    // Get nearby businesses
-    public function getNearbyBusinesses($radiusKm = 10)
-    {
-        return static::nearby($this->latitude, $this->longitude, $radiusKm)
-            ->where('id', '!=', $this->id)
-            ->get();
-    }
-}
-```
-
-## Advanced Customization
-
-### Custom Validation Rules
-
-```php
-// app/Rules/ValidIndonesianLocation.php
-class ValidIndonesianLocation implements Rule
-{
-    public function passes($attribute, $value)
-    {
-        // Custom validation logic
-        return Village::where('code', $value)->exists();
-    }
-    
-    public function message()
-    {
-        return 'The selected location is not valid.';
-    }
-}
-```
-
-### Custom API Resources
-
-```php
-// app/Http/Resources/LocationResource.php
-class LocationResource extends JsonResource
-{
-    public function toArray($request)
-    {
-        return [
-            'id' => $this->id,
-            'name' => $this->name,
-            'location' => [
-                'village' => $this->village->name,
-                'district' => $this->village->district->name,
-                'regency' => $this->village->regency->name,
-                'province' => $this->village->province->name,
-                'postal_code' => $this->village->postal_code
-            ],
-            'coordinates' => [
-                'latitude' => $this->latitude,
-                'longitude' => $this->longitude
-            ]
-        ];
-    }
-}
-```
-
-## Performance Optimization
-
-### Caching Location Data
-
-```php
-class CachedLocationService
-{
-    public function getProvinces()
-    {
-        return Cache::remember('provinces', 3600, function () {
-            return Province::select('code', 'name')->get();
-        });
-    }
-    
-    public function getRegenciesByProvince($provinceCode)
-    {
-        return Cache::remember("regencies_{$provinceCode}", 3600, function () use ($provinceCode) {
-            return Regency::where('province_code', $provinceCode)
-                ->select('code', 'name')
-                ->get();
-        });
-    }
-}
-```
-
-### Database Optimization
-
-```php
-// Add indexes for better performance
-Schema::table('your_table', function (Blueprint $table) {
-    $table->index('village_code');
-    $table->index(['latitude', 'longitude']);
+Schema::table('customers', function (Blueprint $table) {
+    $table->string('village_code')->nullable();
+    $table->foreign('village_code')->references('code')->on('villages');
 });
 ```
 
+### 4. **Mulai Membangun**
+
+```php
+$customer = Customer::with('village.regency.province')->first();
+echo "Pelanggan dari: {$customer->village->name}, {$customer->village->regency->name}";
+```
+
+## Contoh Implementasi Umum
+
+### 📈 **Aplikasi E-Commerce**
+Menggunakan *trait* untuk membangun manajemen alamat, zona pengiriman, dan fitur lokasi pelanggan untuk toko *online*.
+
+### 🏥 **Sistem Kesehatan**
+Mengimplementasikan manajemen fasilitas, demografi pasien, dan cakupan layanan menggunakan data wilayah administratif.
+
+### 🚚 **Aplikasi Logistik**
+Membangun optimasi rute, manajemen area layanan, dan sistem perencanaan pengiriman.
+
 ## Langkah Selanjutnya
 
-- **[RESTful API](/id/guide/api)** - API customization and endpoints
-- **[Custom Models](/id/examples/custom-models)** - Advanced model customization examples
-- **[Address Management](/id/guide/addresses)** - Address system integration
-- **[API Reference](/id/api/concerns/)** - Complete trait documentation
+Siap menambahkan fitur lokasi ke aplikasi Anda?
+
+1. **[Jelajahi Semua Trait](/id/api/concerns/)** - Jelajahi dokumentasi *trait* yang komprehensif
+2. **[Contoh Implementasi](/id/examples/custom-models)** - Lihat pola penggunaan praktis
+3. **[Manajemen Alamat](/id/guide/addresses)** - Pelajari tentang fungsionalitas alamat
+4. **[Fitur Geografis](/id/examples/geographic-queries)** - Temukan kemampuan berbasis lokasi
+
+---
+
+*Tingkatkan aplikasi Laravel Anda dengan data administratif Indonesia.*

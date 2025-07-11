@@ -1,578 +1,535 @@
-# WithAddresses
+# Trait WithAddresses
 
-Trait `WithAddresses` memungkinkan model Anda memiliki banyak alamat dengan dukungan penuh untuk hierarki administratif Indonesia, validasi alamat, dan manajemen alamat default.
+Trait `WithAddresses` menambahkan beberapa relasi alamat polimorfik ke model Anda, memungkinkan mereka untuk memiliki beberapa alamat terkait dengan data wilayah administratif Indonesia yang lengkap.
 
-The `WithAddresses` trait allows your model to have multiple addresses with full support for Indonesian administrative hierarchy, address validation, and default address management.
-
-## Overview
-
-The `WithAddresses` trait is essential for applications that need to manage multiple addresses per entity, such as e-commerce platforms, delivery services, or any application where users, businesses, or other entities need multiple location references.
-
-### What You Get
-
-- **Multiple addresses** - One model can have many addresses
-- **Default address management** - Automatic handling of default address
-- **Address validation** - Built-in validation for address hierarchy
-- **Polymorphic relationships** - Works with any model
-- **Complete hierarchy access** - Access to village, district, regency, and province
-
-## Basic Usage
-
-### Adding the Trait
+## Namespace
 
 ```php
+Creasi\Nusa\Models\Concerns\WithAddresses
+```
+
+## Penggunaan
+
+### Implementasi Dasar
+
+```php
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
 use Creasi\Nusa\Models\Concerns\WithAddresses;
 
-class User extends Model
+class Company extends Model
 {
     use WithAddresses;
     
-    protected $fillable = ['name', 'email'];
+    protected $fillable = [
+        'name',
+        'description'
+    ];
 }
 ```
 
-### No Database Changes Required
+### Pengaturan Database
 
-The trait uses polymorphic relationships through the existing `addresses` table, so no changes to your model's table are needed.
+Trait ini menggunakan tabel alamat bawaan Laravel Nusa. Pastikan Anda telah mempublikasikan dan menjalankan migrasi:
 
-### Creating Addresses
+```bash
+php artisan vendor:publish --tag=creasi-migrations
+php artisan migrate
+```
+
+## Fitur
+
+### Relasi Alamat Ganda
+
+Mengakses semua alamat yang terkait:
 
 ```php
-$user = User::create([
-    'name' => 'John Doe',
-    'email' => 'john@example.com'
+$company = Company::find(1);
+
+// Headquarters
+$company->addresses()->create([
+    'type' => 'headquarters',
+    'address_line' => 'Jl. Sudirman No. 123',
+    'province_code' => '31',
+    'regency_code' => '31.71',
+    'district_code' => '31.71.01',
+    'village_code' => '31.71.01.1001'
 ]);
 
-// Create home address
-$homeAddress = $user->addresses()->create([
-    'name' => 'John Doe',
-    'phone' => '081234567890',
-    'village_code' => '33.74.01.1001',
-    'address_line' => 'Jl. Merdeka No. 123, RT 01/RW 02',
-    'notes' => 'Home address',
-    'is_default' => true
+// Branch office
+$company->addresses()->create([
+    'type' => 'branch',
+    'address_line' => 'Jl. Malioboro No. 456',
+    'province_code' => '34',
+    'regency_code' => '34.71',
+    'district_code' => '34.71.02',
+    'village_code' => '34.71.02.1005'
 ]);
 
-// Create office address
-$officeAddress = $user->addresses()->create([
-    'name' => 'John Doe',
-    'phone' => '0247654321',
-    'village_code' => '33.74.02.1005',
-    'address_line' => 'Gedung ABC Lt. 5, Jl. Sudirman No. 456',
-    'notes' => 'Office address'
+// Warehouse
+$company->addresses()->create([
+    'type' => 'warehouse',
+    'address_line' => 'Jl. Industri No. 789',
+    'province_code' => '33',
+    'regency_code' => '33.74',
+    'district_code' => '33.74.05',
+    'village_code' => '33.74.05.1010'
 ]);
 ```
 
-## Address Management
+## Contoh Penggunaan Umum
 
-### Accessing Addresses
-
-```php
-// Get all addresses
-$addresses = $user->addresses;
-
-// Get addresses with location hierarchy
-$addresses = $user->addresses()
-    ->with(['village.district.regency.province'])
-    ->get();
-
-// Get default address
-$defaultAddress = $user->addresses()->where('is_default', true)->first();
-
-// Get addresses by type (using notes)
-$homeAddresses = $user->addresses()->where('notes', 'like', '%home%')->get();
-```
-
-### Helper Methods
-
-Add helper methods to your model:
+### 1. Bisnis Multi-Lokasi
 
 ```php
-class User extends Model
+class Company extends Model
 {
     use WithAddresses;
     
-    // Get default address
-    public function getDefaultAddressAttribute()
+    protected $fillable = ['name', 'description'];
+    
+    public function getHeadquartersAttribute()
     {
-        return $this->addresses()->where('is_default', true)->first();
+        return $this->addresses()->where('type', 'headquarters')->first();
     }
     
-    // Get home addresses
-    public function getHomeAddressesAttribute()
+    public function getBranchesAttribute()
     {
-        return $this->addresses()->where('notes', 'like', '%home%')->get();
+        return $this->addresses()->where('type', 'branch')->get();
     }
     
-    // Get office addresses
-    public function getOfficeAddressesAttribute()
+    public function getWarehousesAttribute()
     {
-        return $this->addresses()->where('notes', 'like', '%office%')->get();
+        return $this->addresses()->where('type', 'warehouse')->get();
     }
     
-    // Check if user has address in specific province
-    public function hasAddressInProvince($provinceCode)
+    public function scopeWithLocationsIn($query, $provinceCode)
+    {
+        return $query->whereHas('addresses', function ($q) use ($provinceCode) {
+            $q->where('province_code', $provinceCode);
+        });
+    }
+    
+    public function getLocationCountAttribute()
+    {
+        return $this->addresses()->count();
+    }
+    
+    public function getCoverageAreasAttribute()
     {
         return $this->addresses()
-            ->whereHas('village', function ($query) use ($provinceCode) {
-                $query->where('province_code', $provinceCode);
-            })
-            ->exists();
+            ->with('province')
+            ->get()
+            ->pluck('province.name')
+            ->unique()
+            ->values();
     }
-    
-    // Get addresses count by province
-    public function getAddressesByProvince()
-    {
-        return $this->addresses()
-            ->join('nusa.villages', 'addresses.village_code', '=', 'villages.code')
-            ->join('nusa.provinces', 'villages.province_code', '=', 'provinces.code')
-            ->groupBy('provinces.code', 'provinces.name')
-            ->selectRaw('provinces.code, provinces.name, count(*) as address_count')
-            ->get();
-    }
-}
-```
-
-## Default Address Management
-
-### Automatic Default Handling
-
-The Address model automatically manages default addresses:
-
-```php
-// When creating first address as default
-$address1 = $user->addresses()->create([
-    'name' => 'John Doe',
-    'village_code' => '33.74.01.1001',
-    'address_line' => 'Address 1',
-    'is_default' => true
-]);
-
-// When creating second address as default
-$address2 = $user->addresses()->create([
-    'name' => 'John Doe',
-    'village_code' => '33.74.01.1002',
-    'address_line' => 'Address 2',
-    'is_default' => true
-]);
-
-// $address1 is automatically set to is_default = false
-// $address2 becomes the new default address
-```
-
-### Manual Default Management
-
-```php
-// Set specific address as default
-public function setDefaultAddress($addressId)
-{
-    // Remove default from all addresses
-    $this->addresses()->update(['is_default' => false]);
-    
-    // Set new default
-    $this->addresses()->where('id', $addressId)->update(['is_default' => true]);
 }
 
 // Usage
-$user->setDefaultAddress($address->id);
+$company = Company::with(['addresses.village.district.regency.province'])->first();
+
+echo "Headquarters: " . $company->headquarters?->address_line;
+echo "Branches: " . $company->branches->count();
+echo "Coverage: " . $company->coverage_areas->implode(', ');
 ```
 
-## Address Validation
-
-### Form Request Validation
+### 2. Manajemen Pelanggan
 
 ```php
-class StoreAddressRequest extends FormRequest
+class Customer extends Model
+{
+    use WithAddresses;
+    
+    protected $fillable = [
+        'name',
+        'email',
+        'phone'
+    ];
+    
+    public function getHomeAddressAttribute()
+    {
+        return $this->addresses()->where('type', 'home')->first();
+    }
+    
+    public function getOfficeAddressAttribute()
+    {
+        return $this->addresses()->where('type', 'office')->first();
+    }
+    
+    public function getShippingAddressesAttribute()
+    {
+        return $this->addresses()->where('type', 'shipping')->get();
+    }
+    
+    public function addShippingAddress(array $addressData)
+    {
+        return $this->addresses()->create(array_merge($addressData, [
+            'type' => 'shipping'
+        ]));
+    }
+    
+    public function getPreferredShippingAddressAttribute()
+    {
+        return $this->addresses()
+            ->where('type', 'shipping')
+            ->where('is_default', true)
+            ->first() ?? $this->home_address;
+    }
+    
+    public function setDefaultShippingAddress($addressId)
+    {
+        // Remove default from all shipping addresses
+        $this->addresses()
+            ->where('type', 'shipping')
+            ->update(['is_default' => false]);
+        
+        // Set new default
+        return $this->addresses()
+            ->where('id', $addressId)
+            ->where('type', 'shipping')
+            ->update(['is_default' => true]);
+    }
+}
+
+// Usage
+$customer = Customer::first();
+
+$customer->addShippingAddress([
+    'address_line' => 'Jl. Delivery No. 123',
+    'village_code' => '33.74.01.1001',
+    'district_code' => '33.74.01',
+    'regency_code' => '33.74',
+    'province_code' => '33'
+]);
+
+$shippingAddress = $customer->preferred_shipping_address;
+```
+
+### 3. Manajemen Acara
+
+```php
+class Event extends Model
+{
+    use WithAddresses;
+    
+    protected $fillable = [
+        'title',
+        'description',
+        'event_date'
+    ];
+    
+    protected $casts = [
+        'event_date' => 'datetime'
+    ];
+    
+    public function getVenuesAttribute()
+    {
+        return $this->addresses()->where('type', 'venue')->get();
+    }
+    
+    public function getAccommodationsAttribute()
+    {
+        return $this->addresses()->where('type', 'accommodation')->get();
+    }
+    
+    public function addVenue(array $venueData)
+    {
+        return $this->addresses()->create(array_merge($venueData, [
+            'type' => 'venue'
+        ]));
+    }
+    
+    public function addAccommodation(array $accommodationData)
+    {
+        return $this->addresses()->create(array_merge($accommodationData, [
+            'type' => 'accommodation'
+        ]));
+    }
+    
+    public function getLocationSummaryAttribute()
+    {
+        $venues = $this->venues;
+        
+        if ($venues->isEmpty()) {
+            return 'Venues TBA';
+        }
+        
+        $cities = $venues->map(function ($venue) {
+            return $venue->regency->name;
+        })->unique();
+        
+        return $cities->count() === 1 
+            ? $cities->first()
+            : $cities->count() . ' cities';
+    }
+}
+```
+
+### 4. Manajemen Logistik
+
+```php
+class LogisticsProvider extends Model
+{
+    use WithAddresses;
+    
+    protected $fillable = [
+        'name',
+        'service_type'
+    ];
+    
+    public function getWarehousesAttribute()
+    {
+        return $this->addresses()->where('type', 'warehouse')->get();
+    }
+    
+    public function getDistributionCentersAttribute()
+    {
+        return $this->addresses()->where('type', 'distribution_center')->get();
+    }
+    
+    public function getServiceAreasAttribute()
+    {
+        return $this->addresses()
+            ->with('province')
+            ->get()
+            ->groupBy('province.name')
+            ->map(function ($addresses, $provinceName) {
+                return [
+                    'province' => $provinceName,
+                    'locations' => $addresses->count(),
+                    'types' => $addresses->pluck('type')->unique()->values()
+                ];
+            });
+    }
+    
+    public function canServeLocation($provinceCode, $regencyCode = null)
+    {
+        $query = $this->addresses()->where('province_code', $provinceCode);
+        
+        if ($regencyCode) {
+            $query->where('regency_code', $regencyCode);
+        }
+        
+        return $query->exists();
+    }
+    
+    public function getNearestFacility($provinceCode, $regencyCode, $type = null)
+    {
+        $query = $this->addresses()
+            ->where('province_code', $provinceCode)
+            ->where('regency_code', $regencyCode);
+        
+        if ($type) {
+            $query->where('type', $type);
+        }
+        
+        return $query->first();
+    }
+}
+
+// Usage
+$provider = LogisticsProvider::first();
+
+$canServe = $provider->canServeLocation('33', '33.74');
+$warehouse = $provider->getNearestFacility('33', '33.74', 'warehouse');
+$serviceAreas = $provider->service_areas;
+```
+
+## Penggunaan Lanjutan
+
+### Manajemen Tipe Alamat
+
+```php
+class AddressableModel extends Model
+{
+    use WithAddresses;
+    
+    const ADDRESS_TYPES = [
+        'home' => 'Home Address',
+        'office' => 'Office Address',
+        'shipping' => 'Shipping Address',
+        'billing' => 'Billing Address',
+        'warehouse' => 'Warehouse',
+        'branch' => 'Branch Office',
+        'headquarters' => 'Headquarters'
+    ];
+    
+    public function getAddressesByTypeAttribute()
+    {
+        return $this->addresses->groupBy('type');
+    }
+    
+    public function getAddressTypesAttribute()
+    {
+        return $this->addresses->pluck('type')->unique()->values();
+    }
+    
+    public function hasAddressType($type)
+    {
+        return $this->addresses()->where('type', $type)->exists();
+    }
+    
+    public function getAddressByType($type)
+    {
+        return $this->addresses()->where('type', $type)->get();
+    }
+    
+    public function removeAddressType($type)
+    {
+        return $this->addresses()->where('type', $type)->delete();
+    }
+}
+```
+
+### Operasi Alamat Massal
+
+```php
+class AddressManager
+{
+    public static function bulkCreateAddresses($model, array $addressesData)
+    {
+        $addresses = collect($addressesData)->map(function ($data) use ($model) {
+            return array_merge($data, [
+                'addressable_id' => $model->id,
+                'addressable_type' => get_class($model),
+                'created_at' => now(),
+                'updated_at' => now()
+            ]);
+        });
+        
+        return \DB::table('addresses')->insert($addresses->toArray());
+    }
+    
+    public static function syncAddresses($model, array $addressesData)
+    {
+        // Delete existing addresses
+        $model->addresses()->delete();
+        
+        // Create new addresses
+        return static::bulkCreateAddresses($model, $addressesData);
+    }
+    
+    public static function getLocationStatistics($modelClass)
+    {
+        return $modelClass::with('addresses.province')
+            ->get()
+            ->flatMap(function ($model) {
+                return $model->addresses;
+            })
+            ->groupBy('province.name')
+            ->map(function ($addresses, $provinceName) {
+                return [
+                    'province' => $provinceName,
+                    'count' => $addresses->count(),
+                    'types' => $addresses->pluck('type')->unique()->values()
+                ];
+            });
+    }
+}
+```
+
+## Validasi
+
+### Validasi Alamat Ganda
+
+```php
+class CompanyAddressRequest extends FormRequest
 {
     public function rules()
     {
         return [
-            'name' => 'required|string|max:255',
-            'phone' => 'required|string|max:20',
-            'village_code' => [
-                'required',
-                'exists:nusa.villages,code'
-            ],
-            'address_line' => 'required|string|max:500',
-            'notes' => 'nullable|string|max:255',
-            'is_default' => 'boolean'
+            'addresses' => 'required|array|min:1',
+            'addresses.*.type' => 'required|string|in:headquarters,branch,warehouse',
+            'addresses.*.address_line' => 'required|string|max:255',
+            'addresses.*.village_code' => 'required|exists:nusa.villages,code',
+            'addresses.*.postal_code' => 'nullable|string|size:5'
         ];
     }
     
     public function messages()
     {
         return [
-            'name.required' => 'Recipient name is required.',
-            'phone.required' => 'Phone number is required.',
-            'village_code.required' => 'Please select a village.',
-            'village_code.exists' => 'The selected village is invalid.',
-            'address_line.required' => 'Complete address is required.'
+            'addresses.*.type.in' => 'Address type must be headquarters, branch, or warehouse.',
+            'addresses.*.village_code.exists' => 'The selected village is invalid.'
         ];
     }
 }
 ```
 
-### Address Hierarchy Validation
+### Validasi Tipe Alamat Unik
 
 ```php
-class AddressValidator
+class CustomerAddressRequest extends FormRequest
 {
-    public function validateHierarchy($data)
+    public function rules()
     {
-        $village = Village::find($data['village_code']);
-        
-        if (!$village) {
-            return [
-                'valid' => false,
-                'errors' => ['Village not found']
-            ];
-        }
-        
-        $errors = [];
-        
-        // Validate district if provided
-        if (isset($data['district_code']) && $village->district_code !== $data['district_code']) {
-            $errors[] = 'Village does not belong to selected district';
-        }
-        
-        // Validate regency if provided
-        if (isset($data['regency_code']) && $village->regency_code !== $data['regency_code']) {
-            $errors[] = 'Village does not belong to selected regency';
-        }
-        
-        // Validate province if provided
-        if (isset($data['province_code']) && $village->province_code !== $data['province_code']) {
-            $errors[] = 'Village does not belong to selected province';
-        }
+        $customerId = $this->route('customer')->id ?? null;
         
         return [
-            'valid' => empty($errors),
-            'errors' => $errors,
-            'village' => $village,
-            'suggested_postal_code' => $village->postal_code
+            'type' => [
+                'required',
+                'string',
+                Rule::unique('addresses')
+                    ->where('addressable_type', Customer::class)
+                    ->where('addressable_id', $customerId)
+                    ->ignore($this->address)
+            ],
+            'address_line' => 'required|string|max:255',
+            'village_code' => 'required|exists:nusa.villages,code'
         ];
     }
 }
 ```
 
-## Querying Addresses
+## Tips Kinerja
 
-### Basic Queries
-
-```php
-// Users with addresses
-$users = User::has('addresses')->get();
-
-// Users with default addresses
-$users = User::whereHas('addresses', function ($query) {
-    $query->where('is_default', true);
-})->get();
-
-// Users with addresses in specific province
-$users = User::whereHas('addresses.village', function ($query) {
-    $query->where('province_code', '33');
-})->get();
-```
-
-### Advanced Filtering
+### 1. Eager Loading
 
 ```php
-// Users with addresses in Java
-$users = User::whereHas('addresses.village', function ($query) {
-    $query->whereIn('province_code', ['31', '32', '33', '34', '35', '36']);
-})->get();
-
-// Users with multiple addresses
-$users = User::has('addresses', '>=', 2)->get();
-
-// Users with addresses in specific postal code
-$users = User::whereHas('addresses.village', function ($query) {
-    $query->where('postal_code', '50132');
-})->get();
-```
-
-### Custom Scopes
-
-```php
-class User extends Model
-{
-    use WithAddresses;
-    
-    // Users with addresses in province
-    public function scopeWithAddressInProvince($query, $provinceCode)
-    {
-        return $query->whereHas('addresses.village', function ($q) use ($provinceCode) {
-            $q->where('province_code', $provinceCode);
-        });
-    }
-    
-    // Users with multiple addresses
-    public function scopeWithMultipleAddresses($query)
-    {
-        return $query->has('addresses', '>=', 2);
-    }
-    
-    // Users with default address
-    public function scopeWithDefaultAddress($query)
-    {
-        return $query->whereHas('addresses', function ($q) {
-            $q->where('is_default', true);
-        });
-    }
-}
-
-// Usage
-$javaUsers = User::withAddressInProvince('33')->get();
-$multiAddressUsers = User::withMultipleAddresses()->get();
-```
-
-## Bulk Operations
-
-### Import Addresses from CSV
-
-```php
-class AddressBulkImporter
-{
-    public function importForUser($userId, $csvFile)
-    {
-        $user = User::findOrFail($userId);
-        $addresses = [];
-        
-        foreach ($this->parseCsv($csvFile) as $row) {
-            $village = Village::where('name', $row['village'])
-                ->whereHas('district', function ($q) use ($row) {
-                    $q->where('name', $row['district']);
-                })
-                ->first();
-            
-            if ($village) {
-                $addresses[] = [
-                    'addressable_type' => User::class,
-                    'addressable_id' => $userId,
-                    'name' => $row['name'],
-                    'phone' => $row['phone'],
-                    'village_code' => $village->code,
-                    'address_line' => $row['address_line'],
-                    'postal_code' => $village->postal_code,
-                    'notes' => $row['notes'] ?? null,
-                    'is_default' => false,
-                    'created_at' => now(),
-                    'updated_at' => now()
-                ];
-            }
-        }
-        
-        if (!empty($addresses)) {
-            Address::insert($addresses);
-            
-            // Set first address as default if user has no default
-            if (!$user->addresses()->where('is_default', true)->exists()) {
-                $user->addresses()->first()->update(['is_default' => true]);
-            }
-        }
-        
-        return count($addresses);
-    }
-}
-```
-
-### Bulk Address Updates
-
-```php
-class AddressBulkUpdater
-{
-    public function updatePostalCodes($userId)
-    {
-        $user = User::findOrFail($userId);
-        $updated = 0;
-        
-        $user->addresses()->chunk(100, function ($addresses) use (&$updated) {
-            foreach ($addresses as $address) {
-                if ($address->village && $address->village->postal_code !== $address->postal_code) {
-                    $address->update(['postal_code' => $address->village->postal_code]);
-                    $updated++;
-                }
-            }
-        });
-        
-        return $updated;
-    }
-}
-```
-
-## API Integration
-
-### Address Resource
-
-```php
-class AddressResource extends JsonResource
-{
-    public function toArray($request)
-    {
-        return [
-            'id' => $this->id,
-            'recipient' => [
-                'name' => $this->name,
-                'phone' => $this->phone
-            ],
-            'address' => [
-                'line' => $this->address_line,
-                'village' => $this->village?->name,
-                'district' => $this->village?->district?->name,
-                'regency' => $this->village?->regency?->name,
-                'province' => $this->village?->province?->name,
-                'postal_code' => $this->postal_code,
-                'full_address' => $this->full_address
-            ],
-            'coordinates' => [
-                'latitude' => $this->village?->latitude,
-                'longitude' => $this->village?->longitude
-            ],
-            'is_default' => $this->is_default,
-            'notes' => $this->notes,
-            'created_at' => $this->created_at,
-            'updated_at' => $this->updated_at
-        ];
-    }
-}
-```
-
-### User Resource with Addresses
-
-```php
-class UserResource extends JsonResource
-{
-    public function toArray($request)
-    {
-        return [
-            'id' => $this->id,
-            'name' => $this->name,
-            'email' => $this->email,
-            'addresses' => AddressResource::collection($this->whenLoaded('addresses')),
-            'default_address' => new AddressResource($this->whenLoaded('defaultAddress')),
-            'addresses_count' => $this->addresses_count ?? $this->addresses->count(),
-            'created_at' => $this->created_at,
-            'updated_at' => $this->updated_at
-        ];
-    }
-}
-```
-
-## Performance Optimization
-
-### Efficient Loading
-
-```php
-// Load users with addresses and hierarchy
-$users = User::with([
+// Good
+$companies = Company::with([
     'addresses.village.district.regency.province'
 ])->get();
 
-// Load only needed address fields
-$users = User::with([
+// Bad - N+1 queries
+$companies = Company::all();
+foreach ($companies as $company) {
+    foreach ($company->addresses as $address) {
+        echo $address->village->name; // Multiple queries
+    }
+}
+```
+
+### 2. Memuat Berdasarkan Tipe secara Selektif
+
+```php
+$companies = Company::with([
     'addresses' => function ($query) {
-        $query->select('id', 'addressable_id', 'name', 'village_code', 'address_line', 'is_default');
-    },
-    'addresses.village' => function ($query) {
-        $query->select('code', 'name', 'postal_code');
+        $query->where('type', 'headquarters')
+              ->with('village.regency.province');
     }
 ])->get();
-
-// Count addresses without loading
-$users = User::withCount('addresses')->get();
 ```
 
-### Caching
+### 3. Menghitung Alamat
 
 ```php
-class CachedAddressService
-{
-    public function getUserAddresses($userId)
-    {
-        return Cache::remember("user_addresses_{$userId}", 1800, function () use ($userId) {
-            return User::find($userId)
-                ->addresses()
-                ->with(['village.district.regency.province'])
-                ->get();
-        });
+$companies = Company::withCount([
+    'addresses',
+    'addresses as branches_count' => function ($query) {
+        $query->where('type', 'branch');
+    },
+    'addresses as warehouses_count' => function ($query) {
+        $query->where('type', 'warehouse');
     }
-    
-    public function getUserDefaultAddress($userId)
-    {
-        return Cache::remember("user_default_address_{$userId}", 1800, function () use ($userId) {
-            return User::find($userId)
-                ->addresses()
-                ->where('is_default', true)
-                ->with(['village.district.regency.province'])
-                ->first();
-        });
-    }
-}
+])->get();
 ```
 
-## Testing
+## Dokumentasi Terkait
 
-### Address Tests
-
-```php
-class UserAddressTest extends TestCase
-{
-    use RefreshDatabase;
-    
-    public function test_user_can_have_multiple_addresses()
-    {
-        $user = User::factory()->create();
-        $village1 = Village::factory()->create();
-        $village2 = Village::factory()->create();
-        
-        $address1 = $user->addresses()->create([
-            'name' => 'John Doe',
-            'village_code' => $village1->code,
-            'address_line' => 'Address 1'
-        ]);
-        
-        $address2 = $user->addresses()->create([
-            'name' => 'John Doe',
-            'village_code' => $village2->code,
-            'address_line' => 'Address 2'
-        ]);
-        
-        $this->assertCount(2, $user->addresses);
-        $this->assertTrue($user->addresses->contains($address1));
-        $this->assertTrue($user->addresses->contains($address2));
-    }
-    
-    public function test_default_address_management()
-    {
-        $user = User::factory()->create();
-        $village = Village::factory()->create();
-        
-        // Create first address as default
-        $address1 = $user->addresses()->create([
-            'name' => 'John Doe',
-            'village_code' => $village->code,
-            'address_line' => 'Address 1',
-            'is_default' => true
-        ]);
-        
-        // Create second address as default
-        $address2 = $user->addresses()->create([
-            'name' => 'John Doe',
-            'village_code' => $village->code,
-            'address_line' => 'Address 2',
-            'is_default' => true
-        ]);
-        
-        // First address should no longer be default
-        $this->assertFalse($address1->fresh()->is_default);
-        $this->assertTrue($address2->fresh()->is_default);
-    }
-}
-```
-
-## Next Steps
-
-- **[WithAddress](/id/api/concerns/with-address)** - Single address management
-- **[Address Model](/id/api/models/address)** - Complete address model documentation
-- **[Address Forms](/id/examples/address-forms)** - Building interactive address forms
-- **[WithVillage](/id/api/concerns/with-village)** - Village relationship trait
+- **[Trait WithAddress](/id/api/concerns/with-address)** - Untuk dukungan alamat tunggal
+- **[Model Address](/id/api/models/address)** - Dokumentasi lengkap model Address
+- **[Panduan Manajemen Alamat](/id/guide/addresses)** - Panduan lengkap fungsionalitas alamat
+- **[Contoh Formulir Alamat](/id/examples/address-forms)** - Membangun formulir alamat

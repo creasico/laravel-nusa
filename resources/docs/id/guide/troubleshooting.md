@@ -1,14 +1,14 @@
-# Troubleshooting
+# Pemecahan Masalah
 
-Panduan ini membantu Anda mengatasi masalah umum saat menginstal, mengkonfigurasi, atau menggunakan Laravel Nusa.
+Panduan ini membantu Anda menyelesaikan masalah umum saat menginstal, mengkonfigurasi, atau menggunakan Laravel Nusa.
 
 ## Masalah Instalasi
 
-### Ekstensi PHP SQLite Hilang
+### Ekstensi SQLite PHP Hilang
 
 **Error**: `could not find driver` atau `PDO SQLite driver not found`
 
-**Solusi**: Install ekstensi PHP SQLite:
+**Solusi**: Instal ekstensi SQLite PHP:
 
 ```bash
 # Ubuntu/Debian
@@ -22,7 +22,7 @@ sudo dnf install php-sqlite3
 # macOS dengan Homebrew
 brew install php@8.2
 
-# Windows (uncomment di php.ini)
+# Windows (batalkan komentar di php.ini)
 extension=pdo_sqlite
 extension=sqlite3
 ```
@@ -30,7 +30,7 @@ extension=sqlite3
 **Verifikasi instalasi**:
 ```bash
 php -m | grep sqlite
-# Harus menampilkan: pdo_sqlite, sqlite3
+# Seharusnya menampilkan: pdo_sqlite, sqlite3
 ```
 
 ### Instalasi Composer Gagal
@@ -39,549 +39,490 @@ php -m | grep sqlite
 
 **Solusi**:
 
-1. **Clear cache Composer**:
+1. **Bersihkan *cache* Composer**:
    ```bash
    composer clear-cache
    composer install --no-cache
    ```
 
-2. **Update Composer**:
+2. **Perbarui Composer**:
    ```bash
    composer self-update
-   composer install
    ```
 
-3. **Check versi PHP**:
+3. **Periksa versi PHP**:
    ```bash
    php -v
-   # Laravel Nusa memerlukan PHP ≥ 8.2
+   # Pastikan PHP >= 8.2
    ```
 
-4. **Install dengan versi spesifik**:
+4. **Instal dengan versi tertentu**:
    ```bash
-   composer require creasi/laravel-nusa:^1.0
+   composer require creasi/laravel-nusa:^0.1
    ```
 
-### Database File Tidak Ditemukan
+### Kompatibilitas Versi Laravel
 
-**Error**: `Database file not found` atau `SQLSTATE[HY000] [14]`
+**Error**: `Package requires Laravel X.Y but you have Z.A`
 
-**Solusi**:
+**Solusi**: Periksa matriks kompatibilitas:
 
+| Laravel Nusa | Versi Laravel |
+|--------------|------------------|
+| 0.1.x        | 9.0 - 12.x       |
+
+Perbarui Laravel atau gunakan versi yang kompatibel:
 ```bash
-# Check apakah file database ada
-ls -la database/nusa.sqlite
+# Perbarui Laravel
+composer update laravel/framework
 
-# Jika tidak ada, package akan membuat otomatis
-# Pastikan direktori database dapat ditulis
-chmod 755 database/
-chmod 664 database/nusa.sqlite
-
-# Restart aplikasi
-php artisan config:clear
-php artisan cache:clear
-```
-
-### Permission Denied
-
-**Error**: `Permission denied` saat mengakses database
-
-**Solusi**:
-
-```bash
-# Fix permission direktori database
-sudo chown -R www-data:www-data database/
-sudo chmod -R 755 database/
-
-# Untuk development lokal
-sudo chown -R $USER:$USER database/
-chmod 664 database/nusa.sqlite
+# Atau instal versi Nusa yang kompatibel
+composer require creasi/laravel-nusa:^0.1
 ```
 
 ## Masalah Database
 
-### Koneksi Database Gagal
+### Database SQLite Tidak Ditemukan
 
-**Error**: `SQLSTATE[HY000] [2002] Connection refused`
+**Error**: `database disk image is malformed` atau `no such file`
 
 **Solusi**:
 
-1. **Check konfigurasi koneksi**:
-   ```php
-   // config/database.php
-   'nusa' => [
-       'driver' => 'sqlite',
-       'database' => database_path('nusa.sqlite'),
-       'prefix' => '',
-       'foreign_key_constraints' => true,
-   ],
+1. **Periksa apakah file ada**:
+   ```bash
+   ls -la vendor/creasi/laravel-nusa/database/nusa.sqlite
    ```
 
-2. **Test koneksi**:
+2. **Instal ulang paket**:
+   ```bash
+   composer remove creasi/laravel-nusa
+   composer require creasi/laravel-nusa
+   ```
+
+3. **Periksa izin file**:
+   ```bash
+   chmod 644 vendor/creasi/laravel-nusa/database/nusa.sqlite
+   ```
+
+### Error Koneksi Database
+
+**Error**: `SQLSTATE[HY000] [14] unable to open database file`
+
+**Solusi**:
+
+1. **Periksa jalur database**:
+   ```php
+   // Di tinker
+   config('database.connections.nusa.database')
+   ```
+
+2. **Verifikasi izin file**:
+   ```bash
+   # Jadikan direktori dapat ditulis
+   chmod 755 vendor/creasi/laravel-nusa/database/
+   
+   # Jadikan file dapat dibaca
+   chmod 644 vendor/creasi/laravel-nusa/database/nusa.sqlite
+   ```
+
+3. **Uji koneksi**:
    ```bash
    php artisan tinker
    >>> DB::connection('nusa')->getPdo()
    ```
 
-3. **Check file database**:
-   ```bash
-   file database/nusa.sqlite
-   # Harus menampilkan: SQLite 3.x database
-   ```
-
-### Database Corrupt
-
-**Error**: `Database disk image is malformed`
-
-**Solusi**:
-
-```bash
-# Backup database lama
-cp database/nusa.sqlite database/nusa.sqlite.backup
-
-# Download database fresh
-rm database/nusa.sqlite
-php artisan vendor:publish --tag=creasi-nusa-database --force
-
-# Atau gunakan SQLite recovery
-sqlite3 database/nusa.sqlite.backup ".recover" | sqlite3 database/nusa.sqlite
-```
-
-### Query Timeout
-
-**Error**: `Maximum execution time exceeded`
-
-**Solusi**:
-
-```php
-// Increase timeout untuk query besar
-DB::connection('nusa')->getPdo()->setAttribute(PDO::ATTR_TIMEOUT, 60);
-
-// Atau gunakan pagination
-$villages = Village::paginate(100); // Bukan Village::all()
-```
-
-### Foreign Key Constraint Errors
+### Error Kendala Kunci Asing
 
 **Error**: `FOREIGN KEY constraint failed`
 
-**Solusi**:
+**Solusi**: Aktifkan kendala kunci asing:
 
 ```php
-// Disable foreign key checks sementara
-DB::connection('nusa')->statement('PRAGMA foreign_keys = OFF');
-// Lakukan operasi
-DB::connection('nusa')->statement('PRAGMA foreign_keys = ON');
-
-// Atau check integritas data
-DB::connection('nusa')->statement('PRAGMA integrity_check');
+// Di config/database.php
+'nusa' => [
+    'driver' => 'sqlite',
+    'database' => database_path('nusa.sqlite'),
+    'foreign_key_constraints' => true, // Tambahkan ini
+],
 ```
 
 ## Masalah Konfigurasi
 
-### Config Cache Issues
+### Rute Tidak Berfungsi
 
-**Error**: Konfigurasi tidak ter-update setelah perubahan
+**Error**: `Route [nusa.provinces.index] not defined`
 
 **Solusi**:
 
+1. **Periksa apakah rute diaktifkan**:
+   ```bash
+   # Di .env
+   CREASI_NUSA_ROUTES_ENABLE=true
+   ```
+
+2. **Bersihkan *cache* rute**:
+   ```bash
+   php artisan route:clear
+   php artisan config:clear
+   ```
+
+3. **Verifikasi penyedia layanan dimuat**:
+   ```bash
+   php artisan config:show app.providers | grep Nusa
+   ```
+
+4. **Periksa registrasi rute**:
+   ```bash
+   php artisan route:list | grep nusa
+   ```
+
+### *Endpoint* API Mengembalikan 404
+
+**Error**: `404 Not Found` untuk `/nusa/provinces`
+
+**Solusi**:
+
+1. **Periksa awalan rute**:
+   ```bash
+   # Di .env
+   CREASI_NUSA_ROUTES_PREFIX=nusa
+   ```
+
+2. **Verifikasi konfigurasi *web server***:
+   ```apache
+   # Apache .htaccess
+   RewriteEngine On
+   RewriteCond %{REQUEST_FILENAME} !-f
+   RewriteCond %{REQUEST_FILENAME} !-d
+   RewriteRule ^(.*)$ index.php [QSA,L]
+   ```
+
+3. **Uji dengan URL lengkap**:
+   ```bash
+   curl http://your-app.test/index.php/nusa/provinces
+   ```
+
+### Masalah *Cache* Konfigurasi
+
+**Error**: Perubahan konfigurasi tidak berlaku
+
+**Solusi**: Bersihkan *cache* konfigurasi:
+
 ```bash
-# Clear semua cache
 php artisan config:clear
-php artisan cache:clear
-php artisan route:clear
-php artisan view:clear
-
-# Rebuild cache
 php artisan config:cache
+php artisan route:clear
 ```
 
-### Environment Variables Tidak Terbaca
+## Masalah Model dan Kueri
 
-**Error**: Environment variables tidak ter-load
-
-**Solusi**:
-
-```bash
-# Check file .env
-cat .env | grep CREASI_NUSA
-
-# Pastikan tidak ada spasi di sekitar =
-CREASI_NUSA_CONNECTION=nusa  # ✓ Benar
-CREASI_NUSA_CONNECTION = nusa  # ✗ Salah
-
-# Restart server development
-php artisan serve
-```
-
-### Service Provider Tidak Terdaftar
-
-**Error**: `Class 'Creasi\Nusa\NusaServiceProvider' not found`
-
-**Solusi**:
-
-```bash
-# Check apakah package ter-install
-composer show creasi/laravel-nusa
-
-# Re-install jika perlu
-composer remove creasi/laravel-nusa
-composer require creasi/laravel-nusa
-
-# Clear autoload
-composer dump-autoload
-```
-
-### Middleware Conflicts
-
-**Error**: Middleware conflicts dengan package lain
-
-**Solusi**:
-
-```php
-// config/creasi/nusa.php
-'api' => [
-    'middleware' => ['api'], // Remove conflicting middleware
-],
-
-// Atau disable API jika tidak digunakan
-'api' => [
-    'enabled' => false,
-],
-```
-
-## Masalah Model dan Query
-
-### Model Tidak Ditemukan
+### Error Model Tidak Ditemukan
 
 **Error**: `Class 'Creasi\Nusa\Models\Province' not found`
 
 **Solusi**:
 
-```bash
-# Check autoload
-composer dump-autoload
+1. **Periksa *autoloader***:
+   ```bash
+   composer dump-autoload
+   ```
 
-# Check namespace import
-use Creasi\Nusa\Models\Province;
+2. **Verifikasi instalasi paket**:
+   ```bash
+   composer show creasi/laravel-nusa
+   ```
 
-# Test di tinker
-php artisan tinker
->>> \Creasi\Nusa\Models\Province::count()
-```
+3. **Periksa impor *namespace***:
+   ```php
+   use Creasi\Nusa\Models\Province; // Tambahkan ini
+   ```
 
-### Relationship Tidak Bekerja
+### Hasil Kueri Kosong
 
-**Error**: Relationship mengembalikan null atau empty
+**Error**: Model mengembalikan koleksi kosong
 
 **Solusi**:
 
+1. **Uji koneksi database**:
+   ```bash
+   php artisan tinker
+   >>> DB::connection('nusa')->table('provinces')->count()
+   ```
+
+2. **Periksa nama tabel**:
+   ```bash
+   >>> Schema::connection('nusa')->getTableListing()
+   ```
+
+3. **Verifikasi data ada**:
+   ```bash
+   sqlite3 vendor/creasi/laravel-nusa/database/nusa.sqlite
+   .tables
+   SELECT COUNT(*) FROM provinces;
+   ```
+
+### Error Relasi
+
+**Error**: `Call to undefined relationship`
+
+**Solusi**: Periksa apakah metode relasi ada:
+
 ```php
-// Check foreign key constraints
+// Penggunaan yang benar
 $province = Province::find('33');
-$regencies = $province->regencies; // Pastikan ada data
+$regencies = $province->regencies; // Bukan regency()
 
-// Debug relationship
-$province = Province::with('regencies')->find('33');
-dd($province->regencies);
-
-// Check database integrity
-DB::connection('nusa')->select('PRAGMA foreign_key_check');
+// Relasi yang tersedia
+$province->regencies;  // HasMany
+$province->districts;  // HasMany  
+$province->villages;   // HasMany
 ```
 
-### Memory Issues dengan Large Datasets
+## Masalah Kinerja
+
+### Kinerja Kueri Lambat
+
+**Masalah**: Kueri memakan waktu terlalu lama
+
+**Solusi**:
+
+1. **Gunakan paginasi**:
+   ```php
+   // Baik
+   Village::paginate(50);
+   
+   // Hindari
+   Village::all(); // 83.762 catatan!
+   ```
+
+2. **Pilih kolom tertentu**:
+   ```php
+   Province::select('code', 'name')->get();
+   ```
+
+3. **Gunakan *eager loading***:
+   ```php
+   Province::with('regencies')->get();
+   ```
+
+4. **Periksa indeks**:
+   ```sql
+   EXPLAIN QUERY PLAN SELECT * FROM villages WHERE province_code = '33';
+   ```
+
+### Batas Memori Terlampaui
 
 **Error**: `Fatal error: Allowed memory size exhausted`
 
 **Solusi**:
 
-```php
-// Gunakan pagination
-$villages = Village::paginate(100); // Bukan Village::all()
+1. **Tingkatkan batas memori**:
+   ```bash
+   php -d memory_limit=512M artisan your:command
+   ```
 
-// Gunakan chunking untuk processing
-Village::chunk(1000, function ($villages) {
-    foreach ($villages as $village) {
-        // Process village
-    }
-});
+2. **Gunakan *chunking* untuk dataset besar**:
+   ```php
+   Village::chunk(1000, function ($villages) {
+       foreach ($villages as $village) {
+           // Proses desa/kelurahan
+       }
+   });
+   ```
 
-// Increase memory limit
-ini_set('memory_limit', '512M');
-```
+3. **Optimalkan kueri**:
+   ```php
+   // Gunakan select() untuk membatasi kolom
+   Village::select('code', 'name')->chunk(1000, $callback);
+   ```
 
-### Slow Query Performance
+## Masalah Pengembangan
 
-**Error**: Query lambat atau timeout
+### Masalah Submodule
 
-**Solusi**:
-
-```php
-// Gunakan eager loading
-$provinces = Province::with(['regencies.districts'])->get();
-
-// Limit kolom yang di-select
-$provinces = Province::select(['code', 'name'])->get();
-
-// Gunakan indexing
-DB::connection('nusa')->statement('CREATE INDEX idx_village_regency ON villages(regency_code)');
-
-// Enable query logging untuk debug
-DB::connection('nusa')->enableQueryLog();
-// ... jalankan query
-dd(DB::connection('nusa')->getQueryLog());
-```
-
-## Masalah Performa
-
-### Aplikasi Lambat
-
-**Gejala**: Response time tinggi saat mengakses data wilayah
+**Error**: `Submodule path 'workbench/submodules/wilayah': checked out 'abc123'`
 
 **Solusi**:
 
-```php
-// 1. Enable caching
-// config/creasi/nusa.php
-'cache' => [
-    'enabled' => true,
-    'ttl' => 3600, // 1 jam
-],
+1. **Inisialisasi submodule**:
+   ```bash
+   git submodule update --init --recursive
+   ```
 
-// 2. Gunakan eager loading
-$provinces = Province::with('regencies')->get();
+2. **Perbarui submodule**:
+   ```bash
+   git submodule update --remote
+   ```
 
-// 3. Limit data yang dimuat
-$provinces = Province::select(['code', 'name'])->get();
+3. **Reset submodule**:
+   ```bash
+   git submodule deinit --all
+   git submodule update --init --recursive
+   ```
 
-// 4. Gunakan pagination
-$villages = Village::paginate(50);
-```
+### Masalah Docker
 
-### Memory Usage Tinggi
-
-**Gejala**: Aplikasi menggunakan memory berlebihan
+**Error**: `Cannot connect to the Docker daemon`
 
 **Solusi**:
 
-```php
-// Hindari loading semua data sekaligus
-// ❌ Jangan lakukan ini
-$allVillages = Village::all(); // 83,762 records!
+1. **Mulai layanan Docker**:
+   ```bash
+   # Linux
+   sudo systemctl start docker
+   
+   # macOS
+   open -a Docker
+   ```
 
-// ✅ Gunakan pagination atau chunking
-Village::chunk(1000, function ($villages) {
-    foreach ($villages as $village) {
-        // Process village
-    }
-});
+2. **Periksa Docker Compose**:
+   ```bash
+   docker-compose --version
+   ```
 
-// ✅ Atau gunakan lazy loading
-foreach (Village::lazy() as $village) {
-    // Process village satu per satu
-}
-```
+3. **Reset lingkungan Docker**:
+   ```bash
+   composer upstream:down
+   docker system prune -f
+   composer upstream:up
+   ```
 
-### Database Lock Issues
+### Perintah Impor Gagal
 
-**Error**: `Database is locked`
-
-**Solusi**:
-
-```bash
-# Check proses yang menggunakan database
-lsof database/nusa.sqlite
-
-# Kill proses jika perlu
-kill -9 <process_id>
-
-# Atau restart web server
-sudo systemctl restart apache2
-# atau
-sudo systemctl restart nginx
-```
-
-## Masalah Development
-
-### Hot Reload Tidak Bekerja
-
-**Gejala**: Perubahan kode tidak ter-reload otomatis
+**Error**: Perintah impor data gagal
 
 **Solusi**:
 
-```bash
-# Clear semua cache
-php artisan optimize:clear
+1. **Periksa koneksi database**:
+   ```bash
+   composer testbench tinker
+   >>> DB::connection()->getPdo()
+   ```
 
-# Restart development server
-php artisan serve
+2. **Verifikasi submodule**:
+   ```bash
+   ls -la workbench/submodules/
+   ```
 
-# Check file watcher
-npm run dev
-```
+3. **Jalankan dengan *output* *verbose***:
+   ```bash
+   composer testbench nusa:import -- --fresh -v
+   ```
 
-### Testing Issues
-
-**Error**: Test gagal dengan database connection
-
-**Solusi**:
-
-```php
-// tests/TestCase.php
-protected function setUp(): void
-{
-    parent::setUp();
-
-    // Gunakan in-memory database untuk testing
-    config(['database.connections.nusa.database' => ':memory:']);
-
-    // Atau copy database untuk testing
-    copy(database_path('nusa.sqlite'), database_path('nusa_test.sqlite'));
-    config(['database.connections.nusa.database' => database_path('nusa_test.sqlite')]);
-}
-```
-
-### Submodule Issues
-
-**Error**: Git submodule tidak ter-update
-
-**Solusi**:
-
-```bash
-# Update submodules
-git submodule update --init --recursive
-
-# Force update
-git submodule update --remote --force
-
-# Check submodule status
-git submodule status
-```
+4. **Periksa ruang disk**:
+   ```bash
+   df -h
+   ```
 
 ## Masalah API
 
-### CORS Errors
+### Error CORS
 
-**Error**: `Access-Control-Allow-Origin` error di browser
+**Error**: `Access to fetch at 'http://localhost/nusa/provinces' from origin 'http://localhost:3000' has been blocked by CORS policy`
 
-**Solusi**:
+**Solusi**: Konfigurasi CORS di Laravel:
 
 ```php
 // config/cors.php
 'paths' => ['api/*', 'nusa/*'],
-'allowed_methods' => ['GET', 'POST', 'PUT', 'DELETE'],
-'allowed_origins' => ['*'], // Atau domain spesifik
+'allowed_methods' => ['GET'],
+'allowed_origins' => ['*'], // Atau domain tertentu
 'allowed_headers' => ['*'],
 ```
 
-### Rate Limiting
+### Masalah Pembatasan Laju
 
-**Error**: `Too Many Requests` (429)
-
-**Solusi**:
-
-```php
-// config/creasi/nusa.php
-'api' => [
-    'middleware' => ['api', 'throttle:120,1'], // Increase limit
-],
-
-// Atau disable rate limiting untuk development
-'api' => [
-    'middleware' => ['api'],
-],
-```
-
-### JSON Response Issues
-
-**Error**: Response tidak dalam format JSON yang benar
+**Error**: `429 Too Many Requests`
 
 **Solusi**:
 
-```php
-// Check Accept header
-$response = Http::withHeaders([
-    'Accept' => 'application/json',
-    'Content-Type' => 'application/json',
-])->get('/nusa/provinces');
+1. **Periksa batas laju**:
+   ```php
+   // Di rute atau middleware
+   Route::middleware(['throttle:60,1'])->group(function () {
+       // Rute Anda
+   });
+   ```
 
-// Check response format
-if ($response->successful()) {
-    $data = $response->json();
-} else {
-    Log::error('API Error', ['response' => $response->body()]);
-}
-```
+2. **Tingkatkan batas**:
+   ```php
+   Route::middleware(['throttle:1000,1'])->group(function () {
+       // Rute batas yang lebih tinggi
+   });
+   ```
+
+### Masalah Respon JSON
+
+**Error**: Respon JSON tidak valid
+
+**Solusi**:
+
+1. **Periksa *header* Accept**:
+   ```bash
+   curl -H "Accept: application/json" http://your-app.test/nusa/provinces
+   ```
+
+2. **Verifikasi rute API**:
+   ```bash
+   php artisan route:list | grep nusa
+   ```
 
 ## Mendapatkan Bantuan
 
-### Debug Information
+### Informasi Debug
 
-Sebelum melaporkan masalah, kumpulkan informasi debug:
+Saat melaporkan masalah, sertakan:
 
 ```bash
-# Versi PHP
+# Informasi sistem
 php -v
+composer --version
+laravel --version
 
-# Versi Laravel
-php artisan --version
-
-# Versi Laravel Nusa
+# Informasi paket
 composer show creasi/laravel-nusa
 
-# Check ekstensi PHP
-php -m | grep -E "(sqlite|pdo)"
+# Konfigurasi Laravel
+php artisan about
 
-# Check konfigurasi database
+# Uji koneksi database
 php artisan tinker
->>> config('database.connections.nusa')
+>>> DB::connection('nusa')->getPdo()
+>>> \Creasi\Nusa\Models\Province::count()
 ```
 
-### Log Files
+### File Log
 
-Check log files untuk error details:
+Periksa file log ini untuk error:
 
 ```bash
-# Laravel logs
+# Log Laravel
 tail -f storage/logs/laravel.log
 
-# Web server logs
+# Log web server
 tail -f /var/log/apache2/error.log
 tail -f /var/log/nginx/error.log
 
-# PHP logs
-tail -f /var/log/php8.2-fpm.log
+# Log PHP
+tail -f /var/log/php_errors.log
 ```
 
-### Reporting Issues
+### Saluran Dukungan
 
-Saat melaporkan masalah:
+1. **Dokumentasi** - Periksa dokumentasi ini terlebih dahulu
+2. **Masalah GitHub** - [Laporkan bug](https://github.com/creasico/laravel-nusa/issues)
+3. **Diskusi GitHub** - [Dukungan komunitas](https://github.com/orgs/creasico/discussions)
+4. **Stack Overflow** - Beri tag dengan `laravel-nusa`
 
-1. **Sertakan informasi environment**:
-   - Versi PHP, Laravel, dan Laravel Nusa
-   - Operating system
-   - Web server (Apache/Nginx)
+### Membuat Laporan Bug
 
-2. **Sertakan error message lengkap**:
-   - Stack trace
-   - Log entries
-   - Steps to reproduce
+Sertakan informasi ini:
 
-3. **Sertakan konfigurasi**:
-   - Database configuration
-   - Laravel Nusa configuration
-   - Environment variables
+- **Lingkungan**: Versi PHP, versi Laravel, OS
+- **Versi paket**: `composer show creasi/laravel-nusa`
+- **Pesan error**: Error lengkap dengan *stack trace*
+- **Langkah-langkah untuk mereproduksi**: Contoh kode minimal
+- **Perilaku yang diharapkan**: Apa yang seharusnya terjadi
+- **Perilaku aktual**: Apa yang sebenarnya terjadi
 
-### Community Support
-
-- **GitHub Issues**: [Laporkan bug](https://github.com/creasico/laravel-nusa/issues)
-- **Discussions**: [Diskusi komunitas](https://github.com/orgs/creasico/discussions)
-- **Documentation**: [Dokumentasi lengkap](https://laravel-nusa.creasico.dev)
-
-### Professional Support
-
-Untuk dukungan prioritas atau konsultasi:
-- Email: support@creasico.dev
-- Website: [https://creasico.dev](https://creasico.dev)
-
-Panduan troubleshooting ini mencakup masalah paling umum yang mungkin Anda temui. Jika masalah Anda tidak tercakup di sini, jangan ragu untuk menghubungi komunitas atau tim support.
+Panduan pemecahan masalah ini mencakup masalah paling umum. Jika Anda menemukan masalah yang tidak tercantum di sini, silakan periksa masalah GitHub atau buat yang baru dengan informasi terperinci.

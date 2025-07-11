@@ -3,14 +3,14 @@ layout: home
 
 hero:
   name: "Laravel Nusa"
-  text: "Data Wilayah Administratif Indonesia"
-  tagline: Solusi lengkap untuk mengelola data provinsi, kabupaten/kota, kecamatan, dan kelurahan/desa di aplikasi Laravel Anda
+  text: "Data Administratif Indonesia"
+  tagline: Data provinsi, kabupaten, kecamatan, dan desa di Indonesia yang siap pakai untuk aplikasi Laravel
   image:
     src: /logo.svg
     alt: Laravel Nusa
   actions:
     - theme: brand
-      text: Mulai Sekarang
+      text: Mulai
       link: /id/guide/getting-started
     - theme: alt
       text: Lihat di GitHub
@@ -18,42 +18,42 @@ hero:
 
 features:
   - icon: 🗺️
-    title: Data Lengkap
-    details: Akses ke seluruh wilayah administratif Indonesia - 38 provinsi, 514 kabupaten/kota, 7.285 kecamatan, dan 83.762 kelurahan/desa
+    title: Data Administratif Lengkap
+    details: Semua 38 provinsi, 514 kabupaten/kota, 7.285 kecamatan, dan 83.762 desa/kelurahan dengan kode dan nama resmi
   - icon: 🚀
-    title: Siap Pakai
-    details: Dengan embed SQLite database, hanya cukup install dan tinggal pakai
+    title: Tanpa Konfigurasi
+    details: Termasuk database SQLite yang siap pakai. Tidak perlu seeding atau migrasi - cukup instal dan gunakan
   - icon: 🌐
-    title: RESTful API
-    details: Tersedia API endpoint dengan pagination, search, dan filter untuk semua wilayah
+    title: API RESTful
+    details: Endpoint API bawaan dengan paginasi, pencarian, dan pemfilteran untuk semua tingkat administratif
   - icon: 📍
     title: Data Geografis
-    details: Termasuk koordinat, batas wilayah serta lengkap dengan kode pos
+    details: Termasuk koordinat, batas wilayah, dan kode pos untuk layanan lokasi yang komprehensif
   - icon: 🔧
-    title: Integrasi dengan Laravel
-    details: Eloquent model dengan relasi yang sesuai, traits untuk mengatur alamat dan fitur Laravel-native
+    title: Integrasi Laravel
+    details: Model Eloquent dengan relasi, trait untuk manajemen alamat, dan fitur-fitur native Laravel
   - icon: 🔄
-    title: Update Otomatis
-    details: Data di-singkronkan secara otomatis dengan data resmi dari Pemerintah
+    title: Pembaruan Otomatis
+    details: Secara otomatis disinkronkan dengan sumber data resmi pemerintah melalui alur kerja otomatis
 ---
 
 ## Mengapa Laravel Nusa?
 
-Laravel Nusa memecahkan tantangan umum dalam mengintegrasikan data administratif Indonesia ke dalam aplikasi Laravel. Alih-alih mengimpor dan memelihara dataset besar secara manual, Anda mendapatkan:
+Laravel Nusa memecahkan tantangan umum dalam mengintegrasikan data administratif Indonesia ke dalam aplikasi Laravel. Daripada mengimpor dan memelihara dataset besar secara manual, Anda mendapatkan:
 
-- **Setup Instan**: Database SQLite yang sudah dikemas dengan semua data siap pakai
+- **Pengaturan Instan**: Database SQLite yang sudah dikemas dengan semua data siap pakai
 - **Data Resmi**: Bersumber dari database pemerintah yang berwenang
-- **Performa**: Struktur database yang dioptimalkan dengan indexing yang tepat
-- **Pemeliharaan**: Update otomatis ketika data resmi berubah
-- **Privasi**: Versi distribusi mengecualikan data koordinat sensitif
+- **Kinerja**: Struktur database yang dioptimalkan dengan pengindeksan yang tepat
+- **Pemeliharaan**: Pembaruan otomatis saat data resmi berubah
+- **Privasi**: Versi distribusi tidak termasuk data koordinat sensitif
 
 
 ### 🏢 Paling Cocok Untuk
 
-- **E-Commerce**: Optimalkan rute pengiriman dan tentukan zona pengiriman yang efisien untuk merampingkan logistik.
-- **Layanan Kesehatan**: Kelola cakupan fasilitas dan pahami demografi pasien untuk perencanaan layanan yang lebih baik
+- **E-Commerce**: Optimalkan rute pengiriman dan tentukan zona pengiriman yang efisien untuk menyederhanakan logistik.
+- **Kesehatan**: Kelola cakupan fasilitas dan pahami demografi pasien untuk perencanaan layanan yang lebih baik
 - **Layanan Publik**: Berdayakan manajemen warga dan sederhanakan pelaporan administratif dengan wawasan spasial.
-- **Aplikasi Bisnis**: Analisis performa regional dan rencanakan ekspansi strategis dengan analitik berbasis lokasi
+- **Aplikasi Bisnis**: Analisis kinerja regional dan rencanakan ekspansi strategis dengan analitik berbasis lokasi
 
 ## 🚀 Mulai Cepat
 
@@ -63,7 +63,7 @@ Instal paket melalui Composer:
 composer require creasi/laravel-nusa
 ```
 
-Mulai gunakan langsung:
+Mulai gunakan segera:
 
 ```php
 use Creasi\Nusa\Models\Province;
@@ -83,7 +83,7 @@ $villages = $jateng->villages;
 
 ## 🌐 Contoh API
 
-Akses data melalui endpoint RESTful yang bersih:
+Akses data melalui *endpoint* RESTful yang bersih:
 
 ```http
 # Dapatkan semua provinsi
@@ -92,10 +92,10 @@ GET /nusa/provinces
 # Dapatkan provinsi tertentu
 GET /nusa/provinces/33
 
-# Dapatkan kabupaten/kota dalam provinsi
+# Dapatkan kabupaten/kota di provinsi
 GET /nusa/provinces/33/regencies
 
-# Cari dengan parameter query
+# Cari dengan parameter kueri
 GET /nusa/villages?search=jakarta&codes[]=31.71
 ```
 

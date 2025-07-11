@@ -34,11 +34,11 @@ Laravel Nusa eliminates these challenges by providing:
 ### Complete Administrative Hierarchy
 
 ```
-Indonesia
-└── 34 Provinces (Provinsi)
-    └── 514 Regencies (Kabupaten/Kota)
-        └── 7,285 Districts (Kecamatan)
-            └── 83,762 Villages (Kelurahan/Desa)
+🇮🇩 Indonesia
+├── 38 Provinces (Provinsi)
+├── 514 Regencies (Kabupaten/Kota)
+├── 7,285 Districts (Kecamatan)
+└── 83,762 Villages (Kelurahan/Desa)
 ```
 
 ### Rich Data Attributes

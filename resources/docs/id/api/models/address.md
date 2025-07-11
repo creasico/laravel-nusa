@@ -1,483 +1,448 @@
 # Model Alamat
 
-Dokumentasi lengkap untuk model Address Laravel Nusa, termasuk atribut, relasi, scope, dan metode yang tersedia untuk mengelola alamat dengan integrasi hierarki administratif Indonesia.
+Model `Address` menyediakan sistem manajemen alamat lengkap yang terintegrasi dengan data administratif Indonesia. Model ini dirancang untuk menyimpan alamat pengguna dengan validasi dan relasi yang tepat ke wilayah administratif.
 
-This comprehensive documentation covers the Address model in Laravel Nusa, including attributes, relationships, scopes, and available methods for managing addresses with Indonesian administrative hierarchy integration.
+## Referensi Kelas
 
-## Model Overview
+```php
+namespace Creasi\Nusa\Models;
 
-The Address model provides a complete address management system that integrates seamlessly with Indonesia's administrative hierarchy. It supports polymorphic relationships, allowing any model to have multiple addresses with full validation and hierarchy support.
+class Address extends Model
+{
+    // Implementasi model
+}
+```
 
-### Basic Usage
+## Atribut
+
+### Atribut Utama
+
+| Atribut | Tipe | Deskripsi | Contoh |
+|-----------|------|-------------|---------|
+| `id` | `bigint` | Kunci utama (auto-increment) | `1` |
+| `user_id` | `bigint` | Kunci asing ke tabel pengguna | `123` |
+| `name` | `string` | Nama penerima | `"John Doe"` |
+| `phone` | `string` | Nomor telepon kontak | `"081234567890"` |
+| `province_code` | `string` | Kode provinsi (Kunci Asing) | `"33"` |
+| `regency_code` | `string` | Kode kabupaten/kota (Kunci Asing) | `"33.75"` |
+| `district_code` | `string` | Kode kecamatan (Kunci Asing) | `"33.75.01"` |
+| `village_code` | `string` | Kode desa/kelurahan (Kunci Asing) | `"33.75.01.1002"` |
+| `address_line` | `text` | Alamat rinci | `"Jl. Merdeka No. 123"` |
+| `postal_code` | `string` | Kode pos 5 digit | `"51111"` |
+| `is_default` | `boolean` | Tanda alamat utama | `true` |
+
+### Atribut Terkomputasi
+
+| Atribut | Tipe | Deskripsi |
+|-----------|------|-------------|
+| `full_address` | `string` | Alamat lengkap yang diformat |
+
+## Relasi
+
+### Belongs To
+
+```php
+// Dapatkan pengguna yang memiliki alamat ini
+$address->user; // Model User
+
+// Dapatkan wilayah administratif
+$address->province; // Model Province
+$address->regency;  // Model Regency
+$address->district; // Model District
+$address->village;  // Model Village
+```
+
+### Metode Relasi
+
+```php
+// Relasi pengguna
+public function user(): BelongsTo
+{
+    return $this->belongsTo(User::class);
+}
+
+// Relasi wilayah administratif
+public function province(): BelongsTo
+{
+    return $this->belongsTo(Province::class, 'province_code', 'code');
+}
+
+public function regency(): BelongsTo
+{
+    return $this->belongsTo(Regency::class, 'regency_code', 'code');
+}
+
+public function district(): BelongsTo
+{
+    return $this->belongsTo(District::class, 'district_code', 'code');
+}
+
+public function village(): BelongsTo
+{
+    return $this->belongsTo(Village::class, 'village_code', 'code');
+}
+```
+
+## Scope
+
+### Scope Alamat Utama
+
+```php
+// Dapatkan alamat utama
+Address::default()->get();
+
+// Dapatkan alamat bukan utama
+Address::notDefault()->get();
+```
+
+### Scope Pengguna
+
+```php
+// Dapatkan alamat untuk pengguna tertentu
+Address::forUser($userId)->get();
+```
+
+## Contoh Penggunaan
+
+### Membuat Alamat
 
 ```php
 use Creasi\Nusa\Models\Address;
 
-// Create address for a user
+// Buat alamat baru
 $address = Address::create([
-    'addressable_type' => User::class,
-    'addressable_id' => 1,
+    'user_id' => 1,
     'name' => 'John Doe',
     'phone' => '081234567890',
-    'village_code' => '33.74.01.1001',
+    'province_code' => '33',
+    'regency_code' => '33.75',
+    'district_code' => '33.75.01',
+    'village_code' => '33.75.01.1002',
     'address_line' => 'Jl. Merdeka No. 123',
-    'is_default' => true
+    'postal_code' => '51111',
+    'is_default' => true,
 ]);
 
-// Access hierarchy
-echo $address->village->province->name; // "Jawa Tengah"
+// Buat melalui relasi pengguna
+$user = User::find(1);
+$address = $user->addresses()->create([
+    'name' => 'Jane Doe',
+    'phone' => '081234567891',
+    'province_code' => '33',
+    'regency_code' => '33.75',
+    'district_code' => '33.75.01',
+    'village_code' => '33.75.01.1002',
+    'address_line' => 'Jl. Sudirman No. 456',
+    'is_default' => false,
+]);
 ```
 
-## Model Attributes
-
-### Database Schema
-
-| Attribute | Type | Description |
-|-----------|------|-------------|
-| `id` | bigint | Primary key, auto-increment |
-| `addressable_type` | string | Polymorphic type (model class) |
-| `addressable_id` | bigint | Polymorphic ID (model ID) |
-| `name` | string | Recipient name |
-| `phone` | string | Phone number |
-| `village_code` | string(13) | Foreign key to villages table |
-| `address_line` | text | Complete address details |
-| `postal_code` | string(5) | Five-digit postal code |
-| `notes` | text | Additional notes (nullable) |
-| `is_default` | boolean | Default address flag |
-| `created_at` | timestamp | Creation timestamp |
-| `updated_at` | timestamp | Last update timestamp |
-
-### Fillable Attributes
+### Mengambil Data Alamat
 
 ```php
-protected $fillable = [
-    'addressable_type',
-    'addressable_id',
-    'name',
-    'phone',
-    'village_code',
-    'address_line',
-    'postal_code',
-    'notes',
-    'is_default'
+// Dapatkan semua alamat untuk seorang pengguna
+$userAddresses = Address::where('user_id', 1)->get();
+
+// Dapatkan alamat utama pengguna
+$defaultAddress = Address::where('user_id', 1)
+    ->where('is_default', true)
+    ->first();
+
+// Dapatkan alamat dengan data administratif
+$addresses = Address::with(['province', 'regency', 'district', 'village'])
+    ->where('user_id', 1)
+    ->get();
+
+// Cari alamat berdasarkan nama atau telepon
+$addresses = Address::where('user_id', 1)
+    ->where(function ($query) use ($search) {
+        $query->where('name', 'like', "%{$search}%")
+              ->orWhere('phone', 'like', "%{$search}%");
+    })
+    ->get();
+```
+
+### Bekerja dengan Alamat Lengkap
+
+```php
+$address = Address::with(['village', 'district', 'regency', 'province'])
+    ->find(1);
+
+// Dapatkan alamat lengkap yang diformat
+$fullAddress = $address->full_address;
+// "Jl. Merdeka No. 123, Medono, Pekalongan Barat, Kota Pekalongan, Jawa Tengah 51111"
+
+// Membangun alamat secara manual
+$addressParts = [
+    $address->address_line,
+    $address->village->name,
+    $address->district->name,
+    $address->regency->name,
+    $address->province->name,
+    $address->postal_code
 ];
+$fullAddress = implode(', ', array_filter($addressParts));
 ```
 
-### Casts
+## Manajemen Alamat
+
+### Penanganan Alamat Utama
 
 ```php
-protected $casts = [
-    'is_default' => 'boolean'
-];
-```
-
-## Relationships
-
-### Polymorphic Relationship
-
-```php
-// Parent model (User, Order, etc.)
-public function addressable(): MorphTo
-
-// Usage
-$address = Address::find(1);
-$user = $address->addressable; // Get the owner model
-```
-
-### Administrative Hierarchy
-
-```php
-// Village relationship
-public function village(): BelongsTo
-
-// Access complete hierarchy through village
-$address = Address::with(['village.district.regency.province'])->first();
-echo $address->village->district->name;  // District name
-echo $address->village->regency->name;   // Regency name
-echo $address->village->province->name;  // Province name
-```
-
-## Accessors
-
-### Full Address Accessor
-
-```php
-public function getFullAddressAttribute()
-{
-    $parts = [$this->address_line];
+// Atur alamat sebagai utama (batalkan yang lain)
+function setDefaultAddress($userId, $addressId) {
+    // Batalkan utama saat ini
+    Address::where('user_id', $userId)
+        ->where('is_default', true)
+        ->update(['is_default' => false]);
     
-    if ($this->village) {
-        $parts[] = $this->village->name;
-        $parts[] = $this->village->district->name;
-        $parts[] = $this->village->regency->name;
-        $parts[] = $this->village->province->name;
-        
-        if ($this->postal_code) {
-            $parts[] = $this->postal_code;
+    // Atur utama baru
+    Address::where('id', $addressId)
+        ->where('user_id', $userId)
+        ->update(['is_default' => true]);
+}
+
+// Dapatkan alamat utama pengguna
+function getDefaultAddress($userId) {
+    return Address::where('user_id', $userId)
+        ->where('is_default', true)
+        ->with(['province', 'regency', 'district', 'village'])
+        ->first();
+}
+```
+
+### Validasi Alamat
+
+```php
+// Validasi konsistensi alamat
+function validateAddressConsistency($addressData) {
+    $village = Village::find($addressData['village_code']);
+    
+    if (!$village) {
+        return false;
+    }
+    
+    return $village->district_code === $addressData['district_code'] &&
+           $village->regency_code === $addressData['regency_code'] &&
+           $village->province_code === $addressData['province_code'];
+}
+
+// Isi otomatis kode pos dari desa/kelurahan
+function autoFillPostalCode($addressData) {
+    if (empty($addressData['postal_code'])) {
+        $village = Village::find($addressData['village_code']);
+        if ($village && $village->postal_code) {
+            $addressData['postal_code'] = $village->postal_code;
         }
     }
     
-    return implode(', ', array_filter($parts));
-}
-
-// Usage
-echo $address->full_address;
-// "Jl. Merdeka No. 123, Medono, Semarang Tengah, Kota Semarang, Jawa Tengah, 50132"
-```
-
-### Formatted Address Accessor
-
-```php
-public function getFormattedAddressAttribute()
-{
-    return [
-        'recipient' => $this->name,
-        'phone' => $this->phone,
-        'address_line' => $this->address_line,
-        'village' => $this->village?->name,
-        'district' => $this->village?->district?->name,
-        'regency' => $this->village?->regency?->name,
-        'province' => $this->village?->province?->name,
-        'postal_code' => $this->postal_code,
-        'full_address' => $this->full_address
-    ];
+    return $addressData;
 }
 ```
 
-## Scopes
+## Integrasi Trait
 
-### Default Address Scope
+### Trait HasAddresses
 
-```php
-public function scopeDefault($query)
-{
-    return $query->where('is_default', true);
-}
-
-// Usage
-$defaultAddress = $user->addresses()->default()->first();
-```
-
-### By Location Scopes
+Untuk model yang dapat memiliki banyak alamat:
 
 ```php
-public function scopeInProvince($query, $provinceCode)
-{
-    return $query->whereHas('village', function ($q) use ($provinceCode) {
-        $q->where('province_code', $provinceCode);
-    });
-}
-
-public function scopeInRegency($query, $regencyCode)
-{
-    return $query->whereHas('village', function ($q) use ($regencyCode) {
-        $q->where('regency_code', $regencyCode);
-    });
-}
-
-// Usage
-$addresses = Address::inProvince('33')->get();
-$addresses = Address::inRegency('33.74')->get();
-```
-
-## Model Events
-
-### Auto-fill Postal Code
-
-```php
-protected static function boot()
-{
-    parent::boot();
-    
-    static::creating(function ($address) {
-        if (!$address->postal_code && $address->village_code) {
-            $village = Village::find($address->village_code);
-            if ($village && $village->postal_code) {
-                $address->postal_code = $village->postal_code;
-            }
-        }
-    });
-    
-    static::updating(function ($address) {
-        if ($address->isDirty('village_code') && !$address->isDirty('postal_code')) {
-            $village = Village::find($address->village_code);
-            if ($village && $village->postal_code) {
-                $address->postal_code = $village->postal_code;
-            }
-        }
-    });
-}
-```
-
-### Default Address Management
-
-```php
-protected static function boot()
-{
-    parent::boot();
-    
-    static::creating(function ($address) {
-        if ($address->is_default) {
-            // Unset other default addresses for the same addressable
-            static::where('addressable_type', $address->addressable_type)
-                ->where('addressable_id', $address->addressable_id)
-                ->where('is_default', true)
-                ->update(['is_default' => false]);
-        }
-    });
-}
-```
-
-## Usage Examples
-
-### Creating Addresses
-
-```php
-// Create address with automatic postal code
-$address = Address::create([
-    'addressable_type' => User::class,
-    'addressable_id' => 1,
-    'name' => 'John Doe',
-    'phone' => '081234567890',
-    'village_code' => '33.74.01.1001',
-    'address_line' => 'Jl. Merdeka No. 123, RT 01/RW 02',
-    'is_default' => true
-    // postal_code will be auto-filled from village
-]);
-
-// Create address with custom postal code
-$address = Address::create([
-    'addressable_type' => Business::class,
-    'addressable_id' => 5,
-    'name' => 'PT Example',
-    'phone' => '0247654321',
-    'village_code' => '33.74.01.1001',
-    'address_line' => 'Gedung ABC Lt. 5',
-    'postal_code' => '50132', // Custom postal code
-    'notes' => 'Entrance through main lobby'
-]);
-```
-
-### Address Validation
-
-```php
-class AddressValidator
-{
-    public function validate($data)
-    {
-        $village = Village::find($data['village_code']);
-        
-        if (!$village) {
-            return [
-                'valid' => false,
-                'errors' => ['Village not found']
-            ];
-        }
-        
-        $errors = [];
-        
-        // Validate postal code if provided
-        if (isset($data['postal_code']) && $data['postal_code'] !== $village->postal_code) {
-            $errors[] = "Postal code mismatch. Expected: {$village->postal_code}";
-        }
-        
-        // Validate hierarchy if other codes provided
-        if (isset($data['district_code']) && $village->district_code !== $data['district_code']) {
-            $errors[] = 'Village does not belong to selected district';
-        }
-        
-        return [
-            'valid' => empty($errors),
-            'errors' => $errors,
-            'village' => $village,
-            'suggested_postal_code' => $village->postal_code
-        ];
-    }
-}
-```
-
-### Bulk Address Operations
-
-```php
-class AddressBulkOperations
-{
-    public function importFromCsv($csvFile, $addressableType, $addressableId)
-    {
-        $addresses = [];
-        
-        foreach ($this->parseCsv($csvFile) as $row) {
-            $village = Village::where('name', $row['village'])
-                ->whereHas('district', function ($q) use ($row) {
-                    $q->where('name', $row['district']);
-                })
-                ->first();
-            
-            if ($village) {
-                $addresses[] = [
-                    'addressable_type' => $addressableType,
-                    'addressable_id' => $addressableId,
-                    'name' => $row['name'],
-                    'phone' => $row['phone'],
-                    'village_code' => $village->code,
-                    'address_line' => $row['address_line'],
-                    'postal_code' => $village->postal_code,
-                    'created_at' => now(),
-                    'updated_at' => now()
-                ];
-            }
-        }
-        
-        Address::insert($addresses);
-        
-        return count($addresses);
-    }
-}
-```
-
-## Integration with Models
-
-### Using WithAddresses Trait
-
-```php
+use Creasi\Nusa\Contracts\HasAddresses;
 use Creasi\Nusa\Models\Concerns\WithAddresses;
 
-class User extends Model
+class User extends Model implements HasAddresses
 {
     use WithAddresses;
-    
-    // Get default address
-    public function getDefaultAddressAttribute()
-    {
-        return $this->addresses()->default()->first();
-    }
-    
-    // Get addresses by type
-    public function getHomeAddressesAttribute()
-    {
-        return $this->addresses()->where('notes', 'like', '%home%')->get();
-    }
 }
 
-// Usage
+// Penggunaan
 $user = User::find(1);
-$addresses = $user->addresses; // All addresses
-$defaultAddress = $user->default_address; // Default address
+$addresses = $user->addresses;
+$defaultAddress = $user->defaultAddress;
+$user->setDefaultAddress($address);
 ```
 
-### Using WithAddress Trait (Single Address)
+### Trait HasAddress
+
+Untuk model dengan satu alamat:
 
 ```php
+use Creasi\Nusa\Contracts\HasAddress;
 use Creasi\Nusa\Models\Concerns\WithAddress;
 
-class Store extends Model
+class Store extends Model implements HasAddress
 {
     use WithAddress;
     
-    // Get formatted store address
-    public function getStoreLocationAttribute()
-    {
-        if ($this->address) {
-            return $this->address->formatted_address;
-        }
-        return null;
-    }
+    protected $fillable = [
+        'name',
+        'description',
+        'province_code',
+        'regency_code',
+        'district_code',
+        'village_code',
+        'address_line',
+        'postal_code',
+    ];
 }
 
-// Usage
-$store = Store::find(1);
-$location = $store->store_location;
+// Penggunaan
+$store = Store::create([
+    'name' => 'My Store',
+    'province_code' => '33',
+    'regency_code' => '33.75',
+    'district_code' => '33.75.01',
+    'village_code' => '33.75.01.1002',
+    'address_line' => 'Jl. Toko No. 789',
+]);
+
+echo $store->full_address;
 ```
 
-## API Resources
+## Validasi Formulir
 
-### Address Resource
+### Validasi Request
 
 ```php
-class AddressResource extends JsonResource
+use Illuminate\Foundation\Http\FormRequest;
+
+class StoreAddressRequest extends FormRequest
 {
-    public function toArray($request)
+    public function rules()
     {
         return [
-            'id' => $this->id,
-            'recipient' => [
-                'name' => $this->name,
-                'phone' => $this->phone
+            'name' => 'required|string|max:255',
+            'phone' => 'required|string|max:20',
+            'province_code' => 'required|exists:nusa.provinces,code',
+            'regency_code' => [
+                'required',
+                'exists:nusa.regencies,code',
+                function ($attribute, $value, $fail) {
+                    $regency = Regency::find($value);
+                    if (!$regency || $regency->province_code !== $this->province_code) {
+                        $fail('Kabupaten/kota yang dipilih tidak valid untuk provinsi ini.');
+                    }
+                },
             ],
-            'address' => [
-                'line' => $this->address_line,
-                'village' => $this->village?->name,
-                'district' => $this->village?->district?->name,
-                'regency' => $this->village?->regency?->name,
-                'province' => $this->village?->province?->name,
-                'postal_code' => $this->postal_code,
-                'full_address' => $this->full_address
+            'district_code' => [
+                'required',
+                'exists:nusa.districts,code',
+                function ($attribute, $value, $fail) {
+                    $district = District::find($value);
+                    if (!$district || $district->regency_code !== $this->regency_code) {
+                        $fail('Kecamatan yang dipilih tidak valid untuk kabupaten/kota ini.');
+                    }
+                },
             ],
-            'coordinates' => [
-                'latitude' => $this->village?->latitude,
-                'longitude' => $this->village?->longitude
+            'village_code' => [
+                'required',
+                'exists:nusa.villages,code',
+                function ($attribute, $value, $fail) {
+                    $village = Village::find($value);
+                    if (!$village || $village->district_code !== $this->district_code) {
+                        $fail('Desa/kelurahan yang dipilih tidak valid untuk kecamatan ini.');
+                    }
+                },
             ],
-            'is_default' => $this->is_default,
-            'notes' => $this->notes,
-            'created_at' => $this->created_at,
-            'updated_at' => $this->updated_at
+            'address_line' => 'required|string|max:500',
+            'postal_code' => 'nullable|string|size:5',
+            'is_default' => 'boolean',
         ];
     }
 }
 ```
 
-## Testing
-
-### Address Model Tests
+### Aturan Validasi Kustom
 
 ```php
-class AddressTest extends TestCase
+use Illuminate\Contracts\Validation\Rule;
+
+class ValidIndonesianAddress implements Rule
 {
-    use RefreshDatabase;
-    
-    public function test_can_create_address_with_auto_postal_code()
+    public function passes($attribute, $value)
     {
-        $village = Village::factory()->create(['postal_code' => '50132']);
-        $user = User::factory()->create();
+        $village = Village::find($value['village_code']);
         
-        $address = Address::create([
-            'addressable_type' => User::class,
-            'addressable_id' => $user->id,
-            'name' => 'John Doe',
-            'village_code' => $village->code,
-            'address_line' => 'Jl. Test No. 123'
-        ]);
-        
-        $this->assertEquals('50132', $address->postal_code);
+        return $village &&
+               $village->district_code === $value['district_code'] &&
+               $village->regency_code === $value['regency_code'] &&
+               $village->province_code === $value['province_code'];
     }
     
-    public function test_default_address_management()
+    public function message()
     {
-        $user = User::factory()->create();
-        
-        // Create first address as default
-        $address1 = Address::factory()->create([
-            'addressable_type' => User::class,
-            'addressable_id' => $user->id,
-            'is_default' => true
-        ]);
-        
-        // Create second address as default
-        $address2 = Address::factory()->create([
-            'addressable_type' => User::class,
-            'addressable_id' => $user->id,
-            'is_default' => true
-        ]);
-        
-        // First address should no longer be default
-        $this->assertFalse($address1->fresh()->is_default);
-        $this->assertTrue($address2->fresh()->is_default);
+        return 'Komponen alamat tidak konsisten.';
     }
 }
 ```
 
-## Next Steps
+## Skema Database
 
-- **[Village Model](/id/api/models/village)** - Model kelurahan/desa documentation
-- **[Address Management](/id/guide/addresses)** - Complete address management guide
-- **[Address Forms](/id/examples/address-forms)** - Building interactive address forms
-- **[Model Concerns](/id/api/concerns/)** - Available traits for address integration
+```sql
+CREATE TABLE addresses (
+    id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    user_id BIGINT UNSIGNED NOT NULL,
+    name VARCHAR(255) NOT NULL,
+    phone VARCHAR(20) NOT NULL,
+    province_code VARCHAR(2) NOT NULL,
+    regency_code VARCHAR(5) NOT NULL,
+    district_code VARCHAR(8) NOT NULL,
+    village_code VARCHAR(13) NOT NULL,
+    address_line TEXT NOT NULL,
+    postal_code VARCHAR(5) NULL,
+    is_default BOOLEAN DEFAULT FALSE,
+    created_at TIMESTAMP NULL,
+    updated_at TIMESTAMP NULL,
+    
+    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
+    INDEX idx_addresses_user (user_id),
+    INDEX idx_addresses_default (user_id, is_default),
+    INDEX idx_addresses_province (province_code),
+    INDEX idx_addresses_regency (regency_code),
+    INDEX idx_addresses_district (district_code),
+    INDEX idx_addresses_village (village_code),
+    INDEX idx_addresses_postal (postal_code)
+);
+```
+
+## Tips Kinerja
+
+### Kueri yang Efisien
+
+```php
+// Baik: Muat dengan relasi tertentu
+$addresses = Address::with(['province:code,name', 'regency:code,name'])
+    ->where('user_id', $userId)
+    ->get();
+
+// Baik: Pilih kolom tertentu
+$addresses = Address::select('id', 'name', 'address_line', 'is_default')
+    ->where('user_id', $userId)
+    ->get();
+
+// Hindari: Memuat semua relasi
+$addresses = Address::with(['province', 'regency', 'district', 'village'])
+    ->get(); // Memuat terlalu banyak data
+```
+
+### Caching
+
+```php
+// Cache alamat pengguna
+function getUserAddresses($userId) {
+    $cacheKey = "user.{$userId}.addresses";
+    
+    return Cache::remember($cacheKey, 1800, function () use ($userId) {
+        return Address::with(['province', 'regency', 'district', 'village'])
+            ->where('user_id', $userId)
+            ->get();
+    });
+}
+```
+
+## Model Terkait
+
+- **[Model Province](/id/api/models/province)** - Referensi wilayah administratif
+- **[Model Regency](/id/api/models/regency)** - Referensi wilayah administratif
+- **[Model District](/id/api/models/district)** - Referensi wilayah administratif
+- **[Model Village](/id/api/models/village)** - Referensi wilayah administratif

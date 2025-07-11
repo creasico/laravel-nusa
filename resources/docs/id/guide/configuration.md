@@ -1,10 +1,10 @@
 # Konfigurasi
 
-Laravel Nusa dirancang untuk bekerja langsung dengan pengaturan default yang masuk akal, tetapi menyediakan beberapa opsi konfigurasi untuk menyesuaikan perilakunya sesuai dengan kebutuhan aplikasi Anda.
+Laravel Nusa dirancang untuk berfungsi secara *out of the box* dengan *default* yang masuk akal, tetapi ia menyediakan beberapa opsi konfigurasi untuk menyesuaikan perilakunya sesuai dengan kebutuhan aplikasi Anda.
 
-## Mempublikasikan Konfigurasi
+## Publikasi Konfigurasi
 
-Untuk menyesuaikan konfigurasi Laravel Nusa, pertama publikasikan file config:
+Untuk menyesuaikan konfigurasi Laravel Nusa, pertama publikasikan file konfigurasi:
 
 ```bash
 php artisan vendor:publish --tag=creasi-nusa-config
@@ -22,7 +22,7 @@ Ini membuat `config/creasi/nusa.php` dengan semua opsi konfigurasi yang tersedia
 
 **Default**: `nusa`
 
-Menentukan nama koneksi database untuk data Laravel Nusa. Paket secara otomatis mengkonfigurasi koneksi SQLite, tetapi Anda dapat menyesuaikannya.
+Menentukan nama koneksi database untuk data Laravel Nusa. Paket ini secara otomatis mengkonfigurasi koneksi SQLite, tetapi Anda dapat menyesuaikannya.
 
 #### Koneksi Database Kustom
 
@@ -30,7 +30,7 @@ Untuk menggunakan koneksi database yang berbeda, tambahkan ke `config/database.p
 
 ```php
 'connections' => [
-    // Koneksi yang sudah ada...
+    // Koneksi Anda yang sudah ada...
     
     'indonesia' => [
         'driver' => 'sqlite',
@@ -49,264 +49,226 @@ Untuk menggunakan koneksi database yang berbeda, tambahkan ke `config/database.p
         'password' => env('DB_PASSWORD', ''),
         'charset' => 'utf8mb4',
         'collation' => 'utf8mb4_unicode_ci',
-        'prefix' => '',
-        'strict' => true,
-        'engine' => null,
     ],
 ],
 ```
 
-Kemudian update konfigurasi Laravel Nusa:
-
-```php
-// config/creasi/nusa.php
-'connection' => 'indonesia', // atau 'indonesia_mysql'
-```
-
-### Database Path
-
-```php
-'database_path' => database_path('nusa.sqlite'),
-```
-
-**Default**: `database/nusa.sqlite`
-
-Path ke file database SQLite. Hanya digunakan jika menggunakan koneksi SQLite default.
-
-### API Configuration
-
-#### Enable/Disable API
-
-```php
-'api' => [
-    'enabled' => env('CREASI_NUSA_API_ENABLED', true),
-],
-```
-
-**Default**: `true`
-
-Mengontrol apakah endpoint API REST diaktifkan. Set ke `false` untuk menonaktifkan semua route API.
-
-#### API Prefix
-
-```php
-'api' => [
-    'prefix' => env('CREASI_NUSA_API_PREFIX', 'nusa'),
-],
-```
-
-**Default**: `nusa`
-
-Prefix untuk semua route API. Dengan prefix default, endpoint akan tersedia di `/nusa/provinces`, `/nusa/regencies`, dll.
-
-#### API Middleware
-
-```php
-'api' => [
-    'middleware' => ['api', 'throttle:60,1'],
-],
-```
-
-**Default**: `['api', 'throttle:60,1']`
-
-Middleware yang diterapkan ke semua route API. Secara default termasuk rate limiting 60 request per menit.
-
-#### Custom API Middleware
-
-```php
-'api' => [
-    'middleware' => [
-        'api',
-        'auth:sanctum',  // Require authentication
-        'throttle:100,1', // Custom rate limit
-        'cors',          // Custom CORS handling
-    ],
-],
-```
-
-### Model Configuration
-
-#### Custom Model Classes
-
-```php
-'models' => [
-    'province' => \App\Models\CustomProvince::class,
-    'regency' => \App\Models\CustomRegency::class,
-    'district' => \App\Models\CustomDistrict::class,
-    'village' => \App\Models\CustomVillage::class,
-],
-```
-
-**Default**: Menggunakan model bawaan Laravel Nusa
-
-Memungkinkan Anda untuk menggunakan model kustom yang meng-extend model bawaan Laravel Nusa.
-
-#### Model Caching
-
-```php
-'cache' => [
-    'enabled' => env('CREASI_NUSA_CACHE_ENABLED', true),
-    'ttl' => env('CREASI_NUSA_CACHE_TTL', 3600), // 1 hour
-    'prefix' => 'nusa',
-],
-```
-
-**Default**: Enabled dengan TTL 1 jam
-
-Mengkonfigurasi caching untuk query model. Sangat direkomendasikan untuk aplikasi production.
-
-### Search Configuration
-
-#### Search Driver
-
-```php
-'search' => [
-    'driver' => env('CREASI_NUSA_SEARCH_DRIVER', 'database'),
-    'min_length' => 2,
-],
-```
-
-**Default**: `database`
-
-Driver pencarian yang digunakan. Opsi yang tersedia:
-- `database` - Pencarian database sederhana
-- `scout` - Laravel Scout (memerlukan konfigurasi tambahan)
-
-#### Search Minimum Length
-
-```php
-'search' => [
-    'min_length' => 3,
-],
-```
-
-**Default**: `2`
-
-Panjang minimum query pencarian yang diterima.
-
-### Pagination Configuration
-
-```php
-'pagination' => [
-    'per_page' => env('CREASI_NUSA_PER_PAGE', 15),
-    'max_per_page' => env('CREASI_NUSA_MAX_PER_PAGE', 100),
-],
-```
-
-**Default**: 15 per halaman, maksimum 100
-
-Mengkonfigurasi pengaturan pagination default untuk API endpoints.
-
-## Environment Variables
-
-Anda dapat menggunakan environment variables untuk mengkonfigurasi Laravel Nusa tanpa mempublikasikan file config:
+Kemudian perbarui lingkungan Anda:
 
 ```dotenv
-# Database
+CREASI_NUSA_CONNECTION=indonesia
+```
+
+### Nama Tabel
+
+```php
+'table_names' => [
+    'provinces' => 'provinces',
+    'regencies' => 'regencies',
+    'districts' => 'districts',
+    'villages' => 'villages',
+],
+```
+
+Sesuaikan nama tabel jika Anda membutuhkan konvensi penamaan yang berbeda:
+
+```php
+'table_names' => [
+    'provinces' => 'provinsi',
+    'regencies' => 'kabupaten_kota',
+    'districts' => 'kecamatan',
+    'villages' => 'kelurahan_desa',
+],
+```
+
+### Model Alamat
+
+```php
+'addressable' => \Creasi\Nusa\Models\Address::class,
+```
+
+Tentukan model mana yang akan digunakan untuk manajemen alamat. Anda dapat membuat implementasi Anda sendiri:
+
+```php
+// Buat model alamat kustom Anda
+class CustomAddress extends \Creasi\Nusa\Models\Address
+{
+    protected $fillable = [
+        'user_id',
+        'name',
+        'phone',
+        'province_code',
+        'regency_code',
+        'district_code',
+        'village_code',
+        'address_line',
+        'postal_code',
+        'is_default',
+        'notes'
+    ];
+    
+    protected $casts = [
+        'is_default' => 'boolean',
+    ];
+}
+
+// Perbarui konfigurasi
+'addressable' => \App\Models\CustomAddress::class,
+```
+
+### Rute API
+
+```php
+'routes_enable' => env('CREASI_NUSA_ROUTES_ENABLE', true),
+'routes_prefix' => env('CREASI_NUSA_ROUTES_PREFIX', 'nusa'),
+```
+
+Kontrol registrasi rute API dan sesuaikan awalan rute.
+
+## Variabel Lingkungan
+
+Tambahkan variabel-variabel ini ke file `.env` Anda untuk konfigurasi yang mudah:
+
+```dotenv
+# Koneksi database
 CREASI_NUSA_CONNECTION=nusa
-CREASI_NUSA_DATABASE_PATH=/path/to/custom/nusa.sqlite
 
-# API
-CREASI_NUSA_API_ENABLED=true
-CREASI_NUSA_API_PREFIX=indonesia
-CREASI_NUSA_PER_PAGE=20
-CREASI_NUSA_MAX_PER_PAGE=50
+# Rute API
+CREASI_NUSA_ROUTES_ENABLE=true
+CREASI_NUSA_ROUTES_PREFIX=nusa
 
-# Cache
-CREASI_NUSA_CACHE_ENABLED=true
-CREASI_NUSA_CACHE_TTL=7200
-
-# Search
-CREASI_NUSA_SEARCH_DRIVER=scout
+# Pengaturan database kustom (jika menggunakan koneksi kustom)
+INDONESIA_DB_HOST=127.0.0.1
+INDONESIA_DB_DATABASE=indonesia_data
+INDONESIA_DB_USERNAME=indonesia_user
+INDONESIA_DB_PASSWORD=secret_password
 ```
 
-## Advanced Configuration
+## Konfigurasi Lanjutan
 
-### Custom Database Connection
+### Penyedia Layanan Kustom
 
-Untuk setup database yang lebih kompleks:
+Untuk kustomisasi lanjutan, Anda dapat membuat penyedia layanan Anda sendiri:
 
 ```php
-// config/database.php
-'connections' => [
-    'nusa_read' => [
-        'driver' => 'mysql',
-        'read' => [
-            'host' => ['192.168.1.1', '192.168.1.2'],
-        ],
-        'write' => [
-            'host' => ['192.168.1.3'],
-        ],
-        'database' => 'indonesia_data',
-        // ... konfigurasi lainnya
-    ],
+namespace App\Providers;
+
+use Illuminate\Support\ServiceProvider;
+use Creasi\Nusa\Contracts;
+use App\Models\CustomAddress;
+
+class NusaServiceProvider extends ServiceProvider
+{
+    public function register()
+    {
+        // Timpa model alamat default
+        $this->app->bind(Contracts\Address::class, CustomAddress::class);
+        
+        // Tambahkan koneksi database kustom
+        config([
+            'database.connections.indonesia' => [
+                'driver' => 'mysql',
+                'host' => env('INDONESIA_DB_HOST', '127.0.0.1'),
+                'database' => env('INDONESIA_DB_DATABASE', 'indonesia'),
+                'username' => env('INDONESIA_DB_USERNAME', 'root'),
+                'password' => env('INDONESIA_DB_PASSWORD', ''),
+                'charset' => 'utf8mb4',
+                'collation' => 'utf8mb4_unicode_ci',
+            ]
+        ]);
+    }
+    
+    public function boot()
+    {
+        // Registrasi rute kustom
+        if (config('app.env') === 'production') {
+            // Nonaktifkan rute dalam produksi
+            config(['creasi.nusa.routes_enable' => false]);
+        }
+    }
+}
+```
+
+Daftarkan penyedia layanan Anda di `config/app.php`:
+
+```php
+'providers' => [
+    // Penyedia lain...
+    App\Providers\NusaServiceProvider::class,
 ],
 ```
 
+### Konfigurasi Middleware
+
+Terapkan *middleware* ke rute API:
+
 ```php
-// config/creasi/nusa.php
-'connection' => 'nusa_read',
+// Di RouteServiceProvider Anda atau penyedia layanan kustom
+use Illuminate\Support\Facades\Route;
+
+Route::middleware(['api', 'throttle:60,1'])
+    ->prefix('api/indonesia')
+    ->name('indonesia.')
+    ->group(base_path('vendor/creasi/laravel-nusa/routes/nusa.php'));
 ```
 
-### Performance Optimization
+### Registrasi Rute Kustom
 
-#### Database Optimization
+Nonaktifkan rute *default* dan daftarkan rute Anda sendiri:
+
+```dotenv
+CREASI_NUSA_ROUTES_ENABLE=false
+```
 
 ```php
-'database' => [
-    'connection' => 'nusa',
+// routes/api.php
+use Creasi\Nusa\Http\Controllers\{ProvinceController, RegencyController};
+
+Route::middleware(['auth:api', 'throttle:100,1'])->prefix('v1/indonesia')->group(function () {
+    Route::get('provinces', [ProvinceController::class, 'index']);
+    Route::get('provinces/{province}', [ProvinceController::class, 'show']);
+    Route::get('provinces/{province}/regencies', [ProvinceController::class, 'regencies']);
+    
+    Route::get('regencies', [RegencyController::class, 'index']);
+    Route::get('regencies/{regency}', [RegencyController::class, 'show']);
+    // Tambahkan rute lain sesuai kebutuhan
+});
+```
+
+## Konfigurasi Kinerja
+
+### Optimasi Database
+
+Untuk aplikasi dengan lalu lintas tinggi, pertimbangkan optimasi ini:
+
+```php
+// config/database.php - Optimasi SQLite
+'nusa' => [
+    'driver' => 'sqlite',
+    'database' => env('NUSA_DATABASE_PATH', database_path('nusa.sqlite')),
+    'prefix' => '',
+    'foreign_key_constraints' => true,
     'options' => [
-        'enable_foreign_keys' => true,
-        'journal_mode' => 'WAL',
-        'synchronous' => 'NORMAL',
-        'cache_size' => 64000,
-        'temp_store' => 'MEMORY',
+        PDO::ATTR_TIMEOUT => 30,
+        PDO::ATTR_EMULATE_PREPARES => false,
     ],
 ],
-```
 
-#### Query Optimization
-
-```php
-'query' => [
-    'chunk_size' => 1000,
-    'eager_load' => ['regencies', 'districts'],
-    'select_columns' => ['code', 'name'], // Limit selected columns
-],
-```
-
-### Security Configuration
-
-#### API Security
-
-```php
-'api' => [
-    'middleware' => [
-        'api',
-        'auth:sanctum',
-        'throttle:api',
-        'signed', // Require signed URLs
+// Untuk MySQL/PostgreSQL
+'nusa_mysql' => [
+    'driver' => 'mysql',
+    'options' => [
+        PDO::ATTR_EMULATE_PREPARES => false,
+        PDO::MYSQL_ATTR_USE_BUFFERED_QUERY => true,
     ],
-    'cors' => [
-        'allowed_origins' => ['https://yourdomain.com'],
-        'allowed_methods' => ['GET'],
-    ],
+    'strict' => true,
+    'engine' => 'InnoDB',
 ],
 ```
 
-#### Data Privacy
+### Konfigurasi Caching
 
-```php
-'privacy' => [
-    'exclude_coordinates' => true,
-    'mask_sensitive_data' => true,
-    'audit_access' => true,
-],
-```
-
-### Custom Cache Store
-
-Untuk aplikasi dengan kebutuhan caching khusus:
+Implementasikan *caching* untuk data yang sering diakses:
 
 ```php
 // config/cache.php
@@ -318,51 +280,47 @@ Untuk aplikasi dengan kebutuhan caching khusus:
     ],
 ],
 
-// config/database.php
-'redis' => [
+'connections' => [
     'nusa' => [
         'host' => env('REDIS_HOST', '127.0.0.1'),
         'password' => env('REDIS_PASSWORD', null),
         'port' => env('REDIS_PORT', 6379),
-        'database' => 2, // Dedicated database for Nusa
+        'database' => 2, // Gunakan database yang berbeda untuk cache Nusa
     ],
 ],
 ```
 
-### Custom Cache Service
-
-Implementasi layanan cache kustom:
+Buat layanan *caching*:
 
 ```php
 namespace App\Services;
 
 use Illuminate\Support\Facades\Cache;
-use Creasi\Nusa\Models\Province;
-use Creasi\Nusa\Models\Regency;
+use Creasi\Nusa\Models\{Province, Regency, District, Village};
 
 class NusaCacheService
 {
     protected $cacheStore = 'nusa';
     protected $ttl = 3600; // 1 jam
-
+    
     public function getProvinces()
     {
         return Cache::store($this->cacheStore)->remember('provinces', $this->ttl, function () {
             return Province::orderBy('name')->get(['code', 'name']);
         });
     }
-
+    
     public function getRegenciesByProvince(string $provinceCode)
     {
         $key = "regencies.{$provinceCode}";
-
+        
         return Cache::store($this->cacheStore)->remember($key, $this->ttl, function () use ($provinceCode) {
             return Regency::where('province_code', $provinceCode)
                 ->orderBy('name')
                 ->get(['code', 'name']);
         });
     }
-
+    
     public function clearCache()
     {
         Cache::store($this->cacheStore)->flush();
@@ -374,24 +332,24 @@ class NusaCacheService
 
 ### Keamanan API
 
-Lindungi endpoint API di production:
+Lindungi *endpoint* API dalam produksi:
 
 ```php
 // routes/api.php
 Route::middleware(['auth:sanctum', 'throttle:60,1'])->group(function () {
     Route::get('nusa/provinces', [ProvinceController::class, 'index']);
-    // Route terlindungi lainnya...
+    // Rute terlindungi lainnya...
 });
 
-// Atau gunakan API keys
+// Atau gunakan kunci API
 Route::middleware(['api.key', 'throttle:100,1'])->group(function () {
-    // Route terlindungi
+    // Rute terlindungi
 });
 ```
 
 ### Konfigurasi CORS
 
-Konfigurasi CORS untuk aplikasi frontend:
+Konfigurasi CORS untuk aplikasi *frontend*:
 
 ```php
 // config/cors.php
@@ -407,13 +365,13 @@ Konfigurasi CORS untuk aplikasi frontend:
 'supports_credentials' => false,
 ```
 
-## Konfigurasi Testing
+## Konfigurasi Pengujian
 
-Untuk environment testing:
+Untuk lingkungan pengujian:
 
 ```php
 // config/nusa.php
-'connection' => env('CREASI_NUSA_CONNECTION',
+'connection' => env('CREASI_NUSA_CONNECTION', 
     app()->environment('testing') ? 'nusa_testing' : 'nusa'
 ),
 
@@ -428,7 +386,7 @@ Untuk environment testing:
 
 ## Validasi Konfigurasi
 
-Buat command untuk memvalidasi konfigurasi Anda:
+Buat perintah untuk memvalidasi konfigurasi Anda:
 
 ```php
 namespace App\Console\Commands;
@@ -439,47 +397,88 @@ use Creasi\Nusa\Models\Province;
 class ValidateNusaConfig extends Command
 {
     protected $signature = 'nusa:validate-config';
-    protected $description = 'Validate konfigurasi Laravel Nusa';
-
+    protected $description = 'Validasi konfigurasi Laravel Nusa';
+    
     public function handle()
     {
         $this->info('Memvalidasi konfigurasi Laravel Nusa...');
-
-        // Test koneksi database
+        
+        // Uji koneksi database
         try {
-            $provinceCount = Province::count();
-            $this->info("✓ Koneksi database berhasil. Ditemukan {$provinceCount} provinsi");
-
-            if ($provinceCount !== 38) {
-                $this->error("✗ Diharapkan 38 provinsi, ditemukan {$provinceCount}");
-                return 1;
-            }
+            $count = Province::count();
+            $this->info("✓ Koneksi database berfungsi. Ditemukan {$count} provinsi.");
         } catch (\Exception $e) {
             $this->error("✗ Koneksi database gagal: {$e->getMessage()}");
             return 1;
         }
-
-        // Test cache
-        if (config('creasi.nusa.cache.enabled')) {
-            try {
-                Cache::put('nusa_test', 'test', 60);
-                $value = Cache::get('nusa_test');
-
-                if ($value === 'test') {
-                    $this->info('✓ Cache berfungsi dengan baik');
-                    Cache::forget('nusa_test');
-                } else {
-                    $this->error('✗ Cache tidak berfungsi dengan baik');
-                }
-            } catch (\Exception $e) {
-                $this->error("✗ Error cache: {$e->getMessage()}");
-            }
-        }
-
-        $this->info('Validasi konfigurasi selesai!');
+        
+        // Uji nilai konfigurasi
+        $connection = config('creasi.nusa.connection');
+        $this->info("✓ Menggunakan koneksi: {$connection}");
+        
+        $routesEnabled = config('creasi.nusa.routes_enable');
+        $this->info("✓ Rute API " . ($routesEnabled ? 'diaktifkan' : 'dinonaktifkan'));
+        
+        $prefix = config('creasi.nusa.routes_prefix');
+        $this->info("✓ Awalan rute: {$prefix}");
+        
+        $this->info('Validasi konfigurasi berhasil diselesaikan!');
         return 0;
     }
 }
 ```
 
-Panduan konfigurasi komprehensif ini mencakup semua aspek penyesuaian Laravel Nusa untuk kebutuhan spesifik Anda, dari pengaturan dasar hingga konfigurasi performa dan keamanan lanjutan.
+## Pemecahan Masalah Konfigurasi
+
+### Masalah Umum
+
+1. **Error Koneksi Database**
+   ```bash
+   # Periksa apakah file SQLite ada dan dapat dibaca
+   ls -la vendor/creasi/laravel-nusa/database/nusa.sqlite
+   
+   # Uji koneksi
+   php artisan tinker
+   >>> \Creasi\Nusa\Models\Province::count()
+   ```
+
+2. **Konflik Rute**
+   ```bash
+   # Periksa rute yang terdaftar
+   php artisan route:list | grep nusa
+   
+   # Bersihkan cache rute
+   php artisan route:clear
+   ```
+
+3. **Masalah Cache Konfigurasi**
+   ```bash
+   # Bersihkan cache konfigurasi
+   php artisan config:clear
+   
+   # Bangun ulang cache
+   php artisan config:cache
+   ```
+
+### Mode Debug
+
+Aktifkan mode debug untuk pemecahan masalah:
+
+```php
+// Di penyedia layanan atau konfigurasi Anda
+if (config('app.debug')) {
+    // Aktifkan logging kueri untuk koneksi Nusa
+    DB::connection('nusa')->enableQueryLog();
+    
+    // Log semua kueri Nusa
+    DB::connection('nusa')->listen(function ($query) {
+        Log::debug('Kueri Nusa', [
+            'sql' => $query->sql,
+            'bindings' => $query->bindings,
+            'time' => $query->time
+        ]);
+    });
+}
+```
+
+Panduan konfigurasi yang komprehensif ini mencakup semua aspek penyesuaian Laravel Nusa untuk kebutuhan spesifik Anda, mulai dari pengaturan dasar hingga konfigurasi kinerja dan keamanan lanjutan.

@@ -1,352 +1,286 @@
 # Ikhtisar Model
 
-Laravel Nusa menyediakan model Eloquent yang komprehensif untuk semua tingkat hierarki administratif Indonesia. Ikhtisar teknis ini mencakup struktur database, relasi, dan detail implementasi.
+Laravel Nusa menyediakan seperangkat model Eloquent komprehensif yang merepresentasikan hierarki administratif Indonesia. Ikhtisar teknis ini mencakup struktur database, relasi, dan detail implementasi.
 
 ## Hierarki Administratif
 
-### Struktur Empat Tingkat
-
-Struktur administratif Indonesia terdiri dari empat tingkat utama:
+Model-model ini mengikuti struktur administratif resmi Indonesia:
 
 ```
-🇮🇩 Indonesia
-├── 38 Provinsi
-├── 514 Kabupaten/Kota
-├── 7.285 Kecamatan
-└── 83.762 Kelurahan/Desa
+Province (34 records)
+└── Regency (514 records)
+    └── District (7,285 records)
+        └── Village (83,762 records)
 ```
 
-### Relasi Model
+## Diagram Relasi Entitas
 
-```php
-Province (1) → (many) Regency (1) → (many) District (1) → (many) Village
+```mermaid
+erDiagram
+    Province ||--o{ Regency : "has many"
+    Province ||--o{ District : "has many"
+    Province ||--o{ Village : "has many"
+    Regency ||--o{ District : "has many"
+    Regency ||--o{ Village : "has many"
+    District ||--o{ Village : "has many"
+
+    Province {
+        string code PK "2-digit code"
+        string name "Province name"
+        double latitude "Center latitude"
+        double longitude "Center longitude"
+        json coordinates "Boundary coordinates"
+    }
+
+    Regency {
+        string code PK "xx.xx format"
+        string province_code FK "Parent province"
+        string name "Regency/City name"
+        double latitude "Center latitude"
+        double longitude "Center longitude"
+        json coordinates "Boundary coordinates"
+    }
+
+    District {
+        string code PK "xx.xx.xx format"
+        string regency_code FK "Parent regency"
+        string province_code FK "Parent province"
+        string name "District name"
+        double latitude "Center latitude"
+        double longitude "Center longitude"
+        json coordinates "Boundary coordinates"
+    }
+
+    Village {
+        string code PK "xx.xx.xx.xxxx format"
+        string district_code FK "Parent district"
+        string regency_code FK "Parent regency"
+        string province_code FK "Parent province"
+        string name "Village name"
+        string postal_code "Postal code"
+        double latitude "Center latitude"
+        double longitude "Center longitude"
+        json coordinates "Boundary coordinates"
+    }
 ```
 
-Setiap tingkat mempertahankan relasi ke atas dan ke bawah, memungkinkan navigasi yang efisien melalui hierarki.
+## Tabel Database
 
-## Model Inti
-
-### Model Provinsi
-
-**Tabel**: `nusa.provinces`  
-**Primary Key**: `code` (string, 2 karakter)  
-**Jumlah Record**: 38 provinsi
-
-```php
-use Creasi\Nusa\Models\Province;
-
-$province = Province::find('33'); // Jawa Tengah
-$regencies = $province->regencies; // Semua kabupaten/kota dalam provinsi
-$villages = $province->villages;   // Semua desa dalam provinsi (83K+ record)
-```
-
-### Model Kabupaten/Kota
-
-**Tabel**: `nusa.regencies`  
-**Primary Key**: `code` (string, 5 karakter dalam format xx.xx)  
-**Jumlah Record**: 514 kabupaten dan kota
-
-```php
-use Creasi\Nusa\Models\Regency;
-
-$regency = Regency::find('33.74'); // Kota Semarang
-$province = $regency->province;     // Provinsi induk
-$districts = $regency->districts;   // Semua kecamatan dalam kabupaten/kota
-```
-
-### Model Kecamatan
-
-**Tabel**: `nusa.districts`  
-**Primary Key**: `code` (string, 8 karakter dalam format xx.xx.xx)  
-**Jumlah Record**: 7.285 kecamatan
-
-```php
-use Creasi\Nusa\Models\District;
-
-$district = District::find('33.74.01'); // Semarang Tengah
-$regency = $district->regency;           // Kabupaten/kota induk
-$villages = $district->villages;         // Semua desa dalam kecamatan
-```
-
-### Model Kelurahan/Desa
-
-**Tabel**: `nusa.villages`  
-**Primary Key**: `code` (string, 13 karakter dalam format xx.xx.xx.xxxx)  
-**Jumlah Record**: 83.762 kelurahan/desa
-
-```php
-use Creasi\Nusa\Models\Village;
-
-$village = Village::find('33.74.01.1001'); // Desa spesifik
-$district = $village->district;             // Kecamatan induk
-$province = $village->province;             // Akses tingkat mana pun
-```
-
-## Skema Database
-
-### Tabel Provinces
+### Tabel Provinsi
 
 | Kolom | Tipe | Deskripsi |
-|-------|------|-----------|
-| `code` | string(2) | Primary key, kode provinsi |
-| `name` | string | Nama resmi provinsi |
-| `latitude` | decimal(10,8) | Latitude titik tengah |
-| `longitude` | decimal(11,8) | Longitude titik tengah |
+|--------|------|-------------|
+| `code` | `string(2)` | Kunci utama, kode provinsi 2 digit |
+| `name` | `string` | Nama provinsi resmi |
+| `latitude` | `double` | Lintang titik pusat |
+| `longitude` | `double` | Bujur titik pusat |
+| `coordinates` | `json` | Array koordinat batas |
 
-### Tabel Regencies
+**Contoh kode**: `31` (DKI Jakarta), `33` (Jawa Tengah), `73` (Sulawesi Selatan)
 
-| Kolom | Tipe | Deskripsi |
-|-------|------|-----------|
-| `code` | string(5) | Primary key, kode kabupaten/kota |
-| `province_code` | string(2) | Foreign key ke provinces |
-| `name` | string | Nama resmi kabupaten/kota |
-| `latitude` | decimal(10,8) | Latitude titik tengah |
-| `longitude` | decimal(11,8) | Longitude titik tengah |
-
-### Tabel Districts
+### Tabel Kabupaten/Kota
 
 | Kolom | Tipe | Deskripsi |
-|-------|------|-----------|
-| `code` | string(8) | Primary key, kode kecamatan |
-| `regency_code` | string(5) | Foreign key ke regencies |
-| `province_code` | string(2) | Foreign key ke provinces |
-| `name` | string | Nama resmi kecamatan |
-| `latitude` | decimal(10,8) | Latitude titik tengah |
-| `longitude` | decimal(11,8) | Longitude titik tengah |
+|--------|------|-------------|
+| `code` | `string(5)` | Kunci utama, format xx.xx |
+| `province_code` | `string(2)` | Kunci asing ke provinsi |
+| `name` | `string` | Nama resmi kabupaten/kota |
+| `latitude` | `double` | Lintang titik pusat |
+| `longitude` | `double` | Bujur titik pusat |
+| `coordinates` | `json` | Array koordinat batas |
 
-### Tabel Villages
+**Contoh kode**: `31.71` (Jakarta Selatan), `33.74` (Semarang), `73.71` (Makassar)
+
+### Tabel Kecamatan
 
 | Kolom | Tipe | Deskripsi |
-|-------|------|-----------|
-| `code` | string(13) | Primary key, kode desa |
-| `district_code` | string(8) | Foreign key ke districts |
-| `regency_code` | string(5) | Foreign key ke regencies |
-| `province_code` | string(2) | Foreign key ke provinces |
-| `name` | string | Nama resmi desa |
-| `postal_code` | string(5) | Kode pos lima digit |
-| `latitude` | decimal(10,8) | Latitude titik tengah |
-| `longitude` | decimal(11,8) | Longitude titik tengah |
+|--------|------|-------------|
+| `code` | `string(8)` | Kunci utama, format xx.xx.xx |
+| `regency_code` | `string(5)` | Kunci asing ke kabupaten/kota |
+| `province_code` | `string(2)` | Kunci asing ke provinsi |
+| `name` | `string` | Nama resmi kecamatan |
+| `latitude` | `double` | Lintang titik pusat |
+| `longitude` | `double` | Bujur titik pusat |
+| `coordinates` | `json` | Array koordinat batas |
 
-## Relasi
+**Contoh kode**: `31.71.01` (Jagakarsa), `33.74.01` (Semarang Tengah)
 
-### Relasi Hierarkis
+### Tabel Desa/Kelurahan
 
-Semua model mencakup relasi hierarkis yang lengkap:
+| Kolom | Tipe | Deskripsi |
+|--------|------|-------------|
+| `code` | `string(13)` | Kunci utama, format xx.xx.xx.xxxx |
+| `district_code` | `string(8)` | Kunci asing ke kecamatan |
+| `regency_code` | `string(5)` | Kunci asing ke kabupaten/kota |
+| `province_code` | `string(2)` | Kunci asing ke provinsi |
+| `name` | `string` | Nama resmi desa/kelurahan |
+| `postal_code` | `string(5)` | Kode pos desa/kelurahan |
+| `latitude` | `double` | Lintang titik pusat |
+| `longitude` | `double` | Bujur titik pusat |
+| `coordinates` | `json` | Array koordinat batas |
 
-```php
-// Relasi ke bawah (one-to-many)
-$province->regencies;  // HasMany
-$province->districts;  // HasManyThrough
-$province->villages;   // HasManyThrough
+**Contoh kode**: `31.71.01.1001` (Jagakarsa), `33.74.01.1001` (Sekayu)
 
-$regency->districts;   // HasMany
-$regency->villages;    // HasManyThrough
+## Standar Format Kode
 
-$district->villages;   // HasMany
+Laravel Nusa menggunakan sistem pengkodean hierarkis:
 
-// Relasi ke atas (many-to-one)
-$village->district;    // BelongsTo
-$village->regency;     // BelongsTo (melalui district)
-$village->province;    // BelongsTo (melalui district.regency)
+- **Provinsi**: `XX` (2 digit)
+- **Kabupaten/Kota**: `XX.XX` (provinsi.kabupaten/kota)
+- **Kecamatan**: `XX.XX.XX` (provinsi.kabupaten/kota.kecamatan)
+- **Desa/Kelurahan**: `XX.XX.XX.XXXX` (provinsi.kabupaten/kota.kecamatan.desa/kelurahan)
 
-$district->regency;    // BelongsTo
-$district->province;   // BelongsTo (melalui regency)
-
-$regency->province;    // BelongsTo
+### Contoh:
+```
+33          → Jawa Tengah (Provinsi)
+33.74       → Kota Semarang (Kabupaten/Kota)
+33.74.01    → Semarang Tengah (Kecamatan)
+33.74.01.1001 → Sekayu (Desa/Kelurahan)
 ```
 
-### Jumlah Relasi
+## Koneksi Database
 
-Model mencakup relasi count untuk performa:
-
-```php
-$provinces = Province::withCount(['regencies', 'districts', 'villages'])->get();
-
-foreach ($provinces as $province) {
-    echo "{$province->name}: {$province->villages_count} desa";
-}
-```
-
-## Kemampuan Pencarian
-
-### Scope Search
-
-Semua model mencakup scope `search()` untuk pencarian yang fleksibel:
+Semua model menggunakan koneksi database SQLite terpisah bernama `nusa`:
 
 ```php
-// Pencarian berdasarkan nama (case-insensitive, partial match)
-$provinces = Province::search('jawa')->get();
-// Hasil: Jawa Barat, Jawa Tengah, Jawa Timur
-
-// Pencarian berdasarkan kode
-$province = Province::search('33')->first();
-// Hasil: Jawa Tengah
-
-// Pencarian desa berdasarkan kode pos
-$villages = Village::search('50132')->get();
-```
-
-### Filter Lanjutan
-
-```php
-// Filter berdasarkan relasi
-$provinces = Province::whereHas('regencies', function ($query) {
-    $query->where('name', 'like', '%Kota%');
-})->get();
-
-// Filter berdasarkan jumlah
-$regencies = Regency::has('districts', '>=', 10)->get();
-
-// Multiple kondisi
-$villages = Village::where('postal_code', '50132')
-    ->whereHas('district', function ($query) {
-        $query->where('name', 'like', '%Tengah%');
-    })
-    ->get();
-```
-
-## Fitur Performa
-
-### Koneksi Database
-
-Laravel Nusa menggunakan koneksi database terpisah (`nusa`) untuk menghindari konflik:
-
-```php
-// config/database.php
+// Konfigurasi koneksi otomatis
 'nusa' => [
     'driver' => 'sqlite',
-    'database' => database_path('nusa.sqlite'),
+    'database' => __DIR__.'/../vendor/creasi/laravel-nusa/database/nusa.sqlite',
     'prefix' => '',
     'foreign_key_constraints' => true,
 ],
 ```
 
-### Query yang Dioptimalkan
+## Relasi Model
 
-Model dioptimalkan untuk performa:
+### Relasi Hierarkis
+
+Setiap model mencakup relasi ke atas (belongs to) dan ke bawah (has many):
 
 ```php
-// Seleksi field yang efisien
-$provinces = Province::select('code', 'name')->get();
+// Model Provinsi
+public function regencies() // HasMany
+public function districts()  // HasMany  
+public function villages()   // HasMany
 
-// Pagination untuk dataset besar
-$villages = Village::paginate(50);
+// Model Kabupaten/Kota
+public function province()   // BelongsTo
+public function districts()  // HasMany
+public function villages()   // HasMany
 
-// Chunk processing untuk operasi bulk
-Village::chunk(1000, function ($villages) {
-    foreach ($villages as $village) {
-        // Proses village
-    }
-});
+// Model Kecamatan
+public function province()   // BelongsTo
+public function regency()    // BelongsTo
+public function villages()   // HasMany
+
+// Model Desa/Kelurahan
+public function province()   // BelongsTo
+public function regency()    // BelongsTo
+public function district()   // BelongsTo
 ```
 
-### Eager Loading
+### Relasi Lintas Tingkat
 
-Mencegah masalah N+1 query dengan eager loading:
+Model-model ini mencakup relasi langsung yang melewati tingkat menengah:
 
 ```php
-// Load hierarki lengkap secara efisien
-$villages = Village::with(['district.regency.province'])
-    ->where('postal_code', '50132')
-    ->get();
+// Provinsi dapat langsung mengakses kecamatan dan desa/kelurahan
+$province->districts; // Semua kecamatan di provinsi
+$province->villages;  // Semua desa/kelurahan di provinsi
 
-// Akses tanpa query tambahan
+// Kabupaten/Kota dapat langsung mengakses desa/kelurahan
+$regency->villages;   // Semua desa/kelurahan di kabupaten/kota
+```
+
+## Integritas Data
+
+### Kendala Kunci Asing
+
+Database menjaga integritas referensial melalui relasi kunci asing:
+
+```sql
+-- Kabupaten/Kota mereferensikan Provinsi
+FOREIGN KEY (province_code) REFERENCES provinces(code)
+
+-- Kecamatan mereferensikan Kabupaten/Kota dan Provinsi
+FOREIGN KEY (regency_code) REFERENCES regencies(code)
+FOREIGN KEY (province_code) REFERENCES provinces(code)
+
+-- Desa/Kelurahan mereferensikan Kecamatan, Kabupaten/Kota, dan Provinsi
+FOREIGN KEY (district_code) REFERENCES districts(code)
+FOREIGN KEY (regency_code) REFERENCES regencies(code)
+FOREIGN KEY (province_code) REFERENCES provinces(code)
+```
+
+### Validasi Data
+
+Model-model ini mencakup validasi otomatis untuk memastikan konsistensi kode:
+
+```php
+// Kode desa/kelurahan harus sesuai dengan hierarki induk
+$village = Village::find('33.74.01.1001');
+assert($village->district_code === '33.74.01');
+assert($village->regency_code === '33.74');
+assert($village->province_code === '33');
+```
+
+## Pertimbangan Kinerja
+
+### Strategi Pengindeksan
+
+Database mencakup indeks yang dioptimalkan untuk pola kueri umum:
+
+```sql
+-- Indeks utama pada kode
+PRIMARY KEY (code)
+
+-- Indeks kunci asing
+INDEX idx_regency_province (province_code)
+INDEX idx_district_regency (regency_code)
+INDEX idx_district_province (province_code)
+INDEX idx_village_district (district_code)
+INDEX idx_village_regency (regency_code)
+INDEX idx_village_province (province_code)
+INDEX idx_village_postal (postal_code)
+```
+
+### Optimasi Kueri
+
+Gunakan relasi yang sesuai dan *eager loading*:
+
+```php
+// Efisien: Muat dengan relasi
+$villages = Village::with(['district.regency.province'])->paginate(50);
+
+// Tidak efisien: Kueri N+1
+$villages = Village::all();
 foreach ($villages as $village) {
-    echo $village->province->name; // Tidak ada query tambahan
+    echo $village->province->name; // Kueri N+1
 }
 ```
 
-## Fitur Integrasi
+## Sumber Data
 
-### Manajemen Alamat
+Database ini dikompilasi dari sumber resmi pemerintah Indonesia:
 
-Laravel Nusa mencakup model Address untuk mengelola alamat berbasis lokasi:
+- **BPS (Badan Pusat Statistik)** - Data statistik dan kode administratif
+- **Kemendagri (Kementerian Dalam Negeri)** - Definisi wilayah administratif
+- **Data pemerintah daerah resmi** - Pembaruan administratif lokal
 
-```php
-use Creasi\Nusa\Models\Address;
+## Dokumentasi Model
 
-$address = Address::create([
-    'addressable_type' => User::class,
-    'addressable_id' => 1,
-    'village_code' => '33.74.01.1001',
-    'address_line' => 'Jl. Merdeka No. 123',
-    'postal_code' => '50132'
-]);
+Untuk informasi rinci tentang setiap model:
 
-// Akses hierarki melalui village
-echo $address->village->province->name;
-```
+- **[Model Province](/id/api/models/province)** - Operasi dan relasi tingkat provinsi
+- **[Model Regency](/id/api/models/regency)** - Fungsionalitas tingkat kabupaten/kota
+- **[Model District](/id/api/models/district)** - Fitur dan penggunaan tingkat kecamatan
+- **[Model Village](/id/api/models/village)** - Operasi dan kode pos tingkat desa/kelurahan
+- **[Model Address](/id/api/models/address)** - Manajemen alamat dan relasi polimorfik
 
-### Trait Model
+## Opsi Kustomisasi
 
-Gunakan trait untuk menambahkan fungsi lokasi ke model Anda:
+Pelajari cara memperluas dan menyesuaikan model:
 
-```php
-use Creasi\Nusa\Models\Concerns\WithVillage;
-
-class User extends Model
-{
-    use WithVillage;
-    
-    protected $fillable = ['name', 'email', 'village_code'];
-}
-
-// User sekarang memiliki relasi village
-$user = User::with('village.province')->first();
-echo $user->village->province->name;
-```
-
-## Kustomisasi
-
-### Model Kustom
-
-Extend model dasar untuk fungsi kustom:
-
-```php
-// app/Models/CustomProvince.php
-class CustomProvince extends \Creasi\Nusa\Models\Province
-{
-    protected $appends = ['display_name'];
-    
-    public function getDisplayNameAttribute()
-    {
-        return "Provinsi {$this->name}";
-    }
-    
-    public function businesses()
-    {
-        return $this->hasMany(Business::class, 'province_code', 'code');
-    }
-}
-```
-
-### Konfigurasi
-
-Update konfigurasi untuk menggunakan model kustom:
-
-```php
-// config/nusa.php
-'models' => [
-    'province' => \App\Models\CustomProvince::class,
-    'regency' => \Creasi\Nusa\Models\Regency::class,
-    'district' => \Creasi\Nusa\Models\District::class,
-    'village' => \Creasi\Nusa\Models\Village::class,
-    'address' => \Creasi\Nusa\Models\Address::class,
-],
-```
-
-## Langkah Selanjutnya
-
-### **Dokumentasi Model Individual**:
-
-- **[Model Provinsi](/id/api/models/province)** - Referensi detail model provinsi
-- **[Model Kabupaten/Kota](/id/api/models/regency)** - Referensi model kabupaten dan kota
-- **[Model Kecamatan](/id/api/models/district)** - Referensi model kecamatan
-- **[Model Kelurahan/Desa](/id/api/models/village)** - Referensi model kelurahan/desa
-- **[Model Alamat](/id/api/models/address)** - Referensi manajemen alamat
-
-### **Dokumentasi Terkait**:
-
-- **[Model Concerns](/id/api/concerns/)** - Trait yang tersedia dan penggunaannya
-- **[Endpoint API](/id/api/overview)** - RESTful API untuk mengakses model
-- **[Contoh Penggunaan](/id/examples/basic-usage)** - Contoh implementasi praktis
+- **[Concern Model](/id/api/concerns/)** - Trait yang dapat digunakan kembali untuk model Anda sendiri
+- **[Panduan Kustomisasi](/id/guide/customization)** - Pola dan contoh integrasi

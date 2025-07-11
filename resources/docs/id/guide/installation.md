@@ -1,13 +1,13 @@
 # Instalasi
 
-Panduan ini menyediakan instruksi instalasi yang komprehensif, opsi konfigurasi, dan troubleshooting untuk Laravel Nusa.
+Panduan ini menyediakan instruksi instalasi yang komprehensif, opsi konfigurasi, dan pemecahan masalah untuk Laravel Nusa.
 
 ## Persyaratan Sistem
 
 ### Persyaratan PHP
 
 - **Versi PHP**: 8.2 atau lebih tinggi
-- **Ekstensi yang Diperlukan**:
+- **Ekstensi yang Dibutuhkan**:
   - `ext-sqlite3` - Untuk dukungan database SQLite
   - `ext-json` - Untuk penanganan JSON (biasanya sudah termasuk)
   - `ext-mbstring` - Untuk manipulasi string (biasanya sudah termasuk)
@@ -23,13 +23,13 @@ Laravel Nusa mendukung beberapa versi Laravel:
 
 ### Persyaratan Server
 
-- **Ruang Disk**: ~15MB untuk package dan database
+- **Ruang Disk**: ~15MB untuk paket dan database
 - **Database**: Menggunakan koneksi SQLite terpisah (tidak berdampak pada database utama Anda)
-- **Memory**: Tidak ada persyaratan memory tambahan
+- **Memori**: Tidak ada persyaratan memori tambahan
 
 ## Instalasi
 
-### Langkah 1: Install via Composer
+### Langkah 1: Instal melalui Composer
 
 ```bash
 composer require creasi/laravel-nusa
@@ -37,322 +37,333 @@ composer require creasi/laravel-nusa
 
 ### Langkah 2: Verifikasi Instalasi
 
-Laravel Nusa secara otomatis mengkonfigurasi dirinya sendiri. Verifikasi bahwa instalasi berhasil:
+Laravel Nusa secara otomatis mengkonfigurasi dirinya sendiri. Verifikasi apakah berfungsi:
 
 ```bash
 php artisan tinker
 ```
 
 ```php
-// Di Tinker - ini harus mengembalikan 38
+// Di Tinker - ini seharusnya mengembalikan 34
 \Creasi\Nusa\Models\Province::count();
 ```
 
-Jika berhasil, Anda akan melihat jumlah provinsi di Indonesia.
+Jika Anda melihat `34`, instalasi berhasil!
 
-### Langkah 3: Publikasi Konfigurasi (Opsional)
+### Langkah 3: Uji Rute API (Opsional)
 
-Jika Anda perlu menyesuaikan konfigurasi:
+Jika Anda berencana menggunakan API, uji *endpoint*:
 
 ```bash
-php artisan vendor:publish --provider="Creasi\Nusa\NusaServiceProvider"
+# Uji di browser Anda atau dengan curl
+curl http://your-app.test/nusa/provinces
 ```
 
-Ini akan membuat file `config/nusa.php` yang dapat Anda sesuaikan.
+## Apa yang Terinstal
+
+Laravel Nusa secara otomatis mengatur:
+
+1. **Registrasi Penyedia Layanan** - Ditemukan secara otomatis oleh Laravel
+2. **Koneksi Database** - Menambahkan koneksi `nusa` ke konfigurasi database Anda
+3. **Database SQLite** - Database yang sudah dibuat sebelumnya dengan semua data administratif Indonesia
+4. **Rute API** - *Endpoint* RESTful (dapat dinonaktifkan)
+5. **Model Eloquent** - Model siap pakai dengan relasi
 
 ## Konfigurasi
 
-### Konfigurasi Database
+Laravel Nusa berfungsi di luar kotak dengan *default* yang masuk akal, tetapi Anda dapat menyesuaikannya untuk kebutuhan spesifik Anda.
 
-Laravel Nusa menggunakan database SQLite terpisah yang disimpan di `database/nusa.sqlite`. Konfigurasi default:
+### Konfigurasi Dasar
+
+Opsi konfigurasi yang paling umum dapat diatur melalui variabel lingkungan:
+
+```dotenv
+# Aktifkan/nonaktifkan rute API (default: true)
+CREASI_NUSA_ROUTES_ENABLE=true
+
+# Ubah awalan rute API (default: nusa)
+CREASI_NUSA_ROUTES_PREFIX=api/indonesia
+
+# Gunakan koneksi database kustom (default: nusa)
+CREASI_NUSA_CONNECTION=custom_nusa
+```
+
+### Konfigurasi Lanjutan
+
+Untuk kustomisasi yang lebih canggih, publikasikan file konfigurasi:
+
+```bash
+php artisan vendor:publish --tag=creasi-nusa-config
+```
+
+Ini membuat `config/creasi/nusa.php`:
 
 ```php
-// config/nusa.php
 return [
-    'database' => [
-        'connection' => 'nusa',
-        'path' => database_path('nusa.sqlite'),
+    // Nama koneksi database untuk data Nusa
+    'connection' => env('CREASI_NUSA_CONNECTION', 'nusa'),
+
+    // Nama tabel (sesuaikan jika diperlukan)
+    'table_names' => [
+        'provinces' => 'provinces',
+        'regencies' => 'regencies',
+        'districts' => 'districts',
+        'villages' => 'villages',
     ],
-    
-    'cache' => [
-        'enabled' => true,
-        'ttl' => 3600, // 1 jam
-        'prefix' => 'nusa',
-    ],
-    
-    'models' => [
-        'province' => \Creasi\Nusa\Models\Province::class,
-        'regency' => \Creasi\Nusa\Models\Regency::class,
-        'district' => \Creasi\Nusa\Models\District::class,
-        'village' => \Creasi\Nusa\Models\Village::class,
-    ],
+
+    // Implementasi model alamat
+    'addressable' => \Creasi\Nusa\Models\Address::class,
+
+    // Konfigurasi rute API
+    'routes_enable' => env('CREASI_NUSA_ROUTES_ENABLE', true),
+    'routes_prefix' => env('CREASI_NUSA_ROUTES_PREFIX', 'nusa'),
 ];
 ```
 
-### Konfigurasi Cache
+### Koneksi Database Kustom
 
-Laravel Nusa mendukung caching untuk meningkatkan performa:
+Jika Anda perlu menggunakan koneksi database yang berbeda, tambahkan ke `config/database.php`:
 
 ```php
-// config/nusa.php
-'cache' => [
-    'enabled' => true,
-    'ttl' => 3600, // Cache selama 1 jam
-    'prefix' => 'nusa',
-    'store' => null, // Gunakan cache store default
+'connections' => [
+    // Koneksi Anda yang sudah ada...
+
+    'indonesia' => [
+        'driver' => 'sqlite',
+        'database' => database_path('indonesia.sqlite'),
+        'prefix' => '',
+        'foreign_key_constraints' => true,
+    ],
 ],
 ```
 
-### Konfigurasi Model Kustom
+Kemudian perbarui lingkungan Anda:
 
-Anda dapat menggunakan model kustom:
-
-```php
-// config/nusa.php
-'models' => [
-    'province' => \App\Models\Province::class,
-    'regency' => \App\Models\Regency::class,
-    'district' => \App\Models\District::class,
-    'village' => \App\Models\Village::class,
-],
+```dotenv
+CREASI_NUSA_CONNECTION=indonesia
 ```
 
-## Verifikasi Instalasi
+## Pengaturan Fitur Opsional
 
-### Tes Dasar
+### Manajemen Alamat
 
-```php
-use Creasi\Nusa\Models\{Province, Regency, District, Village};
+Jika Anda berencana menggunakan fitur manajemen alamat untuk menyimpan alamat pengguna:
 
-// Tes model dasar
-$provinces = Province::count(); // Harus 38
-$regencies = Regency::count();  // Harus 514
-$districts = District::count(); // Harus 7,285
-$villages = Village::count();   // Harus 83,762
+#### 1. Publikasikan Migrasi
 
-echo "Provinsi: {$provinces}\n";
-echo "Kabupaten/Kota: {$regencies}\n";
-echo "Kecamatan: {$districts}\n";
-echo "Kelurahan/Desa: {$villages}\n";
-```
-
-### Tes Pencarian
-
-```php
-// Tes pencarian
-$jakarta = Province::search('jakarta')->first();
-$semarang = Regency::search('semarang')->first();
-$medono = Village::search('medono')->first();
-
-if ($jakarta && $semarang && $medono) {
-    echo "Pencarian berfungsi dengan baik!\n";
-} else {
-    echo "Ada masalah dengan pencarian.\n";
-}
-```
-
-### Tes Relasi
-
-```php
-// Tes relasi
-$village = Village::with(['district.regency.province'])->first();
-
-if ($village && $village->district && $village->district->regency && $village->district->regency->province) {
-    echo "Relasi berfungsi dengan baik!\n";
-    echo "Alamat: {$village->name}, {$village->district->name}, {$village->district->regency->name}, {$village->district->regency->province->name}\n";
-} else {
-    echo "Ada masalah dengan relasi.\n";
-}
-```
-
-## Troubleshooting
-
-### Masalah Umum
-
-#### 1. Database Tidak Ditemukan
-
-**Error**: `Database file not found`
-
-**Solusi**:
 ```bash
-# Pastikan file database ada
-ls -la database/nusa.sqlite
-
-# Jika tidak ada, coba install ulang
-composer require creasi/laravel-nusa --force
+php artisan vendor:publish --tag=creasi-migrations
 ```
 
-#### 2. Ekstensi SQLite Tidak Tersedia
+#### 2. Jalankan Migrasi
 
-**Error**: `SQLite extension not found`
+```bash
+php artisan migrate
+```
 
-**Solusi**:
+Ini membuat tabel `addresses` di database utama Anda untuk menyimpan alamat pengguna dengan referensi ke wilayah administratif.
+
+### Rute API
+
+Laravel Nusa menyediakan *endpoint* API RESTful secara *default*:
+
+#### Rute yang Tersedia
+
+```http
+GET /nusa/provinces
+GET /nusa/provinces/{province}
+GET /nusa/provinces/{province}/regencies
+GET /nusa/provinces/{province}/districts
+GET /nusa/provinces/{province}/villages
+
+GET /nusa/regencies
+GET /nusa/regencies/{regency}
+GET /nusa/regencies/{regency}/districts
+GET /nusa/regencies/{regency}/villages
+
+GET /nusa/districts
+GET /nusa/districts/{district}
+GET /nusa/districts/{district}/villages
+
+GET /nusa/villages
+GET /nusa/villages/{village}
+```
+
+#### Nonaktifkan Rute API
+
+Jika Anda tidak membutuhkan *endpoint* API:
+
+```dotenv
+CREASI_NUSA_ROUTES_ENABLE=false
+```
+
+#### Awalan Rute Kustom
+
+Untuk mengubah awalan rute dari `/nusa` ke yang lain:
+
+```dotenv
+CREASI_NUSA_ROUTES_PREFIX=api/indonesia
+```
+
+Rute kemudian akan tersedia di `/api/indonesia/provinces`, dll.
+
+## Pemecahan Masalah
+
+### Masalah Instalasi Umum
+
+#### Ekstensi SQLite PHP Tidak Ditemukan
+
+**Error**: `could not find driver` atau `PDO SQLite driver not found`
+
+**Solusi**: Instal ekstensi SQLite PHP:
+
 ```bash
 # Ubuntu/Debian
-sudo apt-get install php-sqlite3
+sudo apt-get install php8.2-sqlite3
 
-# CentOS/RHEL
+# CentOS/RHEL/Fedora
 sudo yum install php-sqlite3
+# atau
+sudo dnf install php-sqlite3
 
 # macOS dengan Homebrew
-brew install php@8.2 --with-sqlite3
+brew install php@8.2
+
+# Windows (batalkan komentar di php.ini)
+extension=pdo_sqlite
+extension=sqlite3
 ```
 
-#### 3. Permission Error
+Setelah instalasi, mulai ulang *web server* dan PHP-FPM jika berlaku.
 
-**Error**: `Permission denied`
+#### Masalah File Database
+
+**Error**: `database disk image is malformed` atau `database locked`
 
 **Solusi**:
+
+1. Bersihkan *cache* Composer dan instal ulang:
 ```bash
-# Berikan permission yang tepat
-chmod 664 database/nusa.sqlite
-chmod 775 database/
-
-# Pastikan web server dapat mengakses
-chown www-data:www-data database/nusa.sqlite
+composer clear-cache
+rm -rf vendor/creasi/laravel-nusa
+composer install
 ```
 
-#### 4. Memory Limit
+2. Periksa izin file:
+```bash
+# Periksa apakah file ada dan dapat dibaca
+ls -la vendor/creasi/laravel-nusa/database/nusa.sqlite
 
-**Error**: `Memory limit exceeded`
+# Perbaiki izin jika diperlukan
+chmod 644 vendor/creasi/laravel-nusa/database/nusa.sqlite
+```
+
+3. Verifikasi ruang disk:
+```bash
+df -h # Periksa ruang disk yang tersedia
+```
+
+#### Masalah Registrasi Rute
+
+**Error**: `Route [nusa.provinces.index] not defined`
 
 **Solusi**:
-```php
-// Tingkatkan memory limit di php.ini
+
+1. Bersihkan *cache* rute:
+```bash
+php artisan route:clear
+php artisan config:clear
+```
+
+2. Verifikasi rute diaktifkan:
+```bash
+php artisan route:list | grep nusa
+```
+
+3. Periksa registrasi penyedia layanan:
+```bash
+php artisan config:show app.providers | grep Nusa
+```
+
+#### Masalah Memori atau Kinerja
+
+**Error**: `Maximum execution time exceeded` atau `Memory limit exceeded`
+
+**Solusi**:
+
+1. Tingkatkan batas PHP di `php.ini`:
+```ini
 memory_limit = 256M
-
-// Atau dalam kode
-ini_set('memory_limit', '256M');
+max_execution_time = 300
 ```
 
-### Debugging
-
-#### Mode Debug
-
-Aktifkan debug mode untuk informasi lebih detail:
-
+2. Gunakan paginasi untuk kueri besar:
 ```php
-// config/nusa.php
-'debug' => env('NUSA_DEBUG', false),
+// Daripada
+$villages = Village::all(); // 83.762 catatan!
+
+// Gunakan
+$villages = Village::paginate(50);
 ```
+
+### Penerapan Produksi
+
+#### Izin File
+
+Pastikan izin file yang tepat dalam produksi:
 
 ```bash
-# Set environment variable
-NUSA_DEBUG=true
+# Jadikan database dapat dibaca oleh web server
+chmod 644 vendor/creasi/laravel-nusa/database/nusa.sqlite
+chown www-data:www-data vendor/creasi/laravel-nusa/database/nusa.sqlite
 ```
 
-#### Log Queries
+#### Caching
 
-Monitor query yang dijalankan:
+Aktifkan *caching* untuk kinerja yang lebih baik:
 
+```bash
+php artisan config:cache
+php artisan route:cache
+php artisan view:cache
+```
+
+#### Keamanan
+
+Pertimbangkan langkah-langkah keamanan ini:
+
+1. Nonaktifkan rute API jika tidak diperlukan:
+```dotenv
+CREASI_NUSA_ROUTES_ENABLE=false
+```
+
+2. Tambahkan pembatasan laju ke rute API:
 ```php
-use Illuminate\Support\Facades\DB;
-
-DB::listen(function ($query) {
-    if (str_contains($query->connectionName, 'nusa')) {
-        logger()->info('Nusa Query: ' . $query->sql, $query->bindings);
-    }
+// Di RouteServiceProvider atau middleware kustom
+Route::middleware(['throttle:100,1'])->group(function () {
+    // Rute API Anda
 });
 ```
 
-### Performance Optimization
+### Mendapatkan Bantuan
 
-#### 1. Aktifkan Cache
+Jika Anda masih mengalami masalah:
 
-```php
-// config/nusa.php
-'cache' => [
-    'enabled' => true,
-    'ttl' => 7200, // 2 jam
-    'prefix' => 'nusa',
-],
-```
+1. **Periksa log Laravel**: `storage/logs/laravel.log`
+2. **Aktifkan mode debug**: Atur `APP_DEBUG=true` di `.env` (hanya pengembangan)
+3. **Masalah GitHub**: [Laporkan bug](https://github.com/creasico/laravel-nusa/issues)
+4. **Dukungan Komunitas**: [Diskusi GitHub](https://github.com/orgs/creasico/discussions)
 
-#### 2. Gunakan Eager Loading
+Saat melaporkan masalah, harap sertakan:
+- Versi PHP (`php -v`)
+- Versi Laravel
+- Pesan error dari log
+- Langkah-langkah untuk mereproduksi masalah
 
-```php
-// ❌ N+1 Problem
-$villages = Village::all();
-foreach ($villages as $village) {
-    echo $village->district->name; // Query untuk setiap village
-}
+## Langkah Selanjutnya
 
-// ✅ Eager Loading
-$villages = Village::with('district')->get();
-foreach ($villages as $village) {
-    echo $village->district->name; // Tidak ada query tambahan
-}
-```
+Setelah instalasi berhasil:
 
-#### 3. Gunakan Select Spesifik
-
-```php
-// ❌ Select semua kolom
-$provinces = Province::all();
-
-// ✅ Select kolom yang diperlukan saja
-$provinces = Province::select(['code', 'name'])->get();
-```
-
-## Instalasi untuk Development
-
-### Clone Repository
-
-Untuk development atau kontribusi:
-
-```bash
-git clone https://github.com/creasico/laravel-nusa.git
-cd laravel-nusa
-composer install
-```
-
-### Setup Testing
-
-```bash
-# Copy environment file
-cp .env.example .env
-
-# Install dependencies
-composer install
-
-# Run tests
-composer test
-```
-
-### Build Database
-
-```bash
-# Build database dari source
-php artisan nusa:build
-
-# Atau download pre-built database
-php artisan nusa:download
-```
-
-## Uninstall
-
-Jika Anda perlu menghapus Laravel Nusa:
-
-```bash
-# Hapus package
-composer remove creasi/laravel-nusa
-
-# Hapus file database (opsional)
-rm database/nusa.sqlite
-
-# Hapus file konfigurasi (opsional)
-rm config/nusa.php
-```
-
-## Dukungan
-
-Jika Anda mengalami masalah:
-
-1. **Periksa dokumentasi** - Baca panduan troubleshooting
-2. **Cek GitHub Issues** - Lihat apakah masalah sudah dilaporkan
-3. **Buat Issue Baru** - Jika masalah belum ada, buat issue baru
-4. **Diskusi** - Gunakan GitHub Discussions untuk pertanyaan umum
-
-**Repository**: [https://github.com/creasico/laravel-nusa](https://github.com/creasico/laravel-nusa)
-
-Dengan mengikuti panduan ini, Anda seharusnya dapat menginstal dan mengkonfigurasi Laravel Nusa dengan sukses dalam aplikasi Laravel Anda.
+- **[Memulai](/id/guide/getting-started)** - Panduan memulai cepat dan penggunaan dasar
+- **[Konfigurasi](/id/guide/configuration)** - Opsi konfigurasi terperinci
+- **[Model & Relasi](/id/guide/models)** - Memahami struktur data

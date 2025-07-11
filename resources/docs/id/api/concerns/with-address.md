@@ -1,26 +1,187 @@
-# WithAddress
+# Trait WithAddress
 
-Trait `WithAddress` memungkinkan model Anda memiliki satu alamat dengan dukungan penuh untuk hierarki administratif Indonesia, validasi alamat, dan akses ke data geografis.
+Trait `WithAddress` menambahkan relasi alamat polimorfik tunggal ke model Anda, memungkinkan mereka untuk memiliki satu alamat terkait dengan data wilayah administratif Indonesia yang lengkap.
 
-## Gambaran Umum
-
-Trait `WithAddress` sempurna untuk model yang membutuhkan tepat satu alamat, seperti toko, kantor, atau entitas apa pun yang memiliki satu lokasi utama. Ini menyediakan interface yang bersih dan sederhana untuk manajemen alamat tanpa kompleksitas multiple alamat.
-
-### Apa yang Anda Dapatkan
-
-- **Relasi alamat tunggal** - Satu model memiliki satu alamat
-- **Manajemen alamat otomatis** - Pembuatan dan update alamat yang disederhanakan
-- **Akses hierarki lengkap** - Akses ke kelurahan/desa, kecamatan, kabupaten/kota, dan provinsi
-- **Koordinat geografis** - Akses ke koordinat lokasi melalui kelurahan/desa
-- **Validasi alamat** - Validasi bawaan untuk hierarki alamat
-
-## Penggunaan Dasar
-
-### Menambahkan Trait
+## Namespace
 
 ```php
+Creasi\Nusa\Models\Concerns\WithAddress
+```
+
+## Penggunaan
+
+### Implementasi Dasar
+
+```php
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
 use Creasi\Nusa\Models\Concerns\WithAddress;
 
+class User extends Model
+{
+    use WithAddress;
+    
+    protected $fillable = [
+        'name',
+        'email'
+    ];
+}
+```
+
+### Pengaturan Database
+
+Trait ini menggunakan tabel alamat bawaan Laravel Nusa. Pastikan Anda telah mempublikasikan dan menjalankan migrasi:
+
+```bash
+php artisan vendor:publish --tag=creasi-migrations
+php artisan migrate
+```
+
+## Fitur
+
+### Relasi Alamat Tunggal
+
+Mengakses alamat yang terkait:
+
+```php
+$user = User::find(1);
+$address = $user->address;
+
+if ($address) {
+    echo "Address: {$address->address_line}";
+    echo "Village: {$address->village->name}";
+    echo "District: {$address->district->name}";
+    echo "Regency: {$address->regency->name}";
+    echo "Province: {$address->province->name}";
+    echo "Postal Code: {$address->postal_code}";
+}
+```
+
+### Membuat Alamat
+
+```php
+$user = User::find(1);
+
+$user->address()->create([
+    'address_line' => 'Jl. Merdeka No. 123',
+    'province_code' => '33',
+    'regency_code' => '33.74',
+    'district_code' => '33.74.01',
+    'village_code' => '33.74.01.1001',
+    'postal_code' => '50711'
+]);
+```
+
+### Memperbarui Alamat
+
+```php
+$user = User::find(1);
+
+if ($user->address) {
+    $user->address->update([
+        'address_line' => 'Jl. Sudirman No. 456',
+        'village_code' => '33.74.02.1005'
+    ]);
+} else {
+    $user->address()->create([
+        'address_line' => 'Jl. Sudirman No. 456',
+        'province_code' => '33',
+        'regency_code' => '33.74',
+        'district_code' => '33.74.02',
+        'village_code' => '33.74.02.1005'
+    ]);
+}
+```
+
+## Contoh Penggunaan Umum
+
+### 1. Profil Pengguna
+
+```php
+class User extends Model
+{
+    use WithAddress;
+    
+    protected $fillable = ['name', 'email'];
+    
+    public function getFullAddressAttribute()
+    {
+        if (!$this->address) return null;
+        
+        return collect([
+            $this->address->address_line,
+            $this->address->village->name,
+            $this->address->district->name,
+            $this->address->regency->name,
+            $this->address->province->name,
+            $this->address->postal_code
+        ])->filter()->implode(', ');
+    }
+    
+    public function hasCompleteAddress()
+    {
+        return $this->address && 
+               $this->address->address_line && 
+               $this->address->village_code;
+    }
+}
+
+// Penggunaan
+$user = User::with('address.village.district.regency.province')->first();
+echo $user->full_address;
+```
+
+### 2. Manajemen Pelanggan
+
+```php
+class Customer extends Model
+{
+    use WithAddress;
+    
+    protected $fillable = [
+        'name',
+        'email',
+        'phone'
+    ];
+    
+    public function scopeInProvince($query, $provinceCode)
+    {
+        return $query->whereHas('address.province', function ($q) use ($provinceCode) {
+            $q->where('code', $provinceCode);
+        });
+    }
+    
+    public function scopeInRegency($query, $regencyCode)
+    {
+        return $query->whereHas('address.regency', function ($q) use ($regencyCode) {
+            $q->where('code', $regencyCode);
+        });
+    }
+    
+    public function getShippingZoneAttribute()
+    {
+        if (!$this->address) return null;
+        
+        $provinceCode = $this->address->province_code;
+        
+        return match($provinceCode) {
+            '31', '32', '33', '34', '35', '36' => 'Java',
+            '11', '12', '13', '14', '15', '16', '17', '18', '19', '21' => 'Sumatra',
+            '51', '52', '53' => 'Bali & Nusa Tenggara',
+            default => 'Outer Islands'
+        };
+    }
+}
+
+// Penggunaan
+$jakartaCustomers = Customer::inProvince('31')->get();
+$shippingZone = $customer->shipping_zone;
+```
+
+### 3. Lokasi Bisnis
+
+```php
 class Store extends Model
 {
     use WithAddress;
@@ -30,450 +191,224 @@ class Store extends Model
         'description',
         'phone'
     ];
-}
-```
-
-### Tidak Perlu Perubahan Database
-
-Trait ini menggunakan relasi polimorfik melalui tabel `addresses` yang sudah ada, jadi tidak diperlukan perubahan pada tabel model Anda.
-
-### Membuat Store dengan Alamat
-
-```php
-$store = Store::create([
-    'name' => 'My Store',
-    'description' => 'Electronics store',
-    'phone' => '0247654321'
-]);
-
-// Create address for the store
-$store->address()->create([
-    'name' => 'My Store',
-    'phone' => '0247654321',
-    'village_code' => '33.74.01.1001',
-    'address_line' => 'Jl. Merdeka No. 123',
-    'postal_code' => '50132'
-]);
-
-// Access address and location data
-echo $store->address->full_address;
-echo $store->address->village->province->name;
-```
-
-## Address Management
-
-### Accessing Address
-
-```php
-// Get store with address and location hierarchy
-$store = Store::with(['address.village.district.regency.province'])->first();
-
-// Access address data
-if ($store->address) {
-    echo $store->address->address_line;
-    echo $store->address->village->name;
-    echo $store->address->village->district->name;
-    echo $store->address->village->regency->name;
-    echo $store->address->village->province->name;
-    echo $store->address->postal_code;
-}
-```
-
-### Helper Methods
-
-Add helper methods to your model:
-
-```php
-class Store extends Model
-{
-    use WithAddress;
     
-    // Get formatted store location
-    public function getStoreLocationAttribute()
+    public function scopeNearby($query, $provinceCode, $regencyCode = null)
     {
-        if ($this->address && $this->address->village) {
-            return [
-                'store_name' => $this->name,
-                'address_line' => $this->address->address_line,
-                'village' => $this->address->village->name,
-                'district' => $this->address->village->district->name,
-                'regency' => $this->address->village->regency->name,
-                'province' => $this->address->village->province->name,
-                'postal_code' => $this->address->postal_code,
-                'coordinates' => [
-                    'latitude' => $this->address->village->latitude,
-                    'longitude' => $this->address->village->longitude
-                ]
-            ];
-        }
-        return null;
-    }
-    
-    // Get complete address string
-    public function getFullAddressAttribute()
-    {
-        return $this->address?->full_address;
-    }
-    
-    // Check if store has address
-    public function hasAddress()
-    {
-        return $this->address !== null;
-    }
-    
-    // Check if store is in specific province
-    public function isInProvince($provinceCode)
-    {
-        return $this->address?->village?->province_code === $provinceCode;
-    }
-    
-    // Get store coordinates
-    public function getCoordinatesAttribute()
-    {
-        if ($this->address && $this->address->village) {
-            return [
-                'latitude' => $this->address->village->latitude,
-                'longitude' => $this->address->village->longitude
-            ];
-        }
-        return null;
-    }
-}
-```
-
-## Address Creation and Updates
-
-### Creating Address
-
-```php
-// Create store and address together
-$store = Store::create([
-    'name' => 'Electronics Store',
-    'phone' => '0247654321'
-]);
-
-$address = $store->address()->create([
-    'name' => 'Electronics Store',
-    'phone' => '0247654321',
-    'village_code' => '33.74.01.1001',
-    'address_line' => 'Jl. Sudirman No. 456, Lantai 2',
-    'notes' => 'Near the main intersection'
-]);
-```
-
-### Updating Address
-
-```php
-// Update existing address
-if ($store->address) {
-    $store->address->update([
-        'address_line' => 'Jl. Sudirman No. 456, Lantai 3',
-        'phone' => '0247654322'
-    ]);
-}
-
-// Replace address (delete old, create new)
-$store->address()?->delete();
-$store->address()->create([
-    'name' => 'Electronics Store',
-    'phone' => '0247654322',
-    'village_code' => '33.74.02.1005',
-    'address_line' => 'Jl. Pemuda No. 789'
-]);
-```
-
-### Address Validation
-
-```php
-class StoreAddressValidator
-{
-    public function validateStoreAddress($storeData, $addressData)
-    {
-        $errors = [];
-        
-        // Validate village exists
-        $village = Village::find($addressData['village_code']);
-        if (!$village) {
-            $errors[] = 'Selected village is invalid';
-            return ['valid' => false, 'errors' => $errors];
-        }
-        
-        // Validate address completeness
-        if (empty($addressData['address_line'])) {
-            $errors[] = 'Complete address is required';
-        }
-        
-        // Validate phone number consistency
-        if ($storeData['phone'] !== $addressData['phone']) {
-            $errors[] = 'Store phone and address phone should match';
-        }
-        
-        return [
-            'valid' => empty($errors),
-            'errors' => $errors,
-            'village' => $village,
-            'suggested_postal_code' => $village->postal_code
-        ];
-    }
-}
-```
-
-## Querying Stores with Addresses
-
-### Basic Queries
-
-```php
-// Get stores with addresses
-$stores = Store::has('address')->get();
-
-// Get stores with address and location data
-$stores = Store::with(['address.village.district.regency.province'])->get();
-
-// Get stores without addresses
-$storesWithoutAddress = Store::doesntHave('address')->get();
-```
-
-### Location-based Queries
-
-```php
-// Stores in specific province
-$stores = Store::whereHas('address.village', function ($query) {
-    $query->where('province_code', '33');
-})->get();
-
-// Stores in specific regency
-$stores = Store::whereHas('address.village', function ($query) {
-    $query->where('regency_code', '33.74');
-})->get();
-
-// Stores in specific postal code
-$stores = Store::whereHas('address', function ($query) {
-    $query->where('postal_code', '50132');
-})->get();
-```
-
-### Custom Scopes
-
-```php
-class Store extends Model
-{
-    use WithAddress;
-    
-    // Scope for stores with addresses
-    public function scopeWithAddress($query)
-    {
-        return $query->has('address');
-    }
-    
-    // Scope for stores in province
-    public function scopeInProvince($query, $provinceCode)
-    {
-        return $query->whereHas('address.village', function ($q) use ($provinceCode) {
+        return $query->whereHas('address', function ($q) use ($provinceCode, $regencyCode) {
             $q->where('province_code', $provinceCode);
+            
+            if ($regencyCode) {
+                $q->where('regency_code', $regencyCode);
+            }
         });
     }
     
-    // Scope for stores in regency
-    public function scopeInRegency($query, $regencyCode)
+    public function getOperatingHoursAttribute()
     {
-        return $query->whereHas('address.village', function ($q) use ($regencyCode) {
-            $q->where('regency_code', $regencyCode);
-        });
-    }
-    
-    // Scope for stores in Java
-    public function scopeInJava($query)
-    {
-        return $query->whereHas('address.village', function ($q) {
-            $q->whereIn('province_code', ['31', '32', '33', '34', '35', '36']);
-        });
-    }
-}
-
-// Usage
-$storesWithAddress = Store::withAddress()->get();
-$centralJavaStores = Store::inProvince('33')->get();
-$semarangStores = Store::inRegency('33.74')->get();
-$javaStores = Store::inJava()->get();
-```
-
-## Geographic Operations
-
-### Distance Calculations
-
-```php
-class StoreLocator
-{
-    public function findNearestStores($latitude, $longitude, $radiusKm = 10)
-    {
-        return Store::whereHas('address.village', function ($query) use ($latitude, $longitude, $radiusKm) {
-            $query->selectRaw("
-                *,
-                (6371 * acos(
-                    cos(radians(?)) * 
-                    cos(radians(latitude)) * 
-                    cos(radians(longitude) - radians(?)) + 
-                    sin(radians(?)) * 
-                    sin(radians(latitude))
-                )) AS distance
-            ", [$latitude, $longitude, $latitude])
-            ->having('distance', '<=', $radiusKm)
-            ->orderBy('distance');
-        })
-        ->with(['address.village'])
-        ->get()
-        ->map(function ($store) {
-            return [
-                'store' => $store->name,
-                'address' => $store->full_address,
-                'distance_km' => $store->address->village->distance ?? null,
-                'coordinates' => $store->coordinates
-            ];
-        });
-    }
-    
-    public function calculateDistanceBetweenStores(Store $store1, Store $store2)
-    {
-        if (!$store1->coordinates || !$store2->coordinates) {
-            return null;
+        // Different operating hours based on location
+        if (!$this->address) return '09:00 - 21:00';
+        
+        $provinceCode = $this->address->province_code;
+        
+        // Jakarta stores open later
+        if ($provinceCode === '31') {
+            return '10:00 - 22:00';
         }
         
-        $earthRadius = 6371; // km
-        
-        $lat1 = deg2rad($store1->coordinates['latitude']);
-        $lng1 = deg2rad($store1->coordinates['longitude']);
-        $lat2 = deg2rad($store2->coordinates['latitude']);
-        $lng2 = deg2rad($store2->coordinates['longitude']);
-        
-        $deltaLat = $lat2 - $lat1;
-        $deltaLng = $lng2 - $lng1;
-        
-        $a = sin($deltaLat / 2) * sin($deltaLat / 2) +
-             cos($lat1) * cos($lat2) *
-             sin($deltaLng / 2) * sin($deltaLng / 2);
-        
-        $c = 2 * atan2(sqrt($a), sqrt(1 - $a));
-        
-        return $earthRadius * $c;
+        return '09:00 - 21:00';
     }
 }
 ```
 
-### Store Coverage Analysis
+### 4. Manajemen Acara
 
 ```php
-class StoreCoverageAnalyzer
+class Event extends Model
 {
-    public function analyzeRegionalCoverage()
+    use WithAddress;
+    
+    protected $fillable = [
+        'title',
+        'description',
+        'event_date',
+        'max_participants'
+    ];
+    
+    protected $casts = [
+        'event_date' => 'datetime'
+    ];
+    
+    public function getLocationNameAttribute()
     {
-        return Province::withCount(['villages'])
-            ->get()
-            ->map(function ($province) {
-                $storesInProvince = Store::inProvince($province->code)->count();
-                
-                return [
-                    'province' => $province->name,
-                    'total_villages' => $province->villages_count,
-                    'stores_count' => $storesInProvince,
-                    'coverage_ratio' => $storesInProvince / $province->villages_count,
-                    'coverage_status' => $this->determineCoverageStatus($storesInProvince, $province->villages_count)
-                ];
-            });
+        if (!$this->address) return 'Location TBA';
+        
+        return collect([
+            $this->address->regency->name,
+            $this->address->province->name
+        ])->implode(', ');
     }
     
-    private function determineCoverageStatus($storesCount, $villagesCount)
+    public function scopeUpcoming($query)
     {
-        $ratio = $storesCount / $villagesCount;
+        return $query->where('event_date', '>=', now());
+    }
+    
+    public function scopeInLocation($query, $provinceCode, $regencyCode = null)
+    {
+        return $query->whereHas('address', function ($q) use ($provinceCode, $regencyCode) {
+            $q->where('province_code', $provinceCode);
+            
+            if ($regencyCode) {
+                $q->where('regency_code', $regencyCode);
+            }
+        });
+    }
+}
+
+// Penggunaan
+$upcomingEvents = Event::upcoming()
+    ->inLocation('33', '33.74') // Semarang
+    ->with('address.regency.province')
+    ->get();
+```
+
+## Penggunaan Lanjutan
+
+### Validasi Alamat
+
+```php
+class User extends Model
+{
+    use WithAddress;
+    
+    public function updateAddress(array $addressData)
+    {
+        // Validate administrative hierarchy
+        $village = Village::with(['district.regency.province'])
+            ->where('code', $addressData['village_code'])
+            ->first();
+            
+        if (!$village) {
+            throw new \InvalidArgumentException('Invalid village code');
+        }
         
-        if ($ratio >= 0.1) return 'Well Covered';
-        if ($ratio >= 0.05) return 'Adequately Covered';
-        if ($ratio > 0) return 'Under Covered';
-        return 'Not Covered';
+        // Auto-fill parent codes
+        $addressData['district_code'] = $village->district_code;
+        $addressData['regency_code'] = $village->regency_code;
+        $addressData['province_code'] = $village->province_code;
+        
+        if ($this->address) {
+            $this->address->update($addressData);
+        } else {
+            $this->address()->create($addressData);
+        }
+        
+        return $this->fresh('address');
     }
 }
 ```
 
-## API Resources
-
-### Store Resource with Address
+### Operasi Alamat Massal
 
 ```php
-class StoreResource extends JsonResource
+class AddressService
 {
-    public function toArray($request)
+    public static function updateUserAddresses(array $userData)
     {
-        return [
-            'id' => $this->id,
-            'name' => $this->name,
-            'description' => $this->description,
-            'phone' => $this->phone,
-            'address' => [
-                'line' => $this->address?->address_line,
-                'village' => $this->address?->village?->name,
-                'district' => $this->address?->village?->district?->name,
-                'regency' => $this->address?->village?->regency?->name,
-                'province' => $this->address?->village?->province?->name,
-                'postal_code' => $this->address?->postal_code,
-                'full_address' => $this->full_address
-            ],
-            'location' => [
-                'coordinates' => $this->coordinates,
-                'has_address' => $this->hasAddress()
-            ],
-            'created_at' => $this->created_at,
-            'updated_at' => $this->updated_at
+        foreach ($userData as $data) {
+            $user = User::find($data['user_id']);
+            
+            if ($user) {
+                $user->address()->updateOrCreate(
+                    ['addressable_id' => $user->id, 'addressable_type' => User::class],
+                    $data['address']
+                );
+            }
+        }
+    }
+    
+    public static function getUsersByRegion($provinceCode, $regencyCode = null)
+    {
+        return User::whereHas('address', function ($query) use ($provinceCode, $regencyCode) {
+            $query->where('province_code', $provinceCode);
+            
+            if ($regencyCode) {
+                $query->where('regency_code', $regencyCode);
+            }
+        })->with('address.village.district.regency.province')->get();
+    }
+}
+```
+
+## Integrasi Formulir
+
+### Komponen Formulir Alamat
+
+```php
+class AddressController extends Controller
+{
+    public function update(Request $request, User $user)
+    {
+        $request->validate([
+            'address_line' => 'required|string|max:255',
+            'village_code' => 'required|exists:nusa.villages,code',
+            'postal_code' => 'nullable|string|size:5'
+        ]);
+        
+        $village = Village::with(['district.regency.province'])
+            ->where('code', $request->village_code)
+            ->first();
+        
+        $addressData = [
+            'address_line' => $request->address_line,
+            'village_code' => $village->code,
+            'district_code' => $village->district_code,
+            'regency_code' => $village->regency_code,
+            'province_code' => $village->province_code,
+            'postal_code' => $request->postal_code ?? $village->postal_code
         ];
+        
+        if ($user->address) {
+            $user->address->update($addressData);
+        } else {
+            $user->address()->create($addressData);
+        }
+        
+        return redirect()->back()->with('success', 'Address updated successfully');
     }
 }
 ```
 
-## Testing
+## Tips Kinerja
 
-### Store Address Tests
+### 1. Eager Loading
 
 ```php
-class StoreAddressTest extends TestCase
-{
-    use RefreshDatabase;
-    
-    public function test_store_can_have_address()
-    {
-        $store = Store::factory()->create();
-        $village = Village::factory()->create();
-        
-        $address = $store->address()->create([
-            'name' => 'Test Store',
-            'village_code' => $village->code,
-            'address_line' => 'Test Address'
-        ]);
-        
-        $this->assertInstanceOf(Address::class, $store->address);
-        $this->assertEquals($address->id, $store->address->id);
-    }
-    
-    public function test_store_location_helper_methods()
-    {
-        $store = Store::factory()->create(['name' => 'Test Store']);
-        $village = Village::factory()->create(['postal_code' => '50132']);
-        
-        $store->address()->create([
-            'name' => 'Test Store',
-            'village_code' => $village->code,
-            'address_line' => 'Jl. Test No. 123'
-        ]);
-        
-        $store->load('address.village');
-        
-        $this->assertTrue($store->hasAddress());
-        $this->assertNotNull($store->coordinates);
-        $this->assertStringContains('Jl. Test No. 123', $store->full_address);
-    }
+// Baik
+$users = User::with('address.village.district.regency.province')->get();
+
+// Buruk - Kueri N+1
+$users = User::all();
+foreach ($users as $user) {
+    echo $user->address->village->name; // Multiple queries
 }
 ```
 
-## Langkah Selanjutnya
+### 2. Memuat Kolom Tertentu
 
-- **[WithAddresses](/id/api/concerns/with-addresses)** - Manajemen multiple alamat
-- **[Model Address](/id/api/models/address)** - Dokumentasi lengkap model alamat
-- **[WithVillage](/id/api/concerns/with-village)** - Trait relasi kelurahan/desa
-- **[WithCoordinate](/id/api/concerns/with-coordinate)** - Trait koordinat geografis
+```php
+$users = User::with([
+    'address:id,addressable_id,addressable_type,address_line,village_code',
+    'address.village:code,name,district_code',
+    'address.village.district:code,name,regency_code',
+    'address.village.district.regency:code,name,province_code',
+    'address.village.district.regency.province:code,name'
+])->get();
+```
+
+## Dokumentasi Terkait
+
+- **[Trait WithAddresses](/id/api/concerns/with-addresses)** - Untuk dukungan alamat ganda
+- **[Model Address](/id/api/models/address)** - Dokumentasi lengkap model Address
+- **[Panduan Manajemen Alamat](/id/guide/addresses)** - Panduan lengkap fungsionalitas alamat
+- **[Contoh Formulir Alamat](/id/examples/address-forms)** - Membangun formulir alamat

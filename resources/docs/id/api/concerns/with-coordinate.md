@@ -1,26 +1,21 @@
-# WithCoordinate
+# Trait WithCoordinate
 
-Trait `WithCoordinate` memungkinkan model Anda memiliki koordinat geografis (latitude dan longitude) dengan berbagai metode untuk kalkulasi jarak, pencarian berdasarkan lokasi, dan operasi geografis lainnya.
+Trait `WithCoordinate` menambahkan fungsionalitas koordinat lintang dan bujur ke model Anda, memungkinkan fitur geografis dan kueri berbasis lokasi.
 
-The `WithCoordinate` trait allows your model to have geographic coordinates (latitude and longitude) with various methods for distance calculations, location-based searches, and other geographic operations.
-
-## Overview
-
-The `WithCoordinate` trait is essential for models that need precise geographic positioning and location-based functionality. It provides powerful methods for distance calculations, proximity searches, and geographic analysis.
-
-### What You Get
-
-- **Geographic coordinates** - Latitude and longitude storage
-- **Distance calculations** - Calculate distances between points
-- **Proximity searches** - Find nearby entities within a radius
-- **Bounding box queries** - Search within geographic boundaries
-- **Geographic utilities** - Various helper methods for location operations
-
-## Basic Usage
-
-### Adding the Trait
+## Namespace
 
 ```php
+Creasi\Nusa\Models\Concerns\WithCoordinate
+```
+
+## Penggunaan
+
+### Implementasi Dasar
+
+```php
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
 use Creasi\Nusa\Models\Concerns\WithCoordinate;
 
 class Store extends Model
@@ -29,538 +24,469 @@ class Store extends Model
     
     protected $fillable = [
         'name',
+        'description',
         'latitude',
-        'longitude',
-        'address'
-    ];
-    
-    protected $casts = [
-        'latitude' => 'decimal:8',
-        'longitude' => 'decimal:8'
+        'longitude'
     ];
 }
 ```
 
-### Database Requirements
-
-Your model's table must have `latitude` and `longitude` columns:
+### Migrasi Database
 
 ```php
-// Migration
-Schema::table('stores', function (Blueprint $table) {
+Schema::create('stores', function (Blueprint $table) {
+    $table->id();
+    $table->string('name');
+    $table->text('description')->nullable();
     $table->decimal('latitude', 10, 8)->nullable();
     $table->decimal('longitude', 11, 8)->nullable();
+    $table->timestamps();
     
-    // Optional: Add spatial index for better performance
+    // Opsional: Tambahkan indeks spasial untuk kinerja yang lebih baik
     $table->spatialIndex(['latitude', 'longitude']);
 });
 ```
 
-### Creating Records with Coordinates
+## Fitur
+
+### Konfigurasi Otomatis
+
+Trait ini secara otomatis:
+- Melakukan *casting* `latitude` dan `longitude` ke `float`
+- Menambahkan kedua kolom ke *array* `$fillable`
 
 ```php
-// Create store with coordinates
+// Dikonfigurasi secara otomatis
+protected $casts = [
+    'latitude' => 'float',
+    'longitude' => 'float'
+];
+
+protected $fillable = ['latitude', 'longitude'];
+```
+
+### Penggunaan Koordinat Dasar
+
+```php
 $store = Store::create([
-    'name' => 'Central Store',
+    'name' => 'Main Store',
     'latitude' => -6.2088,
-    'longitude' => 106.8456,
-    'address' => 'Jl. Sudirman No. 123'
+    'longitude' => 106.8456
 ]);
 
-// Jakarta coordinates: -6.2088, 106.8456
-// Semarang coordinates: -6.9667, 110.4167
-// Surabaya coordinates: -7.2575, 112.7521
+echo "Lokasi toko: {$store->latitude}, {$store->longitude}";
 ```
 
-## Distance Calculations
+## Contoh Penggunaan Umum
 
-### Calculate Distance Between Points
-
-```php
-// Calculate distance to another store
-$store1 = Store::find(1);
-$store2 = Store::find(2);
-
-$distance = $store1->distanceTo($store2);
-echo "Distance: {$distance} km";
-
-// Calculate distance to specific coordinates
-$distance = $store1->distanceToCoordinates(-6.9667, 110.4167);
-echo "Distance to Semarang: {$distance} km";
-```
-
-### Distance Calculation Methods
+### 1. Pencari Toko
 
 ```php
 class Store extends Model
 {
     use WithCoordinate;
     
-    // Get distance to another model with coordinates
-    public function distanceTo($otherModel)
+    protected $fillable = [
+        'name',
+        'address',
+        'phone',
+        'latitude',
+        'longitude'
+    ];
+    
+    public function scopeNearby($query, $latitude, $longitude, $radiusKm = 10)
     {
-        if (!$this->hasCoordinates() || !$otherModel->hasCoordinates()) {
-            return null;
-        }
-        
-        return $this->distanceToCoordinates($otherModel->latitude, $otherModel->longitude);
+        return $query->selectRaw('*, (
+            6371 * acos(
+                cos(radians(?)) * cos(radians(latitude)) * 
+                cos(radians(longitude) - radians(?)) + 
+                sin(radians(?)) * sin(radians(latitude))
+            )
+        ) AS distance', [$latitude, $longitude, $latitude])
+        ->having('distance', '<', $radiusKm)
+        ->orderBy('distance');
     }
     
-    // Get distance to specific coordinates
-    public function distanceToCoordinates($latitude, $longitude)
+    public function getDistanceFromAttribute()
     {
-        if (!$this->hasCoordinates()) {
-            return null;
-        }
-        
+        return $this->attributes['distance'] ?? null;
+    }
+    
+    public function distanceTo($latitude, $longitude)
+    {
         $earthRadius = 6371; // km
         
-        $lat1 = deg2rad($this->latitude);
-        $lng1 = deg2rad($this->longitude);
-        $lat2 = deg2rad($latitude);
-        $lng2 = deg2rad($longitude);
+        $latDelta = deg2rad($latitude - $this->latitude);
+        $lonDelta = deg2rad($longitude - $this->longitude);
         
-        $deltaLat = $lat2 - $lat1;
-        $deltaLng = $lng2 - $lng1;
-        
-        $a = sin($deltaLat / 2) * sin($deltaLat / 2) +
-             cos($lat1) * cos($lat2) *
-             sin($deltaLng / 2) * sin($deltaLng / 2);
-        
+        $a = sin($latDelta / 2) * sin($latDelta / 2) +
+             cos(deg2rad($this->latitude)) * cos(deg2rad($latitude)) *
+             sin($lonDelta / 2) * sin($lonDelta / 2);
+             
         $c = 2 * atan2(sqrt($a), sqrt(1 - $a));
         
         return $earthRadius * $c;
     }
+}
+
+// Penggunaan
+$userLat = -6.2088;
+$userLng = 106.8456;
+
+$nearbyStores = Store::nearby($userLat, $userLng, 5)->get();
+
+foreach ($nearbyStores as $store) {
+    echo "{$store->name} - {$store->distance_from} km jauhnya";
+}
+```
+
+### 2. Lokasi Acara
+
+```php
+class Event extends Model
+{
+    use WithCoordinate;
     
-    // Check if model has valid coordinates
-    public function hasCoordinates()
+    protected $fillable = [
+        'title',
+        'description',
+        'event_date',
+        'venue_name',
+        'latitude',
+        'longitude'
+    ];
+    
+    protected $casts = [
+        'event_date' => 'datetime'
+    ];
+    
+    public function scopeInBounds($query, $northLat, $southLat, $eastLng, $westLng)
     {
-        return $this->latitude !== null && $this->longitude !== null;
+        return $query->whereBetween('latitude', [$southLat, $northLat])
+                    ->whereBetween('longitude', [$westLng, $eastLng]);
+    }
+    
+    public function getMapUrlAttribute()
+    {
+        if (!$this->latitude || !$this->longitude) return null;
+        
+        return "https://maps.google.com/maps?q={$this->latitude},{$this->longitude}";
+    }
+    
+    public function getLocationDescriptionAttribute()
+    {
+        if (!$this->latitude || !$this->longitude) {
+            return $this->venue_name ?? 'Lokasi Akan Diumumkan';
+        }
+        
+        return $this->venue_name . " ({$this->latitude}, {$this->longitude})";
+    }
+}
+
+// Penggunaan
+$events = Event::inBounds(-6.0, -6.5, 107.0, 106.5)->get(); // area Jakarta
+```
+
+### 3. Pelacakan Pengiriman
+
+```php
+class DeliveryPoint extends Model
+{
+    use WithCoordinate;
+    
+    protected $fillable = [
+        'order_id',
+        'address',
+        'latitude',
+        'longitude',
+        'status'
+    ];
+    
+    public function order()
+    {
+        return $this->belongsTo(Order::class);
+    }
+    
+    public function scopeDelivered($query)
+    {
+        return $query->where('status', 'delivered');
+    }
+    
+    public function scopePending($query)
+    {
+        return $query->where('status', 'pending');
+    }
+    
+    public function getOptimalRoute(array $destinations)
+    {
+        // Algoritma tetangga terdekat sederhana
+        $route = [$this];
+        $remaining = collect($destinations);
+        $current = $this;
+        
+        while ($remaining->isNotEmpty()) {
+            $nearest = $remaining->sortBy(function ($destination) use ($current) {
+                return $current->distanceTo($destination->latitude, $destination->longitude);
+            })->first();
+            
+            $route[] = $nearest;
+            $remaining = $remaining->reject(fn($item) => $item->id === $nearest->id);
+            $current = $nearest;
+        }
+        
+        return $route;
     }
 }
 ```
 
-## Proximity Searches
-
-### Find Nearby Entities
+### 4. Analitik Geografis
 
 ```php
-// Find stores within 10km radius
-$nearbyStores = Store::nearby(-6.2088, 106.8456, 10)->get();
-
-// Find stores within 5km radius, ordered by distance
-$nearbyStores = Store::nearby(-6.2088, 106.8456, 5)
-    ->orderBy('distance')
-    ->get();
-
-// Find nearest 5 stores
-$nearestStores = Store::nearest(-6.2088, 106.8456, 5)->get();
-```
-
-### Proximity Scope Methods
-
-```php
-class Store extends Model
+class CustomerLocation extends Model
 {
     use WithCoordinate;
     
-    // Scope for finding nearby entities
-    public function scopeNearby($query, $latitude, $longitude, $radiusKm)
+    protected $fillable = [
+        'customer_id',
+        'latitude',
+        'longitude',
+        'recorded_at'
+    ];
+    
+    protected $casts = [
+        'recorded_at' => 'datetime'
+    ];
+    
+    public function customer()
     {
-        return $query->selectRaw("
-            *,
-            (6371 * acos(
-                cos(radians(?)) * 
-                cos(radians(latitude)) * 
-                cos(radians(longitude) - radians(?)) + 
-                sin(radians(?)) * 
-                sin(radians(latitude))
-            )) AS distance
-        ", [$latitude, $longitude, $latitude])
-        ->having('distance', '<=', $radiusKm);
+        return $this->belongsTo(Customer::class);
     }
     
-    // Scope for finding nearest entities
-    public function scopeNearest($query, $latitude, $longitude, $limit = 10)
+    public static function getHeatmapData($bounds = null)
     {
-        return $query->selectRaw("
-            *,
-            (6371 * acos(
-                cos(radians(?)) * 
-                cos(radians(latitude)) * 
+        $query = static::select('latitude', 'longitude', 
+                               \DB::raw('COUNT(*) as intensity'));
+        
+        if ($bounds) {
+            $query->inBounds(
+                $bounds['north'], $bounds['south'],
+                $bounds['east'], $bounds['west']
+            );
+        }
+        
+        return $query->groupBy('latitude', 'longitude')
+                    ->having('intensity', '>', 1)
+                    ->get();
+    }
+    
+    public static function getClusterCenters($k = 5)
+    {
+        // Klastering k-means sederhana
+        $points = static::select('latitude', 'longitude')->get();
+        
+        if ($points->count() < $k) {
+            return $points;
+        }
+        
+        // Inisialisasi pusat acak
+        $centers = $points->random($k);
+        
+        for ($iteration = 0; $iteration < 10; $iteration++) {
+            $clusters = collect();
+            
+            // Tetapkan titik ke pusat terdekat
+            foreach ($points as $point) {
+                $nearestCenter = $centers->sortBy(function ($center) use ($point) {
+                    return sqrt(
+                        pow($point->latitude - $center->latitude, 2) +
+                        pow($point->longitude - $center->longitude, 2)
+                    );
+                })->first();
+                
+                $clusters->push([
+                    'point' => $point,
+                    'center' => $nearestCenter
+                ]);
+            }
+            
+            // Perbarui pusat
+            $newCenters = collect();
+            foreach ($centers as $center) {
+                $clusterPoints = $clusters->where('center.id', $center->id)
+                                         ->pluck('point');
+                
+                if ($clusterPoints->isNotEmpty()) {
+                    $newCenters->push((object)[
+                        'latitude' => $clusterPoints->avg('latitude'),
+                        'longitude' => $clusterPoints->avg('longitude')
+                    ]);
+                }
+            }
+            
+            $centers = $newCenters;
+        }
+        
+        return $centers;
+    }
+}
+```
+
+## Kueri Geografis Lanjutan
+
+### Kueri Bounding Box
+
+```php
+class LocationService
+{
+    public static function findWithinBounds($model, $bounds)
+    {
+        return $model::whereBetween('latitude', [$bounds['south'], $bounds['north']])
+                    ->whereBetween('longitude', [$bounds['west'], $bounds['east']])
+                    ->get();
+    }
+    
+    public static function findNearPoint($model, $lat, $lng, $radiusKm)
+    {
+        return $model::selectRaw('*, (
+            6371 * acos(
+                cos(radians(?)) * cos(radians(latitude)) * 
                 cos(radians(longitude) - radians(?)) + 
-                sin(radians(?)) * 
-                sin(radians(latitude))
-            )) AS distance
-        ", [$latitude, $longitude, $latitude])
+                sin(radians(?)) * sin(radians(latitude))
+            )
+        ) AS distance', [$lat, $lng, $lat])
+        ->having('distance', '<', $radiusKm)
         ->orderBy('distance')
-        ->limit($limit);
-    }
-    
-    // Scope for entities within bounding box
-    public function scopeWithinBounds($query, $northEast, $southWest)
-    {
-        return $query->whereBetween('latitude', [$southWest['lat'], $northEast['lat']])
-            ->whereBetween('longitude', [$southWest['lng'], $northEast['lng']]);
+        ->get();
     }
 }
 ```
 
-## Geographic Utilities
-
-### Bounding Box Calculations
+### Penahanan Poligon
 
 ```php
-class Store extends Model
+class GeofenceService
 {
-    use WithCoordinate;
-    
-    // Get bounding box for a radius around the point
-    public function getBoundingBox($radiusKm)
+    public static function isPointInPolygon($lat, $lng, array $polygon)
     {
-        if (!$this->hasCoordinates()) {
-            return null;
+        $x = $lng;
+        $y = $lat;
+        $inside = false;
+        
+        $j = count($polygon) - 1;
+        for ($i = 0; $i < count($polygon); $i++) {
+            $xi = $polygon[$i]['lng'];
+            $yi = $polygon[$i]['lat'];
+            $xj = $polygon[$j]['lng'];
+            $yj = $polygon[$j]['lat'];
+            
+            if ((($yi > $y) !== ($yj > $y)) && 
+                ($x < ($xj - $xi) * ($y - $yi) / ($yj - $yi) + $xi)) {
+                $inside = !$inside;
+            }
+            $j = $i;
         }
         
-        $earthRadius = 6371; // km
-        $lat = deg2rad($this->latitude);
-        $lng = deg2rad($this->longitude);
-        
-        $deltaLat = $radiusKm / $earthRadius;
-        $deltaLng = $radiusKm / ($earthRadius * cos($lat));
-        
+        return $inside;
+    }
+    
+    public static function findInGeofence($model, array $polygon)
+    {
+        return $model::get()->filter(function ($item) use ($polygon) {
+            return static::isPointInPolygon(
+                $item->latitude, 
+                $item->longitude, 
+                $polygon
+            );
+        });
+    }
+}
+```
+
+## Validasi
+
+### Validasi Koordinat
+
+```php
+class StoreRequest extends FormRequest
+{
+    public function rules()
+    {
         return [
-            'north' => rad2deg($lat + $deltaLat),
-            'south' => rad2deg($lat - $deltaLat),
-            'east' => rad2deg($lng + $deltaLng),
-            'west' => rad2deg($lng - $deltaLng)
+            'name' => 'required|string|max:255',
+            'latitude' => 'required|numeric|between:-90,90',
+            'longitude' => 'required|numeric|between:-180,180'
         ];
     }
     
-    // Check if point is within radius
-    public function isWithinRadius($latitude, $longitude, $radiusKm)
+    public function messages()
     {
-        $distance = $this->distanceToCoordinates($latitude, $longitude);
-        return $distance !== null && $distance <= $radiusKm;
-    }
-    
-    // Get center point of multiple stores
-    public static function getCenterPoint($stores)
-    {
-        $storesWithCoords = $stores->filter(function ($store) {
-            return $store->hasCoordinates();
-        });
-        
-        if ($storesWithCoords->isEmpty()) {
-            return null;
-        }
-        
         return [
-            'latitude' => $storesWithCoords->avg('latitude'),
-            'longitude' => $storesWithCoords->avg('longitude')
+            'latitude.between' => 'Lintang harus antara -90 dan 90 derajat.',
+            'longitude.between' => 'Bujur harus antara -180 dan 180 derajat.'
         ];
     }
 }
 ```
 
-### Geographic Analysis
+### Validasi Batas Wilayah Indonesia
 
 ```php
-class GeographicAnalyzer
+class IndonesiaLocationRequest extends FormRequest
 {
-    public function analyzeStoreDistribution()
+    public function rules()
     {
-        $stores = Store::whereNotNull('latitude')
-            ->whereNotNull('longitude')
-            ->get();
-        
-        if ($stores->isEmpty()) {
-            return null;
-        }
-        
-        $centerPoint = Store::getCenterPoint($stores);
-        $distances = $stores->map(function ($store) use ($centerPoint) {
-            return $store->distanceToCoordinates($centerPoint['latitude'], $centerPoint['longitude']);
-        });
-        
         return [
-            'total_stores' => $stores->count(),
-            'center_point' => $centerPoint,
-            'distribution_stats' => [
-                'average_distance_from_center' => $distances->avg(),
-                'max_distance_from_center' => $distances->max(),
-                'min_distance_from_center' => $distances->min(),
-                'standard_deviation' => $this->calculateStandardDeviation($distances)
+            'latitude' => [
+                'required',
+                'numeric',
+                'between:-11,6' // Batas lintang Indonesia
             ],
-            'coverage_area' => $this->calculateCoverageArea($stores)
+            'longitude' => [
+                'required',
+                'numeric',
+                'between:95,141' // Batas bujur Indonesia
+            ]
         ];
     }
-    
-    public function findOptimalNewLocation($existingStores, $targetCustomers)
-    {
-        $customerClusters = $this->clusterCustomers($targetCustomers);
-        
-        return $customerClusters->map(function ($cluster) use ($existingStores) {
-            $clusterCenter = [
-                'latitude' => $cluster->avg('latitude'),
-                'longitude' => $cluster->avg('longitude')
-            ];
-            
-            $nearestStore = $existingStores->sortBy(function ($store) use ($clusterCenter) {
-                return $store->distanceToCoordinates($clusterCenter['latitude'], $clusterCenter['longitude']);
-            })->first();
-            
-            return [
-                'cluster_center' => $clusterCenter,
-                'customers_count' => $cluster->count(),
-                'nearest_existing_store' => $nearestStore?->name,
-                'distance_to_nearest_store' => $nearestStore?->distanceToCoordinates($clusterCenter['latitude'], $clusterCenter['longitude']),
-                'opportunity_score' => $this->calculateOpportunityScore($cluster, $nearestStore)
-            ];
-        })->sortByDesc('opportunity_score');
-    }
 }
 ```
 
-## Business Applications
+## Tips Kinerja
 
-### Store Locator Service
-
-```php
-class StoreLocatorService
-{
-    public function findNearestStores($customerLat, $customerLng, $maxDistance = 25)
-    {
-        return Store::nearby($customerLat, $customerLng, $maxDistance)
-            ->with(['address', 'services'])
-            ->get()
-            ->map(function ($store) use ($customerLat, $customerLng) {
-                return [
-                    'store' => [
-                        'id' => $store->id,
-                        'name' => $store->name,
-                        'address' => $store->address,
-                        'phone' => $store->phone
-                    ],
-                    'location' => [
-                        'latitude' => $store->latitude,
-                        'longitude' => $store->longitude,
-                        'distance_km' => round($store->distance, 2)
-                    ],
-                    'services' => $store->services->pluck('name'),
-                    'estimated_travel_time' => $this->estimateTravelTime($store->distance)
-                ];
-            });
-    }
-    
-    public function getStoresByRegion($bounds)
-    {
-        return Store::withinBounds($bounds['northEast'], $bounds['southWest'])
-            ->with(['address'])
-            ->get()
-            ->groupBy(function ($store) {
-                // Group by approximate regions
-                $lat = round($store->latitude, 1);
-                $lng = round($store->longitude, 1);
-                return "{$lat},{$lng}";
-            });
-    }
-}
-```
-
-### Delivery Zone Optimization
+### 1. Pengindeksan Spasial
 
 ```php
-class DeliveryZoneOptimizer
-{
-    public function optimizeDeliveryZones($stores, $maxDeliveryRadius = 15)
-    {
-        return $stores->map(function ($store) use ($maxDeliveryRadius) {
-            $deliveryArea = $store->getBoundingBox($maxDeliveryRadius);
-            $nearbyCustomers = Customer::withinBounds(
-                ['lat' => $deliveryArea['north'], 'lng' => $deliveryArea['east']],
-                ['lat' => $deliveryArea['south'], 'lng' => $deliveryArea['west']]
-            )->get();
-            
-            return [
-                'store' => $store->name,
-                'coordinates' => [
-                    'latitude' => $store->latitude,
-                    'longitude' => $store->longitude
-                ],
-                'delivery_area' => $deliveryArea,
-                'potential_customers' => $nearbyCustomers->count(),
-                'coverage_efficiency' => $this->calculateCoverageEfficiency($store, $nearbyCustomers),
-                'recommended_adjustments' => $this->getRecommendedAdjustments($store, $nearbyCustomers)
-            ];
-        });
-    }
-    
-    public function findDeliveryGaps($stores, $customers, $maxDeliveryRadius = 15)
-    {
-        $uncoveredCustomers = $customers->filter(function ($customer) use ($stores, $maxDeliveryRadius) {
-            return !$stores->contains(function ($store) use ($customer, $maxDeliveryRadius) {
-                return $store->isWithinRadius($customer->latitude, $customer->longitude, $maxDeliveryRadius);
-            });
-        });
-        
-        return $uncoveredCustomers->map(function ($customer) use ($stores) {
-            $nearestStore = $stores->sortBy(function ($store) use ($customer) {
-                return $store->distanceToCoordinates($customer->latitude, $customer->longitude);
-            })->first();
-            
-            return [
-                'customer' => $customer->name,
-                'coordinates' => [
-                    'latitude' => $customer->latitude,
-                    'longitude' => $customer->longitude
-                ],
-                'nearest_store' => $nearestStore?->name,
-                'distance_to_nearest_store' => $nearestStore?->distanceToCoordinates($customer->latitude, $customer->longitude),
-                'gap_severity' => $this->calculateGapSeverity($customer, $nearestStore)
-            ];
-        });
-    }
-}
-```
-
-## Performance Optimization
-
-### Spatial Indexing
-
-```php
-// Add spatial index in migration
+// Dalam migrasi
 Schema::table('stores', function (Blueprint $table) {
     $table->spatialIndex(['latitude', 'longitude']);
 });
-
-// Use spatial queries for better performance (MySQL 5.7+)
-class Store extends Model
-{
-    use WithCoordinate;
-    
-    public function scopeNearbyOptimized($query, $latitude, $longitude, $radiusKm)
-    {
-        // Use spatial functions for better performance
-        return $query->selectRaw("
-            *,
-            ST_Distance_Sphere(
-                POINT(longitude, latitude),
-                POINT(?, ?)
-            ) / 1000 AS distance
-        ", [$longitude, $latitude])
-        ->having('distance', '<=', $radiusKm);
-    }
-}
 ```
 
-### Caching Geographic Queries
+### 2. Pra-pemfilteran Bounding Box
 
 ```php
-class CachedLocationService
+// Lebih efisien untuk dataset besar
+public function scopeNearbyOptimized($query, $lat, $lng, $radiusKm)
 {
-    public function getNearbyStores($lat, $lng, $radius, $cacheMinutes = 30)
-    {
-        $cacheKey = "nearby_stores_{$lat}_{$lng}_{$radius}";
-        
-        return Cache::remember($cacheKey, $cacheMinutes, function () use ($lat, $lng, $radius) {
-            return Store::nearby($lat, $lng, $radius)->get();
-        });
-    }
+    $latDelta = $radiusKm / 111; // Konversi kasar km ke derajat
+    $lngDelta = $radiusKm / (111 * cos(deg2rad($lat)));
     
-    public function getStoreDistances($storeId, $cacheMinutes = 60)
-    {
-        $cacheKey = "store_distances_{$storeId}";
-        
-        return Cache::remember($cacheKey, $cacheMinutes, function () use ($storeId) {
-            $store = Store::find($storeId);
-            $otherStores = Store::where('id', '!=', $storeId)->get();
-            
-            return $otherStores->map(function ($otherStore) use ($store) {
-                return [
-                    'store_id' => $otherStore->id,
-                    'store_name' => $otherStore->name,
-                    'distance_km' => $store->distanceTo($otherStore)
-                ];
-            })->sortBy('distance_km');
-        });
-    }
+    return $query->whereBetween('latitude', [$lat - $latDelta, $lat + $latDelta])
+                ->whereBetween('longitude', [$lng - $lngDelta, $lng + $lngDelta])
+                ->selectRaw('*, (
+                    6371 * acos(
+                        cos(radians(?)) * cos(radians(latitude)) * 
+                        cos(radians(longitude) - radians(?)) + 
+                        sin(radians(?)) * sin(radians(latitude))
+                    )
+                ) AS distance', [$lat, $lng, $lat])
+                ->having('distance', '<', $radiusKm)
+                ->orderBy('distance');
 }
 ```
 
-## Testing
+## Dokumentasi Terkait
 
-### Coordinate Tests
-
-```php
-class StoreCoordinateTest extends TestCase
-{
-    use RefreshDatabase;
-    
-    public function test_store_can_calculate_distance_to_another_store()
-    {
-        $store1 = Store::factory()->create([
-            'latitude' => -6.2088,
-            'longitude' => 106.8456
-        ]);
-        
-        $store2 = Store::factory()->create([
-            'latitude' => -6.9667,
-            'longitude' => 110.4167
-        ]);
-        
-        $distance = $store1->distanceTo($store2);
-        
-        $this->assertIsFloat($distance);
-        $this->assertGreaterThan(0, $distance);
-        $this->assertLessThan(500, $distance); // Should be less than 500km
-    }
-    
-    public function test_nearby_scope_returns_stores_within_radius()
-    {
-        Store::factory()->create([
-            'latitude' => -6.2088,
-            'longitude' => 106.8456
-        ]);
-        
-        Store::factory()->create([
-            'latitude' => -6.2100,
-            'longitude' => 106.8500
-        ]);
-        
-        Store::factory()->create([
-            'latitude' => -7.0000,
-            'longitude' => 110.0000
-        ]);
-        
-        $nearbyStores = Store::nearby(-6.2088, 106.8456, 10)->get();
-        
-        $this->assertCount(2, $nearbyStores);
-    }
-    
-    public function test_bounding_box_calculation()
-    {
-        $store = Store::factory()->create([
-            'latitude' => -6.2088,
-            'longitude' => 106.8456
-        ]);
-        
-        $boundingBox = $store->getBoundingBox(10);
-        
-        $this->assertArrayHasKey('north', $boundingBox);
-        $this->assertArrayHasKey('south', $boundingBox);
-        $this->assertArrayHasKey('east', $boundingBox);
-        $this->assertArrayHasKey('west', $boundingBox);
-        
-        $this->assertGreaterThan($store->latitude, $boundingBox['north']);
-        $this->assertLessThan($store->latitude, $boundingBox['south']);
-    }
-}
-```
-
-## Next Steps
-
-- **[WithVillage](/id/api/concerns/with-village)** - Village relationship with coordinates
-- **[WithAddress](/id/api/concerns/with-address)** - Address management with coordinates
-- **[Geographic Queries](/id/examples/geographic-queries)** - Advanced geographic operations
-- **[Custom Models](/id/examples/custom-models)** - Combining coordinates with location models
+- **[Contoh Kueri Geografis](/id/examples/geographic-queries)** - Contoh kueri geografis lanjutan
+- **[Trait WithAddress](/id/api/concerns/with-address)** - Untuk lokasi berbasis alamat
+- **[Model & Relasi](/id/guide/models)** - Memahami model-model Laravel Nusa

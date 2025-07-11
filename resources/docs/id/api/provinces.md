@@ -1,8 +1,8 @@
 # API Provinsi
 
-API Provinsi menyediakan akses ke semua 38 provinsi Indonesia dengan data geografis dan hubungan administratif mereka.
+API Provinsi menyediakan akses ke semua 34 provinsi di Indonesia beserta data geografis dan hubungan administratifnya.
 
-## Endpoints
+## Endpoint
 
 ### Daftar Provinsi
 
@@ -10,24 +10,24 @@ API Provinsi menyediakan akses ke semua 38 provinsi Indonesia dengan data geogra
 GET /nusa/provinces
 ```
 
-Mengembalikan daftar provinsi dengan pagination.
+Mengembalikan daftar semua provinsi dengan paginasi.
 
-#### Parameter Query
+#### Parameter Kueri
 
-| Parameter | Type | Deskripsi |
-|-----------|------|-----------|
+| Parameter | Tipe | Deskripsi |
+|-----------|------|-------------|
 | `page` | integer | Nomor halaman (default: 1) |
-| `per_page` | integer | Item per halaman (default: 15, max: 100) |
-| `search` | string | Pencarian berdasarkan nama atau kode |
+| `per_page` | integer | Item per halaman (default: 15, maks: 100) |
+| `search` | string | Cari berdasarkan nama atau kode |
 | `codes[]` | array | Filter berdasarkan kode provinsi tertentu |
 
-#### Contoh Request
+#### Contoh Permintaan
 
 ```bash
 curl "https://your-app.com/nusa/provinces?search=jawa&per_page=10"
 ```
 
-#### Contoh Response
+#### Contoh Respon
 
 ```json
 {
@@ -51,42 +51,42 @@ curl "https://your-app.com/nusa/provinces?search=jawa&per_page=10"
   ],
   "links": {
     "first": "https://your-app.com/nusa/provinces?page=1",
-    "last": "https://your-app.com/nusa/provinces?page=3",
+    "last": "https://your-app.com/nusa/provinces?page=2",
     "prev": null,
     "next": "https://your-app.com/nusa/provinces?page=2"
   },
   "meta": {
     "current_page": 1,
     "from": 1,
-    "last_page": 3,
+    "last_page": 2,
     "per_page": 15,
     "to": 15,
-    "total": 38
+    "total": 34
   }
 }
 ```
 
-### Dapatkan Provinsi Spesifik
+### Dapatkan Provinsi
 
 ```http
 GET /nusa/provinces/{code}
 ```
 
-Mengembalikan detail provinsi berdasarkan kode.
+Mengembalikan provinsi tertentu berdasarkan kodenya.
 
-#### Parameter Path
+#### Parameter Jalur
 
-| Parameter | Type | Deskripsi |
-|-----------|------|-----------|
-| `code` | string | Kode provinsi (contoh: "33") |
+| Parameter | Tipe | Deskripsi |
+|-----------|------|-------------|
+| `code` | string | Kode provinsi 2 digit |
 
-#### Contoh Request
+#### Contoh Permintaan
 
 ```bash
 curl "https://your-app.com/nusa/provinces/33"
 ```
 
-#### Contoh Response
+#### Contoh Respon
 
 ```json
 {
@@ -96,22 +96,19 @@ curl "https://your-app.com/nusa/provinces/33"
     "latitude": -6.9934809206806,
     "longitude": 110.42024335421,
     "coordinates": [
-      [110.1234, -6.5678],
-      [110.2345, -6.6789],
-      ...
+      [-6.123, 110.456],
+      [-6.234, 110.567],
+      "..."
     ],
     "postal_codes": [
-      "50111", "50112", "50113", "50114", "50115",
-      "50116", "50117", "50118", "50119", "50121"
-    ],
-    "regencies_count": 35,
-    "districts_count": 573,
-    "villages_count": 7809
-  }
+      "50111", "50112", "50113", "..."
+    ]
+  },
+  "meta": {}
 }
 ```
 
-### Kabupaten/Kota dalam Provinsi
+### Dapatkan Kabupaten/Kota Provinsi
 
 ```http
 GET /nusa/provinces/{code}/regencies
@@ -119,58 +116,68 @@ GET /nusa/provinces/{code}/regencies
 
 Mengembalikan semua kabupaten/kota dalam provinsi tertentu.
 
-#### Parameter Path
+#### Parameter Jalur
 
-| Parameter | Type | Deskripsi |
-|-----------|------|-----------|
-| `code` | string | Kode provinsi |
+| Parameter | Tipe | Deskripsi |
+|-----------|------|-------------|
+| `code` | string | Kode provinsi 2 digit |
 
-#### Parameter Query
+#### Parameter Kueri
 
-| Parameter | Type | Deskripsi |
-|-----------|------|-----------|
+| Parameter | Tipe | Deskripsi |
+|-----------|------|-------------|
 | `page` | integer | Nomor halaman (default: 1) |
-| `per_page` | integer | Item per halaman (default: 15, max: 100) |
-| `search` | string | Pencarian berdasarkan nama |
-| `type` | string | Filter berdasarkan tipe (`city`, `regency`) |
+| `per_page` | integer | Item per halaman (default: 15, maks: 100) |
+| `search` | string | Cari kabupaten/kota berdasarkan nama |
 
-#### Contoh Request
+#### Contoh Permintaan
 
 ```bash
-curl "https://your-app.com/nusa/provinces/33/regencies?type=city"
+curl "https://your-app.com/nusa/provinces/33/regencies?search=semarang"
 ```
 
-#### Contoh Response
+#### Contoh Respon
 
 ```json
 {
   "data": [
     {
-      "code": "33.71",
-      "name": "Kota Magelang",
+      "code": "3374",
       "province_code": "33",
-      "latitude": -7.4697,
-      "longitude": 110.2175,
-      "type": "city"
+      "name": "Kota Semarang",
+      "latitude": -6.9666204,
+      "longitude": 110.4166595,
+      "coordinates": [...],
+      "postal_codes": ["50111", "50112", "..."]
     },
     {
-      "code": "33.72",
-      "name": "Kota Surakarta",
+      "code": "3322",
       "province_code": "33",
-      "latitude": -7.5755,
-      "longitude": 110.8243,
-      "type": "city"
+      "name": "Kabupaten Semarang",
+      "latitude": -7.1462912,
+      "longitude": 110.4988892,
+      "coordinates": [...],
+      "postal_codes": ["50511", "50512", "..."]
     }
   ],
+  "links": {
+    "first": "https://your-app.com/nusa/provinces/33/regencies?page=1",
+    "last": "https://your-app.com/nusa/provinces/33/regencies?page=3",
+    "prev": null,
+    "next": "https://your-app.com/nusa/provinces/33/regencies?page=2"
+  },
   "meta": {
     "current_page": 1,
-    "total": 6,
-    "per_page": 15
+    "from": 1,
+    "last_page": 3,
+    "per_page": 15,
+    "to": 15,
+    "total": 35
   }
 }
 ```
 
-### Kecamatan dalam Provinsi
+### Dapatkan Kecamatan Provinsi
 
 ```http
 GET /nusa/provinces/{code}/districts
@@ -178,205 +185,193 @@ GET /nusa/provinces/{code}/districts
 
 Mengembalikan semua kecamatan dalam provinsi tertentu.
 
-#### Parameter Path
-
-| Parameter | Type | Deskripsi |
-|-----------|------|-----------|
-| `code` | string | Kode provinsi |
-
-#### Parameter Query
-
-| Parameter | Type | Deskripsi |
-|-----------|------|-----------|
-| `page` | integer | Nomor halaman (default: 1) |
-| `per_page` | integer | Item per halaman (default: 15, max: 100) |
-| `search` | string | Pencarian berdasarkan nama |
-| `regency_code` | string | Filter berdasarkan kode kabupaten/kota |
-
-#### Contoh Request
+#### Contoh Permintaan
 
 ```bash
-curl "https://your-app.com/nusa/provinces/33/districts?regency_code=33.74"
+curl "https://your-app.com/nusa/provinces/33/districts?per_page=25"
 ```
 
-### Kelurahan/Desa dalam Provinsi
+### Dapatkan Desa/Kelurahan Provinsi
 
 ```http
 GET /nusa/provinces/{code}/villages
 ```
 
-Mengembalikan semua kelurahan/desa dalam provinsi tertentu.
+Mengembalikan semua desa/kelurahan dalam provinsi tertentu.
 
-#### Parameter Path
+#### Contoh Permintaan
 
-| Parameter | Type | Deskripsi |
-|-----------|------|-----------|
-| `code` | string | Kode provinsi |
-
-#### Parameter Query
-
-| Parameter | Type | Deskripsi |
-|-----------|------|-----------|
-| `page` | integer | Nomor halaman (default: 1) |
-| `per_page` | integer | Item per halaman (default: 15, max: 100) |
-| `search` | string | Pencarian berdasarkan nama |
-| `regency_code` | string | Filter berdasarkan kode kabupaten/kota |
-| `district_code` | string | Filter berdasarkan kode kecamatan |
-| `postal_code` | string | Filter berdasarkan kode pos |
-
-## Model Eloquent
-
-### Atribut
-
-| Atribut | Type | Deskripsi |
-|---------|------|-----------|
-| `code` | string | Kode provinsi unik (2 digit) |
-| `name` | string | Nama provinsi |
-| `latitude` | decimal | Koordinat lintang pusat provinsi |
-| `longitude` | decimal | Koordinat bujur pusat provinsi |
-| `coordinates` | array | Array koordinat batas wilayah |
-| `postal_codes` | array | Array kode pos dalam provinsi |
-
-### Relasi
-
-#### Kabupaten/Kota
-
-```php
-$province = Province::find('33');
-$regencies = $province->regencies;
-
-// Dengan eager loading
-$province = Province::with('regencies')->find('33');
+```bash
+curl "https://your-app.com/nusa/provinces/33/villages?per_page=50"
 ```
 
-#### Kecamatan
+## Atribut Data
 
-```php
-$province = Province::find('33');
-$districts = $province->districts;
+### Objek Provinsi
 
-// Dengan eager loading
-$province = Province::with('districts')->find('33');
-```
-
-#### Kelurahan/Desa
-
-```php
-$province = Province::find('33');
-$villages = $province->villages;
-
-// Dengan eager loading dan pagination
-$villages = $province->villages()->paginate(100);
-```
-
-### Scope
-
-#### Pencarian
-
-```php
-// Pencarian berdasarkan nama
-$provinces = Province::search('jawa')->get();
-
-// Pencarian dengan multiple terms
-$provinces = Province::search('jawa tengah')->get();
-```
-
-#### Filter Berdasarkan Wilayah
-
-```php
-// Provinsi di Pulau Jawa
-$javaProvinces = Province::whereIn('code', ['31', '32', '33', '34', '35', '36'])->get();
-
-// Provinsi di luar Jawa
-$outsideJava = Province::whereNotIn('code', ['31', '32', '33', '34', '35', '36'])->get();
-```
-
-### Accessor
-
-#### Jumlah Wilayah
-
-```php
-$province = Province::find('33');
-
-echo $province->regencies_count;  // Jumlah kabupaten/kota
-echo $province->districts_count;  // Jumlah kecamatan
-echo $province->villages_count;   // Jumlah kelurahan/desa
-```
-
-#### Informasi Geografis
-
-```php
-$province = Province::find('33');
-
-echo $province->center_coordinates; // [latitude, longitude]
-echo $province->bounding_box;       // [min_lat, min_lng, max_lat, max_lng]
-```
+| Atribut | Tipe | Deskripsi |
+|-----------|------|-------------|
+| `code` | string | Kode provinsi 2 digit |
+| `name` | string | Nama provinsi dalam bahasa Indonesia |
+| `latitude` | number | Lintang pusat geografis |
+| `longitude` | number | Bujur pusat geografis |
+| `coordinates` | array | Koordinat poligon batas (format GeoJSON) |
+| `postal_codes` | array | Semua kode pos di dalam provinsi |
 
 ## Contoh Penggunaan
 
-### Dasar
+::: code-group
 
-```php
-use Creasi\Nusa\Models\Province;
+```js [fetch]
+class ProvinceService {
+  constructor(baseUrl = '/nusa') {
+    this.baseUrl = baseUrl;
+  }
+  
+  async getAll(params = {}) {
+    const query = new URLSearchParams(params);
+    const response = await fetch(`${this.baseUrl}/provinces?${query}`);
+    return response.json();
+  }
+  
+  async getById(code) {
+    const response = await fetch(`${this.baseUrl}/provinces/${code}`);
+    return response.json();
+  }
+  
+  async getRegencies(code, params = {}) {
+    const query = new URLSearchParams(params);
+    const response = await fetch(`${this.baseUrl}/provinces/${code}/regencies?${query}`);
+    return response.json();
+  }
+  
+  async search(query) {
+    const response = await fetch(`${this.baseUrl}/provinces?search=${encodeURIComponent(query)}`);
+    return response.json();
+  }
+}
+
+// Penggunaan
+const provinceService = new ProvinceService();
 
 // Dapatkan semua provinsi
-$provinces = Province::all();
+const provinces = await provinceService.getAll();
 
-// Dapatkan provinsi berdasarkan kode
-$jateng = Province::find('33');
+// Cari provinsi
+const javaProvinces = await provinceService.search('jawa');
 
-// Pencarian provinsi
-$javaProvinces = Province::search('jawa')->get();
+// Dapatkan provinsi tertentu
+const centralJava = await provinceService.getById('33');
+
+// Dapatkan kabupaten/kota di Jawa Tengah
+const regencies = await provinceService.getRegencies('33');
 ```
 
-### Dengan Relasi
+```php [guzzle]
+use GuzzleHttp\Client;
 
-```php
-// Dapatkan provinsi dengan kabupaten/kota
-$province = Province::with('regencies')->find('33');
-
-foreach ($province->regencies as $regency) {
-    echo $regency->name . "\n";
+class ProvinceService
+{
+    private $client;
+    private $baseUrl;
+    
+    public function __construct(string $baseUrl = 'https://your-app.com/nusa')
+    {
+        $this->baseUrl = $baseUrl;
+        $this->client = new Client(['base_uri' => $baseUrl]);
+    }
+    
+    public function getAll(array $params = []): array
+    {
+        $response = $this->client->get('/provinces', [
+            'query' => $params
+        ]);
+        
+        return json_decode($response->getBody(), true);
+    }
+    
+    public function getById(string $code): array
+    {
+        $response = $this->client->get("/provinces/{$code}");
+        return json_decode($response->getBody(), true);
+    }
+    
+    public function getRegencies(string $code, array $params = []): array
+    {
+        $response = $this->client->get("/provinces/{$code}/regencies", [
+            'query' => $params
+        ]);
+        
+        return json_decode($response->getBody(), true);
+    }
+    
+    public function search(string $query): array
+    {
+        return $this->getAll(['search' => $query]);
+    }
 }
 
-// Dapatkan provinsi dengan semua level
-$province = Province::with([
-    'regencies.districts.villages'
-])->find('33');
+// Penggunaan
+$provinceService = new ProvinceService();
+
+// Dapatkan semua provinsi
+$provinces = $provinceService->getAll();
+
+// Cari provinsi
+$javaProvinces = $provinceService->search('jawa');
+
+// Dapatkan provinsi tertentu
+$centralJava = $provinceService->getById('33');
+
+// Dapatkan kabupaten/kota di Jawa Tengah
+$regencies = $provinceService->getRegencies('33', ['per_page' => 50]);
 ```
 
-### Pagination
+```python [python]
+import requests
+from typing import Dict, List, Optional
 
-```php
-// Pagination sederhana
-$provinces = Province::paginate(10);
+class ProvinceService:
+    def __init__(self, base_url: str = "https://your-app.com/nusa"):
+        self.base_url = base_url
+        
+    def get_all(self, params: Optional[Dict] = None) -> Dict:
+        response = requests.get(f"{self.base_url}/provinces", params=params)
+        response.raise_for_status()
+        return response.json()
+        
+    def get_by_id(self, code: str) -> Dict:
+        response = requests.get(f"{self.base_url}/provinces/{code}")
+        response.raise_for_status()
+        return response.json()
+        
+    def get_regencies(self, code: str, params: Optional[Dict] = None) -> Dict:
+        response = requests.get(f"{self.base_url}/provinces/{code}/regencies", params=params)
+        response.raise_for_status()
+        return response.json()
+        
+    def search(self, query: str) -> Dict:
+        return self.get_all({"search": query})
 
-// Pagination dengan pencarian
-$provinces = Province::search('jawa')->paginate(5);
+# Penggunaan
+province_service = ProvinceService();
 
-// Pagination dengan relasi
-$provinces = Province::with('regencies')->paginate(10);
+# Dapatkan semua provinsi
+provinces = province_service.get_all();
+
+# Cari provinsi
+java_provinces = province_service.search("jawa");
+
+# Dapatkan provinsi tertentu
+central_java = province_service.get_by_id("33");
+
+# Dapatkan kabupaten/kota di Jawa Tengah
+regencies = province_service.get_regencies("33", {"per_page": 50});
 ```
 
-### Statistik
+:::
 
-```php
-// Hitung total wilayah per provinsi
-$stats = Province::withCount([
-    'regencies',
-    'districts', 
-    'villages'
-])->get();
-
-foreach ($stats as $province) {
-    echo "{$province->name}:\n";
-    echo "- Kabupaten/Kota: {$province->regencies_count}\n";
-    echo "- Kecamatan: {$province->districts_count}\n";
-    echo "- Kelurahan/Desa: {$province->villages_count}\n\n";
-}
-```
-
-## Error Handling
+## Penanganan Error
 
 ### Error Umum
 
@@ -400,141 +395,78 @@ foreach ($stats as $province) {
 }
 ```
 
-### Contoh Error Handling
+### Contoh Penanganan Error
 
 ```js
 async function getProvince(code) {
   try {
     const response = await fetch(`/nusa/provinces/${code}`);
-
+    
     if (!response.ok) {
       if (response.status === 404) {
         throw new Error(`Provinsi dengan kode ${code} tidak ditemukan`);
       }
       throw new Error(`HTTP error! status: ${response.status}`);
     }
-
+    
     const data = await response.json();
     return data.data;
   } catch (error) {
-    console.error('Error mengambil data provinsi:', error);
+    console.error('Gagal mengambil provinsi:', error);
     throw error;
   }
 }
 ```
 
-```php
-// PHP Error Handling
-try {
-    $province = Province::findOrFail('99');
-} catch (ModelNotFoundException $e) {
-    return response()->json([
-        'error' => 'Provinsi tidak ditemukan',
-        'message' => 'Kode provinsi yang diminta tidak valid'
-    ], 404);
-}
-```
-
-## Tips Performa
+## Tips Kinerja
 
 ### Caching
 
-```php
-use Illuminate\Support\Facades\Cache;
-
-// Cache daftar provinsi
-$provinces = Cache::remember('provinces.all', 3600, function () {
-    return Province::all();
-});
-
-// Cache provinsi dengan relasi
-$province = Cache::remember("province.{$code}.with_regencies", 3600, function () use ($code) {
-    return Province::with('regencies')->find($code);
-});
-```
-
-### Eager Loading
-
-```php
-// ❌ N+1 Problem
-$provinces = Province::all();
-foreach ($provinces as $province) {
-    echo $province->regencies->count(); // Query untuk setiap provinsi
-}
-
-// ✅ Eager Loading
-$provinces = Province::with('regencies')->get();
-foreach ($provinces as $province) {
-    echo $province->regencies->count(); // Tidak ada query tambahan
-}
-```
-
-### Select Kolom Spesifik
-
-```php
-// ❌ Select semua kolom
-$provinces = Province::all();
-
-// ✅ Select kolom yang diperlukan saja
-$provinces = Province::select(['code', 'name'])->get();
-
-// ✅ Untuk dropdown
-$provinceOptions = Province::pluck('name', 'code');
-```
-
-### Pagination Efisien
-
-```php
-// ❌ Pagination dengan count() yang mahal
-$provinces = Province::with('regencies')->paginate(15);
-
-// ✅ Pagination tanpa count untuk dataset besar
-$provinces = Province::with('regencies')->simplePaginate(15);
-
-// ✅ Cursor pagination untuk performa terbaik
-$provinces = Province::with('regencies')->cursorPaginate(15);
-```
-
-### Database Indexing
-
-```php
-// Pastikan index ada untuk pencarian
-// Migration example:
-Schema::table('provinces', function (Blueprint $table) {
-    $table->index(['name']); // Untuk pencarian nama
-    $table->index(['code']); // Untuk pencarian kode (biasanya sudah ada)
-});
-```
-
-### Optimisasi Query
-
-```php
-// ❌ Query terpisah
-$province = Province::find('33');
-$regencyCount = $province->regencies()->count();
-$districtCount = $province->districts()->count();
-
-// ✅ Query dengan aggregate
-$province = Province::withCount(['regencies', 'districts'])->find('33');
-echo $province->regencies_count;
-echo $province->districts_count;
-```
-
-### Memory Management
-
-```php
-// ❌ Load semua data sekaligus
-$allVillages = Village::where('province_code', '33')->get(); // Bisa jutaan record!
-
-// ✅ Gunakan chunking
-Village::where('province_code', '33')->chunk(1000, function ($villages) {
-    foreach ($villages as $village) {
-        // Process village
+```js
+class CachedProvinceService {
+  constructor() {
+    this.cache = new Map();
+    this.cacheTimeout = 5 * 60 * 1000; // 5 menit
+  }
+  
+  async getById(code) {
+    const cacheKey = `province_${code}`;
+    const cached = this.cache.get(cacheKey);
+    
+    if (cached && Date.now() - cached.timestamp < this.cacheTimeout) {
+      return cached.data;
     }
-});
+    
+    const response = await fetch(`/nusa/provinces/${code}`);
+    const data = await response.json();
+    
+    this.cache.set(cacheKey, {
+      data: data.data,
+      timestamp: Date.now()
+    });
+    
+    return data.data;
+  }
+}
+```
 
-// ✅ Atau lazy loading
-foreach (Village::where('province_code', '33')->lazy() as $village) {
-    // Process village satu per satu
+### Paginasi
+
+```js
+async function getAllProvinces() {
+  const allProvinces = [];
+  let page = 1;
+  let hasMore = true;
+  
+  while (hasMore) {
+    const response = await fetch(`/nusa/provinces?page=${page}&per_page=50`);
+    const data = await response.json();
+    
+    allProvinces.push(...data.data);
+    hasMore = data.meta.current_page < data.meta.last_page;
+    page++;
+  }
+  
+  return allProvinces;
 }
 ```

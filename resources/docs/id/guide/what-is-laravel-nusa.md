@@ -1,59 +1,59 @@
 # Apa itu Laravel Nusa?
 
-Laravel Nusa adalah paket Laravel komprehensif yang menyediakan data wilayah administratif Indonesia lengkap, termasuk provinsi, kabupaten/kota, kecamatan, dan kelurahan/desa. Paket ini dirancang untuk "siap pakai setelah diinstal" tanpa memerlukan proses setup kompleks atau migrasi data.
+Laravel Nusa adalah paket Laravel komprehensif yang menyediakan data wilayah administratif Indonesia lengkap, termasuk provinsi, kabupaten/kota, kecamatan, dan desa/kelurahan. Ini dirancang agar "siap digunakan setelah diinstal" tanpa memerlukan pengaturan kompleks atau proses migrasi data.
 
 ## Masalah yang Dipecahkan
 
-Ketika membangun aplikasi yang melayani pengguna Indonesia, developer sering membutuhkan akses ke data wilayah administratif untuk:
+Saat membangun aplikasi yang melayani pengguna Indonesia, pengembang seringkali membutuhkan akses ke data wilayah administratif untuk:
 
-- **Form alamat** dengan dropdown bertingkat
-- **Layanan berbasis lokasi** dan filtering
-- **Kalkulasi pengiriman dan logistik**
-- **Persyaratan kepatuhan pemerintah**
-- **Validasi dan standardisasi data**
+- **Formulir alamat** dengan *dropdown* bertingkat
+- **Layanan berbasis lokasi** dan pemfilteran
+- Perhitungan **biaya pengiriman dan logistik**
+- Persyaratan **kepatuhan pemerintah**
+- **Validasi data** dan standardisasi
 
 Secara tradisional, ini berarti:
 - ❌ Mengunduh dan mengimpor dataset besar secara manual
-- ❌ Menjalankan database seeder yang memakan waktu
+- ❌ Menjalankan *seeder* database yang memakan waktu
 - ❌ Memelihara sinkronisasi data dengan sumber resmi
 - ❌ Menangani format data yang tidak konsisten
-- ❌ Mengelola performa database dengan dataset besar
+- ❌ Mengelola kinerja database dengan dataset besar
 
 ## Solusi Laravel Nusa
 
-Laravel Nusa menghilangkan tantangan ini dengan menyediakan:
+Laravel Nusa menghilangkan tantangan-tantangan ini dengan menyediakan:
 
-- ✅ **Database SQLite yang sudah dikemas** dengan semua data siap pakai
-- ✅ **Setup tanpa konfigurasi** - cukup instal dan mulai gunakan
-- ✅ **Update otomatis** dari sumber resmi pemerintah
-- ✅ **Performa yang dioptimalkan** dengan indexing dan relasi yang tepat
-- ✅ **API yang bersih** dengan model Eloquent dan endpoint RESTful
+- ✅ **Database SQLite yang sudah dikemas** dengan semua data siap digunakan
+- ✅ **Pengaturan tanpa konfigurasi** - cukup instal dan mulai gunakan
+- ✅ **Pembaruan otomatis** dari sumber resmi pemerintah
+- ✅ **Kinerja yang dioptimalkan** dengan pengindeksan dan relasi yang tepat
+- ✅ **API yang bersih** dengan model Eloquent dan *endpoint* RESTful
 
 ## Fitur Utama
 
 ### Hierarki Administratif Lengkap
 
 ```
-🇮🇩 Indonesia
-├── 38 Provinsi
-├── 514 Kabupaten/Kota
-├── 7,285 Kecamatan
-└── 83,762 Kelurahan/Desa
+Indonesia
+└── 34 Provinces (Provinsi)
+    └── 514 Regencies (Kabupaten/Kota)
+        └── 7,285 Districts (Kecamatan)
+            └── 83,762 Villages (Kelurahan/Desa)
 ```
 
-### Atribut Data Kaya
+### Atribut Data yang Kaya
 
 - **Kode resmi** mengikuti standar pemerintah
 - **Koordinat geografis** untuk pemetaan dan layanan lokasi
 - **Kode pos** untuk pengiriman dan logistik
-- **Data batas** untuk analisis geografis
-- **Relasi hierarkis** untuk query yang efisien
+- **Data batas wilayah** untuk analisis geografis
+- **Relasi hierarkis** untuk kueri yang efisien
 
-### Integrasi Native Laravel
+### Integrasi Laravel-Native
 
 - **Model Eloquent** dengan relasi yang tepat
 - **Migrasi database** untuk manajemen alamat
-- **Service provider** untuk konfigurasi otomatis
+- **Penyedia layanan** untuk konfigurasi otomatis
 - **Perintah Artisan** untuk manajemen data
 - **Trait** untuk integrasi model yang mudah
 
@@ -65,57 +65,57 @@ Laravel Nusa mengintegrasikan data dari beberapa sumber otoritatif:
 - **[cahyadsn/wilayah_kodepos](https://github.com/cahyadsn/wilayah_kodepos)** - Pemetaan kode pos
 - **[cahyadsn/wilayah_boundaries](https://github.com/cahyadsn/wilayah_boundaries)** - Batas geografis
 
-Sumber-sumber ini dipantau dan diperbarui secara otomatis melalui workflow GitHub Actions.
+Sumber-sumber ini secara otomatis dipantau dan diperbarui melalui alur kerja GitHub Actions.
 
 ## Filosofi Arsitektur
 
 ### Pendekatan Tanpa Konfigurasi
 
-Tidak seperti paket lain yang memerlukan seeding manual, Laravel Nusa hadir dengan database SQLite yang sudah dibangun berisi semua data. Ini berarti:
+Tidak seperti paket lain yang memerlukan *seeding* manual, Laravel Nusa dilengkapi dengan database SQLite yang sudah dibuat sebelumnya yang berisi semua data. Ini berarti:
 
 - **Ketersediaan instan** setelah instalasi
-- **Tidak berdampak pada performa database utama** Anda
-- **Data konsisten** di semua instalasi
-- **Deployment mudah** tanpa langkah setup tambahan
+- **Tidak ada dampak pada kinerja database utama** Anda
+- **Data yang konsisten** di semua instalasi
+- **Penerapan yang mudah** tanpa langkah pengaturan tambahan
 
-### Desain Privacy-First
+### Desain Mengutamakan Privasi
 
 Paket ini memelihara dua versi database:
 
-- **Database development** (~407MB) - Termasuk data koordinat lengkap untuk development
+- **Database pengembangan** (~407MB) - Termasuk data koordinat lengkap untuk pengembangan
 - **Database distribusi** (~10MB) - Koordinat dihapus untuk kepatuhan privasi
 
-### Optimasi Performa
+### Optimasi Kinerja
 
 - **Koneksi database terpisah** untuk menghindari konflik
-- **Indexing yang tepat** untuk query cepat
-- **Relasi efisien** menggunakan foreign key
-- **Dukungan pagination** untuk dataset besar
+- **Pengindeksan yang tepat** untuk kueri cepat
+- **Relasi yang efisien** menggunakan kunci asing
+- **Dukungan paginasi** untuk dataset besar
 
 ## Kasus Penggunaan
 
-Laravel Nusa sempurna untuk:
+Laravel Nusa sangat cocok untuk:
 
 ### Aplikasi E-commerce
-- Form alamat dengan validasi real-time
-- Kalkulasi biaya pengiriman
+- Formulir alamat dengan validasi *real-time*
+- Perhitungan biaya pengiriman
 - Ketersediaan produk regional
 
-### Sistem Pemerintah
-- Form registrasi warga
+### Sistem Pemerintahan
+- Formulir pendaftaran warga
 - Pelaporan administratif
-- Kepatuhan dengan standar resmi
+- Kepatuhan terhadap standar resmi
 
 ### Layanan Berbasis Lokasi
-- Store locator
+- Pencari toko
 - Pemetaan area layanan
-- Analitik geografis
+- Analisis geografis
 
-### Analitik Data
-- Analisis performa regional
-- Studi demografis
+### Analisis Data
+- Analisis kinerja regional
+- Studi demografi
 - Riset pasar
 
 ## Langkah Selanjutnya
 
-Siap untuk memulai? Lihat panduan [Memulai](/id/guide/getting-started) untuk menginstal dan mengkonfigurasi Laravel Nusa dalam aplikasi Anda.
+Siap untuk memulai? Periksa panduan [Memulai](/id/guide/getting-started) kami untuk menginstal dan mengkonfigurasi Laravel Nusa di aplikasi Anda.

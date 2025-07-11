@@ -1,338 +1,302 @@
 # Ikhtisar API
 
-Laravel Nusa menyediakan RESTful API yang lengkap untuk mengakses data wilayah administratif Indonesia, dengan endpoint yang mudah digunakan dan response yang konsisten untuk semua tingkat administratif.
+Laravel Nusa menyediakan API RESTful yang komprehensif untuk mengakses data administratif Indonesia. API ini secara otomatis tersedia setelah instalasi dan mengikuti konvensi Laravel untuk konsistensi dan kemudahan penggunaan.
 
-## Base URL
+## URL Dasar
 
-Semua endpoint API menggunakan prefix `/nusa` secara default:
+Semua *endpoint* API diawali dengan `/nusa` secara *default*:
 
 ```
 https://your-app.com/nusa/
 ```
 
-## Autentikasi
+Anda dapat menyesuaikan awalan ini di [konfigurasi](/id/guide/configuration).
 
-Secara default, endpoint API bersifat publik. Anda dapat menambahkan autentikasi dengan mengkonfigurasi middleware di file `config/nusa.php`:
+## Otentikasi
 
-```php
-'api' => [
-    'middleware' => ['api', 'auth:sanctum'],
-],
-```
+*Endpoint* API **bersifat publik secara *default*** dan tidak memerlukan otentikasi. Ini membuatnya cocok untuk:
 
-## Format Response
+- Formulir alamat publik
+- Layanan berbasis lokasi
+- Visualisasi data geografis
+- Aplikasi seluler
 
-Semua response API mengikuti format JSON yang konsisten:
+::: warning Catatan Keamanan
+Jika Anda perlu membatasi akses, Anda dapat menerapkan *middleware* ke rute atau menonaktifkannya sepenuhnya dan membuat *endpoint* terlindungi Anda sendiri.
+:::
+
+## Format Respon
+
+Semua respon API mengikuti struktur JSON yang konsisten:
+
+### Respon Koleksi
 
 ```json
 {
-    "data": [...],
-    "links": {
-        "first": "...",
-        "last": "...",
-        "prev": null,
-        "next": "..."
-    },
-    "meta": {
-        "current_page": 1,
-        "from": 1,
-        "last_page": 10,
-        "per_page": 15,
-        "to": 15,
-        "total": 150
+  "data": [
+    {
+      "code": "33",
+      "name": "Jawa Tengah",
+      "latitude": -6.9934809206806,
+      "longitude": 110.42024335421,
+      "coordinates": [...],
+      "postal_codes": [...]
     }
+  ],
+  "links": {
+    "first": "http://localhost:8000/nusa/provinces?page=1",
+    "last": "http://localhost:8000/nusa/provinces?page=3",
+    "prev": null,
+    "next": "http://localhost:8000/nusa/provinces?page=2"
+  },
+  "meta": {
+    "current_page": 1,
+    "from": 1,
+    "last_page": 3,
+    "per_page": 15,
+    "to": 15,
+    "total": 34
+  }
 }
 ```
 
-## Endpoint yang Tersedia
+### Respon Sumber Daya Tunggal
 
-### Provinsi
-
-```http
-# Dapatkan semua provinsi
-GET /nusa/provinces
-
-# Dapatkan provinsi tertentu
-GET /nusa/provinces/{code}
-
-# Dapatkan kabupaten/kota dalam provinsi
-GET /nusa/provinces/{code}/regencies
-
-# Dapatkan kecamatan dalam provinsi
-GET /nusa/provinces/{code}/districts
-
-# Dapatkan kelurahan/desa dalam provinsi
-GET /nusa/provinces/{code}/villages
+```json
+{
+  "data": {
+    "code": "33",
+    "name": "Jawa Tengah",
+    "latitude": -6.9934809206806,
+    "longitude": 110.42024335421,
+    "coordinates": [...],
+    "postal_codes": [...]
+  },
+  "meta": {}
+}
 ```
 
-### Kabupaten/Kota
+## Paginasi
 
-```http
-# Dapatkan semua kabupaten/kota
-GET /nusa/regencies
+Semua *endpoint* koleksi mendukung paginasi:
 
-# Dapatkan kabupaten/kota tertentu
-GET /nusa/regencies/{code}
+- **Ukuran halaman *default***: 15 item
+- **Ukuran halaman maksimum**: 100 item
+- **Parameter halaman**: `?page=2`
+- **Parameter per halaman**: `?per_page=50`
 
-# Dapatkan kecamatan dalam kabupaten/kota
-GET /nusa/regencies/{code}/districts
+### Contoh Paginasi
 
-# Dapatkan kelurahan/desa dalam kabupaten/kota
-GET /nusa/regencies/{code}/villages
+```bash
+# Dapatkan halaman kedua dengan 25 item per halaman
+GET /nusa/provinces?page=2&per_page=25
 ```
 
-### Kecamatan
-
-```http
-# Dapatkan semua kecamatan
-GET /nusa/districts
-
-# Dapatkan kecamatan tertentu
-GET /nusa/districts/{code}
-
-# Dapatkan kelurahan/desa dalam kecamatan
-GET /nusa/districts/{code}/villages
-```
-
-### Kelurahan/Desa
-
-```http
-# Dapatkan semua kelurahan/desa
-GET /nusa/villages
-
-# Dapatkan kelurahan/desa tertentu
-GET /nusa/villages/{code}
-```
-
-## Parameter Query
-
-### Pagination
-
-```http
-# Parameter page dan per_page
-GET /nusa/provinces?page=2&per_page=20
-```
+## Parameter Kueri
 
 ### Pencarian
 
+Cari berdasarkan nama atau kode menggunakan parameter `search`:
+
 ```http
-# Pencarian berdasarkan nama atau kode
+# Cari provinsi berdasarkan nama
 GET /nusa/provinces?search=jawa
+
+# Cari berdasarkan kode
+GET /nusa/provinces?search=33
+
+# Cari kabupaten/kota
 GET /nusa/regencies?search=semarang
 ```
 
-### Filter
+### Pemfilteran berdasarkan Kode
+
+Filter hasil berdasarkan kode tertentu menggunakan parameter `codes[]`:
 
 ```http
-# Filter berdasarkan kode induk
-GET /nusa/regencies?province_code=33
-GET /nusa/districts?regency_code=33.74
-GET /nusa/villages?district_code=33.74.01
+# Dapatkan provinsi tertentu
+GET /nusa/provinces?codes[]=33&codes[]=34&codes[]=35
 
-# Filter berdasarkan multiple kode
-GET /nusa/villages?codes[]=33.74.01.1001&codes[]=33.74.01.1002
-
-# Filter berdasarkan kode pos
-GET /nusa/villages?postal_code=50132
+# Dapatkan kabupaten/kota tertentu
+GET /nusa/regencies?codes[]=3375&codes[]=3376
 ```
 
-### Pengurutan
+### Menggabungkan Parameter
+
+Anda dapat menggabungkan pencarian dan pemfilteran:
 
 ```http
-# Urutkan berdasarkan nama atau kode
-GET /nusa/provinces?sort=name
-GET /nusa/provinces?sort=-name  # Descending
+# Cari "jakarta" di provinsi tertentu
+GET /nusa/regencies?search=jakarta&codes[]=31&codes[]=32
 ```
 
-### Menyertakan Relasi
+## Ikhtisar Endpoint
 
-```http
-# Sertakan data relasi
-GET /nusa/villages?include=district,regency,province
-GET /nusa/districts?include=regency.province
-```
+### Endpoint Provinsi
 
-## Contoh Request
+| Metode | Endpoint | Deskripsi |
+|--------|----------|-------------|
+| GET | `/nusa/provinces` | Daftar semua provinsi |
+| GET | `/nusa/provinces/{code}` | Dapatkan provinsi tertentu |
+| GET | `/nusa/provinces/{code}/regencies` | Dapatkan kabupaten/kota di provinsi |
+| GET | `/nusa/provinces/{code}/districts` | Dapatkan kecamatan di provinsi |
+| GET | `/nusa/provinces/{code}/villages` | Dapatkan desa/kelurahan di provinsi |
 
-### Dapatkan Semua Provinsi
+### Endpoint Kabupaten/Kota
 
-```bash
-curl -X GET "https://your-app.com/nusa/provinces" \
-     -H "Accept: application/json"
-```
+| Metode | Endpoint | Deskripsi |
+|--------|----------|-------------|
+| GET | `/nusa/regencies` | Daftar semua kabupaten/kota |
+| GET | `/nusa/regencies/{code}` | Dapatkan kabupaten/kota tertentu |
+| GET | `/nusa/regencies/{code}/districts` | Dapatkan kecamatan di kabupaten/kota |
+| GET | `/nusa/regencies/{code}/villages` | Dapatkan desa/kelurahan di kabupaten/kota |
 
-Response:
+### Endpoint Kecamatan
+
+| Metode | Endpoint | Deskripsi |
+|--------|----------|-------------|
+| GET | `/nusa/districts` | Daftar semua kecamatan |
+| GET | `/nusa/districts/{code}` | Dapatkan kecamatan tertentu |
+| GET | `/nusa/districts/{code}/villages` | Dapatkan desa/kelurahan di kecamatan |
+
+### Endpoint Desa/Kelurahan
+
+| Metode | Endpoint | Deskripsi |
+|--------|----------|-------------|
+| GET | `/nusa/villages` | Daftar semua desa/kelurahan |
+| GET | `/nusa/villages/{code}` | Dapatkan desa/kelurahan tertentu |
+
+## Atribut Data
+
+### Atribut Provinsi
+
 ```json
 {
-    "data": [
-        {
-            "code": "11",
-            "name": "Aceh",
-            "latitude": 4.695135,
-            "longitude": 96.7493993,
-            "regencies_count": 23,
-            "districts_count": 289,
-            "villages_count": 6497
-        },
-        // ...
-    ],
-    "meta": {
-        "current_page": 1,
-        "total": 34
-    }
+  "code": "33",                   // Kode provinsi 2 digit
+  "name": "Jawa Tengah",          // Nama provinsi
+  "latitude": -6.9934809206806,   // Lintang pusat
+  "longitude": 110.42024335421,   // Bujur pusat
+  "coordinates": [...],           // Koordinat batas (array)
+  "postal_codes": [...]           // Semua kode pos di provinsi
 }
 ```
 
-### Pencarian Provinsi
+### Atribut Kabupaten/Kota
 
-```bash
-curl -X GET "https://your-app.com/nusa/provinces?search=jawa" \
-     -H "Accept: application/json"
+```json
+{
+  "code": "33.75",                // Kode kabupaten/kota xx.xx
+  "province_code": "33",          // Kode provinsi induk
+  "name": "Kota Pekalongan",      // Nama kabupaten/kota
+  "latitude": -6.8969497174987,   // Lintang pusat
+  "longitude": 109.66208089654,   // Bujur pusat
+  "coordinates": [...],           // Koordinat batas (array)
+  "postal_codes": [...]           // Semua kode pos di kabupaten/kota
+}
 ```
 
-### Dapatkan Provinsi dengan Kabupaten/Kota
+### Atribut Kecamatan
 
-```bash
-curl -X GET "https://your-app.com/nusa/provinces/33?include=regencies" \
-     -H "Accept: application/json"
+```json
+{
+  "code": "33.75.01",             // Kode kecamatan xx.xx.xx
+  "regency_code": "33.75",        // Kode kabupaten/kota induk
+  "province_code": "33",          // Kode provinsi induk
+  "name": "Pekalongan Barat",     // Nama kecamatan
+  "postal_codes": [51111, 51112]  // Kode pos di kecamatan
+}
 ```
 
-### Dapatkan Kelurahan/Desa berdasarkan Kode Pos
+### Atribut Desa/Kelurahan
 
-```bash
-curl -X GET "https://your-app.com/nusa/villages?postal_code=50132" \
-     -H "Accept: application/json"
-```
-
-## Rate Limiting
-
-API menyertakan pembatasan rate untuk mencegah penyalahgunaan:
-
-- **Default**: 60 request per menit
-- **Dapat dikonfigurasi** di `config/nusa.php`
-
-Header rate limit disertakan dalam response:
-
-```
-X-RateLimit-Limit: 60
-X-RateLimit-Remaining: 59
-X-RateLimit-Reset: 1640995200
+```json
+{
+  "code": "33.75.01.1002",        // Kode desa/kelurahan xx.xx.xx.xxxx
+  "district_code": "33.75.01",    // Kode kecamatan induk
+  "regency_code": "33.75",        // Kode kabupaten/kota induk
+  "province_code": "33",          // Kode provinsi induk
+  "name": "Medono",               // Nama desa/kelurahan
+  "postal_code": "51111"          // Kode pos desa/kelurahan
+}
 ```
 
 ## Penanganan Error
 
 API mengembalikan kode status HTTP standar:
 
-- `200` - Sukses
-- `404` - Resource tidak ditemukan
-- `422` - Error validasi
-- `429` - Rate limit terlampaui
-- `500` - Server error
+### Kode Sukses
 
-Response error menyertakan detail:
+- **200 OK** - Permintaan berhasil
+- **404 Not Found** - Sumber daya tidak ditemukan
+
+### Format Respon Error
 
 ```json
 {
-    "message": "The given data was invalid.",
-    "errors": {
-        "search": ["The search field must be at least 2 characters."]
-    }
+  "message": "No query results for model [Creasi\\Nusa\\Models\\Province] 99",
+  "exception": "Illuminate\\Database\\Eloquent\\ModelNotFoundException"
 }
 ```
 
 ## Dukungan CORS
 
-CORS diaktifkan secara default untuk endpoint API. Anda dapat menyesuaikan pengaturan CORS di aplikasi Laravel Anda.
-
-## Caching
-
-Response API di-cache untuk meningkatkan performa:
-
-- **Default TTL**: 30 menit
-- **Dapat dikonfigurasi** di `config/nusa.php`
-- **Cache headers** disertakan dalam response
-
-## Spesifikasi OpenAPI
-
-Laravel Nusa menyediakan spesifikasi OpenAPI (Swagger) untuk API:
-
-```bash
-GET /nusa/openapi.json
-```
-
-Anda dapat menggunakan ini dengan tools seperti Swagger UI atau Postman untuk dokumentasi dan testing API.
-
-## SDK dan Library
-
-### JavaScript/TypeScript
-
-```bash
-npm install laravel-nusa-js
-```
-
-```js
-import { NusaClient } from 'laravel-nusa-js';
-
-const client = new NusaClient('https://your-app.com');
-const provinces = await client.provinces.list();
-```
-
-### PHP
-
-```bash
-composer require laravel-nusa/php-client
-```
+Jika Anda perlu mengakses API dari aplikasi *browser* di domain yang berbeda, konfigurasikan CORS di aplikasi Laravel Anda:
 
 ```php
-use LaravelNusa\Client\NusaClient;
-
-$client = new NusaClient('https://your-app.com');
-$provinces = $client->provinces()->list();
+// config/cors.php
+'paths' => ['api/*', 'nusa/*'],
+'allowed_methods' => ['GET'],
+'allowed_origins' => ['*'],
 ```
 
-## Contoh Implementasi
+## Contoh Penggunaan
 
-### Membangun Location Selector
+::: code-group
 
-```js
-// Ambil provinsi untuk dropdown
-fetch('/nusa/provinces')
-    .then(response => response.json())
-    .then(data => {
-        const select = document.getElementById('province');
-        data.data.forEach(province => {
-            const option = new Option(province.name, province.code);
-            select.add(option);
-        });
-    });
+```js [fetch]
+// Dapatkan semua provinsi
+const response = await fetch('/nusa/provinces');
+const data = await response.json();
+console.log(data.data); // Array provinsi
 
-// Load kabupaten/kota ketika provinsi berubah
-function loadRegencies(provinceCode) {
-    fetch(`/nusa/provinces/${provinceCode}/regencies`)
-        .then(response => response.json())
-        .then(data => {
-            // Populate regency dropdown
-        });
-}
+// Cari kabupaten/kota
+const searchResponse = await fetch('/nusa/regencies?search=jakarta');
+const searchData = await searchResponse.json();
 ```
 
-### Validasi Alamat
+```bash [curl]
+# Dapatkan provinsi
+curl -X GET "https://your-app.com/nusa/provinces" \
+  -H "Accept: application/json"
 
-```js
-async function validateAddress(address) {
-    const village = await fetch(`/nusa/villages/${address.village_code}`)
-        .then(r => r.json());
-
-    return {
-        valid: village.data.district_code === address.district_code,
-        village: village.data
-    };
-}
+# Dapatkan provinsi tertentu dengan kabupaten/kota
+curl -X GET "https://your-app.com/nusa/provinces/33/regencies" \
+  -H "Accept: application/json"
 ```
+
+```php [guzzle]
+use GuzzleHttp\Client;
+
+$client = new Client(['base_uri' => 'https://your-app.com/']);
+
+// Dapatkan provinsi
+$response = $client->get('nusa/provinces');
+$provinces = json_decode($response->getBody(), true);
+
+// Cari kabupaten/kota
+$response = $client->get('nusa/regencies', [
+    'query' => ['search' => 'jakarta']
+]);
+$regencies = json_decode($response->getBody(), true);
+```
+
+:::
 
 ## Langkah Selanjutnya
 
-- **[API Provinsi](/id/api/provinces)** - Dokumentasi endpoint provinsi
-- **[API Kabupaten/Kota](/id/api/regencies)** - Dokumentasi endpoint kabupaten/kota
-- **[API Kecamatan](/id/api/districts)** - Dokumentasi endpoint kecamatan
-- **[API Kelurahan/Desa](/id/api/villages)** - Dokumentasi endpoint kelurahan/desa
+Jelajahi dokumentasi API terperinci untuk setiap *endpoint*:
+
+- **[API Provinsi](/id/api/provinces)** - *Endpoint* dan contoh provinsi
+- **[API Kabupaten/Kota](/id/api/regencies)** - *Endpoint* dan contoh kabupaten/kota
+- **[API Kecamatan](/id/api/districts)** - *Endpoint* dan contoh kecamatan
+- **[API Desa/Kelurahan](/id/api/villages)** - *Endpoint* dan contoh desa/kelurahan

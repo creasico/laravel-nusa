@@ -1,19 +1,19 @@
 # Contoh Penggunaan Dasar
 
-Halaman ini menyediakan contoh praktis penggunaan Laravel Nusa dalam skenario umum. Contoh-contoh ini mendemonstrasikan kasus penggunaan dan pola yang paling sering Anda temui saat bekerja dengan data administratif Indonesia.
+Halaman ini menyediakan contoh praktis penggunaan Laravel Nusa dalam skenario umum. Contoh-contoh ini menunjukkan kasus penggunaan dan pola yang paling sering Anda temui saat bekerja dengan data administratif Indonesia.
 
-## Mencari Wilayah Administratif
+## Menemukan Wilayah Administratif
 
 ### Berdasarkan Kode
 
 ```php
 use Creasi\Nusa\Models\{Province, Regency, District, Village};
 
-// Cari berdasarkan kode yang tepat
+// Temukan berdasarkan kode persis
 $province = Province::find('33');              // Jawa Tengah
 $regency = Regency::find('33.75');            // Kota Pekalongan
 $district = District::find('33.75.01');       // Pekalongan Barat
-$village = Village::find('33.75.01.1002');    // Kelurahan Medono
+$village = Village::find('33.75.01.1002');    // Desa Medono
 
 // Periksa apakah ditemukan
 if ($province) {
@@ -26,18 +26,18 @@ if ($province) {
 ### Berdasarkan Pencarian Nama
 
 ```php
-// Pencarian case-insensitive
+// Pencarian tidak peka huruf besar/kecil
 $provinces = Province::search('jawa')->get();
 $regencies = Regency::search('semarang')->get();
 $districts = District::search('pekalongan')->get();
 $villages = Village::search('medono')->get();
 
-// Ambil hasil pertama
+// Dapatkan hasil pertama
 $jateng = Province::search('jawa tengah')->first();
 $semarang = Regency::search('kota semarang')->first();
 ```
 
-### Pencarian dengan Multiple Terms
+### Beberapa Istilah Pencarian
 
 ```php
 // Cari beberapa provinsi
@@ -47,298 +47,313 @@ $javaProvinces = Province::where(function ($query) {
           ->orWhere(function ($q) { $q->search('jawa timur'); });
 })->get();
 
-// Pencarian dengan alternatif kode
-$jakarta = Province::where('code', '31')
+// Cari dengan alternatif kode
+$results = Province::search('33')
     ->orWhere(function ($query) {
-        $query->search('jakarta')
-              ->orSearch('dki jakarta')
-              ->orSearch('dki');
-    })->first();
+        $query->search('jawa tengah');
+    })->get();
 ```
 
 ## Bekerja dengan Relasi
 
-### Memuat Data Terkait
+### Mendapatkan Data Terkait
 
 ```php
-// Eager loading untuk performa yang lebih baik
-$province = Province::with(['regencies', 'regencies.districts'])
-    ->find('33');
+use Creasi\Nusa\Models\Province;
 
-// Akses data terkait
-foreach ($province->regencies as $regency) {
-    echo "Kabupaten/Kota: {$regency->name}\n";
-    
-    foreach ($regency->districts as $district) {
-        echo "  - Kecamatan: {$district->name}\n";
-    }
-}
+$province = Province::find('33');
+
+// Dapatkan semua kabupaten/kota di provinsi
+$regencies = $province->regencies;
+echo "Kabupaten/Kota di {$province->name}: {$regencies->count()}";
+
+// Dapatkan semua kecamatan di provinsi
+$districts = $province->districts;
+echo "Kecamatan di {$province->name}: {$districts->count()}";
+
+// Dapatkan semua desa/kelurahan di provinsi
+$villages = $province->villages;
+echo "Desa/Kelurahan di {$province->name}: {$villages->count()}";
 ```
 
-### Navigasi Hierarki
+### *Eager Loading* untuk Kinerja
 
 ```php
-// Dari desa ke provinsi
+// Muat provinsi dengan kabupaten/kotanya
+$province = Province::with('regencies')->find('33');
+
+// Muat beberapa relasi
+$province = Province::with(['regencies', 'districts'])->find('33');
+
+// Muat relasi bersarang
+$provinces = Province::with(['regencies.districts.villages'])->get();
+
+// Muat hanya kolom tertentu
+$provinces = Province::with(['regencies:code,province_code,name'])->get();
+```
+
+### Relasi Terbalik
+
+```php
+use Creasi\Nusa\Models\Village;
+
 $village = Village::find('33.75.01.1002');
+
+// Dapatkan tingkat administratif induk
 $district = $village->district;
-$regency = $district->regency;
-$province = $regency->province;
+$regency = $village->regency;
+$province = $village->province;
 
 echo "Alamat lengkap: {$village->name}, {$district->name}, {$regency->name}, {$province->name}";
-
-// Atau gunakan relasi nested
-$village = Village::with(['district.regency.province'])->find('33.75.01.1002');
-$fullAddress = [
-    $village->name,
-    $village->district->name,
-    $village->district->regency->name,
-    $village->district->regency->province->name
-];
-echo implode(', ', $fullAddress);
 ```
 
-### Memuat Anak-anak dari Parent
+## Integrasi Formulir Alamat
+
+Untuk membangun formulir alamat lengkap dengan *dropdown* bertingkat, lihat panduan khusus [Formulir Alamat](/id/examples/address-forms) yang mencakup:
+
+- Implementasi *controller backend* lengkap
+- Integrasi JavaScript *frontend* dengan beberapa *framework*
+- Validasi formulir dan penanganan *error*
+- Pertimbangan gaya dan UX
+
+### Data Formulir Alamat Cepat
 
 ```php
-// Semua kabupaten/kota di Jawa Tengah
-$regencies = Regency::where('province_code', '33')->get();
-
-// Semua kecamatan di Kota Semarang
-$districts = District::where('regency_code', '33.74')->get();
-
-// Semua kelurahan/desa di Kecamatan Semarang Tengah
-$villages = Village::where('district_code', '33.74.01')->get();
-
-// Dengan pagination untuk dataset besar
-$villages = Village::where('district_code', '33.74.01')
-    ->paginate(50);
-```
-
-## Pencarian dan Filtering
-
-### Pencarian Fuzzy
-
-```php
-// Pencarian yang toleran terhadap typo
-$results = Province::search('jakrta')->get(); // Akan menemukan "Jakarta"
-$results = Regency::search('semarag')->get();  // Akan menemukan "Semarang"
-
-// Pencarian dengan wildcard
-$results = Village::where('name', 'LIKE', '%medono%')->get();
-$results = District::where('name', 'LIKE', 'semarang%')->get();
-```
-
-### Filter Berdasarkan Tipe
-
-```php
-// Filter kabupaten vs kota
-$kabupaten = Regency::where('name', 'LIKE', 'Kabupaten%')->get();
-$kota = Regency::where('name', 'LIKE', 'Kota%')->get();
-
-// Filter kelurahan vs desa
-$kelurahan = Village::where('name', 'LIKE', 'Kelurahan%')->get();
-$desa = Village::where('name', 'NOT LIKE', 'Kelurahan%')->get();
-```
-
-### Pencarian dengan Scope
-
-```php
-// Menggunakan scope kustom
-class Province extends Model
+// Endpoint data dropdown bertingkat sederhana
+class AddressController extends Controller
 {
-    public function scopeJava($query)
+    public function getRegencies(Request $request)
     {
-        return $query->whereIn('code', ['31', '32', '33', '34', '35', '36']);
+        return Regency::where('province_code', $request->province_code)
+            ->orderBy('name')
+            ->get(['code', 'name']);
     }
-    
-    public function scopeOutsideJava($query)
+
+    public function getDistricts(Request $request)
     {
-        return $query->whereNotIn('code', ['31', '32', '33', '34', '35', '36']);
+        return District::where('regency_code', $request->regency_code)
+            ->orderBy('name')
+            ->get(['code', 'name']);
+    }
+
+    public function getVillages(Request $request)
+    {
+        return Village::where('district_code', $request->district_code)
+            ->orderBy('name')
+            ->get(['code', 'name', 'postal_code']);
     }
 }
-
-// Penggunaan
-$javaProvinces = Province::java()->get();
-$outsideJava = Province::outsideJava()->get();
 ```
 
-## Bekerja dengan Kode Pos
+## Penggunaan Data Geografis
 
-### Mencari berdasarkan Kode Pos
+### Bekerja dengan Koordinat
 
 ```php
-// Cari semua desa dengan kode pos tertentu
-$villages = Village::where('postal_code', '50241')->get();
+use Creasi\Nusa\Models\Province;
 
-// Cari desa dalam range kode pos
-$villages = Village::whereBetween('postal_code', ['50000', '59999'])->get();
+$province = Province::find('33');
 
-// Cari desa tanpa kode pos
-$villagesWithoutPostal = Village::whereNull('postal_code')->get();
+// Dapatkan koordinat pusat
+$latitude = $province->latitude;
+$longitude = $province->longitude;
+
+// Dapatkan koordinat batas (jika tersedia)
+$boundaries = $province->coordinates;
+
+if ($boundaries) {
+    echo "Provinsi memiliki " . count($boundaries) . " titik batas";
+    
+    // Gunakan dengan pustaka pemetaan
+    $geoJson = [
+        'type' => 'Polygon',
+        'coordinates' => [$boundaries]
+    ];
+}
 ```
 
-### Validasi Kode Pos
+### Agregasi Kode Pos
 
 ```php
-function validatePostalCode($villageCode, $postalCode)
+// Dapatkan semua kode pos di provinsi
+$province = Province::find('33');
+$postalCodes = $province->postal_codes;
+
+echo "Kode pos di {$province->name}: " . implode(', ', $postalCodes);
+
+// Dapatkan kode pos di kecamatan
+$district = District::find('33.75.01');
+$districtPostalCodes = $district->postal_codes;
+
+// Temukan desa/kelurahan berdasarkan kode pos
+$villages = Village::where('postal_code', '51111')->get();
+```
+
+## Validasi Data
+
+### Validasi *Form Request*
+
+```php
+use Illuminate\Foundation\Http\FormRequest;
+use Creasi\Nusa\Models\{Province, Regency, District, Village};
+
+class AddressRequest extends FormRequest
 {
-    $village = Village::find($villageCode);
-    
-    if (!$village) {
-        return false;
+    public function rules()
+    {
+        return [
+            'province_code' => [
+                'required',
+                'string',
+                function ($attribute, $value, $fail) {
+                    if (!Province::find($value)) {
+                        $fail('Provinsi yang dipilih tidak valid.');
+                    }
+                },
+            ],
+            'regency_code' => [
+                'required',
+                'string',
+                function ($attribute, $value, $fail) {
+                    $regency = Regency::find($value);
+                    if (!$regency || $regency->province_code !== $this->province_code) {
+                        $fail('Kabupaten/kota yang dipilih tidak valid untuk provinsi ini.');
+                    }
+                },
+            ],
+            'district_code' => [
+                'required',
+                'string',
+                function ($attribute, $value, $fail) {
+                    $district = District::find($value);
+                    if (!$district || $district->regency_code !== $this->regency_code) {
+                        $fail('Kecamatan yang dipilih tidak valid untuk kabupaten/kota ini.');
+                    }
+                },
+            ],
+            'village_code' => [
+                'required',
+                'string',
+                function ($attribute, $value, $fail) {
+                    $village = Village::find($value);
+                    if (!$village || $village->district_code !== $this->district_code) {
+                        $fail('Desa/kelurahan yang dipilih tidak valid untuk kecamatan ini.');
+                    }
+                },
+            ],
+        ];
+    }
+}
+```
+
+### Aturan Validasi Kustom
+
+```php
+use Illuminate\Contracts\Validation\Rule;
+use Creasi\Nusa\Models\Village;
+
+class ValidIndonesianAddress implements Rule
+{
+    public function passes($attribute, $value)
+    {
+        // Validasi bahwa semua komponen alamat konsisten
+        $village = Village::find($value['village_code']);
+        
+        return $village &&
+               $village->district_code === $value['district_code'] &&
+               $village->regency_code === $value['regency_code'] &&
+               $village->province_code === $value['province_code'];
     }
     
-    return $village->postal_code === $postalCode;
-}
-
-// Penggunaan
-if (validatePostalCode('33.75.01.1002', '51119')) {
-    echo "Kode pos valid";
-} else {
-    echo "Kode pos tidak sesuai";
-}
-```
-
-## Aggregasi dan Statistik
-
-### Menghitung Data
-
-```php
-// Hitung total per level
-$totalProvinces = Province::count();           // 38
-$totalRegencies = Regency::count();           // 514
-$totalDistricts = District::count();          // 7,285
-$totalVillages = Village::count();            // 83,762
-
-// Hitung per provinsi
-$regencyCount = Regency::where('province_code', '33')->count();
-$districtCount = District::whereHas('regency', function ($query) {
-    $query->where('province_code', '33');
-})->count();
-```
-
-### Statistik per Wilayah
-
-```php
-// Statistik kabupaten/kota per provinsi
-$stats = Province::withCount(['regencies'])->get();
-
-foreach ($stats as $province) {
-    echo "{$province->name}: {$province->regencies_count} kabupaten/kota\n";
-}
-
-// Statistik lengkap
-$province = Province::withCount([
-    'regencies',
-    'regencies.districts',
-    'regencies.districts.villages'
-])->find('33');
-
-echo "Jawa Tengah memiliki:\n";
-echo "- {$province->regencies_count} kabupaten/kota\n";
-echo "- {$province->regencies->sum('districts_count')} kecamatan\n";
-echo "- {$province->regencies->sum(function($r) { return $r->districts->sum('villages_count'); })} kelurahan/desa\n";
-```
-
-## Optimisasi Performa
-
-### Chunking untuk Dataset Besar
-
-```php
-// Hindari loading semua desa sekaligus
-// ❌ Jangan lakukan ini
-$allVillages = Village::all(); // 83,762 records!
-
-// ✅ Gunakan chunking
-Village::chunk(1000, function ($villages) {
-    foreach ($villages as $village) {
-        // Process village
-        echo "Processing: {$village->name}\n";
+    public function message()
+    {
+        return 'Komponen alamat tidak konsisten.';
     }
-});
-
-// ✅ Atau gunakan lazy loading
-foreach (Village::lazy() as $village) {
-    // Process village satu per satu
-    echo "Processing: {$village->name}\n";
 }
 ```
 
-### Caching Query
+## Optimasi Kinerja
+
+### Kueri yang Efisien
+
+```php
+// Baik: Gunakan kolom tertentu
+$provinces = Province::select('code', 'name')->get();
+
+// Baik: Gunakan paginasi untuk dataset besar
+$villages = Village::paginate(50);
+
+// Baik: Gunakan whereIn untuk beberapa kode
+$regencies = Regency::whereIn('code', ['33.75', '33.76', '33.77'])->get();
+
+// Hindari: Memuat semua desa/kelurahan sekaligus
+// $allVillages = Village::all(); // 83.762 catatan!
+```
+
+### Strategi Caching
 
 ```php
 use Illuminate\Support\Facades\Cache;
 
-// Cache hasil query yang sering digunakan
-$provinces = Cache::remember('all_provinces', 3600, function () {
-    return Province::orderBy('name')->get();
-});
-
-// Cache dengan tag untuk invalidation yang mudah
-Cache::tags(['nusa', 'provinces'])->put('java_provinces', $javaProvinces, 3600);
-
-// Invalidate cache ketika data berubah
-Cache::tags(['nusa'])->flush();
-```
-
-### Select Kolom Spesifik
-
-```php
-// Hanya ambil kolom yang diperlukan
-$provinces = Province::select(['code', 'name'])->get();
-$regencies = Regency::select(['code', 'name', 'province_code'])
-    ->where('province_code', '33')
-    ->get();
-
-// Untuk dropdown
-$provinceOptions = Province::pluck('name', 'code');
-$regencyOptions = Regency::where('province_code', '33')
-    ->pluck('name', 'code');
-```
-
-## Error Handling
-
-### Validasi Input
-
-```php
-function findProvinceByCode($code)
+class LocationService
 {
-    // Validasi format kode
-    if (!preg_match('/^\d{2}$/', $code)) {
-        throw new InvalidArgumentException('Kode provinsi harus 2 digit');
+    public function getProvinces()
+    {
+        return Cache::remember('nusa.provinces', 3600, function () {
+            return Province::orderBy('name')->get(['code', 'name']);
+        });
     }
     
-    $province = Province::find($code);
-    
-    if (!$province) {
-        throw new ModelNotFoundException("Provinsi dengan kode {$code} tidak ditemukan");
+    public function getRegenciesByProvince(string $provinceCode)
+    {
+        $cacheKey = "nusa.regencies.{$provinceCode}";
+        
+        return Cache::remember($cacheKey, 3600, function () use ($provinceCode) {
+            return Regency::where('province_code', $provinceCode)
+                ->orderBy('name')
+                ->get(['code', 'name']);
+        });
     }
-    
-    return $province;
-}
-
-// Penggunaan dengan try-catch
-try {
-    $province = findProvinceByCode('33');
-    echo "Ditemukan: {$province->name}";
-} catch (InvalidArgumentException $e) {
-    echo "Format kode salah: {$e->getMessage()}";
-} catch (ModelNotFoundException $e) {
-    echo "Data tidak ditemukan: {$e->getMessage()}";
 }
 ```
 
-### Fallback untuk Data Tidak Ditemukan
+## Penanganan Error
+
+### *Graceful Fallbacks*
 
 ```php
-function getRegencyName($code, $fallback = 'Tidak Diketahui')
+use Creasi\Nusa\Models\Province;
+
+function getProvinceName(string $code): string
 {
-    $regency = Regency::find($code);
-    return $regency ? $regency->name : $fallback;
+    try {
+        $province = Province::find($code);
+        return $province ? $province->name : "Provinsi Tidak Dikenal ({$code})";
+    } catch (Exception $e) {
+        Log::error("Gagal mendapatkan nama provinsi untuk kode: {$code}", [
+            'error' => $e->getMessage()
+        ]);
+        return "Provinsi Tidak Dikenal";
+    }
 }
 
-// Penggunaan
-echo getRegencyName('33.75', 'Kabupaten/Kota Tidak Ditemukan');
+function buildFullAddress(array $codes): string
+{
+    $parts = [];
+    
+    if ($village = Village::find($codes['village_code'] ?? null)) {
+        $parts[] = $village->name;
+        $parts[] = $village->district->name;
+        $parts[] = $village->regency->name;
+        $parts[] = $village->province->name;
+    }
+    
+    return implode(', ', array_filter($parts));
+}
 ```
 
-Contoh-contoh ini memberikan fondasi yang solid untuk menggunakan Laravel Nusa dalam aplikasi Anda. Ingatlah untuk selalu mempertimbangkan performa saat bekerja dengan dataset besar dan gunakan eager loading serta caching untuk optimisasi yang lebih baik.
+## Langkah Selanjutnya
+
+- **[Integrasi API](/id/examples/api-integration)** - Pelajari cara menggunakan API RESTful
+- **[Formulir Alamat](/id/examples/address-forms)** - Bangun formulir alamat lengkap
+- **[Kueri Geografis](/id/examples/geographic-queries)** - Bekerja dengan koordinat dan batas wilayah

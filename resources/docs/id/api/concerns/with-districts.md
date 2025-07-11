@@ -1,523 +1,197 @@
-# WithDistricts
+# Trait WithDistricts
 
-Trait `WithDistricts` memungkinkan model Anda memiliki relasi ke banyak kecamatan, ideal untuk mengelola zona layanan, wilayah operasional, atau cakupan area yang meliputi beberapa kecamatan.
+Trait `WithDistricts` menambahkan relasi `hasMany` ke kecamatan, memungkinkan model untuk memiliki banyak kecamatan terkait.
 
-The `WithDistricts` trait allows your model to have relationships to multiple districts, ideal for managing service zones, operational areas, or coverage areas that span multiple districts.
-
-## Overview
-
-The `WithDistricts` trait is perfect for models that need to manage multiple districts, such as delivery zones, service areas, sales territories, or any entity that operates across several district boundaries.
-
-### What You Get
-
-- **Multiple districts relationship** - Many-to-many relationship with districts
-- **Flexible zone management** - Add/remove districts dynamically
-- **Complete hierarchy access** - Access to regencies and provinces through districts
-- **Coverage analysis** - Built-in methods for analyzing coverage areas
-- **Geographic operations** - Distance and area calculations
-
-## Basic Usage
-
-### Adding the Trait
+## Namespace
 
 ```php
+Creasi\Nusa\Models\Concerns\WithDistricts
+```
+
+## Penggunaan
+
+### Implementasi Dasar
+
+```php
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
 use Creasi\Nusa\Models\Concerns\WithDistricts;
 
-class DeliveryZone extends Model
+class Kabupaten extends Model
+{
+    use WithDistricts;
+    
+    protected $fillable = [
+        'kode',
+        'name',
+        'province_code'
+    ];
+}
+```
+
+## Fitur
+
+- Menyediakan relasi `hasMany` `districts()`
+- Secara otomatis memuat semua kecamatan yang terkait dengan model
+
+### Penggunaan Dasar
+
+```php
+$kabupaten = Regency::with('districts')->first();
+
+echo "Kabupaten: {$kabupaten->name}";
+echo "Kecamatan: {$kabupaten->districts->count()}";
+
+foreach ($kabupaten->districts as $kecamatan) {
+    echo "- {$kecamatan->name}";
+}
+```
+
+## Contoh Penggunaan Umum
+
+### Administrasi Regional
+
+```php
+class KantorWilayah extends Model
 {
     use WithDistricts;
     
     protected $fillable = [
         'name',
-        'description',
-        'max_delivery_time'
+        'tipe_kantor',
+        'regency_code'
     ];
-}
-```
-
-### Database Requirements
-
-You need a pivot table to connect your model with districts:
-
-```php
-// Migration for delivery_zone_districts pivot table
-Schema::create('delivery_zone_districts', function (Blueprint $table) {
-    $table->id();
-    $table->foreignId('delivery_zone_id')->constrained()->onDelete('cascade');
-    $table->string('district_code', 8);
-    $table->foreign('district_code')->references('code')->on('nusa.districts');
-    $table->timestamps();
     
-    $table->unique(['delivery_zone_id', 'district_code']);
-});
-```
-
-### Creating and Managing Districts
-
-```php
-// Create delivery zone
-$zone = DeliveryZone::create([
-    'name' => 'Central Semarang Zone',
-    'description' => 'Covers central districts of Semarang',
-    'max_delivery_time' => 60 // minutes
-]);
-
-// Add districts to the zone
-$zone->districts()->attach([
-    '33.74.01', // Semarang Tengah
-    '33.74.02', // Semarang Utara
-    '33.74.03'  // Semarang Timur
-]);
-
-// Access districts
-foreach ($zone->districts as $district) {
-    echo $district->name;
-    echo $district->regency->name;
-    echo $district->province->name;
-}
-```
-
-## District Management
-
-### Adding and Removing Districts
-
-```php
-// Add single district
-$zone->districts()->attach('33.74.04');
-
-// Add multiple districts
-$zone->districts()->attach(['33.74.05', '33.74.06']);
-
-// Remove district
-$zone->districts()->detach('33.74.01');
-
-// Remove multiple districts
-$zone->districts()->detach(['33.74.02', '33.74.03']);
-
-// Sync districts (replace all with new list)
-$zone->districts()->sync(['33.74.01', '33.74.07', '33.74.08']);
-
-// Add districts with additional data
-$zone->districts()->attach([
-    '33.74.09' => ['priority' => 'high', 'delivery_fee' => 15000],
-    '33.74.10' => ['priority' => 'medium', 'delivery_fee' => 12000]
-]);
-```
-
-### Accessing District Data
-
-```php
-// Get zone with districts and hierarchy
-$zone = DeliveryZone::with(['districts.regency.province'])->first();
-
-// Access district information
-foreach ($zone->districts as $district) {
-    echo "District: {$district->name}";
-    echo "Regency: {$district->regency->name}";
-    echo "Province: {$district->province->name}";
+    public function getDistrictCountAttribute()
+    {
+        return $this->districts()->count();
+    }
     
-    // Access pivot data if available
-    if ($district->pivot->priority) {
-        echo "Priority: {$district->pivot->priority}";
-        echo "Delivery Fee: {$district->pivot->delivery_fee}";
+    public function getServiceAreaAttribute()
+    {
+        return $this->districts->pluck('name')->implode(', ');
+    }
+    
+    public function scopeWithMinimumDistricts($query, $count)
+    {
+        return $query->has('districts', '>=', $count);
     }
 }
+
+// Penggunaan
+$kantor = KantorWilayah::withMinimumDistricts(5)->get();
 ```
 
-### Helper Methods
+### Cakupan Layanan
 
 ```php
-class DeliveryZone extends Model
+class PenyediaLayanan extends Model
 {
     use WithDistricts;
     
-    // Get coverage statistics
-    public function getCoverageStats()
+    protected $fillable = [
+        'name',
+        'tipe_layanan'
+    ];
+    
+    public function addDistrict($districtCode)
     {
-        $districts = $this->districts()->with(['villages', 'regency.province'])->get();
+        $kecamatan = Regency::find($districtCode);
         
-        return [
-            'zone_name' => $this->name,
-            'districts_count' => $districts->count(),
-            'villages_count' => $districts->sum(function ($district) {
-                return $district->villages->count();
-            }),
-            'regencies_covered' => $districts->pluck('regency.name')->unique()->values(),
-            'provinces_covered' => $districts->pluck('regency.province.name')->unique()->values()
-        ];
+        if ($kecamatan) {
+            return $this->districts()->save($kecamatan);
+        }
+        
+        return false;
     }
     
-    // Check if district is in zone
+    public function removeDistrict($districtCode)
+    {
+        return $this->districts()->where('code', $districtCode)->delete();
+    }
+    
     public function coversDistrict($districtCode)
     {
         return $this->districts()->where('code', $districtCode)->exists();
     }
     
-    // Get all villages in the zone
-    public function getAllVillages()
+    public function getCoverageStatsAttribute()
     {
-        return Village::whereIn('district_code', $this->districts->pluck('code'))->get();
-    }
-    
-    // Add districts by regency
-    public function addDistrictsByRegency($regencyCode)
-    {
-        $districts = District::where('regency_code', $regencyCode)->pluck('code');
-        $this->districts()->attach($districts);
-        
-        return $districts->count();
-    }
-    
-    // Get zone boundaries (approximate)
-    public function getZoneBoundaries()
-    {
-        $districts = $this->districts;
-        
-        if ($districts->isEmpty()) {
-            return null;
-        }
-        
         return [
-            'north' => $districts->max('latitude'),
-            'south' => $districts->min('latitude'),
-            'east' => $districts->max('longitude'),
-            'west' => $districts->min('longitude'),
-            'center' => [
-                'latitude' => $districts->avg('latitude'),
-                'longitude' => $districts->avg('longitude')
-            ]
+            'kecamatan' => $this->districts->count(),
+            'kabupaten' => $this->districts->pluck('regency_code')->unique()->count(),
+            'provinsi' => $this->districts->pluck('province_code')->unique()->count()
         ];
     }
 }
 ```
 
-## Querying with Districts
-
-### Basic Queries
+### Daerah Pemilihan
 
 ```php
-// Get zones with their districts
-$zones = DeliveryZone::with(['districts.regency.province'])->get();
-
-// Get zones that cover specific district
-$zones = DeliveryZone::whereHas('districts', function ($query) {
-    $query->where('code', '33.74.01');
-})->get();
-
-// Get zones with many districts
-$largeZones = DeliveryZone::has('districts', '>=', 5)->get();
-```
-
-### Advanced Filtering
-
-```php
-// Zones covering districts in specific regency
-$zones = DeliveryZone::whereHas('districts', function ($query) {
-    $query->where('regency_code', '33.74');
-})->get();
-
-// Zones covering districts in specific province
-$zones = DeliveryZone::whereHas('districts', function ($query) {
-    $query->where('province_code', '33');
-})->get();
-
-// Zones covering central districts
-$centralZones = DeliveryZone::whereHas('districts', function ($query) {
-    $query->where('name', 'like', '%Tengah%');
-})->get();
-```
-
-### Custom Scopes
-
-```php
-class DeliveryZone extends Model
+class DaerahPemilihan extends Model
 {
     use WithDistricts;
     
-    // Scope for zones covering specific regency
-    public function scopeCoveringRegency($query, $regencyCode)
+    protected $fillable = [
+        'name',
+        'tahun_pemilu',
+        'jumlah_perwakilan'
+    ];
+    
+    public function getVoterEstimateAttribute()
     {
-        return $query->whereHas('districts', function ($q) use ($regencyCode) {
-            $q->where('regency_code', $regencyCode);
+        // Estimasi berdasarkan kecamatan
+        return $this->districts->sum(function ($kecamatan) {
+            return $kecamatan->villages()->count() * 1000; // Estimasi kasar
         });
     }
     
-    // Scope for zones covering specific province
-    public function scopeCoveringProvince($query, $provinceCode)
+    public function getGeographicSpreadAttribute()
     {
-        return $query->whereHas('districts', function ($q) use ($provinceCode) {
-            $q->where('province_code', $provinceCode);
-        });
-    }
-    
-    // Scope for large zones
-    public function scopeLargeZones($query, $minDistricts = 10)
-    {
-        return $query->has('districts', '>=', $minDistricts);
-    }
-    
-    // Scope for zones in Java
-    public function scopeInJava($query)
-    {
-        return $query->whereHas('districts', function ($q) {
-            $q->whereIn('province_code', ['31', '32', '33', '34', '35', '36']);
-        });
-    }
-}
-
-// Usage
-$semarangZones = DeliveryZone::coveringRegency('33.74')->get();
-$centralJavaZones = DeliveryZone::coveringProvince('33')->get();
-$largeZones = DeliveryZone::largeZones(15)->get();
-$javaZones = DeliveryZone::inJava()->get();
-```
-
-## Business Applications
-
-### Service Territory Management
-
-```php
-class ServiceTerritory extends Model
-{
-    use WithDistricts;
-    
-    protected $fillable = ['name', 'manager_id', 'target_revenue'];
-    
-    // Get customers in territory
-    public function getCustomersInTerritory()
-    {
-        $districtCodes = $this->districts->pluck('code');
+        $kabupaten = $this->districts->groupBy('regency_code');
         
-        return Customer::whereHas('village', function ($query) use ($districtCodes) {
-            $query->whereIn('district_code', $districtCodes);
-        })->get();
-    }
-    
-    // Calculate territory performance
-    public function getPerformanceMetrics()
-    {
-        $customers = $this->getCustomersInTerritory();
-        $totalRevenue = $customers->sum('total_purchases');
-        
-        return [
-            'territory' => $this->name,
-            'districts_count' => $this->districts->count(),
-            'customers_count' => $customers->count(),
-            'total_revenue' => $totalRevenue,
-            'target_revenue' => $this->target_revenue,
-            'achievement_percentage' => ($totalRevenue / $this->target_revenue) * 100,
-            'revenue_per_district' => $totalRevenue / $this->districts->count(),
-            'customers_per_district' => $customers->count() / $this->districts->count()
-        ];
-    }
-    
-    // Optimize territory by balancing districts
-    public function optimizeTerritory()
-    {
-        $districts = $this->districts()->with('villages')->get();
-        
-        return $districts->map(function ($district) {
-            $customers = Customer::whereHas('village', function ($query) use ($district) {
-                $query->where('district_code', $district->code);
-            })->get();
-            
+        return $kabupaten->map(function ($districts, $regencyCode) {
             return [
-                'district' => $district->name,
-                'villages_count' => $district->villages->count(),
-                'customers_count' => $customers->count(),
-                'revenue' => $customers->sum('total_purchases'),
-                'potential_score' => $this->calculatePotentialScore($district, $customers)
+                'regency_code' => $regencyCode,
+                'nama_kabupaten' => $districts->first()->regency->name,
+                'district_count' => $districts->count(),
+                'kecamatan' => $districts->pluck('name')->toArray()
             ];
-        })->sortByDesc('potential_score');
+        })->values();
     }
 }
 ```
 
-### Logistics Hub Coverage
+## Tips Kinerja
+
+### 1. Eager Loading
 
 ```php
-class LogisticsHub extends Model
-{
-    use WithDistricts;
-    
-    protected $fillable = ['name', 'capacity', 'hub_type'];
-    
-    // Calculate delivery efficiency
-    public function getDeliveryEfficiency()
-    {
-        $districts = $this->districts()->with(['villages'])->get();
-        $totalVillages = $districts->sum(function ($district) {
-            return $district->villages->count();
-        });
-        
-        return [
-            'hub' => $this->name,
-            'coverage_area' => [
-                'districts' => $districts->count(),
-                'villages' => $totalVillages,
-                'regencies' => $districts->pluck('regency_code')->unique()->count()
-            ],
-            'efficiency_metrics' => [
-                'villages_per_district' => $totalVillages / $districts->count(),
-                'capacity_utilization' => $this->calculateCapacityUtilization(),
-                'average_delivery_distance' => $this->calculateAverageDeliveryDistance()
-            ]
-        ];
-    }
-    
-    // Find optimal districts to add
-    public function findOptimalExpansionDistricts($limit = 5)
-    {
-        $currentDistrictCodes = $this->districts->pluck('code');
-        $currentRegencies = $this->districts->pluck('regency_code')->unique();
-        
-        // Find nearby districts not yet covered
-        return District::whereNotIn('code', $currentDistrictCodes)
-            ->whereIn('regency_code', $currentRegencies)
-            ->with(['villages', 'regency'])
-            ->get()
-            ->map(function ($district) {
-                return [
-                    'district' => $district->name,
-                    'regency' => $district->regency->name,
-                    'villages_count' => $district->villages->count(),
-                    'expansion_score' => $this->calculateExpansionScore($district)
-                ];
-            })
-            ->sortByDesc('expansion_score')
-            ->take($limit);
-    }
+// Baik
+$kabupaten = Regency::with('districts')->get();
+
+// Buruk - Kueri N+1
+$kabupaten = Regency::all();
+foreach ($kabupaten as $kab) {
+    echo $kab->districts->count(); // Kueri N+1
 }
 ```
 
-## Geographic Analysis
-
-### Coverage Area Calculation
+### 2. Menghitung Kecamatan
 
 ```php
-class CoverageAnalyzer
-{
-    public function analyzeTerritorialCoverage($zoneId)
-    {
-        $zone = DeliveryZone::with(['districts.villages'])->find($zoneId);
-        
-        if (!$zone) {
-            return null;
-        }
-        
-        $allVillages = $zone->getAllVillages();
-        $boundaries = $zone->getZoneBoundaries();
-        
-        return [
-            'zone' => $zone->name,
-            'coverage_summary' => [
-                'districts' => $zone->districts->count(),
-                'villages' => $allVillages->count(),
-                'postal_codes' => $allVillages->pluck('postal_code')->unique()->count()
-            ],
-            'geographic_bounds' => $boundaries,
-            'coverage_density' => $this->calculateCoverageDensity($zone),
-            'service_gaps' => $this->identifyServiceGaps($zone)
-        ];
-    }
-    
-    private function calculateCoverageDensity($zone)
-    {
-        $districts = $zone->districts;
-        $totalArea = $this->estimateAreaFromBounds($zone->getZoneBoundaries());
-        
-        return [
-            'districts_per_km2' => $districts->count() / $totalArea,
-            'villages_per_km2' => $zone->getAllVillages()->count() / $totalArea,
-            'estimated_area_km2' => $totalArea
-        ];
-    }
+$kabupaten = Regency::withCount('districts')->get();
+
+foreach ($kabupaten as $kab) {
+    echo "{$kab->name}: {$kab->districts_count} kecamatan";
 }
 ```
 
-### Distance-based Optimization
+## Dokumentasi Terkait
 
-```php
-class ZoneOptimizer
-{
-    public function optimizeZonesByDistance($hubCoordinates, $maxDistanceKm = 50)
-    {
-        return District::selectRaw("
-            *,
-            (6371 * acos(
-                cos(radians(?)) * 
-                cos(radians(latitude)) * 
-                cos(radians(longitude) - radians(?)) + 
-                sin(radians(?)) * 
-                sin(radians(latitude))
-            )) AS distance
-        ", [$hubCoordinates['lat'], $hubCoordinates['lng'], $hubCoordinates['lat']])
-        ->having('distance', '<=', $maxDistanceKm)
-        ->with(['villages', 'regency.province'])
-        ->orderBy('distance')
-        ->get()
-        ->groupBy(function ($district) {
-            // Group by distance ranges
-            if ($district->distance <= 15) return 'Zone A (0-15km)';
-            if ($district->distance <= 30) return 'Zone B (15-30km)';
-            return 'Zone C (30-50km)';
-        });
-    }
-}
-```
-
-## Testing
-
-### Districts Relationship Tests
-
-```php
-class DeliveryZoneDistrictsTest extends TestCase
-{
-    use RefreshDatabase;
-    
-    public function test_zone_can_have_multiple_districts()
-    {
-        $zone = DeliveryZone::factory()->create();
-        $districts = District::factory()->count(3)->create();
-        
-        $zone->districts()->attach($districts->pluck('code'));
-        
-        $this->assertCount(3, $zone->districts);
-        $this->assertTrue($zone->districts->contains($districts->first()));
-    }
-    
-    public function test_zone_coverage_statistics()
-    {
-        $zone = DeliveryZone::factory()->create(['name' => 'Test Zone']);
-        $district = District::factory()->create();
-        $villages = Village::factory()->count(5)->create(['district_code' => $district->code]);
-        
-        $zone->districts()->attach($district->code);
-        
-        $stats = $zone->getCoverageStats();
-        
-        $this->assertEquals('Test Zone', $stats['zone_name']);
-        $this->assertEquals(1, $stats['districts_count']);
-        $this->assertEquals(5, $stats['villages_count']);
-    }
-    
-    public function test_zone_can_check_district_coverage()
-    {
-        $zone = DeliveryZone::factory()->create();
-        $district = District::factory()->create();
-        
-        $this->assertFalse($zone->coversDistrict($district->code));
-        
-        $zone->districts()->attach($district->code);
-        
-        $this->assertTrue($zone->coversDistrict($district->code));
-    }
-}
-```
-
-## Next Steps
-
-- **[WithVillages](/id/api/concerns/with-villages)** - Multiple villages relationships
-- **[WithDistrict](/id/api/concerns/with-district)** - Single district relationship
-- **[District Model](/id/api/models/district)** - Complete district model documentation
-- **[Geographic Queries](/id/examples/geographic-queries)** - Advanced geographic operations
+- **[Model District](/id/api/models/district)** - Dokumentasi lengkap model District
+- **[Trait WithDistrict](/id/api/concerns/with-district)** - Untuk asosiasi kecamatan tunggal
+- **[Trait WithVillages](/id/api/concerns/with-villages)** - Untuk relasi desa/kelurahan ganda
+- **[Model & Relasi](/id/guide/models)** - Memahami model Laravel Nusa

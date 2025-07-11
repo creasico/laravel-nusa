@@ -1,8 +1,8 @@
 # Model Kabupaten/Kota
 
-Model `Regency` merepresentasikan kabupaten dan kota Indonesia dan menyediakan akses ke semua 514 wilayah administratif tingkat kedua.
+Model `Regency` merepresentasikan kabupaten dan kota di Indonesia dan menyediakan akses ke semua 514 wilayah administratif tingkat kedua.
 
-## Referensi Class
+## Referensi Kelas
 
 ```php
 namespace Creasi\Nusa\Models;
@@ -17,22 +17,20 @@ class Regency extends Model
 
 ### Atribut Utama
 
-| Atribut | Type | Deskripsi | Contoh |
-|---------|------|-----------|--------|
-| `code` | `string` | Kode kabupaten/kota dalam format xx.xx (Primary Key) | `"33.75"` |
-| `province_code` | `string` | Kode provinsi induk (Foreign Key) | `"33"` |
+| Atribut | Tipe | Deskripsi | Contoh |
+|-----------|------|-------------|---------|
+| `code` | `string` | Kode kabupaten/kota dalam format xx.xx (Kunci Utama) | `"33.75"` |
+| `province_code` | `string` | Kode provinsi induk (Kunci Asing) | `"33"` |
 | `name` | `string` | Nama kabupaten/kota dalam bahasa Indonesia | `"Kota Pekalongan"` |
 | `latitude` | `float` | Lintang pusat geografis | `-6.8969497174987` |
 | `longitude` | `float` | Bujur pusat geografis | `109.66208089654` |
-| `coordinates` | `array\|null` | Koordinat polygon batas wilayah | `[[-6.789, 109.567], ...]` |
+| `coordinates` | `array\|null` | Koordinat poligon batas | `[[-6.789, 109.567], ...]` |
 
-### Atribut Computed
+### Atribut Terkomputasi
 
-| Atribut | Type | Deskripsi |
-|---------|------|-----------|
-| `postal_codes` | `array` | Semua kode pos dalam kabupaten/kota |
-| `type` | `string` | Tipe wilayah ("Kabupaten" atau "Kota") |
-| `is_city` | `boolean` | Apakah ini adalah kota |
+| Atribut | Tipe | Deskripsi |
+|-----------|------|-------------|
+| `postal_codes` | `array` | Semua kode pos di dalam kabupaten/kota |
 
 ## Relasi
 
@@ -46,106 +44,49 @@ $regency->province; // Model Province
 ### One-to-Many
 
 ```php
-// Dapatkan semua kecamatan dalam kabupaten/kota
+// Dapatkan semua kecamatan di kabupaten/kota
 $regency->districts; // Collection<District>
 
-// Dapatkan semua kelurahan/desa dalam kabupaten/kota
+// Dapatkan semua desa/kelurahan di kabupaten/kota
 $regency->villages; // Collection<Village>
+```
 
-// Dengan eager loading
-$regency = Regency::with(['districts', 'villages'])->find('33.75');
+### Metode Relasi
+
+```php
+// Relasi Province
+public function province(): BelongsTo
+{
+    return $this->belongsTo(Province::class, 'province_code', 'code');
+}
+
+// Relasi Districts
+public function districts(): HasMany
+{
+    return $this->hasMany(District::class, 'regency_code', 'code');
+}
+
+// Relasi Villages (melalui kecamatan)
+public function villages(): HasMany
+{
+    return $this->hasMany(Village::class, 'regency_code', 'code');
+}
 ```
 
 ## Scope
 
-### Pencarian
+### Scope Pencarian
 
 ```php
-// Pencarian berdasarkan nama
-$regencies = Regency::search('semarang')->get();
-
-// Pencarian dengan multiple terms
-$regencies = Regency::search('kota semarang')->get();
-```
-
-### Filter Berdasarkan Tipe
-
-```php
-// Hanya kota
-$cities = Regency::cities()->get();
-
-// Hanya kabupaten
-$regencies = Regency::regencies()->get();
-
-// Filter berdasarkan provinsi
-$centralJavaRegencies = Regency::where('province_code', '33')->get();
-```
-
-### Scope Geografis
-
-```php
-// Kabupaten/kota dalam radius tertentu
-$nearbyRegencies = Regency::nearbyCoordinates(-6.8969, 109.6621, 50)->get();
-
-// Kabupaten/kota dengan koordinat
-$regenciesWithCoords = Regency::whereNotNull('latitude')
-    ->whereNotNull('longitude')
-    ->get();
-```
-
-## Metode
-
-### Informasi Tipe
-
-```php
-$regency = Regency::find('33.75');
-
-// Cek apakah ini kota
-$isCity = $regency->isCity(); // true untuk "Kota Pekalongan"
-
-// Dapatkan tipe
-$type = $regency->getType(); // "Kota" atau "Kabupaten"
-
-// Dapatkan nama tanpa prefix
-$cleanName = $regency->getCleanName(); // "Pekalongan" dari "Kota Pekalongan"
-```
-
-### Informasi Geografis
-
-```php
-$regency = Regency::find('33.75');
-
-// Dapatkan koordinat pusat
-$coordinates = $regency->getCoordinates(); // [lat, lng]
-
-// Hitung jarak ke titik lain
-$distance = $regency->distanceTo(-6.9, 109.7); // dalam kilometer
-
-// Dapatkan bounding box
-$bounds = $regency->getBoundingBox(); // [min_lat, min_lng, max_lat, max_lng]
-```
-
-### Statistik
-
-```php
-$regency = Regency::find('33.75');
-
-// Hitung jumlah kecamatan
-$districtCount = $regency->districts()->count();
-
-// Hitung jumlah kelurahan/desa
-$villageCount = $regency->villages()->count();
-
-// Dapatkan kode pos unik
-$postalCodes = $regency->getPostalCodes();
-
-// Statistik lengkap
-$stats = $regency->getStatistics();
+// Cari berdasarkan nama atau kode (tidak peka huruf besar/kecil)
+Regency::search('semarang')->get();
+Regency::search('33.75')->first();
+Regency::search('kota')->get();
 ```
 
 ## Contoh Penggunaan
 
-### Dasar
+### Kueri Dasar
 
 ```php
 use Creasi\Nusa\Models\Regency;
@@ -153,213 +94,285 @@ use Creasi\Nusa\Models\Regency;
 // Dapatkan semua kabupaten/kota
 $regencies = Regency::all();
 
-// Dapatkan kabupaten/kota berdasarkan kode
-$regency = Regency::find('33.75');
+// Temukan kabupaten/kota tertentu
+$pekalongan = Regency::find('33.75');
 
-// Pencarian kabupaten/kota
-$searchResults = Regency::search('semarang')->get();
+// Cari kabupaten/kota
+$semarangRegencies = Regency::search('semarang')->get();
+$cities = Regency::search('kota')->get();
 ```
 
-### Filter Berdasarkan Tipe
+### Kueri Berbasis Provinsi
 
 ```php
-// Dapatkan semua kota
-$cities = Regency::cities()->get();
+// Dapatkan kabupaten/kota di provinsi tertentu
+$centralJavaRegencies = Regency::where('province_code', '33')->get();
 
-foreach ($cities as $city) {
-    echo $city->name . "\n"; // Kota Semarang, Kota Surakarta, dll.
-}
+// Dapatkan kabupaten/kota dengan provinsinya
+$regencies = Regency::with('province')->get();
 
-// Dapatkan semua kabupaten
-$regencies = Regency::regencies()->get();
-
-foreach ($regencies as $regency) {
-    echo $regency->name . "\n"; // Kabupaten Semarang, Kabupaten Boyolali, dll.
-}
+// Dapatkan kabupaten/kota di beberapa provinsi
+$javaRegencies = Regency::whereIn('province_code', ['32', '33', '34'])->get();
 ```
 
 ### Dengan Relasi
 
 ```php
-// Dapatkan kabupaten/kota dengan kecamatan
-$regency = Regency::with('districts')->find('33.75');
+// Muat kabupaten/kota dengan semua relasi
+$regency = Regency::with(['province', 'districts', 'villages'])->find('33.75');
 
-foreach ($regency->districts as $district) {
-    echo $district->name . "\n";
-}
+// Muat kolom tertentu dari relasi
+$regencies = Regency::with([
+    'province:code,name',
+    'districts:code,regency_code,name'
+])->get();
 
-// Dapatkan kabupaten/kota dengan provinsi
-$regency = Regency::with('province')->find('33.75');
-
-echo "Lokasi: {$regency->name}, {$regency->province->name}";
+// Hitung catatan terkait
+$regencies = Regency::withCount(['districts', 'villages'])->get();
 ```
 
-### Pagination dan Sorting
+### Penyaringan dan Pengurutan
 
 ```php
-// Pagination sederhana
-$regencies = Regency::paginate(20);
+// Dapatkan hanya kota (mengandung "Kota")
+$cities = Regency::where('name', 'like', '%Kota%')->get();
 
-// Pagination dengan pencarian
-$regencies = Regency::search('jawa')->paginate(10);
+// Dapatkan hanya kabupaten (mengandung "Kabupaten")
+$kabupaten = Regency::where('name', 'like', '%Kabupaten%')->get();
 
-// Sorting berdasarkan nama
+// Urutkan berdasarkan nama
 $regencies = Regency::orderBy('name')->get();
 
-// Sorting berdasarkan tipe (kota dulu)
-$regencies = Regency::orderByRaw("CASE WHEN name LIKE 'Kota%' THEN 0 ELSE 1 END, name")->get();
+// Dapatkan kabupaten/kota dengan koordinat
+$regenciesWithCoords = Regency::whereNotNull('latitude')
+    ->whereNotNull('longitude')
+    ->get();
 ```
 
-### Agregasi
+### Operasi Geografis
 
 ```php
-// Hitung kabupaten/kota per provinsi
-$regencyCounts = Regency::selectRaw('province_code, COUNT(*) as count')
-    ->groupBy('province_code')
+// Temukan kabupaten/kota dalam rentang koordinat
+$regencies = Regency::whereBetween('latitude', [-7, -6])
+    ->whereBetween('longitude', [109, 111])
     ->get();
 
-// Hitung total kecamatan per kabupaten/kota
-$stats = Regency::withCount('districts')->get();
-
-foreach ($stats as $regency) {
-    echo "{$regency->name}: {$regency->districts_count} kecamatan\n";
+// Dapatkan batas kabupaten/kota untuk pemetaan
+$regency = Regency::find('33.75');
+if ($regency->coordinates) {
+    $geoJson = [
+        'type' => 'Feature',
+        'properties' => [
+            'name' => $regency->name,
+            'code' => $regency->code,
+            'province' => $regency->province->name
+        ],
+        'geometry' => [
+            'type' => 'Polygon',
+            'coordinates' => [$regency->coordinates]
+        ]
+    ];
 }
-
-// Statistik kota vs kabupaten
-$cityCount = Regency::cities()->count();
-$regencyCount = Regency::regencies()->count();
-
-echo "Kota: {$cityCount}, Kabupaten: {$regencyCount}";
 ```
 
-### Query Geografis
+## Struktur Kode
+
+### Kode Kabupaten/Kota
+
+Kode kabupaten/kota mengikuti pola: `XX.YY`
+- `XX` = Kode provinsi (2 digit)
+- `YY` = Kode kabupaten/kota di dalam provinsi (2 digit)
 
 ```php
-// Cari kabupaten/kota terdekat dari koordinat
-$nearestRegencies = Regency::nearbyCoordinates(-6.9, 109.7, 100)
-    ->limit(5)
+$regency = Regency::find('33.75');
+echo $regency->province_code; // "33" (Jawa Tengah)
+echo explode('.', $regency->code)[1]; // "75" (Kota Pekalongan di Jawa Tengah)
+```
+
+### Jenis Kabupaten/Kota
+
+```php
+// Bedakan antara kota dan kabupaten
+function getRegencyType($regency) {
+    if (str_contains($regency->name, 'Kota')) {
+        return 'Kota';
+    } elseif (str_contains($regency->name, 'Kabupaten')) {
+        return 'Kabupaten';
+    }
+    return 'Tidak Diketahui';
+}
+
+// Dapatkan semua kota
+$cities = Regency::where('name', 'like', '%Kota%')->get();
+
+// Dapatkan semua kabupaten
+$kabupaten = Regency::where('name', 'like', '%Kabupaten%')->get();
+```
+
+## Operasi Kode Pos
+
+```php
+$regency = Regency::find('33.75');
+
+// Dapatkan semua kode pos di kabupaten/kota
+$postalCodes = $regency->postal_codes;
+echo "Kode pos di {$regency->name}: " . implode(', ', $postalCodes);
+
+// Temukan kabupaten/kota berdasarkan rentang kode pos
+$regencies = Regency::whereHas('villages', function ($query) {
+    $query->where('postal_code', 'like', '511%');
+})->get();
+```
+
+## Agregasi dan Statistik
+
+```php
+// Hitung kecamatan per kabupaten/kota
+$regenciesWithCounts = Regency::withCount('districts')->get();
+
+// Dapatkan kabupaten/kota dengan kecamatan terbanyak
+$topRegency = Regency::withCount('districts')
+    ->orderBy('districts_count', 'desc')
+    ->first();
+
+// Kelompokkan berdasarkan provinsi
+$regenciesByProvince = Regency::with('province')
+    ->get()
+    ->groupBy('province.name');
+
+// Statistik berdasarkan jenis
+$cityCount = Regency::where('name', 'like', '%Kota%')->count();
+$regencyCount = Regency::where('name', 'like', '%Kabupaten%')->count();
+```
+
+## Tips Kinerja
+
+### Kueri yang Efisien
+
+```php
+// Baik: Pilih kolom tertentu
+$regencies = Regency::select('code', 'name', 'province_code')->get();
+
+// Baik: Gunakan paginasi
+$regencies = Regency::paginate(25);
+
+// Baik: Filter berdasarkan provinsi terlebih dahulu
+$regencies = Regency::where('province_code', '33')
+    ->with('districts')
     ->get();
 
-// Kabupaten/kota dalam provinsi dengan jarak
-$regenciesWithDistance = Regency::selectRaw("
-    *, (
-        6371 * acos(
-            cos(radians(?)) * 
-            cos(radians(latitude)) * 
-            cos(radians(longitude) - radians(?)) + 
-            sin(radians(?)) * 
-            sin(radians(latitude))
-        )
-    ) AS distance
-", [-6.9, 109.7, -6.9])
-->where('province_code', '33')
-->whereNotNull('latitude')
-->whereNotNull('longitude')
-->orderBy('distance')
-->get();
+// Hindari: Memuat semua kabupaten/kota dengan semua relasi
+$regencies = Regency::with(['province', 'districts.villages'])->get();
 ```
 
-## Accessor dan Mutator
-
-### Accessor
+### Strategi Caching
 
 ```php
-// Dapatkan tipe wilayah
-public function getTypeAttribute(): string
-{
-    return str_starts_with($this->name, 'Kota') ? 'Kota' : 'Kabupaten';
+use Illuminate\Support\Facades\Cache;
+
+// Cache kabupaten/kota berdasarkan provinsi
+function getRegenciesByProvince($provinceCode) {
+    $cacheKey = "regencies.province.{$provinceCode}";
+    
+    return Cache::remember($cacheKey, 3600, function () use ($provinceCode) {
+        return Regency::where('province_code', $provinceCode)
+            ->orderBy('name')
+            ->get(['code', 'name']);
+    });
 }
 
-// Cek apakah ini kota
-public function getIsCityAttribute(): bool
-{
-    return str_starts_with($this->name, 'Kota');
-}
-
-// Dapatkan nama bersih tanpa prefix
-public function getCleanNameAttribute(): string
-{
-    return preg_replace('/^(Kota|Kabupaten)\s+/', '', $this->name);
-}
-
-// Dapatkan alamat lengkap
-public function getFullAddressAttribute(): string
-{
-    return "{$this->name}, {$this->province->name}";
-}
-
-// Dapatkan kode pos unik
-public function getPostalCodesAttribute(): array
-{
-    return $this->villages()
-        ->whereNotNull('postal_code')
-        ->pluck('postal_code')
-        ->unique()
-        ->values()
-        ->toArray();
+// Cache kabupaten/kota dengan relasi
+function getRegencyWithDetails($code) {
+    $cacheKey = "regency.details.{$code}";
+    
+    return Cache::remember($cacheKey, 3600, function () use ($code) {
+        return Regency::with(['province', 'districts'])
+            ->find($code);
+    });
 }
 ```
 
-### Mutator
+## Validasi
+
+### Validasi Formulir
 
 ```php
-// Normalisasi nama kabupaten/kota
-public function setNameAttribute($value): void
+// Validasi kabupaten/kota ada dan termasuk dalam provinsi
+'regency_code' => [
+    'required',
+    'exists:nusa.regencies,code',
+    function ($attribute, $value, $fail) {
+        $regency = Regency::find($value);
+        if (!$regency || $regency->province_code !== request('province_code')) {
+            $fail('Kabupaten/kota yang dipilih tidak valid untuk provinsi ini.');
+        }
+    }
+]
+```
+
+### Aturan Validasi Kustom
+
+```php
+use Illuminate\Contracts\Validation\Rule;
+
+class ValidRegencyForProvince implements Rule
 {
-    // Pastikan format yang benar
-    if (!str_starts_with($value, 'Kota') && !str_starts_with($value, 'Kabupaten')) {
-        // Tentukan tipe berdasarkan konvensi atau data lain
-        $value = 'Kabupaten ' . $value;
+    private $provinceCode;
+    
+    public function __construct($provinceCode)
+    {
+        $this->provinceCode = $provinceCode;
     }
     
-    $this->attributes['name'] = $value;
+    public function passes($attribute, $value)
+    {
+        $regency = Regency::find($value);
+        return $regency && $regency->province_code === $this->provinceCode;
+    }
+    
+    public function message()
+    {
+        return 'Kabupaten/kota yang dipilih bukan milik provinsi yang ditentukan.';
+    }
 }
+
+// Penggunaan
+'regency_code' => ['required', new ValidRegencyForProvince($provinceCode)]
 ```
 
-## Scope Kustom
+## Skema Database
+
+```sql
+CREATE TABLE regencies (
+    code VARCHAR(5) PRIMARY KEY,
+    province_code VARCHAR(2) NOT NULL,
+    name VARCHAR(255) NOT NULL,
+    latitude DOUBLE NULL,
+    longitude DOUBLE NULL,
+    coordinates JSON NULL,
+    FOREIGN KEY (province_code) REFERENCES provinces(code)
+);
+
+-- Indeks
+CREATE INDEX idx_regencies_province ON regencies(province_code);
+CREATE INDEX idx_regencies_name ON regencies(name);
+CREATE INDEX idx_regencies_coordinates ON regencies(latitude, longitude);
+```
+
+## Konstanta
 
 ```php
-// Scope untuk filter berdasarkan tipe
-public function scopeCities($query)
-{
-    return $query->where('name', 'LIKE', 'Kota%');
-}
+// Jumlah total kabupaten/kota di Indonesia
+Regency::count(); // 514
 
-public function scopeRegencies($query)
-{
-    return $query->where('name', 'LIKE', 'Kabupaten%');
-}
-
-// Scope untuk filter berdasarkan provinsi
-public function scopeInProvince($query, string $provinceCode)
-{
-    return $query->where('province_code', $provinceCode);
-}
-
-// Scope untuk wilayah dengan koordinat
-public function scopeWithCoordinates($query)
-{
-    return $query->whereNotNull('latitude')
-                 ->whereNotNull('longitude');
-}
-
-// Scope untuk pencarian geografis
-public function scopeNearbyCoordinates($query, float $lat, float $lng, int $radiusKm = 50)
-{
-    return $query->selectRaw("
-        *, (
-            6371 * acos(
-                cos(radians(?)) * 
-                cos(radians(latitude)) * 
-                cos(radians(longitude) - radians(?)) + 
-                sin(radians(?)) * 
-                sin(radians(latitude))
-            )
-        ) AS distance
-    ", [$lat, $lng, $lat])
-    ->having('distance', '<', $radiusKm)
-    ->orderBy('distance');
-}
+// Rincian berdasarkan jenis
+$cities = Regency::where('name', 'like', '%Kota%')->count(); // ~98 kota
+$kabupaten = Regency::where('name', 'like', '%Kabupaten%')->count(); // ~416 kabupaten
 ```
 
-Model Regency menyediakan akses komprehensif ke data kabupaten dan kota Indonesia dengan fitur pencarian, filtering berdasarkan tipe, dan analisis geografis yang lengkap.
+## Model Terkait
+
+- **[Model Province](/id/api/models/province)** - Divisi administratif induk
+- **[Model District](/id/api/models/district)** - Divisi administratif anak
+- **[Model Village](/id/api/models/village)** - Divisi administratif cucu
+- **[Model Address](/id/api/models/address)** - Manajemen alamat dengan referensi kabupaten/kota

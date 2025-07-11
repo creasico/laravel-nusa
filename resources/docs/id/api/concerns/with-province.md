@@ -1,445 +1,365 @@
-# WithProvince
+# Trait WithProvince
 
-Trait `WithProvince` memungkinkan model Anda memiliki relasi ke satu provinsi, memberikan akses ke data provinsi dan kemampuan untuk mengelompokkan data berdasarkan tingkat provinsi.
+Trait `WithProvince` menambahkan relasi `belongsTo` ke model Province, memungkinkan model Anda untuk berelasi dengan provinsi tertentu (tingkat administratif tertinggi di Indonesia).
 
-The `WithProvince` trait allows your model to have a relationship to a single province, providing access to province data and the ability to group data by province level.
-
-## Overview
-
-The `WithProvince` trait is useful for models that need to be associated with a specific province but don't require more granular location data. This is common for business units, regional offices, or high-level administrative divisions.
-
-### What You Get
-
-- **Province relationship** - Direct access to province data
-- **Regional grouping** - Easy grouping and filtering by province
-- **Geographic coordinates** - Access to province center coordinates
-- **Hierarchical access** - Access to regencies, districts, and villages within the province
-
-## Basic Usage
-
-### Adding the Trait
+## Namespace
 
 ```php
+Creasi\Nusa\Models\Concerns\WithProvince
+```
+
+## Penggunaan
+
+### Implementasi Dasar
+
+```php
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
 use Creasi\Nusa\Models\Concerns\WithProvince;
 
-class BusinessUnit extends Model
+class KantorWilayah extends Model
 {
     use WithProvince;
     
     protected $fillable = [
         'name',
-        'province_code',
-        'description'
+        'deskripsi',
+        'province_code'
     ];
 }
 ```
 
-### Database Requirements
-
-Your model's table must have a `province_code` column:
+### Migrasi Database
 
 ```php
-// Migration
-Schema::table('business_units', function (Blueprint $table) {
-    $table->string('province_code', 2)->nullable();
-    $table->foreign('province_code')->references('code')->on('nusa.provinces');
+Schema::create('kantor_wilayah', function (Blueprint $table) {
+    $table->id();
+    $table->string('name');
+    $table->text('deskripsi')->nullable();
+    $table->string('province_code');
+    $table->timestamps();
+    
+    // Opsional: Tambahkan constraint foreign key
+    $table->foreign('province_code')
+          ->references('code')
+          ->on('provinces')
+          ->onDelete('cascade');
 });
 ```
 
-### Creating Records
+## Fitur
+
+### Fillable Otomatis
+
+Trait ini secara otomatis menambahkan *foreign key* provinsi ke dalam *array* `$fillable` model:
 
 ```php
-// Create business unit for Central Java
-$unit = BusinessUnit::create([
-    'name' => 'Central Java Division',
-    'province_code' => '33',
-    'description' => 'Handles operations in Central Java'
-]);
-
-// Access province data
-echo $unit->province->name; // "Jawa Tengah"
-echo $unit->province->regencies->count(); // Number of regencies in province
+// Ditambahkan ke fillable secara otomatis
+protected $fillable = ['province_code']; // atau nama kunci kustom
 ```
 
-## Accessing Province Data
+### Relasi Provinsi
 
-### Basic Province Access
+Mengakses provinsi yang berelasi:
 
 ```php
-$unit = BusinessUnit::with('province')->first();
+$kantor = KantorWilayah::find(1);
+$provinsi = $kantor->province;
 
-echo $unit->province->name; // Province name
-echo $unit->province->latitude; // Province center latitude
-echo $unit->province->longitude; // Province center longitude
+echo "Kantor berlokasi di: {$provinsi->name}";
+echo "Koordinat provinsi: {$provinsi->latitude}, {$provinsi->longitude}";
 ```
 
-### Accessing Sub-regions
+### Eager Loading
 
 ```php
-$unit = BusinessUnit::with(['province.regencies', 'province.districts', 'province.villages'])->first();
+$kantor = KantorWilayah::with('province')->get();
 
-// Access all regencies in the province
-foreach ($unit->province->regencies as $regency) {
-    echo $regency->name;
-}
-
-// Get statistics
-echo "Regencies: " . $unit->province->regencies->count();
-echo "Districts: " . $unit->province->districts->count();
-echo "Villages: " . $unit->province->villages->count();
-```
-
-### Helper Methods
-
-```php
-class BusinessUnit extends Model
-{
-    use WithProvince;
-    
-    // Get province display name
-    public function getProvinceDisplayNameAttribute()
-    {
-        return $this->province ? "Provinsi {$this->province->name}" : null;
-    }
-    
-    // Check if unit is in Java
-    public function isInJava()
-    {
-        $javaCodes = ['31', '32', '33', '34', '35', '36'];
-        return in_array($this->province_code, $javaCodes);
-    }
-    
-    // Get coverage area statistics
-    public function getCoverageStats()
-    {
-        if (!$this->province) {
-            return null;
-        }
-        
-        return [
-            'province' => $this->province->name,
-            'regencies' => $this->province->regencies->count(),
-            'districts' => $this->province->districts->count(),
-            'villages' => $this->province->villages->count()
-        ];
-    }
+foreach ($kantor as $k) {
+    echo "{$k->name} - {$k->province->name}";
 }
 ```
 
-## Querying with Province Relationships
+## Kustomisasi
 
-### Basic Queries
+### *Foreign Key* Kustom
 
-```php
-// Get units with their provinces
-$units = BusinessUnit::with('province')->get();
-
-// Get units in specific province
-$units = BusinessUnit::where('province_code', '33')->get();
-
-// Get units in Java provinces
-$javaUnits = BusinessUnit::whereIn('province_code', ['31', '32', '33', '34', '35', '36'])->get();
-```
-
-### Advanced Filtering
+Anda dapat mengkustomisasi nama kolom *foreign key*:
 
 ```php
-// Units in provinces with specific characteristics
-$units = BusinessUnit::whereHas('province', function ($query) {
-    $query->where('name', 'like', '%Jawa%');
-})->get();
-
-// Units in provinces with many regencies
-$units = BusinessUnit::whereHas('province', function ($query) {
-    $query->has('regencies', '>=', 20);
-})->get();
-```
-
-### Custom Scopes
-
-```php
-class BusinessUnit extends Model
+class KantorWilayah extends Model
 {
     use WithProvince;
     
-    // Scope for units in Java
+    protected $provinceKey = 'province_code_kantor';
+    
+    protected $fillable = [
+        'name',
+        'deskripsi',
+        'province_code_kantor'
+    ];
+}
+```
+
+## Contoh Penggunaan Umum
+
+### 1. Manajemen Bisnis Regional
+
+```php
+class Cabang extends Model
+{
+    use WithProvince;
+    
+    protected $fillable = [
+        'name',
+        'address',
+        'telepon',
+        'province_code'
+    ];
+    
     public function scopeInJava($query)
     {
-        return $query->whereIn('province_code', ['31', '32', '33', '34', '35', '36']);
+        return $query->whereHas('province', function ($q) {
+            $q->whereIn('code', ['31', '32', '33', '34', '35', '36']);
+        });
     }
     
-    // Scope for units in specific province
-    public function scopeInProvince($query, $provinceCode)
+    public function scopeOutsideJava($query)
     {
-        return $query->where('province_code', $provinceCode);
-    }
-    
-    // Scope for units in Sumatra
-    public function scopeInSumatra($query)
-    {
-        $sumatraCodes = ['11', '12', '13', '14', '15', '16', '17', '18', '19', '21'];
-        return $query->whereIn('province_code', $sumatraCodes);
+        return $query->whereHas('province', function ($q) {
+            $q->whereNotIn('code', ['31', '32', '33', '34', '35', '36']);
+        });
     }
 }
 
-// Usage
-$javaUnits = BusinessUnit::inJava()->get();
-$centralJavaUnits = BusinessUnit::inProvince('33')->get();
-$sumatraUnits = BusinessUnit::inSumatra()->get();
+// Penggunaan
+$cabangJawa = Cabang::inJava()->get();
+$cabangLuarJawa = Cabang::outsideJava()->get();
 ```
 
-## Regional Analytics
-
-### Province-based Reporting
+### 2. Statistik Regional
 
 ```php
-class ProvinceAnalytics
+class LaporanPenjualan extends Model
 {
-    public function getBusinessDistribution()
+    use WithProvince;
+    
+    protected $fillable = [
+        'bulan',
+        'tahun',
+        'total_penjualan',
+        'province_code'
+    ];
+    
+    protected $casts = [
+        'total_penjualan' => 'decimal:2'
+    ];
+    
+    public static function getProvinceRanking($tahun)
     {
-        return BusinessUnit::join('nusa.provinces', 'business_units.province_code', '=', 'provinces.code')
-            ->groupBy('provinces.code', 'provinces.name')
-            ->selectRaw('provinces.code, provinces.name, count(*) as unit_count')
-            ->orderBy('unit_count', 'desc')
+        return static::with('province')
+            ->where('tahun', $tahun)
+            ->groupBy('province_code')
+            ->selectRaw('province_code, SUM(total_penjualan) as total')
+            ->orderByDesc('total')
             ->get();
     }
+}
+
+// Penggunaan
+$peringkat = LaporanPenjualan::getProvinceRanking(2024);
+foreach ($peringkat as $laporan) {
+    echo "{$laporan->province->name}: Rp " . number_format($laporan->total);
+}
+```
+
+### 3. Manajemen Acara
+
+```php
+class Acara extends Model
+{
+    use WithProvince;
     
-    public function getRegionalPerformance()
+    protected $fillable = [
+        'judul',
+        'deskripsi',
+        'tanggal_acara',
+        'province_code'
+    ];
+    
+    protected $casts = [
+        'tanggal_acara' => 'datetime'
+    ];
+    
+    public function getRegionalEventsAttribute()
     {
-        return BusinessUnit::with('province')
+        return static::where('province_code', $this->province_code)
+            ->where('id', '!=', $this->id)
+            ->where('tanggal_acara', '>=', now())
+            ->orderBy('tanggal_acara')
+            ->limit(5)
+            ->get();
+    }
+}
+```
+
+### 4. Zona Pengiriman
+
+```php
+class ZonaPengiriman extends Model
+{
+    use WithProvince;
+    
+    protected $fillable = [
+        'name',
+        'biaya_dasar',
+        'biaya_per_kg',
+        'province_code'
+    ];
+    
+    protected $casts = [
+        'biaya_dasar' => 'decimal:2',
+        'biaya_per_kg' => 'decimal:2'
+    ];
+    
+    public function calculateShippingCost($berat)
+    {
+        return $this->biaya_dasar + ($this->biaya_per_kg * $berat);
+    }
+    
+    public static function findByProvince($provinceCode)
+    {
+        return static::where('province_code', $provinceCode)->first();
+    }
+}
+
+// Penggunaan
+$zona = ZonaPengiriman::findByProvince('33'); // Jawa Tengah
+$biaya = $zona->calculateShippingCost(2.5); // 2.5 kg
+```
+
+## Kueri Lanjutan
+
+### Pengelompokan Geografis
+
+```php
+// Kelompokkan berdasarkan wilayah pulau
+$cabang = Cabang::with('province')
+    ->get()
+    ->groupBy(function ($branch) {
+        $code = $branch->province->code;
+        
+        if (in_array($code, ['31', '32', '33', '34', '35', '36'])) {
+            return 'Jawa';
+        } elseif (in_array($code, ['11', '12', '13', '14', '15', '16', '17', '18', '19', '21'])) {
+            return 'Sumatra';
+        } elseif (in_array($code, ['61', '62', '63', '64', '65'])) {
+            return 'Kalimantan';
+        } elseif (in_array($code, ['71', '72', '73', '74', '75', '76'])) {
+            return 'Sulawesi';
+        } elseif (in_array($code, ['51', '52', '53'])) {
+            return 'Bali & Nusa Tenggara';
+        } elseif (in_array($code, ['81', '82', '91', '92', '93', '94', '95', '96', '97'])) {
+            return 'Indonesia Timur';
+        }
+        
+        return 'Lainnya';
+    });
+```
+
+### Analisis Statistik
+
+```php
+class AnalitikProvinsi
+{
+    public static function getCustomerDistribution()
+    {
+        return Customer::with('province')
+            ->groupBy('province_code')
+            ->selectRaw('province_code, COUNT(*) as customer_count')
+            ->orderByDesc('customer_count')
             ->get()
-            ->groupBy('province.name')
-            ->map(function ($units, $provinceName) {
+            ->map(function ($item) {
                 return [
-                    'province' => $provinceName,
-                    'units_count' => $units->count(),
-                    'total_revenue' => $units->sum('revenue'),
-                    'average_performance' => $units->avg('performance_score')
+                    'provinsi' => $item->province->name,
+                    'jumlah' => $item->customer_count,
+                    'persentase' => round(($item->customer_count / Customer::count()) * 100, 2)
                 ];
             });
     }
 }
 ```
 
-### Geographic Analysis
-
-```php
-class GeographicAnalyzer
-{
-    public function getProvincesCoverage()
-    {
-        $totalProvinces = Province::count();
-        $coveredProvinces = BusinessUnit::distinct('province_code')->count();
-        
-        return [
-            'total_provinces' => $totalProvinces,
-            'covered_provinces' => $coveredProvinces,
-            'coverage_percentage' => ($coveredProvinces / $totalProvinces) * 100,
-            'uncovered_provinces' => Province::whereNotIn('code', 
-                BusinessUnit::distinct()->pluck('province_code')
-            )->pluck('name')
-        ];
-    }
-}
-```
-
-## Integration Examples
-
-### Regional Office Management
-
-```php
-class RegionalOffice extends Model
-{
-    use WithProvince;
-    
-    protected $fillable = ['name', 'province_code', 'manager_name', 'phone'];
-    
-    // Get all branches in this province
-    public function getBranchesInProvince()
-    {
-        return Branch::whereHas('village', function ($query) {
-            $query->where('province_code', $this->province_code);
-        })->get();
-    }
-    
-    // Get coverage statistics
-    public function getCoverageReport()
-    {
-        $branches = $this->getBranchesInProvince();
-        
-        return [
-            'office' => $this->name,
-            'province' => $this->province->name,
-            'branches_count' => $branches->count(),
-            'regencies_covered' => $branches->pluck('village.regency_code')->unique()->count(),
-            'districts_covered' => $branches->pluck('village.district_code')->unique()->count()
-        ];
-    }
-}
-```
-
-### Sales Territory Management
-
-```php
-class SalesTerritory extends Model
-{
-    use WithProvince;
-    
-    protected $fillable = ['name', 'province_code', 'sales_target'];
-    
-    // Get customers in this territory
-    public function getCustomersInTerritory()
-    {
-        return Customer::whereHas('village', function ($query) {
-            $query->where('province_code', $this->province_code);
-        })->get();
-    }
-    
-    // Calculate territory performance
-    public function getPerformanceMetrics()
-    {
-        $customers = $this->getCustomersInTerritory();
-        
-        return [
-            'territory' => $this->name,
-            'province' => $this->province->name,
-            'customers_count' => $customers->count(),
-            'total_sales' => $customers->sum('total_purchases'),
-            'sales_target' => $this->sales_target,
-            'achievement_percentage' => ($customers->sum('total_purchases') / $this->sales_target) * 100
-        ];
-    }
-}
-```
-
 ## Validasi
 
-### Validasi Kode Provinsi
+### Validasi *Form Request*
 
 ```php
-// Dalam FormRequest
-public function rules()
+class RegionalOfficeRequest extends FormRequest
 {
-    return [
-        'province_code' => [
-            'required',
-            'string',
-            'size:2',
-            'exists:nusa.provinces,code'
-        ]
-    ];
-}
-
-// Custom validation rule
-Validator::extend('valid_province', function ($attribute, $value, $parameters, $validator) {
-    return Province::where('code', $value)->exists();
-});
-```
-
-### Validasi dalam Model
-
-```php
-class BusinessUnit extends Model
-{
-    use WithProvince;
-
-    protected static function boot()
+    public function rules()
     {
-        parent::boot();
-
-        static::saving(function ($model) {
-            if ($model->province_code && !Province::where('code', $model->province_code)->exists()) {
-                throw new InvalidArgumentException('Kode provinsi tidak valid');
-            }
-        });
+        return [
+            'name' => 'required|string|max:255',
+            'deskripsi' => 'nullable|string',
+            'province_code' => 'required|exists:nusa.provinces,code'
+        ];
+    }
+    
+    public function messages()
+    {
+        return [
+            'province_code.required' => 'Silakan pilih provinsi.',
+            'province_code.exists' => 'Provinsi yang dipilih tidak valid.'
+        ];
     }
 }
 ```
 
-## Tips Performa
+## Tips Kinerja
 
-### Eager Loading
+### 1. *Eager Loading*
 
 ```php
-// ❌ N+1 Problem
-$units = BusinessUnit::all();
-foreach ($units as $unit) {
-    echo $unit->province->name; // Query untuk setiap unit
-}
+// Baik
+$kantor = KantorWilayah::with('province')->get();
 
-// ✅ Eager Loading
-$units = BusinessUnit::with('province')->get();
-foreach ($units as $unit) {
-    echo $unit->province->name; // Tidak ada query tambahan
+// Buruk - kueri N+1
+$kantor = KantorWilayah::all();
+foreach ($kantor as $k) {
+    echo $k->province->name; // Kueri N+1
 }
 ```
 
-### Caching
+### 2. Memilih Kolom Tertentu
 
 ```php
-// Cache province data
-$province = Cache::remember("province.{$this->province_code}", 3600, function () {
-    return $this->province;
-});
-
-// Cache province statistics
-$stats = Cache::remember("province.{$provinceCode}.stats", 1800, function () use ($provinceCode) {
-    return BusinessUnit::where('province_code', $provinceCode)->count();
-});
+$kantor = KantorWilayah::with(['province:code,name'])->get();
 ```
 
-### Database Indexing
+### 3. *Caching* Data Provinsi
 
 ```php
-// Migration untuk optimisasi
-Schema::table('business_units', function (Blueprint $table) {
-    $table->index(['province_code']); // Untuk filtering
-    $table->index(['province_code', 'created_at']); // Untuk sorting dengan filter
-});
-```
-
-## Kustomisasi
-
-### Custom Foreign Key
-
-```php
-class BusinessUnit extends Model
+class KantorWilayah extends Model
 {
     use WithProvince;
-
-    // Jika menggunakan nama kolom yang berbeda
-    public function province()
+    
+    public function getProvinceNameAttribute()
     {
-        return $this->belongsTo(Province::class, 'prov_code', 'code');
-    }
-}
-```
-
-### Custom Province Model
-
-```php
-// Jika menggunakan model Province kustom
-class BusinessUnit extends Model
-{
-    use WithProvince;
-
-    public function province()
-    {
-        return $this->belongsTo(\App\Models\CustomProvince::class, 'province_code', 'code');
+        return Cache::remember(
+            "province_name_{$this->province_code}",
+            3600,
+            fn() => $this->province->name
+        );
     }
 }
 ```
 
 ## Dokumentasi Terkait
 
-- [Province Model](/id/api/models/province) - Model provinsi lengkap
-- [WithRegency Trait](/id/api/concerns/with-regency) - Untuk granularitas kabupaten/kota
-- [WithAddress Trait](/id/api/concerns/with-address) - Untuk alamat lengkap
-- [Geographic Queries](/id/examples/geographic-queries) - Query geografis lanjutan
-
-## Next Steps
-
-- **[WithRegency](/id/api/concerns/with-regency)** - Regency-level relationships
-- **[WithVillage](/id/api/concerns/with-village)** - Village-level relationships
-- **[Province Model](/id/api/models/province)** - Complete province model documentation
-- **[WithAddresses](/id/api/concerns/with-addresses)** - Multiple addresses management
+- **[Model Province](/id/api/models/province)** - Dokumentasi lengkap model Province
+- **[Trait WithRegency](/id/api/concerns/with-regency)** - Untuk asosiasi tingkat kabupaten/kota
+- **[Trait WithDistrict](/id/api/concerns/with-district)** - Untuk asosiasi tingkat kecamatan
+- **[Trait WithVillage](/id/api/concerns/with-village)** - Untuk asosiasi tingkat desa/kelurahan
+- **[Contoh Kueri Geografis](/id/examples/geographic-queries)** - Kueri geografis lanjutan

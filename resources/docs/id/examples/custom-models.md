@@ -16,7 +16,7 @@ class Province extends BaseProvince
     // Tambahkan atribut kustom
     protected $appends = ['region_name', 'is_java'];
     
-    // Custom accessor
+    // Accessor kustom
     public function getRegionNameAttribute(): string
     {
         $regions = [
@@ -24,7 +24,7 @@ class Province extends BaseProvince
             'Java' => ['31', '32', '33', '34', '35', '36'],
             'Kalimantan' => ['61', '62', '63', '64', '65'],
             'Sulawesi' => ['71', '72', '73', '74', '75', '76'],
-            'Indonesia Timur' => ['81', '82', '91', '94', '95', '96'],
+            'Eastern Indonesia' => ['81', '82', '91', '94', '95', '96'],
         ];
         
         foreach ($regions as $region => $codes) {
@@ -36,339 +36,171 @@ class Province extends BaseProvince
         return 'Tidak Diketahui';
     }
     
-    // Custom accessor
+    // Accessor kustom
     public function getIsJavaAttribute(): bool
     {
         return in_array($this->code, ['31', '32', '33', '34', '35', '36']);
     }
     
-    // Custom scope
+    // Scope kustom
     public function scopeJava($query)
     {
         return $query->whereIn('code', ['31', '32', '33', '34', '35', '36']);
     }
     
+    // Scope kustom
     public function scopeOutsideJava($query)
     {
         return $query->whereNotIn('code', ['31', '32', '33', '34', '35', '36']);
     }
     
-    public function scopeByRegion($query, string $region)
+    // Metode kustom
+    public function getPopulationDensityCategory(): string
     {
-        $regionCodes = [
-            'sumatra' => ['11', '12', '13', '14', '15', '16', '17', '18', '19', '21'],
-            'java' => ['31', '32', '33', '34', '35', '36'],
-            'kalimantan' => ['61', '62', '63', '64', '65'],
-            'sulawesi' => ['71', '72', '73', '74', '75', '76'],
-            'eastern' => ['81', '82', '91', '94', '95', '96'],
-        ];
+        // Ini akan membutuhkan data populasi tambahan
+        if ($this->is_java) {
+            return 'Tinggi';
+        }
         
-        $codes = $regionCodes[strtolower($region)] ?? [];
-        
-        return $query->whereIn('code', $codes);
+        return 'Sedang'; // Logika sederhana
     }
-    
-    // Relasi kustom
-    public function businesses()
-    {
-        return $this->hasMany(Business::class, 'province_code', 'code');
-    }
-    
-    public function users()
-    {
-        return $this->hasMany(User::class, 'province_code', 'code');
-    }
+}
+
+// Penggunaan
+$javaProvinces = Province::java()->get();
+$outsideJava = Province::outsideJava()->get();
+
+foreach ($javaProvinces as $province) {
+    echo "{$province->name} berada di {$province->region_name}";
 }
 ```
 
-### Model Kabupaten/Kota Kustom
+### Model Alamat Kustom
 
 ```php
 namespace App\Models;
 
-use Creasi\Nusa\Models\Regency as BaseRegency;
+use Creasi\Nusa\Models\Address as BaseAddress;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
-class Regency extends BaseRegency
-{
-    protected $appends = ['type', 'is_city'];
-    
-    // Tentukan apakah ini kota atau kabupaten
-    public function getTypeAttribute(): string
-    {
-        return str_starts_with($this->name, 'Kota') ? 'Kota' : 'Kabupaten';
-    }
-    
-    public function getIsCityAttribute(): bool
-    {
-        return str_starts_with($this->name, 'Kota');
-    }
-    
-    // Scope untuk filter berdasarkan tipe
-    public function scopeCities($query)
-    {
-        return $query->where('name', 'LIKE', 'Kota%');
-    }
-    
-    public function scopeRegencies($query)
-    {
-        return $query->where('name', 'LIKE', 'Kabupaten%');
-    }
-    
-    // Relasi kustom
-    public function branches()
-    {
-        return $this->hasMany(Branch::class, 'regency_code', 'code');
-    }
-    
-    public function deliveryAreas()
-    {
-        return $this->hasMany(DeliveryArea::class, 'regency_code', 'code');
-    }
-}
-```
-
-### Model Kecamatan Kustom
-
-```php
-namespace App\Models;
-
-use Creasi\Nusa\Models\District as BaseDistrict;
-
-class District extends BaseDistrict
-{
-    // Relasi kustom
-    public function serviceAreas()
-    {
-        return $this->hasMany(ServiceArea::class, 'district_code', 'code');
-    }
-    
-    public function agents()
-    {
-        return $this->hasMany(Agent::class, 'district_code', 'code');
-    }
-    
-    // Method untuk menghitung coverage area
-    public function getCoveragePercentage(): float
-    {
-        $totalVillages = $this->villages()->count();
-        $coveredVillages = $this->villages()
-            ->whereHas('serviceAreas')
-            ->count();
-            
-        return $totalVillages > 0 ? ($coveredVillages / $totalVillages) * 100 : 0;
-    }
-}
-```
-
-### Model Kelurahan/Desa Kustom
-
-```php
-namespace App\Models;
-
-use Creasi\Nusa\Models\Village as BaseVillage;
-
-class Village extends BaseVillage
-{
-    protected $appends = ['type', 'is_urban'];
-    
-    // Tentukan apakah ini kelurahan atau desa
-    public function getTypeAttribute(): string
-    {
-        return str_starts_with($this->name, 'Kelurahan') ? 'Kelurahan' : 'Desa';
-    }
-    
-    public function getIsUrbanAttribute(): bool
-    {
-        return str_starts_with($this->name, 'Kelurahan');
-    }
-    
-    // Scope untuk filter berdasarkan tipe
-    public function scopeUrban($query)
-    {
-        return $query->where('name', 'LIKE', 'Kelurahan%');
-    }
-    
-    public function scopeRural($query)
-    {
-        return $query->where('name', 'NOT LIKE', 'Kelurahan%');
-    }
-    
-    // Relasi kustom
-    public function customers()
-    {
-        return $this->hasMany(Customer::class, 'village_code', 'code');
-    }
-    
-    public function deliveryPoints()
-    {
-        return $this->hasMany(DeliveryPoint::class, 'village_code', 'code');
-    }
-    
-    // Method untuk validasi kode pos
-    public function validatePostalCode(string $postalCode): bool
-    {
-        return $this->postal_code === $postalCode;
-    }
-}
-```
-
-## Integrasi dengan Model Aplikasi
-
-### Model User dengan Alamat
-
-```php
-namespace App\Models;
-
-use Illuminate\Foundation\Auth\User as Authenticatable;
-use Creasi\Nusa\Models\{Province, Regency, District, Village};
-
-class User extends Authenticatable
+class Address extends BaseAddress
 {
     protected $fillable = [
-        'name', 'email', 'password',
-        'province_code', 'regency_code', 'district_code', 'village_code',
-        'address_line', 'postal_code'
-    ];
-    
-    // Relasi ke model Nusa
-    public function province()
-    {
-        return $this->belongsTo(Province::class, 'province_code', 'code');
-    }
-    
-    public function regency()
-    {
-        return $this->belongsTo(Regency::class, 'regency_code', 'code');
-    }
-    
-    public function district()
-    {
-        return $this->belongsTo(District::class, 'district_code', 'code');
-    }
-    
-    public function village()
-    {
-        return $this->belongsTo(Village::class, 'village_code', 'code');
-    }
-    
-    // Accessor untuk alamat lengkap
-    public function getFullAddressAttribute(): string
-    {
-        $parts = array_filter([
-            $this->address_line,
-            $this->village?->name,
-            $this->district?->name,
-            $this->regency?->name,
-            $this->province?->name,
-            $this->postal_code
-        ]);
-        
-        return implode(', ', $parts);
-    }
-    
-    // Scope untuk filter berdasarkan wilayah
-    public function scopeInProvince($query, string $provinceCode)
-    {
-        return $query->where('province_code', $provinceCode);
-    }
-    
-    public function scopeInRegency($query, string $regencyCode)
-    {
-        return $query->where('regency_code', $regencyCode);
-    }
-    
-    public function scopeInJava($query)
-    {
-        return $query->whereIn('province_code', ['31', '32', '33', '34', '35', '36']);
-    }
-}
-```
-
-### Model Toko dengan Lokasi
-
-```php
-namespace App\Models;
-
-use Illuminate\Database\Eloquent\Model;
-use Creasi\Nusa\Models\{Province, Regency, District, Village};
-
-class Store extends Model
-{
-    protected $fillable = [
-        'name', 'description', 'phone',
-        'province_code', 'regency_code', 'district_code', 'village_code',
-        'address_line', 'postal_code', 'latitude', 'longitude'
+        'user_id',
+        'name',
+        'phone',
+        'province_code',
+        'regency_code',
+        'district_code',
+        'village_code',
+        'address_line',
+        'postal_code',
+        'is_default',
+        // Bidang kustom
+        'label',           // 'Rumah', 'Kantor', 'Lainnya'
+        'notes',           // Catatan tambahan
+        'latitude',        // Koordinat kustom
+        'longitude',
+        'is_verified',     // Status verifikasi alamat
+        'delivery_notes',  // Instruksi pengiriman khusus
     ];
     
     protected $casts = [
+        'is_default' => 'boolean',
+        'is_verified' => 'boolean',
         'latitude' => 'decimal:8',
         'longitude' => 'decimal:8',
     ];
     
-    // Relasi ke model Nusa
-    public function province()
+    protected $appends = ['formatted_label', 'distance_from_center'];
+    
+    // Accessor kustom
+    public function getFormattedLabelAttribute(): string
     {
-        return $this->belongsTo(Province::class, 'province_code', 'code');
+        return $this->label ? ucfirst($this->label) : 'Alamat';
     }
     
-    public function regency()
+    // Accessor kustom dengan perhitungan
+    public function getDistanceFromCenterAttribute(): ?float
     {
-        return $this->belongsTo(Regency::class, 'regency_code', 'code');
-    }
-    
-    public function district()
-    {
-        return $this->belongsTo(District::class, 'district_code', 'code');
-    }
-    
-    public function village()
-    {
-        return $this->belongsTo(Village::class, 'village_code', 'code');
-    }
-    
-    // Scope untuk pencarian berdasarkan lokasi
-    public function scopeNearby($query, float $latitude, float $longitude, int $radiusKm = 10)
-    {
-        $earthRadius = 6371; // km
+        if (!$this->latitude || !$this->longitude || !$this->village) {
+            return null;
+        }
         
-        return $query->selectRaw("
-            *, (
-                {$earthRadius} * acos(
+        return $this->calculateDistance(
+            $this->latitude,
+            $this->longitude,
+            $this->village->latitude,
+            $this->village->longitude
+        );
+    }
+    
+    // Scope kustom
+    public function scopeVerified($query)
+    {
+        return $query->where('is_verified', true);
+    }
+    
+    public function scopeByLabel($query, $label)
+    {
+        return $query->where('label', $label);
+    }
+    
+    public function scopeWithinRadius($query, $lat, $lon, $radiusKm)
+    {
+        return $query->whereNotNull('latitude')
+            ->whereNotNull('longitude')
+            ->whereRaw("
+                (6371 * acos(
                     cos(radians(?)) * 
                     cos(radians(latitude)) * 
                     cos(radians(longitude) - radians(?)) + 
                     sin(radians(?)) * 
                     sin(radians(latitude))
-                )
-            ) AS distance
-        ", [$latitude, $longitude, $latitude])
-        ->having('distance', '<', $radiusKm)
-        ->orderBy('distance');
+                )) <= ?
+            ", [$lat, $lon, $lat, $radiusKm]);
     }
     
-    public function scopeInArea($query, array $areaCodes, string $level = 'village')
+    // Metode kustom
+    public function markAsVerified(): void
     {
-        $column = $level . '_code';
-        return $query->whereIn($column, $areaCodes);
+        $this->update(['is_verified' => true]);
     }
     
-    // Method untuk validasi alamat
-    public function validateAddress(): bool
+    public function updateCoordinates(float $lat, float $lon): void
     {
-        // Validasi hierarki alamat
-        if (!$this->village) return false;
-        if ($this->village->district_code !== $this->district_code) return false;
-        if ($this->village->district->regency_code !== $this->regency_code) return false;
-        if ($this->village->district->regency->province_code !== $this->province_code) return false;
+        $this->update([
+            'latitude' => $lat,
+            'longitude' => $lon,
+        ]);
+    }
+    
+    private function calculateDistance($lat1, $lon1, $lat2, $lon2): float
+    {
+        $earthRadius = 6371; // km
         
-        return true;
+        $dLat = deg2rad($lat2 - $lat1);
+        $dLon = deg2rad($lon2 - $lon1);
+        
+        $a = sin($dLat / 2) * sin($dLat / 2) +
+             cos(deg2rad($lat1)) * cos(deg2rad($lat2)) *
+             sin($dLon / 2) * sin($dLon / 2);
+             
+        $c = 2 * atan2(sqrt($a), sqrt(1 - $a));
+        
+        return $earthRadius * $c;
     }
 }
+
+// Penggunaan
+$homeAddresses = Address::byLabel('home')->get();
+$verifiedAddresses = Address::verified()->get();
+$nearbyAddresses = Address::withinRadius(-6.200000, 106.816666, 10)->get();
 ```
 
-## Model Domain-Spesifik
+## Model Spesifik Domain
 
-### Model Toko dengan Trait Alamat
+### Model Toko dengan Lokasi
 
 ```php
 namespace App\Models;
@@ -380,7 +212,7 @@ use Creasi\Nusa\Models\Concerns\WithAddress;
 class Store extends Model implements HasAddress
 {
     use WithAddress;
-
+    
     protected $fillable = [
         'name',
         'description',
@@ -399,316 +231,225 @@ class Store extends Model implements HasAddress
         'longitude',
         'is_active',
     ];
-
+    
     protected $casts = [
         'opening_hours' => 'array',
         'is_active' => 'boolean',
         'latitude' => 'decimal:8',
         'longitude' => 'decimal:8',
     ];
-
+    
     protected $appends = ['full_location', 'region'];
-
-    // Custom accessor
+    
+    // Accessor kustom
     public function getFullLocationAttribute(): string
     {
         return $this->full_address;
     }
-
+    
     public function getRegionAttribute(): string
     {
-        return $this->province?->region_name ?? 'Tidak Diketahui';
+        if (!$this->province) {
+            return 'Tidak Diketahui';
+        }
+        
+        $javaProvinces = ['31', '32', '33', '34', '35', '36'];
+        return in_array($this->province_code, $javaProvinces) ? 'Jawa' : 'Luar Jawa';
     }
-
-    // Scope untuk pencarian geografis
-    public function scopeInRadius($query, float $lat, float $lng, int $radiusKm = 10)
+    
+    // Scope
+    public function scopeActive($query)
     {
-        $earthRadius = 6371; // km
-
-        return $query->selectRaw("
-            *, (
-                {$earthRadius} * acos(
-                    cos(radians(?)) *
-                    cos(radians(latitude)) *
-                    cos(radians(longitude) - radians(?)) +
-                    sin(radians(?)) *
-                    sin(radians(latitude))
-                )
-            ) AS distance
-        ", [$lat, $lng, $lat])
-        ->having('distance', '<', $radiusKm)
-        ->orderBy('distance');
+        return $query->where('is_active', true);
     }
-
-    public function scopeByCategory($query, string $category)
+    
+    public function scopeInProvince($query, $provinceCode)
+    {
+        return $query->where('province_code', $provinceCode);
+    }
+    
+    public function scopeInRegency($query, $regencyCode)
+    {
+        return $query->where('regency_code', $regencyCode);
+    }
+    
+    public function scopeByCategory($query, $category)
     {
         return $query->where('category', $category);
     }
-
-    public function scopeActive($query)
+    
+    public function scopeNearby($query, $lat, $lon, $radiusKm = 10)
     {
-        return $query->where('is_active', true);
+        return $query->whereNotNull('latitude')
+            ->whereNotNull('longitude')
+            ->whereRaw("
+                (6371 * acos(
+                    cos(radians(?)) * 
+                    cos(radians(latitude)) * 
+                    cos(radians(longitude) - radians(?)) + 
+                    sin(radians(?)) * 
+                    sin(radians(latitude))
+                )) <= ?
+            ", [$lat, $lon, $lat, $radiusKm]);
     }
-
-    // Relasi
-    public function orders()
-    {
-        return $this->hasMany(Order::class);
-    }
-
-    public function reviews()
-    {
-        return $this->hasMany(Review::class);
-    }
-
-    // Method untuk menghitung jarak
-    public function distanceTo(float $lat, float $lng): float
+    
+    // Metode
+    public function getDistanceFrom(float $lat, float $lon): ?float
     {
         if (!$this->latitude || !$this->longitude) {
-            return 0;
+            return null;
         }
-
-        $earthRadius = 6371; // km
-
-        $latDelta = deg2rad($lat - $this->latitude);
-        $lngDelta = deg2rad($lng - $this->longitude);
-
-        $a = sin($latDelta / 2) * sin($latDelta / 2) +
-             cos(deg2rad($this->latitude)) * cos(deg2rad($lat)) *
-             sin($lngDelta / 2) * sin($lngDelta / 2);
-
+        
+        return $this->calculateDistance($lat, $lon, $this->latitude, $this->longitude);
+    }
+    
+    private function calculateDistance($lat1, $lon1, $lat2, $lon2): float
+    {
+        $earthRadius = 6371;
+        
+        $dLat = deg2rad($lat2 - $lat1);
+        $dLon = deg2rad($lon2 - $lon1);
+        
+        $a = sin($dLat / 2) * sin($dLat / 2) +
+             cos(deg2rad($lat1)) * cos(deg2rad($lat2)) *
+             sin($dLon / 2) * sin($dLon / 2);
+             
         $c = 2 * atan2(sqrt($a), sqrt(1 - $a));
-
+        
         return $earthRadius * $c;
     }
 }
+
+// Penggunaan
+$stores = Store::active()
+    ->inProvince('33')
+    ->byCategory('restaurant')
+    ->with(['province', 'regency'])
+    ->get();
+
+$nearbyStores = Store::nearby(-6.200000, 106.816666, 5)
+    ->active()
+    ->get();
 ```
 
-### Model Pengiriman dengan Validasi Alamat
+### Model Zona Pengiriman
 
 ```php
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Creasi\Nusa\Models\Concerns\WithAddress;
-
-class Delivery extends Model
-{
-    use WithAddress;
-
-    protected $fillable = [
-        'order_id',
-        'recipient_name',
-        'recipient_phone',
-        'province_code',
-        'regency_code',
-        'district_code',
-        'village_code',
-        'address_line',
-        'postal_code',
-        'delivery_notes',
-        'status',
-        'delivered_at',
-    ];
-
-    protected $casts = [
-        'delivered_at' => 'datetime',
-    ];
-
-    // Status constants
-    const STATUS_PENDING = 'pending';
-    const STATUS_PROCESSING = 'processing';
-    const STATUS_SHIPPED = 'shipped';
-    const STATUS_DELIVERED = 'delivered';
-    const STATUS_FAILED = 'failed';
-
-    // Relasi
-    public function order()
-    {
-        return $this->belongsTo(Order::class);
-    }
-
-    // Scope
-    public function scopeByStatus($query, string $status)
-    {
-        return $query->where('status', $status);
-    }
-
-    public function scopePending($query)
-    {
-        return $query->where('status', self::STATUS_PENDING);
-    }
-
-    public function scopeDelivered($query)
-    {
-        return $query->where('status', self::STATUS_DELIVERED);
-    }
-
-    // Method untuk validasi alamat pengiriman
-    public function validateDeliveryAddress(): array
-    {
-        $errors = [];
-
-        // Validasi kode pos
-        if ($this->postal_code && $this->village) {
-            if ($this->village->postal_code !== $this->postal_code) {
-                $errors[] = 'Kode pos tidak sesuai dengan kelurahan/desa';
-            }
-        }
-
-        // Validasi hierarki alamat
-        if (!$this->validateAddressHierarchy()) {
-            $errors[] = 'Hierarki alamat tidak valid';
-        }
-
-        // Validasi kelengkapan alamat
-        if (empty($this->address_line)) {
-            $errors[] = 'Alamat lengkap harus diisi';
-        }
-
-        if (empty($this->recipient_name)) {
-            $errors[] = 'Nama penerima harus diisi';
-        }
-
-        if (empty($this->recipient_phone)) {
-            $errors[] = 'Nomor telepon penerima harus diisi';
-        }
-
-        return $errors;
-    }
-
-    // Method untuk estimasi biaya pengiriman
-    public function calculateShippingCost(): int
-    {
-        $baseCost = 10000; // Biaya dasar
-
-        // Tambahan biaya berdasarkan wilayah
-        $regionMultiplier = match($this->province?->region_name) {
-            'Java' => 1.0,
-            'Sumatra' => 1.2,
-            'Kalimantan' => 1.5,
-            'Sulawesi' => 1.3,
-            'Indonesia Timur' => 2.0,
-            default => 1.0
-        };
-
-        // Tambahan biaya untuk desa (non-kelurahan)
-        $ruralMultiplier = $this->village?->is_urban ? 1.0 : 1.1;
-
-        return (int) ($baseCost * $regionMultiplier * $ruralMultiplier);
-    }
-}
-```
-
-### Model Area Layanan
-
-```php
-namespace App\Models;
-
-use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Creasi\Nusa\Models\{Province, Regency, District, Village};
 
-class ServiceArea extends Model
+class DeliveryZone extends Model
 {
     protected $fillable = [
         'name',
-        'description',
-        'service_type',
-        'coverage_level', // province, regency, district, village
-        'coverage_codes', // JSON array of codes
+        'type', // 'province', 'regency', 'district', 'village'
+        'code', // Kode administratif
+        'delivery_fee',
+        'estimated_days',
         'is_active',
-        'priority',
+        'notes',
     ];
-
+    
     protected $casts = [
-        'coverage_codes' => 'array',
+        'delivery_fee' => 'decimal:2',
+        'estimated_days' => 'integer',
         'is_active' => 'boolean',
-        'priority' => 'integer',
     ];
-
-    // Constants untuk level coverage
-    const LEVEL_PROVINCE = 'province';
-    const LEVEL_REGENCY = 'regency';
-    const LEVEL_DISTRICT = 'district';
-    const LEVEL_VILLAGE = 'village';
-
+    
+    // Relasi dinamis berdasarkan tipe
+    public function administrativeRegion()
+    {
+        switch ($this->type) {
+            case 'province':
+                return $this->belongsTo(Province::class, 'code', 'code');
+            case 'regency':
+                return $this->belongsTo(Regency::class, 'code', 'code');
+            case 'district':
+                return $this->belongsTo(District::class, 'code', 'code');
+            case 'village':
+                return $this->belongsTo(Village::class, 'code', 'code');
+            default:
+                return null;
+        }
+    }
+    
     // Scope
     public function scopeActive($query)
     {
         return $query->where('is_active', true);
     }
-
-    public function scopeByServiceType($query, string $type)
+    
+    public function scopeByType($query, $type)
     {
-        return $query->where('service_type', $type);
+        return $query->where('type', $type);
     }
-
-    public function scopeByLevel($query, string $level)
+    
+    // Metode
+    public function covers(string $villageCode): bool
     {
-        return $query->where('coverage_level', $level);
-    }
-
-    // Method untuk mengecek coverage
-    public function coversAddress(string $provinceCode, string $regencyCode = null,
-                                 string $districtCode = null, string $villageCode = null): bool
-    {
-        if (!$this->is_active) {
+        $village = Village::find($villageCode);
+        if (!$village) {
             return false;
         }
-
-        $codes = $this->coverage_codes ?? [];
-
-        return match($this->coverage_level) {
-            self::LEVEL_PROVINCE => in_array($provinceCode, $codes),
-            self::LEVEL_REGENCY => in_array($regencyCode, $codes),
-            self::LEVEL_DISTRICT => in_array($districtCode, $codes),
-            self::LEVEL_VILLAGE => in_array($villageCode, $codes),
-            default => false
-        };
+        
+        switch ($this->type) {
+            case 'province':
+                return $village->province_code === $this->code;
+            case 'regency':
+                return $village->regency_code === $this->code;
+            case 'district':
+                return $village->district_code === $this->code;
+            case 'village':
+                return $village->code === $this->code;
+            default:
+                return false;
+        }
     }
-
-    public function coversVillage(Village $village): bool
+    
+    public static function findForAddress(string $villageCode): ?self
     {
-        return $this->coversAddress(
-            $village->district->regency->province_code,
-            $village->district->regency_code,
-            $village->district_code,
-            $village->code
-        );
-    }
-
-    // Method untuk mendapatkan wilayah yang dicakup
-    public function getCoveredAreas()
-    {
-        $codes = $this->coverage_codes ?? [];
-
-        return match($this->coverage_level) {
-            self::LEVEL_PROVINCE => Province::whereIn('code', $codes)->get(),
-            self::LEVEL_REGENCY => Regency::whereIn('code', $codes)->get(),
-            self::LEVEL_DISTRICT => District::whereIn('code', $codes)->get(),
-            self::LEVEL_VILLAGE => Village::whereIn('code', $codes)->get(),
-            default => collect()
-        };
-    }
-
-    // Method untuk menghitung coverage statistics
-    public function getCoverageStats(): array
-    {
-        $coveredAreas = $this->getCoveredAreas();
-
-        return [
-            'total_areas' => $coveredAreas->count(),
-            'coverage_level' => $this->coverage_level,
-            'service_type' => $this->service_type,
-            'is_active' => $this->is_active,
+        $village = Village::find($villageCode);
+        if (!$village) {
+            return null;
+        }
+        
+        // Periksa urutan spesifisitas: desa/kelurahan -> kecamatan -> kabupaten/kota -> provinsi
+        $zones = [
+            ['type' => 'village', 'code' => $village->code],
+            ['type' => 'district', 'code' => $village->district_code],
+            ['type' => 'regency', 'code' => $village->regency_code],
+            ['type' => 'province', 'code' => $village->province_code],
         ];
+        
+        foreach ($zones as $zone) {
+            $deliveryZone = self::active()
+                ->where('type', $zone['type'])
+                ->where('code', $zone['code'])
+                ->first();
+                
+            if ($deliveryZone) {
+                return $deliveryZone;
+            }
+        }
+        
+        return null;
     }
+}
+
+// Penggunaan
+$deliveryZone = DeliveryZone::findForAddress('33.75.01.1002');
+if ($deliveryZone) {
+    echo "Biaya pengiriman: Rp " . number_format($deliveryZone->delivery_fee);
+    echo "Estimasi pengiriman: {$deliveryZone->estimated_days} hari";
 }
 ```
 
-## Service Classes
+## Kelas Layanan
 
-### Location Service
+### Layanan Lokasi
 
 ```php
 namespace App\Services;
@@ -720,13 +461,13 @@ class LocationService
 {
     public function getLocationHierarchy(string $villageCode): ?array
     {
-        $village = Village::with(['district.regency.province'])
+        $village = Village::with(['district', 'regency', 'province'])
             ->find($villageCode);
-
+            
         if (!$village) {
             return null;
         }
-
+        
         return [
             'village' => [
                 'code' => $village->code,
@@ -738,287 +479,141 @@ class LocationService
                 'name' => $village->district->name,
             ],
             'regency' => [
-                'code' => $village->district->regency->code,
-                'name' => $village->district->regency->name,
+                'code' => $village->regency->code,
+                'name' => $village->regency->name,
             ],
             'province' => [
-                'code' => $village->district->regency->province->code,
-                'name' => $village->district->regency->province->name,
+                'code' => $village->province->code,
+                'name' => $village->province->name,
             ],
             'full_address' => $this->buildFullAddress($village),
         ];
     }
-
+    
     public function findNearestRegency(float $lat, float $lon): ?Regency
     {
-        // Implementasi pencarian regency terdekat berdasarkan koordinat
-        // Ini memerlukan data koordinat yang tidak tersedia di database default
-        $regencies = Regency::all();
-
+        $regencies = Regency::whereNotNull('latitude')
+            ->whereNotNull('longitude')
+            ->get();
+            
         $nearest = null;
         $minDistance = PHP_FLOAT_MAX;
-
+        
         foreach ($regencies as $regency) {
-            // Gunakan koordinat pusat regency jika tersedia
-            // Atau implementasi alternatif berdasarkan nama
-            $distance = $this->calculateDistance($lat, $lon, $regency);
-
+            $distance = $this->calculateDistance(
+                $lat, $lon,
+                $regency->latitude, $regency->longitude
+            );
+            
             if ($distance < $minDistance) {
                 $minDistance = $distance;
                 $nearest = $regency;
             }
         }
-
+        
         return $nearest;
     }
-
-    public function validateAddressHierarchy(string $provinceCode, string $regencyCode,
-                                           string $districtCode, string $villageCode): bool
-    {
-        $village = Village::with(['district.regency.province'])
-            ->find($villageCode);
-
-        if (!$village) {
-            return false;
-        }
-
-        return $village->district_code === $districtCode &&
-               $village->district->regency_code === $regencyCode &&
-               $village->district->regency->province_code === $provinceCode;
-    }
-
-    public function searchLocations(string $query, int $limit = 10): array
-    {
-        $results = [
-            'provinces' => Province::search($query)->limit($limit)->get(),
-            'regencies' => Regency::search($query)->limit($limit)->get(),
-            'districts' => District::search($query)->limit($limit)->get(),
-            'villages' => Village::search($query)->limit($limit)->get(),
-        ];
-
-        return $results;
-    }
-
+    
     public function getRegionStatistics(): array
     {
         return [
-            'total_provinces' => Province::count(),
-            'total_regencies' => Regency::count(),
-            'total_districts' => District::count(),
-            'total_villages' => Village::count(),
-            'java_provinces' => Province::java()->count(),
-            'cities' => Regency::cities()->count(),
-            'regencies' => Regency::regencies()->count(),
-            'urban_villages' => Village::urban()->count(),
-            'rural_villages' => Village::rural()->count(),
+            'provinces' => Province::count(),
+            'regencies' => Regency::count(),
+            'districts' => District::count(),
+            'villages' => Village::count(),
+            'java_provinces' => Province::whereIn('code', ['31', '32', '33', '34', '35', '36'])->count(),
+            'cities' => Regency::where('name', 'like', '%Kota%')->count(),
+            'regencies_proper' => Regency::where('name', 'like', '%Kabupaten%')->count(),
         ];
     }
-
-    private function buildFullAddress(Village $village): string
+    
+    public function validateAddressHierarchy(array $addressData): bool
     {
-        $parts = [
-            $village->name,
-            $village->district->name,
-            $village->district->regency->name,
-            $village->district->regency->province->name,
-        ];
-
-        if ($village->postal_code) {
-            $parts[] = $village->postal_code;
-        }
-
-        return implode(', ', $parts);
-    }
-
-    private function calculateDistance(float $lat, float $lon, Regency $regency): float
-    {
-        // Implementasi sederhana berdasarkan nama
-        // Dalam implementasi nyata, Anda perlu data koordinat
-        return rand(1, 1000); // Placeholder
-    }
-}
-```
-
-### Address Validation Service
-
-```php
-namespace App\Services;
-
-use Creasi\Nusa\Models\{Province, Regency, District, Village};
-
-class AddressValidationService
-{
-    public function validateComplete(array $addressData): array
-    {
-        $errors = [];
-
-        // Validasi keberadaan kode
-        if (!isset($addressData['province_code']) || empty($addressData['province_code'])) {
-            $errors[] = 'Kode provinsi harus diisi';
-        }
-
-        if (!isset($addressData['regency_code']) || empty($addressData['regency_code'])) {
-            $errors[] = 'Kode kabupaten/kota harus diisi';
-        }
-
-        if (!isset($addressData['district_code']) || empty($addressData['district_code'])) {
-            $errors[] = 'Kode kecamatan harus diisi';
-        }
-
-        if (!isset($addressData['village_code']) || empty($addressData['village_code'])) {
-            $errors[] = 'Kode kelurahan/desa harus diisi';
-        }
-
-        // Jika ada error dasar, return early
-        if (!empty($errors)) {
-            return $errors;
-        }
-
-        // Validasi keberadaan data
-        $province = Province::find($addressData['province_code']);
-        if (!$province) {
-            $errors[] = 'Provinsi tidak ditemukan';
-        }
-
-        $regency = Regency::find($addressData['regency_code']);
-        if (!$regency) {
-            $errors[] = 'Kabupaten/kota tidak ditemukan';
-        }
-
-        $district = District::find($addressData['district_code']);
-        if (!$district) {
-            $errors[] = 'Kecamatan tidak ditemukan';
-        }
-
         $village = Village::find($addressData['village_code']);
-        if (!$village) {
-            $errors[] = 'Kelurahan/desa tidak ditemukan';
-        }
-
-        // Validasi hierarki jika semua data ada
-        if ($province && $regency && $district && $village) {
-            if ($regency->province_code !== $province->code) {
-                $errors[] = 'Kabupaten/kota tidak berada di provinsi yang dipilih';
-            }
-
-            if ($district->regency_code !== $regency->code) {
-                $errors[] = 'Kecamatan tidak berada di kabupaten/kota yang dipilih';
-            }
-
-            if ($village->district_code !== $district->code) {
-                $errors[] = 'Kelurahan/desa tidak berada di kecamatan yang dipilih';
-            }
-        }
-
-        // Validasi kode pos jika ada
-        if (isset($addressData['postal_code']) && !empty($addressData['postal_code'])) {
-            if ($village && $village->postal_code !== $addressData['postal_code']) {
-                $errors[] = 'Kode pos tidak sesuai dengan kelurahan/desa yang dipilih';
-            }
-        }
-
-        return $errors;
-    }
-
-    public function validatePostalCode(string $villageCode, string $postalCode): bool
-    {
-        $village = Village::find($villageCode);
-
+        
         if (!$village) {
             return false;
         }
-
-        return $village->postal_code === $postalCode;
+        
+        return $village->district_code === $addressData['district_code'] &&
+               $village->regency_code === $addressData['regency_code'] &&
+               $village->province_code === $addressData['province_code'];
     }
-
-    public function suggestCorrections(array $addressData): array
+    
+    private function buildFullAddress(Village $village): string
     {
-        $suggestions = [];
-
-        // Suggest berdasarkan nama yang mirip
-        if (isset($addressData['province_name'])) {
-            $similarProvinces = Province::search($addressData['province_name'])
-                ->limit(3)
-                ->get(['code', 'name']);
-
-            if ($similarProvinces->isNotEmpty()) {
-                $suggestions['provinces'] = $similarProvinces;
-            }
-        }
-
-        if (isset($addressData['regency_name'])) {
-            $similarRegencies = Regency::search($addressData['regency_name'])
-                ->limit(3)
-                ->get(['code', 'name']);
-
-            if ($similarRegencies->isNotEmpty()) {
-                $suggestions['regencies'] = $similarRegencies;
-            }
-        }
-
-        return $suggestions;
+        return implode(', ', array_filter([
+            $village->name,
+            $village->district->name,
+            $village->regency->name,
+            $village->province->name,
+            $village->postal_code,
+        ]));
+    }
+    
+    private function calculateDistance(float $lat1, float $lon1, float $lat2, float $lon2): float
+    {
+        $earthRadius = 6371;
+        
+        $dLat = deg2rad($lat2 - $lat1);
+        $dLon = deg2rad($lon2 - $lon1);
+        
+        $a = sin($dLat / 2) * sin($dLat / 2) +
+             cos(deg2rad($lat1)) * cos(deg2rad($lat2)) *
+             sin($dLon / 2) * sin($dLon / 2);
+             
+        $c = 2 * atan2(sqrt($a), sqrt(1 - $a));
+        
+        return $earthRadius * $c;
     }
 }
+
+// Penggunaan
+$locationService = new LocationService();
+
+$hierarchy = $locationService->getLocationHierarchy('33.75.01.1002');
+$nearestRegency = $locationService->findNearestRegency(-6.200000, 106.816666);
+$stats = $locationService->getRegionStatistics();
 ```
 
 ## Konfigurasi
 
-### Registrasi Model Kustom
+### Pengikatan Model Kustom
+
+```php
+// Di AppServiceProvider Anda
+use Creasi\Nusa\Contracts;
+use App\Models\{Province, Address};
+
+public function register()
+{
+    // Ikat model kustom
+    $this->app->bind(Contracts\Province::class, Province::class);
+    $this->app->bind(Contracts\Address::class, Address::class);
+}
+```
+
+### Konfigurasi Kustom
 
 ```php
 // config/creasi/nusa.php
-
 return [
-    'models' => [
+    'connection' => env('CREASI_NUSA_CONNECTION', 'nusa'),
+    'addressable' => \App\Models\Address::class,
+    'routes_enable' => env('CREASI_NUSA_ROUTES_ENABLE', true),
+    'routes_prefix' => env('CREASI_NUSA_ROUTES_PREFIX', 'nusa'),
+    
+    // Pengaturan kustom
+    'custom_models' => [
         'province' => \App\Models\Province::class,
-        'regency' => \App\Models\Regency::class,
-        'district' => \App\Models\District::class,
-        'village' => \App\Models\Village::class,
+        'store' => \App\Models\Store::class,
     ],
-
-    'services' => [
-        'location' => \App\Services\LocationService::class,
-        'validation' => \App\Services\AddressValidationService::class,
-    ],
-
-    'cache' => [
-        'enabled' => true,
-        'ttl' => 3600, // 1 jam
-        'prefix' => 'nusa_custom',
+    
+    'delivery' => [
+        'default_fee' => 10000,
+        'default_days' => 3,
     ],
 ];
 ```
 
-### Service Provider
-
-```php
-namespace App\Providers;
-
-use Illuminate\Support\ServiceProvider;
-use App\Services\{LocationService, AddressValidationService};
-
-class NusaServiceProvider extends ServiceProvider
-{
-    public function register()
-    {
-        $this->app->singleton(LocationService::class);
-        $this->app->singleton(AddressValidationService::class);
-    }
-
-    public function boot()
-    {
-        // Bind custom models jika diperlukan
-        $this->app->bind(
-            \Creasi\Nusa\Models\Province::class,
-            \App\Models\Province::class
-        );
-
-        $this->app->bind(
-            \Creasi\Nusa\Models\Regency::class,
-            \App\Models\Regency::class
-        );
-    }
-}
-```
-
-Dengan implementasi model kustom ini, Anda dapat memperluas fungsionalitas Laravel Nusa sesuai dengan kebutuhan spesifik aplikasi Anda, sambil tetap memanfaatkan data administratif Indonesia yang akurat dan lengkap.
+Contoh-contoh ini menunjukkan cara memperluas Laravel Nusa dengan model kustom yang menambahkan logika bisnis, atribut tambahan, dan fungsionalitas spesifik domain sambil mempertahankan relasi data administratif inti.

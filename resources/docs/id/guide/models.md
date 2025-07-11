@@ -1,17 +1,17 @@
 # Model & Relasi
 
-**Bangun aplikasi yang sadar lokasi** dengan model Eloquent Laravel Nusa yang komprehensif. Model-model ini menyediakan fondasi untuk mengintegrasikan struktur administratif Indonesia ke dalam logika bisnis Anda, dari analitik tingkat nasional hingga operasi spesifik desa.
+**Bangun aplikasi berbasis lokasi** dengan model Eloquent komprehensif Laravel Nusa. Model-model ini menyediakan fondasi untuk mengintegrasikan struktur administratif Indonesia ke dalam logika bisnis Anda, mulai dari analitik tingkat nasional hingga operasi spesifik desa/kelurahan.
 
 ## Mengapa Menggunakan Model Laravel Nusa?
 
 ### 🎯 **Cakupan Administratif Lengkap**
-Bekerja dengan setiap tingkat hierarki administratif Indonesia - dari 38 provinsi hingga 83.762 desa. Cakupan komprehensif ini memastikan aplikasi Anda dapat menangani kebutuhan berbasis lokasi apa pun.
+Bekerja dengan setiap tingkat hierarki administratif Indonesia - dari 38 provinsi hingga 83.762 desa/kelurahan. Cakupan komprehensif ini memastikan aplikasi Anda dapat menangani setiap persyaratan berbasis lokasi.
 
 ### ⚡ **Relasi Siap Pakai**
-Relasi Eloquent yang sudah dibangun menangani kompleksitas struktur hierarkis Indonesia, memungkinkan Anda fokus pada logika bisnis daripada manajemen data.
+Relasi Eloquent yang sudah dibangun menangani kompleksitas struktur hierarkis Indonesia, memungkinkan Anda untuk fokus pada logika bisnis Anda daripada manajemen data.
 
 ### 🔄 **Sumber Data Resmi**
-Model bekerja dengan data yang disinkronisasi dari sumber resmi pemerintah, memastikan aplikasi Anda memiliki informasi administratif yang akurat dan terkini.
+Model-model ini bekerja dengan data yang disinkronkan dari sumber resmi pemerintah, memastikan aplikasi Anda memiliki informasi administratif yang akurat dan terkini.
 
 ## Memahami Hierarki Administratif
 
@@ -21,329 +21,285 @@ Model bekerja dengan data yang disinkronisasi dari sumber resmi pemerintah, mema
 ├── 38 Provinsi → Operasi regional strategis
 ├── 514 Kabupaten/Kota → Layanan tingkat kota dan kabupaten
 ├── 7.285 Kecamatan → Layanan komunitas dan lokal
-└── 83.762 Kelurahan/Desa → Penargetan lokasi yang presisi
+└── 83.762 Desa/Kelurahan → Penargetan lokasi yang tepat
 ```
 
 ::: tip Detail Teknis
-Untuk informasi detail tentang struktur database, relasi, dan implementasi teknis, lihat [Models Overview](/id/api/models/overview) di Referensi API.
+Untuk informasi rinci tentang struktur database, relasi, dan implementasi teknis, lihat [Ikhtisar Model](/id/api/models/overview) di Referensi API.
 :::
 
 ### 🏢 **Aplikasi Bisnis**
 
-**Platform E-Commerce**: Zona pengiriman, optimasi pengantaran, dan segmentasi pelanggan
+**Platform E-Commerce**: Zona pengiriman, optimasi pengiriman, dan segmentasi pelanggan
 **Sistem Kesehatan**: Manajemen fasilitas, demografi pasien, dan cakupan layanan
 **Layanan Keuangan**: Penilaian risiko, perencanaan cabang, dan kepatuhan regulasi
 **Layanan Pemerintah**: Manajemen warga, alokasi sumber daya, dan pelaporan administratif
 
-## Penggunaan Model Dasar
+## Fitur Model yang Kuat
 
-### Bekerja dengan Provinsi
+### 🔍 **Pencarian Cerdas**
+Temukan lokasi apa pun secara instan dengan kemampuan pencarian cerdas kami:
+
+```php
+// Cari berdasarkan nama - berfungsi dengan pencocokan parsial
+$provinces = Province::search('jawa')->get();
+// Mengembalikan: Jawa Barat, Jawa Tengah, Jawa Timur
+
+// Cari berdasarkan kode - pencocokan persis
+$jakarta = Province::search('31')->first();
+
+// Kasus penggunaan bisnis: Pencarian lokasi pelanggan
+$customerRegency = Regency::search($userInput)->first();
+```
+
+**Manfaat**: Membantu pelanggan dengan cepat menemukan lokasi mereka, meningkatkan kegunaan formulir dan pengalaman pengguna.
+
+### 🌍 **Intelijen Geografis**
+Setiap model menyertakan data geografis untuk fitur lokasi canggih:
+
+```php
+// Akses kode administratif resmi
+$village->code;        // "33.74.01.1001"
+$village->name;        // "Medono"
+
+// Batas geografis untuk pemetaan
+$province->coordinates; // Array titik batas
+$province->latitude;    // Koordinat pusat
+$province->longitude;   // Koordinat pusat
+```
+
+**Manfaat**: Memungkinkan fitur pemetaan, perhitungan area layanan, dan fungsionalitas berbasis lokasi.
+
+## Solusi Bisnis berdasarkan Tingkat Administratif
+
+### 🏛️ **Tingkat Provinsi: Operasi Strategis**
+
+**Sempurna untuk**: Ekspansi regional, analisis pasar, pelaporan kepatuhan
 
 ```php
 use Creasi\Nusa\Models\Province;
 
-// Dapatkan semua provinsi
-$provinces = Province::all();
-
-// Cari provinsi tertentu
-$jateng = Province::find('33'); // Jawa Tengah
-
-// Pencarian berdasarkan nama
+// Analisis pasar: Temukan wilayah berpotensi tinggi
 $javaProvinces = Province::search('jawa')->get();
+foreach ($javaProvinces as $province) {
+    echo "Pasar: {$province->name}";
+    echo "Kota: {$province->regencies->count()}";
+    echo "Cakupan: {$province->villages->count()} desa/kelurahan";
+}
 
-// Dengan relasi
-$province = Province::with(['regencies', 'districts', 'villages'])->find('33');
+// Kepatuhan: Hasilkan laporan regional
+$centralJava = Province::find('33');
+$report = [
+    'region' => $centralJava->name,
+    'postal_codes' => $centralJava->postal_codes,
+    'administrative_units' => $centralJava->regencies->count()
+];
 ```
 
-### Bekerja dengan Kabupaten/Kota
+**Manfaat**:
+- **Analisis Regional**: Memahami cakupan pasar dan peluang berdasarkan provinsi
+- **Pelaporan Kepatuhan**: Menghasilkan laporan regional yang akurat untuk persyaratan administratif
+- **Perencanaan Strategis**: Menganalisis cakupan geografis dan kemungkinan ekspansi
+
+[→ Referensi Model Provinsi Lengkap](/id/api/models/province)
+
+### 🏙️ **Tingkat Kabupaten/Kota: Operasi Kota**
+
+**Sempurna untuk**: Logistik perkotaan, layanan spesifik kota, kemitraan lokal
 
 ```php
 use Creasi\Nusa\Models\Regency;
 
-// Dapatkan kabupaten/kota dalam provinsi
-$regencies = Regency::where('province_code', '33')->get();
-
-// Pencarian kabupaten/kota
+// Logistik: Optimalkan pengiriman tingkat kota
 $semarang = Regency::search('semarang')->first();
+$deliveryZones = $semarang->districts->groupBy('postal_code');
 
-// Akses provinsi induk
-echo $semarang->province->name; // "Jawa Tengah"
+// Ekspansi bisnis: Analisis pasar kota
+$jakartaRegencies = Regency::whereHas('province', function ($query) {
+    $query->where('code', '31'); // DKI Jakarta
+})->get();
+
+foreach ($jakartaRegencies as $regency) {
+    echo "Kota: {$regency->name}";
+    echo "Kecamatan: {$regency->districts->count()}";
+    echo "Ukuran pasar: {$regency->villages->count()} komunitas";
+}
 ```
 
-### Bekerja dengan Kecamatan
+**Manfaat**:
+- **Operasi Perkotaan**: Mengatur logistik tingkat kota dan pengiriman layanan
+- **Analisis Lokal**: Memahami karakteristik pasar spesifik kota
+- **Perencanaan Regional**: Merencanakan operasi di berbagai wilayah perkotaan
+
+[→ Referensi Model Kabupaten/Kota Lengkap](/id/api/models/regency)
+
+### 🏘️ **Tingkat Kecamatan: Layanan Komunitas**
+
+**Sempurna untuk**: Layanan lokal, keterlibatan komunitas, operasi lapangan
 
 ```php
 use Creasi\Nusa\Models\District;
 
-// Dapatkan kecamatan dalam kabupaten/kota
-$districts = District::where('regency_code', '33.74')->get();
+// Kesehatan: Kelola area cakupan klinik
+$district = District::find('33.75.01');
+$serviceArea = [
+    'district' => $district->name,
+    'regency' => $district->regency->name,
+    'villages_served' => $district->villages->count(),
+    'estimated_population' => $district->villages->count() * 1000
+];
 
-// Navigasi hierarki
-$district = District::with(['regency.province'])->first();
-echo $district->regency->province->name;
+// Operasi lapangan: Optimalkan rute layanan
+$districts = District::where('regency_code', '33.74')->get();
+foreach ($districts as $district) {
+    echo "Area layanan: {$district->name}";
+    echo "Desa/Kelurahan: {$district->villages->count()}";
+    echo "Koordinat: {$district->latitude}, {$district->longitude}";
+}
 ```
 
-### Bekerja dengan Kelurahan/Desa
+**Manfaat**:
+- **Layanan Lokal**: Mengatur pengiriman layanan tingkat komunitas
+- **Operasi Lapangan**: Merencanakan rute dan cakupan untuk tim lapangan
+- **Perencanaan Layanan**: Memahami area layanan lokal dan cakupan
+
+[→ Referensi Model Kecamatan Lengkap](/id/api/models/district)
+
+### 🏠 **Tingkat Desa/Kelurahan: Penargetan Presisi**
+
+**Sempurna untuk**: Pengiriman *last-mile*, penargetan pelanggan, analitik presisi
 
 ```php
 use Creasi\Nusa\Models\Village;
 
-// Cari berdasarkan kode pos
-$villages = Village::where('postal_code', '50132')->get();
+// E-commerce: Perencanaan pengiriman yang tepat
+$village = Village::find('33.75.01.1002');
+$deliveryInfo = [
+    'village' => $village->name,
+    'postal_code' => $village->postal_code,
+    'full_address' => [
+        $village->name,
+        $village->district->name,
+        $village->regency->name,
+        $village->province->name
+    ],
+    'coordinates' => [$village->latitude, $village->longitude]
+];
 
-// Hierarki lengkap
-$village = Village::with(['district.regency.province'])->first();
-
-// Alamat lengkap
-echo $village->name; // Nama desa
-echo $village->district->name; // Nama kecamatan
-echo $village->regency->name; // Nama kabupaten/kota
-echo $village->province->name; // Nama provinsi
-```
-
-## Relasi dan Navigasi
-
-### Relasi Hierarkis
-
-Laravel Nusa menyediakan relasi lengkap untuk menavigasi hierarki administratif:
-
-```php
-$province = Province::find('33');
-
-// Navigasi ke bawah
-$regencies = $province->regencies; // Semua kabupaten/kota
-$districts = $province->districts;  // Semua kecamatan
-$villages = $province->villages;    // Semua desa
-
-$regency = $province->regencies->first();
-
-// Navigasi ke atas
-$province = $regency->province;
-
-// Navigasi lintas tingkat
-$districts = $regency->districts;
-$villages = $regency->villages;
-```
-
-### Eager Loading untuk Performa
-
-```php
-// Loading efisien dengan relasi
-$villages = Village::with(['district.regency.province'])
-    ->where('postal_code', '50132')
+// Analitik pelanggan: Wawasan demografi
+$customerVillages = Village::whereIn('code', $customerVillageCodes)
+    ->with(['district.regency.province'])
     ->get();
 
-// Hitung relasi tanpa loading
-$provinces = Province::withCount(['regencies', 'districts', 'villages'])->get();
-
-foreach ($provinces as $province) {
-    echo "{$province->name}: {$province->villages_count} desa";
-}
+$demographics = $customerVillages->groupBy('province.name')
+    ->map(function ($villages, $province) {
+        return [
+            'province' => $province,
+            'customer_villages' => $villages->count(),
+            'market_penetration' => $villages->count() / 1000 // desa/kelurahan per 1000
+        ];
+    });
 ```
 
-## Kemampuan Pencarian
+**Manfaat**:
+- **Pengiriman Presisi**: Pengalamatan yang akurat dengan dukungan kode pos
+- **Segmentasi Pelanggan**: Analisis pelanggan geografis yang terperinci
+- **Wawasan Lokal**: Data tingkat desa/kelurahan untuk operasi yang ditargetkan
 
-### Pencarian Fleksibel
+[→ Referensi Model Desa/Kelurahan Lengkap](/id/api/models/village)
+## Relasi Cerdas & Kinerja
 
-Semua model menyertakan scope `search()` untuk pencarian fleksibel:
+### 🔗 **Relasi Hierarkis yang Cerdas**
 
-```php
-// Pencarian berdasarkan nama (case-insensitive)
-$provinces = Province::search('jawa')->get();
-// Hasil: Jawa Barat, Jawa Tengah, Jawa Timur
-
-// Pencarian berdasarkan kode
-$province = Province::search('33')->first();
-
-// Pencocokan parsial
-$regencies = Regency::search('kota')->get();
-// Hasil: Semua kota (bukan kabupaten)
-```
-
-### Filter Lanjutan
+Setiap model memahami tempatnya dalam struktur administratif Indonesia:
 
 ```php
-// Filter berdasarkan relasi
-$provinces = Province::whereHas('regencies', function ($query) {
-    $query->where('name', 'like', '%Kota%');
-})->get();
+// Navigasi hierarki dengan mudah
+$village = Village::find('33.75.01.1002');
 
-// Filter berdasarkan jumlah
-$regencies = Regency::has('districts', '>=', 10)->get();
+// Akses tingkat apa pun secara instan
+echo $village->name;              // "Medono"
+echo $village->district->name;    // "Pekalongan Barat"
+echo $village->regency->name;     // "Kota Pekalongan"
+echo $village->province->name;    // "Jawa Tengah"
 
-// Multiple kondisi
-$villages = Village::where('postal_code', '50132')
-    ->whereHas('district', function ($query) {
-        $query->where('name', 'like', '%Tengah%');
-    })
+// Intelijen bisnis dalam satu kueri
+$customerAnalysis = $village->province->regencies()
+    ->withCount(['villages', 'districts'])
     ->get();
 ```
 
-## Kasus Penggunaan Bisnis
+### ⚡ **Kinerja Tingkat Perusahaan**
 
-### Implementasi E-Commerce
+Dibangun untuk skala dengan optimasi cerdas:
 
 ```php
-// Manajemen zona pengiriman
-class ShippingZone
-{
-    public function getCoverageByProvince($provinceCode)
-    {
-        $province = Province::with(['regencies.districts.villages'])
-            ->find($provinceCode);
+// Operasi massal yang efisien
+$marketAnalysis = Province::with(['regencies:code,name,province_code'])
+    ->whereIn('code', ['31', '32', '33']) // Provinsi Jawa
+    ->get();
 
-        return [
-            'province' => $province->name,
-            'total_areas' => $province->villages->count(),
-            'shipping_cost' => $this->calculateShippingCost($province),
-            'delivery_time' => $this->estimateDeliveryTime($province)
-        ];
-    }
+// Paginasi cerdas untuk dataset besar
+$villages = Village::where('regency_code', '33.74')
+    ->paginate(50); // Tangani 83K+ desa/kelurahan secara efisien
+
+// Pencarian yang dioptimalkan di jutaan catatan
+$locations = Village::search('jakarta')->limit(10)->get();
+```
+
+## Skenario Implementasi Umum
+
+### 📈 **Aplikasi E-Commerce**
+Fitur berbasis lokasi untuk zona pengiriman, optimasi pengiriman, dan segmentasi pelanggan berdasarkan wilayah administratif.
+
+### 🏥 **Sistem Kesehatan**
+Manajemen fasilitas, analisis demografi pasien, dan perencanaan cakupan layanan menggunakan data administratif hierarkis.
+
+### 🚚 **Aplikasi Logistik**
+Perencanaan rute, manajemen area layanan, dan optimasi pengiriman menggunakan struktur administratif Indonesia.
+
+## Pola Integrasi
+
+### 🎯 **Integrasi Cepat**
+```php
+// Tambahkan lokasi ke model yang sudah ada
+class Customer extends Model
+{
+    use WithVillage; // Kemampuan lokasi instan
 }
 ```
 
-### Sistem Kesehatan
-
+### 🏢 **Integrasi Perusahaan**
 ```php
-// Analisis cakupan fasilitas
-class HealthcareCoverage
+// Persyaratan bisnis yang kompleks
+class BusinessLocation extends Model
 {
-    public function analyzeCoverage($facilityLocations)
-    {
-        $provinces = Province::withCount('villages')->get();
-
-        return $provinces->map(function ($province) use ($facilityLocations) {
-            $coverage = $this->calculateCoverage($province, $facilityLocations);
-
-            return [
-                'province' => $province->name,
-                'total_villages' => $province->villages_count,
-                'covered_villages' => $coverage['covered'],
-                'coverage_percentage' => $coverage['percentage']
-            ];
-        });
-    }
+    use WithAddresses, WithCoordinate;
+    // Beberapa lokasi + koordinat GPS
 }
 ```
 
-### Layanan Pemerintah
-
+### 🚀 **Analitik Lanjutan**
 ```php
-// Pelaporan administratif
-class AdministrativeReport
-{
-    public function generateRegionalReport($provinceCode)
-    {
-        $province = Province::with(['regencies.districts.villages'])
-            ->find($provinceCode);
-
-        return [
-            'province' => $province->name,
-            'administrative_units' => [
-                'regencies' => $province->regencies->count(),
-                'districts' => $province->districts->count(),
-                'villages' => $province->villages->count()
-            ],
-            'postal_codes' => $province->villages
-                ->pluck('postal_code')
-                ->unique()
-                ->sort()
-                ->values()
-        ];
-    }
-}
+// Intelijen bisnis siap
+$marketInsights = Province::withCount(['regencies', 'villages'])
+    ->with(['regencies' => function ($query) {
+        $query->withCount('villages');
+    }])
+    ->get();
 ```
 
-## Optimasi Performa
+## Memulai
 
-### Query Efisien
+Model Laravel Nusa menyediakan fondasi yang kuat untuk membangun aplikasi berbasis lokasi yang bekerja dengan struktur administratif Indonesia.
 
-```php
-// Gunakan select untuk membatasi field
-$provinces = Province::select('code', 'name')->get();
+### **Langkah Selanjutnya**:
 
-// Pagination untuk dataset besar
-$villages = Village::paginate(50);
-
-// Chunk processing untuk operasi bulk
-Village::chunk(1000, function ($villages) {
-    foreach ($villages as $village) {
-        // Proses village
-    }
-});
-```
-
-### Strategi Caching
-
-```php
-// Cache data yang sering diakses
-$provinces = Cache::remember('provinces', 3600, function () {
-    return Province::select('code', 'name')->get();
-});
-
-// Cache dengan tag untuk invalidation
-Cache::tags(['locations'])->remember('regencies_33', 3600, function () {
-    return Regency::where('province_code', '33')->get();
-});
-```
-
-## Integrasi dengan Model Anda
-
-### Menggunakan Trait
-
-```php
-use Creasi\Nusa\Models\Concerns\WithVillage;
-
-class User extends Model
-{
-    use WithVillage;
-
-    protected $fillable = ['name', 'email', 'village_code'];
-}
-
-// Sekarang user memiliki relasi village
-$user = User::with('village.district.regency.province')->first();
-echo $user->village->province->name;
-```
-
-### Relasi Kustom
-
-```php
-class Store extends Model
-{
-    public function village()
-    {
-        return $this->belongsTo(Village::class, 'village_code', 'code');
-    }
-
-    public function serviceArea()
-    {
-        // Dapatkan semua desa dalam radius 25km
-        return Village::selectRaw("
-            *,
-            (6371 * acos(
-                cos(radians(?)) *
-                cos(radians(latitude)) *
-                cos(radians(longitude) - radians(?)) +
-                sin(radians(?)) *
-                sin(radians(latitude))
-            )) AS distance
-        ", [$this->latitude, $this->longitude, $this->latitude])
-        ->having('distance', '<=', 25)
-        ->orderBy('distance');
-    }
-}
-```
-
-## Langkah Selanjutnya
-
-### **Pelajari Lebih Lanjut**:
-
-1. **[Models Overview](/id/api/models/overview)** - Detail teknis, struktur database, dan relasi
-2. **[Manajemen Alamat](/id/guide/addresses)** - Integrasikan fungsionalitas alamat
-3. **[Kustomisasi](/id/guide/customization)** - Kustomisasi model dengan trait yang tersedia
-4. **[Contoh](/id/examples/basic-usage)** - Lihat contoh implementasi praktis
+1. **[Ikhtisar Model](/id/api/models/overview)** - Detail teknis, struktur database, dan relasi
+2. **[Panduan Kustomisasi](/id/guide/customization)** - Pelajari cara mengintegrasikan model dengan aplikasi Anda
+3. **[Manajemen Alamat](/id/guide/addresses)** - Jelajahi fungsionalitas alamat
+4. **[Contoh Implementasi](/id/examples/custom-models)** - Lihat pola penggunaan praktis
 
 ---
 
-*Bangun aplikasi yang sadar lokasi dengan data administratif Indonesia yang komprehensif.*
+*Bangun aplikasi berbasis lokasi dengan data administratif Indonesia yang komprehensif.*
