@@ -34,11 +34,11 @@ Laravel Nusa menghilangkan tantangan ini dengan menyediakan:
 ### Hierarki Administratif Lengkap
 
 ```
-Indonesia
-└── 34 Provinsi (Provinsi)
-    └── 514 Kabupaten/Kota (Kabupaten/Kota)
-        └── 7,285 Kecamatan (Kecamatan)
-            └── 83,762 Kelurahan/Desa (Kelurahan/Desa)
+🇮🇩 Indonesia
+├── 38 Provinsi
+├── 514 Kabupaten/Kota
+├── 7,285 Kecamatan
+└── 83,762 Kelurahan/Desa
 ```
 
 ### Atribut Data Kaya

@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: Mulai Sekarang
-      link: /id/panduan/memulai
+      link: /id/guide/getting-started
     - theme: alt
       text: Lihat di GitHub
       link: https://github.com/creasico/laravel-nusa
