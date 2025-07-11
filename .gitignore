@@ -33,6 +33,7 @@ vendor
 
 # AI Coding Agent
 .augment
+.agent-rules.md
 .gemini
 GEMINI.md
 
