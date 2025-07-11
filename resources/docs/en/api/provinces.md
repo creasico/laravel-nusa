@@ -222,7 +222,7 @@ curl "https://your-app.com/nusa/provinces/33/villages?per_page=50"
 
 ::: code-group
 
-```javascript [fetch]
+```js [fetch]
 class ProvinceService {
   constructor(baseUrl = '/nusa') {
     this.baseUrl = baseUrl;
@@ -397,7 +397,7 @@ regencies = province_service.get_regencies("33", {"per_page": 50})
 
 ### Error Handling Example
 
-```javascript
+```js
 async function getProvince(code) {
   try {
     const response = await fetch(`/nusa/provinces/${code}`);
@@ -422,7 +422,7 @@ async function getProvince(code) {
 
 ### Caching
 
-```javascript
+```js
 class CachedProvinceService {
   constructor() {
     this.cache = new Map();
@@ -452,7 +452,7 @@ class CachedProvinceService {
 
 ### Pagination
 
-```javascript
+```js
 async function getAllProvinces() {
   const allProvinces = [];
   let page = 1;

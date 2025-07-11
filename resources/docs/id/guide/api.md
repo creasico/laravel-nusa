@@ -111,7 +111,7 @@ php artisan migrate
 
 ### Penggunaan API Token
 
-```javascript
+```js
 // Penggunaan frontend dengan token
 const response = await fetch('/nusa/provinces', {
     headers: {
@@ -279,7 +279,7 @@ class ProvinceCollection extends ResourceCollection
 
 ### JavaScript SDK
 
-```javascript
+```js
 // nusa-api-client.js
 class NusaApiClient {
     constructor(baseUrl = '/nusa', options = {}) {
@@ -323,7 +323,7 @@ class NusaApiClient {
 
 ### React Hook
 
-```javascript
+```js
 // useNusaApi.js
 import { useState, useEffect } from 'react';
 

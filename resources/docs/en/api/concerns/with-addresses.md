@@ -13,8 +13,6 @@ Creasi\Nusa\Models\Concerns\WithAddresses
 ### Basic Implementation
 
 ```php
-<?php
-
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;

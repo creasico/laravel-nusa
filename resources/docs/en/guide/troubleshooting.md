@@ -292,7 +292,7 @@ $province->villages;   // HasMany
    Village::paginate(50);
    
    // Avoid
-   Village::all(); // 83,467 records!
+   Village::all(); // 83,762 records!
    ```
 
 2. **Select specific columns**:

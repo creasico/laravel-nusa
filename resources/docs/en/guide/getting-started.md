@@ -47,10 +47,11 @@ Laravel Nusa provides a complete hierarchy of Indonesian administrative regions:
 
 ```
 Indonesia
-└── 34 Provinces (Provinsi)
-    └── 514 Regencies (Kabupaten/Kota)
-        └── 7,266 Districts (Kecamatan)
-            └── 83,467 Villages (Kelurahan/Desa)
+🇮🇩 Indonesia
+├── 38 Provinces (Provinsi)
+├── 514 Regencies (Kabupaten/Kota)
+├── 7.285 Districts (Kecamatan)
+└── 83.762 Villages (Kelurahan/Desa)
 ```
 
 Each level has a specific code format:

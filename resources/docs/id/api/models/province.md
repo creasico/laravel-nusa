@@ -6,7 +6,7 @@ This comprehensive documentation covers the Province model in Laravel Nusa, incl
 
 ## Model Overview
 
-The Province model represents the highest level of Indonesia's administrative hierarchy. With 34 provinces covering the entire archipelago, this model serves as the entry point for accessing regional administrative data.
+The Province model represents the highest level of Indonesia's administrative hierarchy. With 38 provinces covering the entire archipelago, this model serves as the entry point for accessing regional administrative data.
 
 ### Basic Usage
 

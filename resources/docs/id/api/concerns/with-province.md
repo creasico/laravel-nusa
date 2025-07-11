@@ -312,6 +312,131 @@ class SalesTerritory extends Model
 }
 ```
 
+## Validasi
+
+### Validasi Kode Provinsi
+
+```php
+// Dalam FormRequest
+public function rules()
+{
+    return [
+        'province_code' => [
+            'required',
+            'string',
+            'size:2',
+            'exists:nusa.provinces,code'
+        ]
+    ];
+}
+
+// Custom validation rule
+Validator::extend('valid_province', function ($attribute, $value, $parameters, $validator) {
+    return Province::where('code', $value)->exists();
+});
+```
+
+### Validasi dalam Model
+
+```php
+class BusinessUnit extends Model
+{
+    use WithProvince;
+
+    protected static function boot()
+    {
+        parent::boot();
+
+        static::saving(function ($model) {
+            if ($model->province_code && !Province::where('code', $model->province_code)->exists()) {
+                throw new InvalidArgumentException('Kode provinsi tidak valid');
+            }
+        });
+    }
+}
+```
+
+## Tips Performa
+
+### Eager Loading
+
+```php
+// ❌ N+1 Problem
+$units = BusinessUnit::all();
+foreach ($units as $unit) {
+    echo $unit->province->name; // Query untuk setiap unit
+}
+
+// ✅ Eager Loading
+$units = BusinessUnit::with('province')->get();
+foreach ($units as $unit) {
+    echo $unit->province->name; // Tidak ada query tambahan
+}
+```
+
+### Caching
+
+```php
+// Cache province data
+$province = Cache::remember("province.{$this->province_code}", 3600, function () {
+    return $this->province;
+});
+
+// Cache province statistics
+$stats = Cache::remember("province.{$provinceCode}.stats", 1800, function () use ($provinceCode) {
+    return BusinessUnit::where('province_code', $provinceCode)->count();
+});
+```
+
+### Database Indexing
+
+```php
+// Migration untuk optimisasi
+Schema::table('business_units', function (Blueprint $table) {
+    $table->index(['province_code']); // Untuk filtering
+    $table->index(['province_code', 'created_at']); // Untuk sorting dengan filter
+});
+```
+
+## Kustomisasi
+
+### Custom Foreign Key
+
+```php
+class BusinessUnit extends Model
+{
+    use WithProvince;
+
+    // Jika menggunakan nama kolom yang berbeda
+    public function province()
+    {
+        return $this->belongsTo(Province::class, 'prov_code', 'code');
+    }
+}
+```
+
+### Custom Province Model
+
+```php
+// Jika menggunakan model Province kustom
+class BusinessUnit extends Model
+{
+    use WithProvince;
+
+    public function province()
+    {
+        return $this->belongsTo(\App\Models\CustomProvince::class, 'province_code', 'code');
+    }
+}
+```
+
+## Dokumentasi Terkait
+
+- [Province Model](/id/api/models/province) - Model provinsi lengkap
+- [WithRegency Trait](/id/api/concerns/with-regency) - Untuk granularitas kabupaten/kota
+- [WithAddress Trait](/id/api/concerns/with-address) - Untuk alamat lengkap
+- [Geographic Queries](/id/examples/geographic-queries) - Query geografis lanjutan
+
 ## Next Steps
 
 - **[WithRegency](/id/api/concerns/with-regency)** - Regency-level relationships

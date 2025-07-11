@@ -99,8 +99,6 @@ php artisan vendor:publish --tag=creasi-nusa-config
 This creates `config/creasi/nusa.php`:
 
 ```php
-<?php
-
 return [
     // Database connection name for Nusa data
     'connection' => env('CREASI_NUSA_CONNECTION', 'nusa'),
@@ -171,7 +169,7 @@ Laravel Nusa provides RESTful API endpoints by default:
 
 #### Available Routes
 
-```
+```http
 GET /nusa/provinces
 GET /nusa/provinces/{province}
 GET /nusa/provinces/{province}/regencies
@@ -302,7 +300,7 @@ max_execution_time = 300
 2. Use pagination for large queries:
 ```php
 // Instead of
-$villages = Village::all(); // 83,467 records!
+$villages = Village::all(); // 83,762 records!
 
 // Use
 $villages = Village::paginate(50);

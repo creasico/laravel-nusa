@@ -6,7 +6,7 @@ This page provides practical examples of integrating with the Laravel Nusa API f
 
 ### Vanilla JavaScript
 
-```javascript
+```js
 class NusaAPI {
   constructor(baseUrl = '/nusa') {
     this.baseUrl = baseUrl;
@@ -295,8 +295,6 @@ export default AddressForm;
 ### Laravel HTTP Client
 
 ```php
-<?php
-
 namespace App\Services;
 
 use Illuminate\Http\Client\Response;

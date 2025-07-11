@@ -7,8 +7,6 @@ This guide shows how to extend Laravel Nusa with custom models and integrate Ind
 ### Custom Province Model
 
 ```php
-<?php
-
 namespace App\Models;
 
 use Creasi\Nusa\Models\Province as BaseProvince;
@@ -80,8 +78,6 @@ foreach ($javaProvinces as $province) {
 ### Custom Address Model
 
 ```php
-<?php
-
 namespace App\Models;
 
 use Creasi\Nusa\Models\Address as BaseAddress;
@@ -207,8 +203,6 @@ $nearbyAddresses = Address::withinRadius(-6.200000, 106.816666, 10)->get();
 ### Store Model with Location
 
 ```php
-<?php
-
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
@@ -341,8 +335,6 @@ $nearbyStores = Store::nearby(-6.200000, 106.816666, 5)
 ### Delivery Zone Model
 
 ```php
-<?php
-
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
@@ -460,8 +452,6 @@ if ($deliveryZone) {
 ### Location Service
 
 ```php
-<?php
-
 namespace App\Services;
 
 use Creasi\Nusa\Models\{Province, Regency, District, Village};

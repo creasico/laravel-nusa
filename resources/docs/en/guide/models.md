@@ -5,7 +5,7 @@
 ## Why Use Laravel Nusa Models?
 
 ### 🎯 **Complete Administrative Coverage**
-Work with every level of Indonesia's administrative hierarchy - from 34 provinces down to 83,467 villages. This comprehensive coverage ensures your application can handle any location-based requirement.
+Work with every level of Indonesia's administrative hierarchy - from 38 provinces down to 83,762 villages. This comprehensive coverage ensures your application can handle any location-based requirement.
 
 ### ⚡ **Ready-to-Use Relationships**
 Pre-built Eloquent relationships handle the complexity of Indonesia's hierarchical structure, allowing you to focus on your business logic rather than data management.
@@ -18,10 +18,10 @@ Models work with data synchronized from official government sources, ensuring yo
 ### 📊 **Four-Level Structure**
 ```
 🇮🇩 Indonesia
-├── 34 Provinces → Strategic regional operations
+├── 38 Provinces → Strategic regional operations
 ├── 514 Regencies → City and regency-level services
-├── 7,266 Districts → Community and local services
-└── 83,467 Villages → Precise location targeting
+├── 7,285 Districts → Community and local services
+└── 83,762 Villages → Precise location targeting
 ```
 
 ::: tip Technical Details

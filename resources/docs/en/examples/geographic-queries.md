@@ -167,7 +167,7 @@ echo "Distance from Jakarta to Semarang: " . round($distance, 2) . " km";
 
 ### Leaflet.js Integration
 
-```javascript
+```js
 // Initialize map
 const map = L.map('map').setView([-2.5, 118], 5); // Center on Indonesia
 
@@ -241,7 +241,7 @@ loadProvinces();
 
 ### Google Maps Integration
 
-```javascript
+```js
 class IndonesiaMap {
     constructor(mapElementId) {
         this.map = new google.maps.Map(document.getElementById(mapElementId), {

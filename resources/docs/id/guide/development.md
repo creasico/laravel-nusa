@@ -1,334 +1,508 @@
 # Setup Pengembangan
 
-Panduan lengkap untuk menyiapkan lingkungan pengembangan Laravel Nusa, termasuk instalasi dependensi, konfigurasi development, testing, dan kontribusi ke proyek open source.
+Panduan ini mencakup pengaturan Laravel Nusa untuk pengembangan, kontribusi, dan bekerja dengan sumber data upstream.
 
-## Setup Environment Development
+## Prasyarat
 
-### Prasyarat
+### Software yang Diperlukan
 
-Sebelum menyiapkan environment development, pastikan Anda memiliki:
+- **PHP** ≥ 8.2 dengan ekstensi:
+  - `ext-sqlite3` - Untuk dukungan database SQLite
+  - `ext-json` - Untuk penanganan JSON
+  - `ext-mbstring` - Untuk manipulasi string
+- **Node.js** ≥ 20 dengan package manager pnpm
+- **Git** dengan dukungan submodule
+- **Docker** (direkomendasikan) atau server MySQL lokal
+- **SQLite CLI Tool** dengan `sqldiff` untuk manajemen database SQLite
 
-- **PHP 8.1+** dengan ekstensi yang diperlukan
-- **Composer** untuk manajemen dependensi
-- **Node.js & npm** untuk tooling frontend
-- **Git** untuk version control
-- **SQLite** untuk database default
+### Tools Pengembangan
 
-### Clone Repository
+- **Composer** untuk manajemen dependensi PHP
+- **pnpm** untuk dependensi Node.js (lebih cepat dari npm)
+- **Docker Compose** untuk environment pengembangan dalam container
+
+## Quick Start
+
+### 1. Clone Repository
 
 ```bash
-# Clone the repository
-git clone https://github.com/creasico/laravel-nusa.git
+# Clone dengan submodules (penting!)
+git clone --recurse-submodules https://github.com/creasico/laravel-nusa.git
 cd laravel-nusa
 
-# Install PHP dependencies
+# Jika Anda lupa --recurse-submodules
+git submodule update --init --recursive
+```
+
+### 2. Install Dependencies
+
+```bash
+# Install dependensi PHP
 composer install
 
-# Install Node.js dependencies (for documentation)
-npm install
+# Install dependensi Node.js
+pnpm install
 ```
 
-### Konfigurasi Environment
+### 3. Environment Setup
 
 ```bash
-# Copy environment file
-cp .env.example .env
+# Copy file environment
+cp workbench/.env.example workbench/.env
 
-# Generate application key
-php artisan key:generate
-
-# Configure database (SQLite is default)
-touch database/nusa.sqlite
+# Edit konfigurasi sesuai kebutuhan
+nano workbench/.env
 ```
 
-### Setup Database
+### 4. Database Setup
+
+**Opsi A: Docker (Direkomendasikan)**
+
+Laravel Nusa menyediakan setup Docker lengkap untuk pengembangan:
 
 ```bash
-# Run migrations
-php artisan migrate
+# Start layanan Docker
+composer upstream:up
 
-# Seed with sample data (if available)
-php artisan db:seed
+# Data otomatis diimpor oleh upstream:up
+# Untuk impor manual: composer testbench nusa:import
 
-# Or download official data
-php artisan nusa:download
+# Generate database distribusi
+composer testbench nusa:dist
 ```
 
-## Command Development
-
-### Command Artisan yang Tersedia
+**Opsi B: MySQL Lokal**
 
 ```bash
-# Check Laravel Nusa installation
-php artisan nusa:check
+# Buat database yang diperlukan
+mysql -e 'CREATE DATABASE testing;'
+mysql -e 'CREATE DATABASE nusantara;'
 
-# Download latest data
-php artisan nusa:download
-
-# Update existing data
-php artisan nusa:update
-
-# Import data from custom source
-php artisan nusa:import --source=custom.csv
-
-# Clear Laravel Nusa caches
-php artisan nusa:cache:clear
-
-# Validate configuration
-php artisan nusa:config:validate
+# Impor data
+composer testbench nusa:import --fresh
 ```
 
-### Server Development
+## Environment Pengembangan Docker
+
+### Perintah yang Tersedia
+
+Laravel Nusa menyertakan script Composer yang nyaman untuk manajemen Docker:
 
 ```bash
-# Start Laravel development server
-php artisan serve
+# Start layanan (MySQL + phpMyAdmin)
+composer upstream:up
 
-# Start with custom host and port
-php artisan serve --host=0.0.0.0 --port=8080
+# Stop layanan
+composer upstream:down
+
+# Impor data fresh dari upstream
+composer testbench nusa:import --fresh
+
+# Buat database distribusi
+composer testbench nusa:dist
+
+# Generate statistik
+composer testbench nusa:stat
+
+# Lihat logs (menggunakan docker compose)
+composer upstream logs
+
+# Akses MySQL CLI (menggunakan docker compose)
+composer upstream exec mysql mysql -u root -psecret nusantara
+
+# Generate file statis
+composer testbench nusa:generate-static
 ```
 
-## Testing
+### Layanan Docker
 
-### Running Tests
+Environment pengembangan mencakup:
+
+- **MySQL 8.0** - Server database utama
+- **phpMyAdmin** - Administrasi database berbasis web
+- **Volumes** - Penyimpanan data persisten
+
+Akses phpMyAdmin di: `http://localhost:8080`
+- Username: `root`
+- Password: `secret`
+
+### Konfigurasi Docker
+
+Setup Docker didefinisikan dalam `docker-compose.yml`:
+
+```yaml
+services:
+  mysql:
+    image: mysql:8.0
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: secret
+      MYSQL_DATABASE: nusantara
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    ports:
+      - "8080:80"
+    environment:
+      PMA_HOST: mysql
+      PMA_USER: root
+      PMA_PASSWORD: secret
+```
+
+## Perintah yang Tersedia
+
+### Script Composer
+
+Laravel Nusa menyediakan beberapa script composer untuk pengembangan:
 
 ```bash
-# Run all tests
+# Environment pengembangan
+composer upstream:up          # Start layanan Docker + impor data
+composer upstream:down        # Stop layanan Docker + cleanup
+composer upstream [args]      # Pass argumen ke docker-compose
+
+# Testing dan quality
+composer test                 # Jalankan test suite
+composer fix                  # Fix code style dengan Laravel Pint
+composer testbench [args]     # Jalankan perintah testbench
+composer testbench:purge      # Purge workbench skeleton
+composer tinker               # Start sesi tinker
+```
+
+### Perintah Nusa
+
+Tersedia melalui `composer testbench nusa:*`:
+
+#### `nusa:import`
+Impor data dari sumber upstream:
+```bash
+composer testbench nusa:import           # Impor data dari upstream
+composer testbench nusa:import --fresh   # Recreate database + impor
+composer testbench nusa:import --dist    # Impor + buat database distribusi
+```
+
+#### `nusa:dist`
+Buat database distribusi (hapus koordinat untuk privasi):
+```bash
+composer testbench nusa:dist             # Buat database distribusi
+composer testbench nusa:dist --force     # Force overwrite database distribusi yang ada
+```
+
+#### `nusa:stat`
+Generate statistik database dan tampilkan perubahan:
+```bash
+composer testbench nusa:stat             # Tampilkan statistik database dan perubahan
+```
+
+#### `nusa:generate-static`
+Generate file statis (format CSV, JSON):
+```bash
+composer testbench nusa:generate-static  # Generate file data statis
+```
+
+## Manajemen Data
+
+### Memahami Sumber Data
+
+Laravel Nusa mengintegrasikan data dari beberapa repository upstream:
+
+```
+workbench/submodules/
+├── wilayah/              # Data administratif inti
+├── wilayah_kodepos/      # Pemetaan kode pos  
+└── wilayah_boundaries/   # Batas geografis
+```
+
+### Proses Impor
+
+Proses impor menarik data dari Git submodule upstream dan memprosesnya:
+
+```bash
+# Proses impor lengkap (direkomendasikan)
+composer testbench nusa:import --fresh
+
+# Impor tanpa recreate database
+composer testbench nusa:import
+
+# Impor dan buat database distribusi
+composer testbench nusa:import --dist
+```
+
+::: tip Opsi Impor
+Perintah impor hanya mendukung opsi `--fresh` dan `--dist`. Secara otomatis mengimpor semua tingkat administratif (provinsi, kabupaten, kecamatan, desa) dari sumber upstream.
+:::
+
+### Database Distribusi
+
+Buat database distribusi yang sesuai privasi (hapus data koordinat):
+
+```bash
+# Generate database distribusi
+composer testbench nusa:dist
+
+# Force overwrite database distribusi yang ada
+composer testbench nusa:dist --force
+```
+
+::: warning Kepatuhan Privasi
+Database distribusi secara otomatis menghapus semua data koordinat untuk memastikan kepatuhan privasi. Ini adalah database yang disertakan dalam distribusi paket.
+:::
+
+### Statistik Data
+
+Lihat statistik database dan perubahan:
+
+```bash
+# Tampilkan statistik database dan perubahan dari upstream
+composer testbench nusa:stat
+```
+
+Perintah ini membandingkan database distribusi saat ini dengan database pengembangan untuk menunjukkan apa yang telah berubah.
+
+## Workflow Pengembangan
+
+### 1. Membuat Perubahan
+
+```bash
+# Buat feature branch
+git checkout -b feature/your-feature
+
+# Buat perubahan Anda
+# ... edit files ...
+
+# Jalankan tests
 composer test
-
-# Run specific test suite
-composer test -- --testsuite=Feature
-
-# Run with coverage
-composer test-coverage
-
-# Run specific test file
-php artisan test tests/Feature/ProvinceTest.php
-```
-
-### Test Configuration
-
-```php
-// phpunit.xml
-<phpunit>
-    <testsuites>
-        <testsuite name="Unit">
-            <directory suffix="Test.php">./tests/Unit</directory>
-        </testsuite>
-        <testsuite name="Feature">
-            <directory suffix="Test.php">./tests/Feature</directory>
-        </testsuite>
-    </testsuites>
-    
-    <php>
-        <env name="APP_ENV" value="testing"/>
-        <env name="DB_CONNECTION" value="sqlite"/>
-        <env name="DB_DATABASE" value=":memory:"/>
-    </php>
-</phpunit>
-```
-
-### Writing Tests
-
-```php
-// tests/Feature/ProvinceApiTest.php
-class ProvinceApiTest extends TestCase
-{
-    use RefreshDatabase;
-    
-    public function test_can_get_all_provinces()
-    {
-        Province::factory()->count(5)->create();
-        
-        $response = $this->getJson('/nusa/provinces');
-        
-        $response->assertStatus(200)
-            ->assertJsonStructure([
-                'data' => [
-                    '*' => ['code', 'name', 'latitude', 'longitude']
-                ],
-                'meta' => ['current_page', 'total']
-            ]);
-    }
-    
-    public function test_can_search_provinces()
-    {
-        Province::factory()->create(['name' => 'Jawa Tengah']);
-        Province::factory()->create(['name' => 'Jawa Barat']);
-        
-        $response = $this->getJson('/nusa/provinces?search=tengah');
-        
-        $response->assertStatus(200)
-            ->assertJsonCount(1, 'data');
-    }
-}
-```
-
-## Code Quality
-
-### Code Style
-
-```bash
-# Install PHP CS Fixer
-composer require --dev friendsofphp/php-cs-fixer
 
 # Fix code style
-vendor/bin/php-cs-fixer fix
-
-# Check code style
-vendor/bin/php-cs-fixer fix --dry-run --diff
+composer fix
 ```
 
-### Static Analysis
+### 2. Testing
 
 ```bash
-# Install PHPStan
-composer require --dev phpstan/phpstan
-
-# Run static analysis
-vendor/bin/phpstan analyse
-
-# With configuration
-vendor/bin/phpstan analyse --configuration=phpstan.neon
-```
-
-### Pre-commit Hooks
-
-```bash
-# Install pre-commit hooks
-composer install-hooks
-
-# Or manually create .git/hooks/pre-commit
-#!/bin/sh
-vendor/bin/php-cs-fixer fix --dry-run --diff
-vendor/bin/phpstan analyse
+# Jalankan test suite lengkap
 composer test
+
+# Jalankan test spesifik
+vendor/bin/phpunit tests/Models/ProvinceTest.php
+
+# Jalankan dengan coverage
+composer test -- --coverage-html tests/reports/html
+
+# Test fitur spesifik
+vendor/bin/phpunit --filter testProvinceRelationships
 ```
 
-## Documentation Development
-
-### VitePress Setup
+### 3. Code Quality
 
 ```bash
-# Navigate to docs directory
-cd resources/docs
+# Fix code style dengan Laravel Pint
+composer fix
 
-# Install dependencies
-npm install
+# Check style tanpa fixing
+vendor/bin/pint --test
 
-# Start development server
-npm run dev
-
-# Build for production
-npm run build
-
-# Preview production build
-npm run preview
+# Jalankan static analysis (jika dikonfigurasi)
+composer analyse
 ```
 
-### Documentation Structure
-
-```
-resources/docs/
-├── .vitepress/
-│   ├── config.mjs          # VitePress configuration
-│   └── theme/              # Custom theme
-├── guide/                  # English guides
-├── id/                     # Indonesian content
-├── api/                    # API reference
-├── examples/               # Usage examples
-└── public/                 # Static assets
-```
-
-## Contributing
-
-### Contribution Guidelines
-
-1. **Fork the repository** on GitHub
-2. **Create a feature branch** from `main`
-3. **Make your changes** with proper tests
-4. **Ensure code quality** passes all checks
-5. **Submit a pull request** with clear description
-
-### Pull Request Process
+### 4. Dokumentasi
 
 ```bash
-# Create feature branch
-git checkout -b feature/new-feature
+# Start server dokumentasi
+npm run docs:dev
 
-# Make changes and commit
-git add .
-git commit -m "Add new feature"
+# Build dokumentasi
+npm run docs:build
 
-# Push to your fork
-git push origin feature/new-feature
-
-# Create pull request on GitHub
+# Preview dokumentasi yang sudah di-build
+npm run docs:preview
 ```
 
-### Commit Message Format
+## Bekerja dengan Submodules
 
+### Update Data Upstream
+
+```bash
+# Update semua submodule ke versi terbaru
+git submodule update --remote
+
+# Update submodule spesifik
+git submodule update --remote workbench/submodules/wilayah
+
+# Commit update submodule
+git add workbench/submodules
+git commit -m "chore: update upstream data sources"
 ```
-type(scope): description
 
-[optional body]
+### Manajemen Submodule
 
-[optional footer]
+```bash
+# Check status submodule
+git submodule status
+
+# Initialize submodules (jika diperlukan)
+git submodule init
+
+# Update ke commit spesifik
+cd workbench/submodules/wilayah
+git checkout specific-commit-hash
+cd ../../..
+git add workbench/submodules/wilayah
+git commit -m "chore: pin wilayah to specific version"
 ```
 
-Examples:
+## Pengembangan Database
+
+### Mengakses Database
+
+```bash
+# SQLite (database distribusi)
+sqlite3 database/nusa.sqlite
+
+# MySQL (database pengembangan)
+mysql -h 127.0.0.1 -u root -psecret nusantara
+
+# Via Docker
+composer upstream exec mysql mysql -u root -psecret nusantara
 ```
-feat(api): add province statistics endpoint
-fix(models): resolve village relationship issue
-docs(guide): update installation instructions
-test(unit): add province model tests
+
+### Inspeksi Database
+
+```bash
+# Check struktur tabel
+composer testbench tinker
+>>> Schema::connection('nusa')->getColumnListing('provinces')
+
+# Count records
+>>> \Creasi\Nusa\Models\Province::count()
+
+# Test relationships
+>>> \Creasi\Nusa\Models\Province::find('33')->regencies->count()
+```
+
+### Performance Testing
+
+```bash
+# Test performa query
+composer testbench tinker
+>>> DB::connection('nusa')->enableQueryLog()
+>>> \Creasi\Nusa\Models\Village::paginate(100)
+>>> DB::connection('nusa')->getQueryLog()
 ```
 
 ## Debugging
 
-### Debug Configuration
+### Enable Debug Mode
 
 ```php
-// config/app.php
-'debug' => env('APP_DEBUG', true),
+// Di workbench/.env
+APP_DEBUG=true
+LOG_LEVEL=debug
 
 // Enable query logging
-DB::enableQueryLog();
-
-// Log queries
-Log::info(DB::getQueryLog());
+DB_LOG_QUERIES=true
 ```
 
-### Common Debug Commands
+### Perintah Debug Umum
 
 ```bash
-# Clear all caches
-php artisan optimize:clear
+# Check konfigurasi
+composer testbench config:show database.connections.nusa
 
-# View routes
-php artisan route:list
+# Test koneksi database
+composer testbench tinker
+>>> DB::connection('nusa')->getPdo()
 
-# Check configuration
-php artisan config:show
+# Check routes
+composer testbench route:list | grep nusa
 
-# View logs
-tail -f storage/logs/laravel.log
+# Clear caches
+composer testbench config:clear
+composer testbench route:clear
 ```
 
-### Debugging Tools
+## Optimisasi Performa
+
+### Database Pengembangan
 
 ```bash
-# Install Laravel Debugbar
-composer require --dev barryvdh/laravel-debugbar
+# Gunakan database pengembangan dengan koordinat
+cp database/nusa.dev.sqlite database/nusa.sqlite
 
-# Install Telescope (for advanced debugging)
-composer require laravel/telescope
-php artisan telescope:install
+# Atau buat dari source
+composer testbench nusa:import --fresh
+composer testbench nusa:dist --force
 ```
+
+### Optimisasi Query
+
+```php
+// Enable query logging untuk analisis
+DB::connection('nusa')->listen(function ($query) {
+    Log::debug('Nusa Query', [
+        'sql' => $query->sql,
+        'bindings' => $query->bindings,
+        'time' => $query->time
+    ]);
+});
+```
+
+## Troubleshooting
+
+### Masalah Umum
+
+#### Submodules Tidak Diinisialisasi
+
+```bash
+# Error: direktori submodule kosong
+git submodule update --init --recursive
+```
+
+#### Masalah Permission Docker
+
+```bash
+# Fix permission Docker di Linux
+sudo chown -R $USER:$USER database/
+sudo chmod -R 755 database/
+```
+
+#### Error Koneksi Database
+
+```bash
+# Check layanan Docker
+docker-compose ps
+
+# Restart layanan
+composer upstream:down
+composer upstream:up
+
+# Check logs MySQL
+composer upstream:logs mysql
+```
+
+#### Masalah Memory Saat Impor
+
+```bash
+# Tingkatkan PHP memory limit
+php -d memory_limit=2G vendor/bin/testbench nusa:import -- --fresh
+```
+
+### Mendapatkan Bantuan
+
+1. **Check logs**: `storage/logs/laravel.log`
+2. **GitHub Issues**: [Laporkan bug](https://github.com/creasico/laravel-nusa/issues)
+3. **Discussions**: [Dukungan komunitas](https://github.com/orgs/creasico/discussions)
+4. **Dokumentasi**: Check dokumentasi ini terlebih dahulu
 
 ## Langkah Selanjutnya
 
-- **[Troubleshooting](/id/guide/troubleshooting)** - Common development issues
-- **[API Reference](/id/api/overview)** - Complete API documentation
-- **[Contributing Guide](https://github.com/creasico/laravel-nusa/blob/main/CONTRIBUTING.md)** - Detailed contribution guidelines
-- **[GitHub Repository](https://github.com/creasico/laravel-nusa)** - Source code and issues
+Setelah menyiapkan environment pengembangan Anda:
+
+1. **Jelajahi codebase** - Pahami struktur proyek
+2. **Jalankan tests** - Pastikan semuanya bekerja dengan benar
+3. **Baca panduan kontribusi** - Pelajari workflow pengembangan
+4. **Mulai berkontribusi** - Pilih issue atau sarankan perbaikan

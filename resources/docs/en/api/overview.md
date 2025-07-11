@@ -98,7 +98,7 @@ GET /nusa/provinces?page=2&per_page=25
 
 Search by name or code using the `search` parameter:
 
-```bash
+```http
 # Search provinces by name
 GET /nusa/provinces?search=jawa
 
@@ -113,7 +113,7 @@ GET /nusa/regencies?search=semarang
 
 Filter results by specific codes using the `codes[]` parameter:
 
-```bash
+```http
 # Get specific provinces
 GET /nusa/provinces?codes[]=33&codes[]=34&codes[]=35
 
@@ -125,7 +125,7 @@ GET /nusa/regencies?codes[]=3375&codes[]=3376
 
 You can combine search and filtering:
 
-```bash
+```http
 # Search for "jakarta" in specific provinces
 GET /nusa/regencies?search=jakarta&codes[]=31&codes[]=32
 ```
@@ -253,7 +253,7 @@ If you need to access the API from a browser application on a different domain, 
 
 ::: code-group
 
-```javascript [fetch]
+```js [fetch]
 // Get all provinces
 const response = await fetch('/nusa/provinces');
 const data = await response.json();

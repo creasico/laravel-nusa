@@ -84,7 +84,7 @@ curl -X GET "https://your-app.com/nusa/villages?codes[]=33.74.01.1001&codes[]=33
 
 ### Load Kelurahan/Desa berdasarkan Kecamatan
 
-```javascript
+```js
 async function loadVillages(districtCode) {
     const response = await fetch(`/nusa/districts/${districtCode}/villages?sort=name`);
     const data = await response.json();
@@ -94,7 +94,7 @@ async function loadVillages(districtCode) {
 
 ### Cari Kelurahan/Desa berdasarkan Kode Pos
 
-```javascript
+```js
 async function findVillagesByPostalCode(postalCode) {
     const response = await fetch(`/nusa/villages?postal_code=${postalCode}&include=district.regency.province`);
     const data = await response.json();
@@ -104,7 +104,7 @@ async function findVillagesByPostalCode(postalCode) {
 
 ### Dapatkan Kelurahan/Desa dengan Hierarki Lengkap
 
-```javascript
+```js
 async function getVillageHierarchy(villageCode) {
     const response = await fetch(`/nusa/villages/${villageCode}?include=district.regency.province`);
     const village = await response.json();
@@ -121,7 +121,7 @@ async function getVillageHierarchy(villageCode) {
 
 ### Validasi Alamat
 
-```javascript
+```js
 async function validateAddress(addressData) {
     const village = await fetch(`/nusa/villages/${addressData.village_code}`)
         .then(r => r.json());
@@ -147,9 +147,9 @@ async function validateAddress(addressData) {
 
 ### Pagination
 
-Endpoint kelurahan/desa mengembalikan dataset besar (83.467+ record). Selalu gunakan pagination:
+Endpoint kelurahan/desa mengembalikan dataset besar (83.762+ record). Selalu gunakan pagination:
 
-```javascript
+```js
 // Baik - dengan pagination
 const villages = await fetch('/nusa/villages?per_page=50&page=1');
 
@@ -161,7 +161,7 @@ const allVillages = await fetch('/nusa/villages?per_page=100000');
 
 Gunakan filter spesifik untuk mengurangi ukuran response:
 
-```javascript
+```js
 // Baik - filter berdasarkan kecamatan
 const villages = await fetch('/nusa/villages?district_code=33.74.01');
 

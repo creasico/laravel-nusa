@@ -9,8 +9,6 @@ This guide shows how to build complete address forms with cascading dropdowns us
 #### Controller
 
 ```php
-<?php
-
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
@@ -274,7 +272,7 @@ Route::middleware('auth')->group(function () {
 
 #### JavaScript Implementation
 
-```javascript
+```js
 // public/js/address-form.js
 class AddressForm {
     constructor() {

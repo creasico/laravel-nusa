@@ -19,7 +19,7 @@ hero:
 features:
   - icon: 🗺️
     title: Complete Administrative Data
-    details: All 34 provinces, 514 regencies, 7,266 districts, and 83,467 villages with official codes and names
+    details: All 38 provinces, 514 regencies, 7,285 districts, and 83,762 villages with official codes and names
   - icon: 🚀
     title: Zero Configuration
     details: Ready-to-use SQLite database included. No seeding or migration required - just install and use
@@ -55,7 +55,7 @@ Laravel Nusa solves the common challenge of integrating Indonesian administrativ
 - **Public Services**: Empower citizen management and simplify administrative reporting with spatial insights.
 - **Business Applications**: Analyze regional performance and plan strategic expansion with location-based analytics
 
-## Quick Start
+## 🚀 Quick Start
 
 Install the package via Composer:
 
@@ -81,13 +81,11 @@ $districts = $jateng->districts;
 $villages = $jateng->villages;
 ```
 
-
-
-## API Example
+## 🌐 API Example
 
 Access data through clean RESTful endpoints:
 
-```bash
+```http
 # Get all provinces
 GET /nusa/provinces
 
@@ -101,7 +99,7 @@ GET /nusa/provinces/33/regencies
 GET /nusa/villages?search=jakarta&codes[]=31.71
 ```
 
-## Address Management
+## 📍 Address Management
 
 Easily integrate address functionality into your models:
 
@@ -123,15 +121,3 @@ $user->addresses()->create([
     'address_line' => 'Jl. Merdeka No. 123'
 ]);
 ```
-
-## Get Started
-
-<div class="vp-doc">
-
-[Installation Guide →](/id/guide/installation)
-
-[Usage Example→](/id/examples/basic-usage)
-
-[API Reference→](/id/api/overview)
-
-</div>

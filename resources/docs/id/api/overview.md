@@ -48,7 +48,7 @@ Semua response API mengikuti format JSON yang konsisten:
 
 ### Provinsi
 
-```bash
+```http
 # Dapatkan semua provinsi
 GET /nusa/provinces
 
@@ -67,7 +67,7 @@ GET /nusa/provinces/{code}/villages
 
 ### Kabupaten/Kota
 
-```bash
+```http
 # Dapatkan semua kabupaten/kota
 GET /nusa/regencies
 
@@ -83,7 +83,7 @@ GET /nusa/regencies/{code}/villages
 
 ### Kecamatan
 
-```bash
+```http
 # Dapatkan semua kecamatan
 GET /nusa/districts
 
@@ -96,7 +96,7 @@ GET /nusa/districts/{code}/villages
 
 ### Kelurahan/Desa
 
-```bash
+```http
 # Dapatkan semua kelurahan/desa
 GET /nusa/villages
 
@@ -108,14 +108,14 @@ GET /nusa/villages/{code}
 
 ### Pagination
 
-```bash
+```http
 # Parameter page dan per_page
 GET /nusa/provinces?page=2&per_page=20
 ```
 
 ### Pencarian
 
-```bash
+```http
 # Pencarian berdasarkan nama atau kode
 GET /nusa/provinces?search=jawa
 GET /nusa/regencies?search=semarang
@@ -123,7 +123,7 @@ GET /nusa/regencies?search=semarang
 
 ### Filter
 
-```bash
+```http
 # Filter berdasarkan kode induk
 GET /nusa/regencies?province_code=33
 GET /nusa/districts?regency_code=33.74
@@ -138,7 +138,7 @@ GET /nusa/villages?postal_code=50132
 
 ### Pengurutan
 
-```bash
+```http
 # Urutkan berdasarkan nama atau kode
 GET /nusa/provinces?sort=name
 GET /nusa/provinces?sort=-name  # Descending
@@ -146,7 +146,7 @@ GET /nusa/provinces?sort=-name  # Descending
 
 ### Menyertakan Relasi
 
-```bash
+```http
 # Sertakan data relasi
 GET /nusa/villages?include=district,regency,province
 GET /nusa/districts?include=regency.province
@@ -270,7 +270,7 @@ Anda dapat menggunakan ini dengan tools seperti Swagger UI atau Postman untuk do
 npm install laravel-nusa-js
 ```
 
-```javascript
+```js
 import { NusaClient } from 'laravel-nusa-js';
 
 const client = new NusaClient('https://your-app.com');
@@ -294,7 +294,7 @@ $provinces = $client->provinces()->list();
 
 ### Membangun Location Selector
 
-```javascript
+```js
 // Ambil provinsi untuk dropdown
 fetch('/nusa/provinces')
     .then(response => response.json())
@@ -318,7 +318,7 @@ function loadRegencies(provinceCode) {
 
 ### Validasi Alamat
 
-```javascript
+```js
 async function validateAddress(address) {
     const village = await fetch(`/nusa/villages/${address.village_code}`)
         .then(r => r.json());

@@ -21,7 +21,7 @@ hero:
 features:
   - icon: 🗺️
     title: Complete Coverage
-    details: All 34 provinces, 514 regencies/cities, 7,266 districts, and 83,467 villages with accurate hierarchical relationships.
+    details: All 38 provinces, 514 regencies/cities, 7,285 districts, and 83,762 villages with accurate hierarchical relationships.
 
   - icon: ⚡
     title: High Performance

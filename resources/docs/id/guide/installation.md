@@ -1,104 +1,83 @@
 # Instalasi
 
-Panduan lengkap untuk menginstal dan mengkonfigurasi Laravel Nusa dalam aplikasi Laravel Anda.
+Panduan ini menyediakan instruksi instalasi yang komprehensif, opsi konfigurasi, dan troubleshooting untuk Laravel Nusa.
 
 ## Persyaratan Sistem
 
-Sebelum menginstal Laravel Nusa, pastikan sistem Anda memenuhi persyaratan berikut:
+### Persyaratan PHP
 
-- **PHP**: 8.1 atau lebih tinggi
-- **Laravel**: 10.0 atau lebih tinggi
-- **Ekstensi PHP**: SQLite (untuk database Nusa)
-- **Composer**: Versi terbaru
+- **Versi PHP**: 8.2 atau lebih tinggi
+- **Ekstensi yang Diperlukan**:
+  - `ext-sqlite3` - Untuk dukungan database SQLite
+  - `ext-json` - Untuk penanganan JSON (biasanya sudah termasuk)
+  - `ext-mbstring` - Untuk manipulasi string (biasanya sudah termasuk)
+
+### Persyaratan Laravel
+
+Laravel Nusa mendukung beberapa versi Laravel:
+
+- **Laravel 9.x** - Versi minimum 9.0
+- **Laravel 10.x** - Dukungan penuh
+- **Laravel 11.x** - Dukungan penuh
+- **Laravel 12.x** - Dukungan penuh
+
+### Persyaratan Server
+
+- **Ruang Disk**: ~15MB untuk package dan database
+- **Database**: Menggunakan koneksi SQLite terpisah (tidak berdampak pada database utama Anda)
+- **Memory**: Tidak ada persyaratan memory tambahan
 
 ## Instalasi
 
-### 1. Install Package
-
-Install Laravel Nusa melalui Composer:
+### Langkah 1: Install via Composer
 
 ```bash
 composer require creasi/laravel-nusa
 ```
 
-### 2. Jalankan Setup
+### Langkah 2: Verifikasi Instalasi
 
-Jalankan perintah instalasi untuk menyiapkan database dan konfigurasi:
-
-```bash
-php artisan nusa:install
-```
-
-Perintah ini akan:
-- Membuat file database SQLite untuk data Nusa
-- Mempublikasikan file konfigurasi
-- Menjalankan migrasi database
-- Mengunduh data wilayah administratif terbaru
-
-### 3. Verifikasi Instalasi
-
-Verifikasi bahwa instalasi berhasil:
+Laravel Nusa secara otomatis mengkonfigurasi dirinya sendiri. Verifikasi bahwa instalasi berhasil:
 
 ```bash
-php artisan nusa:check
+php artisan tinker
 ```
-
-Perintah ini akan memeriksa:
-- Koneksi database Nusa
-- Kelengkapan data
-- Konfigurasi yang benar
-
-## Konfigurasi Database
-
-### Database SQLite (Default)
-
-Secara default, Laravel Nusa menggunakan database SQLite terpisah:
 
 ```php
-// config/database.php
-'nusa' => [
-    'driver' => 'sqlite',
-    'database' => database_path('nusa.sqlite'),
-    'prefix' => '',
-    'foreign_key_constraints' => true,
-],
+// Di Tinker - ini harus mengembalikan 38
+\Creasi\Nusa\Models\Province::count();
 ```
 
-### Database MySQL/PostgreSQL
+Jika berhasil, Anda akan melihat jumlah provinsi di Indonesia.
 
-Jika Anda ingin menggunakan database utama aplikasi:
+### Langkah 3: Publikasi Konfigurasi (Opsional)
+
+Jika Anda perlu menyesuaikan konfigurasi:
+
+```bash
+php artisan vendor:publish --provider="Creasi\Nusa\NusaServiceProvider"
+```
+
+Ini akan membuat file `config/nusa.php` yang dapat Anda sesuaikan.
+
+## Konfigurasi
+
+### Konfigurasi Database
+
+Laravel Nusa menggunakan database SQLite terpisah yang disimpan di `database/nusa.sqlite`. Konfigurasi default:
 
 ```php
 // config/nusa.php
-'database' => [
-    'connection' => 'mysql', // atau 'pgsql'
-    'prefix' => 'nusa_',
-],
-```
-
-Kemudian jalankan migrasi:
-
-```bash
-php artisan migrate --database=mysql
-```
-
-## Konfigurasi Lanjutan
-
-### File Konfigurasi
-
-Publikasikan file konfigurasi untuk kustomisasi:
-
-```bash
-php artisan vendor:publish --tag=nusa-config
-```
-
-File konfigurasi akan tersedia di `config/nusa.php`:
-
-```php
 return [
     'database' => [
         'connection' => 'nusa',
-        'prefix' => '',
+        'path' => database_path('nusa.sqlite'),
+    ],
+    
+    'cache' => [
+        'enabled' => true,
+        'ttl' => 3600, // 1 jam
+        'prefix' => 'nusa',
     ],
     
     'models' => [
@@ -106,140 +85,274 @@ return [
         'regency' => \Creasi\Nusa\Models\Regency::class,
         'district' => \Creasi\Nusa\Models\District::class,
         'village' => \Creasi\Nusa\Models\Village::class,
-        'address' => \Creasi\Nusa\Models\Address::class,
-    ],
-    
-    'api' => [
-        'enabled' => true,
-        'prefix' => 'nusa',
-        'middleware' => ['api'],
     ],
 ];
 ```
 
-### Konfigurasi API
+### Konfigurasi Cache
 
-Jika Anda ingin menggunakan API endpoints:
+Laravel Nusa mendukung caching untuk meningkatkan performa:
 
 ```php
 // config/nusa.php
-'api' => [
+'cache' => [
     'enabled' => true,
+    'ttl' => 3600, // Cache selama 1 jam
     'prefix' => 'nusa',
-    'middleware' => ['api'],
-    'rate_limit' => '60,1', // 60 requests per minute
+    'store' => null, // Gunakan cache store default
 ],
 ```
 
-## Update Data
+### Konfigurasi Model Kustom
 
-### Update Manual
-
-Update data wilayah administratif:
-
-```bash
-php artisan nusa:update
-```
-
-### Update Otomatis
-
-Atur update otomatis melalui scheduler:
+Anda dapat menggunakan model kustom:
 
 ```php
-// app/Console/Kernel.php
-protected function schedule(Schedule $schedule)
-{
-    $schedule->command('nusa:update')
-        ->monthly()
-        ->onFailure(function () {
-            // Handle failure
-        });
+// config/nusa.php
+'models' => [
+    'province' => \App\Models\Province::class,
+    'regency' => \App\Models\Regency::class,
+    'district' => \App\Models\District::class,
+    'village' => \App\Models\Village::class,
+],
+```
+
+## Verifikasi Instalasi
+
+### Tes Dasar
+
+```php
+use Creasi\Nusa\Models\{Province, Regency, District, Village};
+
+// Tes model dasar
+$provinces = Province::count(); // Harus 38
+$regencies = Regency::count();  // Harus 514
+$districts = District::count(); // Harus 7,285
+$villages = Village::count();   // Harus 83,762
+
+echo "Provinsi: {$provinces}\n";
+echo "Kabupaten/Kota: {$regencies}\n";
+echo "Kecamatan: {$districts}\n";
+echo "Kelurahan/Desa: {$villages}\n";
+```
+
+### Tes Pencarian
+
+```php
+// Tes pencarian
+$jakarta = Province::search('jakarta')->first();
+$semarang = Regency::search('semarang')->first();
+$medono = Village::search('medono')->first();
+
+if ($jakarta && $semarang && $medono) {
+    echo "Pencarian berfungsi dengan baik!\n";
+} else {
+    echo "Ada masalah dengan pencarian.\n";
+}
+```
+
+### Tes Relasi
+
+```php
+// Tes relasi
+$village = Village::with(['district.regency.province'])->first();
+
+if ($village && $village->district && $village->district->regency && $village->district->regency->province) {
+    echo "Relasi berfungsi dengan baik!\n";
+    echo "Alamat: {$village->name}, {$village->district->name}, {$village->district->regency->name}, {$village->district->regency->province->name}\n";
+} else {
+    echo "Ada masalah dengan relasi.\n";
 }
 ```
 
 ## Troubleshooting
 
-### Database Connection Error
+### Masalah Umum
 
-Jika terjadi error koneksi database:
+#### 1. Database Tidak Ditemukan
 
+**Error**: `Database file not found`
+
+**Solusi**:
 ```bash
-# Periksa file database
+# Pastikan file database ada
 ls -la database/nusa.sqlite
 
-# Periksa permission
-chmod 664 database/nusa.sqlite
-
-# Re-install jika perlu
-php artisan nusa:install --force
+# Jika tidak ada, coba install ulang
+composer require creasi/laravel-nusa --force
 ```
 
-### Memory Limit Error
+#### 2. Ekstensi SQLite Tidak Tersedia
 
-Jika terjadi error memory limit saat instalasi:
+**Error**: `SQLite extension not found`
 
+**Solusi**:
 ```bash
-# Tingkatkan memory limit
-php -d memory_limit=512M artisan nusa:install
+# Ubuntu/Debian
+sudo apt-get install php-sqlite3
 
-# Atau set di php.ini
-memory_limit = 512M
+# CentOS/RHEL
+sudo yum install php-sqlite3
+
+# macOS dengan Homebrew
+brew install php@8.2 --with-sqlite3
 ```
 
-### Permission Error
+#### 3. Permission Error
 
-Jika terjadi error permission:
+**Error**: `Permission denied`
 
+**Solusi**:
 ```bash
-# Set permission untuk directory database
-chmod 755 database/
+# Berikan permission yang tepat
 chmod 664 database/nusa.sqlite
+chmod 775 database/
 
-# Untuk web server
-chown -R www-data:www-data database/
+# Pastikan web server dapat mengakses
+chown www-data:www-data database/nusa.sqlite
 ```
 
-## Verifikasi Instalasi
+#### 4. Memory Limit
 
-### Test Basic Functionality
+**Error**: `Memory limit exceeded`
+
+**Solusi**:
+```php
+// Tingkatkan memory limit di php.ini
+memory_limit = 256M
+
+// Atau dalam kode
+ini_set('memory_limit', '256M');
+```
+
+### Debugging
+
+#### Mode Debug
+
+Aktifkan debug mode untuk informasi lebih detail:
 
 ```php
-use Creasi\Nusa\Models\Province;
-
-// Test di tinker
-php artisan tinker
-
->>> Province::count()
-=> 34
-
->>> Province::find('33')->name
-=> "Jawa Tengah"
-
->>> Province::find('33')->regencies->count()
-=> 35
+// config/nusa.php
+'debug' => env('NUSA_DEBUG', false),
 ```
-
-### Test API Endpoints
-
-Jika API diaktifkan:
 
 ```bash
-# Test endpoint provinces
-curl http://localhost:8000/nusa/provinces
-
-# Test specific province
-curl http://localhost:8000/nusa/provinces/33
+# Set environment variable
+NUSA_DEBUG=true
 ```
 
-## Langkah Selanjutnya
+#### Log Queries
 
-Setelah instalasi berhasil:
+Monitor query yang dijalankan:
 
-1. **[Configuration](/id/guide/configuration)** - Konfigurasi lanjutan
-2. **[Getting Started](/id/guide/getting-started)** - Mulai menggunakan Laravel Nusa
-3. **[Models](/id/guide/models)** - Memahami model dan relasi
-4. **[Examples](/id/examples/basic-usage)** - Contoh implementasi praktis
+```php
+use Illuminate\Support\Facades\DB;
 
----
+DB::listen(function ($query) {
+    if (str_contains($query->connectionName, 'nusa')) {
+        logger()->info('Nusa Query: ' . $query->sql, $query->bindings);
+    }
+});
+```
 
-*Laravel Nusa siap digunakan dalam aplikasi Anda!*
+### Performance Optimization
+
+#### 1. Aktifkan Cache
+
+```php
+// config/nusa.php
+'cache' => [
+    'enabled' => true,
+    'ttl' => 7200, // 2 jam
+    'prefix' => 'nusa',
+],
+```
+
+#### 2. Gunakan Eager Loading
+
+```php
+// ❌ N+1 Problem
+$villages = Village::all();
+foreach ($villages as $village) {
+    echo $village->district->name; // Query untuk setiap village
+}
+
+// ✅ Eager Loading
+$villages = Village::with('district')->get();
+foreach ($villages as $village) {
+    echo $village->district->name; // Tidak ada query tambahan
+}
+```
+
+#### 3. Gunakan Select Spesifik
+
+```php
+// ❌ Select semua kolom
+$provinces = Province::all();
+
+// ✅ Select kolom yang diperlukan saja
+$provinces = Province::select(['code', 'name'])->get();
+```
+
+## Instalasi untuk Development
+
+### Clone Repository
+
+Untuk development atau kontribusi:
+
+```bash
+git clone https://github.com/creasico/laravel-nusa.git
+cd laravel-nusa
+composer install
+```
+
+### Setup Testing
+
+```bash
+# Copy environment file
+cp .env.example .env
+
+# Install dependencies
+composer install
+
+# Run tests
+composer test
+```
+
+### Build Database
+
+```bash
+# Build database dari source
+php artisan nusa:build
+
+# Atau download pre-built database
+php artisan nusa:download
+```
+
+## Uninstall
+
+Jika Anda perlu menghapus Laravel Nusa:
+
+```bash
+# Hapus package
+composer remove creasi/laravel-nusa
+
+# Hapus file database (opsional)
+rm database/nusa.sqlite
+
+# Hapus file konfigurasi (opsional)
+rm config/nusa.php
+```
+
+## Dukungan
+
+Jika Anda mengalami masalah:
+
+1. **Periksa dokumentasi** - Baca panduan troubleshooting
+2. **Cek GitHub Issues** - Lihat apakah masalah sudah dilaporkan
+3. **Buat Issue Baru** - Jika masalah belum ada, buat issue baru
+4. **Diskusi** - Gunakan GitHub Discussions untuk pertanyaan umum
+
+**Repository**: [https://github.com/creasico/laravel-nusa](https://github.com/creasico/laravel-nusa)
+
+Dengan mengikuti panduan ini, Anda seharusnya dapat menginstal dan mengkonfigurasi Laravel Nusa dengan sukses dalam aplikasi Laravel Anda.

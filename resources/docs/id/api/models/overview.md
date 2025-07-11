@@ -1,8 +1,6 @@
 # Ikhtisar Model
 
-Laravel Nusa menyediakan model Eloquent yang komprehensif untuk semua tingkat hierarki administratif Indonesia. Model-model ini mencakup relasi lengkap, kemampuan pencarian, dan fitur integrasi untuk membangun aplikasi yang sadar lokasi.
-
-Laravel Nusa provides comprehensive Eloquent models for all levels of Indonesia's administrative hierarchy. These models include complete relationships, search capabilities, and integration features for building location-aware applications.
+Laravel Nusa menyediakan model Eloquent yang komprehensif untuk semua tingkat hierarki administratif Indonesia. Ikhtisar teknis ini mencakup struktur database, relasi, dan detail implementasi.
 
 ## Hierarki Administratif
 
@@ -12,10 +10,10 @@ Struktur administratif Indonesia terdiri dari empat tingkat utama:
 
 ```
 🇮🇩 Indonesia
-├── 34 Provinsi
+├── 38 Provinsi
 ├── 514 Kabupaten/Kota
-├── 7.266 Kecamatan
-└── 83.467 Kelurahan/Desa
+├── 7.285 Kecamatan
+└── 83.762 Kelurahan/Desa
 ```
 
 ### Relasi Model
@@ -32,7 +30,7 @@ Setiap tingkat mempertahankan relasi ke atas dan ke bawah, memungkinkan navigasi
 
 **Tabel**: `nusa.provinces`  
 **Primary Key**: `code` (string, 2 karakter)  
-**Jumlah Record**: 34 provinsi
+**Jumlah Record**: 38 provinsi
 
 ```php
 use Creasi\Nusa\Models\Province;
@@ -60,7 +58,7 @@ $districts = $regency->districts;   // Semua kecamatan dalam kabupaten/kota
 
 **Tabel**: `nusa.districts`  
 **Primary Key**: `code` (string, 8 karakter dalam format xx.xx.xx)  
-**Jumlah Record**: 7.266 kecamatan
+**Jumlah Record**: 7.285 kecamatan
 
 ```php
 use Creasi\Nusa\Models\District;
@@ -74,7 +72,7 @@ $villages = $district->villages;         // Semua desa dalam kecamatan
 
 **Tabel**: `nusa.villages`  
 **Primary Key**: `code` (string, 13 karakter dalam format xx.xx.xx.xxxx)  
-**Jumlah Record**: 83.467 kelurahan/desa
+**Jumlah Record**: 83.762 kelurahan/desa
 
 ```php
 use Creasi\Nusa\Models\Village;

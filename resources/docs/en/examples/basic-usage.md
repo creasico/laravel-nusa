@@ -287,7 +287,7 @@ $villages = Village::paginate(50);
 $regencies = Regency::whereIn('code', ['33.75', '33.76', '33.77'])->get();
 
 // Avoid: Loading all villages at once
-// $allVillages = Village::all(); // 83,467 records!
+// $allVillages = Village::all(); // 83,762 records!
 ```
 
 ### Caching Strategies

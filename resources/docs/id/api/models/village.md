@@ -1,323 +1,397 @@
 # Model Kelurahan/Desa
 
-Dokumentasi lengkap untuk model Village Laravel Nusa, termasuk atribut, relasi, scope, dan metode yang tersedia untuk mengelola data kelurahan dan desa di Indonesia.
+Model `Village` merepresentasikan kelurahan dan desa Indonesia dan menyediakan akses ke semua 83,762 wilayah administratif tingkat keempat.
 
-This comprehensive documentation covers the Village model in Laravel Nusa, including attributes, relationships, scopes, and available methods for managing Indonesian village and urban village data.
+## Referensi Class
 
-## Model Overview
+```php
+namespace Creasi\Nusa\Models;
 
-The Village model represents the lowest level of Indonesia's administrative hierarchy. With 83,467 villages and urban villages across Indonesia, this model provides the most granular administrative data for precise location targeting.
+class Village extends Model
+{
+    // Implementasi model
+}
+```
 
-### Basic Usage
+## Atribut
+
+### Atribut Utama
+
+| Atribut | Type | Deskripsi | Contoh |
+|---------|------|-----------|--------|
+| `code` | `string` | Kode kelurahan/desa dalam format xx.xx.xx.xxxx (Primary Key) | `"33.75.01.1002"` |
+| `district_code` | `string` | Kode kecamatan induk (Foreign Key) | `"33.75.01"` |
+| `regency_code` | `string` | Kode kabupaten/kota induk (Foreign Key) | `"33.75"` |
+| `province_code` | `string` | Kode provinsi induk (Foreign Key) | `"33"` |
+| `name` | `string` | Nama kelurahan/desa dalam bahasa Indonesia | `"Medono"` |
+| `latitude` | `float\|null` | Lintang pusat geografis | `-6.8969497174987` |
+| `longitude` | `float\|null` | Bujur pusat geografis | `109.66208089654` |
+| `postal_code` | `string\|null` | Kode pos 5 digit | `"51111"` |
+
+### Atribut Computed
+
+| Atribut | Type | Deskripsi |
+|---------|------|-----------|
+| `type` | `string` | Tipe wilayah ("Kelurahan" atau "Desa") |
+| `is_urban` | `boolean` | Apakah ini adalah kelurahan (urban) |
+| `full_address` | `string` | Alamat lengkap dengan hierarki |
+
+## Relasi
+
+### Belongs To
+
+```php
+// Dapatkan kecamatan induk
+$village->district; // Model District
+
+// Dapatkan kabupaten/kota induk
+$village->regency; // Model Regency
+
+// Dapatkan provinsi induk
+$village->province; // Model Province
+```
+
+### Metode Relasi
+
+```php
+// Relasi kecamatan
+public function district(): BelongsTo
+{
+    return $this->belongsTo(District::class, 'district_code', 'code');
+}
+
+// Relasi kabupaten/kota
+public function regency(): BelongsTo
+{
+    return $this->belongsTo(Regency::class, 'regency_code', 'code');
+}
+
+// Relasi provinsi
+public function province(): BelongsTo
+{
+    return $this->belongsTo(Province::class, 'province_code', 'code');
+}
+```
+
+## Scope
+
+### Pencarian
+
+```php
+// Pencarian berdasarkan nama
+$villages = Village::search('medono')->get();
+
+// Pencarian dengan multiple terms
+$villages = Village::search('kelurahan medono')->get();
+```
+
+### Filter Berdasarkan Tipe
+
+```php
+// Hanya kelurahan (urban)
+$kelurahan = Village::urban()->get();
+
+// Hanya desa (rural)
+$desa = Village::rural()->get();
+
+// Filter berdasarkan kode pos
+$villages = Village::where('postal_code', '51111')->get();
+```
+
+### Filter Berdasarkan Wilayah
+
+```php
+// Kelurahan/desa dalam kecamatan tertentu
+$villages = Village::where('district_code', '33.75.01')->get();
+
+// Kelurahan/desa dalam kabupaten/kota tertentu
+$villages = Village::where('regency_code', '33.75')->get();
+
+// Kelurahan/desa dalam provinsi tertentu
+$villages = Village::where('province_code', '33')->get();
+```
+
+### Scope Geografis
+
+```php
+// Kelurahan/desa dalam radius tertentu
+$nearbyVillages = Village::nearbyCoordinates(-6.8969, 109.6621, 5)->get();
+
+// Kelurahan/desa dengan koordinat
+$villagesWithCoords = Village::whereNotNull('latitude')
+    ->whereNotNull('longitude')
+    ->get();
+
+// Kelurahan/desa dengan kode pos
+$villagesWithPostal = Village::whereNotNull('postal_code')->get();
+```
+
+## Metode
+
+### Informasi Tipe
+
+```php
+$village = Village::find('33.75.01.1002');
+
+// Cek apakah ini kelurahan
+$isUrban = $village->isUrban(); // true untuk kelurahan
+
+// Dapatkan tipe
+$type = $village->getType(); // "Kelurahan" atau "Desa"
+
+// Dapatkan nama bersih tanpa prefix
+$cleanName = $village->getCleanName(); // "Medono" dari "Kelurahan Medono"
+```
+
+### Informasi Geografis
+
+```php
+$village = Village::find('33.75.01.1002');
+
+// Dapatkan koordinat pusat
+$coordinates = $village->getCoordinates(); // [lat, lng]
+
+// Hitung jarak ke titik lain
+$distance = $village->distanceTo(-6.9, 109.7); // dalam kilometer
+
+// Validasi kode pos
+$isValidPostal = $village->validatePostalCode('51111');
+```
+
+### Alamat Lengkap
+
+```php
+$village = Village::find('33.75.01.1002');
+
+// Dapatkan alamat lengkap
+$fullAddress = $village->getFullAddress();
+// "Medono, Pekalongan Barat, Kota Pekalongan, Jawa Tengah"
+
+// Dapatkan alamat dengan kode pos
+$addressWithPostal = $village->getFullAddressWithPostal();
+// "Medono, Pekalongan Barat, Kota Pekalongan, Jawa Tengah 51111"
+```
+
+## Contoh Penggunaan
+
+### Dasar
 
 ```php
 use Creasi\Nusa\Models\Village;
 
-// Get all villages (use pagination for large datasets)
-$villages = Village::paginate(50);
+// Dapatkan semua kelurahan/desa
+$villages = Village::all();
 
-// Find specific village
-$village = Village::find('33.74.01.1001');
+// Dapatkan kelurahan/desa berdasarkan kode
+$village = Village::find('33.75.01.1002');
 
-// Search villages
-$villages = Village::search('medono')->get();
+// Pencarian kelurahan/desa
+$searchResults = Village::search('medono')->get();
 ```
 
-## Model Attributes
-
-### Database Schema
-
-| Attribute | Type | Description |
-|-----------|------|-------------|
-| `code` | string(13) | Primary key, thirteen-character village code (xx.xx.xx.xxxx format) |
-| `district_code` | string(8) | Foreign key to districts table |
-| `regency_code` | string(5) | Foreign key to regencies table |
-| `province_code` | string(2) | Foreign key to provinces table |
-| `name` | string | Official village/urban village name |
-| `postal_code` | string(5) | Five-digit postal code |
-| `latitude` | decimal(10,8) | Center point latitude coordinate |
-| `longitude` | decimal(11,8) | Center point longitude coordinate |
-
-### Fillable Attributes
+### Filter Berdasarkan Tipe
 
 ```php
-protected $fillable = [
-    'code',
-    'district_code',
-    'regency_code',
-    'province_code',
-    'name',
-    'postal_code',
-    'latitude',
-    'longitude'
-];
-```
+// Dapatkan semua kelurahan
+$kelurahan = Village::urban()->get();
 
-## Relationships
+foreach ($kelurahan as $village) {
+    echo $village->name . "\n"; // Kelurahan Medono, Kelurahan Panjang, dll.
+}
 
-### Upward Relationships
+// Dapatkan semua desa
+$desa = Village::rural()->get();
 
-```php
-// Parent district
-public function district(): BelongsTo
-
-// Parent regency (through district)
-public function regency(): BelongsTo
-
-// Parent province (through district.regency)
-public function province(): BelongsTo
-
-// Usage
-$village = Village::find('33.74.01.1001');
-echo $village->district->name;  // "Semarang Tengah"
-echo $village->regency->name;   // "Kota Semarang"
-echo $village->province->name;  // "Jawa Tengah"
-```
-
-### Address Relationships
-
-```php
-// Addresses in this village
-public function addresses(): HasMany
-
-// Usage
-$village = Village::find('33.74.01.1001');
-$addresses = $village->addresses; // All addresses in this village
-```
-
-## Scopes
-
-### Search Scope
-
-```php
-// Search by name, code, or postal code
-$villages = Village::search('medono')->get();
-$villages = Village::search('50132')->get(); // By postal code
-$village = Village::search('33.74.01.1001')->first(); // By code
-```
-
-### Filter Scopes
-
-```php
-// Filter by district
-$villages = Village::where('district_code', '33.74.01')->get();
-
-// Filter by regency
-$villages = Village::where('regency_code', '33.74')->get();
-
-// Filter by province
-$villages = Village::where('province_code', '33')->get();
-
-// Filter by postal code
-$villages = Village::where('postal_code', '50132')->get();
-```
-
-## Usage Examples
-
-### Querying with Relationships
-
-```php
-// Get villages with complete hierarchy
-$villages = Village::with(['district.regency.province'])->get();
-
-// Get villages by regency name
-$villages = Village::whereHas('regency', function ($query) {
-    $query->where('name', 'like', '%Semarang%');
-})->get();
-
-// Get villages with addresses
-$villages = Village::with('addresses')->has('addresses')->get();
-```
-
-### Postal Code Operations
-
-```php
-// Find villages by postal code
-$villages = Village::where('postal_code', '50132')->get();
-
-// Get all postal codes in a regency
-$postalCodes = Village::where('regency_code', '33.74')
-    ->distinct()
-    ->pluck('postal_code')
-    ->sort()
-    ->values();
-
-// Validate postal code for village
-public function validatePostalCode($villageCode, $postalCode)
-{
-    $village = Village::find($villageCode);
-    return $village && $village->postal_code === $postalCode;
+foreach ($desa as $village) {
+    echo $village->name . "\n"; // Desa Sumberejo, Desa Karanganyar, dll.
 }
 ```
 
-### Geographic Operations
+### Dengan Relasi
 
 ```php
-// Find villages within radius
-$centerLat = -6.2088;
-$centerLng = 106.8456;
-$radiusKm = 10;
+// Dapatkan kelurahan/desa dengan kecamatan
+$village = Village::with('district')->find('33.75.01.1002');
 
-$nearbyVillages = Village::selectRaw("
-    *,
-    (6371 * acos(
-        cos(radians(?)) * 
-        cos(radians(latitude)) * 
-        cos(radians(longitude) - radians(?)) + 
-        sin(radians(?)) * 
-        sin(radians(latitude))
-    )) AS distance
-", [$centerLat, $centerLng, $centerLat])
-->having('distance', '<=', $radiusKm)
+echo "Lokasi: {$village->name}, {$village->district->name}";
+
+// Dapatkan kelurahan/desa dengan semua hierarki
+$village = Village::with(['district.regency.province'])->find('33.75.01.1002');
+
+echo "Alamat lengkap: {$village->name}, {$village->district->name}, {$village->district->regency->name}, {$village->district->regency->province->name}";
+```
+
+### Pagination dan Sorting
+
+```php
+// Pagination sederhana
+$villages = Village::paginate(100);
+
+// Pagination dengan pencarian
+$villages = Village::search('kelurahan')->paginate(50);
+
+// Sorting berdasarkan nama
+$villages = Village::orderBy('name')->get();
+
+// Sorting berdasarkan tipe (kelurahan dulu)
+$villages = Village::orderByRaw("CASE WHEN name LIKE 'Kelurahan%' THEN 0 ELSE 1 END, name")->get();
+```
+
+### Filter Berdasarkan Kode Pos
+
+```php
+// Kelurahan/desa dengan kode pos tertentu
+$villages = Village::where('postal_code', '51111')->get();
+
+// Kelurahan/desa dalam range kode pos
+$jakartaVillages = Village::whereBetween('postal_code', ['10000', '19999'])->get();
+
+// Kelurahan/desa tanpa kode pos
+$villagesWithoutPostal = Village::whereNull('postal_code')->get();
+
+echo "Kelurahan/desa tanpa kode pos: " . $villagesWithoutPostal->count();
+```
+
+### Query Geografis
+
+```php
+// Cari kelurahan/desa terdekat dari koordinat
+$nearestVillages = Village::nearbyCoordinates(-6.9, 109.7, 10)
+    ->limit(10)
+    ->get();
+
+// Kelurahan/desa dalam kecamatan dengan jarak
+$villagesWithDistance = Village::selectRaw("
+    *, (
+        6371 * acos(
+            cos(radians(?)) * 
+            cos(radians(COALESCE(latitude, 0))) * 
+            cos(radians(COALESCE(longitude, 0)) - radians(?)) + 
+            sin(radians(?)) * 
+            sin(radians(COALESCE(latitude, 0)))
+        )
+    ) AS distance
+", [-6.9, 109.7, -6.9])
+->where('district_code', '33.75.01')
+->whereNotNull('latitude')
+->whereNotNull('longitude')
 ->orderBy('distance')
 ->get();
 ```
 
-## Integration Examples
+## Accessor dan Mutator
 
-### User Model Integration
+### Accessor
 
 ```php
-use Creasi\Nusa\Models\Concerns\WithVillage;
-
-class User extends Model
+// Dapatkan tipe wilayah
+public function getTypeAttribute(): string
 {
-    use WithVillage;
-    
-    protected $fillable = ['name', 'email', 'village_code'];
-    
-    // Get user's full address
-    public function getFullLocationAttribute()
-    {
-        if ($this->village) {
-            return "{$this->village->name}, {$this->village->district->name}, {$this->village->regency->name}, {$this->village->province->name}";
-        }
-        return null;
-    }
+    return str_starts_with($this->name, 'Kelurahan') ? 'Kelurahan' : 'Desa';
 }
 
-// Usage
-$user = User::create([
-    'name' => 'John Doe',
-    'email' => 'john@example.com',
-    'village_code' => '33.74.01.1001'
-]);
-
-echo $user->full_location; // Complete address hierarchy
-```
-
-### Address Validation
-
-```php
-class AddressValidator
+// Cek apakah ini kelurahan
+public function getIsUrbanAttribute(): bool
 {
-    public function validateHierarchy($data)
-    {
-        $village = Village::find($data['village_code']);
-        
-        if (!$village) {
-            return ['valid' => false, 'message' => 'Village not found'];
-        }
-        
-        $isValid = true;
-        $errors = [];
-        
-        if (isset($data['district_code']) && $village->district_code !== $data['district_code']) {
-            $isValid = false;
-            $errors[] = 'Village does not belong to selected district';
-        }
-        
-        if (isset($data['regency_code']) && $village->regency_code !== $data['regency_code']) {
-            $isValid = false;
-            $errors[] = 'Village does not belong to selected regency';
-        }
-        
-        if (isset($data['province_code']) && $village->province_code !== $data['province_code']) {
-            $isValid = false;
-            $errors[] = 'Village does not belong to selected province';
-        }
-        
-        return [
-            'valid' => $isValid,
-            'errors' => $errors,
-            'village' => $village,
-            'suggested_postal_code' => $village->postal_code
-        ];
-    }
+    return str_starts_with($this->name, 'Kelurahan');
 }
-```
 
-### Delivery Zone Management
-
-```php
-class DeliveryZone extends Model
+// Dapatkan nama bersih tanpa prefix
+public function getCleanNameAttribute(): string
 {
-    use WithVillages;
+    return preg_replace('/^(Kelurahan|Desa)\s+/', '', $this->name);
+}
+
+// Dapatkan alamat lengkap
+public function getFullAddressAttribute(): string
+{
+    $parts = [
+        $this->name,
+        $this->district?->name,
+        $this->regency?->name,
+        $this->province?->name
+    ];
     
-    public function addVillagesByPostalCode($postalCode)
-    {
-        $villages = Village::where('postal_code', $postalCode)->get();
-        $this->villages()->attach($villages->pluck('code'));
-        
-        return $villages->count();
+    return implode(', ', array_filter($parts));
+}
+
+// Dapatkan koordinat sebagai array
+public function getCoordinatesAttribute(): ?array
+{
+    if ($this->latitude && $this->longitude) {
+        return [$this->latitude, $this->longitude];
     }
-    
-    public function getCoverageStats()
-    {
-        $villages = $this->villages()->with(['district.regency.province'])->get();
-        
-        return [
-            'total_villages' => $villages->count(),
-            'provinces' => $villages->pluck('province.name')->unique()->count(),
-            'regencies' => $villages->pluck('regency.name')->unique()->count(),
-            'districts' => $villages->pluck('district.name')->unique()->count(),
-            'postal_codes' => $villages->pluck('postal_code')->unique()->sort()->values()
-        ];
-    }
+    return null;
 }
 ```
 
-## Performance Considerations
-
-### Efficient Queries
+### Mutator
 
 ```php
-// Use pagination for large datasets
-$villages = Village::paginate(50);
-
-// Select only needed fields
-$villages = Village::select('code', 'name', 'postal_code')->get();
-
-// Use chunk for bulk processing
-Village::chunk(1000, function ($villages) {
-    foreach ($villages as $village) {
-        // Process village
+// Normalisasi nama kelurahan/desa
+public function setNameAttribute($value): void
+{
+    // Pastikan format yang benar
+    if (!str_starts_with($value, 'Kelurahan') && !str_starts_with($value, 'Desa')) {
+        // Tentukan tipe berdasarkan konvensi atau data lain
+        $value = 'Desa ' . $value;
     }
-});
+    
+    $this->attributes['name'] = $value;
+}
 
-// Use cursor for memory-efficient iteration
-foreach (Village::cursor() as $village) {
-    // Process village with minimal memory usage
+// Validasi kode pos
+public function setPostalCodeAttribute($value): void
+{
+    if ($value !== null && !preg_match('/^\d{5}$/', $value)) {
+        throw new InvalidArgumentException('Kode pos harus 5 digit angka');
+    }
+    
+    $this->attributes['postal_code'] = $value;
 }
 ```
 
-### Caching Strategies
+## Scope Kustom
 
 ```php
-// Cache villages by postal code
-$villages = Cache::remember("villages_postal_50132", 3600, function () {
-    return Village::where('postal_code', '50132')->get();
-});
+// Scope untuk filter berdasarkan tipe
+public function scopeUrban($query)
+{
+    return $query->where('name', 'LIKE', 'Kelurahan%');
+}
 
-// Cache village with hierarchy
-$village = Cache::remember("village_33.74.01.1001", 3600, function () {
-    return Village::with(['district.regency.province'])->find('33.74.01.1001');
-});
+public function scopeRural($query)
+{
+    return $query->where('name', 'NOT LIKE', 'Kelurahan%');
+}
+
+// Scope untuk filter berdasarkan wilayah
+public function scopeInDistrict($query, string $districtCode)
+{
+    return $query->where('district_code', $districtCode);
+}
+
+public function scopeInRegency($query, string $regencyCode)
+{
+    return $query->where('regency_code', $regencyCode);
+}
+
+public function scopeInProvince($query, string $provinceCode)
+{
+    return $query->where('province_code', $provinceCode);
+}
+
+// Scope untuk wilayah dengan data lengkap
+public function scopeWithCoordinates($query)
+{
+    return $query->whereNotNull('latitude')
+                 ->whereNotNull('longitude');
+}
+
+public function scopeWithPostalCode($query)
+{
+    return $query->whereNotNull('postal_code');
+}
 ```
 
-## Next Steps
-
-- **[Address Model](/id/api/models/address)** - Address management documentation
-- **[District Model](/id/api/models/district)** - Model kecamatan documentation
-- **[Village API](/id/api/villages)** - Village API endpoints
-- **[Address Forms](/id/examples/address-forms)** - Building address forms with villages
+Model Village menyediakan akses komprehensif ke data kelurahan dan desa Indonesia dengan fitur pencarian, filtering berdasarkan tipe, validasi kode pos, dan analisis geografis yang lengkap.

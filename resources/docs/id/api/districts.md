@@ -81,7 +81,7 @@ curl -X GET "https://your-app.com/nusa/districts?search=tengah&province_code=33"
 
 ### Load Kecamatan berdasarkan Kabupaten/Kota
 
-```javascript
+```js
 async function loadDistricts(regencyCode) {
     const response = await fetch(`/nusa/regencies/${regencyCode}/districts?sort=name`);
     const data = await response.json();
@@ -91,7 +91,7 @@ async function loadDistricts(regencyCode) {
 
 ### Dapatkan Detail Kecamatan
 
-```javascript
+```js
 async function getDistrictDetails(districtCode) {
     const response = await fetch(`/nusa/districts/${districtCode}?include=regency.province`);
     const district = await response.json();

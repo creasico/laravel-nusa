@@ -89,8 +89,6 @@ echo "Office covers {$office->districts->count()} districts and {$office->villag
 Simply add the `use` statement for the traits you need:
 
 ```php
-<?php
-
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;

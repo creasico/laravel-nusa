@@ -5,7 +5,7 @@
 ## Mengapa Menggunakan Model Laravel Nusa?
 
 ### 🎯 **Cakupan Administratif Lengkap**
-Bekerja dengan setiap tingkat hierarki administratif Indonesia - dari 34 provinsi hingga 83.467 desa. Cakupan komprehensif ini memastikan aplikasi Anda dapat menangani kebutuhan berbasis lokasi apa pun.
+Bekerja dengan setiap tingkat hierarki administratif Indonesia - dari 38 provinsi hingga 83.762 desa. Cakupan komprehensif ini memastikan aplikasi Anda dapat menangani kebutuhan berbasis lokasi apa pun.
 
 ### ⚡ **Relasi Siap Pakai**
 Relasi Eloquent yang sudah dibangun menangani kompleksitas struktur hierarkis Indonesia, memungkinkan Anda fokus pada logika bisnis daripada manajemen data.
@@ -18,10 +18,10 @@ Model bekerja dengan data yang disinkronisasi dari sumber resmi pemerintah, mema
 ### 📊 **Struktur Empat Tingkat**
 ```
 🇮🇩 Indonesia
-├── 34 Provinsi → Operasi regional strategis
+├── 38 Provinsi → Operasi regional strategis
 ├── 514 Kabupaten/Kota → Layanan tingkat kota dan kabupaten
-├── 7.266 Kecamatan → Layanan komunitas dan lokal
-└── 83.467 Kelurahan/Desa → Penargetan lokasi yang presisi
+├── 7.285 Kecamatan → Layanan komunitas dan lokal
+└── 83.762 Kelurahan/Desa → Penargetan lokasi yang presisi
 ```
 
 ::: tip Detail Teknis

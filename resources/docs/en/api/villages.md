@@ -1,6 +1,6 @@
 # Villages API
 
-The Villages API provides access to all 83,467 Indonesian villages (kelurahan/desa) with their postal codes and administrative relationships.
+The Villages API provides access to all 83,762 Indonesian villages (kelurahan/desa) with their postal codes and administrative relationships.
 
 ## Endpoints
 

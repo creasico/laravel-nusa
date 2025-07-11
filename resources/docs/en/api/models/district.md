@@ -1,6 +1,6 @@
 # District Model
 
-The `District` model represents Indonesian districts (kecamatan) and provides access to all 7,266 third-level administrative regions.
+The `District` model represents Indonesian districts (kecamatan) and provides access to all 7,285 third-level administrative regions.
 
 ## Class Reference
 
@@ -255,7 +255,7 @@ $districts = District::where('regency_code', '33.75')
 $districts = District::select('code', 'name', 'regency_code')->get();
 
 // Avoid: Loading all districts at once
-$districts = District::all(); // 7,266 records!
+$districts = District::all(); // 7,285 records!
 ```
 
 ### Caching Strategies
@@ -358,7 +358,7 @@ CREATE INDEX idx_districts_coordinates ON districts(latitude, longitude);
 
 ```php
 // Total number of districts in Indonesia
-District::count(); // 7,266
+District::count(); // 7,285
 
 // Average districts per regency
 $avgDistrictsPerRegency = District::count() / Regency::count(); // ~14.1

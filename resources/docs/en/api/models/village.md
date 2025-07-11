@@ -1,6 +1,6 @@
 # Village Model
 
-The `Village` model represents Indonesian villages and urban villages (kelurahan/desa) and provides access to all 83,467 fourth-level administrative regions.
+The `Village` model represents Indonesian villages and urban villages (kelurahan/desa) and provides access to all 83,762 fourth-level administrative regions.
 
 ## Class Reference
 
@@ -277,7 +277,7 @@ $villages = Village::where('district_code', '33.75.01')
 $villages = Village::select('code', 'name', 'postal_code')->get();
 
 // Avoid: Loading all villages at once
-$villages = Village::all(); // 83,467 records - will cause memory issues!
+$villages = Village::all(); // 83,762 records - will cause memory issues!
 ```
 
 ### Chunking for Large Operations
@@ -418,7 +418,7 @@ CREATE INDEX idx_villages_coordinates ON villages(latitude, longitude);
 
 ```php
 // Total number of villages in Indonesia
-Village::count(); // 83,467
+Village::count(); // 83,762
 
 // Average villages per district
 $avgVillagesPerDistrict = Village::count() / District::count(); // ~11.5

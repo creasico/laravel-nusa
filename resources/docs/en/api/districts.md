@@ -1,6 +1,6 @@
 # Districts API
 
-The Districts API provides access to all 7,266 Indonesian districts (kecamatan) with their administrative relationships.
+The Districts API provides access to all 7,285 Indonesian districts (kecamatan) with their administrative relationships.
 
 ## Endpoints
 

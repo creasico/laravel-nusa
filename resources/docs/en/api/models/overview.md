@@ -9,8 +9,8 @@ The models follow Indonesia's official administrative structure:
 ```
 Province (34 records)
 └── Regency (514 records)
-    └── District (7,266 records)
-        └── Village (83,467 records)
+    └── District (7,285 records)
+        └── Village (83,762 records)
 ```
 
 ## Entity Relationship Diagram

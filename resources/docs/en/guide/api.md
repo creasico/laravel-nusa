@@ -63,7 +63,7 @@ Route::middleware(['throttle:100,1'])->group(function () {
 
 For building address forms and location-based features:
 
-```javascript
+```js
 // Fetch provinces for dropdown
 async function loadProvinces() {
     const response = await fetch('/nusa/provinces');
@@ -137,12 +137,12 @@ class CachedLocationService
 
 Always use pagination for large datasets:
 
-```javascript
+```js
 // Good: Use pagination
 const response = await fetch('/nusa/villages?per_page=50&page=1');
 
 // Avoid: Loading all villages at once
-const response = await fetch('/nusa/villages'); // 83,467 records!
+const response = await fetch('/nusa/villages'); // 83,762 records!
 ```
 
 ## Custom Implementation

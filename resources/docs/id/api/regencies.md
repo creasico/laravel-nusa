@@ -157,7 +157,7 @@ curl -X GET "https://your-app.com/nusa/regencies/33.74/villages?postal_code=5013
 
 ### Load Kabupaten/Kota berdasarkan Provinsi
 
-```javascript
+```js
 // Load kabupaten/kota ketika provinsi dipilih
 async function loadRegencies(provinceCode) {
     const response = await fetch(`/nusa/provinces/${provinceCode}/regencies?sort=name`);
@@ -175,7 +175,7 @@ async function loadRegencies(provinceCode) {
 
 ### Pencarian Kabupaten/Kota
 
-```javascript
+```js
 // Cari kabupaten/kota dengan autocomplete
 async function searchRegencies(query, provinceCode = null) {
     let url = `/nusa/regencies?search=${encodeURIComponent(query)}`;
@@ -191,7 +191,7 @@ async function searchRegencies(query, provinceCode = null) {
 
 ### Dapatkan Detail Kabupaten/Kota
 
-```javascript
+```js
 // Dapatkan informasi lengkap kabupaten/kota
 async function getRegencyDetails(regencyCode) {
     const response = await fetch(`/nusa/regencies/${regencyCode}?include=province`);

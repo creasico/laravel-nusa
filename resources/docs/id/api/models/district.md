@@ -1,171 +1,328 @@
 # Model Kecamatan
 
-Dokumentasi lengkap untuk model District Laravel Nusa, termasuk atribut, relasi, scope, dan metode yang tersedia untuk mengelola data kecamatan di Indonesia.
+Model `District` merepresentasikan kecamatan Indonesia dan menyediakan akses ke semua 7,285 wilayah administratif tingkat ketiga.
 
-This comprehensive documentation covers the District model in Laravel Nusa, including attributes, relationships, scopes, and available methods for managing Indonesian district data.
+## Referensi Class
 
-## Model Overview
+```php
+namespace Creasi\Nusa\Models;
 
-The District model represents the third level of Indonesia's administrative hierarchy. With 7,266 districts across Indonesia, this model provides detailed sub-regional administrative data for community-level operations.
+class District extends Model
+{
+    // Implementasi model
+}
+```
 
-### Basic Usage
+## Atribut
+
+### Atribut Utama
+
+| Atribut | Type | Deskripsi | Contoh |
+|---------|------|-----------|--------|
+| `code` | `string` | Kode kecamatan dalam format xx.xx.xx (Primary Key) | `"33.75.01"` |
+| `regency_code` | `string` | Kode kabupaten/kota induk (Foreign Key) | `"33.75"` |
+| `province_code` | `string` | Kode provinsi induk (Foreign Key) | `"33"` |
+| `name` | `string` | Nama kecamatan dalam bahasa Indonesia | `"Pekalongan Barat"` |
+| `latitude` | `float\|null` | Lintang pusat geografis | `-6.8969497174987` |
+| `longitude` | `float\|null` | Bujur pusat geografis | `109.66208089654` |
+
+### Atribut Computed
+
+| Atribut | Type | Deskripsi |
+|---------|------|-----------|
+| `postal_codes` | `array` | Semua kode pos dalam kecamatan |
+
+## Relasi
+
+### Belongs To
+
+```php
+// Dapatkan kabupaten/kota induk
+$district->regency; // Model Regency
+
+// Dapatkan provinsi induk
+$district->province; // Model Province
+```
+
+### One-to-Many
+
+```php
+// Dapatkan semua kelurahan/desa dalam kecamatan
+$district->villages; // Collection of Village models
+
+// Dengan eager loading
+$district = District::with('villages')->find('33.75.01');
+```
+
+## Scope
+
+### Pencarian
+
+```php
+// Pencarian berdasarkan nama
+$districts = District::search('tengah')->get();
+
+// Pencarian dengan multiple terms
+$districts = District::search('semarang tengah')->get();
+```
+
+### Filter Berdasarkan Wilayah
+
+```php
+// Kecamatan dalam kabupaten/kota tertentu
+$districts = District::where('regency_code', '33.75')->get();
+
+// Kecamatan dalam provinsi tertentu
+$districts = District::where('province_code', '33')->get();
+
+// Kecamatan dengan koordinat
+$districtsWithCoords = District::whereNotNull('latitude')
+    ->whereNotNull('longitude')
+    ->get();
+```
+
+### Scope Geografis
+
+```php
+// Kecamatan dalam radius tertentu
+$nearbyDistricts = District::nearbyCoordinates(-6.8969, 109.6621, 10)->get();
+
+// Kecamatan dalam bounding box
+$districtsInArea = District::withinBounds(-7.0, 109.0, -6.5, 110.0)->get();
+```
+
+## Metode
+
+### Pencarian dan Filter
+
+```php
+// Cari kecamatan berdasarkan nama
+$districts = District::search('pekalongan')->get();
+
+// Filter berdasarkan kabupaten/kota
+$semarangDistricts = District::inRegency('33.74')->get();
+
+// Filter berdasarkan provinsi
+$centralJavaDistricts = District::inProvince('33')->get();
+```
+
+### Informasi Geografis
+
+```php
+$district = District::find('33.75.01');
+
+// Dapatkan koordinat pusat
+$coordinates = $district->getCoordinates(); // [lat, lng]
+
+// Hitung jarak ke titik lain
+$distance = $district->distanceTo(-6.9, 109.7); // dalam kilometer
+
+// Cek apakah titik berada dalam kecamatan
+$isInside = $district->containsPoint(-6.8969, 109.6621);
+```
+
+### Statistik
+
+```php
+$district = District::find('33.75.01');
+
+// Hitung jumlah kelurahan/desa
+$villageCount = $district->villages()->count();
+
+// Dapatkan kode pos unik
+$postalCodes = $district->getPostalCodes();
+
+// Statistik populasi (jika tersedia)
+$stats = $district->getStatistics();
+```
+
+## Contoh Penggunaan
+
+### Dasar
 
 ```php
 use Creasi\Nusa\Models\District;
 
-// Get all districts
+// Dapatkan semua kecamatan
 $districts = District::all();
 
-// Find specific district
-$district = District::find('33.74.01'); // Semarang Tengah
+// Dapatkan kecamatan berdasarkan kode
+$district = District::find('33.75.01');
 
-// Search districts
-$centralDistricts = District::search('tengah')->get();
+// Pencarian kecamatan
+$searchResults = District::search('pekalongan')->get();
 ```
 
-## Model Attributes
-
-### Database Schema
-
-| Attribute | Type | Description |
-|-----------|------|-------------|
-| `code` | string(8) | Primary key, eight-character district code (xx.xx.xx format) |
-| `regency_code` | string(5) | Foreign key to regencies table |
-| `province_code` | string(2) | Foreign key to provinces table |
-| `name` | string | Official district name |
-| `latitude` | decimal(10,8) | Center point latitude coordinate |
-| `longitude` | decimal(11,8) | Center point longitude coordinate |
-
-### Fillable Attributes
+### Dengan Relasi
 
 ```php
-protected $fillable = [
-    'code',
-    'regency_code',
-    'province_code',
-    'name', 
-    'latitude',
-    'longitude'
-];
+// Dapatkan kecamatan dengan kelurahan/desa
+$district = District::with('villages')->find('33.75.01');
+
+foreach ($district->villages as $village) {
+    echo $village->name . "\n";
+}
+
+// Dapatkan kecamatan dengan kabupaten/kota dan provinsi
+$district = District::with(['regency.province'])->find('33.75.01');
+
+echo "Alamat: {$district->name}, {$district->regency->name}, {$district->regency->province->name}";
 ```
 
-## Relationships
-
-### Upward Relationships
+### Pagination
 
 ```php
-// Parent regency
-public function regency(): BelongsTo
+// Pagination sederhana
+$districts = District::paginate(50);
 
-// Parent province (through regency)
-public function province(): BelongsTo
+// Pagination dengan pencarian
+$districts = District::search('tengah')->paginate(20);
 
-// Usage
-$district = District::find('33.74.01');
-echo $district->regency->name;  // "Kota Semarang"
-echo $district->province->name; // "Jawa Tengah"
+// Pagination dengan filter
+$districts = District::where('regency_code', '33.74')->paginate(10);
 ```
 
-### Downward Relationships
+### Agregasi
 
 ```php
-// Villages in this district
-public function villages(): HasMany
+// Hitung kecamatan per kabupaten/kota
+$districtCounts = District::selectRaw('regency_code, COUNT(*) as count')
+    ->groupBy('regency_code')
+    ->get();
 
-// Usage
-$district = District::find('33.74.01');
-$villages = $district->villages; // All villages in district
+// Hitung total kelurahan/desa per kecamatan
+$stats = District::withCount('villages')->get();
+
+foreach ($stats as $district) {
+    echo "{$district->name}: {$district->villages_count} kelurahan/desa\n";
+}
 ```
 
-## Scopes
-
-### Search Scope
+### Query Geografis
 
 ```php
-// Search by name or code
-$districts = District::search('tengah')->get();
-$district = District::search('33.74.01')->first();
+// Cari kecamatan terdekat dari koordinat
+$nearestDistricts = District::nearbyCoordinates(-6.9, 109.7, 20)
+    ->limit(5)
+    ->get();
+
+// Kecamatan dalam bounding box
+$districtsInArea = District::withinBounds(-7.0, 109.0, -6.5, 110.0)->get();
+
+// Kecamatan dengan jarak
+$districtsWithDistance = District::selectRaw("
+    *, (
+        6371 * acos(
+            cos(radians(?)) * 
+            cos(radians(latitude)) * 
+            cos(radians(longitude) - radians(?)) + 
+            sin(radians(?)) * 
+            sin(radians(latitude))
+        )
+    ) AS distance
+", [-6.9, 109.7, -6.9])
+->whereNotNull('latitude')
+->whereNotNull('longitude')
+->orderBy('distance')
+->get();
 ```
 
-### Filter Scopes
+## Accessor dan Mutator
+
+### Accessor
 
 ```php
-// Filter by regency
-$districts = District::where('regency_code', '33.74')->get();
-
-// Filter by province
-$districts = District::where('province_code', '33')->get();
-```
-
-## Usage Examples
-
-### Querying with Relationships
-
-```php
-// Get districts with their regencies and provinces
-$districts = District::with(['regency.province'])->get();
-
-// Get districts by regency name
-$districts = District::whereHas('regency', function ($query) {
-    $query->where('name', 'like', '%Semarang%');
-})->get();
-
-// Get districts with minimum village count
-$largeDistricts = District::has('villages', '>=', 20)->get();
-```
-
-### Service Area Analysis
-
-```php
-class ServiceAreaAnalyzer
+// Dapatkan alamat lengkap
+public function getFullAddressAttribute(): string
 {
-    public function getDistrictCoverage($servicePoints)
+    return "{$this->name}, {$this->regency->name}, {$this->regency->province->name}";
+}
+
+// Dapatkan koordinat sebagai array
+public function getCoordinatesAttribute(): ?array
+{
+    if ($this->latitude && $this->longitude) {
+        return [$this->latitude, $this->longitude];
+    }
+    return null;
+}
+
+// Dapatkan kode pos unik
+public function getPostalCodesAttribute(): array
+{
+    return $this->villages()
+        ->whereNotNull('postal_code')
+        ->pluck('postal_code')
+        ->unique()
+        ->values()
+        ->toArray();
+}
+```
+
+### Mutator
+
+```php
+// Normalisasi nama kecamatan
+public function setNameAttribute($value): void
+{
+    $this->attributes['name'] = ucwords(strtolower($value));
+}
+
+// Validasi koordinat
+public function setLatitudeAttribute($value): void
+{
+    if ($value !== null && ($value < -90 || $value > 90)) {
+        throw new InvalidArgumentException('Latitude harus antara -90 dan 90');
+    }
+    $this->attributes['latitude'] = $value;
+}
+```
+
+## Event dan Observer
+
+```php
+// District Observer
+class DistrictObserver
+{
+    public function creating(District $district): void
     {
-        return District::withCount('villages')
-            ->get()
-            ->map(function ($district) use ($servicePoints) {
-                $coverage = $this->calculateCoverage($district, $servicePoints);
-                
-                return [
-                    'district' => $district->name,
-                    'regency' => $district->regency->name,
-                    'total_villages' => $district->villages_count,
-                    'covered_villages' => $coverage['covered'],
-                    'coverage_percentage' => $coverage['percentage']
-                ];
-            });
+        // Validasi kode kecamatan
+        if (!preg_match('/^\d{2}\.\d{2}\.\d{2}$/', $district->code)) {
+            throw new InvalidArgumentException('Format kode kecamatan tidak valid');
+        }
+    }
+    
+    public function updating(District $district): void
+    {
+        // Log perubahan
+        if ($district->isDirty('name')) {
+            Log::info("District name changed: {$district->getOriginal('name')} -> {$district->name}");
+        }
     }
 }
 ```
 
-## Integration Examples
-
-### Service Center Model
+## Validasi
 
 ```php
-use Creasi\Nusa\Models\Concerns\WithDistrict;
+// Validasi input kecamatan
+$rules = [
+    'code' => 'required|string|size:8|regex:/^\d{2}\.\d{2}\.\d{2}$/',
+    'regency_code' => 'required|string|size:5|exists:regencies,code',
+    'province_code' => 'required|string|size:2|exists:provinces,code',
+    'name' => 'required|string|max:255',
+    'latitude' => 'nullable|numeric|between:-90,90',
+    'longitude' => 'nullable|numeric|between:-180,180',
+];
 
-class ServiceCenter extends Model
-{
-    use WithDistrict;
+// Custom validation
+Validator::extend('valid_district_hierarchy', function ($attribute, $value, $parameters, $validator) {
+    $data = $validator->getData();
     
-    protected $fillable = ['name', 'district_code', 'address'];
-}
-
-// Usage
-$center = ServiceCenter::create([
-    'name' => 'Service Center A',
-    'district_code' => '33.74.01',
-    'address' => 'Jl. Pemuda No. 456'
-]);
-
-echo $center->district->name; // "Semarang Tengah"
-echo $center->district->regency->name; // "Kota Semarang"
+    // Validasi bahwa regency_code sesuai dengan province_code
+    $regency = Regency::find($data['regency_code']);
+    return $regency && $regency->province_code === $data['province_code'];
+});
 ```
 
-## Next Steps
-
-- **[Village Model](/id/api/models/village)** - Model kelurahan/desa documentation
-- **[Regency Model](/id/api/models/regency)** - Model kabupaten/kota documentation
-- **[District API](/id/api/districts)** - District API endpoints
-- **[Address Model](/id/api/models/address)** - Address management documentation
+Model District menyediakan akses komprehensif ke data kecamatan Indonesia dengan fitur pencarian, filtering, dan analisis geografis yang lengkap.

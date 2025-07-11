@@ -37,69 +37,71 @@ features:
     details: Data di-singkronkan secara otomatis dengan data resmi dari Pemerintah
 ---
 
-## Mengapa Memilih Laravel Nusa?
+## Mengapa Laravel Nusa?
 
-Laravel Nusa menyediakan solusi untuk kendala integrasi dengan wilayah-wilayah administratif Indonesia kedalam aplikasi Laravel. Alih-alih membuang waktu untuk mengimpor dan me-maintain data secara manual, Anda akan langsung mendapatkan manfaat sebagai berikut:
+Laravel Nusa memecahkan tantangan umum dalam mengintegrasikan data administratif Indonesia ke dalam aplikasi Laravel. Alih-alih mengimpor dan memelihara dataset besar secara manual, Anda mendapatkan:
 
-- **Siap Pakai**: Database SQLite siap pakai dengan data lengkap tanpa perlu konfigurasi manual
-- **Data Resmi Terpercaya**: Bersumber langsung dari database resmi milik instansi pemerintah yang berwenang
-- **Performa Optimal**: Struktur database telah dioptimalkan dan dilengkapi dengan indexing yang efisien
-- **Maintenance Otomatis**: Update otomatis saat terjadi perubahan data di sumber resmi, tanpa campur tangan manual
-- **Privasi Terjamin**: Versi distribusi tidak menyertakan data koordinat sensitif demi menjaga keamanan informasi
+- **Setup Instan**: Database SQLite yang sudah dikemas dengan semua data siap pakai
+- **Data Resmi**: Bersumber dari database pemerintah yang berwenang
+- **Performa**: Struktur database yang dioptimalkan dengan indexing yang tepat
+- **Pemeliharaan**: Update otomatis ketika data resmi berubah
+- **Privasi**: Versi distribusi mengecualikan data koordinat sensitif
 
 
-### 🏢 Cocok untuk
+### 🏢 Paling Cocok Untuk
 
-- **E-Commerce**: Zona pengiriman dan optimasi logistik
-- **Layanan Kesehatan**: Manajemen fasilitas dan demografi pasien
-- **Layanan Pemerintah**: Manajemen warga dan pelaporan administratif
-- **Aplikasi Bisnis**: Analisis regional dan perencanaan ekspansi
+- **E-Commerce**: Optimalkan rute pengiriman dan tentukan zona pengiriman yang efisien untuk merampingkan logistik.
+- **Layanan Kesehatan**: Kelola cakupan fasilitas dan pahami demografi pasien untuk perencanaan layanan yang lebih baik
+- **Layanan Publik**: Berdayakan manajemen warga dan sederhanakan pelaporan administratif dengan wawasan spasial.
+- **Aplikasi Bisnis**: Analisis performa regional dan rencanakan ekspansi strategis dengan analitik berbasis lokasi
 
-### 🚀 Instalasi
-Install package menggunakan Composer:
+## 🚀 Mulai Cepat
+
+Instal paket melalui Composer:
+
 ```bash
 composer require creasi/laravel-nusa
 ```
 
-### 💡 Cara Penggunaan
+Mulai gunakan langsung:
 
 ```php
 use Creasi\Nusa\Models\Province;
 
-// Ambil semua provinsi
+// Dapatkan semua provinsi
 $provinces = Province::all();
 
-// cari berdasarkan nama atau kode
+// Cari berdasarkan nama atau kode
 $jateng = Province::search('Jawa Tengah')->first();
 $jateng = Province::search('33')->first();
 
-// akses relasi data
+// Dapatkan data terkait
 $regencies = $jateng->regencies;
 $districts = $jateng->districts;
 $villages = $jateng->villages;
 ```
 
-### 🌐 Contoh API
+## 🌐 Contoh API
 
-Akses data melalui endpoint RESTful:
+Akses data melalui endpoint RESTful yang bersih:
 
-```bash
-# Semua provinsi
+```http
+# Dapatkan semua provinsi
 GET /nusa/provinces
 
-# Provinsi spesifik
+# Dapatkan provinsi tertentu
 GET /nusa/provinces/33
 
-# kabupaten/kota dalam provinsi
+# Dapatkan kabupaten/kota dalam provinsi
 GET /nusa/provinces/33/regencies
 
-# Pencarian dengan parameter query
+# Cari dengan parameter query
 GET /nusa/villages?search=jakarta&codes[]=31.71
 ```
 
-### 📍 Pengaturan Alamat
+## 📍 Manajemen Alamat
 
-Integrasikan fitur alamat kedalam model Anda dengan mudah:
+Integrasikan fungsionalitas alamat dengan mudah ke dalam model Anda:
 
 ```php
 use Creasi\Nusa\Contracts\HasAddresses;
@@ -110,7 +112,7 @@ class User extends Model implements HasAddresses
     use WithAddresses;
 }
 
-// Tambah alamat pada user
+// Sekarang pengguna Anda dapat memiliki alamat
 $user->addresses()->create([
     'province_code' => '33',
     'regency_code' => '33.75',
@@ -119,15 +121,3 @@ $user->addresses()->create([
     'address_line' => 'Jl. Merdeka No. 123'
 ]);
 ```
-
-## Coba Sekarang
-
-<div class="vp-doc">
-
-[Panduan Instalasi →](/id/guide/installation)
-
-[Contoh Penggunaan →](/id/examples/basic-usage)
-
-[Referensi API →](/id/api/overview)
-
-</div>
