@@ -9,25 +9,29 @@ use Creasi\Nusa\Models\Model;
 use Illuminate\Console\Command;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Support\Facades\File;
+use Spatie\Fork\Fork;
 
 class GenerateStaticCommand extends Command
 {
     use CommandHelpers;
 
-    protected $signature = 'nusa:generate-static';
+    protected $signature = 'nusa:generate-static
+                            {target=resources/static : Target directory for generated files}';
 
     protected $description = 'Generate static files';
 
     /**
      * Execute the console command.
      */
-    public function handle(Province $provinceModel): void
+    public function handle(Province $province): void
     {
         $this->group('Generate static files');
 
-        File::ensureDirectoryExists($this->libPath('resources/static'));
+        File::ensureDirectoryExists($this->libPath($this->argument('target')));
 
-        $this->write('provinces', $provinceModel->all(), [
+        $provinces = $province->all();
+
+        $this->write('provinces', $provinces, [
             'provinces' => 'regencies',
             'regencies' => 'districts',
             'districts' => 'villages',
@@ -39,7 +43,7 @@ class GenerateStaticCommand extends Command
     /**
      * @param  Collection<int, Model>  $items
      */
-    private function write(string $kind, Collection $items, array $steps = [], string ...$prefix)
+    private function write(string $kind, Collection $items, array $steps = [], string ...$prefix): void
     {
         $sanitizedItems = $this->sanitizeCollection($items);
 
@@ -51,38 +55,53 @@ class GenerateStaticCommand extends Command
         $this->writeJson($prefix, $sanitizedItems);
 
         $subItems = $steps[$kind] ?? null;
+        $tasks = [];
 
         if ($subItems) {
-            $items->load($subItems);
+            $items = $items->load($subItems);
+
+            unset($steps[$kind]);
         }
 
         foreach ($items as $item) {
             $paths = explode('.', $item->code);
+            $row = $geo = $item->attributesToArray();
+
+            unset($row['coordinates'], $row['postal_codes']);
 
             if ($kind !== 'villages') {
-                File::ensureDirectoryExists($this->libPath('resources/static/', ...$paths), recursive: true);
+                File::ensureDirectoryExists(
+                    path: $this->libPath($this->argument('target'), ...$paths),
+                    recursive: true
+                );
             }
 
             if ($subItems) {
-                unset($steps[$kind]);
-
-                $this->write($subItems, $item->{$subItems}, $steps, ...$paths);
+                $tasks[] = fn () => $this->write($subItems, $item->{$subItems}, $steps, ...$paths);
             }
 
-            $this->writeJson($paths, $item->except('coordinates', 'postal_codes'));
+            $this->writeJson($paths, $row);
 
-            if (! $item->latitude || ! $item->longitude || ! $item->coordinates) {
-                continue;
+            if (isset($row['latitude'], $row['longitude'], $row['coordinates'])) {
+                $this->writeGeoJson($kind, $paths, $geo);
             }
+        }
 
-            $this->writeGeoJson($kind, $paths, $item->toArray());
+        if ($kind === 'provinces') {
+            Fork::new()->concurrent(4)->run(...$tasks);
+
+            return;
+        }
+
+        foreach ($tasks as $task) {
+            $task();
         }
     }
 
     private function writeCsv(array $paths, array $items): void
     {
         $paths[count($paths) - 1] .= '.csv';
-        $path = $this->libPath('resources/static', ...$paths);
+        $path = $this->libPath($this->argument('target'), ...$paths);
 
         $this->line(" - Writing: '<fg=yellow>{$path->substr($this->libPath()->length() + 1)}</>'");
 
@@ -106,7 +125,7 @@ class GenerateStaticCommand extends Command
     private function writeJson(array $paths, array $items): void
     {
         $paths[count($paths) - 1] .= '.json';
-        $path = $this->libPath('resources/static', ...$paths);
+        $path = $this->libPath($this->argument('target'), ...$paths);
 
         $this->line(" - Writing: '<fg=yellow>{$path->substr($this->libPath()->length() + 1)}</>'");
 
@@ -116,7 +135,7 @@ class GenerateStaticCommand extends Command
     private function writeGeoJson(string $kind, array $paths, array $value): void
     {
         $paths[count($paths) - 1] .= '.geojson';
-        $path = $this->libPath('resources/static', ...$paths);
+        $path = $this->libPath($this->argument('target'), ...$paths);
 
         $this->line(" - Writing: '<fg=yellow>{$path->substr($this->libPath()->length() + 1)}</>'");
 
