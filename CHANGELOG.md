@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.15](https://github.com/creasico/laravel-nusa/compare/v0.1.14...v0.1.15) (2025-07-15)
+
+
+### Features
+
+* **ci:** remove laravel `10.x` from ci ([97309ce](https://github.com/creasico/laravel-nusa/commit/97309ce72f888c148b9a993fecf1c3e5fd12b8be))
+* **dev:** enhance `nusa:generate-static` command ([#165](https://github.com/creasico/laravel-nusa/issues/165)) ([de74080](https://github.com/creasico/laravel-nusa/commit/de74080af1fcfdb6e68bab0affad796f206cf1cb))
+* **docs:** add `.agent.md` as context file or rule for ai agent ([f776ac3](https://github.com/creasico/laravel-nusa/commit/f776ac3319e7c790e232b08cb44abc4d5d39eb57))
+* **docs:** init documentation website using vitepress ([47d885f](https://github.com/creasico/laravel-nusa/commit/47d885f0ae6004e229dfcaa540a7b3a7b5283012))
+
 ### [0.1.14](https://github.com/creasico/laravel-nusa/compare/v0.1.13...v0.1.14) (2025-07-09)
 
 
