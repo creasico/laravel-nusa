@@ -19,7 +19,7 @@ jobs:
     uses: projek-xyz/actions/.github/workflows/configure.yml@main
     with:
       php-version: 8.2
-      laravel-version: 10.x
+      laravel-version: 11.x
     secrets:
       CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
 
@@ -148,14 +148,11 @@ jobs:
       fail-fast: false
       matrix:
         db: [mysql, pgsql, sqlite]
-        laravel: [10.x, 11.x, 12.x]
+        laravel: [11.x, 12.x]
         php: [8.4]
         include:
           - php: 8.3
             laravel: 11.x
-            db: mysql
-          - php: 8.2
-            laravel: 10.x
             db: mysql
 
     steps:

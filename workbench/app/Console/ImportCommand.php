@@ -51,7 +51,7 @@ class ImportCommand extends Command
                         $tasks[] = fn () => $conn->query((string) $statement);
                     }
 
-                    Concurrency::driver('fork')->run($tasks);
+                    Concurrency::run($tasks);
                 } else {
                     $conn->query($query);
                 }

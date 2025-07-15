@@ -9,29 +9,36 @@ use Creasi\Nusa\Models\Model;
 use Illuminate\Console\Command;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Support\Facades\File;
+use Spatie\Fork\Fork;
 
 class GenerateStaticCommand extends Command
 {
     use CommandHelpers;
 
-    protected $signature = 'nusa:generate-static';
+    protected $signature = 'nusa:generate-static
+                            {target=resources/static : Target directory for generated files}
+                            {--l|link= : Show link attribute to each generated files}';
 
     protected $description = 'Generate static files';
 
     /**
      * Execute the console command.
      */
-    public function handle(Province $provinceModel): void
+    public function handle(Province $province): void
     {
-        $this->group('Generate static files');
+        $this->group('Generating static files');
 
-        File::ensureDirectoryExists($this->libPath('resources/static'));
+        File::ensureDirectoryExists(
+            $target = (string) $this->libPath($this->argument('target'))
+        );
 
-        $this->write('provinces', $provinceModel->all(), [
+        $provinces = $province->all();
+
+        $this->write('provinces', $provinces, [
             'provinces' => 'regencies',
             'regencies' => 'districts',
             'districts' => 'villages',
-        ]);
+        ], $target);
 
         $this->endGroup();
     }
@@ -39,88 +46,112 @@ class GenerateStaticCommand extends Command
     /**
      * @param  Collection<int, Model>  $items
      */
-    private function write(string $kind, Collection $items, array $steps = [], string ...$prefix)
-    {
-        $sanitizedItems = $this->sanitizeCollection($items);
+    private function write(
+        string $kind,
+        Collection $items,
+        array $steps,
+        string $target,
+        string ...$paths
+    ): void {
+        $link = $this->option('link');
+        // $sub = $steps[$kind] ?? null;
+        $tasks = [];
 
-        if (empty($prefix)) {
-            $prefix = ['index'];
+        if ($sub = $steps[$kind] ?? null) {
+            $items = $items->load($sub);
+
+            unset($steps[$kind]);
         }
 
-        $this->writeCsv($prefix, $sanitizedItems);
-        $this->writeJson($prefix, $sanitizedItems);
+        $sanitizedItems = $this->sanitizeCollection($items, $link);
+        $path = $target.DIRECTORY_SEPARATOR.implode(DIRECTORY_SEPARATOR, $paths);
 
-        $subItems = $steps[$kind] ?? null;
+        if (empty($paths)) {
+            $path .= 'index';
 
-        if ($subItems) {
-            $items->load($subItems);
+            $this->writeJson($sanitizedItems, $path);
         }
+
+        $this->writeCsv($sanitizedItems, $path);
+
+        $this->line(
+            string: " - Writing: '<fg=yellow>{$path}</>'",
+            verbosity: 'v',
+        );
 
         foreach ($items as $item) {
-            $paths = explode('.', $item->code);
+            $path = $target.DIRECTORY_SEPARATOR.str_replace('.', DIRECTORY_SEPARATOR, $item->code);
+            $row = $geo = $item->attributesToArray();
+            $task = null;
+
+            unset($row['coordinates'], $row['postal_codes']);
 
             if ($kind !== 'villages') {
-                File::ensureDirectoryExists($this->libPath('resources/static/', ...$paths), recursive: true);
+                File::ensureDirectoryExists($path, recursive: true);
             }
 
-            if ($subItems) {
-                unset($steps[$kind]);
-
-                $this->write($subItems, $item->{$subItems}, $steps, ...$paths);
+            if ($sub) {
+                $row[$sub] = $this->sanitizeCollection($item->$sub, $link);
+                $task = fn () => $this->write($sub, $item->$sub, $steps, $target, ...explode('.', $item->code));
             }
 
-            $this->writeJson($paths, $item->except('coordinates', 'postal_codes'));
+            $this->writeJson($row, $path);
 
-            if (! $item->latitude || ! $item->longitude || ! $item->coordinates) {
+            if ($item->latitude && $item->longitude && $item->coordinates) {
+                $this->writeGeoJson($kind, $geo, $path);
+            }
+
+            if ($kind === 'provinces') {
+                $tasks[] = $task;
+            } else {
+                value($task);
+            }
+
+            if (! $this->output->isVerbose()) {
+                $this->output->write('<fg=green>•</>');
+
                 continue;
             }
 
-            $this->writeGeoJson($kind, $paths, $item->toArray());
+            $this->line(" - Writing: '<fg=yellow>{$path}</>'", verbosity: 'v');
+        }
+
+        if (! empty($tasks)) {
+            Fork::new()->concurrent(4)->run(...$tasks);
         }
     }
 
-    private function writeCsv(array $paths, array $items): void
+    private function writeCsv(array $items, string $path): void
     {
-        $paths[count($paths) - 1] .= '.csv';
-        $path = $this->libPath('resources/static', ...$paths);
+        $lines = [];
 
-        $this->line(" - Writing: '<fg=yellow>{$path->substr($this->libPath()->length() + 1)}</>'");
+        foreach ($items as $i => $item) {
+            unset($item['href']);
 
-        $csv = [
-            array_keys($items[0]),
-        ];
+            if ($i === 0) {
+                $lines[] = array_keys($item);
+            }
 
-        foreach ($items as $value) {
-            $csv[] = array_values($value);
+            $lines[] = array_values($item);
         }
 
-        $fp = fopen((string) $path, 'w');
+        $fp = fopen("{$path}.csv", 'w');
 
-        foreach ($csv as $line) {
+        foreach ($lines as $line) {
             fputcsv($fp, $line);
         }
 
         fclose($fp);
     }
 
-    private function writeJson(array $paths, array $items): void
+    private function writeJson(array $items, string $path): void
     {
-        $paths[count($paths) - 1] .= '.json';
-        $path = $this->libPath('resources/static', ...$paths);
-
-        $this->line(" - Writing: '<fg=yellow>{$path->substr($this->libPath()->length() + 1)}</>'");
-
-        file_put_contents((string) $path, json_encode($items, JSON_PRETTY_PRINT));
+        file_put_contents("{$path}.json", json_encode($items));
     }
 
-    private function writeGeoJson(string $kind, array $paths, array $value): void
+    private function writeGeoJson(string $kind, array $value, string $path): void
     {
-        $paths[count($paths) - 1] .= '.geojson';
-        $path = $this->libPath('resources/static', ...$paths);
-
-        $this->line(" - Writing: '<fg=yellow>{$path->substr($this->libPath()->length() + 1)}</>'");
-
-        file_put_contents((string) $path, json_encode([
+        file_put_contents("{$path}.geojson", json_encode([
             'type' => 'FeatureCollection',
             'features' => [
                 [
@@ -157,10 +188,17 @@ class GenerateStaticCommand extends Command
     /**
      * @param  Collection<int, Model>  $collection
      */
-    private function sanitizeCollection(Collection $collection): array
+    private function sanitizeCollection(Collection $collection, ?string $link = null): array
     {
-        return $collection->map(function (Model $model) {
-            return $model->except('coordinates', 'postal_codes');
+        return $collection->map(function (Model $model) use ($link): array {
+            $data = $model->except(['coordinates', 'postal_codes']);
+
+            if ($link) {
+                $path = str_replace('.', '/', $model->code);
+                $data['href'] = "{$link}/{$path}.json";
+            }
+
+            return $data;
         })->all();
     }
 }

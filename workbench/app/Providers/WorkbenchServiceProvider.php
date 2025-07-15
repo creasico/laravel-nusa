@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Workbench\App\Providers;
 
 use Illuminate\Config\Repository;
+use Illuminate\Support\Facades\Concurrency;
 use Illuminate\Support\ServiceProvider;
 use Workbench\App\Console\DistCommand;
 use Workbench\App\Console\GenerateStaticCommand;
@@ -67,6 +68,8 @@ class WorkbenchServiceProvider extends ServiceProvider
                 DistCommand::class,
             ]);
         }
+
+        Concurrency::setDefaultInstance('fork');
 
         tap(app()->make('config'), function (Repository $config) {
             if (env('DB_CONNECTION') === 'sqlite') {
