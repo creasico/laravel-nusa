@@ -212,7 +212,7 @@ jobs:
           ./cc-test-reporter format-coverage -t clover -o $CODECLIMATE_REPORT tests/reports/clover.xml
 
       - name: Store tests reports
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         if: needs.configs.outputs.has-codeclimate == '1'
         with:
           retention-days: 14
