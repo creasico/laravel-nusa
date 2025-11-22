@@ -23,16 +23,29 @@ class WorkbenchServiceProvider extends ServiceProvider
     public function register(): void
     {
         $nusa = config('database.connections.nusa');
-        $databaseDir = \dirname($nusa['database']);
+        $databaseDir = $nusa['database']
+            ? \dirname($nusa['database'])
+            : \dirname(__DIR__, 3).'/database';
 
         if (app()->runningInConsole()) {
             $this->loadMigrationsFrom($databaseDir.'/migrations');
         }
 
-        $path = "{$databaseDir}/nusa.{$this->currentBranch()}-full.sqlite";
+        $branch = $this->currentBranch();
+        $dbPaths = [
+            "{$databaseDir}/nusa.{$branch}-full.sqlite",
+            "{$databaseDir}/nusa.{$branch}.sqlite",
+        ];
 
-        if (! file_exists($path)) {
-            touch($path);
+        if (! $nusa['database']) {
+            $dbPaths[] = "{$databaseDir}/nusa.sqlite";
+        }
+
+        foreach ($dbPaths as $dbPath) {
+            if (! \file_exists($dbPath)) {
+                \touch($dbPath);
+            }
+            \chmod($dbPath, 0664);
         }
 
         config([
@@ -42,7 +55,7 @@ class WorkbenchServiceProvider extends ServiceProvider
             ],
             'database.connections.current' => $nusa,
             'database.connections.nusa' => array_merge($nusa, [
-                'database' => $path,
+                'database' => $dbPaths[0],
             ]),
             'database.connections.upstream' => [
                 'driver' => 'mysql',
