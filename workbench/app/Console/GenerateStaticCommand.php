@@ -55,9 +55,6 @@ class GenerateStaticCommand extends Command
         $link = $this->option('link');
         $tasks = [];
 
-        // Reconnect to database on each concurrent tasks
-        DB::reconnect(config('creasi.nusa.connection', 'nusa'));
-
         if ($sub = $steps[$kind] ?? null) {
             $items->loadMissing($sub);
 
@@ -99,7 +96,12 @@ class GenerateStaticCommand extends Command
             }
 
             if ($kind === 'provinces') {
-                $tasks[] = $task;
+                $tasks[] = function () use ($task) {
+                    // Reconnect to database on each concurrent tasks
+                    DB::reconnect(config('creasi.nusa.connection', 'nusa'));
+
+                    $task();
+                };
             } else {
                 value($task);
             }
@@ -147,7 +149,7 @@ class GenerateStaticCommand extends Command
 
         if (! str_ends_with($path, 'index')) {
             File::ensureDirectoryExists($path, recursive: true);
-            \copy("{$path}.json", "{$path}/index.json");
+            File::copy("{$path}.json", "{$path}/index.json");
         }
     }
 
