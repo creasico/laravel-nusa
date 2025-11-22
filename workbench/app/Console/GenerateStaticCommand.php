@@ -8,8 +8,9 @@ use Creasi\Nusa\Contracts\Province;
 use Creasi\Nusa\Models\Model;
 use Illuminate\Console\Command;
 use Illuminate\Database\Eloquent\Collection;
+use Illuminate\Support\Facades\Concurrency;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;
-use Spatie\Fork\Fork;
 
 class GenerateStaticCommand extends Command
 {
@@ -26,15 +27,13 @@ class GenerateStaticCommand extends Command
      */
     public function handle(Province $province): void
     {
-        $this->group('Generating static files');
+        $target = (string) $this->libPath($this->argument('target'));
 
-        File::ensureDirectoryExists(
-            $target = (string) $this->libPath($this->argument('target'))
-        );
+        $this->group("Generating static files to <fg=yellow>'{$target}'</>");
 
-        $provinces = $province->all();
+        File::ensureDirectoryExists($target);
 
-        $this->write('provinces', $provinces, [
+        $this->writeToFile('provinces', $province->all(), [
             'provinces' => 'regencies',
             'regencies' => 'districts',
             'districts' => 'villages',
@@ -46,7 +45,7 @@ class GenerateStaticCommand extends Command
     /**
      * @param  Collection<int, Model>  $items
      */
-    private function write(
+    private function writeToFile(
         string $kind,
         Collection $items,
         array $steps,
@@ -54,51 +53,49 @@ class GenerateStaticCommand extends Command
         string ...$paths
     ): void {
         $link = $this->option('link');
-        // $sub = $steps[$kind] ?? null;
         $tasks = [];
 
+        // Reconnect to database on each concurrent tasks
+        DB::reconnect(config('creasi.nusa.connection', 'nusa'));
+
         if ($sub = $steps[$kind] ?? null) {
-            $items = $items->load($sub);
+            $items->loadMissing($sub);
 
             unset($steps[$kind]);
         }
 
         $sanitizedItems = $this->sanitizeCollection($items, $link);
-        $path = $target.DIRECTORY_SEPARATOR.implode(DIRECTORY_SEPARATOR, $paths);
+        $filePath = $target.DIRECTORY_SEPARATOR.implode(DIRECTORY_SEPARATOR, $paths);
 
         if (empty($paths)) {
-            $path .= 'index';
+            $filePath .= 'index';
 
-            $this->writeJson($sanitizedItems, $path);
+            $this->writeJson($sanitizedItems, $filePath);
         }
 
-        $this->writeCsv($sanitizedItems, $path);
-
-        $this->line(
-            string: " - Writing: '<fg=yellow>{$path}</>'",
-            verbosity: 'v',
-        );
+        $this->writeCsv($sanitizedItems, $filePath);
 
         foreach ($items as $item) {
-            $path = $target.DIRECTORY_SEPARATOR.str_replace('.', DIRECTORY_SEPARATOR, $item->code);
-            $row = $geo = $item->attributesToArray();
+            $codePath = str_replace('.', DIRECTORY_SEPARATOR, $item->code);
+            $filePath = $target.DIRECTORY_SEPARATOR.$codePath;
+            $row = $geo = $item->except(['postal_codes']);
             $task = null;
 
-            unset($row['coordinates'], $row['postal_codes']);
+            unset($row['coordinates']);
 
             if ($kind !== 'villages') {
-                File::ensureDirectoryExists($path, recursive: true);
+                File::ensureDirectoryExists($filePath, recursive: true);
             }
 
             if ($sub) {
                 $row[$sub] = $this->sanitizeCollection($item->$sub, $link);
-                $task = fn () => $this->write($sub, $item->$sub, $steps, $target, ...explode('.', $item->code));
+                $task = fn () => $this->writeToFile($sub, $item->$sub, $steps, $target, ...explode('.', $item->code));
             }
 
-            $this->writeJson($row, $path);
+            $this->writeJson($row, $filePath);
 
             if ($item->latitude && $item->longitude && $item->coordinates) {
-                $this->writeGeoJson($kind, $geo, $path);
+                $this->writeGeoJson($kind, $geo, $filePath);
             }
 
             if ($kind === 'provinces') {
@@ -113,11 +110,11 @@ class GenerateStaticCommand extends Command
                 continue;
             }
 
-            $this->line(" - Writing: '<fg=yellow>{$path}</>'", verbosity: 'v');
+            $this->line(" - Writing: {$kind} '<fg=yellow>{$codePath}</>'", verbosity: 'v');
         }
 
         if (! empty($tasks)) {
-            Fork::new()->concurrent(4)->run(...$tasks);
+            Concurrency::run($tasks);
         }
     }
 
@@ -147,6 +144,11 @@ class GenerateStaticCommand extends Command
     private function writeJson(array $items, string $path): void
     {
         file_put_contents("{$path}.json", json_encode($items));
+
+        if (! str_ends_with($path, 'index')) {
+            File::ensureDirectoryExists($path, recursive: true);
+            \copy("{$path}.json", "{$path}/index.json");
+        }
     }
 
     private function writeGeoJson(string $kind, array $value, string $path): void
