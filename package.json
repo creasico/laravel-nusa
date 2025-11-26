@@ -37,6 +37,12 @@
             "php vendor/bin/pint --preset laravel"
         ]
     },
+    "pnpm": {
+        "onlyBuiltDependencies": [
+            "esbuild",
+            "simple-git-hooks"
+        ]
+    },
     "simple-git-hooks": {
         "commit-msg": "pnpm exec commitlint --edit $1",
         "pre-commit": "pnpm exec lint-staged --allow-empty"
