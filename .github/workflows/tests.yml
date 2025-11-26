@@ -230,7 +230,7 @@ jobs:
 
       - name: Generate reports for CodeClimate
         id: reports
-        if: needs.configs.outputs.has-codeclimate == '1'
+        if: false # TODO: after #197
         env:
           CODECLIMATE_REPORT: tests/reports/codeclimate.PHP${{ matrix.php }}-L${{ matrix.laravel }}-${{ matrix.db }}.json
           CC_TEST_REPORTER_URL: ${{ vars.CC_TEST_REPORTER_URL }}
@@ -240,7 +240,7 @@ jobs:
 
       - name: Store tests reports
         uses: actions/upload-artifact@v5
-        if: needs.configs.outputs.has-codeclimate == '1'
+        if: false # TODO: after #197
         with:
           retention-days: 14
           name: test-reports-PHP${{ matrix.php }}-L${{ matrix.laravel }}-${{ matrix.db }}
@@ -249,7 +249,7 @@ jobs:
   reports:
     name: Report Test Coverages
     needs: [configs, tests]
-    if: needs.configs.outputs.should-reports == '1'
+    if: false # TODO: after #197
     uses: projek-xyz/actions/.github/workflows/report.yml@main
     secrets:
       CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
