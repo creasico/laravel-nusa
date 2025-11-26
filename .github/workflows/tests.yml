@@ -35,6 +35,7 @@ jobs:
       DB_PASSWORD: root
       DB_DATABASE: ${{ github.repository_owner }}
       UPSTREAM_DB_DATABASE: nusantara
+      GIT_BRANCH: ${{ needs.configs.outputs.target-branch }}
 
     steps:
       - name: Checkout
@@ -55,9 +56,9 @@ jobs:
           path: |
             database/nusa.*.sqlite
             !database/nusa.head-full.sqlite
-          key: upstream-database_${{ needs.configs.outputs.target-branch }}_${{ hashFiles('**/*.sql') }}
+          key: upstream-database_${{ env.GIT_BRANCH }}_${{ hashFiles('**/*.sql') }}
           restore-keys: |
-            upstream-database_${{ needs.configs.outputs.target-branch }}_
+            upstream-database_${{ env.GIT_BRANCH }}_
 
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
@@ -78,30 +79,56 @@ jobs:
           sudo apt-get install -y sqlite3-tools
 
       - name: Import databases
-        if: ${{ steps.upstream.outputs.cache-hit == '' || needs.configs.outputs.target-branch == 'main' }}
+        if: ${{ steps.upstream.outputs.cache-hit == '' || env.GIT_BRANCH == 'main' }}
         env:
           COLUMNS: 100
-          GIT_BRANCH: ${{ needs.configs.outputs.target-branch }}
         run: |
           vendor/bin/testbench nusa:import --fresh --dist --ansi
+          ls -lah database/*.sqlite
+
+      - name: Upload sqlite artifacts
+        uses: actions/upload-artifact@v5
+        if: false # skip it for now
+        with:
+          name: sqlite-artifacts-${{ env.GIT_BRANCH }}
+          path: |
+            database/nusa.${{ env.GIT_BRANCH }}-full.sqlite
+            database/nusa.${{ env.GIT_BRANCH }}.sqlite
+          retention-days: 30
+          overwrite: true
+
+      - name: Generate static files
+        if: ${{ steps.upstream.outputs.cache-hit == '' || env.GIT_BRANCH == 'main' }}
+        env:
+          COLUMNS: 100
+        run: |
+          vendor/bin/testbench nusa:generate-static --ansi
+          du -hd 1 resources/static
+
+      - name: Upload static artifacts
+        uses: actions/upload-artifact@v5
+        if: ${{ steps.upstream.outputs.cache-hit == '' || env.GIT_BRANCH == 'main' }}
+        with:
+          name: static-artifacts-${{ env.GIT_BRANCH }}
+          path: resources/static
+          retention-days: 30
+          overwrite: true
 
       - name: Stat summary
         id: stats
         env:
           COLUMNS: 160
-          GIT_BRANCH: ${{ needs.configs.outputs.target-branch }}
         run: |
-          ls -lah database/*.sqlite
           vendor/bin/testbench nusa:stat --ansi
 
       - name: Cache upstream
-        if: ${{ steps.stats.outputs.has-changes == '1' }}
         uses: actions/cache/save@v4
+        if: ${{ steps.stats.outputs.has-changes == '1' }}
         with:
           path: |
             database/nusa.*.sqlite
             !database/nusa.head-full.sqlite
-          key: upstream-database_${{ needs.configs.outputs.target-branch }}_${{ hashFiles('**/*.sql') }}
+          key: upstream-database_${{ env.GIT_BRANCH }}_${{ hashFiles('**/*.sql') }}
 
   tests:
     name: Test on PHP ${{ matrix.php }} Laravel ${{ matrix.laravel }} DB ${{ matrix.db }}
