@@ -42,9 +42,19 @@ class WorkbenchServiceProvider extends ServiceProvider
         }
 
         foreach ($dbPaths as $dbPath) {
-            if (! \file_exists($dbPath)) {
-                \touch($dbPath);
+            if (\file_exists($dbPath)) {
+                continue;
             }
+
+            $cachedPath = str_replace($branch, 'main', $dbPath);
+
+            if (\file_exists($cachedPath)) {
+                rename($cachedPath, $dbPath);
+
+                continue;
+            }
+
+            \touch($dbPath);
             \chmod($dbPath, 0664);
         }
 

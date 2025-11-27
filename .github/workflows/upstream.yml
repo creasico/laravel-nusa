@@ -49,6 +49,7 @@ jobs:
           key: upstream-database_${{ env.GIT_BRANCH }}_${{ hashFiles('**/*.sql') }}
           restore-keys: |
             upstream-database_${{ env.GIT_BRANCH }}_
+            upstream-database_main_${{ hashFiles('**/*.sql') }}
 
       - name: Setup MySQL
         if: ${{ steps.upstream.outputs.cache-hit == '' }}
@@ -76,18 +77,20 @@ jobs:
           sudo apt-get install -y sqlite3-tools
 
       - name: Import databases
+        id: imports
         if: ${{ steps.upstream.outputs.cache-hit == '' }}
         env:
           COLUMNS: 100
         run: |
           vendor/bin/testbench nusa:import --fresh --dist --ansi
+          echo "BRANCH_TOKEN=${GIT_BRANCH/\//_}" >> $GITHUB_OUTPUT
           ls -lah database/*.sqlite
 
       - name: Upload sqlite artifacts
         uses: actions/upload-artifact@v5
         if: ${{ steps.upstream.outputs.cache-hit == '' }}
         with:
-          name: sqlite-artifacts-${{ env.GIT_BRANCH }}
+          name: sqlite-artifacts_${{ steps.imports.outputs.BRANCH_TOKEN }}
           path: |
             database/nusa.*.sqlite
           retention-days: 30
@@ -106,7 +109,6 @@ jobs:
         with:
           path: |
             database/nusa.*.sqlite
-            !database/nusa.head-full.sqlite
           key: upstream-database_${{ env.GIT_BRANCH }}_${{ hashFiles('**/*.sql') }}
 
       - name: Generate static files

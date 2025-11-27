@@ -67,10 +67,10 @@ class StatCommand extends Command
                 unset($deleted[$d], $added[$a]);
             }
 
-            $addedCount = count($added);
-            $changedCount = count($changed);
-            $movedCount = count($moved);
-            $deletedCount = count($deleted);
+            $addedCount = \count($added);
+            $changedCount = \count($changed);
+            $movedCount = \count($moved);
+            $deletedCount = \count($deleted);
 
             if (($addedCount + $changedCount + $movedCount + $deletedCount) === 0) {
                 $this->line("<fg=green>{$table}</>: No database changes detected");

@@ -20,6 +20,8 @@ class ImportCommand extends Command
 
     private int $chunkSize = 5_000;
 
+    public static bool $cached = false;
+
     protected $signature = 'nusa:import
                             {--fresh : Refresh database migrations and seeders}
                             {--dist : Generate distribution database}';
@@ -28,6 +30,12 @@ class ImportCommand extends Command
 
     public function handle()
     {
+        if (self::$cached && ! $this->option('fresh')) {
+            $this->info('Skip importing upstream database, cache exists');
+
+            return 0;
+        }
+
         $this->group('Importing files');
 
         $this->upstream(function (PDO $conn) {
