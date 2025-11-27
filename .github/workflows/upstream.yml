@@ -55,8 +55,8 @@ jobs:
         if: ${{ steps.upstream.outputs.cache-hit == '' }}
         run: |
           sudo /etc/init.d/mysql start
-          mysql -e "CREATE DATABASE $DB_DATABASE;" -u$DB_USERNAME -p$DB_PASSWORD
-          mysql -e "CREATE DATABASE $UPSTREAM_DB_DATABASE;" -u$DB_USERNAME -p$DB_PASSWORD
+          mysql -e "CREATE DATABASE $DB_DATABASE;" -u"$DB_USERNAME" -p"$DB_PASSWORD"
+          mysql -e "CREATE DATABASE $UPSTREAM_DB_DATABASE;" -u"$DB_USERNAME" -p"$DB_PASSWORD"
 
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
