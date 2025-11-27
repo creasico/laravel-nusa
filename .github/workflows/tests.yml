@@ -34,7 +34,6 @@ jobs:
 
   tests:
     name: Test on PHP ${{ matrix.php }} Laravel ${{ matrix.laravel }} DB ${{ matrix.db }}
-    if: ${{ needs.upstream.outputs.has-changes == '1' }}
     runs-on: ubuntu-latest
     needs: [configs, upstream]
 
