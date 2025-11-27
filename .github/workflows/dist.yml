@@ -47,6 +47,7 @@ jobs:
           key: upstream-database_${{ env.GIT_BRANCH }}_${{ hashFiles('**/*.sql') }}
           restore-keys: |
             upstream-database_${{ env.GIT_BRANCH }}_
+            upstream-database_main_${{ hashFiles('**/*.sql') }}
 
       - name: Commit distribution database
         if: ${{ needs.upstream.outputs.has-changes == '1' }}

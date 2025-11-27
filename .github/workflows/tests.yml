@@ -42,6 +42,7 @@ jobs:
       DB_DATABASE: ${{ github.repository_owner }}
       DB_USERNAME: ${{ github.repository_owner }}
       DB_PASSWORD: secret
+      GIT_BRANCH: ${{ needs.configs.outputs.target-branch }}
 
     services:
       postgresql:
@@ -103,9 +104,10 @@ jobs:
         with:
           path: |
             database/nusa.*.sqlite
-          key: upstream-database_${{ needs.configs.outputs.target-branch }}_${{ hashFiles('**/*.sql') }}
+          key: upstream-database_${{ env.GIT_BRANCH }}_${{ hashFiles('**/*.sql') }}
           restore-keys: |
-            upstream-database_${{ needs.configs.outputs.target-branch }}_
+            upstream-database_${{ env.GIT_BRANCH }}_
+            upstream-database_main_${{ hashFiles('**/*.sql') }}
 
       - name: Cache dependencies
         uses: actions/cache@v4
@@ -123,7 +125,6 @@ jobs:
       - name: Run tests
         env:
           COLUMNS: 100
-          GIT_BRANCH: ${{ needs.configs.outputs.target-branch }}
         run: |
           vendor/bin/testbench migrate --ansi
           vendor/bin/testbench package:test --ansi --coverage
