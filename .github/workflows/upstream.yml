@@ -1,0 +1,128 @@
+name: Configure
+
+on:
+  workflow_call:
+    inputs:
+      composer-cache-dir:
+        type: string
+        required: true
+      composer-cache-key:
+        type: string
+        required: true
+      generate-static:
+        type: boolean
+        default: false
+      target-branch:
+        type: string
+        default: main
+    outputs:
+      has-changes:
+        value: ${{ jobs.upstream.outputs.has-changes }}
+
+jobs:
+  upstream:
+    name: Imports
+    runs-on: ubuntu-latest
+    outputs:
+      has-changes: ${{ steps.stats.outputs.has-changes }}
+
+    env:
+      DB_USERNAME: root
+      DB_PASSWORD: root
+      DB_DATABASE: ${{ github.repository_owner }}
+      UPSTREAM_DB_DATABASE: nusantara
+      GIT_BRANCH: ${{ inputs.target-branch }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          submodules: true
+
+      - name: Cache upstream
+        id: upstream
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            database/nusa.*.sqlite
+            !database/nusa.head-full.sqlite
+          key: upstream-database_${{ env.GIT_BRANCH }}_${{ hashFiles('**/*.sql') }}
+          restore-keys: |
+            upstream-database_${{ env.GIT_BRANCH }}_
+
+      - name: Setup MySQL
+        if: ${{ steps.upstream.outputs.cache-hit == '' }}
+        run: |
+          sudo /etc/init.d/mysql start
+          mysql -e "CREATE DATABASE $DB_DATABASE;" -u$DB_USERNAME -p$DB_PASSWORD
+          mysql -e "CREATE DATABASE $UPSTREAM_DB_DATABASE;" -u$DB_USERNAME -p$DB_PASSWORD
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: 8.2
+          tools: composer:v2
+
+      - name: Cache dependencies
+        uses: actions/cache@v4
+        with:
+          path: ${{ inputs.composer-cache-dir }}
+          key: ${{ inputs.composer-cache-key }}-composer-${{ hashFiles('**/composer.lock') }}
+          restore-keys: ${{ inputs.composer-cache-key }}-composer-
+
+      - name: Install dependencies
+        run: |
+          composer update --prefer-dist --no-interaction --no-progress
+          sudo apt-get install -y sqlite3-tools
+
+      - name: Import databases
+        if: ${{ steps.upstream.outputs.cache-hit == '' }}
+        env:
+          COLUMNS: 100
+        run: |
+          vendor/bin/testbench nusa:import --fresh --dist --ansi
+          ls -lah database/*.sqlite
+
+      - name: Upload sqlite artifacts
+        uses: actions/upload-artifact@v5
+        if: ${{ steps.upstream.outputs.cache-hit == '' }}
+        with:
+          name: sqlite-artifacts-${{ env.GIT_BRANCH }}
+          path: |
+            database/nusa.${{ env.GIT_BRANCH }}-full.sqlite
+            database/nusa.${{ env.GIT_BRANCH }}.sqlite
+          retention-days: 30
+          overwrite: true
+
+      - name: Stat summary
+        id: stats
+        env:
+          COLUMNS: 160
+        run: |
+          vendor/bin/testbench nusa:stat --ansi
+
+      - name: Cache upstream
+        uses: actions/cache/save@v4
+        if: ${{ steps.stats.outputs.has-changes == '1' }}
+        with:
+          path: |
+            database/nusa.*.sqlite
+            !database/nusa.head-full.sqlite
+          key: upstream-database_${{ env.GIT_BRANCH }}_${{ hashFiles('**/*.sql') }}
+
+      - name: Generate static files
+        if: ${{ inputs.generate-static == 'true' && steps.stats.outputs.has-changes == '1' }}
+        env:
+          COLUMNS: 100
+        run: |
+          vendor/bin/testbench nusa:generate-static --ansi
+          du -hd 1 resources/static
+
+      - name: Upload static artifacts
+        uses: actions/upload-artifact@v5
+        if: ${{ inputs.generate-static == 'true' && steps.stats.outputs.has-changes == '1' }}
+        with:
+          name: static-artifacts-${{ env.GIT_BRANCH }}
+          path: resources/static
+          retention-days: 30
+          overwrite: true
