@@ -89,8 +89,7 @@ jobs:
         with:
           name: sqlite-artifacts-${{ env.GIT_BRANCH }}
           path: |
-            database/nusa.${{ env.GIT_BRANCH }}-full.sqlite
-            database/nusa.${{ env.GIT_BRANCH }}.sqlite
+            database/nusa.*.sqlite
           retention-days: 30
           overwrite: true
 

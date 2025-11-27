@@ -104,7 +104,6 @@ jobs:
         with:
           path: |
             database/nusa.*.sqlite
-            !database/nusa.head-full.sqlite
           key: upstream-database_${{ needs.configs.outputs.target-branch }}_${{ hashFiles('**/*.sql') }}
           restore-keys: |
             upstream-database_${{ needs.configs.outputs.target-branch }}_
