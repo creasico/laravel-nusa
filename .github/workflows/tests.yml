@@ -24,7 +24,7 @@ jobs:
       CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
 
   upstream:
-    name: Upstream Database
+    name: Upstream DB
     uses: ./.github/workflows/upstream.yml
     needs: [configs]
     with:

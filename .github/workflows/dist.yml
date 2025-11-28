@@ -16,21 +16,19 @@ jobs:
       laravel-version: 11.x
 
   upstream:
-    name: Upstream Database
+    name: Upstream DB
     uses: ./.github/workflows/upstream.yml
     needs: [configs]
     with:
       composer-cache-dir: ${{ needs.configs.outputs.composer-cache-dir }}
       composer-cache-key: ${{ needs.configs.outputs.composer-cache-key }}
-      target-branch: ${{ needs.configs.outputs.target-branch }}
+      target-branch: ${{ github.ref_name }}
       generate-static: true
 
   distribute:
     name: Create Distribution Database
     runs-on: ubuntu-latest
-    needs: [configs, upstream]
-    env:
-      GIT_BRANCH: ${{ needs.configs.outputs.target-branch }}
+    needs: [upstream]
 
     steps:
       - name: Checkout
@@ -43,7 +41,7 @@ jobs:
         uses: actions/cache/restore@v4
         with:
           path: database/nusa.*.sqlite
-          key: upstream-database_${{ env.GIT_BRANCH }}_${{ hashFiles('**/*.sql') }}
+          key: upstream-database_${{ github.ref_name }}_${{ hashFiles('**/*.sql') }}
           restore-keys: |
             upstream-database_${{ env.GIT_BRANCH }}_
             upstream-database_main_${{ hashFiles('**/*.sql') }}
@@ -52,14 +50,77 @@ jobs:
         if: ${{ needs.upstream.outputs.has-changes == '1' }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          ./.github/scripts/commit-changes.sh
+        run: ./.github/scripts/commit-changes.sh
 
       - name: Create summary
         if: always()
         env:
           # COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
           COMMIT_AUTHOR: ${{ github.actor }}
-          # DIST_CHANGED: ${{ steps.changes.outputs.dist-changed }}
-          # DEV_CHANGED: ${{ steps.changes.outputs.dev-changed }}
         run: ./.github/scripts/create-summary.sh
+
+  # Build job
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    needs: [upstream]
+
+    # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0 # Not needed if lastUpdated is not enabled
+
+      - name: Set up pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          run_install: true
+
+      - name: Setup Node.JS
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22.x
+          cache: pnpm
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Build with VitePress
+        run: pnpm docs:build
+
+      - name: Download static artifacts
+        uses: actions/download-artifact@v5
+        with:
+          name: static-artifacts-${{ github.ref_name }}
+          path: resources/static
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: resources/docs/.vitepress/dist
+
+  # Deployment job
+  deploy:
+    name: Deploy
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    needs: [build]
+
+    # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4
