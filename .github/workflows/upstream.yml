@@ -41,7 +41,7 @@ jobs:
 
       - name: Cache upstream
         id: upstream
-        uses: actions/cache/restore@v4
+        uses: actions/cache@v4
         with:
           path: database/nusa.*.sqlite
           key: upstream-database_${{ env.GIT_BRANCH }}_${{ hashFiles('**/*.sql') }}
@@ -81,17 +81,7 @@ jobs:
           COLUMNS: 100
         run: |
           vendor/bin/testbench nusa:import --fresh --dist --ansi
-          echo "BRANCH_TOKEN=${GIT_BRANCH/\//_}" >> $GITHUB_OUTPUT
           ls -lah database/*.sqlite
-
-      - name: Upload sqlite artifacts
-        uses: actions/upload-artifact@v5
-        if: ${{ steps.upstream.outputs.cache-hit == '' }}
-        with:
-          name: sqlite-artifacts_${{ steps.imports.outputs.BRANCH_TOKEN }}
-          path: database/nusa.*.sqlite
-          retention-days: 30
-          overwrite: true
 
       - name: Stat summary
         id: stats
@@ -99,14 +89,16 @@ jobs:
           COLUMNS: 160
         run: |
           vendor/bin/testbench nusa:stat --ansi
+          echo "BRANCH_TOKEN=${GIT_BRANCH/\//_}" >> $GITHUB_OUTPUT
 
-      - name: Cache upstream
-        uses: actions/cache/save@v4
-        if: ${{ steps.stats.outputs.has-changes == '1' }}
+      - name: Upload sqlite artifacts
+        uses: actions/upload-artifact@v5
+        if: ${{ inputs.generate-static == 'true' && steps.stats.outputs.has-changes == '1' }}
         with:
-          path: |
-            database/nusa.*.sqlite
-          key: upstream-database_${{ env.GIT_BRANCH }}_${{ hashFiles('**/*.sql') }}
+          name: sqlite-artifacts_${{ steps.stats.outputs.BRANCH_TOKEN }}
+          path: database/nusa.*.sqlite
+          retention-days: 30
+          overwrite: true
 
       - name: Generate static files
         if: ${{ inputs.generate-static == 'true' && steps.stats.outputs.has-changes == '1' }}
