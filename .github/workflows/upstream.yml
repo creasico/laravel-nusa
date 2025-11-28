@@ -93,7 +93,7 @@ jobs:
 
       - name: Upload sqlite artifacts
         uses: actions/upload-artifact@v5
-        if: ${{ inputs.generate-static == 'true' || steps.stats.outputs.has-changes == '1' }}
+        if: ${{ inputs.generate-static == true || steps.stats.outputs.has-changes == '1' }}
         with:
           name: sqlite-artifacts_${{ steps.stats.outputs.BRANCH_TOKEN }}
           path: database/nusa.*.sqlite
@@ -101,7 +101,7 @@ jobs:
           overwrite: true
 
       - name: Generate static files
-        if: ${{ inputs.generate-static == 'true' || steps.stats.outputs.has-changes == '1' }}
+        if: ${{ inputs.generate-static == true || steps.stats.outputs.has-changes == '1' }}
         env:
           COLUMNS: 100
         run: |
@@ -110,7 +110,7 @@ jobs:
 
       - name: Upload static artifacts
         uses: actions/upload-artifact@v5
-        if: ${{ inputs.generate-static == 'true' || steps.stats.outputs.has-changes == '1' }}
+        if: ${{ inputs.generate-static == true || steps.stats.outputs.has-changes == '1' }}
         with:
           name: static-artifacts-${{ env.GIT_BRANCH }}
           path: resources/static
