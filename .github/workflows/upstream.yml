@@ -43,9 +43,7 @@ jobs:
         id: upstream
         uses: actions/cache/restore@v4
         with:
-          path: |
-            database/nusa.*.sqlite
-            !database/nusa.head-full.sqlite
+          path: database/nusa.*.sqlite
           key: upstream-database_${{ env.GIT_BRANCH }}_${{ hashFiles('**/*.sql') }}
           restore-keys: |
             upstream-database_${{ env.GIT_BRANCH }}_
@@ -91,8 +89,7 @@ jobs:
         if: ${{ steps.upstream.outputs.cache-hit == '' }}
         with:
           name: sqlite-artifacts_${{ steps.imports.outputs.BRANCH_TOKEN }}
-          path: |
-            database/nusa.*.sqlite
+          path: database/nusa.*.sqlite
           retention-days: 30
           overwrite: true
 

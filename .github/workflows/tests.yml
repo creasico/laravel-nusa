@@ -100,10 +100,9 @@ jobs:
 
       - name: Cache upstream
         id: upstream
-        uses: actions/cache@v4
+        uses: actions/cache/restore@v4
         with:
-          path: |
-            database/nusa.*.sqlite
+          path: database/nusa.*.sqlite
           key: upstream-database_${{ env.GIT_BRANCH }}_${{ hashFiles('**/*.sql') }}
           restore-keys: |
             upstream-database_${{ env.GIT_BRANCH }}_
