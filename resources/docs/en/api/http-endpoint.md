@@ -24,7 +24,7 @@ The endpoints support multiple formats to suit different use cases. You can sele
 
 The URL structure follows the hierarchical administrative levels of Indonesia: **Province** > **Regency** > **District** > **Village**.
 
-Each endpoint follows the same pattern which is can be accessed with or without file extension and by default will response as `json`. Additional supported file extension are `csv` to download the data as `.csv` and `geojson` to retrieve the geographic data.
+Each endpoint follows the same pattern which can be accessed with or without file extension and by default will response as `json`. Additional supported file extension are `csv` to download the data as `.csv` and `geojson` to retrieve the geographic data.
 
 ### 1. Provinces (Provinsi)
 

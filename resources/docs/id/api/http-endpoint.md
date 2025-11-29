@@ -149,11 +149,11 @@ fetch(`https://nusa.creasi.dev/static/11/01`)
     });
 ```
 
-## Next Steps
+## Langkah Selanjutnya
 
-Explore the detailed API documentation for each endpoint:
+Jelajahi dokumentasi API terperinci untuk setiap *endpoint*:
 
-- **[Provinces API](/id/api/provinces)** - Province endpoints and examples
-- **[Regencies API](/id/api/regencies)** - Regency endpoints and examples
-- **[Districts API](/id/api/districts)** - District endpoints and examples
-- **[Villages API](/id/api/villages)** - Village endpoints and examples
+- **[API Provinsi](/id/api/provinces)** - *Endpoint* dan contoh provinsi
+- **[API Kabupaten/Kota](/id/api/regencies)** - *Endpoint* dan contoh kabupaten/kota
+- **[API Kecamatan](/id/api/districts)** - *Endpoint* dan contoh kecamatan
+- **[API Desa/Kelurahan](/id/api/villages)** - *Endpoint* dan contoh desa/kelurahan
