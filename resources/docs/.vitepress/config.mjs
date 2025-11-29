@@ -72,6 +72,7 @@ export default withMermaid(defineConfig({
               text: 'API Reference',
               items: [
                 { text: 'Overview', link: '/en/api/overview' },
+                { text: 'HTTP Endpoints', link: '/en/api/http-endpoint' },
                 { text: 'Provinces', link: '/en/api/provinces' },
                 { text: 'Regencies', link: '/en/api/regencies' },
                 { text: 'Districts', link: '/en/api/districts' },
@@ -113,6 +114,7 @@ export default withMermaid(defineConfig({
                 { text: 'API Integration', link: '/en/examples/api-integration' },
                 { text: 'Address Forms', link: '/en/examples/address-forms' },
                 { text: 'Geographic Queries', link: '/en/examples/geographic-queries' },
+                { text: 'Boundaries Demo', link: '/en/examples/boundaries' },
                 { text: 'Custom Models', link: '/en/examples/custom-models' }
               ]
             }
@@ -171,6 +173,7 @@ export default withMermaid(defineConfig({
               text: 'Referensi API',
               items: [
                 { text: 'Ikhtisar', link: '/id/api/overview' },
+                { text: 'HTTP Endpoints', link: '/id/api/http-endpoint' },
                 { text: 'Provinsi', link: '/id/api/provinces' },
                 { text: 'Kabupaten/Kota', link: '/id/api/regencies' },
                 { text: 'Kecamatan', link: '/id/api/districts' },
@@ -212,6 +215,7 @@ export default withMermaid(defineConfig({
                 { text: 'Integrasi API', link: '/id/examples/api-integration' },
                 { text: 'Form Alamat', link: '/id/examples/address-forms' },
                 { text: 'Query Geografis', link: '/id/examples/geographic-queries' },
+                { text: 'Demo Batas Wilayah', link: '/id/examples/boundaries' },
                 { text: 'Model Kustom', link: '/id/examples/custom-models' }
               ]
             }
@@ -242,11 +246,11 @@ export default withMermaid(defineConfig({
     transformItems: (items) => {
       return items.map((item) => {
         // Homepage gets highest priority
-        if (item.url === '/' || item.url === '/id/') {
+        if (['/', '/en/', '/id/'].includes(item.url)) {
           return { ...item, priority: 1.0, changefreq: 'weekly' }
         }
         // Guide pages get high priority
-        if (item.url.includes('/guide/') || item.url.includes('/id/guide/')) {
+        if (item.url.includes('/guide/')) {
           return { ...item, priority: 0.9, changefreq: 'monthly' }
         }
         // API reference pages get medium-high priority
@@ -254,7 +258,7 @@ export default withMermaid(defineConfig({
           return { ...item, priority: 0.8, changefreq: 'monthly' }
         }
         // Example pages get medium priority
-        if (item.url.includes('/examples/') || item.url.includes('/id/examples/')) {
+        if (item.url.includes('/examples/')) {
           return { ...item, priority: 0.7, changefreq: 'monthly' }
         }
         // Default priority
@@ -265,18 +269,6 @@ export default withMermaid(defineConfig({
 
   themeConfig: {
     logo: '/logo.svg',
-
-    nav: [
-      { text: 'Guide', link: '/en/guide/getting-started' },
-      { text: 'API Reference', link: '/en/api/overview' },
-      { text: 'Examples', link: '/en/examples/basic-usage' },
-      {
-        text: 'v0.1.14',
-        items: [
-          { text: 'Changelog', link: 'https://github.com/creasico/laravel-nusa/blob/main/CHANGELOG.md' },
-        ]
-      }
-    ],
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/creasico/laravel-nusa' }
