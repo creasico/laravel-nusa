@@ -244,11 +244,11 @@ export default withMermaid(defineConfig({
     transformItems: (items) => {
       return items.map((item) => {
         // Homepage gets highest priority
-        if (item.url === '/' || item.url === '/id/') {
+        if (['/', '/en/', '/id/'].includes(item.url)) {
           return { ...item, priority: 1.0, changefreq: 'weekly' }
         }
         // Guide pages get high priority
-        if (item.url.includes('/guide/') || item.url.includes('/id/guide/')) {
+        if (item.url.includes('/guide/')) {
           return { ...item, priority: 0.9, changefreq: 'monthly' }
         }
         // API reference pages get medium-high priority
@@ -256,7 +256,7 @@ export default withMermaid(defineConfig({
           return { ...item, priority: 0.8, changefreq: 'monthly' }
         }
         // Example pages get medium priority
-        if (item.url.includes('/examples/') || item.url.includes('/id/examples/')) {
+        if (item.url.includes('/examples/')) {
           return { ...item, priority: 0.7, changefreq: 'monthly' }
         }
         // Default priority
@@ -267,18 +267,6 @@ export default withMermaid(defineConfig({
 
   themeConfig: {
     logo: '/logo.svg',
-
-    nav: [
-      { text: 'Guide', link: '/en/guide/getting-started' },
-      { text: 'API Reference', link: '/en/api/overview' },
-      { text: 'Examples', link: '/en/examples/basic-usage' },
-      {
-        text: 'v0.1.14',
-        items: [
-          { text: 'Changelog', link: 'https://github.com/creasico/laravel-nusa/blob/main/CHANGELOG.md' },
-        ]
-      }
-    ],
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/creasico/laravel-nusa' }
