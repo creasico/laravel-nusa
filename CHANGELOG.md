@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.16](https://github.com/creasico/laravel-nusa/compare/v0.1.15...v0.1.16) (2025-11-29)
+
+
+### Features
+
+* **ci:** extract import upstream database to dedicated workflow ([#198](https://github.com/creasico/laravel-nusa/issues/198)) ([589aade](https://github.com/creasico/laravel-nusa/commit/589aade965deea2aeb37dcd0d593798ce60a2851))
+* **dev:** workaround with `nusa:generate-static` command ([#193](https://github.com/creasico/laravel-nusa/issues/193)) ([2237c9b](https://github.com/creasico/laravel-nusa/commit/2237c9b7f15aa932910ebaa67efedc0c4a2c8659))
+* **docs:** add documentation for newly static api endpoints ([#199](https://github.com/creasico/laravel-nusa/issues/199)) ([fba630c](https://github.com/creasico/laravel-nusa/commit/fba630cb6f0837cc5c37648d8a09ec457b279118))
+* **docs:** makes static files accessible on documentation site ([b2e8761](https://github.com/creasico/laravel-nusa/commit/b2e87611ace9e90ed479875c8d0c12dbd9941bb8))
+
+
+### Bug Fixes
+
+* fix `nusa:generate-static` command when running concurrently ([69e139f](https://github.com/creasico/laravel-nusa/commit/69e139ffc2329561f19ab1bcf00b99fb1e4835b2))
+
 ### [0.1.15](https://github.com/creasico/laravel-nusa/compare/v0.1.14...v0.1.15) (2025-07-15)
 
 
