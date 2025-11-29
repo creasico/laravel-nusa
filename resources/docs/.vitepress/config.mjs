@@ -72,6 +72,7 @@ export default withMermaid(defineConfig({
               text: 'API Reference',
               items: [
                 { text: 'Overview', link: '/en/api/overview' },
+                { text: 'HTTP Endpoints', link: '/en/api/http-endpoint' },
                 { text: 'Provinces', link: '/en/api/provinces' },
                 { text: 'Regencies', link: '/en/api/regencies' },
                 { text: 'Districts', link: '/en/api/districts' },
@@ -171,6 +172,7 @@ export default withMermaid(defineConfig({
               text: 'Referensi API',
               items: [
                 { text: 'Ikhtisar', link: '/id/api/overview' },
+                { text: 'HTTP Endpoints', link: '/id/api/http-endpoint' },
                 { text: 'Provinsi', link: '/id/api/provinces' },
                 { text: 'Kabupaten/Kota', link: '/id/api/regencies' },
                 { text: 'Kecamatan', link: '/id/api/districts' },

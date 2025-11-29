@@ -5,7 +5,7 @@ export default {
     // Add priority and changefreq to different page types
     return items.map((item) => {
       // Homepage gets highest priority
-      if (item.url === '/' || item.url === '/en/') {
+      if (item.url === '/id/' || item.url === '/en/') {
         return {
           ...item,
           priority: 1.0,
@@ -14,7 +14,7 @@ export default {
       }
 
       // Guide pages get high priority
-      if (item.url.includes('/panduan/') || item.url.includes('/en/guide/')) {
+      if (item.url.includes('/guide/')) {
         return {
           ...item,
           priority: 0.9,
@@ -32,7 +32,7 @@ export default {
       }
 
       // Example pages get medium priority
-      if (item.url.includes('/contoh/') || item.url.includes('/en/examples/')) {
+      if (item.url.includes('/examples/')) {
         return {
           ...item,
           priority: 0.7,
