@@ -153,6 +153,7 @@ fetch(`https://nusa.creasi.dev/static/11/01`)
 
 Jelajahi dokumentasi API terperinci untuk setiap *endpoint*:
 
+- **[Demo Batas Wilayah](/id/examples/boundaries)** - Contoh implementasi GeoJSON
 - **[API Provinsi](/id/api/provinces)** - *Endpoint* dan contoh provinsi
 - **[API Kabupaten/Kota](/id/api/regencies)** - *Endpoint* dan contoh kabupaten/kota
 - **[API Kecamatan](/id/api/districts)** - *Endpoint* dan contoh kecamatan

@@ -153,6 +153,7 @@ fetch(`https://nusa.creasi.dev/static/11/01`)
 
 Explore the detailed API documentation for each endpoint:
 
+- **[Boundaries Demo](/en/examples/boundaries)** - Example implementation of GeoJSON
 - **[Provinces API](/en/api/provinces)** - Province endpoints and examples
 - **[Regencies API](/en/api/regencies)** - Regency endpoints and examples
 - **[Districts API](/en/api/districts)** - District endpoints and examples

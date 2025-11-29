@@ -114,6 +114,7 @@ export default withMermaid(defineConfig({
                 { text: 'API Integration', link: '/en/examples/api-integration' },
                 { text: 'Address Forms', link: '/en/examples/address-forms' },
                 { text: 'Geographic Queries', link: '/en/examples/geographic-queries' },
+                { text: 'Boundaries Demo', link: '/en/examples/boundaries' },
                 { text: 'Custom Models', link: '/en/examples/custom-models' }
               ]
             }
@@ -214,6 +215,7 @@ export default withMermaid(defineConfig({
                 { text: 'Integrasi API', link: '/id/examples/api-integration' },
                 { text: 'Form Alamat', link: '/id/examples/address-forms' },
                 { text: 'Query Geografis', link: '/id/examples/geographic-queries' },
+                { text: 'Demo Batas Wilayah', link: '/id/examples/boundaries' },
                 { text: 'Model Kustom', link: '/id/examples/custom-models' }
               ]
             }
