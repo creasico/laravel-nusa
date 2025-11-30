@@ -62,19 +62,19 @@ class GenerateStaticCommand extends Command
         }
 
         $sanitizedItems = $this->sanitizeCollection($items, $link);
-        $filePath = $target.DIRECTORY_SEPARATOR.implode(DIRECTORY_SEPARATOR, $paths);
+        $csvPath = $target.DIRECTORY_SEPARATOR.implode(DIRECTORY_SEPARATOR, $paths);
 
         if (empty($paths)) {
-            $filePath .= 'index';
+            $csvPath .= 'index';
 
-            $this->writeJson($sanitizedItems, $filePath);
+            $this->writeJson($sanitizedItems, $csvPath);
         }
 
-        $this->writeCsv($sanitizedItems, $filePath);
+        $this->writeCsv($sanitizedItems, $csvPath);
 
         foreach ($items as $item) {
-            $codePath = str_replace('.', DIRECTORY_SEPARATOR, $item->code);
-            $filePath = $target.DIRECTORY_SEPARATOR.$codePath;
+            $jsonPath = str_replace('.', DIRECTORY_SEPARATOR, $item->code);
+            $filePath = $target.DIRECTORY_SEPARATOR.$jsonPath;
             $row = $geo = $item->except(['postal_codes']);
             $task = null;
 
@@ -112,7 +112,7 @@ class GenerateStaticCommand extends Command
                 continue;
             }
 
-            $this->line(" - Writing: {$kind} '<fg=yellow>{$codePath}</>'", verbosity: 'v');
+            $this->line(" - Writing: {$kind} '<fg=yellow>{$jsonPath}</>'", verbosity: 'v');
         }
 
         if (! empty($tasks)) {
