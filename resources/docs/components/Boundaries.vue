@@ -40,54 +40,6 @@ const loadLeaflet = () => {
     })
 }
 
-// Helper to determine array depth to detect malformed GeoJSON
-const getDepth = (arr) => {
-    let depth = 0;
-    let children = arr;
-    while (Array.isArray(children)) {
-        depth++;
-        children = children[0];
-    }
-    return depth;
-}
-
-// Normalize GeoJSON data to fix structural issues
-const normalizeGeoJSON = (data) => {
-    if (!data) return data;
-
-    if (data.type === 'FeatureCollection' && Array.isArray(data.features)) {
-        data.features = data.features.map(normalizeFeature);
-    } else if (data.type === 'Feature') {
-        normalizeFeature(data);
-    }
-
-    return data;
-}
-
-const normalizeFeature = (feature) => {
-    if (!feature || !feature.geometry) return feature;
-
-    const geom = feature.geometry;
-
-    // Fix mismatch between type and coordinate depth
-    // Polygon should be depth 3: [ [ [x,y], ... ] ]
-    // MultiPolygon should be depth 4: [ [ [ [x,y], ... ] ] ]
-
-    if (geom.coordinates && Array.isArray(geom.coordinates) && geom.coordinates.length > 0) {
-        const depth = getDepth(geom.coordinates);
-
-        if (geom.type === 'MultiPolygon' && depth === 3) {
-            console.warn(`Fixing malformed GeoJSON: Type is MultiPolygon but coordinates depth is 3. Changing type to Polygon for feature: ${feature.properties?.name}`);
-            geom.type = 'Polygon';
-        } else if (geom.type === 'Polygon' && depth === 4) {
-            console.warn(`Fixing malformed GeoJSON: Type is Polygon but coordinates depth is 4. Changing type to MultiPolygon for feature: ${feature.properties?.name}`);
-            geom.type = 'MultiPolygon';
-        }
-    }
-
-    return feature;
-}
-
 onMounted(async () => {
     // Ensure we are in a browser environment
     if (typeof window === 'undefined') return
@@ -118,9 +70,6 @@ onMounted(async () => {
             throw new Error('Invalid GeoJSON data format')
         }
 
-        // Normalize Data (Fix malformed MultiPolygon/Polygon issues)
-        geoJsonData = normalizeGeoJSON(geoJsonData);
-
         // Add GeoJSON Layer
         const geoJsonLayer = L.geoJSON(geoJsonData, {
             style: {
@@ -129,17 +78,14 @@ onMounted(async () => {
                 opacity: 0.8,
                 fillOpacity: 0.2
             },
-            pointToLayer: (feature, latlng) => {
-                // Handle Point geometries (like the capital city marker)
-                return L.circleMarker(latlng, {
-                    radius: 6,
-                    fillColor: '#ef4444',
-                    color: '#fff',
-                    weight: 1,
-                    opacity: 1,
-                    fillOpacity: 0.8
-                })
-            },
+            pointToLayer: (feature, latlng) => L.marker(latlng, {
+                radius: 6,
+                fillColor: '#ef4444',
+                color: '#fff',
+                weight: 1,
+                opacity: 1,
+                fillOpacity: 0.8
+            }),
             onEachFeature: (feature, layer) => {
                 if (feature.properties) {
                     const name = feature.properties.name || 'Unknown'
@@ -178,69 +124,28 @@ onUnmounted(() => {
 </script>
 
 <template>
-    <div class="boundaries-card">
-        <div class="header">
-            <h3>Geographic Boundaries Demo</h3>
-            <p>Rendering GeoJSON for <code>{{ REGENCY_CODE }}</code> (Kota Pekalongan) in <code>{{ PROVINCE_CODE }}</code> (Jawa Tengah)</p>
-            <p class="source-link">
-                Source: <a :href="DEMO_URL" target="_blank">{{ DEMO_URL }}</a>
-            </p>
+    <div class="map-wrapper">
+        <div ref="mapContainer" class="map-container"></div>
+
+        <div v-if="loading" class="overlay">
+            <div class="spinner"></div>
+            <span>Loading map data...</span>
         </div>
 
-        <div class="map-wrapper">
-            <div ref="mapContainer" class="map-container"></div>
-
-            <div v-if="loading" class="overlay">
-                <div class="spinner"></div>
-                <span>Loading map data...</span>
-            </div>
-
-            <div v-if="error" class="overlay error">
-                <p><strong>Error loading map</strong></p>
-                <span>{{ error }}</span>
-            </div>
+        <div v-if="error" class="overlay error">
+            <p><strong>Error loading map</strong></p>
+            <span>{{ error }}</span>
         </div>
     </div>
 </template>
 
 <style scoped>
-.boundaries-card {
-    border: 1px solid var(--vp-c-divider);
-    border-radius: 8px;
-    background-color: var(--vp-c-bg-soft);
-    margin: 1rem 0;
-    overflow: hidden;
-}
-
-.header {
-    padding: 1rem;
-    border-bottom: 1px solid var(--vp-c-divider);
-}
-
-.header h3 {
-    margin: 0 0 0.5rem 0;
-    font-size: 1.1rem;
-    font-weight: 600;
-}
-
-.header p {
-    margin: 0;
-    font-size: 0.9rem;
-    color: var(--vp-c-text-2);
-}
-
-.source-link {
-    display: block;
-    margin-top: 0.5rem !important;
-    font-size: 0.8rem !important;
-    font-family: var(--vp-font-family-mono);
-    word-break: break-all;
-}
-
 .map-wrapper {
     position: relative;
     height: 400px;
     width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
     background-color: var(--vp-c-bg-alt);
 }
 
