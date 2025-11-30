@@ -189,12 +189,23 @@ class GenerateStaticCommand extends Command
         ]));
     }
 
+    /**
+     * Retrieve geometry type.
+     *
+     * @return 'Polygon'|'MultiPolygon'
+     *
+     * @throws \InvalidArgumentException
+     */
     private function getGeometryType(array $coordinates)
     {
+        if (empty($coordinates)) {
+            throw new \InvalidArgumentException('Coordinates array cannot be empty');
+        }
+
         $depth = 0;
         $children = $coordinates;
 
-        while (is_array($children)) {
+        while (is_array($children) && ! empty($children)) {
             $depth++;
             $children = $children[0];
         }
@@ -202,6 +213,7 @@ class GenerateStaticCommand extends Command
         return match ($depth) {
             3 => 'Polygon',
             4 => 'MultiPolygon',
+            default => throw new \InvalidArgumentException("Unsupported coordinate depth: {$depth}"),
         };
     }
 
