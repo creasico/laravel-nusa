@@ -181,12 +181,28 @@ class GenerateStaticCommand extends Command
                         'name' => $value['name'],
                     ],
                     'geometry' => [
-                        'type' => 'MultiPolygon',
+                        'type' => $this->getGeometryType($value['coordinates']),
                         'coordinates' => $value['coordinates'],
                     ],
                 ],
             ],
         ]));
+    }
+
+    private function getGeometryType(array $coordinates)
+    {
+        $depth = 0;
+        $children = $coordinates;
+
+        while (is_array($children)) {
+            $depth++;
+            $children = $children[0];
+        }
+
+        return match ($depth) {
+            3 => 'Polygon',
+            4 => 'MultiPolygon',
+        };
     }
 
     /**
