@@ -93,7 +93,7 @@ jobs:
         run: pnpm docs:build
 
       - name: Download static artifacts
-        uses: actions/download-artifact@v5
+        uses: actions/download-artifact@v6
         with:
           name: static-artifacts-${{ github.ref_name }}
           path: resources/docs/.vitepress/dist/static
