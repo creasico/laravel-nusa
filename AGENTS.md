@@ -47,16 +47,19 @@ resources/
     ├── {prov_code}/                        # Province-specific directories (11/, 12/, 33/, etc.)
     │   ├── {reg_code}/                     # Regency-specific directories (11/01/, 11/02/, etc.)
     │   │   ├── {dist_code}/                # District-specific directories (11/01/01/, 11/01/02/, etc.)
-    │   │   │   ├── {village_code}.json     # JSON format data for the village
-    │   │   │   └── {village_code}.geojson  # GeoJSON format with geographic boundaries
+    │   │   │   ├── {village_code}.json     # Village data in JSON format including its `postal_code`
+    │   │   │   ├── {village_code}.geojson  # GeoJSON format with geographic boundaries
+    │   │   │   └── index.json              # District data including list of its villages in JSON format
     │   │   ├── {dist_code}.csv             # Index of villages for this district in CSV format
-    │   │   ├── {dist_code}.json            # JSON format data for the district
-    │   │   └── {dist_code}.geojson         # GeoJSON format of the district with geographic boundaries
+    │   │   ├── {dist_code}.json            # Has same content as `./{dist_code}/index.json`
+    │   │   ├── {dist_code}.geojson         # GeoJSON format of the district with geographic boundaries
+    │   │   └── index.json                  # Regency data including list of its districts in JSON format
     │   ├── {reg_code}.csv                  # Index of district for this regencies in CSV format
-    │   ├── {reg_code}.json                 # JSON format data for the regency
-    │   └── {reg_code}.geojson              # GeoJSON format of the regency with geographic boundaries
+    │   ├── {reg_code}.json                 # Has same content as `./{reg_code}/index.json`
+    │   ├── {reg_code}.geojson              # GeoJSON format of the regency with geographic boundaries
+    │   └── index.json                      # Province data including list of its regencies in JSON format
     ├── {prov_code}.csv                     # Index of regencies for this province in CSV format
-    ├── {prov_code}.json                    # Index of regencies for this province in JSON format
+    ├── {prov_code}.json                    # Has same content as `./{prov_code}/index.json`
     ├── {prov_code}.geojson                 # GeoJSON format of the province with geographic boundaries
     ├── index.csv                           # Master index of provinces in CSV format
     └── index.json                          # Master index of provinces in JSON format
