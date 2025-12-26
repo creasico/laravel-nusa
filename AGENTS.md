@@ -20,7 +20,7 @@ src/
 ├── Http/
 │   ├── Controllers/    # API controllers for RESTful endpoints
 │   ├── Requests/       # Request validation classes
-│   └── Resources/      # API resource transformers
+│   └── Resources/      # API resource transformer (NusaResource)
 ├── Models/             # Eloquent models (Province, Regency, District, Village, Address)
 │   ├── Concerns/       # Reusable traits (WithAddress, WithCoordinate, etc.)
 │   └── Model.php       # Base model with common functionality
@@ -44,9 +44,9 @@ resources/
 │   ├── id/                                 # Indonesian documentation (mirrors English structure)
 │   └── public/                             # Static assets (images, logos, etc.)
 └── static/                                 # Static data files (CSV, JSON and GEOJSON)
-    ├── {prov_code}/                        # Province-specific directories (11/, 12/, 33/, etc.)
-    │   ├── {reg_code}/                     # Regency-specific directories (11/01/, 11/02/, etc.)
-    │   │   ├── {dist_code}/                # District-specific directories (11/01/01/, 11/01/02/, etc.)
+    ├── {prov_code}/                        # Province-specific directories (e.g. 11/, 12/, 33/, etc.)
+    │   ├── {reg_code}/                     # Regency-specific directories (e.g. 11/01/, 11/02/, etc.)
+    │   │   ├── {dist_code}/                # District-specific directories (e.g. 11/01/01/, 11/01/02/, etc.)
     │   │   │   ├── {village_code}.json     # Village data in JSON format including its `postal_code`
     │   │   │   ├── {village_code}.geojson  # GeoJSON format with geographic boundaries
     │   │   │   └── index.json              # District data including list of its villages in JSON format
@@ -64,6 +64,11 @@ resources/
     ├── index.csv                           # Master index of provinces in CSV format
     └── index.json                          # Master index of provinces in JSON format
 ```
+
+> [!NOTE]
+> - `{reg_code}` is last 2 digit of regency code, meaning if regency code is 12.34, then `{reg_code}` is 34
+> - `{dist_code}` is last 2 digit of district code, meaning if district code is 12.34.56, then `{dist_code}` is 56
+> - `{village_code}` is last 4 digit of village code, meaning if village code is 12.34.56.7890, then `{village_code}` is 7890
 
 ### Development Structure
 ```
@@ -151,12 +156,14 @@ The project maintains multiple database files:
 - **URLs**: Keep English structure for consistency (`/guide/addresses` → `/id/guide/addresses`)
 - **First Paragraphs**: Always translate opening paragraphs
 
-## Development Commands
+### Development Commands
 
 ### Available Commands (via composer scripts)
 - `composer upstream` - Interact with Docker services
-- `composer upstream:up` - Start Docker services (MySQL)
+- `composer upstream:up` - Start Docker services (MySQL) and import fresh data
 - `composer upstream:down` - Stop Docker services
+- `composer tinker` - Start Tinker environment
+- `composer testbench:purge` - Purge workbench skeleton
 - `composer testbench nusa:import` - Import data from upstream sources
 - `composer testbench nusa:dist` - Create distribution database (removes coordinates for privacy)
 - `composer testbench nusa:stat` - Generate statistics and change reports between `nusa.sqlite` and `nusa.{branch}.sqlite` database
@@ -164,6 +171,9 @@ The project maintains multiple database files:
 
 ### Package Management
 - **Frontend**: Use `pnpm` for documentation dependencies
+  - `pnpm docs:dev` - Start documentation dev server
+  - `pnpm docs:build` - Build documentation
+  - `pnpm docs:preview` - Preview documentation build
 - **Backend**: Use `composer` for PHP dependencies
 - **Never**: Manually edit package.json or composer.json for dependencies
 
