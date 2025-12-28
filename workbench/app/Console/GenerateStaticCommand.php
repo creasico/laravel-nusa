@@ -6,6 +6,7 @@ namespace Workbench\App\Console;
 
 use Creasi\Nusa\Contracts\Province;
 use Creasi\Nusa\Models\Model;
+use Creasi\Nusa\Support\GeometryHelpers;
 use Illuminate\Console\Command;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Support\Facades\Concurrency;
@@ -14,7 +15,7 @@ use Illuminate\Support\Facades\File;
 
 class GenerateStaticCommand extends Command
 {
-    use CommandHelpers;
+    use CommandHelpers, GeometryHelpers;
 
     protected $signature = 'nusa:generate-static
                             {target=resources/static : Target directory for generated files}
@@ -187,34 +188,6 @@ class GenerateStaticCommand extends Command
                 ],
             ],
         ]));
-    }
-
-    /**
-     * Retrieve geometry type.
-     *
-     * @return 'Polygon'|'MultiPolygon'
-     *
-     * @throws \InvalidArgumentException
-     */
-    private function getGeometryType(array $coordinates)
-    {
-        if (empty($coordinates)) {
-            throw new \InvalidArgumentException('Coordinates array cannot be empty');
-        }
-
-        $depth = 0;
-        $children = $coordinates;
-
-        while (is_array($children) && ! empty($children)) {
-            $depth++;
-            $children = $children[0];
-        }
-
-        return match ($depth) {
-            3 => 'Polygon',
-            4 => 'MultiPolygon',
-            default => throw new \InvalidArgumentException("Unsupported coordinate depth: {$depth}"),
-        };
     }
 
     /**

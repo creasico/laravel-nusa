@@ -13,7 +13,7 @@ namespace Creasi\Nusa\Contracts;
  *
  * @mixin \Creasi\Nusa\Models\Model
  */
-interface District
+interface District extends HasSubdivision
 {
     /**
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo|Province

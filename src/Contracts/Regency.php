@@ -12,7 +12,7 @@ namespace Creasi\Nusa\Contracts;
  *
  * @mixin \Creasi\Nusa\Models\Model
  */
-interface Regency
+interface Regency extends HasSubdivision
 {
     /**
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo|Province

@@ -1,10 +1,19 @@
 <?php
 
 use Creasi\Nusa\Http\Controllers\DistrictController;
+use Creasi\Nusa\Http\Controllers\ApiController;
 use Creasi\Nusa\Http\Controllers\ProvinceController;
 use Creasi\Nusa\Http\Controllers\RegencyController;
 use Creasi\Nusa\Http\Controllers\VillageController;
 use Illuminate\Support\Facades\Route;
+
+Route::controller(ApiController::class)->group(function () {
+    Route::get('', 'index');
+    Route::get('{province}', 'province');
+    Route::get('{province}/{regency}', 'regency');
+    Route::get('{province}/{regency}/{district}', 'district');
+    Route::get('{province}/{regency}/{district}/{village}', 'village');
+});
 
 Route::controller(ProvinceController::class)->prefix('provinces')->group(function () {
     Route::get('', 'index')->name('provinces.index');

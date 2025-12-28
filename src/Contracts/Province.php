@@ -11,7 +11,7 @@ namespace Creasi\Nusa\Contracts;
  *
  * @mixin \Creasi\Nusa\Models\Model
  */
-interface Province
+interface Province extends HasSubdivision
 {
     /**
      * @return \Illuminate\Database\Eloquent\Relations\HasMany|Regency
