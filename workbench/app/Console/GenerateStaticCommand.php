@@ -156,38 +156,16 @@ class GenerateStaticCommand extends Command
 
     private function writeGeoJson(string $kind, array $value, string $path): void
     {
-        file_put_contents("{$path}.geojson", json_encode([
-            'type' => 'FeatureCollection',
-            'features' => [
-                [
-                    'type' => 'Feature',
-                    'properties' => [
-                        'code' => $value['code'],
-                        'kind' => $kind,
-                        'name' => $value['name'],
-                    ],
-                    'geometry' => [
-                        'type' => 'Point',
-                        'coordinates' => [
-                            $value['longitude'],
-                            $value['latitude'],
-                        ],
-                    ],
-                ],
-                [
-                    'type' => 'Feature',
-                    'properties' => [
-                        'code' => $value['code'],
-                        'kind' => $kind,
-                        'name' => $value['name'],
-                    ],
-                    'geometry' => [
-                        'type' => $this->getGeometryType($value['coordinates']),
-                        'coordinates' => $value['coordinates'],
-                    ],
-                ],
-            ],
-        ]));
+        $structure = $this->formatGeoJson(
+            $kind,
+            $value['code'],
+            $value['name'],
+            $value['longitude'],
+            $value['latitude'],
+            $value['coordinates']
+        );
+
+        file_put_contents("{$path}.geojson", json_encode($structure));
     }
 
     /**

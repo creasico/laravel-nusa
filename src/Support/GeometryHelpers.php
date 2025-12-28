@@ -33,4 +33,35 @@ trait GeometryHelpers
             default => throw new \InvalidArgumentException("Unsupported coordinate depth: {$depth}"),
         };
     }
+
+    private function formatGeoJson(string $kind, string $code, string $name, float $longitude, float $latitude, array $coordinates): array
+    {
+        $properties = [
+            'code' => $code,
+            'kind' => $kind,
+            'name' => $name,
+        ];
+
+        return [
+            'type' => 'FeatureCollection',
+            'features' => [
+                [
+                    'type' => 'Feature',
+                    'properties' => $properties,
+                    'geometry' => [
+                        'type' => 'Point',
+                        'coordinates' => [$longitude, $latitude],
+                    ],
+                ],
+                [
+                    'type' => 'Feature',
+                    'properties' => $properties,
+                    'geometry' => [
+                        'type' => $this->getGeometryType($coordinates),
+                        'coordinates' => $coordinates,
+                    ],
+                ],
+            ],
+        ];
+    }
 }

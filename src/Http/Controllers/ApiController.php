@@ -14,6 +14,7 @@ use Creasi\Nusa\Http\Requests\ApiRequest;
 use Creasi\Nusa\Support\GeometryHelpers;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\Http;
 
 final class ApiController
 {
@@ -117,33 +118,23 @@ final class ApiController
 
     private function toGeoJson(HasCoordinate|Model $data)
     {
-        $properties = [
-            'code' => $data->code,
-            'kind' => str($data::class)->classBasename()->lower(),
-            'name' => $data->name,
-        ];
+        if ($data->coordinates === null) {
+            $path = str_replace('.', '/', $data->code);
+            $geojson = Http::get("https://nusa.creasi.dev/static/{$path}.geojson")->json();
 
-        $structure = [
-            'type' => 'FeatureCollection',
-            'features' => [
-                [
-                    'type' => 'Feature',
-                    'properties' => $properties,
-                    'geometry' => [
-                        'type' => 'Point',
-                        'coordinates' => [$data->longitude, $data->latitude],
-                    ],
-                ],
-                [
-                    'type' => 'Feature',
-                    'properties' => $properties,
-                    'geometry' => [
-                        'type' => $this->getGeometryType($data->coordinates),
-                        'coordinates' => $data->coordinates,
-                    ],
-                ],
-            ],
-        ];
+            return response($geojson, 200, [
+                'Content-Type' => 'application/geo+json; charset=UTF-8',
+            ]);
+        }
+
+        $structure = $this->formatGeoJson(
+            (string) str($data::class)->classBasename()->lower(),
+            $data->code,
+            $data->name,
+            $data->longitude,
+            $data->latitude,
+            $data->coordinates
+        );
 
         return response()->json($structure, 200, [
             'Content-Type' => 'application/geo+json; charset=UTF-8',
