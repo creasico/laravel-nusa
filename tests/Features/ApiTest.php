@@ -77,8 +77,7 @@ class ApiTest extends TestCase
     }
 
     #[Test]
-    #[Depends('it_shows_all_provinces_as_json')]
-    public function it_throws_404_on_invalid_province(string $province): void
+    public function it_throws_404_on_invalid_province(): void
     {
         $response = $this->getJson($this->path('invalid'));
 
@@ -150,8 +149,7 @@ class ApiTest extends TestCase
     }
 
     #[Test]
-    #[Depends('it_shows_all_regencies_in_a_province_as_json')]
-    public function it_throws_404_on_invalid_regency(string $regency): void
+    public function it_throws_404_on_invalid_regency(): void
     {
         $response = $this->getJson($this->path('invalid/invalid'));
 
@@ -223,8 +221,7 @@ class ApiTest extends TestCase
     }
 
     #[Test]
-    #[Depends('it_shows_all_districts_in_a_regency_as_json')]
-    public function it_throws_404_on_invalid_district(string $district): void
+    public function it_throws_404_on_invalid_district(): void
     {
         $response = $this->getJson($this->path('invalid/invalid/invalid'));
 
@@ -296,8 +293,7 @@ class ApiTest extends TestCase
     }
 
     #[Test]
-    #[Depends('it_shows_all_villages_in_a_district_as_json')]
-    public function it_throws_404_on_invalid_village(string $village): void
+    public function it_throws_404_on_invalid_village(): void
     {
         $response = $this->getJson($this->path('invalid/invalid/invalid/invalid'));
 
