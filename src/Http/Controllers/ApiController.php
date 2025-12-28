@@ -124,14 +124,16 @@ final class ApiController
             $path = str_replace('.', '/', $data->code);
             $geojson = Http::get("https://nusa.creasi.dev/static/{$path}.geojson");
 
-            [$content, $type] = match ($status = $geojson->status()) {
+            [$content, $type, $status] = match ($geojson->status()) {
                 200 => [
                     $geojson->json(),
                     'application/geo+json',
+                    200,
                 ],
                 default => [
                     ['message' => "The geojson for {$data->code} could not be found."],
                     'application/json',
+                    404,
                 ],
             };
 
