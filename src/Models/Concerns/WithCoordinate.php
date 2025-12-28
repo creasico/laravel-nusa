@@ -19,11 +19,13 @@ trait WithCoordinate
         $this->mergeCasts([
             'latitude' => 'float',
             'longitude' => 'float',
+            'coordinates' => 'array',
         ]);
 
         $this->mergeFillable([
             'latitude',
             'longitude',
+            'coordinates',
         ]);
     }
 }

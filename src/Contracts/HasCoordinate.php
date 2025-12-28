@@ -5,9 +5,9 @@ declare(strict_types=1);
 namespace Creasi\Nusa\Contracts;
 
 /**
- * @property null|float $latitude
- * @property null|float $longitude
- * @property null|array $coordinates
+ * @property-read null|float $latitude
+ * @property-read null|float $longitude
+ * @property-read null|array $coordinates
  *
  * @mixin \Illuminate\Database\Eloquent\Model
  */

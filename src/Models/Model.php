@@ -11,7 +11,6 @@ use Illuminate\Database\Eloquent\Model as EloquentModel;
 /**
  * @property-read string $code
  * @property-read string $name
- * @property-read null|array $coordinates
  *
  * @method static static search(string $keyword)
  * @method Builder whereCode(string $code)
@@ -36,16 +35,9 @@ abstract class Model extends EloquentModel implements HasCoordinate
         return \config('creasi.nusa.connection');
     }
 
-    public function getCasts()
-    {
-        return \array_merge(parent::getCasts(), [
-            'coordinates' => 'array',
-        ]);
-    }
-
     public function getFillable()
     {
-        return \array_merge(parent::getFillable(), ['code', 'name', 'coordinates']);
+        return \array_merge(parent::getFillable(), ['code', 'name']);
     }
 
     public function scopeSearch(Builder $query, string $keyword): Builder
