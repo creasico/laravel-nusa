@@ -14,84 +14,86 @@ use Creasi\Nusa\Http\Requests\ApiRequest;
 use Creasi\Nusa\Support\GeometryHelpers;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Http\JsonResponse;
 use Illuminate\Support\Facades\Http;
+use Symfony\Component\HttpFoundation\StreamedResponse;
 
 final class ApiController
 {
     use GeometryHelpers;
 
-    public function index(ApiRequest $request, Province $model)
+    public function index(ApiRequest $request, Province $model): JsonResponse|StreamedResponse
     {
         $data = $model->all();
 
         return match ($request->getAcceptable()) {
-            'application/json' => $data,
+            'application/json' => response()->json($data->toArray(), 200),
             'text/csv' => $this->toCsv($data),
-            default => response([
+            default => response()->json([
                 'message' => 'Only "application/json" or "text/csv" content types supported',
             ], 406),
         };
     }
 
-    public function province(ApiRequest $request, Province $model, string $province)
+    public function province(ApiRequest $request, Province $model, string $province): JsonResponse|StreamedResponse
     {
         /** @var \Creasi\Nusa\Models\Province */
         $data = $model->with('regencies')->findOrFail($province);
 
         return match ($request->getAcceptable()) {
-            'application/json' => $data,
+            'application/json' => response()->json($data->toArray(), 200),
             'application/geo+json' => $this->toGeoJson($data),
             'text/csv' => $this->toCsv($data),
-            default => response([
+            default => response()->json([
                 'message' => 'Only "application/json", "application/geo+json" or "text/csv" content types supported',
             ], 406),
         };
     }
 
-    public function regency(ApiRequest $request, Regency $model, string $province, string $regency)
+    public function regency(ApiRequest $request, Regency $model, string $province, string $regency): JsonResponse|StreamedResponse
     {
         /** @var \Creasi\Nusa\Models\Regency */
         $data = $model->with('districts')->findOrFail("{$province}.{$regency}");
 
         return match ($request->getAcceptable()) {
-            'application/json' => $data,
+            'application/json' => response()->json($data->toArray(), 200),
             'application/geo+json' => $this->toGeoJson($data),
             'text/csv' => $this->toCsv($data),
-            default => response([
+            default => response()->json([
                 'message' => 'Only "application/json", "application/geo+json" or "text/csv" content types supported',
             ], 406),
         };
     }
 
-    public function district(ApiRequest $request, District $model, string $province, string $regency, string $district)
+    public function district(ApiRequest $request, District $model, string $province, string $regency, string $district): JsonResponse|StreamedResponse
     {
         /** @var \Creasi\Nusa\Models\District */
         $data = $model->with('villages')->findOrFail("{$province}.{$regency}.{$district}");
 
         return match ($request->getAcceptable()) {
-            'application/json' => $data,
+            'application/json' => response()->json($data->toArray(), 200),
             'application/geo+json' => $this->toGeoJson($data),
             'text/csv' => $this->toCsv($data),
-            default => response([
+            default => response()->json([
                 'message' => 'Only "application/json", "application/geo+json" or "text/csv" content types supported',
             ], 406),
         };
     }
 
-    public function village(ApiRequest $request, Village $model, string $province, string $regency, string $district, string $village)
+    public function village(ApiRequest $request, Village $model, string $province, string $regency, string $district, string $village): JsonResponse
     {
         $data = $model->findOrFail("{$province}.{$regency}.{$district}.{$village}");
 
         return match ($request->getAcceptable()) {
-            'application/json' => $data,
+            'application/json' => response()->json($data->toArray(), 200),
             'application/geo+json' => $this->toGeoJson($data),
-            default => response([
+            default => response()->json([
                 'message' => 'Only "application/json" or "application/geo+json" content types supported',
             ], 406),
         };
     }
 
-    private function toCsv(Collection|HasSubdivision $data)
+    private function toCsv(Collection|HasSubdivision $data): StreamedResponse
     {
         $list = $data instanceof Collection ? $data : $data->subdivisions();
 
@@ -116,13 +118,13 @@ final class ApiController
         ]);
     }
 
-    private function toGeoJson(HasCoordinate|Model $data)
+    private function toGeoJson(HasCoordinate|Model $data): JsonResponse
     {
         if ($data->coordinates === null) {
             $path = str_replace('.', '/', $data->code);
-            $geojson = Http::get("https://nusa.creasi.dev/static/{$path}.geojson")->json();
+            $geojson = Http::get("https://nusa.creasi.dev/static/{$path}.geojson");
 
-            return response($geojson, 200, [
+            return response()->json($geojson->json(), $geojson->status(), [
                 'Content-Type' => 'application/geo+json; charset=UTF-8',
             ]);
         }

@@ -1,7 +1,7 @@
 <?php
 
-use Creasi\Nusa\Http\Controllers\DistrictController;
 use Creasi\Nusa\Http\Controllers\ApiController;
+use Creasi\Nusa\Http\Controllers\DistrictController;
 use Creasi\Nusa\Http\Controllers\ProvinceController;
 use Creasi\Nusa\Http\Controllers\RegencyController;
 use Creasi\Nusa\Http\Controllers\VillageController;
