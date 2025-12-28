@@ -346,6 +346,11 @@ class ApiTest extends TestCase
     public function it_throws_404_on_unavailable_geojson_village(): void
     {
         $village = Village::query()->whereNull('coordinates')->take(1)->get('code')->first();
+
+        if (! $village) {
+            $this->markTestSkipped('No village without coordinates found.');
+        }
+
         $path = str_replace('.', '/', $village->code);
 
         $response = $this->get($this->path($path), [
