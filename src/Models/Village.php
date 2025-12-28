@@ -6,7 +6,7 @@ namespace Creasi\Nusa\Models;
 
 use Creasi\Nusa\Contracts\Village as VillageContract;
 
-class Village extends Model implements VillageContract
+final class Village extends Model implements VillageContract
 {
     /** @use Concerns\WithDistrict<static> */
     use Concerns\WithDistrict;

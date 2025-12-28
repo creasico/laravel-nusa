@@ -17,7 +17,7 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
  *
  * @mixin \Illuminate\Contracts\Database\Eloquent\Builder
  */
-class Address extends EloquentModel implements AddressContract
+final class Address extends EloquentModel implements AddressContract
 {
     /** @use Concerns\WithDistrict<static> */
     use Concerns\WithDistrict;

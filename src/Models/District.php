@@ -7,7 +7,7 @@ namespace Creasi\Nusa\Models;
 use Creasi\Nusa\Contracts\District as DistrictContract;
 use Illuminate\Database\Eloquent\Collection;
 
-class District extends Model implements DistrictContract
+final class District extends Model implements DistrictContract
 {
     /** @use Concerns\WithProvince<static> */
     use Concerns\WithProvince;
