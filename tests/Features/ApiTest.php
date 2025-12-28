@@ -98,7 +98,6 @@ class ApiTest extends TestCase
             ->assertHeader('Content-Type', 'application/json')
             ->assertJsonStructure([
                 ...self::JSON_FIELDS,
-                'postal_codes',
                 'regencies' => ['*' => self::JSON_FIELDS],
             ]);
 
@@ -172,7 +171,6 @@ class ApiTest extends TestCase
             ->assertHeader('Content-Type', 'application/json')
             ->assertJsonStructure([
                 ...self::JSON_FIELDS,
-                'postal_codes',
                 'districts' => ['*' => self::JSON_FIELDS],
             ]);
 
@@ -246,7 +244,6 @@ class ApiTest extends TestCase
             ->assertHeader('Content-Type', 'application/json')
             ->assertJsonStructure([
                 ...self::JSON_FIELDS,
-                'postal_codes',
                 'villages' => ['*' => self::JSON_FIELDS],
             ]);
 

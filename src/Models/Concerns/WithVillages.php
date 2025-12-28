@@ -7,6 +7,7 @@ namespace Creasi\Nusa\Models\Concerns;
 use Creasi\Nusa\Models\Village;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Support\Facades\Cache;
 
 /**
  * @template TDeclaringModel of \Illuminate\Database\Eloquent\Model
@@ -23,8 +24,6 @@ trait WithVillages
      */
     final protected function initializeWithVillages(): void
     {
-        $this->append('postal_codes');
-
         $this->makeHidden('distinctVillagesByPostalCodes');
     }
 
@@ -40,7 +39,11 @@ trait WithVillages
     {
         $this->loadMissing('distinctVillagesByPostalCodes');
 
-        return Attribute::get(fn () => $this->distinctVillagesByPostalCodes->pluck('postal_code'));
+        return Attribute::get(fn () => Cache::flexible(
+            'postal_codes:'.$this->getKey(),
+            [5, 10],
+            fn () => $this->distinctVillagesByPostalCodes->pluck('postal_code')
+        ));
     }
 
     public function distinctVillagesByPostalCodes()
