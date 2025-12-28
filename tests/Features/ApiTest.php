@@ -2,6 +2,7 @@
 
 namespace Creasi\Tests\Features;
 
+use Creasi\Nusa\Models\Village;
 use PHPUnit\Framework\Attributes\Depends;
 use PHPUnit\Framework\Attributes\Group;
 use PHPUnit\Framework\Attributes\Test;
@@ -339,5 +340,26 @@ class ApiTest extends TestCase
         ]);
 
         $response->assertNotAcceptable();
+    }
+
+    #[Test]
+    public function it_throws_404_on_unavailable_geojson_village(): void
+    {
+        $village = Village::query()->whereNull('coordinates')->take(1)->get('code')->first();
+
+        if (! $village) {
+            $this->markTestSkipped('No village without coordinates found.');
+        }
+
+        $path = str_replace('.', '/', $village->code);
+
+        $response = $this->get($this->path($path), [
+            'Accept' => 'application/geo+json',
+        ]);
+
+        $response->assertNotFound()
+            ->assertExactJson([
+                'message' => "The geojson for {$village->code} could not be found.",
+            ]);
     }
 }
