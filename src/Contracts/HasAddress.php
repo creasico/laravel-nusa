@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Creasi\Nusa\Contracts;
 
+use Illuminate\Database\Eloquent\Relations\MorphOne;
+
 /**
  * @property-read null|Address $address
  *
@@ -12,7 +14,7 @@ namespace Creasi\Nusa\Contracts;
 interface HasAddress
 {
     /**
-     * @return \Illuminate\Database\Eloquent\Relations\MorphOne|\Address
+     * @return MorphOne<Address, $this>
      */
-    public function address();
+    public function address(): MorphOne;
 }

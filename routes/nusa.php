@@ -1,5 +1,6 @@
 <?php
 
+use Creasi\Nusa\Http\Controllers\ApiController;
 use Creasi\Nusa\Http\Controllers\DistrictController;
 use Creasi\Nusa\Http\Controllers\ProvinceController;
 use Creasi\Nusa\Http\Controllers\RegencyController;
@@ -30,4 +31,27 @@ Route::controller(DistrictController::class)->prefix('districts')->group(functio
 Route::controller(VillageController::class)->prefix('villages')->group(function () {
     Route::get('', 'index')->name('villages.index');
     Route::get('{village}', 'show')->name('villages.show');
+});
+
+Route::controller(ApiController::class)->group(function () {
+    Route::get('', 'index')->name('index');
+
+    Route::get('{province}', 'province')->name('province')->where($province = [
+        'province' => '[0-9]{2}',
+    ]);
+
+    Route::get('{province}/{regency}', 'regency')->name('regency')->where($regency = [
+        ...$province,
+        'regency' => '[0-9]{2}',
+    ]);
+
+    Route::get('{province}/{regency}/{district}', 'district')->name('district')->where($district = [
+        ...$regency,
+        'district' => '[0-9]{2}',
+    ]);
+
+    Route::get('{province}/{regency}/{district}/{village}', 'village')->name('village')->where($village = [
+        ...$district,
+        'village' => '[0-9]{4}',
+    ]);
 });

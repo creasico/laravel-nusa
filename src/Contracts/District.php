@@ -4,6 +4,9 @@ declare(strict_types=1);
 
 namespace Creasi\Nusa\Contracts;
 
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\HasMany;
+
 /**
  * @property-read string $regency_code
  * @property-read string $province_code
@@ -13,20 +16,20 @@ namespace Creasi\Nusa\Contracts;
  *
  * @mixin \Creasi\Nusa\Models\Model
  */
-interface District
+interface District extends HasSubdivision
 {
     /**
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo|Province
+     * @return BelongsTo<Province, $this>
      */
-    public function province();
+    public function province(): BelongsTo;
 
     /**
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo|Regency
+     * @return BelongsTo<Regency, $this>
      */
-    public function regency();
+    public function regency(): BelongsTo;
 
     /**
-     * @return \Illuminate\Database\Eloquent\Relations\HasMany|Village
+     * @return HasMany<Village, $this>
      */
-    public function villages();
+    public function villages(): HasMany;
 }

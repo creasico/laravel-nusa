@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Creasi\Nusa\Http\Controllers;
 
 use Creasi\Nusa\Contracts\Province;

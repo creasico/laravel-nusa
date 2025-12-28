@@ -6,6 +6,7 @@ namespace Workbench\App\Console;
 
 use Creasi\Nusa\Contracts\Province;
 use Creasi\Nusa\Models\Model;
+use Creasi\Nusa\Support\GeometryHelpers;
 use Illuminate\Console\Command;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Support\Facades\Concurrency;
@@ -14,7 +15,7 @@ use Illuminate\Support\Facades\File;
 
 class GenerateStaticCommand extends Command
 {
-    use CommandHelpers;
+    use CommandHelpers, GeometryHelpers;
 
     protected $signature = 'nusa:generate-static
                             {target=resources/static : Target directory for generated files}
@@ -155,66 +156,20 @@ class GenerateStaticCommand extends Command
 
     private function writeGeoJson(string $kind, array $value, string $path): void
     {
-        file_put_contents("{$path}.geojson", json_encode([
-            'type' => 'FeatureCollection',
-            'features' => [
-                [
-                    'type' => 'Feature',
-                    'properties' => [
-                        'code' => $value['code'],
-                        'kind' => $kind,
-                        'name' => $value['name'],
-                    ],
-                    'geometry' => [
-                        'type' => 'Point',
-                        'coordinates' => [
-                            $value['longitude'],
-                            $value['latitude'],
-                        ],
-                    ],
-                ],
-                [
-                    'type' => 'Feature',
-                    'properties' => [
-                        'code' => $value['code'],
-                        'kind' => $kind,
-                        'name' => $value['name'],
-                    ],
-                    'geometry' => [
-                        'type' => $this->getGeometryType($value['coordinates']),
-                        'coordinates' => $value['coordinates'],
-                    ],
-                ],
-            ],
-        ]));
-    }
-
-    /**
-     * Retrieve geometry type.
-     *
-     * @return 'Polygon'|'MultiPolygon'
-     *
-     * @throws \InvalidArgumentException
-     */
-    private function getGeometryType(array $coordinates)
-    {
-        if (empty($coordinates)) {
-            throw new \InvalidArgumentException('Coordinates array cannot be empty');
+        if (empty($value['coordinates'])) {
+            return;
         }
 
-        $depth = 0;
-        $children = $coordinates;
+        $structure = $this->formatGeoJson(
+            $kind,
+            $value['code'],
+            $value['name'],
+            $value['longitude'],
+            $value['latitude'],
+            $value['coordinates']
+        );
 
-        while (is_array($children) && ! empty($children)) {
-            $depth++;
-            $children = $children[0];
-        }
-
-        return match ($depth) {
-            3 => 'Polygon',
-            4 => 'MultiPolygon',
-            default => throw new \InvalidArgumentException("Unsupported coordinate depth: {$depth}"),
-        };
+        file_put_contents("{$path}.geojson", json_encode($structure));
     }
 
     /**

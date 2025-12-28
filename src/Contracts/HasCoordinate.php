@@ -7,6 +7,7 @@ namespace Creasi\Nusa\Contracts;
 /**
  * @property null|float $latitude
  * @property null|float $longitude
+ * @property null|array $coordinates
  *
  * @mixin \Illuminate\Database\Eloquent\Model
  */
