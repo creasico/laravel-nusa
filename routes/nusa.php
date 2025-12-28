@@ -8,11 +8,11 @@ use Creasi\Nusa\Http\Controllers\VillageController;
 use Illuminate\Support\Facades\Route;
 
 Route::controller(ApiController::class)->group(function () {
-    Route::get('', 'index');
-    Route::get('{province}', 'province');
-    Route::get('{province}/{regency}', 'regency');
-    Route::get('{province}/{regency}/{district}', 'district');
-    Route::get('{province}/{regency}/{district}/{village}', 'village');
+    Route::get('', 'index')->name('index');
+    Route::get('{province}', 'province')->name('province');
+    Route::get('{province}/{regency}', 'regency')->name('regency');
+    Route::get('{province}/{regency}/{district}', 'district')->name('district');
+    Route::get('{province}/{regency}/{district}/{village}', 'village')->name('village');
 });
 
 Route::controller(ProvinceController::class)->prefix('provinces')->group(function () {

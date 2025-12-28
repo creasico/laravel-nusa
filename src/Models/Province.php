@@ -6,6 +6,7 @@ namespace Creasi\Nusa\Models;
 
 use Creasi\Nusa\Contracts\Province as ProvinceContract;
 use Illuminate\Database\Eloquent\Collection;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 
 /**
  * @property-read \Illuminate\Database\Eloquent\Collection<int, Regency> $regencies
@@ -24,9 +25,11 @@ class Province extends Model implements ProvinceContract
     }
 
     /**
-     * @return \Illuminate\Database\Eloquent\Relations\HasMany<Regency>
+     * @see ProvinceContract::regencies()
+     *
+     * @return HasMany<Regency, $this>
      */
-    public function regencies()
+    public function regencies(): HasMany
     {
         return $this->hasMany(Regency::class);
     }

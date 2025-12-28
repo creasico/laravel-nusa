@@ -27,7 +27,7 @@ final class ApiController
             'application/json' => $data,
             'text/csv' => $this->toCsv($data),
             default => response([
-                'message' => 'Only "application/json" or "application/geo+json" content types supported',
+                'message' => 'Only "application/json" or "text/csv" content types supported',
             ], 406),
         };
     }
@@ -93,10 +93,6 @@ final class ApiController
     private function toCsv(Collection|HasSubdivision $data)
     {
         $list = $data instanceof Collection ? $data : $data->subdivisions();
-
-        if ($list->isEmpty()) {
-            return response('', 200, ['Content-Type' => 'text/csv; charset=UTF-8']);
-        }
 
         $headers = ['code', 'name', 'latitude', 'longitude'];
 

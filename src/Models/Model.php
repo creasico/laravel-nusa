@@ -31,10 +31,6 @@ abstract class Model extends EloquentModel implements HasCoordinate
 
     protected $keyType = 'string';
 
-    protected $fillable = [];
-
-    protected $casts = [];
-
     public function getConnectionName()
     {
         return \config('creasi.nusa.connection');

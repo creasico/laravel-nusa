@@ -13,7 +13,7 @@ trait GeometryHelpers
      *
      * @throws \InvalidArgumentException
      */
-    private function getGeometryType(array $coordinates)
+    private function getGeometryType(array $coordinates): string
     {
         if (empty($coordinates)) {
             throw new \InvalidArgumentException('Coordinates array cannot be empty');
@@ -22,7 +22,7 @@ trait GeometryHelpers
         $depth = 0;
         $children = $coordinates;
 
-        while (is_array($children) && ! empty($children)) {
+        while (is_array($children) && isset($children[0])) {
             $depth++;
             $children = $children[0];
         }

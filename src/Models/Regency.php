@@ -9,7 +9,7 @@ use Illuminate\Database\Eloquent\Collection;
 
 class Regency extends Model implements RegencyContract
 {
-    /** @use Concerns\WithPWithDistrictsrovince<static> */
+    /** @use Concerns\WithDistricts<static> */
     use Concerns\WithDistricts;
 
     /** @use Concerns\WithProvince<static> */
