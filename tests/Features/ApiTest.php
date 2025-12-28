@@ -190,7 +190,7 @@ class ApiTest extends TestCase
     }
 
     #[Test]
-    #[Depends('it_shows_all_districts_in_a_regency_as_json')]
+    #[Depends('it_shows_all_regencies_in_a_province_as_json')]
     public function it_throws_406_on_unacceptable_regency_format(string $regency): void
     {
         $response = $this->get($this->path($regency), [
