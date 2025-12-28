@@ -8,7 +8,7 @@ let map = null
 
 const PROVINCE_CODE = '33'
 const REGENCY_CODE = '75'
-const DEMO_URL = `https://nusa.creasi.dev/static/${PROVINCE_CODE}/${REGENCY_CODE}.geojson`
+const DEMO_URL = `https://nusa.creasi.dev/api/${PROVINCE_CODE}/${REGENCY_CODE}.geojson`
 
 // Dynamic loader for Leaflet since it's not in package.json dependencies
 const loadLeaflet = () => {

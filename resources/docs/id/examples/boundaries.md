@@ -5,12 +5,12 @@ import Boundaries from '../../components/Boundaries.vue';
 # Demo Batas Wilayah
 
 Rendering GeoJSON for `75` (Kota Pekalongan) in `33` (Jawa Tengah)  
-Source: <a href="https://nusa.creasi.dev/static/33/75.geojson" target="_blank">https://nusa.creasi.dev/static/33/75.geojson</a>
+Source: <a href="https://nusa.creasi.dev/api/33/75.geojson" target="_blank">https://nusa.creasi.dev/api/33/75.geojson</a>
 
 ```js
 import L from 'leaflet'
 
-const DEMO_URL = 'https://nusa.creasi.dev/static/33/75.geojson'
+const DEMO_URL = 'https://nusa.creasi.dev/api/33/75.geojson'
 
 try {
     // Initialize Map
