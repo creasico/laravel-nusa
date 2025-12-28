@@ -156,6 +156,10 @@ class GenerateStaticCommand extends Command
 
     private function writeGeoJson(string $kind, array $value, string $path): void
     {
+        if (empty($value['coordinates'])) {
+            return;
+        }
+
         $structure = $this->formatGeoJson(
             $kind,
             $value['code'],
