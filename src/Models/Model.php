@@ -48,7 +48,7 @@ abstract class Model extends EloquentModel implements HasCoordinate
         return \array_merge(parent::getFillable(), ['code', 'name', 'coordinates']);
     }
 
-    public function scopeSearch(Builder $query, string $keyword)
+    public function scopeSearch(Builder $query, string $keyword): Builder
     {
         return $query->whereRaw(match ($this->getConnection()->getDriverName()) {
             'pgsql' => 'name ilike ?',

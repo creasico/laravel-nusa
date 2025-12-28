@@ -73,7 +73,7 @@ class Address extends EloquentModel implements AddressContract
     }
 
     /**
-     * @return MorphTo<TAddressableModel>
+     * @see AddressContract::addressable()
      */
     public function addressable(): MorphTo
     {
