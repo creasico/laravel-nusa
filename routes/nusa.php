@@ -7,14 +7,6 @@ use Creasi\Nusa\Http\Controllers\RegencyController;
 use Creasi\Nusa\Http\Controllers\VillageController;
 use Illuminate\Support\Facades\Route;
 
-Route::controller(ApiController::class)->group(function () {
-    Route::get('', 'index')->name('index');
-    Route::get('{province}', 'province')->name('province');
-    Route::get('{province}/{regency}', 'regency')->name('regency');
-    Route::get('{province}/{regency}/{district}', 'district')->name('district');
-    Route::get('{province}/{regency}/{district}/{village}', 'village')->name('village');
-});
-
 Route::controller(ProvinceController::class)->prefix('provinces')->group(function () {
     Route::get('', 'index')->name('provinces.index');
     Route::get('{province}', 'show')->name('provinces.show');
@@ -39,4 +31,12 @@ Route::controller(DistrictController::class)->prefix('districts')->group(functio
 Route::controller(VillageController::class)->prefix('villages')->group(function () {
     Route::get('', 'index')->name('villages.index');
     Route::get('{village}', 'show')->name('villages.show');
+});
+
+Route::controller(ApiController::class)->group(function () {
+    Route::get('', 'index')->name('index');
+    Route::get('{province}', 'province')->name('province');
+    Route::get('{province}/{regency}', 'regency')->name('regency');
+    Route::get('{province}/{regency}/{district}', 'district')->name('district');
+    Route::get('{province}/{regency}/{district}/{village}', 'village')->name('village');
 });
