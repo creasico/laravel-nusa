@@ -46,8 +46,8 @@ trait WithVillages
         ));
     }
 
-    public function distinctVillagesByPostalCodes()
+    public function distinctVillagesByPostalCodes(): HasMany
     {
-        return $this->villages()->distinct('postal_code')->groupBy('postal_code');
+        return $this->villages()->distinct('postal_code');
     }
 }
