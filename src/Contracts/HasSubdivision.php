@@ -11,5 +11,8 @@ use Illuminate\Database\Eloquent\Collection;
  */
 interface HasSubdivision
 {
+    /**
+     * @return Collection<int, \Creasi\Nusa\Models\Model>
+     */
     public function subdivisions(): Collection;
 }

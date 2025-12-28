@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Creasi\Nusa\Contracts;
 
+use Illuminate\Database\Eloquent\Relations\MorphMany;
+
 /**
  * @property-read \Illuminate\Database\Eloquent\Collection<int, Address> $addresses
  *
@@ -12,7 +14,7 @@ namespace Creasi\Nusa\Contracts;
 interface HasAddresses
 {
     /**
-     * @return \Illuminate\Database\Eloquent\Relations\MorphMany|Address
+     * @return MorphMany<Address, $this>
      */
-    public function addresses();
+    public function addresses(): MorphMany;
 }

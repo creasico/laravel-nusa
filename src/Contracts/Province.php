@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Creasi\Nusa\Contracts;
 
+use Illuminate\Database\Eloquent\Relations\HasMany;
+
 /**
  * @property-read \Illuminate\Support\Collection<int, Regency> $regencies
  * @property-read \Illuminate\Support\Collection<int, District> $districts
@@ -14,17 +16,17 @@ namespace Creasi\Nusa\Contracts;
 interface Province extends HasSubdivision
 {
     /**
-     * @return \Illuminate\Database\Eloquent\Relations\HasMany|Regency
+     * @return HasMany<Regency, $this>
      */
-    public function regencies();
+    public function regencies(): HasMany;
 
     /**
-     * @return \Illuminate\Database\Eloquent\Relations\HasMany|District
+     * @return HasMany<District, $this>
      */
-    public function districts();
+    public function districts(): HasMany;
 
     /**
-     * @return \Illuminate\Database\Eloquent\Relations\HasMany|Village
+     * @return HasMany<Village, $this>
      */
-    public function villages();
+    public function villages(): HasMany;
 }
