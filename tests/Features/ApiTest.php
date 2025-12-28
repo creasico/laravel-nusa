@@ -78,6 +78,18 @@ class ApiTest extends TestCase
 
     #[Test]
     #[Depends('it_shows_all_provinces_as_json')]
+    public function it_throws_404_on_invalid_province(string $province): void
+    {
+        $response = $this->getJson($this->path('invalid'));
+
+        $response->assertNotFound()
+            ->assertExactJson([
+                'message' => 'The route nusa/invalid could not be found.',
+            ]);
+    }
+
+    #[Test]
+    #[Depends('it_shows_all_provinces_as_json')]
     public function it_shows_all_regencies_in_a_province_as_json(string $province): string
     {
         $response = $this->getJson($this->path($province));
@@ -136,6 +148,18 @@ class ApiTest extends TestCase
         ]);
 
         $response->assertNotAcceptable();
+    }
+
+    #[Test]
+    #[Depends('it_shows_all_regencies_in_a_province_as_json')]
+    public function it_throws_404_on_invalid_regency(string $regency): void
+    {
+        $response = $this->getJson($this->path('invalid/invalid'));
+
+        $response->assertNotFound()
+            ->assertExactJson([
+                'message' => 'The route nusa/invalid/invalid could not be found.',
+            ]);
     }
 
     #[Test]
@@ -202,6 +226,18 @@ class ApiTest extends TestCase
 
     #[Test]
     #[Depends('it_shows_all_districts_in_a_regency_as_json')]
+    public function it_throws_404_on_invalid_district(string $district): void
+    {
+        $response = $this->getJson($this->path('invalid/invalid/invalid'));
+
+        $response->assertNotFound()
+            ->assertExactJson([
+                'message' => 'The route nusa/invalid/invalid/invalid could not be found.',
+            ]);
+    }
+
+    #[Test]
+    #[Depends('it_shows_all_districts_in_a_regency_as_json')]
     public function it_shows_all_villages_in_a_district_as_json(string $district): string
     {
         $response = $this->getJson($this->path($district));
@@ -260,6 +296,18 @@ class ApiTest extends TestCase
         ]);
 
         $response->assertNotAcceptable();
+    }
+
+    #[Test]
+    #[Depends('it_shows_all_villages_in_a_district_as_json')]
+    public function it_throws_404_on_invalid_village(string $village): void
+    {
+        $response = $this->getJson($this->path('invalid/invalid/invalid/invalid'));
+
+        $response->assertNotFound()
+            ->assertExactJson([
+                'message' => 'The route nusa/invalid/invalid/invalid/invalid could not be found.',
+            ]);
     }
 
     #[Test]

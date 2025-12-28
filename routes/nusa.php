@@ -35,8 +35,23 @@ Route::controller(VillageController::class)->prefix('villages')->group(function 
 
 Route::controller(ApiController::class)->group(function () {
     Route::get('', 'index')->name('index');
-    Route::get('{province}', 'province')->name('province');
-    Route::get('{province}/{regency}', 'regency')->name('regency');
-    Route::get('{province}/{regency}/{district}', 'district')->name('district');
-    Route::get('{province}/{regency}/{district}/{village}', 'village')->name('village');
+
+    Route::get('{province}', 'province')->name('province')->where($province = [
+        'province' => '[0-9]{2}',
+    ]);
+
+    Route::get('{province}/{regency}', 'regency')->name('regency')->where($regency = [
+        ...$province,
+        'regency' => '[0-9]{2}',
+    ]);
+
+    Route::get('{province}/{regency}/{district}', 'district')->name('district')->where($district = [
+        ...$regency,
+        'district' => '[0-9]{2}',
+    ]);
+
+    Route::get('{province}/{regency}/{district}/{village}', 'village')->name('village')->where($village = [
+        ...$district,
+        'village' => '[0-9]{4}',
+    ]);
 });
