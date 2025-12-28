@@ -7,7 +7,7 @@ namespace Creasi\Nusa\Models;
 use Creasi\Nusa\Contracts\Regency as RegencyContract;
 use Illuminate\Database\Eloquent\Collection;
 
-class Regency extends Model implements RegencyContract
+final class Regency extends Model implements RegencyContract
 {
     /** @use Concerns\WithDistricts<static> */
     use Concerns\WithDistricts;

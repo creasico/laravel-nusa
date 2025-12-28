@@ -11,7 +11,7 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 /**
  * @property-read \Illuminate\Database\Eloquent\Collection<int, Regency> $regencies
  */
-class Province extends Model implements ProvinceContract
+final class Province extends Model implements ProvinceContract
 {
     /** @use Concerns\WithDistricts<static> */
     use Concerns\WithDistricts;
