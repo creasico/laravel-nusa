@@ -13,6 +13,11 @@ final class ApiRequest extends FormRequest
         return [];
     }
 
+    /**
+     * Retrieve the acceptable format.
+     *
+     * @return 'application/json'|'application/geo+json'|'text/csv'|string
+     */
     public function getAcceptable(): string
     {
         $accepts = $this->getAcceptableContentTypes();
@@ -24,5 +29,18 @@ final class ApiRequest extends FormRequest
         [$accept] = explode(';', $accepts[0]);
 
         return $accept;
+    }
+
+    /**
+     * Retrieve the model key from route parameter.
+     */
+    public function code(string $separator = '.'): string
+    {
+        return implode($separator, array_filter([
+            $this->route('province'),
+            $this->route('regency'),
+            $this->route('district'),
+            $this->route('village'),
+        ]));
     }
 }

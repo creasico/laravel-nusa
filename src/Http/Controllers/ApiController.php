@@ -35,10 +35,10 @@ final class ApiController
         };
     }
 
-    public function province(ApiRequest $request, Province $model, string $province): JsonResponse|StreamedResponse
+    public function province(ApiRequest $request, Province $model): JsonResponse|StreamedResponse
     {
         /** @var \Creasi\Nusa\Models\Province */
-        $data = $model->with('regencies')->findOrFail($province);
+        $data = $model->with('regencies')->findOrFail($request->code());
 
         return match ($request->getAcceptable()) {
             'application/json' => response()->json($data->toArray(), 200),
@@ -50,10 +50,10 @@ final class ApiController
         };
     }
 
-    public function regency(ApiRequest $request, Regency $model, string $province, string $regency): JsonResponse|StreamedResponse
+    public function regency(ApiRequest $request, Regency $model): JsonResponse|StreamedResponse
     {
         /** @var \Creasi\Nusa\Models\Regency */
-        $data = $model->with('districts')->findOrFail("{$province}.{$regency}");
+        $data = $model->with('districts')->findOrFail($request->code());
 
         return match ($request->getAcceptable()) {
             'application/json' => response()->json($data->toArray(), 200),
@@ -65,10 +65,10 @@ final class ApiController
         };
     }
 
-    public function district(ApiRequest $request, District $model, string $province, string $regency, string $district): JsonResponse|StreamedResponse
+    public function district(ApiRequest $request, District $model): JsonResponse|StreamedResponse
     {
         /** @var \Creasi\Nusa\Models\District */
-        $data = $model->with('villages')->findOrFail("{$province}.{$regency}.{$district}");
+        $data = $model->with('villages')->findOrFail($request->code());
 
         return match ($request->getAcceptable()) {
             'application/json' => response()->json($data->toArray(), 200),
@@ -80,9 +80,9 @@ final class ApiController
         };
     }
 
-    public function village(ApiRequest $request, Village $model, string $province, string $regency, string $district, string $village): JsonResponse
+    public function village(ApiRequest $request, Village $model): JsonResponse
     {
-        $data = $model->findOrFail("{$province}.{$regency}.{$district}.{$village}");
+        $data = $model->findOrFail($request->code());
 
         return match ($request->getAcceptable()) {
             'application/json' => response()->json($data->toArray(), 200),
