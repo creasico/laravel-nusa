@@ -122,7 +122,7 @@ final class ApiController
     {
         if ($data->coordinates === null) {
             $path = str_replace('.', '/', $data->code);
-            $geojson = Http::get("https://nusa.creasi.dev/static/{$path}.geojson");
+            $geojson = Http::acceptJson()->get("https://nusa.creasi.dev/api/{$path}.geojson");
 
             [$content, $type, $status] = match ($geojson->status()) {
                 200 => [

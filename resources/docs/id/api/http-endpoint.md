@@ -4,10 +4,10 @@ Laravel Nusa menyediakan **Static Data API** yang lengkap yang memungkinkan Anda
 
 ## URL Dasar
 
-API statis dapat diakses melalui path `/static` pada domain aplikasi Anda. Untuk lingkungan demo:
+API statis dapat diakses melalui path `/api` pada domain aplikasi Anda. Untuk lingkungan demo:
 
 ```
-https://nusa.creasi.dev/static/
+https://nusa.creasi.dev/api/
 ```
 
 ## Format Data
@@ -32,22 +32,22 @@ Anda dapat mengambil daftar utama semua provinsi atau detail untuk provinsi tert
 
 **Daftar semua Provinsi**
 ```http
-GET /static
-GET /static/index.json
-GET /static/index.csv
+GET /api
+GET /api/index.json
+GET /api/index.csv
 ```
 
 **Detail Provinsi Tertentu**
 Mengembalikan data provinsi dan daftar semua kabupaten/kota di dalamnya.
 ```http
-GET /static/{province_code}
-GET /static/{province_code}.json
-GET /static/{province_code}.csv
-GET /static/{province_code}.geojson
+GET /api/{province_code}
+GET /api/{province_code}.json
+GET /api/{province_code}.csv
+GET /api/{province_code}.geojson
 ```
 
 **Contoh:**
-- `https://nusa.creasi.dev/static/11` (Aceh)
+- `https://nusa.creasi.dev/api/11` (Aceh)
 
 ### 2. Kabupaten/Kota
 
@@ -55,14 +55,14 @@ Mengambil detail untuk kabupaten/kota tertentu, termasuk daftar semua kecamatan 
 
 **Pola URL**
 ```http
-GET /static/{province_code}/{regency_code}
-GET /static/{province_code}/{regency_code}.json
-GET /static/{province_code}/{regency_code}.csv
-GET /static/{province_code}/{regency_code}.geojson
+GET /api/{province_code}/{regency_code}
+GET /api/{province_code}/{regency_code}.json
+GET /api/{province_code}/{regency_code}.csv
+GET /api/{province_code}/{regency_code}.geojson
 ```
 
 **Contoh:**
-- `https://nusa.creasi.dev/static/11/01` (Kab. Aceh Selatan)
+- `https://nusa.creasi.dev/api/11/01` (Kab. Aceh Selatan)
 
 ### 3. Kecamatan
 
@@ -70,14 +70,14 @@ Mengambil detail untuk kecamatan tertentu, termasuk daftar semua desa/kelurahan 
 
 **Pola URL**
 ```http
-GET /static/{province_code}/{regency_code}/{district_code}
-GET /static/{province_code}/{regency_code}/{district_code}.json
-GET /static/{province_code}/{regency_code}/{district_code}.csv
-GET /static/{province_code}/{regency_code}/{district_code}.geojson
+GET /api/{province_code}/{regency_code}/{district_code}
+GET /api/{province_code}/{regency_code}/{district_code}.json
+GET /api/{province_code}/{regency_code}/{district_code}.csv
+GET /api/{province_code}/{regency_code}/{district_code}.geojson
 ```
 
 **Contoh:**
-- `https://nusa.creasi.dev/static/11/01/01` (Kec. Bakongan)
+- `https://nusa.creasi.dev/api/11/01/01` (Kec. Bakongan)
 
 ### 4. Kelurahan/Desa
 
@@ -85,19 +85,19 @@ Mengambil detail untuk desa/kelurahan tertentu.
 
 **Pola URL**
 ```http
-GET /static/{province_code}/{regency_code}/{district_code}/{village_code}
-GET /static/{province_code}/{regency_code}/{district_code}/{village_code}.json
-GET /static/{province_code}/{regency_code}/{district_code}/{village_code}.csv
-GET /static/{province_code}/{regency_code}/{district_code}/{village_code}.geojson
+GET /api/{province_code}/{regency_code}/{district_code}/{village_code}
+GET /api/{province_code}/{regency_code}/{district_code}/{village_code}.json
+GET /api/{province_code}/{regency_code}/{district_code}/{village_code}.csv
+GET /api/{province_code}/{regency_code}/{district_code}/{village_code}.geojson
 ```
 
 **Contoh:**
-- `https://nusa.creasi.dev/static/11/01/01/2001` (Gampong Keude Bakongan)
+- `https://nusa.creasi.dev/api/11/01/01/2001` (Gampong Keude Bakongan)
 
 ## Contoh Respons
 
 ### Respons JSON (Provinsi)
-Permintaan: `GET /static/11.json`
+Permintaan: `GET /api/11.json`
 
 ```json
 {
@@ -119,7 +119,7 @@ Permintaan: `GET /static/11.json`
 ```
 
 ### Respons GeoJSON
-Permintaan: `GET /static/11.geojson`
+Permintaan: `GET /api/11.geojson`
 
 ```json
 {
@@ -141,7 +141,7 @@ Karena ini adalah file statis, Anda dapat mengambilnya secara langsung menggunak
 
 ```javascript
 // Contoh: Mengambil data kecamatan untuk kabupaten yang dipilih
-fetch(`https://nusa.creasi.dev/static/11/01`)
+fetch(`https://nusa.creasi.dev/api/11/01`)
     .then(response => response.json())
     .then(data => {
         console.log("Regency:", data.name);

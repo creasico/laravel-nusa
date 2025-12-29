@@ -96,7 +96,7 @@ jobs:
         uses: actions/download-artifact@v6
         with:
           name: static-artifacts-${{ github.ref_name }}
-          path: resources/docs/.vitepress/dist/static
+          path: resources/docs/.vitepress/dist/api
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
