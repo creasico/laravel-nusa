@@ -10,6 +10,7 @@ use Creasi\Nusa\Contracts\Regency;
 use Creasi\Nusa\Contracts\Village;
 use Creasi\Nusa\Models\Province;
 use Creasi\Tests\TestCase;
+use Illuminate\Contracts\Database\Eloquent\Builder;
 use Illuminate\Support\Collection;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Depends;
@@ -40,19 +41,14 @@ class ProvinceTest extends TestCase
      * @return Collection<int, Province>
      */
     #[Test]
-    public function it_should_be_true(): Collection
+    public function it_should_have_correct_province_instance(): Collection
     {
         $provinces = Province::with([
-            'regencies' => function ($query) {
-                $query->take(10);
-            },
-            'districts' => function ($query) {
-                $query->take(10);
-            },
-            'villages' => function ($query) {
-                $query->take(10);
-            },
-        ])->get();
+            'regencies' => fn (Builder $query) => $query->take(10),
+            'districts' => fn (Builder $query) => $query->take(10),
+            'villages' => fn (Builder $query) => $query->take(10),
+            'distinctVillagesByPostalCodes',
+        ])->take(3)->get();
 
         $provinces->each(function (Province $province) {
             $this->assertIsString($province->code, 'Code should be string');
@@ -70,7 +66,7 @@ class ProvinceTest extends TestCase
      * @return Collection<int, Province>
      */
     #[Test]
-    #[Depends('it_should_be_true')]
+    #[Depends('it_should_have_correct_province_instance')]
     public function it_should_has_many_regencies(Collection $provinces): Collection
     {
         $regencies = collect();
@@ -89,7 +85,7 @@ class ProvinceTest extends TestCase
      * @return Collection<int, Province>
      */
     #[Test]
-    #[Depends('it_should_be_true')]
+    #[Depends('it_should_have_correct_province_instance')]
     public function it_should_has_many_districts(Collection $provinces): Collection
     {
         $districts = \collect();
@@ -108,7 +104,7 @@ class ProvinceTest extends TestCase
      * @return Collection<int, Province>
      */
     #[Test]
-    #[Depends('it_should_be_true')]
+    #[Depends('it_should_have_correct_province_instance')]
     public function it_should_has_many_villages(Collection $provinces): Collection
     {
         $villages = \collect();

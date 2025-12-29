@@ -49,8 +49,8 @@ class VillageTest extends TestCase
     {
         $villages->each(function (Village $village) {
             $this->assertIsString($village->code, 'Code should be string');
-            // $this->assertIsFloat($village->latitude, \sprintf('Latitude of village "%s" should be float', $village->code));
-            // $this->assertIsFloat($village->longitude, \sprintf('Longitude of village "%s" should be float', $village->code));
+            $this->assertIsFloat($village->latitude, \sprintf('Latitude of village "%s" should be float', $village->code));
+            $this->assertIsFloat($village->longitude, \sprintf('Longitude of village "%s" should be float', $village->code));
             if ($village->postal_code) {
                 $this->assertIsInt($village->postal_code, 'Postal Code should be int');
             }
