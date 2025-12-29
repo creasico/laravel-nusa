@@ -29,6 +29,8 @@ class ApiTest extends TestCase
         ],
     ];
 
+    private const ACCEPT_HEADERS = ['application/json', '*/*', '*'];
+
     protected $path = 'nusa';
 
     public static function availableQueries(): array
@@ -44,11 +46,15 @@ class ApiTest extends TestCase
     #[Test]
     public function it_shows_all_provinces_as_json(): string
     {
-        $response = $this->getJson($this->path);
+        foreach (self::ACCEPT_HEADERS as $accept) {
+            $response = $this->get($this->path, [
+                'Accept' => $accept,
+            ]);
 
-        $response->assertOk()
-            ->assertHeader('Content-Type', 'application/json')
-            ->assertJsonStructure(['*' => self::JSON_FIELDS]);
+            $response->assertOk()
+                ->assertHeader('Content-Type', 'application/json')
+                ->assertJsonStructure(['*' => self::JSON_FIELDS]);
+        }
 
         return collect($response->json())
             ->pluck('code')
@@ -70,11 +76,8 @@ class ApiTest extends TestCase
     #[Test]
     public function it_throws_406_on_unacceptable_index_format(): void
     {
-        $response = $this->get($this->path, [
-            'Accept' => '*/*',
-        ]);
-
-        $response->assertNotAcceptable();
+        // By default this will sent 'Accept: text/html' header.
+        $this->get($this->path)->assertNotAcceptable();
     }
 
     #[Test]
@@ -92,14 +95,18 @@ class ApiTest extends TestCase
     #[Depends('it_shows_all_provinces_as_json')]
     public function it_shows_all_regencies_in_a_province_as_json(string $province): string
     {
-        $response = $this->getJson($this->path($province));
-
-        $response->assertOk()
-            ->assertHeader('Content-Type', 'application/json')
-            ->assertJsonStructure([
-                ...self::JSON_FIELDS,
-                'regencies' => ['*' => self::JSON_FIELDS],
+        foreach (self::ACCEPT_HEADERS as $accept) {
+            $response = $this->get($this->path($province), [
+                'Accept' => $accept,
             ]);
+
+            $response->assertOk()
+                ->assertHeader('Content-Type', 'application/json')
+                ->assertJsonStructure([
+                    ...self::JSON_FIELDS,
+                    'regencies' => ['*' => self::JSON_FIELDS],
+                ]);
+        }
 
         $province = $response->json();
 
@@ -142,11 +149,8 @@ class ApiTest extends TestCase
     #[Depends('it_shows_all_provinces_as_json')]
     public function it_throws_406_on_unacceptable_province_format(string $province): void
     {
-        $response = $this->get($this->path($province), [
-            'Accept' => '*/*',
-        ]);
-
-        $response->assertNotAcceptable();
+        // By default this will sent 'Accept: text/html' header.
+        $this->get($this->path($province))->assertNotAcceptable();
     }
 
     #[Test]
@@ -164,14 +168,18 @@ class ApiTest extends TestCase
     #[Depends('it_shows_all_regencies_in_a_province_as_json')]
     public function it_shows_all_districts_in_a_regency_as_json(string $regency): string
     {
-        $response = $this->getJson($this->path($regency));
-
-        $response->assertOk()
-            ->assertHeader('Content-Type', 'application/json')
-            ->assertJsonStructure([
-                ...self::JSON_FIELDS,
-                'districts' => ['*' => self::JSON_FIELDS],
+        foreach (self::ACCEPT_HEADERS as $accept) {
+            $response = $this->get($this->path($regency), [
+                'Accept' => $accept,
             ]);
+
+            $response->assertOk()
+                ->assertHeader('Content-Type', 'application/json')
+                ->assertJsonStructure([
+                    ...self::JSON_FIELDS,
+                    'districts' => ['*' => self::JSON_FIELDS],
+                ]);
+        }
 
         $regency = $response->json();
 
@@ -214,11 +222,8 @@ class ApiTest extends TestCase
     #[Depends('it_shows_all_regencies_in_a_province_as_json')]
     public function it_throws_406_on_unacceptable_regency_format(string $regency): void
     {
-        $response = $this->get($this->path($regency), [
-            'Accept' => '*/*',
-        ]);
-
-        $response->assertNotAcceptable();
+        // By default this will sent 'Accept: text/html' header.
+        $this->get($this->path($regency))->assertNotAcceptable();
     }
 
     #[Test]
@@ -236,14 +241,18 @@ class ApiTest extends TestCase
     #[Depends('it_shows_all_districts_in_a_regency_as_json')]
     public function it_shows_all_villages_in_a_district_as_json(string $district): string
     {
-        $response = $this->getJson($this->path($district));
-
-        $response->assertOk()
-            ->assertHeader('Content-Type', 'application/json')
-            ->assertJsonStructure([
-                ...self::JSON_FIELDS,
-                'villages' => ['*' => self::JSON_FIELDS],
+        foreach (self::ACCEPT_HEADERS as $accept) {
+            $response = $this->get($this->path($district), [
+                'Accept' => $accept,
             ]);
+
+            $response->assertOk()
+                ->assertHeader('Content-Type', 'application/json')
+                ->assertJsonStructure([
+                    ...self::JSON_FIELDS,
+                    'villages' => ['*' => self::JSON_FIELDS],
+                ]);
+        }
 
         $district = $response->json();
 
@@ -286,11 +295,8 @@ class ApiTest extends TestCase
     #[Depends('it_shows_all_districts_in_a_regency_as_json')]
     public function it_throws_406_on_unacceptable_district_format(string $district): void
     {
-        $response = $this->get($this->path($district), [
-            'Accept' => '*/*',
-        ]);
-
-        $response->assertNotAcceptable();
+        // By default this will sent 'Accept: text/html' header.
+        $this->get($this->path($district))->assertNotAcceptable();
     }
 
     #[Test]
@@ -308,14 +314,15 @@ class ApiTest extends TestCase
     #[Depends('it_shows_all_villages_in_a_district_as_json')]
     public function it_shows_a_village_as_json(string $village): void
     {
-        $response = $this->getJson($this->path($village));
-
-        $response->assertOk()
-            ->assertHeader('Content-Type', 'application/json')
-            ->assertJsonStructure([
-                ...self::JSON_FIELDS,
-                'postal_code',
+        foreach (self::ACCEPT_HEADERS as $accept) {
+            $response = $this->get($this->path($village), [
+                'Accept' => $accept,
             ]);
+
+            $response->assertOk()
+                ->assertHeader('Content-Type', 'application/json')
+                ->assertJsonStructure(self::JSON_FIELDS);
+        }
     }
 
     #[Test]
@@ -335,11 +342,8 @@ class ApiTest extends TestCase
     #[Depends('it_shows_all_villages_in_a_district_as_json')]
     public function it_throws_406_on_unacceptable_village_format(string $village): void
     {
-        $response = $this->get($this->path($village), [
-            'Accept' => '*/*',
-        ]);
-
-        $response->assertNotAcceptable();
+        // By default this will sent 'Accept: text/html' header.
+        $this->get($this->path($village))->assertNotAcceptable();
     }
 
     #[Test]

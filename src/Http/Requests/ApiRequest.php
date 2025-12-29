@@ -23,10 +23,16 @@ final class ApiRequest extends FormRequest
         $accepts = $this->getAcceptableContentTypes();
 
         if (count($accepts) === 0) {
-            return '*';
+            return 'application/json';
         }
 
         [$accept] = explode(';', $accepts[0]);
+
+        $accept = trim($accept);
+
+        if ($accept === '*/*' || $accept === '*') {
+            return 'application/json';
+        }
 
         return $accept;
     }
