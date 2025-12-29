@@ -41,6 +41,9 @@ class ServiceProvider extends IlluminateServiceProvider
         $this->registerBindings();
     }
 
+    /**
+     * @codeCoverageIgnore
+     */
     protected function defineRoutes()
     {
         if (app()->routesAreCached() && config('creasi.nusa.routes_enable') === false) {
@@ -97,6 +100,9 @@ class ServiceProvider extends IlluminateServiceProvider
             ->first();
     }
 
+    /**
+     * @codeCoverageIgnore
+     */
     public function provides()
     {
         return [
