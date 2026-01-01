@@ -92,7 +92,7 @@ jobs:
           echo "BRANCH_TOKEN=${GIT_BRANCH/\//_}" >> $GITHUB_OUTPUT
 
       - name: Upload sqlite artifacts
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v6
         if: ${{ inputs.generate-static == true || steps.stats.outputs.has-changes == '1' }}
         with:
           name: sqlite-artifacts_${{ steps.stats.outputs.BRANCH_TOKEN }}
@@ -109,7 +109,7 @@ jobs:
           du -hd 1 resources/static
 
       - name: Upload static artifacts
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v6
         if: ${{ inputs.generate-static == true || steps.stats.outputs.has-changes == '1' }}
         with:
           name: static-artifacts-${{ env.GIT_BRANCH }}
