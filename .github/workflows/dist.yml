@@ -38,7 +38,7 @@ jobs:
 
       - name: Cache upstream
         id: upstream
-        uses: actions/cache/restore@v4
+        uses: actions/cache/restore@v5
         with:
           path: database/nusa.*.sqlite
           key: upstream-database_${{ github.ref_name }}_${{ hashFiles('**/*.sql') }}
