@@ -139,7 +139,7 @@ jobs:
           ./cc-test-reporter format-coverage -t clover -o $CODECLIMATE_REPORT tests/reports/clover.xml
 
       - name: Store tests reports
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v6
         if: false # TODO: after #197
         with:
           retention-days: 14
