@@ -13,18 +13,18 @@
     },
     "devDependencies": {
         "@braintree/sanitize-url": "^7.1.1",
-        "@commitlint/cli": "^19.8.1",
-        "@commitlint/config-conventional": "^19.8.1",
-        "cytoscape": "^3.32.1",
+        "@commitlint/cli": "^20.3.1",
+        "@commitlint/config-conventional": "^20.3.1",
+        "cytoscape": "^3.33.1",
         "cytoscape-cose-bilkent": "^4.1.0",
-        "dayjs": "^1.11.13",
-        "debug": "^4.4.1",
-        "lint-staged": "^16.0.0",
-        "mermaid": "^11.8.1",
-        "simple-git-hooks": "^2.13.0",
-        "vitepress": "^1.6.3",
+        "dayjs": "^1.11.19",
+        "debug": "^4.4.3",
+        "lint-staged": "^16.2.7",
+        "mermaid": "^11.12.2",
+        "simple-git-hooks": "^2.13.1",
+        "vitepress": "^1.6.4",
         "vitepress-plugin-mermaid": "^2.0.17",
-        "vue": "^3.5.17"
+        "vue": "^3.5.27"
     },
     "commitlint": {
         "extends": [
