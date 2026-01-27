@@ -40,7 +40,10 @@
         "onlyBuiltDependencies": [
             "esbuild",
             "simple-git-hooks"
-        ]
+        ],
+        "overrides": {
+            "lodash-es": "4.17.23"
+        }
     },
     "simple-git-hooks": {
         "commit-msg": "pnpm exec commitlint --edit $1",
