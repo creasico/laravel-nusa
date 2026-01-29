@@ -117,7 +117,7 @@ jobs:
         uses: actions/upload-artifact@v6
         if: ${{ inputs.generate-static == true || steps.stats.outputs.has-changes == '1' }}
         with:
-          name: static-artifacts-${{ env.GIT_BRANCH }}
+          name: static-artifacts-${{ steps.stats.outputs.BRANCH_TOKEN }}
           path: resources/static
           retention-days: 30
           overwrite: true
