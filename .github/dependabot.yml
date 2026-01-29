@@ -2,36 +2,36 @@ version: 2
 
 updates:
   - package-ecosystem: gitsubmodule
-    directory: "/"
+    directory: /
     schedule:
       interval: weekly
-      timezone: "Asia/Jakarta"
+      timezone: Asia/Jakarta
 
   - package-ecosystem: github-actions
-    directory: "/"
+    directory: /
     schedule:
       interval: monthly
-      timezone: "Asia/Jakarta"
+      timezone: Asia/Jakarta
 
   - package-ecosystem: composer
-    directory: "/"
+    directory: /
     schedule:
       interval: monthly
-      timezone: "Asia/Jakarta"
+      timezone: Asia/Jakarta
     versioning-strategy: lockfile-only
     groups:
       dependencies:
-        dependency-type: "production"
+        dependency-type: production
         patterns: ['*']
       dev-dependencies:
-        dependency-type: "development"
+        dependency-type: development
         patterns: ['*']
 
   - package-ecosystem: npm
-    directory: "/"
+    directory: /
     schedule:
       interval: monthly
-      timezone: "Asia/Jakarta"
+      timezone: Asia/Jakarta
     versioning-strategy: lockfile-only
     groups:
       dependencies:
