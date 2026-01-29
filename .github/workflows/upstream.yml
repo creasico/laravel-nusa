@@ -89,7 +89,12 @@ jobs:
           COLUMNS: 160
         run: |
           vendor/bin/testbench nusa:stat --ansi
-          echo "BRANCH_TOKEN=${GIT_BRANCH/\//_}" >> $GITHUB_OUTPUT
+
+          if [[ "$GIT_BRANCH" == dependabot* ]]; then
+            echo "BRANCH_TOKEN=${GIT_BRANCH##*/}" >> $GITHUB_OUTPUT
+          else
+            echo "BRANCH_TOKEN=${GIT_BRANCH//\//_}" >> $GITHUB_OUTPUT
+          fi
 
       - name: Upload sqlite artifacts
         uses: actions/upload-artifact@v6
