@@ -97,7 +97,7 @@ jobs:
           fi
 
       - name: Upload sqlite artifacts
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         if: ${{ inputs.generate-static == true || steps.stats.outputs.has-changes == '1' }}
         with:
           name: sqlite-artifacts_${{ steps.stats.outputs.BRANCH_TOKEN }}
@@ -114,7 +114,7 @@ jobs:
           du -hd 1 resources/static
 
       - name: Upload static artifacts
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         if: ${{ inputs.generate-static == true || steps.stats.outputs.has-changes == '1' }}
         with:
           name: static-artifacts-${{ steps.stats.outputs.BRANCH_TOKEN }}
