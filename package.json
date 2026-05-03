@@ -12,19 +12,19 @@
         "docs:preview": "vitepress preview resources/docs"
     },
     "devDependencies": {
-        "@braintree/sanitize-url": "^7.1.1",
-        "@commitlint/cli": "^20.3.1",
-        "@commitlint/config-conventional": "^20.3.1",
-        "cytoscape": "^3.33.1",
+        "@braintree/sanitize-url": "^7.1.2",
+        "@commitlint/cli": "^20.5.3",
+        "@commitlint/config-conventional": "^20.5.3",
+        "cytoscape": "^3.33.3",
         "cytoscape-cose-bilkent": "^4.1.0",
-        "dayjs": "^1.11.19",
+        "dayjs": "^1.11.20",
         "debug": "^4.4.3",
-        "lint-staged": "^16.2.7",
-        "mermaid": "^11.12.2",
+        "lint-staged": "^16.4.0",
+        "mermaid": "^11.14.0",
         "simple-git-hooks": "^2.13.1",
         "vitepress": "^1.6.4",
         "vitepress-plugin-mermaid": "^2.0.17",
-        "vue": "^3.5.27"
+        "vue": "^3.5.33"
     },
     "commitlint": {
         "extends": [
