@@ -136,7 +136,7 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           flag-name: php${{ matrix.php }}-laravel${{ matrix.laravel }}-${{ matrix.db }}
-          file: tests/.coverage/clover.xml
+          file: tests/coverage/clover.xml
           parallel: true
 
   reports:
