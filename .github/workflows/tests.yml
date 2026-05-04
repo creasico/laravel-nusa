@@ -21,7 +21,7 @@ jobs:
       php-version: 8.2
       laravel-version: 11.x
     secrets:
-      CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
+      COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
 
   upstream:
     name: Upstream DB
@@ -128,31 +128,21 @@ jobs:
           vendor/bin/testbench migrate --ansi
           vendor/bin/testbench package:test --ansi --coverage
 
-      - name: Generate reports for CodeClimate
-        id: reports
-        if: false # TODO: after #197
+      - name: Generate reports for Coveralls
+        if: needs.configs.outputs.has-coveralls == '1'
+        uses: coverallsapp/github-action@v2
         env:
-          CODECLIMATE_REPORT: tests/reports/codeclimate.PHP${{ matrix.php }}-L${{ matrix.laravel }}-${{ matrix.db }}.json
-          CC_TEST_REPORTER_URL: ${{ vars.CC_TEST_REPORTER_URL }}
-        run: |
-          curl -LSs $CC_TEST_REPORTER_URL > ./cc-test-reporter && chmod +x ./cc-test-reporter
-          ./cc-test-reporter format-coverage -t clover -o $CODECLIMATE_REPORT tests/reports/clover.xml
-
-      - name: Store tests reports
-        uses: actions/upload-artifact@v7
-        if: false # TODO: after #197
+          COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
         with:
-          retention-days: 14
-          name: test-reports-PHP${{ matrix.php }}-L${{ matrix.laravel }}-${{ matrix.db }}
-          path: tests/reports/codeclimate.*.json
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          flag-name: php${{ matrix.php }}-laravel${{ matrix.laravel }}-${{ matrix.db }}
+          file: tests/coverage/clover.xml
+          parallel: true
 
   reports:
     name: Report Test Coverages
     needs: [configs, tests]
-    if: false # TODO: after #197
+    if: needs.configs.outputs.should-reports == '1'
     uses: projek-xyz/actions/.github/workflows/report.yml@main
-    secrets:
-      CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
     with:
       has-coveralls: ${{ needs.configs.outputs.has-coveralls == '1' }}
-      has-codeclimate: ${{ needs.configs.outputs.has-codeclimate == '1' }}
