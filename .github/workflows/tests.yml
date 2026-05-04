@@ -129,7 +129,7 @@ jobs:
           vendor/bin/testbench package:test --ansi --coverage
 
       - name: Generate reports for Coveralls
-        if: needs.prepare.outputs.has-coveralls == '1'
+        if: needs.configs.outputs.has-coveralls == '1'
         uses: coverallsapp/github-action@v2
         env:
           COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
