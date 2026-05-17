@@ -1,6 +1,33 @@
 # Changelog
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
+
+## [0.1.17](https://github.com/creasico/laravel-nusa/compare/v0.1.16...v0.1.17) (2026-05-17)
+
+
+### ⚠ BREAKING CHANGES
+
+* **static:** now `https://nusa.creasi.dev/static` no longer accessible, replaced with `https://nusa.creasi.dev/api`
+
+Signed-off-by: Fery Wardiyanto <ferywardiyanto@gmail.com>
+
+### Features
+
+* **api:** add new endpoint to follow static endpoints [#208](https://github.com/creasico/laravel-nusa/issues/208) ([#214](https://github.com/creasico/laravel-nusa/issues/214)) ([8f31ad3](https://github.com/creasico/laravel-nusa/commit/8f31ad392ede4be9b9822174a8e050c77d074ad8)), closes [#193](https://github.com/creasico/laravel-nusa/issues/193)
+* **ci:** drop codeclimate ([#259](https://github.com/creasico/laravel-nusa/issues/259)) ([5eead7b](https://github.com/creasico/laravel-nusa/commit/5eead7ba10d81a53bf48bbdfbb990ca9be719da2))
+* **deps:** replace `standard-version` with `commit-and-tag-version` ([#229](https://github.com/creasico/laravel-nusa/issues/229)) ([3deac41](https://github.com/creasico/laravel-nusa/commit/3deac41f5b8969b33c75b8ac83bf79c393c62238))
+* **dev:** rename `.agent.md` to `AGENTS.md` ([1c5e02f](https://github.com/creasico/laravel-nusa/commit/1c5e02f9fb4fa5c8ae74cf00809af7fc29dd1362))
+* **docs:** add sample code on Boundaries Demo page ([871c836](https://github.com/creasico/laravel-nusa/commit/871c836dfed08c20803a6455302c4478f66dbc1a))
+* set default accept header and simplify `GeometryHelpers` trait ([#219](https://github.com/creasico/laravel-nusa/issues/219)) ([f7c9dcb](https://github.com/creasico/laravel-nusa/commit/f7c9dcb5f629d236f7cef72dbfbd7e53592345a0))
+* **static:** change static json file url from `/static` to `/api` ([#215](https://github.com/creasico/laravel-nusa/issues/215)) ([23ce15b](https://github.com/creasico/laravel-nusa/commit/23ce15baad9c5803d12865dbe9721a23abe0bc12))
+
+
+### Bug Fixes
+
+* **api:** properly handle inavailability area `coordinates` ([#216](https://github.com/creasico/laravel-nusa/issues/216)) ([9026172](https://github.com/creasico/laravel-nusa/commit/9026172792803e377a00b09756c0c4a4a9339443))
+* **ci:** fix upstream artifact name ([#235](https://github.com/creasico/laravel-nusa/issues/235)) ([5e4a40f](https://github.com/creasico/laravel-nusa/commit/5e4a40fd84fc8e6054441d3f669a8327d585b054)), closes [#232](https://github.com/creasico/laravel-nusa/issues/232)
+* fix `geometry.type` for area boundaries ([#200](https://github.com/creasico/laravel-nusa/issues/200)) ([11dbc83](https://github.com/creasico/laravel-nusa/commit/11dbc83a373ca2a866173ffc39d549536b9959c3))
+* incorrect column lengths in `create_addresses_tables` migration ([#265](https://github.com/creasico/laravel-nusa/issues/265)) ([f4d2e52](https://github.com/creasico/laravel-nusa/commit/f4d2e5276dc10c614eaf0af799dce2224e6477b8)), closes [#239](https://github.com/creasico/laravel-nusa/issues/239)
 
 ### [0.1.16](https://github.com/creasico/laravel-nusa/compare/v0.1.15...v0.1.16) (2025-11-29)
 
