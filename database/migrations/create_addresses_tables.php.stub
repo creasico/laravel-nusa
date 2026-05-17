@@ -15,9 +15,9 @@ return new class extends Migration
             $table->id();
             $table->nullableMorphs('addressable');
             $table->string('line');
-            $table->char('village_code', 10)->nullable();
-            $table->char('district_code', 6)->nullable();
-            $table->char('regency_code', 4)->nullable();
+            $table->char('village_code', 13)->nullable();
+            $table->char('district_code', 8)->nullable();
+            $table->char('regency_code', 5)->nullable();
             $table->char('province_code', 2)->nullable();
             $table->char('postal_code', 5)->nullable();
 
