@@ -6,13 +6,10 @@ on:
       composer-cache-dir:
         type: string
         required: true
-      composer-cache-key:
-        type: string
-        required: true
       generate-static:
         type: boolean
         default: false
-      target-branch:
+      branch-name:
         type: string
         default: main
     outputs:
@@ -31,7 +28,7 @@ jobs:
       DB_PASSWORD: root
       DB_DATABASE: ${{ github.repository_owner }}
       UPSTREAM_DB_DATABASE: nusantara
-      GIT_BRANCH: ${{ inputs.target-branch }}
+      GIT_BRANCH: ${{ inputs.branch-name }}
 
     steps:
       - name: Checkout
@@ -66,8 +63,8 @@ jobs:
         uses: actions/cache@v5
         with:
           path: ${{ inputs.composer-cache-dir }}
-          key: ${{ inputs.composer-cache-key }}-composer-${{ hashFiles('**/composer.lock') }}
-          restore-keys: ${{ inputs.composer-cache-key }}-composer-
+          key: php-${{ matrix.php }}-l${{ matrix.laravel }}-composer-${{ hashFiles('**/composer.lock') }}
+          restore-keys: php-${{ matrix.php }}-l${{ matrix.laravel }}-composer-
 
       - name: Install dependencies
         run: |
