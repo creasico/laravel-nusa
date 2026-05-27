@@ -86,13 +86,13 @@
     "require": {
         "php": "^8.2",
         "ext-sqlite3": "*",
-        "laravel/framework": "^9.0|^10.0|^11.0|^12.0"
+        "laravel/framework": "^9.0|^10.0|^11.0|^12.0|^13.0"
     },
     "require-dev": {
         "composer-runtime-api": "*",
         "laravel/pint": "^1.1",
         "nunomaduro/collision": "^7.4|^8.0",
-        "orchestra/testbench": "^8.5|^9.0|^10.0",
+        "orchestra/testbench": "^8.5|^9.0|^10.0|^11.0",
         "phpmyadmin/sql-parser": "^6.0",
         "spatie/fork": "^1.2"
     },
