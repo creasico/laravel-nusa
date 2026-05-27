@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.1.18](https://github.com/creasico/laravel-nusa/compare/v0.1.17...v0.1.18) (2026-05-27)
+
+
+### Features
+
+* **deps:** add support for laravel 13 ([#267](https://github.com/creasico/laravel-nusa/issues/267)) ([111bfa6](https://github.com/creasico/laravel-nusa/commit/111bfa637ef7dd20b8c0a6e5eb514560b0099850))
+
 ## [0.1.17](https://github.com/creasico/laravel-nusa/compare/v0.1.16...v0.1.17) (2026-05-17)
 
 
