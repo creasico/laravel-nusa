@@ -93,7 +93,7 @@ jobs:
           path: resources/docs/.vitepress/dist/api
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v5
         with:
           path: resources/docs/.vitepress/dist
 
