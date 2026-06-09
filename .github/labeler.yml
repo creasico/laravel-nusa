@@ -1,25 +1,27 @@
+github_actions:
+  - changed-files:
+      - any-glob-to-any-file: '.github/**.yml'
+
 api:
-- changed-files:
-  - any-glob-to-any-file: ['src/Http/**.php', 'routes/*.php']
+  - changed-files:
+      - any-glob-to-any-file: ['src/Http/**.php', 'routes/*.php']
 
 'db: schema':
-- changed-files:
-  - any-glob-to-any-file: ['src/Models/**.php', 'database/migrations/**.php']
+  - changed-files:
+      - any-glob-to-any-file: ['src/Models/**.php', 'database/migrations/**.php']
 
 docs:
-- changed-files:
-  - any-glob-to-any-file: ['.env.example', '.env.*.example', '**.md']
+  - changed-files:
+      - any-glob-to-any-file: ['.env.example', '.env.*.example', '**.md']
 
 enhancement:
-- changed-files:
-  - any-glob-to-any-file: '**'
+  - changed-files:
+      - any-glob-to-any-file: '**'
 
 integration:
-- changed-files:
-  - any-glob-to-any-file:
-    - '.github/workflows/*.yml'
-    - 'tests/Browser/**.php'
+  - changed-files:
+      - any-glob-to-any-file: 'tests/Browser/**.php'
 
 localization:
-- changed-files:
-  - any-glob-to-any-file: 'resources/lang/**'
+  - changed-files:
+      - any-glob-to-any-file: 'resources/lang/**'

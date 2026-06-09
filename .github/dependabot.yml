@@ -12,13 +12,20 @@ updates:
     schedule:
       interval: monthly
       timezone: Asia/Jakarta
+    labels:
+      - dependencies
+    groups:
+      artifacts:
+        patterns: [actions/*-artifact, actions/deploy-pages]
+      runtimes:
+        patterns: [oven-sh/setup-bun, shivammathur/setup-php]
 
   - package-ecosystem: composer
     directory: /
     schedule:
-      interval: monthly
+      interval: weekly
       timezone: Asia/Jakarta
-    versioning-strategy: lockfile-only
+    versioning-strategy: increase-if-necessary
     groups:
       dependencies:
         dependency-type: production
@@ -30,9 +37,9 @@ updates:
   - package-ecosystem: npm
     directory: /
     schedule:
-      interval: monthly
+      interval: weekly
       timezone: Asia/Jakarta
-    versioning-strategy: lockfile-only
+    versioning-strategy: increase-if-necessary
     groups:
-      dependencies:
-        patterns: ['*']
+      commitlint:
+        patterns: ['@commitlint/*']
