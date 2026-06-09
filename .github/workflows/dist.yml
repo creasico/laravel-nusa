@@ -70,7 +70,7 @@ jobs:
           fetch-depth: 0 # Not needed if lastUpdated is not enabled
 
       - name: Set up pnpm
-        uses: pnpm/action-setup@v5
+        uses: pnpm/action-setup@v6
         with:
           run_install: true
 
