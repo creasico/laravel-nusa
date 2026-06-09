@@ -2,18 +2,45 @@
 # --------------------------
 Thumbs.db
 Desktop.ini
-.directory
 .DS_Store
+.directory
 ._*
-*.cache
-*.crt
-*.log
+*.DS_Store
 *.old
-*.key
-*.pem
+*.log
 *.tmp
-*.zip
+
+# caches
+.cache
+*.cache
 *~
+
+# distribution
+dist
+*.mo
+*.zip
+
+# IDE Project Configurations
+# --------------------------
+.idea
+.project
+.settings
+.zed
+*.sublime-*
+
+# AI Agents
+# --------------------------
+.agents
+.agent-rules.md
+.antigravitycli
+.augment
+.cursor
+.gemini
+.github/copilot-instructions.md
+conductor
+CLAUDE.md
+GEMINI.md
+opencode.json
 
 # Development files
 # --------------------------
@@ -23,22 +50,12 @@ Desktop.ini
 .tool-versions
 /*.session.sql
 coveralls-upload.json
-dist
 node_modules
 vendor
 
-# Other IDEs
-.idea
-.zed
-
-# AI Coding Agent
-.augment
-.agent-rules.md
-.gemini
-GEMINI.md
-
 # Node.js lock files
 .pnpm-store
+bun.lock
 package-lock.json
 yarn.lock
 
