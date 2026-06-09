@@ -5,6 +5,8 @@ declare(strict_types=1);
 namespace Creasi\Nusa\Http\Requests;
 
 use Creasi\Nusa\Contracts\Village;
+use Creasi\Nusa\Models\Model;
+use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Foundation\Http\FormRequest;
@@ -26,8 +28,8 @@ final class NusaRequest extends FormRequest
     }
 
     /**
-     * @param  \Creasi\Nusa\Models\Model  $model
-     * @return \Illuminate\Contracts\Pagination\LengthAwarePaginator
+     * @param  Model  $model
+     * @return LengthAwarePaginator
      */
     public function apply($model)
     {
@@ -50,7 +52,7 @@ final class NusaRequest extends FormRequest
     }
 
     /**
-     * @param  \Creasi\Nusa\Models\Model  $model
+     * @param  Model  $model
      * @return string[]
      */
     public function relations($model): array

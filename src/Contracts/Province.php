@@ -4,14 +4,16 @@ declare(strict_types=1);
 
 namespace Creasi\Nusa\Contracts;
 
+use Creasi\Nusa\Models\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Support\Collection;
 
 /**
- * @property-read \Illuminate\Support\Collection<int, Regency> $regencies
- * @property-read \Illuminate\Support\Collection<int, District> $districts
- * @property-read \Illuminate\Support\Collection<int, Village> $villages
+ * @property-read Collection<int, Regency> $regencies
+ * @property-read Collection<int, District> $districts
+ * @property-read Collection<int, Village> $villages
  *
- * @mixin \Creasi\Nusa\Models\Model
+ * @mixin Model
  */
 interface Province extends HasSubdivision
 {

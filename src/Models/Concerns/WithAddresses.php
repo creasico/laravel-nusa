@@ -4,13 +4,14 @@ declare(strict_types=1);
 
 namespace Creasi\Nusa\Models\Concerns;
 
+use Creasi\Nusa\Contracts\HasAddresses;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 
 /**
  * @template TDeclaringModel of \Illuminate\Database\Eloquent\Model
  * @template TAddressableModel of \Creasi\Nusa\Contracts\Address
  *
- * @mixin \Creasi\Nusa\Contracts\HasAddresses
+ * @mixin HasAddresses
  */
 trait WithAddresses
 {

@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Creasi\Nusa\Contracts;
 
+use Creasi\Nusa\Models\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 /**
@@ -15,7 +16,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  * @property-read Regency $regency
  * @property-read District $district
  *
- * @mixin \Creasi\Nusa\Models\Model
+ * @mixin Model
  */
 interface Village
 {

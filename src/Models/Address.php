@@ -9,13 +9,14 @@ use Creasi\Nusa\Contracts\District;
 use Creasi\Nusa\Contracts\Province;
 use Creasi\Nusa\Contracts\Regency;
 use Creasi\Nusa\Contracts\Village;
+use Illuminate\Contracts\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 
 /**
  * @template TAddressableModel of \Creasi\Nusa\Contracts\Address
  *
- * @mixin \Illuminate\Contracts\Database\Eloquent\Builder
+ * @mixin Builder
  */
 final class Address extends EloquentModel implements AddressContract
 {

@@ -4,10 +4,12 @@ declare(strict_types=1);
 
 namespace Creasi\Nusa\Models\Concerns;
 
+use Creasi\Nusa\Contracts\HasCoordinate;
+
 /**
  * @template TDeclaringModel of \Illuminate\Database\Eloquent\Model
  *
- * @mixin \Creasi\Nusa\Contracts\HasCoordinate
+ * @mixin HasCoordinate
  */
 trait WithCoordinate
 {

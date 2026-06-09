@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Creasi\Nusa\Contracts;
 
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 
 /**
@@ -14,14 +15,14 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
  * @property null|int $regency_code
  * @property null|int $province_code
  * @property null|int $postal_code
- * @property-read null|\Illuminate\Database\Eloquent\Model $addressable
+ * @property-read null|Model $addressable
  *
- * @mixin \Illuminate\Database\Eloquent\Model
+ * @mixin Model
  */
 interface Address
 {
     /**
-     * @return MorphTo<\Illuminate\Database\Eloquent\Model, $this>
+     * @return MorphTo<Model, $this>
      */
     public function addressable(): MorphTo;
 }

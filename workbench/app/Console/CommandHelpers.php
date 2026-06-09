@@ -5,10 +5,11 @@ declare(strict_types=1);
 namespace Workbench\App\Console;
 
 use Creasi\Nusa\Models;
+use Illuminate\Console\Command;
 use Illuminate\Support\Stringable;
 
 /**
- * @mixin \Illuminate\Console\Command
+ * @mixin Command
  */
 trait CommandHelpers
 {

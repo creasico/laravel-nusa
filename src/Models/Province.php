@@ -9,7 +9,7 @@ use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 
 /**
- * @property-read \Illuminate\Database\Eloquent\Collection<int, Regency> $regencies
+ * @property-read Collection<int, Regency> $regencies
  */
 final class Province extends Model implements ProvinceContract
 {

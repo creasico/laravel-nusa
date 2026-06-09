@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Creasi\Nusa\Models\Concerns;
 
 use Creasi\Nusa\Models\Village;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 /**
@@ -12,7 +13,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  *
  * @property-read Village|\Creasi\Nusa\Contracts\Village $village
  *
- * @mixin \Illuminate\Database\Eloquent\Model
+ * @mixin Model
  */
 trait WithVillage
 {

@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Creasi\Nusa\Models;
 
+use Creasi\Nusa\Contracts\District;
 use Creasi\Nusa\Contracts\Regency as RegencyContract;
 use Illuminate\Database\Eloquent\Collection;
 
@@ -24,7 +25,7 @@ final class Regency extends Model implements RegencyContract
     }
 
     /**
-     * @return Collection<int, \Creasi\Nusa\Contracts\District>
+     * @return Collection<int, District>
      */
     public function subdivisions(): Collection
     {
