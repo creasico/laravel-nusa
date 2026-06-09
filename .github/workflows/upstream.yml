@@ -1,4 +1,4 @@
-name: Configure
+name: Upstream
 
 on:
   workflow_call:
@@ -14,10 +14,10 @@ on:
         default: main
     outputs:
       has-changes:
-        value: ${{ jobs.upstream.outputs.has-changes }}
+        value: ${{ jobs.import.outputs.has-changes }}
 
 jobs:
-  upstream:
+  import:
     name: Imports
     runs-on: ubuntu-latest
     outputs:

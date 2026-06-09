@@ -1,4 +1,4 @@
-name: Merged
+name: Distribute
 run-name: "dist(${{ github.event.workflow_run.head_branch }}): create distribution database"
 
 on:
