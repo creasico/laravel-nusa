@@ -17,14 +17,14 @@ Mengembalikan daftar semua desa/kelurahan dengan paginasi.
 | Parameter | Tipe | Deskripsi |
 |-----------|------|-------------|
 | `page` | integer | Nomor halaman (default: 1) |
-| `per_page` | integer | Item per halaman (default: 15, maks: 100) |
+| `per-page` | integer | Item per halaman (default: 15, maks: 100) |
 | `search` | string | Cari berdasarkan nama atau kode |
 | `codes[]` | array | Filter berdasarkan kode desa/kelurahan tertentu |
 
 #### Contoh Permintaan
 
 ```bash
-curl "https://your-app.com/nusa/villages?search=medono&per_page=10"
+curl "https://your-app.com/nusa/villages?search=medono&per-page=10"
 ```
 
 ### Dapatkan Desa/Kelurahan

@@ -53,7 +53,7 @@ Semua respon API mengikuti struktur JSON yang konsisten:
     "current_page": 1,
     "from": 1,
     "last_page": 3,
-    "per_page": 15,
+    "per-page": 15,
     "to": 15,
     "total": 34
   }
@@ -83,13 +83,13 @@ Semua *endpoint* koleksi mendukung paginasi:
 - **Ukuran halaman *default***: 15 item
 - **Ukuran halaman maksimum**: 100 item
 - **Parameter halaman**: `?page=2`
-- **Parameter per halaman**: `?per_page=50`
+- **Parameter per halaman**: `?per-page=50`
 
 ### Contoh Paginasi
 
 ```bash
 # Dapatkan halaman kedua dengan 25 item per halaman
-GET /nusa/provinces?page=2&per_page=25
+GET /nusa/provinces?page=2&per-page=25
 ```
 
 ## Parameter Kueri

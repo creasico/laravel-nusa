@@ -17,14 +17,14 @@ Returns a paginated list of all regencies.
 | Parameter | Type | Description |
 |-----------|------|-------------|
 | `page` | integer | Page number (default: 1) |
-| `per_page` | integer | Items per page (default: 15, max: 100) |
+| `per-page` | integer | Items per page (default: 15, max: 100) |
 | `search` | string | Search by name or code |
 | `codes[]` | array | Filter by specific regency codes |
 
 #### Example Request
 
 ```bash
-curl "https://your-app.com/nusa/regencies?search=jakarta&per_page=10"
+curl "https://your-app.com/nusa/regencies?search=jakarta&per-page=10"
 ```
 
 #### Example Response
@@ -52,7 +52,7 @@ curl "https://your-app.com/nusa/regencies?search=jakarta&per_page=10"
     "current_page": 1,
     "from": 1,
     "last_page": 35,
-    "per_page": 15,
+    "per-page": 15,
     "to": 15,
     "total": 514
   }
@@ -104,7 +104,7 @@ Returns all villages within a specific regency.
 #### Example Request
 
 ```bash
-curl "https://your-app.com/nusa/regencies/33.75/villages?per_page=50"
+curl "https://your-app.com/nusa/regencies/33.75/villages?per-page=50"
 ```
 
 ## Data Attributes

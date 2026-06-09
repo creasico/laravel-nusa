@@ -139,7 +139,7 @@ Always use pagination for large datasets:
 
 ```js
 // Good: Use pagination
-const response = await fetch('/nusa/villages?per_page=50&page=1');
+const response = await fetch('/nusa/villages?per-page=50&page=1');
 
 // Avoid: Loading all villages at once
 const response = await fetch('/nusa/villages'); // 83,762 records!
@@ -169,7 +169,7 @@ Route::prefix('v1/indonesia')->middleware(['auth:api', 'throttle:100,1'])->group
             $query->search($search);
         }
 
-        return $query->paginate($request->get('per_page', 15));
+        return $query->paginate($request->get('per-page', 15));
     });
 
     Route::get('provinces/{province}/regencies', function (string $code) {
