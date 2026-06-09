@@ -49,5 +49,8 @@ composer tinker                  # Start Tinker
 
 ## Documentation
 - English first, mirror to `id/` for Indonesian
-- Code examples in `<augment_code_snippet>` tags
 - Dev: `pnpm docs:dev`, Build: `pnpm docs:build`
+
+## Operational Mandates
+
+1.  **Metadata Management**: ALL AI-generated metadata (plans, specs, and design documents) MUST be stored exclusively in the `.agents/` directory (e.g., `.agents/plans/`, `.agents/specs/`). Do not use any other directory for persistent or temporary agent artifacts.
