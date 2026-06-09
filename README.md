@@ -30,6 +30,10 @@ Instead of manually importing and maintaining large datasets, you get:
   - Inertia.js [#213](https://github.com/creasico/laravel-nusa/issues/213)
 - Provide downloadable `sqlite` database and static files on each release [#220](https://github.com/creasico/laravel-nusa/issues/220)
 
+### Featured Packages
+
+- [`nusa-filament`](https://github.com/VernSG/nusa-filament) - Filament 4 components for Indonesian administrative region selects powered by laravel-nusa. by @VernSG
+
 ## Documentation
 
 For complete usage instructions, API reference, examples, and guides, visit our comprehensive documentation:
