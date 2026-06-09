@@ -17,14 +17,14 @@ Mengembalikan daftar semua kabupaten/kota dengan paginasi.
 | Parameter | Tipe | Deskripsi |
 |-----------|------|-------------|
 | `page` | integer | Nomor halaman (default: 1) |
-| `per_page` | integer | Item per halaman (default: 15, maks: 100) |
+| `per-page` | integer | Item per halaman (default: 15, maks: 100) |
 | `search` | string | Cari berdasarkan nama atau kode |
 | `codes[]` | array | Filter berdasarkan kode kabupaten/kota tertentu |
 
 #### Contoh Permintaan
 
 ```bash
-curl "https://your-app.com/nusa/regencies?search=jakarta&per_page=10"
+curl "https://your-app.com/nusa/regencies?search=jakarta&per-page=10"
 ```
 
 #### Contoh Respon
@@ -52,7 +52,7 @@ curl "https://your-app.com/nusa/regencies?search=jakarta&per_page=10"
     "current_page": 1,
     "from": 1,
     "last_page": 35,
-    "per_page": 15,
+    "per-page": 15,
     "to": 15,
     "total": 514
   }
@@ -104,7 +104,7 @@ Mengembalikan semua desa/kelurahan dalam kabupaten/kota tertentu.
 #### Contoh Permintaan
 
 ```bash
-curl "https://your-app.com/nusa/regencies/33.75/villages?per_page=50"
+curl "https://your-app.com/nusa/regencies/33.75/villages?per-page=50"
 ```
 
 ## Atribut Data

@@ -17,14 +17,14 @@ Returns a paginated list of all provinces.
 | Parameter | Type | Description |
 |-----------|------|-------------|
 | `page` | integer | Page number (default: 1) |
-| `per_page` | integer | Items per page (default: 15, max: 100) |
+| `per-page` | integer | Items per page (default: 15, max: 100) |
 | `search` | string | Search by name or code |
 | `codes[]` | array | Filter by specific province codes |
 
 #### Example Request
 
 ```bash
-curl "https://your-app.com/nusa/provinces?search=jawa&per_page=10"
+curl "https://your-app.com/nusa/provinces?search=jawa&per-page=10"
 ```
 
 #### Example Response
@@ -59,7 +59,7 @@ curl "https://your-app.com/nusa/provinces?search=jawa&per_page=10"
     "current_page": 1,
     "from": 1,
     "last_page": 2,
-    "per_page": 15,
+    "per-page": 15,
     "to": 15,
     "total": 34
   }
@@ -127,7 +127,7 @@ Returns all regencies within a specific province.
 | Parameter | Type | Description |
 |-----------|------|-------------|
 | `page` | integer | Page number (default: 1) |
-| `per_page` | integer | Items per page (default: 15, max: 100) |
+| `per-page` | integer | Items per page (default: 15, max: 100) |
 | `search` | string | Search regencies by name |
 
 #### Example Request
@@ -170,7 +170,7 @@ curl "https://your-app.com/nusa/provinces/33/regencies?search=semarang"
     "current_page": 1,
     "from": 1,
     "last_page": 3,
-    "per_page": 15,
+    "per-page": 15,
     "to": 15,
     "total": 35
   }
@@ -188,7 +188,7 @@ Returns all districts within a specific province.
 #### Example Request
 
 ```bash
-curl "https://your-app.com/nusa/provinces/33/districts?per_page=25"
+curl "https://your-app.com/nusa/provinces/33/districts?per-page=25"
 ```
 
 ### Get Province Villages
@@ -202,7 +202,7 @@ Returns all villages within a specific province.
 #### Example Request
 
 ```bash
-curl "https://your-app.com/nusa/provinces/33/villages?per_page=50"
+curl "https://your-app.com/nusa/provinces/33/villages?per-page=50"
 ```
 
 ## Data Attributes
@@ -324,7 +324,7 @@ $javaProvinces = $provinceService->search('jawa');
 $centralJava = $provinceService->getById('33');
 
 // Get regencies in Central Java
-$regencies = $provinceService->getRegencies('33', ['per_page' => 50]);
+$regencies = $provinceService->getRegencies('33', ['per-page' => 50]);
 ```
 
 ```python [python]
@@ -366,7 +366,7 @@ java_provinces = province_service.search("jawa")
 central_java = province_service.get_by_id("33")
 
 # Get regencies in Central Java
-regencies = province_service.get_regencies("33", {"per_page": 50})
+regencies = province_service.get_regencies("33", {"per-page": 50})
 ```
 
 :::
@@ -390,7 +390,7 @@ regencies = province_service.get_regencies("33", {"per_page": 50})
 {
   "message": "The given data was invalid.",
   "errors": {
-    "per_page": ["The per page must not be greater than 100."]
+    "per-page": ["The per page must not be greater than 100."]
   }
 }
 ```
@@ -459,7 +459,7 @@ async function getAllProvinces() {
   let hasMore = true;
   
   while (hasMore) {
-    const response = await fetch(`/nusa/provinces?page=${page}&per_page=50`);
+    const response = await fetch(`/nusa/provinces?page=${page}&per-page=50`);
     const data = await response.json();
     
     allProvinces.push(...data.data);

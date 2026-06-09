@@ -17,14 +17,14 @@ Mengembalikan daftar semua kecamatan dengan paginasi.
 | Parameter | Tipe | Deskripsi |
 |-----------|------|-------------|
 | `page` | integer | Nomor halaman (default: 1) |
-| `per_page` | integer | Item per halaman (default: 15, maks: 100) |
+| `per-page` | integer | Item per halaman (default: 15, maks: 100) |
 | `search` | string | Cari berdasarkan nama atau kode |
 | `codes[]` | array | Filter berdasarkan kode kecamatan tertentu |
 
 #### Contoh Permintaan
 
 ```bash
-curl "https://your-app.com/nusa/districts?search=pekalongan&per_page=10"
+curl "https://your-app.com/nusa/districts?search=pekalongan&per-page=10"
 ```
 
 ### Dapatkan Kecamatan

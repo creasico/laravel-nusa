@@ -17,14 +17,14 @@ Returns a paginated list of all villages.
 | Parameter | Type | Description |
 |-----------|------|-------------|
 | `page` | integer | Page number (default: 1) |
-| `per_page` | integer | Items per page (default: 15, max: 100) |
+| `per-page` | integer | Items per page (default: 15, max: 100) |
 | `search` | string | Search by name or code |
 | `codes[]` | array | Filter by specific village codes |
 
 #### Example Request
 
 ```bash
-curl "https://your-app.com/nusa/villages?search=medono&per_page=10"
+curl "https://your-app.com/nusa/villages?search=medono&per-page=10"
 ```
 
 ### Get Village
