@@ -3,7 +3,6 @@
 
 # Exclude unused files
 # see: https://redd.it/2jzp6k
-.agent.md.       export-ignore
 .codeclimate.yml export-ignore
 .editorconfig    export-ignore
 .env.example     export-ignore
@@ -12,6 +11,7 @@
 .gitignore       export-ignore
 .gitmodules      export-ignore
 .vscode          export-ignore
+AGENTS.md        export-ignore
 CHANGELOG.md     export-ignore
 composer.lock    export-ignore
 package.json     export-ignore

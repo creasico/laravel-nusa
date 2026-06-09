@@ -1,275 +1,53 @@
-# Laravel Nusa Project Rules
+# Laravel Nusa - Agent Guide
 
-## Project Overview
-Laravel Nusa is a comprehensive Laravel package providing complete Indonesian administrative region data (provinces, regencies, districts, villages) with hierarchical relationships, postal codes, and geographic coordinates. The package includes pre-built SQLite database, Eloquent models, RESTful API, and address management system.
-
-## Key Project Information
-- **Package Name**: `creasi/laravel-nusa`
-- **Purpose**: Indonesian Administrative Region Data for Laravel
-- **Data Coverage**: 38 provinces, 514 regencies/cities, 7,285 districts, 83,762 villages
-- **Code Format**: xx for province, xx.xx for regency, xx.xx.xx for district, xx.xx.xx.xxxx for village
-- **Database**: Pre-packaged SQLite with connection name 'nusa'
-- **Documentation**: VitePress-based with bilingual support (English/Indonesian)
-
-## Directory Structure Rules
-
-### Core Package Structure
+## Quick Start
 ```
-src/
-├── Contracts/          # Interface definitions for all models
-├── Http/
-│   ├── Controllers/    # API controllers for RESTful endpoints
-│   ├── Requests/       # Request validation classes
-│   └── Resources/      # API resource transformer (NusaResource)
-├── Models/             # Eloquent models (Province, Regency, District, Village, Address)
-│   ├── Concerns/       # Reusable traits (WithAddress, WithCoordinate, etc.)
-│   └── Model.php       # Base model with common functionality
-└── ServiceProvider.php # Laravel service provider
-
-resources/
-└── lang/               # Laravel translation files
-    ├── en/             # English translations
-    └── id/             # Indonesian translations (mirrors English structure)
+composer install   # Install PHP dependencies
+pnpm install       # Install docs dependencies
+composer test      # Run PHPUnit tests (testbench package:test)
+composer fix       # Run Laravel Pint formatter
 ```
 
-### Documentation Structure
+## Structure
+- `src/` - Package source (Contracts, Http, Models, ServiceProvider)
+- `tests/` - PHPUnit tests organized by feature (Models/, Features/)
+- `database/` - nusa.sqlite pre-built database
+- `resources/static/` - Static export data (CSV, JSON, GeoJSON)
+- `resources/docs/` - VitePress documentation (bilingual EN/ID)
+
+## Development Commands
 ```
-resources/
-├── docs/
-│   ├── .vitepress/                         # VitePress configuration and theme
-│   ├── en/                                 # English documentation
-│   │   ├── guide/                          # User guides and tutorials
-│   │   ├── api/                            # API reference documentation
-│   │   └── examples/                       # Code examples and use cases
-│   ├── id/                                 # Indonesian documentation (mirrors English structure)
-│   └── public/                             # Static assets (images, logos, etc.)
-└── static/                                 # Static data files (CSV, JSON and GEOJSON)
-    ├── {prov_code}/                        # Province-specific directories (e.g. 11/, 12/, 33/, etc.)
-    │   ├── {reg_code}/                     # Regency-specific directories (e.g. 11/01/, 11/02/, etc.)
-    │   │   ├── {dist_code}/                # District-specific directories (e.g. 11/01/01/, 11/01/02/, etc.)
-    │   │   │   ├── {village_code}.json     # Village data in JSON format including its `postal_code`
-    │   │   │   ├── {village_code}.geojson  # GeoJSON format with geographic boundaries
-    │   │   │   └── index.json              # District data including list of its villages in JSON format
-    │   │   ├── {dist_code}.csv             # Index of villages for this district in CSV format
-    │   │   ├── {dist_code}.json            # Has same content as `./{dist_code}/index.json`
-    │   │   ├── {dist_code}.geojson         # GeoJSON format of the district with geographic boundaries
-    │   │   └── index.json                  # Regency data including list of its districts in JSON format
-    │   ├── {reg_code}.csv                  # Index of district for this regencies in CSV format
-    │   ├── {reg_code}.json                 # Has same content as `./{reg_code}/index.json`
-    │   ├── {reg_code}.geojson              # GeoJSON format of the regency with geographic boundaries
-    │   └── index.json                      # Province data including list of its regencies in JSON format
-    ├── {prov_code}.csv                     # Index of regencies for this province in CSV format
-    ├── {prov_code}.json                    # Has same content as `./{prov_code}/index.json`
-    ├── {prov_code}.geojson                 # GeoJSON format of the province with geographic boundaries
-    ├── index.csv                           # Master index of provinces in CSV format
-    └── index.json                          # Master index of provinces in JSON format
+composer upstream:up             # Start Docker + import fresh data
+composer upstream:down           # Stop Docker + purge
+composer testbench nusa:import   # Import from upstream sources
+composer testbench nusa:dist     # Create distribution database (no coordinates)
+composer testbench nusa:generate-static  # Generate static files
+composer tinker                  # Start Tinker
 ```
 
-> [!NOTE]
-> - `{reg_code}` is last 2 digit of regency code, meaning if regency code is 12.34, then `{reg_code}` is 34
-> - `{dist_code}` is last 2 digit of district code, meaning if district code is 12.34.56, then `{dist_code}` is 56
-> - `{village_code}` is last 4 digit of village code, meaning if village code is 12.34.56.7890, then `{village_code}` is 7890
+## Testing
+- Use `composer test` (runs testbench package:test)
+- Tests use `Creasi\Tests\TestCase` with `WithWorkbench` trait
+- PHPUnit attributes: `#[Test]`, `#[Group('models')]`, etc.
 
-### Development Structure
-```
-workbench/app/Console/  # Development commands (nusa:import, nusa:dist, etc.)
-tests/                  # PHPUnit tests organized by feature
-database/               # Contains nusa.sqlite pre-built database
-```
+## Code Standards
+- PHP ≥ 8.2, Laravel ≥ 9.0–13.0
+- `declare(strict_types=1)` in all files
+- Laravel Pint `--preset laravel` on save (pre-commit hook via `pnpm exec lint-staged`)
 
-## Static Data Export System
+## Configuration
+- Config: `config/nusa.php` (publish tag: `creasi-config` or `creasi-nusa-config`)
+- Connection: 'nusa' (SQLite)
+- Model primary key: 'code' (string, non-incrementing)
+- No timestamps on admin models
 
-### Purpose and Usage
-The `resources/static/` directory contains **static export data** that provides administrative region information in multiple formats for:
-- **External integrations** - Third-party applications consuming the data
-- **Data exports** - Bulk data access in standard formats
-- **Geographic mapping** - GeoJSON files for mapping applications
-- **API alternatives** - Direct file access without database queries
+## Model Hierarchy
+- `Province` → hasMany(Regency, District, Village)
+- `Regency` → belongsTo(Province), hasMany(District, Village)
+- `District` → belongsTo(Province, Regency), hasMany(Village)
+- `Village` → belongsTo(Province, Regency, District)
 
-### File Format Details
-- **CSV files**: Tabular data suitable for spreadsheet applications
-- **JSON files**: Structured data for web applications and APIs
-- **GeoJSON files**: Geographic boundary data with coordinates for mapping
-- **Province codes**: Follow Indonesian administrative system (11-96)
-- **Index files**: Master lists for quick reference and navigation
-
-### Generation
-Static files are generated via development commands and should not be manually edited:
-- Generated by `testbench nusa:generate-static` command
-- Updated when source data changes
-- Organized by province code for efficient access
-
-## Code Standards and Conventions
-
-### PHP Code Standards
-- **PHP Version**: ≥ 8.2 required
-- **Laravel Version**: ≥ 9.0 supported (up to 12.0)
-- **Code Style**: Laravel Pint with Laravel preset
-- **Type Declarations**: Strict types enabled (`declare(strict_types=1)`)
-- **Namespace**: `Creasi\Nusa` for all package classes
-
-### Model Conventions
-- All models extend `Creasi\Nusa\Models\Model` base class
-- Primary key is 'code' (string type, non-incrementing)
-- No timestamps on administrative data models
-- Use 'nusa' database connection
-- Implement corresponding contracts from `Creasi\Nusa\Contracts`
-
-### Database Conventions
-- **Connection**: 'nusa' (SQLite)
-- **Code Format**: Hierarchical dot notation (e.g., '33.74.01.1001')
-- **Relationships**: Proper foreign key constraints
-- **Coordinates**: Stored as JSON array [latitude, longitude]
-
-The project maintains multiple database files:
-- `nusa.sqlite` - Distribution database (10MB, no coordinates)
-
-  The primary database file that is distributed with the package. It contains no coordinates or boundaries data for privacy compliance. Can be accessed via `current` database connection while still in development.
-
-- `nusa.{branch}.sqlite` - Trimmed version of Development database (10MB, no coordinates)
-
-  This database is used after `nusa:dist` command is executed that represent distribution copy of the development database with no coordinates or boundaries data. It is not distributed with the package.
-
-- `nusa.{branch}-full.sqlite` - Development database (407MB, with coordinates)
-
-  This database is used during development and contains all data including coordinates and boundaries. It is not distributed with the package.
-
-## Documentation Rules
-
-### VitePress Configuration
-- **Build Command**: `pnpm docs:build`
-- **Dev Command**: `pnpm docs:dev`
-- **Mermaid Support**: Use `vitepress-plugin-mermaid` for diagrams
-- **Bilingual**: English (default) and Indonesian support
-- **SEO**: Sitemap generation enabled with proper priorities
-
-### Content Guidelines
-- **Language Structure**: Mirror English structure in Indonesian (`/en/` → `/id/`)
-- **Marketing Tone**: Soft approach, avoid bold claims and ROI metrics
-- **API Reference**: Include customization sections for helper traits
-- **Guide Pages**: Marketing-style showcasing business solutions
-- **Code Examples**: Always wrap in `<augment_code_snippet>` tags with path and mode attributes
-
-### Translation Rules
-- **Navigation**: Translate all menu items and headings
-- **Content**: Direct translations preferred over new content generation
-- **URLs**: Keep English structure for consistency (`/guide/addresses` → `/id/guide/addresses`)
-- **First Paragraphs**: Always translate opening paragraphs
-
-### Development Commands
-
-### Available Commands (via composer scripts)
-- `composer upstream` - Interact with Docker services
-- `composer upstream:up` - Start Docker services (MySQL) and import fresh data
-- `composer upstream:down` - Stop Docker services
-- `composer tinker` - Start Tinker environment
-- `composer testbench:purge` - Purge workbench skeleton
-- `composer testbench nusa:import` - Import data from upstream sources
-- `composer testbench nusa:dist` - Create distribution database (removes coordinates for privacy)
-- `composer testbench nusa:stat` - Generate statistics and change reports between `nusa.sqlite` and `nusa.{branch}.sqlite` database
-- `composer testbench nusa:generate-static` - Generate static JSON, CSV and GeoJSON files based on `nusa.{branch}-full.sqlite` database
-
-### Package Management
-- **Frontend**: Use `pnpm` for documentation dependencies
-  - `pnpm docs:dev` - Start documentation dev server
-  - `pnpm docs:build` - Build documentation
-  - `pnpm docs:preview` - Preview documentation build
-- **Backend**: Use `composer` for PHP dependencies
-- **Never**: Manually edit package.json or composer.json for dependencies
-
-## Testing Rules
-
-### Test Structure
-- Tests located in `tests/` directory
-- Organized by feature: `Models/`, `Http/`, etc.
-- Use PHPUnit attributes for organization (`#[Test]`, `#[Group]`, etc.)
-- Test all model relationships and contracts
-
-### Test Conventions
-- Test both contract interfaces and concrete implementations
-- Verify hierarchical relationships (Province → Regency → District → Village)
-- Test search functionality and coordinate handling
-- Validate API endpoints and responses
-
-## API and Integration Rules
-
-### RESTful API
-- **Prefix**: `/nusa` (configurable via `routes_prefix`)
-- **Enable/Disable**: Via `routes_enable` config
-- **Resources**: Province, Regency, District, Village endpoints
-- **Features**: Pagination, search, filtering, relationship loading
-
-### Address Management
-- **Model**: `Creasi\Nusa\Models\Address`
-- **Traits**: `WithAddress`, `WithAddresses` for polymorphic relationships
-- **Validation**: Built-in address validation with postal code auto-fill
-- **Relationships**: Polymorphic addressable relationships
-
-## Configuration Rules
-
-### Package Configuration
-- **Config File**: `config/creasi/nusa.php`
-- **Publish Tag**: `creasi-nusa-config`
-- **Connection**: Configurable database connection name
-- **Table Names**: Configurable table names for all models
-- **Addressable**: Configurable Address model implementation
-
-### Environment Variables
-- `CREASI_NUSA_CONNECTION` - Database connection name
-- `CREASI_NUSA_ROUTES_ENABLE` - Enable/disable API routes
-- `CREASI_NUSA_ROUTES_PREFIX` - API route prefix
-
-## File Editing Rules
-
-### When Making Changes
-1. **Always** use `codebase-retrieval` before editing to understand context
-2. **Always** use `str-replace-editor` for modifications, never recreate files
-3. **Respect** existing code patterns and conventions
-4. **Test** changes with appropriate test commands
-5. **Document** changes in both English and Indonesian if applicable
-
-### Code Display Rules
-- **Always** wrap code excerpts in `<augment_code_snippet>` XML tags
-- **Include** `path=` and `mode="EXCERPT"` attributes
-- **Limit** to <10 lines for brevity
-- **Use** four backticks (````) instead of three
-
-## Specific Project Patterns
-
-### Model Relationships
-- Province → hasMany(Regency, District, Village)
-- Regency → belongsTo(Province), hasMany(District, Village)
-- District → belongsTo(Province, Regency), hasMany(Village)
-- Village → belongsTo(Province, Regency, District)
-
-### Search Functionality
-- All models support `search()` scope for name-based searching
-- Case-insensitive search across different database drivers
-- Support for both code and name-based lookups
-
-### Coordinate Handling
-- All models implement `HasCoordinate` contract
-- Coordinates stored as JSON array [lat, lng]
-- `WithCoordinate` trait provides coordinate-related methods
-
-## Common Tasks and Patterns
-
-### Documentation Updates
-1. Update English version first
-2. Mirror changes in Indonesian version
-3. Rebuild documentation with `pnpm docs:build`
-4. Test both language versions
-
-### Model Extensions
-1. Create custom models extending base models
-2. Implement corresponding contracts
-3. Register custom bindings in service provider
-4. Add appropriate tests
-
-### API Customization
-1. Extend existing controllers or create new ones
-2. Use existing request validation patterns
-3. Follow resource transformation patterns
-4. Update route definitions if needed
-
-This rules file provides comprehensive guidance for working effectively with the Laravel Nusa project while maintaining consistency with established patterns and conventions.
+## Documentation
+- English first, mirror to `id/` for Indonesian
+- Code examples in `<augment_code_snippet>` tags
+- Dev: `pnpm docs:dev`, Build: `pnpm docs:build`
