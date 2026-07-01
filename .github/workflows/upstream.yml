@@ -38,7 +38,7 @@ jobs:
 
       - name: Cache upstream
         id: upstream
-        uses: actions/cache@v5
+        uses: actions/cache@v6
         with:
           path: database/nusa.*.sqlite
           key: upstream-database_${{ env.GIT_BRANCH }}_${{ hashFiles('**/*.sql') }}
@@ -60,7 +60,7 @@ jobs:
           tools: composer:v2
 
       - name: Cache dependencies
-        uses: actions/cache@v5
+        uses: actions/cache@v6
         with:
           path: ${{ inputs.composer-cache-dir }}
           key: php-${{ matrix.php }}-l${{ matrix.laravel }}-composer-${{ hashFiles('**/composer.lock') }}
