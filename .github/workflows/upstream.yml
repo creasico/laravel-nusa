@@ -53,6 +53,9 @@ jobs:
           mysql -e "CREATE DATABASE $DB_DATABASE;" -u"$DB_USERNAME" -p"$DB_PASSWORD"
           mysql -e "CREATE DATABASE $UPSTREAM_DB_DATABASE;" -u"$DB_USERNAME" -p"$DB_PASSWORD"
 
+      - name: Setup SQLite
+        uses: ccorsi/setup-sqlite@v1
+
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
@@ -69,7 +72,6 @@ jobs:
       - name: Install dependencies
         run: |
           composer update --prefer-dist --no-interaction --no-progress
-          sudo apt-get install -y sqlite3-tools
 
       - name: Import databases
         id: imports
