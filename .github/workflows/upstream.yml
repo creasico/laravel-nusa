@@ -54,7 +54,7 @@ jobs:
           mysql -e "CREATE DATABASE $UPSTREAM_DB_DATABASE;" -u"$DB_USERNAME" -p"$DB_PASSWORD"
 
       - name: Setup SQLite
-        uses: ccorsi/setup-sqlite@v1
+        uses: ccorsi/setup-sqlite@v2
 
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
