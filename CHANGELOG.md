@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.1.19](https://github.com/creasico/laravel-nusa/compare/v0.1.18...v0.1.19) (2026-09-02)
+
+### Bug Fixes
+
+* **ci:** replace broken setup-sqlite action from [#286](https://github.com/creasico/laravel-nusa/issues/286) with manual install ([#311](https://github.com/creasico/laravel-nusa/issues/311)) ([24a4df5](https://github.com/creasico/laravel-nusa/commit/24a4df531a551407dc0dc91a90106c07572f333c))
+* **docs:** misleading pagination documentation ([#274](https://github.com/creasico/laravel-nusa/issues/274)) ([c097e78](https://github.com/creasico/laravel-nusa/commit/c097e78f6daed514d2532144b4b34a065662857c)), references [#273](https://github.com/creasico/laravel-nusa/issues/273)
 ## [0.1.18](https://github.com/creasico/laravel-nusa/compare/v0.1.17...v0.1.18) (2026-05-27)
 
 
