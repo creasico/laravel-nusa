@@ -56,12 +56,20 @@ jobs:
       - name: Setup SQLite tools
         env:
           SQLITE_VERSION: 3530400 # v3.53.4
+          EXPECTED_SHA3: 6eeb57e8f2aef7687f9f016a980992cf2799c8c07a87c5e21495530f91915047
         run: |
           set -euo pipefail
+
           DIST="sqlite-tools-linux-x64-${SQLITE_VERSION}"
           curl -fsSL -o /tmp/sqlite-tools.zip "https://www.sqlite.org/2026/${DIST}.zip"
+
+          # Verify the SHA3-256 digest published on https://www.sqlite.org/download.html
+          ACTUAL_SHA3="$(openssl dgst -sha3-256 /tmp/sqlite-tools.zip | awk '{print $NF}')"
+          test "${ACTUAL_SHA3}" = "${EXPECTED_SHA3}"
+
           sudo unzip -o /tmp/sqlite-tools.zip -d /tmp
           sudo cp /tmp/{sqlite3,sqldiff,sqlite3_analyzer} /usr/local/bin/
+
           sqlite3 --version
           sqldiff --help >/dev/null 2>&1
 
