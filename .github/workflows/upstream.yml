@@ -60,9 +60,8 @@ jobs:
           set -euo pipefail
           DIST="sqlite-tools-linux-x64-${SQLITE_VERSION}"
           curl -fsSL -o /tmp/sqlite-tools.zip "https://www.sqlite.org/2026/${DIST}.zip"
-          sudo rm -rf "/usr/local/${DIST}"
           sudo unzip -o /tmp/sqlite-tools.zip -d /tmp
-          sudo cp "/tmp/${DIST}/"{sqlite3,sqldiff,sqlite3_analyzer} /usr/local/bin/
+          sudo cp /tmp/{sqlite3,sqldiff,sqlite3_analyzer} /usr/local/bin/
           sqldiff --version
 
       - name: Setup PHP
