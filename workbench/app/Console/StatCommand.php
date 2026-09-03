@@ -10,6 +10,7 @@ use Illuminate\Support\Facades\DB;
 use PhpMyAdmin\SqlParser\Statements\DeleteStatement;
 use PhpMyAdmin\SqlParser\Statements\InsertStatement;
 use PhpMyAdmin\SqlParser\Statements\UpdateStatement;
+use Symfony\Component\Process\Process;
 use Workbench\App\Support\GitHelper;
 use Workbench\App\Support\SqlHelper;
 
@@ -145,13 +146,17 @@ class StatCommand extends Command
             return null;
         }
 
-        dump(['current' => (string) $current, 'updated' => (string) $updated, 'branch' => $branch]);
+        $diffProc = new Process(['sqldiff', '--primarykey', (string) $current, (string) $updated]);
+        $diffProc->run();
 
-        if (! $content = shell_exec("sqldiff --primarykey {$current} {$updated}")) {
+        if (! $diffProc->isSuccessful()) {
+            $this->error('sqldiff failed with exit code '.$diffProc->getExitCode().':');
+            $this->error($diffProc->getErrorOutput() ?: $diffProc->getOutput());
+
             return null;
         }
 
-        foreach ($this->parseQuery($content) as $statement) {
+        foreach ($this->parseQuery($diffProc->getOutput()) as $statement) {
             if ($statement instanceof InsertStatement) {
                 $reports['added'][$statement->into->dest->table][] = array_map(
                     [$this, 'sanitizeValue'],
