@@ -107,18 +107,15 @@ jobs:
         env:
           COLUMNS: 160
         run: |
+          vendor/bin/testbench nusa:stat --ansi
+
+          ls -lah database/*.sqlite
+
           # if [[ "$GIT_BRANCH" == dependabot* ]]; then
           #   BRANCH_TOKEN="${GIT_BRANCH##*/}"
           # else
           #   BRANCH_TOKEN="${GIT_BRANCH//\//_}"
           # fi
-
-          # if [[ ! -f "database/nusa.$BRANCH_TOKEN.sqlite" && -f "database/nusa.main.sqlite" ]]; then
-          #   mv database/nusa.main.sqlite "database/nusa.$BRANCH_TOKEN.sqlite"
-          #   mv database/nusa.main-full.sqlite "database/nusa.$BRANCH_TOKEN-full.sqlite"
-          # fi
-
-          vendor/bin/testbench nusa:stat --ansi
 
           # echo "BRANCH_TOKEN=${BRANCH_TOKEN}" >> $GITHUB_OUTPUT
 

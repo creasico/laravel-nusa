@@ -30,10 +30,16 @@ class StatCommand extends Command
 
         $header = ['code', 'name'];
         $hasChanges = false;
-        $diffs = $this->getDiffs();
+        $branch = $this->currentBranch();
+
+        if ($this->runningInCI()) {
+            exec("echo \"BRANCH_TOKEN={$branch}\" >> \$GITHUB_OUTPUT");
+        }
+
+        $diffs = $this->getDiffs($branch);
 
         if ($diffs === null) {
-            $this->line('<error> ERROR </> Cannot open database file, please run the following command if necessary:');
+            $this->line("<error> ERROR </> Cannot open database file for <fg=yellow>{$branch}</>, please run the following command if necessary:");
             $this->line(' - <fg=yellow>vendor/bin/testbench nusa:import --fresh --dist</>');
 
             return 1;
@@ -125,16 +131,8 @@ class StatCommand extends Command
     /**
      * @return null|array{districts: array, provinces: array, regencies: array, villages: array}
      */
-    public function getDiffs(): ?array
+    public function getDiffs(string $branch): ?array
     {
-        $branch = $this->currentBranch();
-
-        if ($this->runningInCI()) {
-            exec("echo \"BRANCH_TOKEN: {$branch}\"");
-            exec("echo \"BRANCH_TOKEN={$branch}\" >> \$GITHUB_OUTPUT");
-            exec('ls -lah database/*.sqlite');
-        }
-
         $current = $this->libPath('database', 'nusa.sqlite');
         $updated = $this->libPath('database', "nusa.{$branch}.sqlite");
         $reports = $states = [
