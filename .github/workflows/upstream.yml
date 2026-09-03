@@ -73,6 +73,8 @@ jobs:
           sqlite3 --version
           sqldiff --help >/dev/null 2>&1
 
+          ls -lah database/*.sqlite
+
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
@@ -94,9 +96,10 @@ jobs:
         id: imports
         if: ${{ steps.upstream.outputs.cache-hit == '' }}
         env:
-          COLUMNS: 100
+          COLUMNS: 160
         run: |
           vendor/bin/testbench nusa:import --fresh --dist --ansi
+
           ls -lah database/*.sqlite
 
       - name: Stat summary
@@ -104,13 +107,20 @@ jobs:
         env:
           COLUMNS: 160
         run: |
+          if [[ "$GIT_BRANCH" == dependabot* ]]; then
+            BRANCH_TOKEN="${GIT_BRANCH##*/}"
+          else
+            BRANCH_TOKEN="${GIT_BRANCH//\//_}"
+          fi
+
+          if [[ ! -f "database/nusa.$BRANCH_TOKEN.sqlite" && -f "database/nusa.main.sqlite" ]]; then
+            mv database/nusa.main.sqlite "database/nusa.$BRANCH_TOKEN.sqlite"
+            mv database/nusa.main-full.sqlite "database/nusa.$BRANCH_TOKEN-full.sqlite"
+          fi
+
           vendor/bin/testbench nusa:stat --ansi
 
-          if [[ "$GIT_BRANCH" == dependabot* ]]; then
-            echo "BRANCH_TOKEN=${GIT_BRANCH##*/}" >> $GITHUB_OUTPUT
-          else
-            echo "BRANCH_TOKEN=${GIT_BRANCH//\//_}" >> $GITHUB_OUTPUT
-          fi
+          echo "BRANCH_TOKEN=${BRANCH_TOKEN}" >> $GITHUB_OUTPUT
 
       - name: Upload sqlite artifacts
         uses: actions/upload-artifact@v7
