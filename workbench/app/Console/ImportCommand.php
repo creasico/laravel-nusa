@@ -9,14 +9,14 @@ use Illuminate\Console\View\Components\TwoColumnDetail;
 use Illuminate\Support\Facades\Concurrency;
 use Illuminate\Support\Facades\DB;
 use PDO;
-use PhpMyAdmin\SqlParser\Parser;
 use PhpMyAdmin\SqlParser\Statements\DeleteStatement;
 use Symfony\Component\Finder\Finder;
 use Workbench\App\Support\Normalizer;
+use Workbench\App\Support\SqlHelper;
 
 class ImportCommand extends Command
 {
-    use CommandHelpers;
+    use CommandHelpers, SqlHelper;
 
     private int $chunkSize = 5_000;
 
@@ -48,10 +48,9 @@ class ImportCommand extends Command
                 $timer = $this->timer("Imported '<fg=yellow>{$path}</>'");
 
                 if (str_contains($path, 'boundaries')) {
-                    $parser = new Parser($query);
                     $tasks = [];
 
-                    foreach ($parser->statements as $statement) {
+                    foreach ($this->parse($query) as $statement) {
                         if ($statement instanceof DeleteStatement) {
                             continue;
                         }
@@ -106,6 +105,11 @@ class ImportCommand extends Command
         $this->call('migrate:fresh');
     }
 
+    /**
+     * @return array<string, list<non-empty-array|array{code: int, name: string, latitude: ?float, longitude: ?float, coordinates: null|string|false}>>
+     *
+     * @throws \ValueError
+     */
     private function fetchAll(): array
     {
         $timer = $this->timer('Fetching upstream data');
@@ -166,9 +170,8 @@ class ImportCommand extends Command
         // See: https://github.com/cahyadsn/wilayah_boundaries/blob/4555b309/db/ddl_wilayah_boundaries.sql#L35-L44
         $boundariesPath = 'cahyadsn-wilayah_boundaries/db';
         $ddlPath = "{$boundariesPath}/ddl_wilayah_boundaries.sql";
-        $lines = explode(PHP_EOL, explode('-- ', file_get_contents(
-            (string) $libPath->append("/{$ddlPath}")
-        ))[1]);
+        $ddlContent = file_get_contents((string) $libPath->append("/{$ddlPath}"));
+        $lines = $ddlContent ? explode(PHP_EOL, explode('-- ', $ddlContent)[1]) : [];
 
         yield $ddlPath => implode(PHP_EOL, array_slice($lines, 1, count($lines)));
 
@@ -185,7 +188,7 @@ class ImportCommand extends Command
     }
 
     /**
-     * @return PDO|array|void
+     * @return ($statement is null ? PDO : ($statement is string ? array : void))
      */
     private function upstream(string|\Closure|null $statement = null)
     {

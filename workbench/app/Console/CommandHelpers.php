@@ -17,9 +17,7 @@ trait CommandHelpers
 
     private function libPath(string ...$paths): Stringable
     {
-        $path = realpath(\dirname(__DIR__).'/../..');
-
-        if (! empty($paths)) {
+        if ($path = realpath(\dirname(__DIR__).'/../..')) {
             $path .= DIRECTORY_SEPARATOR.implode(DIRECTORY_SEPARATOR, $paths);
         }
 

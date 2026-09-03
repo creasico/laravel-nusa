@@ -7,15 +7,15 @@ namespace Workbench\App\Console;
 use Illuminate\Console\Command;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\DB;
-use PhpMyAdmin\SqlParser\Parser;
 use PhpMyAdmin\SqlParser\Statements\DeleteStatement;
 use PhpMyAdmin\SqlParser\Statements\InsertStatement;
 use PhpMyAdmin\SqlParser\Statements\UpdateStatement;
 use Workbench\App\Support\GitHelper;
+use Workbench\App\Support\SqlHelper;
 
 class StatCommand extends Command
 {
-    use CommandHelpers, GitHelper;
+    use CommandHelpers, GitHelper, SqlHelper;
 
     protected $signature = 'nusa:stat';
 
@@ -139,9 +139,11 @@ class StatCommand extends Command
             return null;
         }
 
-        $parser = new Parser(shell_exec("sqldiff --primarykey {$current} {$updated}"));
+        if (! $content = shell_exec("sqldiff --primarykey {$current} {$updated}")) {
+            return null;
+        }
 
-        foreach ($parser->statements as $statement) {
+        foreach ($this->parse($content) as $statement) {
             if ($statement instanceof InsertStatement) {
                 $reports['added'][$statement->into->dest->table][] = array_map(
                     [$this, 'sanitizeValue'],
