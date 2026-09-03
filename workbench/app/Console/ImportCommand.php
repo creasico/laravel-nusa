@@ -111,8 +111,8 @@ class ImportCommand extends Command
                 p.kodepos,
                 l.lat, l.lng, l.path
             FROM wilayah w
-            LEFT JOIN wilayah_boundaries l ON w.kode = l.kode
-            LEFT JOIN wilayah_kodepos p on w.kode = p.kode
+            LEFT JOIN wilayah_boundaries l ON w.kode = l.kode COLLATE utf8mb4_unicode_ci
+            LEFT JOIN wilayah_kodepos p on w.kode = p.kode COLLATE utf8mb4_unicode_ci
             ORDER BY w.kode
         SQL);
 
