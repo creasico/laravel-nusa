@@ -142,6 +142,8 @@ class StatCommand extends Command
         ];
 
         if (! file_exists((string) $updated)) {
+            dump((string) $updated);
+
             return null;
         }
 

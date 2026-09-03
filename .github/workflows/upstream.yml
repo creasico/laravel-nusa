@@ -109,8 +109,6 @@ jobs:
         run: |
           vendor/bin/testbench nusa:stat --ansi
 
-          ls -lah database/*.sqlite
-
           # if [[ "$GIT_BRANCH" == dependabot* ]]; then
           #   BRANCH_TOKEN="${GIT_BRANCH##*/}"
           # else
