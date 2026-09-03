@@ -8,7 +8,6 @@ use Illuminate\Console\Command;
 use Illuminate\Console\View\Components\TwoColumnDetail;
 use Illuminate\Support\Facades\DB;
 use PDO;
-use PhpMyAdmin\SqlParser\Statements\DeleteStatement;
 use Symfony\Component\Finder\Finder;
 use Workbench\App\Support\Normalizer;
 use Workbench\App\Support\SqlHelper;
@@ -47,10 +46,6 @@ class ImportCommand extends Command
                 $timer = $this->timer("Imported '<fg=yellow>{$path}</>'");
 
                 foreach ($this->parseQuery($query) as $statement) {
-                    if ($statement instanceof DeleteStatement) {
-                        continue;
-                    }
-
                     $conn->query((string) $statement);
                 }
 
