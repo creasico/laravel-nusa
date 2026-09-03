@@ -142,10 +142,10 @@ class StatCommand extends Command
         ];
 
         if (! file_exists((string) $updated)) {
-            dump((string) $updated);
-
             return null;
         }
+
+        dump(['current' => (string) $current, 'updated' => (string) $updated, 'branch' => $branch]);
 
         if (! $content = shell_exec("sqldiff --primarykey {$current} {$updated}")) {
             return null;
