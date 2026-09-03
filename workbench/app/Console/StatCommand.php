@@ -127,8 +127,16 @@ class StatCommand extends Command
      */
     public function getDiffs(): ?array
     {
+        $branch = $this->currentBranch();
+
+        if ($this->runningInCI()) {
+            exec("echo \"BRANCH_TOKEN: {$branch}\"");
+            exec("echo \"BRANCH_TOKEN={$branch}\" >> \$GITHUB_OUTPUT");
+            exec('ls -lah database/*.sqlite');
+        }
+
         $current = $this->libPath('database', 'nusa.sqlite');
-        $updated = $this->libPath('database', "nusa.{$this->currentBranch()}.sqlite");
+        $updated = $this->libPath('database', "nusa.{$branch}.sqlite");
         $reports = $states = [
             'added' => [],
             'changed' => [],
