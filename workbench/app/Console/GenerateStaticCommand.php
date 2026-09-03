@@ -135,7 +135,9 @@ class GenerateStaticCommand extends Command
             $lines[] = array_values($item);
         }
 
-        $fp = fopen("{$path}.csv", 'w');
+        if (! $fp = fopen("{$path}.csv", 'w')) {
+            return;
+        }
 
         foreach ($lines as $line) {
             fputcsv($fp, $line);
