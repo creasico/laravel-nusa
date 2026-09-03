@@ -12,12 +12,14 @@ trait SqlHelper
     /**
      * @return \Generator<Statement>
      */
-    private function parse(string $query): \Generator
+    private function parseQuery(string $query): \Generator
     {
         $parser = new Parser($query);
 
         foreach ($parser->statements as $statement) {
             yield $statement;
         }
+
+        $parser = null;
     }
 }

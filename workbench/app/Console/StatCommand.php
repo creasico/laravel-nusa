@@ -143,7 +143,7 @@ class StatCommand extends Command
             return null;
         }
 
-        foreach ($this->parse($content) as $statement) {
+        foreach ($this->parseQuery($content) as $statement) {
             if ($statement instanceof InsertStatement) {
                 $reports['added'][$statement->into->dest->table][] = array_map(
                     [$this, 'sanitizeValue'],
