@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 use Creasi\Nusa\Http\Controllers\ApiController;
 use Creasi\Nusa\Http\Controllers\DistrictController;
 use Creasi\Nusa\Http\Controllers\ProvinceController;

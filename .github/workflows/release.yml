@@ -1,4 +1,5 @@
 name: Release
+run-name: "release(${{ github.ref_name }}): publish release for `${{ github.sha }}`"
 
 on:
   push:
@@ -7,6 +8,6 @@ on:
 jobs:
   publish:
     name: Publish Release
-    uses: projek-xyz/actions/.github/workflows/release.yml@main
+    uses: projek-xyz/actions/.github/workflows/release.yml@22d40bb8c8f18ea5bd59ec5680a5bd3d5a024697 # main @ 2026-10-14
     permissions:
       contents: write

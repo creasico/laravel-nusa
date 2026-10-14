@@ -1,6 +1,13 @@
 {
+    "$schema": "https://raw.githubusercontent.com/open-southeners/vscode-laravel-pint/main/pint-schema.json",
     "preset": "laravel",
     "exclude": [
         "submodules"
-    ]
+    ],
+    "rules": {
+        "combine_consecutive_issets": true,
+        "combine_consecutive_unsets": true,
+        "declare_strict_types": true,
+        "fully_qualified_strict_types": true
+    }
 }

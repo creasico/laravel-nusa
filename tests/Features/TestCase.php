@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Creasi\Tests\Features;
 
 use Creasi\Tests\TestCase as BaseTestCase;
@@ -11,10 +13,10 @@ abstract class TestCase extends BaseTestCase
 
     protected function path(?string $path = null, array $query = []): string
     {
-        $path = $this->path.'/'.ltrim($path);
+        $path = $this->path.'/'.\ltrim($path ?? '');
 
         if (! empty($query)) {
-            $path .= '?'.http_build_query($query);
+            $path .= '?'.\http_build_query($query);
         }
 
         return $path;

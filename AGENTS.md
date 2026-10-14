@@ -4,10 +4,11 @@ Laravel Nusa is a Laravel package that provides Indonesia's administrative divis
 
 ## Quick Start
 ```
-composer install   # Install PHP dependencies
-pnpm install       # Install docs dependencies
-composer test      # Run PHPUnit tests (testbench package:test)
-composer fix       # Run Laravel Pint formatter
+composer install      # Install PHP dependencies
+pnpm install          # Install docs dependencies
+composer upstream:up  # Start Docker + import fresh data (required before composer test)
+composer test         # Run PHPUnit tests (testbench package:test)
+composer fix          # Run Laravel Pint formatter
 ```
 
 ## Structure
@@ -34,8 +35,8 @@ composer tinker                  # Start Tinker
 
 ## Code Standards
 - PHP ≥ 8.2, Laravel ≥ 9.0–13.0
-- `declare(strict_types=1)` in all files
-- Laravel Pint `--preset laravel` on save (pre-commit hook via `pnpm exec lint-staged`)
+- `declare(strict_types=1)` in all files (auto-enforced by Pint's `declare_strict_types` rule)
+- Laravel Pint is configured in `pint.json` (preset `laravel` + extra rules); run via `composer fix`, and it also runs automatically on commit (pre-commit hook via `pnpm exec lint-staged`)
 
 ## Configuration
 - Config: `config/nusa.php` (published to `config/creasi/nusa.php` via tag `creasi-config` or `creasi-nusa-config`)
@@ -58,6 +59,9 @@ composer tinker                  # Start Tinker
 ## Documentation
 - English first, mirror to `id/` for Indonesian
 - Dev: `pnpm docs:dev`, Build: `pnpm docs:build`
+
+## CI
+- GitHub Actions in `.github/workflows/` are pinned to full commit SHAs with a trailing version comment (e.g. `uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1`); when adding or updating an action, always pin it to its latest stable release's SHA
 
 ## Operational Mandates
 
