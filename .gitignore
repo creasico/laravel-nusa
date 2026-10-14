@@ -6,27 +6,22 @@ Desktop.ini
 .directory
 ._*
 *.DS_Store
-*.old
+*.gz
 *.log
-*.tmp
+*.old
+*.zip
 
-# caches
+# Backup, Cache and Temporary
 .cache
-*.cache
 *~
+*.bak*
+*.bak
+*.cache
+*.swp
 
 # distribution
 dist
 *.mo
-*.zip
-
-# IDE Project Configurations
-# --------------------------
-.idea
-.project
-.settings
-.zed
-*.sublime-*
 
 # AI Agents
 # --------------------------
@@ -41,6 +36,14 @@ conductor
 CLAUDE.md
 GEMINI.md
 opencode.json
+
+# IDE Project Configurations
+# --------------------------
+.idea
+.project
+.settings
+.zed
+*.sublime-*
 
 # Development files
 # --------------------------
