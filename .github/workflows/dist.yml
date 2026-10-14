@@ -10,7 +10,7 @@ on:
 jobs:
   prepare:
     name: Prepare
-    uses: projek-xyz/actions/.github/workflows/prepare.yml@22d40bb8c8f18ea5bd59ec5680a5bd3d5a024697
+    uses: projek-xyz/actions/.github/workflows/prepare.yml@22d40bb8c8f18ea5bd59ec5680a5bd3d5a024697 # main @ 2026-10-14
 
   upstream:
     name: Upstream DB
@@ -38,7 +38,7 @@ jobs:
 
       - name: Cache upstream
         id: upstream
-        uses: actions/cache/restore@v6
+        uses: actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
         with:
           path: database/nusa.*.sqlite
           key: upstream-database_${{ github.ref_name }}_${{ hashFiles('**/*.sql') }}
@@ -75,14 +75,14 @@ jobs:
           fetch-depth: 0 # Not needed if lastUpdated is not enabled
 
       - name: Set up pnpm
-        uses: pnpm/setup@fbda4c85fc2e1e08721cd8763afea8f48d60f024 # v3.0.0
+        uses: pnpm/setup@a0881977cd8ea73b1ed212236c99ca10dcc80cf4 # v3.1.1
         with:
           cache: true
           runtime: 'node@lts'
           install: true
 
       - name: Setup Pages
-        uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d
+        uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
 
       - name: Build with VitePress
         run: pnpm docs:build

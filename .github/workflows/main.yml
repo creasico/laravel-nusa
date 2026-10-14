@@ -16,7 +16,7 @@ concurrency:
 jobs:
   prepare:
     name: Prepare
-    uses: projek-xyz/actions/.github/workflows/prepare.yml@22d40bb8c8f18ea5bd59ec5680a5bd3d5a024697
+    uses: projek-xyz/actions/.github/workflows/prepare.yml@22d40bb8c8f18ea5bd59ec5680a5bd3d5a024697 # main @ 2026-10-14
     secrets:
       COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
 
@@ -137,6 +137,6 @@ jobs:
     name: Report Test Coverages
     needs: [prepare, tests]
     if: needs.prepare.outputs.should-reports == '1'
-    uses: projek-xyz/actions/.github/workflows/report.yml@22d40bb8c8f18ea5bd59ec5680a5bd3d5a024697
+    uses: projek-xyz/actions/.github/workflows/report.yml@22d40bb8c8f18ea5bd59ec5680a5bd3d5a024697 # main @ 2026-10-14
     with:
       has-coveralls: ${{ needs.prepare.outputs.has-coveralls == '1' }}
