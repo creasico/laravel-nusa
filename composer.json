@@ -90,7 +90,7 @@
     },
     "require-dev": {
         "composer-runtime-api": "*",
-        "laravel/pint": "^1.32",
+        "laravel/pint": "^1.30",
         "nunomaduro/collision": "^7.4|^8.0",
         "orchestra/testbench": "^8.5|^9.0|^10.0|^11.0",
         "phpmyadmin/sql-parser": "^6.0",
