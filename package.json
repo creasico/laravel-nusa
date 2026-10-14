@@ -33,7 +33,7 @@
     },
     "lint-staged": {
         "{config,database,src,tests,workbench}/**/*.php": [
-            "php vendor/bin/pint --preset laravel"
+            "vendor/bin/pint"
         ]
     },
     "simple-git-hooks": {

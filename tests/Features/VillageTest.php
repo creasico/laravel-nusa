@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Creasi\Tests\Features;
 
 use Creasi\Tests\Models\VillageTest as ModelTest;

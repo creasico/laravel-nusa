@@ -40,7 +40,7 @@
             "@php -r \"file_exists('workbench/.env') || copy('workbench/.env.example', 'workbench/.env');\""
         ],
         "fix": [
-            "pint --preset laravel"
+            "pint --parallel"
         ],
         "test": [
             "Composer\\Config::disableProcessTimeout",
