@@ -143,7 +143,7 @@ services:
       - mysql_data:/var/lib/mysql
 
   phpmyadmin:
-    image: phpmyadmin/phpmyadmin
+    image: phpmyadmin
     ports:
       - "8080:80"
     environment:
