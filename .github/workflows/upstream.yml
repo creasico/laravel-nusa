@@ -64,7 +64,7 @@ jobs:
         uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
         with:
           path: database/nusa.${{ inputs.branch-slug }}.csv
-          key: upstream-${{ inputs.branch-slug }}-${{ github.ref }}
+          key: upstream-${{ inputs.branch-slug }}-${{ github.sha }}
           restore-keys: upstream-${{ inputs.branch-slug }}-
 
       - name: Cache base states
@@ -72,9 +72,9 @@ jobs:
         if: github.event_name == 'pull_request'
         uses: actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
         with:
-          path: database/nusa.main.csv
-          key: upstream-main-${{ github.event.pull_request.base.ref }}
-          restore-keys: upstream-main-
+          path: database/nusa.${{ github.event.pull_request.base.ref }}.csv
+          key: upstream-${{ github.event.pull_request.base.ref }}-${{ github.event.pull_request.base.sha }}
+          restore-keys: upstream-${{ github.event.pull_request.base.ref }}-
 
       - name: Check states
         run: |
