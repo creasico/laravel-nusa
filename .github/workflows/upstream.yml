@@ -59,24 +59,29 @@ jobs:
       #   id: cache-key
       #   run: echo "key=upstream-database_${{ hashFiles('**/*.sql') }}" >> "$GITHUB_OUTPUT"
 
-      # - name: Cache upstream
-      #   id: upstream
-      #   if: github.event_name == 'pull_request'
-      #   uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
-      #   with:
-      #     path: database/nusa.main.csv
-      #     key: upstream-main-${{ github.event.pull_request.base.ref }}
-
-      - name: Download base sqlite artifacts
-        if: github.event_name == 'pull_request'
-        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+      - name: Cache upstream states
+        id: upstream-states
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
         with:
-          digest-mismatch: info
-          name: sqlite-artifacts_main
-          path: database
+          path: database/nusa.${{ inputs.branch-slug }}.csv
+          key: upstream-${{ inputs.branch-slug }}-${{ github.ref }}
+          restore-keys: upstream-${{ inputs.branch-slug }}-
+
+      - name: Cache base states
+        id: base-states
+        if: github.event_name == 'pull_request'
+        uses: actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: database/nusa.main.csv
+          key: upstream-main-${{ github.event.pull_request.base.ref }}
+          restore-keys: upstream-main-
+
+      - name: Check states
+        run: |
+          ls -lah database
 
       - name: Setup MySQL
-        if: ${{ steps.upstream.outputs.cache-hit != 'true' }}
+        if: ${{ steps.base-states.outputs.cache-hit != 'true' }}
         run: |
           sudo /etc/init.d/mysql start
           mysql -e "CREATE DATABASE $DB_DATABASE;" -u"$DB_USERNAME" -p"$DB_PASSWORD"
@@ -121,7 +126,7 @@ jobs:
 
       - name: Import databases
         id: imports
-        # if: ${{ steps.upstream.outputs.cache-hit != 'true' }}
+        # if: ${{ steps.base-states.outputs.cache-hit != 'true' }}
         env:
           COLUMNS: 100
         run: |
