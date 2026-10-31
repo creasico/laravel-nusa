@@ -8,15 +8,12 @@ trait GitHelper
 {
     private function currentBranch(): string
     {
-        /** @var string $branch */
-        $branch = env('GIT_BRANCH', function () {
+        return env('GIT_BRANCH', function () {
             if ($branch = shell_exec('git rev-parse --abbrev-ref HEAD')) {
-                return $branch;
+                return str_replace('/', '_', mb_strtolower($branch));
             }
 
             return 'main';
         });
-
-        return (string) str($branch)->slug(dictionary: ['/' => '_']);
     }
 }
