@@ -1,10 +1,11 @@
+# yaml-language-server: $schema=https://www.schemastore.org/dependabot-2.0.json
 version: 2
 
 updates:
   - package-ecosystem: gitsubmodule
     directory: /
     schedule:
-      interval: weekly
+      interval: monthly
       timezone: Asia/Jakarta
 
   - package-ecosystem: github-actions
@@ -15,10 +16,8 @@ updates:
     labels:
       - dependencies
     groups:
-      artifacts:
-        patterns: [actions/*-artifact, actions/deploy-pages]
-      runtimes:
-        patterns: [oven-sh/setup-bun, shivammathur/setup-php]
+      dependencies:
+        patterns: ['*']
 
   - package-ecosystem: composer
     directory: /
@@ -28,10 +27,6 @@ updates:
     versioning-strategy: increase-if-necessary
     groups:
       dependencies:
-        dependency-type: production
-        patterns: ['*']
-      dev-dependencies:
-        dependency-type: development
         patterns: ['*']
 
   - package-ecosystem: npm
@@ -41,5 +36,5 @@ updates:
       timezone: Asia/Jakarta
     versioning-strategy: increase-if-necessary
     groups:
-      commitlint:
-        patterns: ['@commitlint/*']
+      dependencies:
+        patterns: ['*']
