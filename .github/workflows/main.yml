@@ -27,6 +27,7 @@ jobs:
     with:
       composer-cache-dir: ${{ needs.prepare.outputs.composer-cache-dir }}
       branch-name: ${{ needs.prepare.outputs.branch-name }}
+      branch-slug: ${{ needs.prepare.outputs.branch-slug }}
 
   tests:
     name: Test on PHP ${{ matrix.php }} Laravel ${{ matrix.laravel }} DB ${{ matrix.db }}
@@ -90,12 +91,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.PAT }}
 
-      - name: Cache upstream
-        id: upstream
-        uses: actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+      - name: Download sqlite artifacts
+        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
         with:
-          path: database/nusa.*.sqlite
-          key: ${{ needs.upstream.outputs.cache-key }}
+          name: sqlite-artifacts_${{ needs.prepare.outputs.branch-slug }}
+          path: database
 
       - name: Cache dependencies
         uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0

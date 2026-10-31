@@ -12,6 +12,9 @@ on:
       branch-name:
         type: string
         default: main
+      branch-slug:
+        type: string
+        default: main
     outputs:
       has-changes:
         value: ${{ jobs.import.outputs.has-changes }}
@@ -37,21 +40,43 @@ jobs:
       - name: Checkout
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
+          persist-credentials: false
           submodules: true
 
-      - name: Set cache key
-        id: cache-key
-        run: echo "key=upstream-database_${{ hashFiles('**/*.sql') }}" >> "$GITHUB_OUTPUT"
+      # - name: Upstream state
+      #   id: state
+      #   run: |
+      #     git submodule foreach --quiet 'echo "$(git rev-parse HEAD) $name"' >> workbench/upstream.${{ inputs.branch-slug }}.state
+      #     echo "key=upstream-${{ inputs.branch-slug }}-${{ hashFiles('workbench/upstream.*.state') }}" >> "$GITHUB_OUTPUT"
 
-      - name: Cache upstream
-        id: upstream
-        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+      # - name: Cache upstream
+      #   uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+      #   with:
+      #     path: workbench/upstream.${{ inputs.branch-slug }}.state
+      #     key: ${{ steps.state.outputs.key }}
+
+      # - name: Set cache key
+      #   id: cache-key
+      #   run: echo "key=upstream-database_${{ hashFiles('**/*.sql') }}" >> "$GITHUB_OUTPUT"
+
+      # - name: Cache upstream
+      #   id: upstream
+      #   if: github.event_name == 'pull_request'
+      #   uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+      #   with:
+      #     path: database/nusa.main.csv
+      #     key: upstream-main-${{ github.event.pull_request.base.ref }}
+
+      - name: Download base sqlite artifacts
+        if: github.event_name == 'pull_request'
+        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
         with:
-          path: database/nusa.*.sqlite
-          key: ${{ steps.cache-key.outputs.key }}
+          digest-mismatch: info
+          name: sqlite-artifacts_main
+          path: database
 
       - name: Setup MySQL
-        # if: ${{ steps.upstream.outputs.cache-hit != 'true' }}
+        if: ${{ steps.upstream.outputs.cache-hit != 'true' }}
         run: |
           sudo /etc/init.d/mysql start
           mysql -e "CREATE DATABASE $DB_DATABASE;" -u"$DB_USERNAME" -p"$DB_PASSWORD"
@@ -101,6 +126,7 @@ jobs:
           COLUMNS: 100
         run: |
           vendor/bin/testbench nusa:import --fresh --dist --ansi
+          ls -lah database
 
       - name: Stat summary
         id: stats
@@ -111,12 +137,15 @@ jobs:
 
       - name: Upload sqlite artifacts
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
-        if: ${{ inputs.generate-static == true || steps.stats.outputs.has-changes == '1' }}
+        # if: ${{ inputs.generate-static == true || steps.stats.outputs.has-changes == '1' }}
         with:
-          name: sqlite-artifacts_${{ steps.stats.outputs.BRANCH_TOKEN }}
-          path: database/nusa.*.sqlite
           retention-days: 30
           overwrite: true
+          name: sqlite-artifacts_${{ inputs.branch-slug }}
+          path: |
+            database/nusa.${{ inputs.branch-slug }}-full.sqlite
+            database/nusa.${{ inputs.branch-slug }}.sqlite
+            database/nusa.${{ inputs.branch-slug }}.csv
 
       - name: Generate static files
         if: ${{ inputs.generate-static == true || steps.stats.outputs.has-changes == '1' }}
@@ -130,7 +159,7 @@ jobs:
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         if: ${{ inputs.generate-static == true || steps.stats.outputs.has-changes == '1' }}
         with:
-          name: static-artifacts-${{ steps.stats.outputs.BRANCH_TOKEN }}
+          name: static-artifacts-${{ inputs.branch-slug }}
           path: resources/static
           retention-days: 30
           overwrite: true
