@@ -46,40 +46,44 @@ jobs:
           persist-credentials: false
           submodules: true
 
-      # - name: Upstream state
-      #   id: state
-      #   run: |
-      #     git submodule foreach --quiet 'echo "$(git rev-parse HEAD) $name"' >> workbench/upstream.${{ inputs.branch-slug }}.state
-      #     echo "key=upstream-${{ inputs.branch-slug }}-${{ hashFiles('workbench/upstream.*.state') }}" >> "$GITHUB_OUTPUT"
-
-      # - name: Cache upstream
-      #   uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
-      #   with:
-      #     path: workbench/upstream.${{ inputs.branch-slug }}.state
-      #     key: ${{ steps.state.outputs.key }}
-
-      # - name: Set cache key
-      #   id: cache-key
-      #   run: echo "key=upstream-database_${{ hashFiles('**/*.sql') }}" >> "$GITHUB_OUTPUT"
-
-      - name: Cache upstream states
-        id: upstream-states
+      - name: Cache PR states
+        id: pr-cache
         uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
         with:
-          path: database/nusa.*.csv
+          path: database/nusa.${{ inputs.branch-slug }}.csv
           key: upstream-${{ inputs.branch-slug }}-${{ github.sha }}
-          restore-keys: |
-            upstream-${{ github.event.pull_request.base.ref }}-${{ github.event.pull_request.base.sha }}
-            upstream-${{ github.event.pull_request.base.ref }}-
-            upstream-${{ inputs.branch-slug }}-
+          restore-keys: upstream-${{ inputs.branch-slug }}-
+
+      - name: Cache base states
+        if: github.event_name == 'pull_request'
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: database/nusa.${{ github.event.pull_request.base.ref }}.csv
+          key: upstream-${{ github.event.pull_request.base.ref }}-${{ github.event.pull_request.base.sha }}
+          restore-keys: upstream-${{ github.event.pull_request.base.ref }}-
 
       - name: Check states
-        if: ${{ steps.upstream-states.outputs.cache-hit != 'true' }}
+        id: pr-state
+        if: github.event_name == 'pull_request'
+        env:
+          PR_STATE: database/nusa.${{ inputs.branch-slug }}.csv
+          BASE_STATE: database/nusa.${{ github.event.pull_request.base.ref }}.csv
         run: |
-          ls -lah database
+          # ls -lah database
+          if [ ! -f "$PR_STATE" ] || [ ! -f "$BASE_STATE" ]; then
+            echo "should-import=1" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          if join -t',' -1 2 -2 2 <(tail -n +2 "$PR_STATE") <(tail -n +2 "$BASE_STATE") | awk -F',' '$2 != $3 { print $1; exit 1 }' | grep -q .; then
+            echo "should-import=1" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          echo "should-import=0" >> "$GITHUB_OUTPUT"
 
       - name: Setup MySQL
-        if: ${{ steps.upstream-states.outputs.cache-hit != 'true' }}
+        if: steps.pr-state.outputs.should-import == '1' || steps.pr-cache.outputs.cache-hit != 'true'
         run: |
           sudo /etc/init.d/mysql start
           mysql -e "CREATE DATABASE $DB_DATABASE;" -u"$DB_USERNAME" -p"$DB_PASSWORD"
@@ -124,12 +128,11 @@ jobs:
 
       - name: Import databases
         id: imports
-        # if: ${{ steps.upstream-states.outputs.cache-hit != 'true' }}
+        if: steps.pr-state.outputs.should-import == '1' || steps.pr-cache.outputs.cache-hit != 'true'
         env:
           COLUMNS: 100
         run: |
           vendor/bin/testbench nusa:import --fresh --dist --ansi
-          ls -lah database
 
       - name: Stat summary
         id: stats
