@@ -74,6 +74,8 @@ class WorkbenchServiceProvider extends ServiceProvider
                 'database' => env('UPSTREAM_DB_DATABASE', 'nusantara'),
                 'username' => env('DB_USERNAME', 'creasico'),
                 'password' => env('DB_PASSWORD', 'secret'),
+                'collation' => 'utf8mb4_unicode_ci',
+                'charset' => 'utf8',
             ],
         ]);
     }
