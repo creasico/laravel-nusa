@@ -45,8 +45,12 @@ class ImportCommand extends Command
             foreach ($files as $path => $query) {
                 $timer = $this->timer("Imported '<fg=yellow>{$path}</>'");
 
-                foreach ($this->parseQuery($query) as $statement) {
-                    $conn->query((string) $statement);
+                if (str_contains($path, 'wilayah_boundaries')) {
+                    $conn->exec($query);
+                } else {
+                    foreach ($this->parseQuery($query) as $statement) {
+                        $conn->exec((string) $statement);
+                    }
                 }
 
                 $timer->stop();
