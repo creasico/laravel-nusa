@@ -163,13 +163,15 @@ class ImportCommand extends Command
 
         $sqls = Finder::create()
             ->files()
-            ->in((string) $libPath->append("/{$boundariesPath}/*/"))
+            ->in((string) $libPath->append("/{$boundariesPath}/"))
             ->name('*.sql');
 
-        foreach ($sqls as $path => $file) {
-            $path = substr($path, $libPath->length() + 1);
+        foreach (['prov', 'kab', 'kec', 'kel'] as $region) {
+            foreach ((clone $sqls)->path($region) as $path => $file) {
+                $path = substr($path, $libPath->length() + 1);
 
-            yield $path => $file->getContents();
+                yield $path => $file->getContents();
+            }
         }
     }
 
