@@ -51,7 +51,7 @@ jobs:
           key: ${{ steps.cache-key.outputs.key }}
 
       - name: Setup MySQL
-        if: ${{ steps.upstream.outputs.cache-hit != 'true' }}
+        # if: ${{ steps.upstream.outputs.cache-hit != 'true' }}
         run: |
           sudo /etc/init.d/mysql start
           mysql -e "CREATE DATABASE $DB_DATABASE;" -u"$DB_USERNAME" -p"$DB_PASSWORD"
@@ -96,7 +96,7 @@ jobs:
 
       - name: Import databases
         id: imports
-        if: ${{ steps.upstream.outputs.cache-hit != 'true' }}
+        # if: ${{ steps.upstream.outputs.cache-hit != 'true' }}
         env:
           COLUMNS: 100
         run: |
