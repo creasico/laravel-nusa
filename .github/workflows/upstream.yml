@@ -47,11 +47,11 @@ jobs:
         id: sqlite-cache
         uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
         with:
-          # Stable paths, because `actions/cache` derives the cache version from them:
-          # branch-specific paths would make the entry unreachable from other branches.
+          # Kept in their own directory: `actions/cache` derives the cache version from
+          # the paths, and a branch slug such as `upstream` would otherwise collide.
           path: |
-            database/nusa.upstream-full.sqlite
-            database/nusa.upstream.sqlite
+            database/cache/nusa-full.sqlite
+            database/cache/nusa.sqlite
           key: upstream-sqlite-${{ hashFiles('workbench/submodules/**/*.sql', 'workbench/app/**/*.php', 'database/migrations/**') }}
 
       - name: Rename restored sqlite
@@ -59,10 +59,8 @@ jobs:
         env:
           SLUG: ${{ inputs.branch-slug }}
         run: |
-          cd database
-
-          mv nusa.upstream-full.sqlite "nusa.$SLUG-full.sqlite"
-          mv nusa.upstream.sqlite "nusa.$SLUG.sqlite"
+          mv database/cache/nusa-full.sqlite "database/nusa.$SLUG-full.sqlite"
+          mv database/cache/nusa.sqlite "database/nusa.$SLUG.sqlite"
 
       - name: Setup MySQL
         if: steps.sqlite-cache.outputs.cache-hit != 'true'
@@ -163,7 +161,7 @@ jobs:
         env:
           SLUG: ${{ inputs.branch-slug }}
         run: |
-          cd database
+          mkdir -p database/cache
 
-          mv "nusa.$SLUG-full.sqlite" nusa.upstream-full.sqlite
-          mv "nusa.$SLUG.sqlite" nusa.upstream.sqlite
+          mv "database/nusa.$SLUG-full.sqlite" database/cache/nusa-full.sqlite
+          mv "database/nusa.$SLUG.sqlite" database/cache/nusa.sqlite
