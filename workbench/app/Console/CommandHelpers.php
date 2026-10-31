@@ -56,6 +56,15 @@ trait CommandHelpers
         }
     }
 
+    private function ciOutput(string $output)
+    {
+        if (! $this->runningInCI()) {
+            return;
+        }
+
+        exec('echo "'.$output.'" >> $GITHUB_OUTPUT');
+    }
+
     private function runningInCI(): bool
     {
         return env('CI') !== null;
