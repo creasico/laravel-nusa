@@ -75,7 +75,7 @@ class WorkbenchServiceProvider extends ServiceProvider
                 'username' => env('DB_USERNAME', 'creasico'),
                 'password' => env('DB_PASSWORD', 'secret'),
                 'collation' => 'utf8mb4_unicode_ci',
-                'charset' => 'utf8',
+                'charset' => 'utf8mb4',
             ],
         ]);
     }
