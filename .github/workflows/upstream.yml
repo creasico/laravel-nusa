@@ -66,18 +66,12 @@ jobs:
         id: upstream-states
         uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
         with:
-          path: database/nusa.${{ inputs.branch-slug }}.csv
+          path: database/nusa.*.csv
           key: upstream-${{ inputs.branch-slug }}-${{ github.sha }}
-          restore-keys: upstream-${{ inputs.branch-slug }}-
-
-      - name: Cache base states
-        id: base-states
-        if: github.event_name == 'pull_request'
-        uses: actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
-        with:
-          path: database/nusa.${{ github.event.pull_request.base.ref }}.csv
-          key: upstream-${{ github.event.pull_request.base.ref }}-${{ github.event.pull_request.base.sha }}
-          restore-keys: upstream-${{ github.event.pull_request.base.ref }}-
+          restore-keys: |
+            upstream-${{ github.event.pull_request.base.ref }}-${{ github.event.pull_request.base.sha }}
+            upstream-${{ github.event.pull_request.base.ref }}-
+            upstream-${{ inputs.branch-slug }}-
 
       - name: Check states
         if: ${{ steps.upstream-states.outputs.cache-hit != 'true' }}
@@ -85,7 +79,7 @@ jobs:
           ls -lah database
 
       - name: Setup MySQL
-        if: ${{ steps.base-states.outputs.cache-hit != 'true' }}
+        if: ${{ steps.upstream-states.outputs.cache-hit != 'true' }}
         run: |
           sudo /etc/init.d/mysql start
           mysql -e "CREATE DATABASE $DB_DATABASE;" -u"$DB_USERNAME" -p"$DB_PASSWORD"
@@ -130,7 +124,7 @@ jobs:
 
       - name: Import databases
         id: imports
-        # if: ${{ steps.base-states.outputs.cache-hit != 'true' }}
+        # if: ${{ steps.upstream-states.outputs.cache-hit != 'true' }}
         env:
           COLUMNS: 100
         run: |
@@ -155,7 +149,6 @@ jobs:
           path: |
             database/nusa.${{ inputs.branch-slug }}-full.sqlite
             database/nusa.${{ inputs.branch-slug }}.sqlite
-            database/nusa.${{ inputs.branch-slug }}.csv
 
       - name: Generate static files
         if: ${{ inputs.generate-static == true || steps.stats.outputs.has-changes == '1' }}
