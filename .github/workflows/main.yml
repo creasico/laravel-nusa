@@ -26,7 +26,6 @@ jobs:
     needs: [prepare]
     with:
       composer-cache-dir: ${{ needs.prepare.outputs.composer-cache-dir }}
-      branch-name: ${{ needs.prepare.outputs.branch-name }}
       branch-slug: ${{ needs.prepare.outputs.branch-slug }}
 
   tests:
@@ -39,7 +38,7 @@ jobs:
       DB_DATABASE: ${{ github.repository_owner }}
       DB_USERNAME: ${{ github.repository_owner }}
       DB_PASSWORD: secret
-      GIT_BRANCH: ${{ needs.prepare.outputs.branch-name }}
+      GIT_BRANCH: ${{ needs.prepare.outputs.branch-slug }}
 
     services:
       postgresql:
@@ -123,7 +122,7 @@ jobs:
         env:
           COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ github.token }}
           flag-name: php${{ matrix.php }}-laravel${{ matrix.laravel }}-${{ matrix.db }}
           file: tests/coverage/clover.xml
           parallel: true

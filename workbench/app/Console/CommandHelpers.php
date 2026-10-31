@@ -56,13 +56,11 @@ trait CommandHelpers
         }
     }
 
-    private function ciOutput(string $output)
+    private function ciOutput(string $output): void
     {
-        if (! $this->runningInCI()) {
-            return;
+        if ($this->runningInCI()) {
+            file_put_contents((string) getenv('GITHUB_OUTPUT'), $output.PHP_EOL, FILE_APPEND);
         }
-
-        exec('echo "'.$output.'" >> $GITHUB_OUTPUT');
     }
 
     private function runningInCI(): bool

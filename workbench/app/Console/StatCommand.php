@@ -33,8 +33,6 @@ class StatCommand extends Command
         $hasChanges = false;
         $branch = $this->currentBranch();
 
-        $this->ciOutput('BRANCH_TOKEN='.$branch);
-
         $diffs = $this->getDiffs($branch);
 
         if ($diffs === null) {

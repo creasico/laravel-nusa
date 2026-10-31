@@ -35,7 +35,6 @@ class WorkbenchServiceProvider extends ServiceProvider
         $dbPaths = [
             "{$databaseDir}/nusa.{$branch}-full.sqlite",
             "{$databaseDir}/nusa.{$branch}.sqlite",
-            "{$databaseDir}/nusa.{$branch}.csv",
         ];
 
         if (! $nusa['database']) {

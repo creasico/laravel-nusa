@@ -9,13 +9,12 @@ use Illuminate\Console\View\Components\TwoColumnDetail;
 use Illuminate\Support\Facades\DB;
 use PhpMyAdmin\SqlParser\Statements\SetStatement;
 use Symfony\Component\Finder\Finder;
-use Workbench\App\Support\GitHelper;
 use Workbench\App\Support\Normalizer;
 use Workbench\App\Support\SqlHelper;
 
 class ImportCommand extends Command
 {
-    use CommandHelpers, GitHelper, SqlHelper;
+    use CommandHelpers, SqlHelper;
 
     private int $chunkSize = 5_000;
 
@@ -37,8 +36,7 @@ class ImportCommand extends Command
 
         $this->group('Importing files');
 
-        $paths = DB::usingConnection('upstream', function () {
-            $paths = [];
+        DB::usingConnection('upstream', function () {
             $files = $this->scanSqlFiles([
                 'cahyadsn-wilayah/db/wilayah.sql',
                 'cahyadsn-wilayah_kodepos/db/wilayah_kodepos.sql',
@@ -46,7 +44,6 @@ class ImportCommand extends Command
 
             foreach ($files as $path => $query) {
                 $timer = $this->timer("Imported '<fg=yellow>{$path}</>'");
-                $paths[] = $path;
 
                 if (str_contains($path, 'wilayah_boundaries')) {
                     DB::unprepared($query);
@@ -68,8 +65,6 @@ class ImportCommand extends Command
             $wilayahBoundaries = DB::table('wilayah_boundaries')->count();
 
             $this->line("  Imported <fg=yellow>{$wilayah}</> wilayah, <fg=yellow>{$wilayahKodepos}</> kodepos, <fg=yellow>{$wilayahBoundaries}</> boundaries");
-
-            return $paths;
         });
 
         if ($this->option('fresh')) {
@@ -98,29 +93,6 @@ class ImportCommand extends Command
         if ($this->option('dist')) {
             $this->call(DistCommand::class, ['--force' => true]);
         }
-
-        $this->group('Generate upstream hashes');
-
-        $upstream = $this->libPath('workbench/submodules/');
-        $branch = $this->currentBranch();
-        $lines = [];
-        $lines[] = ['hash', 'path'];
-
-        foreach ($paths as $path) {
-            $hash = hash_file('sha256', (string) $upstream->append($path));
-
-            $lines[] = [$hash, $path];
-        }
-
-        if ($fp = fopen((string) $this->libPath("database/nusa.{$branch}.csv"), 'w')) {
-            foreach ($lines as $line) {
-                fputcsv($fp, $line);
-            }
-
-            fclose($fp);
-        }
-
-        $this->endGroup();
     }
 
     private function refreshDatabase(): void
