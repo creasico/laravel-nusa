@@ -41,8 +41,7 @@ jobs:
         uses: actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
         with:
           path: database/nusa.*.sqlite
-          key: upstream-database_${{ github.ref_name }}_${{ hashFiles('**/*.sql') }}
-          restore-keys: upstream-database_${{ github.ref_name }}_
+          key: ${{ needs.upstream.outputs.cache-key }}
 
       - name: Commit distribution database
         if: ${{ needs.upstream.outputs.has-changes == '1' }}

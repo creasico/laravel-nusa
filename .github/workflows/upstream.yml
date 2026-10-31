@@ -15,6 +15,8 @@ on:
     outputs:
       has-changes:
         value: ${{ jobs.import.outputs.has-changes }}
+      cache-key:
+        value: ${{ jobs.import.outputs.cache-key }}
 
 jobs:
   import:
@@ -22,6 +24,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       has-changes: ${{ steps.stats.outputs.has-changes }}
+      cache-key: ${{ steps.cache-key.outputs.key }}
 
     env:
       DB_USERNAME: root
@@ -36,18 +39,19 @@ jobs:
         with:
           submodules: true
 
+      - name: Set cache key
+        id: cache-key
+        run: echo "key=upstream-database_${{ hashFiles('**/*.sql') }}" >> "$GITHUB_OUTPUT"
+
       - name: Cache upstream
         id: upstream
         uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
         with:
           path: database/nusa.*.sqlite
-          key: upstream-database_${{ env.GIT_BRANCH }}_${{ hashFiles('**/*.sql') }}
-          restore-keys: |
-            upstream-database_${{ env.GIT_BRANCH }}_
-            upstream-database_main_${{ hashFiles('**/*.sql') }}
+          key: ${{ steps.cache-key.outputs.key }}
 
       - name: Setup MySQL
-        if: ${{ steps.upstream.outputs.cache-hit == '' }}
+        if: ${{ steps.upstream.outputs.cache-hit != 'true' }}
         run: |
           sudo /etc/init.d/mysql start
           mysql -e "CREATE DATABASE $DB_DATABASE;" -u"$DB_USERNAME" -p"$DB_PASSWORD"
@@ -92,7 +96,7 @@ jobs:
 
       - name: Import databases
         id: imports
-        if: ${{ steps.upstream.outputs.cache-hit == '' }}
+        if: ${{ steps.upstream.outputs.cache-hit != 'true' }}
         env:
           COLUMNS: 100
         run: |
