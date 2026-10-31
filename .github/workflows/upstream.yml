@@ -9,14 +9,16 @@ on:
       generate-static:
         type: boolean
         default: false
-      branch-name:
+      branch-slug:
         type: string
         default: main
     outputs:
       has-changes:
         value: ${{ jobs.import.outputs.has-changes }}
-      cache-key:
-        value: ${{ jobs.import.outputs.cache-key }}
+      sqlite-artifact-id:
+        value: ${{ jobs.import.outputs.sqlite-artifact-id }}
+      static-artifact-id:
+        value: ${{ jobs.import.outputs.static-artifact-id }}
 
 jobs:
   import:
@@ -24,34 +26,51 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       has-changes: ${{ steps.stats.outputs.has-changes }}
-      cache-key: ${{ steps.cache-key.outputs.key }}
+      sqlite-artifact-id: ${{ steps.sqlite.outputs.artifact-id }}
+      static-artifact-id: ${{ steps.static.outputs.artifact-id }}
 
     env:
       DB_USERNAME: root
       DB_PASSWORD: root
       DB_DATABASE: ${{ github.repository_owner }}
       UPSTREAM_DB_DATABASE: nusantara
-      GIT_BRANCH: ${{ inputs.branch-name }}
+      GIT_BRANCH: ${{ inputs.branch-slug }}
 
     steps:
       - name: Checkout
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
+          persist-credentials: false
           submodules: true
 
-      - name: Set cache key
-        id: cache-key
-        run: echo "key=upstream-database_${{ hashFiles('**/*.sql') }}" >> "$GITHUB_OUTPUT"
-
-      - name: Cache upstream
-        id: upstream
+      - name: Restore sqlite
+        id: sqlite-cache
         uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
         with:
-          path: database/nusa.*.sqlite
-          key: ${{ steps.cache-key.outputs.key }}
+          path: |
+            database/nusa.${{ inputs.branch-slug }}-full.sqlite
+            database/nusa.${{ inputs.branch-slug }}.sqlite
+          key: upstream-sqlite-${{ hashFiles('workbench/submodules/**/*.sql', 'workbench/app/**/*.php') }}
+
+      - name: Normalize sqlite names
+        if: steps.sqlite-cache.outputs.cache-hit == 'true'
+        env:
+          SLUG: ${{ inputs.branch-slug }}
+        run: |
+          shopt -s nullglob
+          cd database
+
+          for file in nusa.*-full.sqlite; do
+            [ "$file" = "nusa.$SLUG-full.sqlite" ] || mv "$file" "nusa.$SLUG-full.sqlite"
+          done
+
+          for file in nusa.*.sqlite; do
+            case "$file" in *-full.sqlite) continue ;; esac
+            [ "$file" = "nusa.$SLUG.sqlite" ] || mv "$file" "nusa.$SLUG.sqlite"
+          done
 
       - name: Setup MySQL
-        # if: ${{ steps.upstream.outputs.cache-hit != 'true' }}
+        if: steps.sqlite-cache.outputs.cache-hit != 'true'
         run: |
           sudo /etc/init.d/mysql start
           mysql -e "CREATE DATABASE $DB_DATABASE;" -u"$DB_USERNAME" -p"$DB_PASSWORD"
@@ -96,7 +115,7 @@ jobs:
 
       - name: Import databases
         id: imports
-        # if: ${{ steps.upstream.outputs.cache-hit != 'true' }}
+        if: steps.sqlite-cache.outputs.cache-hit != 'true'
         env:
           COLUMNS: 100
         run: |
@@ -110,16 +129,21 @@ jobs:
           vendor/bin/testbench nusa:stat --ansi
 
       - name: Upload sqlite artifacts
+        id: sqlite
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
-        if: ${{ inputs.generate-static == true || steps.stats.outputs.has-changes == '1' }}
         with:
-          name: sqlite-artifacts_${{ steps.stats.outputs.BRANCH_TOKEN }}
-          path: database/nusa.*.sqlite
-          retention-days: 30
+          # PR artifacts are consumed by the same run; only main's are worth keeping.
+          retention-days: ${{ github.ref_name == 'main' && 30 || 7 }}
           overwrite: true
+          name: sqlite-artifacts_${{ inputs.branch-slug }}
+          path: |
+            database/nusa.${{ inputs.branch-slug }}-full.sqlite
+            database/nusa.${{ inputs.branch-slug }}.sqlite
 
       - name: Generate static files
-        if: ${{ inputs.generate-static == true || steps.stats.outputs.has-changes == '1' }}
+        if: >-
+          inputs.generate-static == true ||
+          (steps.stats.outputs.has-changes == '1' && github.ref_name == 'main')
         env:
           COLUMNS: 100
         run: |
@@ -127,10 +151,13 @@ jobs:
           du -hd 1 resources/static
 
       - name: Upload static artifacts
+        id: static
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
-        if: ${{ inputs.generate-static == true || steps.stats.outputs.has-changes == '1' }}
+        if: >-
+          inputs.generate-static == true ||
+          (steps.stats.outputs.has-changes == '1' && github.ref_name == 'main')
         with:
-          name: static-artifacts-${{ steps.stats.outputs.BRANCH_TOKEN }}
+          name: static-artifacts-${{ inputs.branch-slug }}
           path: resources/static
           retention-days: 30
           overwrite: true

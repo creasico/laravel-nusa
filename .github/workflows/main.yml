@@ -26,7 +26,7 @@ jobs:
     needs: [prepare]
     with:
       composer-cache-dir: ${{ needs.prepare.outputs.composer-cache-dir }}
-      branch-name: ${{ needs.prepare.outputs.branch-name }}
+      branch-slug: ${{ needs.prepare.outputs.branch-slug }}
 
   tests:
     name: Test on PHP ${{ matrix.php }} Laravel ${{ matrix.laravel }} DB ${{ matrix.db }}
@@ -38,7 +38,7 @@ jobs:
       DB_DATABASE: ${{ github.repository_owner }}
       DB_USERNAME: ${{ github.repository_owner }}
       DB_PASSWORD: secret
-      GIT_BRANCH: ${{ needs.prepare.outputs.branch-name }}
+      GIT_BRANCH: ${{ needs.prepare.outputs.branch-slug }}
 
     services:
       postgresql:
@@ -90,12 +90,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.PAT }}
 
-      - name: Cache upstream
-        id: upstream
-        uses: actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+      - name: Download sqlite artifacts
+        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
         with:
-          path: database/nusa.*.sqlite
-          key: ${{ needs.upstream.outputs.cache-key }}
+          artifact-ids: ${{ needs.upstream.outputs.sqlite-artifact-id }}
+          path: database
 
       - name: Cache dependencies
         uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
@@ -123,7 +122,7 @@ jobs:
         env:
           COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ github.token }}
           flag-name: php${{ matrix.php }}-laravel${{ matrix.laravel }}-${{ matrix.db }}
           file: tests/coverage/clover.xml
           parallel: true

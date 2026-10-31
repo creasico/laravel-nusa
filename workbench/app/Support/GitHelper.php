@@ -16,6 +16,6 @@ trait GitHelper
             return 'main';
         });
 
-        return (string) str($branch)->slug('_', dictionary: ['/' => '_']);
+        return str_replace('/', '_', mb_strtolower(trim($branch)));
     }
 }
