@@ -47,27 +47,22 @@ jobs:
         id: sqlite-cache
         uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
         with:
+          # Stable paths, because `actions/cache` derives the cache version from them:
+          # branch-specific paths would make the entry unreachable from other branches.
           path: |
-            database/nusa.${{ inputs.branch-slug }}-full.sqlite
-            database/nusa.${{ inputs.branch-slug }}.sqlite
-          key: upstream-sqlite-${{ hashFiles('workbench/submodules/**/*.sql', 'workbench/app/**/*.php') }}
+            database/nusa.upstream-full.sqlite
+            database/nusa.upstream.sqlite
+          key: upstream-sqlite-${{ hashFiles('workbench/submodules/**/*.sql', 'workbench/app/**/*.php', 'database/migrations/**') }}
 
-      - name: Normalize sqlite names
+      - name: Rename restored sqlite
         if: steps.sqlite-cache.outputs.cache-hit == 'true'
         env:
           SLUG: ${{ inputs.branch-slug }}
         run: |
-          shopt -s nullglob
           cd database
 
-          for file in nusa.*-full.sqlite; do
-            [ "$file" = "nusa.$SLUG-full.sqlite" ] || mv "$file" "nusa.$SLUG-full.sqlite"
-          done
-
-          for file in nusa.*.sqlite; do
-            case "$file" in *-full.sqlite) continue ;; esac
-            [ "$file" = "nusa.$SLUG.sqlite" ] || mv "$file" "nusa.$SLUG.sqlite"
-          done
+          mv nusa.upstream-full.sqlite "nusa.$SLUG-full.sqlite"
+          mv nusa.upstream.sqlite "nusa.$SLUG.sqlite"
 
       - name: Setup MySQL
         if: steps.sqlite-cache.outputs.cache-hit != 'true'
@@ -161,3 +156,14 @@ jobs:
           path: resources/static
           retention-days: 30
           overwrite: true
+
+      # Must stay the last step: everything above resolves the database at boot.
+      - name: Stage cache paths
+        if: steps.sqlite-cache.outputs.cache-hit != 'true'
+        env:
+          SLUG: ${{ inputs.branch-slug }}
+        run: |
+          cd database
+
+          mv "nusa.$SLUG-full.sqlite" nusa.upstream-full.sqlite
+          mv "nusa.$SLUG.sqlite" nusa.upstream.sqlite

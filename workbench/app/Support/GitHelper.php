@@ -16,6 +16,6 @@ trait GitHelper
             return 'main';
         });
 
-        return str_replace('/', '_', mb_strtolower(trim($branch)));
+        return str_replace('/', '_', trim($branch));
     }
 }
