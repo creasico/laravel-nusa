@@ -7,6 +7,7 @@ namespace Workbench\App\Console;
 use Illuminate\Console\Command;
 use Illuminate\Console\View\Components\TwoColumnDetail;
 use Illuminate\Support\Facades\DB;
+use PhpMyAdmin\SqlParser\Statements\SetStatement;
 use Symfony\Component\Finder\Finder;
 use Workbench\App\Support\Normalizer;
 use Workbench\App\Support\SqlHelper;
@@ -48,6 +49,10 @@ class ImportCommand extends Command
                     DB::unprepared($query);
                 } else {
                     foreach ($this->parseQuery($query) as $statement) {
+                        if ($statement instanceof SetStatement) {
+                            continue;
+                        }
+
                         DB::unprepared((string) $statement);
                     }
                 }
