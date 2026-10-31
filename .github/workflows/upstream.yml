@@ -18,8 +18,10 @@ on:
     outputs:
       has-changes:
         value: ${{ jobs.import.outputs.has-changes }}
-      cache-key:
-        value: ${{ jobs.import.outputs.cache-key }}
+      sqlite-artifact-id:
+        value: ${{ jobs.import.outputs.sqlite-artifact-id }}
+      static-artifact-id:
+        value: ${{ jobs.import.outputs.static-artifact-id }}
 
 jobs:
   import:
@@ -27,7 +29,8 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       has-changes: ${{ steps.stats.outputs.has-changes }}
-      cache-key: ${{ steps.cache-key.outputs.key }}
+      sqlite-artifact-id: ${{ steps.sqlite.outputs.artifact-id }}
+      static-artifact-id: ${{ steps.static.outputs.artifact-id }}
 
     env:
       DB_USERNAME: root
@@ -77,6 +80,7 @@ jobs:
           restore-keys: upstream-${{ github.event.pull_request.base.ref }}-
 
       - name: Check states
+        if: ${{ steps.upstream-states.outputs.cache-hit != 'true' }}
         run: |
           ls -lah database
 
@@ -141,6 +145,7 @@ jobs:
           vendor/bin/testbench nusa:stat --ansi
 
       - name: Upload sqlite artifacts
+        id: sqlite
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         # if: ${{ inputs.generate-static == true || steps.stats.outputs.has-changes == '1' }}
         with:
@@ -161,6 +166,7 @@ jobs:
           du -hd 1 resources/static
 
       - name: Upload static artifacts
+        id: static
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         if: ${{ inputs.generate-static == true || steps.stats.outputs.has-changes == '1' }}
         with:
