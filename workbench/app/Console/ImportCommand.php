@@ -7,7 +7,6 @@ namespace Workbench\App\Console;
 use Illuminate\Console\Command;
 use Illuminate\Console\View\Components\TwoColumnDetail;
 use Illuminate\Support\Facades\DB;
-use PDO;
 use Symfony\Component\Finder\Finder;
 use Workbench\App\Support\Normalizer;
 use Workbench\App\Support\SqlHelper;
@@ -36,7 +35,7 @@ class ImportCommand extends Command
 
         $this->group('Importing files');
 
-        $this->upstream(function (PDO $conn) {
+        DB::usingConnection('upstream', function () {
             $files = $this->scanSqlFiles([
                 'cahyadsn-wilayah/db/wilayah.sql',
                 'cahyadsn-wilayah_kodepos/db/wilayah_kodepos.sql',
@@ -46,15 +45,21 @@ class ImportCommand extends Command
                 $timer = $this->timer("Imported '<fg=yellow>{$path}</>'");
 
                 if (str_contains($path, 'wilayah_boundaries')) {
-                    $conn->exec($query);
+                    DB::unprepared($query);
                 } else {
                     foreach ($this->parseQuery($query) as $statement) {
-                        $conn->exec((string) $statement);
+                        DB::unprepared((string) $statement);
                     }
                 }
 
                 $timer->stop();
             }
+
+            $wilayah = DB::table('wilayah')->count();
+            $wilayahKodepos = DB::table('wilayah_kodepos')->count();
+            $wilayahBoundaries = DB::table('wilayah_boundaries')->count();
+
+            $this->line("  Imported <fg=yellow>{$wilayah}</> wilayah, <fg=yellow>{$wilayahKodepos}</> kodepos, <fg=yellow>{$wilayahBoundaries}</> boundaries");
         });
 
         if ($this->option('fresh')) {
@@ -104,11 +109,9 @@ class ImportCommand extends Command
     {
         $timer = $this->timer('Fetching upstream data');
 
-        $data = $this->upstream(<<<'SQL'
+        $data = DB::connection('upstream')->select(<<<'SQL'
             SELECT
-                w.kode, w.nama,
-                p.kodepos,
-                l.lat, l.lng, l.path
+                w.kode, w.nama, p.kodepos, l.lat, l.lng, l.path
             FROM wilayah w
             LEFT JOIN wilayah_boundaries l ON w.kode = l.kode COLLATE utf8mb4_unicode_ci
             LEFT JOIN wilayah_kodepos p on w.kode = p.kode COLLATE utf8mb4_unicode_ci
@@ -177,35 +180,6 @@ class ImportCommand extends Command
                 yield $path => $file->getContents();
             }
         }
-    }
-
-    /**
-     * @return ($statement is null ? PDO : ($statement is string ? array : void))
-     */
-    private function upstream(string|\Closure|null $statement = null)
-    {
-        $config = config('database.connections.upstream', []);
-
-        $conn = new PDO(
-            "mysql:dbname={$config['database']};host={$config['host']}",
-            $config['username'],
-            $config['password'],
-            [
-                PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
-            ]
-        );
-
-        if (! $statement) {
-            return $conn;
-        }
-
-        if ($statement instanceof \Closure) {
-            return $statement($conn);
-        }
-
-        $stmt = $conn->query($statement, PDO::FETCH_OBJ);
-
-        return $stmt->fetchAll();
     }
 
     private function recreateDatabaseFile(): void
