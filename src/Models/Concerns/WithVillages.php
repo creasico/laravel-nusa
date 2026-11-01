@@ -50,6 +50,10 @@ trait WithVillages
 
     public function distinctVillagesByPostalCodes(): HasMany
     {
-        return $this->villages()->distinct('postal_code');
+        $relation = $this->villages();
+
+        return $relation
+            ->select('postal_code', $relation->getForeignKeyName())
+            ->distinct();
     }
 }
