@@ -10,7 +10,7 @@ on:
 jobs:
   prepare:
     name: Prepare
-    uses: projek-xyz/actions/.github/workflows/prepare.yml@7a0f633b54c7b764f39235077c741cecf8f06f93 # main @ 2026-11-01
+    uses: projek-xyz/actions/.github/workflows/prepare.yml@711af5ee0f1a28b1554022d28d3e147c6a9df1fe # main @ 2026-11-01
 
   upstream:
     name: Upstream DB
