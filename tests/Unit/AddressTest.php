@@ -37,8 +37,11 @@ it('associates an address with a village', function () {
 it('accepts explicit region overrides', function () {
     /** @var TestCase $this */
     $village = Village::query()->firstOrFail();
+    /** @var DistrictModel $district */
     $district = DistrictModel::where('code', '!=', $village->district_code)->firstOrFail();
+    /** @var RegencyModel $regency */
     $regency = RegencyModel::where('code', '!=', $village->regency_code)->firstOrFail();
+    /** @var ProvinceModel $province */
     $province = ProvinceModel::where('code', '!=', $village->province_code)->firstOrFail();
 
     $address = $this->createAddress(['line' => 'Coba Alamat'])
