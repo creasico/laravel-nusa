@@ -287,13 +287,13 @@ composer fix
 composer test
 
 # Jalankan pengujian tertentu
-vendor/bin/phpunit tests/Models/ProvinceTest.php
+vendor/bin/testbench package:test tests/Unit/ProvinceTest.php
 
 # Jalankan dengan cakupan
 composer test -- --coverage-html tests/reports/html
 
-# Uji fitur tertentu
-vendor/bin/phpunit --filter testProvinceRelationships
+# Uji pengujian tertentu
+vendor/bin/testbench package:test --filter=searches_provinces
 ```
 
 ### 3. Kualitas Kode

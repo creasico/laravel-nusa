@@ -287,13 +287,13 @@ composer fix
 composer test
 
 # Run specific test
-vendor/bin/phpunit tests/Models/ProvinceTest.php
+vendor/bin/testbench package:test tests/Unit/ProvinceTest.php
 
 # Run with coverage
 composer test -- --coverage-html tests/reports/html
 
-# Test specific feature
-vendor/bin/phpunit --filter testProvinceRelationships
+# Test specific test
+vendor/bin/testbench package:test --filter=searches_provinces
 ```
 
 ### 3. Code Quality

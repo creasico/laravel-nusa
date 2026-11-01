@@ -14,9 +14,9 @@ Laravel package (not an app) that ships Indonesian administrative data (province
 
 ## Commands
 ```bash
-composer test                                                    # Full PHPUnit suite
-vendor/bin/testbench package:test tests/Models/ProvinceTest.php  # Single file
-vendor/bin/testbench package:test --filter=it_should_be_able_to_search
+composer test                                                    # Full Pest suite
+vendor/bin/testbench package:test tests/Unit/ProvinceTest.php    # Single file
+vendor/bin/testbench package:test --filter=searches_provinces
 composer fix                                                     # Pint (also runs on commit)
 vendor/bin/pint --test                                           # Style check only
 
@@ -41,8 +41,8 @@ pnpm docs:dev | pnpm docs:build | pnpm docs:preview
 - `nusa:dist` removes the `coordinates` column (privacy); the shipped DB is the distribution DB.
 
 ## Testing
-- `tests/Models/` covers Eloquent behavior; `tests/Features/` hits the HTTP endpoints. Feature tests use `#[Depends]` chains, so running a single filtered test may skip prerequisites.
-- Address tests use `RefreshDatabase` with fixtures in `tests/Fixtures/`; no seeding needed for region data.
+- Pest runs through the same `testbench package:test` command surface. `tests/Unit/` covers Eloquent behavior, `tests/Feature/` hits the HTTP endpoints, and `tests/Workbench/` covers the import/dist/stat/static commands and support classes. Every test is independent: no `depends()` chains, each test resolves its own fixtures.
+- Shared fixtures live in `tests/Fixture/`. Address tests use `RefreshDatabase`; no seeding is needed for region data.
 - Model hierarchy: `Province` → `Regency` → `District` → `Village`, with each level also exposing `districts`/`villages` directly.
 
 ## Conventions
