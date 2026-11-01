@@ -22,7 +22,7 @@ final class ApiRequest extends FormRequest
     {
         $accepts = $this->getAcceptableContentTypes();
 
-        if (count($accepts) === 0) {
+        if (\count($accepts) === 0) {
             // @codeCoverageIgnoreStart
             return 'application/json';
             // @codeCoverageIgnoreEnd

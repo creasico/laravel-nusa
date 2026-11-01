@@ -20,6 +20,6 @@ trait WithAddress
      */
     public function address(): MorphOne
     {
-        return $this->morphOne(\config('creasi.nusa.addressable'), 'addressable');
+        return $this->morphOne(config('creasi.nusa.addressable'), 'addressable');
     }
 }

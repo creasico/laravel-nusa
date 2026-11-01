@@ -88,7 +88,7 @@ class ProvinceTest extends TestCase
     #[Depends('it_should_have_correct_province_instance')]
     public function it_should_has_many_districts(Collection $provinces): Collection
     {
-        $districts = \collect();
+        $districts = collect();
 
         foreach ($provinces as $province) {
             $this->assertTrue($province->districts->every(fn ($dis) => $dis instanceof District));
@@ -107,7 +107,7 @@ class ProvinceTest extends TestCase
     #[Depends('it_should_have_correct_province_instance')]
     public function it_should_has_many_villages(Collection $provinces): Collection
     {
-        $villages = \collect();
+        $villages = collect();
 
         foreach ($provinces as $province) {
             $this->assertTrue($province->villages->every(fn ($vil) => $vil instanceof Village));

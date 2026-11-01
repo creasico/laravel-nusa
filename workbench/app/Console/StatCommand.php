@@ -226,13 +226,13 @@ class StatCommand extends Command
             }
 
             foreach ($res as $field => $value) {
-                if (! array_key_exists($field, $changes[$i])) {
+                if (! \array_key_exists($field, $changes[$i])) {
                     continue;
                 }
 
                 $newValue = $changes[$i][$field];
 
-                if (in_array($field, ['latitude', 'longitude'], true) && $newValue) {
+                if (\in_array($field, ['latitude', 'longitude'], true) && $newValue) {
                     $newValue = (float) $newValue;
                 }
 

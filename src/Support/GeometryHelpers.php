@@ -25,7 +25,7 @@ trait GeometryHelpers
             'name' => $name,
         ];
 
-        while (is_array($children) && isset($children[0])) {
+        while (\is_array($children) && isset($children[0])) {
             $depth++;
             $children = $children[0];
         }

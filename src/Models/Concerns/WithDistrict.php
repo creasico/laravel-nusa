@@ -37,6 +37,6 @@ trait WithDistrict
 
     protected function districtKeyName(): string
     {
-        return \property_exists($this, 'districtKey') ? $this->districtKey : 'district_code';
+        return property_exists($this, 'districtKey') ? $this->districtKey : 'district_code';
     }
 }

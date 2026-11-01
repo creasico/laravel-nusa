@@ -58,11 +58,11 @@ class ServiceProvider extends IlluminateServiceProvider
     protected function registerPublishables()
     {
         $this->publishes([
-            self::LIB_PATH.'/config/nusa.php' => \config_path('creasi/nusa.php'),
+            self::LIB_PATH.'/config/nusa.php' => config_path('creasi/nusa.php'),
         ], ['creasi-config', 'creasi-nusa-config']);
 
         $this->publishes([
-            self::LIB_PATH.'/resources/lang' => \resource_path('lang/vendor/creasico'),
+            self::LIB_PATH.'/resources/lang' => resource_path('lang/vendor/creasico'),
         ], ['creasi-lang']);
 
         $this->publishes([
@@ -92,7 +92,7 @@ class ServiceProvider extends IlluminateServiceProvider
     protected function getMigrationFileName(string $migrationFileName): string
     {
         $filesystem = app()->make(Filesystem::class);
-        $migrationPath = app()->databasePath().DIRECTORY_SEPARATOR.'migrations'.DIRECTORY_SEPARATOR;
+        $migrationPath = app()->databasePath().\DIRECTORY_SEPARATOR.'migrations'.\DIRECTORY_SEPARATOR;
 
         return Collection::make([$migrationPath])
             ->flatMap(fn ($path) => $filesystem->glob($path.'*_'.$migrationFileName))

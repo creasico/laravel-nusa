@@ -13,10 +13,10 @@ abstract class TestCase extends BaseTestCase
 
     protected function path(?string $path = null, array $query = []): string
     {
-        $path = $this->path.'/'.\ltrim($path ?? '');
+        $path = $this->path.'/'.ltrim($path ?? '');
 
         if (! empty($query)) {
-            $path .= '?'.\http_build_query($query);
+            $path .= '?'.http_build_query($query);
         }
 
         return $path;
@@ -31,10 +31,10 @@ abstract class TestCase extends BaseTestCase
      */
     protected function assertSingleResponse(TestResponse $response, array $fields, array $with = []): TestResponse
     {
-        $fields = \array_merge($fields, $with);
+        $fields = array_merge($fields, $with);
 
         return $response->assertOk()->assertJsonStructure([
-            'data' => \array_filter($fields),
+            'data' => array_filter($fields),
             'meta' => [],
         ]);
     }
@@ -47,7 +47,7 @@ abstract class TestCase extends BaseTestCase
         // $fields = \array_merge($fields, $with);
 
         return $response->assertOk()->assertJsonStructure([
-            'data' => [\array_filter($fields)],
+            'data' => [array_filter($fields)],
             'links' => ['first', 'last', 'prev', 'next'],
             'meta' => ['current_page', 'from', 'last_page', 'links', 'path', 'per_page', 'to', 'total'],
         ]);

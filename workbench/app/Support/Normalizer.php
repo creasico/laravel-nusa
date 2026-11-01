@@ -22,7 +22,7 @@ class Normalizer
         public readonly ?float $longitude = null,
         ?string $coordinates = null,
     ) {
-        $this->type = match (strlen($code)) {
+        $this->type = match (\strlen($code)) {
             2 => 'provinces',
             5 => 'regencies',
             8 => 'districts',
@@ -34,7 +34,7 @@ class Normalizer
             self::$invalid[] = [$code, $name];
         }
 
-        $this->coordinates = $coordinates ? \json_decode($coordinates) : null;
+        $this->coordinates = $coordinates ? json_decode($coordinates) : null;
     }
 
     public function normalize()
@@ -125,7 +125,7 @@ class Normalizer
     {
         foreach ($arr as $key => $val) {
             if (
-                count($val) === 2 &&
+                \count($val) === 2 &&
                 (is_numeric($val[0]) && is_numeric($val[1]))
             ) {
                 $arr[$key] = [$val[1], $val[0]];

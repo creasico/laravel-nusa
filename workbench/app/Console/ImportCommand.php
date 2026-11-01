@@ -63,7 +63,7 @@ class ImportCommand extends Command
         $this->group('Seeding from upstream');
 
         foreach ($this->fetchAll() as $table => $values) {
-            $count = count($values);
+            $count = \count($values);
             $timer = $this->timer(
                 "Seeding <fg=yellow>{$count}</> data to '<fg=yellow>{$table}</>'"
             );
@@ -200,9 +200,9 @@ class ImportCommand extends Command
         $boundariesPath = 'cahyadsn-wilayah_boundaries/db';
         $ddlPath = "{$boundariesPath}/ddl_wilayah_boundaries.sql";
         $ddlContent = file_get_contents((string) $libPath->append("/{$ddlPath}"));
-        $lines = $ddlContent ? explode(PHP_EOL, explode('-- ', $ddlContent)[1]) : [];
+        $lines = $ddlContent ? explode(\PHP_EOL, explode('-- ', $ddlContent)[1]) : [];
 
-        yield $ddlPath => implode(PHP_EOL, array_slice($lines, 1, count($lines)));
+        yield $ddlPath => implode(\PHP_EOL, \array_slice($lines, 1, \count($lines)));
 
         $sqls = Finder::create()
             ->files()
@@ -222,11 +222,11 @@ class ImportCommand extends Command
     {
         $path = config('database.connections.nusa.database');
 
-        if (\file_exists($path)) {
-            \unlink($path);
+        if (file_exists($path)) {
+            unlink($path);
         }
 
-        \touch($path);
+        touch($path);
     }
 
     private function timer(string $caption)

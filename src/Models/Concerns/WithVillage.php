@@ -37,6 +37,6 @@ trait WithVillage
 
     protected function villageKeyName(): string
     {
-        return \property_exists($this, 'villageKey') ? $this->villageKey : 'village_code';
+        return property_exists($this, 'villageKey') ? $this->villageKey : 'village_code';
     }
 }

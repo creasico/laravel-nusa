@@ -53,7 +53,7 @@ final class NusaResource extends JsonResource
      */
     private function normalize(Model $resource, array $with = []): array
     {
-        $arr = \array_filter([
+        $arr = array_filter([
             $resource->getKeyName() => $resource->getKey(),
             'name' => $resource->name,
             'district_code' => $resource->district_code,

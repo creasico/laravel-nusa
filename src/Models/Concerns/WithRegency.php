@@ -37,6 +37,6 @@ trait WithRegency
 
     protected function regencyKeyName(): string
     {
-        return \property_exists($this, 'regencyKey') ? $this->regencyKey : 'regency_code';
+        return property_exists($this, 'regencyKey') ? $this->regencyKey : 'regency_code';
     }
 }

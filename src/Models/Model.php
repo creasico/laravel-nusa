@@ -32,12 +32,12 @@ abstract class Model extends EloquentModel implements HasCoordinate
 
     public function getConnectionName()
     {
-        return \config('creasi.nusa.connection');
+        return config('creasi.nusa.connection');
     }
 
     public function getFillable()
     {
-        return \array_merge(parent::getFillable(), ['code', 'name']);
+        return array_merge(parent::getFillable(), ['code', 'name']);
     }
 
     public function scopeSearch(Builder $query, string $keyword): Builder

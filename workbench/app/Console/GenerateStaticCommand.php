@@ -63,7 +63,7 @@ class GenerateStaticCommand extends Command
         }
 
         $sanitizedItems = $this->sanitizeCollection($items, $link);
-        $csvPath = $target.DIRECTORY_SEPARATOR.implode(DIRECTORY_SEPARATOR, $paths);
+        $csvPath = $target.\DIRECTORY_SEPARATOR.implode(\DIRECTORY_SEPARATOR, $paths);
 
         if (empty($paths)) {
             $csvPath .= 'index';
@@ -74,8 +74,8 @@ class GenerateStaticCommand extends Command
         $this->writeCsv($sanitizedItems, $csvPath);
 
         foreach ($items as $item) {
-            $jsonPath = str_replace('.', DIRECTORY_SEPARATOR, $item->code);
-            $filePath = $target.DIRECTORY_SEPARATOR.$jsonPath;
+            $jsonPath = str_replace('.', \DIRECTORY_SEPARATOR, $item->code);
+            $filePath = $target.\DIRECTORY_SEPARATOR.$jsonPath;
             $row = $geo = $item->except(['postal_codes']);
             $task = null;
 

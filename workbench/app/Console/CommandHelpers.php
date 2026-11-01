@@ -18,7 +18,7 @@ trait CommandHelpers
     private function libPath(string ...$paths): Stringable
     {
         if ($path = realpath(\dirname(__DIR__).'/../..')) {
-            $path .= DIRECTORY_SEPARATOR.implode(DIRECTORY_SEPARATOR, $paths);
+            $path .= \DIRECTORY_SEPARATOR.implode(\DIRECTORY_SEPARATOR, $paths);
         }
 
         return str($path);
@@ -59,7 +59,7 @@ trait CommandHelpers
     private function ciOutput(string $output): void
     {
         if ($this->runningInCI()) {
-            file_put_contents((string) getenv('GITHUB_OUTPUT'), $output.PHP_EOL, FILE_APPEND);
+            file_put_contents((string) getenv('GITHUB_OUTPUT'), $output.\PHP_EOL, \FILE_APPEND);
         }
     }
 

@@ -37,6 +37,6 @@ trait WithProvince
 
     protected function provinceKeyName(): string
     {
-        return \property_exists($this, 'provinceKey') ? $this->provinceKey : 'province_code';
+        return property_exists($this, 'provinceKey') ? $this->provinceKey : 'province_code';
     }
 }

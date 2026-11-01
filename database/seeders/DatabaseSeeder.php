@@ -20,7 +20,7 @@ class DatabaseSeeder extends Seeder
             return;
         }
 
-        $path = \realpath(\dirname(__DIR__).'/..').'/resources/static';
+        $path = realpath(\dirname(__DIR__).'/..').'/resources/static';
 
         foreach ($this->loadJson($path, 'provinces.json') as $province) {
             /** @var Province */
@@ -42,8 +42,8 @@ class DatabaseSeeder extends Seeder
 
     private function loadJson(string ...$paths): array
     {
-        $path = \implode(\DIRECTORY_SEPARATOR, $paths);
+        $path = implode(\DIRECTORY_SEPARATOR, $paths);
 
-        return \json_decode(file_get_contents($path), true);
+        return json_decode(file_get_contents($path), true);
     }
 }
