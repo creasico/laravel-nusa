@@ -44,13 +44,9 @@ class ImportCommand extends Command
             foreach ($files as $path => $query) {
                 $timer = $this->timer("Imported '<fg=yellow>{$path}</>'");
 
-                $skipped = $this->importQuery($query);
+                $this->importQuery($query);
 
                 $timer->stop();
-
-                if ($skipped !== []) {
-                    $this->line('  Skipped <fg=yellow>'.implode('</>, <fg=yellow>', $skipped).'</>');
-                }
             }
 
             $wilayah = DB::table('wilayah')->count();
@@ -88,20 +84,14 @@ class ImportCommand extends Command
         }
     }
 
-    /**
-     * @return list<string> skipped statement verbs, in `"{count} {verb}"` form
-     */
-    private function importQuery(string $query): array
+    private function importQuery(string $query): void
     {
         $inserts = [];
-        $skipped = [];
 
         foreach ($this->splitStatements($query) as $statement) {
             $verb = $this->statementVerb($statement);
 
             if (! $this->isSafeStatement($statement, $verb)) {
-                $skipped[$verb] = ($skipped[$verb] ?? 0) + 1;
-
                 continue;
             }
 
@@ -118,12 +108,6 @@ class ImportCommand extends Command
         }
 
         $this->flushInserts($inserts);
-
-        return array_map(
-            fn (string $verb, int $count) => "{$count} {$verb}",
-            array_keys($skipped),
-            $skipped
-        );
     }
 
     /**
