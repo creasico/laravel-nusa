@@ -123,17 +123,14 @@ class Normalizer
      */
     private function swapCoordinate(array $arr): array
     {
+        if (\count($arr) === 2 && is_numeric($arr[0]) && is_numeric($arr[1])) {
+            return [$arr[1], $arr[0]];
+        }
+
         foreach ($arr as $key => $val) {
-            if (
-                \count($val) === 2 &&
-                (is_numeric($val[0]) && is_numeric($val[1]))
-            ) {
-                $arr[$key] = [$val[1], $val[0]];
-
-                continue;
+            if (\is_array($val)) {
+                $arr[$key] = $this->swapCoordinate($val);
             }
-
-            $arr[$key] = $this->swapCoordinate($val);
         }
 
         return $arr;
