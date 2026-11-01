@@ -1,68 +1,55 @@
 # Laravel Nusa - Agent Guide
 
-Laravel Nusa is a Laravel package that provides Indonesia's administrative divisions (provinces, regencies, districts, and villages) with coordinates and postal codes, using a pre-compiled SQLite database. The data is imported from upstream SQL sources (cahyadsn's wilayah & postal codes).
+Laravel package (not an app) that ships Indonesian administrative data (provinces, regencies, districts, villages) in a prebuilt SQLite database. `workbench/` is the Testbench harness for development, imports, and tests; it is not part of the package.
 
-## Quick Start
-```
-composer install      # Install PHP dependencies
-pnpm install          # Install docs dependencies
-composer upstream:up  # Start Docker + import fresh data (required before composer test)
-composer test         # Run PHPUnit tests (testbench package:test)
-composer fix          # Run Laravel Pint formatter
-```
+## Setup
+- Clone with submodules: `git clone --recurse-submodules ...` or `git submodule update --init --recursive`. Upstream SQL lives in `workbench/submodules/`.
+- `composer install` (copies `workbench/.env.example` to `workbench/.env`), then `pnpm install` for docs and git hooks.
+- Fresh data import requires Docker: `composer upstream:up`. Tests do **not** require Docker when `database/nusa.<branch>-full.sqlite` already exists.
 
-## Structure
-- `src/` - Package source (Contracts, Http, Models, ServiceProvider, Support)
-- `tests/` - PHPUnit tests organized by category/feature (Models/, Features/, Fixtures/)
-- `database/` - SQLite database files (`nusa.sqlite`, etc.)
-- `resources/static/` - Static export data (CSV, JSON, GeoJSON)
-- `resources/docs/` - VitePress documentation (bilingual EN/ID)
+## Branch-scoped SQLite (easy to get wrong)
+- Workbench resolves the DB from the current git branch: tests use `database/nusa.<branch>-full.sqlite` (with coordinates), distribution uses `database/nusa.<branch>.sqlite`. `<branch>` is `$GIT_BRANCH` or `git rev-parse --abbrev-ref HEAD` with `/` replaced by `_`.
+- On a branch without its own DB file, Workbench renames the `main` file to the branch name. To reuse `database/nusa.main-full.sqlite` while on a feature branch, prefix commands with `GIT_BRANCH=main`.
+- Only `database/nusa.sqlite` is committed; `database/nusa.*.sqlite` is gitignored. Never hand-edit SQLite files or `resources/static`; regenerate them with the commands below.
 
-## Development Commands
+## Commands
+```bash
+composer test                                                    # Full PHPUnit suite
+vendor/bin/testbench package:test tests/Models/ProvinceTest.php  # Single file
+vendor/bin/testbench package:test --filter=it_should_be_able_to_search
+composer fix                                                     # Pint (also runs on commit)
+vendor/bin/pint --test                                           # Style check only
+
+composer upstream:up                                   # Docker MySQL + nusa:import --fresh
+composer upstream:down                                 # Stop Docker + purge workbench
+composer testbench nusa:import -- --fresh --dist       # Import + build distribution DB
+composer testbench nusa:dist -- --force                # Strip coordinates into nusa.<branch>.sqlite
+composer testbench nusa:stat                           # Diff distribution vs development DB
+composer testbench nusa:generate-static                # CSV/JSON into resources/static (gitignored)
+
+pnpm docs:dev | pnpm docs:build | pnpm docs:preview
 ```
-composer upstream:up             # Start Docker + import fresh data
-composer upstream:down           # Stop Docker + purge
-composer testbench nusa:import   # Import from upstream sources
-composer testbench nusa:dist     # Create distribution database (no coordinates)
-composer testbench nusa:generate-static  # Generate static files
-composer tinker                  # Start Tinker
-```
+`composer upstream [args]` forwards to `docker compose --env-file workbench/.env`. With `composer testbench ...`, command flags must come after `--`; `vendor/bin/testbench ...` takes them directly.
+
+## Architecture
+- `src/Contracts/` holds interfaces; `src/ServiceProvider` binds them to the default `src/Models/`. The address model is swappable via `config('creasi.nusa.addressable')`, so application code should type-hint contracts, not models.
+- All admin models extend `src/Models/Model.php`: string `code` primary key, non-incrementing, no timestamps, connection from `creasi.nusa.connection`.
+- Config is merged under `creasi.nusa.*` (publish tag `creasi-config` / `creasi-nusa-config`), so use `config('creasi.nusa.connection')`, not `config('nusa.connection')`.
+- `database/migrations/0000_00_00_000000_create_nusa_tables.php` is for development/import and is export-ignored. Consumers only publish the address-table stub (`create_addresses_tables.php.stub`, tag `creasi-migrations`).
+- Routes in `routes/nusa.php` use prefix `nusa` (overridable via `routes_prefix` / `routes_enable`) with two families: paginated `/nusa/provinces/...` endpoints and legacy nested `/nusa/{province}/{regency}/{district}/{village}` endpoints that negotiate JSON, CSV, or GeoJSON.
+- `with=` on list endpoints only loads relations that exist (`method_exists`); `Model::scopeSearch` is driver-specific (pgsql `ilike`, mysql `lower()`, sqlite `COLLATE NOCASE`).
+- `nusa:dist` removes the `coordinates` column (privacy); the shipped DB is the distribution DB.
 
 ## Testing
-- Use `composer test` (runs testbench package:test)
-- Tests use `Creasi\Tests\TestCase` with `WithWorkbench` trait
-- PHPUnit attributes: `#[Test]`, `#[Group('models')]`, etc.
+- `tests/Models/` covers Eloquent behavior; `tests/Features/` hits the HTTP endpoints. Feature tests use `#[Depends]` chains, so running a single filtered test may skip prerequisites.
+- Address tests use `RefreshDatabase` with fixtures in `tests/Fixtures/`; no seeding needed for region data.
+- Model hierarchy: `Province` → `Regency` → `District` → `Village`, with each level also exposing `districts`/`villages` directly.
 
-## Code Standards
-- PHP ≥ 8.2, Laravel ≥ 9.0–13.0
-- `declare(strict_types=1)` in all files (auto-enforced by Pint's `declare_strict_types` rule)
-- Laravel Pint is configured in `pint.json` (preset `laravel` + extra rules); run via `composer fix`, and it also runs automatically on commit (pre-commit hook via `pnpm exec lint-staged`)
-
-## Configuration
-- Config: `config/nusa.php` (published to `config/creasi/nusa.php` via tag `creasi-config` or `creasi-nusa-config`)
-- Translations: `resources/lang` (published via tag `creasi-lang`)
-- Migrations: `database/migrations` (published via tag `creasi-migrations` for address tables)
-- Connection: 'nusa' (SQLite)
-- Model primary key: 'code' (string, non-incrementing)
-- No timestamps on admin models
-
-## Model Hierarchy
-- `Province` → hasMany(Regency, District, Village)
-- `Regency` → belongsTo(Province), hasMany(District, Village)
-- `District` → belongsTo(Province, Regency), hasMany(Village)
-- `Village` → belongsTo(Province, Regency, District)
-
-## API Routes
-- Route definitions: `routes/nusa.php` (published/loaded automatically under prefix `nusa` by default)
-- Controllers: `src/Http/Controllers/` (`ProvinceController`, `RegencyController`, `DistrictController`, `VillageController`, and a nested `ApiController`)
-
-## Documentation
-- English first, mirror to `id/` for Indonesian
-- Dev: `pnpm docs:dev`, Build: `pnpm docs:build`
-
-## CI
-- GitHub Actions in `.github/workflows/` are pinned to full commit SHAs with a trailing version comment (e.g. `uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1`); when adding or updating an action, always pin it to its latest stable release's SHA
+## Conventions
+- PHP ≥ 8.2 with `declare(strict_types=1)` in every file (Pint `declare_strict_types`).
+- Hooks (installed by `pnpm install`): pre-commit runs Pint via lint-staged; commit-msg runs commitlint (`@commitlint/config-conventional`).
+- Docs are bilingual: edit `resources/docs/en/` first, then mirror to `resources/docs/id/`.
+- CI (`.github/workflows/`) tests PHP 8.4 against Laravel 12/13 and sqlite/mysql/pgsql. Pin any new action to a full commit SHA with a trailing version comment.
 
 ## Operational Mandates
-
-1.  **Metadata Management**: ALL AI-generated metadata (plans, specs, and design documents) MUST be stored exclusively in the `.agents/` directory (e.g., `.agents/plans/`, `.agents/specs/`). Do not use any other directory for persistent or temporary agent artifacts.
+1. **Metadata Management**: ALL AI-generated metadata (plans, specs, design docs) MUST be stored exclusively in `.agents/` (e.g. `.agents/plans/`, `.agents/specs/`). Do not use any other directory for persistent agent artifacts.
