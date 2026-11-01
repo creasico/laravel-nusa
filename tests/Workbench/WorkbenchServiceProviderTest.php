@@ -14,6 +14,7 @@ use Creasi\Nusa\Models\Village as VillageModel;
 use Creasi\Tests\TestCase;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Concurrency;
+use Illuminate\Support\Str;
 
 it('registers the workbench commands', function () {
     /** @var TestCase $this */
@@ -39,6 +40,71 @@ it('configures the workbench application', function () {
 it('uses the fork concurrency driver', function () {
     /** @var TestCase $this */
     expect(Concurrency::getDefaultInstance())->toBe('fork');
+});
+
+it('creates branch database files', function () {
+    /** @var TestCase $this */
+    $root = \dirname(__DIR__, 2);
+    $branch = 'test-provider-'.Str::lower(Str::random(8));
+    $full = "{$root}/database/nusa.{$branch}-full.sqlite";
+    $dist = "{$root}/database/nusa.{$branch}.sqlite";
+    $previous = getenv('GIT_BRANCH');
+
+    try {
+        set_test_env('GIT_BRANCH', $branch);
+        $this->refreshApplication();
+
+        expect(file_exists($full))->toBeTrue()
+            ->and(file_exists($dist))->toBeTrue();
+    } finally {
+        set_test_env('GIT_BRANCH', $previous === false ? null : $previous);
+        @unlink($full);
+        @unlink($dist);
+        $this->refreshApplication();
+    }
+});
+
+it('renames the main database files for the current branch', function () {
+    /** @var TestCase $this */
+    $root = \dirname(__DIR__, 2);
+    $branch = 'test-provider-'.Str::lower(Str::random(8));
+    $main = "{$root}/database/nusa.main-full.sqlite";
+    $branchPath = "{$root}/database/nusa.{$branch}-full.sqlite";
+    $dist = "{$root}/database/nusa.{$branch}.sqlite";
+    $previous = getenv('GIT_BRANCH');
+
+    try {
+        file_put_contents($main, '');
+        set_test_env('GIT_BRANCH', $branch);
+        $this->refreshApplication();
+
+        expect(file_exists($branchPath))->toBeTrue()
+            ->and(file_exists($main))->toBeFalse();
+    } finally {
+        set_test_env('GIT_BRANCH', $previous === false ? null : $previous);
+        @unlink($main);
+        @unlink($branchPath);
+        @unlink($dist);
+        $this->refreshApplication();
+    }
+});
+
+it('configures the sqlite testing connection', function () {
+    /** @var TestCase $this */
+    $previous = getenv('DB_CONNECTION');
+
+    try {
+        set_test_env('DB_CONNECTION', 'sqlite');
+        $this->refreshApplication();
+
+        $database = config('database.connections.testing.database');
+
+        expect($database)->toEndWith('database.sqlite')
+            ->and(file_exists($database))->toBeTrue();
+    } finally {
+        set_test_env('DB_CONNECTION', $previous === false ? null : $previous);
+        $this->refreshApplication();
+    }
 });
 
 it('binds the nusa contracts', function (string $contract, string $model) {

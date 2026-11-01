@@ -53,4 +53,20 @@ final class CommandHelpersFixture extends Command
     {
         $this->ciOutput($output);
     }
+
+    /**
+     * Start a helper output group.
+     */
+    public function startGroup(string $title): void
+    {
+        $this->group($title);
+    }
+
+    /**
+     * End a helper output group.
+     */
+    public function stopGroup(): void
+    {
+        $this->endGroup();
+    }
 }

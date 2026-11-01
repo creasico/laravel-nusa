@@ -57,6 +57,22 @@ it('returns no statements for empty input', function () {
     expect(sql()->split('  '))->toBe([]);
 });
 
+it('handles an unterminated quoted literal', function () {
+    /** @var TestCase $this */
+    expect(sql()->split("SELECT 'abc"))->toBe(["SELECT 'abc"]);
+});
+
+it('keeps lone operators', function () {
+    /** @var TestCase $this */
+    expect(sql()->split('SELECT 1 - 2; SELECT 3 / 4;'))
+        ->toBe(['SELECT 1 - 2', 'SELECT 3 / 4']);
+});
+
+it('yields a trailing statement without a semicolon', function () {
+    /** @var TestCase $this */
+    expect(sql()->split('SELECT 1'))->toBe(['SELECT 1']);
+});
+
 it('detects statement verbs', function () {
     /** @var TestCase $this */
     expect(sql()->verb('  insert into t values (1)'))->toBe('UNKNOWN')

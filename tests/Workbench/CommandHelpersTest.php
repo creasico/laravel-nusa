@@ -8,6 +8,9 @@ use Creasi\Nusa\Models\Regency;
 use Creasi\Nusa\Models\Village;
 use Creasi\Tests\Fixture\CommandHelpersFixture;
 use Creasi\Tests\TestCase;
+use Illuminate\Console\OutputStyle;
+use Symfony\Component\Console\Input\ArrayInput;
+use Symfony\Component\Console\Output\BufferedOutput;
 
 function helperCommand(): CommandHelpersFixture
 {
@@ -46,6 +49,44 @@ it('detects whether it is running in ci', function () {
         set_test_env('CI', $previous === false ? null : $previous);
     }
 });
+
+it('writes local group output', function () {
+    $previous = getenv('CI');
+    $command = new CommandHelpersFixture;
+    $output = new BufferedOutput;
+    $command->setOutput(new OutputStyle(new ArrayInput([]), $output));
+
+    try {
+        set_test_env('CI', null);
+        $command->startGroup('Title');
+        $command->stopGroup();
+
+        expect($output->fetch())->toBe("Title\n\n");
+    } finally {
+        set_test_env('CI', $previous === false ? null : $previous);
+    }
+});
+
+it('writes ci group output', function () {
+    $previous = getenv('CI');
+    $command = new CommandHelpersFixture;
+    $output = new BufferedOutput;
+    $command->setOutput(new OutputStyle(new ArrayInput([]), $output));
+
+    try {
+        set_test_env('CI', 'true');
+        $command->startGroup('Title');
+        $command->stopGroup();
+
+        expect($output->fetch())->toBe("::group::Title\n::endgroup::\n");
+    } finally {
+        set_test_env('CI', $previous === false ? null : $previous);
+    }
+});
+
+it('rejects unknown table names', function () {
+    helperCommand()->query('unknown');
+})->throws(UnhandledMatchError::class);
 
 it('writes ci output to the github output file', function () {
     /** @var TestCase $this */
