@@ -57,24 +57,30 @@ trait SqlHelper
 
             // keep quoted literals (and escaped or doubled quotes) intact
             if ($char === "'" || $char === '"' || $char === '`') {
-                for ($offset++; $offset < $length; $offset++) {
+                $mask = $char === '`' ? '`' : $char.'\\';
+
+                for ($offset++; $offset < $length;) {
+                    $offset += strcspn($sql, $mask, $offset);
+
+                    if ($offset >= $length) {
+                        break;
+                    }
+
                     if ($sql[$offset] === '\\') {
-                        $offset++;
+                        $offset += 2;
 
                         continue;
                     }
 
-                    if ($sql[$offset] === $char) {
-                        if (($sql[$offset + 1] ?? '') === $char) {
-                            $offset++;
+                    if (($sql[$offset + 1] ?? '') === $char) {
+                        $offset += 2;
 
-                            continue;
-                        }
-
-                        $offset++;
-
-                        break;
+                        continue;
                     }
+
+                    $offset++;
+
+                    break;
                 }
 
                 continue;
