@@ -20,6 +20,19 @@ it('skips importing when the cache exists', function () {
 
 it('scans the upstream sql files', function () {
     /** @var TestCase $this */
+    $submodules = \dirname(__DIR__, 2).'/workbench/submodules';
+    $required = [
+        'cahyadsn-wilayah/db/wilayah.sql',
+        'cahyadsn-wilayah_kodepos/db/wilayah_kodepos.sql',
+        'cahyadsn-wilayah_boundaries/db/ddl_wilayah_boundaries.sql',
+    ];
+
+    foreach ($required as $file) {
+        if (! file_exists("{$submodules}/{$file}")) {
+            $this->markTestSkipped('Upstream submodules are not checked out.');
+        }
+    }
+
     $command = new ImportCommand;
     $method = new ReflectionMethod($command, 'scanSqlFiles');
 

@@ -10,6 +10,9 @@ final class GitHelperFixture
 {
     use GitHelper;
 
+    /**
+     * Resolve the normalized current branch.
+     */
     public function branch(): string
     {
         return $this->currentBranch();

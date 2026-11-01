@@ -11,6 +11,9 @@ abstract class TestCase extends BaseTestCase
 {
     protected string $path = '';
 
+    /**
+     * Build a request path from the suite base path.
+     */
     protected function path(?string $path = null, array $query = []): string
     {
         $path = trim($this->path.'/'.ltrim($path ?? '', '/'), '/');
