@@ -126,7 +126,7 @@ class ImportCommand extends Command
         $statements = [];
     }
 
-    private function refreshDatabase(): void
+    protected function refreshDatabase(): void
     {
         $this->group('Recreating database');
 
@@ -141,7 +141,7 @@ class ImportCommand extends Command
      *
      * @throws \ValueError
      */
-    private function fetchAll(): array
+    protected function fetchAll(): array
     {
         $timer = $this->timer('Fetching upstream data');
 
@@ -187,7 +187,7 @@ class ImportCommand extends Command
      * @param  array<int, string>  $paths
      * @return \Generator<string, string>
      */
-    private function scanSqlFiles(array $paths = []): \Generator
+    protected function scanSqlFiles(array $paths = []): \Generator
     {
         $libPath = (string) $this->libPath('workbench/submodules');
 
