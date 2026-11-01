@@ -6,6 +6,9 @@ use Creasi\Nusa\Contracts\Address as AddressContract;
 use Creasi\Nusa\Contracts\District;
 use Creasi\Nusa\Contracts\Province;
 use Creasi\Nusa\Contracts\Regency;
+use Creasi\Nusa\Models\District as DistrictModel;
+use Creasi\Nusa\Models\Province as ProvinceModel;
+use Creasi\Nusa\Models\Regency as RegencyModel;
 use Creasi\Nusa\Models\Village;
 use Creasi\Tests\Fixture\HasManyAddresses;
 use Creasi\Tests\Fixture\HasOneAddress;
@@ -29,6 +32,59 @@ it('associates an address with a village', function () {
         ->and($address->province)->toBeInstanceOf(Province::class)
         ->and($address->addressable)->toBeNull()
         ->and($address->village_code)->toBe($village->code);
+});
+
+it('accepts explicit region overrides', function () {
+    /** @var TestCase $this */
+    $village = Village::query()->firstOrFail();
+    $district = DistrictModel::where('code', '!=', $village->district_code)->firstOrFail();
+    $regency = RegencyModel::where('code', '!=', $village->regency_code)->firstOrFail();
+    $province = ProvinceModel::where('code', '!=', $village->province_code)->firstOrFail();
+
+    $address = $this->createAddress(['line' => 'Coba Alamat'])
+        ->associateWith($village, $district, $regency, $province);
+
+    expect($address->district_code)->toBe($district->code)
+        ->and($address->regency_code)->toBe($regency->code)
+        ->and($address->province_code)->toBe($province->code);
+});
+
+it('persists an association for an unsaved address', function () {
+    /** @var TestCase $this */
+    $village = Village::query()->firstOrFail();
+    $address = $this->app->make(AddressContract::class);
+    $address->line = 'Alamat Baru';
+
+    $address = $address->associateWith($village);
+
+    expect($address->exists)->toBeTrue()
+        ->and($address->village_code)->toBe($village->code);
+});
+
+it('resolves the morph addressable', function () {
+    /** @var TestCase $this */
+    $village = Village::query()->firstOrFail();
+    $addressable = HasOneAddress::create();
+    $address = $this->createAddress(['line' => 'Coba Alamat'])->associateWith($village);
+
+    $addressable->address()->save($address);
+
+    expect($address->fresh()->addressable)->toBeInstanceOf(HasOneAddress::class);
+});
+
+it('exposes address casts and fillable attributes', function () {
+    /** @var TestCase $this */
+    $address = $this->app->make(AddressContract::class);
+
+    expect($address->getCasts()['postal_code'])->toBe('int')
+        ->and($address->getFillable())->toContain(
+            'line',
+            'postal_code',
+            'village_code',
+            'district_code',
+            'regency_code',
+            'province_code',
+        );
 });
 
 it('may have many addresses', function () {
