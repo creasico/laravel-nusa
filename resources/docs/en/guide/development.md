@@ -6,7 +6,7 @@ This guide covers setting up Laravel Nusa for development, contributing, and wor
 
 ### Required Software
 
-- **PHP** ≥ 8.2 with extensions:
+- **PHP** ≥ 8.3 with extensions:
   - `ext-sqlite3` - For SQLite database support
   - `ext-json` - For JSON handling
   - `ext-mbstring` - For string manipulation

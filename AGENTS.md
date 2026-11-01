@@ -46,7 +46,7 @@ pnpm docs:dev | pnpm docs:build | pnpm docs:preview
 - Model hierarchy: `Province` → `Regency` → `District` → `Village`, with each level also exposing `districts`/`villages` directly.
 
 ## Conventions
-- PHP ≥ 8.2 with `declare(strict_types=1)` in every file (Pint `declare_strict_types`).
+- PHP ≥ 8.3 with `declare(strict_types=1)` in every file (Pint `declare_strict_types`).
 - Hooks (installed by `pnpm install`): pre-commit runs Pint via lint-staged; commit-msg runs commitlint (`@commitlint/config-conventional`).
 - Docs are bilingual: edit `resources/docs/en/` first, then mirror to `resources/docs/id/`.
 - CI (`.github/workflows/`) tests PHP 8.4 against Laravel 12/13 and sqlite/mysql/pgsql. Pin any new action to a full commit SHA with a trailing version comment.

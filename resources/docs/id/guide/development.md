@@ -6,7 +6,7 @@ Panduan ini mencakup pengaturan Laravel Nusa untuk pengembangan, kontribusi, dan
 
 ### Perangkat Lunak yang Dibutuhkan
 
-- **PHP** ≥ 8.2 dengan ekstensi:
+- **PHP** ≥ 8.3 dengan ekstensi:
   - `ext-sqlite3` - Untuk dukungan database SQLite
   - `ext-json` - Untuk penanganan JSON
   - `ext-mbstring` - Untuk manipulasi string

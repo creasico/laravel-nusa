@@ -18,7 +18,7 @@ That's it! Laravel Nusa is now ready to use. The package includes:
 - ✅ RESTful API routes (optional)
 
 ::: tip Requirements
-Laravel Nusa requires **PHP ≥ 8.2** with `php-sqlite3` extension and **Laravel ≥ 9.0**. For detailed system requirements and troubleshooting, see the [Installation Guide](/en/guide/installation).
+Laravel Nusa requires **PHP ≥ 8.3** with `php-sqlite3` extension and **Laravel ≥ 12.70** (or Laravel 13.30+). For detailed system requirements and troubleshooting, see the [Installation Guide](/en/guide/installation).
 :::
 
 ## Verify Installation
