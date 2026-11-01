@@ -16,6 +16,36 @@ use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Concurrency;
 use Illuminate\Support\Str;
 
+/**
+ * Move an existing database file out of the way before a test.
+ */
+function backupDatabaseFile(string $path): ?string
+{
+    if (! file_exists($path)) {
+        return null;
+    }
+
+    $backup = $path.'.test-backup-'.Str::lower(Str::random(8));
+
+    rename($path, $backup);
+
+    return $backup;
+}
+
+/**
+ * Remove a test database file and restore its previous contents, if any.
+ */
+function restoreDatabaseFile(string $path, ?string $backup): void
+{
+    if (file_exists($path)) {
+        @unlink($path);
+    }
+
+    if ($backup !== null && file_exists($backup)) {
+        rename($backup, $path);
+    }
+}
+
 it('registers the workbench commands', function () {
     /** @var TestCase $this */
     expect(Artisan::all())->toHaveKeys([
@@ -48,7 +78,15 @@ it('creates branch database files', function () {
     $branch = 'test-provider-'.Str::lower(Str::random(8));
     $full = "{$root}/database/nusa.{$branch}-full.sqlite";
     $dist = "{$root}/database/nusa.{$branch}.sqlite";
+    $mainFull = "{$root}/database/nusa.main-full.sqlite";
+    $mainDist = "{$root}/database/nusa.main.sqlite";
     $previous = getenv('GIT_BRANCH');
+    $backups = [
+        $full => backupDatabaseFile($full),
+        $dist => backupDatabaseFile($dist),
+        $mainFull => backupDatabaseFile($mainFull),
+        $mainDist => backupDatabaseFile($mainDist),
+    ];
 
     try {
         set_test_env('GIT_BRANCH', $branch);
@@ -58,8 +96,11 @@ it('creates branch database files', function () {
             ->and(file_exists($dist))->toBeTrue();
     } finally {
         set_test_env('GIT_BRANCH', $previous === false ? null : $previous);
-        @unlink($full);
-        @unlink($dist);
+
+        foreach ($backups as $path => $backup) {
+            restoreDatabaseFile($path, $backup);
+        }
+
         $this->refreshApplication();
     }
 });
@@ -69,9 +110,16 @@ it('renames the main database files for the current branch', function () {
     $root = \dirname(__DIR__, 2);
     $branch = 'test-provider-'.Str::lower(Str::random(8));
     $main = "{$root}/database/nusa.main-full.sqlite";
+    $mainDist = "{$root}/database/nusa.main.sqlite";
     $branchPath = "{$root}/database/nusa.{$branch}-full.sqlite";
     $dist = "{$root}/database/nusa.{$branch}.sqlite";
     $previous = getenv('GIT_BRANCH');
+    $backups = [
+        $main => backupDatabaseFile($main),
+        $mainDist => backupDatabaseFile($mainDist),
+        $branchPath => backupDatabaseFile($branchPath),
+        $dist => backupDatabaseFile($dist),
+    ];
 
     try {
         file_put_contents($main, '');
@@ -82,9 +130,11 @@ it('renames the main database files for the current branch', function () {
             ->and(file_exists($main))->toBeFalse();
     } finally {
         set_test_env('GIT_BRANCH', $previous === false ? null : $previous);
-        @unlink($main);
-        @unlink($branchPath);
-        @unlink($dist);
+
+        foreach ($backups as $path => $backup) {
+            restoreDatabaseFile($path, $backup);
+        }
+
         $this->refreshApplication();
     }
 });
