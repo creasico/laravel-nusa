@@ -189,29 +189,29 @@ class ImportCommand extends Command
      */
     private function scanSqlFiles(array $paths = []): \Generator
     {
-        $libPath = $this->libPath('workbench/submodules');
+        $libPath = (string) $this->libPath('workbench/submodules');
 
         foreach ($paths as $path) {
-            yield $path => file_get_contents((string) $libPath->append("/{$path}"));
+            yield $path => file_get_contents("{$libPath}/{$path}");
         }
 
         // This should grab the exact line where the MySQL schema definition
         // See: https://github.com/cahyadsn/wilayah_boundaries/blob/4555b309/db/ddl_wilayah_boundaries.sql#L35-L44
         $boundariesPath = 'cahyadsn-wilayah_boundaries/db';
         $ddlPath = "{$boundariesPath}/ddl_wilayah_boundaries.sql";
-        $ddlContent = file_get_contents((string) $libPath->append("/{$ddlPath}"));
+        $ddlContent = file_get_contents("{$libPath}/{$ddlPath}");
         $lines = $ddlContent ? explode(\PHP_EOL, explode('-- ', $ddlContent)[1]) : [];
 
         yield $ddlPath => implode(\PHP_EOL, \array_slice($lines, 1, \count($lines)));
 
         $sqls = Finder::create()
             ->files()
-            ->in((string) $libPath->append("/{$boundariesPath}/"))
+            ->in("{$libPath}/{$boundariesPath}/")
             ->name('*.sql');
 
         foreach (['prov', 'kab', 'kec', 'kel'] as $region) {
             foreach ((clone $sqls)->path($region) as $path => $file) {
-                $path = substr($path, $libPath->length() + 1);
+                $path = substr($path, \strlen($libPath) + 1);
 
                 yield $path => $file->getContents();
             }
