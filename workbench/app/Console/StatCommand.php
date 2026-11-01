@@ -33,10 +33,6 @@ class StatCommand extends Command
         $hasChanges = false;
         $branch = $this->currentBranch();
 
-        if ($this->runningInCI()) {
-            exec("echo \"BRANCH_TOKEN={$branch}\" >> \$GITHUB_OUTPUT");
-        }
-
         $diffs = $this->getDiffs($branch);
 
         if ($diffs === null) {
@@ -118,13 +114,7 @@ class StatCommand extends Command
 
         $this->endGroup();
 
-        if ($this->runningInCI()) {
-            if ($hasChanges) {
-                exec('echo "has-changes=1" >> $GITHUB_OUTPUT');
-            } else {
-                exec('echo "has-changes=0" >> $GITHUB_OUTPUT');
-            }
-        }
+        $this->ciOutput($hasChanges ? 'has-changes=1' : 'has-changes=0');
 
         return 0;
     }
