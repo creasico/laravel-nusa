@@ -7,6 +7,7 @@ namespace Workbench\App\Console;
 use Creasi\Nusa\Models;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\File;
 use Workbench\App\Support\GitHelper;
 
 class DistCommand extends Command
@@ -70,7 +71,7 @@ class DistCommand extends Command
 
         $this->line("Creating backup: {$backupPath}");
 
-        if (! copy($devPath, $backupPath)) {
+        if (! File::copy($devPath, $backupPath)) {
             throw new \Exception('Failed to create backup of development database');
         }
 
@@ -81,7 +82,7 @@ class DistCommand extends Command
     {
         $this->line('Copying database to distribution path...');
 
-        if (! copy($source, $destination)) {
+        if (! File::copy($source, $destination)) {
             throw new \Exception('Failed to copy database to distribution path');
         }
     }
@@ -116,7 +117,7 @@ class DistCommand extends Command
     {
         $this->line('Restoring development database from backup...');
 
-        if (! copy($backupPath, $devPath)) {
+        if (! File::copy($backupPath, $devPath)) {
             $this->error('Failed to restore development database from backup!');
             $this->error("Your backup is available at: {$backupPath}");
 
@@ -124,7 +125,7 @@ class DistCommand extends Command
         }
 
         // Clean up backup file
-        unlink($backupPath);
+        File::delete($backupPath);
 
         $this->line('Development database restored successfully.');
     }
