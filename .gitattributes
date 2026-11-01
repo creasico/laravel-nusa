@@ -13,6 +13,7 @@
 AGENTS.md        export-ignore
 CHANGELOG.md     export-ignore
 composer.lock    export-ignore
+mise.toml        export-ignore
 package.json     export-ignore
 phpunit.xml      export-ignore
 pint.json        export-ignore

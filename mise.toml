@@ -1,0 +1,2 @@
+[tools]
+php = { version = "8.4", postinstall = "$DOTFILES_DIR/scripts/php.sh" }
