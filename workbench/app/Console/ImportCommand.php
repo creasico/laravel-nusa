@@ -136,9 +136,7 @@ class ImportCommand extends Command
         }
 
         DB::transaction(function () use ($statements) {
-            foreach ($statements as $statement) {
-                DB::unprepared($statement);
-            }
+            DB::unprepared(implode(";\n", $statements));
         });
 
         $statements = [];
