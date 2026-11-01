@@ -4,9 +4,24 @@ declare(strict_types=1);
 
 use Creasi\Tests\Feature\TestCase as FeatureTestCase;
 use Creasi\Tests\TestCase;
+use Illuminate\Support\Facades\DB;
 
 pest()->extend(TestCase::class)->in('Unit', 'Workbench');
 pest()->extend(FeatureTestCase::class)->in('Feature');
+
+/**
+ * Determine whether a database connection is reachable.
+ */
+function test_can_connect(string $connection): bool
+{
+    try {
+        DB::connection($connection)->getPdo();
+
+        return true;
+    } catch (Throwable) {
+        return false;
+    }
+}
 
 /**
  * Set an environment variable for the current test process.
