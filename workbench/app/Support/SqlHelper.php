@@ -129,7 +129,9 @@ trait SqlHelper
 
     private function statementVerb(string $statement): string
     {
-        return strtoupper((string) strtok($statement, " \t\r\n("));
+        preg_match('/^[A-Za-z]+/', $statement, $matches);
+
+        return strtoupper($matches[0] ?? 'UNKNOWN');
     }
 
     private function isSafeStatement(string $statement, string $verb): bool
