@@ -24,6 +24,13 @@ jobs:
     name: Upstream DB
     uses: ./.github/workflows/upstream.yml
     needs: [prepare]
+
+    # Dependabot PRs get a read-only token by default; the caller must grant
+    # these scopes so the called workflow can comment and retitle the PR.
+    permissions:
+      contents: read
+      pull-requests: write
+
     with:
       composer-cache-dir: ${{ needs.prepare.outputs.composer-cache-dir }}
       branch-slug: ${{ needs.prepare.outputs.branch-slug }}

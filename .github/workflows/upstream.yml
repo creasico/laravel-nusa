@@ -24,6 +24,11 @@ jobs:
   import:
     name: Imports
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      pull-requests: write
+
     outputs:
       has-changes: ${{ steps.stats.outputs.has-changes }}
       sqlite-artifact-id: ${{ steps.sqlite.outputs.artifact-id }}
@@ -119,7 +124,58 @@ jobs:
         env:
           COLUMNS: 160
         run: |
-          vendor/bin/testbench nusa:stat --ansi
+          vendor/bin/testbench nusa:stat --ansi --output=stat-report.md
+
+      - name: Report upstream changes
+        if: >-
+          github.event_name == 'pull_request' &&
+          github.event.pull_request.user.login == 'dependabot[bot]' &&
+          steps.stats.outputs.has-changes == '1'
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR: ${{ github.event.pull_request.number }}
+        run: |
+          set -euo pipefail
+
+          id=$(gh api --paginate "repos/$GITHUB_REPOSITORY/issues/$PR/comments" \
+            --jq '.[] | select(.user.login == "github-actions[bot]" and (.body | contains("<!-- nusa-stat -->"))) | .id' | tail -n1)
+
+          if [ -n "$id" ]; then
+            jq -Rs '{body: .}' stat-report.md \
+              | gh api -X PATCH "repos/$GITHUB_REPOSITORY/issues/comments/$id" --input - >/dev/null
+          else
+            gh pr comment "$PR" --body-file stat-report.md >/dev/null
+          fi
+
+      - name: Retitle upstream bump PR
+        if: >-
+          github.event_name == 'pull_request' &&
+          github.event.pull_request.user.login == 'dependabot[bot]' &&
+          steps.stats.outputs.has-changes == '1' &&
+          startsWith(github.event.pull_request.head.ref, 'dependabot/submodules/')
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR: ${{ github.event.pull_request.number }}
+          HEAD_REF: ${{ github.event.pull_request.head.ref }}
+        run: |
+          set -euo pipefail
+
+          name="${HEAD_REF##*/}" # cahyadsn-wilayah_boundaries-2c0d8c7
+          name="${name%-*}"      # cahyadsn-wilayah_boundaries
+          path="workbench/submodules/$name"
+          sha=$(git -C "$path" rev-parse --short=7 HEAD)
+
+          key=$(git config -f .gitmodules --get-regexp '\.path$' | awk -v path="$path" '$2 == path { print $1 }')
+          url=$(git config -f .gitmodules "${key%.path}.url")
+          repo="${url#https://github.com/}"
+          repo="${repo%.git}"
+
+          title="feat(upstream): bump ${repo}#${sha}"
+          current=$(gh pr view "$PR" --json title --jq .title)
+
+          [ "$current" = "$title" ] || gh pr edit "$PR" --title "$title"
 
       - name: Upload sqlite artifacts
         id: sqlite

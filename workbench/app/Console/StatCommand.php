@@ -18,7 +18,8 @@ class StatCommand extends Command
 {
     use CommandHelpers, GitHelper, SqlHelper;
 
-    protected $signature = 'nusa:stat';
+    protected $signature = 'nusa:stat
+        {--output= : Write a Markdown report to this path (empty when there are no changes)}';
 
     protected $description = 'Generate stats of imported database from upstream';
 
@@ -31,6 +32,7 @@ class StatCommand extends Command
 
         $header = ['code', 'name'];
         $hasChanges = false;
+        $report = [];
         $branch = $this->currentBranch();
 
         $diffs = $this->getDiffs($branch);
@@ -63,7 +65,7 @@ class StatCommand extends Command
 
                 $a = key($move);
                 $moved[] = [
-                    'code' => "{$dCode} <fg=yellow>→</> {$move[$a][0]}",
+                    'code' => "{$dCode} <fg=yellow>→</> <fg=green>{$move[$a][0]}</>",
                     'name' => $move[$a][1],
                 ];
 
@@ -74,6 +76,14 @@ class StatCommand extends Command
             $changedCount = \count($changed);
             $movedCount = \count($moved);
             $deletedCount = \count($deleted);
+
+            $report[$table] = [
+                'columns' => $columns,
+                'added' => $added,
+                'moved' => $moved,
+                'changed' => $changed,
+                'deleted' => $deleted,
+            ];
 
             if (($addedCount + $changedCount + $movedCount + $deletedCount) === 0) {
                 $this->line("<fg=green>{$table}</>: No database changes detected");
@@ -114,9 +124,165 @@ class StatCommand extends Command
 
         $this->endGroup();
 
+        if ($output = $this->option('output')) {
+            $markdown = $this->renderMarkdown(array_filter(
+                $report,
+                fn (array $diff) => $this->totalChanges($diff) > 0
+            ));
+
+            if (file_put_contents($output, $markdown) === false) {
+                $this->error("Cannot write report to {$output}");
+            }
+        }
+
         $this->ciOutput($hasChanges ? 'has-changes=1' : 'has-changes=0');
 
         return 0;
+    }
+
+    /**
+     * @param  array{columns: array<int, string>, added: array, moved: array, changed: array, deleted: array}  $diff
+     */
+    private function totalChanges(array $diff): int
+    {
+        return \count($diff['added']) + \count($diff['moved'])
+            + \count($diff['changed']) + \count($diff['deleted']);
+    }
+
+    /**
+     * @param  array<string, array{columns: array<int, string>, added: array, moved: array, changed: array, deleted: array}>  $tables
+     */
+    private function renderMarkdown(array $tables): string
+    {
+        if ($tables === []) {
+            return '';
+        }
+
+        $labels = [
+            'provinces' => ['Province', 'provinces'],
+            'regencies' => ['Regency', 'regencies'],
+            'districts' => ['District', 'districts'],
+            'villages' => ['Village', 'villages'],
+        ];
+
+        $summary = [];
+
+        foreach ($tables as $table => $diff) {
+            $count = $this->totalChanges($diff);
+
+            $summary[] = $count.' '.($count === 1 ? strtolower($labels[$table][0]) : $labels[$table][1]);
+        }
+
+        $last = array_pop($summary);
+        $heading = $summary === [] ? $last : implode(', ', $summary).' and '.$last;
+
+        $lines = ['<!-- nusa-stat -->', "### {$heading} got updated", ''];
+
+        foreach ($tables as $table => $diff) {
+            $counts = [
+                \count($diff['added']),
+                \count($diff['moved']),
+                \count($diff['changed']),
+                \count($diff['deleted']),
+            ];
+
+            $lines[] = \sprintf(
+                '<details><summary>%s: %d new, %d moved, %d changed and %d deleted</summary>',
+                $labels[$table][0],
+                ...$counts
+            );
+            $lines[] = '';
+            $lines[] = $this->markdownTable($diff);
+            $lines[] = '';
+            $lines[] = '</details>';
+            $lines[] = '';
+        }
+
+        return implode(\PHP_EOL, $lines);
+    }
+
+    /**
+     * @param  array{columns: array<int, string>, added: array, moved: array, changed: array, deleted: array}  $diff
+     */
+    private function markdownTable(array $diff): string
+    {
+        $columns = $diff['columns'];
+        $rows = [];
+
+        foreach ($diff['added'] as $row) {
+            $rows[] = $this->markdownRow('new', [$row[0], $row[1]], $columns);
+        }
+
+        foreach ($diff['moved'] as $row) {
+            $rows[] = $this->markdownRow('moved', [$row['code'], $row['name']], $columns);
+        }
+
+        foreach ($diff['changed'] as $row) {
+            $rows[] = $this->markdownRow('changed', array_map(
+                fn (string $column) => $row[$column] ?? '',
+                $columns
+            ), $columns);
+        }
+
+        foreach ($diff['deleted'] as $row) {
+            $rows[] = $this->markdownRow('deleted', [$row[0], $row[1]], $columns);
+        }
+
+        $hidden = max(0, \count($rows) - 100);
+        $rows = \array_slice($rows, 0, 100);
+
+        $lines = [
+            '| state | '.implode(' | ', $columns).' |',
+            '| --- | '.implode(' | ', array_map(
+                fn (string $column) => match ($column) {
+                    'latitude', 'longitude' => '---:',
+                    'postal_code' => ':---:',
+                    default => '---',
+                },
+                $columns
+            )).' |',
+        ];
+
+        foreach ($rows as $row) {
+            $lines[] = '| '.implode(' | ', array_map([$this, 'markdownValue'], $row)).' |';
+        }
+
+        if ($hidden > 0) {
+            $lines[] = '';
+            $lines[] = "_and {$hidden} more_";
+        }
+
+        return implode(\PHP_EOL, $lines);
+    }
+
+    /**
+     * @param  array<int, string>  $values
+     * @param  array<int, string>  $columns
+     * @return array<int, string>
+     */
+    private function markdownRow(string $state, array $values, array $columns): array
+    {
+        $row = [$state];
+
+        foreach (array_keys($columns) as $i) {
+            $row[] = $values[$i] ?? '';
+        }
+
+        return $row;
+    }
+
+    private function markdownValue(?string $value): string
+    {
+        if ($value === null || $value === '') {
+            return '—';
+        }
+
+        $value = preg_replace('/<fg=green>(.*?)<\/>/s', '**$1**', $value);
+        $value = preg_replace('/<fg=red>(.*?)<\/>/s', '~~$1~~', $value);
+        $value = str_replace('<fg=yellow>→</>', '→', $value);
+        $value = preg_replace('/<\/?[^>]+>/', '', $value);
+
+        return str_replace('|', '\|', (string) $value);
     }
 
     /**
@@ -252,7 +418,7 @@ class StatCommand extends Command
                     continue;
                 }
 
-                $res[$field] .= " <fg=yellow>→</> {$newValue}";
+                $res[$field] .= " <fg=yellow>→</> <fg=green>{$newValue}</>";
             }
 
             return $res;
