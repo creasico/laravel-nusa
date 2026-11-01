@@ -302,17 +302,13 @@ class StatCommand extends Command
             return null;
         }
 
-        $diffProc = new Process(['sqldiff', '--primarykey', (string) $current, (string) $updated]);
-        $diffProc->run();
+        $output = $this->runDiff((string) $current, (string) $updated);
 
-        if (! $diffProc->isSuccessful()) {
-            $this->error('sqldiff failed with exit code '.$diffProc->getExitCode().':');
-            $this->error($diffProc->getErrorOutput() ?: $diffProc->getOutput());
-
+        if ($output === null) {
             return null;
         }
 
-        foreach ($this->parseQuery($diffProc->getOutput()) as $statement) {
+        foreach ($this->parseQuery($output) as $statement) {
             if ($statement instanceof InsertStatement) {
                 $reports['added'][$statement->into->dest->table][] = array_map(
                     [$this, 'sanitizeValue'],
@@ -326,7 +322,7 @@ class StatCommand extends Command
                 [$field, $value] = explode('=', $statement->where[0]->expr, 2);
 
                 $changes = [
-                    $field => $this->sanitizeValue($value),
+                    trim($field) => $this->sanitizeValue($value),
                 ];
 
                 foreach ($statement->set as $set) {
@@ -342,7 +338,7 @@ class StatCommand extends Command
                 [$field, $value] = explode('=', $statement->where[0]->expr, 2);
 
                 $reports['deleted'][$statement->from[0]->table][] = [
-                    $field => $this->sanitizeValue($value),
+                    trim($field) => $this->sanitizeValue($value),
                 ];
 
                 continue;
@@ -363,6 +359,24 @@ class StatCommand extends Command
         }
 
         return $output;
+    }
+
+    /**
+     * Run `sqldiff` and return its raw output.
+     */
+    protected function runDiff(string $current, string $updated): ?string
+    {
+        $process = new Process(['sqldiff', '--primarykey', $current, $updated]);
+        $process->run();
+
+        if (! $process->isSuccessful()) {
+            $this->error('sqldiff failed with exit code '.$process->getExitCode().':');
+            $this->error($process->getErrorOutput() ?: $process->getOutput());
+
+            return null;
+        }
+
+        return $process->getOutput();
     }
 
     /**
@@ -449,6 +463,10 @@ class StatCommand extends Command
      */
     private function marshalDeletion(array $deletes, string $table): array
     {
+        if (empty($deletes)) {
+            return [];
+        }
+
         $result = DB::connection('current')
             ->table($table)
             ->whereIn('code', Arr::pluck($deletes, 'code'))
@@ -459,7 +477,7 @@ class StatCommand extends Command
 
     private function sanitizeValue(string $value): ?string
     {
-        $value = trim($value, "'");
+        $value = trim(trim($value), "'");
 
         if ($value === 'NULL') {
             $value = null;
