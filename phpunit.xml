@@ -23,7 +23,6 @@
   <source>
     <include>
       <directory suffix=".php">src</directory>
-      <directory suffix=".php">workbench/app</directory>
     </include>
   </source>
 </phpunit>
