@@ -19,8 +19,8 @@ sudo yum install php-sqlite3
 # atau
 sudo dnf install php-sqlite3
 
-# macOS dengan mise
-mise use -g php@8.3
+# macOS dengan mise (lokal proyek)
+mise use php@8.3
 
 # Windows (batalkan komentar di php.ini)
 extension=pdo_sqlite
