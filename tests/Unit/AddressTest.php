@@ -21,13 +21,14 @@ it('associates an address with a village', function () {
         'line' => $this->faker->streetAddress(),
     ]);
 
-    $address->associateWith($village);
+    $address = $address->associateWith($village);
 
     expect($address->village)->toBeInstanceOf(Creasi\Nusa\Contracts\Village::class)
         ->and($address->district)->toBeInstanceOf(District::class)
         ->and($address->regency)->toBeInstanceOf(Regency::class)
         ->and($address->province)->toBeInstanceOf(Province::class)
-        ->and($address->addressable)->toBeNull();
+        ->and($address->addressable)->toBeNull()
+        ->and($address->village_code)->toBe($village->code);
 });
 
 it('may have many addresses', function () {

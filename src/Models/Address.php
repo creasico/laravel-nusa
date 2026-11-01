@@ -70,6 +70,8 @@ final class Address extends EloquentModel implements AddressContract
 
         $this->province()->associate($province);
 
+        $this->save();
+
         return $this->fresh();
     }
 
