@@ -7,7 +7,6 @@ namespace Workbench\App\Console;
 use Illuminate\Console\Command;
 use Illuminate\Console\View\Components\TwoColumnDetail;
 use Illuminate\Support\Facades\DB;
-use PhpMyAdmin\SqlParser\Statements\SetStatement;
 use Symfony\Component\Finder\Finder;
 use Workbench\App\Support\Normalizer;
 use Workbench\App\Support\SqlHelper;
@@ -45,19 +44,13 @@ class ImportCommand extends Command
             foreach ($files as $path => $query) {
                 $timer = $this->timer("Imported '<fg=yellow>{$path}</>'");
 
-                if (str_contains($path, 'wilayah_boundaries')) {
-                    DB::unprepared($query);
-                } else {
-                    foreach ($this->parseQuery($query) as $statement) {
-                        if ($statement instanceof SetStatement) {
-                            continue;
-                        }
-
-                        DB::unprepared((string) $statement);
-                    }
-                }
+                $skipped = $this->importQuery($query);
 
                 $timer->stop();
+
+                if ($skipped !== []) {
+                    $this->line('  Skipped <fg=yellow>'.implode('</>, <fg=yellow>', $skipped).'</>');
+                }
             }
 
             $wilayah = DB::table('wilayah')->count();
@@ -93,6 +86,62 @@ class ImportCommand extends Command
         if ($this->option('dist')) {
             $this->call(DistCommand::class, ['--force' => true]);
         }
+    }
+
+    /**
+     * @return list<string> skipped statement verbs, in `"{count} {verb}"` form
+     */
+    private function importQuery(string $query): array
+    {
+        $inserts = [];
+        $skipped = [];
+
+        foreach ($this->splitStatements($query) as $statement) {
+            $verb = $this->statementVerb($statement);
+
+            if (! $this->isSafeStatement($statement, $verb)) {
+                $skipped[$verb] = ($skipped[$verb] ?? 0) + 1;
+
+                continue;
+            }
+
+            if ($verb === 'INSERT') {
+                $inserts[] = $statement;
+
+                continue;
+            }
+
+            // DDL implicitly commits in MySQL, so flush the inserts first
+            $this->flushInserts($inserts);
+
+            DB::unprepared($statement);
+        }
+
+        $this->flushInserts($inserts);
+
+        return array_map(
+            fn (string $verb, int $count) => "{$count} {$verb}",
+            array_keys($skipped),
+            $skipped
+        );
+    }
+
+    /**
+     * @param  list<string>  $statements
+     */
+    private function flushInserts(array &$statements): void
+    {
+        if ($statements === []) {
+            return;
+        }
+
+        DB::transaction(function () use ($statements) {
+            foreach ($statements as $statement) {
+                DB::unprepared($statement);
+            }
+        });
+
+        $statements = [];
     }
 
     private function refreshDatabase(): void
