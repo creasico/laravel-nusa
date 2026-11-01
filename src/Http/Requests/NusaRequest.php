@@ -9,6 +9,7 @@ use Creasi\Nusa\Models\Model;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Foundation\Http\FormRequest;
 
 final class NusaRequest extends FormRequest
@@ -40,7 +41,7 @@ final class NusaRequest extends FormRequest
             : $model->query();
 
         $result = $query
-            ->with($this->relationNames($related))
+            ->with($this->eagerLoads($related))
             ->when($this->filled('search'), function (Builder $query) {
                 $query->search($this->query('search'));
             })
@@ -60,7 +61,7 @@ final class NusaRequest extends FormRequest
      */
     public function relations($model): array
     {
-        $relations = $this->relationNames($model);
+        $relations = $this->eagerLoads($model);
 
         $model->load($relations);
 
@@ -70,11 +71,49 @@ final class NusaRequest extends FormRequest
     /**
      * @return string[]
      */
+    private function eagerLoads($model): array
+    {
+        $relations = $this->relationNames($model);
+
+        if (! \in_array('postal_codes', (array) $this->query('with', []), true)) {
+            return $relations;
+        }
+
+        $eagerLoads = $relations;
+
+        if (method_exists($model, 'distinctVillagesByPostalCodes')) {
+            $eagerLoads[] = 'distinctVillagesByPostalCodes';
+        }
+
+        foreach ($relations as $relation) {
+            $related = $model->{$relation}()->getRelated();
+
+            if (method_exists($related, 'distinctVillagesByPostalCodes')) {
+                $eagerLoads[] = "{$relation}.distinctVillagesByPostalCodes";
+            }
+        }
+
+        return array_values(array_unique($eagerLoads));
+    }
+
+    /**
+     * @return string[]
+     */
     private function relationNames($model): array
     {
-        return array_filter(
+        return array_values(array_filter(
             (array) $this->query('with', []),
-            fn (string $relate) => method_exists($model, $relate)
-        );
+            function (string $relation) use ($model) {
+                if (! method_exists($model, $relation)) {
+                    return false;
+                }
+
+                try {
+                    return $model->{$relation}() instanceof Relation;
+                } catch (\Throwable) {
+                    return false;
+                }
+            }
+        ));
     }
 }

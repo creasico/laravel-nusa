@@ -18,8 +18,6 @@ final class VillageController
 
     public function index(NusaRequest $request)
     {
-        $request->relations($this->model);
-
         return NusaResource::collection($request->apply($this->model));
     }
 

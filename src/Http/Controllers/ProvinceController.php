@@ -18,8 +18,6 @@ final class ProvinceController
 
     public function index(NusaRequest $request)
     {
-        $request->relations($this->model);
-
         return NusaResource::collection($request->apply($this->model));
     }
 

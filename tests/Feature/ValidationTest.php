@@ -60,8 +60,11 @@ it('returns an empty result for a missing search term', function () {
         ->assertJsonCount(0, 'data');
 });
 
-it('ignores unknown relations on a list', function () {
-    getJson('nusa/provinces?with[]=does_not_exist')
+it('ignores unsupported relations on a list', function (string $relation) {
+    getJson('nusa/provinces?'.http_build_query(['with' => [$relation]]))
         ->assertOk()
-        ->assertJsonMissingPath('data.0.does_not_exist');
-});
+        ->assertJsonMissingPath("data.0.{$relation}");
+})->with([
+    'unknown relation' => ['does_not_exist'],
+    'model method' => ['getTable'],
+]);

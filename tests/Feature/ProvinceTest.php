@@ -8,6 +8,8 @@ use Creasi\Nusa\Models\Regency;
 use Creasi\Nusa\Models\Village;
 use Creasi\Tests\Feature\TestCase;
 use Creasi\Tests\Fixture\ApiResponse;
+use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Facades\DB;
 
 use function Pest\Laravel\getJson;
 
@@ -137,4 +139,29 @@ it('includes relations in a nested list', function () {
     $response = getJson($this->path('33/regencies', ['with' => ['province'], 'per-page' => 2]));
 
     $this->assertCollectionResponse($response, ApiResponse::regencyFields(), ['province']);
+});
+
+it('batches postal codes for included relations', function () {
+    /** @var TestCase $this */
+    Cache::flush();
+
+    $queries = 0;
+    DB::connection(config('creasi.nusa.connection'))->listen(function () use (&$queries) {
+        $queries++;
+    });
+
+    $response = getJson($this->path(query: [
+        'with' => ['regencies', 'postal_codes'],
+        'per-page' => 2,
+    ]));
+
+    $response->assertOk()
+        ->assertJsonStructure([
+            'data' => [[
+                'regencies' => [['postal_codes']],
+                'postal_codes',
+            ]],
+        ]);
+
+    expect($queries)->toBeLessThan(15);
 });
