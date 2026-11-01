@@ -12,6 +12,9 @@ use Symfony\Component\Console\Input\ArrayInput;
 use Symfony\Component\Console\Output\BufferedOutput;
 use Workbench\App\Console\StatCommand;
 
+/**
+ * Create a temporary current database for stat reports.
+ */
 function statCurrentDatabase(array $provinces): array
 {
     $root = \dirname(__DIR__, 2);
@@ -34,6 +37,9 @@ function statCurrentDatabase(array $provinces): array
     return compact('database', 'previous');
 }
 
+/**
+ * Restore config and remove the temporary stat database.
+ */
 function cleanupStatCurrentDatabase(array $fixture): void
 {
     config(['database.connections.current' => $fixture['previous']]);

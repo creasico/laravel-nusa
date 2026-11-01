@@ -5,6 +5,9 @@ declare(strict_types=1);
 use Creasi\Tests\Fixture\GeometryHelpersFixture;
 use Creasi\Tests\TestCase;
 
+/**
+ * Build a fixture using the GeometryHelpers trait.
+ */
 function geometry(): GeometryHelpersFixture
 {
     return new GeometryHelpersFixture;

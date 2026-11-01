@@ -12,6 +12,9 @@ use Illuminate\Console\OutputStyle;
 use Symfony\Component\Console\Input\ArrayInput;
 use Symfony\Component\Console\Output\BufferedOutput;
 
+/**
+ * Build a fixture command using the CommandHelpers trait.
+ */
 function helperCommand(): CommandHelpersFixture
 {
     return new CommandHelpersFixture;

@@ -8,6 +8,9 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 
+/**
+ * Create a temporary database and target directory for static generation.
+ */
 function staticFixture(): array
 {
     $root = \dirname(__DIR__, 2);
@@ -71,6 +74,9 @@ function staticFixture(): array
     return compact('root', 'database', 'target', 'targetPath', 'previousDatabase', 'previousConcurrency');
 }
 
+/**
+ * Restore config and remove files created by staticFixture().
+ */
 function cleanupStaticFixture(array $fixture): void
 {
     Concurrency::setDefaultInstance($fixture['previousConcurrency']);

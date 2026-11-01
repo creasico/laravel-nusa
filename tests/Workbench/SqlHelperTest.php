@@ -6,6 +6,9 @@ use Creasi\Tests\Fixture\SqlHelperFixture;
 use Creasi\Tests\TestCase;
 use PhpMyAdmin\SqlParser\Statements\SelectStatement;
 
+/**
+ * Build a fixture using the SqlHelper trait.
+ */
 function sql(): SqlHelperFixture
 {
     return new SqlHelperFixture;

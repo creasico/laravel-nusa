@@ -22,6 +22,9 @@ beforeEach(function () {
     $this->path = 'nusa';
 });
 
+/**
+ * Parse a streamed CSV response into rows.
+ */
 function csvRows(TestResponse $response): array
 {
     $content = trim($response->streamedContent());
@@ -36,6 +39,9 @@ function csvRows(TestResponse $response): array
     );
 }
 
+/**
+ * Build a minimal GeoJSON feature collection.
+ */
 function fakeGeoJson(): array
 {
     return [
