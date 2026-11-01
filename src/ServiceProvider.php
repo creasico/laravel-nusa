@@ -46,7 +46,7 @@ class ServiceProvider extends IlluminateServiceProvider
      */
     protected function defineRoutes()
     {
-        if (app()->routesAreCached() && config('creasi.nusa.routes_enable') === false) {
+        if (config('creasi.nusa.routes_enable') === false) {
             return;
         }
 
