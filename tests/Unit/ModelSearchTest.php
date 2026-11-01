@@ -7,6 +7,7 @@ use Creasi\Tests\TestCase;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Str;
 
 dataset('drivers', [
     'sqlite' => ['testing'],
@@ -20,18 +21,20 @@ it('searches case-insensitively per driver', function (string $driver) {
         $this->markTestSkipped("The {$driver} connection is not available.");
     }
 
-    Schema::connection($driver)->dropIfExists('searchables');
-    Schema::connection($driver)->create('searchables', function (Blueprint $table) {
+    $tableName = 'searchables_'.Str::lower(Str::random(8));
+
+    Schema::connection($driver)->create($tableName, function (Blueprint $table) {
         $table->string('code')->primary();
         $table->string('name');
     });
-    DB::connection($driver)->table('searchables')->insert([
+    DB::connection($driver)->table($tableName)->insert([
         ['code' => '33', 'name' => 'Jawa Tengah'],
         ['code' => '32', 'name' => 'Jawa Barat'],
         ['code' => '11', 'name' => 'Aceh'],
     ]);
 
     SearchableModel::$connectionName = $driver;
+    SearchableModel::$tableName = $tableName;
 
     try {
         expect(SearchableModel::search('jawa')->count())->toBe(2)
@@ -39,6 +42,7 @@ it('searches case-insensitively per driver', function (string $driver) {
             ->and(SearchableModel::search('sumatra')->count())->toBe(0);
     } finally {
         SearchableModel::$connectionName = null;
-        Schema::connection($driver)->dropIfExists('searchables');
+        SearchableModel::$tableName = null;
+        Schema::connection($driver)->dropIfExists($tableName);
     }
 })->with('drivers');
