@@ -16,8 +16,8 @@ This guide provides comprehensive installation instructions, configuration optio
 
 Laravel Nusa supports multiple Laravel versions:
 
-- **Laravel 12.x** - Minimum version 12.70
-- **Laravel 13.x** - Minimum version 13.30
+- **Laravel 12.x** - Minimum version 12.0
+- **Laravel 13.x** - Minimum version 13.0
 
 ### Server Requirements
 

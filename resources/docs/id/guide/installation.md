@@ -16,8 +16,8 @@ Panduan ini menyediakan instruksi instalasi yang komprehensif, opsi konfigurasi,
 
 Laravel Nusa mendukung beberapa versi Laravel:
 
-- **Laravel 12.x** - Versi minimum 12.70
-- **Laravel 13.x** - Versi minimum 13.30
+- **Laravel 12.x** - Versi minimum 12.0
+- **Laravel 13.x** - Versi minimum 13.0
 
 ### Persyaratan Server
 

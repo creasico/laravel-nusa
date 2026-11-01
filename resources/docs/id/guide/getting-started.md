@@ -18,7 +18,7 @@ Itu saja! Laravel Nusa sekarang siap digunakan. Paket ini meliputi:
 - ✅ Rute API RESTful (opsional)
 
 ::: tip Persyaratan
-Laravel Nusa membutuhkan **PHP ≥ 8.3** dengan ekstensi `php-sqlite3` dan **Laravel ≥ 12.70** (atau Laravel 13.30+). Untuk persyaratan sistem dan pemecahan masalah yang lebih rinci, lihat [Panduan Instalasi](/id/guide/installation).
+Laravel Nusa membutuhkan **PHP ≥ 8.3** dengan ekstensi `php-sqlite3` dan **Laravel ≥ 12.0** atau **Laravel ≥ 13.0**. Untuk persyaratan sistem dan pemecahan masalah yang lebih rinci, lihat [Panduan Instalasi](/id/guide/installation).
 :::
 
 ## Verifikasi Instalasi
