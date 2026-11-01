@@ -2,10 +2,14 @@
 
 declare(strict_types=1);
 
+use Creasi\Nusa\Models\District;
+use Creasi\Nusa\Models\Province;
+use Creasi\Nusa\Models\Regency;
 use Creasi\Nusa\Models\Village;
 use Creasi\Tests\Feature\TestCase;
 use Creasi\Tests\Fixture\ApiResponse;
 use Illuminate\Support\Facades\Http;
+use Illuminate\Testing\TestResponse;
 
 use function Pest\Laravel\getJson;
 
@@ -17,6 +21,20 @@ beforeEach(function () {
      */
     $this->path = 'nusa';
 });
+
+function csvRows(TestResponse $response): array
+{
+    $content = trim($response->streamedContent());
+
+    if ($content === '') {
+        return [];
+    }
+
+    return array_map(
+        fn (string $line) => str_getcsv($line),
+        preg_split('/\r\n|\n/', $content)
+    );
+}
 
 function fakeGeoJson(): array
 {
@@ -47,6 +65,12 @@ it('supports csv format via accept header', function () {
 
     $response->assertOk()
         ->assertHeader('Content-Type', 'text/csv; charset=UTF-8');
+
+    $rows = csvRows($response);
+
+    expect($rows[0])->toBe(['code', 'name', 'latitude', 'longitude'])
+        ->and($rows)->toHaveCount(Province::count() + 1)
+        ->and(array_column($rows, 0))->toContain('33');
 });
 
 it('rejects an unacceptable index format', function () {
@@ -82,6 +106,12 @@ it('shows a province as csv', function () {
 
     $response->assertOk()
         ->assertHeader('Content-Type', 'text/csv; charset=UTF-8');
+
+    $rows = csvRows($response);
+
+    expect($rows[0])->toBe(['code', 'name', 'latitude', 'longitude'])
+        ->and($rows)->toHaveCount(Regency::where('province_code', '33')->count() + 1)
+        ->and(array_column($rows, 0))->toContain('33.75');
 });
 
 it('shows a province as geojson', function () {
@@ -128,6 +158,12 @@ it('shows a regency as csv', function () {
 
     $response->assertOk()
         ->assertHeader('Content-Type', 'text/csv; charset=UTF-8');
+
+    $rows = csvRows($response);
+
+    expect($rows[0])->toBe(['code', 'name', 'latitude', 'longitude'])
+        ->and($rows)->toHaveCount(District::where('regency_code', '33.75')->count() + 1)
+        ->and(array_column($rows, 0))->toContain('33.75.03');
 });
 
 it('shows a regency as geojson', function () {
@@ -174,6 +210,17 @@ it('shows a district as csv', function () {
 
     $response->assertOk()
         ->assertHeader('Content-Type', 'text/csv; charset=UTF-8');
+
+    $rows = csvRows($response);
+
+    expect($rows[0])->toBe(['code', 'name', 'latitude', 'longitude'])
+        ->and($rows)->toHaveCount(Village::where('district_code', '33.75.03')->count() + 1)
+        ->and(array_column($rows, 0))->toContain('33.75.03.1006');
+});
+
+it('rejects csv for a village', function () {
+    /** @var TestCase $this */
+    $this->get($this->path('33/75/03/1006'), ['Accept' => 'text/csv'])->assertNotAcceptable();
 });
 
 it('shows a district as geojson', function () {
