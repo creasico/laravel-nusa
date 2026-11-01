@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Creasi\Tests\Fixtures;
+namespace Creasi\Tests\Fixture;
 
 use Creasi\Nusa\Contracts\HasAddress;
 use Creasi\Nusa\Models\Concerns\WithAddress;
