@@ -32,7 +32,7 @@ dataset('possibleSearchVillages', fn () => [
 
 it('lists districts', function (?string ...$with) {
     /** @var TestCase $this */
-    $response = getJson($this->path(query: ['with' => $with]));
+    $response = getJson($this->path(query: ['with' => $with, 'per-page' => 5]));
 
     $this->assertCollectionResponse($response, ApiResponse::districtFields(), $with);
 })->with('availableQueries');
@@ -86,3 +86,10 @@ it('lists villages in a district', function (?string $search) {
     $this->assertCollectionResponse($response, ApiResponse::villageFields());
     $this->assertPaginatedTotal($response, $expected);
 })->with('possibleSearchVillages');
+
+it('includes relations in a nested list', function () {
+    /** @var TestCase $this */
+    $response = getJson($this->path('33.75.03/villages', ['with' => ['regency'], 'per-page' => 2]));
+
+    $this->assertCollectionResponse($response, ApiResponse::villageFields(), ['regency']);
+});

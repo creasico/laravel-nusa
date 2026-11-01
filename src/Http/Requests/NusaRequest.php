@@ -33,11 +33,14 @@ final class NusaRequest extends FormRequest
      */
     public function apply($model)
     {
+        $related = $model instanceof HasMany ? $model->getRelated() : $model;
+
         $query = $model instanceof HasMany
             ? $model
-            : $model->load($this->relations($model))->query();
+            : $model->query();
 
         $result = $query
+            ->with($this->relationNames($related))
             ->when($this->filled('search'), function (Builder $query) {
                 $query->search($this->query('search'));
             })
@@ -57,13 +60,21 @@ final class NusaRequest extends FormRequest
      */
     public function relations($model): array
     {
-        $relations = array_filter(
-            (array) $this->query('with', []),
-            fn (string $relate) => method_exists($model, $relate)
-        );
+        $relations = $this->relationNames($model);
 
         $model->load($relations);
 
         return $relations;
+    }
+
+    /**
+     * @return string[]
+     */
+    private function relationNames($model): array
+    {
+        return array_filter(
+            (array) $this->query('with', []),
+            fn (string $relate) => method_exists($model, $relate)
+        );
     }
 }

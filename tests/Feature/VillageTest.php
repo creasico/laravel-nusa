@@ -26,7 +26,7 @@ dataset('availableQueries', fn () => [
 
 it('lists villages', function (?string ...$with) {
     /** @var TestCase $this */
-    $response = getJson($this->path(query: ['with' => $with]));
+    $response = getJson($this->path(query: ['with' => $with, 'per-page' => 5]));
 
     $this->assertCollectionResponse($response, ApiResponse::villageFields(), $with);
 })->with('availableQueries');

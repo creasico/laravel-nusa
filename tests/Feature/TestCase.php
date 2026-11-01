@@ -41,10 +41,6 @@ abstract class TestCase extends BaseTestCase
      */
     protected function assertCollectionResponse(TestResponse $response, array $fields, array $with = []): TestResponse
     {
-        // Relation loading on list endpoints is not wired into the paginator,
-        // only the computed attributes are rendered straight from the query.
-        $with = array_intersect($with, ['postal_codes', 'coordinates']);
-
         return $response->assertOk()->assertJsonStructure([
             'data' => [array_values(array_filter([...$fields, ...$with]))],
             'links' => ['first', 'last', 'prev', 'next'],

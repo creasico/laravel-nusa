@@ -40,7 +40,7 @@ dataset('possibleSearchVillages', fn () => [
 
 it('lists regencies', function (?string ...$with) {
     /** @var TestCase $this */
-    $response = getJson($this->path(query: ['with' => $with]));
+    $response = getJson($this->path(query: ['with' => $with, 'per-page' => 5]));
 
     $this->assertCollectionResponse($response, ApiResponse::regencyFields(), $with);
 })->with('availableQueries');

@@ -46,7 +46,7 @@ dataset('possibleSearchVillages', fn () => [
 
 it('lists provinces', function (?string ...$with) {
     /** @var TestCase $this */
-    $response = getJson($this->path(query: ['with' => $with]));
+    $response = getJson($this->path(query: ['with' => $with, 'per-page' => 5]));
 
     $this->assertCollectionResponse($response, ApiResponse::provinceFields(), $with);
 })->with('availableQueries');
@@ -130,4 +130,11 @@ it('ignores unknown relations', function () {
     $response = getJson($this->path('33', ['with' => ['does_not_exist']]));
 
     $response->assertOk()->assertJsonMissingPath('data.does_not_exist');
+});
+
+it('includes relations in a nested list', function () {
+    /** @var TestCase $this */
+    $response = getJson($this->path('33/regencies', ['with' => ['province'], 'per-page' => 2]));
+
+    $this->assertCollectionResponse($response, ApiResponse::regencyFields(), ['province']);
 });
