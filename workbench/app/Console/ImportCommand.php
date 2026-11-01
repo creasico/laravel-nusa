@@ -7,7 +7,6 @@ namespace Workbench\App\Console;
 use Illuminate\Console\Command;
 use Illuminate\Console\View\Components\TwoColumnDetail;
 use Illuminate\Support\Facades\DB;
-use PhpMyAdmin\SqlParser\Statements\SetStatement;
 use Symfony\Component\Finder\Finder;
 use Workbench\App\Support\Normalizer;
 use Workbench\App\Support\SqlHelper;
@@ -45,17 +44,7 @@ class ImportCommand extends Command
             foreach ($files as $path => $query) {
                 $timer = $this->timer("Imported '<fg=yellow>{$path}</>'");
 
-                if (str_contains($path, 'wilayah_boundaries')) {
-                    DB::unprepared($query);
-                } else {
-                    foreach ($this->parseQuery($query) as $statement) {
-                        if ($statement instanceof SetStatement) {
-                            continue;
-                        }
-
-                        DB::unprepared((string) $statement);
-                    }
-                }
+                $this->importQuery($query);
 
                 $timer->stop();
             }
@@ -93,6 +82,48 @@ class ImportCommand extends Command
         if ($this->option('dist')) {
             $this->call(DistCommand::class, ['--force' => true]);
         }
+    }
+
+    private function importQuery(string $query): void
+    {
+        $inserts = [];
+
+        foreach ($this->splitStatements($query) as $statement) {
+            $verb = $this->statementVerb($statement);
+
+            if (! $this->isSafeStatement($statement, $verb)) {
+                continue;
+            }
+
+            if ($verb === 'INSERT') {
+                $inserts[] = $statement;
+
+                continue;
+            }
+
+            // DDL implicitly commits in MySQL, so flush the inserts first
+            $this->flushInserts($inserts);
+
+            DB::unprepared($statement);
+        }
+
+        $this->flushInserts($inserts);
+    }
+
+    /**
+     * @param  list<string>  $statements
+     */
+    private function flushInserts(array &$statements): void
+    {
+        if ($statements === []) {
+            return;
+        }
+
+        DB::transaction(function () use ($statements) {
+            DB::unprepared(implode(";\n", $statements));
+        });
+
+        $statements = [];
     }
 
     private function refreshDatabase(): void
