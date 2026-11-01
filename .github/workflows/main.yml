@@ -29,7 +29,6 @@ jobs:
     # these scopes so the called workflow can comment and retitle the PR.
     permissions:
       contents: read
-      issues: write
       pull-requests: write
 
     with:

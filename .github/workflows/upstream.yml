@@ -27,7 +27,6 @@ jobs:
 
     permissions:
       contents: read
-      issues: write
       pull-requests: write
 
     outputs:
@@ -140,7 +139,7 @@ jobs:
           set -euo pipefail
 
           id=$(gh api --paginate "repos/$GITHUB_REPOSITORY/issues/$PR/comments" \
-            --jq '.[] | select(.body | contains("<!-- nusa-stat -->")) | .id' | tail -n1)
+            --jq '.[] | select(.user.login == "github-actions[bot]" and (.body | contains("<!-- nusa-stat -->"))) | .id' | tail -n1)
 
           if [ -n "$id" ]; then
             jq -Rs '{body: .}' stat-report.md \
