@@ -70,7 +70,8 @@ it('creates branch database files', function () {
         $this->refreshApplication();
 
         expect(file_exists($full))->toBeTrue()
-            ->and(file_exists($dist))->toBeTrue();
+            ->and(file_exists($dist))->toBeTrue()
+            ->and(config('database.connections.current.database'))->toBe("{$directory}/nusa.sqlite");
     } finally {
         set_test_env('GIT_BRANCH', $previousBranch === false ? null : $previousBranch);
         set_test_env('NUSA_DATABASE_DIR', $previousDirectory === false ? null : $previousDirectory);

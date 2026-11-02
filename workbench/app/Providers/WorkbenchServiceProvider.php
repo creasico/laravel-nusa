@@ -65,7 +65,9 @@ class WorkbenchServiceProvider extends ServiceProvider
                 'locale' => 'id',
                 'faker_locale' => 'id_ID',
             ],
-            'database.connections.current' => $nusa,
+            'database.connections.current' => array_merge($nusa, [
+                'database' => $databaseDir.\DIRECTORY_SEPARATOR.'nusa.sqlite',
+            ]),
             'database.connections.nusa' => array_merge($nusa, [
                 'database' => $dbPaths[0],
             ]),

@@ -19,19 +19,12 @@ trait CommandHelpers
 
     private function libPath(string ...$paths): Stringable
     {
-        $path = realpath(\dirname(__DIR__).'/../..') ?: '';
-
-        if ($path !== '') {
-            $path .= \DIRECTORY_SEPARATOR.implode(\DIRECTORY_SEPARATOR, $paths);
-        }
-
-        return str($path);
+        return str(\dirname(__DIR__, 3).\DIRECTORY_SEPARATOR.implode(\DIRECTORY_SEPARATOR, $paths));
     }
 
     private function databasePath(string ...$paths): Stringable
     {
-        $directory = config('creasi.nusa.database_dir')
-            ?: $this->libPath('database')->toString();
+        $directory = config('creasi.nusa.database_dir', fn () => $this->libPath('database')->toString());
 
         return str($directory.\DIRECTORY_SEPARATOR.implode(\DIRECTORY_SEPARATOR, $paths));
     }
