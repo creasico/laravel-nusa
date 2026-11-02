@@ -7,7 +7,7 @@ use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Cache;
 
 it('returns distinct postal codes for a province', function () {
-    Cache::flush();
+    test_flush_cache();
 
     $province = Province::query()->firstOrFail();
     $codes = $province->postal_codes;
@@ -19,7 +19,7 @@ it('returns distinct postal codes for a province', function () {
 });
 
 it('returns an empty collection for a province without villages', function () {
-    Cache::flush();
+    test_flush_cache();
 
     $province = new Province(['code' => '99', 'name' => 'Empty Province']);
 
@@ -27,7 +27,7 @@ it('returns an empty collection for a province without villages', function () {
 });
 
 it('hides the distinct villages relation', function () {
-    Cache::flush();
+    test_flush_cache();
 
     $province = Province::query()->with('distinctVillagesByPostalCodes')->firstOrFail();
     $array = $province->toArray();

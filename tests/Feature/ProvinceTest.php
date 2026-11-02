@@ -8,7 +8,6 @@ use Creasi\Nusa\Models\Regency;
 use Creasi\Nusa\Models\Village;
 use Creasi\Tests\Feature\TestCase;
 use Creasi\Tests\Fixture\ApiResponse;
-use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\DB;
 
 use function Pest\Laravel\getJson;
@@ -143,7 +142,7 @@ it('includes relations in a nested list', function () {
 
 it('batches postal codes for included relations', function () {
     /** @var TestCase $this */
-    Cache::flush();
+    test_flush_cache();
 
     $queries = 0;
     DB::connection(config('creasi.nusa.connection'))->listen(function () use (&$queries) {

@@ -4,10 +4,20 @@ declare(strict_types=1);
 
 use Creasi\Tests\Feature\TestCase as FeatureTestCase;
 use Creasi\Tests\TestCase;
+use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\DB;
 
 pest()->extend(TestCase::class)->in('Unit', 'Workbench');
 pest()->extend(FeatureTestCase::class)->in('Feature');
+
+/**
+ * Flush the cache using an isolated array store.
+ */
+function test_flush_cache(): void
+{
+    config(['cache.default' => 'array']);
+    Cache::flush();
+}
 
 /**
  * Determine whether a database connection is reachable.
