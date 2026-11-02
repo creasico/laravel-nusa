@@ -12,15 +12,15 @@ Panduan ini membantu Anda menyelesaikan masalah umum saat menginstal, mengkonfig
 
 ```bash
 # Ubuntu/Debian
-sudo apt-get install php8.2-sqlite3
+sudo apt-get install php8.3-sqlite3
 
 # CentOS/RHEL/Fedora
 sudo yum install php-sqlite3
 # atau
 sudo dnf install php-sqlite3
 
-# macOS dengan Homebrew
-brew install php@8.2
+# macOS dengan mise (lokal proyek)
+mise use php@8.3
 
 # Windows (batalkan komentar di php.ini)
 extension=pdo_sqlite
@@ -53,7 +53,7 @@ php -m | grep sqlite
 3. **Periksa versi PHP**:
    ```bash
    php -v
-   # Pastikan PHP >= 8.2
+   # Pastikan PHP >= 8.3
    ```
 
 4. **Instal dengan versi tertentu**:

@@ -11,7 +11,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 /**
  * @template TDeclaringModel of \Illuminate\Database\Eloquent\Model
  *
- * @property-read District|\Creasi\Nusa\Contracts\District $district
+ * @property-read District $district
  *
  * @mixin Model
  */

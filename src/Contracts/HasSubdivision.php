@@ -8,12 +8,14 @@ use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * @mixin Model
+ * @template TChild of Model
+ *
+ * @mixin TChild
  */
 interface HasSubdivision
 {
     /**
-     * @return Collection<int, \Creasi\Nusa\Models\Model>
+     * @return Collection<int, TChild>
      */
     public function subdivisions(): Collection;
 }

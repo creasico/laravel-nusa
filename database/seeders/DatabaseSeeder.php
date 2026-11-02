@@ -40,10 +40,24 @@ class DatabaseSeeder extends Seeder
         }
     }
 
+    /**
+     * @return array<int|string, mixed>
+     */
     private function loadJson(string ...$paths): array
     {
         $path = implode(\DIRECTORY_SEPARATOR, $paths);
+        $contents = file_get_contents($path);
 
-        return json_decode(file_get_contents($path), true);
+        if ($contents === false) {
+            throw new \RuntimeException("Unable to read {$path}.");
+        }
+
+        $data = json_decode($contents, true);
+
+        if (! \is_array($data)) {
+            throw new \RuntimeException("Invalid JSON in {$path}.");
+        }
+
+        return $data;
     }
 }

@@ -6,7 +6,7 @@ Panduan ini mencakup pengaturan Laravel Nusa untuk pengembangan, kontribusi, dan
 
 ### Perangkat Lunak yang Dibutuhkan
 
-- **PHP** ≥ 8.2 dengan ekstensi:
+- **PHP** ≥ 8.3 dengan ekstensi:
   - `ext-sqlite3` - Untuk dukungan database SQLite
   - `ext-json` - Untuk penanganan JSON
   - `ext-mbstring` - Untuk manipulasi string
@@ -166,6 +166,7 @@ composer upstream [args]      # Teruskan argumen ke docker-compose
 
 # Pengujian dan kualitas
 composer test                 # Jalankan suite pengujian
+composer check                # Jalankan analisis statis PHPStan
 composer fix                  # Perbaiki gaya kode dengan Laravel Pint
 composer testbench [args]     # Jalankan perintah testbench
 composer testbench:purge      # Bersihkan kerangka workbench
@@ -287,13 +288,13 @@ composer fix
 composer test
 
 # Jalankan pengujian tertentu
-vendor/bin/phpunit tests/Models/ProvinceTest.php
+vendor/bin/testbench package:test tests/Unit/ProvinceTest.php
 
 # Jalankan dengan cakupan
 composer test -- --coverage-html tests/reports/html
 
-# Uji fitur tertentu
-vendor/bin/phpunit --filter testProvinceRelationships
+# Uji pengujian tertentu
+vendor/bin/testbench package:test --filter=searches_provinces
 ```
 
 ### 3. Kualitas Kode
@@ -305,8 +306,11 @@ composer fix
 # Periksa gaya tanpa memperbaiki
 vendor/bin/pint --test
 
-# Jalankan analisis statis (jika dikonfigurasi)
-composer analyse
+# Jalankan analisis statis (PHPStan level 7)
+composer check
+
+# Atau jalankan PHPStan secara langsung
+vendor/bin/phpstan analyse
 ```
 
 ### 4. Dokumentasi

@@ -87,11 +87,17 @@ Sesuaikan nama tabel jika Anda membutuhkan konvensi penamaan yang berbeda:
 'addressable' => \Creasi\Nusa\Models\Address::class,
 ```
 
-Tentukan model mana yang akan digunakan untuk manajemen alamat. Anda dapat membuat implementasi Anda sendiri:
+Tentukan model mana yang akan digunakan untuk manajemen alamat. Model `Address` bawaan bersifat final dan sengaja dibuat minimal. Model kustom hanya perlu mengimplementasikan kontrak `Address`; metode bantuan `associateWith()` bukan bagian dari kontrak tersebut.
+
+Anda dapat membuat implementasi Anda sendiri:
 
 ```php
 // Buat model alamat kustom Anda
-class CustomAddress extends \Creasi\Nusa\Models\Address
+use Creasi\Nusa\Contracts\Address as AddressContract;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\MorphTo;
+
+class CustomAddress extends Model implements AddressContract
 {
     protected $fillable = [
         'user_id',
@@ -106,10 +112,15 @@ class CustomAddress extends \Creasi\Nusa\Models\Address
         'is_default',
         'notes'
     ];
-    
+
     protected $casts = [
         'is_default' => 'boolean',
     ];
+
+    public function addressable(): MorphTo
+    {
+        return $this->morphTo('addressable');
+    }
 }
 
 // Perbarui konfigurasi

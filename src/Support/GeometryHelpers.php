@@ -4,13 +4,25 @@ declare(strict_types=1);
 
 namespace Creasi\Nusa\Support;
 
+/**
+ * @internal
+ */
 trait GeometryHelpers
 {
     /**
+     * @param  array<int, mixed>  $coordinates
+     * @return array<string, mixed>
+     *
      * @throws \InvalidArgumentException
      */
-    private function formatGeoJson(string $kind, string $code, string $name, float $longitude, float $latitude, array $coordinates): array
-    {
+    private function formatGeoJson(
+        string $kind,
+        string $code,
+        string $name,
+        float $longitude,
+        float $latitude,
+        array $coordinates
+    ): array {
         if (empty($coordinates)) {
             // @codeCoverageIgnoreStart
             throw new \InvalidArgumentException('Coordinates array cannot be empty');

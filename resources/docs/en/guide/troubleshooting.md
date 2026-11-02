@@ -12,15 +12,15 @@ This guide helps you resolve common issues when installing, configuring, or usin
 
 ```bash
 # Ubuntu/Debian
-sudo apt-get install php8.2-sqlite3
+sudo apt-get install php8.3-sqlite3
 
 # CentOS/RHEL/Fedora
 sudo yum install php-sqlite3
 # or
 sudo dnf install php-sqlite3
 
-# macOS with Homebrew
-brew install php@8.2
+# macOS with mise (project-local)
+mise use php@8.3
 
 # Windows (uncomment in php.ini)
 extension=pdo_sqlite
@@ -53,7 +53,7 @@ php -m | grep sqlite
 3. **Check PHP version**:
    ```bash
    php -v
-   # Ensure PHP >= 8.2
+   # Ensure PHP >= 8.3
    ```
 
 4. **Install with specific version**:

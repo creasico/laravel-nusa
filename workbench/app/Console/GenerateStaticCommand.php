@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Workbench\App\Console;
 
-use Creasi\Nusa\Contracts\Province;
 use Creasi\Nusa\Models\Model;
+use Creasi\Nusa\Models\Province;
 use Creasi\Nusa\Support\GeometryHelpers;
 use Illuminate\Console\Command;
 use Illuminate\Database\Eloquent\Collection;
@@ -28,7 +28,9 @@ class GenerateStaticCommand extends Command
      */
     public function handle(Province $province): void
     {
-        $target = (string) $this->libPath($this->argument('target'));
+        $target = $this->argument('target');
+        $target = \is_string($target) ? $target : 'resources/static';
+        $target = $this->libPath($target)->toString();
 
         $this->group("Generating static files to <fg=yellow>'{$target}'</>");
 
@@ -44,7 +46,10 @@ class GenerateStaticCommand extends Command
     }
 
     /**
-     * @param  Collection<int, Model>  $items
+     * @template TModel of Model
+     *
+     * @param  Collection<int, TModel>  $items
+     * @param  array<string, string>  $steps
      */
     private function writeToFile(
         string $kind,
@@ -54,6 +59,7 @@ class GenerateStaticCommand extends Command
         string ...$paths
     ): void {
         $link = $this->option('link');
+        $link = \is_string($link) ? $link : null;
         $tasks = [];
 
         if ($sub = $steps[$kind] ?? null) {
@@ -121,6 +127,9 @@ class GenerateStaticCommand extends Command
         }
     }
 
+    /**
+     * @param  array<int, array<string, mixed>>  $items
+     */
     private function writeCsv(array $items, string $path): void
     {
         $lines = [];
@@ -146,6 +155,9 @@ class GenerateStaticCommand extends Command
         fclose($fp);
     }
 
+    /**
+     * @param  array<int, array<string, mixed>>  $items
+     */
     private function writeJson(array $items, string $path): void
     {
         file_put_contents("{$path}.json", json_encode($items));
@@ -156,6 +168,9 @@ class GenerateStaticCommand extends Command
         }
     }
 
+    /**
+     * @param  array<string, mixed>  $value
+     */
     private function writeGeoJson(string $kind, array $value, string $path): void
     {
         if (empty($value['coordinates'])) {
@@ -175,11 +190,14 @@ class GenerateStaticCommand extends Command
     }
 
     /**
-     * @param  Collection<int, Model>  $collection
+     * @template TModel of Model
+     *
+     * @param  Collection<int, TModel>  $collection
+     * @return array<int, array<string, mixed>>
      */
     private function sanitizeCollection(Collection $collection, ?string $link = null): array
     {
-        return $collection->map(function (Model $model) use ($link): array {
+        return $collection->map(function (Model $model, int|string $key) use ($link): array {
             $data = $model->except(['coordinates', 'postal_codes']);
 
             if ($link) {

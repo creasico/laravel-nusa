@@ -1,0 +1,29 @@
+parameters:
+    paths:
+        - config/
+        - database/
+        - routes/
+        - src/
+        - workbench/app/
+
+    level: 7
+
+    ignoreErrors:
+        # Eloquent relation generics use `$this`, which PHPStan cannot reconcile
+        # with the `static` contract template when the relation lives in a trait.
+        -
+            identifier: return.type
+            paths:
+                - src/Models/Concerns/*.php
+        -
+            identifier: method.childReturnType
+            paths:
+                - src/Models/Address.php
+                - src/Models/Province.php
+
+        # Public traits intended for consumer models, not used inside src/.
+        -
+            identifier: trait.unused
+            paths:
+                - src/Models/Concerns/WithAddress.php
+                - src/Models/Concerns/WithAddresses.php

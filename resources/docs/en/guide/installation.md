@@ -6,7 +6,7 @@ This guide provides comprehensive installation instructions, configuration optio
 
 ### PHP Requirements
 
-- **PHP Version**: 8.2 or higher
+- **PHP Version**: 8.3 or higher
 - **Required Extensions**:
   - `ext-sqlite3` - For SQLite database support
   - `ext-json` - For JSON handling (usually included)
@@ -16,10 +16,8 @@ This guide provides comprehensive installation instructions, configuration optio
 
 Laravel Nusa supports multiple Laravel versions:
 
-- **Laravel 9.x** - Minimum version 9.0
-- **Laravel 10.x** - Full support
-- **Laravel 11.x** - Full support
-- **Laravel 12.x** - Full support
+- **Laravel 12.x** - Minimum version 12.0
+- **Laravel 13.x** - Minimum version 13.0
 
 ### Server Requirements
 
@@ -219,15 +217,15 @@ Routes will then be available at `/api/indonesia/provinces`, etc.
 
 ```bash
 # Ubuntu/Debian
-sudo apt-get install php8.2-sqlite3
+sudo apt-get install php8.3-sqlite3
 
 # CentOS/RHEL/Fedora
 sudo yum install php-sqlite3
 # or
 sudo dnf install php-sqlite3
 
-# macOS with Homebrew
-brew install php@8.2
+# macOS with mise (project-local)
+mise use php@8.3
 
 # Windows (uncomment in php.ini)
 extension=pdo_sqlite

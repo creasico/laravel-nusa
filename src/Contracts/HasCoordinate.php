@@ -9,7 +9,7 @@ use Illuminate\Database\Eloquent\Model;
 /**
  * @property-read null|float $latitude
  * @property-read null|float $longitude
- * @property-read null|array $coordinates
+ * @property-read null|array<int, mixed> $coordinates
  *
  * @mixin Model
  */

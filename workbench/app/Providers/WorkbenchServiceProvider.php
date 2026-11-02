@@ -23,9 +23,11 @@ class WorkbenchServiceProvider extends ServiceProvider
     public function register(): void
     {
         $nusa = config('database.connections.nusa');
-        $databaseDir = $nusa['database']
+        $databaseDir = env('NUSA_DATABASE_DIR') ?: ($nusa['database']
             ? \dirname($nusa['database'])
-            : \dirname(__DIR__, 3).'/database';
+            : \dirname(__DIR__, 3).'/database');
+
+        config(['creasi.nusa.database_dir' => $databaseDir]);
 
         if (app()->runningInConsole()) {
             $this->loadMigrationsFrom($databaseDir.'/migrations');
@@ -63,7 +65,9 @@ class WorkbenchServiceProvider extends ServiceProvider
                 'locale' => 'id',
                 'faker_locale' => 'id_ID',
             ],
-            'database.connections.current' => $nusa,
+            'database.connections.current' => array_merge($nusa, [
+                'database' => $databaseDir.\DIRECTORY_SEPARATOR.'nusa.sqlite',
+            ]),
             'database.connections.nusa' => array_merge($nusa, [
                 'database' => $dbPaths[0],
             ]),
@@ -110,8 +114,11 @@ class WorkbenchServiceProvider extends ServiceProvider
         });
     }
 
-    private function mergeConfig(Repository $config, string $key, array $value)
+    /**
+     * @param  array<string, mixed>  $value
+     */
+    private function mergeConfig(Repository $config, string $key, array $value): void
     {
-        $config->set($key, array_merge($config->get($key, []), $value));
+        $config->set($key, array_merge((array) $config->get($key, []), $value));
     }
 }

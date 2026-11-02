@@ -6,6 +6,9 @@ namespace Creasi\Nusa\Models;
 
 use Creasi\Nusa\Contracts\Village as VillageContract;
 
+/**
+ * @implements VillageContract<static>
+ */
 final class Village extends Model implements VillageContract
 {
     /** @use Concerns\WithDistrict<static> */
@@ -19,6 +22,7 @@ final class Village extends Model implements VillageContract
 
     protected $fillable = ['postal_code'];
 
+    /** @var array<string, string> */
     protected $casts = [
         'postal_code' => 'int',
     ];

@@ -6,7 +6,7 @@ This guide covers setting up Laravel Nusa for development, contributing, and wor
 
 ### Required Software
 
-- **PHP** ≥ 8.2 with extensions:
+- **PHP** ≥ 8.3 with extensions:
   - `ext-sqlite3` - For SQLite database support
   - `ext-json` - For JSON handling
   - `ext-mbstring` - For string manipulation
@@ -166,6 +166,7 @@ composer upstream [args]      # Pass arguments to docker-compose
 
 # Testing and quality
 composer test                 # Run test suite
+composer check                # Run PHPStan static analysis
 composer fix                  # Fix code style with Laravel Pint
 composer testbench [args]     # Run testbench commands
 composer testbench:purge      # Purge workbench skeleton
@@ -287,13 +288,13 @@ composer fix
 composer test
 
 # Run specific test
-vendor/bin/phpunit tests/Models/ProvinceTest.php
+vendor/bin/testbench package:test tests/Unit/ProvinceTest.php
 
 # Run with coverage
 composer test -- --coverage-html tests/reports/html
 
-# Test specific feature
-vendor/bin/phpunit --filter testProvinceRelationships
+# Test specific test
+vendor/bin/testbench package:test --filter=searches_provinces
 ```
 
 ### 3. Code Quality
@@ -305,8 +306,11 @@ composer fix
 # Check style without fixing
 vendor/bin/pint --test
 
-# Run static analysis (if configured)
-composer analyse
+# Run static analysis (PHPStan level 7)
+composer check
+
+# Or run PHPStan directly
+vendor/bin/phpstan analyse
 ```
 
 ### 4. Documentation

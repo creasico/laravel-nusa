@@ -5,7 +5,9 @@ declare(strict_types=1);
 namespace Workbench\App\Console;
 
 use Creasi\Nusa\Models;
+use Creasi\Nusa\Models\Model;
 use Illuminate\Console\Command;
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Stringable;
 
 /**
@@ -17,11 +19,14 @@ trait CommandHelpers
 
     private function libPath(string ...$paths): Stringable
     {
-        if ($path = realpath(\dirname(__DIR__).'/../..')) {
-            $path .= \DIRECTORY_SEPARATOR.implode(\DIRECTORY_SEPARATOR, $paths);
-        }
+        return str(\dirname(__DIR__, 3).\DIRECTORY_SEPARATOR.implode(\DIRECTORY_SEPARATOR, $paths));
+    }
 
-        return str($path);
+    private function databasePath(string ...$paths): Stringable
+    {
+        $directory = config('creasi.nusa.database_dir', fn () => $this->libPath('database')->toString());
+
+        return str($directory.\DIRECTORY_SEPARATOR.implode(\DIRECTORY_SEPARATOR, $paths));
     }
 
     private function group(string $title): void
@@ -68,13 +73,22 @@ trait CommandHelpers
         return env('CI') !== null;
     }
 
-    private function model(string $table)
+    /**
+     * @return Builder<Model>
+     */
+    private function model(string $table): Builder
     {
-        return match ($table) {
+        $query = match ($table) {
             'provinces' => Models\Province::query(),
             'regencies' => Models\Regency::query(),
             'districts' => Models\District::query(),
             'villages' => Models\Village::query(),
+            default => throw new \InvalidArgumentException("Unknown table: {$table}"),
         };
+
+        /** @var Builder<Model> $result */
+        $result = $query;
+
+        return $result;
     }
 }

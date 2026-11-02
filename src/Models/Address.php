@@ -5,16 +5,17 @@ declare(strict_types=1);
 namespace Creasi\Nusa\Models;
 
 use Creasi\Nusa\Contracts\Address as AddressContract;
-use Creasi\Nusa\Contracts\District;
-use Creasi\Nusa\Contracts\Province;
-use Creasi\Nusa\Contracts\Regency;
-use Creasi\Nusa\Contracts\Village;
+use Creasi\Nusa\RuntimeException;
 use Illuminate\Contracts\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 
 /**
- * @template TAddressableModel of \Creasi\Nusa\Contracts\Address
+ * @internal
+ *
+ * @implements AddressContract<static>
+ *
+ * @property string $line
  *
  * @mixin Builder
  */
@@ -32,7 +33,10 @@ final class Address extends EloquentModel implements AddressContract
     /** @use Concerns\WithVillage<static> */
     use Concerns\WithVillage;
 
-    public function getCasts()
+    /**
+     * @return array<string, mixed>
+     */
+    public function getCasts(): array
     {
         return array_merge(parent::getCasts(), [
             'postal_code' => 'int',
@@ -44,12 +48,20 @@ final class Address extends EloquentModel implements AddressContract
         return array_merge(parent::getFillable(), ['line', 'postal_code']);
     }
 
+    /**
+     * Associate the address with a village and persist it.
+     *
+     * This convenience method is specific to the default Address model and is
+     * not part of the Address contract.
+     *
+     * @throws RuntimeException when the address cannot be saved.
+     */
     public function associateWith(
         Village $village,
         ?District $district = null,
         ?Regency $regency = null,
         ?Province $province = null,
-    ) {
+    ): ?self {
         $this->village()->associate($village);
 
         if (! $district) {
@@ -70,11 +82,19 @@ final class Address extends EloquentModel implements AddressContract
 
         $this->province()->associate($province);
 
+        if (! $this->save()) {
+            throw new RuntimeException(
+                'The address could not be saved; a saving listener may have cancelled it.'
+            );
+        }
+
         return $this->fresh();
     }
 
     /**
      * @see AddressContract::addressable()
+     *
+     * @return MorphTo<EloquentModel, $this>
      */
     public function addressable(): MorphTo
     {

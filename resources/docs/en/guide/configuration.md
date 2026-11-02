@@ -87,11 +87,17 @@ Customize table names if you need different naming conventions:
 'addressable' => \Creasi\Nusa\Models\Address::class,
 ```
 
-Specify which model to use for address management. You can create your own implementation:
+Specify which model to use for address management. The default `Address` model is final and intentionally minimal. Custom models only need to implement the `Address` contract; the `associateWith()` convenience method is not part of that contract.
+
+You can create your own implementation:
 
 ```php
 // Create your custom address model
-class CustomAddress extends \Creasi\Nusa\Models\Address
+use Creasi\Nusa\Contracts\Address as AddressContract;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\MorphTo;
+
+class CustomAddress extends Model implements AddressContract
 {
     protected $fillable = [
         'user_id',
@@ -106,10 +112,15 @@ class CustomAddress extends \Creasi\Nusa\Models\Address
         'is_default',
         'notes'
     ];
-    
+
     protected $casts = [
         'is_default' => 'boolean',
     ];
+
+    public function addressable(): MorphTo
+    {
+        return $this->morphTo('addressable');
+    }
 }
 
 // Update configuration

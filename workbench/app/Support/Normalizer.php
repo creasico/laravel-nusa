@@ -8,8 +8,10 @@ class Normalizer
 {
     public readonly ?string $type;
 
+    /** @var null|array<int, mixed> */
     public readonly ?array $coordinates;
 
+    /** @var array<int, array{0: string, 1: string}> */
     public static array $invalid = [];
 
     public static bool $dist = false;
@@ -34,10 +36,14 @@ class Normalizer
             self::$invalid[] = [$code, $name];
         }
 
-        $this->coordinates = $coordinates ? json_decode($coordinates) : null;
+        $decoded = $coordinates ? json_decode($coordinates, true) : null;
+        $this->coordinates = \is_array($decoded) ? $decoded : null;
     }
 
-    public function normalize()
+    /**
+     * @return null|array<string, mixed>
+     */
+    public function normalize(): ?array
     {
         return match ($this->type) {
             'villages' => $this->toVillage(),
@@ -54,6 +60,9 @@ class Normalizer
         };
     }
 
+    /**
+     * @return array<string, mixed>
+     */
     private function toRegency(): array
     {
         [$province_code] = explode('.', $this->code, 2);
@@ -68,6 +77,9 @@ class Normalizer
         ];
     }
 
+    /**
+     * @return array<string, mixed>
+     */
     private function toDistrict(): array
     {
         [$province_code, $regency_code] = explode('.', $this->code, 3);
@@ -83,6 +95,9 @@ class Normalizer
         ];
     }
 
+    /**
+     * @return array<string, mixed>
+     */
     private function toVillage(): array
     {
         [$province_code, $regency_code, $district_code] = explode('.', $this->code, 4);
@@ -105,13 +120,16 @@ class Normalizer
         return implode('.', $codes);
     }
 
-    private function normalizeCoordinates(?array $arr)
+    /**
+     * @param  null|array<int, mixed>  $arr
+     */
+    private function normalizeCoordinates(?array $arr): ?string
     {
         if (! $arr) {
             return null;
         }
 
-        return json_encode($this->swapCoordinate($arr));
+        return json_encode($this->swapCoordinate($arr)) ?: null;
     }
 
     /**
@@ -120,20 +138,20 @@ class Normalizer
      * The upstream coordinates are formated in `[lat, lng]` format,
      * all we need is to flip them become `[lng, lat]` so it could be
      * viewed correctly natively in github `.geojson` preview.
+     *
+     * @param  array<int, mixed>  $arr
+     * @return array<int, mixed>
      */
     private function swapCoordinate(array $arr): array
     {
+        if (\count($arr) === 2 && is_numeric($arr[0]) && is_numeric($arr[1])) {
+            return [$arr[1], $arr[0]];
+        }
+
         foreach ($arr as $key => $val) {
-            if (
-                \count($val) === 2 &&
-                (is_numeric($val[0]) && is_numeric($val[1]))
-            ) {
-                $arr[$key] = [$val[1], $val[0]];
-
-                continue;
+            if (\is_array($val)) {
+                $arr[$key] = $this->swapCoordinate($val);
             }
-
-            $arr[$key] = $this->swapCoordinate($val);
         }
 
         return $arr;

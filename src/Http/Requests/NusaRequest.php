@@ -9,10 +9,16 @@ use Creasi\Nusa\Models\Model;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Foundation\Http\FormRequest;
+use ReflectionMethod;
+use ReflectionNamedType;
 
 final class NusaRequest extends FormRequest
 {
+    /**
+     * @return array<string, mixed>
+     */
     public function rules(): array
     {
         return [
@@ -28,18 +34,27 @@ final class NusaRequest extends FormRequest
     }
 
     /**
-     * @param  Model  $model
-     * @return LengthAwarePaginator
+     * @param  Model|HasMany<*, *>  $model
+     * @return LengthAwarePaginator<int, \Illuminate\Database\Eloquent\Model>
      */
-    public function apply($model)
+    public function apply(Model|HasMany $model)
     {
+        $related = $model instanceof HasMany ? $model->getRelated() : $model;
+
         $query = $model instanceof HasMany
-            ? $model
-            : $model->load($this->relations($model))->query();
+            ? $model->getQuery()
+            : $model->query();
+
+        $perPage = $this->filled('per-page') ? $this->integer('per-page') : null;
 
         $result = $query
+            ->with($this->eagerLoads($related))
             ->when($this->filled('search'), function (Builder $query) {
-                $query->search($this->query('search'));
+                $search = $this->query('search');
+
+                if (\is_string($search)) {
+                    $query->getModel()->scopeSearch($query, $search);
+                }
             })
             ->when($this->filled('codes'), function (Builder $query) {
                 $query->whereIn($query->getModel()->getKeyName(), $this->query('codes', []));
@@ -48,22 +63,79 @@ final class NusaRequest extends FormRequest
                 $query->where('postal_code', $this->query('postal_code'));
             });
 
-        return $result->paginate($this->query('per-page'));
+        return $result->paginate($perPage);
     }
 
     /**
-     * @param  Model  $model
      * @return string[]
      */
-    public function relations($model): array
+    public function relations(Model $model): array
     {
-        $relations = array_filter(
-            (array) $this->query('with', []),
-            fn (string $relate) => method_exists($model, $relate)
-        );
+        $relations = $this->eagerLoads($model);
 
         $model->load($relations);
 
         return $relations;
+    }
+
+    /**
+     * @return string[]
+     */
+    private function eagerLoads(Model $model): array
+    {
+        $relations = $this->relationNames($model);
+
+        if (! \in_array('postal_codes', (array) $this->query('with', []), true)) {
+            return $relations;
+        }
+
+        $eagerLoads = $relations;
+
+        if (method_exists($model, 'distinctVillagesByPostalCodes')) {
+            $eagerLoads[] = 'distinctVillagesByPostalCodes';
+        }
+
+        foreach ($relations as $relation) {
+            $related = $model->{$relation}()->getRelated();
+
+            if (method_exists($related, 'distinctVillagesByPostalCodes')) {
+                $eagerLoads[] = "{$relation}.distinctVillagesByPostalCodes";
+            }
+        }
+
+        return array_values(array_unique($eagerLoads));
+    }
+
+    /**
+     * @return string[]
+     */
+    private function relationNames(Model $model): array
+    {
+        return array_values(array_filter(
+            (array) $this->query('with', []),
+            fn (string $relation) => $this->isRelation($model, $relation)
+        ));
+    }
+
+    /**
+     * Check the method signature without invoking arbitrary model methods.
+     */
+    private function isRelation(Model $model, string $relation): bool
+    {
+        if (! method_exists($model, $relation)) {
+            return false;
+        }
+
+        $method = new ReflectionMethod($model, $relation);
+
+        if (! $method->isPublic() || $method->isStatic() || $method->getNumberOfRequiredParameters() > 0) {
+            return false;
+        }
+
+        $type = $method->getReturnType();
+
+        return $type instanceof ReflectionNamedType
+            && ! $type->isBuiltin()
+            && is_a($type->getName(), Relation::class, true);
     }
 }

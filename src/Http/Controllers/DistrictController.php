@@ -4,37 +4,36 @@ declare(strict_types=1);
 
 namespace Creasi\Nusa\Http\Controllers;
 
-use Creasi\Nusa\Contracts\District;
 use Creasi\Nusa\Http\Requests\NusaRequest;
 use Creasi\Nusa\Http\Resources\NusaResource;
+use Creasi\Nusa\Models\District as DistrictModel;
+use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
 
 final class DistrictController
 {
     public function __construct(
-        private District $model
+        private DistrictModel $model
     ) {
         // .
     }
 
-    public function index(NusaRequest $request)
+    public function index(NusaRequest $request): AnonymousResourceCollection
     {
-        $request->relations($this->model);
-
         return NusaResource::collection($request->apply($this->model));
     }
 
-    public function show(NusaRequest $request, string $district)
+    public function show(NusaRequest $request, string $district): NusaResource
     {
-        $district = $this->model->findOrFail($district);
+        $district = DistrictModel::query()->findOrFail($district);
 
         $request->relations($district);
 
         return new NusaResource($district);
     }
 
-    public function villages(NusaRequest $request, string $district)
+    public function villages(NusaRequest $request, string $district): AnonymousResourceCollection
     {
-        $district = $this->model->findOrFail($district);
+        $district = DistrictModel::query()->findOrFail($district);
 
         return NusaResource::collection(
             $request->apply($district->villages())

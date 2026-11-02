@@ -83,6 +83,22 @@ public function village(): BelongsTo
 }
 ```
 
+### Mengaitkan dengan Wilayah
+
+Model `Address` bawaan menyediakan metode bantuan `associateWith()`:
+
+```php
+$address->associateWith($village);
+```
+
+Metode ini mengatur kunci asing village, district, regency, dan province, menyimpan alamat, lalu menyegarkannya.
+
+Metode ini **bukan bagian dari kontrak `Creasi\Nusa\Contracts\Address`**. Model alamat kustom yang dikonfigurasi melalui `creasi.nusa.addressable` tidak wajib mengimplementasikannya. Jika Anda ingin mengatur persistensi sendiri, atur kunci asing secara langsung dan panggil `save()`.
+
+Model `Address` bawaan bersifat final dan sengaja dibuat minimal. Gunakan implementasi kontrak kustom jika Anda membutuhkan field atau perilaku tambahan.
+
+`associateWith()` melempar `Creasi\Nusa\RuntimeException` ketika listener `saving` atau `creating` membatalkan persistensi.
+
 ## Scope
 
 ### Scope Alamat Utama

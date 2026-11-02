@@ -39,6 +39,9 @@
         "post-install-cmd": [
             "@php -r \"file_exists('workbench/.env') || copy('workbench/.env.example', 'workbench/.env');\""
         ],
+        "check": [
+            "phpstan analyse"
+        ],
         "fix": [
             "pint --parallel"
         ],
@@ -84,21 +87,25 @@
         }
     },
     "require": {
-        "php": "^8.2",
+        "php": "^8.3",
         "ext-sqlite3": "*",
-        "laravel/framework": "^9.0|^10.0|^11.0|^12.0|^13.0"
+        "laravel/framework": "^12.0|^13.0"
     },
     "require-dev": {
         "composer-runtime-api": "*",
-        "laravel/pint": "^1.30",
-        "nunomaduro/collision": "^7.4|^8.0",
-        "orchestra/testbench": "^8.5|^9.0|^10.0|^11.0",
+        "laravel/pint": "^1.32",
+        "orchestra/pest-plugin-testbench": "^4.1|^5.0",
+        "orchestra/testbench": "^10.12|^11.3",
+        "phpstan/phpstan": "^2.1",
         "phpmyadmin/sql-parser": "^6.0",
         "spatie/fork": "^1.2"
     },
     "config": {
         "preferred-install": "dist",
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
     },
     "extra": {
         "laravel": {

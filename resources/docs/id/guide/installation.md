@@ -6,7 +6,7 @@ Panduan ini menyediakan instruksi instalasi yang komprehensif, opsi konfigurasi,
 
 ### Persyaratan PHP
 
-- **Versi PHP**: 8.2 atau lebih tinggi
+- **Versi PHP**: 8.3 atau lebih tinggi
 - **Ekstensi yang Dibutuhkan**:
   - `ext-sqlite3` - Untuk dukungan database SQLite
   - `ext-json` - Untuk penanganan JSON (biasanya sudah termasuk)
@@ -16,10 +16,8 @@ Panduan ini menyediakan instruksi instalasi yang komprehensif, opsi konfigurasi,
 
 Laravel Nusa mendukung beberapa versi Laravel:
 
-- **Laravel 9.x** - Versi minimum 9.0
-- **Laravel 10.x** - Dukungan penuh
-- **Laravel 11.x** - Dukungan penuh
-- **Laravel 12.x** - Dukungan penuh
+- **Laravel 12.x** - Versi minimum 12.0
+- **Laravel 13.x** - Versi minimum 13.0
 
 ### Persyaratan Server
 
@@ -219,15 +217,15 @@ Rute kemudian akan tersedia di `/api/indonesia/provinces`, dll.
 
 ```bash
 # Ubuntu/Debian
-sudo apt-get install php8.2-sqlite3
+sudo apt-get install php8.3-sqlite3
 
 # CentOS/RHEL/Fedora
 sudo yum install php-sqlite3
 # atau
 sudo dnf install php-sqlite3
 
-# macOS dengan Homebrew
-brew install php@8.2
+# macOS dengan mise (lokal proyek)
+mise use php@8.3
 
 # Windows (batalkan komentar di php.ini)
 extension=pdo_sqlite

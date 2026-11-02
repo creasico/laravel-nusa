@@ -5,9 +5,11 @@ declare(strict_types=1);
 namespace Creasi\Nusa\Models;
 
 use Creasi\Nusa\Contracts\District as DistrictContract;
-use Creasi\Nusa\Contracts\Village;
 use Illuminate\Database\Eloquent\Collection;
 
+/**
+ * @implements DistrictContract<static>
+ */
 final class District extends Model implements DistrictContract
 {
     /** @use Concerns\WithProvince<static> */
@@ -29,6 +31,6 @@ final class District extends Model implements DistrictContract
      */
     public function subdivisions(): Collection
     {
-        return $this->villages;
+        return new Collection($this->villages->all());
     }
 }
