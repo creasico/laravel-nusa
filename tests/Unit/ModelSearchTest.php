@@ -27,16 +27,17 @@ it('searches case-insensitively per driver', function (string $driver) {
         $table->string('code')->primary();
         $table->string('name');
     });
-    DB::connection($driver)->table($tableName)->insert([
-        ['code' => '33', 'name' => 'Jawa Tengah'],
-        ['code' => '32', 'name' => 'Jawa Barat'],
-        ['code' => '11', 'name' => 'Aceh'],
-    ]);
-
-    SearchableModel::$connectionName = $driver;
-    SearchableModel::$tableName = $tableName;
 
     try {
+        DB::connection($driver)->table($tableName)->insert([
+            ['code' => '33', 'name' => 'Jawa Tengah'],
+            ['code' => '32', 'name' => 'Jawa Barat'],
+            ['code' => '11', 'name' => 'Aceh'],
+        ]);
+
+        SearchableModel::$connectionName = $driver;
+        SearchableModel::$tableName = $tableName;
+
         expect(SearchableModel::search('jawa')->count())->toBe(2)
             ->and(SearchableModel::search('JAWA')->count())->toBe(2)
             ->and(SearchableModel::search('sumatra')->count())->toBe(0);
