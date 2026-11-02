@@ -7,8 +7,6 @@ namespace Creasi\Nusa\Models\Concerns;
 use Creasi\Nusa\Contracts\HasCoordinate;
 
 /**
- * @template TDeclaringModel of \Illuminate\Database\Eloquent\Model
- *
  * @mixin HasCoordinate
  */
 trait WithCoordinate

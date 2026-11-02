@@ -76,6 +76,8 @@ final class Address extends EloquentModel implements AddressContract
     }
 
     /**
+     * {@inheritdoc}
+     *
      * @see AddressContract::addressable()
      */
     public function addressable(): MorphTo

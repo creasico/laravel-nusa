@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Cache;
  *
  * @property-read Collection<int, int> $postal_codes
  * @property-read Collection<int, Village|\Creasi\Nusa\Contracts\Village> $villages
+ * @property-read Collection<int, Village|\Creasi\Nusa\Contracts\Village> $distinctVillagesByPostalCodes
  *
  * @mixin Model
  */
@@ -37,6 +38,18 @@ trait WithVillages
         return $this->hasMany(Village::class);
     }
 
+    /**
+     * @return HasMany<Village, TDeclaringModel>
+     */
+    public function distinctVillagesByPostalCodes(): HasMany
+    {
+        $relation = $this->villages();
+
+        return $relation
+            ->select('postal_code', $relation->getForeignKeyName())
+            ->distinct();
+    }
+
     public function postalCodes(): Attribute
     {
         $this->loadMissing('distinctVillagesByPostalCodes');
@@ -46,14 +59,5 @@ trait WithVillages
             [5, 10],
             fn () => $this->distinctVillagesByPostalCodes->pluck('postal_code')
         ));
-    }
-
-    public function distinctVillagesByPostalCodes(): HasMany
-    {
-        $relation = $this->villages();
-
-        return $relation
-            ->select('postal_code', $relation->getForeignKeyName())
-            ->distinct();
     }
 }
