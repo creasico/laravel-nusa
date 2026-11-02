@@ -28,8 +28,19 @@ function test_can_connect(string $connection): bool
         DB::connection($connection)->getPdo();
 
         return true;
-    } catch (Throwable) {
-        return false;
+    } catch (Throwable $e) {
+        $message = strtolower($e->getMessage());
+        $unavailable = str_contains($message, 'could not find driver')
+            || str_contains($message, 'connection refused')
+            || str_contains($message, 'no such file or directory')
+            || str_contains($message, 'timed out')
+            || str_contains($message, 'server not found');
+
+        if ($unavailable) {
+            return false;
+        }
+
+        throw $e;
     }
 }
 
