@@ -4,14 +4,17 @@ on:
   workflow_call:
     inputs:
       composer-cache-dir:
-        type: string
         required: true
-      generate-static:
-        type: boolean
-        default: false
-      branch-slug:
         type: string
+      generate-static:
+        default: false
+        type: boolean
+      branch-slug:
         default: main
+        type: string
+      ref:
+        default: ${{ github.sha }}
+        type: string
     outputs:
       has-changes:
         value: ${{ jobs.import.outputs.has-changes }}
@@ -45,6 +48,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
+          ref: ${{ inputs.ref }}
           persist-credentials: false
           submodules: true
 
