@@ -163,7 +163,7 @@ it('renders a markdown report', function () {
     }
 });
 
-it('writes ci output for changed tables', function () {
+it('writes ci output when there are no changes', function () {
     $file = tempnam(sys_get_temp_dir(), 'nusa-stat-output-');
     $previousCi = getenv('CI');
     $previousOutput = getenv('GITHUB_OUTPUT');

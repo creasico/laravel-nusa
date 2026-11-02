@@ -440,7 +440,7 @@ class StatCommand extends Command
     }
 
     /**
-     * @return array{0: string, 1: string}
+     * @return list<array{0: string, 1: string}>
      */
     private function marshalAdditions(array $adds, string $table): array
     {
@@ -459,7 +459,7 @@ class StatCommand extends Command
     }
 
     /**
-     * @return array{0: string, 1: string}
+     * @return list<array{0: string, 1: string}>
      */
     private function marshalDeletion(array $deletes, string $table): array
     {
