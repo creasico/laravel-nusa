@@ -11,7 +11,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 /**
  * @template TDeclaringModel of \Illuminate\Database\Eloquent\Model
  *
- * @property-read Regency|\Creasi\Nusa\Contracts\Regency $regency
+ * @property-read Regency $regency
  *
  * @mixin Model
  */

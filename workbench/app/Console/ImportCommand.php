@@ -10,11 +10,13 @@ use Illuminate\Support\Facades\DB;
 use Symfony\Component\Finder\Finder;
 use Workbench\App\Support\Normalizer;
 use Workbench\App\Support\SqlHelper;
+use Workbench\App\Support\Timer;
 
 class ImportCommand extends Command
 {
     use CommandHelpers, SqlHelper;
 
+    /** @var positive-int */
     private int $chunkSize = 5_000;
 
     public static bool $cached = false;
@@ -25,7 +27,7 @@ class ImportCommand extends Command
 
     protected $description = 'Import upstream database';
 
-    public function handle()
+    public function handle(): int
     {
         if (self::$cached && ! $this->option('fresh')) {
             $this->info('Skip importing upstream database, cache exists');
@@ -82,6 +84,8 @@ class ImportCommand extends Command
         if ($this->option('dist')) {
             $this->call(DistCommand::class, ['--force' => true]);
         }
+
+        return 0;
     }
 
     private function importQuery(string $query): void
@@ -137,7 +141,7 @@ class ImportCommand extends Command
     }
 
     /**
-     * @return array<string, list<non-empty-array|array{code: int, name: string, latitude: ?float, longitude: ?float, coordinates: null|string|false}>>
+     * @return array<string, list<array<string, mixed>>>
      *
      * @throws \ValueError
      */
@@ -192,7 +196,13 @@ class ImportCommand extends Command
         $libPath = (string) $this->libPath('workbench/submodules');
 
         foreach ($paths as $path) {
-            yield $path => file_get_contents("{$libPath}/{$path}");
+            $contents = file_get_contents("{$libPath}/{$path}");
+
+            if ($contents === false) {
+                throw new \RuntimeException("Unable to read {$path}.");
+            }
+
+            yield $path => $contents;
         }
 
         // This should grab the exact line where the MySQL schema definition
@@ -222,6 +232,10 @@ class ImportCommand extends Command
     {
         $path = config('database.connections.nusa.database');
 
+        if (! \is_string($path)) {
+            throw new \RuntimeException('The nusa database path is not configured.');
+        }
+
         if (file_exists($path)) {
             unlink($path);
         }
@@ -229,30 +243,8 @@ class ImportCommand extends Command
         touch($path);
     }
 
-    private function timer(string $caption)
+    private function timer(string $caption): Timer
     {
-        $column = new TwoColumnDetail($this->output);
-
-        return new class($caption, $column)
-        {
-            private float $startTime;
-
-            public function __construct(
-                private string $caption,
-                private TwoColumnDetail $column,
-            ) {
-                $this->startTime = microtime(true);
-            }
-
-            public function stop()
-            {
-                $runTime = number_format((microtime(true) - $this->startTime) * 1000);
-
-                $this->column->render(
-                    "  {$this->caption}",
-                    "<fg=gray>{$runTime}ms</> <fg=green;options=bold>DONE</>"
-                );
-            }
-        };
+        return new Timer($caption, new TwoColumnDetail($this->output));
     }
 }

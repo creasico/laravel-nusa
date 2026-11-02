@@ -16,6 +16,9 @@ use ReflectionNamedType;
 
 final class NusaRequest extends FormRequest
 {
+    /**
+     * @return array<string, mixed>
+     */
     public function rules(): array
     {
         return [
@@ -31,21 +34,27 @@ final class NusaRequest extends FormRequest
     }
 
     /**
-     * @param  Model  $model
-     * @return LengthAwarePaginator
+     * @param  Model|HasMany<*, *>  $model
+     * @return LengthAwarePaginator<int, \Illuminate\Database\Eloquent\Model>
      */
-    public function apply($model)
+    public function apply(Model|HasMany $model)
     {
         $related = $model instanceof HasMany ? $model->getRelated() : $model;
 
         $query = $model instanceof HasMany
-            ? $model
+            ? $model->getQuery()
             : $model->query();
+
+        $perPage = $this->filled('per-page') ? $this->integer('per-page') : null;
 
         $result = $query
             ->with($this->eagerLoads($related))
             ->when($this->filled('search'), function (Builder $query) {
-                $query->search($this->query('search'));
+                $search = $this->query('search');
+
+                if (\is_string($search)) {
+                    $query->getModel()->scopeSearch($query, $search);
+                }
             })
             ->when($this->filled('codes'), function (Builder $query) {
                 $query->whereIn($query->getModel()->getKeyName(), $this->query('codes', []));
@@ -54,14 +63,13 @@ final class NusaRequest extends FormRequest
                 $query->where('postal_code', $this->query('postal_code'));
             });
 
-        return $result->paginate($this->query('per-page'));
+        return $result->paginate($perPage);
     }
 
     /**
-     * @param  Model  $model
      * @return string[]
      */
-    public function relations($model): array
+    public function relations(Model $model): array
     {
         $relations = $this->eagerLoads($model);
 
@@ -73,7 +81,7 @@ final class NusaRequest extends FormRequest
     /**
      * @return string[]
      */
-    private function eagerLoads($model): array
+    private function eagerLoads(Model $model): array
     {
         $relations = $this->relationNames($model);
 
@@ -101,7 +109,7 @@ final class NusaRequest extends FormRequest
     /**
      * @return string[]
      */
-    private function relationNames($model): array
+    private function relationNames(Model $model): array
     {
         return array_values(array_filter(
             (array) $this->query('with', []),
@@ -112,7 +120,7 @@ final class NusaRequest extends FormRequest
     /**
      * Check the method signature without invoking arbitrary model methods.
      */
-    private function isRelation($model, string $relation): bool
+    private function isRelation(Model $model, string $relation): bool
     {
         if (! method_exists($model, $relation)) {
             return false;

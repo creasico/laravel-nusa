@@ -85,7 +85,7 @@ class StatCommand extends Command
                 'deleted' => $deleted,
             ];
 
-            if (($addedCount + $changedCount + $movedCount + $deletedCount) === 0) {
+            if ($added === [] && $changed === [] && $moved === [] && $deleted === []) {
                 $this->line("<fg=green>{$table}</>: No database changes detected");
 
                 continue;
@@ -93,28 +93,28 @@ class StatCommand extends Command
 
             $this->group("<fg=green>{$table}</>: <fg=yellow>{$addedCount}</> new, <fg=yellow>{$movedCount}</> moved, <fg=yellow>{$changedCount}</> changes and <fg=yellow>{$deletedCount}</> deleted");
 
-            if ($addedCount > 0) {
+            if ($added !== []) {
                 $this->info('Added');
                 $this->table($header, $added);
 
                 $hasChanges = true;
             }
 
-            if ($deletedCount > 0) {
+            if ($deleted !== []) {
                 $this->info('Deleted');
                 $this->table($header, $deleted);
 
                 $hasChanges = true;
             }
 
-            if ($movedCount > 0) {
+            if ($moved !== []) {
                 $this->info('Moved');
                 $this->table($header, $moved);
 
                 $hasChanges = true;
             }
 
-            if ($changedCount > 0) {
+            if ($changed !== []) {
                 $this->info('Changed');
                 $this->table($columns, $changed);
 
@@ -124,7 +124,9 @@ class StatCommand extends Command
 
         $this->endGroup();
 
-        if ($output = $this->option('output')) {
+        $output = $this->option('output');
+
+        if (\is_string($output) && $output !== '') {
             $markdown = $this->renderMarkdown(array_filter(
                 $report,
                 fn (array $diff) => $this->totalChanges($diff) > 0
@@ -141,7 +143,7 @@ class StatCommand extends Command
     }
 
     /**
-     * @param  array{columns: array<int, string>, added: array, moved: array, changed: array, deleted: array}  $diff
+     * @param  array<string, mixed>  $diff
      */
     private function totalChanges(array $diff): int
     {
@@ -150,7 +152,7 @@ class StatCommand extends Command
     }
 
     /**
-     * @param  array<string, array{columns: array<int, string>, added: array, moved: array, changed: array, deleted: array}>  $tables
+     * @param  array<string, array<string, mixed>>  $tables
      */
     private function renderMarkdown(array $tables): string
     {
@@ -202,7 +204,7 @@ class StatCommand extends Command
     }
 
     /**
-     * @param  array{columns: array<int, string>, added: array, moved: array, changed: array, deleted: array}  $diff
+     * @param  array<string, mixed>  $diff
      */
     private function markdownTable(array $diff): string
     {
@@ -286,7 +288,7 @@ class StatCommand extends Command
     }
 
     /**
-     * @return null|array{districts: array, provinces: array, regencies: array, villages: array}
+     * @return null|array<string, array<string, array<int, mixed>>>
      */
     public function getDiffs(string $branch): ?array
     {
@@ -310,7 +312,14 @@ class StatCommand extends Command
 
         foreach ($this->parseQuery($output) as $statement) {
             if ($statement instanceof InsertStatement) {
-                $reports['added'][$statement->into->dest->table][] = array_map(
+                $dest = $statement->into?->dest;
+                $table = \is_object($dest) ? $dest->table : $dest;
+
+                if (! \is_string($table)) {
+                    continue;
+                }
+
+                $reports['added'][$table][] = array_map(
                     [$this, 'sanitizeValue'],
                     $statement->values[0]->values
                 );
@@ -380,7 +389,9 @@ class StatCommand extends Command
     }
 
     /**
-     * @return array{code: string, name: string, latitude?: float, longitude?: float, postal_code?: string}
+     * @param  array<int, array<string, mixed>>  $changes
+     * @param  array<int, string>  $columns
+     * @return array<int, array<string, mixed>>
      */
     private function marshalChanges(array $changes, string $table, array $columns): array
     {
@@ -440,7 +451,8 @@ class StatCommand extends Command
     }
 
     /**
-     * @return list<array{0: string, 1: string}>
+     * @param  array<int, array<int, mixed>>  $adds
+     * @return array<int, array{0: string, 1: string}>
      */
     private function marshalAdditions(array $adds, string $table): array
     {
@@ -452,6 +464,7 @@ class StatCommand extends Command
                 'regencies' => [$row[0], $row[2]],
                 'districts' => [$row[0], $row[3]],
                 'villages' => [$row[0], $row[4]],
+                default => throw new \InvalidArgumentException("Unknown table: {$table}"),
             };
         }
 
@@ -459,7 +472,8 @@ class StatCommand extends Command
     }
 
     /**
-     * @return list<array{0: string, 1: string}>
+     * @param  array<int, array{code: string}>  $deletes
+     * @return array<int, array{0: string, 1: string}>
      */
     private function marshalDeletion(array $deletes, string $table): array
     {
@@ -472,7 +486,7 @@ class StatCommand extends Command
             ->whereIn('code', Arr::pluck($deletes, 'code'))
             ->get(['code', 'name']);
 
-        return $result->map(fn ($row) => [$row->code, $row->name])->all();
+        return $result->map(fn ($row) => [(string) $row->code, (string) $row->name])->all();
     }
 
     private function sanitizeValue(string $value): ?string

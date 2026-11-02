@@ -166,6 +166,7 @@ composer upstream [args]      # Pass arguments to docker-compose
 
 # Testing and quality
 composer test                 # Run test suite
+composer check                # Run PHPStan static analysis
 composer fix                  # Fix code style with Laravel Pint
 composer testbench [args]     # Run testbench commands
 composer testbench:purge      # Purge workbench skeleton
@@ -305,8 +306,11 @@ composer fix
 # Check style without fixing
 vendor/bin/pint --test
 
-# Run static analysis (if configured)
-composer analyse
+# Run static analysis (PHPStan level 7)
+composer check
+
+# Or run PHPStan directly
+vendor/bin/phpstan analyse
 ```
 
 ### 4. Documentation

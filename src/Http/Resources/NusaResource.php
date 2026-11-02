@@ -14,7 +14,7 @@ use Illuminate\Http\Resources\Json\JsonResource;
  */
 final class NusaResource extends JsonResource
 {
-    public function __construct($resource)
+    public function __construct(mixed $resource)
     {
         parent::__construct($resource);
 
@@ -23,9 +23,13 @@ final class NusaResource extends JsonResource
         ]);
     }
 
+    /**
+     * @return array<string, mixed>
+     */
     public function toArray(Request $request): array
     {
         $with = $request->query('with', []);
+        $with = \is_array($with) ? array_values(array_filter($with, 'is_string')) : [];
         $arr = $this->normalize($this->resource, $with);
 
         foreach ($with as $relation) {
@@ -48,7 +52,7 @@ final class NusaResource extends JsonResource
     }
 
     /**
-     * @param  string[]  $with
+     * @param  array<int, string>  $with
      * @return array<string, mixed>
      */
     private function normalize(Model $resource, array $with = []): array

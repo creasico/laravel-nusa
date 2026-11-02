@@ -96,7 +96,7 @@ it('writes ci group output', function () {
 
 it('rejects unknown table names', function () {
     helperCommand()->query('unknown');
-})->throws(UnhandledMatchError::class);
+})->throws(InvalidArgumentException::class, 'Unknown table: unknown');
 
 it('writes ci output to the github output file', function () {
     /** @var TestCase $this */

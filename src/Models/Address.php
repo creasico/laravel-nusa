@@ -5,16 +5,12 @@ declare(strict_types=1);
 namespace Creasi\Nusa\Models;
 
 use Creasi\Nusa\Contracts\Address as AddressContract;
-use Creasi\Nusa\Contracts\District;
-use Creasi\Nusa\Contracts\Province;
-use Creasi\Nusa\Contracts\Regency;
-use Creasi\Nusa\Contracts\Village;
 use Illuminate\Contracts\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 
 /**
- * @template TAddressableModel of \Creasi\Nusa\Contracts\Address
+ * @implements AddressContract<static>
  *
  * @mixin Builder
  */
@@ -32,7 +28,10 @@ final class Address extends EloquentModel implements AddressContract
     /** @use Concerns\WithVillage<static> */
     use Concerns\WithVillage;
 
-    public function getCasts()
+    /**
+     * @return array<string, mixed>
+     */
+    public function getCasts(): array
     {
         return array_merge(parent::getCasts(), [
             'postal_code' => 'int',
@@ -49,7 +48,7 @@ final class Address extends EloquentModel implements AddressContract
         ?District $district = null,
         ?Regency $regency = null,
         ?Province $province = null,
-    ) {
+    ): self {
         $this->village()->associate($village);
 
         if (! $district) {
@@ -72,13 +71,13 @@ final class Address extends EloquentModel implements AddressContract
 
         $this->save();
 
-        return $this->fresh();
+        return $this->fresh() ?? $this;
     }
 
     /**
-     * {@inheritdoc}
-     *
      * @see AddressContract::addressable()
+     *
+     * @return MorphTo<EloquentModel, $this>
      */
     public function addressable(): MorphTo
     {

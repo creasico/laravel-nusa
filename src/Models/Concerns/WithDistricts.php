@@ -12,7 +12,7 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 /**
  * @template TDeclaringModel of \Illuminate\Database\Eloquent\Model
  *
- * @property-read Collection<int, District|\Creasi\Nusa\Contracts\District> $districts
+ * @property-read Collection<int, District> $districts
  *
  * @mixin Model
  */

@@ -8,6 +8,9 @@ use Illuminate\Foundation\Http\FormRequest;
 
 final class ApiRequest extends FormRequest
 {
+    /**
+     * @return array<string, mixed>
+     */
     public function rules(): array
     {
         return [];
@@ -44,11 +47,16 @@ final class ApiRequest extends FormRequest
      */
     public function code(string $separator = '.'): string
     {
-        return implode($separator, array_filter([
-            $this->route('province'),
-            $this->route('regency'),
-            $this->route('district'),
-            $this->route('village'),
-        ]));
+        $codes = array_filter(array_map(
+            fn ($route) => \is_string($route) ? $route : null,
+            [
+                $this->route('province'),
+                $this->route('regency'),
+                $this->route('district'),
+                $this->route('village'),
+            ]
+        ));
+
+        return implode($separator, $codes);
     }
 }

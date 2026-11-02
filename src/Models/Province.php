@@ -9,6 +9,8 @@ use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 
 /**
+ * @implements ProvinceContract<static>
+ *
  * @property-read Collection<int, Regency> $regencies
  */
 final class Province extends Model implements ProvinceContract
@@ -35,10 +37,10 @@ final class Province extends Model implements ProvinceContract
     }
 
     /**
-     * @return Collection<int, \Creasi\Nusa\Contracts\Regency>
+     * @return Collection<int, Regency>
      */
     public function subdivisions(): Collection
     {
-        return $this->regencies;
+        return new Collection($this->regencies->all());
     }
 }

@@ -18,7 +18,7 @@ class DistCommand extends Command
 
     protected $description = 'Create distribution database without coordinates column';
 
-    public function handle()
+    public function handle(): int
     {
         $this->group('Creating distribution database');
 

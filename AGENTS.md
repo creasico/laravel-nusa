@@ -19,6 +19,8 @@ vendor/bin/testbench package:test tests/Unit/ProvinceTest.php    # Single file
 vendor/bin/testbench package:test --filter=searches_provinces
 composer fix                                                     # Pint (also runs on commit)
 vendor/bin/pint --test                                           # Style check only
+composer check                                                   # PHPStan level 7
+vendor/bin/phpstan analyse                                       # PHPStan directly
 
 composer upstream:up                                   # Docker MySQL + nusa:import --fresh
 composer upstream:down                                 # Stop Docker + purge workbench
@@ -43,6 +45,7 @@ pnpm docs:dev | pnpm docs:build | pnpm docs:preview
 ## Testing
 - Pest runs through the same `testbench package:test` command surface. `tests/Unit/` covers Eloquent behavior, `tests/Feature/` hits the HTTP endpoints, and `tests/Workbench/` covers the import/dist/stat/static commands and support classes. Every test is independent: no `depends()` chains, each test resolves its own fixtures.
 - Shared fixtures live in `tests/Fixture/`. Address tests use `RefreshDatabase`; no seeding is needed for region data.
+- `composer check` runs PHPStan at level 7 using `phpstan.neon`; keep it green alongside the test suite.
 - Model hierarchy: `Province` → `Regency` → `District` → `Village`, with each level also exposing `districts`/`villages` directly.
 
 ## Conventions

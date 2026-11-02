@@ -13,7 +13,7 @@ class ServiceProvider extends IlluminateServiceProvider
 {
     private const LIB_PATH = __DIR__.'/..';
 
-    public function boot()
+    public function boot(): void
     {
         if (app()->runningInConsole()) {
             $this->registerPublishables();
@@ -24,7 +24,7 @@ class ServiceProvider extends IlluminateServiceProvider
         $this->defineRoutes();
     }
 
-    public function register()
+    public function register(): void
     {
         config([
             'database.connections.nusa' => array_merge([
@@ -44,7 +44,7 @@ class ServiceProvider extends IlluminateServiceProvider
     /**
      * @codeCoverageIgnore
      */
-    protected function defineRoutes()
+    protected function defineRoutes(): void
     {
         if (config('creasi.nusa.routes_enable') === false) {
             return;
@@ -55,7 +55,7 @@ class ServiceProvider extends IlluminateServiceProvider
             ->group(self::LIB_PATH.'/routes/nusa.php');
     }
 
-    protected function registerPublishables()
+    protected function registerPublishables(): void
     {
         $this->publishes([
             self::LIB_PATH.'/config/nusa.php' => config_path('creasi/nusa.php'),
@@ -70,7 +70,7 @@ class ServiceProvider extends IlluminateServiceProvider
         ], 'creasi-migrations');
     }
 
-    protected function registerBindings()
+    protected function registerBindings(): void
     {
         $this->app->bind(Contracts\Address::class, function ($app) {
             $addressable = config('creasi.nusa.addressable');
@@ -103,7 +103,10 @@ class ServiceProvider extends IlluminateServiceProvider
     /**
      * @codeCoverageIgnore
      */
-    public function provides()
+    /**
+     * @return list<class-string>
+     */
+    public function provides(): array
     {
         return [
             Contracts\Address::class,

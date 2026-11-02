@@ -5,7 +5,9 @@ declare(strict_types=1);
 namespace Workbench\App\Console;
 
 use Creasi\Nusa\Models;
+use Creasi\Nusa\Models\Model;
 use Illuminate\Console\Command;
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Stringable;
 
 /**
@@ -17,7 +19,9 @@ trait CommandHelpers
 
     private function libPath(string ...$paths): Stringable
     {
-        if ($path = realpath(\dirname(__DIR__).'/../..')) {
+        $path = realpath(\dirname(__DIR__).'/../..') ?: '';
+
+        if ($path !== '') {
             $path .= \DIRECTORY_SEPARATOR.implode(\DIRECTORY_SEPARATOR, $paths);
         }
 
@@ -76,13 +80,22 @@ trait CommandHelpers
         return env('CI') !== null;
     }
 
-    private function model(string $table)
+    /**
+     * @return Builder<Model>
+     */
+    private function model(string $table): Builder
     {
-        return match ($table) {
+        $query = match ($table) {
             'provinces' => Models\Province::query(),
             'regencies' => Models\Regency::query(),
             'districts' => Models\District::query(),
             'villages' => Models\Village::query(),
+            default => throw new \InvalidArgumentException("Unknown table: {$table}"),
         };
+
+        /** @var Builder<Model> $result */
+        $result = $query;
+
+        return $result;
     }
 }

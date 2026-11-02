@@ -112,8 +112,11 @@ class WorkbenchServiceProvider extends ServiceProvider
         });
     }
 
-    private function mergeConfig(Repository $config, string $key, array $value)
+    /**
+     * @param  array<string, mixed>  $value
+     */
+    private function mergeConfig(Repository $config, string $key, array $value): void
     {
-        $config->set($key, array_merge($config->get($key, []), $value));
+        $config->set($key, array_merge((array) $config->get($key, []), $value));
     }
 }

@@ -166,6 +166,7 @@ composer upstream [args]      # Teruskan argumen ke docker-compose
 
 # Pengujian dan kualitas
 composer test                 # Jalankan suite pengujian
+composer check                # Jalankan analisis statis PHPStan
 composer fix                  # Perbaiki gaya kode dengan Laravel Pint
 composer testbench [args]     # Jalankan perintah testbench
 composer testbench:purge      # Bersihkan kerangka workbench
@@ -305,8 +306,11 @@ composer fix
 # Periksa gaya tanpa memperbaiki
 vendor/bin/pint --test
 
-# Jalankan analisis statis (jika dikonfigurasi)
-composer analyse
+# Jalankan analisis statis (PHPStan level 7)
+composer check
+
+# Atau jalankan PHPStan secara langsung
+vendor/bin/phpstan analyse
 ```
 
 ### 4. Dokumentasi
