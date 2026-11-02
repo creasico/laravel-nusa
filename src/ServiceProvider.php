@@ -6,6 +6,7 @@ namespace Creasi\Nusa;
 
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Collection;
+use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
 
@@ -20,6 +21,10 @@ class ServiceProvider extends IlluminateServiceProvider
         }
 
         $this->loadTranslationsFrom(self::LIB_PATH.'/resources/lang', 'creasico');
+
+        $this->loadViewsFrom(self::LIB_PATH.'/resources/views', 'nusa');
+
+        Blade::componentNamespace('Creasi\\Nusa\\View\\Components', 'nusa');
 
         $this->defineRoutes();
     }
@@ -64,6 +69,10 @@ class ServiceProvider extends IlluminateServiceProvider
         $this->publishes([
             self::LIB_PATH.'/resources/lang' => resource_path('lang/vendor/creasico'),
         ], ['creasi-lang']);
+
+        $this->publishes([
+            self::LIB_PATH.'/resources/views' => resource_path('views/vendor/nusa'),
+        ], ['nusa-views']);
 
         $this->publishes([
             self::LIB_PATH.'/database/migrations/create_addresses_tables.php.stub' => $this->getMigrationFileName('create_addresses_tables.php'),

@@ -3,39 +3,32 @@
 declare(strict_types=1);
 
 return [
-    'rt' => [
-        'label' => 'RT',
-        'placeholder' => '000',
-    ],
-
-    'rw' => [
-        'label' => 'RW',
-        'placeholder' => '000',
-    ],
-
     'address_line' => [
         'label' => 'Alamat Lengkap',
         'placeholder' => 'Alamat Jalan/Gang/Blok dan Nomor Rumah',
     ],
 
     'province_code' => [
-        'label' => 'Propinsi',
-        'placeholder' => 'Pilih Propinsi',
+        'label' => 'Provinsi',
+        'placeholder' => 'Pilih Provinsi',
     ],
 
     'regency_code' => [
         'label' => 'Kota/Kabupaten',
         'placeholder' => 'Pilih Kota/Kabupaten',
+        'hint' => 'Pilih Provinsi terlebih dahulu',
     ],
 
     'district_code' => [
         'label' => 'Kecamatan',
         'placeholder' => 'Pilih Kecamatan',
+        'hint' => 'Pilih Kota/Kabupaten terlebih dahulu',
     ],
 
     'village_code' => [
-        'label' => 'Kelurahan',
-        'placeholder' => 'Pilih Kelurahan',
+        'label' => 'Desa/Kelurahan',
+        'placeholder' => 'Pilih Desa/Kelurahan',
+        'hint' => 'Pilih Kecamatan terlebih dahulu',
     ],
 
     'postal_code' => [
