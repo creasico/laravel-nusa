@@ -8,7 +8,11 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Http;
 
 beforeEach(function () {
-    /** @var TestCase $this */
+    /**
+     * @var TestCase $this
+     *
+     * @disregard P1056
+     */
     $this->path = 'nusa';
 
     $connection = DB::connection(config('creasi.nusa.connection'));

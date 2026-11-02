@@ -37,8 +37,13 @@ class TestCase extends Orchestra
         }
     }
 
+    protected function makeAddress(): Address
+    {
+        return $this->app->make(AddressContract::class);
+    }
+
     protected function createAddress(array $attributes): Address
     {
-        return $this->app->make(AddressContract::class)->create($attributes);
+        return $this->makeAddress()->create($attributes);
     }
 }

@@ -8,7 +8,11 @@ use Illuminate\Support\Facades\DB;
 use function Pest\Laravel\getJson;
 
 beforeEach(function () {
-    /** @var TestCase $this */
+    /**
+     * @var TestCase $this
+     *
+     * @disregard P1056
+     */
     $this->path = '';
 });
 

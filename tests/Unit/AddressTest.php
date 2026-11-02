@@ -55,7 +55,7 @@ it('accepts explicit region overrides', function () {
 it('persists an association for an unsaved address', function () {
     /** @var TestCase $this */
     $village = Village::query()->firstOrFail();
-    $address = $this->app->make(AddressContract::class);
+    $address = $this->makeAddress();
     $address->line = 'Alamat Baru';
 
     $address = $address->associateWith($village);
@@ -77,7 +77,7 @@ it('resolves the morph addressable', function () {
 
 it('exposes address casts and fillable attributes', function () {
     /** @var TestCase $this */
-    $address = $this->app->make(AddressContract::class);
+    $address = $this->makeAddress();
 
     expect($address->getCasts()['postal_code'])->toBe('int')
         ->and($address->getFillable())->toContain(
