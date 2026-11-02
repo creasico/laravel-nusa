@@ -5,20 +5,23 @@
         id="{{ $id }}"
         name="{{ $name }}"
         autocomplete="{{ $autocomplete }}"
+        data-level="{{ $level }}"
+        data-placeholder="{{ $placeholder }}"
         class="mt-1 block w-full rounded-md border-gray-300 shadow-sm disabled:bg-gray-100"
         @disabled($disabled)
         @if ($hint) aria-describedby="{{ $id }}-hint" @endif
+        {{ $attributes }}
     >
         <option value="">{{ $placeholder }}</option>
 
         @foreach ($options as $option)
-            <option value="{{ $option['code'] }}" @selected($value === $option['code'])>
+            <option value="{{ $option['code'] }}" @selected($value === $option['code']) @isset($option['postal']) data-postal="{{ $option['postal'] }}" @endisset>
                 {{ $option['name'] }}
             </option>
         @endforeach
     </select>
 
     @if ($hint)
-        <p id="{{ $id }}-hint" class="mt-1 text-sm text-gray-500">{{ $hint }}</p>
+        <p id="{{ $id }}-hint" class="mt-1 text-sm text-gray-500" @if (! $disabled) hidden @endif>{{ $hint }}</p>
     @endif
 </div>

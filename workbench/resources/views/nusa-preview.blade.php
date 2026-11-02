@@ -9,18 +9,12 @@
     <h1>Nusa — Blade preview</h1>
 
     <p>
-        Add <code>&lt;x-nusa::address-form /&gt;</code> below once the composite exists.
-        The block above the fold is only here to prove the harness and the data are wired.
+        The form follows the application locale (the workbench runs in <code>id</code>).
+        Alpine is not part of the package; the CDN tag at the bottom of this page is
+        what makes the cascade interactive here.
     </p>
 
-    <fieldset>
-        <legend>Alamat</legend>
-
-        <x-nusa::select level="province" value="33" />
-        <x-nusa::select level="regency" value="33.75" />
-        <x-nusa::select level="district" value="33.75.03" />
-        <x-nusa::select level="village" />
-    </fieldset>
+    <x-nusa::address-form :address="['province_code' => '33', 'regency_code' => '33.75']" />
 
     <dl>
         <dt>Connection</dt>
@@ -42,5 +36,6 @@
     @elseif ($provinces === 0)
         <p><strong>The database is empty.</strong> Import it before previewing.</p>
     @endif
+    <script defer src="https://unpkg.com/alpinejs@3/dist/cdn.min.js"></script>
 </body>
 </html>

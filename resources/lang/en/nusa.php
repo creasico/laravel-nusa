@@ -34,5 +34,6 @@ return [
     'postal_code' => [
         'label' => 'Postal Code',
         'placeholder' => '5 Digit Postal Code',
+        'invalid' => 'Postal code not found.',
     ],
 ];

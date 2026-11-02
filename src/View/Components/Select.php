@@ -26,7 +26,7 @@ final class Select extends Component
 
     public bool $disabled;
 
-    /** @var array<int, array{code: string, name: string}> */
+    /** @var array<int, array{code: string, name: string, postal?: string}> */
     public array $options = [];
 
     public string $label;
@@ -58,9 +58,11 @@ final class Select extends Component
             default => throw new InvalidArgumentException("Unknown level [{$level}]."),
         };
 
-        if ($this->disabled) {
+        if ($level !== 'province') {
             $this->hint = $this->trans("{$level}_code.hint");
-        } else {
+        }
+
+        if (! $this->disabled) {
             $this->options = $this->resolveOptions();
         }
     }
@@ -87,20 +89,26 @@ final class Select extends Component
         };
     }
 
-    /** @return array<int, array{code: string, name: string}> */
+    /** @return array<int, array{code: string, name: string, postal?: string}> */
     private function resolveOptions(): array
     {
         $query = $this->model()->newQuery()->orderBy('name');
+        $columns = ['code', 'name'];
 
         if ($column = $this->parentColumn()) {
             $query->where($column, $this->parent);
         }
 
-        return $query->get(['code', 'name'])
-            ->map(fn ($row): array => [
+        if ($this->level === 'village') {
+            $columns[] = 'postal_code';
+        }
+
+        return $query->get($columns)
+            ->map(fn ($row): array => array_filter([
                 'code' => (string) $row->code,
                 'name' => (string) $row->name,
-            ])
+                'postal' => isset($row->postal_code) ? (string) $row->postal_code : null,
+            ], fn ($value) => $value !== null))
             ->values()
             ->all();
     }
