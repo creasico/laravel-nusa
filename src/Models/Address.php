@@ -11,7 +11,11 @@ use Illuminate\Database\Eloquent\Model as EloquentModel;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 
 /**
+ * @internal
+ *
  * @implements AddressContract<static>
+ *
+ * @property string $line
  *
  * @mixin Builder
  */

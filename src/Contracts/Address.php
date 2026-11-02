@@ -11,7 +11,6 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
  * @template TModel of Model
  *
  * @property-read int $id
- * @property string $line
  * @property null|int $village_code
  * @property null|int $district_code
  * @property null|int $regency_code
