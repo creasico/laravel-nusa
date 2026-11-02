@@ -48,6 +48,35 @@ it('creates a distribution database and restores the development database', func
     }
 });
 
+it('uses the configured database directory', function () {
+    /** @var TestCase $this */
+    $root = \dirname(__DIR__, 2);
+    $directory = sys_get_temp_dir().'/nusa-dist-path-'.Str::lower(Str::random(8));
+    $branch = 'test-dist-path-'.Str::lower(Str::random(8));
+    $previousDirectory = getenv('NUSA_DATABASE_DIR');
+    $previousBranch = getenv('GIT_BRANCH');
+
+    mkdir($directory, 0777, true);
+
+    try {
+        set_test_env('NUSA_DATABASE_DIR', $directory);
+        set_test_env('GIT_BRANCH', $branch);
+        $this->refreshApplication();
+
+        copy("{$root}/database/nusa.sqlite", "{$directory}/nusa.{$branch}-full.sqlite");
+
+        $this->artisan('nusa:dist', ['--force' => true])->assertExitCode(0);
+
+        expect(file_exists("{$directory}/nusa.{$branch}.sqlite"))->toBeTrue()
+            ->and(file_exists("{$root}/database/nusa.{$branch}.sqlite"))->toBeFalse();
+    } finally {
+        set_test_env('NUSA_DATABASE_DIR', $previousDirectory === false ? null : $previousDirectory);
+        set_test_env('GIT_BRANCH', $previousBranch === false ? null : $previousBranch);
+        File::deleteDirectory($directory);
+        $this->refreshApplication();
+    }
+});
+
 it('fails when the backup cannot be created', function () {
     $root = \dirname(__DIR__, 2);
     $branch = 'test-dist-backup-'.Str::lower(Str::random(8));

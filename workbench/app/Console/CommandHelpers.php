@@ -24,6 +24,14 @@ trait CommandHelpers
         return str($path);
     }
 
+    private function databasePath(string ...$paths): Stringable
+    {
+        $directory = config('creasi.nusa.database_dir')
+            ?: $this->libPath('database')->toString();
+
+        return str($directory.\DIRECTORY_SEPARATOR.implode(\DIRECTORY_SEPARATOR, $paths));
+    }
+
     private function group(string $title): void
     {
         $this->endGroup();

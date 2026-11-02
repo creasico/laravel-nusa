@@ -28,6 +28,13 @@ it('resolves the library path', function () {
         ->toBe($root.\DIRECTORY_SEPARATOR.'workbench');
 });
 
+it('resolves paths inside the configured database directory', function () {
+    config(['creasi.nusa.database_dir' => '/tmp/nusa-database']);
+
+    expect(helperCommand()->database('nusa.sqlite')->toString())
+        ->toBe('/tmp/nusa-database'.\DIRECTORY_SEPARATOR.'nusa.sqlite');
+});
+
 it('resolves models by table name', function (string $table, string $model) {
     /** @var TestCase $this */
     expect(helperCommand()->query($table)->getModel())->toBeInstanceOf($model);

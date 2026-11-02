@@ -27,6 +27,8 @@ class WorkbenchServiceProvider extends ServiceProvider
             ? \dirname($nusa['database'])
             : \dirname(__DIR__, 3).'/database');
 
+        config(['creasi.nusa.database_dir' => $databaseDir]);
+
         if (app()->runningInConsole()) {
             $this->loadMigrationsFrom($databaseDir.'/migrations');
         }

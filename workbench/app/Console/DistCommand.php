@@ -24,8 +24,8 @@ class DistCommand extends Command
 
         $branch = $this->currentBranch();
 
-        $distPath = $this->libPath('database', "nusa.{$branch}.sqlite")->toString();
-        $devPath = $this->libPath('database', "nusa.{$branch}-full.sqlite")->toString();
+        $distPath = $this->databasePath("nusa.{$branch}.sqlite")->toString();
+        $devPath = $this->databasePath("nusa.{$branch}-full.sqlite")->toString();
 
         if (! file_exists($devPath)) {
             $this->error("Development database not found at: {$devPath}");

@@ -275,6 +275,27 @@ it('detects moved rows and renders every output section', function () {
     }
 });
 
+it('reads databases from the configured directory', function () {
+    $directory = sys_get_temp_dir().'/nusa-stat-path-'.Str::lower(Str::random(8));
+    $branch = 'test-stat-path';
+    mkdir($directory, 0777, true);
+    touch("{$directory}/nusa.{$branch}.sqlite");
+    config(['creasi.nusa.database_dir' => $directory]);
+
+    $command = new FakeStatCommand;
+    $command->diffOutput = "INSERT INTO provinces (code, name) VALUES ('33', 'Jawa Tengah');";
+
+    try {
+        $diffs = $command->getDiffs($branch);
+
+        expect($diffs['provinces']['added'])->toHaveCount(1);
+    } finally {
+        config(['creasi.nusa.database_dir' => null]);
+        @unlink("{$directory}/nusa.{$branch}.sqlite");
+        @rmdir($directory);
+    }
+});
+
 it('reports a sqldiff failure', function () {
     if (! shell_exec('command -v sqldiff')) {
         $this->markTestSkipped('sqldiff is not installed.');

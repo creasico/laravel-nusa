@@ -31,6 +31,14 @@ final class CommandHelpersFixture extends Command
     }
 
     /**
+     * Resolve a path inside the configured database directory.
+     */
+    public function database(string ...$paths): Stringable
+    {
+        return $this->databasePath(...$paths);
+    }
+
+    /**
      * Resolve a model query by table name.
      */
     public function query(string $table): Builder

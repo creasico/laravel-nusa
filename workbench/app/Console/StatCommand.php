@@ -290,8 +290,8 @@ class StatCommand extends Command
      */
     public function getDiffs(string $branch): ?array
     {
-        $current = $this->libPath('database', 'nusa.sqlite');
-        $updated = $this->libPath('database', "nusa.{$branch}.sqlite");
+        $current = $this->databasePath('nusa.sqlite');
+        $updated = $this->databasePath("nusa.{$branch}.sqlite");
         $reports = $states = [
             'added' => [],
             'changed' => [],
