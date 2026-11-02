@@ -11,6 +11,8 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Foundation\Http\FormRequest;
+use ReflectionMethod;
+use ReflectionNamedType;
 
 final class NusaRequest extends FormRequest
 {
@@ -103,17 +105,29 @@ final class NusaRequest extends FormRequest
     {
         return array_values(array_filter(
             (array) $this->query('with', []),
-            function (string $relation) use ($model) {
-                if (! method_exists($model, $relation)) {
-                    return false;
-                }
-
-                try {
-                    return $model->{$relation}() instanceof Relation;
-                } catch (\Throwable) {
-                    return false;
-                }
-            }
+            fn (string $relation) => $this->isRelation($model, $relation)
         ));
+    }
+
+    /**
+     * Check the method signature without invoking arbitrary model methods.
+     */
+    private function isRelation($model, string $relation): bool
+    {
+        if (! method_exists($model, $relation)) {
+            return false;
+        }
+
+        $method = new ReflectionMethod($model, $relation);
+
+        if (! $method->isPublic() || $method->isStatic() || $method->getNumberOfRequiredParameters() > 0) {
+            return false;
+        }
+
+        $type = $method->getReturnType();
+
+        return $type instanceof ReflectionNamedType
+            && ! $type->isBuiltin()
+            && is_a($type->getName(), Relation::class, true);
     }
 }

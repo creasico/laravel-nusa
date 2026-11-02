@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 use Creasi\Tests\Feature\TestCase;
+use Illuminate\Support\Facades\DB;
 
 use function Pest\Laravel\getJson;
 
@@ -68,3 +69,17 @@ it('ignores unsupported relations on a list', function (string $relation) {
     'unknown relation' => ['does_not_exist'],
     'model method' => ['getTable'],
 ]);
+
+it('does not invoke unsupported model methods', function () {
+    $connection = DB::connection(config('creasi.nusa.connection'));
+    $code = '33.75.03.1006';
+    $connection->beginTransaction();
+
+    try {
+        getJson("nusa/villages/{$code}?with[]=delete")->assertOk();
+
+        expect($connection->table('villages')->where('code', $code)->exists())->toBeTrue();
+    } finally {
+        $connection->rollBack();
+    }
+});
