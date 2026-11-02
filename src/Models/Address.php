@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Creasi\Nusa\Models;
 
 use Creasi\Nusa\Contracts\Address as AddressContract;
+use Creasi\Nusa\RuntimeException;
 use Illuminate\Contracts\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
@@ -43,6 +44,14 @@ final class Address extends EloquentModel implements AddressContract
         return array_merge(parent::getFillable(), ['line', 'postal_code']);
     }
 
+    /**
+     * Associate the address with a village and persist it.
+     *
+     * This convenience method is specific to the default Address model and is
+     * not part of the Address contract.
+     *
+     * @throws RuntimeException when the address cannot be saved.
+     */
     public function associateWith(
         Village $village,
         ?District $district = null,
@@ -69,9 +78,13 @@ final class Address extends EloquentModel implements AddressContract
 
         $this->province()->associate($province);
 
-        $this->save();
+        if (! $this->save()) {
+            throw new RuntimeException(
+                'The address could not be saved; a saving listener may have cancelled it.'
+            );
+        }
 
-        return $this->fresh() ?? $this;
+        return $this->refresh();
     }
 
     /**

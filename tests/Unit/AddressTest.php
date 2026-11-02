@@ -6,10 +6,12 @@ use Creasi\Nusa\Contracts\Address as AddressContract;
 use Creasi\Nusa\Contracts\District;
 use Creasi\Nusa\Contracts\Province;
 use Creasi\Nusa\Contracts\Regency;
+use Creasi\Nusa\Models\Address;
 use Creasi\Nusa\Models\District as DistrictModel;
 use Creasi\Nusa\Models\Province as ProvinceModel;
 use Creasi\Nusa\Models\Regency as RegencyModel;
 use Creasi\Nusa\Models\Village;
+use Creasi\Nusa\RuntimeException;
 use Creasi\Tests\Fixture\HasManyAddresses;
 use Creasi\Tests\Fixture\HasOneAddress;
 use Creasi\Tests\TestCase;
@@ -88,6 +90,17 @@ it('exposes address casts and fillable attributes', function () {
             'regency_code',
             'province_code',
         );
+});
+
+it('throws when saving the association fails', function () {
+    /** @var TestCase $this */
+    $village = Village::query()->firstOrFail();
+    $address = $this->createAddress(['line' => 'Coba Alamat']);
+
+    Address::saving(fn () => false);
+
+    expect(fn () => $address->associateWith($village))
+        ->toThrow(RuntimeException::class, 'The address could not be saved; a saving listener may have cancelled it');
 });
 
 it('may have many addresses', function () {

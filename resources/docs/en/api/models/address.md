@@ -83,6 +83,22 @@ public function village(): BelongsTo
 }
 ```
 
+### Associating with a Region
+
+The default `Address` model provides `associateWith()` as a convenience method:
+
+```php
+$address->associateWith($village);
+```
+
+It sets the village, district, regency, and province foreign keys, saves the address, and refreshes it.
+
+This method is **not part of the `Creasi\Nusa\Contracts\Address` contract**. Custom address models configured through `creasi.nusa.addressable` are not required to implement it. If you need to control persistence yourself, set the foreign keys directly and call `save()`.
+
+The default `Address` model is final and intentionally minimal. Use a custom contract implementation when you need additional fields or behavior.
+
+`associateWith()` throws `Creasi\Nusa\RuntimeException` when a `saving` or `creating` listener cancels persistence.
+
 ## Scopes
 
 ### Default Address Scope
