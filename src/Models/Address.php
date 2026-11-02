@@ -61,7 +61,7 @@ final class Address extends EloquentModel implements AddressContract
         ?District $district = null,
         ?Regency $regency = null,
         ?Province $province = null,
-    ): self {
+    ): ?self {
         $this->village()->associate($village);
 
         if (! $district) {
@@ -88,7 +88,7 @@ final class Address extends EloquentModel implements AddressContract
             );
         }
 
-        return $this->refresh();
+        return $this->fresh();
     }
 
     /**
