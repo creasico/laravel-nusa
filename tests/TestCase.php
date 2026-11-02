@@ -17,6 +17,13 @@ class TestCase extends Orchestra
 
     protected function defineEnvironment($app)
     {
+        if ($directory = env('NUSA_DATABASE_DIR')) {
+            $app['config']->set('database.connections.nusa', array_merge(
+                (array) $app['config']->get('database.connections.nusa', []),
+                ['database' => rtrim($directory, \DIRECTORY_SEPARATOR).\DIRECTORY_SEPARATOR.'nusa.sqlite'],
+            ));
+        }
+
         if ($prefix = env('NUSA_TEST_ROUTES_PREFIX')) {
             $app['config']->set('creasi.nusa.routes_prefix', $prefix);
         }

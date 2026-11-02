@@ -23,9 +23,9 @@ class WorkbenchServiceProvider extends ServiceProvider
     public function register(): void
     {
         $nusa = config('database.connections.nusa');
-        $databaseDir = $nusa['database']
+        $databaseDir = env('NUSA_DATABASE_DIR') ?: ($nusa['database']
             ? \dirname($nusa['database'])
-            : \dirname(__DIR__, 3).'/database';
+            : \dirname(__DIR__, 3).'/database');
 
         if (app()->runningInConsole()) {
             $this->loadMigrationsFrom($databaseDir.'/migrations');

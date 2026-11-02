@@ -14,36 +14,19 @@ use Creasi\Nusa\Models\Village as VillageModel;
 use Creasi\Tests\TestCase;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Concurrency;
+use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 
 /**
- * Move an existing database file out of the way before a test.
+ * Create an isolated database directory for a provider test.
  */
-function backupDatabaseFile(string $path): ?string
+function temporaryDatabaseDirectory(): string
 {
-    if (! file_exists($path)) {
-        return null;
-    }
+    $directory = sys_get_temp_dir().'/nusa-provider-'.Str::lower(Str::random(8));
 
-    $backup = $path.'.test-backup-'.Str::lower(Str::random(8));
+    mkdir($directory, 0777, true);
 
-    rename($path, $backup);
-
-    return $backup;
-}
-
-/**
- * Remove a test database file and restore its previous contents, if any.
- */
-function restoreDatabaseFile(string $path, ?string $backup): void
-{
-    if (file_exists($path)) {
-        @unlink($path);
-    }
-
-    if ($backup !== null && file_exists($backup)) {
-        rename($backup, $path);
-    }
+    return $directory;
 }
 
 it('registers the workbench commands', function () {
@@ -74,67 +57,49 @@ it('uses the fork concurrency driver', function () {
 
 it('creates branch database files', function () {
     /** @var TestCase $this */
-    $root = \dirname(__DIR__, 2);
+    $directory = temporaryDatabaseDirectory();
     $branch = 'test-provider-'.Str::lower(Str::random(8));
-    $full = "{$root}/database/nusa.{$branch}-full.sqlite";
-    $dist = "{$root}/database/nusa.{$branch}.sqlite";
-    $mainFull = "{$root}/database/nusa.main-full.sqlite";
-    $mainDist = "{$root}/database/nusa.main.sqlite";
-    $previous = getenv('GIT_BRANCH');
-    $backups = [
-        $full => backupDatabaseFile($full),
-        $dist => backupDatabaseFile($dist),
-        $mainFull => backupDatabaseFile($mainFull),
-        $mainDist => backupDatabaseFile($mainDist),
-    ];
+    $full = "{$directory}/nusa.{$branch}-full.sqlite";
+    $dist = "{$directory}/nusa.{$branch}.sqlite";
+    $previousBranch = getenv('GIT_BRANCH');
+    $previousDirectory = getenv('NUSA_DATABASE_DIR');
 
     try {
+        set_test_env('NUSA_DATABASE_DIR', $directory);
         set_test_env('GIT_BRANCH', $branch);
         $this->refreshApplication();
 
         expect(file_exists($full))->toBeTrue()
             ->and(file_exists($dist))->toBeTrue();
     } finally {
-        set_test_env('GIT_BRANCH', $previous === false ? null : $previous);
-
-        foreach ($backups as $path => $backup) {
-            restoreDatabaseFile($path, $backup);
-        }
-
+        set_test_env('GIT_BRANCH', $previousBranch === false ? null : $previousBranch);
+        set_test_env('NUSA_DATABASE_DIR', $previousDirectory === false ? null : $previousDirectory);
+        File::deleteDirectory($directory);
         $this->refreshApplication();
     }
 });
 
 it('renames the main database files for the current branch', function () {
     /** @var TestCase $this */
-    $root = \dirname(__DIR__, 2);
+    $directory = temporaryDatabaseDirectory();
     $branch = 'test-provider-'.Str::lower(Str::random(8));
-    $main = "{$root}/database/nusa.main-full.sqlite";
-    $mainDist = "{$root}/database/nusa.main.sqlite";
-    $branchPath = "{$root}/database/nusa.{$branch}-full.sqlite";
-    $dist = "{$root}/database/nusa.{$branch}.sqlite";
-    $previous = getenv('GIT_BRANCH');
-    $backups = [
-        $main => backupDatabaseFile($main),
-        $mainDist => backupDatabaseFile($mainDist),
-        $branchPath => backupDatabaseFile($branchPath),
-        $dist => backupDatabaseFile($dist),
-    ];
+    $main = "{$directory}/nusa.main-full.sqlite";
+    $branchPath = "{$directory}/nusa.{$branch}-full.sqlite";
+    $previousBranch = getenv('GIT_BRANCH');
+    $previousDirectory = getenv('NUSA_DATABASE_DIR');
 
     try {
         file_put_contents($main, '');
+        set_test_env('NUSA_DATABASE_DIR', $directory);
         set_test_env('GIT_BRANCH', $branch);
         $this->refreshApplication();
 
         expect(file_exists($branchPath))->toBeTrue()
             ->and(file_exists($main))->toBeFalse();
     } finally {
-        set_test_env('GIT_BRANCH', $previous === false ? null : $previous);
-
-        foreach ($backups as $path => $backup) {
-            restoreDatabaseFile($path, $backup);
-        }
-
+        set_test_env('GIT_BRANCH', $previousBranch === false ? null : $previousBranch);
+        set_test_env('NUSA_DATABASE_DIR', $previousDirectory === false ? null : $previousDirectory);
+        File::deleteDirectory($directory);
         $this->refreshApplication();
     }
 });
