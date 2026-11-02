@@ -1,3 +1,8 @@
 providers:
   - Creasi\Nusa\ServiceProvider
   - Workbench\App\Providers\WorkbenchServiceProvider
+
+workbench:
+  discovers:
+    web: true
+    views: true
