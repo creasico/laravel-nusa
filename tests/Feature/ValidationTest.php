@@ -22,6 +22,7 @@ it('rejects invalid query parameters', function (array $query) {
 })->with([
     'page is not numeric' => [['page' => 'abc']],
     'per-page is not numeric' => [['per-page' => 'abc']],
+    'per_page is not numeric' => [['per_page' => 'abc']],
     'with is not an array' => [['with' => 'regencies']],
     'codes is not an array' => [['codes' => '33']],
     'search is not a string' => [['search' => ['jawa']]],
@@ -42,6 +43,29 @@ it('honors the per-page parameter', function () {
         ->assertOk()
         ->assertJsonPath('meta.per_page', 5)
         ->assertJsonCount(5, 'data');
+});
+
+it('honors the per_page alias', function () {
+    getJson('nusa/provinces?per_page=5')
+        ->assertOk()
+        ->assertJsonPath('meta.per_page', 5)
+        ->assertJsonCount(5, 'data');
+});
+
+it('prefers per_page over per-page', function () {
+    getJson('nusa/provinces?per_page=5&per-page=3')
+        ->assertOk()
+        ->assertJsonPath('meta.per_page', 5);
+});
+
+it('rejects a page size above the maximum', function (string $parameter) {
+    getJson("nusa/provinces?{$parameter}=201")->assertUnprocessable();
+})->with(['per_page', 'per-page']);
+
+it('allows the largest cascade list', function () {
+    getJson('nusa/districts/33.75.03/villages?per_page=150')
+        ->assertOk()
+        ->assertJsonPath('meta.per_page', 150);
 });
 
 it('returns a different second page', function () {
