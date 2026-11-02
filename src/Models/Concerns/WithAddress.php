@@ -11,7 +11,7 @@ use Illuminate\Database\Eloquent\Relations\MorphOne;
  * @template TDeclaringModel of \Illuminate\Database\Eloquent\Model
  * @template TAddressableModel of \Creasi\Nusa\Contracts\Address
  *
- * @mixin HasAddress
+ * @mixin HasAddress<TDeclaringModel>
  */
 trait WithAddress
 {
