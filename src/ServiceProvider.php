@@ -72,12 +72,7 @@ class ServiceProvider extends IlluminateServiceProvider
 
     protected function registerBindings(): void
     {
-        $this->app->bind(Contracts\Address::class, function ($app) {
-            $addressable = config('creasi.nusa.addressable');
-
-            return $app->make($addressable);
-        });
-
+        $this->app->bind(Contracts\Address::class, fn ($app): Contracts\Address => $app->make(config('creasi.nusa.addressable')));
         $this->app->bind(Contracts\Province::class, Models\Province::class);
         $this->app->bind(Contracts\Regency::class, Models\Regency::class);
         $this->app->bind(Contracts\District::class, Models\District::class);
@@ -92,7 +87,7 @@ class ServiceProvider extends IlluminateServiceProvider
     protected function getMigrationFileName(string $migrationFileName): string
     {
         $filesystem = app()->make(Filesystem::class);
-        $migrationPath = app()->databasePath().\DIRECTORY_SEPARATOR.'migrations'.\DIRECTORY_SEPARATOR;
+        $migrationPath = app()->databasePath('migrations').\DIRECTORY_SEPARATOR;
 
         return Collection::make([$migrationPath])
             ->flatMap(fn ($path) => $filesystem->glob($path.'*_'.$migrationFileName))
