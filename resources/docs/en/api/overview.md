@@ -53,7 +53,7 @@ All API responses follow a consistent JSON structure:
     "current_page": 1,
     "from": 1,
     "last_page": 3,
-    "per-page": 15,
+    "per_page": 15,
     "to": 15,
     "total": 34
   }
@@ -81,15 +81,15 @@ All API responses follow a consistent JSON structure:
 All collection endpoints support pagination:
 
 - **Default page size**: 15 items
-- **Maximum page size**: 100 items
+- **Maximum page size**: 200 items
 - **Page parameter**: `?page=2`
-- **Per page parameter**: `?per-page=50`
+- **Per page parameter**: `?per_page=50` (`per-page` is accepted as a deprecated alias)
 
 ### Pagination Example
 
 ```bash
 # Get second page with 25 items per page
-GET /nusa/provinces?page=2&per-page=25
+GET /nusa/provinces?page=2&per_page=25
 ```
 
 ## Query Parameters
