@@ -33,6 +33,10 @@ final class Select extends Component
 
     public string $placeholder;
 
+    public string $base;
+
+    public ?string $parentId;
+
     public string $autocomplete;
 
     public ?string $hint = null;
@@ -43,8 +47,12 @@ final class Select extends Component
         ?string $parent = null,
         ?string $name = null,
         ?string $id = null,
+        ?string $parentId = null,
+        ?string $base = null,
     ) {
         $this->name = $name ?? "{$level}_code";
+        $this->parentId = $parentId;
+        $this->base = $base ?? url()->to(config('creasi.nusa.routes_prefix', 'nusa'));
         $this->id = $id ?? "nusa-{$level}";
         $this->parent = $parent ?? $this->parentFromValue();
         $this->disabled = $level !== 'province' && blank($this->parent);

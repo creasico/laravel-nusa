@@ -87,6 +87,33 @@ it('seeds alpine with the route prefix', function () {
     $html = (string) $this->blade('<x-nusa::address-form />');
 
     expect($html)
-        ->toContain('x-data="nusaAddress(')
+        ->toContain('x-data="nusaPostal(')
         ->toContain('/nusa');
+});
+
+it('wires the levels together through parent-id', function () {
+    /** @var TestCase $this */
+    $html = (string) $this->blade('<x-nusa::address-form />');
+
+    expect($html)
+        ->toContain('data-parent-id="nusa-address-province"')
+        ->toContain('data-parent-id="nusa-address-regency"')
+        ->toContain('data-parent-id="nusa-address-district"')
+        ->not->toContain('data-parent-id="nusa-address-village"');
+});
+
+it('leaves asset loading to the layout', function () {
+    /** @var TestCase $this */
+    $html = (string) $this->blade('<x-nusa::address-form />');
+
+    expect($html)->not->toContain('nusaRegistered');
+});
+
+it('compiles the nusaAssets directive', function () {
+    /** @var TestCase $this */
+    $html = (string) $this->blade('@nusaAssets');
+
+    expect($html)->toContain('<script')
+        ->toContain('alpine:init')
+        ->toContain('nusaSelect');
 });

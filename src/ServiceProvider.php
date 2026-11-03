@@ -26,6 +26,8 @@ class ServiceProvider extends IlluminateServiceProvider
 
         Blade::componentNamespace('Creasi\\Nusa\\View\\Components', 'nusa');
 
+        $this->defineAssets();
+
         $this->defineRoutes();
     }
 
@@ -60,6 +62,23 @@ class ServiceProvider extends IlluminateServiceProvider
             ->group(self::LIB_PATH.'/routes/nusa.php');
     }
 
+    /**
+     * Register the `@nusaAssets` directive.
+     *
+     * @codeCoverageIgnore
+     */
+    protected function defineAssets(): void
+    {
+        Blade::directive('nusaAssets', function (): string {
+            if (is_file($published = public_path('vendor/nusa/nusa.js'))) {
+                return '<script src="'.asset('vendor/nusa/nusa.js').'" defer></script>';
+            }
+
+            // Not published yet: inline the shipped file so the cascade still works.
+            return '<script>'.file_get_contents(self::LIB_PATH.'/resources/js/nusa.js').'</script>';
+        });
+    }
+
     protected function registerPublishables(): void
     {
         $this->publishes([
@@ -73,6 +92,10 @@ class ServiceProvider extends IlluminateServiceProvider
         $this->publishes([
             self::LIB_PATH.'/resources/views' => resource_path('views/vendor/nusa'),
         ], ['nusa-views']);
+
+        $this->publishes([
+            self::LIB_PATH.'/resources/js/nusa.js' => public_path('vendor/nusa/nusa.js'),
+        ], ['nusa-assets']);
 
         $this->publishes([
             self::LIB_PATH.'/database/migrations/create_addresses_tables.php.stub' => $this->getMigrationFileName('create_addresses_tables.php'),
