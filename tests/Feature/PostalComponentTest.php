@@ -27,6 +27,17 @@ it('renders a standalone postal field', function () {
         ->toContain('Postal Code');
 });
 
+it('associates its message only while it is shown', function () {
+    /** @var TestCase $this */
+    $html = (string) $this->blade('<x-nusa::postal />');
+
+    expect($html)
+        ->toContain('id="nusa-postal-message"')
+        ->toContain('role="status"')
+        ->toContain("x-bind:aria-describedby=\"error ? 'nusa-postal-message' : null\"")
+        ->toContain('x-bind:hidden="! error"');
+});
+
 it('carries the message shown for an unknown code', function () {
     /** @var TestCase $this */
     $html = (string) $this->blade('<x-nusa::postal />');

@@ -15,9 +15,10 @@
         data-nusa-postal
         data-error="{{ __('creasico::nusa.postal_code.invalid') }}"
         x-on:input.debounce.400ms="resolve($event)"
+        x-bind:aria-describedby="error ? '{{ $id }}-message' : null"
         class="mt-1 block w-full rounded-md border-gray-300 shadow-sm"
         {{ $attributes }}
     >
 
-    <p role="status" x-text="error" x-show="error" class="mt-1 text-sm text-red-600"></p>
+    <p id="{{ $id }}-message" role="status" x-text="error" x-bind:hidden="! error" class="mt-1 text-sm text-red-600"></p>
 </div>

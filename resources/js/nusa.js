@@ -116,15 +116,15 @@ document.addEventListener('alpine:init', () => {
             el.disabled = rows.length === 0
 
             if (el.disabled) {
-                el.setAttribute('aria-describedby', `${el.id}-hint`)
+                el.setAttribute('aria-describedby', `${el.id}-message`)
             } else {
                 el.removeAttribute('aria-describedby')
             }
 
-            const hint = document.getElementById(`${el.id}-hint`)
+            const message = document.getElementById(`${el.id}-message`)
 
-            if (hint) {
-                hint.hidden = !el.disabled
+            if (message) {
+                message.hidden = !el.disabled
             }
         },
 

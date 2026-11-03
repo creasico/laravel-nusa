@@ -12,7 +12,7 @@
         x-data="nusaSelect(@js($base))"
         x-on:change="onChange()"
         @disabled($disabled)
-        @if ($hint) aria-describedby="{{ $id }}-hint" @endif
+        @if ($hint) aria-describedby="{{ $id }}-message" @endif
         {{ $attributes }}
     >
         <option value="">{{ $placeholder }}</option>
@@ -25,6 +25,6 @@
     </select>
 
     @if ($hint)
-        <p id="{{ $id }}-hint" class="mt-1 text-sm text-gray-500" @if (! $disabled) hidden @endif>{{ $hint }}</p>
+        <p id="{{ $id }}-message" role="status" class="mt-1 text-sm text-gray-500" @if (! $disabled) hidden @endif>{{ $hint }}</p>
     @endif
 </div>

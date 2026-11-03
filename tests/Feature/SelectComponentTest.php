@@ -25,13 +25,15 @@ it('renders every province', function () {
         ->assertSee('Jawa Tengah');
 });
 
-it('disables a level until its parent is chosen', function (string $level, string $hint) {
+it('disables a level until its parent is chosen', function (string $level, string $message) {
     /** @var TestCase $this */
     $html = (string) $this->blade("<x-nusa::select level=\"{$level}\" />");
 
     expect($html)->toMatch('/<select[^>]*\sdisabled[\s>]/')
-        ->toContain("aria-describedby=\"nusa-{$level}-hint\"")
-        ->toContain($hint);
+        ->toContain("aria-describedby=\"nusa-{$level}-message\"")
+        ->toContain("id=\"nusa-{$level}-message\"")
+        ->toContain('role="status"')
+        ->toContain($message);
 })->with([
     'regency' => ['regency', 'Choose Province first'],
     'district' => ['district', 'Choose Regency first'],
