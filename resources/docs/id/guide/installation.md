@@ -205,6 +205,45 @@ CREASI_NUSA_ROUTES_PREFIX=api/indonesia
 
 Rute kemudian akan tersedia di `/api/indonesia/provinces`, dll.
 
+### Komponen UI (Opsional)
+
+Laravel Nusa menyertakan komponen Blade untuk wilayah administratif —
+`<x-nusa::address-form>`, `<x-nusa::select>`, dan `<x-nusa::postal>`. Perilakunya berasal
+dari satu skrip yang dimuat sekali per layout:
+
+```blade
+{{-- resources/views/layouts/app.blade.php --}}
+<head>
+    @nusaAssets
+
+    <script defer src="https://unpkg.com/alpinejs@3/dist/cdn.min.js"></script>
+</head>
+```
+
+`@nusaAssets` mengarah ke `/vendor/nusa/nusa.js`, jadi publikasikan lebih dulu:
+
+```bash
+php artisan vendor:publish --tag=nusa-assets
+```
+
+Tidak ada fallback inline: skrip yang belum dipublikasikan akan menghasilkan 404 dan
+komponen tetap tampil tanpa pernah interaktif.
+
+Dua hal menentukan apakah komponen berfungsi:
+
+- **Muat sebelum Alpine.** Skrip mendaftarkan komponennya pada `alpine:init`. Skrip
+  `defer` yang diletakkan setelah Alpine berjalan terlalu lambat sehingga tidak ada yang
+  terinisialisasi — formulir tampil tetapi tidak melakukan apa pun.
+- **Tag-nya selalu berupa berkas same-origin, tidak pernah inline**, sehingga Content
+  Security Policy `script-src 'self'` sudah cukup. Bila kebijakan Anda hanya menerima
+  nonce, tulis tag-nya sendiri alih-alih memakai direktif:
+
+```blade
+<script src="{{ asset('vendor/nusa/nusa.js') }}" nonce="{{ csp_nonce() }}"></script>
+```
+
+URL-nya melalui `asset()`, jadi `ASSET_URL` dan host aset khusus tetap berlaku.
+
 ## Pemecahan Masalah
 
 ### Masalah Instalasi Umum
