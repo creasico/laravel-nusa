@@ -10,6 +10,7 @@
 .gitignore       export-ignore
 .gitmodules      export-ignore
 .vscode          export-ignore
+.zed             export-ignore
 AGENTS.md        export-ignore
 CHANGELOG.md     export-ignore
 composer.lock    export-ignore
