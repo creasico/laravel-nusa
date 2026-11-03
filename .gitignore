@@ -41,7 +41,6 @@ opencode.json
 .idea
 .project
 .settings
-.zed
 *.sublime-*
 
 # Development files
