@@ -1,5 +1,5 @@
 name: Distribute
-run-name: "dist(${{ github.event.workflow_run.head_branch }}): create distribution database"
+run-name: "dist(${{ github.event.workflow_run.head_branch }}): create distribution for `${{ github.event.workflow_run.head_sha }}`"
 
 on:
   workflow_run:
@@ -7,9 +7,19 @@ on:
     types: [completed]
     workflows: [CI]
 
+concurrency:
+  # Serialised, never cancelled: a cancelled run could abort a database commit or a
+  # release-asset upload.
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
 jobs:
   prepare:
     name: Prepare
+    # `workflow_run` also fires on `cancelled`, which CI's `cancel-in-progress` emits on
+    # every push while a run is in flight. Gating here is enough: every other job needs
+    # `prepare`, so a skipped `prepare` skips the whole workflow.
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     uses: projek-xyz/actions/.github/workflows/prepare.yml@a84ced1eab6fac0576ed5cdd43f6ee0dfa5044a3 # main @ 2026-11-02
     with:
       # `workflow_run` keeps the triggering commit nested, so `prepare` cannot
@@ -64,8 +74,7 @@ jobs:
 
   release-assets:
     name: Release Assets
-    # Not gated on the CI conclusion: this job builds its own data, so a cancelled
-    # or failed CI run on main must not be able to withhold the release assets.
+    # No conclusion check here: `prepare` already skips this job unless CI was green.
     if: needs.prepare.outputs.should-release == '1'
     runs-on: ubuntu-latest
     needs: [prepare, upstream]
@@ -111,9 +120,8 @@ jobs:
   # Build job
   build:
     name: Build
-    # Released docs only, and only from a green CI run: `workflow_run` fires on every
-    # conclusion, so a release commit with failing checks must not publish either.
-    if: needs.prepare.outputs.should-release == '1' && github.event.workflow_run.conclusion == 'success'
+    # Released docs only: `prepare` already excludes a failed or cancelled CI run.
+    if: needs.prepare.outputs.should-release == '1'
     runs-on: ubuntu-latest
     needs: [prepare, upstream]
 
@@ -158,10 +166,8 @@ jobs:
     # Published docs describe a release, not `main`: anything merged since the last
     # version bump would otherwise be online while still unreleased, and the site is
     # what users read to decide whether to upgrade. `should-release` is the same signal
-    # `release-assets` uses to recognise a release commit, plus a green CI run — unlike
-    # `release-assets`, which deliberately ignores the conclusion so a failed check can
-    # never withhold the database artifacts.
-    if: needs.prepare.outputs.should-release == '1' && github.event.workflow_run.conclusion == 'success'
+    # `release-assets` uses to recognise a release commit.
+    if: needs.prepare.outputs.should-release == '1'
     runs-on: ubuntu-latest
     needs: [prepare, build]
 
