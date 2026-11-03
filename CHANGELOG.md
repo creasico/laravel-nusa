@@ -2,6 +2,28 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.2.0](https://github.com/creasico/laravel-nusa/compare/v0.1.19...v0.2.0) (2026-11-03)
+
+### ⚠ BREAKING CHANGES
+
+* **test:** now requires PHP `^8.3` and laravel/framework `^12.0|^13.0`
+
+* **test:** overhaul the suite with pest and cover workbench ([#346](https://github.com/creasico/laravel-nusa/issues/346)) ([fd6c33b](https://github.com/creasico/laravel-nusa/commit/fd6c33b15d4407b1eefc08a6e7823461cc661a1a))
+
+### Features
+
+* apply new pint rules ([1e18eae](https://github.com/creasico/laravel-nusa/commit/1e18eaeaa8454eb40837d214be5ac42e76697602))
+* **dev:** use mise to manage local php version, default to php 8.4 ([fbd09c2](https://github.com/creasico/laravel-nusa/commit/fbd09c22c1d95eadb2bb1e2a5b5c436d3cf93335))
+* **ui:** implement basic blade UI components and preview harness ([#348](https://github.com/creasico/laravel-nusa/issues/348)) ([4dd6a61](https://github.com/creasico/laravel-nusa/commit/4dd6a613a727eb107b016b1891ec6dca39db301e)), closes [#210](https://github.com/creasico/laravel-nusa/issues/210), references [#210](https://github.com/creasico/laravel-nusa/issues/210) [#212](https://github.com/creasico/laravel-nusa/issues/212) [#211](https://github.com/creasico/laravel-nusa/issues/211) [#213](https://github.com/creasico/laravel-nusa/issues/213) [#210](https://github.com/creasico/laravel-nusa/issues/210)
+* **upstream:** bump cahyadsn/wilayah_boundaries[#2c0d8c7](https://github.com/creasico/laravel-nusa/issues/2c0d8c7) ([#334](https://github.com/creasico/laravel-nusa/issues/334)) ([873c42e](https://github.com/creasico/laravel-nusa/commit/873c42e97dd5d590f648c6661dc21f1c04fec4cb))
+* **upstream:** bump cahyadsn/wilayah[#b2af899](https://github.com/creasico/laravel-nusa/issues/b2af899) ([#344](https://github.com/creasico/laravel-nusa/issues/344)) ([758e6c7](https://github.com/creasico/laravel-nusa/commit/758e6c7fb41e56ba5754fa956998fd581797711d))
+
+### Bug Fixes
+
+* **ci:** share upstream sqlite builds across branches by content hash ([#339](https://github.com/creasico/laravel-nusa/issues/339)) ([222334d](https://github.com/creasico/laravel-nusa/commit/222334da96473be9ca90c4940e317a1d0fa9a6f5))
+* **ci:** switch to `pnpm` to publish a release ([0aa0bae](https://github.com/creasico/laravel-nusa/commit/0aa0bae0e35b8e0dcf8090feabc5abfc746f6183))
+* upstream `wilayah_boundaries` import caused by upstream `wilayah_kodepos` ([#338](https://github.com/creasico/laravel-nusa/issues/338)) ([d80cf0d](https://github.com/creasico/laravel-nusa/commit/d80cf0d5a8875d208efcd9f665dafe3d5687f597))
+
 ## [0.1.19](https://github.com/creasico/laravel-nusa/compare/v0.1.18...v0.1.19) (2026-09-02)
 
 ### Bug Fixes
