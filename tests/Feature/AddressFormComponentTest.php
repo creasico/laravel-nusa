@@ -5,7 +5,11 @@ declare(strict_types=1);
 use Creasi\Tests\Feature\TestCase;
 
 beforeEach(function () {
-    /** @var TestCase $this */
+    /**
+     * @var TestCase $this
+     *
+     * @disregard P1056
+     */
     $this->path = '';
 
     app()->setLocale('en');
