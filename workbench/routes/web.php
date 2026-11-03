@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 use Creasi\Nusa\Models\Province;
 use Illuminate\Support\Facades\Route;
-use Illuminate\Support\Str;
 
 Route::get('/blade/{code?}', function (?string $code = null) {
     $connection = config('creasi.nusa.connection');
@@ -41,13 +40,18 @@ Route::get('/blade/{code?}', function (?string $code = null) {
         });
     }
 
+    // `getenv()` reads the process environment directly: `$_ENV` is empty under some
+    // `variables_order` settings and `$_SERVER` is not forwarded to the `php -S` child.
+    // The replacement needs the directory boundary, or `HOME=/home/alice` would turn
+    // `/home/alice-old/nusa.sqlite` into `~-old/nusa.sqlite`.
+    $home = (string) getenv('HOME');
+    $path = (string) config("database.connections.{$connection}.database");
+
     return view('nusa-preview', [
         'nusa_db' => config('creasi.nusa.connection'),
-        // `getenv()` reads the process environment directly: `$_ENV` is empty under some
-        // `variables_order` settings and `$_SERVER` is not forwarded to the `php -S` child.
-        // A plain `str_replace` would also rewrite `/home/alice-old` or, with `HOME=/`,
-        // every slash in the path.
-        'database' => Str::replaceStart((string) getenv('HOME'), '~', config("database.connections.{$connection}.database")),
+        'database' => $home !== '' && str_starts_with($path, $home.'/')
+            ? '~'.substr($path, \strlen($home))
+            : $path,
         // A branch without an imported DB has no tables; preview must not 500.
         'provinces' => rescue(fn () => Province::count(), null, false),
         'address' => $address,
