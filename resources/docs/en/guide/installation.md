@@ -229,20 +229,23 @@ php artisan vendor:publish --tag=nusa-assets
 There is no inline fallback: an unpublished script returns a 404 and the components render
 without ever becoming interactive.
 
-Two details decide whether the components work:
+Three details decide whether the components work:
 
 - **Load it before Alpine.** The script registers its components on `alpine:init`. A
   deferred script placed after Alpine's executes too late and nothing initialises — the form
   renders and simply does nothing.
-- **The tag is always a same-origin file, never inline**, so a `script-src 'self'`
-  Content Security Policy is enough. If your policy only accepts nonces, write the tag
-  yourself instead of using the directive:
+- **Allow both scripts.** `@nusaAssets` emits `/vendor/nusa/nusa.js`, while the example
+  above loads Alpine from `unpkg.com`. A `script-src 'self'` policy blocks the second one,
+  so add that origin — or self-host Alpine — alongside the package's own script.
+- **No inline script.** If your policy only accepts nonces, write the tag yourself instead
+  of using the directive:
 
 ```blade
 <script src="{{ asset('vendor/nusa/nusa.js') }}" nonce="{{ csp_nonce() }}"></script>
 ```
 
-The URL goes through `asset()`, so `ASSET_URL` and a custom asset host apply as usual.
+The URL goes through `asset()`, so `ASSET_URL` applies — when it points at a CDN, that
+host needs its own `script-src` entry too.
 
 ## Troubleshooting
 

@@ -229,20 +229,24 @@ php artisan vendor:publish --tag=nusa-assets
 Tidak ada fallback inline: skrip yang belum dipublikasikan akan menghasilkan 404 dan
 komponen tetap tampil tanpa pernah interaktif.
 
-Dua hal menentukan apakah komponen berfungsi:
+Tiga hal menentukan apakah komponen berfungsi:
 
 - **Muat sebelum Alpine.** Skrip mendaftarkan komponennya pada `alpine:init`. Skrip
   `defer` yang diletakkan setelah Alpine berjalan terlalu lambat sehingga tidak ada yang
   terinisialisasi — formulir tampil tetapi tidak melakukan apa pun.
-- **Tag-nya selalu berupa berkas same-origin, tidak pernah inline**, sehingga Content
-  Security Policy `script-src 'self'` sudah cukup. Bila kebijakan Anda hanya menerima
-  nonce, tulis tag-nya sendiri alih-alih memakai direktif:
+- **Izinkan kedua skrip.** `@nusaAssets` menghasilkan `/vendor/nusa/nusa.js`, sedangkan
+  contoh di atas memuat Alpine dari `unpkg.com`. Kebijakan `script-src 'self'` akan
+  memblokir yang kedua, jadi tambahkan origin tersebut — atau host sendiri Alpine — di
+  samping skrip paket ini.
+- **Tidak ada skrip inline.** Bila kebijakan Anda hanya menerima nonce, tulis tag-nya
+  sendiri alih-alih memakai direktif:
 
 ```blade
 <script src="{{ asset('vendor/nusa/nusa.js') }}" nonce="{{ csp_nonce() }}"></script>
 ```
 
-URL-nya melalui `asset()`, jadi `ASSET_URL` dan host aset khusus tetap berlaku.
+URL-nya melalui `asset()`, jadi `ASSET_URL` berlaku — bila mengarah ke CDN, host tersebut
+juga perlu entri `script-src` tersendiri.
 
 ## Pemecahan Masalah
 
