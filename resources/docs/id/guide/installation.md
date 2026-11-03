@@ -216,7 +216,7 @@ dari satu skrip yang dimuat sekali per layout:
 <head>
     @nusaAssets
 
-    <script defer src="https://unpkg.com/alpinejs@3/dist/cdn.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3/dist/cdn.min.js"></script>
 </head>
 ```
 
@@ -235,7 +235,7 @@ Tiga hal menentukan apakah komponen berfungsi:
   `defer` yang diletakkan setelah Alpine berjalan terlalu lambat sehingga tidak ada yang
   terinisialisasi — formulir tampil tetapi tidak melakukan apa pun.
 - **Izinkan kedua skrip.** `@nusaAssets` menghasilkan `/vendor/nusa/nusa.js`, sedangkan
-  contoh di atas memuat Alpine dari `unpkg.com`. Kebijakan `script-src 'self'` akan
+  contoh di atas memuat Alpine dari `cdn.jsdelivr.net`. Kebijakan `script-src 'self'` akan
   memblokir yang kedua, jadi tambahkan origin tersebut — atau host sendiri Alpine — di
   samping skrip paket ini.
 - **Tidak ada skrip inline.** Bila kebijakan Anda hanya menerima nonce, tulis tag-nya

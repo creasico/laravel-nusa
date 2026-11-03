@@ -216,7 +216,7 @@ from one script, loaded once per layout:
 <head>
     @nusaAssets
 
-    <script defer src="https://unpkg.com/alpinejs@3/dist/cdn.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3/dist/cdn.min.js"></script>
 </head>
 ```
 
@@ -235,7 +235,7 @@ Three details decide whether the components work:
   deferred script placed after Alpine's executes too late and nothing initialises — the form
   renders and simply does nothing.
 - **Allow both scripts.** `@nusaAssets` emits `/vendor/nusa/nusa.js`, while the example
-  above loads Alpine from `unpkg.com`. A `script-src 'self'` policy blocks the second one,
+  above loads Alpine from `cdn.jsdelivr.net`. A `script-src 'self'` policy blocks the second one,
   so add that origin — or self-host Alpine — alongside the package's own script.
 - **No inline script.** If your policy only accepts nonces, write the tag yourself instead
   of using the directive:
