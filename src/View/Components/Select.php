@@ -97,7 +97,9 @@ final class Select extends Component
         };
     }
 
-    /** @return array<int, array{code: string, name: string, postal?: string}> */
+    /**
+     * @return array<int, array{code: string, name: string, postal?: string}>
+     */
     private function resolveOptions(): array
     {
         $query = $this->model()->newQuery()->orderBy('name');
