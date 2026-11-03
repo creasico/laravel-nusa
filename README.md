@@ -21,14 +21,21 @@ Instead of manually importing and maintaining large datasets, you get:
 - **Geographic Data**: Coordinates and postal codes
 - **Customizable**: Extend models and customize to fit your needs
 
-### Roadmap `v0.2`
+### Roadmap
 
-- First-party UI Implementations
-  - Laravel UI [#210](https://github.com/creasico/laravel-nusa/issues/210)
+Shipped in `v0.2`:
+
+- Blade/Alpine UI components (`address-form`, `select`, `postal`, `@nusaAssets`) [#348](https://github.com/creasico/laravel-nusa/pull/348)
+- Downloadable database and static files on each release [#220](https://github.com/creasico/laravel-nusa/issues/220)
+
+`Later`:
+
+- First-party UI integrations, umbrella [#209](https://github.com/creasico/laravel-nusa/issues/209)
+  - Livewire UI [#210](https://github.com/creasico/laravel-nusa/issues/210)
   - Filament UI [#211](https://github.com/creasico/laravel-nusa/issues/211)
-  - Flux UI [#212](https://github.com/creasico/laravel-nusa/issues/212)
+  - Flux UI template [#212](https://github.com/creasico/laravel-nusa/issues/212)
   - Inertia.js [#213](https://github.com/creasico/laravel-nusa/issues/213)
-- Provide downloadable `sqlite` database and static files on each release [#220](https://github.com/creasico/laravel-nusa/issues/220)
+- Versioned documentation site [#349](https://github.com/creasico/laravel-nusa/issues/349)
 
 ### Featured Packages
 

@@ -47,6 +47,7 @@ export default withMermaid(defineConfig({
                 { text: 'What is Laravel Nusa?', link: '/en/guide/what-is-laravel-nusa' },
                 { text: 'Getting Started', link: '/en/guide/getting-started' },
                 { text: 'Installation', link: '/en/guide/installation' },
+                { text: 'Upgrading', link: '/en/guide/upgrading' },
                 { text: 'Configuration', link: '/en/guide/configuration' }
               ]
             },
@@ -148,6 +149,7 @@ export default withMermaid(defineConfig({
                 { text: 'Apa itu Laravel Nusa?', link: '/id/guide/what-is-laravel-nusa' },
                 { text: 'Memulai', link: '/id/guide/getting-started' },
                 { text: 'Instalasi', link: '/id/guide/installation' },
+                { text: 'Pembaruan', link: '/id/guide/upgrading' },
                 { text: 'Konfigurasi', link: '/id/guide/configuration' }
               ]
             },

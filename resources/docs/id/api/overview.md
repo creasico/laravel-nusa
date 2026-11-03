@@ -83,7 +83,7 @@ Semua *endpoint* koleksi mendukung paginasi:
 - **Ukuran halaman *default***: 15 item
 - **Ukuran halaman maksimum**: 200 item
 - **Parameter halaman**: `?page=2`
-- **Parameter per halaman**: `?per_page=50` (`per-page` diterima sebagai alias yang sudah usang)
+- **Parameter per halaman**: `?per_page=50` (`per-page` juga diterima sebagai alias)
 
 ### Contoh Paginasi
 

@@ -46,7 +46,7 @@ final class NusaRequest extends FormRequest
             ? $model->getQuery()
             : $model->query();
 
-        // `per_page` is the Laravel convention; `per-page` is kept as a deprecated alias.
+        // `per_page` is the Laravel convention; `per-page` is kept as an alias.
         $perPage = $this->filled('per_page')
             ? $this->integer('per_page')
             : ($this->filled('per-page') ? $this->integer('per-page') : null);

@@ -83,7 +83,7 @@ All collection endpoints support pagination:
 - **Default page size**: 15 items
 - **Maximum page size**: 200 items
 - **Page parameter**: `?page=2`
-- **Per page parameter**: `?per_page=50` (`per-page` is accepted as a deprecated alias)
+- **Per page parameter**: `?per_page=50` (`per-page` is accepted as an alias)
 
 ### Pagination Example
 
