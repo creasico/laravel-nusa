@@ -23,10 +23,14 @@
         without it a select is just a select.
     </p>
 
-    <x-nusa::select level="province" :value="$province_code" id="demo-province" />
-    <x-nusa::select level="regency" :value="$regency_code" id="demo-regency" parent-id="demo-province" />
-    <x-nusa::select level="district" :value="$district_code" id="demo-district" parent-id="demo-regency" />
-    <x-nusa::select level="village" :value="$village_code" id="demo-village" parent-id="demo-district" />
+    <div data-nusa-address>
+        <x-nusa::postal value="51252" />
+
+        <x-nusa::select level="province" :value="$province_code" id="demo-province" />
+        <x-nusa::select level="regency" :value="$regency_code" id="demo-regency" parent-id="demo-province" />
+        <x-nusa::select level="district" :value="$district_code" id="demo-district" parent-id="demo-regency" />
+        <x-nusa::select level="village" :value="$village_code" id="demo-village" parent-id="demo-district" />
+    </div>
 
     <p>A select whose <code>parent-id</code> does not exist stays inert and says so in the console:</p>
 
