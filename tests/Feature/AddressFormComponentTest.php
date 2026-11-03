@@ -71,7 +71,7 @@ it('disables the levels below the prefilled chain', function () {
     );
 
     expect($html)
-        ->toContain('id="nusa-address-district-hint"')
+        ->toContain('id="nusa-address-district-message"')
         ->toContain('Choose Regency first');
 });
 
