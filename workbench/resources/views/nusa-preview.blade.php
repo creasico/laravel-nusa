@@ -14,7 +14,13 @@
         what makes the cascade interactive here.
     </p>
 
-    <x-nusa::address-form :address="$address" />
+    <fieldset class="space-y-4">
+        <legend class="block text-sm font-medium text-gray-700">
+            {{ __('creasico::nusa.address.label') }}
+        </legend>
+
+        <x-nusa::address-form :address="$address" />
+    </fieldset>
 
     <h2>Standalone</h2>
 
@@ -25,7 +31,6 @@
 
     <div data-nusa-address>
         <x-nusa::postal value="51252" />
-
         <x-nusa::select level="province" :value="$province_code" id="demo-province" />
         <x-nusa::select level="regency" :value="$regency_code" id="demo-regency" parent-id="demo-province" />
         <x-nusa::select level="district" :value="$district_code" id="demo-district" parent-id="demo-regency" />

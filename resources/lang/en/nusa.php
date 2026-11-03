@@ -3,6 +3,10 @@
 declare(strict_types=1);
 
 return [
+    'address' => [
+        'label' => 'Address',
+    ],
+
     'address_line' => [
         'label' => 'Address Line',
         'placeholder' => 'Address Line/Street/Block and Number',

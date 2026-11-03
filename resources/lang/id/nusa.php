@@ -3,6 +3,10 @@
 declare(strict_types=1);
 
 return [
+    'address' => [
+        'label' => 'Alamat',
+    ],
+
     'address_line' => [
         'label' => 'Alamat Lengkap',
         'placeholder' => 'Alamat Jalan/Gang/Blok dan Nomor Rumah',
