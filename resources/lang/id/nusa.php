@@ -3,6 +3,9 @@
 declare(strict_types=1);
 
 return [
+    'no_options' => 'Tidak ada pilihan tersedia.',
+    'load_failed' => 'Gagal memuat pilihan.',
+
     'address' => [
         'label' => 'Alamat',
     ],

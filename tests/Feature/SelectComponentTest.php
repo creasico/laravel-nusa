@@ -88,3 +88,23 @@ it('gives every instance a different id', function () {
     expect($matches[1])->toHaveCount(2)
         ->and(array_unique($matches[1]))->toHaveCount(2);
 });
+
+it('keeps a caller-supplied description', function () {
+    /** @var TestCase $this */
+    $html = (string) $this->blade('<x-nusa::select level="regency" id="my-regency" aria-describedby="help-text" />');
+
+    // The Alpine binding (`x-bind:aria-describedby`) is not the attribute itself.
+    preg_match_all('/\saria-describedby="/', $html, $attributes);
+
+    expect($html)->toContain('aria-describedby="help-text my-regency-message"')
+        ->and($attributes[0])->toHaveCount(1);
+});
+
+it('exposes the empty and failed messages', function () {
+    /** @var TestCase $this */
+    $html = (string) $this->blade('<x-nusa::select level="regency" id="my-regency" />');
+
+    expect($html)
+        ->toContain('data-empty="No options available."')
+        ->toContain('data-failed="Could not load the options."');
+});

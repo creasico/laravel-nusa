@@ -76,6 +76,7 @@ document.addEventListener('alpine:init', () => {
         disabled: initialDisabled,
         hint,
         error: '',
+        empty: false,
         // Bumped whenever this select's own options are replaced, so a response that
         // belongs to a previous parent can be recognised and dropped.
         sequence: 0,
@@ -110,7 +111,7 @@ document.addEventListener('alpine:init', () => {
 
             const token = ++this.sequence
             const value = parent.value
-            const result = await fetchRows(this.base, PATHS[this.parentLevel](value))
+            const result = await fetchRows(this.base, PATHS[this.parentLevel](value), this.el.dataset.failed || '')
 
             if (this.sequence !== token || parent.value !== value) {
                 return
@@ -145,7 +146,12 @@ document.addEventListener('alpine:init', () => {
                 return this.error
             }
 
-            return this.disabled ? this.hint : ''
+            if (! this.disabled) {
+                return ''
+            }
+
+            // "No options" is not "choose a parent": the parent is already set.
+            return this.empty ? this.el.dataset.empty || '' : this.hint
         },
 
         get childLevel() {
@@ -173,7 +179,7 @@ document.addEventListener('alpine:init', () => {
         },
 
         fail(message) {
-            this.error = message
+            this.error = message !== '' ? message : this.el.dataset.failed || ''
         },
 
         /**
@@ -190,6 +196,7 @@ document.addEventListener('alpine:init', () => {
             el.innerHTML = `<option value="">${placeholder}</option>` + render(rows)
             el.value = value || ''
             this.error = ''
+            this.empty = rows.length === 0
 
             // Everything the field shows about itself — disabled, describedby, message —
             // follows from this one flag.
@@ -200,6 +207,7 @@ document.addEventListener('alpine:init', () => {
             this.sequence++
             this.fill([], null)
             this.error = ''
+            this.empty = false
             this.children().forEach((element) => this.data(element)?.reset())
         },
 
@@ -220,7 +228,7 @@ document.addEventListener('alpine:init', () => {
             }
 
             const token = ++this.sequence
-            const result = await fetchRows(this.base, PATHS[this.level](code))
+            const result = await fetchRows(this.base, PATHS[this.level](code), this.el.dataset.failed || '')
 
             // A later change on this select owns the result; this one is history.
             if (this.sequence !== token) {
@@ -429,6 +437,15 @@ document.addEventListener('alpine:init', () => {
             this.select('province')?.invalidate()
 
             province.value = provinces[0]
+
+            // A list without that province (custom data, a narrowed option set) would
+            // leave the field blank above a filled regency.
+            if (province.value !== provinces[0]) {
+                this.clear()
+
+                return
+            }
+
             this.select('regency')?.reset()
             this.select('regency')?.fill(regencyRows, regencies.length === 1 ? regencies[0] : null)
 

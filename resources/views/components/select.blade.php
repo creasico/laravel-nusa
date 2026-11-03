@@ -1,3 +1,9 @@
+@php
+    $messageId = $id.'-message';
+    $callerDescribedBy = $attributes->get('aria-describedby');
+    $describedBy = trim(implode(' ', array_filter([$callerDescribedBy, $disabled && $hint ? $messageId : null])));
+@endphp
+
 <div class="nusa-field" x-data="nusaSelect(@js($base), @js($disabled), @js($hint ?? ''))">
     <label for="{{ $id }}" class="block text-sm font-medium text-gray-700">{{ $label }}</label>
 
@@ -8,16 +14,18 @@
         autocomplete="{{ $autocomplete }}"
         data-level="{{ $level }}"
         data-placeholder="{{ $placeholder }}"
+        data-empty="{{ __('creasico::nusa.no_options') }}"
+        data-failed="{{ __('creasico::nusa.load_failed') }}"
         class="mt-1 block w-full rounded-md border-gray-300 shadow-sm disabled:bg-gray-100"
         @if ($parentId) data-parent-id="{{ $parentId }}" @endif
         x-on:change="onChange()"
         x-bind:disabled="disabled"
         @disabled($disabled)
+        @if ($describedBy !== '') aria-describedby="{{ $describedBy }}" @endif
         @if ($hint)
-            @if ($disabled) aria-describedby="{{ $id }}-message" @endif
-            x-bind:aria-describedby="message ? '{{ $id }}-message' : null"
+            x-bind:aria-describedby="[@js($callerDescribedBy), message ? @js($messageId) : null].filter(Boolean).join(' ') || null"
         @endif
-        {{ $attributes }}
+        {{ $attributes->except('aria-describedby') }}
     >
         <option value="">{{ $placeholder }}</option>
 

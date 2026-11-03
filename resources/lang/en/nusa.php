@@ -3,6 +3,9 @@
 declare(strict_types=1);
 
 return [
+    'no_options' => 'No options available.',
+    'load_failed' => 'Could not load the options.',
+
     'address' => [
         'label' => 'Address',
     ],
