@@ -14,6 +14,7 @@
         placeholder="{{ __('creasico::nusa.postal_code.placeholder') }}"
         data-nusa-postal
         data-error="{{ __('creasico::nusa.postal_code.invalid') }}"
+        data-failed="{{ __('creasico::nusa.postal_code.failed') }}"
         x-on:input.debounce.400ms="resolve($event)"
         x-bind:aria-describedby="error ? '{{ $id }}-message' : null"
         class="mt-1 block w-full rounded-md border-gray-300 shadow-sm"

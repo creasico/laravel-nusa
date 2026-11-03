@@ -28,12 +28,25 @@ document.addEventListener('alpine:init', () => {
 
     const unique = (rows, key) => [...new Set(rows.map((row) => row[key]))]
 
+    /**
+     * `null` means the request failed; `[]` means it succeeded and matched nothing.
+     * The body is never parsed on failure: Laravel answers 500 with a debug payload in
+     * development, and a fatal or a proxy error can return HTML or nothing at all.
+     */
     const fetchRows = async (base, path) => {
-        const response = await window.fetch(`${base}/${path}${path.includes('?') ? '&' : '?'}per_page=150`, {
-            headers: { Accept: 'application/json' },
-        })
+        try {
+            const response = await window.fetch(`${base}/${path}${path.includes('?') ? '&' : '?'}per_page=150`, {
+                headers: { Accept: 'application/json' },
+            })
 
-        return response.ok ? ((await response.json()).data ?? []) : []
+            if (!response.ok) {
+                return null
+            }
+
+            return (await response.json()).data ?? []
+        } catch {
+            return null
+        }
     }
 
     const render = (rows) => rows
@@ -73,6 +86,10 @@ document.addEventListener('alpine:init', () => {
             }
 
             const rows = await fetchRows(this.base, PATHS[this.parentLevel](parent.value))
+
+            if (rows === null) {
+                return
+            }
 
             this.fill(rows, null)
 
@@ -147,6 +164,10 @@ document.addEventListener('alpine:init', () => {
 
             const rows = await fetchRows(this.base, PATHS[this.level](code))
 
+            if (rows === null) {
+                return
+            }
+
             this.data(children[0])?.fill(rows, null)
         },
     }))
@@ -218,6 +239,9 @@ document.addEventListener('alpine:init', () => {
             const input = event.target
             const value = input.value.trim()
 
+            // Any edit invalidates a lookup in flight, including one that just lost a digit.
+            const token = ++this.sequence
+
             this.error = ''
             input.removeAttribute('aria-invalid')
 
@@ -226,10 +250,16 @@ document.addEventListener('alpine:init', () => {
                 return
             }
 
-            const token = ++this.sequence
             const rows = await fetchRows(this.base, `villages?postal_code=${value}`)
 
             if (this.sequence !== token) {
+                return
+            }
+
+            // A failed request is not an unknown code: keep what the user had.
+            if (rows === null) {
+                this.error = input.dataset.failed || ''
+
                 return
             }
 

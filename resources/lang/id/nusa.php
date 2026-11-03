@@ -39,5 +39,6 @@ return [
         'label' => 'Kode Pos',
         'placeholder' => '5 Digit Kode Pos',
         'invalid' => 'Kode pos tidak ditemukan.',
+        'failed' => 'Gagal memuat kode pos.',
     ],
 ];

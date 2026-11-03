@@ -45,6 +45,13 @@ it('carries the message shown for an unknown code', function () {
     expect($html)->toContain('Postal code not found.');
 });
 
+it('carries a separate message for a failed lookup', function () {
+    /** @var TestCase $this */
+    $html = (string) $this->blade('<x-nusa::postal />');
+
+    expect($html)->toContain('data-failed="Could not look up the postal code."');
+});
+
 it('accepts the container it should fill', function () {
     /** @var TestCase $this */
     $html = (string) $this->blade('<x-nusa::postal for="my-regions" />');
