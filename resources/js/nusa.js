@@ -71,9 +71,11 @@ document.addEventListener('alpine:init', () => {
         .map((row) => `<option value="${row.code}"${row.postal_code ? ` data-postal="${row.postal_code}"` : ''}>${row.name}</option>`)
         .join('')
 
-    window.Alpine.data('nusaSelect', (base, initialDisabled = false) => ({
+    window.Alpine.data('nusaSelect', (base, initialDisabled = false, hint = '') => ({
         base,
         disabled: initialDisabled,
+        hint,
+        error: '',
         // Bumped whenever this select's own options are replaced, so a response that
         // belongs to a previous parent can be recognised and dropped.
         sequence: 0,
@@ -110,7 +112,13 @@ document.addEventListener('alpine:init', () => {
             const value = parent.value
             const result = await fetchRows(this.base, PATHS[this.parentLevel](value))
 
-            if (result.error !== undefined || this.sequence !== token || parent.value !== value) {
+            if (this.sequence !== token || parent.value !== value) {
+                return
+            }
+
+            if (result.error !== undefined) {
+                this.error = result.error
+
                 return
             }
 
@@ -126,6 +134,18 @@ document.addEventListener('alpine:init', () => {
 
         get level() {
             return this.el.dataset.level || ''
+        },
+
+        /**
+         * What the field says about itself: the hint while it waits for a parent, or the
+         * server's explanation when loading failed.
+         */
+        get message() {
+            if (this.error !== '') {
+                return this.error
+            }
+
+            return this.disabled ? this.hint : ''
         },
 
         get childLevel() {
@@ -152,12 +172,24 @@ document.addEventListener('alpine:init', () => {
             return window.Alpine.$data(element)
         },
 
+        fail(message) {
+            this.error = message
+        },
+
+        /**
+         * Drop whatever this select is loading: another control now owns its value.
+         */
+        invalidate() {
+            this.sequence++
+        },
+
         fill(rows, value) {
             const el = this.el
             const placeholder = el.dataset.placeholder || ''
 
             el.innerHTML = `<option value="">${placeholder}</option>` + render(rows)
             el.value = value || ''
+            this.error = ''
 
             // Everything the field shows about itself — disabled, describedby, message —
             // follows from this one flag.
@@ -167,6 +199,7 @@ document.addEventListener('alpine:init', () => {
         reset() {
             this.sequence++
             this.fill([], null)
+            this.error = ''
             this.children().forEach((element) => this.data(element)?.reset())
         },
 
@@ -190,7 +223,13 @@ document.addEventListener('alpine:init', () => {
             const result = await fetchRows(this.base, PATHS[this.level](code))
 
             // A later change on this select owns the result; this one is history.
-            if (result.error !== undefined || this.sequence !== token) {
+            if (this.sequence !== token) {
+                return
+            }
+
+            if (result.error !== undefined) {
+                children.forEach((element) => this.data(element)?.fail(result.error))
+
                 return
             }
 
@@ -314,13 +353,38 @@ document.addEventListener('alpine:init', () => {
             this.select('regency')?.reset()
         },
 
-        /**
-         * Fill down to the deepest level the postal code determines uniquely.
-         */
         failed() {
             return this.postal()?.dataset.failed || ''
         },
 
+        /**
+         * Fetch one level, or explain why it could not be fetched.
+         *
+         * Returns `null` both when the request failed and when a newer lookup owns the
+         * result, without touching the form in either case.
+         */
+        async rowsFor(path, token) {
+            const result = await fetchRows(this.base, path, this.failed())
+
+            if (this.sequence !== token) {
+                return null
+            }
+
+            if (result.error !== undefined) {
+                this.error = result.error
+
+                return null
+            }
+
+            return result.rows
+        },
+
+        /**
+         * Fill down to the deepest level the postal code determines uniquely.
+         *
+         * Every level is fetched before anything is written: a failure halfway through
+         * must not leave the form with a new province and no regency.
+         */
         async apply(rows, token) {
             const provinces = unique(rows, 'province_code')
 
@@ -330,67 +394,55 @@ document.addEventListener('alpine:init', () => {
                 return
             }
 
+            const regencies = unique(rows, 'regency_code')
+            const regencyRows = await this.rowsFor(PATHS.province(provinces[0]), token)
+
+            if (regencyRows === null) {
+                return
+            }
+
+            const districts = regencies.length === 1 ? unique(rows, 'district_code') : []
+            const districtRows = districts.length > 0
+                ? await this.rowsFor(PATHS.regency(regencies[0]), token)
+                : null
+
+            if (districts.length > 0 && districtRows === null) {
+                return
+            }
+
+            const villages = districts.length === 1 ? unique(rows, 'code') : []
+            const villageRows = villages.length > 0 || districts.length === 1
+                ? await this.rowsFor(PATHS.district(districts[0]), token)
+                : null
+
+            if (districts.length === 1 && villageRows === null) {
+                return
+            }
+
             const province = this.selectEl('province')
 
             if (!province) {
                 return
             }
 
+            // Anything the province was already loading belongs to the previous value.
+            this.select('province')?.invalidate()
+
             province.value = provinces[0]
             this.select('regency')?.reset()
-
-            const regencies = unique(rows, 'regency_code')
-            const regencyResult = await fetchRows(this.base, PATHS.province(provinces[0]), this.failed())
-
-            if (regencyResult.error !== undefined) {
-                this.error = regencyResult.error
-
-                return
-            }
-
-            if (this.sequence !== token) {
-                return
-            }
-
-            this.select('regency')?.fill(regencyResult.rows, regencies.length === 1 ? regencies[0] : null)
+            this.select('regency')?.fill(regencyRows, regencies.length === 1 ? regencies[0] : null)
 
             if (regencies.length !== 1) {
                 return
             }
 
-            const districts = unique(rows, 'district_code')
-            const districtResult = await fetchRows(this.base, PATHS.regency(regencies[0]), this.failed())
-
-            if (districtResult.error !== undefined) {
-                this.error = districtResult.error
-
-                return
-            }
-
-            if (this.sequence !== token) {
-                return
-            }
-
-            this.select('district')?.fill(districtResult.rows, districts.length === 1 ? districts[0] : null)
+            this.select('district')?.fill(districtRows, districts.length === 1 ? districts[0] : null)
 
             if (districts.length !== 1) {
                 return
             }
 
-            const villages = unique(rows, 'code')
-            const villageResult = await fetchRows(this.base, PATHS.district(districts[0]), this.failed())
-
-            if (villageResult.error !== undefined) {
-                this.error = villageResult.error
-
-                return
-            }
-
-            if (this.sequence !== token) {
-                return
-            }
-
-            this.select('village')?.fill(villageResult.rows, villages.length === 1 ? villages[0] : null)
+            this.select('village')?.fill(villageRows, villages.length === 1 ? villages[0] : null)
 
             if (villages.length === 1) {
                 const input = this.postal()

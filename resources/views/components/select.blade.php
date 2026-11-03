@@ -1,4 +1,4 @@
-<div class="nusa-field" x-data="nusaSelect(@js($base), @js($disabled))">
+<div class="nusa-field" x-data="nusaSelect(@js($base), @js($disabled), @js($hint ?? ''))">
     <label for="{{ $id }}" class="block text-sm font-medium text-gray-700">{{ $label }}</label>
 
     <select
@@ -15,7 +15,7 @@
         @disabled($disabled)
         @if ($hint)
             @if ($disabled) aria-describedby="{{ $id }}-message" @endif
-            x-bind:aria-describedby="disabled ? '{{ $id }}-message' : null"
+            x-bind:aria-describedby="message ? '{{ $id }}-message' : null"
         @endif
         {{ $attributes }}
     >
@@ -29,8 +29,14 @@
     </select>
 
     @if ($hint)
-        <p id="{{ $id }}-message" role="status" class="mt-1 text-sm text-gray-500" x-bind:hidden="! disabled" @if (! $disabled) hidden @endif>
-            {{ $hint }}
-        </p>
+        <p
+            id="{{ $id }}-message"
+            role="status"
+            class="mt-1 text-sm"
+            x-bind:class="error ? 'text-red-600' : 'text-gray-500'"
+            x-bind:hidden="! message"
+            x-text="message"
+            @if (! $disabled) hidden @endif
+        >{{ $disabled ? $hint : '' }}</p>
     @endif
 </div>
