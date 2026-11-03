@@ -118,9 +118,8 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          for attempt in {1..20}; do
+          for attempt in {0..20}; do
             gh release view "v$VERSION" >/dev/null 2>&1 && exit 0
-            echo "Waiting for release v$VERSION ($attempt/20)..."
             (( attempt < 20 )) && sleep 30
           done
 
