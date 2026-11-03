@@ -69,14 +69,9 @@ class ServiceProvider extends IlluminateServiceProvider
      */
     protected function defineAssets(): void
     {
-        Blade::directive('nusaAssets', function (): string {
-            if (is_file($published = public_path('vendor/nusa/nusa.js'))) {
-                return '<script src="'.asset('vendor/nusa/nusa.js').'" defer></script>';
-            }
-
-            // Not published yet: inline the shipped file so the cascade still works.
-            return '<script>'.file_get_contents(self::LIB_PATH.'/resources/js/nusa.js').'</script>';
-        });
+        // Echoed at render time rather than baked in, so the inline fallback can never
+        // go stale inside a compiled view.
+        Blade::directive('nusaAssets', fn (): string => '<?php echo \Creasi\\Nusa\\Support\\Assets::script(); ?>');
     }
 
     protected function registerPublishables(): void

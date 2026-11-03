@@ -44,11 +44,39 @@ document.addEventListener('alpine:init', () => {
         base,
 
         init() {
+            this.hydrate()
+        },
+
+        /**
+         * A standalone select has no `parent` prop, so the server cannot know its
+         * options. When its parent already holds a value — a prefilled page — load
+         * them here instead of leaving the field disabled.
+         */
+        async hydrate() {
             const parentId = this.$el.dataset.parentId
 
-            if (parentId && document.getElementById(parentId) === null) {
-                console.error(`[laravel-nusa] select#${this.$el.id} points at a missing parent-id "${parentId}".`)
+            if (!parentId) {
+                return
             }
+
+            const parent = document.getElementById(parentId)
+
+            if (parent === null) {
+                console.error(`[laravel-nusa] select#${this.$el.id} points at a missing parent-id "${parentId}".`)
+
+                return
+            }
+
+            if (!this.$el.disabled || !parent.value || !this.parentLevel) {
+                return
+            }
+
+            const rows = await fetchRows(this.base, PATHS[this.parentLevel](parent.value))
+
+            this.fill(rows, null)
+
+            // A deeper level may have been waiting on this one.
+            this.children().forEach((element) => this.data(element)?.hydrate())
         },
 
         get level() {
@@ -57,6 +85,14 @@ document.addEventListener('alpine:init', () => {
 
         get childLevel() {
             return CHILD[this.level] || null
+        },
+
+        get parentLevel() {
+            return {
+                regency: 'province',
+                district: 'regency',
+                village: 'district',
+            }[this.level] || null
         },
 
         children() {
