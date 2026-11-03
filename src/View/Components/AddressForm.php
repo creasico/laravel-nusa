@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Creasi\Nusa\View\Components;
 
 use Illuminate\Contracts\View\View;
+use Illuminate\Support\Str;
 use Illuminate\View\Component;
 
 /**
@@ -48,7 +49,9 @@ final class AddressForm extends Component
         array $fields = [],
         ?string $id = null,
     ) {
-        $this->id = $id ?? 'nusa-address';
+        // Unique per instance: two forms on one page must not share control ids,
+        // because parent-id and the postal target are resolved by id.
+        $this->id = $id ?? 'nusa-address-'.Str::lower(Str::random(8));
         $this->fields = array_merge(self::FIELDS, $fields);
 
         $this->line = $this->valueOf($address, 'line');

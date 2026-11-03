@@ -7,6 +7,7 @@ namespace Creasi\Nusa\View\Components;
 use Creasi\Nusa\Contracts;
 use Creasi\Nusa\Models\Model;
 use Illuminate\Contracts\View\View;
+use Illuminate\Support\Str;
 use Illuminate\View\Component;
 use InvalidArgumentException;
 
@@ -53,7 +54,9 @@ final class Select extends Component
         $this->name = $name ?? "{$level}_code";
         $this->parentId = $parentId;
         $this->base = $base ?? url()->to(config('creasi.nusa.routes_prefix', 'nusa'));
-        $this->id = $id ?? "nusa-{$level}";
+        // Unique per instance: a second select of the same level would otherwise
+        // duplicate its id and steal the first one's label and parent-id lookups.
+        $this->id = $id ?? "nusa-{$level}-".Str::lower(Str::random(8));
         $this->parent = $parent ?? $this->parentFromValue();
         $this->disabled = $level !== 'province' && blank($this->parent);
         $this->label = $this->trans("{$level}_code.label");

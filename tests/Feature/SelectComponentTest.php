@@ -17,7 +17,7 @@ beforeEach(function () {
 
 it('renders every province', function () {
     /** @var TestCase $this */
-    $this->blade('<x-nusa::select level="province" />')
+    $this->blade('<x-nusa::select level="province" id="nusa-province" />')
         ->assertSee('id="nusa-province"', false)
         ->assertSee('name="province_code"', false)
         ->assertSee('autocomplete="address-level1"', false)
@@ -27,7 +27,7 @@ it('renders every province', function () {
 
 it('disables a level until its parent is chosen', function (string $level, string $message) {
     /** @var TestCase $this */
-    $html = (string) $this->blade("<x-nusa::select level=\"{$level}\" />");
+    $html = (string) $this->blade("<x-nusa::select level=\"{$level}\" id=\"nusa-{$level}\" />");
 
     expect($html)->toMatch('/<select[^>]*\sdisabled[\s>]/')
         ->toContain("aria-describedby=\"nusa-{$level}-message\"")
@@ -77,4 +77,14 @@ it('follows the application locale', function () {
 
     expect($html)->toContain('Kota/Kabupaten')
         ->toContain('Pilih Provinsi terlebih dahulu');
+});
+
+it('gives every instance a different id', function () {
+    /** @var TestCase $this */
+    $html = (string) $this->blade('<x-nusa::select level="province" /><x-nusa::select level="province" />');
+
+    preg_match_all('/id="(nusa-province-[^"]+)"/', $html, $matches);
+
+    expect($matches[1])->toHaveCount(2)
+        ->and(array_unique($matches[1]))->toHaveCount(2);
 });

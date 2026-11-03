@@ -18,7 +18,7 @@ beforeEach(function () {
 it('renders a prefilled address without any request', function () {
     /** @var TestCase $this */
     $html = (string) $this->blade(
-        "<x-nusa::address-form :address=\"['line' => 'Jl. Merdeka 1', 'province_code' => '33', 'regency_code' => '33.75', 'postal_code' => '51111']\" />"
+        "<x-nusa::address-form id=\"nusa-address\" :address=\"['line' => 'Jl. Merdeka 1', 'province_code' => '33', 'regency_code' => '33.75', 'postal_code' => '51111']\" />"
     );
 
     expect($html)
@@ -67,7 +67,7 @@ it('maps every level to its autocomplete token', function () {
 it('disables the levels below the prefilled chain', function () {
     /** @var TestCase $this */
     $html = (string) $this->blade(
-        "<x-nusa::address-form :address=\"['province_code' => '33']\" />"
+        "<x-nusa::address-form id=\"nusa-address\" :address=\"['province_code' => '33']\" />"
     );
 
     expect($html)
@@ -97,7 +97,7 @@ it('seeds alpine with the route prefix', function () {
 
 it('wires the levels together through parent-id', function () {
     /** @var TestCase $this */
-    $html = (string) $this->blade('<x-nusa::address-form />');
+    $html = (string) $this->blade('<x-nusa::address-form id="nusa-address" />');
 
     expect($html)
         ->toContain('data-parent-id="nusa-address-province"')
@@ -120,4 +120,14 @@ it('compiles the nusaAssets directive', function () {
     expect($html)->toContain('<script')
         ->toContain('alpine:init')
         ->toContain('nusaSelect');
+});
+
+it('gives every form a different id', function () {
+    /** @var TestCase $this */
+    $html = (string) $this->blade('<x-nusa::address-form /><x-nusa::address-form />');
+
+    preg_match_all('/<div id="(nusa-address-[a-z0-9]{8})"/', $html, $matches);
+
+    expect($matches[1])->toHaveCount(2)
+        ->and(array_unique($matches[1]))->toHaveCount(2);
 });
