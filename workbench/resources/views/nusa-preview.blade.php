@@ -16,6 +16,18 @@
 
     <x-nusa::address-form :address="['province_code' => '33', 'regency_code' => '33.75']" />
 
+    <h2>Standalone</h2>
+
+    <p>
+        Each select works on its own. Cascading is wired by <code>parent-id</code>:
+        without it a select is just a select.
+    </p>
+
+    <x-nusa::select level="province" id="demo-province" />
+    <x-nusa::select level="regency" id="demo-regency" parent-id="demo-province" />
+    <x-nusa::select level="district" id="demo-district" />
+    <x-nusa::select level="village" id="demo-orphan" parent-id="does-not-exist" />
+
     <dl>
         <dt>Connection</dt>
         <dd><code>{{ config('creasi.nusa.connection') }}</code></dd>
@@ -36,6 +48,7 @@
     @elseif ($provinces === 0)
         <p><strong>The database is empty.</strong> Import it before previewing.</p>
     @endif
+    @nusaAssets
     <script defer src="https://unpkg.com/alpinejs@3/dist/cdn.min.js"></script>
 </body>
 </html>
