@@ -62,6 +62,15 @@ it('rejects a page size above the maximum', function (string $parameter) {
     getJson("nusa/provinces?{$parameter}=201")->assertUnprocessable();
 })->with(['per_page', 'per-page']);
 
+it('rejects a page size below one', function (string $parameter, int $size) {
+    getJson("nusa/provinces?{$parameter}={$size}")->assertUnprocessable();
+})->with([
+    'zero' => ['per_page', 0],
+    'negative' => ['per_page', -1],
+    'zero alias' => ['per-page', 0],
+    'negative alias' => ['per-page', -1],
+]);
+
 it('allows the largest cascade list', function () {
     getJson('nusa/districts/33.75.03/villages?per_page=150')
         ->assertOk()
