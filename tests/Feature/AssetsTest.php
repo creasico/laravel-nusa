@@ -9,36 +9,23 @@ beforeEach(function () {
     $this->path = '';
 });
 
-afterEach(function () {
-    @unlink(public_path('vendor/nusa/nusa.js'));
-});
-
-it('inlines the shipped script when the asset is not published', function () {
+it('emits a same-origin script tag', function () {
     /** @var TestCase $this */
     $html = (string) $this->blade('@nusaAssets');
 
-    expect($html)
-        ->toContain('<script>')
-        ->toContain('alpine:init')
-        ->not->toContain('defer');
-});
-
-it('loads the published script without defer', function () {
-    /** @var TestCase $this */
-    $published = public_path('vendor/nusa/nusa.js');
-
-    if (! is_dir($dir = \dirname($published))) {
-        mkdir($dir, 0777, true);
-    }
-
-    file_put_contents($published, '// published');
-
-    $html = (string) $this->blade('@nusaAssets');
-
-    // `defer` would let a deferred Alpine dispatch `alpine:init` before this script
-    // runs, leaving every component unregistered.
     expect($html)
         ->toContain('<script src=')
         ->toContain('vendor/nusa/nusa.js')
         ->not->toContain('defer');
+});
+
+it('never inlines the script', function () {
+    /** @var TestCase $this */
+    $html = (string) $this->blade('@nusaAssets');
+
+    // An inline copy needs `unsafe-inline` or a nonce, and a blocking policy fails
+    // silently, so the published file is the only form.
+    expect($html)
+        ->not->toContain('alpine:init')
+        ->not->toContain('nusaSelect');
 });

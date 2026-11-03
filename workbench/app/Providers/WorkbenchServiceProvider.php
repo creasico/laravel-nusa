@@ -89,6 +89,16 @@ class WorkbenchServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
+        // `@nusaAssets` only ever points at the published file, so the preview needs it
+        // to exist. Stands in for `vendor:publish --tag=nusa-assets` during development.
+        if (! is_file($asset = public_path('vendor/nusa/nusa.js'))) {
+            if (! is_dir($dir = \dirname($asset))) {
+                mkdir($dir, 0777, true);
+            }
+
+            copy(\dirname(__DIR__, 3).'/resources/js/nusa.js', $asset);
+        }
+
         if (app()->runningInConsole()) {
             $this->commands([
                 StatCommand::class,

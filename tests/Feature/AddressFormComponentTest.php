@@ -113,15 +113,6 @@ it('leaves asset loading to the layout', function () {
     expect($html)->not->toContain('nusaRegistered');
 });
 
-it('compiles the nusaAssets directive', function () {
-    /** @var TestCase $this */
-    $html = (string) $this->blade('@nusaAssets');
-
-    expect($html)->toContain('<script')
-        ->toContain('alpine:init')
-        ->toContain('nusaSelect');
-});
-
 it('gives every form a different id', function () {
     /** @var TestCase $this */
     $html = (string) $this->blade('<x-nusa::address-form /><x-nusa::address-form />');
