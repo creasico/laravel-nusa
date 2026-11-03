@@ -155,12 +155,42 @@ document.addEventListener('alpine:init', () => {
         },
     }))
 
-    window.Alpine.data('nusaPostal', (base) => ({
+    window.Alpine.data('nusaPostal', (base, targetId = null) => ({
         base,
+        targetId,
         error: '',
+        listener: null,
+        // Monotonic: an object token would come back from Alpine's reactive proxy as a
+        // different identity, so every comparison would look stale.
+        sequence: 0,
+
+        init() {
+            const root = this.root()
+
+            if (root) {
+                this.listener = (event) => this.onChanged(event.detail)
+                root.addEventListener('nusa-changed', this.listener)
+            }
+        },
+
+        destroy() {
+            this.root()?.removeEventListener('nusa-changed', this.listener)
+        },
+
+        /**
+         * The container holding the region selects: `for` when given, otherwise the
+         * nearest ancestor the form marks.
+         */
+        root() {
+            if (this.targetId) {
+                return document.getElementById(this.targetId)
+            }
+
+            return this.$el.closest('[data-nusa-address]')
+        },
 
         selectEl(level) {
-            return this.$root.querySelector(`select[data-level="${level}"]`)
+            return this.root()?.querySelector(`select[data-level="${level}"]`) ?? null
         },
 
         select(level) {
@@ -170,12 +200,14 @@ document.addEventListener('alpine:init', () => {
         },
 
         postal() {
-            return this.$root.querySelector('[data-nusa-postal]')
+            return this.$el.querySelector('[data-nusa-postal]')
         },
 
         onChanged(detail) {
             const input = this.postal()
 
+            // A region change wins over a postal lookup still in flight.
+            this.sequence++
             this.error = ''
 
             if (!input) {
@@ -198,7 +230,12 @@ document.addEventListener('alpine:init', () => {
                 return
             }
 
+            const token = ++this.sequence
             const rows = await fetchRows(this.base, `villages?postal_code=${value}`)
+
+            if (this.sequence !== token) {
+                return
+            }
 
             if (rows.length === 0) {
                 input.setAttribute('aria-invalid', 'true')
@@ -208,7 +245,7 @@ document.addEventListener('alpine:init', () => {
                 return
             }
 
-            await this.apply(rows)
+            await this.apply(rows, token)
         },
 
         clear() {
@@ -224,7 +261,7 @@ document.addEventListener('alpine:init', () => {
         /**
          * Fill down to the deepest level the postal code determines uniquely.
          */
-        async apply(rows) {
+        async apply(rows, token) {
             const provinces = unique(rows, 'province_code')
 
             if (provinces.length !== 1) {
@@ -243,30 +280,39 @@ document.addEventListener('alpine:init', () => {
             this.select('regency')?.reset()
 
             const regencies = unique(rows, 'regency_code')
-            this.select('regency')?.fill(
-                await fetchRows(this.base, PATHS.province(provinces[0])),
-                regencies.length === 1 ? regencies[0] : null,
-            )
+            const regencyRows = await fetchRows(this.base, PATHS.province(provinces[0]))
+
+            if (this.sequence !== token) {
+                return
+            }
+
+            this.select('regency')?.fill(regencyRows, regencies.length === 1 ? regencies[0] : null)
 
             if (regencies.length !== 1) {
                 return
             }
 
             const districts = unique(rows, 'district_code')
-            this.select('district')?.fill(
-                await fetchRows(this.base, PATHS.regency(regencies[0])),
-                districts.length === 1 ? districts[0] : null,
-            )
+            const districtRows = await fetchRows(this.base, PATHS.regency(regencies[0]))
+
+            if (this.sequence !== token) {
+                return
+            }
+
+            this.select('district')?.fill(districtRows, districts.length === 1 ? districts[0] : null)
 
             if (districts.length !== 1) {
                 return
             }
 
             const villages = unique(rows, 'code')
-            this.select('village')?.fill(
-                await fetchRows(this.base, PATHS.district(districts[0])),
-                villages.length === 1 ? villages[0] : null,
-            )
+            const villageRows = await fetchRows(this.base, PATHS.district(districts[0]))
+
+            if (this.sequence !== token) {
+                return
+            }
+
+            this.select('village')?.fill(villageRows, villages.length === 1 ? villages[0] : null)
 
             if (villages.length === 1) {
                 const input = this.postal()
