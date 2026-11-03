@@ -28,7 +28,7 @@ composer testbench nusa:import -- --fresh --dist       # Import + build distribu
 composer testbench nusa:dist -- --force                # Strip coordinates into nusa.<branch>.sqlite
 composer testbench nusa:stat                           # Diff distribution vs development DB
 composer testbench nusa:generate-static                # CSV/JSON into resources/static (gitignored)
-composer testbench serve                               # Dev server; Blade preview at /blade
+composer serve                                         # Build assets + dev server; preview at /blade
 
 pnpm docs:dev | pnpm docs:build | pnpm docs:preview
 ```

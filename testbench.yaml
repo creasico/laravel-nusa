@@ -3,6 +3,10 @@ providers:
   - Workbench\App\Providers\WorkbenchServiceProvider
 
 workbench:
+  assets:
+    - nusa-assets
+  build:
+    - asset-publish
   discovers:
     web: true
     views: true
