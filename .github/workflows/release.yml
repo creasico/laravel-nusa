@@ -6,8 +6,26 @@ on:
     tags: ['v*.*.*']
 
 jobs:
-  publish:
-    name: Publish Release
-    uses: projek-xyz/actions/.github/workflows/release.yml@a84ced1eab6fac0576ed5cdd43f6ee0dfa5044a3 # main @ 2026-11-02
+  release:
+    name: Release
+    runs-on: ubuntu-latest
+
     permissions:
       contents: write
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      with:
+        fetch-depth: 0
+
+    - name: Set up pnpm
+      uses: pnpm/setup@fa36a5ef7dcdefc3a7cb25655c122e00cf6e636e # v3.1.2
+      with:
+        runtime: 'node@lts'
+        install: false
+
+    - name: Release Changelog
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
+      run: pnpm dlx changelogithub
