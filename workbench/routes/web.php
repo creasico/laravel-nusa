@@ -5,12 +5,52 @@ declare(strict_types=1);
 use Creasi\Nusa\Models\Province;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/blade', function () {
+Route::get('/blade/{code?}', function (?string $code = null) {
     $connection = config('creasi.nusa.connection');
+    $address = [
+        'province_code' => '33',
+        'regency_code' => '33.75',
+    ];
+
+    if ($code !== null) {
+        $segments = explode('.', $code);
+        $address = array_merge($address, match (\count($segments)) {
+            4 => [
+                'province_code' => $segments[0],
+                'regency_code' => implode('.', \array_slice($segments, 0, 2)),
+                'district_code' => implode('.', \array_slice($segments, 0, 3)),
+                'village_code' => $code,
+            ],
+            3 => [
+                'province_code' => $segments[0],
+                'regency_code' => implode('.', \array_slice($segments, 0, 2)),
+                'district_code' => $code,
+                'village_code' => '',
+            ],
+            2 => [
+                'province_code' => $segments[0],
+                'regency_code' => $code,
+                'district_code' => '',
+                'village_code' => '',
+            ],
+            1 => [
+                'province_code' => $code,
+                'regency_code' => '',
+                'district_code' => '',
+                'village_code' => '',
+            ],
+            default => []
+        });
+    }
 
     return view('nusa-preview', [
         'database' => (string) config("database.connections.{$connection}.database"),
         // A branch without an imported DB has no tables; preview must not 500.
         'provinces' => rescue(fn () => Province::count(), null, false),
+        'address' => $address,
+        'province_code' => $address['province_code'],
+        'regency_code' => $address['regency_code'],
+        'district_code' => $address['district_code'] ?? '',
+        'village_code' => $address['village_code'] ?? '',
     ]);
 })->name('nusa.preview');

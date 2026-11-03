@@ -14,7 +14,7 @@
         what makes the cascade interactive here.
     </p>
 
-    <x-nusa::address-form :address="['province_code' => '33', 'regency_code' => '33.75']" />
+    <x-nusa::address-form :address="$address" />
 
     <h2>Standalone</h2>
 
@@ -23,9 +23,13 @@
         without it a select is just a select.
     </p>
 
-    <x-nusa::select level="province" id="demo-province" />
-    <x-nusa::select level="regency" id="demo-regency" parent-id="demo-province" />
-    <x-nusa::select level="district" id="demo-district" />
+    <x-nusa::select level="province" :value="$province_code" id="demo-province" />
+    <x-nusa::select level="regency" :value="$regency_code" id="demo-regency" parent-id="demo-province" />
+    <x-nusa::select level="district" :value="$district_code" id="demo-district" parent-id="demo-regency" />
+    <x-nusa::select level="village" :value="$village_code" id="demo-village" parent-id="demo-district" />
+
+    <p>A select whose <code>parent-id</code> does not exist stays inert and says so in the console:</p>
+
     <x-nusa::select level="village" id="demo-orphan" parent-id="does-not-exist" />
 
     <dl>
