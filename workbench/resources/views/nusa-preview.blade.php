@@ -63,6 +63,30 @@
     @endif
 
     @nusaAssets
+
+    @if ($limit = max(0, (int) request('route-limit')))
+        {{-- Emulates a rate-limited API so the failure path can be seen: /blade?route-limit=1 --}}
+        <script>
+            (() => {
+                let remaining = {{ $limit }};
+                const realFetch = window.fetch;
+
+                window.fetch = (url, options) => {
+                    if (remaining > 0 && String(url).includes('/nusa/')) {
+                        remaining--;
+
+                        return Promise.resolve(new Response(JSON.stringify({ message: 'Too Many Attempts.' }), {
+                            status: 429,
+                            headers: { 'Content-Type': 'application/json', 'Retry-After': '60' },
+                        }));
+                    }
+
+                    return realFetch(url, options);
+                };
+            })();
+        </script>
+    @endif
+
     <script defer src="https://unpkg.com/alpinejs@3/dist/cdn.min.js"></script>
 </body>
 </html>
