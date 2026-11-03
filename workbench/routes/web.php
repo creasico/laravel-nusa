@@ -44,7 +44,8 @@ Route::get('/blade/{code?}', function (?string $code = null) {
     }
 
     return view('nusa-preview', [
-        'database' => (string) config("database.connections.{$connection}.database"),
+        'nusa_db' => config('creasi.nusa.connection'),
+        'database' => (string) str_replace($_ENV['HOME'], '~', config("database.connections.{$connection}.database")),
         // A branch without an imported DB has no tables; preview must not 500.
         'provinces' => rescue(fn () => Province::count(), null, false),
         'address' => $address,
