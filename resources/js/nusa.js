@@ -40,8 +40,9 @@ document.addEventListener('alpine:init', () => {
         .map((row) => `<option value="${row.code}"${row.postal_code ? ` data-postal="${row.postal_code}"` : ''}>${row.name}</option>`)
         .join('')
 
-    window.Alpine.data('nusaSelect', (base) => ({
+    window.Alpine.data('nusaSelect', (base, initialDisabled = false) => ({
         base,
+        disabled: initialDisabled,
 
         init() {
             this.hydrate()
@@ -53,7 +54,7 @@ document.addEventListener('alpine:init', () => {
          * them here instead of leaving the field disabled.
          */
         async hydrate() {
-            const parentId = this.$el.dataset.parentId
+            const parentId = this.el.dataset.parentId
 
             if (!parentId) {
                 return
@@ -62,12 +63,12 @@ document.addEventListener('alpine:init', () => {
             const parent = document.getElementById(parentId)
 
             if (parent === null) {
-                console.error(`[laravel-nusa] select#${this.$el.id} points at a missing parent-id "${parentId}".`)
+                console.error(`[laravel-nusa] select#${this.el.id} points at a missing parent-id "${parentId}".`)
 
                 return
             }
 
-            if (!this.$el.disabled || !parent.value || !this.parentLevel) {
+            if (!this.disabled || !parent.value || !this.parentLevel) {
                 return
             }
 
@@ -79,8 +80,12 @@ document.addEventListener('alpine:init', () => {
             this.children().forEach((element) => this.data(element)?.hydrate())
         },
 
+        get el() {
+            return this.$refs.control
+        },
+
         get level() {
-            return this.$el.dataset.level || ''
+            return this.el.dataset.level || ''
         },
 
         get childLevel() {
@@ -96,11 +101,11 @@ document.addEventListener('alpine:init', () => {
         },
 
         children() {
-            if (!this.$el.id) {
+            if (!this.el.id) {
                 return []
             }
 
-            return Array.from(document.querySelectorAll(`[data-parent-id="${CSS.escape(this.$el.id)}"]`))
+            return Array.from(document.querySelectorAll(`[data-parent-id="${CSS.escape(this.el.id)}"]`))
         },
 
         data(element) {
@@ -108,24 +113,15 @@ document.addEventListener('alpine:init', () => {
         },
 
         fill(rows, value) {
-            const el = this.$el
+            const el = this.el
             const placeholder = el.dataset.placeholder || ''
 
             el.innerHTML = `<option value="">${placeholder}</option>` + render(rows)
             el.value = value || ''
-            el.disabled = rows.length === 0
 
-            if (el.disabled) {
-                el.setAttribute('aria-describedby', `${el.id}-message`)
-            } else {
-                el.removeAttribute('aria-describedby')
-            }
-
-            const message = document.getElementById(`${el.id}-message`)
-
-            if (message) {
-                message.hidden = !el.disabled
-            }
+            // Everything the field shows about itself — disabled, describedby, message —
+            // follows from this one flag.
+            this.disabled = rows.length === 0
         },
 
         reset() {
@@ -134,7 +130,7 @@ document.addEventListener('alpine:init', () => {
         },
 
         async onChange() {
-            const code = this.$el.value
+            const code = this.el.value
             const children = this.children()
 
             children.forEach((element) => this.data(element)?.reset())
@@ -142,7 +138,7 @@ document.addEventListener('alpine:init', () => {
             this.$dispatch('nusa-changed', {
                 level: this.level,
                 code,
-                postal: this.$el.selectedOptions[0]?.dataset.postal ?? null,
+                postal: this.el.selectedOptions[0]?.dataset.postal ?? null,
             })
 
             if (!code || children.length === 0 || !this.childLevel) {
