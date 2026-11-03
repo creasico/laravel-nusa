@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.2.1-pre.0](https://github.com/creasico/laravel-nusa/compare/v0.2.0...v0.2.1-pre.0) (2026-11-03)
+
+### Bug Fixes
+
+* **ci:** wait for release to be published ([#351](https://github.com/creasico/laravel-nusa/issues/351)) ([2df9687](https://github.com/creasico/laravel-nusa/commit/2df9687575ff4d722f2985eee4a6e1a0c09f7eb3)), references [#347](https://github.com/creasico/laravel-nusa/issues/347)
+
 ## [0.2.0](https://github.com/creasico/laravel-nusa/compare/v0.1.19...v0.2.0) (2026-11-03)
 
 ### ⚠ BREAKING CHANGES
