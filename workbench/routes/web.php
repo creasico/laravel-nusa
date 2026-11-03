@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 use Creasi\Nusa\Models\Province;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Str;
 
 Route::get('/blade/{code?}', function (?string $code = null) {
     $connection = config('creasi.nusa.connection');
@@ -47,7 +48,9 @@ Route::get('/blade/{code?}', function (?string $code = null) {
         'nusa_db' => config('creasi.nusa.connection'),
         // `getenv()` reads the process environment directly: `$_ENV` is empty under some
         // `variables_order` settings and `$_SERVER` is not forwarded to the `php -S` child.
-        'database' => (string) str_replace((string) getenv('HOME'), '~', config("database.connections.{$connection}.database")),
+        // A plain `str_replace` would also rewrite `/home/alice-old` or, with `HOME=/`,
+        // every slash in the path.
+        'database' => Str::replaceStart((string) getenv('HOME'), '~', config("database.connections.{$connection}.database")),
         // A branch without an imported DB has no tables; preview must not 500.
         'provinces' => rescue(fn () => Province::count(), null, false),
         'address' => $address,
