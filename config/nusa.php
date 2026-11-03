@@ -23,12 +23,4 @@ return [
 
     'routes_prefix' => env('CREASI_NUSA_ROUTES_PREFIX', 'nusa'),
 
-    /**
-     * Requests per minute allowed per IP on the API routes.
-     *
-     * Set to `0` to disable throttling. Limiting uses the application's default
-     * cache store, so the `array` store — which resets every request — effectively
-     * disables it outside of a single process.
-     */
-    'rate_limit' => env('CREASI_NUSA_RATE_LIMIT', 60),
 ];

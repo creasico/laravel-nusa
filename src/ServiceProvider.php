@@ -4,12 +4,9 @@ declare(strict_types=1);
 
 namespace Creasi\Nusa;
 
-use Illuminate\Cache\RateLimiting\Limit;
 use Illuminate\Filesystem\Filesystem;
-use Illuminate\Http\Request;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Blade;
-use Illuminate\Support\Facades\RateLimiter;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
 
@@ -30,8 +27,6 @@ class ServiceProvider extends IlluminateServiceProvider
         Blade::componentNamespace('Creasi\\Nusa\\View\\Components', 'nusa');
 
         $this->defineAssets();
-
-        $this->defineRateLimiter();
 
         $this->defineRoutes();
     }
@@ -64,24 +59,7 @@ class ServiceProvider extends IlluminateServiceProvider
 
         Route::prefix(config('creasi.nusa.routes_prefix', 'nusa'))
             ->name('nusa.')
-            ->middleware('throttle:nusa')
             ->group(self::LIB_PATH.'/routes/nusa.php');
-    }
-
-    /**
-     * Register the `nusa` rate limiter used by the API routes.
-     *
-     * @codeCoverageIgnore
-     */
-    protected function defineRateLimiter(): void
-    {
-        RateLimiter::for('nusa', function (Request $request) {
-            $perMinute = (int) config('creasi.nusa.rate_limit', 60);
-
-            return $perMinute > 0
-                ? Limit::perMinute($perMinute)->by($request->ip())
-                : Limit::none();
-        });
     }
 
     /**
