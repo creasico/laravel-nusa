@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Nusa — Blade preview</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
     <h1>Nusa — Blade preview</h1>
@@ -69,10 +71,11 @@
         <script>
             (() => {
                 let remaining = {{ $limit }};
+                const marker = @js('/'.trim(config('creasi.nusa.routes_prefix', 'nusa'), '/').'/');
                 const realFetch = window.fetch;
 
                 window.fetch = (url, options) => {
-                    if (remaining > 0 && String(url).includes('/nusa/')) {
+                    if (remaining > 0 && String(url).includes(marker)) {
                         remaining--;
 
                         return Promise.resolve(new Response(JSON.stringify({ message: 'Too Many Attempts.' }), {
