@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Creasi\Nusa\Support;
+namespace Creasi\Nusa\View;
 
 final class Assets
 {

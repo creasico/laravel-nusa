@@ -71,7 +71,7 @@ class ServiceProvider extends IlluminateServiceProvider
     {
         // Echoed at render time rather than baked in, so the inline fallback can never
         // go stale inside a compiled view.
-        Blade::directive('nusaAssets', fn (): string => '<?php echo \Creasi\\Nusa\\Support\\Assets::script(); ?>');
+        Blade::directive('nusaAssets', fn (): string => '<?php echo \Creasi\\Nusa\\View\\Assets::script(); ?>');
     }
 
     protected function registerPublishables(): void
