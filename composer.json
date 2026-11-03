@@ -53,6 +53,11 @@
             "Composer\\Config::disableProcessTimeout",
             "testbench"
         ],
+        "serve": [
+            "Composer\\Config::disableProcessTimeout",
+            "@testbench workbench:build",
+            "@testbench serve"
+        ],
         "testbench:purge": [
             "testbench workbench:purge-skeleton"
         ],

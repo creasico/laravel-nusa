@@ -3,14 +3,11 @@
 declare(strict_types=1);
 
 return [
-    'rt' => [
-        'label' => 'RT',
-        'placeholder' => '000',
-    ],
+    'no_options' => 'No options available.',
+    'load_failed' => 'Could not load the options.',
 
-    'rw' => [
-        'label' => 'RW',
-        'placeholder' => '000',
+    'address' => [
+        'label' => 'Address',
     ],
 
     'address_line' => [
@@ -26,20 +23,25 @@ return [
     'regency_code' => [
         'label' => 'Regency',
         'placeholder' => 'Choose Regency',
+        'hint' => 'Choose Province first',
     ],
 
     'district_code' => [
         'label' => 'District',
         'placeholder' => 'Choose District',
+        'hint' => 'Choose Regency first',
     ],
 
     'village_code' => [
         'label' => 'Village',
         'placeholder' => 'Choose Village',
+        'hint' => 'Choose District first',
     ],
 
     'postal_code' => [
         'label' => 'Postal Code',
         'placeholder' => '5 Digit Postal Code',
+        'invalid' => 'Postal code not found.',
+        'failed' => 'Could not look up the postal code.',
     ],
 ];

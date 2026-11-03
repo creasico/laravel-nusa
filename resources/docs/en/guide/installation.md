@@ -205,6 +205,48 @@ CREASI_NUSA_ROUTES_PREFIX=api/indonesia
 
 Routes will then be available at `/api/indonesia/provinces`, etc.
 
+### UI Components (Optional)
+
+Laravel Nusa ships Blade components for the administrative divisions —
+`<x-nusa::address-form>`, `<x-nusa::select>` and `<x-nusa::postal>`. Their behaviour comes
+from one script, loaded once per layout:
+
+```blade
+{{-- resources/views/layouts/app.blade.php --}}
+<head>
+    @nusaAssets
+
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3/dist/cdn.min.js"></script>
+</head>
+```
+
+`@nusaAssets` points at `/vendor/nusa/nusa.js`, so publish it first:
+
+```bash
+php artisan vendor:publish --tag=nusa-assets
+```
+
+There is no inline fallback: an unpublished script returns a 404 and the components render
+without ever becoming interactive.
+
+Three details decide whether the components work:
+
+- **Load it before Alpine.** The script registers its components on `alpine:init`. A
+  deferred script placed after Alpine's executes too late and nothing initialises — the form
+  renders and simply does nothing.
+- **Allow both scripts.** `@nusaAssets` emits `/vendor/nusa/nusa.js`, while the example
+  above loads Alpine from `cdn.jsdelivr.net`. A `script-src 'self'` policy blocks the second one,
+  so add that origin — or self-host Alpine — alongside the package's own script.
+- **No inline script.** If your policy only accepts nonces, write the tag yourself instead
+  of using the directive:
+
+```blade
+<script src="{{ asset('vendor/nusa/nusa.js') }}" nonce="{{ csp_nonce() }}"></script>
+```
+
+The URL goes through `asset()`, so `ASSET_URL` applies — when it points at a CDN, that
+host needs its own `script-src` entry too.
+
 ## Troubleshooting
 
 ### Common Installation Issues

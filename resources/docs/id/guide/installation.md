@@ -205,6 +205,49 @@ CREASI_NUSA_ROUTES_PREFIX=api/indonesia
 
 Rute kemudian akan tersedia di `/api/indonesia/provinces`, dll.
 
+### Komponen UI (Opsional)
+
+Laravel Nusa menyertakan komponen Blade untuk wilayah administratif —
+`<x-nusa::address-form>`, `<x-nusa::select>`, dan `<x-nusa::postal>`. Perilakunya berasal
+dari satu skrip yang dimuat sekali per layout:
+
+```blade
+{{-- resources/views/layouts/app.blade.php --}}
+<head>
+    @nusaAssets
+
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3/dist/cdn.min.js"></script>
+</head>
+```
+
+`@nusaAssets` mengarah ke `/vendor/nusa/nusa.js`, jadi publikasikan lebih dulu:
+
+```bash
+php artisan vendor:publish --tag=nusa-assets
+```
+
+Tidak ada fallback inline: skrip yang belum dipublikasikan akan menghasilkan 404 dan
+komponen tetap tampil tanpa pernah interaktif.
+
+Tiga hal menentukan apakah komponen berfungsi:
+
+- **Muat sebelum Alpine.** Skrip mendaftarkan komponennya pada `alpine:init`. Skrip
+  `defer` yang diletakkan setelah Alpine berjalan terlalu lambat sehingga tidak ada yang
+  terinisialisasi — formulir tampil tetapi tidak melakukan apa pun.
+- **Izinkan kedua skrip.** `@nusaAssets` menghasilkan `/vendor/nusa/nusa.js`, sedangkan
+  contoh di atas memuat Alpine dari `cdn.jsdelivr.net`. Kebijakan `script-src 'self'` akan
+  memblokir yang kedua, jadi tambahkan origin tersebut — atau host sendiri Alpine — di
+  samping skrip paket ini.
+- **Tidak ada skrip inline.** Bila kebijakan Anda hanya menerima nonce, tulis tag-nya
+  sendiri alih-alih memakai direktif:
+
+```blade
+<script src="{{ asset('vendor/nusa/nusa.js') }}" nonce="{{ csp_nonce() }}"></script>
+```
+
+URL-nya melalui `asset()`, jadi `ASSET_URL` berlaku — bila mengarah ke CDN, host tersebut
+juga perlu entri `script-src` tersendiri.
+
 ## Pemecahan Masalah
 
 ### Masalah Instalasi Umum

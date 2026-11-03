@@ -111,6 +111,15 @@ class WorkbenchServiceProvider extends ServiceProvider
                     'foreign_key_constraints' => true,
                 ]);
             }
+
+            // `serve` runs the skeleton app, whose `.env` has no APP_KEY, and neither
+            // `env:` in testbench.yaml nor a shell variable reaches the `php -S` child
+            // process (ServeCommand::$passthroughVariables is a fixed list). Fake one so
+            // the `web` middleware group can boot.
+            if (empty($config->get('app.key'))) {
+                $config->set('app.key', 'base64:iZ6Mbip8hrj1WDiIXoDkLzj0eR9Q5KFQIJn0PvMAPxU=');
+                $config->set('app.cipher', 'AES-256-CBC');
+            }
         });
     }
 

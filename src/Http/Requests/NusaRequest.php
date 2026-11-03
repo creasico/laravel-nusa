@@ -28,8 +28,9 @@ final class NusaRequest extends FormRequest
             'codes.*' => ['string'],
             'search' => ['nullable', 'string'],
             'postal_code' => ['nullable', 'numeric', 'digits:5'],
-            'page' => ['nullable', 'numeric'],
-            'per-page' => ['nullable', 'numeric'],
+            'page' => ['nullable', 'integer'],
+            'per-page' => ['nullable', 'integer', 'min:1', 'max:200'],
+            'per_page' => ['nullable', 'integer', 'min:1', 'max:200'],
         ];
     }
 
@@ -45,7 +46,10 @@ final class NusaRequest extends FormRequest
             ? $model->getQuery()
             : $model->query();
 
-        $perPage = $this->filled('per-page') ? $this->integer('per-page') : null;
+        // `per_page` is the Laravel convention; `per-page` is kept as a deprecated alias.
+        $perPage = $this->filled('per_page')
+            ? $this->integer('per_page')
+            : ($this->filled('per-page') ? $this->integer('per-page') : null);
 
         $result = $query
             ->with($this->eagerLoads($related))
