@@ -11,6 +11,8 @@ Route::get('/blade/{code?}', function (?string $code = null) {
     $address = [
         'province_code' => '33',
         'regency_code' => '33.75',
+        'district_code' => '',
+        'village_code' => '',
     ];
 
     if ($code !== null) {
@@ -26,19 +28,14 @@ Route::get('/blade/{code?}', function (?string $code = null) {
                 'province_code' => $segments[0],
                 'regency_code' => implode('.', \array_slice($segments, 0, 2)),
                 'district_code' => $code,
-                'village_code' => '',
             ],
             2 => [
                 'province_code' => $segments[0],
                 'regency_code' => $code,
-                'district_code' => '',
-                'village_code' => '',
             ],
             1 => [
                 'province_code' => $code,
                 'regency_code' => '',
-                'district_code' => '',
-                'village_code' => '',
             ],
             default => []
         });
@@ -56,7 +53,7 @@ Route::get('/blade/{code?}', function (?string $code = null) {
         'address' => $address,
         'province_code' => $address['province_code'],
         'regency_code' => $address['regency_code'],
-        'district_code' => $address['district_code'] ?? '',
-        'village_code' => $address['village_code'] ?? '',
+        'district_code' => $address['district_code'],
+        'village_code' => $address['village_code'],
     ]);
 })->name('nusa.preview');

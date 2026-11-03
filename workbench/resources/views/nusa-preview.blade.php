@@ -44,7 +44,7 @@
                 what makes the cascade interactive here.
             </p>
 
-            <div class="flex flex-row flex-wrap gap-4">
+            <div class="flex flex-row gap-4">
                 <fieldset class="basis-1/3">
                     <legend class="text-sm mb-4 font-semibold text-gray-700">
                         {{ __('creasico::nusa.address.label') }}
