@@ -15,7 +15,10 @@ final class Assets
     public static function script(): string
     {
         if (is_file($published = public_path('vendor/nusa/nusa.js'))) {
-            return '<script src="'.e(asset('vendor/nusa/nusa.js')).'" defer></script>';
+            // No `defer`: this script registers on `alpine:init`, and a deferred script
+            // placed after a deferred Alpine executes too late — Alpine's CDN build
+            // starts from a microtask, which runs before the next deferred script.
+            return '<script src="'.e(asset('vendor/nusa/nusa.js')).'"></script>';
         }
 
         return '<script>'.file_get_contents(self::source()).'</script>';
