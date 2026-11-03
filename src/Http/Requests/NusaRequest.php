@@ -28,9 +28,9 @@ final class NusaRequest extends FormRequest
             'codes.*' => ['string'],
             'search' => ['nullable', 'string'],
             'postal_code' => ['nullable', 'numeric', 'digits:5'],
-            'page' => ['nullable', 'numeric'],
-            'per-page' => ['nullable', 'numeric', 'min:1', 'max:200'],
-            'per_page' => ['nullable', 'numeric', 'min:1', 'max:200'],
+            'page' => ['nullable', 'integer'],
+            'per-page' => ['nullable', 'integer', 'min:1', 'max:200'],
+            'per_page' => ['nullable', 'integer', 'min:1', 'max:200'],
         ];
     }
 

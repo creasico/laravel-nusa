@@ -21,8 +21,11 @@ it('rejects invalid query parameters', function (array $query) {
     getJson('nusa/provinces?'.http_build_query($query))->assertUnprocessable();
 })->with([
     'page is not numeric' => [['page' => 'abc']],
+    'page is not a whole number' => [['page' => '1.5']],
     'per-page is not numeric' => [['per-page' => 'abc']],
+    'per-page is not a whole number' => [['per-page' => '1.5']],
     'per_page is not numeric' => [['per_page' => 'abc']],
+    'per_page is not a whole number' => [['per_page' => '1.5']],
     'with is not an array' => [['with' => 'regencies']],
     'codes is not an array' => [['codes' => '33']],
     'search is not a string' => [['search' => ['jawa']]],
