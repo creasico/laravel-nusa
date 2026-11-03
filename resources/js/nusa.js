@@ -29,23 +29,41 @@ document.addEventListener('alpine:init', () => {
     const unique = (rows, key) => [...new Set(rows.map((row) => row[key]))]
 
     /**
-     * `null` means the request failed; `[]` means it succeeded and matched nothing.
-     * The body is never parsed on failure: Laravel answers 500 with a debug payload in
-     * development, and a fatal or a proxy error can return HTML or nothing at all.
+     * The server's own explanation when it sends one: Laravel answers a 500 with
+     * `{"message":"Server Error"}` and a throttled request with `{"message":"Too Many
+     * Attempts."}`. Anything that is not JSON — a fatal, a proxy error — falls back.
      */
-    const fetchRows = async (base, path) => {
+    const failureMessage = async (response, fallback) => {
+        try {
+            const payload = await response.json()
+
+            if (payload !== null && typeof payload.message === 'string' && payload.message !== '') {
+                return payload.message
+            }
+        } catch {
+            // Not JSON, so there is nothing in the body worth showing.
+        }
+
+        return fallback
+    }
+
+    /**
+     * `{ rows: [] }` means the request succeeded and matched nothing; `{ error }` means it
+     * failed. A caller must not confuse the two.
+     */
+    const fetchRows = async (base, path, fallback = '') => {
         try {
             const response = await window.fetch(`${base}/${path}${path.includes('?') ? '&' : '?'}per_page=150`, {
                 headers: { Accept: 'application/json' },
             })
 
             if (!response.ok) {
-                return null
+                return { error: await failureMessage(response, fallback) }
             }
 
-            return (await response.json()).data ?? []
+            return { rows: (await response.json()).data ?? [] }
         } catch {
-            return null
+            return { error: fallback }
         }
     }
 
@@ -90,13 +108,13 @@ document.addEventListener('alpine:init', () => {
 
             const token = ++this.sequence
             const value = parent.value
-            const rows = await fetchRows(this.base, PATHS[this.parentLevel](value))
+            const result = await fetchRows(this.base, PATHS[this.parentLevel](value))
 
-            if (rows === null || this.sequence !== token || parent.value !== value) {
+            if (result.error !== undefined || this.sequence !== token || parent.value !== value) {
                 return
             }
 
-            this.fill(rows, null)
+            this.fill(result.rows, null)
 
             // A deeper level may have been waiting on this one.
             this.children().forEach((element) => this.data(element)?.hydrate())
@@ -169,16 +187,16 @@ document.addEventListener('alpine:init', () => {
             }
 
             const token = ++this.sequence
-            const rows = await fetchRows(this.base, PATHS[this.level](code))
+            const result = await fetchRows(this.base, PATHS[this.level](code))
 
             // A later change on this select owns the result; this one is history.
-            if (rows === null || this.sequence !== token) {
+            if (result.error !== undefined || this.sequence !== token) {
                 return
             }
 
             // A parent may feed more than one child; `reset()` already treats them
             // as a set, so filling does the same.
-            children.forEach((element) => this.data(element)?.fill(rows, null))
+            children.forEach((element) => this.data(element)?.fill(result.rows, null))
         },
     }))
 
@@ -260,18 +278,20 @@ document.addEventListener('alpine:init', () => {
                 return
             }
 
-            const rows = await fetchRows(this.base, `villages?postal_code=${value}`)
+            const result = await fetchRows(this.base, `villages?postal_code=${value}`, this.failed())
 
             if (this.sequence !== token) {
                 return
             }
 
             // A failed request is not an unknown code: keep what the user had.
-            if (rows === null) {
-                this.error = input.dataset.failed || ''
+            if (result.error !== undefined) {
+                this.error = result.error
 
                 return
             }
+
+            const rows = result.rows
 
             if (rows.length === 0) {
                 input.setAttribute('aria-invalid', 'true')
@@ -297,6 +317,10 @@ document.addEventListener('alpine:init', () => {
         /**
          * Fill down to the deepest level the postal code determines uniquely.
          */
+        failed() {
+            return this.postal()?.dataset.failed || ''
+        },
+
         async apply(rows, token) {
             const provinces = unique(rows, 'province_code')
 
@@ -316,39 +340,57 @@ document.addEventListener('alpine:init', () => {
             this.select('regency')?.reset()
 
             const regencies = unique(rows, 'regency_code')
-            const regencyRows = await fetchRows(this.base, PATHS.province(provinces[0]))
+            const regencyResult = await fetchRows(this.base, PATHS.province(provinces[0]), this.failed())
+
+            if (regencyResult.error !== undefined) {
+                this.error = regencyResult.error
+
+                return
+            }
 
             if (this.sequence !== token) {
                 return
             }
 
-            this.select('regency')?.fill(regencyRows, regencies.length === 1 ? regencies[0] : null)
+            this.select('regency')?.fill(regencyResult.rows, regencies.length === 1 ? regencies[0] : null)
 
             if (regencies.length !== 1) {
                 return
             }
 
             const districts = unique(rows, 'district_code')
-            const districtRows = await fetchRows(this.base, PATHS.regency(regencies[0]))
+            const districtResult = await fetchRows(this.base, PATHS.regency(regencies[0]), this.failed())
+
+            if (districtResult.error !== undefined) {
+                this.error = districtResult.error
+
+                return
+            }
 
             if (this.sequence !== token) {
                 return
             }
 
-            this.select('district')?.fill(districtRows, districts.length === 1 ? districts[0] : null)
+            this.select('district')?.fill(districtResult.rows, districts.length === 1 ? districts[0] : null)
 
             if (districts.length !== 1) {
                 return
             }
 
             const villages = unique(rows, 'code')
-            const villageRows = await fetchRows(this.base, PATHS.district(districts[0]))
+            const villageResult = await fetchRows(this.base, PATHS.district(districts[0]), this.failed())
+
+            if (villageResult.error !== undefined) {
+                this.error = villageResult.error
+
+                return
+            }
 
             if (this.sequence !== token) {
                 return
             }
 
-            this.select('village')?.fill(villageRows, villages.length === 1 ? villages[0] : null)
+            this.select('village')?.fill(villageResult.rows, villages.length === 1 ? villages[0] : null)
 
             if (villages.length === 1) {
                 const input = this.postal()
