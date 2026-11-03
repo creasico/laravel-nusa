@@ -56,6 +56,9 @@ document.addEventListener('alpine:init', () => {
     window.Alpine.data('nusaSelect', (base, initialDisabled = false) => ({
         base,
         disabled: initialDisabled,
+        // Bumped whenever this select's own options are replaced, so a response that
+        // belongs to a previous parent can be recognised and dropped.
+        sequence: 0,
 
         init() {
             this.hydrate()
@@ -85,9 +88,11 @@ document.addEventListener('alpine:init', () => {
                 return
             }
 
-            const rows = await fetchRows(this.base, PATHS[this.parentLevel](parent.value))
+            const token = ++this.sequence
+            const value = parent.value
+            const rows = await fetchRows(this.base, PATHS[this.parentLevel](value))
 
-            if (rows === null) {
+            if (rows === null || this.sequence !== token || parent.value !== value) {
                 return
             }
 
@@ -142,6 +147,7 @@ document.addEventListener('alpine:init', () => {
         },
 
         reset() {
+            this.sequence++
             this.fill([], null)
             this.children().forEach((element) => this.data(element)?.reset())
         },
@@ -162,13 +168,17 @@ document.addEventListener('alpine:init', () => {
                 return
             }
 
+            const token = ++this.sequence
             const rows = await fetchRows(this.base, PATHS[this.level](code))
 
-            if (rows === null) {
+            // A later change on this select owns the result; this one is history.
+            if (rows === null || this.sequence !== token) {
                 return
             }
 
-            this.data(children[0])?.fill(rows, null)
+            // A parent may feed more than one child; `reset()` already treats them
+            // as a set, so filling does the same.
+            children.forEach((element) => this.data(element)?.fill(rows, null))
         },
     }))
 
