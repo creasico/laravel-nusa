@@ -87,6 +87,23 @@ it('lists villages in a district', function (?string $search) {
     $this->assertPaginatedTotal($response, $expected);
 })->with('possibleSearchVillages');
 
+it('filters villages in a district by postal code', function () {
+    /** @var TestCase $this */
+    $postalCode = 51141;
+    $expected = Village::where('district_code', '33.75.03')
+        ->where('postal_code', $postalCode)
+        ->count();
+
+    $response = getJson($this->path('33.75.03/villages', ['postal_code' => $postalCode]));
+
+    $this->assertCollectionResponse($response, ApiResponse::villageFields());
+    $this->assertPaginatedTotal($response, $expected);
+
+    foreach ($response->json('data') as $village) {
+        expect($village['postal_code'])->toBe($postalCode);
+    }
+});
+
 it('includes relations in a nested list', function () {
     /** @var TestCase $this */
     $response = getJson($this->path('33.75.03/villages', ['with' => ['regency'], 'per-page' => 2]));

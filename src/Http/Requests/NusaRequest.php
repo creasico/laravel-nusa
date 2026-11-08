@@ -63,7 +63,7 @@ final class NusaRequest extends FormRequest
             ->when($this->filled('codes'), function (Builder $query) {
                 $query->whereIn($query->getModel()->getKeyName(), $this->query('codes', []));
             })
-            ->when($this->filled('postal_code') && $model instanceof Village, function (Builder $query) {
+            ->when($this->filled('postal_code') && $related instanceof Village, function (Builder $query) {
                 $query->where('postal_code', $this->query('postal_code'));
             });
 
