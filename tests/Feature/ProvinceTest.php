@@ -126,6 +126,23 @@ it('lists villages in a province', function (?string $search) {
     $this->assertPaginatedTotal($response, $expected);
 })->with('possibleSearchVillages');
 
+it('filters villages in a province by postal code', function () {
+    /** @var TestCase $this */
+    $postalCode = 51252;
+    $expected = Village::where('province_code', '33')
+        ->where('postal_code', $postalCode)
+        ->count();
+
+    $response = getJson($this->path('33/villages', ['postal_code' => $postalCode]));
+
+    $this->assertCollectionResponse($response, ApiResponse::villageFields());
+    $this->assertPaginatedTotal($response, $expected);
+
+    foreach ($response->json('data') as $village) {
+        expect($village['postal_code'])->toBe($postalCode);
+    }
+});
+
 it('ignores unknown relations', function () {
     /** @var TestCase $this */
     $response = getJson($this->path('33', ['with' => ['does_not_exist']]));

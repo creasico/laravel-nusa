@@ -106,3 +106,20 @@ it('lists villages in a regency', function (?string $search) {
     $this->assertCollectionResponse($response, ApiResponse::villageFields());
     $this->assertPaginatedTotal($response, $expected);
 })->with('possibleSearchVillages');
+
+it('filters villages in a regency by postal code', function () {
+    /** @var TestCase $this */
+    $postalCode = 51141;
+    $expected = Village::where('regency_code', '33.75')
+        ->where('postal_code', $postalCode)
+        ->count();
+
+    $response = getJson($this->path('33.75/villages', ['postal_code' => $postalCode]));
+
+    $this->assertCollectionResponse($response, ApiResponse::villageFields());
+    $this->assertPaginatedTotal($response, $expected);
+
+    foreach ($response->json('data') as $village) {
+        expect($village['postal_code'])->toBe($postalCode);
+    }
+});
