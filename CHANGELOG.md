@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.2.3](https://github.com/creasico/laravel-nusa/compare/v0.2.2...v0.2.3) (2026-11-11)
+
+### Bug Fixes
+
+* **api:** apply postal_code filter on nested village routes ([#352](https://github.com/creasico/laravel-nusa/issues/352)) ([e34b9c3](https://github.com/creasico/laravel-nusa/commit/e34b9c355dbd17f79d58935443ab8b69c9594999))
+
 ## [0.2.2](https://github.com/creasico/laravel-nusa/compare/v0.2.1...v0.2.2) (2026-11-04)
 
 ## [0.2.1](https://github.com/creasico/laravel-nusa/compare/v0.2.0...v0.2.1) (2026-11-03)
