@@ -20,7 +20,7 @@ jobs:
     # every push while a run is in flight. Gating here is enough: every other job needs
     # `prepare`, so a skipped `prepare` skips the whole workflow.
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
-    uses: projek-xyz/actions/.github/workflows/prepare.yml@a84ced1eab6fac0576ed5cdd43f6ee0dfa5044a3 # main @ 2026-11-02
+    uses: projek-xyz/actions/.github/workflows/prepare.yml@b8889b2415c01ca846b5865dcbacbed0439cff06 # main @ 2026-11-13
     with:
       # `workflow_run` keeps the triggering commit nested, so `prepare` cannot
       # pick up its message from the event default.
